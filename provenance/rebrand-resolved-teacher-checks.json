@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-29",
+  "passed": true,
+  "checks": [
+    {
+      "command": "full resolved-teacher --check",
+      "passed": true,
+      "log_sha256": "061d0f1712ab0753bbf5192b5a779511962257cac342fffe2951dce0524cccfa",
+      "scope": "Actual full data/numerical reproduction with original unchanged checker"
+    },
+    {
+      "command": "delivery-requirements --check",
+      "passed": true,
+      "log_sha256": "ef08f772d6674b5dc4f519056b895ef8d895e9e86fdf70da31cbdcfac0289460",
+      "scope": "Actual full data/numerical reproduction with original unchanged checker"
+    }
+  ],
+  "clean_git_byte_validation": {
+    "copied_files": 16,
+    "current_source_sha256_matches": true,
+    "two_protocol_ids_recomputed_from_current_clean_inputs": true,
+    "eight_frozen_raw_parent_digest_bindings_match": true
+  },
+  "scope": "Resolved teacher protocol ID metadata repair. Full resolved teacher and third teacher-chain delivery requirements checks passed; no source/model algorithm changed. Root later refreshes outer publication metadata.",
+  "files": [
+    {
+      "path": "scripts/stage3_resolved_teacher_study.py",
+      "current_sha256": "a20acadfc89f34894ff8b0c0dda2d49a6a7b95cb162063ada181395c528379db"
+    },
+    {
+      "path": "scripts/stage3_delivery_requirements.py",
+      "current_sha256": "34a4672a9f05bcf0e60c4808fba8b3cd95225ec34a5e9389ce36c7c362703b4d"
+    },
+    {
+      "path": "results/stage3/resolved-teacher/raw.json.gz",
+      "current_sha256": "63ddc06449d7d6915dd7874b390e532cebc16d0b467eda41ee5d2e5500f98111"
+    },
+    {
+      "path": "results/stage3/resolved-teacher/summary.json",
+      "current_sha256": "005dcc381632eb699a32b11efab419afc93fb1ebcda94f33c1efbeb8e0a80387"
+    },
+    {
+      "path": "results/stage3/delivery-requirements/requirements.json",
+      "current_sha256": "d6691e1192bbe7427d209aed0a7dbf1c3f63bfc00291c896313ed87cd373e4ec"
+    }
+  ],
+  "repair_proof": "provenance/rebrand-resolved-teacher-identities.json"
+}

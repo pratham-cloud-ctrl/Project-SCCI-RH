@@ -5,9 +5,14 @@
   "path": "electronics/stage4/recording-front-end/verification.json",
   "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
   "original_sha256": "55b6bfeb6d6241b8f5dde32add7faaa41ad9b36572d169b9a42ff0466ed1fb7c",
-  "current_sha256": "5de41dc8e6c817b48eb6196972d7f8a648ff6f70dafaadbad40ccf0eaae0ccde",
-  "method": "branding_and_fixed_length_digest_metadata_only",
+  "current_sha256": "1fb02f44ed2ea0667e39d933fc2f171978a2daaab0aa8bb10fb20c31308f4f2b",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
   "scope": "Authorized name migration; no new physical or biological validation",
   "review": "",
-  "independent_evidence": []
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-standalone-electrical-closure.json",
+      "sha256_lf": "c74d5d8846e9ba3e3ac3d1a7f5bfdb29c796104d8690f519e3a7be961e901588"
+    }
+  ]
 }

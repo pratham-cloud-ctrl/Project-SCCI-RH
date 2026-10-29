@@ -160,7 +160,7 @@
     },
     {
       "path": "output/pdf/SCCI_RH_stage3_closeout.pdf",
-      "sha256": "10fc08f9f8c169f349a96c39b30ef9de789a7d3d36dadb3d03a5e78eb3dcb081",
+      "sha256": "3953068fe7614880b6381169d79cce26b3b415a56077c02354a0926d27abab84",
       "pages": 8,
       "old_brand_mentions": 0,
       "new_brand_mentions": 11,
@@ -257,7 +257,7 @@
     "historical_report_covers": "Covers of engineeringpaper, Stage1, Stage2 and Stage3revision rendered and reviewed; embedded legacy brand images replaced from genuine updated source assets.",
     "native_schematic_samples": "Integratedroot and controllercarrierroot rendered and reviewed; human-readable newtitle fits existingdrawing frame.",
     "limits": "AllPDFs received text/metadata oldbrand scan; native80sheet hierarchy wasnot individually visually re-reviewed duringbrandingonlyre-export.",
-    "stage3_closeout": "All8currentpages rendered and reviewed after derived identifier/canonical preflight binding corrections; layouts intact."
+    "stage3_closeout": "Unchanged eight-page layout retained; final page8 source identity strings rerendered and visually inspected after resolved-teacher protocol ID correction. Exact numerical results unchanged."
   },
   "original_hypothesis_sha256": "a1784965d63060e3b0c11fd3c01c9f0b4fe0b007cc65c605c76164ee1d4bf103",
   "completion_date": "2026-10-29",

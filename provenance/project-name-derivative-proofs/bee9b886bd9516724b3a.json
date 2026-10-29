@@ -5,14 +5,14 @@
   "path": "electronics/stage4/supervision/svg/supervision-voltage.svg",
   "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
   "original_sha256": "e731a73b9fd2d67fb2c2f2565602d348fd8914f32ee20daa3fefca665077247b",
-  "current_sha256": "b9275b0d795dcf4ff330d754d91998749ef415ee958ad78184a749e617987c81",
+  "current_sha256": "537fe9d8169149b3e5581d9485cbd7c378e1ac60fcafb3fc4da994d236022052",
   "method": "explicit_digest_bound_regeneration_or_review_evidence",
   "scope": "Authorized name migration; no new physical or biological validation",
   "review": "",
   "independent_evidence": [
     {
-      "path": "provenance/rebrand-legacy-native-svg.json",
-      "sha256_lf": "72e16066a70bd8090ae9fddd687b65a7d9a7e151e09b3cce60b296c24af0232a"
+      "path": "provenance/rebrand-standalone-electrical-closure.json",
+      "sha256_lf": "c74d5d8846e9ba3e3ac3d1a7f5bfdb29c796104d8690f519e3a7be961e901588"
     }
   ]
 }

@@ -5,14 +5,14 @@
   "path": "electronics/stage4/supervision/svg/supervision-afe_rails_2.svg",
   "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
   "original_sha256": "451c434cd472ccf79f161f4a86831b346ca6c3e3c1a3be338a8d7e1f3df41fa9",
-  "current_sha256": "ad6e37f8478daa4ef2a38b1a33914eb492f96c56793804ecf18bf37437ede18e",
+  "current_sha256": "6f5e22f055e795bde8e7438a548ec89a435f973f51b7921f9bfa935ad99f4c1a",
   "method": "explicit_digest_bound_regeneration_or_review_evidence",
   "scope": "Authorized name migration; no new physical or biological validation",
   "review": "",
   "independent_evidence": [
     {
-      "path": "provenance/rebrand-legacy-native-svg.json",
-      "sha256_lf": "72e16066a70bd8090ae9fddd687b65a7d9a7e151e09b3cce60b296c24af0232a"
+      "path": "provenance/rebrand-standalone-electrical-closure.json",
+      "sha256_lf": "c74d5d8846e9ba3e3ac3d1a7f5bfdb29c796104d8690f519e3a7be961e901588"
     }
   ]
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no"?>
- <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
- "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"> 
+ <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg
   xmlns:svg="http://www.w3.org/2000/svg"
   xmlns="http://www.w3.org/2000/svg"
@@ -14,13 +14,13 @@
 stroke-linecap:round; stroke-linejoin:round;"
  transform="translate(0 0) scale(1 1)">
 </g>
-<g style="fill:#F5F4EF; fill-opacity:1.0000; 
-stroke:#F5F4EF; stroke-width:0.0001; stroke-opacity:1; 
+<g style="fill:#F5F4EF; fill-opacity:1.0000;
+stroke:#F5F4EF; stroke-width:0.0001; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <rect x="0.000000" y="0.000000" width="594.004400" height="419.989000" rx="0.000000" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M474.0044 375.9890
 L582.0044 375.9890
@@ -2622,8 +2622,8 @@ L496.1047 405.9320
 L582.0044 401.4890
 " />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.3000; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.3000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="560.0044" y="403.8390"
 textLength="9.9573" font-size="2.0000" lengthAdjust="spacingAndGlyphs"
@@ -2825,8 +2825,8 @@ L568.5589 402.6244
 L568.4161 402.6959
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="475.0044" y="403.8390"
 textLength="9.3716" font-size="2.0000" lengthAdjust="spacingAndGlyphs"
@@ -3251,8 +3251,8 @@ L571.0332 406.5749
 L582.0044 397.4890
 " />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.4000; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.4000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="475.0044" y="400.2890"
 textLength="90.6093" font-size="2.6666" lengthAdjust="spacingAndGlyphs"
@@ -4516,8 +4516,8 @@ L564.5649 398.8601
 L564.7435 398.9553
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="475.0044" y="396.4390"
 textLength="27.8713" font-size="2.0000" lengthAdjust="spacingAndGlyphs"
@@ -5599,8 +5599,8 @@ L494.6044 392.7463
 L495.0329 394.0320
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.3000; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.3000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="475.0044" y="390.7390"
 textLength="19.0286" font-size="2.0000" lengthAdjust="spacingAndGlyphs"
@@ -6003,8 +6003,8 @@ L493.2731 389.8816
 L493.2731 389.1673
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="475.0044" y="387.7390"
 textLength="91.0138" font-size="2.0000" lengthAdjust="spacingAndGlyphs"
@@ -7882,40 +7882,40 @@ L494.0044 404.4890
 <path d="M558.0044 401.4890
 L558.0044 407.9890
 " />
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 269.2400,236.2200
 278.1300,236.2200
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.3000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.3000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 278.1300,238.7600
 278.1300,233.6800
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 280.6700,236.2200
 289.5600,236.2200
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.3000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.3000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 280.6700,238.7600
 280.6700,233.6800
-" /> 
+" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M269.2400 236.2200
 L266.7000 236.2200
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="269.9400" y="236.6450"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -7937,8 +7937,8 @@ L270.2830 235.9576
 L270.2021 235.9981
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="267.9700" y="235.8644"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -7960,15 +7960,15 @@ L267.7795 234.9721
 L267.6842 235.0197
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M289.5600 236.2200
 L292.1000 236.2200
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="288.8600" y="236.6450"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -8005,8 +8005,8 @@ L288.0717 236.6052
 L288.5979 236.6052
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="290.8300" y="235.8644"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -8043,8 +8043,8 @@ L290.4966 235.7340
 L291.1157 235.7340
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="279.4000" y="231.6400"
 textLength="5.0668" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -8528,33 +8528,33 @@ L284.1953 241.7315
 <path d="M284.1953 241.7315
 L284.5120 240.7815
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 50.8000,124.4600
 55.8800,124.4600
-" /> 
+" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <rect x="55.880000" y="123.190000" width="10.160000" height="2.540000" rx="0.000000" />
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 66.0400,124.4600
 71.1200,124.4600
-" /> 
+" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M50.8000 124.4600
 L48.2600 124.4600
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="51.5000" y="124.8850"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -8576,8 +8576,8 @@ L51.8430 124.1976
 L51.7621 124.2381
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="49.5300" y="124.1044"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -8599,15 +8599,15 @@ L49.3395 123.2121
 L49.2442 123.2597
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M71.1200 124.4600
 L73.6600 124.4600
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="70.4200" y="124.8850"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -8644,8 +8644,8 @@ L69.6317 124.8452
 L70.1579 124.8452
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="72.3900" y="124.1044"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -8682,8 +8682,8 @@ L72.0566 123.9740
 L72.6757 123.9740
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="60.9600" y="119.8800"
 textLength="4.1144" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -9096,20 +9096,20 @@ L64.5113 129.9263
 <g style="fill:#FFFFC2; fill-opacity:1.0000; stroke:none;">
 <rect x="50.800000" y="60.960000" width="20.320000" height="15.240000" rx="0.000000" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <rect x="50.800000" y="60.960000" width="20.320000" height="15.240000" rx="0.000000" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M50.8000 63.5000
 L48.2600 63.5000
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="51.5000" y="63.9250"
 textLength="1.0158" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -9125,8 +9125,8 @@ L51.9644 63.0352
 L52.2478 63.8852
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="49.5300" y="63.1444"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -9148,15 +9148,15 @@ L49.3395 62.2521
 L49.2442 62.2997
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M50.8000 73.6600
 L48.2600 73.6600
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="51.5000" y="74.0850"
 textLength="2.8777" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -9256,8 +9256,8 @@ L53.7454 74.0452
 L53.5430 74.0452
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="49.5300" y="73.3044"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -9294,15 +9294,15 @@ L49.1966 73.1740
 L49.8157 73.1740
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M50.8000 66.0400
 L48.2600 66.0400
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="51.5000" y="66.4650"
 textLength="1.1372" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -9363,8 +9363,8 @@ L52.0859 65.9800
 L51.8025 65.9800
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="49.5300" y="65.6844"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -9410,15 +9410,15 @@ L49.2442 65.5064
 L49.1966 65.4587
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M71.1200 68.5800
 L73.6600 68.5800
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="70.4200" y="69.0050"
 textLength="1.0158" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -9434,8 +9434,8 @@ L69.9554 68.5605
 L70.2388 68.1152
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="72.3900" y="68.2244"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -9451,15 +9451,15 @@ L72.1042 67.7606
 L72.7233 67.7606
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M50.8000 71.1200
 L48.2600 71.1200
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="51.5000" y="71.5450"
 textLength="2.7158" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -9562,8 +9562,8 @@ L53.8264 70.6957
 L53.8668 70.7362
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="49.5300" y="70.7644"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -9615,15 +9615,15 @@ L49.2918 70.5864
 L49.2442 70.5387
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M50.8000 68.5800
 L48.2600 68.5800
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="51.5000" y="69.0050"
 textLength="1.1372" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -9675,8 +9675,8 @@ L52.2478 68.1557
 L52.2882 68.1962
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="49.5300" y="68.2244"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -9746,8 +9746,8 @@ L49.2918 67.5702
 L49.2442 67.6654
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="60.9600" y="58.9200"
 textLength="5.1144" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -10318,33 +10318,33 @@ L67.3838 78.7191
 <path d="M67.3838 78.7191
 L67.0219 78.7191
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 160.0200,124.4600
 165.1000,124.4600
-" /> 
+" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <rect x="165.100000" y="123.190000" width="10.160000" height="2.540000" rx="0.000000" />
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 175.2600,124.4600
 180.3400,124.4600
-" /> 
+" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M160.0200 124.4600
 L157.4800 124.4600
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="160.7200" y="124.8850"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -10366,8 +10366,8 @@ L161.0630 124.1976
 L160.9821 124.2381
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="158.7500" y="124.1044"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -10389,15 +10389,15 @@ L158.5595 123.2121
 L158.4642 123.2597
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M180.3400 124.4600
 L182.8800 124.4600
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="179.6400" y="124.8850"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -10434,8 +10434,8 @@ L178.8517 124.8452
 L179.3779 124.8452
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="181.6100" y="124.1044"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -10472,8 +10472,8 @@ L181.2766 123.9740
 L181.8957 123.9740
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="170.1800" y="119.8800"
 textLength="4.1144" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -10897,40 +10897,40 @@ L173.8670 129.9715
 <path d="M173.8670 129.9715
 L173.9575 129.9263
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 487.6800,236.2200
 496.5700,236.2200
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.3000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.3000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 496.5700,238.7600
 496.5700,233.6800
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 499.1100,236.2200
 508.0000,236.2200
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.3000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.3000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 499.1100,238.7600
 499.1100,233.6800
-" /> 
+" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M487.6800 236.2200
 L485.1400 236.2200
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="488.3800" y="236.6450"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -10952,8 +10952,8 @@ L488.7230 235.9576
 L488.6421 235.9981
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="486.4100" y="235.8644"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -10975,15 +10975,15 @@ L486.2195 234.9721
 L486.1242 235.0197
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M508.0000 236.2200
 L510.5400 236.2200
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="507.3000" y="236.6450"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -11020,8 +11020,8 @@ L506.5117 236.6052
 L507.0379 236.6052
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="509.2700" y="235.8644"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -11058,8 +11058,8 @@ L508.9366 235.7340
 L509.5557 235.7340
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="497.8400" y="231.6400"
 textLength="5.0668" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -11552,40 +11552,40 @@ L502.6353 241.7315
 <path d="M502.6353 241.7315
 L502.9520 240.7815
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 160.0200,68.5800
 168.9100,68.5800
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.3000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.3000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 168.9100,71.1200
 168.9100,66.0400
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 171.4500,68.5800
 180.3400,68.5800
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.3000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.3000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 171.4500,71.1200
 171.4500,66.0400
-" /> 
+" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M160.0200 68.5800
 L157.4800 68.5800
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="160.7200" y="69.0050"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -11607,8 +11607,8 @@ L161.0630 68.3176
 L160.9821 68.3581
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="158.7500" y="68.2244"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -11630,15 +11630,15 @@ L158.5595 67.3321
 L158.4642 67.3797
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M180.3400 68.5800
 L182.8800 68.5800
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="179.6400" y="69.0050"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -11675,8 +11675,8 @@ L178.8517 68.9652
 L179.3779 68.9652
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="181.6100" y="68.2244"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -11713,8 +11713,8 @@ L181.2766 68.0940
 L181.8957 68.0940
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="170.1800" y="64.0000"
 textLength="5.0668" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -12228,33 +12228,33 @@ L174.9753 74.0915
 <path d="M174.9753 74.0915
 L175.2920 73.1415
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 487.6800,68.5800
 492.7600,68.5800
-" /> 
+" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <rect x="492.760000" y="67.310000" width="10.160000" height="2.540000" rx="0.000000" />
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 502.9200,68.5800
 508.0000,68.5800
-" /> 
+" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M487.6800 68.5800
 L485.1400 68.5800
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="488.3800" y="69.0050"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -12276,8 +12276,8 @@ L488.7230 68.3176
 L488.6421 68.3581
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="486.4100" y="68.2244"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -12299,15 +12299,15 @@ L486.2195 67.3321
 L486.1242 67.3797
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M508.0000 68.5800
 L510.5400 68.5800
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="507.3000" y="69.0050"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -12344,8 +12344,8 @@ L506.5117 68.9652
 L507.0379 68.9652
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="509.2700" y="68.2244"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -12382,8 +12382,8 @@ L508.9366 68.0940
 L509.5557 68.0940
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="497.8400" y="64.0000"
 textLength="4.1144" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -12889,20 +12889,20 @@ L501.6175 74.0463
 <g style="fill:#FFFFC2; fill-opacity:1.0000; stroke:none;">
 <rect x="50.800000" y="173.990000" width="20.320000" height="12.700000" rx="0.000000" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <rect x="50.800000" y="173.990000" width="20.320000" height="12.700000" rx="0.000000" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M50.8000 176.5300
 L48.2600 176.5300
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="51.5000" y="176.9550"
 textLength="2.6349" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -12927,8 +12927,8 @@ L53.7455 176.5914
 L53.4216 176.2676
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="49.5300" y="176.1744"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -12950,15 +12950,15 @@ L49.3395 175.2821
 L49.2442 175.3297
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M50.8000 184.1500
 L48.2600 184.1500
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="51.5000" y="184.5750"
 textLength="2.0682" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -12974,8 +12974,8 @@ L52.2478 183.6852
 L53.1788 184.2114
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="49.5300" y="183.7944"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -13012,15 +13012,15 @@ L49.1966 183.6640
 L49.8157 183.6640
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M50.8000 179.0700
 L48.2600 179.0700
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="51.5000" y="179.4950"
 textLength="2.6349" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -13042,8 +13042,8 @@ L52.6930 178.6052
 L53.7455 179.1314
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="49.5300" y="178.7144"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -13089,15 +13089,15 @@ L49.2442 178.5364
 L49.1966 178.4887
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M71.1200 180.3400
 L73.6600 180.3400
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="70.4200" y="180.7650"
 textLength="2.7158" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -13185,8 +13185,8 @@ L70.2388 179.8752
 L69.9960 179.8752
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="72.3900" y="179.9844"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -13202,15 +13202,15 @@ L72.1042 179.5206
 L72.7233 179.5206
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M50.8000 181.6100
 L48.2600 181.6100
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="51.5000" y="182.0350"
 textLength="2.0682" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -13229,8 +13229,8 @@ L53.1788 181.6714
 L52.8549 181.3476
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="49.5300" y="181.2544"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -13282,8 +13282,8 @@ L49.2918 181.0764
 L49.2442 181.0287
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="60.9600" y="171.9500"
 textLength="4.1620" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -13728,33 +13728,33 @@ L65.2350 189.2091
 <path d="M65.2350 189.2091
 L64.8731 189.2091
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 269.2400,124.4600
 274.3200,124.4600
-" /> 
+" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <rect x="274.320000" y="123.190000" width="10.160000" height="2.540000" rx="0.000000" />
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 284.4800,124.4600
 289.5600,124.4600
-" /> 
+" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M269.2400 124.4600
 L266.7000 124.4600
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="269.9400" y="124.8850"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -13776,8 +13776,8 @@ L270.2830 124.1976
 L270.2021 124.2381
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="267.9700" y="124.1044"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -13799,15 +13799,15 @@ L267.7795 123.2121
 L267.6842 123.2597
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M289.5600 124.4600
 L292.1000 124.4600
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="288.8600" y="124.8850"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -13844,8 +13844,8 @@ L288.0717 124.8452
 L288.5979 124.8452
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="290.8300" y="124.1044"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -13882,8 +13882,8 @@ L290.4966 123.9740
 L291.1157 123.9740
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="279.4000" y="119.8800"
 textLength="4.1144" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -14316,40 +14316,40 @@ L282.8608 129.9715
 <path d="M282.8608 129.9715
 L282.9513 129.9263
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 378.4600,180.3400
 387.3500,180.3400
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.3000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.3000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 387.3500,182.8800
 387.3500,177.8000
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 389.8900,180.3400
 398.7800,180.3400
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.3000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.3000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 389.8900,182.8800
 389.8900,177.8000
-" /> 
+" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M378.4600 180.3400
 L375.9200 180.3400
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="379.1600" y="180.7650"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -14371,8 +14371,8 @@ L379.5030 180.0776
 L379.4221 180.1181
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="377.1900" y="179.9844"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -14394,15 +14394,15 @@ L376.9995 179.0921
 L376.9042 179.1397
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M398.7800 180.3400
 L401.3200 180.3400
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="398.0800" y="180.7650"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -14439,8 +14439,8 @@ L397.2917 180.7252
 L397.8179 180.7252
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="400.0500" y="179.9844"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -14477,8 +14477,8 @@ L399.7166 179.8540
 L400.3357 179.8540
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="388.6200" y="175.7600"
 textLength="5.0668" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -14996,13 +14996,13 @@ L393.7320 184.9015
 <g style="fill:#FFFFC2; fill-opacity:1.0000; stroke:none;">
 <rect x="487.680000" y="173.990000" width="20.320000" height="12.700000" rx="0.000000" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <rect x="487.680000" y="173.990000" width="20.320000" height="12.700000" rx="0.000000" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M487.6800 184.1500
 L485.1400 184.1500
@@ -15014,8 +15014,8 @@ L485.5210 184.5310
 L484.7590 184.5310
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="488.3800" y="184.5750"
 textLength="2.0277" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -15076,8 +15076,8 @@ L490.0183 183.7257
 L490.0587 183.7662
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="486.4100" y="183.7944"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -15099,15 +15099,15 @@ L486.2195 182.9021
 L486.1242 182.9497
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M487.6800 176.5300
 L485.1400 176.5300
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="488.3800" y="176.9550"
 textLength="1.0158" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -15123,8 +15123,8 @@ L488.8444 176.0652
 L489.1278 176.9152
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="486.4100" y="176.1744"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -15161,15 +15161,15 @@ L486.0766 176.0440
 L486.6957 176.0440
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M487.6800 181.6100
 L485.1400 181.6100
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="488.3800" y="182.0350"
 textLength="2.8777" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -15269,8 +15269,8 @@ L490.6254 181.9952
 L490.4230 181.9952
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="486.4100" y="181.2544"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -15316,15 +15316,15 @@ L486.1242 181.0764
 L486.0766 181.0287
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M508.0000 180.3400
 L510.5400 180.3400
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="507.3000" y="180.7650"
 textLength="1.0158" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -15340,8 +15340,8 @@ L506.8354 180.3205
 L507.1188 179.8752
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="509.2700" y="179.9844"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -15357,15 +15357,15 @@ L508.9842 179.5206
 L509.6033 179.5206
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M487.6800 179.0700
 L485.1400 179.0700
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="488.3800" y="179.4950"
 textLength="2.7158" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -15468,8 +15468,8 @@ L490.7064 178.6457
 L490.7468 178.6862
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="486.4100" y="178.7144"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -15521,8 +15521,8 @@ L486.1718 178.5364
 L486.1242 178.4887
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="497.8400" y="171.9500"
 textLength="5.1144" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -16087,40 +16087,40 @@ L504.2638 189.2091
 <path d="M504.2638 189.2091
 L503.9019 189.2091
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 160.0200,180.3400
 168.9100,180.3400
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.3000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.3000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 168.9100,182.8800
 168.9100,177.8000
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 171.4500,180.3400
 180.3400,180.3400
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.3000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.3000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 171.4500,182.8800
 171.4500,177.8000
-" /> 
+" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M160.0200 180.3400
 L157.4800 180.3400
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="160.7200" y="180.7650"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -16142,8 +16142,8 @@ L161.0630 180.0776
 L160.9821 180.1181
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="158.7500" y="179.9844"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -16165,15 +16165,15 @@ L158.5595 179.0921
 L158.4642 179.1397
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M180.3400 180.3400
 L182.8800 180.3400
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="179.6400" y="180.7650"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -16210,8 +16210,8 @@ L178.8517 180.7252
 L179.3779 180.7252
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="181.6100" y="179.9844"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -16248,8 +16248,8 @@ L181.2766 179.8540
 L181.8957 179.8540
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="170.1800" y="175.7600"
 textLength="4.1144" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -16670,40 +16670,40 @@ L174.9753 185.8515
 <path d="M174.9753 185.8515
 L175.2920 184.9015
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 378.4600,68.5800
 387.3500,68.5800
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.3000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.3000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 387.3500,71.1200
 387.3500,66.0400
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 389.8900,68.5800
 398.7800,68.5800
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.3000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.3000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 389.8900,71.1200
 389.8900,66.0400
-" /> 
+" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M378.4600 68.5800
 L375.9200 68.5800
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="379.1600" y="69.0050"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -16725,8 +16725,8 @@ L379.5030 68.3176
 L379.4221 68.3581
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="377.1900" y="68.2244"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -16748,15 +16748,15 @@ L376.9995 67.3321
 L376.9042 67.3797
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M398.7800 68.5800
 L401.3200 68.5800
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="398.0800" y="69.0050"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -16793,8 +16793,8 @@ L397.2917 68.9652
 L397.8179 68.9652
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="400.0500" y="68.2244"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -16831,8 +16831,8 @@ L399.7166 68.0940
 L400.3357 68.0940
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="388.6200" y="64.0000"
 textLength="5.0668" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -17320,13 +17320,13 @@ L393.7320 73.1415
 <g style="fill:#FFFFC2; fill-opacity:1.0000; stroke:none;">
 <rect x="269.240000" y="173.990000" width="20.320000" height="12.700000" rx="0.000000" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <rect x="269.240000" y="173.990000" width="20.320000" height="12.700000" rx="0.000000" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M269.2400 184.1500
 L266.7000 184.1500
@@ -17338,8 +17338,8 @@ L267.0810 184.5310
 L266.3190 184.5310
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="269.9400" y="184.5750"
 textLength="2.0277" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -17400,8 +17400,8 @@ L271.5783 183.7257
 L271.6187 183.7662
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="267.9700" y="183.7944"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -17423,15 +17423,15 @@ L267.7795 182.9021
 L267.6842 182.9497
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M269.2400 176.5300
 L266.7000 176.5300
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="269.9400" y="176.9550"
 textLength="1.0158" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -17447,8 +17447,8 @@ L270.4044 176.0652
 L270.6878 176.9152
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="267.9700" y="176.1744"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -17485,15 +17485,15 @@ L267.6366 176.0440
 L268.2557 176.0440
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M269.2400 181.6100
 L266.7000 181.6100
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="269.9400" y="182.0350"
 textLength="2.8777" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -17593,8 +17593,8 @@ L272.1854 181.9952
 L271.9830 181.9952
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="267.9700" y="181.2544"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -17640,15 +17640,15 @@ L267.6842 181.0764
 L267.6366 181.0287
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M289.5600 180.3400
 L292.1000 180.3400
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="288.8600" y="180.7650"
 textLength="1.0158" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -17664,8 +17664,8 @@ L288.3954 180.3205
 L288.6788 179.8752
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="290.8300" y="179.9844"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -17681,15 +17681,15 @@ L290.5442 179.5206
 L291.1633 179.5206
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M269.2400 179.0700
 L266.7000 179.0700
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="269.9400" y="179.4950"
 textLength="2.7158" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -17792,8 +17792,8 @@ L272.2664 178.6457
 L272.3068 178.6862
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="267.9700" y="178.7144"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -17845,8 +17845,8 @@ L267.7318 178.5364
 L267.6842 178.4887
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="279.4000" y="171.9500"
 textLength="5.1144" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -18456,40 +18456,40 @@ L285.8238 189.2091
 <path d="M285.8238 189.2091
 L285.4619 189.2091
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 50.8000,236.2200
 59.6900,236.2200
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.3000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.3000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 59.6900,238.7600
 59.6900,233.6800
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 62.2300,236.2200
 71.1200,236.2200
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.3000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.3000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 62.2300,238.7600
 62.2300,233.6800
-" /> 
+" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M50.8000 236.2200
 L48.2600 236.2200
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="51.5000" y="236.6450"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -18511,8 +18511,8 @@ L51.8430 235.9576
 L51.7621 235.9981
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="49.5300" y="235.8644"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -18534,15 +18534,15 @@ L49.3395 234.9721
 L49.2442 235.0197
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M71.1200 236.2200
 L73.6600 236.2200
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="70.4200" y="236.6450"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -18579,8 +18579,8 @@ L69.6317 236.6052
 L70.1579 236.6052
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="72.3900" y="235.8644"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -18617,8 +18617,8 @@ L72.0566 235.7340
 L72.6757 235.7340
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="60.9600" y="231.6400"
 textLength="5.0668" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -19091,20 +19091,20 @@ L66.0720 240.7815
 <g style="fill:#FFFFC2; fill-opacity:1.0000; stroke:none;">
 <rect x="378.460000" y="228.600000" width="20.320000" height="15.240000" rx="0.000000" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <rect x="378.460000" y="228.600000" width="20.320000" height="15.240000" rx="0.000000" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M378.4600 231.1400
 L375.9200 231.1400
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="379.1600" y="231.5650"
 textLength="1.0158" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -19120,8 +19120,8 @@ L379.6244 230.6752
 L379.9078 231.5252
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="377.1900" y="230.7844"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -19143,15 +19143,15 @@ L376.9995 229.8921
 L376.9042 229.9397
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M378.4600 241.3000
 L375.9200 241.3000
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="379.1600" y="241.7250"
 textLength="2.8777" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -19251,8 +19251,8 @@ L381.4054 241.6852
 L381.2030 241.6852
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="377.1900" y="240.9444"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -19289,15 +19289,15 @@ L376.8566 240.8140
 L377.4757 240.8140
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M378.4600 233.6800
 L375.9200 233.6800
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="379.1600" y="234.1050"
 textLength="1.1372" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -19358,8 +19358,8 @@ L379.7459 233.6200
 L379.4625 233.6200
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="377.1900" y="233.3244"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -19405,15 +19405,15 @@ L376.9042 233.1464
 L376.8566 233.0987
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M398.7800 236.2200
 L401.3200 236.2200
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="398.0800" y="236.6450"
 textLength="1.0158" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -19429,8 +19429,8 @@ L397.6154 236.2005
 L397.8988 235.7552
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="400.0500" y="235.8644"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -19446,15 +19446,15 @@ L399.7642 235.4006
 L400.3833 235.4006
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M378.4600 238.7600
 L375.9200 238.7600
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="379.1600" y="239.1850"
 textLength="2.7158" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -19557,8 +19557,8 @@ L381.4864 238.3357
 L381.5268 238.3762
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="377.1900" y="238.4044"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -19610,15 +19610,15 @@ L376.9518 238.2264
 L376.9042 238.1787
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M378.4600 236.2200
 L375.9200 236.2200
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="379.1600" y="236.6450"
 textLength="1.1372" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -19670,8 +19670,8 @@ L379.9078 235.7957
 L379.9482 235.8362
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="377.1900" y="235.8644"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -19741,8 +19741,8 @@ L376.9518 235.2102
 L376.9042 235.3054
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="388.6200" y="226.5600"
 textLength="5.1144" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -20296,20 +20296,20 @@ L394.6819 246.3591
 <g style="fill:#FFFFC2; fill-opacity:1.0000; stroke:none;">
 <rect x="269.240000" y="62.230000" width="20.320000" height="12.700000" rx="0.000000" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <rect x="269.240000" y="62.230000" width="20.320000" height="12.700000" rx="0.000000" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M269.2400 64.7700
 L266.7000 64.7700
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="269.9400" y="65.1950"
 textLength="1.0158" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -20325,8 +20325,8 @@ L270.4044 64.3052
 L270.6878 65.1552
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="267.9700" y="64.4144"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -20348,15 +20348,15 @@ L267.7795 63.5221
 L267.6842 63.5697
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M269.2400 67.3100
 L266.7000 67.3100
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="269.9400" y="67.7350"
 textLength="1.1372" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -20417,8 +20417,8 @@ L270.5259 67.2500
 L270.2425 67.2500
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="267.9700" y="66.9544"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -20455,15 +20455,15 @@ L267.6366 66.8240
 L268.2557 66.8240
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M269.2400 72.3900
 L266.7000 72.3900
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="269.9400" y="72.8150"
 textLength="2.8777" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -20563,8 +20563,8 @@ L272.1854 72.7752
 L271.9830 72.7752
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="267.9700" y="72.0344"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -20610,15 +20610,15 @@ L267.6842 71.8564
 L267.6366 71.8087
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M289.5600 68.5800
 L292.1000 68.5800
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="288.8600" y="69.0050"
 textLength="1.0158" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -20634,8 +20634,8 @@ L288.3954 68.5605
 L288.6788 68.1152
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="290.8300" y="68.2244"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -20651,15 +20651,15 @@ L290.5442 67.7606
 L291.1633 67.7606
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M269.2400 69.8500
 L266.7000 69.8500
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="269.9400" y="70.2750"
 textLength="2.7158" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -20762,8 +20762,8 @@ L272.2664 69.4257
 L272.3068 69.4662
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="267.9700" y="69.4944"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -20815,8 +20815,8 @@ L267.7318 69.3164
 L267.6842 69.2687
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="279.4000" y="60.1900"
 textLength="5.1144" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -21484,20 +21484,20 @@ L285.4619 77.4491
 <g style="fill:#FFFFC2; fill-opacity:1.0000; stroke:none;">
 <rect x="378.460000" y="118.110000" width="20.320000" height="12.700000" rx="0.000000" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <rect x="378.460000" y="118.110000" width="20.320000" height="12.700000" rx="0.000000" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M378.4600 120.6500
 L375.9200 120.6500
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="379.1600" y="121.0750"
 textLength="2.6349" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -21522,8 +21522,8 @@ L381.4055 120.7114
 L381.0816 120.3876
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="377.1900" y="120.2944"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -21545,15 +21545,15 @@ L376.9995 119.4021
 L376.9042 119.4497
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M378.4600 128.2700
 L375.9200 128.2700
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="379.1600" y="128.6950"
 textLength="2.0682" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -21569,8 +21569,8 @@ L379.9078 127.8052
 L380.8388 128.3314
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="377.1900" y="127.9144"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -21607,15 +21607,15 @@ L376.8566 127.7840
 L377.4757 127.7840
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M378.4600 123.1900
 L375.9200 123.1900
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="379.1600" y="123.6150"
 textLength="2.6349" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -21637,8 +21637,8 @@ L380.3530 122.7252
 L381.4055 123.2514
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="377.1900" y="122.8344"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -21684,15 +21684,15 @@ L376.9042 122.6564
 L376.8566 122.6087
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M398.7800 124.4600
 L401.3200 124.4600
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="398.0800" y="124.8850"
 textLength="2.7158" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -21780,8 +21780,8 @@ L397.8988 123.9952
 L397.6560 123.9952
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="400.0500" y="124.1044"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -21797,15 +21797,15 @@ L399.7642 123.6406
 L400.3833 123.6406
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M378.4600 125.7300
 L375.9200 125.7300
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="379.1600" y="126.1550"
 textLength="2.0682" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -21824,8 +21824,8 @@ L380.8388 125.7914
 L380.5149 125.4676
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="377.1900" y="125.3744"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -21877,8 +21877,8 @@ L376.9518 125.1964
 L376.9042 125.1487
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="388.6200" y="116.0700"
 textLength="4.1620" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -22372,20 +22372,20 @@ L392.5331 133.3291
 <g style="fill:#FFFFC2; fill-opacity:1.0000; stroke:none;">
 <rect x="160.020000" y="228.600000" width="20.320000" height="15.240000" rx="0.000000" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <rect x="160.020000" y="228.600000" width="20.320000" height="15.240000" rx="0.000000" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M160.0200 231.1400
 L157.4800 231.1400
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="160.7200" y="231.5650"
 textLength="1.0158" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -22401,8 +22401,8 @@ L161.1844 230.6752
 L161.4678 231.5252
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="158.7500" y="230.7844"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -22424,15 +22424,15 @@ L158.5595 229.8921
 L158.4642 229.9397
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M160.0200 241.3000
 L157.4800 241.3000
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="160.7200" y="241.7250"
 textLength="2.8777" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -22532,8 +22532,8 @@ L162.9654 241.6852
 L162.7630 241.6852
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="158.7500" y="240.9444"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -22570,15 +22570,15 @@ L158.4166 240.8140
 L159.0357 240.8140
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M160.0200 233.6800
 L157.4800 233.6800
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="160.7200" y="234.1050"
 textLength="1.1372" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -22639,8 +22639,8 @@ L161.3059 233.6200
 L161.0225 233.6200
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="158.7500" y="233.3244"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -22686,15 +22686,15 @@ L158.4642 233.1464
 L158.4166 233.0987
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M180.3400 236.2200
 L182.8800 236.2200
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="179.6400" y="236.6450"
 textLength="1.0158" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -22710,8 +22710,8 @@ L179.1754 236.2005
 L179.4588 235.7552
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="181.6100" y="235.8644"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -22727,15 +22727,15 @@ L181.3242 235.4006
 L181.9433 235.4006
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M160.0200 238.7600
 L157.4800 238.7600
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="160.7200" y="239.1850"
 textLength="2.7158" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -22838,8 +22838,8 @@ L163.0464 238.3357
 L163.0868 238.3762
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="158.7500" y="238.4044"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -22891,15 +22891,15 @@ L158.5118 238.2264
 L158.4642 238.1787
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M160.0200 236.2200
 L157.4800 236.2200
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="160.7200" y="236.6450"
 textLength="1.1372" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -22951,8 +22951,8 @@ L161.4678 235.7957
 L161.5082 235.8362
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="158.7500" y="235.8644"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -23022,8 +23022,8 @@ L158.5118 235.2102
 L158.4642 235.3054
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="170.1800" y="226.5600"
 textLength="5.1144" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -23564,40 +23564,40 @@ L176.6038 246.3591
 <path d="M176.6038 246.3591
 L176.2419 246.3591
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 487.6800,124.4600
 496.5700,124.4600
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.3000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.3000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 496.5700,127.0000
 496.5700,121.9200
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.2000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.2000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 499.1100,124.4600
 508.0000,124.4600
-" /> 
-<path style="fill:none; 
-stroke:#840000; stroke-width:0.3000; stroke-opacity:1; 
+" />
+<path style="fill:none;
+stroke:#840000; stroke-width:0.3000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 499.1100,127.0000
 499.1100,121.9200
-" /> 
+" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M487.6800 124.4600
 L485.1400 124.4600
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="488.3800" y="124.8850"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -23619,8 +23619,8 @@ L488.7230 124.1976
 L488.6421 124.2381
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="486.4100" y="124.1044"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -23642,15 +23642,15 @@ L486.2195 123.2121
 L486.1242 123.2597
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M508.0000 124.4600
 L510.5400 124.4600
 " />
 </g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="507.3000" y="124.8850"
 textLength="1.0967" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -23687,8 +23687,8 @@ L506.5117 124.8452
 L507.0379 124.8452
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#A90000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#A90000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="509.2700" y="124.1044"
 textLength="1.2096" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -23725,8 +23725,8 @@ L508.9366 123.9740
 L509.5557 123.9740
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#006464; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#006464; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="497.8400" y="119.8800"
 textLength="4.1144" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -24193,8 +24193,8 @@ L502.6353 129.9715
 L502.9520 129.0215
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="407.3563" y="69.0657"
 textLength="5.8325" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -24332,8 +24332,8 @@ L412.5565 69.0259
 <path d="M412.5565 69.0259
 L412.3541 69.0259
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 406.4000,68.5800
 407.1438,69.4304
@@ -24341,10 +24341,10 @@ d="M 406.4000,68.5800
 414.3261,68.5800
 413.5823,67.7296
 407.1438,67.7296
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="151.4437" y="180.8257"
 textLength="4.8205" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -24458,8 +24458,8 @@ L150.7363 180.7455
 <path d="M150.7363 180.7455
 L150.6959 180.7050
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 152.4000,180.3400
 151.6562,179.4896
@@ -24467,10 +24467,10 @@ d="M 152.4000,180.3400
 145.4859,180.3400
 146.2297,181.1904
 151.6562,181.1904
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="479.1037" y="69.0657"
 textLength="5.5086" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -24593,8 +24593,8 @@ L478.3559 68.9855
 <path d="M478.3559 68.9855
 L478.3154 68.9450
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 480.0600,68.5800
 479.3162,67.7296
@@ -24602,10 +24602,10 @@ d="M 480.0600,68.5800
 472.4578,68.5800
 473.2016,69.4304
 479.3162,69.4304
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="479.1037" y="124.9457"
 textLength="4.8205" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -24719,8 +24719,8 @@ L478.3963 124.8655
 <path d="M478.3963 124.8655
 L478.3559 124.8250
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 480.0600,124.4600
 479.3162,123.6096
@@ -24728,10 +24728,10 @@ d="M 480.0600,124.4600
 473.1459,124.4600
 473.8897,125.3104
 479.3162,125.3104
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="188.9163" y="180.8257"
 textLength="5.8325" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -24869,8 +24869,8 @@ L194.1165 180.7859
 <path d="M194.1165 180.7859
 L193.9141 180.7859
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 187.9600,180.3400
 188.7038,181.1904
@@ -24878,10 +24878,10 @@ d="M 187.9600,180.3400
 195.8861,180.3400
 195.1423,179.4896
 188.7038,179.4896
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="516.5763" y="69.0657"
 textLength="10.0016" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -25007,8 +25007,8 @@ L526.0265 69.0259
 <path d="M526.0265 69.0259
 L526.3099 68.1759
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 515.6200,68.5800
 516.3638,69.4304
@@ -25016,10 +25016,10 @@ d="M 515.6200,68.5800
 527.7152,68.5800
 526.9714,67.7296
 516.3638,67.7296
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="260.6637" y="65.2557"
 textLength="15.0206" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -25346,8 +25346,8 @@ L259.9159 64.9326
 <path d="M259.9159 64.9326
 L260.4420 64.9326
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 261.6200,64.7700
 260.8762,63.9196
@@ -25355,10 +25355,10 @@ d="M 261.6200,64.7700
 244.5058,64.7700
 245.2496,65.6204
 260.8762,65.6204
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="407.3563" y="124.9457"
 textLength="7.3706" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -25436,8 +25436,8 @@ L413.9326 124.0559
 <path d="M414.3374 124.9059
 L414.3374 124.0559
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 406.4000,124.4600
 407.1438,125.3104
@@ -25445,10 +25445,10 @@ d="M 406.4000,124.4600
 415.8642,124.4600
 415.1204,123.6096
 407.1438,123.6096
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="260.6637" y="67.7957"
 textLength="10.9729" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -25715,8 +25715,8 @@ L260.0373 67.2702
 <path d="M260.4015 66.9059
 L259.9158 67.3916
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 261.6200,67.3100
 260.8762,66.4596
@@ -25724,10 +25724,10 @@ d="M 261.6200,67.3100
 248.5535,67.3100
 249.2973,68.1604
 260.8762,68.1604
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="260.6637" y="70.3357"
 textLength="5.5086" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -25850,8 +25850,8 @@ L259.9159 70.2555
 <path d="M259.9159 70.2555
 L259.8754 70.2150
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 261.6200,69.8500
 260.8762,68.9996
@@ -25859,10 +25859,10 @@ d="M 261.6200,69.8500
 254.0178,69.8500
 254.7616,70.7004
 260.8762,70.7004
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="260.6637" y="72.8757"
 textLength="5.8325" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -26000,8 +26000,8 @@ L260.1182 72.8359
 <path d="M260.1182 72.8359
 L259.9158 72.8359
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 261.6200,72.3900
 260.8762,71.5396
@@ -26009,10 +26009,10 @@ d="M 261.6200,72.3900
 253.6939,72.3900
 254.4377,73.2404
 260.8762,73.2404
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="369.8837" y="123.6757"
 textLength="7.3706" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -26090,8 +26090,8 @@ L369.1762 122.7859
 <path d="M369.5810 123.6359
 L369.5810 122.7859
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 370.8400,123.1900
 370.0962,122.3396
@@ -26099,10 +26099,10 @@ d="M 370.8400,123.1900
 361.3758,123.1900
 362.1196,124.0404
 370.0962,124.0404
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="298.1363" y="69.0657"
 textLength="12.7135" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -26369,8 +26369,8 @@ L310.1366 68.5402
 <path d="M310.5008 68.1759
 L310.0151 68.6616
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 297.1800,68.5800
 297.9238,69.4304
@@ -26378,10 +26378,10 @@ d="M 297.1800,68.5800
 311.9871,68.5800
 311.2433,67.7296
 297.9238,67.7296
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="369.8837" y="126.2157"
 textLength="4.8205" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -26495,8 +26495,8 @@ L369.1763 126.1355
 <path d="M369.1763 126.1355
 L369.1359 126.0950
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 370.8400,125.7300
 370.0962,124.8796
@@ -26504,10 +26504,10 @@ d="M 370.8400,125.7300
 363.9259,125.7300
 364.6697,126.5804
 370.0962,126.5804
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="369.8837" y="128.7557"
 textLength="5.8325" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -26645,8 +26645,8 @@ L369.3382 128.7159
 <path d="M369.3382 128.7159
 L369.1358 128.7159
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 370.8400,128.2700
 370.0962,127.4196
@@ -26654,10 +26654,10 @@ d="M 370.8400,128.2700
 362.9139,128.2700
 363.6577,129.1204
 370.0962,129.1204
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="369.8837" y="69.0657"
 textLength="5.5086" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -26780,8 +26780,8 @@ L369.1359 68.9855
 <path d="M369.1359 68.9855
 L369.0954 68.9450
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 370.8400,68.5800
 370.0962,67.7296
@@ -26789,10 +26789,10 @@ d="M 370.8400,68.5800
 363.2378,68.5800
 363.9816,69.4304
 370.0962,69.4304
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="260.6637" y="177.0157"
 textLength="8.9491" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -27005,8 +27005,8 @@ L260.4825 176.1259
 <path d="M260.2397 176.9759
 L260.2397 176.1259
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 261.6200,176.5300
 260.8762,175.6796
@@ -27014,10 +27014,10 @@ d="M 261.6200,176.5300
 250.5773,176.5300
 251.3211,177.3804
 260.8762,177.3804
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="369.8837" y="121.1357"
 textLength="10.0016" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -27143,8 +27143,8 @@ L369.4191 121.0959
 <path d="M369.4191 121.0959
 L369.7025 120.2459
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 370.8400,120.6500
 370.0962,119.7996
@@ -27152,10 +27152,10 @@ d="M 370.8400,120.6500
 358.7448,120.6500
 359.4886,121.5004
 370.0962,121.5004
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="479.1037" y="236.7057"
 textLength="5.5086" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -27278,8 +27278,8 @@ L478.3559 236.6255
 <path d="M478.3559 236.6255
 L478.3154 236.5850
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 480.0600,236.2200
 479.3162,235.3696
@@ -27287,10 +27287,10 @@ d="M 480.0600,236.2200
 472.4578,236.2200
 473.2016,237.0704
 479.3162,237.0704
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="260.6637" y="124.9457"
 textLength="10.2849" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -27458,8 +27458,8 @@ L260.1991 124.9059
 <path d="M260.1991 124.9059
 L260.4825 124.0559
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 261.6200,124.4600
 260.8762,123.6096
@@ -27467,10 +27467,10 @@ d="M 261.6200,124.4600
 249.2415,124.4600
 249.9853,125.3104
 260.8762,125.3104
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="516.5763" y="236.7057"
 textLength="5.8325" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -27608,8 +27608,8 @@ L521.7765 236.6659
 <path d="M521.7765 236.6659
 L521.5741 236.6659
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 515.6200,236.2200
 516.3638,237.0704
@@ -27617,10 +27617,10 @@ d="M 515.6200,236.2200
 523.5461,236.2200
 522.8023,235.3696
 516.3638,235.3696
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="479.1037" y="177.0157"
 textLength="8.5444" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -27851,8 +27851,8 @@ L478.4368 176.1259
 <path d="M478.4368 176.1259
 L478.8416 176.1259
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 480.0600,176.5300
 479.3162,175.6796
@@ -27860,10 +27860,10 @@ d="M 480.0600,176.5300
 469.4220,176.5300
 470.1658,177.3804
 479.3162,177.3804
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="42.2237" y="63.9857"
 textLength="7.5325" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -28031,8 +28031,8 @@ L41.5973 63.4602
 <path d="M41.9615 63.0959
 L41.4758 63.5816
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 43.1800,63.5000
 42.4362,62.6496
@@ -28040,10 +28040,10 @@ d="M 43.1800,63.5000
 33.5539,63.5000
 34.2977,64.3504
 42.4362,64.3504
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="479.1037" y="179.5557"
 textLength="5.5086" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -28166,8 +28166,8 @@ L478.3559 179.4755
 <path d="M478.3559 179.4755
 L478.3154 179.4350
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 480.0600,179.0700
 479.3162,178.2196
@@ -28175,10 +28175,10 @@ d="M 480.0600,179.0700
 472.4578,179.0700
 473.2016,179.9204
 479.3162,179.9204
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="479.1037" y="182.0957"
 textLength="5.8325" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -28316,8 +28316,8 @@ L478.5582 182.0559
 <path d="M478.5582 182.0559
 L478.3558 182.0559
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 480.0600,181.6100
 479.3162,180.7596
@@ -28325,10 +28325,10 @@ d="M 480.0600,181.6100
 472.1339,181.6100
 472.8777,182.4604
 479.3162,182.4604
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="42.2237" y="66.5257"
 textLength="7.5730" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -28487,8 +28487,8 @@ L41.5973 66.0002
 <path d="M41.9615 65.6359
 L41.4758 66.1216
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 43.1800,66.0400
 42.4362,65.1896
@@ -28496,10 +28496,10 @@ d="M 43.1800,66.0400
 33.5134,66.0400
 34.2572,66.8904
 42.4362,66.8904
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="42.2237" y="69.0657"
 textLength="7.6135" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -28637,8 +28637,8 @@ L41.5973 68.5402
 <path d="M41.9615 68.1759
 L41.4758 68.6616
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 43.1800,68.5800
 42.4362,67.7296
@@ -28646,10 +28646,10 @@ d="M 43.1800,68.5800
 33.4729,68.5800
 34.2167,69.4304
 42.4362,69.4304
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="516.5763" y="124.9457"
 textLength="5.8325" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -28787,8 +28787,8 @@ L521.7765 124.9059
 <path d="M521.7765 124.9059
 L521.5741 124.9059
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 515.6200,124.4600
 516.3638,125.3104
@@ -28796,10 +28796,10 @@ d="M 515.6200,124.4600
 523.5461,124.4600
 522.8023,123.6096
 516.3638,123.6096
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="42.2237" y="71.6057"
 textLength="5.5086" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -28922,8 +28922,8 @@ L41.4759 71.5255
 <path d="M41.4759 71.5255
 L41.4354 71.4850
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 43.1800,71.1200
 42.4362,70.2696
@@ -28931,10 +28931,10 @@ d="M 43.1800,71.1200
 35.5778,71.1200
 36.3216,71.9704
 42.4362,71.9704
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="42.2237" y="74.1457"
 textLength="5.8325" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -29072,8 +29072,8 @@ L41.6782 74.1059
 <path d="M41.6782 74.1059
 L41.4758 74.1059
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 43.1800,73.6600
 42.4362,72.8096
@@ -29081,10 +29081,10 @@ d="M 43.1800,73.6600
 35.2539,73.6600
 35.9977,74.5104
 42.4362,74.5104
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="516.5763" y="180.8257"
 textLength="11.7420" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -29384,8 +29384,8 @@ L527.8075 180.7859
 <path d="M527.8075 180.7859
 L528.0099 179.9359
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 515.6200,180.3400
 516.3638,181.1904
@@ -29393,10 +29393,10 @@ d="M 515.6200,180.3400
 529.4556,180.3400
 528.7118,179.4896
 516.3638,179.4896
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="42.2237" y="124.9457"
 textLength="10.0016" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -29522,8 +29522,8 @@ L41.7591 124.9059
 <path d="M41.7591 124.9059
 L42.0425 124.0559
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 43.1800,124.4600
 42.4362,123.6096
@@ -29531,10 +29531,10 @@ d="M 43.1800,124.4600
 31.0848,124.4600
 31.8286,125.3104
 42.4362,125.3104
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="79.6963" y="124.9457"
 textLength="5.8325" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -29672,8 +29672,8 @@ L84.8965 124.9059
 <path d="M84.8965 124.9059
 L84.6941 124.9059
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 78.7400,124.4600
 79.4838,125.3104
@@ -29681,10 +29681,10 @@ d="M 78.7400,124.4600
 86.6661,124.4600
 85.9223,123.6096
 79.4838,123.6096
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="260.6637" y="179.5557"
 textLength="5.5086" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -29807,8 +29807,8 @@ L259.9159 179.4755
 <path d="M259.9159 179.4755
 L259.8754 179.4350
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 261.6200,179.0700
 260.8762,178.2196
@@ -29816,10 +29816,10 @@ d="M 261.6200,179.0700
 254.0178,179.0700
 254.7616,179.9204
 260.8762,179.9204
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="298.1363" y="124.9457"
 textLength="5.8325" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -29957,8 +29957,8 @@ L303.3365 124.9059
 <path d="M303.3365 124.9059
 L303.1341 124.9059
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 297.1800,124.4600
 297.9238,125.3104
@@ -29966,10 +29966,10 @@ d="M 297.1800,124.4600
 305.1061,124.4600
 304.3623,123.6096
 297.9238,123.6096
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="260.6637" y="182.0957"
 textLength="5.8325" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -30107,8 +30107,8 @@ L260.1182 182.0559
 <path d="M260.1182 182.0559
 L259.9158 182.0559
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 261.6200,181.6100
 260.8762,180.7596
@@ -30116,10 +30116,10 @@ d="M 261.6200,181.6100
 253.6939,181.6100
 254.4377,182.4604
 260.8762,182.4604
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="79.6963" y="180.8257"
 textLength="7.6539" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -30239,8 +30239,8 @@ L86.5560 179.9764
 <path d="M86.5560 179.9764
 L86.6369 179.9359
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 78.7400,180.3400
 79.4838,181.1904
@@ -30248,10 +30248,10 @@ d="M 78.7400,180.3400
 88.4875,180.3400
 87.7437,179.4896
 79.4838,179.4896
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="79.6963" y="69.0657"
 textLength="15.0206" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -30578,8 +30578,8 @@ L93.8823 68.7426
 <path d="M93.8823 68.7426
 L94.4084 68.7426
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 78.7400,68.5800
 79.4838,69.4304
@@ -30587,10 +30587,10 @@ d="M 78.7400,68.5800
 95.8542,68.5800
 95.1104,67.7296
 79.4838,67.7296
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="151.4437" y="69.0657"
 textLength="5.5086" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -30713,8 +30713,8 @@ L150.6959 68.9855
 <path d="M150.6959 68.9855
 L150.6554 68.9450
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 152.4000,68.5800
 151.6562,67.7296
@@ -30722,10 +30722,10 @@ d="M 152.4000,68.5800
 144.7978,68.5800
 145.5416,69.4304
 151.6562,69.4304
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="298.1363" y="180.8257"
 textLength="12.1467" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -31007,8 +31007,8 @@ L309.7722 180.7859
 <path d="M309.7722 180.7859
 L309.9746 179.9359
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 297.1800,180.3400
 297.9238,181.1904
@@ -31016,10 +31016,10 @@ d="M 297.1800,180.3400
 311.4203,180.3400
 310.6765,179.4896
 297.9238,179.4896
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="188.9163" y="124.9457"
 textLength="10.2849" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -31187,8 +31187,8 @@ L198.6498 124.9059
 <path d="M198.6498 124.9059
 L198.9332 124.0559
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 187.9600,124.4600
 188.7038,125.3104
@@ -31196,10 +31196,10 @@ d="M 187.9600,124.4600
 200.3385,124.4600
 199.5947,123.6096
 188.7038,123.6096
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="260.6637" y="236.7057"
 textLength="5.5086" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -31322,8 +31322,8 @@ L259.9159 236.6255
 <path d="M259.9159 236.6255
 L259.8754 236.5850
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 261.6200,236.2200
 260.8762,235.3696
@@ -31331,10 +31331,10 @@ d="M 261.6200,236.2200
 254.0178,236.2200
 254.7616,237.0704
 260.8762,237.0704
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="188.9163" y="69.0657"
 textLength="5.8325" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -31472,8 +31472,8 @@ L194.1165 69.0259
 <path d="M194.1165 69.0259
 L193.9141 69.0259
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 187.9600,68.5800
 188.7038,69.4304
@@ -31481,10 +31481,10 @@ d="M 187.9600,68.5800
 195.8861,68.5800
 195.1423,67.7296
 188.7038,67.7296
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="298.1363" y="236.7057"
 textLength="5.8325" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -31622,8 +31622,8 @@ L303.3365 236.6659
 <path d="M303.3365 236.6659
 L303.1341 236.6659
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 297.1800,236.2200
 297.9238,237.0704
@@ -31631,10 +31631,10 @@ d="M 297.1800,236.2200
 305.1061,236.2200
 304.3623,235.3696
 297.9238,235.3696
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="151.4437" y="124.9457"
 textLength="5.5086" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -31757,8 +31757,8 @@ L150.6959 124.8655
 <path d="M150.6959 124.8655
 L150.6554 124.8250
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 152.4000,124.4600
 151.6562,123.6096
@@ -31766,10 +31766,10 @@ d="M 152.4000,124.4600
 144.7978,124.4600
 145.5416,125.3104
 151.6562,125.3104
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="369.8837" y="180.8257"
 textLength="5.5086" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -31892,8 +31892,8 @@ L369.1359 180.7455
 <path d="M369.1359 180.7455
 L369.0954 180.7050
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 370.8400,180.3400
 370.0962,179.4896
@@ -31901,10 +31901,10 @@ d="M 370.8400,180.3400
 363.2378,180.3400
 363.9816,181.1904
 370.0962,181.1904
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="407.3563" y="180.8257"
 textLength="5.8325" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -32042,8 +32042,8 @@ L412.5565 180.7859
 <path d="M412.5565 180.7859
 L412.3541 180.7859
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 406.4000,180.3400
 407.1438,181.1904
@@ -32051,10 +32051,10 @@ d="M 406.4000,180.3400
 414.3261,180.3400
 413.5823,179.4896
 407.1438,179.4896
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="369.8837" y="231.6257"
 textLength="13.1181" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -32330,8 +32330,8 @@ L369.6620 230.7359
 <path d="M369.6620 230.7359
 L369.2978 231.5859
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 370.8400,231.1400
 370.0962,230.2896
@@ -32339,10 +32339,10 @@ d="M 370.8400,231.1400
 355.6283,231.1400
 356.3721,231.9904
 370.0962,231.9904
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="369.8837" y="234.1657"
 textLength="9.1109" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -32681,8 +32681,8 @@ L369.2573 233.6402
 <path d="M369.6215 233.2759
 L369.1358 233.7616
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 370.8400,233.6800
 370.0962,232.8296
@@ -32690,10 +32690,10 @@ d="M 370.8400,233.6800
 359.6355,233.6800
 360.3793,234.5304
 370.0962,234.5304
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="369.8837" y="236.7057"
 textLength="9.1109" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -33002,8 +33002,8 @@ L369.2573 236.1802
 <path d="M369.6215 235.8159
 L369.1358 236.3016
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 370.8400,236.2200
 370.0962,235.3696
@@ -33011,10 +33011,10 @@ d="M 370.8400,236.2200
 359.6355,236.2200
 360.3793,237.0704
 370.0962,237.0704
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="369.8837" y="239.2457"
 textLength="5.5086" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -33137,8 +33137,8 @@ L369.1359 239.1655
 <path d="M369.1359 239.1655
 L369.0954 239.1250
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 370.8400,238.7600
 370.0962,237.9096
@@ -33146,10 +33146,10 @@ d="M 370.8400,238.7600
 363.2378,238.7600
 363.9816,239.6104
 370.0962,239.6104
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="369.8837" y="241.7857"
 textLength="5.8325" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -33287,8 +33287,8 @@ L369.3382 241.7459
 <path d="M369.3382 241.7459
 L369.1358 241.7459
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 370.8400,241.3000
 370.0962,240.4496
@@ -33296,10 +33296,10 @@ d="M 370.8400,241.3000
 362.9139,241.3000
 363.6577,242.1504
 370.0962,242.1504
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="407.3563" y="236.7057"
 textLength="13.1181" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -33614,8 +33614,8 @@ L419.6802 236.6255
 <path d="M419.6802 236.6255
 L419.6398 236.5850
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 406.4000,236.2200
 407.1438,237.0704
@@ -33623,10 +33623,10 @@ d="M 406.4000,236.2200
 421.6117,236.2200
 420.8679,235.3696
 407.1438,235.3696
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="42.2237" y="177.0157"
 textLength="10.2849" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -33794,8 +33794,8 @@ L41.7591 176.9759
 <path d="M41.7591 176.9759
 L42.0425 176.1259
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 43.1800,176.5300
 42.4362,175.6796
@@ -33803,10 +33803,10 @@ d="M 43.1800,176.5300
 30.8015,176.5300
 31.5453,177.3804
 42.4362,177.3804
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="42.2237" y="179.5557"
 textLength="7.6539" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -33926,8 +33926,8 @@ L41.5163 178.7064
 <path d="M41.5163 178.7064
 L41.5972 178.6659
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 43.1800,179.0700
 42.4362,178.2196
@@ -33935,10 +33935,10 @@ d="M 43.1800,179.0700
 33.4325,179.0700
 34.1763,179.9204
 42.4362,179.9204
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="42.2237" y="182.0957"
 textLength="4.8205" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -34052,8 +34052,8 @@ L41.5163 182.0155
 <path d="M41.5163 182.0155
 L41.4759 181.9750
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 43.1800,181.6100
 42.4362,180.7596
@@ -34061,10 +34061,10 @@ d="M 43.1800,181.6100
 36.2659,181.6100
 37.0097,182.4604
 42.4362,182.4604
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="42.2237" y="184.6357"
 textLength="5.8325" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -34202,8 +34202,8 @@ L41.6782 184.5959
 <path d="M41.6782 184.5959
 L41.4758 184.5959
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 43.1800,184.1500
 42.4362,183.2996
@@ -34211,10 +34211,10 @@ d="M 43.1800,184.1500
 35.2539,184.1500
 35.9977,185.0004
 42.4362,185.0004
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="42.2237" y="236.7057"
 textLength="5.5086" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -34337,8 +34337,8 @@ L41.4759 236.6255
 <path d="M41.4759 236.6255
 L41.4354 236.5850
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 43.1800,236.2200
 42.4362,235.3696
@@ -34346,10 +34346,10 @@ d="M 43.1800,236.2200
 35.5778,236.2200
 36.3216,237.0704
 42.4362,237.0704
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="79.6963" y="236.7057"
 textLength="5.8325" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -34487,8 +34487,8 @@ L84.8965 236.6659
 <path d="M84.8965 236.6659
 L84.6941 236.6659
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 78.7400,236.2200
 79.4838,237.0704
@@ -34496,10 +34496,10 @@ d="M 78.7400,236.2200
 86.6661,236.2200
 85.9223,235.3696
 79.4838,235.3696
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="151.4437" y="231.6257"
 textLength="9.1109" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -34859,8 +34859,8 @@ L150.8173 231.1002
 <path d="M151.1815 230.7359
 L150.6958 231.2216
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 152.4000,231.1400
 151.6562,230.2896
@@ -34868,10 +34868,10 @@ d="M 152.4000,231.1400
 141.1955,231.1400
 141.9393,231.9904
 151.6562,231.9904
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="151.4437" y="234.1657"
 textLength="9.1109" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -35186,8 +35186,8 @@ L150.8173 233.6402
 <path d="M151.1815 233.2759
 L150.6958 233.7616
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 152.4000,233.6800
 151.6562,232.8296
@@ -35195,10 +35195,10 @@ d="M 152.4000,233.6800
 141.1955,233.6800
 141.9393,234.5304
 151.6562,234.5304
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="151.4437" y="236.7057"
 textLength="9.1109" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -35528,8 +35528,8 @@ L150.8173 236.1802
 <path d="M151.1815 235.8159
 L150.6958 236.3016
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 152.4000,236.2200
 151.6562,235.3696
@@ -35537,10 +35537,10 @@ d="M 152.4000,236.2200
 141.1955,236.2200
 141.9393,237.0704
 151.6562,237.0704
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="151.4437" y="239.2457"
 textLength="5.5086" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -35663,8 +35663,8 @@ L150.6959 239.1655
 <path d="M150.6959 239.1655
 L150.6554 239.1250
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 152.4000,238.7600
 151.6562,237.9096
@@ -35672,10 +35672,10 @@ d="M 152.4000,238.7600
 144.7978,238.7600
 145.5416,239.6104
 151.6562,239.6104
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="151.4437" y="241.7857"
 textLength="5.8325" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -35813,8 +35813,8 @@ L150.8982 241.7459
 <path d="M150.8982 241.7459
 L150.6958 241.7459
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 152.4000,241.3000
 151.6562,240.4496
@@ -35822,10 +35822,10 @@ d="M 152.4000,241.3000
 144.4739,241.3000
 145.2177,242.1504
 151.6562,242.1504
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="188.9163" y="236.7057"
 textLength="13.1181" font-size="1.1333" lengthAdjust="spacingAndGlyphs"
@@ -36101,8 +36101,8 @@ L201.7259 235.8159
 <path d="M201.7259 235.8159
 L201.3617 236.6659
 " />
-</g><path style="fill:none; 
-stroke:#840000; stroke-width:0.1524; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#840000; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 187.9600,236.2200
 188.7038,237.0704
@@ -36110,10 +36110,10 @@ d="M 187.9600,236.2200
 203.1717,236.2200
 202.4279,235.3696
 188.7038,235.3696
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#009600; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#009600; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M485.1400 68.5800
 L480.0600 68.5800
@@ -36311,8 +36311,8 @@ L43.1800 176.5300
 L187.9600 124.4600
 " />
 </g>
-<g style="fill:none; 
-stroke:#000084; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000084; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M484.5304 183.5404
 L485.7496 184.7596
@@ -36327,8 +36327,8 @@ L267.3096 184.7596
 L266.0904 184.7596
 " />
 </g>
-<g style="fill:none; 
-stroke:#0000C2; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#0000C2; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="20.3200" y="391.4100"
 textLength="111.7808" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -39800,8 +39800,8 @@ L131.7056 391.2693
 L131.7056 391.3646
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#0000C2; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#0000C2; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="20.3200" y="18.2800"
 textLength="97.0144" font-size="2.0000" lengthAdjust="spacingAndGlyphs"
@@ -41059,8 +41059,8 @@ L116.9202 18.2159
 L116.9202 16.7159
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#0000C2; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#0000C2; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="20.3200" y="399.0300"
 textLength="109.5902" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -44394,8 +44394,8 @@ L129.5150 398.8893
 L129.5150 398.9846
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#0000C2; stroke-width:0.1524; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#0000C2; stroke-width:0.1524; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="20.3200" y="25.6500"
 textLength="100.4959" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -47494,5 +47494,5 @@ L120.4207 25.5093
 <path d="M120.4207 25.5093
 L120.4207 25.6046
 " />
-</g></g> 
+</g></g>
 </svg>

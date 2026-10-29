@@ -21,18 +21,18 @@
     "authorized_brand_migration": {
       "baseline_commit": "736015848cf581df66488bf53aa6360152eb767b",
       "files_compared": 2733,
-      "comparison_manifest_sha256": "8f8a72f9f00f85b47d5cd27118c8112eda61d4d8476dab32222497bb7eaab325",
+      "comparison_manifest_sha256": "856c9aa72363918518416d71f033fce5cb021cd2f7ae731a186bdc316c8d1806",
       "scope": "Explicit brand migration; original immutable Git identities remain available",
       "rules": [
         "archive_member_brand_equivalence",
         "attested_regeneration:branding_and_fixed_length_digest_metadata_only",
         "attested_regeneration:branding_and_solver_log_line_endings_only",
         "attested_regeneration:branding_digest_metadata_and_json_order_only",
+        "attested_regeneration:cached_native_exact_decompressed_brand_equivalence",
         "attested_regeneration:explicit_digest_bound_regeneration_or_review_evidence",
         "attested_regeneration:reviewed_branding_verifier_adaptation",
         "attested_regeneration:unchanged_drc_findings_with_actual_native_reexecution_and_source_bindings",
-        "byte_or_LF_normalized_brand_equivalence",
-        "gzip_uncompressed_text_brand_equivalence"
+        "byte_or_LF_normalized_brand_equivalence"
       ]
     }
   },
@@ -1428,7 +1428,7 @@
       "text_normalized": false
     },
     "provenance/browser-inspector-verification.json": {
-      "sha256": "0fc91b2bdd2f18b06c1b4579960d006896657aabdefe3c1b0a9d90fdaca6be19",
+      "sha256": "b48ca38bd3e36ab496192b34a50f8733217918f426abe27f0261671f0b5a90d9",
       "text_normalized": true
     },
     "provenance/stage3-conditional-concept-review.json": {
@@ -1436,15 +1436,15 @@
       "text_normalized": true
     },
     "provenance/stage4-integrated-pcb-verification.json": {
-      "sha256": "3cfb738f01a08bb1eb2a33dcdbb35a0b0d5af5444c5f487389e6fb549cdaf582",
+      "sha256": "5b62bd3f35fd8715ae8df5c24264752732101f962be5df3515b389ad7f854ecf",
       "text_normalized": true
     },
     "provenance/stage5-delivery-review.json": {
-      "sha256": "74aa10870d57c5cd36460d1ddece771db028d5588a0efc75e972a5217de4cd5c",
+      "sha256": "4e9bf85d78b97a677278ead9dfa93674ad0cba8985e56f8bbf230da7188db8fa",
       "text_normalized": true
     },
     "provenance/stage5-mechanical-verification.json": {
-      "sha256": "fb904725f9d1a1b986b940ab2230983d78d24c4b050c997841eb5d28fbe88598",
+      "sha256": "8f3a0b7dd39f467be1693709b492b222a74b26e5ce349d580a6f6395c4220c51",
       "text_normalized": true
     },
     "provenance/stage6-document-review.json": {
@@ -1452,7 +1452,7 @@
       "text_normalized": true
     },
     "provenance/viewer-navigation-verification.json": {
-      "sha256": "919d5d8642e239b3a39260f0e226af1bfada0846acdf575f88b0643182bd29ac",
+      "sha256": "27e59c5b98a849d64ebc313e498c8f3e783aa9995c3d75469a9e31ec40fd56a3",
       "text_normalized": true
     },
     "README.md": {

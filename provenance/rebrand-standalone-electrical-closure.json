@@ -1,0 +1,1263 @@
+{
+  "date": "2026-10-29",
+  "passed": true,
+  "scope": "Actual clean-checkout batch closure of existing standalone native-export verification receipts;21original checks already passed,7packages refreshed only after native connectivity/export checks. Trailing SVG whitespace removed while parsed elements, attributes, text and geometry remain identical. All receipt changes are64hex digest strings; numerical results, circuitry and assertions unchanged.",
+  "initial_batch": {
+    "commands": 28,
+    "passed": 21,
+    "failed_before_fix": 7
+  },
+  "svg_changes": [
+    {
+      "path": "electronics/stage4/contact-router/svg/contact_router-address.svg",
+      "before_sha256": "7b068e00f792111173595d4bc4dc2805d9fadc6868dc09418a97876593bad2ea",
+      "current_sha256": "d5c3f6d9230c24b6f3ed142993f220938222a620ac64990260bfc34b840efe4a",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/contact-router/svg/contact_router-admission.svg",
+      "before_sha256": "e924ae0db8fd34dbe9591c32b50dc96e2fda0cbac7525c4ff14a866b3fd2e916",
+      "current_sha256": "4832ef4d036830276ddcd30631db25521d912a952bccd3e997c75d8960641c6d",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/contact-router/svg/contact_router-collision.svg",
+      "before_sha256": "aade11bd38ae295f36634d2c01e8b9c05067f04206cc49632417c46f19d386aa",
+      "current_sha256": "35778e97aea15bb0fd7d55c377e6aee7052ced9e8201803056a47d1b51e597f8",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/contact-router/svg/contact_router-source0.svg",
+      "before_sha256": "2335a770edcdc882c98d2fce062d85d720c4caabd0817afea08a1ed37268272d",
+      "current_sha256": "c72436dba46e614d481cc60fc170b6f850b22ac95960230ad73d42596df53fd3",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/contact-router/svg/contact_router-source1.svg",
+      "before_sha256": "9581bb09862c582c5f4468e3ae276755310801987e41d8a07bfa0a13d8bd36c6",
+      "current_sha256": "71235ccb59f58eea171133cd33bb6130bc406774bc42346c546a3e289f7b05af",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/contact-router/svg/contact_router.svg",
+      "before_sha256": "35d8366ffcd15daa02388d9559e7e10072d763cc945bd6925d87464416e1ac38",
+      "current_sha256": "c7667566e8ddd1d292b41abf67fe3f3e4f46aa0eb40cea08351364500e50f3b2",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-admission.svg",
+      "before_sha256": "026a53b33498e6b5e6ebf3fec2a0441c489928c6389cc7cb23cfe6af9e728360",
+      "current_sha256": "f849da7e8f72c3a28c9965fd033b0844b3dfe4441d09deee754398d67f75c910",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-admission_2.svg",
+      "before_sha256": "8943aca43edbdae351d9c49e6df86754d2fc7ece518ceefd317f32560be5e7a4",
+      "current_sha256": "bf1d3f41fbeac6ae73cf23f5ac9dc8586dcca492aa858506feefa29ef618f81f",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-afe_bank0.svg",
+      "before_sha256": "81e10e978d3736c36dd1a1309733510415aa46c43bacb088e6f1f6da8ce7efb4",
+      "current_sha256": "57f1434685ea6d8bc9dd360ceab25dba478418fcdaa14952a95a939bade6aaf8",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-afe_bank1.svg",
+      "before_sha256": "266971e2f50c3c4606b58c665e36c6a5c108b2bdbc39c66a16ef038a43672131",
+      "current_sha256": "ad425b888029773b6b870e583d3f825868e5ae4f89dc096ab67e3544979f3157",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-afe_bank2.svg",
+      "before_sha256": "2b541038036d495030ab40d5a061115e561e9b42c06cf25df295363a5daccece",
+      "current_sha256": "ddde2d04e7484b5b43d592476a2e49f6b0b56f36787089f801e393afb4cd1fbe",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-afe_bank3.svg",
+      "before_sha256": "e28e75f54890f3b77db4d8cb8bd1a87a8c45c27964650af1d42fe095621eb884",
+      "current_sha256": "ecb7704bd4d29f565d65d8304606637095acff03f0ffcb606f944e6deda7b4cc",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-afe_bank4.svg",
+      "before_sha256": "77c25a3f843fca51168c18ab3b22ca044a6d6e231254aea6bcc414e716f602b4",
+      "current_sha256": "6637bd8e1aa6353d904f7e7d4cd935448a70c699100f16ae03abe79c67acbf3e",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-afe_logic.svg",
+      "before_sha256": "127a0c99209cde63e35c821fa90895df120ce2ec672933e79ea86efa7aa0786a",
+      "current_sha256": "79c019a649ecd84028555b7a333b0b1be7622ccd275ddab385ab717860da80bd",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-afe_logic_2.svg",
+      "before_sha256": "20e06520b41fccbd7093358c29003eed6582bd2df4cc35fe631a87f92be14af3",
+      "current_sha256": "67f9549f02fcbb53e6cccbfad9aa644a1379d9baf7910ee97290296601e734dd",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-afe_rails.svg",
+      "before_sha256": "0120d02e85e15925f7e54489676c35d7a3c277b045f6cff8f291ee1ab20a2f0b",
+      "current_sha256": "f6a1d5067cfc8e36a98bfb42265f0e0e411658c322c7c63e89c346f3fc888cf4",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-afe_rails_2.svg",
+      "before_sha256": "ad6e37f8478daa4ef2a38b1a33914eb492f96c56793804ecf18bf37437ede18e",
+      "current_sha256": "6f5e22f055e795bde8e7438a548ec89a435f973f51b7921f9bfa935ad99f4c1a",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-defaults.svg",
+      "before_sha256": "43406edaa6ec36973ac1c062712aaafc41f23133708ef2dbf7ebeab271154472",
+      "current_sha256": "3247e10ff60d46a129fdbae16208f4cc3694c32f1e01c76641ba678c82bb97c6",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-duration.svg",
+      "before_sha256": "66234494b869532384f2321d63fca87d30669bee791c369d788cac6e9c63ef8c",
+      "current_sha256": "3faa7e3d34f3f75ef04ab22c0bee6d0821a65b32f553210c653d0d2b65d9f075",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-guards.svg",
+      "before_sha256": "282f082d76016f7f8e563a0b5a38d7593a75ad2eecf4c449de7e8cae7cc70d4b",
+      "current_sha256": "252eb04663aa0d59ba6186c81b3f30f92fb1d63fee6133f029d6a92f293fa272",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-host_rails.svg",
+      "before_sha256": "b67488e7e5f861eca4714bb0fb1c05a52e5f352c96543deef9b08df588a748e4",
+      "current_sha256": "21ce400c6b0ea0a3d4f17249459c57064a476062ef7a35cc0a9a07a13d5f5af5",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-host_rails_2.svg",
+      "before_sha256": "c701ec44e592a7affddf4af64963eee37d1fa325b9be94c9b966f7eaca4def47",
+      "current_sha256": "230127e65b3d94be1dab6e51753a193f527d7e230dd123e5145e6a7d7b0565d4",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-phase0.svg",
+      "before_sha256": "55142e6fc76baeb192d6eb57fb7cf4f646766a2e56603b9bbdc244425507a021",
+      "current_sha256": "98ea9afc6e06ac6a5abe1c72b48fb442a0dff8b3c55b8f0d6e2e35a871d2af93",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-phase1.svg",
+      "before_sha256": "c8e2811a5453400de61adb03bc64839d040907afdd1ebd2d87851f3c49d8f78f",
+      "current_sha256": "3ec9478b184ca8edfbe5514e52a585e930a9ac6f4ec5acfeb7851e00ec858b6f",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-quiescence.svg",
+      "before_sha256": "f5c2fcf23589c533c5a7bc3e24c7a9bf3189aa8ef398b35d9f17e672819ef653",
+      "current_sha256": "653c8f2808803b149182a51758af1785536c39c4da9c4ee1840b6aee7daab8c0",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-voltage.svg",
+      "before_sha256": "b9275b0d795dcf4ff330d754d91998749ef415ee958ad78184a749e617987c81",
+      "current_sha256": "537fe9d8169149b3e5581d9485cbd7c378e1ac60fcafb3fc4da994d236022052",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-watchdog.svg",
+      "before_sha256": "090637cdfddf18f3b79486b2b7b81710c02b0fcf04e9d79e6682e2be016a0f8c",
+      "current_sha256": "058906b3cb9987ae1377e0ff9f457abdb062548d6c4bb0191961290ec4c7f68b",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision.svg",
+      "before_sha256": "a297a892f8232be1a1c3b9e12124127ed51e6f40bf52022342236ef0e41aad43",
+      "current_sha256": "5df4c6f6add574634700e55d0685ba5ca1293d1c747adafe72ad7a6e1590ab96",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-afe3.svg",
+      "before_sha256": "23b5903de498a3377e2f6e1081798a9fe4178494cdf870596c39afbe0883f4b5",
+      "current_sha256": "0653a4ab314229890651cd40d7fdc087e2dfbb97d681cd42dca0376f7abb8e76",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-afen.svg",
+      "before_sha256": "d29356b4cb063602b946f48d67c21ff7f5a12f6b7d3eb40e7d1799ec56b62dc6",
+      "current_sha256": "eef618b9857ce75ddf05fd55ab4b4a5289ad8ac97f689b765741e74cb449bd37",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-afep.svg",
+      "before_sha256": "8a74ecda46f1b11c844ec6f2e8d1168c809ff9b836179fa8846a9ffa004e9153",
+      "current_sha256": "9b3b2d1c45a473926120dba5aa6da6ee693df76576ef92fbfa2e7dcc679e4241",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-boost15.svg",
+      "before_sha256": "317de4acac0fa5fefc682c2046bd9ca699d247adbd9e8b9352922b441f7f3055",
+      "current_sha256": "1200c8403b0b5dcf798eca08a807bc4c96bae3aa4e561614803815a5b0539aff",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-boost24.svg",
+      "before_sha256": "9b3bdb8c6b532796108d2edda2942d9178261c07a98f2318b6b8b91dcdd5d922",
+      "current_sha256": "cda33bee5e31fd109a48bd1a30f7331cb04da2843067187f5e072224355406e4",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-enable.svg",
+      "before_sha256": "ea39bcadfb22ea61e8b3ba24ee923e8a2ab4b0ffdba68321ed187249a06b9aa3",
+      "current_sha256": "a3bad325544c225e63e68246d2895ab56ecc0c35c4a59af9be2fadb7cf66d35e",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-enable_2.svg",
+      "before_sha256": "906c1ce1b22692f8cfc03de1579bb5a94333da872e6f8facf46017491210a2e9",
+      "current_sha256": "8881c78ebafb854ae8ddfdae7547952b4068ed5bfb7b724bcf1d29d13b5d94f4",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-enable_3.svg",
+      "before_sha256": "d9037fa23432bc9ce20568d92650a4d9a83c93eca1350362ef86f54f54e1e12b",
+      "current_sha256": "bd0955a3a636abd54149c09dc6f69de1a703c9c196e95e0b26609cff3cbfcd07",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-host3.svg",
+      "before_sha256": "7a9789b2f6efcb60d822baa5764dfcfefb77dd0d73305753d102b2afb790346b",
+      "current_sha256": "215a9faad1b1a18dfda8cc4d53498611dfc949f6ed9e980ee3984db69662d3f5",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-host5.svg",
+      "before_sha256": "b94c7bb1c7f8b8139524d39c9061e8de0876335c796dc94d7cb70e4e381f0bd0",
+      "current_sha256": "3ceb76a8ab0823d1a4a1e3310dbb907bceccf23e59c41f72f963f4b66829482e",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-input.svg",
+      "before_sha256": "a148c62e8b90a1cde8744b059feb4039111fbb48b6e6844f601344980a64f6fc",
+      "current_sha256": "b0e204e137f35cd5a775569cb775a268450f443d5e9afe2f36c644294091d502",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-island.svg",
+      "before_sha256": "2105b4f3a4ed76c32b4510f95ca4c099f9b0dc6632e336562c19e79c2bee26bd",
+      "current_sha256": "e94b898c73b03d6e8b38c33e87f345a34d9b91bc05209626a8cbc3f5706cdb6a",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-sup3.svg",
+      "before_sha256": "e232e7a901495ad62db2ae51bd9b9e74628ec4947ac7200d6789d72f3b348d86",
+      "current_sha256": "acb1dee07902611758135b22b8a2ae051d86dca2ba5533155a92825fffe29158",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-sup5.svg",
+      "before_sha256": "0fdd5640feb0d798d26874ecb9e8588adf4fa96d4400e15da4b1c053f5fded87",
+      "current_sha256": "7b79d65b24ba99df1d758351b9611fd1e72342b48dc39bd764319802bd8caaaf",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power.svg",
+      "before_sha256": "f9814b6649aa8a27a15342233d6a85e63dd2b7a20208b2e5e343aa0d463ef056",
+      "current_sha256": "339f2de51b1be2046ee48e84469c96542674d1b0933c91788c62f37012532c06",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/svg/monitoring_transport-adc.svg",
+      "before_sha256": "8d7b1aafa42d21e9928fde5cbef4a9b9449b101eb3218011d8831e486887c120",
+      "current_sha256": "c7b29b3d6494fdbf1cd92886515f610696c8048f4c51de01aff55697c269429b",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/svg/monitoring_transport-companion.svg",
+      "before_sha256": "81b4fbcbfc2e0838e6c19d77629861871abaff38f2417fa66ee2f4114769da32",
+      "current_sha256": "1b704ff31adf5ceaa7a9c1579a91b7e7b90bfdb5d3b426dbc543e7fd93a72d01",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/svg/monitoring_transport-handoff.svg",
+      "before_sha256": "2eccf007381c9c0d76b4c0086803a045cd0cc23a22bd50d64c60772cd0984317",
+      "current_sha256": "229efc36b5ed89db32e6e6b7f2349e4a5bdf87b730eef40e303ba0a4dd7f7fca",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/svg/monitoring_transport-health.svg",
+      "before_sha256": "3df5e23dfa52f8f486186356ddd00d102a638b9cf061888a81ed467c95adf3c0",
+      "current_sha256": "9582062de19260705366ce6bdc37fe79c30d83884c51959806e564e980b0c9af",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/svg/monitoring_transport-inputs.svg",
+      "before_sha256": "99dfcdd851eb9f481557bcdc6174fdb219549f9762192f036dfc5d056531a16c",
+      "current_sha256": "8ec94ccee011b0670d4d6a2d26d86509ec48a72ec8118cb6fe9245f6eabd53ae",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/svg/monitoring_transport-reference.svg",
+      "before_sha256": "14f092bfbb238ef82f661b83033fea682e96abe68156b84909643ec70468dcb6",
+      "current_sha256": "8b6758d954df9c4cfdc4da7e26dbbeb65bade59ffd3bed7256b29873df0f4d87",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/svg/monitoring_transport-root_2.svg",
+      "before_sha256": "636db989838a81d643f6750b0abbda0cbf70aa0e6af3a34ded2d332c8781a9ff",
+      "current_sha256": "8fd966950e3b23fb3a02a28cdecf308807afca6379a780a3cda7aded667ea8e2",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/svg/monitoring_transport.svg",
+      "before_sha256": "6a1718f6454d022aafeca34efe3c89869d94f74de062f467e68a00c585255f16",
+      "current_sha256": "fa20f5e9b6b718e2937827e0c8649c31e4c8f23be30feb678d88e1b7f4774438",
+      "SVG_elements_attributes_text_geometry_unchanged": true,
+      "change": "Trailing line whitespace only"
+    }
+  ],
+  "receipt_changes": [
+    {
+      "path": "electronics/stage4/monitoring-cell/verification.json",
+      "before_sha256": "6b7ac08cf3a84cc2d25cc6eded5f606d57206a69fd2eb4d41edfd5217c85e973",
+      "current_sha256": "6135c116f6a8ac729e8fb64ae0e8464f54a8c8a3d48119d60a60b634eeeff6a4",
+      "changes": [
+        {
+          "field": "root.sha256.build_monitoring_cell.py",
+          "previous": "b864a7d2a7166ab8ad2839d1990df8ddda24a505f1db5fa445df8ad89b1fdb5d",
+          "current": "60b3449e865032bb3b9d2f384abb458d10d800c7c5ab0d00acb173028fe7dca5"
+        },
+        {
+          "field": "root.sha256.monitoring_cell.net",
+          "previous": "14d354ca58c46099687e06fbc52bb52dd768191ab111c927b8554ff4c5173eb2",
+          "current": "47c900aca1982c85bbf2e35e2acf3207c69d15a7d1193d377ac4df53b473ac60"
+        }
+      ],
+      "all_non_digest_values_unchanged": true
+    },
+    {
+      "path": "electronics/stage4/current-driver/verification.json",
+      "before_sha256": "c5be9a53465178e15b9ed77d783e65d95a8cff5cd1bbf23bfe602a1cd5fa405a",
+      "current_sha256": "3f6851f79c991310c4899f8b3b555ad260d8928583f8b822d3baf0f9cec41d9c",
+      "changes": [
+        {
+          "field": "root.sha256.build_current_driver.py",
+          "previous": "d538056c542ef8da79bdc3afd9be6ece2d0bfe87747e994292afd56e52fbe290",
+          "current": "00967cc68e6be1808e4ac9db6b0b74a2a8c6710919aacb98bb9fde6d761e1a66"
+        },
+        {
+          "field": "root.sha256.current_driver.net",
+          "previous": "9ce420d725e41e93cc24daed171bc0c1dfd3b0fff5830f67d05a6368ed84d04d",
+          "current": "7d92c7a17aad87b0c204eb880a6aec0463f8a57d8d869e77115d66dd70c6c852"
+        }
+      ],
+      "all_non_digest_values_unchanged": true
+    },
+    {
+      "path": "electronics/stage4/recording-front-end/verification.json",
+      "before_sha256": "5de41dc8e6c817b48eb6196972d7f8a648ff6f70dafaadbad40ccf0eaae0ccde",
+      "current_sha256": "1fb02f44ed2ea0667e39d933fc2f171978a2daaab0aa8bb10fb20c31308f4f2b",
+      "changes": [
+        {
+          "field": "root.sha256.build_recording_front_end.py",
+          "previous": "605eb39880ae5d97584a3b89b364d8d3aaeee21e6b260ccfcdf37f47e3604d04",
+          "current": "82e4a6ef734882a341fecac7cbf67782971014352fa832876c418e02f914789d"
+        },
+        {
+          "field": "root.sha256.recording_front_end.net",
+          "previous": "4bf83247b983f54af8ed7da2df9b0e1672108bcb6155a51eef4c1af39c1fdb13",
+          "current": "b5fd381dada400c0b5dceba1823d9f5ac6e9313223fe340b714b37f99ea89124"
+        }
+      ],
+      "all_non_digest_values_unchanged": true
+    },
+    {
+      "path": "electronics/stage4/contact-router/verification.json",
+      "before_sha256": "c83e86bf4c5564de5a18e46bfbb8964abc16ddfea15679456c2ca89710af5575",
+      "current_sha256": "36a7850e1e25179490e08e63bfffcb85eb8e20ac491770dfbef4327f51ddaa0e",
+      "changes": [
+        {
+          "field": "root.sha256.build_contact_router.py",
+          "previous": "52132959a52557f23cb02247208148544853950ccc318b15b5208cfb3c8f42dc",
+          "current": "3e784b07b79ebd7335e3f6afd7e5e96e5f5a826ac4df73af279c99f892cf3943"
+        },
+        {
+          "field": "root.sha256.contact_router.net",
+          "previous": "cd06712dae91360f7e8e1caa32f37a361bccf1f19e95be817d3f45ee4d8623bb",
+          "current": "0411eacd26f2da582e2e072de60ff2786ee81533961573093fbe1fc3862e0a93"
+        },
+        {
+          "field": "root.sha256.contact_router.pdf",
+          "previous": "6335988e5f2603095754af1f0736a2195e6e3b46c48be3f88cbbf85f4e7f1e96",
+          "current": "7916b2e28d28e8ca5906a61be258458e77de29aa0d0462355069c522afdf42a6"
+        },
+        {
+          "field": "root.sha256.svg/contact_router-address.svg",
+          "previous": "7b068e00f792111173595d4bc4dc2805d9fadc6868dc09418a97876593bad2ea",
+          "current": "d5c3f6d9230c24b6f3ed142993f220938222a620ac64990260bfc34b840efe4a"
+        },
+        {
+          "field": "root.sha256.svg/contact_router-admission.svg",
+          "previous": "e924ae0db8fd34dbe9591c32b50dc96e2fda0cbac7525c4ff14a866b3fd2e916",
+          "current": "4832ef4d036830276ddcd30631db25521d912a952bccd3e997c75d8960641c6d"
+        },
+        {
+          "field": "root.sha256.svg/contact_router-collision.svg",
+          "previous": "aade11bd38ae295f36634d2c01e8b9c05067f04206cc49632417c46f19d386aa",
+          "current": "35778e97aea15bb0fd7d55c377e6aee7052ced9e8201803056a47d1b51e597f8"
+        },
+        {
+          "field": "root.sha256.svg/contact_router-source0.svg",
+          "previous": "2335a770edcdc882c98d2fce062d85d720c4caabd0817afea08a1ed37268272d",
+          "current": "c72436dba46e614d481cc60fc170b6f850b22ac95960230ad73d42596df53fd3"
+        },
+        {
+          "field": "root.sha256.svg/contact_router-source1.svg",
+          "previous": "9581bb09862c582c5f4468e3ae276755310801987e41d8a07bfa0a13d8bd36c6",
+          "current": "71235ccb59f58eea171133cd33bb6130bc406774bc42346c546a3e289f7b05af"
+        },
+        {
+          "field": "root.sha256.svg/contact_router.svg",
+          "previous": "35d8366ffcd15daa02388d9559e7e10072d763cc945bd6925d87464416e1ac38",
+          "current": "c7667566e8ddd1d292b41abf67fe3f3e4f46aa0eb40cea08351364500e50f3b2"
+        }
+      ],
+      "all_non_digest_values_unchanged": true
+    },
+    {
+      "path": "electronics/stage4/supervision/verification.json",
+      "before_sha256": "7048abfef85a54d802abf63bdc292d5ae5e185a5d55751f4dd156980baedde63",
+      "current_sha256": "a08d6a7fed7b6854743b046b4661abad4173c2bec204be2bb85fb5d8588c6813",
+      "changes": [
+        {
+          "field": "root.sha256.build_supervision.py",
+          "previous": "f16afa391e7ec12d13a3b06a5c02050ba2bff045ce859ad0bb9088a22ac37aad",
+          "current": "9c6d1e5cdc7a9ac543ec17f090b58b182f21e12f3e8e0b0dad10a4c911ba8d97"
+        },
+        {
+          "field": "root.sha256.supervision.net",
+          "previous": "c89041f643cc389b74ca0d80727d97935bff69955d16f486e2f21b151492f2b9",
+          "current": "dcbe948d8e52366f59e4d9b2c119340c780c65e1afb071ec3f2477b96c0d60ab"
+        },
+        {
+          "field": "root.sha256.svg/supervision-admission.svg",
+          "previous": "026a53b33498e6b5e6ebf3fec2a0441c489928c6389cc7cb23cfe6af9e728360",
+          "current": "f849da7e8f72c3a28c9965fd033b0844b3dfe4441d09deee754398d67f75c910"
+        },
+        {
+          "field": "root.sha256.svg/supervision-admission_2.svg",
+          "previous": "8943aca43edbdae351d9c49e6df86754d2fc7ece518ceefd317f32560be5e7a4",
+          "current": "bf1d3f41fbeac6ae73cf23f5ac9dc8586dcca492aa858506feefa29ef618f81f"
+        },
+        {
+          "field": "root.sha256.svg/supervision-afe_bank0.svg",
+          "previous": "81e10e978d3736c36dd1a1309733510415aa46c43bacb088e6f1f6da8ce7efb4",
+          "current": "57f1434685ea6d8bc9dd360ceab25dba478418fcdaa14952a95a939bade6aaf8"
+        },
+        {
+          "field": "root.sha256.svg/supervision-afe_bank1.svg",
+          "previous": "266971e2f50c3c4606b58c665e36c6a5c108b2bdbc39c66a16ef038a43672131",
+          "current": "ad425b888029773b6b870e583d3f825868e5ae4f89dc096ab67e3544979f3157"
+        },
+        {
+          "field": "root.sha256.svg/supervision-afe_bank2.svg",
+          "previous": "2b541038036d495030ab40d5a061115e561e9b42c06cf25df295363a5daccece",
+          "current": "ddde2d04e7484b5b43d592476a2e49f6b0b56f36787089f801e393afb4cd1fbe"
+        },
+        {
+          "field": "root.sha256.svg/supervision-afe_bank3.svg",
+          "previous": "e28e75f54890f3b77db4d8cb8bd1a87a8c45c27964650af1d42fe095621eb884",
+          "current": "ecb7704bd4d29f565d65d8304606637095acff03f0ffcb606f944e6deda7b4cc"
+        },
+        {
+          "field": "root.sha256.svg/supervision-afe_bank4.svg",
+          "previous": "77c25a3f843fca51168c18ab3b22ca044a6d6e231254aea6bcc414e716f602b4",
+          "current": "6637bd8e1aa6353d904f7e7d4cd935448a70c699100f16ae03abe79c67acbf3e"
+        },
+        {
+          "field": "root.sha256.svg/supervision-afe_logic.svg",
+          "previous": "127a0c99209cde63e35c821fa90895df120ce2ec672933e79ea86efa7aa0786a",
+          "current": "79c019a649ecd84028555b7a333b0b1be7622ccd275ddab385ab717860da80bd"
+        },
+        {
+          "field": "root.sha256.svg/supervision-afe_logic_2.svg",
+          "previous": "20e06520b41fccbd7093358c29003eed6582bd2df4cc35fe631a87f92be14af3",
+          "current": "67f9549f02fcbb53e6cccbfad9aa644a1379d9baf7910ee97290296601e734dd"
+        },
+        {
+          "field": "root.sha256.svg/supervision-afe_rails.svg",
+          "previous": "0120d02e85e15925f7e54489676c35d7a3c277b045f6cff8f291ee1ab20a2f0b",
+          "current": "f6a1d5067cfc8e36a98bfb42265f0e0e411658c322c7c63e89c346f3fc888cf4"
+        },
+        {
+          "field": "root.sha256.svg/supervision-afe_rails_2.svg",
+          "previous": "ad6e37f8478daa4ef2a38b1a33914eb492f96c56793804ecf18bf37437ede18e",
+          "current": "6f5e22f055e795bde8e7438a548ec89a435f973f51b7921f9bfa935ad99f4c1a"
+        },
+        {
+          "field": "root.sha256.svg/supervision-defaults.svg",
+          "previous": "43406edaa6ec36973ac1c062712aaafc41f23133708ef2dbf7ebeab271154472",
+          "current": "3247e10ff60d46a129fdbae16208f4cc3694c32f1e01c76641ba678c82bb97c6"
+        },
+        {
+          "field": "root.sha256.svg/supervision-duration.svg",
+          "previous": "66234494b869532384f2321d63fca87d30669bee791c369d788cac6e9c63ef8c",
+          "current": "3faa7e3d34f3f75ef04ab22c0bee6d0821a65b32f553210c653d0d2b65d9f075"
+        },
+        {
+          "field": "root.sha256.svg/supervision-guards.svg",
+          "previous": "282f082d76016f7f8e563a0b5a38d7593a75ad2eecf4c449de7e8cae7cc70d4b",
+          "current": "252eb04663aa0d59ba6186c81b3f30f92fb1d63fee6133f029d6a92f293fa272"
+        },
+        {
+          "field": "root.sha256.svg/supervision-host_rails.svg",
+          "previous": "b67488e7e5f861eca4714bb0fb1c05a52e5f352c96543deef9b08df588a748e4",
+          "current": "21ce400c6b0ea0a3d4f17249459c57064a476062ef7a35cc0a9a07a13d5f5af5"
+        },
+        {
+          "field": "root.sha256.svg/supervision-host_rails_2.svg",
+          "previous": "c701ec44e592a7affddf4af64963eee37d1fa325b9be94c9b966f7eaca4def47",
+          "current": "230127e65b3d94be1dab6e51753a193f527d7e230dd123e5145e6a7d7b0565d4"
+        },
+        {
+          "field": "root.sha256.svg/supervision-phase0.svg",
+          "previous": "55142e6fc76baeb192d6eb57fb7cf4f646766a2e56603b9bbdc244425507a021",
+          "current": "98ea9afc6e06ac6a5abe1c72b48fb442a0dff8b3c55b8f0d6e2e35a871d2af93"
+        },
+        {
+          "field": "root.sha256.svg/supervision-phase1.svg",
+          "previous": "c8e2811a5453400de61adb03bc64839d040907afdd1ebd2d87851f3c49d8f78f",
+          "current": "3ec9478b184ca8edfbe5514e52a585e930a9ac6f4ec5acfeb7851e00ec858b6f"
+        },
+        {
+          "field": "root.sha256.svg/supervision-quiescence.svg",
+          "previous": "f5c2fcf23589c533c5a7bc3e24c7a9bf3189aa8ef398b35d9f17e672819ef653",
+          "current": "653c8f2808803b149182a51758af1785536c39c4da9c4ee1840b6aee7daab8c0"
+        },
+        {
+          "field": "root.sha256.svg/supervision-voltage.svg",
+          "previous": "b9275b0d795dcf4ff330d754d91998749ef415ee958ad78184a749e617987c81",
+          "current": "537fe9d8169149b3e5581d9485cbd7c378e1ac60fcafb3fc4da994d236022052"
+        },
+        {
+          "field": "root.sha256.svg/supervision-watchdog.svg",
+          "previous": "090637cdfddf18f3b79486b2b7b81710c02b0fcf04e9d79e6682e2be016a0f8c",
+          "current": "058906b3cb9987ae1377e0ff9f457abdb062548d6c4bb0191961290ec4c7f68b"
+        },
+        {
+          "field": "root.sha256.svg/supervision.svg",
+          "previous": "a297a892f8232be1a1c3b9e12124127ed51e6f40bf52022342236ef0e41aad43",
+          "current": "5df4c6f6add574634700e55d0685ba5ca1293d1c747adafe72ad7a6e1590ab96"
+        }
+      ],
+      "all_non_digest_values_unchanged": true
+    },
+    {
+      "path": "electronics/stage4/power/verification.json",
+      "before_sha256": "aa31a799b5740ce90a84133a6578efca9af364e5b1540933695a9e03f7338738",
+      "current_sha256": "646661a7be35c3c9e1f85122a391f0d2da94415c4f34d0beca32804681f2d929",
+      "changes": [
+        {
+          "field": "root.sha256.native_render.py",
+          "previous": "86e6bb7f4f5af5396aac5f84b4822d4a5dc689426d6c58de5c17cef9661d047c",
+          "current": "5687f6a749bb7c6cceeee6c1ad684ff600052d4288f6f97938f6e6319f763187"
+        },
+        {
+          "field": "root.sha256.power.net",
+          "previous": "891e4cb6e0ae9b32526b9448981a4d0e73c59185cff1ffbb1a89bef7014e1848",
+          "current": "c877d592400933cc26da00eb3eb15d90379ae365c0b2cc9cd77c39b6f9518543"
+        },
+        {
+          "field": "root.sha256.svg/power-afe3.svg",
+          "previous": "23b5903de498a3377e2f6e1081798a9fe4178494cdf870596c39afbe0883f4b5",
+          "current": "0653a4ab314229890651cd40d7fdc087e2dfbb97d681cd42dca0376f7abb8e76"
+        },
+        {
+          "field": "root.sha256.svg/power-afen.svg",
+          "previous": "d29356b4cb063602b946f48d67c21ff7f5a12f6b7d3eb40e7d1799ec56b62dc6",
+          "current": "eef618b9857ce75ddf05fd55ab4b4a5289ad8ac97f689b765741e74cb449bd37"
+        },
+        {
+          "field": "root.sha256.svg/power-afep.svg",
+          "previous": "8a74ecda46f1b11c844ec6f2e8d1168c809ff9b836179fa8846a9ffa004e9153",
+          "current": "9b3b2d1c45a473926120dba5aa6da6ee693df76576ef92fbfa2e7dcc679e4241"
+        },
+        {
+          "field": "root.sha256.svg/power-boost15.svg",
+          "previous": "317de4acac0fa5fefc682c2046bd9ca699d247adbd9e8b9352922b441f7f3055",
+          "current": "1200c8403b0b5dcf798eca08a807bc4c96bae3aa4e561614803815a5b0539aff"
+        },
+        {
+          "field": "root.sha256.svg/power-boost24.svg",
+          "previous": "9b3bdb8c6b532796108d2edda2942d9178261c07a98f2318b6b8b91dcdd5d922",
+          "current": "cda33bee5e31fd109a48bd1a30f7331cb04da2843067187f5e072224355406e4"
+        },
+        {
+          "field": "root.sha256.svg/power-enable.svg",
+          "previous": "ea39bcadfb22ea61e8b3ba24ee923e8a2ab4b0ffdba68321ed187249a06b9aa3",
+          "current": "a3bad325544c225e63e68246d2895ab56ecc0c35c4a59af9be2fadb7cf66d35e"
+        },
+        {
+          "field": "root.sha256.svg/power-enable_2.svg",
+          "previous": "906c1ce1b22692f8cfc03de1579bb5a94333da872e6f8facf46017491210a2e9",
+          "current": "8881c78ebafb854ae8ddfdae7547952b4068ed5bfb7b724bcf1d29d13b5d94f4"
+        },
+        {
+          "field": "root.sha256.svg/power-enable_3.svg",
+          "previous": "d9037fa23432bc9ce20568d92650a4d9a83c93eca1350362ef86f54f54e1e12b",
+          "current": "bd0955a3a636abd54149c09dc6f69de1a703c9c196e95e0b26609cff3cbfcd07"
+        },
+        {
+          "field": "root.sha256.svg/power-host3.svg",
+          "previous": "7a9789b2f6efcb60d822baa5764dfcfefb77dd0d73305753d102b2afb790346b",
+          "current": "215a9faad1b1a18dfda8cc4d53498611dfc949f6ed9e980ee3984db69662d3f5"
+        },
+        {
+          "field": "root.sha256.svg/power-host5.svg",
+          "previous": "b94c7bb1c7f8b8139524d39c9061e8de0876335c796dc94d7cb70e4e381f0bd0",
+          "current": "3ceb76a8ab0823d1a4a1e3310dbb907bceccf23e59c41f72f963f4b66829482e"
+        },
+        {
+          "field": "root.sha256.svg/power-input.svg",
+          "previous": "a148c62e8b90a1cde8744b059feb4039111fbb48b6e6844f601344980a64f6fc",
+          "current": "b0e204e137f35cd5a775569cb775a268450f443d5e9afe2f36c644294091d502"
+        },
+        {
+          "field": "root.sha256.svg/power-island.svg",
+          "previous": "2105b4f3a4ed76c32b4510f95ca4c099f9b0dc6632e336562c19e79c2bee26bd",
+          "current": "e94b898c73b03d6e8b38c33e87f345a34d9b91bc05209626a8cbc3f5706cdb6a"
+        },
+        {
+          "field": "root.sha256.svg/power-sup3.svg",
+          "previous": "e232e7a901495ad62db2ae51bd9b9e74628ec4947ac7200d6789d72f3b348d86",
+          "current": "acb1dee07902611758135b22b8a2ae051d86dca2ba5533155a92825fffe29158"
+        },
+        {
+          "field": "root.sha256.svg/power-sup5.svg",
+          "previous": "0fdd5640feb0d798d26874ecb9e8588adf4fa96d4400e15da4b1c053f5fded87",
+          "current": "7b79d65b24ba99df1d758351b9611fd1e72342b48dc39bd764319802bd8caaaf"
+        },
+        {
+          "field": "root.sha256.svg/power.svg",
+          "previous": "f9814b6649aa8a27a15342233d6a85e63dd2b7a20208b2e5e343aa0d463ef056",
+          "current": "339f2de51b1be2046ee48e84469c96542674d1b0933c91788c62f37012532c06"
+        }
+      ],
+      "all_non_digest_values_unchanged": true
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/verification.json",
+      "before_sha256": "f7b20520f1935579881624d225aafb72bb93d9fdd3216c273819e1b16387a6fa",
+      "current_sha256": "c65d1a9ff4806d6e5076821839a487ee222d6a31028215ca29d0d4d4306d6c98",
+      "changes": [
+        {
+          "field": "root.sha256.monitoring_transport.net",
+          "previous": "2a6d5266e9a8c811031efb884f4fc86eceec39acce23e0c5e532f173ff49e789",
+          "current": "fe9ff0e4047f73559558a2631acb4995a428894e6c6f2f3864113d50afd780b2"
+        },
+        {
+          "field": "root.sha256.native_render.py",
+          "previous": "c7dd6dacdf917bb7751ab2e41b9732d3f3191d1abc249b72aa898bdfc84218e9",
+          "current": "9d97e36edaf6256988309bc3168cab99824d77116058143e9e942617631e17a1"
+        },
+        {
+          "field": "root.sha256.review/final-review-contact.png",
+          "previous": "49faf6651e0e6290b12caa5eb04bffdb03afecea4d2b78ca9ad9931295f6a43c",
+          "current": "e8a782f39dbe811edb0ec372bf7f866fa5aaa8a7219dec8c6aac12984d18d08a"
+        },
+        {
+          "field": "root.sha256.svg/monitoring_transport-adc.svg",
+          "previous": "8d7b1aafa42d21e9928fde5cbef4a9b9449b101eb3218011d8831e486887c120",
+          "current": "c7b29b3d6494fdbf1cd92886515f610696c8048f4c51de01aff55697c269429b"
+        },
+        {
+          "field": "root.sha256.svg/monitoring_transport-companion.svg",
+          "previous": "81b4fbcbfc2e0838e6c19d77629861871abaff38f2417fa66ee2f4114769da32",
+          "current": "1b704ff31adf5ceaa7a9c1579a91b7e7b90bfdb5d3b426dbc543e7fd93a72d01"
+        },
+        {
+          "field": "root.sha256.svg/monitoring_transport-handoff.svg",
+          "previous": "2eccf007381c9c0d76b4c0086803a045cd0cc23a22bd50d64c60772cd0984317",
+          "current": "229efc36b5ed89db32e6e6b7f2349e4a5bdf87b730eef40e303ba0a4dd7f7fca"
+        },
+        {
+          "field": "root.sha256.svg/monitoring_transport-health.svg",
+          "previous": "3df5e23dfa52f8f486186356ddd00d102a638b9cf061888a81ed467c95adf3c0",
+          "current": "9582062de19260705366ce6bdc37fe79c30d83884c51959806e564e980b0c9af"
+        },
+        {
+          "field": "root.sha256.svg/monitoring_transport-inputs.svg",
+          "previous": "99dfcdd851eb9f481557bcdc6174fdb219549f9762192f036dfc5d056531a16c",
+          "current": "8ec94ccee011b0670d4d6a2d26d86509ec48a72ec8118cb6fe9245f6eabd53ae"
+        },
+        {
+          "field": "root.sha256.svg/monitoring_transport-reference.svg",
+          "previous": "14f092bfbb238ef82f661b83033fea682e96abe68156b84909643ec70468dcb6",
+          "current": "8b6758d954df9c4cfdc4da7e26dbbeb65bade59ffd3bed7256b29873df0f4d87"
+        },
+        {
+          "field": "root.sha256.svg/monitoring_transport-root_2.svg",
+          "previous": "636db989838a81d643f6750b0abbda0cbf70aa0e6af3a34ded2d332c8781a9ff",
+          "current": "8fd966950e3b23fb3a02a28cdecf308807afca6379a780a3cda7aded667ea8e2"
+        },
+        {
+          "field": "root.sha256.svg/monitoring_transport.svg",
+          "previous": "6a1718f6454d022aafeca34efe3c89869d94f74de062f467e68a00c585255f16",
+          "current": "fa20f5e9b6b718e2937827e0c8649c31e4c8f23be30feb678d88e1b7f4774438"
+        }
+      ],
+      "all_non_digest_values_unchanged": true
+    }
+  ],
+  "commands": [
+    {
+      "arguments": [
+        "electronics/stage4/monitoring-cell/verify_monitoring_cell.py"
+      ],
+      "write_receipt_returncode": 0,
+      "read_only_returncode": 0,
+      "summary": "{\"components\": 70, \"pin_contracts_compared\": 245, \"sheets\": 3, \"pdf_pages\": 3, \"erc_violations\": 0, \"ignored_erc_checks\": []}\n"
+    },
+    {
+      "arguments": [
+        "electronics/stage4/current-driver/verify_current_driver.py"
+      ],
+      "write_receipt_returncode": 0,
+      "read_only_returncode": 0,
+      "summary": "{\"components\": 156, \"pin_contracts_compared\": 572, \"sheets\": 5, \"pdf_pages\": 5, \"erc_violations\": 0, \"exhaustive_exported_gate_rows\": 32768}\n"
+    },
+    {
+      "arguments": [
+        "electronics/stage4/recording-front-end/verify_recording_front_end.py"
+      ],
+      "write_receipt_returncode": 0,
+      "read_only_returncode": 0,
+      "summary": "{\"components\": 151, \"pin_contracts_compared\": 594, \"sheets\": 7, \"pdf_pages\": 7, \"erc_violations\": 0, \"protected_signal_paths\": 17, \"functional_recording_ports\": 18}\n"
+    },
+    {
+      "arguments": [
+        "electronics/stage4/contact-router/verify_contact_router.py"
+      ],
+      "write_receipt_returncode": 0,
+      "read_only_returncode": 0,
+      "summary": "{\"components\": 155, \"pin_contracts_compared\": 650, \"sheets\": 6, \"erc_violations\": 0, \"control_truth_rows\": 262144, \"collision_bank_truth_rows\": 8192, \"event_steps\": 363, \"event_probes\": 21}\n"
+    },
+    {
+      "arguments": [
+        "electronics/stage4/supervision/verify_supervision.py"
+      ],
+      "write_receipt_returncode": 0,
+      "read_only_returncode": 0,
+      "summary": "{\"components\": 478, \"pin_contracts_compared\": 1699, \"sheets\": 22, \"erc_violations\": 0, \"guard_paths\": 18, \"RHD_window_taps\": 17, \"native_logic_cells\": 98}\n"
+    },
+    {
+      "arguments": [
+        "electronics/stage4/power/verify_power.py"
+      ],
+      "write_receipt_returncode": 0,
+      "read_only_returncode": 0,
+      "summary": "{\"components\": 156, \"pin_contracts_compared\": 449, \"sheets\": 15, \"native_gate_truth_combinations\": 256, \"erc_violations\": 0}\n"
+    },
+    {
+      "arguments": [
+        "electronics/stage4/monitoring-transport/verify_monitoring_transport.py"
+      ],
+      "write_receipt_returncode": 0,
+      "read_only_returncode": 0,
+      "summary": "{\"components\": 60, \"pin_contracts_compared\": 217, \"sheets\": 8, \"erc_violations\": 0}\n"
+    }
+  ],
+  "files": [
+    {
+      "path": "electronics/stage4/contact-router/svg/contact_router-address.svg",
+      "current_sha256": "d5c3f6d9230c24b6f3ed142993f220938222a620ac64990260bfc34b840efe4a"
+    },
+    {
+      "path": "electronics/stage4/contact-router/svg/contact_router-admission.svg",
+      "current_sha256": "4832ef4d036830276ddcd30631db25521d912a952bccd3e997c75d8960641c6d"
+    },
+    {
+      "path": "electronics/stage4/contact-router/svg/contact_router-collision.svg",
+      "current_sha256": "35778e97aea15bb0fd7d55c377e6aee7052ced9e8201803056a47d1b51e597f8"
+    },
+    {
+      "path": "electronics/stage4/contact-router/svg/contact_router-source0.svg",
+      "current_sha256": "c72436dba46e614d481cc60fc170b6f850b22ac95960230ad73d42596df53fd3"
+    },
+    {
+      "path": "electronics/stage4/contact-router/svg/contact_router-source1.svg",
+      "current_sha256": "71235ccb59f58eea171133cd33bb6130bc406774bc42346c546a3e289f7b05af"
+    },
+    {
+      "path": "electronics/stage4/contact-router/svg/contact_router.svg",
+      "current_sha256": "c7667566e8ddd1d292b41abf67fe3f3e4f46aa0eb40cea08351364500e50f3b2"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-admission.svg",
+      "current_sha256": "f849da7e8f72c3a28c9965fd033b0844b3dfe4441d09deee754398d67f75c910"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-admission_2.svg",
+      "current_sha256": "bf1d3f41fbeac6ae73cf23f5ac9dc8586dcca492aa858506feefa29ef618f81f"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-afe_bank0.svg",
+      "current_sha256": "57f1434685ea6d8bc9dd360ceab25dba478418fcdaa14952a95a939bade6aaf8"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-afe_bank1.svg",
+      "current_sha256": "ad425b888029773b6b870e583d3f825868e5ae4f89dc096ab67e3544979f3157"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-afe_bank2.svg",
+      "current_sha256": "ddde2d04e7484b5b43d592476a2e49f6b0b56f36787089f801e393afb4cd1fbe"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-afe_bank3.svg",
+      "current_sha256": "ecb7704bd4d29f565d65d8304606637095acff03f0ffcb606f944e6deda7b4cc"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-afe_bank4.svg",
+      "current_sha256": "6637bd8e1aa6353d904f7e7d4cd935448a70c699100f16ae03abe79c67acbf3e"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-afe_logic.svg",
+      "current_sha256": "79c019a649ecd84028555b7a333b0b1be7622ccd275ddab385ab717860da80bd"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-afe_logic_2.svg",
+      "current_sha256": "67f9549f02fcbb53e6cccbfad9aa644a1379d9baf7910ee97290296601e734dd"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-afe_rails.svg",
+      "current_sha256": "f6a1d5067cfc8e36a98bfb42265f0e0e411658c322c7c63e89c346f3fc888cf4"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-afe_rails_2.svg",
+      "current_sha256": "6f5e22f055e795bde8e7438a548ec89a435f973f51b7921f9bfa935ad99f4c1a"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-defaults.svg",
+      "current_sha256": "3247e10ff60d46a129fdbae16208f4cc3694c32f1e01c76641ba678c82bb97c6"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-duration.svg",
+      "current_sha256": "3faa7e3d34f3f75ef04ab22c0bee6d0821a65b32f553210c653d0d2b65d9f075"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-guards.svg",
+      "current_sha256": "252eb04663aa0d59ba6186c81b3f30f92fb1d63fee6133f029d6a92f293fa272"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-host_rails.svg",
+      "current_sha256": "21ce400c6b0ea0a3d4f17249459c57064a476062ef7a35cc0a9a07a13d5f5af5"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-host_rails_2.svg",
+      "current_sha256": "230127e65b3d94be1dab6e51753a193f527d7e230dd123e5145e6a7d7b0565d4"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-phase0.svg",
+      "current_sha256": "98ea9afc6e06ac6a5abe1c72b48fb442a0dff8b3c55b8f0d6e2e35a871d2af93"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-phase1.svg",
+      "current_sha256": "3ec9478b184ca8edfbe5514e52a585e930a9ac6f4ec5acfeb7851e00ec858b6f"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-quiescence.svg",
+      "current_sha256": "653c8f2808803b149182a51758af1785536c39c4da9c4ee1840b6aee7daab8c0"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-voltage.svg",
+      "current_sha256": "537fe9d8169149b3e5581d9485cbd7c378e1ac60fcafb3fc4da994d236022052"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision-watchdog.svg",
+      "current_sha256": "058906b3cb9987ae1377e0ff9f457abdb062548d6c4bb0191961290ec4c7f68b"
+    },
+    {
+      "path": "electronics/stage4/supervision/svg/supervision.svg",
+      "current_sha256": "5df4c6f6add574634700e55d0685ba5ca1293d1c747adafe72ad7a6e1590ab96"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-afe3.svg",
+      "current_sha256": "0653a4ab314229890651cd40d7fdc087e2dfbb97d681cd42dca0376f7abb8e76"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-afen.svg",
+      "current_sha256": "eef618b9857ce75ddf05fd55ab4b4a5289ad8ac97f689b765741e74cb449bd37"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-afep.svg",
+      "current_sha256": "9b3b2d1c45a473926120dba5aa6da6ee693df76576ef92fbfa2e7dcc679e4241"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-boost15.svg",
+      "current_sha256": "1200c8403b0b5dcf798eca08a807bc4c96bae3aa4e561614803815a5b0539aff"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-boost24.svg",
+      "current_sha256": "cda33bee5e31fd109a48bd1a30f7331cb04da2843067187f5e072224355406e4"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-enable.svg",
+      "current_sha256": "a3bad325544c225e63e68246d2895ab56ecc0c35c4a59af9be2fadb7cf66d35e"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-enable_2.svg",
+      "current_sha256": "8881c78ebafb854ae8ddfdae7547952b4068ed5bfb7b724bcf1d29d13b5d94f4"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-enable_3.svg",
+      "current_sha256": "bd0955a3a636abd54149c09dc6f69de1a703c9c196e95e0b26609cff3cbfcd07"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-host3.svg",
+      "current_sha256": "215a9faad1b1a18dfda8cc4d53498611dfc949f6ed9e980ee3984db69662d3f5"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-host5.svg",
+      "current_sha256": "3ceb76a8ab0823d1a4a1e3310dbb907bceccf23e59c41f72f963f4b66829482e"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-input.svg",
+      "current_sha256": "b0e204e137f35cd5a775569cb775a268450f443d5e9afe2f36c644294091d502"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-island.svg",
+      "current_sha256": "e94b898c73b03d6e8b38c33e87f345a34d9b91bc05209626a8cbc3f5706cdb6a"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-sup3.svg",
+      "current_sha256": "acb1dee07902611758135b22b8a2ae051d86dca2ba5533155a92825fffe29158"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power-sup5.svg",
+      "current_sha256": "7b79d65b24ba99df1d758351b9611fd1e72342b48dc39bd764319802bd8caaaf"
+    },
+    {
+      "path": "electronics/stage4/power/svg/power.svg",
+      "current_sha256": "339f2de51b1be2046ee48e84469c96542674d1b0933c91788c62f37012532c06"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/svg/monitoring_transport-adc.svg",
+      "current_sha256": "c7b29b3d6494fdbf1cd92886515f610696c8048f4c51de01aff55697c269429b"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/svg/monitoring_transport-companion.svg",
+      "current_sha256": "1b704ff31adf5ceaa7a9c1579a91b7e7b90bfdb5d3b426dbc543e7fd93a72d01"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/svg/monitoring_transport-handoff.svg",
+      "current_sha256": "229efc36b5ed89db32e6e6b7f2349e4a5bdf87b730eef40e303ba0a4dd7f7fca"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/svg/monitoring_transport-health.svg",
+      "current_sha256": "9582062de19260705366ce6bdc37fe79c30d83884c51959806e564e980b0c9af"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/svg/monitoring_transport-inputs.svg",
+      "current_sha256": "8ec94ccee011b0670d4d6a2d26d86509ec48a72ec8118cb6fe9245f6eabd53ae"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/svg/monitoring_transport-reference.svg",
+      "current_sha256": "8b6758d954df9c4cfdc4da7e26dbbeb65bade59ffd3bed7256b29873df0f4d87"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/svg/monitoring_transport-root_2.svg",
+      "current_sha256": "8fd966950e3b23fb3a02a28cdecf308807afca6379a780a3cda7aded667ea8e2"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/svg/monitoring_transport.svg",
+      "current_sha256": "fa20f5e9b6b718e2937827e0c8649c31e4c8f23be30feb678d88e1b7f4774438"
+    },
+    {
+      "path": "electronics/stage4/monitoring-cell/verification.json",
+      "current_sha256": "6135c116f6a8ac729e8fb64ae0e8464f54a8c8a3d48119d60a60b634eeeff6a4"
+    },
+    {
+      "path": "electronics/stage4/current-driver/verification.json",
+      "current_sha256": "3f6851f79c991310c4899f8b3b555ad260d8928583f8b822d3baf0f9cec41d9c"
+    },
+    {
+      "path": "electronics/stage4/recording-front-end/verification.json",
+      "current_sha256": "1fb02f44ed2ea0667e39d933fc2f171978a2daaab0aa8bb10fb20c31308f4f2b"
+    },
+    {
+      "path": "electronics/stage4/contact-router/verification.json",
+      "current_sha256": "36a7850e1e25179490e08e63bfffcb85eb8e20ac491770dfbef4327f51ddaa0e"
+    },
+    {
+      "path": "electronics/stage4/supervision/verification.json",
+      "current_sha256": "a08d6a7fed7b6854743b046b4661abad4173c2bec204be2bb85fb5d8588c6813"
+    },
+    {
+      "path": "electronics/stage4/power/verification.json",
+      "current_sha256": "646661a7be35c3c9e1f85122a391f0d2da94415c4f34d0beca32804681f2d929"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/verification.json",
+      "current_sha256": "c65d1a9ff4806d6e5076821839a487ee222d6a31028215ca29d0d4d4306d6c98"
+    }
+  ],
+  "final_read_only_batch": {
+    "command_source": ".github/workflows/verify.yml audit electronics commands",
+    "commands": 28,
+    "passed": 28,
+    "failed": 0,
+    "checks": [
+      {
+        "arguments": [
+          "electronics/stage4/monitoring-cell/verify_monitoring_cell.py"
+        ],
+        "returncode": 0,
+        "summary": "{\"components\": 70, \"pin_contracts_compared\": 245, \"sheets\": 3, \"pdf_pages\": 3, \"erc_violations\": 0, \"ignored_erc_checks\": []}\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/monitoring-study/verify_study.py"
+        ],
+        "returncode": 0,
+        "summary": "{\"read_only_check\": \"passed\", \"runs\": 33, \"sources_per_run\": 2, \"four_percent_target_earned\": false}\n{\"read_only_verification\": \"passed\", \"runs\": 33, \"channels\": 66, \"interval_rows\": 462, \"finest_grid_max_recomputed_ADC_oracle_error_V\": 1.2665054116567376e-08, \"max_recomputed_KCL_residual_A\": 4.3576253716537394e-15, \"four_percent_target_earned\": false}\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/current-driver/verify_current_driver.py"
+        ],
+        "returncode": 0,
+        "summary": "{\"components\": 156, \"pin_contracts_compared\": 572, \"sheets\": 5, \"pdf_pages\": 5, \"erc_violations\": 0, \"exhaustive_exported_gate_rows\": 32768}\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/driver-study/verify_study.py"
+        ],
+        "returncode": 0,
+        "summary": "{\"attempted_transients\": 20, \"completed_transients\": 18, \"retained_partial_transients\": 2, \"phase_gap_profile_intervals\": 144, \"maximum_integrated_KCL_residual_C\": 1.66514190263361e-12, \"maximum_grid_charge_difference_C\": 5.056858911019674e-13}\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/recording-front-end/verify_recording_front_end.py"
+        ],
+        "returncode": 0,
+        "summary": "{\"components\": 151, \"pin_contracts_compared\": 594, \"sheets\": 7, \"pdf_pages\": 7, \"erc_violations\": 0, \"protected_signal_paths\": 17, \"functional_recording_ports\": 18}\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/recording-study/verify_input_network.py"
+        ],
+        "returncode": 0,
+        "summary": "Recording-network audit: 175 scalar/KCL checks; two finite fault failures retained; worst balance 0.117818%\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/recording-study/input_network_study.py"
+        ],
+        "returncode": 0,
+        "summary": "Input-network same-model replay matches; saved files unchanged\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/recording-study/timing_contract.py",
+          "--check"
+        ],
+        "returncode": 0,
+        "summary": "{\"assertions_passed\": 56, \"complete_firmware_implemented\": false, \"eight_MHz_isolated_SPI_admitted\": false, \"four_MHz_admitted_under_declared_timing_allocations\": true, \"mode\": \"read_only_check\", \"physical_timing_or_recovery_verified\": false, \"recorded_control_snapshots\": 53, \"scenario_groups\": 17, \"status\": \"PASS\", \"universal_stale_data_detection\": false}\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/contact-router/verify_contact_router.py"
+        ],
+        "returncode": 0,
+        "summary": "{\"components\": 155, \"pin_contracts_compared\": 650, \"sheets\": 6, \"erc_violations\": 0, \"control_truth_rows\": 262144, \"collision_bank_truth_rows\": 8192, \"event_steps\": 363, \"event_probes\": 21}\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/routing-study/route_contract.py",
+          "--check"
+        ],
+        "returncode": 0,
+        "summary": "{\"active_register_commit_rows\": 131072, \"active_register_commit_sha256\": \"5fb14121192bd8f9329042411120056f4000dcc61333d35d21653f6bbec3ae13\", \"assertions_passed\": 86, \"false_fresh_ack_correctness\": \"UNPROTECTED_TRUST_BOUNDARY\", \"host_freeze_without_watchdog_loss\": \"UNPROTECTED_BY_ROUTER_ALONE\", \"independent_oracle_disagreements\": 0, \"mode\": \"read_only_check\", \"native_D_hold_selectors_checked\": 2, \"native_export_connected_pins_checked\": 631, \"native_export_oracle_disagreements\": 0, \"native_ownership_truth_rows\": 8192, \"native_quiet_truth_rows\": 16384, \"native_raw_clock_ffs_checked\": 11, \"physical_gate_or_mux_timing_verified\": false, \"quiet_admitted_rows\": 1, \"quiet_qualification_input_names\": [\"reset_ready\", \"rails_qualified\", \"monitor0_ok\", \"monitor1_ok\", \"afe_blanked\", \"watchdog_ok\", \"quiescent0_ok\", \"quiescent1_ok\", \"want0\", \"want1\", \"request0\", \"request1\", \"run0\", \"run1\"], \"quiet_qualification_rows\": 16384, \"quiet_qualification_sha256\": \"4d5551343bb54468f8be39f62323e1046149a8d95b46124d12c57e6c34799f9b\", \"route_truth_rows\": 8192, \"route_truth_sha256\": \"157f3cebec619ad4c5ab07100978c13333a199f930b94aae00e9a09a1859aba3\", \"router_histories\": 36, \"same_contact_demand_rows_all_inhibited\": 128, \"scenario_groups\": 15, \"stale_high_ack_through_commit\": \"REJECTED_UNTIL_NEW_RAW_ACK_RISING_EDGE\", \"state_snapshots\": 396, \"status\": \"PASS\"}\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/routing-study/verify_parasitics.py"
+        ],
+        "returncode": 0,
+        "summary": "Router parasitic audit: 10917 scalar/charge/RC checks across36 cases; maxKCL 2.07e-25 C\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/routing-study/parasitic_study.py"
+        ],
+        "returncode": 0,
+        "summary": "Router parasitic same-model replay matches; no files written\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/supervision/verify_supervision.py"
+        ],
+        "returncode": 0,
+        "summary": "{\"components\": 478, \"pin_contracts_compared\": 1699, \"sheets\": 22, \"erc_violations\": 0, \"guard_paths\": 18, \"RHD_window_taps\": 17, \"native_logic_cells\": 98}\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/supervision-study/control_study.py",
+          "--check"
+        ],
+        "returncode": 0,
+        "summary": "{\"assertions_passed\": 46, \"common_supply_fault_outside_valid_logic\": \"UNKNOWN_PHYSICAL_STATE\", \"dual_timer_stuck_high\": \"UNPROTECTED_WITNESS_PRESERVED\", \"mode\": \"read_only_check\", \"primary_stuck_timer_secondary_cutoff\": \"CONDITIONAL_PASS\", \"scenario_groups\": 18, \"state_snapshots\": 297, \"status\": \"PASS\", \"welded_AFE_or_guard_switch\": \"UNPROTECTED_WITNESS_PRESERVED\", \"zero_fault_current_or_4_percent_dose_claim_earned\": false}\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/supervision-study/analog_study.py"
+        ],
+        "returncode": 0,
+        "summary": "Supervisor analog same-model replay matches; no files written\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/supervision-study/verify_analog.py"
+        ],
+        "returncode": 0,
+        "summary": "Independent supervision analog audit: 6079 checks, 2961 trajectory points; no producer import\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/supervision-study/verify_integration.py"
+        ],
+        "returncode": 0,
+        "summary": "Integrated wiring plan: 102 wires, 573 pin/net/value checks;18 guarded ports,17 actual RHD taps\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/power/verify_power.py"
+        ],
+        "returncode": 0,
+        "summary": "{\"components\": 156, \"pin_contracts_compared\": 449, \"sheets\": 15, \"native_gate_truth_combinations\": 256, \"erc_violations\": 0}\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/power-study/budget_study.py"
+        ],
+        "returncode": 0,
+        "summary": "{\n  \"status\": \"read-onlyreplaypassed\",\n  \"active_packages\": 306,\n  \"rail_count\": 9,\n  \"battery_W_active\": 2.6151138015607582,\n  \"runtime_h_conditional\": 5.8857859228970115\n}\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/power-study/verify_budget.py"
+        ],
+        "returncode": 0,
+        "summary": "{\n  \"schema\": \"scci_rh.stage4.power-budget-audit.v1\",\n  \"status\": \"passed\",\n  \"independent_assertions\": 3300,\n  \"results_sha256_lf\": \"441aa17d5a050180eefce0e1353abf4845451b0d9499964cb4c0d5800cb2f87b\",\n  \"unearned_claims_preserved\": [\n    \"untrimmedAFEstartup\",\n    \"450kADCcapacity\",\n    \"1Mbitraw4klink\",\n    \"2Kthermalclosure\",\n    \"all-conditionefficiency\",\n    \"physicalconvertertransients\"\n  ]\n}\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/power-study/sequence_study.py",
+          "--check"
+        ],
+        "returncode": 0,
+        "summary": "{\"scenario_groups\": 12, \"assertions_passed\": 182, \"snapshots\": 118, \"native_audit\": {\"native_XML_sha256_lf\": \"86dbfd66578c6f3a1a8d42e23fb0bf5d1da4fbb88a9560ab04fb40d7b0156be4\", \"native_manifest_sha256_lf\": \"8e09d19bcab498a826910319cb90a40363cef62c0710dc8db0945fc68938096f\", \"Boolean_input_rows\": 256, \"gate_output_comparisons\": 1536, \"gate_truth_sha256\": \"4e1b951a545dfd4ca90e4b53f7ad3b45be35761615a9c80877c6b623e38f99de\", \"open_drain_and_four_enable_pin_bindings\": 8, \"physical_propagation_supply_ramp_or_converter_loop_verified\": false}}\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/power-study/verify_integration.py"
+        ],
+        "returncode": 0,
+        "summary": "Power integration:32 new wires; 134 combined wires; 536 endpoint checks; nine rails and open-drain fault linked\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/monitoring-transport/verify_monitoring_transport.py"
+        ],
+        "returncode": 0,
+        "summary": "{\"components\": 60, \"pin_contracts_compared\": 217, \"sheets\": 8, \"erc_violations\": 0}\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/transport-study/transport_contract.py",
+          "--check"
+        ],
+        "returncode": 0,
+        "summary": "{\"status\": \"pass\", \"raw_frames\": 180, \"current_maximum_gap_us\": 6.375, \"protocol_cases\": 21, \"monitor_memory_bytes\": 7808}\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/transport-study/verify_transport.py"
+        ],
+        "returncode": 0,
+        "summary": "{\"schema\": \"scci_rh.stage4.transport-verification.v1\", \"status\": \"pass\", \"assertions\": 1552, \"results_sha256_lf\": \"c6e0d2bef0e0c101d2b1ca06634a89a87e05f92dc7a7ccbbd16b8438216969e7\", \"raw_ADC_frames\": 180, \"endpoint_captures\": 16, \"protocol_cases\": 21, \"producer_imported\": false}\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/transport-study/input_study.py"
+        ],
+        "returncode": 0,
+        "summary": "Transport input: 192 divider corners, 16 direct corners, six filter cases; active 2.800237 W / 5.496677 h conditional\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/transport-study/verify_input.py"
+        ],
+        "returncode": 0,
+        "summary": "Independent transport input audit: 52724 assertions passed\n"
+      },
+      {
+        "arguments": [
+          "electronics/stage4/transport-study/verify_integration.py"
+        ],
+        "returncode": 0,
+        "summary": "{\"schema\": \"scci_rh.stage4.monitoring-transport-integration.v1\", \"date\": \"2026-10-14\", \"status\": \"pass\", \"new_monitoring_transport_wires\": 34, \"combined_wire_plan_connections\": 168, \"endpoint_manifest_XML_comparisons\": 336, \"actual_interface_header_pins\": 21, \"assertions\": 395, \"native_packages\": 7, \"floating_recording_ground_preserved\": true, \"external_companion_ground_and_power_preserved\": true, \"shared_MISO_join_is_explicit\": true, \"consolidated_native_hierarchy_or_PCB_created\": false, \"target_host_or_peer_implemented\": false}\n"
+      }
+    ]
+  }
+}

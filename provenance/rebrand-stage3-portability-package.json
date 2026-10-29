@@ -51,6 +51,57 @@
           "new": "5ec15f8734a70668739741087cbf05778589c816b19f051af7a276b13f703971"
         }
       ]
+    },
+    {
+      "path": "scripts/audit_frozen_observer_pilot.py",
+      "before_sha256": "b0602a3c4b2066d9d308376d95a70e861d9b76893a86b4f5c011fbab303388c0",
+      "after_sha256": "0d4377d63d7b5fc581bc4b0fc328939f94bd13f65f0627f83fb27b226668940a",
+      "kind": "exact_source_bound_preflight_constant",
+      "fields": []
+    },
+    {
+      "path": "provenance/stage3-closeout-review.json",
+      "before_sha256": "de96ae0e7cfe15d0cd7acda9405c0b273e8db599f7588f648d77b501f4375667",
+      "after_sha256": "da9070b481036fdf516abfb6aaaec5da50867bbb16e4a6d919a16875f70afb75",
+      "kind": "explicit_exit_review_source_digest_bindings",
+      "fields": [
+        {
+          "field": "reviewed_replay_summary_sha256",
+          "source": "experiments/stage3/frozen-observer-pilot/summary.json",
+          "old": "932ca9bc826498f38c27e4205f1c786a81663bde12623ce3f656f1270de91e01",
+          "new": "8996d1225314f082fdc9d5f4aa8b100960938ea817b74a9f9448b97109f2e5a8"
+        },
+        {
+          "field": "package_manifest_sha256",
+          "source": "experiments/stage3/frozen-observer-pilot/artifact-manifest.json",
+          "old": "3ecc3ffc102c1d0331bd55ad8813ce7bdcfeef278923de8cbe8de589e780d7c4",
+          "new": "5448234d647e77e49ff786e87b06c9c467329d77ef96009b414ce47dbf07a02f"
+        },
+        {
+          "field": "independent_audit_receipt_sha256",
+          "source": "provenance/stage3-frozen-pilot-independent-audit.json",
+          "old": "7512d34c9cbb16150c74b41b5dbd7d192b8cebd5209a9318416aec4f75099bec",
+          "new": "a8a07121b35022ea83bf11cf022291bffa750d1c9429c4509a71dbb17331d52b"
+        },
+        {
+          "field": "independent_auditor_sha256",
+          "source": "scripts/audit_frozen_observer_pilot.py",
+          "old": "b0602a3c4b2066d9d308376d95a70e861d9b76893a86b4f5c011fbab303388c0",
+          "new": "0d4377d63d7b5fc581bc4b0fc328939f94bd13f65f0627f83fb27b226668940a"
+        },
+        {
+          "field": "preflight_sha256",
+          "source": "experiments/stage3/frozen-observer-pilot/preflight.json",
+          "old": "c98bbe518a79ea567a79fe5e4ab72225b7890400051f1c98ff076d33670a6577",
+          "new": "939ee5a99e4cda623496c6efa4888442c7f463a90c6515f59baa490955c87933"
+        },
+        {
+          "field": "generation_root_review_sha256",
+          "source": "experiments/stage3/frozen-observer-pilot/root-review.json",
+          "old": "5ec15f8734a70668739741087cbf05778589c816b19f051af7a276b13f703971",
+          "new": "b60e852818f0a1fb3cfe9d79848815979d0f20c7fd65ff972b924ff5c4668fb9"
+        }
+      ]
     }
   ]
 }

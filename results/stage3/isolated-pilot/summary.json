@@ -17,14 +17,14 @@
   "inputs": {
     "canonical_json_sha256": {
       "results/stage3/dynamic-response/dynamic-response-summary.json": "13b86fa10b39d0f066509c3d0eb9a3e5cdb0d3bacb6d8f2027e2c93c3ba73d45",
-      "results/stage3/resolved-teacher/summary.json": "23fa07452aa61c59ecf3be22e33d1f80039f3cd9eac6c0248171579497d81493"
+      "results/stage3/resolved-teacher/summary.json": "ab2b11e7d014781fdc2beba16a95e9222c1a92bc288f4731dead87bd62ec556d"
     },
     "dynamic_raw": {
       "path": "results/stage3/dynamic-response/2500us.json.gz",
       "sha256": "7f987686dd078a89913b1d86e27a87f565b7dc9c7237fe47ce0453cd84aea71e"
     },
     "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:cde051161d4537c0d07a",
-    "teacher_library_id": "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213",
+    "teacher_library_id": "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:6ce67f1fe0657b97e6bc",
     "teacher_generator": "idealized_inverse",
     "teacher_resource_accounting": {
       "unique_teacher_recording_seconds": 96.0,
@@ -66,7 +66,7 @@
   "scope": "actual model delivery into a private digital body; conditional one-frame reset-session experiment, not human efficacy",
   "raw": {
     "path": "raw.json.gz",
-    "sha256": "2d0ac02c1baa324fd321f378365eabc4ebc75db22c0d759193b46672050ea0fc",
+    "sha256": "0ba1a07a39b124dc726d0b503b74569cfe4d24e286bd56b6edc56dbcf938b0c0",
     "hash_scope": "exact deterministic gzip bytes"
   },
   "runtime_context": {
@@ -10365,7 +10365,7 @@
       ],
       "position_error_allocation_m": 0.0031159201248507117,
       "qualified": true,
-      "reference_id": "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213:expert_external:1Hz",
+      "reference_id": "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:6ce67f1fe0657b97e6bc:expert_external:1Hz",
       "independent_recording_ids": [
         "idealized_inverse:61007:1Hz",
         "idealized_inverse:71014:1Hz",
@@ -10390,7 +10390,7 @@
       ],
       "position_error_allocation_m": 0.0031199713754244164,
       "qualified": true,
-      "reference_id": "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213:expert_neural:1Hz",
+      "reference_id": "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:6ce67f1fe0657b97e6bc:expert_neural:1Hz",
       "independent_recording_ids": [
         "idealized_inverse:61007:1Hz",
         "idealized_inverse:71014:1Hz",

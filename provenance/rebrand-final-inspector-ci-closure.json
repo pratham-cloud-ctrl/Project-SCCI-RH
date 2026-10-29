@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-29",
+  "passed": true,
+  "scope": "Actual clean-checkout audit after the finite standalone SVG/hash-only metadata correction. Engineering functionality and numerical results unchanged.",
+  "command": [
+    "python",
+    "scripts/inspector/verify_inspector.py",
+    "--write-report"
+  ],
+  "files": [
+    {
+      "path": "provenance/browser-inspector-verification.json",
+      "current_sha256": "b48ca38bd3e36ab496192b34a50f8733217918f426abe27f0261671f0b5a90d9"
+    }
+  ]
+}

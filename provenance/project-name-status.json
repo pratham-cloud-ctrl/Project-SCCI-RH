@@ -26,9 +26,10 @@
     "stage5": 10843,
     "stage6": 1909,
     "reviewed_pdfs": 20,
-    "current_artifact_proofs": 811,
+    "current_artifact_proofs": 822,
     "stale_artifact_proofs": 0,
-    "reviewed_manuscript_pages": 29
+    "reviewed_manuscript_pages": 29,
+    "standalone_electronics_workflow_checks": 28
   },
   "publication_targets": {
     "repository": "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH",
@@ -37,5 +38,6 @@
   },
   "canonical_access_path": "E:\\Project SCCI RH",
   "final_release": "v2.1.1",
-  "publication_verification": "See the final GitHub release and Actions results linked from publication_targets; publication happens after this exact source snapshot is committed."
+  "publication_verification": "See the final GitHub release and Actions results linked from publication_targets; publication happens after this exact source snapshot is committed.",
+  "final_candidate_note": "The unpublished v2.1.1 candidate is finalized only after source/result identifier and standalone export integrity fixes pass. Published historical releases are retained."
 }

@@ -14,7 +14,7 @@
     "authorized_brand_migration": {
       "baseline_commit": "7a4371b7ff891248a5ab4f12e3149268485d828f",
       "files_compared": 2153,
-      "comparison_manifest_sha256": "e7c96a9b4d05852a9e0c683af14dcd78963eebe382646333729a36f5aaec547b",
+      "comparison_manifest_sha256": "ae8c29f6476a0b7b56090bf1bce6aee1e283159a1624bae6be55518796a6ead4",
       "scope": "Explicit brand migration; original immutable Git identities remain available",
       "rules": [
         "archive_member_brand_equivalence",
@@ -29,7 +29,7 @@
     }
   },
   "root_contract_canonical_sha256": "a55ee565bbe34708794e16433d94506b7cbc4018acb27615e9ecf2733beae138",
-  "stage4_verification_canonical_sha256": "d2b0af67905592a45db4a254da777d860b74651ee2e7f19d99ab55fff0487af2",
+  "stage4_verification_canonical_sha256": "db1adca8ba16131731a145452a3300f67ea305ef33b6fa43f88e098c9a4be6cb",
   "port_source_sha256_lf": "b7f98d085a9f37a1d2b0047cde472e9b08b5f5fa42b40ef2e28155c215c4a806",
   "packages": {
     "reference": {

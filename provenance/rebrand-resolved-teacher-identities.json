@@ -1,0 +1,998 @@
+{
+  "date": "2026-10-29",
+  "scope": "Two resolved-teacher stable protocol identities recomputed from exact source/config/capture-generation identities by the unchanged original protocol algorithm. Only equal-length ID strings, canonical frozen-object sibling SHA256, exact file hash aliases and bound file-size metadata changed. Scientific numeric literals and model arrays are unchanged; no source algorithm edited.",
+  "identity_map": {
+    "SCCI_RH-S3-RESOLVED-TEACHER-1:legacy_voluntary:8d577826bdd8cb3d5202": "SCCI_RH-S3-RESOLVED-TEACHER-1:legacy_voluntary:3afd0294d74b8cfcaebe",
+    "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213": "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:6ce67f1fe0657b97e6bc"
+  },
+  "algorithm": "stage3_resolved_teacher_study.py identity: sources,currentconfig,generator,captures generation_metadata; sorted compact JSON SHA256 first20hex",
+  "changes": [
+    {
+      "path": "results/stage3/isolated-pilot/raw.json.gz",
+      "before_sha256": "2d0ac02c1baa324fd321f378365eabc4ebc75db22c0d759193b46672050ea0fc",
+      "current_sha256": "e9267063f7a2e03e6583ede478b37dde480eebe10b64962d4a931e2e60c164ac",
+      "kind": "two_equal_length_protocol_ID_replacements",
+      "detail": {
+        "occurrences": {
+          "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213": 17
+        },
+        "inverse_exact_decoded_byte_equality": true
+      }
+    },
+    {
+      "path": "results/stage3/isolated-pilot/summary.json",
+      "before_sha256": "536ce8fb18f41278827c1e618013df3b9ad43b0be2e92d27d22a974c09ea9edc",
+      "current_sha256": "089e54e0faa6895ac0315aa8947e041634d402a64632bc3bf374eec8b4bbd98b",
+      "kind": "two_equal_length_protocol_ID_replacements",
+      "detail": {
+        "occurrences": {
+          "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213": 3
+        },
+        "inverse_exact_decoded_byte_equality": true
+      }
+    },
+    {
+      "path": "results/stage3/resolved-teacher/raw.json.gz",
+      "before_sha256": "b28cb2270e0dbd2324e0e63c50be9d7b46efbb72b2434ae46959132eb7a989ca",
+      "current_sha256": "63ddc06449d7d6915dd7874b390e532cebc16d0b467eda41ee5d2e5500f98111",
+      "kind": "two_equal_length_protocol_ID_replacements",
+      "detail": {
+        "occurrences": {
+          "SCCI_RH-S3-RESOLVED-TEACHER-1:legacy_voluntary:8d577826bdd8cb3d5202": 5,
+          "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213": 5
+        },
+        "inverse_exact_decoded_byte_equality": true
+      }
+    },
+    {
+      "path": "results/stage3/resolved-teacher/summary.json",
+      "before_sha256": "2716dedc2a96fb84c0ac2ff5d00a298d6b81f43426a89629992cec775a454516",
+      "current_sha256": "005dcc381632eb699a32b11efab419afc93fb1ebcda94f33c1efbeb8e0a80387",
+      "kind": "two_equal_length_protocol_ID_replacements",
+      "detail": {
+        "occurrences": {
+          "SCCI_RH-S3-RESOLVED-TEACHER-1:legacy_voluntary:8d577826bdd8cb3d5202": 5,
+          "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213": 5
+        },
+        "inverse_exact_decoded_byte_equality": true
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/preflight.json",
+      "before_sha256": "c98bbe518a79ea567a79fe5e4ab72225b7890400051f1c98ff076d33670a6577",
+      "current_sha256": "50a48e0be2f43ff316d6251c149cabdb8f624148f576484f889e8c5279d31b50",
+      "kind": "two_equal_length_protocol_ID_replacements",
+      "detail": {
+        "occurrences": {
+          "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213": 1
+        },
+        "inverse_exact_decoded_byte_equality": true
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+      "before_sha256": "6da580bc8658d55b86bd2957b08bad8cba941b8d4a19bb272ff822f8235b8a92",
+      "current_sha256": "27b4d14eb3dc8637c2bf41ada0c4fe99717c3018e6168b0af0207eb866ba9522",
+      "kind": "two_equal_length_protocol_ID_replacements",
+      "detail": {
+        "occurrences": {
+          "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213": 2
+        },
+        "inverse_exact_decoded_byte_equality": true
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+      "before_sha256": "5d0eb81e0d520f3beb771abbe1cc19d3ada4e716a7da131647b894e4bc66e57c",
+      "current_sha256": "c07e39adda7d51179288826e44639d0206e105f68046066ef12ff37f88d748d6",
+      "kind": "two_equal_length_protocol_ID_replacements",
+      "detail": {
+        "occurrences": {
+          "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213": 2
+        },
+        "inverse_exact_decoded_byte_equality": true
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+      "before_sha256": "696e89bf77e3d6e693002dc226781d541dc5353d6b410b26674f2ece4801d722",
+      "current_sha256": "dc89dfa6cb95aa4b1fa4f6501b46f1af9757bb86ddb72522c9ae2f9eea1033af",
+      "kind": "two_equal_length_protocol_ID_replacements",
+      "detail": {
+        "occurrences": {
+          "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213": 2
+        },
+        "inverse_exact_decoded_byte_equality": true
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+      "before_sha256": "c12329122758b8befc2376a7102d31dc2e25cd87182a7dac0518ea370c805559",
+      "current_sha256": "fdd99763270392bf499c64fcba231e35abb7215e6fb0f22c2731c3b80e5791f3",
+      "kind": "two_equal_length_protocol_ID_replacements",
+      "detail": {
+        "occurrences": {
+          "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213": 2
+        },
+        "inverse_exact_decoded_byte_equality": true
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+      "before_sha256": "be24c79109edc672187cafed35b15dcc7aef3cf307a84925a4baa7978cc5023b",
+      "current_sha256": "1a4ea2fefbb96b7d921fefa25f081203ad5b63e13ec73a26893f84c0d8b56b77",
+      "kind": "two_equal_length_protocol_ID_replacements",
+      "detail": {
+        "occurrences": {
+          "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213": 2
+        },
+        "inverse_exact_decoded_byte_equality": true
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+      "before_sha256": "1441dca050dc61a40765b42b066c876183334be9bf2fd4c8976395e720d24da2",
+      "current_sha256": "ef6fcfa973f208ef2545d9526037e3c6b1939106cb6fdcbf53eb532ffae2b786",
+      "kind": "two_equal_length_protocol_ID_replacements",
+      "detail": {
+        "occurrences": {
+          "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213": 2
+        },
+        "inverse_exact_decoded_byte_equality": true
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+      "before_sha256": "e6695bca0b9bb1558411360f2f5bd3707a4255102a7999ee7839584713aeb107",
+      "current_sha256": "18dda067d4ee6a51861d6f948312061b6683bc37578886d7725114f35bf7052f",
+      "kind": "two_equal_length_protocol_ID_replacements",
+      "detail": {
+        "occurrences": {
+          "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213": 2
+        },
+        "inverse_exact_decoded_byte_equality": true
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+      "before_sha256": "317cd3bf41be4d6f8d0d737652ab0fd672dd63a844ca81981cd199df67e5cae5",
+      "current_sha256": "fdcaedff618ac8e9172f4faee8ed7fd24b753164f054693f16d3b7ef764f2891",
+      "kind": "two_equal_length_protocol_ID_replacements",
+      "detail": {
+        "occurrences": {
+          "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213": 2
+        },
+        "inverse_exact_decoded_byte_equality": true
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/artifact-manifest.json",
+      "before_sha256": "3ecc3ffc102c1d0331bd55ad8813ce7bdcfeef278923de8cbe8de589e780d7c4",
+      "current_sha256": "cdf0ebaac5a181d2ee56200e6f6f78eec9f6c611815d382b3c9259c364cc067d",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "c98bbe518a79ea567a79fe5e4ab72225b7890400051f1c98ff076d33670a6577",
+            "current": "50a48e0be2f43ff316d6251c149cabdb8f624148f576484f889e8c5279d31b50"
+          },
+          {
+            "previous": "6da580bc8658d55b86bd2957b08bad8cba941b8d4a19bb272ff822f8235b8a92",
+            "current": "27b4d14eb3dc8637c2bf41ada0c4fe99717c3018e6168b0af0207eb866ba9522"
+          },
+          {
+            "previous": "5d0eb81e0d520f3beb771abbe1cc19d3ada4e716a7da131647b894e4bc66e57c",
+            "current": "c07e39adda7d51179288826e44639d0206e105f68046066ef12ff37f88d748d6"
+          },
+          {
+            "previous": "696e89bf77e3d6e693002dc226781d541dc5353d6b410b26674f2ece4801d722",
+            "current": "dc89dfa6cb95aa4b1fa4f6501b46f1af9757bb86ddb72522c9ae2f9eea1033af"
+          },
+          {
+            "previous": "c12329122758b8befc2376a7102d31dc2e25cd87182a7dac0518ea370c805559",
+            "current": "fdd99763270392bf499c64fcba231e35abb7215e6fb0f22c2731c3b80e5791f3"
+          },
+          {
+            "previous": "be24c79109edc672187cafed35b15dcc7aef3cf307a84925a4baa7978cc5023b",
+            "current": "1a4ea2fefbb96b7d921fefa25f081203ad5b63e13ec73a26893f84c0d8b56b77"
+          },
+          {
+            "previous": "1441dca050dc61a40765b42b066c876183334be9bf2fd4c8976395e720d24da2",
+            "current": "ef6fcfa973f208ef2545d9526037e3c6b1939106cb6fdcbf53eb532ffae2b786"
+          },
+          {
+            "previous": "e6695bca0b9bb1558411360f2f5bd3707a4255102a7999ee7839584713aeb107",
+            "current": "18dda067d4ee6a51861d6f948312061b6683bc37578886d7725114f35bf7052f"
+          },
+          {
+            "previous": "317cd3bf41be4d6f8d0d737652ab0fd672dd63a844ca81981cd199df67e5cae5",
+            "current": "fdcaedff618ac8e9172f4faee8ed7fd24b753164f054693f16d3b7ef764f2891"
+          }
+        ],
+        "bytes": [
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+            "previous": 584666,
+            "actual": 584663
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+            "previous": 584480,
+            "actual": 584478
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+            "previous": 583994,
+            "actual": 583993
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+            "previous": 584185,
+            "actual": 584182
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+            "previous": 584038,
+            "actual": 584037
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+            "previous": 583907,
+            "actual": 583905
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+            "previous": 584075,
+            "actual": 584070
+          }
+        ]
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/preflight.json",
+      "before_sha256": "50a48e0be2f43ff316d6251c149cabdb8f624148f576484f889e8c5279d31b50",
+      "current_sha256": "939ee5a99e4cda623496c6efa4888442c7f463a90c6515f59baa490955c87933",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "2716dedc2a96fb84c0ac2ff5d00a298d6b81f43426a89629992cec775a454516",
+            "current": "005dcc381632eb699a32b11efab419afc93fb1ebcda94f33c1efbeb8e0a80387"
+          }
+        ],
+        "bytes": []
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+      "before_sha256": "27b4d14eb3dc8637c2bf41ada0c4fe99717c3018e6168b0af0207eb866ba9522",
+      "current_sha256": "b98ddf94a7edbc8a78006fff633042e9f415b0c62c2ba42089a35b7901b98c23",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "c98bbe518a79ea567a79fe5e4ab72225b7890400051f1c98ff076d33670a6577",
+            "current": "939ee5a99e4cda623496c6efa4888442c7f463a90c6515f59baa490955c87933"
+          }
+        ],
+        "bytes": []
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+      "before_sha256": "c07e39adda7d51179288826e44639d0206e105f68046066ef12ff37f88d748d6",
+      "current_sha256": "d847f70760447a1f8c20d827ca0853001e8d97d2331e281a0a130d087de2d9d4",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "c98bbe518a79ea567a79fe5e4ab72225b7890400051f1c98ff076d33670a6577",
+            "current": "939ee5a99e4cda623496c6efa4888442c7f463a90c6515f59baa490955c87933"
+          }
+        ],
+        "bytes": []
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+      "before_sha256": "dc89dfa6cb95aa4b1fa4f6501b46f1af9757bb86ddb72522c9ae2f9eea1033af",
+      "current_sha256": "66c5d27ba05dcf2178fda115f46af7f369fd886aea4c90f9389f32702810b625",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "c98bbe518a79ea567a79fe5e4ab72225b7890400051f1c98ff076d33670a6577",
+            "current": "939ee5a99e4cda623496c6efa4888442c7f463a90c6515f59baa490955c87933"
+          }
+        ],
+        "bytes": []
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+      "before_sha256": "fdd99763270392bf499c64fcba231e35abb7215e6fb0f22c2731c3b80e5791f3",
+      "current_sha256": "ea4a0473038b6b1ee1ffef789eb5e0f45936550176ead65cc09406b99b9abbd2",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "c98bbe518a79ea567a79fe5e4ab72225b7890400051f1c98ff076d33670a6577",
+            "current": "939ee5a99e4cda623496c6efa4888442c7f463a90c6515f59baa490955c87933"
+          }
+        ],
+        "bytes": []
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+      "before_sha256": "1a4ea2fefbb96b7d921fefa25f081203ad5b63e13ec73a26893f84c0d8b56b77",
+      "current_sha256": "b2b993b003213d128dc69c29603d966ab39f2e45b542a9ce0b098c18a72ecfc1",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "c98bbe518a79ea567a79fe5e4ab72225b7890400051f1c98ff076d33670a6577",
+            "current": "939ee5a99e4cda623496c6efa4888442c7f463a90c6515f59baa490955c87933"
+          }
+        ],
+        "bytes": []
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+      "before_sha256": "ef6fcfa973f208ef2545d9526037e3c6b1939106cb6fdcbf53eb532ffae2b786",
+      "current_sha256": "50c8738b7dae6d8efe6e0f843541741ce21cac21de13d371bda569a18b367bd3",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "c98bbe518a79ea567a79fe5e4ab72225b7890400051f1c98ff076d33670a6577",
+            "current": "939ee5a99e4cda623496c6efa4888442c7f463a90c6515f59baa490955c87933"
+          }
+        ],
+        "bytes": []
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+      "before_sha256": "18dda067d4ee6a51861d6f948312061b6683bc37578886d7725114f35bf7052f",
+      "current_sha256": "50b1b9368b44917d2c87d78dc910485836efa48473f24d248e2da5a6997fddb0",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "c98bbe518a79ea567a79fe5e4ab72225b7890400051f1c98ff076d33670a6577",
+            "current": "939ee5a99e4cda623496c6efa4888442c7f463a90c6515f59baa490955c87933"
+          }
+        ],
+        "bytes": []
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+      "before_sha256": "fdcaedff618ac8e9172f4faee8ed7fd24b753164f054693f16d3b7ef764f2891",
+      "current_sha256": "45fb9c92fcddb9ff2b1bbe51a4741983738bbeb8ed522c62722f2ff711845a6a",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "c98bbe518a79ea567a79fe5e4ab72225b7890400051f1c98ff076d33670a6577",
+            "current": "939ee5a99e4cda623496c6efa4888442c7f463a90c6515f59baa490955c87933"
+          }
+        ],
+        "bytes": []
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/root-review.json",
+      "before_sha256": "5ec15f8734a70668739741087cbf05778589c816b19f051af7a276b13f703971",
+      "current_sha256": "b60e852818f0a1fb3cfe9d79848815979d0f20c7fd65ff972b924ff5c4668fb9",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "c98bbe518a79ea567a79fe5e4ab72225b7890400051f1c98ff076d33670a6577",
+            "current": "939ee5a99e4cda623496c6efa4888442c7f463a90c6515f59baa490955c87933"
+          }
+        ],
+        "bytes": []
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/summary.json",
+      "before_sha256": "932ca9bc826498f38c27e4205f1c786a81663bde12623ce3f656f1270de91e01",
+      "current_sha256": "9f7f9d429c0305caf72628039fe1575299f40d60fffdc180f30c41a987731a22",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "c98bbe518a79ea567a79fe5e4ab72225b7890400051f1c98ff076d33670a6577",
+            "current": "939ee5a99e4cda623496c6efa4888442c7f463a90c6515f59baa490955c87933"
+          },
+          {
+            "previous": "5ec15f8734a70668739741087cbf05778589c816b19f051af7a276b13f703971",
+            "current": "b60e852818f0a1fb3cfe9d79848815979d0f20c7fd65ff972b924ff5c4668fb9"
+          },
+          {
+            "previous": "6da580bc8658d55b86bd2957b08bad8cba941b8d4a19bb272ff822f8235b8a92",
+            "current": "b98ddf94a7edbc8a78006fff633042e9f415b0c62c2ba42089a35b7901b98c23"
+          },
+          {
+            "previous": "5d0eb81e0d520f3beb771abbe1cc19d3ada4e716a7da131647b894e4bc66e57c",
+            "current": "d847f70760447a1f8c20d827ca0853001e8d97d2331e281a0a130d087de2d9d4"
+          },
+          {
+            "previous": "696e89bf77e3d6e693002dc226781d541dc5353d6b410b26674f2ece4801d722",
+            "current": "66c5d27ba05dcf2178fda115f46af7f369fd886aea4c90f9389f32702810b625"
+          },
+          {
+            "previous": "c12329122758b8befc2376a7102d31dc2e25cd87182a7dac0518ea370c805559",
+            "current": "ea4a0473038b6b1ee1ffef789eb5e0f45936550176ead65cc09406b99b9abbd2"
+          },
+          {
+            "previous": "be24c79109edc672187cafed35b15dcc7aef3cf307a84925a4baa7978cc5023b",
+            "current": "b2b993b003213d128dc69c29603d966ab39f2e45b542a9ce0b098c18a72ecfc1"
+          },
+          {
+            "previous": "1441dca050dc61a40765b42b066c876183334be9bf2fd4c8976395e720d24da2",
+            "current": "50c8738b7dae6d8efe6e0f843541741ce21cac21de13d371bda569a18b367bd3"
+          },
+          {
+            "previous": "e6695bca0b9bb1558411360f2f5bd3707a4255102a7999ee7839584713aeb107",
+            "current": "50b1b9368b44917d2c87d78dc910485836efa48473f24d248e2da5a6997fddb0"
+          },
+          {
+            "previous": "317cd3bf41be4d6f8d0d737652ab0fd672dd63a844ca81981cd199df67e5cae5",
+            "current": "45fb9c92fcddb9ff2b1bbe51a4741983738bbeb8ed522c62722f2ff711845a6a"
+          }
+        ],
+        "bytes": [
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+            "previous": 584666,
+            "actual": 584661
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+            "previous": 584480,
+            "actual": 584474
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+            "previous": 583994,
+            "actual": 583997
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+            "previous": 584146,
+            "actual": 584148
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+            "previous": 584185,
+            "actual": 584180
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+            "previous": 584038,
+            "actual": 584035
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+            "previous": 583907,
+            "actual": 583904
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+            "previous": 584075,
+            "actual": 584068
+          }
+        ]
+      }
+    },
+    {
+      "path": "results/stage3/isolated-pilot/raw.json.gz",
+      "before_sha256": "e9267063f7a2e03e6583ede478b37dde480eebe10b64962d4a931e2e60c164ac",
+      "current_sha256": "0ba1a07a39b124dc726d0b503b74569cfe4d24e286bd56b6edc56dbcf938b0c0",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "23fa07452aa61c59ecf3be22e33d1f80039f3cd9eac6c0248171579497d81493",
+            "current": "ab2b11e7d014781fdc2beba16a95e9222c1a92bc288f4731dead87bd62ec556d"
+          }
+        ],
+        "bytes": []
+      }
+    },
+    {
+      "path": "results/stage3/isolated-pilot/summary.json",
+      "before_sha256": "089e54e0faa6895ac0315aa8947e041634d402a64632bc3bf374eec8b4bbd98b",
+      "current_sha256": "39bd6f5e929c435e38c510a3eaca934817e4b7dc3bfb266c2682eddd3ff7913b",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "23fa07452aa61c59ecf3be22e33d1f80039f3cd9eac6c0248171579497d81493",
+            "current": "ab2b11e7d014781fdc2beba16a95e9222c1a92bc288f4731dead87bd62ec556d"
+          },
+          {
+            "previous": "2d0ac02c1baa324fd321f378365eabc4ebc75db22c0d759193b46672050ea0fc",
+            "current": "0ba1a07a39b124dc726d0b503b74569cfe4d24e286bd56b6edc56dbcf938b0c0"
+          }
+        ],
+        "bytes": []
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/artifact-manifest.json",
+      "before_sha256": "cdf0ebaac5a181d2ee56200e6f6f78eec9f6c611815d382b3c9259c364cc067d",
+      "current_sha256": "0e52a6979008e412dbd95967695c1c43f9d00412d36a2bc8bdebfc338cc1b9d6",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "50a48e0be2f43ff316d6251c149cabdb8f624148f576484f889e8c5279d31b50",
+            "current": "939ee5a99e4cda623496c6efa4888442c7f463a90c6515f59baa490955c87933"
+          },
+          {
+            "previous": "27b4d14eb3dc8637c2bf41ada0c4fe99717c3018e6168b0af0207eb866ba9522",
+            "current": "b98ddf94a7edbc8a78006fff633042e9f415b0c62c2ba42089a35b7901b98c23"
+          },
+          {
+            "previous": "c07e39adda7d51179288826e44639d0206e105f68046066ef12ff37f88d748d6",
+            "current": "d847f70760447a1f8c20d827ca0853001e8d97d2331e281a0a130d087de2d9d4"
+          },
+          {
+            "previous": "dc89dfa6cb95aa4b1fa4f6501b46f1af9757bb86ddb72522c9ae2f9eea1033af",
+            "current": "66c5d27ba05dcf2178fda115f46af7f369fd886aea4c90f9389f32702810b625"
+          },
+          {
+            "previous": "fdd99763270392bf499c64fcba231e35abb7215e6fb0f22c2731c3b80e5791f3",
+            "current": "ea4a0473038b6b1ee1ffef789eb5e0f45936550176ead65cc09406b99b9abbd2"
+          },
+          {
+            "previous": "1a4ea2fefbb96b7d921fefa25f081203ad5b63e13ec73a26893f84c0d8b56b77",
+            "current": "b2b993b003213d128dc69c29603d966ab39f2e45b542a9ce0b098c18a72ecfc1"
+          },
+          {
+            "previous": "ef6fcfa973f208ef2545d9526037e3c6b1939106cb6fdcbf53eb532ffae2b786",
+            "current": "50c8738b7dae6d8efe6e0f843541741ce21cac21de13d371bda569a18b367bd3"
+          },
+          {
+            "previous": "18dda067d4ee6a51861d6f948312061b6683bc37578886d7725114f35bf7052f",
+            "current": "50b1b9368b44917d2c87d78dc910485836efa48473f24d248e2da5a6997fddb0"
+          },
+          {
+            "previous": "fdcaedff618ac8e9172f4faee8ed7fd24b753164f054693f16d3b7ef764f2891",
+            "current": "45fb9c92fcddb9ff2b1bbe51a4741983738bbeb8ed522c62722f2ff711845a6a"
+          },
+          {
+            "previous": "5ec15f8734a70668739741087cbf05778589c816b19f051af7a276b13f703971",
+            "current": "b60e852818f0a1fb3cfe9d79848815979d0f20c7fd65ff972b924ff5c4668fb9"
+          },
+          {
+            "previous": "932ca9bc826498f38c27e4205f1c786a81663bde12623ce3f656f1270de91e01",
+            "current": "9f7f9d429c0305caf72628039fe1575299f40d60fffdc180f30c41a987731a22"
+          }
+        ],
+        "bytes": [
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+            "previous": 584663,
+            "actual": 584661
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+            "previous": 584478,
+            "actual": 584474
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+            "previous": 583993,
+            "actual": 583997
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+            "previous": 584146,
+            "actual": 584148
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+            "previous": 584182,
+            "actual": 584180
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+            "previous": 584037,
+            "actual": 584035
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+            "previous": 583905,
+            "actual": 583904
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+            "previous": 584070,
+            "actual": 584068
+          }
+        ]
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+      "before_sha256": "b98ddf94a7edbc8a78006fff633042e9f415b0c62c2ba42089a35b7901b98c23",
+      "current_sha256": "65ac6ee87c2cfba34b628705dc1d62490f60b8483bf77324e61735fa31e47b19",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "5ec15f8734a70668739741087cbf05778589c816b19f051af7a276b13f703971",
+            "current": "b60e852818f0a1fb3cfe9d79848815979d0f20c7fd65ff972b924ff5c4668fb9"
+          }
+        ],
+        "bytes": []
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+      "before_sha256": "d847f70760447a1f8c20d827ca0853001e8d97d2331e281a0a130d087de2d9d4",
+      "current_sha256": "29494f940a289606acab6d9727feef74d68742c4989d66e1ba8c61ec13475140",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "5ec15f8734a70668739741087cbf05778589c816b19f051af7a276b13f703971",
+            "current": "b60e852818f0a1fb3cfe9d79848815979d0f20c7fd65ff972b924ff5c4668fb9"
+          }
+        ],
+        "bytes": []
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+      "before_sha256": "66c5d27ba05dcf2178fda115f46af7f369fd886aea4c90f9389f32702810b625",
+      "current_sha256": "fd11283e0ed452de24e508e14be688063832bf32ed39044266a5ea4e59204483",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "5ec15f8734a70668739741087cbf05778589c816b19f051af7a276b13f703971",
+            "current": "b60e852818f0a1fb3cfe9d79848815979d0f20c7fd65ff972b924ff5c4668fb9"
+          }
+        ],
+        "bytes": []
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+      "before_sha256": "ea4a0473038b6b1ee1ffef789eb5e0f45936550176ead65cc09406b99b9abbd2",
+      "current_sha256": "1185d003a7d27825e74eb0edaf2c6c6cef6984f45ddf3c9bd1d1d9bda4b3f1bb",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "5ec15f8734a70668739741087cbf05778589c816b19f051af7a276b13f703971",
+            "current": "b60e852818f0a1fb3cfe9d79848815979d0f20c7fd65ff972b924ff5c4668fb9"
+          }
+        ],
+        "bytes": []
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+      "before_sha256": "b2b993b003213d128dc69c29603d966ab39f2e45b542a9ce0b098c18a72ecfc1",
+      "current_sha256": "4ddda8c44b86acaafdf781f2f84b81dd164e965a3b166cc157181c14ee036583",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "5ec15f8734a70668739741087cbf05778589c816b19f051af7a276b13f703971",
+            "current": "b60e852818f0a1fb3cfe9d79848815979d0f20c7fd65ff972b924ff5c4668fb9"
+          }
+        ],
+        "bytes": []
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+      "before_sha256": "50c8738b7dae6d8efe6e0f843541741ce21cac21de13d371bda569a18b367bd3",
+      "current_sha256": "54403f2b2f9387b22b4bc116729f6473dd8f5d0f427a1e1585435513195f3031",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "5ec15f8734a70668739741087cbf05778589c816b19f051af7a276b13f703971",
+            "current": "b60e852818f0a1fb3cfe9d79848815979d0f20c7fd65ff972b924ff5c4668fb9"
+          }
+        ],
+        "bytes": []
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+      "before_sha256": "50b1b9368b44917d2c87d78dc910485836efa48473f24d248e2da5a6997fddb0",
+      "current_sha256": "d201062a7c99eb769879d0a3b574a75400c9c1311c48073520c856d45c9ebdae",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "5ec15f8734a70668739741087cbf05778589c816b19f051af7a276b13f703971",
+            "current": "b60e852818f0a1fb3cfe9d79848815979d0f20c7fd65ff972b924ff5c4668fb9"
+          }
+        ],
+        "bytes": []
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+      "before_sha256": "45fb9c92fcddb9ff2b1bbe51a4741983738bbeb8ed522c62722f2ff711845a6a",
+      "current_sha256": "361834f0370ade5a8212ab06813c44cede82af5ff1ecb162fe08a0d2dfafd0aa",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "5ec15f8734a70668739741087cbf05778589c816b19f051af7a276b13f703971",
+            "current": "b60e852818f0a1fb3cfe9d79848815979d0f20c7fd65ff972b924ff5c4668fb9"
+          }
+        ],
+        "bytes": []
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/summary.json",
+      "before_sha256": "9f7f9d429c0305caf72628039fe1575299f40d60fffdc180f30c41a987731a22",
+      "current_sha256": "8996d1225314f082fdc9d5f4aa8b100960938ea817b74a9f9448b97109f2e5a8",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "b98ddf94a7edbc8a78006fff633042e9f415b0c62c2ba42089a35b7901b98c23",
+            "current": "65ac6ee87c2cfba34b628705dc1d62490f60b8483bf77324e61735fa31e47b19"
+          },
+          {
+            "previous": "d847f70760447a1f8c20d827ca0853001e8d97d2331e281a0a130d087de2d9d4",
+            "current": "29494f940a289606acab6d9727feef74d68742c4989d66e1ba8c61ec13475140"
+          },
+          {
+            "previous": "66c5d27ba05dcf2178fda115f46af7f369fd886aea4c90f9389f32702810b625",
+            "current": "fd11283e0ed452de24e508e14be688063832bf32ed39044266a5ea4e59204483"
+          },
+          {
+            "previous": "ea4a0473038b6b1ee1ffef789eb5e0f45936550176ead65cc09406b99b9abbd2",
+            "current": "1185d003a7d27825e74eb0edaf2c6c6cef6984f45ddf3c9bd1d1d9bda4b3f1bb"
+          },
+          {
+            "previous": "b2b993b003213d128dc69c29603d966ab39f2e45b542a9ce0b098c18a72ecfc1",
+            "current": "4ddda8c44b86acaafdf781f2f84b81dd164e965a3b166cc157181c14ee036583"
+          },
+          {
+            "previous": "50c8738b7dae6d8efe6e0f843541741ce21cac21de13d371bda569a18b367bd3",
+            "current": "54403f2b2f9387b22b4bc116729f6473dd8f5d0f427a1e1585435513195f3031"
+          },
+          {
+            "previous": "50b1b9368b44917d2c87d78dc910485836efa48473f24d248e2da5a6997fddb0",
+            "current": "d201062a7c99eb769879d0a3b574a75400c9c1311c48073520c856d45c9ebdae"
+          },
+          {
+            "previous": "45fb9c92fcddb9ff2b1bbe51a4741983738bbeb8ed522c62722f2ff711845a6a",
+            "current": "361834f0370ade5a8212ab06813c44cede82af5ff1ecb162fe08a0d2dfafd0aa"
+          }
+        ],
+        "bytes": [
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+            "previous": 584661,
+            "actual": 584669
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+            "previous": 584474,
+            "actual": 584480
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+            "previous": 583997,
+            "actual": 584004
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+            "previous": 584148,
+            "actual": 584161
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+            "previous": 584180,
+            "actual": 584187
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+            "previous": 584035,
+            "actual": 584049
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+            "previous": 583904,
+            "actual": 583919
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+            "previous": 584068,
+            "actual": 584088
+          }
+        ]
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/artifact-manifest.json",
+      "before_sha256": "0e52a6979008e412dbd95967695c1c43f9d00412d36a2bc8bdebfc338cc1b9d6",
+      "current_sha256": "5448234d647e77e49ff786e87b06c9c467329d77ef96009b414ce47dbf07a02f",
+      "kind": "exact_current_digest_alias_and_explicit_file_length_metadata",
+      "detail": {
+        "hashes": [
+          {
+            "previous": "b98ddf94a7edbc8a78006fff633042e9f415b0c62c2ba42089a35b7901b98c23",
+            "current": "65ac6ee87c2cfba34b628705dc1d62490f60b8483bf77324e61735fa31e47b19"
+          },
+          {
+            "previous": "d847f70760447a1f8c20d827ca0853001e8d97d2331e281a0a130d087de2d9d4",
+            "current": "29494f940a289606acab6d9727feef74d68742c4989d66e1ba8c61ec13475140"
+          },
+          {
+            "previous": "66c5d27ba05dcf2178fda115f46af7f369fd886aea4c90f9389f32702810b625",
+            "current": "fd11283e0ed452de24e508e14be688063832bf32ed39044266a5ea4e59204483"
+          },
+          {
+            "previous": "ea4a0473038b6b1ee1ffef789eb5e0f45936550176ead65cc09406b99b9abbd2",
+            "current": "1185d003a7d27825e74eb0edaf2c6c6cef6984f45ddf3c9bd1d1d9bda4b3f1bb"
+          },
+          {
+            "previous": "b2b993b003213d128dc69c29603d966ab39f2e45b542a9ce0b098c18a72ecfc1",
+            "current": "4ddda8c44b86acaafdf781f2f84b81dd164e965a3b166cc157181c14ee036583"
+          },
+          {
+            "previous": "50c8738b7dae6d8efe6e0f843541741ce21cac21de13d371bda569a18b367bd3",
+            "current": "54403f2b2f9387b22b4bc116729f6473dd8f5d0f427a1e1585435513195f3031"
+          },
+          {
+            "previous": "50b1b9368b44917d2c87d78dc910485836efa48473f24d248e2da5a6997fddb0",
+            "current": "d201062a7c99eb769879d0a3b574a75400c9c1311c48073520c856d45c9ebdae"
+          },
+          {
+            "previous": "45fb9c92fcddb9ff2b1bbe51a4741983738bbeb8ed522c62722f2ff711845a6a",
+            "current": "361834f0370ade5a8212ab06813c44cede82af5ff1ecb162fe08a0d2dfafd0aa"
+          },
+          {
+            "previous": "9f7f9d429c0305caf72628039fe1575299f40d60fffdc180f30c41a987731a22",
+            "current": "8996d1225314f082fdc9d5f4aa8b100960938ea817b74a9f9448b97109f2e5a8"
+          }
+        ],
+        "bytes": [
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+            "previous": 584661,
+            "actual": 584669
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+            "previous": 584474,
+            "actual": 584480
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+            "previous": 583997,
+            "actual": 584004
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+            "previous": 584148,
+            "actual": 584161
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+            "previous": 584180,
+            "actual": 584187
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+            "previous": 584035,
+            "actual": 584049
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+            "previous": 583904,
+            "actual": 583919
+          },
+          {
+            "source": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+            "previous": 584068,
+            "actual": 584088
+          }
+        ]
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/artifact-manifest.json",
+      "current_sha256": "5448234d647e77e49ff786e87b06c9c467329d77ef96009b414ce47dbf07a02f",
+      "before_sha256": "3ecc3ffc102c1d0331bd55ad8813ce7bdcfeef278923de8cbe8de589e780d7c4"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/preflight.json",
+      "current_sha256": "939ee5a99e4cda623496c6efa4888442c7f463a90c6515f59baa490955c87933",
+      "before_sha256": "c98bbe518a79ea567a79fe5e4ab72225b7890400051f1c98ff076d33670a6577"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+      "current_sha256": "65ac6ee87c2cfba34b628705dc1d62490f60b8483bf77324e61735fa31e47b19",
+      "before_sha256": "6da580bc8658d55b86bd2957b08bad8cba941b8d4a19bb272ff822f8235b8a92"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+      "current_sha256": "29494f940a289606acab6d9727feef74d68742c4989d66e1ba8c61ec13475140",
+      "before_sha256": "5d0eb81e0d520f3beb771abbe1cc19d3ada4e716a7da131647b894e4bc66e57c"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+      "current_sha256": "fd11283e0ed452de24e508e14be688063832bf32ed39044266a5ea4e59204483",
+      "before_sha256": "696e89bf77e3d6e693002dc226781d541dc5353d6b410b26674f2ece4801d722"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+      "current_sha256": "1185d003a7d27825e74eb0edaf2c6c6cef6984f45ddf3c9bd1d1d9bda4b3f1bb",
+      "before_sha256": "c12329122758b8befc2376a7102d31dc2e25cd87182a7dac0518ea370c805559"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+      "current_sha256": "4ddda8c44b86acaafdf781f2f84b81dd164e965a3b166cc157181c14ee036583",
+      "before_sha256": "be24c79109edc672187cafed35b15dcc7aef3cf307a84925a4baa7978cc5023b"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+      "current_sha256": "54403f2b2f9387b22b4bc116729f6473dd8f5d0f427a1e1585435513195f3031",
+      "before_sha256": "1441dca050dc61a40765b42b066c876183334be9bf2fd4c8976395e720d24da2"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+      "current_sha256": "d201062a7c99eb769879d0a3b574a75400c9c1311c48073520c856d45c9ebdae",
+      "before_sha256": "e6695bca0b9bb1558411360f2f5bd3707a4255102a7999ee7839584713aeb107"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+      "current_sha256": "361834f0370ade5a8212ab06813c44cede82af5ff1ecb162fe08a0d2dfafd0aa",
+      "before_sha256": "317cd3bf41be4d6f8d0d737652ab0fd672dd63a844ca81981cd199df67e5cae5"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/root-review.json",
+      "current_sha256": "b60e852818f0a1fb3cfe9d79848815979d0f20c7fd65ff972b924ff5c4668fb9",
+      "before_sha256": "5ec15f8734a70668739741087cbf05778589c816b19f051af7a276b13f703971"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/summary.json",
+      "current_sha256": "8996d1225314f082fdc9d5f4aa8b100960938ea817b74a9f9448b97109f2e5a8",
+      "before_sha256": "932ca9bc826498f38c27e4205f1c786a81663bde12623ce3f656f1270de91e01"
+    },
+    {
+      "path": "results/stage3/isolated-pilot/raw.json.gz",
+      "current_sha256": "0ba1a07a39b124dc726d0b503b74569cfe4d24e286bd56b6edc56dbcf938b0c0",
+      "before_sha256": "2d0ac02c1baa324fd321f378365eabc4ebc75db22c0d759193b46672050ea0fc"
+    },
+    {
+      "path": "results/stage3/isolated-pilot/summary.json",
+      "current_sha256": "39bd6f5e929c435e38c510a3eaca934817e4b7dc3bfb266c2682eddd3ff7913b",
+      "before_sha256": "536ce8fb18f41278827c1e618013df3b9ad43b0be2e92d27d22a974c09ea9edc"
+    },
+    {
+      "path": "results/stage3/resolved-teacher/raw.json.gz",
+      "current_sha256": "63ddc06449d7d6915dd7874b390e532cebc16d0b467eda41ee5d2e5500f98111",
+      "before_sha256": "b28cb2270e0dbd2324e0e63c50be9d7b46efbb72b2434ae46959132eb7a989ca"
+    },
+    {
+      "path": "results/stage3/resolved-teacher/summary.json",
+      "current_sha256": "005dcc381632eb699a32b11efab419afc93fb1ebcda94f33c1efbeb8e0a80387",
+      "before_sha256": "2716dedc2a96fb84c0ac2ff5d00a298d6b81f43426a89629992cec775a454516"
+    }
+  ]
+}

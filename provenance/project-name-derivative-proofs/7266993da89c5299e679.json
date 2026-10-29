@@ -5,14 +5,14 @@
   "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
   "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
   "original_sha256": "c9be76c7036fe3f4930a9081c377db609e14f3a093dce9a5a8f13e836c7eebd4",
-  "current_sha256": "1441dca050dc61a40765b42b066c876183334be9bf2fd4c8976395e720d24da2",
+  "current_sha256": "54403f2b2f9387b22b4bc116729f6473dd8f5d0f427a1e1585435513195f3031",
   "method": "explicit_digest_bound_regeneration_or_review_evidence",
   "scope": "Authorized name migration; no new physical or biological validation",
   "review": "",
   "independent_evidence": [
     {
-      "path": "provenance/rebrand-frozen-forecast-identity-bindings.json",
-      "sha256_lf": "fb3b10859f559a95acb089535852cc3d698465447033aead00c8282aac028a8d"
+      "path": "provenance/rebrand-last-pilot-source-review.json",
+      "sha256_lf": "c4c2491323073a971c17d1e0775a6873ad933425b91b48081124ea0fada7706d"
     }
   ]
 }

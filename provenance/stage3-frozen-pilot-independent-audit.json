@@ -1,8 +1,8 @@
 {
   "schema": "scci_rh.stage3.frozen-observer-pilot-independent-audit.v1",
   "date": "2026-10-12",
-  "preflight_sha256": "c98bbe518a79ea567a79fe5e4ab72225b7890400051f1c98ff076d33670a6577",
-  "review_sha256": "5ec15f8734a70668739741087cbf05778589c816b19f051af7a276b13f703971",
+  "preflight_sha256": "939ee5a99e4cda623496c6efa4888442c7f463a90c6515f59baa490955c87933",
+  "review_sha256": "b60e852818f0a1fb3cfe9d79848815979d0f20c7fd65ff972b924ff5c4668fb9",
   "independent_raw_recomputation_passed": true,
   "practice": 32,
   "off": 64,
@@ -27,5 +27,5 @@
   "matched_arms_exactly_equal": true,
   "producer_or_controller_executed": false,
   "active_delivery_or_monitor_validation": false,
-  "auditor_source_sha256": "b0602a3c4b2066d9d308376d95a70e861d9b76893a86b4f5c011fbab303388c0"
+  "auditor_source_sha256": "0d4377d63d7b5fc581bc4b0fc328939f94bd13f65f0627f83fb27b226668940a"
 }

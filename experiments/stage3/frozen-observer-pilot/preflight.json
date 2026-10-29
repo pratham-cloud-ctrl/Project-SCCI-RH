@@ -17,7 +17,7 @@
       "experiments/stage3/observed-state-observer/frozen/observer-confirmation-summary-12oct.json": "89d79c3d3eb3dafb62964ed4d15ae922c4a1b7e775ea612d8b9d7d1c0cb65a59",
       "experiments/stage3/observed-state-observer/frozen/observer-confirmation-freeze-12oct.json": "6e4725e801f3e7e9eb88d0c9e40520c6ea0b462f9776cf4adb5831d6d6dcbac0",
       "results/stage3/dynamic-response/dynamic-response-summary.json": "89a8755105089e80f3c1758432d83f4b22299b0f2fb381fc906486c8781c8281",
-      "results/stage3/resolved-teacher/summary.json": "2716dedc2a96fb84c0ac2ff5d00a298d6b81f43426a89629992cec775a454516"
+      "results/stage3/resolved-teacher/summary.json": "005dcc381632eb699a32b11efab419afc93fb1ebcda94f33c1efbeb8e0a80387"
     },
     "bound_scci_rh_source_bytes_sha256": {
       "src/scci_rh/__init__.py": "4c890da9e9ad64e1fed281091e9efe5dfad3f86a445c05cb2a21aa241daef5a1",
@@ -47,7 +47,7 @@
       "sha256": "7f987686dd078a89913b1d86e27a87f565b7dc9c7237fe47ce0453cd84aea71e"
     },
     "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:cde051161d4537c0d07a",
-    "teacher_library_id": "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213",
+    "teacher_library_id": "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:6ce67f1fe0657b97e6bc",
     "teacher_generator": "idealized_inverse",
     "teacher_resource_accounting": {
       "unique_teacher_recording_seconds": 96.0,

@@ -5,14 +5,14 @@
   "path": "output/pdf/SCCI_RH_stage3_closeout.pdf",
   "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
   "original_sha256": "4b8e2e640ead23e0065028011c3bcbf1ddb54751ad86f75f8b5afd37a00a5089",
-  "current_sha256": "10fc08f9f8c169f349a96c39b30ef9de789a7d3d36dadb3d03a5e78eb3dcb081",
+  "current_sha256": "3953068fe7614880b6381169d79cce26b3b415a56077c02354a0926d27abab84",
   "method": "explicit_digest_bound_regeneration_or_review_evidence",
   "scope": "Authorized name migration; no new physical or biological validation",
   "review": "",
   "independent_evidence": [
     {
-      "path": "provenance/rebrand-pdf-review.json",
-      "sha256_lf": "94f2b2d31edc0dda21935f710b3058c66240e730296c0e9fc02812f19a5013e8"
+      "path": "provenance/rebrand-last-pilot-source-review.json",
+      "sha256_lf": "c4c2491323073a971c17d1e0775a6873ad933425b91b48081124ea0fada7706d"
     }
   ]
 }

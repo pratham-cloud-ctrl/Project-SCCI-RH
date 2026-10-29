@@ -5,14 +5,14 @@
   "path": "electronics/stage4/contact-router/svg/contact_router-source1.svg",
   "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
   "original_sha256": "4fcba3c2bd1a4dd2677fa3acd6fec943ca3b89f4162b93dc2ebab4322134765a",
-  "current_sha256": "9581bb09862c582c5f4468e3ae276755310801987e41d8a07bfa0a13d8bd36c6",
+  "current_sha256": "71235ccb59f58eea171133cd33bb6130bc406774bc42346c546a3e289f7b05af",
   "method": "explicit_digest_bound_regeneration_or_review_evidence",
   "scope": "Authorized name migration; no new physical or biological validation",
   "review": "",
   "independent_evidence": [
     {
-      "path": "provenance/rebrand-legacy-native-svg.json",
-      "sha256_lf": "72e16066a70bd8090ae9fddd687b65a7d9a7e151e09b3cce60b296c24af0232a"
+      "path": "provenance/rebrand-standalone-electrical-closure.json",
+      "sha256_lf": "c74d5d8846e9ba3e3ac3d1a7f5bfdb29c796104d8690f519e3a7be961e901588"
     }
   ]
 }

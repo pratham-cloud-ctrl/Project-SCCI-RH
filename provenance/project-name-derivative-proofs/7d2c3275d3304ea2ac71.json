@@ -5,9 +5,14 @@
   "path": "results/stage3/resolved-teacher/summary.json",
   "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
   "original_sha256": "410485314f7085650e472de3c431c830470458f94900bb8d355a6f06a991f704",
-  "current_sha256": "2716dedc2a96fb84c0ac2ff5d00a298d6b81f43426a89629992cec775a454516",
-  "method": "branding_and_fixed_length_digest_metadata_only",
+  "current_sha256": "005dcc381632eb699a32b11efab419afc93fb1ebcda94f33c1efbeb8e0a80387",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
   "scope": "Authorized name migration; no new physical or biological validation",
   "review": "",
-  "independent_evidence": []
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-last-pilot-source-review.json",
+      "sha256_lf": "c4c2491323073a971c17d1e0775a6873ad933425b91b48081124ea0fada7706d"
+    }
+  ]
 }

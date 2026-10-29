@@ -5,14 +5,14 @@
   "path": "provenance/stage4-integrated-pcb-verification.json",
   "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
   "original_sha256": "9bb78e27f09a2f59094672e96155bdd673299f9577b463cdd108b848b494ca5a",
-  "current_sha256": "3cfb738f01a08bb1eb2a33dcdbb35a0b0d5af5444c5f487389e6fb549cdaf582",
+  "current_sha256": "5b62bd3f35fd8715ae8df5c24264752732101f962be5df3515b389ad7f854ecf",
   "method": "explicit_digest_bound_regeneration_or_review_evidence",
   "scope": "Authorized name migration; no new physical or biological validation",
   "review": "",
   "independent_evidence": [
     {
-      "path": "provenance/rebrand-portable-stage4-validation.json",
-      "sha256_lf": "ec1d7d9690d6d0b2eb8a8db69f1c1ffffa8d03cb0ab22b9960736e6d6567be9a"
+      "path": "provenance/rebrand-final-stage4-ci-closure.json",
+      "sha256_lf": "96cc85e90ade0150d03d1e92460de11c3590ad02e7b88a9862cc87b6dcd13ba5"
     }
   ]
 }

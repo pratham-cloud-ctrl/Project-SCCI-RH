@@ -123,18 +123,18 @@
     "authorized_brand_migration": {
       "baseline_commit": "9f6cf0a4403a00549a858ae9f0cecdd9dce0c5bb",
       "files_compared": 2812,
-      "comparison_manifest_sha256": "741ba01e76818ecd505bb0797c9b667bab6e70eeab04a3572ddcb2e65d0670b5",
+      "comparison_manifest_sha256": "3a77a1ba69e2f8ceba9fbabcdf093dcdbf6fc3047db9467983c55fa841f1b040",
       "scope": "Explicit brand migration; original immutable Git identities remain available",
       "rules": [
         "archive_member_brand_equivalence",
         "attested_regeneration:branding_and_fixed_length_digest_metadata_only",
         "attested_regeneration:branding_and_solver_log_line_endings_only",
         "attested_regeneration:branding_digest_metadata_and_json_order_only",
+        "attested_regeneration:cached_native_exact_decompressed_brand_equivalence",
         "attested_regeneration:explicit_digest_bound_regeneration_or_review_evidence",
         "attested_regeneration:reviewed_branding_verifier_adaptation",
         "attested_regeneration:unchanged_drc_findings_with_actual_native_reexecution_and_source_bindings",
-        "byte_or_LF_normalized_brand_equivalence",
-        "gzip_uncompressed_text_brand_equivalence"
+        "byte_or_LF_normalized_brand_equivalence"
       ]
     },
     "allowed_reader_metadata_updates": [

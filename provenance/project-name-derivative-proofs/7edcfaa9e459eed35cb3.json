@@ -1,0 +1,21 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-29",
+  "passed": true,
+  "path": "results/stage3/motor-raw.json.gz",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "770763c7aca126d1fccde4f13135d660705b3718b6c3b559fe4b5f257d594497",
+  "current_sha256": "76586ecbe2d4e2c5e7e2b8fe739161e59797eb64315350f851745c40b93f0257",
+  "method": "cached_native_exact_decompressed_brand_equivalence",
+  "scope": "Reuse the already executed exact decompressed branding comparison only while original and current compressed byte hashes still match its native report. No new assumptions or weakened acceptance.",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-mesh-containers.json",
+      "sha256_lf": "d454c2e66a0f1fa5d9b2844009de75b89f423f2861c3235c30c340cb44211374"
+    },
+    {
+      "path": "provenance/rebrand-compressed-data-equivalence.json",
+      "sha256_lf": "a6c69b7fb563d403f28398bdc4856993abccca69c5a536a35c3a7d7ff7718b0f"
+    }
+  ]
+}

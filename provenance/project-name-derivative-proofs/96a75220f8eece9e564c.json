@@ -5,14 +5,14 @@
   "path": "results/stage3/isolated-pilot/raw.json.gz",
   "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
   "original_sha256": "27d4b9f9a92e03cd67040669bceb9c5ef485c46baf09c4357ac5071d8504b9b9",
-  "current_sha256": "2d0ac02c1baa324fd321f378365eabc4ebc75db22c0d759193b46672050ea0fc",
+  "current_sha256": "0ba1a07a39b124dc726d0b503b74569cfe4d24e286bd56b6edc56dbcf938b0c0",
   "method": "explicit_digest_bound_regeneration_or_review_evidence",
   "scope": "Authorized name migration; no new physical or biological validation",
   "review": "",
   "independent_evidence": [
     {
-      "path": "provenance/rebrand-stage3-portability-checks.json",
-      "sha256_lf": "cff0946b2b84b3745823fc1079ecf9f007474755502899dc44c6f407fef8f690"
+      "path": "provenance/rebrand-last-pilot-source-review.json",
+      "sha256_lf": "c4c2491323073a971c17d1e0775a6873ad933425b91b48081124ea0fada7706d"
     }
   ]
 }

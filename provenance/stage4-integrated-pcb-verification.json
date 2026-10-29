@@ -264,7 +264,7 @@
     "authorized_brand_migration": {
       "baseline_commit": "bf0bdf8dbf138481a492a7a50c65034b43bbdf99",
       "files_compared": 667,
-      "comparison_manifest_sha256": "c6fe2b01d229a6957557c56626acf2da663f4861329c05dd4a1e3bf5422ed97a",
+      "comparison_manifest_sha256": "dfe016f2809a3bc01a605216e7e34344cc6e80380a77399411c26d259f57e405",
       "scope": "Explicit brand migration; original immutable Git identities remain available",
       "rules": [
         "attested_regeneration:branding_and_fixed_length_digest_metadata_only",

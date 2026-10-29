@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-29",
+  "passed": true,
+  "scope": "Actual complete continuation/revision saved-data assertions rerun after resolved-teacher ID repair; only exact result hash maps changed; numerical checks and counts unchanged.",
+  "files": [
+    {
+      "path": "provenance/stage3-continuation-verification.json",
+      "current_sha256": "be3c174a1d663834553fcc8c7bed983792856f5c219dfbf4bd262fd4760e31d3",
+      "changed_fields": [
+        "result_semantic_or_binary_hashes"
+      ],
+      "numeric_check_counts_unchanged": true
+    },
+    {
+      "path": "provenance/stage3-revision-verification.json",
+      "current_sha256": "abce38f87d585e69d795d75b82e5b17f154fcb1788f772981e3bf7fab39d3c69",
+      "changed_fields": [
+        "result_semantic_or_binary_hashes"
+      ],
+      "numeric_check_counts_unchanged": true
+    }
+  ]
+}

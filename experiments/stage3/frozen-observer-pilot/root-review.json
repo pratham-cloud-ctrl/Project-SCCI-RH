@@ -2,7 +2,7 @@
   "schema": "scci_rh.stage3.frozen-observer-pilot.root-review.v1",
   "date": "2026-10-12",
   "authorized": true,
-  "preflight_sha256": "c98bbe518a79ea567a79fe5e4ab72225b7890400051f1c98ff076d33670a6577",
+  "preflight_sha256": "939ee5a99e4cda623496c6efa4888442c7f463a90c6515f59baa490955c87933",
   "reviewer": "Root AI engineering agent, with separate read-only AI audit; not human or institutional review",
   "reviewed": [
     "Complete protocol and producer/verifier source before outcome generation",

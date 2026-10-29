@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-29",
+  "passed": true,
+  "scope": "Actual clean-checkout audit after the finite standalone SVG/hash-only metadata correction. Engineering functionality and numerical results unchanged.",
+  "command": [
+    "python",
+    "scripts/verify_integrated_pcb.py",
+    "--write-report"
+  ],
+  "files": [
+    {
+      "path": "provenance/stage4-integrated-pcb-verification.json",
+      "current_sha256": "5b62bd3f35fd8715ae8df5c24264752732101f962be5df3515b389ad7f854ecf"
+    }
+  ]
+}

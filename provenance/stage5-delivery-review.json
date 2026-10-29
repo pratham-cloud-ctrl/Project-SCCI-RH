@@ -4,7 +4,7 @@
   "date": "2026-10-16",
   "source_geometry": "Saved native/STEP files validated by the independent Stage5 mechanical checkpoint",
   "artifact_byte_policy": "LF-normalized bytes for declared text_normalized entries; exact bytes for binary artifacts",
-  "independent_mechanical_report_sha256": "fb904725f9d1a1b986b940ab2230983d78d24c4b050c997841eb5d28fbe88598",
+  "independent_mechanical_report_sha256": "8f3a0b7dd39f467be1693709b492b222a74b26e5ce349d580a6f6395c4220c51",
   "artifacts": {
     "cad/stage5/assemble_reference_full.py": {
       "sha256": "399515c485e469cc687d1aae87c3aed0d2f8e45a3d466bddeffc7a7b6c5c40b7",

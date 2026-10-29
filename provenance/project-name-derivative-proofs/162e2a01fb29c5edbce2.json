@@ -5,14 +5,14 @@
   "path": "electronics/stage4/monitoring-transport/svg/monitoring_transport-reference.svg",
   "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
   "original_sha256": "a0c84d65ddec59a416d793175fc406447131e8b3101bbd7dc1d603415f6cd29c",
-  "current_sha256": "14f092bfbb238ef82f661b83033fea682e96abe68156b84909643ec70468dcb6",
+  "current_sha256": "8b6758d954df9c4cfdc4da7e26dbbeb65bade59ffd3bed7256b29873df0f4d87",
   "method": "explicit_digest_bound_regeneration_or_review_evidence",
   "scope": "Authorized name migration; no new physical or biological validation",
   "review": "",
   "independent_evidence": [
     {
-      "path": "provenance/rebrand-legacy-native-svg.json",
-      "sha256_lf": "72e16066a70bd8090ae9fddd687b65a7d9a7e151e09b3cce60b296c24af0232a"
+      "path": "provenance/rebrand-standalone-electrical-closure.json",
+      "sha256_lf": "c74d5d8846e9ba3e3ac3d1a7f5bfdb29c796104d8690f519e3a7be961e901588"
     }
   ]
 }

@@ -5,14 +5,14 @@
   "path": "provenance/stage3-frozen-pilot-independent-audit.json",
   "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
   "original_sha256": "6ee1045479136fe96d6290c6c3ccbcb8d8a8eb03b2c0b11a08f32da85182a6b8",
-  "current_sha256": "7512d34c9cbb16150c74b41b5dbd7d192b8cebd5209a9318416aec4f75099bec",
+  "current_sha256": "a8a07121b35022ea83bf11cf022291bffa750d1c9429c4509a71dbb17331d52b",
   "method": "explicit_digest_bound_regeneration_or_review_evidence",
   "scope": "Authorized name migration; no new physical or biological validation",
   "review": "",
   "independent_evidence": [
     {
-      "path": "provenance/rebrand-portable-pilot-final-validation.json",
-      "sha256_lf": "b97e02468a01176f71a7a4eaa54ccbab99b8562c19f5e44c1bc7ce3c11492b87"
+      "path": "provenance/rebrand-last-pilot-source-review.json",
+      "sha256_lf": "c4c2491323073a971c17d1e0775a6873ad933425b91b48081124ea0fada7706d"
     }
   ]
 }

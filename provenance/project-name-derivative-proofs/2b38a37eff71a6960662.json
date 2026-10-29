@@ -5,14 +5,14 @@
   "path": "electronics/stage4/power/svg/power-sup5.svg",
   "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
   "original_sha256": "3b3ebdf15617a749a1eac10678bd40cbf7933fbf77327a9638318f7a002a1c18",
-  "current_sha256": "0fdd5640feb0d798d26874ecb9e8588adf4fa96d4400e15da4b1c053f5fded87",
+  "current_sha256": "7b79d65b24ba99df1d758351b9611fd1e72342b48dc39bd764319802bd8caaaf",
   "method": "explicit_digest_bound_regeneration_or_review_evidence",
   "scope": "Authorized name migration; no new physical or biological validation",
   "review": "",
   "independent_evidence": [
     {
-      "path": "provenance/rebrand-legacy-native-svg.json",
-      "sha256_lf": "72e16066a70bd8090ae9fddd687b65a7d9a7e151e09b3cce60b296c24af0232a"
+      "path": "provenance/rebrand-standalone-electrical-closure.json",
+      "sha256_lf": "c74d5d8846e9ba3e3ac3d1a7f5bfdb29c796104d8690f519e3a7be961e901588"
     }
   ]
 }
