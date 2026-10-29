@@ -2,14 +2,14 @@
 
 **17 October 2026.** The bounded review inspected the current eight-board
 electrical reference, application/backend and production policy code against
-ATO's two ambitions and its digital-only scope. The goal was to resolve concrete
+SCCI_RH's two ambitions and its digital-only scope. The goal was to resolve concrete
 inconsistencies, not to require original biological proof before presenting a
 defensible future concept.
 
 ## Corrected defect
 
 **UART envelope interleaving, material software defect.** In the preserved
-`firmware/nrf5340/app/src/ato_backend.c`, the TX callback selected normal or raw
+`firmware/nrf5340/app/src/scci_rh_backend.c`, the TX callback selected normal or raw
 queue again after every FIFO opportunity. A normal telemetry frame arriving
 after a partially transmitted raw frame could therefore appear inside the raw
 frame. This corrupts companion framing/CRC and impairs inspectable telemetry.

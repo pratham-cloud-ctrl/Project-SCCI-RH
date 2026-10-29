@@ -6,7 +6,7 @@ The [conditional mechanism](conditional-concept.md) is the current design baseli
 its assumptions need not already be experimentally demonstrated. The historical implementation connects synthetic
 spinal contact observations, causal interpretation, learner calibration, expert
 representations, pulse delivery and modeled task response. Both motor learning
-and selected physiological feedback remain central to Project ATO.
+and selected physiological feedback remain central to Project SCCI RH.
 
 This package is separate from the historical release1.0 models. It does not report
 human recordings, human learning, a populated implant circuit or physical CAD fit.
@@ -18,7 +18,7 @@ complete electronics and populated engineering CAD follow the mechanism work.
 | [Conditional concept v1](conditional-concept.md) / [15-entry premise ledger](conditional-concept/assumption-ledger.csv) / [design handoff](conditional-concept/engineering-handoff.md) | Evidence-grounded future architecture, explicit undemonstrated assumptions and finite completion boundary |
 | [New conditional scenario study](../../experiments/stage3/conditional-concept/README.md) | 128 scenarios; causal synthetic spinal features and assistance; favorable/equal/adverse OFF learning; old frozen studies unchanged |
 | [Portable historical pilot verifier](../../scripts/verify_frozen_pilot_portable.py) | Restores only hash-verified original CRLF inherited contexts in scratch; frozen study/auditor and repository originals stay unchanged |
-| [Exit review](exit-review.md) / [integrated verdict](stage3-verdict.md) / [illustrated closeout report](../../output/pdf/ATO_stage3_closeout.pdf) | Finite digital investigation completed; active assistance and retained benefit remain unavailable under present evidence |
+| [Exit review](exit-review.md) / [integrated verdict](stage3-verdict.md) / [illustrated closeout report](../../output/pdf/SCCI_RH_stage3_closeout.pdf) | Finite digital investigation completed; active assistance and retained benefit remain unavailable under present evidence |
 | [Final frozen-observer replay](../../experiments/stage3/frozen-observer-pilot/README.md) | 32 practice/64 OFF sessions; zero launches; sealed predictions and guards verified; no active delivery path implemented |
 | [Continuation review and next work](continuation-review.md) | Verified numerical/input/response/teacher checks, integrated findings and remaining design tasks |
 | [Evidence-to-design revision](evidence-to-design-revision.md) | Original paper and primary experiments mapped to specific engineering tests |
@@ -33,7 +33,7 @@ complete electronics and populated engineering CAD follow the mechanism work.
 | [Observed-state observer confirmation](../../experiments/stage3/observed-state-observer/README.md) | Frozen measured-data method; 32 fresh-noise grid captures within the finite no-dose forecast budget; separate from the connected replay |
 | [Observer integration plan](observer-integration-plan.md) / [independent saved-data review](observed-state-independent-review.md) | Preserved pre-implementation plan and component review; completed actual-only replay retains delivery/learning-interaction limits |
 | [First Stage 4 monitoring slice](../stage4/entry-plan.md) | Native two-source phase-charge investigation and explicit power/leakage constraints; full electronics remain pending |
-| [Illustrated mechanism revision report](../../output/pdf/ATO_stage3_mechanism_revision.pdf) | Eight-page technical report covering the selected teacher/source/prediction/precision and dynamic-response revisions |
+| [Illustrated mechanism revision report](../../output/pdf/SCCI_RH_stage3_mechanism_revision.pdf) | Eight-page technical report covering the selected teacher/source/prediction/precision and dynamic-response revisions |
 | [Mathematical specification](mathematical-specification.md) | Causal information partitions, units, electrical equations and observation bounds |
 | [Motor mechanism](motor-model.md) | Contact acquisition, expert/learner comparisons, active practice, OFF retention and transfer |
 | [Pressure mechanism](pressure-model.md) | External SBP, identified pressor authority, support timing, faults and overshoot |

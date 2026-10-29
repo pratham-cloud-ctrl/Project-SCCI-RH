@@ -21,9 +21,9 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'src'))
-from ato.stage3.motor import (MotorConfig, run_study, FAMILIES, CONDITIONS,
+from scci_rh.stage3.motor import (MotorConfig, run_study, FAMILIES, CONDITIONS,
                               EXTERNAL_HISTORY_CONDITIONS)
-from ato.stage3.electrical import MotorDelivery
+from scci_rh.stage3.electrical import MotorDelivery
 from run_stage3_studies import close_nested
 
 OUT = ROOT/'results/stage3/information'
@@ -31,9 +31,9 @@ DOC = ROOT/'docs/stage3/information-comparison.md'
 ALL_CONDITIONS = CONDITIONS + EXTERNAL_HISTORY_CONDITIONS
 FAULTS = ('shuffled_expert', 'incorrect_map', 'stale_external',
           'artifact_recovery', 'saturation', 'source_drift')
-SOURCE_PATHS = ('src/ato/stage3/motor.py', 'src/ato/stage3/acquisition.py',
-                'src/ato/stage3/filter_residual.py', 'src/ato/stage3/external_history.py',
-                'src/ato/stage3/electrical.py', 'scripts/stage3_information_comparison.py')
+SOURCE_PATHS = ('src/scci_rh/stage3/motor.py', 'src/scci_rh/stage3/acquisition.py',
+                'src/scci_rh/stage3/filter_residual.py', 'src/scci_rh/stage3/external_history.py',
+                'src/scci_rh/stage3/electrical.py', 'scripts/stage3_information_comparison.py')
 
 
 def canonical(value):
@@ -71,7 +71,7 @@ def run_one(task):
                       MotorDelivery() if task['actual_electrical'] else None,
                       families=FAMILIES, conditions=ALL_CONDITIONS, faults=task['faults'])
     print(f"{task['id']}: finished in {time.perf_counter()-started:.1f} s", flush=True)
-    return {'schema': 'ato.stage3.information-study.v1', 'task': task,
+    return {'schema': 'scci_rh.stage3.information-study.v1', 'task': task,
             'source_sha256': source_hashes(), 'study': study}
 
 
@@ -124,7 +124,7 @@ def summarize_run(raw):
 
 def summary_receipt(raw_runs, output_dir=OUT):
     runs = [summarize_run(raw) for raw in raw_runs]
-    return {'schema': 'ato.stage3.information-comparison.v1',
+    return {'schema': 'scci_rh.stage3.information-comparison.v1',
             'scope': 'chosen synthetic source hypotheses and plasticity; no clinical or consumer efficacy',
             'source_sha256': source_hashes(),
             'numerical_reproduction_tolerances': {'relative': 2e-8, 'absolute': 1e-11},

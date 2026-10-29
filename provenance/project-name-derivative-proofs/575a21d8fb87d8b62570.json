@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/exports/contact-router/isometric.png",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "3a0150bbd04452fe84fb3b7c96bd1f83a7e696f0a57da4c2fb1ed11ebf47dc48",
+  "current_sha256": "a2159ea61cd9e05eb71cbbd21d9f125e47c0985143179032b34c9bf16ed19965",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-native-pcb-visuals.json",
+      "sha256_lf": "4f05937d3cf81c9eb11969cd98123a39259b7f0267eed58d7d41444662494514"
+    }
+  ]
+}

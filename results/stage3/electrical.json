@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage3.electrical-study.v1",
+  "schema": "scci_rh.stage3.electrical-study.v1",
   "scope": "exact reduced electrical loads; no chemistry or efficacy",
   "cases": [
     {

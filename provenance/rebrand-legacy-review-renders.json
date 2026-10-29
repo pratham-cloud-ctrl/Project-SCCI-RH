@@ -1,0 +1,775 @@
+{
+  "renderer": "Qt QSvgRenderer from freshly native-exported KiCad SVG",
+  "files": [
+    {
+      "path": "electronics/stage4/contact-router/review/page-4.png",
+      "source": "electronics/stage4/contact-router/svg/contact_router-address.svg",
+      "native_page": 4,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "61a148a77bb5dd4f255591839a72d8043434ff3f6fa9176a34aafedd03656767",
+      "after_sha256": "ed231e695d7341f351af16503c4620900badff73dd326cef97bd49b3363eea8e",
+      "source_sha256": "7b068e00f792111173595d4bc4dc2805d9fadc6868dc09418a97876593bad2ea"
+    },
+    {
+      "path": "electronics/stage4/contact-router/review/page-5.png",
+      "source": "electronics/stage4/contact-router/svg/contact_router-admission.svg",
+      "native_page": 5,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "d1ef73944090bbfa2d8fa1dd27d073da608d5994414fdededd15167beb494817",
+      "after_sha256": "1036df19a4d5790c6b72d6592ea0a15f5e047f93ab11be1a9bd3df1394bbe758",
+      "source_sha256": "e924ae0db8fd34dbe9591c32b50dc96e2fda0cbac7525c4ff14a866b3fd2e916"
+    },
+    {
+      "path": "electronics/stage4/contact-router/review/page-6.png",
+      "source": "electronics/stage4/contact-router/svg/contact_router-collision.svg",
+      "native_page": 6,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "ac49fb46523da1df4d0fadb20f24d2e815bab08dd48cf6b64f0533fed0465425",
+      "after_sha256": "09ec21d2ab6c65c225666f3d139333312bad4738fc85477f683aadf1bb3f532b",
+      "source_sha256": "aade11bd38ae295f36634d2c01e8b9c05067f04206cc49632417c46f19d386aa"
+    },
+    {
+      "path": "electronics/stage4/contact-router/review/page-2.png",
+      "source": "electronics/stage4/contact-router/svg/contact_router-source0.svg",
+      "native_page": 2,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "e95b4cde7e50bb2a24234b1e006bdbefb78e15d2f9e268401fbdf18e399ed036",
+      "after_sha256": "af352010ebec57fed1afcfb407874806e195d97f8c51b45267ecd5a11da9f246",
+      "source_sha256": "2335a770edcdc882c98d2fce062d85d720c4caabd0817afea08a1ed37268272d"
+    },
+    {
+      "path": "electronics/stage4/contact-router/review/page-3.png",
+      "source": "electronics/stage4/contact-router/svg/contact_router-source1.svg",
+      "native_page": 3,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "4b82b563622eefec83d6e69cd68df015ffb6dd13cc9ba01fd2f02de833ab2231",
+      "after_sha256": "f7a53b7011020a46f0978eb5f62356d53a4d449fce2e5a0147d3d2d040e528c6",
+      "source_sha256": "9581bb09862c582c5f4468e3ae276755310801987e41d8a07bfa0a13d8bd36c6"
+    },
+    {
+      "path": "electronics/stage4/contact-router/review/page-1.png",
+      "source": "electronics/stage4/contact-router/svg/contact_router.svg",
+      "native_page": 1,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "58940b5d1f8b32e58da0b7fee646981395cc04cb60f7902b2fef1bcab50c450b",
+      "after_sha256": "18fc6b3436b697ba60bc7e9224b64951be52fbe017fd0cfd2a81482a7a75d34f",
+      "source_sha256": "35d8366ffcd15daa02388d9559e7e10072d763cc945bd6925d87464416e1ac38"
+    },
+    {
+      "path": "electronics/stage4/controller-carrier/review/page-8.png",
+      "source": "electronics/stage4/controller-carrier/svg/controller_carrier-defaults.svg",
+      "native_page": 8,
+      "width": 2070,
+      "height": 1464,
+      "before_sha256": "abe4dc9b3fcdc2e78bfa741a40bd38962e13efffaa473d4faea913797597ba7b",
+      "after_sha256": "206521e72521dd47df8e3e58815f93367eb0429a1e0ffade14b5a52da73dfb1f",
+      "source_sha256": "673b5ee8019515d07d6de05f0b4834196d3b52bae3cc93a0dd2f6602e17fc10b"
+    },
+    {
+      "path": "electronics/stage4/controller-carrier/review/page-9.png",
+      "source": "electronics/stage4/controller-carrier/svg/controller_carrier-defaults_2.svg",
+      "native_page": 9,
+      "width": 2070,
+      "height": 1464,
+      "before_sha256": "48fa72369328c46dda52bdf4d811cd77504c8a6f043939f9db5320d029b64b0f",
+      "after_sha256": "4bfb86655f1ad63280b89f36ab80b09286eb3f1fe2d4b6c4eb283666093bec91",
+      "source_sha256": "023672eb8c05515c60800e8ffa102b356bc2109d7d4dde4288c71546d1f2064d"
+    },
+    {
+      "path": "electronics/stage4/controller-carrier/review/page-10.png",
+      "source": "electronics/stage4/controller-carrier/svg/controller_carrier-defaults_3.svg",
+      "native_page": 10,
+      "width": 2070,
+      "height": 1464,
+      "before_sha256": "d6e35a2c4a563348127a8df72dbade48f04fb695dc0523e34604a2703860e46f",
+      "after_sha256": "49e0a99ab153d3e173ca792d7feff053038baa0cf324fc719545ef2e52180eea",
+      "source_sha256": "83d610533ae1216bfd4ea8e8259f3d4c7100bfe010553caf22170c84f5064403"
+    },
+    {
+      "path": "electronics/stage4/controller-carrier/review/page-5.png",
+      "source": "electronics/stage4/controller-carrier/svg/controller_carrier-handoff.svg",
+      "native_page": 5,
+      "width": 2070,
+      "height": 1464,
+      "before_sha256": "e77a38aa2cbd87b1fefc067ff748587489bfdc73407ffa000d7d4cc7449a732d",
+      "after_sha256": "a2c69df0f83c21eea23e8ea877a64cf6cc4c653ced47eed1fc52615b5a53ab52",
+      "source_sha256": "c98fb2ae6c98b3775bc262721573e9c0d8ebd2d467b21376e3befc053a8095b3"
+    },
+    {
+      "path": "electronics/stage4/controller-carrier/review/page-6.png",
+      "source": "electronics/stage4/controller-carrier/svg/controller_carrier-handoff_2.svg",
+      "native_page": 6,
+      "width": 2070,
+      "height": 1464,
+      "before_sha256": "9bdf3195011223c6c4f1338cdbd4bcb3b6756e1726bfbbbff15aa160f5a8a716",
+      "after_sha256": "4500edc94807b48fe8b83a140213e9ad1ac393543dda964591706ee7ddbeb1d7",
+      "source_sha256": "5dc880fb6d218d11428a04a63be04ada7cc17bf061417aa9cb2a3b3c4ff6d6aa"
+    },
+    {
+      "path": "electronics/stage4/controller-carrier/review/page-7.png",
+      "source": "electronics/stage4/controller-carrier/svg/controller_carrier-handoff_3.svg",
+      "native_page": 7,
+      "width": 2070,
+      "height": 1464,
+      "before_sha256": "874be8707ed371655a1b73f26a944edb6d01e8a64f9e9cf94650469ce21b6382",
+      "after_sha256": "af458ab68199dec456aa6c7225ebc924fe8a160deec7d1a62c03d4d832c360dd",
+      "source_sha256": "167780cd55de4c7a9f82eb0d30ce53c995cf5bb40457f6933cd779dc2a32743b"
+    },
+    {
+      "path": "electronics/stage4/controller-carrier/review/page-3.png",
+      "source": "electronics/stage4/controller-carrier/svg/controller_carrier-power.svg",
+      "native_page": 3,
+      "width": 2070,
+      "height": 1464,
+      "before_sha256": "1cfd54b3b30fef1fa5e5350f9e4ec9a0942dd0e2a5b3d965ec600bb7a8095668",
+      "after_sha256": "d4517de2f3cf307213f1a36426c1730b017d64b638b64ac7bdf8b3df6c52b631",
+      "source_sha256": "442d5e7ff672f748d5ed0ba668fd2cff6ebf959ab2627039e9a609e4ee027ab3"
+    },
+    {
+      "path": "electronics/stage4/controller-carrier/review/page-2.png",
+      "source": "electronics/stage4/controller-carrier/svg/controller_carrier-processor.svg",
+      "native_page": 2,
+      "width": 2070,
+      "height": 1464,
+      "before_sha256": "0915ee5e724f9941d6106858e379f1eb7bccbc430ef1507ec62e77336e1683d9",
+      "after_sha256": "b2436c938818c8d3cec73b63f6cb4d3bbd1023ee460f7359a72a2331758fe7a3",
+      "source_sha256": "6aee32fcf85631f72b97ed2efdc03b1ca6c7ebbf68f59b7aa605e1c08a7aa47a"
+    },
+    {
+      "path": "electronics/stage4/controller-carrier/review/page-4.png",
+      "source": "electronics/stage4/controller-carrier/svg/controller_carrier-sideband.svg",
+      "native_page": 4,
+      "width": 2070,
+      "height": 1464,
+      "before_sha256": "6461897b3cd4ed1473a3a2d1c3e3ae08c1c99efcba1f2b706d67096e88f7f3f4",
+      "after_sha256": "e27d2f72ba088e97ae2b548e3e83796e0701f7a9d1f84eaa9afa7f94267c2ff3",
+      "source_sha256": "1b3c4edb27dc16eb2a2ac8908a4408e013bf5a1686f66716569f21942356c4b8"
+    },
+    {
+      "path": "electronics/stage4/controller-carrier/review/page-1.png",
+      "source": "electronics/stage4/controller-carrier/svg/controller_carrier.svg",
+      "native_page": 1,
+      "width": 2070,
+      "height": 1464,
+      "before_sha256": "89e56b7cfed4d1d89d3899f3000520087c642d2a01690c96d606f44b4a9e96ff",
+      "after_sha256": "087234d482025aa989d7f905ccd51e8b5b56ea5a963851bf88d8551716a41b30",
+      "source_sha256": "c55bfa874f99b49433f5b26705f6ab672396746a8def30d7ea12fc38bd7c308a"
+    },
+    {
+      "path": "electronics/stage4/current-driver/review/page-2.png",
+      "source": "electronics/stage4/current-driver/svg/current_driver-Source0_analog.svg",
+      "native_page": 2,
+      "width": 2200,
+      "height": 1556,
+      "before_sha256": "2936053f6a3ac59fabbf8757ae07a4bfaaa00a7faffe6057e9a547fe499381d5",
+      "after_sha256": "4bba1fa9a41e7e922870deff2428b20119e944790193eca21b94b2ab9f8e2ca9",
+      "source_sha256": "a124e882127682bca5d4fdd2f5c3010389b09354323f887d36d502638078ff1e"
+    },
+    {
+      "path": "electronics/stage4/current-driver/review/page-3.png",
+      "source": "electronics/stage4/current-driver/svg/current_driver-Source0_permission.svg",
+      "native_page": 3,
+      "width": 2200,
+      "height": 1556,
+      "before_sha256": "a7e6eff1dd31cb00344974c72a2367ae3fb7605fb01ef581d3fbc37bdea59d8e",
+      "after_sha256": "9190afe40617eede39bc227cfac5dfb29f2f1af93a520ea6ce52e101464f44fc",
+      "source_sha256": "a172863a580aa8faf672dce06f6ba4c87ca5a78ec87f00c021fc1569026c27e1"
+    },
+    {
+      "path": "electronics/stage4/current-driver/review/page-4.png",
+      "source": "electronics/stage4/current-driver/svg/current_driver-Source1_analog.svg",
+      "native_page": 4,
+      "width": 2200,
+      "height": 1556,
+      "before_sha256": "eb866ff9caded2bd14328d00f3750fae7e977cba9d63a2b455b0009d5528b5d0",
+      "after_sha256": "5a7b902b7093cf479a8d9e81d6fbcef7f5ca68eb92fe8caf41fedd22a95c1657",
+      "source_sha256": "4422891a3e70ad3816f149f91d22906d2006164d4499d738949cd18163759d5f"
+    },
+    {
+      "path": "electronics/stage4/current-driver/review/page-5.png",
+      "source": "electronics/stage4/current-driver/svg/current_driver-Source1_permission.svg",
+      "native_page": 5,
+      "width": 2200,
+      "height": 1556,
+      "before_sha256": "7782125927f6476215584812e7afd1469cedf5362b808393dd01df7c1882405d",
+      "after_sha256": "3b1fdfda3ee934162a07bcd6cdd241649efb6fd5eef31aa85f6f19b2790a4c8c",
+      "source_sha256": "b76dd94b0a9877f13c72b7968319d74d5f1afec0f64c27a456c6a230bad2d8d4"
+    },
+    {
+      "path": "electronics/stage4/current-driver/review/page-1.png",
+      "source": "electronics/stage4/current-driver/svg/current_driver.svg",
+      "native_page": 1,
+      "width": 2200,
+      "height": 1556,
+      "before_sha256": "8d921c7e6522a2c740f7304c8812fdfabf158541aaa2bd6036f9e874d6532c1e",
+      "after_sha256": "d01ad9719130bf684f726decda0065b526d039f857deda5efe01ae398809422f",
+      "source_sha256": "9e3a0465079827f941dc4517880e8cd808dd2acaa898dd5e2bfae153aea81733"
+    },
+    {
+      "path": "electronics/stage4/monitoring-cell/review/page-2.png",
+      "source": "electronics/stage4/monitoring-cell/svg/monitoring_cell-Source0_monitor.svg",
+      "native_page": 2,
+      "width": 1985,
+      "height": 1404,
+      "before_sha256": "e62a3afaf696033fe352d5d7169cca757befb5c9cbe3ed99b45f2e2f26dc290f",
+      "after_sha256": "3ebd5af6fca77fed9a9fff9e32f0f02b9857a294a2800b7a0d0cf546498efc9d",
+      "source_sha256": "1d7c3cbbc9b90b27fee13540cf2aa59fc954f14edfd6476e4615fe71797682aa"
+    },
+    {
+      "path": "electronics/stage4/monitoring-cell/review/page-3.png",
+      "source": "electronics/stage4/monitoring-cell/svg/monitoring_cell-Source1_monitor.svg",
+      "native_page": 3,
+      "width": 1985,
+      "height": 1404,
+      "before_sha256": "db24b9296eed642db841cbeef2fcccc2f1e0cc40b0d3efa8ae76687ac95b4990",
+      "after_sha256": "08baf17c1f9a757064b8ecb59b4b0130981196898bf0729c0b3f5bf550825c3b",
+      "source_sha256": "9c59f14f6b32337496d12ed892005f53a276c010aa899fb5748f33596e17652c"
+    },
+    {
+      "path": "electronics/stage4/monitoring-cell/review/page-1.png",
+      "source": "electronics/stage4/monitoring-cell/svg/monitoring_cell.svg",
+      "native_page": 1,
+      "width": 1985,
+      "height": 1404,
+      "before_sha256": "183b280256f0af96df00cbb0c696bad65289092c7c27dcb10c65ee1790898b99",
+      "after_sha256": "8a217bd4931d584b7f5209b418828a3ae91caa7303a6b6fbc147f86bb1dc55b1",
+      "source_sha256": "9e3daab890c46e267228dade8f2ca5dd4b63b97b963459b25da1885531c84053"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/review/page-3.png",
+      "source": "electronics/stage4/monitoring-transport/svg/monitoring_transport-adc.svg",
+      "native_page": 3,
+      "width": 1684,
+      "height": 1191,
+      "before_sha256": "d05b663050e7da73ea84cb835ce814ca9556a30ea301452edf70ab77d32b9712",
+      "after_sha256": "4e3d0301308f0cf771e0c9a105c8dbc8c99f8046d02920f178f8a6493a47c845",
+      "source_sha256": "8d7b1aafa42d21e9928fde5cbef4a9b9449b101eb3218011d8831e486887c120"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/review/page-7.png",
+      "source": "electronics/stage4/monitoring-transport/svg/monitoring_transport-companion.svg",
+      "native_page": 7,
+      "width": 1684,
+      "height": 1191,
+      "before_sha256": "c8b38298db515d897ee6abaad42440d9714bc22c47e7f0077f0e704df9d291ac",
+      "after_sha256": "6efa2fa74a81bc4ccb8c1ce5fed9ad22dc2b8a3ac2572e130a103065ab654751",
+      "source_sha256": "81b4fbcbfc2e0838e6c19d77629861871abaff38f2417fa66ee2f4114769da32"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/review/page-8.png",
+      "source": "electronics/stage4/monitoring-transport/svg/monitoring_transport-handoff.svg",
+      "native_page": 8,
+      "width": 1684,
+      "height": 1191,
+      "before_sha256": "9a339a5038b307de78e3833bccbed83eb4fc502bfbf91cd29a13ba118041c405",
+      "after_sha256": "3bc5fd21bbb15d9d945f7ee46106c3bbb69314e7b2ec8d82882dd19332b239aa",
+      "source_sha256": "2eccf007381c9c0d76b4c0086803a045cd0cc23a22bd50d64c60772cd0984317"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/review/page-6.png",
+      "source": "electronics/stage4/monitoring-transport/svg/monitoring_transport-health.svg",
+      "native_page": 6,
+      "width": 1684,
+      "height": 1191,
+      "before_sha256": "16af31b2497fac682ad629bae3aea778fe15212b5f777e9e65a4649c9093630f",
+      "after_sha256": "19e601223bf70d02ada28503b0a802be2724a533e493ad3eac6de9f136cc18ba",
+      "source_sha256": "3df5e23dfa52f8f486186356ddd00d102a638b9cf061888a81ed467c95adf3c0"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/review/page-5.png",
+      "source": "electronics/stage4/monitoring-transport/svg/monitoring_transport-inputs.svg",
+      "native_page": 5,
+      "width": 1684,
+      "height": 1191,
+      "before_sha256": "e1ce9dffe182b4bbaece679a0556e91753defc41cae061e255544fc90f32a4b4",
+      "after_sha256": "a24567ce388582d917076f2ecf5a3bbdf3041e1293b8793cfc5919e517a0fa5e",
+      "source_sha256": "99dfcdd851eb9f481557bcdc6174fdb219549f9762192f036dfc5d056531a16c"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/review/page-4.png",
+      "source": "electronics/stage4/monitoring-transport/svg/monitoring_transport-reference.svg",
+      "native_page": 4,
+      "width": 1684,
+      "height": 1191,
+      "before_sha256": "8bebdbfb156294b042ed36c92b8dc88cc38c8ac4bbdad5a7628b164939deefdf",
+      "after_sha256": "65cb47293fc0bcfd59655064767673017678167a46568531f7362490e4a661ab",
+      "source_sha256": "14f092bfbb238ef82f661b83033fea682e96abe68156b84909643ec70468dcb6"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/review/page-2.png",
+      "source": "electronics/stage4/monitoring-transport/svg/monitoring_transport-root_2.svg",
+      "native_page": 2,
+      "width": 1684,
+      "height": 1191,
+      "before_sha256": "016c4e594d657e0fd2c87b3384bfedf3f6f19499c5549aab55b059c2a2eb5843",
+      "after_sha256": "ec0a68c01fae95001d790015042eecf562e6909e05c9226ce3e5bb2857a37ce7",
+      "source_sha256": "636db989838a81d643f6750b0abbda0cbf70aa0e6af3a34ded2d332c8781a9ff"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/review/page-1.png",
+      "source": "electronics/stage4/monitoring-transport/svg/monitoring_transport.svg",
+      "native_page": 1,
+      "width": 1684,
+      "height": 1191,
+      "before_sha256": "4e7d4321394b0a04bb1a061d77e92cba4dc848203875532585d4f2fccf665073",
+      "after_sha256": "9ae94480ad9d10f8a5fb7e26b4c1ac2ff991a8e5dd6c87ea1987117a61457754",
+      "source_sha256": "6a1718f6454d022aafeca34efe3c89869d94f74de062f467e68a00c585255f16"
+    },
+    {
+      "path": "electronics/stage4/power/review/page-13.png",
+      "source": "electronics/stage4/power/svg/power-afe3.svg",
+      "native_page": 13,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "ba980353b95fa532374673776ddf3bf0a0c9427b6b587415bd34a15f0e94e4bd",
+      "after_sha256": "448fb280df26658d6c21cc8d459571a5314cba70e09445883c387ff068b8e006",
+      "source_sha256": "23b5903de498a3377e2f6e1081798a9fe4178494cdf870596c39afbe0883f4b5"
+    },
+    {
+      "path": "electronics/stage4/power/review/page-15.png",
+      "source": "electronics/stage4/power/svg/power-afen.svg",
+      "native_page": 15,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "252f012492bc5bbc60561c0d89a53b937523ca5a7e3390d7d8dea3102d9115e8",
+      "after_sha256": "24c64a5c180c991024a3afb5fab5e54659aacea7f691a4db6d6f1921dbdb8010",
+      "source_sha256": "d29356b4cb063602b946f48d67c21ff7f5a12f6b7d3eb40e7d1799ec56b62dc6"
+    },
+    {
+      "path": "electronics/stage4/power/review/page-14.png",
+      "source": "electronics/stage4/power/svg/power-afep.svg",
+      "native_page": 14,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "ebe5783f869c008c693ff5e499f7d0f87cf8c58f659a7e8df9d20ad314e566ae",
+      "after_sha256": "f6eb983a408779bc0ca4c70c681585a3cf04b9904766b7f96e174e92d99ba991",
+      "source_sha256": "8a74ecda46f1b11c844ec6f2e8d1168c809ff9b836179fa8846a9ffa004e9153"
+    },
+    {
+      "path": "electronics/stage4/power/review/page-10.png",
+      "source": "electronics/stage4/power/svg/power-boost15.svg",
+      "native_page": 10,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "d079e9a8089e8a3e351933575dac07f2eab6be95123db99e4bbd78dbc18889d7",
+      "after_sha256": "91cc69aeb49773372cbea53de2836f2be903f2fdd35669188d9c4eedf6950b48",
+      "source_sha256": "317de4acac0fa5fefc682c2046bd9ca699d247adbd9e8b9352922b441f7f3055"
+    },
+    {
+      "path": "electronics/stage4/power/review/page-11.png",
+      "source": "electronics/stage4/power/svg/power-boost24.svg",
+      "native_page": 11,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "374d48edd60c595441a87172c924308add6ed07964f31d6536ca1708188d235d",
+      "after_sha256": "782ed46174e71421aa8a78845219b4030cb45ea5628b83b0b0c47b0010db877f",
+      "source_sha256": "9b3bdb8c6b532796108d2edda2942d9178261c07a98f2318b6b8b91dcdd5d922"
+    },
+    {
+      "path": "electronics/stage4/power/review/page-07.png",
+      "source": "electronics/stage4/power/svg/power-enable.svg",
+      "native_page": 7,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "651229b92f40638423127ece672837b1057b26fd09b274656803a18582ce25a9",
+      "after_sha256": "f4429f39a3e3912fee1dcfaf632c3a19eb7b72152ee0a62fa7a31122409d38a9",
+      "source_sha256": "ea39bcadfb22ea61e8b3ba24ee923e8a2ab4b0ffdba68321ed187249a06b9aa3"
+    },
+    {
+      "path": "electronics/stage4/power/review/page-08.png",
+      "source": "electronics/stage4/power/svg/power-enable_2.svg",
+      "native_page": 8,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "1d9d537357f232797939d8e829a958de3ee21f7e7dd8059418a1e581071ec6e5",
+      "after_sha256": "1116e281554a53a614f79e4d2ba8c58ba6a7f9de531d5a0459b7bafc154d1dfc",
+      "source_sha256": "906c1ce1b22692f8cfc03de1579bb5a94333da872e6f8facf46017491210a2e9"
+    },
+    {
+      "path": "electronics/stage4/power/review/page-09.png",
+      "source": "electronics/stage4/power/svg/power-enable_3.svg",
+      "native_page": 9,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "c6f17e8e615518ac2a026baa4c5f922ad08fc8bff2b2ca0f65b9d426c21535be",
+      "after_sha256": "955e88035b3aaccd02f749c53196d51b2a99ebd5f1471eacdfa329c1557c3c38",
+      "source_sha256": "d9037fa23432bc9ce20568d92650a4d9a83c93eca1350362ef86f54f54e1e12b"
+    },
+    {
+      "path": "electronics/stage4/power/review/page-05.png",
+      "source": "electronics/stage4/power/svg/power-host3.svg",
+      "native_page": 5,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "49cf5e384b5bfd519accf3184bbf1bea4534e47878d8152615e639185b78417f",
+      "after_sha256": "8851ab99db50c511486ba57b467b80a1620fd4e1b2224e977af64169996342b9",
+      "source_sha256": "7a9789b2f6efcb60d822baa5764dfcfefb77dd0d73305753d102b2afb790346b"
+    },
+    {
+      "path": "electronics/stage4/power/review/page-06.png",
+      "source": "electronics/stage4/power/svg/power-host5.svg",
+      "native_page": 6,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "2bdc34871e1ef8040e3dedc4d946a500afa816a87c89a4642a3ce76a01691656",
+      "after_sha256": "fa14934b001c13a7cee9668087bde8d1c94a615832f7fcbc711ca9cf5c1014db",
+      "source_sha256": "b94c7bb1c7f8b8139524d39c9061e8de0876335c796dc94d7cb70e4e381f0bd0"
+    },
+    {
+      "path": "electronics/stage4/power/review/page-02.png",
+      "source": "electronics/stage4/power/svg/power-input.svg",
+      "native_page": 2,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "d0bc119efecf83f5c02b8901e53ba9d43ab93c593aaa172b10d1253e861a2095",
+      "after_sha256": "2f5d1974315751d1ae6ee38cee9f53b868ea9722803cb52f3d4c55df4cd27f02",
+      "source_sha256": "a148c62e8b90a1cde8744b059feb4039111fbb48b6e6844f601344980a64f6fc"
+    },
+    {
+      "path": "electronics/stage4/power/review/page-12.png",
+      "source": "electronics/stage4/power/svg/power-island.svg",
+      "native_page": 12,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "0227362bec2ac42ffeed701f86ece82d56b0daa28dd4c3328bc4fe8a145f1b81",
+      "after_sha256": "41ede66bd519504f862489a4701e282c3316be7ef35a613effb5647a39289875",
+      "source_sha256": "2105b4f3a4ed76c32b4510f95ca4c099f9b0dc6632e336562c19e79c2bee26bd"
+    },
+    {
+      "path": "electronics/stage4/power/review/page-03.png",
+      "source": "electronics/stage4/power/svg/power-sup3.svg",
+      "native_page": 3,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "73026e45bcb8a5588fc341626bf94c0995a833b2779ba184213031b3728cc700",
+      "after_sha256": "390c245afb263e1558f02ae4736c866392a4b5b7f77119eb9917bb0a8224da0b",
+      "source_sha256": "e232e7a901495ad62db2ae51bd9b9e74628ec4947ac7200d6789d72f3b348d86"
+    },
+    {
+      "path": "electronics/stage4/power/review/page-04.png",
+      "source": "electronics/stage4/power/svg/power-sup5.svg",
+      "native_page": 4,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "c6951c5c8bd242022a8dd638f6839a180a80944b9681671993c649e80333a483",
+      "after_sha256": "71a6d2a654a3c4ab2b25414c4436fc61c0d6bab0541692e6f61216cd44b068aa",
+      "source_sha256": "0fdd5640feb0d798d26874ecb9e8588adf4fa96d4400e15da4b1c053f5fded87"
+    },
+    {
+      "path": "electronics/stage4/power/review/page-01.png",
+      "source": "electronics/stage4/power/svg/power.svg",
+      "native_page": 1,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "ca291b875270f7942eb0d48a3a7c908ac352df30b528767989137d92abf3818d",
+      "after_sha256": "9e84795aa2ddc75c3538d98eed87d39a477bb8d29fa3ad05297babcff5141884",
+      "source_sha256": "f9814b6649aa8a27a15342233d6a85e63dd2b7a20208b2e5e343aa0d463ef056"
+    },
+    {
+      "path": "electronics/stage4/recording-front-end/review/page-2.png",
+      "source": "electronics/stage4/recording-front-end/svg/recording_front_end-acquisition.svg",
+      "native_page": 2,
+      "width": 1819,
+      "height": 1287,
+      "before_sha256": "aee0b97df26cb9d74948bd8a7c0ad5d662fb05577000adc3eb347821474423ad",
+      "after_sha256": "13b259400ee340132a56058de2e6378b8ba74151f668530ec08cfae389c5b13b",
+      "source_sha256": "102033760cb21e5fe25a8b6527809388e7278eed611146287a6dab6f48f7b506"
+    },
+    {
+      "path": "electronics/stage4/recording-front-end/review/page-3.png",
+      "source": "electronics/stage4/recording-front-end/svg/recording_front_end-bank0.svg",
+      "native_page": 3,
+      "width": 2573,
+      "height": 1819,
+      "before_sha256": "1e2a9576bbd47fdb1c93d6e31b25779448fbbe61cf055a7da693427a0c458de6",
+      "after_sha256": "88ff3adebd7b90bedcfc32b01cb093f120144531e585be6e90ec1eddc8296d5b",
+      "source_sha256": "5295fd285f99ed72ffc8f36f154ec1d747d82f2ded2dd2369cd531e03e8def5b"
+    },
+    {
+      "path": "electronics/stage4/recording-front-end/review/page-4.png",
+      "source": "electronics/stage4/recording-front-end/svg/recording_front_end-bank1.svg",
+      "native_page": 4,
+      "width": 2573,
+      "height": 1819,
+      "before_sha256": "25fe4db29d282efc5953dbebe4eb0e56ddd2b41dba091ed7d1107a7463c69b1e",
+      "after_sha256": "dad0b3820bdc2bac24261f4cac19489d60bb49b16b6bb41f80cda6011fb63d83",
+      "source_sha256": "f4c0ca86c2c5c33a08c7e1e94e45822c0af9bf55dc92eb08b828164b65d37813"
+    },
+    {
+      "path": "electronics/stage4/recording-front-end/review/page-5.png",
+      "source": "electronics/stage4/recording-front-end/svg/recording_front_end-bank2.svg",
+      "native_page": 5,
+      "width": 2573,
+      "height": 1819,
+      "before_sha256": "8c54ab5d3c04f59d9c86e79e035bfd72d2e0dd497d2acb5fdd5b22a346f85557",
+      "after_sha256": "8cfb110dde6f3c14cc0cce9ff636fe2469f21c6262532cb1ff10acdeddd4bd0e",
+      "source_sha256": "19e6bf3233029c9fb7ee2dac8593a38489cd3f6677229e5ffe12fdfbbecdd233"
+    },
+    {
+      "path": "electronics/stage4/recording-front-end/review/page-6.png",
+      "source": "electronics/stage4/recording-front-end/svg/recording_front_end-bank3.svg",
+      "native_page": 6,
+      "width": 2573,
+      "height": 1819,
+      "before_sha256": "174171ed96ad1e8985cec3313a6c48f4c0879c083134336e6e0db8b391488df9",
+      "after_sha256": "693abf71490675f1f261fe6b33983e99e2fceb8bd5322d5d83f2eb05f5d7ac85",
+      "source_sha256": "8e81f8157c7bc321bb4d4695c9c99f2178f213915f3a792a5fa0ecdbac7bdcc9"
+    },
+    {
+      "path": "electronics/stage4/recording-front-end/review/page-7.png",
+      "source": "electronics/stage4/recording-front-end/svg/recording_front_end-reference.svg",
+      "native_page": 7,
+      "width": 1819,
+      "height": 1287,
+      "before_sha256": "f948ab2970f293eb82f2b73f3ce29f5bd4c84df308e08af367e5a131065b97df",
+      "after_sha256": "f9103697747fecb4696b58d8141fe1e2570304190bb9984b2f1657527af93582",
+      "source_sha256": "41b3c078af7ed8598919731af810fb8e6904075594781c77cf1430d95bc92c15"
+    },
+    {
+      "path": "electronics/stage4/recording-front-end/review/page-1.png",
+      "source": "electronics/stage4/recording-front-end/svg/recording_front_end.svg",
+      "native_page": 1,
+      "width": 2573,
+      "height": 1819,
+      "before_sha256": "078110a659e9ef14a1c1ce699064bf3fb9eb821508cade6cc47091a833327604",
+      "after_sha256": "995c3cd3ebb3ac945dbd7473af3250a722e20d45e03d1b4dace4100b6879cc8c",
+      "source_sha256": "05ce7c94c15dba5b875582ba655f9e4d0f1dc80568f20fe89f8f4a76956ce24d"
+    },
+    {
+      "path": "electronics/stage4/supervision/review/page-11.png",
+      "source": "electronics/stage4/supervision/svg/supervision-admission.svg",
+      "native_page": 11,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "11bcabb95607e2edfe5338f1d9c177cf0e66ca570d8b32f4b446d3bc921b8493",
+      "after_sha256": "22fd6b33ce54ada16641e59acbc32f26c9bde65fcdec7bffdef7fef0378e16de",
+      "source_sha256": "026a53b33498e6b5e6ebf3fec2a0441c489928c6389cc7cb23cfe6af9e728360"
+    },
+    {
+      "path": "electronics/stage4/supervision/review/page-12.png",
+      "source": "electronics/stage4/supervision/svg/supervision-admission_2.svg",
+      "native_page": 12,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "4ba8b09fca8a727038508aa19e76a22c906ba6079ff85060676e4e9aa88bd923",
+      "after_sha256": "11971594bd7bb5fe7ff666e6664353c05a0cb09f6ef50cecde099be8425c83aa",
+      "source_sha256": "8943aca43edbdae351d9c49e6df86754d2fc7ece518ceefd317f32560be5e7a4"
+    },
+    {
+      "path": "electronics/stage4/supervision/review/page-15.png",
+      "source": "electronics/stage4/supervision/svg/supervision-afe_bank0.svg",
+      "native_page": 15,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "9ff2b90ee14a5f62bf183f6e338646853f8c894e01f2f3cbf4c4bbcc32e74663",
+      "after_sha256": "46214e0f5ad4356fd757cc0a10cf31b6e5bb96c87653759e154ff728389ed673",
+      "source_sha256": "81e10e978d3736c36dd1a1309733510415aa46c43bacb088e6f1f6da8ce7efb4"
+    },
+    {
+      "path": "electronics/stage4/supervision/review/page-16.png",
+      "source": "electronics/stage4/supervision/svg/supervision-afe_bank1.svg",
+      "native_page": 16,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "7a543017f1958211bc56c32e8852b910a78fb685055bfb8f95c60be3d229ad5c",
+      "after_sha256": "c63264958443fc2a99ced87064dc83c1d8304579744feea3517c506dc06b1221",
+      "source_sha256": "266971e2f50c3c4606b58c665e36c6a5c108b2bdbc39c66a16ef038a43672131"
+    },
+    {
+      "path": "electronics/stage4/supervision/review/page-17.png",
+      "source": "electronics/stage4/supervision/svg/supervision-afe_bank2.svg",
+      "native_page": 17,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "5d723062a7a471499a8e353adb64ce859457ac7fd974f0dcdc9fc5095d7daf01",
+      "after_sha256": "6fa9eecbf6583388beb94187b060e2ec605afdfabd502c2b422d408ec673648a",
+      "source_sha256": "2b541038036d495030ab40d5a061115e561e9b42c06cf25df295363a5daccece"
+    },
+    {
+      "path": "electronics/stage4/supervision/review/page-18.png",
+      "source": "electronics/stage4/supervision/svg/supervision-afe_bank3.svg",
+      "native_page": 18,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "d280b0ab6aee8ff65230137ea1e97be4f9ca9f6539b20be3b1a6272174f47194",
+      "after_sha256": "da4d62f656e21aa839e57045bbb4522416c9c31581d9ff3f41fa779f8c80de0a",
+      "source_sha256": "e28e75f54890f3b77db4d8cb8bd1a87a8c45c27964650af1d42fe095621eb884"
+    },
+    {
+      "path": "electronics/stage4/supervision/review/page-19.png",
+      "source": "electronics/stage4/supervision/svg/supervision-afe_bank4.svg",
+      "native_page": 19,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "438b3f9d6264bd1641b3b23e209b91796cffae5ada1b540ba983f0fa7a51b73b",
+      "after_sha256": "79e34e4483be6d784b47915cf9c05340dbfaad1d311e879db7f261a6a7f5f395",
+      "source_sha256": "77c25a3f843fca51168c18ab3b22ca044a6d6e231254aea6bcc414e716f602b4"
+    },
+    {
+      "path": "electronics/stage4/supervision/review/page-20.png",
+      "source": "electronics/stage4/supervision/svg/supervision-afe_logic.svg",
+      "native_page": 20,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "a69162da425da2973dde579ddc018e51bf5840b0b9f460a32b617a4730a37bd7",
+      "after_sha256": "175b0a17d8b8a4756695f7d4d7cd4f19d4ae259c7c796e6f30e7653dfcd9e569",
+      "source_sha256": "127a0c99209cde63e35c821fa90895df120ce2ec672933e79ea86efa7aa0786a"
+    },
+    {
+      "path": "electronics/stage4/supervision/review/page-21.png",
+      "source": "electronics/stage4/supervision/svg/supervision-afe_logic_2.svg",
+      "native_page": 21,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "bb697ef3448cdc02db2337821f3ef0db77564bfee1fd9943bd72a3f5cc4dfcb1",
+      "after_sha256": "0f29103ea259bef8d7596a3b370017972c56f413b3f2fcf30e7565f09f4702bb",
+      "source_sha256": "20e06520b41fccbd7093358c29003eed6582bd2df4cc35fe631a87f92be14af3"
+    },
+    {
+      "path": "electronics/stage4/supervision/review/page-5.png",
+      "source": "electronics/stage4/supervision/svg/supervision-afe_rails.svg",
+      "native_page": 5,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "30d7bb47064b7249a5509ca007143cbca2bc116fdd92d7437a43481ff8a8e389",
+      "after_sha256": "548d1357e7f6121502f207ce36007dccbc4fe3e8bac69e9d2e36fc648d13e7d2",
+      "source_sha256": "0120d02e85e15925f7e54489676c35d7a3c277b045f6cff8f291ee1ab20a2f0b"
+    },
+    {
+      "path": "electronics/stage4/supervision/review/page-6.png",
+      "source": "electronics/stage4/supervision/svg/supervision-afe_rails_2.svg",
+      "native_page": 6,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "8b83d25a00ed1453ebfc1a96f42a8413dd27af307a8938b57be9833fdbbbbb19",
+      "after_sha256": "8cab1a5f923951a08fe0c68863444b52af958b50d6a687118ef5f7dc1930cc9c",
+      "source_sha256": "ad6e37f8478daa4ef2a38b1a33914eb492f96c56793804ecf18bf37437ede18e"
+    },
+    {
+      "path": "electronics/stage4/supervision/review/page-22.png",
+      "source": "electronics/stage4/supervision/svg/supervision-defaults.svg",
+      "native_page": 22,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "1ec1c3d4b3659dbc55b44a5abf7297f95f970a6c5ec95c0803c8631203e715bb",
+      "after_sha256": "e2dc5df948f1ef6180b0f75efc45fe9d0b10549b887bb5e98803bdd0fa2123e1",
+      "source_sha256": "43406edaa6ec36973ac1c062712aaafc41f23133708ef2dbf7ebeab271154472"
+    },
+    {
+      "path": "electronics/stage4/supervision/review/page-10.png",
+      "source": "electronics/stage4/supervision/svg/supervision-duration.svg",
+      "native_page": 10,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "1e15e58c6521032df9a684ca67789e6690749073bae3ac10acd7c832121e3268",
+      "after_sha256": "18ee64e89688af3b95d880d9a9754abb85f6e908fdcea820b3c9b1afe17a4ad6",
+      "source_sha256": "66234494b869532384f2321d63fca87d30669bee791c369d788cac6e9c63ef8c"
+    },
+    {
+      "path": "electronics/stage4/supervision/review/page-2.png",
+      "source": "electronics/stage4/supervision/svg/supervision-guards.svg",
+      "native_page": 2,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "5154cc4de1d064e496ec689fb8b2bbfd3e6459fa680e985744382b91c08b0659",
+      "after_sha256": "46c0cfbc5c57450d965cd3e172c15adb02c810b54324d718a30be6263b882977",
+      "source_sha256": "282f082d76016f7f8e563a0b5a38d7593a75ad2eecf4c449de7e8cae7cc70d4b"
+    },
+    {
+      "path": "electronics/stage4/supervision/review/page-3.png",
+      "source": "electronics/stage4/supervision/svg/supervision-host_rails.svg",
+      "native_page": 3,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "e20c585ea861ade207b80ee51021a6cc186bc8b55a2636eeb3087a767c8644d2",
+      "after_sha256": "af05bf5f0e9e2ab8e13e39ae731be2c5f4e45f602c3961327b2d654b29419490",
+      "source_sha256": "b67488e7e5f861eca4714bb0fb1c05a52e5f352c96543deef9b08df588a748e4"
+    },
+    {
+      "path": "electronics/stage4/supervision/review/page-4.png",
+      "source": "electronics/stage4/supervision/svg/supervision-host_rails_2.svg",
+      "native_page": 4,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "f97969ae0c4d35552d35ff4b97a3e2349fbc6f5a11ad11b168f526d6e12decc2",
+      "after_sha256": "56bfe6755e60135c01d8e6b2d1ab68bb51d1f513f79a2e2db973f8af80a8e29d",
+      "source_sha256": "c701ec44e592a7affddf4af64963eee37d1fa325b9be94c9b966f7eaca4def47"
+    },
+    {
+      "path": "electronics/stage4/supervision/review/page-13.png",
+      "source": "electronics/stage4/supervision/svg/supervision-phase0.svg",
+      "native_page": 13,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "6eb3fa13277946361289a346417ff21ea5103da8064ad8fa76cd99dcf9835845",
+      "after_sha256": "72f29b3e0f775d60b7c974cbc6ac510471906a3acf1a70629b06804996c15a37",
+      "source_sha256": "55142e6fc76baeb192d6eb57fb7cf4f646766a2e56603b9bbdc244425507a021"
+    },
+    {
+      "path": "electronics/stage4/supervision/review/page-14.png",
+      "source": "electronics/stage4/supervision/svg/supervision-phase1.svg",
+      "native_page": 14,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "f3eeaca751ea9c8a1a97b68318a9c46be259a45d351fb7f79df1eae69b69800e",
+      "after_sha256": "4dcd509c8dded6bafbd316d858f0ef30aeab1de0a67e59ba6399eeb46cf52732",
+      "source_sha256": "c8e2811a5453400de61adb03bc64839d040907afdd1ebd2d87851f3c49d8f78f"
+    },
+    {
+      "path": "electronics/stage4/supervision/review/page-8.png",
+      "source": "electronics/stage4/supervision/svg/supervision-quiescence.svg",
+      "native_page": 8,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "6ea478f9b6a1d7b2f4c7ad80e93b82d1812a028b930866f9c2a7925fe452a4a0",
+      "after_sha256": "4898305692fa40306f7514c1e91c974f793b847a9e7051ff22559da729034136",
+      "source_sha256": "f5c2fcf23589c533c5a7bc3e24c7a9bf3189aa8ef398b35d9f17e672819ef653"
+    },
+    {
+      "path": "electronics/stage4/supervision/review/page-9.png",
+      "source": "electronics/stage4/supervision/svg/supervision-voltage.svg",
+      "native_page": 9,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "b4f8588c75acf6588f0acefa0a01fd0ae51220bfcadabe123d5eb9baa70d3f0a",
+      "after_sha256": "6fb36fbcbeda2cd5cd4ef24eb451c43645d5d63017e9f08c8b96e9bc623bc07b",
+      "source_sha256": "b9275b0d795dcf4ff330d754d91998749ef415ee958ad78184a749e617987c81"
+    },
+    {
+      "path": "electronics/stage4/supervision/review/page-7.png",
+      "source": "electronics/stage4/supervision/svg/supervision-watchdog.svg",
+      "native_page": 7,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "46b034fcc7cae6df4c9d47e5097ba0582eae1b18e508f65745cb8a242008de7d",
+      "after_sha256": "d6c3309e9a6f357c5fe17be49648711cb89110a9957b7a47682a9ca99857c0af",
+      "source_sha256": "090637cdfddf18f3b79486b2b7b81710c02b0fcf04e9d79e6682e2be016a0f8c"
+    },
+    {
+      "path": "electronics/stage4/supervision/review/page-1.png",
+      "source": "electronics/stage4/supervision/svg/supervision.svg",
+      "native_page": 1,
+      "width": 2339,
+      "height": 1654,
+      "before_sha256": "c434a34c5d70d14daa74eb1c31ee80e9304119a9b1c74822c7bb716f5bcacc79",
+      "after_sha256": "d7317239cb61f700cd1ace7b516ead9eacf4a8885a7526fdd5c13728a17f42cf",
+      "source_sha256": "a297a892f8232be1a1c3b9e12124127ed51e6f40bf52022342236ef0e41aad43"
+    },
+    {
+      "path": "electronics/reports/schematic_preview.png",
+      "source": "electronics/exports/scci_rh_reference.svg",
+      "native_page": 1,
+      "width": 2200,
+      "height": 1556,
+      "before_sha256": "e27e86d32564760ca3e860a209107e6616cf43c21351336255623f108de2ea14",
+      "after_sha256": "9a297999d185a91d7a419bcae6979b064d8671bbebd51d050e4c42d8a2448c15",
+      "source_sha256": "1c6b88a5ad1f5da87eafbbd00f47d6771f114841c612487ada6be04d8de11ba7"
+    }
+  ]
+}

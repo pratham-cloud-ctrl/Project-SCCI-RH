@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/exports/contact-router/bottom-copper.svg",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "fdfb421553824cc71c4e7e60b21ab05fa5899b5f3927c45dc66d99f51e562a5b",
+  "current_sha256": "f27fbab0fdd92d39deff5a7bc163255625042d4ba6d3af04a7d166c1c00f149d",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-native-pcb-visuals.json",
+      "sha256_lf": "4f05937d3cf81c9eb11969cd98123a39259b7f0267eed58d7d41444662494514"
+    }
+  ]
+}

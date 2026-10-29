@@ -1,5 +1,5 @@
 const $ = (id) => document.getElementById(id);
-const repo = 'https://github.com/pratham-cloud-ctrl/Project-ATO/blob/main/';
+const repo = 'https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/main/';
 const sourceURL = (path) => repo + String(path || '').split('/').map(encodeURIComponent).join('/');
 const bytes = (value) => value >= 1e6 ? `${(value / 1e6).toFixed(1)} MB` : `${Math.round(value / 1e3)} KB`;
 const node = (tag, text, attrs = {}) => { const element = document.createElement(tag); if (text != null) element.textContent = text; for (const [key, value] of Object.entries(attrs)) element.setAttribute(key, value); return element; };
@@ -330,7 +330,7 @@ function showDownloads() {
     return card;
   }));
   $('download-checks').replaceChildren(node('a', 'Full download checksums', { href: 'downloads/SHA256SUMS.txt' }), document.createTextNode(' · '),
-    node('a', 'Complete paper and released engineering', { href: 'https://github.com/pratham-cloud-ctrl/Project-ATO/releases/tag/v2.0.1' }));
+    node('a', 'Complete paper and released engineering', { href: 'https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/tag/v2.1.0' }));
 }
 
 function initDrawing(name) {

@@ -1,7 +1,7 @@
 {
-  "schema": "ato.stage3.pressure-baseline-preservation.v1",
+  "schema": "scci_rh.stage3.pressure-baseline-preservation.v1",
   "scope": "All104 baseline5ms off/feedback metadata, calibration, summary, complete4Hz true-pressure arrays, frame/reason/freshness runs and external support/peak/transport metadata; noise witness is new independent instrumentation. Full raw byte-equivalence is separately tested for seed0 nominal OFF.",
-  "saved_baseline_gzip_sha256": "66254ff36d28c0676a02e3ce45a750731e0f75d5598e5e742947bca464fe6f78",
+  "saved_baseline_gzip_sha256": "9bbb4182249e3bd3741d13ee615e2d36edff51b5db7d7a724d5e434179298c6c",
   "comparison_count": 104,
   "all_exactly_preserved": true,
   "checks": [
@@ -631,5 +631,5 @@
     }
   ],
   "original_full_json_numerical_receipt_sha256": "811b3ae371e6bb24b83f3dbd9167b16a23c616894f29c5f566dfe8c100c05833",
-  "full_compressed_numerical_receipt_sha256": "096893cc9a626fc1fed67a017c8aa3caf7daa91667066fef2e87cf51cfea06a8"
+  "full_compressed_numerical_receipt_sha256": "11c429433736f39ecbf2a2c29ffc06a771a3feb8ea33bdd48313cc51460ce51b"
 }

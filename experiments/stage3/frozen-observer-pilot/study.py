@@ -19,18 +19,18 @@ import numpy as np
 PACKAGE = Path(__file__).resolve().parent
 ROOT = PACKAGE.parents[2]
 sys.path.insert(0, str(ROOT/'src'))
-from ato.stage3 import motor
-from ato.stage3.assisted_prediction import MeasuredPosition
-from ato.stage3.dynamic_response import (ResponsePosition, ProspectiveDose,
+from scci_rh.stage3 import motor
+from scci_rh.stage3.assisted_prediction import MeasuredPosition
+from scci_rh.stage3.dynamic_response import (ResponsePosition, ProspectiveDose,
     FutureResponseFrame, CompletedDose, predict_future_effect,
     predict_observed_past_response, response_model_from_record)
-from ato.stage3.isolated_pilot import ARMS, ACTION_DOMAINS, reference_from_library, config
-from ato.stage3.residual_guard import DelayedResidualGuard, PredictionCommit
+from scci_rh.stage3.isolated_pilot import ARMS, ACTION_DOMAINS, reference_from_library, config
+from scci_rh.stage3.residual_guard import DelayedResidualGuard, PredictionCommit
 
 OBSERVER = ROOT/'experiments/stage3/observed-state-observer'
 FROZEN = OBSERVER/'frozen'
 BRANCH = 'actual_electrical_trace_domain'
-CONTEXT_ID = 'ATO_S3_FROZEN_PREFIX_DEVELOPMENT_AND_CONFIRMATION_12OCT'
+CONTEXT_ID = 'SCCI_RH_S3_FROZEN_PREFIX_DEVELOPMENT_AND_CONFIRMATION_12OCT'
 NOISE_IDS = tuple(range(1261012100,1261012112))
 GRIDS = (.0025,.00125)
 HORIZONS = np.arange(5,31)*.005
@@ -84,7 +84,7 @@ def encoded(value):
 
 def load_observer():
     path=FROZEN/'observed_state_observer_12oct.py'
-    spec=importlib.util.spec_from_file_location('ato_frozen_observer_method',path)
+    spec=importlib.util.spec_from_file_location('scci_rh_frozen_observer_method',path)
     module=importlib.util.module_from_spec(spec); spec.loader.exec_module(module)
     # Use only pure classes/functions; the original tmp-path I/O is never invoked.
     return module
@@ -152,13 +152,13 @@ def load_inputs():
     excluded |= {95000+f*100+t for f in range(4) for t in range(2)}
     if set(NOISE_IDS)&excluded: raise ValueError('Fresh noise identity overlaps inherited evidence')
     binding={'inputs_bytes_sha256':{p:digest(ROOT/p) for p in INPUT_PATHS},
-        'bound_ato_source_bytes_sha256':freeze['full_ato_source_bytes_sha256'],
+        'bound_scci_rh_source_bytes_sha256':freeze['full_scci_rh_source_bytes_sha256'],
         'dynamic_raw':{'path':raw.relative_to(ROOT).as_posix(),'sha256':digest(raw)},
         'dynamic_model_id':model.model_id,'teacher_library_id':library['library_id'],
         'teacher_generator':library['generator'],'teacher_resource_accounting':library['resource_accounting'],
         'excluded_prior_noise_ids':sorted(excluded),'noise_exclusion_scope':
         'all compact frozen observer receipts, inherited dynamic/teacher summaries, historical pilot fixed schedules'}
-    for p,expected in binding['bound_ato_source_bytes_sha256'].items():
+    for p,expected in binding['bound_scci_rh_source_bytes_sha256'].items():
         if digest(ROOT/p)!=expected: raise ValueError('Immutable historical source changed: '+p)
     return load_observer(),method,context,model,dose,domains,references,binding
 
@@ -444,7 +444,7 @@ def preflight():
     inputs=load_inputs(); binding=inputs[-1]
     for name in CODE_PATHS:
         if not (PACKAGE/name).is_file(): raise ValueError('Missing frozen study code: '+name)
-    receipt={'schema':'ato.stage3.frozen-observer-pilot.preflight.v1','date':'2026-10-12',
+    receipt={'schema':'scci_rh.stage3.frozen-observer-pilot.preflight.v1','date':'2026-10-12',
         'classification':'PREGENERATION_PROTOCOL_SOURCE_INPUT_NOISE_FREEZE',
         'code_bytes_sha256':{p:digest(PACKAGE/p) for p in CODE_PATHS},'bindings':binding,
         'baseline_context':inputs[2],'noise_ids':list(NOISE_IDS),'grids_s':list(GRIDS),
@@ -503,7 +503,7 @@ def generate(output):
                         noise=noises[session],noise_id=NOISE_IDS[family_index*3+j],body_step=body_step,inputs=inputs,session=session)
                     assessments[session]=row
                 runs.append({'arm':arm,'practice':practice,'assessments':assessments})
-            record={'schema':'ato.stage3.frozen-observer-pilot.raw.v1','family':family,
+            record={'schema':'scci_rh.stage3.frozen-observer-pilot.raw.v1','family':family,
                 'body_integration_step_s':body_step,'preflight_sha256':digest(PACKAGE/'preflight.json'),
                 'review_sha256':digest(PACKAGE/'root-review.json'),'runs':runs}
             name=f'{family}-{round(body_step*1e6)}us.json.gz'; data=encoded(record)

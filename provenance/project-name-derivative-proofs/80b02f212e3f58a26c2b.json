@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "results/stage3/numerical/pressure-convergence-summary.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "17b5248820e3e7ce38ee8e6353e274329639fb2517ef5beba0a19233d19d5adc",
+  "current_sha256": "e8db93c860b355aac6952647c5786116596975554944cdd69337cfbc19baae14",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

@@ -94,7 +94,7 @@ synthetic plasticity parameters are choices to investigate, not measured biology
 [Mind-Link](https://github.com/sam-astro/Mind-link) inspired the progression from
 future concept to inspectable engineering. Reference review pinned commit
 `a391eb851ee624be675057380f4e3b701ebf6ee8`. No Mind-Link source or geometry is
-incorporated into ATO. The reference's root MIT license and its LUFA notices would
+incorporated into SCCI_RH. The reference's root MIT license and its LUFA notices would
 need preservation if that changed.
 
 Primary literature is cited by DOI and checked against source scope; its full
@@ -143,7 +143,7 @@ The owner requested continuation. AI research, electronics and control workstrea
 audited primary/manufacturer sources and specified numerical inputs; root
 integration aligned rates, memory, cycle reservations and timing, reproduced
 budgets, authored figures/brief and generated the preliminary build123d/FreeCAD
-allocation models. These calculations and solids are newly generated Project ATO
+allocation models. These calculations and solids are newly generated Project SCCI RH
 work. Manufacturer geometry/capacity examples and published electrical settings
 remain attributed; no proprietary CAD or biological recording is redistributed.
 
@@ -215,7 +215,7 @@ review. The result supplies no neural increment or retained-learning evidence.
 Root installed the official Nordic SDK, diagnosed its Windows physical-path
 restriction, preserved the asset installation and compiled/linked an unmodified
 processor example from a separate short physical copy. This verifies the tools,
-not ATO target firmware. A reviewed driver design note defines a restricted next
+not SCCI_RH target firmware. A reviewed driver design note defines a restricted next
 native circuit boundary. The connected learning-enabled response interaction,
 complete electronics, populated CAD and final manuscript remain unfinished.
 
@@ -234,7 +234,7 @@ executing the producer or controller. The integrated verdict and eight-page
 report distinguish no-dose component success from unavailable actual assistance,
 unqualified learning interaction and unexercised active delivery/monitoring.
 Root closes only the selected digital Stage 3 investigation. Complete native
-electronics, ATO target firmware, populated CAD and the final project manuscript
+electronics, SCCI_RH target firmware, populated CAD and the final project manuscript
 remain later stages. No human reviewer, physical experiment or biological result
 is implied by these AI-assisted checks.
 # Conditional future-concept revision - 13 October 2026

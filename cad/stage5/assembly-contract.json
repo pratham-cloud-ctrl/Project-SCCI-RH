@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage5.assembly-contract.v1",
+  "schema": "scci_rh.stage5.assembly-contract.v1",
   "baseline_commit": "7a4371b7ff891248a5ab4f12e3149268485d828f",
   "units": "mm",
   "reference": {
@@ -15,7 +15,7 @@
     "role": "Actual mating interfaces, cross-stage port bridge and labeled cable planning"
   },
   "combined": {
-    "native": "cad/stage5/ATO_stage5_reference_full.FCStd",
+    "native": "cad/stage5/SCCI_RH_stage5_reference_full.FCStd",
     "inspection": "provenance/stage5-combined-native.json"
   },
   "boundaries": [

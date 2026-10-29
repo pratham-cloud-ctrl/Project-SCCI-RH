@@ -12,7 +12,7 @@ rows=[]
 for part in reference:
     rows.append(dict(label=part['label'],category=part['category'],quantity=part['quantity'],
                      material_or_family=part['material_allocation'],
-                     source_document='cad/stage5/reference/ATO_reference_assembly.FCStd',
+                     source_document='cad/stage5/reference/SCCI_RH_reference_assembly.FCStd',
                      electrical_reference='',qualification='Nominal digital geometry; no physical qualification'))
 for part in hr['parts']:
     label=part['label'];mate=mates.get(label)

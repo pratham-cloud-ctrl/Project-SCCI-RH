@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-PTH.drl",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "deadfaece92aee04218a6247e516237f23be165931cfa06bf7141b07a5707a89",
+  "current_sha256": "3c0bf4a3eb45acdd24699f066d9310739140078a7d63c99fb79f7a7dd2b2c0e1",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-electrical-export-bindings.json",
+      "sha256_lf": "dd59d6e765731daa7a1762469b7f3d713087851bcc6ccb6e043b8e09b86ef27e"
+    }
+  ]
+}

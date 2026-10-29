@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage4.driver-study.assumptions.v1",
+  "schema": "scci_rh.stage4.driver-study.assumptions.v1",
   "date": "2026-10-13",
   "native_design": "../current-driver/current_driver.kicad_sch",
   "core_topology": "Two regulated low-side sinks, reset/gate muxes, four-switch bridges, independent signed return shunts; not an automatic complete native netlist simulation",

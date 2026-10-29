@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage3.frozen-observer-pilot.audit.v1",
+  "schema": "scci_rh.stage3.frozen-observer-pilot.audit.v1",
   "saved_records": 8,
   "sessions": 96,
   "sanitized_measurements_checked": 57600,

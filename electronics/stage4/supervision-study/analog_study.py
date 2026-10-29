@@ -226,7 +226,7 @@ def interrupted_rows():
 
 def generate():
     interruptions,traces=interrupted_rows()
-    data={'schema':'ato.stage4.supervision-analog.v1','date':'2026-10-14',
+    data={'schema':'scci_rh.stage4.supervision-analog.v1','date':'2026-10-14',
           'scope':'Finite threshold corners, passive loading and artificial interrupted load; not biological or whole-implant validation',
           'source_sha256_lf':sha(Path(__file__)),'assumptions':ASSUMPTIONS,'rail_windows':rail_rows(),
           'comparator_windows':comparator_rows(),'difference_amplifier':difference_amplifier_rows(),

@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/exports/current-driver/isometric.png",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "53db4c11b9151c200758f854908e0674fc5773f73ed91d62b39200c9cb321663",
+  "current_sha256": "282110b05c2c97d8993a97ad80abcad9cc16b932e7fa7166dd52dcc9a668c120",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-native-pcb-visuals.json",
+      "sha256_lf": "4f05937d3cf81c9eb11969cd98123a39259b7f0267eed58d7d41444662494514"
+    }
+  ]
+}

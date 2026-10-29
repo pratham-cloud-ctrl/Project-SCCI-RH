@@ -11,7 +11,7 @@ def bind(name):
     report=json.loads(drc.read_text())
     counts={k:len(report.get(k,[])) for k in ['violations','unconnected_items','schematic_parity','ignored_checks']}
     if any(counts.values()):raise AssertionError((name,counts))
-    result={'schema':'ato.native-board-drc-binding.v1','board':name,'pcb_sha256_lf':sha(pcb),'drc_sha256_lf':sha(drc),'project_sha256_lf':sha(pcb.with_suffix('.kicad_pro')),'schematic_sha256_lf':sha(pcb.with_suffix('.kicad_sch')),'schematic_parity_checked':True,'suppressed_checks':[],'counts':counts,'command':'kicad-cli pcb drc --format json --schematic-parity','scope':'Saved native board digital geometry and electrical graph; no fabrication, impedance, thermal, EMI, isolation or biological qualification.'}
+    result={'schema':'scci_rh.native-board-drc-binding.v1','board':name,'pcb_sha256_lf':sha(pcb),'drc_sha256_lf':sha(drc),'project_sha256_lf':sha(pcb.with_suffix('.kicad_pro')),'schematic_sha256_lf':sha(pcb.with_suffix('.kicad_sch')),'schematic_parity_checked':True,'suppressed_checks':[],'counts':counts,'command':'kicad-cli pcb drc --format json --schematic-parity','scope':'Saved native board digital geometry and electrical graph; no fabrication, impedance, thermal, EMI, isolation or biological qualification.'}
     (directory/'drc-binding.json').write_text(json.dumps(result,indent=2)+'\n')
     routing=directory/'routing.json'
     if routing.exists():

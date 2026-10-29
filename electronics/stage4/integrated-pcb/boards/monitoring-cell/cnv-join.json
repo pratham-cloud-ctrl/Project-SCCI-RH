@@ -1,5 +1,5 @@
 {
-  "schema": "ato.monitor-cnv-join.v1",
+  "schema": "scci_rh.monitor-cnv-join.v1",
   "purpose": "Actual copper join of common-CNV branches previously routed separately",
   "source_before_sha256_lf": "1222651d5fd0907d983b8e896da9b65b59ffa4f12aa7f1fb2c0cfcaf5626fb87",
   "source_after_sha256_lf": "f021b6c8fffd1aea002d4860a9d477d42a71d892dcb81979775fe2141a39ec8c",

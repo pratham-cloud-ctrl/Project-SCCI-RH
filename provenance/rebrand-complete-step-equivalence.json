@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-29",
+  "scope": "Actual before/after immutable Git ZIPmember comparison performed: completeSTEPpayload exactrename_text equality; README exactrename_text equality; geometry-manifest exactJSON equality after masking only40/64hex digests. All numerical geometry values unchanged. CurrentSTEP and nativeCAD source hashes independentlymatch currentmembers/files.",
+  "files": [
+    {
+      "path": "inspector/downloads/SCCI_RH_Reference_Complete_STEP.zip",
+      "current_sha256": "531498854dcdfe8a55146fb5b090038c95e8c4df3a90666ecb56db60fd606882",
+      "method": "actual_immutable_original_archive_member_comparison",
+      "members": [
+        "SCCI_RH_Reference_Complete.step",
+        "README.txt",
+        "geometry-manifest.json"
+      ],
+      "physical_objects": 260
+    }
+  ]
+}

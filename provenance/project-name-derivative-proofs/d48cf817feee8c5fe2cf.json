@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "inspector/assets/schematics/SCCI_RH_integrated-monitoring-transport.svg",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "5a5702b290191092cc7e3bf83504003b03a2544f1f743d4bc59320bf71e7cb5e",
+  "current_sha256": "42ab70fade526d955ea443cab0b5ce537594fdbee7fc46036f9c29c4f6dc3986",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-browser-electronics-regeneration.json",
+      "sha256_lf": "530a98951d2d9dad5c5749ebbe49ec00d7dac1a976a6b4a4e7fa54ef886ec905"
+    }
+  ]
+}

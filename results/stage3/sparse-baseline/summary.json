@@ -1,15 +1,15 @@
 {
-  "schema": "ato.stage3.sparse-baseline-study.v1",
+  "schema": "scci_rh.stage3.sparse-baseline-study.v1",
   "date": "2026-10-09",
   "source_identity": {
-    "src/ato/stage3/sparse_baseline.py": "d940ec6a76d4fd1c6fbff8328dc9ae6fe2bafbeeb090181fdb8b73224d472058",
-    "src/ato/stage3/dynamic_response.py": "87c8eac8675b3ef538d7504676f6dbdef5fa6c4d478d57b15bf781e5e1bda8e9",
-    "src/ato/stage3/cue_policy.py": "86c55451d04ea26a9ba6d14bfdb2689faf61bba9432623e190d159f9bbfe5395",
-    "src/ato/stage3/motor.py": "d86b4d091baf226475ce9f6d6e2390b65bb63752e5f50e73d42c5c3408b2323c",
-    "src/ato/stage3/source_sensitivity.py": "fedaeb9d7edadb53b7e23ac88af2eca6abacb7e231800fd6c6e3fbf1a889b477",
-    "src/ato/stage3/electrical.py": "8a7a20702be3f3f5893e1f859f675347fa35db01dadb20ab7e64635ca8913ff0",
-    "scripts/stage3_dynamic_response_study.py": "dcf61778b917dd71ebd60b52892c2ec7b54af7091ffead74b3af9e8cba309b04",
-    "scripts/stage3_sparse_baseline_study.py": "570332e397760b066e8281d8cf48382050f7338e54df819e6893d7d93a482fc0",
+    "src/scci_rh/stage3/sparse_baseline.py": "9fb1a3c57159a6cffd781ca154af07a1a5b001b9280b760bd423b8eb3e90426d",
+    "src/scci_rh/stage3/dynamic_response.py": "247394fb5db7ef0357ec3c37e340c80baaf3603ae71b2101c3d1c3c0d4911686",
+    "src/scci_rh/stage3/cue_policy.py": "b93fccb3b7c53628e9f2a36752d9260c47e14753e85cd507e145ad9df486e5b0",
+    "src/scci_rh/stage3/motor.py": "fdc83232adcd15759319a05af2204c7d3481f5da3ecf4538f152b569760c05fe",
+    "src/scci_rh/stage3/source_sensitivity.py": "fedaeb9d7edadb53b7e23ac88af2eca6abacb7e231800fd6c6e3fbf1a889b477",
+    "src/scci_rh/stage3/electrical.py": "8a7a20702be3f3f5893e1f859f675347fa35db01dadb20ab7e64635ca8913ff0",
+    "scripts/stage3_dynamic_response_study.py": "493f1afebd8eb1385301f8b26d0ac9638fe68940e4ab7bfd55c3e71c74463dc2",
+    "scripts/stage3_sparse_baseline_study.py": "3615dc6410d31a9872856526e480aed22114c3642a98485a9e8aeddf0c97df13",
     "scripts/artifact_hashes.py": "e73e016d1a817b1337bd4b777a14d3b0142838126a3dda1eae3e36339c6ad454"
   },
   "qualification_scope_revision": {
@@ -30,15 +30,15 @@
   },
   "dynamic_receipt_binding": {
     "path": "results/stage3/dynamic-response/dynamic-response-summary.json",
-    "canonical_json_sha256": "467f620b929afe6e0eafb0222b66957ce798a0ea004a878391965104233e7f33",
+    "canonical_json_sha256": "6658a51b523baca04e1ceee604c7ab5b97d90bfdc5e1645530fb47a833efab82",
     "raw_files": [
       {
         "path": "results/stage3/dynamic-response/2500us.json.gz",
-        "sha256": "cfa0e0a18ec1873492e5db80e1511c80b0a5eaf74d32081d9fdc4a053131bbec"
+        "sha256": "7f987686dd078a89913b1d86e27a87f565b7dc9c7237fe47ce0453cd84aea71e"
       },
       {
         "path": "results/stage3/dynamic-response/625us.json.gz",
-        "sha256": "0656750ddbb9afb1a90f9f5300b50916ea96764a82a342adfecb14caca35e938"
+        "sha256": "64b37d36030cc6df5667418bf6a26759ed413141850e4d1c6ec5a34cd3ed46ef"
       }
     ]
   },
@@ -155,9 +155,9 @@
   },
   "grids": {
     "2500us": {
-      "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+      "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
       "model": {
-        "schema": "ato.stage3.zero-future-baseline.v1",
+        "schema": "scci_rh.stage3.zero-future-baseline.v1",
         "training_recording_id": "zero_future_unassisted_calibration",
         "training_noise_identity": 97000,
         "specification": {
@@ -174,7 +174,7 @@
           "independent_unassisted_nominal": {
             "recording_id": "independent_unassisted_nominal",
             "family": "unassisted_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -683,7 +683,7 @@
           "moving_single_0_1": {
             "recording_id": "moving_single_0_1",
             "family": "isolated_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -1555,7 +1555,7 @@
           "moving_single_0_-1": {
             "recording_id": "moving_single_0_-1",
             "family": "isolated_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -2427,7 +2427,7 @@
           "moving_single_1_1": {
             "recording_id": "moving_single_1_1",
             "family": "isolated_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -3299,7 +3299,7 @@
           "moving_single_1_-1": {
             "recording_id": "moving_single_1_-1",
             "family": "isolated_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -4171,7 +4171,7 @@
           "moving_paired_same": {
             "recording_id": "moving_paired_same",
             "family": "isolated_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -5173,7 +5173,7 @@
           "moving_paired_opposite": {
             "recording_id": "moving_paired_opposite",
             "family": "isolated_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -6175,7 +6175,7 @@
           "moving_sparse": {
             "recording_id": "moving_sparse",
             "family": "sparse_individual_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -8009,7 +8009,7 @@
           "moving_sparse_paired": {
             "recording_id": "moving_sparse_paired",
             "family": "sparse_mixed_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -10623,7 +10623,7 @@
           "moving_faster_sparse": {
             "recording_id": "moving_faster_sparse",
             "family": "sparse_individual_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -11053,7 +11053,7 @@
           "changed_subject_sparse": {
             "recording_id": "changed_subject_sparse",
             "family": "unvalidated_subject",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -11483,7 +11483,7 @@
           "unmatched_baseline_sparse": {
             "recording_id": "unmatched_baseline_sparse",
             "family": "sparse_individual_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -13317,7 +13317,7 @@
           "unannounced_sensor_offset": {
             "recording_id": "unannounced_sensor_offset",
             "family": "sparse_individual_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -15151,7 +15151,7 @@
           "derived_unassisted_sensor_offset_control": {
             "recording_id": "derived_unassisted_sensor_offset_control",
             "family": "unassisted_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -15663,7 +15663,7 @@
         "permissions": "completed past monitored dose may strip/re-add observed response; no future measured body/dose, private gain/tau/state or paired baseline"
       },
       "forecaster": {
-        "schema": "ato.stage3.known-cue-forecast.v1",
+        "schema": "scci_rh.stage3.known-cue-forecast.v1",
         "context_validation": {
           "nominal_unassisted": {
             "qualified": true,
@@ -15940,7 +15940,7 @@
         {
           "recording_id": "independent_unassisted_nominal",
           "family": "unassisted_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -16449,7 +16449,7 @@
         {
           "recording_id": "moving_single_0_1",
           "family": "isolated_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -17321,7 +17321,7 @@
         {
           "recording_id": "moving_single_0_-1",
           "family": "isolated_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -18193,7 +18193,7 @@
         {
           "recording_id": "moving_single_1_1",
           "family": "isolated_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -19065,7 +19065,7 @@
         {
           "recording_id": "moving_single_1_-1",
           "family": "isolated_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -19937,7 +19937,7 @@
         {
           "recording_id": "moving_paired_same",
           "family": "isolated_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -20939,7 +20939,7 @@
         {
           "recording_id": "moving_paired_opposite",
           "family": "isolated_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -21941,7 +21941,7 @@
         {
           "recording_id": "moving_sparse",
           "family": "sparse_individual_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -23775,7 +23775,7 @@
         {
           "recording_id": "moving_sparse_paired",
           "family": "sparse_mixed_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -26389,7 +26389,7 @@
         {
           "recording_id": "moving_faster_sparse",
           "family": "sparse_individual_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -26819,7 +26819,7 @@
         {
           "recording_id": "changed_subject_sparse",
           "family": "unvalidated_subject",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -27249,7 +27249,7 @@
         {
           "recording_id": "unmatched_baseline_sparse",
           "family": "sparse_individual_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -29083,7 +29083,7 @@
         {
           "recording_id": "unannounced_sensor_offset",
           "family": "sparse_individual_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -30917,7 +30917,7 @@
         {
           "recording_id": "derived_unassisted_sensor_offset_control",
           "family": "unassisted_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -31426,9 +31426,9 @@
       ]
     },
     "625us": {
-      "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+      "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
       "model": {
-        "schema": "ato.stage3.zero-future-baseline.v1",
+        "schema": "scci_rh.stage3.zero-future-baseline.v1",
         "training_recording_id": "zero_future_unassisted_calibration",
         "training_noise_identity": 97000,
         "specification": {
@@ -31445,7 +31445,7 @@
           "independent_unassisted_nominal": {
             "recording_id": "independent_unassisted_nominal",
             "family": "unassisted_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -31954,7 +31954,7 @@
           "moving_single_0_1": {
             "recording_id": "moving_single_0_1",
             "family": "isolated_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -32826,7 +32826,7 @@
           "moving_single_0_-1": {
             "recording_id": "moving_single_0_-1",
             "family": "isolated_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -33698,7 +33698,7 @@
           "moving_single_1_1": {
             "recording_id": "moving_single_1_1",
             "family": "isolated_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -34570,7 +34570,7 @@
           "moving_single_1_-1": {
             "recording_id": "moving_single_1_-1",
             "family": "isolated_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -35442,7 +35442,7 @@
           "moving_paired_same": {
             "recording_id": "moving_paired_same",
             "family": "isolated_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -36444,7 +36444,7 @@
           "moving_paired_opposite": {
             "recording_id": "moving_paired_opposite",
             "family": "isolated_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -37446,7 +37446,7 @@
           "moving_sparse": {
             "recording_id": "moving_sparse",
             "family": "sparse_individual_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -39280,7 +39280,7 @@
           "moving_sparse_paired": {
             "recording_id": "moving_sparse_paired",
             "family": "sparse_mixed_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -41894,7 +41894,7 @@
           "moving_faster_sparse": {
             "recording_id": "moving_faster_sparse",
             "family": "sparse_individual_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -42324,7 +42324,7 @@
           "changed_subject_sparse": {
             "recording_id": "changed_subject_sparse",
             "family": "unvalidated_subject",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -42754,7 +42754,7 @@
           "unmatched_baseline_sparse": {
             "recording_id": "unmatched_baseline_sparse",
             "family": "sparse_individual_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -44588,7 +44588,7 @@
           "unannounced_sensor_offset": {
             "recording_id": "unannounced_sensor_offset",
             "family": "sparse_individual_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -46422,7 +46422,7 @@
           "derived_unassisted_sensor_offset_control": {
             "recording_id": "derived_unassisted_sensor_offset_control",
             "family": "unassisted_nominal",
-            "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+            "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
             "horizons": [
               {
                 "horizon_s": 0.025,
@@ -46934,7 +46934,7 @@
         "permissions": "completed past monitored dose may strip/re-add observed response; no future measured body/dose, private gain/tau/state or paired baseline"
       },
       "forecaster": {
-        "schema": "ato.stage3.known-cue-forecast.v1",
+        "schema": "scci_rh.stage3.known-cue-forecast.v1",
         "context_validation": {
           "nominal_unassisted": {
             "qualified": true,
@@ -47211,7 +47211,7 @@
         {
           "recording_id": "independent_unassisted_nominal",
           "family": "unassisted_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -47720,7 +47720,7 @@
         {
           "recording_id": "moving_single_0_1",
           "family": "isolated_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -48592,7 +48592,7 @@
         {
           "recording_id": "moving_single_0_-1",
           "family": "isolated_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -49464,7 +49464,7 @@
         {
           "recording_id": "moving_single_1_1",
           "family": "isolated_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -50336,7 +50336,7 @@
         {
           "recording_id": "moving_single_1_-1",
           "family": "isolated_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -51208,7 +51208,7 @@
         {
           "recording_id": "moving_paired_same",
           "family": "isolated_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -52210,7 +52210,7 @@
         {
           "recording_id": "moving_paired_opposite",
           "family": "isolated_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -53212,7 +53212,7 @@
         {
           "recording_id": "moving_sparse",
           "family": "sparse_individual_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -55046,7 +55046,7 @@
         {
           "recording_id": "moving_sparse_paired",
           "family": "sparse_mixed_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -57660,7 +57660,7 @@
         {
           "recording_id": "moving_faster_sparse",
           "family": "sparse_individual_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -58090,7 +58090,7 @@
         {
           "recording_id": "changed_subject_sparse",
           "family": "unvalidated_subject",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -58520,7 +58520,7 @@
         {
           "recording_id": "unmatched_baseline_sparse",
           "family": "sparse_individual_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -60354,7 +60354,7 @@
         {
           "recording_id": "unannounced_sensor_offset",
           "family": "sparse_individual_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -62188,7 +62188,7 @@
         {
           "recording_id": "derived_unassisted_sensor_offset_control",
           "family": "unassisted_nominal",
-          "dynamic_model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+          "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
           "horizons": [
             {
               "horizon_s": 0.025,
@@ -62699,6 +62699,6 @@
   },
   "raw_witness": {
     "path": "raw.json.gz",
-    "sha256": "265be515b0ca41dd734be6181b3f81de51e17884c7098196c2da4d6450bad0f1"
+    "sha256": "6667ddcf282d08bcc977193dbaa086a5beed9ff57f12107cdae45868c267610f"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "inspector/assets/schematics/SCCI_RH_integrated-controller-carrier.svg",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "035e5f6b97249d45d2eb20c797c046ab5646e5a550726b8ad67480e52e19f316",
+  "current_sha256": "3414e741f57d275f55ab7f319eb10ec70bf576eeac7fb91c82b8c69bbdba01bb",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-browser-electronics-regeneration.json",
+      "sha256_lf": "530a98951d2d9dad5c5749ebbe49ec00d7dac1a976a6b4a4e7fa54ef886ec905"
+    }
+  ]
+}

@@ -17,7 +17,7 @@ from scipy.integrate import solve_ivp
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
-from ato.stage3.electrical import (  # noqa: E402
+from scci_rh.stage3.electrical import (  # noqa: E402
     Load, integrate_interval, observe_delivery, simulate_pulse,
 )
 
@@ -140,9 +140,9 @@ def monitor_sweep():
 
 def run_sweep():
     ode, monitor = ode_sweep(), monitor_sweep()
-    return {"schema": "ato.stage3.electrical-review-sweep.v1", "review_date": "2026-10-08",
+    return {"schema": "scci_rh.stage3.electrical-review-sweep.v1", "review_date": "2026-10-08",
             "status": "passed_under_assumptions" if ode["passed"] and monitor["passed_under_assumptions"] else "failed",
-            "model": "src/ato/stage3/electrical.py", "ode_intervals": ode, "monitor_phases": monitor,
+            "model": "src/scci_rh/stage3/electrical.py", "ode_intervals": ode, "monitor_phases": monitor,
             "scope": "Independent reduced-model numerical evidence; no circuit servo, electrode chemistry, tissue field, biological efficacy or unrestricted current-monitor claim."}
 
 

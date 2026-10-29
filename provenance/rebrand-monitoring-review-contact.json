@@ -1,0 +1,17 @@
+{
+  "path": "electronics/stage4/monitoring-transport/review/final-review-contact.png",
+  "before_sha256": "a03a6f73b17e58dcdc4df83fb62b9769d81764d4ff26a257aef2e78b8d73e21b",
+  "after_sha256": "e8a782f39dbe811edb0ec372bf7f866fa5aaa8a7219dec8c6aac12984d18d08a",
+  "source_page_sha256": {
+    "electronics/stage4/monitoring-transport/review/page-1.png": "9ae94480ad9d10f8a5fb7e26b4c1ac2ff991a8e5dd6c87ea1987117a61457754",
+    "electronics/stage4/monitoring-transport/review/page-2.png": "ec0a68c01fae95001d790015042eecf562e6909e05c9226ce3e5bb2857a37ce7",
+    "electronics/stage4/monitoring-transport/review/page-3.png": "4e3d0301308f0cf771e0c9a105c8dbc8c99f8046d02920f178f8a6493a47c845",
+    "electronics/stage4/monitoring-transport/review/page-4.png": "65cb47293fc0bcfd59655064767673017678167a46568531f7362490e4a661ab",
+    "electronics/stage4/monitoring-transport/review/page-5.png": "a24567ce388582d917076f2ecf5a3bbdf3041e1293b8793cfc5919e517a0fa5e",
+    "electronics/stage4/monitoring-transport/review/page-6.png": "19e601223bf70d02ada28503b0a802be2724a533e493ad3eac6de9f136cc18ba",
+    "electronics/stage4/monitoring-transport/review/page-7.png": "6efa2fa74a81bc4ccb8c1ce5fed9ad22dc2b8a3ac2572e130a103065ab654751",
+    "electronics/stage4/monitoring-transport/review/page-8.png": "3bc5fd21bbb15d9d945f7ee46106c3bbb69314e7b2ec8d82882dd19332b239aa"
+  },
+  "scope": "Contact sheet rebuilt from actual saved native review pages; no painted-over labels",
+  "final_native_review_pages": true
+}

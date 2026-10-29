@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-F_Silkscreen.gto",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "70a5cdbfb1951232dc56149c09d9c138a4b6c242c004302bc3f358b6a845c878",
+  "current_sha256": "2a206b765366e58ab165369b36f99a441cabd337a6e6348366fd0090cc63c5df",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-electrical-export-bindings.json",
+      "sha256_lf": "dd59d6e765731daa7a1762469b7f3d713087851bcc6ccb6e043b8e09b86ef27e"
+    }
+  ]
+}

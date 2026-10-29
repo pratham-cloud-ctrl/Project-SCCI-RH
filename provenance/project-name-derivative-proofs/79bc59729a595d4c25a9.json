@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "inspector/assets/schematics/SCCI_RH_integrated-power-boost24.svg",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "e9cdfe7b0101c7cc6da8066b81f858b254eef76c4b0a738cc3035333c20e3ed9",
+  "current_sha256": "bab40f6b325c2401c6435cf82142f379fb3c6f8ae01698bd195592c9244c84ca",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-browser-electronics-regeneration.json",
+      "sha256_lf": "530a98951d2d9dad5c5749ebbe49ec00d7dac1a976a6b4a4e7fa54ef886ec905"
+    }
+  ]
+}

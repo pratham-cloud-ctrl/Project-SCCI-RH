@@ -5,9 +5,9 @@ $launcher = Join-Path $PSScriptRoot 'open-current-cad.ps1'
 $windowsHost = [Environment]::OSVersion.Platform -eq [PlatformID]::Win32NT
 $shellName = if ($PSEdition -eq 'Desktop') { 'powershell.exe' } elseif ($windowsHost) { 'pwsh.exe' } else { 'pwsh' }
 $shell = Join-Path $PSHOME $shellName
-$temporary = Join-Path ([IO.Path]::GetTempPath()) ('ato cad handoff ' + [Guid]::NewGuid().ToString('N'))
+$temporary = Join-Path ([IO.Path]::GetTempPath()) ('scci_rh cad handoff ' + [Guid]::NewGuid().ToString('N'))
 $saved = @{}
-foreach ($key in @('ATO_FREECAD_EXE', 'PATH', 'ProgramFiles', 'ProgramFiles(x86)', 'LOCALAPPDATA')) {
+foreach ($key in @('SCCI_RH_FREECAD_EXE', 'PATH', 'ProgramFiles', 'ProgramFiles(x86)', 'LOCALAPPDATA')) {
     $saved[$key] = [Environment]::GetEnvironmentVariable($key, 'Process')
 }
 
@@ -25,7 +25,7 @@ function Probe([string]$Folder, [string]$Mode, [string]$Explicit = $null) {
     foreach ($key in @('PATH', 'ProgramFiles', 'ProgramFiles(x86)', 'LOCALAPPDATA')) {
         [Environment]::SetEnvironmentVariable($key, $Folder, 'Process')
     }
-    [Environment]::SetEnvironmentVariable('ATO_FREECAD_EXE', $Explicit, 'Process')
+    [Environment]::SetEnvironmentVariable('SCCI_RH_FREECAD_EXE', $Explicit, 'Process')
     $previousErrorPreference = $ErrorActionPreference
     $ErrorActionPreference = 'Continue'
     try {
@@ -50,7 +50,7 @@ try {
 
     $result = Probe $explicitDir 'reference' (Join-Path $temporary 'missing.exe')
     Assert-True ($result.Code -ne 0) 'An invalid explicit setting silently fell back.'
-    Assert-True ($result.Output -match 'ATO_FREECAD_EXE does not name an existing executable') 'Missing override has no actionable explanation.'
+    Assert-True ($result.Output -match 'SCCI_RH_FREECAD_EXE does not name an existing executable') 'Missing override has no actionable explanation.'
 
     $pathDir = Join-Path $temporary 'path installation'
     $pathExe = Join-Path $pathDir 'FreeCAD.exe'
@@ -68,7 +68,7 @@ try {
     Assert-True ($result.Code -eq 0) ('Common installation discovery failed: ' + $result.Output)
     $data = $result.Output | ConvertFrom-Json
     Assert-True ($data.executable -eq $commonExe) 'Common installation was not selected.'
-    Assert-True ($data.target -eq (Join-Path $PSScriptRoot 'stage5/ATO_stage5_reference_full.FCStd')) 'Closed source path is wrong.'
+    Assert-True ($data.target -eq (Join-Path $PSScriptRoot 'stage5/SCCI_RH_stage5_reference_full.FCStd')) 'Closed source path is wrong.'
 
     $result = Probe $explicitDir 'future-exploded' $explicitExe
     Assert-True ($result.Code -eq 0) ('Exploded source selection failed: ' + $result.Output)

@@ -1,4 +1,4 @@
-"""ATO-S4-PWR: finite, assumption-explicit electrical and resource budget.
+"""SCCI_RH-S4-PWR: finite, assumption-explicit electrical and resource budget.
 
 Default invocation only checks the saved result. Writing is opt-in. This is a
 steady-state/energy calculation, not a converter switching or tissue simulation.
@@ -337,7 +337,7 @@ def build() -> dict:
                              "bus_V":bus,"input_A":a,"source_resistance_loss_W":a*a*r if a else None,
                              "admitted_underload_bus_atleast5p9V":bus is not None and bus>=5.9,
                              "interpretation":"Underload6.4Vpackminimum,0.5Vdiodecondition; protectiontripcurveandcellimpedancenotmeasured"})
-    return {"schema":"ato.stage4.power-budget.v1","date":"2026-10-14",
+    return {"schema":"scci_rh.stage4.power-budget.v1","date":"2026-10-14",
             "scope":"digitalreference; DCandenergyequations with explicitconditionalcomponent/load/efficiency assumptions",
             "producer_sha256_lf":sha(Path(__file__)),"sources":SOURCE,"inventory":inv,
             "battery":{"part":"TenergyAT31004protected2S1P","nominal_V":7.4,"capacity_Ah":2.6,

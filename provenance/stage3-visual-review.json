@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage3.figure-review.v1",
+  "schema": "scci_rh.stage3.figure-review.v1",
   "date": "2026-10-08",
   "method": "Rendered PNGs inspected in Codex; companion SVGs use the same Matplotlib figures.",
   "scope": "Visual legibility and displayed scientific scope, not experimental efficacy or numerical validation.",

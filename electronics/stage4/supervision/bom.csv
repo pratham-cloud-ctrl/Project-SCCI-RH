@@ -1,479 +1,479 @@
 reference,value,footprint,sheet,description,primary_source
-J1,EXTERNAL SUPERVISOR AND HOST RAILS,ato_sup:PinHeader_1x07_P2.54mm_Vertical,root,Always-on supervisor supplies remain external; generators are the next package,
-J2,FLOATING AFE RAILS AND OBSERVED CONTROLS,ato_sup:PinHeader_1x06_P2.54mm_Vertical,root,"Receive-side actual control nets, not host command copies; separate electrical island",
-J3,RAW CONTROL / STATUS,ato_sup:PinHeader_1x12_P2.54mm_Vertical,root,Distinct raw rearm and fault reset; no automatic retry or opposite phase,
-J4,EXISTING MONITOR OBSERVATIONS,ato_sup:PinHeader_1x09_P2.54mm_Vertical,root,"Map existing MID2.048V, REF4.096V, current scale40V/A; monitor supervisory health excludes ARM to avoid circular startup",
-J5,EXPORTED NATIVE HEALTH / PERMISSION,ato_sup:PinHeader_1x13_P2.54mm_Vertical,root,"AFE_ISOLATED_READY means conditional blank-voltage/control qualification, never proof of open switches",
-J6,DRIVER INTERNAL DIFFERENTIAL VOLTAGES,ato_sup:PinHeader_1x05_P2.54mm_Vertical,root,Internal driver-terminal compliance probe; not a body voltage/current or guard continuity sensor,
-U100,TMUX7412FRRPR,ato_sup:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6,guards,S pins face body; D pins face canonical router/monitor path. Off still has leakage/capacitance and welded-path limits,https://www.ti.com/lit/ds/symlink/tmux7412f.pdf
-C100,100n X7R 50V,ato_sup:C_0805_2012Metric,guards,Guard local high-voltage supply bypass,
-R100,22k,ato_sup:R_0805_2012Metric,guards,Passive guard enable low when logic is absent; not rail-off isolation proof,
-U101,TMUX7412FRRPR,ato_sup:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6,guards,S pins face body; D pins face canonical router/monitor path. Off still has leakage/capacitance and welded-path limits,https://www.ti.com/lit/ds/symlink/tmux7412f.pdf
-C101,100n X7R 50V,ato_sup:C_0805_2012Metric,guards,Guard local high-voltage supply bypass,
-R101,22k,ato_sup:R_0805_2012Metric,guards,Passive guard enable low when logic is absent; not rail-off isolation proof,
-U102,TMUX7412FRRPR,ato_sup:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6,guards,S pins face body; D pins face canonical router/monitor path. Off still has leakage/capacitance and welded-path limits,https://www.ti.com/lit/ds/symlink/tmux7412f.pdf
-C102,100n X7R 50V,ato_sup:C_0805_2012Metric,guards,Guard local high-voltage supply bypass,
-R102,22k,ato_sup:R_0805_2012Metric,guards,Passive guard enable low when logic is absent; not rail-off isolation proof,
-U103,TMUX7412FRRPR,ato_sup:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6,guards,S pins face body; D pins face canonical router/monitor path. Off still has leakage/capacitance and welded-path limits,https://www.ti.com/lit/ds/symlink/tmux7412f.pdf
-C103,100n X7R 50V,ato_sup:C_0805_2012Metric,guards,Guard local high-voltage supply bypass,
-R103,22k,ato_sup:R_0805_2012Metric,guards,Passive guard enable low when logic is absent; not rail-off isolation proof,
-U104,TMUX7412FRRPR,ato_sup:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6,guards,S pins face body; D pins face canonical router/monitor path. Off still has leakage/capacitance and welded-path limits,https://www.ti.com/lit/ds/symlink/tmux7412f.pdf
-C104,100n X7R 50V,ato_sup:C_0805_2012Metric,guards,Guard local high-voltage supply bypass,
-R104,22k,ato_sup:R_0805_2012Metric,guards,Passive guard enable low when logic is absent; not rail-off isolation proof,
-J100,CANONICAL ROUTER J7 / BEFORE GUARDS,ato_sup:PinHeader_1x18_P2.54mm_Vertical,guards,"All18routerJ7outputs pass through this guard; existing monitor shunts remain upstream, never duplicated",
-J101,BODY-FACING ARTIFICIAL LOAD CONTACTS,ato_sup:PinHeader_1x18_P2.54mm_Vertical,guards,"Digital research fixture connector, not an implant connector; no REF/BIAS stimulation return",
-R110,1k,ato_sup:R_0805_2012Metric,guards,Single pullup for five shared open-drain FF outputs; fault flag is not switch continuity,
-U200,TPS3700DDCR,ato_sup:SOT-23-6,host_rails,Independent 400mV-reference UV/OV window; falling hysteresis/input-bias/reference tolerance are studied,https://www.ti.com/lit/ds/symlink/tps3700.pdf
-R2000,67500R 0.1%,ato_sup:R_0805_2012Metric,host_rails,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
-R2001,10k 0.1%,ato_sup:R_0805_2012Metric,host_rails,Low impedance threshold lower resistor limits comparator bias error,
-R2002,77500R 0.1%,ato_sup:R_0805_2012Metric,host_rails,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
-R2003,10k 0.1%,ato_sup:R_0805_2012Metric,host_rails,Low impedance threshold lower resistor limits comparator bias error,
-R2004,10k,ato_sup:R_0805_2012Metric,host_rails,Wired-AND open-drain output pullup,
-C200,100n X7R 16V,ato_sup:C_0805_2012Metric,host_rails,Supervisor local bypass,
-U201,TPS3700DDCR,ato_sup:SOT-23-6,host_rails,Independent 400mV-reference UV/OV window; falling hysteresis/input-bias/reference tolerance are studied,https://www.ti.com/lit/ds/symlink/tps3700.pdf
-R2010,108750R 0.1%,ato_sup:R_0805_2012Metric,host_rails,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
-R2011,10k 0.1%,ato_sup:R_0805_2012Metric,host_rails,Low impedance threshold lower resistor limits comparator bias error,
-R2012,121250R 0.1%,ato_sup:R_0805_2012Metric,host_rails,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
-R2013,10k 0.1%,ato_sup:R_0805_2012Metric,host_rails,Low impedance threshold lower resistor limits comparator bias error,
-R2014,10k,ato_sup:R_0805_2012Metric,host_rails,Wired-AND open-drain output pullup,
-C201,100n X7R 16V,ato_sup:C_0805_2012Metric,host_rails,Supervisor local bypass,
-U202,TPS3700DDCR,ato_sup:SOT-23-6,host_rails,Independent 400mV-reference UV/OV window; falling hysteresis/input-bias/reference tolerance are studied,https://www.ti.com/lit/ds/symlink/tps3700.pdf
-R2020,67500R 0.1%,ato_sup:R_0805_2012Metric,host_rails,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
-R2021,10k 0.1%,ato_sup:R_0805_2012Metric,host_rails,Low impedance threshold lower resistor limits comparator bias error,
-R2022,77500R 0.1%,ato_sup:R_0805_2012Metric,host_rails,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
-R2023,10k 0.1%,ato_sup:R_0805_2012Metric,host_rails,Low impedance threshold lower resistor limits comparator bias error,
-R2024,10k,ato_sup:R_0805_2012Metric,host_rails,Wired-AND open-drain output pullup,
-C202,100n X7R 16V,ato_sup:C_0805_2012Metric,host_rails,Supervisor local bypass,
-U203,TPS3700DDCR,ato_sup:SOT-23-6,host_rails_2,Independent 400mV-reference UV/OV window; falling hysteresis/input-bias/reference tolerance are studied,https://www.ti.com/lit/ds/symlink/tps3700.pdf
-R2030,108750R 0.1%,ato_sup:R_0805_2012Metric,host_rails_2,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
-R2031,10k 0.1%,ato_sup:R_0805_2012Metric,host_rails_2,Low impedance threshold lower resistor limits comparator bias error,
-R2032,121250R 0.1%,ato_sup:R_0805_2012Metric,host_rails_2,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
-R2033,10k 0.1%,ato_sup:R_0805_2012Metric,host_rails_2,Low impedance threshold lower resistor limits comparator bias error,
-R2034,10k,ato_sup:R_0805_2012Metric,host_rails_2,Wired-AND open-drain output pullup,
-C203,100n X7R 16V,ato_sup:C_0805_2012Metric,host_rails_2,Supervisor local bypass,
-U204,TPS3700DDCR,ato_sup:SOT-23-6,host_rails_2,Independent 400mV-reference UV/OV window; falling hysteresis/input-bias/reference tolerance are studied,https://www.ti.com/lit/ds/symlink/tps3700.pdf
-R2040,327500R 0.1%,ato_sup:R_0805_2012Metric,host_rails_2,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
-R2041,10k 0.1%,ato_sup:R_0805_2012Metric,host_rails_2,Low impedance threshold lower resistor limits comparator bias error,
-R2042,402500R 0.1%,ato_sup:R_0805_2012Metric,host_rails_2,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
-R2043,10k 0.1%,ato_sup:R_0805_2012Metric,host_rails_2,Low impedance threshold lower resistor limits comparator bias error,
-R2044,10k,ato_sup:R_0805_2012Metric,host_rails_2,Wired-AND open-drain output pullup,
-C204,100n X7R 16V,ato_sup:C_0805_2012Metric,host_rails_2,Supervisor local bypass,
-U205,TPS3700DDCR,ato_sup:SOT-23-6,host_rails_2,Independent 400mV-reference UV/OV window; falling hysteresis/input-bias/reference tolerance are studied,https://www.ti.com/lit/ds/symlink/tps3700.pdf
-R2050,560000R 0.1%,ato_sup:R_0805_2012Metric,host_rails_2,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
-R2051,10k 0.1%,ato_sup:R_0805_2012Metric,host_rails_2,Low impedance threshold lower resistor limits comparator bias error,
-R2052,620000R 0.1%,ato_sup:R_0805_2012Metric,host_rails_2,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
-R2053,10k 0.1%,ato_sup:R_0805_2012Metric,host_rails_2,Low impedance threshold lower resistor limits comparator bias error,
-R2054,10k,ato_sup:R_0805_2012Metric,host_rails_2,Wired-AND open-drain output pullup,
-C205,100n X7R 16V,ato_sup:C_0805_2012Metric,host_rails_2,Supervisor local bypass,
-U206,TPS3700DDCR,ato_sup:SOT-23-6,afe_rails,Independent 400mV-reference UV/OV window; falling hysteresis/input-bias/reference tolerance are studied,https://www.ti.com/lit/ds/symlink/tps3700.pdf
-R2060,73500R 0.1%,ato_sup:R_0805_2012Metric,afe_rails,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
-R2061,10k 0.1%,ato_sup:R_0805_2012Metric,afe_rails,Low impedance threshold lower resistor limits comparator bias error,
-R2062,78500R 0.1%,ato_sup:R_0805_2012Metric,afe_rails,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
-R2063,10k 0.1%,ato_sup:R_0805_2012Metric,afe_rails,Low impedance threshold lower resistor limits comparator bias error,
-R2064,10k,ato_sup:R_0805_2012Metric,afe_rails,Wired-AND open-drain output pullup,
-C206,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_rails,Supervisor local bypass,
-U207,TPS3700DDCR,ato_sup:SOT-23-6,afe_rails,Independent 400mV-reference UV/OV window; falling hysteresis/input-bias/reference tolerance are studied,https://www.ti.com/lit/ds/symlink/tps3700.pdf
-R2070,120000R 0.1%,ato_sup:R_0805_2012Metric,afe_rails,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
-R2071,10k 0.1%,ato_sup:R_0805_2012Metric,afe_rails,Low impedance threshold lower resistor limits comparator bias error,
-R2072,125500R 0.1%,ato_sup:R_0805_2012Metric,afe_rails,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
-R2073,10k 0.1%,ato_sup:R_0805_2012Metric,afe_rails,Low impedance threshold lower resistor limits comparator bias error,
-R2074,10k,ato_sup:R_0805_2012Metric,afe_rails,Wired-AND open-drain output pullup,
-C207,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_rails,Supervisor local bypass,
-U208,TPS3700DDCR,ato_sup:SOT-23-6,afe_rails,Independent 400mV-reference UV/OV window; falling hysteresis/input-bias/reference tolerance are studied,https://www.ti.com/lit/ds/symlink/tps3700.pdf
-R2080,1875R 0.1%,ato_sup:R_0805_2012Metric,afe_rails,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
-R2081,10k 0.1%,ato_sup:R_0805_2012Metric,afe_rails_2,Low impedance threshold lower resistor limits comparator bias error,
-R2082,3750R 0.1%,ato_sup:R_0805_2012Metric,afe_rails_2,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
-R2083,10k 0.1%,ato_sup:R_0805_2012Metric,afe_rails_2,Low impedance threshold lower resistor limits comparator bias error,
-R2084,10k,ato_sup:R_0805_2012Metric,afe_rails_2,Wired-AND open-drain output pullup,
-C208,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_rails_2,Supervisor local bypass,
-U220,OPA391DCKR,ato_sup:SOT-353_SC-70-5,afe_rails_2,"Inverting negative-rail magnitude observation, gain0.1; dependent on valid island opamp supply",https://www.ti.com/lit/ds/symlink/opa391.pdf
-R2200,100k 0.1%,ato_sup:R_0805_2012Metric,afe_rails_2,Negative rail sense input,
-R2201,10k 0.1%,ato_sup:R_0805_2012Metric,afe_rails_2,Magnitude feedback gain0.1,
-C220,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_rails_2,Magnitude opamp local bypass,
-R250,100k 1%,ato_sup:R_0805_2012Metric,watchdog,Power-on hold resistor; 47nF tolerance and Schmitt threshold define a finite delay,
-C250,47n X7R 10%,ato_sup:C_0805_2012Metric,watchdog,Power-on hold capacitor; no universal brownout timing proof,
-D250,BAT54WS-7-F,ato_sup:D_SOD-323,watchdog,"Fast rail-loss discharge, actual diode leakage/forward voltage remain bounded assumptions",https://www.diodes.com/datasheet/download/BAT54WS.pdf
-R251,100R,ato_sup:R_0805_2012Metric,watchdog,Discharge current limiting,
-U250,SN74LVC1G17DBVR,ato_sup:SOT-23-5,watchdog,"Schmitt startup hold, no MCU-controlled qualification",https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf
-C251,100n X7R 16V,ato_sup:C_0805_2012Metric,watchdog,Schmitt local bypass,
-R260,100k 1%,ato_sup:R_0805_2012Metric,afe_rails_2,Power-on hold resistor; 47nF tolerance and Schmitt threshold define a finite delay,
-C260,47n X7R 10%,ato_sup:C_0805_2012Metric,afe_rails_2,Power-on hold capacitor; no universal brownout timing proof,
-D260,BAT54WS-7-F,ato_sup:D_SOD-323,afe_rails_2,"Fast rail-loss discharge, actual diode leakage/forward voltage remain bounded assumptions",https://www.diodes.com/datasheet/download/BAT54WS.pdf
-R261,100R,ato_sup:R_0805_2012Metric,afe_rails_2,Discharge current limiting,
-U260,SN74LVC1G17DBVR,ato_sup:SOT-23-5,afe_rails_2,"Schmitt startup hold, no MCU-controlled qualification",https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf
-C261,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_rails_2,Schmitt local bypass,
-U1000,SN74LVC1G11DBVR,ato_sup:SOT-23-6,watchdog,All host/supervisor supplies qualified with native windows and startup hold,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1000,100n X7R 16V,ato_sup:C_0805_2012Metric,watchdog,Local logic bypass for U1000,
-U1001,SN74LVC1G11DBVR,ato_sup:SOT-23-6,watchdog,All host/supervisor supplies qualified with native windows and startup hold,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1001,100n X7R 16V,ato_sup:C_0805_2012Metric,watchdog,Local logic bypass for U1001,
-U1002,SN74LVC1G11DBVR,ato_sup:SOT-23-6,watchdog,All host/supervisor supplies qualified with native windows and startup hold,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1002,100n X7R 16V,ato_sup:C_0805_2012Metric,watchdog,Local logic bypass for U1002,
-U1003,SN74LVC1G11DBVR,ato_sup:SOT-23-6,afe_logic,Native isolated-island rail status,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1003,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_logic,Local logic bypass for U1003,
-U1004,SN74LVC1G08DBVR,ato_sup:SOT-23-5,afe_logic,Native isolated-island rail status,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1004,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_logic,Local logic bypass for U1004,
-U300,TPS3431SDRBR,ato_sup:Texas_DRB0008A_VSON8_3x3_P0.65_EP1.5x1.75,watchdog,"WDO and ENOUT wired-AND; fixed200ms nominal watchdog, not a microsecond phase limiter",https://www.ti.com/lit/ds/symlink/tps3431.pdf
-R300,10k,ato_sup:R_0805_2012Metric,watchdog,SET1high and CWD10ktoVDD select170..230ms timeout,
-R301,10k,ato_sup:R_0805_2012Metric,watchdog,Shared open-drain watchdog/startup output pullup,
-R302,10k,ato_sup:R_0805_2012Metric,watchdog,Absent heartbeat remains low; only actual falling edges reset watchdog,
-C300,100n X7R 16V,ato_sup:C_0805_2012Metric,watchdog,Watchdog local bypass,
-U1005,SN74LVC1G04DBVR,ato_sup:SOT-23-5,watchdog,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-C1005,100n X7R 16V,ato_sup:C_0805_2012Metric,watchdog,Local logic bypass for U1005,
-U1006,SN74LVC1G08DBVR,ato_sup:SOT-23-5,watchdog,A heartbeat seen before valid startup is discarded,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1006,100n X7R 16V,ato_sup:C_0805_2012Metric,watchdog,Local logic bypass for U1006,
-U301,SN74LVC1G74DCUR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,watchdog,Actual edge/async latch. Health return cannot supply a raw rearm clock,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-C301,100n X7R 16V,ato_sup:C_0805_2012Metric,watchdog,Local FF bypass,
-U1007,SN74LVC1G11DBVR,ato_sup:SOT-23-6,watchdog,No startup high-Z state is accepted as heartbeat evidence,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1007,100n X7R 16V,ato_sup:C_0805_2012Metric,watchdog,Local logic bypass for U1007,
-U1008,SN74LVC1G08DBVR,ato_sup:SOT-23-5,watchdog,Export actual watchdog qualification,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1008,100n X7R 16V,ato_sup:C_0805_2012Metric,watchdog,Local logic bypass for U1008,
-R400,203.8k 0.1%,ato_sup:R_0805_2012Metric,quiescence,Shared current threshold ladder top,
-R401,2k 0.1%,ato_sup:R_0805_2012Metric,quiescence,20mV separation around2.048V nominal,
-R402,203.8k 0.1%,ato_sup:R_0805_2012Metric,quiescence,Shared current threshold ladder bottom,
-U400,OPA391DCKR,ato_sup:SOT-353_SC-70-5,quiescence,Unity threshold buffer; actual DC errors and rail-valid startup are retained,https://www.ti.com/lit/ds/symlink/opa391.pdf
-C400,100n X7R 16V,ato_sup:C_0805_2012Metric,quiescence,Local OPA391 supply bypass,
-U401,OPA391DCKR,ato_sup:SOT-353_SC-70-5,quiescence,Unity threshold buffer; actual DC errors and rail-valid startup are retained,https://www.ti.com/lit/ds/symlink/opa391.pdf
-C401,100n X7R 16V,ato_sup:C_0805_2012Metric,quiescence,Local OPA391 supply bypass,
-U410,TLV3202DGKR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,quiescence,Observed INA currentwindow;5V outputs enter only5.5V-tolerant LVCinputs,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
-C410,100n X7R 16V,ato_sup:C_0805_2012Metric,quiescence,Comparator local bypass,
-U1009,SN74LVC1G11DBVR,ato_sup:SOT-23-6,quiescence,Quiet additionally requires existing actual monitor permit,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1009,100n X7R 16V,ato_sup:C_0805_2012Metric,quiescence,Local logic bypass for U1009,
-R410,3.3k 1%,ato_sup:R_0805_2012Metric,quiescence,"Provisional dwell resistor, not proof of tissue-charge relaxation",
-C420,10n C0G 5%,ato_sup:C_0805_2012Metric,quiescence,Finite quiet qualification hold,
-D410,BAT54WS-7-F,ato_sup:D_SOD-323,quiescence,Fast quiet-loss discharge; positive retained voltage belowSchmittlow required,https://www.diodes.com/datasheet/download/BAT54WS.pdf
-R420,100R,ato_sup:R_0805_2012Metric,quiescence,Quiet-discharge limiter,
-U420,SN74LVC1G17DBVR,ato_sup:SOT-23-5,quiescence,Dwell qualified finite current band; comparator error forbids calling this exact zero,https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf
-C430,100n X7R 16V,ato_sup:C_0805_2012Metric,quiescence,Quiet Schmitt bypass,
-U411,TLV3202DGKR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,quiescence,Observed INA currentwindow;5V outputs enter only5.5V-tolerant LVCinputs,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
-C411,100n X7R 16V,ato_sup:C_0805_2012Metric,quiescence,Comparator local bypass,
-U1010,SN74LVC1G11DBVR,ato_sup:SOT-23-6,quiescence,Quiet additionally requires existing actual monitor permit,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1010,100n X7R 16V,ato_sup:C_0805_2012Metric,quiescence,Local logic bypass for U1010,
-R411,3.3k 1%,ato_sup:R_0805_2012Metric,quiescence,"Provisional dwell resistor, not proof of tissue-charge relaxation",
-C421,10n C0G 5%,ato_sup:C_0805_2012Metric,quiescence,Finite quiet qualification hold,
-D411,BAT54WS-7-F,ato_sup:D_SOD-323,quiescence,Fast quiet-loss discharge; positive retained voltage belowSchmittlow required,https://www.diodes.com/datasheet/download/BAT54WS.pdf
-R421,100R,ato_sup:R_0805_2012Metric,quiescence,Quiet-discharge limiter,
-U421,SN74LVC1G17DBVR,ato_sup:SOT-23-5,quiescence,Dwell qualified finite current band; comparator error forbids calling this exact zero,https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf
-C431,100n X7R 16V,ato_sup:C_0805_2012Metric,quiescence,Quiet Schmitt bypass,
-R500,232k 0.1%,ato_sup:R_0805_2012Metric,voltage,Shared differential threshold top,
-R501,536k 0.1%,ato_sup:R_0805_2012Metric,voltage,Nominal±22V threshold separation aftergain.0499,
-R502,232k 0.1%,ato_sup:R_0805_2012Metric,voltage,Shared differential threshold bottom,
-U500,OPA391DCKR,ato_sup:SOT-353_SC-70-5,voltage,Unity threshold buffer; actual DC errors and rail-valid startup are retained,https://www.ti.com/lit/ds/symlink/opa391.pdf
-C500,100n X7R 16V,ato_sup:C_0805_2012Metric,voltage,Local OPA391 supply bypass,
-U501,OPA391DCKR,ato_sup:SOT-353_SC-70-5,voltage,Unity threshold buffer; actual DC errors and rail-valid startup are retained,https://www.ti.com/lit/ds/symlink/opa391.pdf
-C501,100n X7R 16V,ato_sup:C_0805_2012Metric,voltage,Local OPA391 supply bypass,
-U502,OPA2192IDGKR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,voltage,"Two real difference amplifiers, VPAIR=MID+.0499*(A_BR-B_BR); input matching and rail validity explicit",https://www.ti.com/lit/ds/symlink/opa2192.pdf
-C502,100n X7R 16V,ato_sup:C_0805_2012Metric,voltage,OPA2192 local bypass,
-R510,1M 0.1%,ato_sup:R_0805_2012Metric,voltage,Positive-terminal differential input,
-R511,49.9k 0.1%,ato_sup:R_0805_2012Metric,voltage,Offset leg; matching affects common-mode rejection,
-R512,1M 0.1%,ato_sup:R_0805_2012Metric,voltage,Negative-terminal differential input,
-R513,49.9k 0.1%,ato_sup:R_0805_2012Metric,voltage,Feedback gain.0499,
-U510,TLV3202DGKR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,voltage,"Internal driver differential compliance window, never body-voltage proof",https://www.ti.com/lit/ds/symlink/tlv3202.pdf
-C510,100n X7R 16V,ato_sup:C_0805_2012Metric,voltage,Pair comparator local bypass,
-U1011,SN74LVC1G08DBVR,ato_sup:SOT-23-5,voltage,Independent voltage window admitted only while supervisor rails are valid,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1011,100n X7R 16V,ato_sup:C_0805_2012Metric,voltage,Local logic bypass for U1011,
-R520,1M 0.1%,ato_sup:R_0805_2012Metric,voltage,Positive-terminal differential input,
-R521,49.9k 0.1%,ato_sup:R_0805_2012Metric,voltage,Offset leg; matching affects common-mode rejection,
-R522,1M 0.1%,ato_sup:R_0805_2012Metric,voltage,Negative-terminal differential input,
-R523,49.9k 0.1%,ato_sup:R_0805_2012Metric,voltage,Feedback gain.0499,
-U520,TLV3202DGKR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,voltage,"Internal driver differential compliance window, never body-voltage proof",https://www.ti.com/lit/ds/symlink/tlv3202.pdf
-C520,100n X7R 16V,ato_sup:C_0805_2012Metric,voltage,Pair comparator local bypass,
-U1012,SN74LVC1G08DBVR,ato_sup:SOT-23-5,voltage,Independent voltage window admitted only while supervisor rails are valid,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1012,100n X7R 16V,ato_sup:C_0805_2012Metric,voltage,Local logic bypass for U1012,
-J600,REC00 ACTUAL RHD-SIDE TAP,ato_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank0,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
-R6000,10M 0.1%,ato_sup:R_0805_2012Metric,afe_bank0,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
-R6001,1M 0.1%,ato_sup:R_0805_2012Metric,afe_bank0,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
-U600,TLV3202DGKR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank0,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
-C600,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank0,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
-U1013,SN74LVC1G08DBVR,ato_sup:SOT-23-5,afe_bank0,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1013,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank0,Local logic bypass for U1013,
-J601,REC01 ACTUAL RHD-SIDE TAP,ato_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank0,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
-R6010,10M 0.1%,ato_sup:R_0805_2012Metric,afe_bank0,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
-R6011,1M 0.1%,ato_sup:R_0805_2012Metric,afe_bank0,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
-U601,TLV3202DGKR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank0,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
-C601,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank0,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
-U1014,SN74LVC1G08DBVR,ato_sup:SOT-23-5,afe_bank0,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1014,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank0,Local logic bypass for U1014,
-J602,REC02 ACTUAL RHD-SIDE TAP,ato_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank0,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
-R6020,10M 0.1%,ato_sup:R_0805_2012Metric,afe_bank0,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
-R6021,1M 0.1%,ato_sup:R_0805_2012Metric,afe_bank0,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
-U602,TLV3202DGKR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank0,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
-C602,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank0,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
-U1015,SN74LVC1G08DBVR,ato_sup:SOT-23-5,afe_bank0,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1015,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank0,Local logic bypass for U1015,
-J603,REC03 ACTUAL RHD-SIDE TAP,ato_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank0,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
-R6030,10M 0.1%,ato_sup:R_0805_2012Metric,afe_bank0,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
-R6031,1M 0.1%,ato_sup:R_0805_2012Metric,afe_bank0,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
-U603,TLV3202DGKR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank0,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
-C603,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank0,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
-U1016,SN74LVC1G08DBVR,ato_sup:SOT-23-5,afe_bank0,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1016,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank0,Local logic bypass for U1016,
-J604,REC04 ACTUAL RHD-SIDE TAP,ato_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank1,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
-R6040,10M 0.1%,ato_sup:R_0805_2012Metric,afe_bank1,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
-R6041,1M 0.1%,ato_sup:R_0805_2012Metric,afe_bank1,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
-U604,TLV3202DGKR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank1,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
-C604,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank1,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
-U1017,SN74LVC1G08DBVR,ato_sup:SOT-23-5,afe_bank1,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1017,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank1,Local logic bypass for U1017,
-J605,REC05 ACTUAL RHD-SIDE TAP,ato_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank1,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
-R6050,10M 0.1%,ato_sup:R_0805_2012Metric,afe_bank1,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
-R6051,1M 0.1%,ato_sup:R_0805_2012Metric,afe_bank1,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
-U605,TLV3202DGKR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank1,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
-C605,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank1,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
-U1018,SN74LVC1G08DBVR,ato_sup:SOT-23-5,afe_bank1,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1018,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank1,Local logic bypass for U1018,
-J606,REC06 ACTUAL RHD-SIDE TAP,ato_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank1,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
-R6060,10M 0.1%,ato_sup:R_0805_2012Metric,afe_bank1,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
-R6061,1M 0.1%,ato_sup:R_0805_2012Metric,afe_bank1,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
-U606,TLV3202DGKR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank1,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
-C606,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank1,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
-U1019,SN74LVC1G08DBVR,ato_sup:SOT-23-5,afe_bank1,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1019,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank1,Local logic bypass for U1019,
-J607,REC07 ACTUAL RHD-SIDE TAP,ato_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank1,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
-R6070,10M 0.1%,ato_sup:R_0805_2012Metric,afe_bank1,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
-R6071,1M 0.1%,ato_sup:R_0805_2012Metric,afe_bank1,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
-U607,TLV3202DGKR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank1,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
-C607,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank1,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
-U1020,SN74LVC1G08DBVR,ato_sup:SOT-23-5,afe_bank1,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1020,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank1,Local logic bypass for U1020,
-J608,REC08 ACTUAL RHD-SIDE TAP,ato_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank2,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
-R6080,10M 0.1%,ato_sup:R_0805_2012Metric,afe_bank2,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
-R6081,1M 0.1%,ato_sup:R_0805_2012Metric,afe_bank2,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
-U608,TLV3202DGKR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank2,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
-C608,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank2,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
-U1021,SN74LVC1G08DBVR,ato_sup:SOT-23-5,afe_bank2,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1021,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank2,Local logic bypass for U1021,
-J609,REC09 ACTUAL RHD-SIDE TAP,ato_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank2,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
-R6090,10M 0.1%,ato_sup:R_0805_2012Metric,afe_bank2,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
-R6091,1M 0.1%,ato_sup:R_0805_2012Metric,afe_bank2,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
-U609,TLV3202DGKR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank2,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
-C609,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank2,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
-U1022,SN74LVC1G08DBVR,ato_sup:SOT-23-5,afe_bank2,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1022,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank2,Local logic bypass for U1022,
-J610,REC10 ACTUAL RHD-SIDE TAP,ato_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank2,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
-R6100,10M 0.1%,ato_sup:R_0805_2012Metric,afe_bank2,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
-R6101,1M 0.1%,ato_sup:R_0805_2012Metric,afe_bank2,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
-U610,TLV3202DGKR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank2,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
-C610,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank2,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
-U1023,SN74LVC1G08DBVR,ato_sup:SOT-23-5,afe_bank2,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1023,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank2,Local logic bypass for U1023,
-J611,REC11 ACTUAL RHD-SIDE TAP,ato_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank2,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
-R6110,10M 0.1%,ato_sup:R_0805_2012Metric,afe_bank2,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
-R6111,1M 0.1%,ato_sup:R_0805_2012Metric,afe_bank2,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
-U611,TLV3202DGKR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank2,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
-C611,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank2,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
-U1024,SN74LVC1G08DBVR,ato_sup:SOT-23-5,afe_bank2,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1024,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank2,Local logic bypass for U1024,
-J612,REC12 ACTUAL RHD-SIDE TAP,ato_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank3,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
-R6120,10M 0.1%,ato_sup:R_0805_2012Metric,afe_bank3,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
-R6121,1M 0.1%,ato_sup:R_0805_2012Metric,afe_bank3,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
-U612,TLV3202DGKR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank3,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
-C612,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank3,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
-U1025,SN74LVC1G08DBVR,ato_sup:SOT-23-5,afe_bank3,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1025,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank3,Local logic bypass for U1025,
-J613,REC13 ACTUAL RHD-SIDE TAP,ato_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank3,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
-R6130,10M 0.1%,ato_sup:R_0805_2012Metric,afe_bank3,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
-R6131,1M 0.1%,ato_sup:R_0805_2012Metric,afe_bank3,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
-U613,TLV3202DGKR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank3,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
-C613,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank3,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
-U1026,SN74LVC1G08DBVR,ato_sup:SOT-23-5,afe_bank3,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1026,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank3,Local logic bypass for U1026,
-J614,REC14 ACTUAL RHD-SIDE TAP,ato_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank3,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
-R6140,10M 0.1%,ato_sup:R_0805_2012Metric,afe_bank3,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
-R6141,1M 0.1%,ato_sup:R_0805_2012Metric,afe_bank3,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
-U614,TLV3202DGKR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank3,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
-C614,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank3,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
-U1027,SN74LVC1G08DBVR,ato_sup:SOT-23-5,afe_bank3,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1027,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank3,Local logic bypass for U1027,
-J615,REC15 ACTUAL RHD-SIDE TAP,ato_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank3,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
-R6150,10M 0.1%,ato_sup:R_0805_2012Metric,afe_bank3,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
-R6151,1M 0.1%,ato_sup:R_0805_2012Metric,afe_bank3,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
-U615,TLV3202DGKR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank3,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
-C615,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank3,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
-U1028,SN74LVC1G08DBVR,ato_sup:SOT-23-5,afe_bank3,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1028,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank3,Local logic bypass for U1028,
-J616,REF ACTUAL RHD-SIDE TAP,ato_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank4,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
-R6160,10M 0.1%,ato_sup:R_0805_2012Metric,afe_bank4,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
-R6161,1M 0.1%,ato_sup:R_0805_2012Metric,afe_bank4,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
-U616,TLV3202DGKR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank4,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
-C616,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank4,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
-U1029,SN74LVC1G08DBVR,ato_sup:SOT-23-5,afe_bank4,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1029,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_bank4,Local logic bypass for U1029,
-R700,9.50k 0.1%,ato_sup:R_0805_2012Metric,afe_logic,Upper threshold from actual3.45V nominal island logic rail,
-R701,100k 0.1%,ato_sup:R_0805_2012Metric,afe_logic,Upper threshold divider bottom,
-R702,10.5k 0.1%,ato_sup:R_0805_2012Metric,afe_logic,Lower threshold from actual3.45V nominal island logic rail,
-R703,100k 0.1%,ato_sup:R_0805_2012Metric,afe_logic,Lower threshold divider bottom,
-U700,OPA391DCKR,ato_sup:SOT-353_SC-70-5,afe_logic,Unity threshold buffer; actual DC errors and rail-valid startup are retained,https://www.ti.com/lit/ds/symlink/opa391.pdf
-C700,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_logic,Local OPA391 supply bypass,
-U701,OPA391DCKR,ato_sup:SOT-353_SC-70-5,afe_logic,Unity threshold buffer; actual DC errors and rail-valid startup are retained,https://www.ti.com/lit/ds/symlink/opa391.pdf
-C701,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_logic,Local OPA391 supply bypass,
-U1030,SN74LVC1G04DBVR,ato_sup:SOT-23-5,afe_logic,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-C1030,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_logic,Local logic bypass for U1030,
-U1031,SN74LVC1G04DBVR,ato_sup:SOT-23-5,afe_logic,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-C1031,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_logic,Local logic bypass for U1031,
-U1032,SN74LVC1G11DBVR,ato_sup:SOT-23-6,afe_logic,All17 actual RHD input/reference DC windows,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1032,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_logic,Local logic bypass for U1032,
-U1033,SN74LVC1G11DBVR,ato_sup:SOT-23-6,afe_logic,All17 actual RHD input/reference DC windows,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1033,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_logic,Local logic bypass for U1033,
-U1034,SN74LVC1G11DBVR,ato_sup:SOT-23-6,afe_logic_2,All17 actual RHD input/reference DC windows,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1034,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_logic_2,Local logic bypass for U1034,
-U1035,SN74LVC1G11DBVR,ato_sup:SOT-23-6,afe_logic_2,All17 actual RHD input/reference DC windows,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1035,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_logic_2,Local logic bypass for U1035,
-U1036,SN74LVC1G11DBVR,ato_sup:SOT-23-6,afe_logic_2,All17 actual RHD input/reference DC windows,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1036,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_logic_2,Local logic bypass for U1036,
-U1037,SN74LVC1G11DBVR,ato_sup:SOT-23-6,afe_logic_2,All17 actual RHD input/reference DC windows,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1037,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_logic_2,Local logic bypass for U1037,
-U1038,SN74LVC1G11DBVR,ato_sup:SOT-23-6,afe_logic_2,All17 actual RHD input/reference DC windows,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1038,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_logic_2,Local logic bypass for U1038,
-U1039,SN74LVC1G11DBVR,ato_sup:SOT-23-6,afe_logic_2,All17 actual RHD input/reference DC windows,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1039,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_logic_2,Local logic bypass for U1039,
-U1040,SN74LVC1G11DBVR,ato_sup:SOT-23-6,afe_logic_2,"Observed low receive-side controls plus observed DC windows, conditional healthy-switch blanking only",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1040,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_logic_2,Local logic bypass for U1040,
-U1041,SN74LVC1G08DBVR,ato_sup:SOT-23-5,afe_logic_2,"Observed low receive-side controls plus observed DC windows, conditional healthy-switch blanking only",https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1041,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_logic_2,Local logic bypass for U1041,
-U710,ISO6742FDWR,ato_sup:SOIC-16W_7.5x10.3mm_P1.27mm,afe_logic_2,Two independent reverse status channels; F default-low on valid receiving supply with absent input side; no isolated power,https://www.ti.com/lit/ds/symlink/iso6741.pdf
-C710,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_logic_2,Host isolator bypass,
-C711,100n X7R 16V,ato_sup:C_0805_2012Metric,afe_logic_2,Island isolator bypass,
-U800,LTC6993HS6-1#TRPBF,ato_sup:TSOT-23-6,duration,"Independent nonretriggerable timer triggered by rawREQUEST, never health-gated trigger",https://www.analog.com/media/en/technical-documentation/data-sheets/ltc6993-6993-1-6993-2-6993-3-6993-4.pdf
-R8000,195.4k 0.1%,ato_sup:R_0805_2012Metric,duration,"Secondary durationnom250.112us, worstfinitefullmodelbound264us",
-R8001,976k 0.1%,ato_sup:R_0805_2012Metric,duration,DIVcode2 top,
-R8002,182k 0.1%,ato_sup:R_0805_2012Metric,duration,"DIVcode2 bottom,NDIV64",
-C800,100n X7R 16V,ato_sup:C_0805_2012Metric,duration,Secondary timer local bypass,
-U1042,SN74LVC1G04DBVR,ato_sup:SOT-23-5,duration,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-C1042,100n X7R 16V,ato_sup:C_0805_2012Metric,duration,Local logic bypass for U1042,
-U1043,SN74LVC1G32DBVR,ato_sup:SOT-23-5,duration,Held request at secondary expiration latches timeout,https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
-C1043,100n X7R 16V,ato_sup:C_0805_2012Metric,duration,Local logic bypass for U1043,
-U810,SN74LVC1G74DCUR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,duration,Actual edge/async latch. Health return cannot supply a raw rearm clock,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-C810,100n X7R 16V,ato_sup:C_0805_2012Metric,duration,Local FF bypass,
-U801,LTC6993HS6-1#TRPBF,ato_sup:TSOT-23-6,duration,"Independent nonretriggerable timer triggered by rawREQUEST, never health-gated trigger",https://www.analog.com/media/en/technical-documentation/data-sheets/ltc6993-6993-1-6993-2-6993-3-6993-4.pdf
-R8010,195.4k 0.1%,ato_sup:R_0805_2012Metric,duration,"Secondary durationnom250.112us, worstfinitefullmodelbound264us",
-R8011,976k 0.1%,ato_sup:R_0805_2012Metric,duration,DIVcode2 top,
-R8012,182k 0.1%,ato_sup:R_0805_2012Metric,duration,"DIVcode2 bottom,NDIV64",
-C801,100n X7R 16V,ato_sup:C_0805_2012Metric,duration,Secondary timer local bypass,
-U1044,SN74LVC1G04DBVR,ato_sup:SOT-23-5,duration,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-C1044,100n X7R 16V,ato_sup:C_0805_2012Metric,duration,Local logic bypass for U1044,
-U1045,SN74LVC1G32DBVR,ato_sup:SOT-23-5,duration,Held request at secondary expiration latches timeout,https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
-C1045,100n X7R 16V,ato_sup:C_0805_2012Metric,duration,Local logic bypass for U1045,
-U811,SN74LVC1G74DCUR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,duration,Actual edge/async latch. Health return cannot supply a raw rearm clock,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-C811,100n X7R 16V,ato_sup:C_0805_2012Metric,duration,Local FF bypass,
-U1046,SN74LVC1G08DBVR,ato_sup:SOT-23-5,admission,Both power domains actually observed,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1046,100n X7R 16V,ato_sup:C_0805_2012Metric,admission,Local logic bypass for U1046,
-U1047,SN74LVC1G11DBVR,ato_sup:SOT-23-6,admission,"Native startup/rails/heartbeat qualification, not ARM or raw phase command",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1047,100n X7R 16V,ato_sup:C_0805_2012Metric,admission,Local logic bypass for U1047,
-U1048,SN74LVC1G08DBVR,ato_sup:SOT-23-5,admission,Conditional healthy-switch blanking alias; welded-at-zero counterexample retained,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1048,100n X7R 16V,ato_sup:C_0805_2012Metric,admission,Local logic bypass for U1048,
-U1049,SN74LVC1G11DBVR,ato_sup:SOT-23-6,admission,"Sense health can recover without ARM or MON_PERMIT, enabling independent monitor rearm",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1049,100n X7R 16V,ato_sup:C_0805_2012Metric,admission,Local logic bypass for U1049,
-U1050,SN74LVC1G11DBVR,ato_sup:SOT-23-6,admission,"Sense health can recover without ARM or MON_PERMIT, enabling independent monitor rearm",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1050,100n X7R 16V,ato_sup:C_0805_2012Metric,admission,Local logic bypass for U1050,
-U1051,SN74LVC1G08DBVR,ato_sup:SOT-23-5,admission,"Sense health can recover without ARM or MON_PERMIT, enabling independent monitor rearm",https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1051,100n X7R 16V,ato_sup:C_0805_2012Metric,admission,Local logic bypass for U1051,
-U1052,SN74LVC1G08DBVR,ato_sup:SOT-23-5,admission,"Map to monitoring-cell J3pin1 ONLY, never driver EXT_SUP_OK",https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1052,100n X7R 16V,ato_sup:C_0805_2012Metric,admission,Local logic bypass for U1052,
-U1053,SN74LVC1G08DBVR,ato_sup:SOT-23-5,admission,"Map to monitoring-cell J3pin2 ONLY, never driver EXT_SUP_OK",https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1053,100n X7R 16V,ato_sup:C_0805_2012Metric,admission,Local logic bypass for U1053,
-U1054,SN74LVC1G11DBVR,ato_sup:SOT-23-6,admission,Final health includes both actual existing monitor latch outputs,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1054,100n X7R 16V,ato_sup:C_0805_2012Metric,admission,Local logic bypass for U1054,
-U1055,SN74LVC1G04DBVR,ato_sup:SOT-23-5,admission,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-C1055,100n X7R 16V,ato_sup:C_0805_2012Metric,admission,Local logic bypass for U1055,
-U1056,SN74LVC1G04DBVR,ato_sup:SOT-23-5,admission,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-C1056,100n X7R 16V,ato_sup:C_0805_2012Metric,admission,Local logic bypass for U1056,
-U1057,SN74LVC1G04DBVR,ato_sup:SOT-23-5,admission,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-C1057,100n X7R 16V,ato_sup:C_0805_2012Metric,admission,Local logic bypass for U1057,
-U1058,SN74LVC1G04DBVR,ato_sup:SOT-23-5,admission,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-C1058,100n X7R 16V,ato_sup:C_0805_2012Metric,admission,Local logic bypass for U1058,
-U1059,SN74LVC1G04DBVR,ato_sup:SOT-23-5,admission,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-C1059,100n X7R 16V,ato_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1059,
-U1060,SN74LVC1G04DBVR,ato_sup:SOT-23-5,admission_2,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-C1060,100n X7R 16V,ato_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1060,
-U1061,SN74LVC1G11DBVR,ato_sup:SOT-23-6,admission_2,Both phases and secondary timers must actually be low before quiet reset,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1061,100n X7R 16V,ato_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1061,
-U1062,SN74LVC1G11DBVR,ato_sup:SOT-23-6,admission_2,Both phases and secondary timers must actually be low before quiet reset,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1062,100n X7R 16V,ato_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1062,
-U1063,SN74LVC1G08DBVR,ato_sup:SOT-23-5,admission_2,Both phases and secondary timers must actually be low before quiet reset,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1063,100n X7R 16V,ato_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1063,
-U1064,SN74LVC1G11DBVR,ato_sup:SOT-23-6,admission_2,"Independent observed quiet band, no raw requests, RUN or secondary timer",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1064,100n X7R 16V,ato_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1064,
-U1065,SN74LVC1G08DBVR,ato_sup:SOT-23-5,admission_2,"Independent observed quiet band, no raw requests, RUN or secondary timer",https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1065,100n X7R 16V,ato_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1065,
-U1066,SN74LVC1G08DBVR,ato_sup:SOT-23-5,admission_2,Timeout clear only by deliberate quiet fault reset,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1066,100n X7R 16V,ato_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1066,
-U1067,SN74LVC1G04DBVR,ato_sup:SOT-23-5,admission_2,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-C1067,100n X7R 16V,ato_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1067,
-U1068,SN74LVC1G04DBVR,ato_sup:SOT-23-5,admission_2,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-C1068,100n X7R 16V,ato_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1068,
-U1069,SN74LVC1G04DBVR,ato_sup:SOT-23-5,admission_2,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-C1069,100n X7R 16V,ato_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1069,
-U1070,SN74LVC1G11DBVR,ato_sup:SOT-23-6,admission_2,Health loss or secondary timeout consumes global arm,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1070,100n X7R 16V,ato_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1070,
-U900,SN74LVC1G74DCUR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,admission_2,Actual edge/async latch. Health return cannot supply a raw rearm clock,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-C900,100n X7R 16V,ato_sup:C_0805_2012Metric,admission_2,Local FF bypass,
-U1071,SN74LVC1G11DBVR,ato_sup:SOT-23-6,phase0,"Admission includes held route ownership, not physical mux continuity",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1071,100n X7R 16V,ato_sup:C_0805_2012Metric,phase0,Local logic bypass for U1071,
-U1072,SN74LVC1G08DBVR,ato_sup:SOT-23-5,phase0,Normal request fall while secondary timer remains high consumes phase block,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1072,100n X7R 16V,ato_sup:C_0805_2012Metric,phase0,Local logic bypass for U1072,
-U1073,SN74LVC1G04DBVR,ato_sup:SOT-23-5,phase0,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-C1073,100n X7R 16V,ato_sup:C_0805_2012Metric,phase0,Local logic bypass for U1073,
-U1074,SN74LVC1G08DBVR,ato_sup:SOT-23-5,phase0,Asynchronous block set on fault or phase end,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1074,100n X7R 16V,ato_sup:C_0805_2012Metric,phase0,Local logic bypass for U1074,
-U1075,SN74LVC1G11DBVR,ato_sup:SOT-23-6,phase0,Explicit rearm while source quiet; no raw phase activity,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1075,100n X7R 16V,ato_sup:C_0805_2012Metric,phase0,Local logic bypass for U1075,
-U1076,SN74LVC1G11DBVR,ato_sup:SOT-23-6,phase0,Explicit rearm while source quiet; no raw phase activity,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1076,100n X7R 16V,ato_sup:C_0805_2012Metric,phase0,Local logic bypass for U1076,
-U1077,SN74LVC1G08DBVR,ato_sup:SOT-23-5,phase0,Explicit rearm while source quiet; no raw phase activity,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1077,100n X7R 16V,ato_sup:C_0805_2012Metric,phase0,Local logic bypass for U1077,
-U1078,SN74LVC1G04DBVR,ato_sup:SOT-23-5,phase0,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-C1078,100n X7R 16V,ato_sup:C_0805_2012Metric,phase0,Local logic bypass for U1078,
-U910,SN74LVC1G74DCUR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,phase0,Actual edge/async latch. Health return cannot supply a raw rearm clock,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-C910,100n X7R 16V,ato_sup:C_0805_2012Metric,phase0,Local FF bypass,
-U1079,SN74LVC1G04DBVR,ato_sup:SOT-23-5,phase0,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-C1079,100n X7R 16V,ato_sup:C_0805_2012Metric,phase0,Local logic bypass for U1079,
-U1080,SN74LVC1G11DBVR,ato_sup:SOT-23-6,phase0,One actual driver phase admitted through an independent secondary duration gate,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1080,100n X7R 16V,ato_sup:C_0805_2012Metric,phase0,Local logic bypass for U1080,
-U1081,SN74LVC1G11DBVR,ato_sup:SOT-23-6,phase0,One actual driver phase admitted through an independent secondary duration gate,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1081,100n X7R 16V,ato_sup:C_0805_2012Metric,phase0,Local logic bypass for U1081,
-U1082,SN74LVC1G08DBVR,ato_sup:SOT-23-5,phase0,One actual driver phase admitted through an independent secondary duration gate,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1082,100n X7R 16V,ato_sup:C_0805_2012Metric,phase0,Local logic bypass for U1082,
-U1083,SN74LVC1G11DBVR,ato_sup:SOT-23-6,phase0,Driver supervisory output remains phase independent so original driver can rearm,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1083,100n X7R 16V,ato_sup:C_0805_2012Metric,phase0,Local logic bypass for U1083,
-U1084,SN74LVC1G11DBVR,ato_sup:SOT-23-6,phase1,"Admission includes held route ownership, not physical mux continuity",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1084,100n X7R 16V,ato_sup:C_0805_2012Metric,phase1,Local logic bypass for U1084,
-U1085,SN74LVC1G08DBVR,ato_sup:SOT-23-5,phase1,Normal request fall while secondary timer remains high consumes phase block,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1085,100n X7R 16V,ato_sup:C_0805_2012Metric,phase1,Local logic bypass for U1085,
-U1086,SN74LVC1G04DBVR,ato_sup:SOT-23-5,phase1,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-C1086,100n X7R 16V,ato_sup:C_0805_2012Metric,phase1,Local logic bypass for U1086,
-U1087,SN74LVC1G08DBVR,ato_sup:SOT-23-5,phase1,Asynchronous block set on fault or phase end,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1087,100n X7R 16V,ato_sup:C_0805_2012Metric,phase1,Local logic bypass for U1087,
-U1088,SN74LVC1G11DBVR,ato_sup:SOT-23-6,phase1,Explicit rearm while source quiet; no raw phase activity,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1088,100n X7R 16V,ato_sup:C_0805_2012Metric,phase1,Local logic bypass for U1088,
-U1089,SN74LVC1G11DBVR,ato_sup:SOT-23-6,phase1,Explicit rearm while source quiet; no raw phase activity,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1089,100n X7R 16V,ato_sup:C_0805_2012Metric,phase1,Local logic bypass for U1089,
-U1090,SN74LVC1G08DBVR,ato_sup:SOT-23-5,phase1,Explicit rearm while source quiet; no raw phase activity,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1090,100n X7R 16V,ato_sup:C_0805_2012Metric,phase1,Local logic bypass for U1090,
-U1091,SN74LVC1G04DBVR,ato_sup:SOT-23-5,phase1,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-C1091,100n X7R 16V,ato_sup:C_0805_2012Metric,phase1,Local logic bypass for U1091,
-U911,SN74LVC1G74DCUR,ato_sup:VSSOP-8_2.3x2mm_P0.5mm,phase1,Actual edge/async latch. Health return cannot supply a raw rearm clock,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-C911,100n X7R 16V,ato_sup:C_0805_2012Metric,phase1,Local FF bypass,
-U1092,SN74LVC1G04DBVR,ato_sup:SOT-23-5,phase1,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-C1092,100n X7R 16V,ato_sup:C_0805_2012Metric,phase1,Local logic bypass for U1092,
-U1093,SN74LVC1G11DBVR,ato_sup:SOT-23-6,phase1,One actual driver phase admitted through an independent secondary duration gate,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1093,100n X7R 16V,ato_sup:C_0805_2012Metric,phase1,Local logic bypass for U1093,
-U1094,SN74LVC1G11DBVR,ato_sup:SOT-23-6,phase1,One actual driver phase admitted through an independent secondary duration gate,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1094,100n X7R 16V,ato_sup:C_0805_2012Metric,phase1,Local logic bypass for U1094,
-U1095,SN74LVC1G08DBVR,ato_sup:SOT-23-5,phase1,One actual driver phase admitted through an independent secondary duration gate,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C1095,100n X7R 16V,ato_sup:C_0805_2012Metric,phase1,Local logic bypass for U1095,
-U1096,SN74LVC1G11DBVR,ato_sup:SOT-23-6,phase1,Driver supervisory output remains phase independent so original driver can rearm,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-C1096,100n X7R 16V,ato_sup:C_0805_2012Metric,phase1,Local logic bypass for U1096,
-U1097,SN74LVC1G32DBVR,ato_sup:SOT-23-5,admission_2,Any allowed phase connects all18body conductors; any commonhealthfault clears globalarm and allguards,https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
-C1097,100n X7R 16V,ato_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1097,
-R950,10k,ato_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,
-R951,10k,ato_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,
-R952,10k,ato_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,
-R953,10k,ato_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,
-R954,10k,ato_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,
-R955,10k,ato_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,
-R956,10k,ato_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,
-R957,10k,ato_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,
-R958,10k,ato_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,
-R959,10k,ato_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,
-R960,10k,ato_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,
-R961,10k,ato_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,
+J1,EXTERNAL SUPERVISOR AND HOST RAILS,scci_rh_sup:PinHeader_1x07_P2.54mm_Vertical,root,Always-on supervisor supplies remain external; generators are the next package,
+J2,FLOATING AFE RAILS AND OBSERVED CONTROLS,scci_rh_sup:PinHeader_1x06_P2.54mm_Vertical,root,"Receive-side actual control nets, not host command copies; separate electrical island",
+J3,RAW CONTROL / STATUS,scci_rh_sup:PinHeader_1x12_P2.54mm_Vertical,root,Distinct raw rearm and fault reset; no automatic retry or opposite phase,
+J4,EXISTING MONITOR OBSERVATIONS,scci_rh_sup:PinHeader_1x09_P2.54mm_Vertical,root,"Map existing MID2.048V, REF4.096V, current scale40V/A; monitor supervisory health excludes ARM to avoid circular startup",
+J5,EXPORTED NATIVE HEALTH / PERMISSION,scci_rh_sup:PinHeader_1x13_P2.54mm_Vertical,root,"AFE_ISOLATED_READY means conditional blank-voltage/control qualification, never proof of open switches",
+J6,DRIVER INTERNAL DIFFERENTIAL VOLTAGES,scci_rh_sup:PinHeader_1x05_P2.54mm_Vertical,root,Internal driver-terminal compliance probe; not a body voltage/current or guard continuity sensor,
+U100,TMUX7412FRRPR,scci_rh_sup:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6,guards,S pins face body; D pins face canonical router/monitor path. Off still has leakage/capacitance and welded-path limits,https://www.ti.com/lit/ds/symlink/tmux7412f.pdf
+C100,100n X7R 50V,scci_rh_sup:C_0805_2012Metric,guards,Guard local high-voltage supply bypass,
+R100,22k,scci_rh_sup:R_0805_2012Metric,guards,Passive guard enable low when logic is absent; not rail-off isolation proof,
+U101,TMUX7412FRRPR,scci_rh_sup:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6,guards,S pins face body; D pins face canonical router/monitor path. Off still has leakage/capacitance and welded-path limits,https://www.ti.com/lit/ds/symlink/tmux7412f.pdf
+C101,100n X7R 50V,scci_rh_sup:C_0805_2012Metric,guards,Guard local high-voltage supply bypass,
+R101,22k,scci_rh_sup:R_0805_2012Metric,guards,Passive guard enable low when logic is absent; not rail-off isolation proof,
+U102,TMUX7412FRRPR,scci_rh_sup:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6,guards,S pins face body; D pins face canonical router/monitor path. Off still has leakage/capacitance and welded-path limits,https://www.ti.com/lit/ds/symlink/tmux7412f.pdf
+C102,100n X7R 50V,scci_rh_sup:C_0805_2012Metric,guards,Guard local high-voltage supply bypass,
+R102,22k,scci_rh_sup:R_0805_2012Metric,guards,Passive guard enable low when logic is absent; not rail-off isolation proof,
+U103,TMUX7412FRRPR,scci_rh_sup:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6,guards,S pins face body; D pins face canonical router/monitor path. Off still has leakage/capacitance and welded-path limits,https://www.ti.com/lit/ds/symlink/tmux7412f.pdf
+C103,100n X7R 50V,scci_rh_sup:C_0805_2012Metric,guards,Guard local high-voltage supply bypass,
+R103,22k,scci_rh_sup:R_0805_2012Metric,guards,Passive guard enable low when logic is absent; not rail-off isolation proof,
+U104,TMUX7412FRRPR,scci_rh_sup:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6,guards,S pins face body; D pins face canonical router/monitor path. Off still has leakage/capacitance and welded-path limits,https://www.ti.com/lit/ds/symlink/tmux7412f.pdf
+C104,100n X7R 50V,scci_rh_sup:C_0805_2012Metric,guards,Guard local high-voltage supply bypass,
+R104,22k,scci_rh_sup:R_0805_2012Metric,guards,Passive guard enable low when logic is absent; not rail-off isolation proof,
+J100,CANONICAL ROUTER J7 / BEFORE GUARDS,scci_rh_sup:PinHeader_1x18_P2.54mm_Vertical,guards,"All18routerJ7outputs pass through this guard; existing monitor shunts remain upstream, never duplicated",
+J101,BODY-FACING ARTIFICIAL LOAD CONTACTS,scci_rh_sup:PinHeader_1x18_P2.54mm_Vertical,guards,"Digital research fixture connector, not an implant connector; no REF/BIAS stimulation return",
+R110,1k,scci_rh_sup:R_0805_2012Metric,guards,Single pullup for five shared open-drain FF outputs; fault flag is not switch continuity,
+U200,TPS3700DDCR,scci_rh_sup:SOT-23-6,host_rails,Independent 400mV-reference UV/OV window; falling hysteresis/input-bias/reference tolerance are studied,https://www.ti.com/lit/ds/symlink/tps3700.pdf
+R2000,67500R 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
+R2001,10k 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails,Low impedance threshold lower resistor limits comparator bias error,
+R2002,77500R 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
+R2003,10k 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails,Low impedance threshold lower resistor limits comparator bias error,
+R2004,10k,scci_rh_sup:R_0805_2012Metric,host_rails,Wired-AND open-drain output pullup,
+C200,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,host_rails,Supervisor local bypass,
+U201,TPS3700DDCR,scci_rh_sup:SOT-23-6,host_rails,Independent 400mV-reference UV/OV window; falling hysteresis/input-bias/reference tolerance are studied,https://www.ti.com/lit/ds/symlink/tps3700.pdf
+R2010,108750R 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
+R2011,10k 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails,Low impedance threshold lower resistor limits comparator bias error,
+R2012,121250R 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
+R2013,10k 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails,Low impedance threshold lower resistor limits comparator bias error,
+R2014,10k,scci_rh_sup:R_0805_2012Metric,host_rails,Wired-AND open-drain output pullup,
+C201,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,host_rails,Supervisor local bypass,
+U202,TPS3700DDCR,scci_rh_sup:SOT-23-6,host_rails,Independent 400mV-reference UV/OV window; falling hysteresis/input-bias/reference tolerance are studied,https://www.ti.com/lit/ds/symlink/tps3700.pdf
+R2020,67500R 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
+R2021,10k 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails,Low impedance threshold lower resistor limits comparator bias error,
+R2022,77500R 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
+R2023,10k 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails,Low impedance threshold lower resistor limits comparator bias error,
+R2024,10k,scci_rh_sup:R_0805_2012Metric,host_rails,Wired-AND open-drain output pullup,
+C202,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,host_rails,Supervisor local bypass,
+U203,TPS3700DDCR,scci_rh_sup:SOT-23-6,host_rails_2,Independent 400mV-reference UV/OV window; falling hysteresis/input-bias/reference tolerance are studied,https://www.ti.com/lit/ds/symlink/tps3700.pdf
+R2030,108750R 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails_2,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
+R2031,10k 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails_2,Low impedance threshold lower resistor limits comparator bias error,
+R2032,121250R 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails_2,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
+R2033,10k 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails_2,Low impedance threshold lower resistor limits comparator bias error,
+R2034,10k,scci_rh_sup:R_0805_2012Metric,host_rails_2,Wired-AND open-drain output pullup,
+C203,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,host_rails_2,Supervisor local bypass,
+U204,TPS3700DDCR,scci_rh_sup:SOT-23-6,host_rails_2,Independent 400mV-reference UV/OV window; falling hysteresis/input-bias/reference tolerance are studied,https://www.ti.com/lit/ds/symlink/tps3700.pdf
+R2040,327500R 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails_2,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
+R2041,10k 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails_2,Low impedance threshold lower resistor limits comparator bias error,
+R2042,402500R 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails_2,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
+R2043,10k 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails_2,Low impedance threshold lower resistor limits comparator bias error,
+R2044,10k,scci_rh_sup:R_0805_2012Metric,host_rails_2,Wired-AND open-drain output pullup,
+C204,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,host_rails_2,Supervisor local bypass,
+U205,TPS3700DDCR,scci_rh_sup:SOT-23-6,host_rails_2,Independent 400mV-reference UV/OV window; falling hysteresis/input-bias/reference tolerance are studied,https://www.ti.com/lit/ds/symlink/tps3700.pdf
+R2050,560000R 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails_2,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
+R2051,10k 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails_2,Low impedance threshold lower resistor limits comparator bias error,
+R2052,620000R 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails_2,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
+R2053,10k 0.1%,scci_rh_sup:R_0805_2012Metric,host_rails_2,Low impedance threshold lower resistor limits comparator bias error,
+R2054,10k,scci_rh_sup:R_0805_2012Metric,host_rails_2,Wired-AND open-drain output pullup,
+C205,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,host_rails_2,Supervisor local bypass,
+U206,TPS3700DDCR,scci_rh_sup:SOT-23-6,afe_rails,Independent 400mV-reference UV/OV window; falling hysteresis/input-bias/reference tolerance are studied,https://www.ti.com/lit/ds/symlink/tps3700.pdf
+R2060,73500R 0.1%,scci_rh_sup:R_0805_2012Metric,afe_rails,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
+R2061,10k 0.1%,scci_rh_sup:R_0805_2012Metric,afe_rails,Low impedance threshold lower resistor limits comparator bias error,
+R2062,78500R 0.1%,scci_rh_sup:R_0805_2012Metric,afe_rails,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
+R2063,10k 0.1%,scci_rh_sup:R_0805_2012Metric,afe_rails,Low impedance threshold lower resistor limits comparator bias error,
+R2064,10k,scci_rh_sup:R_0805_2012Metric,afe_rails,Wired-AND open-drain output pullup,
+C206,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_rails,Supervisor local bypass,
+U207,TPS3700DDCR,scci_rh_sup:SOT-23-6,afe_rails,Independent 400mV-reference UV/OV window; falling hysteresis/input-bias/reference tolerance are studied,https://www.ti.com/lit/ds/symlink/tps3700.pdf
+R2070,120000R 0.1%,scci_rh_sup:R_0805_2012Metric,afe_rails,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
+R2071,10k 0.1%,scci_rh_sup:R_0805_2012Metric,afe_rails,Low impedance threshold lower resistor limits comparator bias error,
+R2072,125500R 0.1%,scci_rh_sup:R_0805_2012Metric,afe_rails,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
+R2073,10k 0.1%,scci_rh_sup:R_0805_2012Metric,afe_rails,Low impedance threshold lower resistor limits comparator bias error,
+R2074,10k,scci_rh_sup:R_0805_2012Metric,afe_rails,Wired-AND open-drain output pullup,
+C207,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_rails,Supervisor local bypass,
+U208,TPS3700DDCR,scci_rh_sup:SOT-23-6,afe_rails,Independent 400mV-reference UV/OV window; falling hysteresis/input-bias/reference tolerance are studied,https://www.ti.com/lit/ds/symlink/tps3700.pdf
+R2080,1875R 0.1%,scci_rh_sup:R_0805_2012Metric,afe_rails,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
+R2081,10k 0.1%,scci_rh_sup:R_0805_2012Metric,afe_rails_2,Low impedance threshold lower resistor limits comparator bias error,
+R2082,3750R 0.1%,scci_rh_sup:R_0805_2012Metric,afe_rails_2,"Threshold upper resistor; exact provisional resistance, MPN/series realization follows in PCB package",
+R2083,10k 0.1%,scci_rh_sup:R_0805_2012Metric,afe_rails_2,Low impedance threshold lower resistor limits comparator bias error,
+R2084,10k,scci_rh_sup:R_0805_2012Metric,afe_rails_2,Wired-AND open-drain output pullup,
+C208,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_rails_2,Supervisor local bypass,
+U220,OPA391DCKR,scci_rh_sup:SOT-353_SC-70-5,afe_rails_2,"Inverting negative-rail magnitude observation, gain0.1; dependent on valid island opamp supply",https://www.ti.com/lit/ds/symlink/opa391.pdf
+R2200,100k 0.1%,scci_rh_sup:R_0805_2012Metric,afe_rails_2,Negative rail sense input,
+R2201,10k 0.1%,scci_rh_sup:R_0805_2012Metric,afe_rails_2,Magnitude feedback gain0.1,
+C220,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_rails_2,Magnitude opamp local bypass,
+R250,100k 1%,scci_rh_sup:R_0805_2012Metric,watchdog,Power-on hold resistor; 47nF tolerance and Schmitt threshold define a finite delay,
+C250,47n X7R 10%,scci_rh_sup:C_0805_2012Metric,watchdog,Power-on hold capacitor; no universal brownout timing proof,
+D250,BAT54WS-7-F,scci_rh_sup:D_SOD-323,watchdog,"Fast rail-loss discharge, actual diode leakage/forward voltage remain bounded assumptions",https://www.diodes.com/datasheet/download/BAT54WS.pdf
+R251,100R,scci_rh_sup:R_0805_2012Metric,watchdog,Discharge current limiting,
+U250,SN74LVC1G17DBVR,scci_rh_sup:SOT-23-5,watchdog,"Schmitt startup hold, no MCU-controlled qualification",https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf
+C251,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,watchdog,Schmitt local bypass,
+R260,100k 1%,scci_rh_sup:R_0805_2012Metric,afe_rails_2,Power-on hold resistor; 47nF tolerance and Schmitt threshold define a finite delay,
+C260,47n X7R 10%,scci_rh_sup:C_0805_2012Metric,afe_rails_2,Power-on hold capacitor; no universal brownout timing proof,
+D260,BAT54WS-7-F,scci_rh_sup:D_SOD-323,afe_rails_2,"Fast rail-loss discharge, actual diode leakage/forward voltage remain bounded assumptions",https://www.diodes.com/datasheet/download/BAT54WS.pdf
+R261,100R,scci_rh_sup:R_0805_2012Metric,afe_rails_2,Discharge current limiting,
+U260,SN74LVC1G17DBVR,scci_rh_sup:SOT-23-5,afe_rails_2,"Schmitt startup hold, no MCU-controlled qualification",https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf
+C261,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_rails_2,Schmitt local bypass,
+U1000,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,watchdog,All host/supervisor supplies qualified with native windows and startup hold,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1000,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,watchdog,Local logic bypass for U1000,
+U1001,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,watchdog,All host/supervisor supplies qualified with native windows and startup hold,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1001,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,watchdog,Local logic bypass for U1001,
+U1002,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,watchdog,All host/supervisor supplies qualified with native windows and startup hold,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1002,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,watchdog,Local logic bypass for U1002,
+U1003,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,afe_logic,Native isolated-island rail status,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1003,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_logic,Local logic bypass for U1003,
+U1004,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,afe_logic,Native isolated-island rail status,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1004,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_logic,Local logic bypass for U1004,
+U300,TPS3431SDRBR,scci_rh_sup:Texas_DRB0008A_VSON8_3x3_P0.65_EP1.5x1.75,watchdog,"WDO and ENOUT wired-AND; fixed200ms nominal watchdog, not a microsecond phase limiter",https://www.ti.com/lit/ds/symlink/tps3431.pdf
+R300,10k,scci_rh_sup:R_0805_2012Metric,watchdog,SET1high and CWD10ktoVDD select170..230ms timeout,
+R301,10k,scci_rh_sup:R_0805_2012Metric,watchdog,Shared open-drain watchdog/startup output pullup,
+R302,10k,scci_rh_sup:R_0805_2012Metric,watchdog,Absent heartbeat remains low; only actual falling edges reset watchdog,
+C300,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,watchdog,Watchdog local bypass,
+U1005,SN74LVC1G04DBVR,scci_rh_sup:SOT-23-5,watchdog,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+C1005,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,watchdog,Local logic bypass for U1005,
+U1006,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,watchdog,A heartbeat seen before valid startup is discarded,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1006,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,watchdog,Local logic bypass for U1006,
+U301,SN74LVC1G74DCUR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,watchdog,Actual edge/async latch. Health return cannot supply a raw rearm clock,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+C301,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,watchdog,Local FF bypass,
+U1007,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,watchdog,No startup high-Z state is accepted as heartbeat evidence,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1007,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,watchdog,Local logic bypass for U1007,
+U1008,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,watchdog,Export actual watchdog qualification,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1008,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,watchdog,Local logic bypass for U1008,
+R400,203.8k 0.1%,scci_rh_sup:R_0805_2012Metric,quiescence,Shared current threshold ladder top,
+R401,2k 0.1%,scci_rh_sup:R_0805_2012Metric,quiescence,20mV separation around2.048V nominal,
+R402,203.8k 0.1%,scci_rh_sup:R_0805_2012Metric,quiescence,Shared current threshold ladder bottom,
+U400,OPA391DCKR,scci_rh_sup:SOT-353_SC-70-5,quiescence,Unity threshold buffer; actual DC errors and rail-valid startup are retained,https://www.ti.com/lit/ds/symlink/opa391.pdf
+C400,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,quiescence,Local OPA391 supply bypass,
+U401,OPA391DCKR,scci_rh_sup:SOT-353_SC-70-5,quiescence,Unity threshold buffer; actual DC errors and rail-valid startup are retained,https://www.ti.com/lit/ds/symlink/opa391.pdf
+C401,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,quiescence,Local OPA391 supply bypass,
+U410,TLV3202DGKR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,quiescence,Observed INA currentwindow;5V outputs enter only5.5V-tolerant LVCinputs,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+C410,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,quiescence,Comparator local bypass,
+U1009,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,quiescence,Quiet additionally requires existing actual monitor permit,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1009,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,quiescence,Local logic bypass for U1009,
+R410,3.3k 1%,scci_rh_sup:R_0805_2012Metric,quiescence,"Provisional dwell resistor, not proof of tissue-charge relaxation",
+C420,10n C0G 5%,scci_rh_sup:C_0805_2012Metric,quiescence,Finite quiet qualification hold,
+D410,BAT54WS-7-F,scci_rh_sup:D_SOD-323,quiescence,Fast quiet-loss discharge; positive retained voltage belowSchmittlow required,https://www.diodes.com/datasheet/download/BAT54WS.pdf
+R420,100R,scci_rh_sup:R_0805_2012Metric,quiescence,Quiet-discharge limiter,
+U420,SN74LVC1G17DBVR,scci_rh_sup:SOT-23-5,quiescence,Dwell qualified finite current band; comparator error forbids calling this exact zero,https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf
+C430,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,quiescence,Quiet Schmitt bypass,
+U411,TLV3202DGKR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,quiescence,Observed INA currentwindow;5V outputs enter only5.5V-tolerant LVCinputs,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+C411,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,quiescence,Comparator local bypass,
+U1010,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,quiescence,Quiet additionally requires existing actual monitor permit,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1010,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,quiescence,Local logic bypass for U1010,
+R411,3.3k 1%,scci_rh_sup:R_0805_2012Metric,quiescence,"Provisional dwell resistor, not proof of tissue-charge relaxation",
+C421,10n C0G 5%,scci_rh_sup:C_0805_2012Metric,quiescence,Finite quiet qualification hold,
+D411,BAT54WS-7-F,scci_rh_sup:D_SOD-323,quiescence,Fast quiet-loss discharge; positive retained voltage belowSchmittlow required,https://www.diodes.com/datasheet/download/BAT54WS.pdf
+R421,100R,scci_rh_sup:R_0805_2012Metric,quiescence,Quiet-discharge limiter,
+U421,SN74LVC1G17DBVR,scci_rh_sup:SOT-23-5,quiescence,Dwell qualified finite current band; comparator error forbids calling this exact zero,https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf
+C431,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,quiescence,Quiet Schmitt bypass,
+R500,232k 0.1%,scci_rh_sup:R_0805_2012Metric,voltage,Shared differential threshold top,
+R501,536k 0.1%,scci_rh_sup:R_0805_2012Metric,voltage,Nominal±22V threshold separation aftergain.0499,
+R502,232k 0.1%,scci_rh_sup:R_0805_2012Metric,voltage,Shared differential threshold bottom,
+U500,OPA391DCKR,scci_rh_sup:SOT-353_SC-70-5,voltage,Unity threshold buffer; actual DC errors and rail-valid startup are retained,https://www.ti.com/lit/ds/symlink/opa391.pdf
+C500,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,voltage,Local OPA391 supply bypass,
+U501,OPA391DCKR,scci_rh_sup:SOT-353_SC-70-5,voltage,Unity threshold buffer; actual DC errors and rail-valid startup are retained,https://www.ti.com/lit/ds/symlink/opa391.pdf
+C501,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,voltage,Local OPA391 supply bypass,
+U502,OPA2192IDGKR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,voltage,"Two real difference amplifiers, VPAIR=MID+.0499*(A_BR-B_BR); input matching and rail validity explicit",https://www.ti.com/lit/ds/symlink/opa2192.pdf
+C502,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,voltage,OPA2192 local bypass,
+R510,1M 0.1%,scci_rh_sup:R_0805_2012Metric,voltage,Positive-terminal differential input,
+R511,49.9k 0.1%,scci_rh_sup:R_0805_2012Metric,voltage,Offset leg; matching affects common-mode rejection,
+R512,1M 0.1%,scci_rh_sup:R_0805_2012Metric,voltage,Negative-terminal differential input,
+R513,49.9k 0.1%,scci_rh_sup:R_0805_2012Metric,voltage,Feedback gain.0499,
+U510,TLV3202DGKR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,voltage,"Internal driver differential compliance window, never body-voltage proof",https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+C510,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,voltage,Pair comparator local bypass,
+U1011,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,voltage,Independent voltage window admitted only while supervisor rails are valid,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1011,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,voltage,Local logic bypass for U1011,
+R520,1M 0.1%,scci_rh_sup:R_0805_2012Metric,voltage,Positive-terminal differential input,
+R521,49.9k 0.1%,scci_rh_sup:R_0805_2012Metric,voltage,Offset leg; matching affects common-mode rejection,
+R522,1M 0.1%,scci_rh_sup:R_0805_2012Metric,voltage,Negative-terminal differential input,
+R523,49.9k 0.1%,scci_rh_sup:R_0805_2012Metric,voltage,Feedback gain.0499,
+U520,TLV3202DGKR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,voltage,"Internal driver differential compliance window, never body-voltage proof",https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+C520,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,voltage,Pair comparator local bypass,
+U1012,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,voltage,Independent voltage window admitted only while supervisor rails are valid,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1012,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,voltage,Local logic bypass for U1012,
+J600,REC00 ACTUAL RHD-SIDE TAP,scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank0,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
+R6000,10M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank0,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
+R6001,1M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank0,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
+U600,TLV3202DGKR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank0,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+C600,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank0,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
+U1013,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,afe_bank0,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1013,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank0,Local logic bypass for U1013,
+J601,REC01 ACTUAL RHD-SIDE TAP,scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank0,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
+R6010,10M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank0,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
+R6011,1M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank0,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
+U601,TLV3202DGKR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank0,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+C601,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank0,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
+U1014,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,afe_bank0,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1014,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank0,Local logic bypass for U1014,
+J602,REC02 ACTUAL RHD-SIDE TAP,scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank0,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
+R6020,10M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank0,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
+R6021,1M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank0,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
+U602,TLV3202DGKR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank0,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+C602,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank0,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
+U1015,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,afe_bank0,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1015,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank0,Local logic bypass for U1015,
+J603,REC03 ACTUAL RHD-SIDE TAP,scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank0,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
+R6030,10M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank0,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
+R6031,1M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank0,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
+U603,TLV3202DGKR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank0,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+C603,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank0,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
+U1016,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,afe_bank0,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1016,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank0,Local logic bypass for U1016,
+J604,REC04 ACTUAL RHD-SIDE TAP,scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank1,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
+R6040,10M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank1,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
+R6041,1M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank1,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
+U604,TLV3202DGKR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank1,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+C604,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank1,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
+U1017,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,afe_bank1,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1017,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank1,Local logic bypass for U1017,
+J605,REC05 ACTUAL RHD-SIDE TAP,scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank1,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
+R6050,10M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank1,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
+R6051,1M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank1,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
+U605,TLV3202DGKR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank1,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+C605,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank1,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
+U1018,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,afe_bank1,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1018,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank1,Local logic bypass for U1018,
+J606,REC06 ACTUAL RHD-SIDE TAP,scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank1,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
+R6060,10M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank1,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
+R6061,1M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank1,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
+U606,TLV3202DGKR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank1,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+C606,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank1,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
+U1019,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,afe_bank1,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1019,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank1,Local logic bypass for U1019,
+J607,REC07 ACTUAL RHD-SIDE TAP,scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank1,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
+R6070,10M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank1,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
+R6071,1M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank1,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
+U607,TLV3202DGKR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank1,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+C607,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank1,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
+U1020,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,afe_bank1,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1020,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank1,Local logic bypass for U1020,
+J608,REC08 ACTUAL RHD-SIDE TAP,scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank2,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
+R6080,10M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank2,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
+R6081,1M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank2,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
+U608,TLV3202DGKR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank2,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+C608,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank2,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
+U1021,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,afe_bank2,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1021,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank2,Local logic bypass for U1021,
+J609,REC09 ACTUAL RHD-SIDE TAP,scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank2,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
+R6090,10M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank2,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
+R6091,1M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank2,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
+U609,TLV3202DGKR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank2,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+C609,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank2,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
+U1022,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,afe_bank2,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1022,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank2,Local logic bypass for U1022,
+J610,REC10 ACTUAL RHD-SIDE TAP,scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank2,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
+R6100,10M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank2,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
+R6101,1M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank2,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
+U610,TLV3202DGKR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank2,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+C610,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank2,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
+U1023,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,afe_bank2,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1023,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank2,Local logic bypass for U1023,
+J611,REC11 ACTUAL RHD-SIDE TAP,scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank2,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
+R6110,10M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank2,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
+R6111,1M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank2,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
+U611,TLV3202DGKR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank2,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+C611,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank2,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
+U1024,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,afe_bank2,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1024,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank2,Local logic bypass for U1024,
+J612,REC12 ACTUAL RHD-SIDE TAP,scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank3,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
+R6120,10M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank3,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
+R6121,1M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank3,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
+U612,TLV3202DGKR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank3,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+C612,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank3,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
+U1025,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,afe_bank3,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1025,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank3,Local logic bypass for U1025,
+J613,REC13 ACTUAL RHD-SIDE TAP,scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank3,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
+R6130,10M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank3,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
+R6131,1M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank3,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
+U613,TLV3202DGKR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank3,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+C613,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank3,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
+U1026,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,afe_bank3,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1026,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank3,Local logic bypass for U1026,
+J614,REC14 ACTUAL RHD-SIDE TAP,scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank3,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
+R6140,10M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank3,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
+R6141,1M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank3,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
+U614,TLV3202DGKR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank3,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+C614,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank3,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
+U1027,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,afe_bank3,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1027,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank3,Local logic bypass for U1027,
+J615,REC15 ACTUAL RHD-SIDE TAP,scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank3,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
+R6150,10M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank3,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
+R6151,1M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank3,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
+U615,TLV3202DGKR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank3,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+C615,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank3,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
+U1028,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,afe_bank3,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1028,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank3,Local logic bypass for U1028,
+J616,REF ACTUAL RHD-SIDE TAP,scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical,afe_bank4,"Physical same node as RHD input, after clamp selector, not pre-clamp protected node or command copy",
+R6160,10M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank4,Added window-probe load;3.45V bias through11Mohm gives~.314uA at zero input,
+R6161,1M 0.1%,scci_rh_sup:R_0805_2012Metric,afe_bank4,"Sense=(10*AFE3V3+VIN)/11, threshold loading and comparator bias explicitly modelled",
+U616,TLV3202DGKR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,afe_bank4,Both outputs high only in measured RHD-side DC band; not open-switch or chronic safety proof,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+C616,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank4,"Window comparator bypass at5.30V nominal, absolute5.5V supply bound",
+U1029,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,afe_bank4,Physical node window under stated offset/bias/loading bounds,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1029,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_bank4,Local logic bypass for U1029,
+R700,9.50k 0.1%,scci_rh_sup:R_0805_2012Metric,afe_logic,Upper threshold from actual3.45V nominal island logic rail,
+R701,100k 0.1%,scci_rh_sup:R_0805_2012Metric,afe_logic,Upper threshold divider bottom,
+R702,10.5k 0.1%,scci_rh_sup:R_0805_2012Metric,afe_logic,Lower threshold from actual3.45V nominal island logic rail,
+R703,100k 0.1%,scci_rh_sup:R_0805_2012Metric,afe_logic,Lower threshold divider bottom,
+U700,OPA391DCKR,scci_rh_sup:SOT-353_SC-70-5,afe_logic,Unity threshold buffer; actual DC errors and rail-valid startup are retained,https://www.ti.com/lit/ds/symlink/opa391.pdf
+C700,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_logic,Local OPA391 supply bypass,
+U701,OPA391DCKR,scci_rh_sup:SOT-353_SC-70-5,afe_logic,Unity threshold buffer; actual DC errors and rail-valid startup are retained,https://www.ti.com/lit/ds/symlink/opa391.pdf
+C701,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_logic,Local OPA391 supply bypass,
+U1030,SN74LVC1G04DBVR,scci_rh_sup:SOT-23-5,afe_logic,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+C1030,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_logic,Local logic bypass for U1030,
+U1031,SN74LVC1G04DBVR,scci_rh_sup:SOT-23-5,afe_logic,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+C1031,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_logic,Local logic bypass for U1031,
+U1032,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,afe_logic,All17 actual RHD input/reference DC windows,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1032,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_logic,Local logic bypass for U1032,
+U1033,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,afe_logic,All17 actual RHD input/reference DC windows,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1033,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_logic,Local logic bypass for U1033,
+U1034,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,afe_logic_2,All17 actual RHD input/reference DC windows,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1034,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_logic_2,Local logic bypass for U1034,
+U1035,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,afe_logic_2,All17 actual RHD input/reference DC windows,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1035,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_logic_2,Local logic bypass for U1035,
+U1036,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,afe_logic_2,All17 actual RHD input/reference DC windows,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1036,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_logic_2,Local logic bypass for U1036,
+U1037,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,afe_logic_2,All17 actual RHD input/reference DC windows,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1037,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_logic_2,Local logic bypass for U1037,
+U1038,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,afe_logic_2,All17 actual RHD input/reference DC windows,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1038,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_logic_2,Local logic bypass for U1038,
+U1039,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,afe_logic_2,All17 actual RHD input/reference DC windows,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1039,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_logic_2,Local logic bypass for U1039,
+U1040,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,afe_logic_2,"Observed low receive-side controls plus observed DC windows, conditional healthy-switch blanking only",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1040,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_logic_2,Local logic bypass for U1040,
+U1041,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,afe_logic_2,"Observed low receive-side controls plus observed DC windows, conditional healthy-switch blanking only",https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1041,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_logic_2,Local logic bypass for U1041,
+U710,ISO6742FDWR,scci_rh_sup:SOIC-16W_7.5x10.3mm_P1.27mm,afe_logic_2,Two independent reverse status channels; F default-low on valid receiving supply with absent input side; no isolated power,https://www.ti.com/lit/ds/symlink/iso6741.pdf
+C710,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_logic_2,Host isolator bypass,
+C711,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,afe_logic_2,Island isolator bypass,
+U800,LTC6993HS6-1#TRPBF,scci_rh_sup:TSOT-23-6,duration,"Independent nonretriggerable timer triggered by rawREQUEST, never health-gated trigger",https://www.analog.com/media/en/technical-documentation/data-sheets/ltc6993-6993-1-6993-2-6993-3-6993-4.pdf
+R8000,195.4k 0.1%,scci_rh_sup:R_0805_2012Metric,duration,"Secondary durationnom250.112us, worstfinitefullmodelbound264us",
+R8001,976k 0.1%,scci_rh_sup:R_0805_2012Metric,duration,DIVcode2 top,
+R8002,182k 0.1%,scci_rh_sup:R_0805_2012Metric,duration,"DIVcode2 bottom,NDIV64",
+C800,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,duration,Secondary timer local bypass,
+U1042,SN74LVC1G04DBVR,scci_rh_sup:SOT-23-5,duration,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+C1042,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,duration,Local logic bypass for U1042,
+U1043,SN74LVC1G32DBVR,scci_rh_sup:SOT-23-5,duration,Held request at secondary expiration latches timeout,https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
+C1043,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,duration,Local logic bypass for U1043,
+U810,SN74LVC1G74DCUR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,duration,Actual edge/async latch. Health return cannot supply a raw rearm clock,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+C810,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,duration,Local FF bypass,
+U801,LTC6993HS6-1#TRPBF,scci_rh_sup:TSOT-23-6,duration,"Independent nonretriggerable timer triggered by rawREQUEST, never health-gated trigger",https://www.analog.com/media/en/technical-documentation/data-sheets/ltc6993-6993-1-6993-2-6993-3-6993-4.pdf
+R8010,195.4k 0.1%,scci_rh_sup:R_0805_2012Metric,duration,"Secondary durationnom250.112us, worstfinitefullmodelbound264us",
+R8011,976k 0.1%,scci_rh_sup:R_0805_2012Metric,duration,DIVcode2 top,
+R8012,182k 0.1%,scci_rh_sup:R_0805_2012Metric,duration,"DIVcode2 bottom,NDIV64",
+C801,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,duration,Secondary timer local bypass,
+U1044,SN74LVC1G04DBVR,scci_rh_sup:SOT-23-5,duration,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+C1044,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,duration,Local logic bypass for U1044,
+U1045,SN74LVC1G32DBVR,scci_rh_sup:SOT-23-5,duration,Held request at secondary expiration latches timeout,https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
+C1045,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,duration,Local logic bypass for U1045,
+U811,SN74LVC1G74DCUR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,duration,Actual edge/async latch. Health return cannot supply a raw rearm clock,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+C811,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,duration,Local FF bypass,
+U1046,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,admission,Both power domains actually observed,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1046,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission,Local logic bypass for U1046,
+U1047,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,admission,"Native startup/rails/heartbeat qualification, not ARM or raw phase command",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1047,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission,Local logic bypass for U1047,
+U1048,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,admission,Conditional healthy-switch blanking alias; welded-at-zero counterexample retained,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1048,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission,Local logic bypass for U1048,
+U1049,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,admission,"Sense health can recover without ARM or MON_PERMIT, enabling independent monitor rearm",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1049,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission,Local logic bypass for U1049,
+U1050,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,admission,"Sense health can recover without ARM or MON_PERMIT, enabling independent monitor rearm",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1050,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission,Local logic bypass for U1050,
+U1051,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,admission,"Sense health can recover without ARM or MON_PERMIT, enabling independent monitor rearm",https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1051,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission,Local logic bypass for U1051,
+U1052,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,admission,"Map to monitoring-cell J3pin1 ONLY, never driver EXT_SUP_OK",https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1052,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission,Local logic bypass for U1052,
+U1053,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,admission,"Map to monitoring-cell J3pin2 ONLY, never driver EXT_SUP_OK",https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1053,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission,Local logic bypass for U1053,
+U1054,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,admission,Final health includes both actual existing monitor latch outputs,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1054,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission,Local logic bypass for U1054,
+U1055,SN74LVC1G04DBVR,scci_rh_sup:SOT-23-5,admission,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+C1055,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission,Local logic bypass for U1055,
+U1056,SN74LVC1G04DBVR,scci_rh_sup:SOT-23-5,admission,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+C1056,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission,Local logic bypass for U1056,
+U1057,SN74LVC1G04DBVR,scci_rh_sup:SOT-23-5,admission,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+C1057,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission,Local logic bypass for U1057,
+U1058,SN74LVC1G04DBVR,scci_rh_sup:SOT-23-5,admission,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+C1058,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission,Local logic bypass for U1058,
+U1059,SN74LVC1G04DBVR,scci_rh_sup:SOT-23-5,admission,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+C1059,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1059,
+U1060,SN74LVC1G04DBVR,scci_rh_sup:SOT-23-5,admission_2,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+C1060,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1060,
+U1061,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,admission_2,Both phases and secondary timers must actually be low before quiet reset,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1061,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1061,
+U1062,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,admission_2,Both phases and secondary timers must actually be low before quiet reset,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1062,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1062,
+U1063,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,admission_2,Both phases and secondary timers must actually be low before quiet reset,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1063,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1063,
+U1064,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,admission_2,"Independent observed quiet band, no raw requests, RUN or secondary timer",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1064,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1064,
+U1065,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,admission_2,"Independent observed quiet band, no raw requests, RUN or secondary timer",https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1065,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1065,
+U1066,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,admission_2,Timeout clear only by deliberate quiet fault reset,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1066,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1066,
+U1067,SN74LVC1G04DBVR,scci_rh_sup:SOT-23-5,admission_2,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+C1067,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1067,
+U1068,SN74LVC1G04DBVR,scci_rh_sup:SOT-23-5,admission_2,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+C1068,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1068,
+U1069,SN74LVC1G04DBVR,scci_rh_sup:SOT-23-5,admission_2,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+C1069,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1069,
+U1070,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,admission_2,Health loss or secondary timeout consumes global arm,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1070,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1070,
+U900,SN74LVC1G74DCUR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,admission_2,Actual edge/async latch. Health return cannot supply a raw rearm clock,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+C900,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission_2,Local FF bypass,
+U1071,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,phase0,"Admission includes held route ownership, not physical mux continuity",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1071,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase0,Local logic bypass for U1071,
+U1072,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,phase0,Normal request fall while secondary timer remains high consumes phase block,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1072,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase0,Local logic bypass for U1072,
+U1073,SN74LVC1G04DBVR,scci_rh_sup:SOT-23-5,phase0,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+C1073,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase0,Local logic bypass for U1073,
+U1074,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,phase0,Asynchronous block set on fault or phase end,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1074,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase0,Local logic bypass for U1074,
+U1075,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,phase0,Explicit rearm while source quiet; no raw phase activity,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1075,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase0,Local logic bypass for U1075,
+U1076,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,phase0,Explicit rearm while source quiet; no raw phase activity,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1076,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase0,Local logic bypass for U1076,
+U1077,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,phase0,Explicit rearm while source quiet; no raw phase activity,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1077,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase0,Local logic bypass for U1077,
+U1078,SN74LVC1G04DBVR,scci_rh_sup:SOT-23-5,phase0,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+C1078,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase0,Local logic bypass for U1078,
+U910,SN74LVC1G74DCUR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,phase0,Actual edge/async latch. Health return cannot supply a raw rearm clock,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+C910,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase0,Local FF bypass,
+U1079,SN74LVC1G04DBVR,scci_rh_sup:SOT-23-5,phase0,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+C1079,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase0,Local logic bypass for U1079,
+U1080,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,phase0,One actual driver phase admitted through an independent secondary duration gate,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1080,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase0,Local logic bypass for U1080,
+U1081,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,phase0,One actual driver phase admitted through an independent secondary duration gate,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1081,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase0,Local logic bypass for U1081,
+U1082,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,phase0,One actual driver phase admitted through an independent secondary duration gate,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1082,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase0,Local logic bypass for U1082,
+U1083,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,phase0,Driver supervisory output remains phase independent so original driver can rearm,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1083,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase0,Local logic bypass for U1083,
+U1084,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,phase1,"Admission includes held route ownership, not physical mux continuity",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1084,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase1,Local logic bypass for U1084,
+U1085,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,phase1,Normal request fall while secondary timer remains high consumes phase block,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1085,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase1,Local logic bypass for U1085,
+U1086,SN74LVC1G04DBVR,scci_rh_sup:SOT-23-5,phase1,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+C1086,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase1,Local logic bypass for U1086,
+U1087,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,phase1,Asynchronous block set on fault or phase end,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1087,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase1,Local logic bypass for U1087,
+U1088,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,phase1,Explicit rearm while source quiet; no raw phase activity,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1088,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase1,Local logic bypass for U1088,
+U1089,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,phase1,Explicit rearm while source quiet; no raw phase activity,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1089,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase1,Local logic bypass for U1089,
+U1090,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,phase1,Explicit rearm while source quiet; no raw phase activity,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1090,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase1,Local logic bypass for U1090,
+U1091,SN74LVC1G04DBVR,scci_rh_sup:SOT-23-5,phase1,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+C1091,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase1,Local logic bypass for U1091,
+U911,SN74LVC1G74DCUR,scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm,phase1,Actual edge/async latch. Health return cannot supply a raw rearm clock,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+C911,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase1,Local FF bypass,
+U1092,SN74LVC1G04DBVR,scci_rh_sup:SOT-23-5,phase1,Native logical inversion; no physical-state inference,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+C1092,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase1,Local logic bypass for U1092,
+U1093,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,phase1,One actual driver phase admitted through an independent secondary duration gate,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1093,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase1,Local logic bypass for U1093,
+U1094,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,phase1,One actual driver phase admitted through an independent secondary duration gate,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1094,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase1,Local logic bypass for U1094,
+U1095,SN74LVC1G08DBVR,scci_rh_sup:SOT-23-5,phase1,One actual driver phase admitted through an independent secondary duration gate,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C1095,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase1,Local logic bypass for U1095,
+U1096,SN74LVC1G11DBVR,scci_rh_sup:SOT-23-6,phase1,Driver supervisory output remains phase independent so original driver can rearm,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+C1096,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,phase1,Local logic bypass for U1096,
+U1097,SN74LVC1G32DBVR,scci_rh_sup:SOT-23-5,admission_2,Any allowed phase connects all18body conductors; any commonhealthfault clears globalarm and allguards,https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
+C1097,100n X7R 16V,scci_rh_sup:C_0805_2012Metric,admission_2,Local logic bypass for U1097,
+R950,10k,scci_rh_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,
+R951,10k,scci_rh_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,
+R952,10k,scci_rh_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,
+R953,10k,scci_rh_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,
+R954,10k,scci_rh_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,
+R955,10k,scci_rh_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,
+R956,10k,scci_rh_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,
+R957,10k,scci_rh_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,
+R958,10k,scci_rh_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,
+R959,10k,scci_rh_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,
+R960,10k,scci_rh_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,
+R961,10k,scci_rh_sup:R_0805_2012Metric,defaults,Absent external control/permission is low; no universal power-off or stuck-pin proof,

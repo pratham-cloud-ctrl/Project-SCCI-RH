@@ -1,8 +1,8 @@
-# Project ATO: a conditional spinal cord-computer interface for expert-informed practice and physiological feedback
+# Project SCCI RH: a conditional spinal cord-computer interface for expert-informed practice and physiological feedback
 
 ## Abstract
 
-Project ATO investigates an invasive spinal cord-computer interface (SCCI) that combines recording, computational interpretation, selective stimulation and independently observed feedback. Its two application families are expert-informed motor practice with retained stimulation-OFF learning, and sustained regulation of a selected physiological function. The central research question is conditional: if useful spinal information and selective learner-specific or function-specific recruitment are available, what architecture could use them, and which parts can a digital engineering project substantiate?
+Project SCCI RH investigates an invasive spinal cord-computer interface (SCCI) that combines recording, computational interpretation, selective stimulation and independently observed feedback. Its two application families are expert-informed motor practice with retained stimulation-OFF learning, and sustained regulation of a selected physiological function. The central research question is conditional: if useful spinal information and selective learner-specific or function-specific recruitment are available, what architecture could use them, and which parts can a digital engineering project substantiate?
 
 This work integrates a focused primary-source review, explicit biological premises, computational studies, native electronics, compiled firmware, mechanical CAD and reproducible verification. Published animal and human studies support individual links, while the proposed healthy-consumer combination remains unestablished. A preserved conservative investigation withholds every intervention. A separate 128-scenario model demonstrates how the assumed learning mechanism determines retained outcomes. The final integration replay executes the unchanged production C admission and phase-state code through declared companion and body adapters: 114,426 repeated assertions cover 28 finite scenario groups. These assertions measure software behavior, rather than biological certainty.
 
@@ -14,7 +14,7 @@ The engineered reference comprises eight routed KiCad boards with 1,296 fitted c
 
 The spinal cord participates in movement, sensation, reflexes and selected autonomic pathways. It therefore offers several possible interfaces between computation and bodily function. The useful question is more specific than whether a computer could control the body: which state is observable at a particular access site, which intervention is reachable through a particular pathway, and whether closing that loop serves a defined functional outcome.
 
-ATO asks two linked questions. First, could an expert's task-related spinal observations inform a learner-specific practice policy that improves later unassisted performance? Second, could a measured physiological state drive repeated, bounded spinal interventions that maintain a selected response? A shared electronic architecture can support both investigations, while recording sites, stimulation placements, calibration and outcome measures remain application-specific. Exclusive software modes do not by themselves make one anatomical lead arrangement suitable for both tasks.
+SCCI_RH asks two linked questions. First, could an expert's task-related spinal observations inform a learner-specific practice policy that improves later unassisted performance? Second, could a measured physiological state drive repeated, bounded spinal interventions that maintain a selected response? A shared electronic architecture can support both investigations, while recording sites, stimulation placements, calibration and outcome measures remain application-specific. Exclusive software modes do not by themselves make one anatomical lead arrangement suitable for both tasks.
 
 The project is entirely digital. It contains original engineering artifacts and computational experiments, with no original human or animal experiment. A useful digital result may be positive, negative or conditional. An abstaining controller can reveal a missing permission; a favorable simulation can reveal an assumption on which benefit depends. Neither outcome alone settles future biological feasibility.
 
@@ -22,7 +22,7 @@ The project is entirely digital. It contains original engineering artifacts and 
 
 AstroSam's Mind-Link is the direct inspiration for expressing a future neural interface through circuit boards, firmware, visualization, connectors and a designed physical body. Its official repository includes PCB development files, fabrication references, firmware, visualization and printable parts, and describes a proof of concept. This audit verified that repository; it does not claim a fresh verification of every statement in the linked video. [R18]
 
-ATO contributes its own spinal problem formulation, two application mechanisms, premises and comparison rules, quantitative studies, electrical architecture, bounded runtime, eight-board reference integration, contact mapping and mechanical designs. It does not claim to have invented spinal interfaces. The original 28-page hypothesis paper is retained as a starting research map. This manuscript consolidates later design decisions and distinguishes historical allocations from implemented behavior.
+SCCI_RH contributes its own spinal problem formulation, two application mechanisms, premises and comparison rules, quantitative studies, electrical architecture, bounded runtime, eight-board reference integration, contact mapping and mechanical designs. It does not claim to have invented spinal interfaces. The original 28-page hypothesis paper is retained as a starting research map. This manuscript consolidates later design decisions and distinguishes historical allocations from implemented behavior.
 
 | Evidence class | Meaning in this manuscript | Example |
 |---|---|---|
@@ -42,7 +42,7 @@ Spinal measurements can contain afferent, descending, local-circuit and movement
 
 Recent animal work motivates the possibility of useful access. Circumferential and conformable interfaces have recorded movement-related spinal activity; chronic mouse experiments and bidirectional circumferential platforms provide complementary recording and stimulation precedents. Their species, preparations and analysis tasks matter. They do not establish a universal human intent decoder or a code transferable between people. [R01][R02][R03]
 
-One source-quality detail requires clarification: R01 labels 21.29% as uniform chance across eight classes, whose uniform chance would be 12.5%; its listed majority class is 215/1010, approximately 21.29%. ATO does not adopt that baseline or independently reanalyze the source data. The recording precedent and its limits remain separate from that wording issue. [R01]
+One source-quality detail requires clarification: R01 labels 21.29% as uniform chance across eight classes, whose uniform chance would be 12.5%; its listed majority class is 215/1010, approximately 21.29%. SCCI_RH does not adopt that baseline or independently reanalyze the source data. The recording precedent and its limits remain separate from that wording issue. [R01]
 
 The proposed baseline separates intradural surface recording from epidural stimulation. This is an architectural choice, rather than a demonstrated chronic human combination. It permits recording access and recruitment access to be evaluated separately. The 16-stream allocation is a finite engineering starting point. Its usefulness depends on the information at the selected contacts and on validity during the relevant time windows.
 
@@ -50,7 +50,7 @@ The proposed baseline separates intradural surface recording from epidural stimu
 
 Mechanistic stimulation models connect electrode placement, afferent recruitment and motor output. Human work shows that individualized spatial and temporal stimulation programs can support selected activities after injury. These results motivate calibrating a local response map instead of assigning an expert's voltage directly to a learner's electrodes. [R04][R05]
 
-Upper-limb stimulation after stroke supplies a different feasibility precedent, with a different condition, anatomy and outcome. It motivates investigation of task-specific assistance without proving healthy skill acquisition or the proposed expert-to-learner pathway. ATO therefore treats lower-limb coordination as a quantitative reference case, while piano and sport remain application families requiring separate representations and access configurations. [R06]
+Upper-limb stimulation after stroke supplies a different feasibility precedent, with a different condition, anatomy and outcome. It motivates investigation of task-specific assistance without proving healthy skill acquisition or the proposed expert-to-learner pathway. SCCI_RH therefore treats lower-limb coordination as a quantitative reference case, while piano and sport remain application families requiring separate representations and access configurations. [R06]
 
 Electrical polarity, recruitment and task-space correction are distinct concepts. A program that produces a negative task-space correction need not electrically inhibit a pathway. The learner-specific response map must identify reachable directions and context dependence. Missing authority, gain drift or an unobserved change in recruitment can invalidate a previously plausible correction.
 
@@ -58,9 +58,9 @@ Electrical polarity, recruitment and task-space correction are distinct concepts
 
 Contingent stimulation and conditioning studies show that activity-dependent change can outlast a stimulation session under particular conditions. Examples include EMG-triggered spinal stimulation during recovery in rats, cortical-spike-triggered spinal pairing in nonhuman primates, and peripheral H-reflex conditioning in people with incomplete injury. Their triggers and targets are different. Recovery and conditioning are informative precedents for adaptation; they do not supply a measured healthy learning multiplier. [R07][R08][R09]
 
-The distinction between spinal-only and hybrid systems is essential. A brain-spine interface that decodes cortical activity and commands spinal stimulation demonstrates a hybrid chain. It supports the broader idea of computation bridging neural pathways, while requiring brain recording that the main ATO concept does not assume. Cortically triggered plasticity likewise belongs to a hybrid precedent. [R08][R11]
+The distinction between spinal-only and hybrid systems is essential. A brain-spine interface that decodes cortical activity and commands spinal stimulation demonstrates a hybrid chain. It supports the broader idea of computation bridging neural pathways, while requiring brain recording that the main SCCI_RH concept does not assume. Cortically triggered plasticity likewise belongs to a hybrid precedent. [R08][R11]
 
-Preserving sensory information also matters. Stimulation can alter proprioceptive signaling, so more delivered input need not imply a better learning environment. ATO carries interference, dependence and adverse adaptation as alternatives rather than treating stimulation as an automatically beneficial teaching signal. [R10]
+Preserving sensory information also matters. Stimulation can alter proprioceptive signaling, so more delivered input need not imply a better learning environment. SCCI_RH carries interference, dependence and adverse adaptation as alternatives rather than treating stimulation as an automatically beneficial teaching signal. [R10]
 
 ### 2.4 Function-specific physiological control
 
@@ -107,7 +107,7 @@ The main SCCI platform remains bidirectional, although pressure feedback in this
 | Selected physiological authority | Targeted pressor feedback after SCI | Unreachable response, wrong sign, unstable context or unacceptable tail |
 | Usable implanted engineering | A finite circuit, runtime and interface architecture | Inadequate signal quality, heat, delivery precision or chronic interface behavior |
 
-These premises need defensible mechanisms and explicit consequences. Their absence from a combined demonstration does not make the concept impossible. Their adoption also does not make the desired capability a measured result. ATO's models are designed to expose where the conclusion changes when a premise changes.
+These premises need defensible mechanisms and explicit consequences. Their absence from a combined demonstration does not make the concept impossible. Their adoption also does not make the desired capability a measured result. SCCI_RH's models are designed to expose where the conclusion changes when a premise changes.
 
 ## 4. Mathematical framework and information permissions
 
@@ -372,13 +372,13 @@ A full Git clone at the v2.0.1 tag is the authoritative reproducibility entry. G
 
 The main entry guides readers from the paper to mechanisms, native KiCad, firmware, FreeCAD assemblies and results. Stage 6's portable release verifier binds references, manuscript source, figures, final PDF, actual visual review, integration reports and preserved baseline content. Native CAD regeneration requires the installed application runtimes. The project uses available free tools; optional commercial/student tools are not prerequisites for reproducing the released evidence.
 
-The author conceived and steered Project ATO and its application goals. AI assistance was used substantially for literature synthesis, mathematics, code, design generation, verification and writing. The contribution record identifies that assistance and avoids inventing experiments, personal fabrication experience or institutional endorsement. The defence guide supports the author's own understanding and future explanation of the work.
+The author conceived and steered Project SCCI RH and its application goals. AI assistance was used substantially for literature synthesis, mathematics, code, design generation, verification and writing. The contribution record identifies that assistance and avoids inventing experiments, personal fabrication experience or institutional endorsement. The defence guide supports the author's own understanding and future explanation of the work.
 
 ## 12. Discussion and next research decisions
 
 ### 12.1 What the project establishes
 
-ATO establishes an integrated digital account of a proposed SCCI. It shows how a future information/actuation premise can lead to testable policies, how assistance and retention can diverge, how selected physiological feedback creates authority and withdrawal constraints, and how those mechanisms map to inspectable engineering interfaces. It provides an actual routed reference, a bounded production core, linked image artifacts and a coherent mechanical body.
+SCCI_RH establishes an integrated digital account of a proposed SCCI. It shows how a future information/actuation premise can lead to testable policies, how assistance and retention can diverge, how selected physiological feedback creates authority and withdrawal constraints, and how those mechanisms map to inspectable engineering interfaces. It provides an actual routed reference, a bounded production core, linked image artifacts and a coherent mechanical body.
 
 The new integrated replay reduces the gap between a diagram and executable control semantics. It also exposes a current implementation boundary: live spinal acquisition during motor stimulation is not implemented. That boundary is useful design information. It prevents a synthetic feature generator or successful host test from being presented as an operating implanted decoder.
 
@@ -410,7 +410,7 @@ The central contribution is therefore a defensible bridge from an ambitious idea
 | Native electronics | electronics/stage4/integrated-pcb/BOARD_INDEX.md | Eight saved routed boards and full hierarchy |
 | Target image | firmware/nrf5340/uart-revision | Current corrected application, ELF/HEX/BIN and regression audit |
 | Native mechanical package | cad/stage5/README.md | Combined assembly, future interface, mating and source CAD |
-| Mechanical review | cad/stage5/drawings/ATO_Stage5_Mechanical_Review.pdf | Six dimensioned and illustrated sheets |
+| Mechanical review | cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf | Six dimensioned and illustrated sheets |
 | Release/defence | docs/stage6 | Contributions, limits, reproducibility and explanation guide |
 
 Paths in this table are relative to the repository root. Historical v1.0.0 material remains a separate subsystem reference. A file's continued presence is not an assertion that every historical number is the current implemented specification.

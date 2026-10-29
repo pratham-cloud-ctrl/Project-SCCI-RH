@@ -2,7 +2,7 @@
 
 **14 October 2026 — finite digital reference and declared acceptance conditions**
 
-The power reference supports Project ATO's spinal recording, interpretation,
+The power reference supports Project SCCI RH's spinal recording, interpretation,
 selective stimulation and feedback architecture. It preserves the motor-learning
 and target-specific physiological-regulation concepts. It supplies a concrete
 electrical implementation to investigate those ideas; it does not establish

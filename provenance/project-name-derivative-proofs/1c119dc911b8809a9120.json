@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-NPTH.drl",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "00733e02a7a7b5e29f142c817e55c57974029f644418293e80e05815b4eb94cb",
+  "current_sha256": "02a87972a0cb009ab4d0887b76fc5fa28536a7f1aaced73315b58f9c63d2476b",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-electrical-export-bindings.json",
+      "sha256_lf": "dd59d6e765731daa7a1762469b7f3d713087851bcc6ccb6e043b8e09b86ef27e"
+    }
+  ]
+}

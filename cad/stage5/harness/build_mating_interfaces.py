@@ -26,7 +26,7 @@ def vector(p):
 
 
 def main():
-    doc=App.newDocument('ATO_Mating_Interfaces')
+    doc=App.newDocument('SCCI_RH_Mating_Interfaces')
     physical=[]
     for mate in C['mates']:
         ux,uy,_=mate['direction_unit']
@@ -75,7 +75,7 @@ def main():
     doc.saveAs(str(native));Import.export(physical,str(step))
     App.closeDocument(doc.Name)
     # Separate route-planning document, never exported as physical solids.
-    route_doc=App.newDocument('ATO_Harness_Route_Plans')
+    route_doc=App.newDocument('SCCI_RH_Harness_Route_Plans')
     route_count=0
     for w in C['wires']:
         points=[]
@@ -89,7 +89,7 @@ def main():
         route_count+=1
     route_doc.recompute();route_doc.saveAs(str(ROOT/C['routing_native']))
     App.closeDocument(route_doc.Name)
-    receipts=dict(schema='ato.stage5.mating-geometry.v1',FreeCAD_version=App.Version(),
+    receipts=dict(schema='scci_rh.stage5.mating-geometry.v1',FreeCAD_version=App.Version(),
                   contract_sha256_lf=hashlib.sha256((HERE/'contract.json').read_bytes().replace(b'\r\n',b'\n')).hexdigest(),
                   parts=parts,physical_part_count=len(parts),mating_housings=83,route_annotation_count=route_count,
                   sources={p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in [C['native'],C['step'],C['routing_native']]})

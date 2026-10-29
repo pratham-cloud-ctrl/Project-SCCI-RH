@@ -1,9 +1,9 @@
-E:\project workspace assests\EDA\KiCAD\bin\kicad-cli.exe pcb export step --force --no-dnp --output E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\populated.step E:\Project ATO\electronics\stage4\integrated-pcb\boards\monitoring-transport\monitoring_transport.kicad_pcb
-STEP file 'E:/Project ATO/electronics/stage4/integrated-pcb/exports/monitoring-transport/populated.step' created.
+E:\project workspace assests\EDA\KiCAD\bin\kicad-cli.exe pcb export step --force --no-dnp --output E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\populated.step E:\Project SCCI RH\electronics\stage4\integrated-pcb\boards\monitoring-transport\monitoring_transport.kicad_pcb
+STEP file 'E:/Project SCCI RH/electronics/stage4/integrated-pcb/exports/monitoring-transport/populated.step' created.
 
 Export time 4.664 s
 
-E:\project workspace assests\EDA\KiCAD\bin\kicad-cli.exe pcb render --width 1800 --height 1400 --quality high --background opaque --side top --output E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\top.png E:\Project ATO\electronics\stage4\integrated-pcb\boards\monitoring-transport\monitoring_transport.kicad_pcb
+E:\project workspace assests\EDA\KiCAD\bin\kicad-cli.exe pcb render --width 1800 --height 1400 --quality high --background opaque --side top --output E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\top.png E:\Project SCCI RH\electronics\stage4\integrated-pcb\boards\monitoring-transport\monitoring_transport.kicad_pcb
 Loading…
 Build board outline
 
@@ -159,7 +159,7 @@ Rendering: Post processing shader
 Rendering time 35.501 s
 Successfully created 3D render image
 
-E:\project workspace assests\EDA\KiCAD\bin\kicad-cli.exe pcb render --width 1800 --height 1400 --quality high --background opaque --side bottom --output E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\bottom.png E:\Project ATO\electronics\stage4\integrated-pcb\boards\monitoring-transport\monitoring_transport.kicad_pcb
+E:\project workspace assests\EDA\KiCAD\bin\kicad-cli.exe pcb render --width 1800 --height 1400 --quality high --background opaque --side bottom --output E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\bottom.png E:\Project SCCI RH\electronics\stage4\integrated-pcb\boards\monitoring-transport\monitoring_transport.kicad_pcb
 Loading…
 Build board outline
 
@@ -302,7 +302,7 @@ Rendering: Post processing shader
 Rendering time 29.532 s
 Successfully created 3D render image
 
-E:\project workspace assests\EDA\KiCAD\bin\kicad-cli.exe pcb render --width 1800 --height 1400 --quality high --background opaque --rotate -35,0,25 --zoom .83 --output E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\isometric.png E:\Project ATO\electronics\stage4\integrated-pcb\boards\monitoring-transport\monitoring_transport.kicad_pcb
+E:\project workspace assests\EDA\KiCAD\bin\kicad-cli.exe pcb render --width 1800 --height 1400 --quality high --background opaque --rotate -35,0,25 --zoom .83 --output E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\isometric.png E:\Project SCCI RH\electronics\stage4\integrated-pcb\boards\monitoring-transport\monitoring_transport.kicad_pcb
 Loading…
 Build board outline
 
@@ -418,32 +418,32 @@ Rendering: Post processing shader
 Rendering time 16.275 s
 Successfully created 3D render image
 
-E:\project workspace assests\EDA\KiCAD\bin\kicad-cli.exe pcb export svg --layers F.Cu,F.SilkS,Edge.Cuts --page-size-mode 2 --exclude-drawing-sheet --mode-single --output E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\top-copper.svg E:\Project ATO\electronics\stage4\integrated-pcb\boards\monitoring-transport\monitoring_transport.kicad_pcb
-Plotted to 'E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\top-copper.svg'.
+E:\project workspace assests\EDA\KiCAD\bin\kicad-cli.exe pcb export svg --layers F.Cu,F.SilkS,Edge.Cuts --page-size-mode 2 --exclude-drawing-sheet --mode-single --output E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\top-copper.svg E:\Project SCCI RH\electronics\stage4\integrated-pcb\boards\monitoring-transport\monitoring_transport.kicad_pcb
+Plotted to 'E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\top-copper.svg'.
 Done.
 
-E:\project workspace assests\EDA\KiCAD\bin\kicad-cli.exe pcb export svg --layers B.Cu,B.SilkS,Edge.Cuts --page-size-mode 2 --exclude-drawing-sheet --mirror --mode-single --output E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\bottom-copper.svg E:\Project ATO\electronics\stage4\integrated-pcb\boards\monitoring-transport\monitoring_transport.kicad_pcb
-Plotted to 'E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\bottom-copper.svg'.
+E:\project workspace assests\EDA\KiCAD\bin\kicad-cli.exe pcb export svg --layers B.Cu,B.SilkS,Edge.Cuts --page-size-mode 2 --exclude-drawing-sheet --mirror --mode-single --output E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\bottom-copper.svg E:\Project SCCI RH\electronics\stage4\integrated-pcb\boards\monitoring-transport\monitoring_transport.kicad_pcb
+Plotted to 'E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\bottom-copper.svg'.
 Done.
 
-E:\project workspace assests\EDA\KiCAD\bin\kicad-cli.exe pcb export gerbers --layers F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts --subtract-soldermask --output E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\ E:\Project ATO\electronics\stage4\integrated-pcb\boards\monitoring-transport\monitoring_transport.kicad_pcb
-Plotted to 'E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\monitoring_transport-F_Cu.gtl'.
-Plotted to 'E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\monitoring_transport-In1_Cu.g1'.
-Plotted to 'E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\monitoring_transport-In2_Cu.g2'.
-Plotted to 'E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\monitoring_transport-B_Cu.gbl'.
-Plotted to 'E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\monitoring_transport-F_Silkscreen.gto'.
-Plotted to 'E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\monitoring_transport-B_Silkscreen.gbo'.
-Plotted to 'E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\monitoring_transport-F_Mask.gts'.
-Plotted to 'E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\monitoring_transport-B_Mask.gbs'.
-Plotted to 'E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\monitoring_transport-Edge_Cuts.gm1'.
+E:\project workspace assests\EDA\KiCAD\bin\kicad-cli.exe pcb export gerbers --layers F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts --subtract-soldermask --output E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\ E:\Project SCCI RH\electronics\stage4\integrated-pcb\boards\monitoring-transport\monitoring_transport.kicad_pcb
+Plotted to 'E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\monitoring_transport-F_Cu.gtl'.
+Plotted to 'E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\monitoring_transport-In1_Cu.g1'.
+Plotted to 'E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\monitoring_transport-In2_Cu.g2'.
+Plotted to 'E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\monitoring_transport-B_Cu.gbl'.
+Plotted to 'E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\monitoring_transport-F_Silkscreen.gto'.
+Plotted to 'E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\monitoring_transport-B_Silkscreen.gbo'.
+Plotted to 'E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\monitoring_transport-F_Mask.gts'.
+Plotted to 'E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\monitoring_transport-B_Mask.gbs'.
+Plotted to 'E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\monitoring_transport-Edge_Cuts.gm1'.
 
-E:\project workspace assests\EDA\KiCAD\bin\kicad-cli.exe pcb export drill --format excellon --excellon-units mm --excellon-separate-th --generate-report --report-path E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\drill-report.txt --output E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\ E:\Project ATO\electronics\stage4\integrated-pcb\boards\monitoring-transport\monitoring_transport.kicad_pcb
-Created file 'E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\monitoring_transport-PTH.drl'
-Created file 'E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\monitoring_transport-NPTH.drl'
+E:\project workspace assests\EDA\KiCAD\bin\kicad-cli.exe pcb export drill --format excellon --excellon-units mm --excellon-separate-th --generate-report --report-path E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\drill-report.txt --output E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\ E:\Project SCCI RH\electronics\stage4\integrated-pcb\boards\monitoring-transport\monitoring_transport.kicad_pcb
+Created file 'E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\monitoring_transport-PTH.drl'
+Created file 'E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\monitoring_transport-NPTH.drl'
 Done.
 
-E:\project workspace assests\EDA\KiCAD\bin\kicad-cli.exe pcb export pos --format csv --units mm --side both --exclude-dnp --output E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\positions.csv E:\Project ATO\electronics\stage4\integrated-pcb\boards\monitoring-transport\monitoring_transport.kicad_pcb
-Wrote position data to 'E:\Project ATO\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\positions.csv'.
+E:\project workspace assests\EDA\KiCAD\bin\kicad-cli.exe pcb export pos --format csv --units mm --side both --exclude-dnp --output E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\positions.csv E:\Project SCCI RH\electronics\stage4\integrated-pcb\boards\monitoring-transport\monitoring_transport.kicad_pcb
+Wrote position data to 'E:\Project SCCI RH\electronics\stage4\integrated-pcb\exports\monitoring-transport\fabrication-reference\positions.csv'.
 
 E:\project workspace assests\EDA\KiCAD\bin\kicad-cli.exe version
 10.0.6

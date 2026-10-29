@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage4.supervision-independent-analog.v1",
+  "schema": "scci_rh.stage4.supervision-independent-analog.v1",
   "date": "2026-10-14",
   "checks": 6079,
   "trajectory_points": 2961,
@@ -9,9 +9,9 @@
   "independent_of_producer_import": true,
   "physical_delay_or_tissue_validation": false,
   "sha256": {
-    "analog_study.py": "7a9be1c5d3f0449a5cd901ad0781fdd6e8d5b79446922587ea8f7ddad2f61666",
-    "analog-results.json": "c916d4181e0b2f30408d12d56738efebbb5516de01c5626fb1608902e5ff6bcc",
+    "analog_study.py": "1f11081b931edfeac77dd7d42f9ffaf26dee61a4fb486af4f2914131f1871f9d",
+    "analog-results.json": "c7d4509d95505d3bde22b48233cea695012f0376c4e7dd27e092fc4fa4cc199e",
     "analog-traces.npz": "389816e9e0d0f4cbe8c56583e0178314f847b16677bb84f1f022a1599e96d510",
-    "verify_analog.py": "c0ca1029c0ed139746009f17621c69862f0ec1825ae8eb857cec7bfc8d3f02a9"
+    "verify_analog.py": "d3b6e078c6806a411f355b38a4e021a351191bdd00c00e9ea01836b77df4a225"
   }
 }

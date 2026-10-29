@@ -1,6 +1,6 @@
 # Portable production policy core
 
-`ato_runtime.c` is linked into the nRF5340 target application and compiled without
+`scci_rh_runtime.c` is linked into the nRF5340 target application and compiled without
 changes by the host fault tests. It owns policy admission and state, rather than
 GPIO, peripheral timing, packet authentication or a physiological model.
 
@@ -11,10 +11,10 @@ shift-register serial return is not a substitute for active-Q observations. A
 route readback acknowledgement must match both requested addresses. Identical
 addresses are rejected when both sources are requested.
 
-Explicit recovery begins while still inhibited: `ato_runtime_recovery_begin`
+Explicit recovery begins while still inhibited: `scci_rh_runtime_recovery_begin`
 qualifies pre-monitor health and actual quiet, then requests one monitor-latch
 rearm. The backend waits for the observed monitor permits before calling final
-`ato_runtime_rearm`, which requests the ordered fault-reset and supervisor-rearm
+`scci_rh_runtime_rearm`, which requests the ordered fault-reset and supervisor-rearm
 edges. This avoids requiring monitor permission before the action that creates
 it. Neither function resets the charge integrator or automatically repeats a
 fault clear; interrupted unknown charge history must be retained.

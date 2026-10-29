@@ -2,7 +2,7 @@
   (base_design "monitoring_transport")
   (placement
     (resolution um 10)
-    (component "ato_transport:C_1206_3216Metric"
+    (component "scci_rh_transport:C_1206_3216Metric"
       (place C70009 993550 -645250 front 0)
       (place C70002 1040550 -673750 front 0)
       (place C70023 506350 -341750 front 0)
@@ -25,10 +25,10 @@
       (place C70104 469350 -766750 front 90)
       (place C70107 469350 -661750 front 90)
     )
-    (component "ato_transport:SOIC-8_3.9x4.9mm_P1.27mm"
+    (component "scci_rh_transport:SOIC-8_3.9x4.9mm_P1.27mm"
       (place U70020 483850 -294750 front 0)
     )
-    (component "ato_transport:R_0805_2012Metric"
+    (component "scci_rh_transport:R_0805_2012Metric"
       (place R70101 378050 -781750 front 0)
       (place R70120 154550 -659250 front 0)
       (place R70001 177250 -234350 front 0)
@@ -56,17 +56,17 @@
       (place R70025 538850 -242250 front 90)
       (place R70031 840550 -227050 front 90)
     )
-    (component "ato_transport:PinHeader_1x04_P2.54mm_Vertical"
+    (component "scci_rh_transport:PinHeader_1x04_P2.54mm_Vertical"
       (place J70007 422450 -411450 front 90)
       (place J70008 574550 -411450 front 90)
     )
-    (component "ato_transport:PinHeader_1x05_P2.54mm_Vertical"
+    (component "scci_rh_transport:PinHeader_1x05_P2.54mm_Vertical"
       (place J70005 147950 -1105350 front 90)
     )
-    (component "ato_transport:PinHeader_1x12_P2.54mm_Vertical"
+    (component "scci_rh_transport:PinHeader_1x12_P2.54mm_Vertical"
       (place J70020 806650 -302250 front 90)
     )
-    (component "ato_transport:PinHeader_1x06_P2.54mm_Vertical"
+    (component "scci_rh_transport:PinHeader_1x06_P2.54mm_Vertical"
       (place J70003 649050 -811750 front 90)
     )
     (component "MountingHole_3.2mm_M3"
@@ -75,21 +75,21 @@
       (place H2 1210000 -40000 front 0)
       (place H3 40000 -1360000 front 0)
     )
-    (component "ato_transport:TSSOP-38_4.4x9.7mm_P0.5mm"
+    (component "scci_rh_transport:TSSOP-38_4.4x9.7mm_P0.5mm"
       (place U70001 207250 -303350 front 0)
     )
-    (component "ato_transport:PinHeader_1x10_P2.54mm_Vertical"
+    (component "scci_rh_transport:PinHeader_1x10_P2.54mm_Vertical"
       (place J70021 806650 -378150 front 90)
       (place J70006 147950 -1181250 front 90)
     )
-    (component "ato_transport:PinHeader_1x03_P2.54mm_Vertical"
+    (component "scci_rh_transport:PinHeader_1x03_P2.54mm_Vertical"
       (place J70001 649050 -659950 front 90)
     )
-    (component "ato_transport:PinHeader_1x08_P2.54mm_Vertical"
+    (component "scci_rh_transport:PinHeader_1x08_P2.54mm_Vertical"
       (place J70004 147950 -1029450 front 90)
       (place J70002 649050 -735850 front 90)
     )
-    (component "ato_transport:PinHeader_1x07_P2.54mm_Vertical"
+    (component "scci_rh_transport:PinHeader_1x07_P2.54mm_Vertical"
       (place J70022 806750 -454050 front 90)
     )
   )

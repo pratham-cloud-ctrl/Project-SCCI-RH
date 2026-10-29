@@ -156,7 +156,7 @@ def calibrate():
     assert eigenvalues.min() >= -1e-14
     diffusion = checked_covariance(diffusion, 8, DIFFUSION_PSD_ATOL)
     prior_covariance = checked_covariance(prior_covariance, 10)
-    result = {'schema': 'ato.tmp.observed-state-method-freeze.v1', 'date': '2026-10-12',
+    result = {'schema': 'scci_rh.tmp.observed-state-method-freeze.v1', 'date': '2026-10-12',
         'classification': 'FROZEN_NONCONFIRMATORY_DEVELOPMENT_METHOD',
         'protocol_sha256': digest(PROTOCOL), 'implementation_sha256': digest(Path(__file__)),
         'calibration_input_sha256': digest(CALIBRATION),
@@ -391,7 +391,7 @@ def score(review_reference):
     temporal, temporal_raw = [], []
     for record in cal:
         s, r = evaluate_record(model, record, 1620, 2369); temporal.append(s); temporal_raw.append(r)
-    summary = {'schema':'ato.tmp.observed-state-development.v1','date':'2026-10-12',
+    summary = {'schema':'scci_rh.tmp.observed-state-development.v1','date':'2026-10-12',
         'classification':'NONCONFIRMATORY_OBSERVED_STATE_DEVELOPMENT',
         'method_receipt_sha256':digest(RECEIPT), 'protocol_sha256':digest(PROTOCOL),
         'implementation_sha256':digest(Path(__file__)), 'development_input_sha256':digest(DEVELOPMENT),

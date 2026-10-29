@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "E:\\Project ATO\\electronics\\stage4\\monitoring-transport\\monitoring_transport.kicad_sch")
+		(source "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-transport\\monitoring_transport.kicad_sch")
 		(date "2026-10-14T14:00:02")
 		(tool "Eeschema 10.0.6")
 		(sheet
@@ -9,8 +9,8 @@
 			(name "/")
 			(tstamps "/")
 			(title_block
-				(title "ATO S4 / Existing package and host endpoints")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Existing package and host endpoints")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-14")
 				(source "monitoring_transport.kicad_sch")
@@ -57,8 +57,8 @@
 			(name "/root_2/")
 			(tstamps "/7880434a-48bf-506a-ac9d-6b78203ec772/")
 			(title_block
-				(title "ATO S4 / Existing package and host endpoints / 2")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Existing package and host endpoints / 2")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-14")
 				(source "root_2.kicad_sch")
@@ -105,8 +105,8 @@
 			(name "/adc/")
 			(tstamps "/5d3e8d94-df0e-5999-98b6-9cb57ec7e02a/")
 			(title_block
-				(title "ATO S4 / Dedicated eight-channel raw conversion")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Dedicated eight-channel raw conversion")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-14")
 				(source "adc.kicad_sch")
@@ -153,8 +153,8 @@
 			(name "/reference/")
 			(tstamps "/c90f0fe5-ccc0-529d-967b-355ee0d26c3a/")
 			(title_block
-				(title "ATO S4 / Independent ADC reference and bypass")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Independent ADC reference and bypass")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-14")
 				(source "reference.kicad_sch")
@@ -201,8 +201,8 @@
 			(name "/inputs/")
 			(tstamps "/0a9a2965-5f72-5f9c-b91c-5debe4602283/")
 			(title_block
-				(title "ATO S4 / Raw current and scaled voltage filtering")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Raw current and scaled voltage filtering")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-14")
 				(source "inputs.kicad_sch")
@@ -249,8 +249,8 @@
 			(name "/health/")
 			(tstamps "/74423b4b-11de-57d0-990e-540ff5f5e5f2/")
 			(title_block
-				(title "ATO S4 / Divided power observations")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Divided power observations")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-14")
 				(source "health.kicad_sch")
@@ -297,8 +297,8 @@
 			(name "/companion/")
 			(tstamps "/5098c9ca-7662-55f9-abf2-1cee41be6148/")
 			(title_block
-				(title "ATO S4 / Isolated wired processed-feature companion")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Isolated wired processed-feature companion")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-14")
 				(source "companion.kicad_sch")
@@ -345,8 +345,8 @@
 			(name "/handoff/")
 			(tstamps "/380c03ad-d9bb-5a11-a4b3-1c5d618b6562/")
 			(title_block
-				(title "ATO S4 / Charge ADC and health host handoff")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Charge ADC and health host handoff")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-14")
 				(source "handoff.kicad_sch")
@@ -393,10 +393,10 @@
 		(comp
 			(ref "J1")
 			(value "HOST RAILS / RAW ADC")
-			(footprint "ato_transport:PinHeader_1x03_P2.54mm_Vertical")
+			(footprint "scci_rh_transport:PinHeader_1x03_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:PinHeader_1x03_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_transport:PinHeader_1x03_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -405,7 +405,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "J1")
 				(description "")
 			)
@@ -442,10 +442,10 @@
 		(comp
 			(ref "J2")
 			(value "EXISTING ANALOG TAPS")
-			(footprint "ato_transport:PinHeader_1x08_P2.54mm_Vertical")
+			(footprint "scci_rh_transport:PinHeader_1x08_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:PinHeader_1x08_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_transport:PinHeader_1x08_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -454,7 +454,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "J2")
 				(description "")
 			)
@@ -506,10 +506,10 @@
 		(comp
 			(ref "J3")
 			(value "DEDICATED RAW ADC BUS")
-			(footprint "ato_transport:PinHeader_1x06_P2.54mm_Vertical")
+			(footprint "scci_rh_transport:PinHeader_1x06_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:PinHeader_1x06_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_transport:PinHeader_1x06_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -518,7 +518,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "J3")
 				(description "")
 			)
@@ -564,10 +564,10 @@
 		(comp
 			(ref "J4")
 			(value "TWO EXISTING CHARGE ADCs")
-			(footprint "ato_transport:PinHeader_1x08_P2.54mm_Vertical")
+			(footprint "scci_rh_transport:PinHeader_1x08_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:PinHeader_1x08_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_transport:PinHeader_1x08_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -576,7 +576,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "J4")
 				(description "")
 			)
@@ -628,10 +628,10 @@
 		(comp
 			(ref "J5")
 			(value "CHARGE CONTROL HANDOFF")
-			(footprint "ato_transport:PinHeader_1x05_P2.54mm_Vertical")
+			(footprint "scci_rh_transport:PinHeader_1x05_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:PinHeader_1x05_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_transport:PinHeader_1x05_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -640,7 +640,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "J5")
 				(description "")
 			)
@@ -683,10 +683,10 @@
 		(comp
 			(ref "J6")
 			(value "READ-ONLY NATIVE HEALTH")
-			(footprint "ato_transport:PinHeader_1x10_P2.54mm_Vertical")
+			(footprint "scci_rh_transport:PinHeader_1x10_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:PinHeader_1x10_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_transport:PinHeader_1x10_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -695,7 +695,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "J6")
 				(description "")
 			)
@@ -753,10 +753,10 @@
 		(comp
 			(ref "R1")
 			(value "33R")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -765,7 +765,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R1")
 				(description "")
 			)
@@ -799,10 +799,10 @@
 		(comp
 			(ref "R2")
 			(value "33R")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -811,7 +811,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R2")
 				(description "")
 			)
@@ -845,10 +845,10 @@
 		(comp
 			(ref "R3")
 			(value "100k")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -857,7 +857,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R3")
 				(description "")
 			)
@@ -891,10 +891,10 @@
 		(comp
 			(ref "R4")
 			(value "100k")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -903,7 +903,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R4")
 				(description "")
 			)
@@ -937,10 +937,10 @@
 		(comp
 			(ref "R5")
 			(value "100k")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -949,7 +949,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R5")
 				(description "")
 			)
@@ -983,10 +983,10 @@
 		(comp
 			(ref "R6")
 			(value "100k")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -995,7 +995,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R6")
 				(description "")
 			)
@@ -1029,11 +1029,11 @@
 		(comp
 			(ref "U1")
 			(value "ADS8688IDBTR")
-			(footprint "ato_transport:TSSOP-38_4.4x9.7mm_P0.5mm")
+			(footprint "scci_rh_transport:TSSOP-38_4.4x9.7mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/ads8688.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:TSSOP-38_4.4x9.7mm_P0.5mm")
+					(name "Footprint") "scci_rh_transport:TSSOP-38_4.4x9.7mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/ads8688.pdf")
 				(field
@@ -1041,7 +1041,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "U1")
 				(description "")
 			)
@@ -1183,10 +1183,10 @@
 		(comp
 			(ref "C1")
 			(value "22u X7R 10V")
-			(footprint "ato_transport:C_1206_3216Metric")
+			(footprint "scci_rh_transport:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1195,7 +1195,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "C1")
 				(description "")
 			)
@@ -1229,10 +1229,10 @@
 		(comp
 			(ref "C2")
 			(value "22u X7R 10V")
-			(footprint "ato_transport:C_1206_3216Metric")
+			(footprint "scci_rh_transport:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1241,7 +1241,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "C2")
 				(description "")
 			)
@@ -1275,10 +1275,10 @@
 		(comp
 			(ref "C3")
 			(value "1u X7R 10V")
-			(footprint "ato_transport:C_1206_3216Metric")
+			(footprint "scci_rh_transport:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1287,7 +1287,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "C3")
 				(description "")
 			)
@@ -1321,10 +1321,10 @@
 		(comp
 			(ref "C4")
 			(value "10u X7R 10V")
-			(footprint "ato_transport:C_1206_3216Metric")
+			(footprint "scci_rh_transport:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1333,7 +1333,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "C4")
 				(description "")
 			)
@@ -1367,10 +1367,10 @@
 		(comp
 			(ref "C5")
 			(value "1u X7R 10V")
-			(footprint "ato_transport:C_1206_3216Metric")
+			(footprint "scci_rh_transport:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1379,7 +1379,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "C5")
 				(description "")
 			)
@@ -1413,10 +1413,10 @@
 		(comp
 			(ref "C6")
 			(value "10u X7R 10V")
-			(footprint "ato_transport:C_1206_3216Metric")
+			(footprint "scci_rh_transport:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1425,7 +1425,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "C6")
 				(description "")
 			)
@@ -1459,10 +1459,10 @@
 		(comp
 			(ref "C7")
 			(value "1u X7R 10V")
-			(footprint "ato_transport:C_1206_3216Metric")
+			(footprint "scci_rh_transport:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1471,7 +1471,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "C7")
 				(description "")
 			)
@@ -1505,10 +1505,10 @@
 		(comp
 			(ref "C8")
 			(value "10u X7R 10V")
-			(footprint "ato_transport:C_1206_3216Metric")
+			(footprint "scci_rh_transport:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1517,7 +1517,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "C8")
 				(description "")
 			)
@@ -1551,10 +1551,10 @@
 		(comp
 			(ref "C9")
 			(value "100n X7R 10V")
-			(footprint "ato_transport:C_1206_3216Metric")
+			(footprint "scci_rh_transport:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1563,7 +1563,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "C9")
 				(description "")
 			)
@@ -1597,10 +1597,10 @@
 		(comp
 			(ref "C100")
 			(value "1n C0G 5%")
-			(footprint "ato_transport:C_1206_3216Metric")
+			(footprint "scci_rh_transport:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1609,7 +1609,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "C100")
 				(description "")
 			)
@@ -1643,10 +1643,10 @@
 		(comp
 			(ref "C101")
 			(value "1n C0G 5%")
-			(footprint "ato_transport:C_1206_3216Metric")
+			(footprint "scci_rh_transport:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1655,7 +1655,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "C101")
 				(description "")
 			)
@@ -1689,10 +1689,10 @@
 		(comp
 			(ref "C102")
 			(value "1n C0G 5%")
-			(footprint "ato_transport:C_1206_3216Metric")
+			(footprint "scci_rh_transport:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1701,7 +1701,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "C102")
 				(description "")
 			)
@@ -1735,10 +1735,10 @@
 		(comp
 			(ref "C103")
 			(value "1n C0G 5%")
-			(footprint "ato_transport:C_1206_3216Metric")
+			(footprint "scci_rh_transport:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1747,7 +1747,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "C103")
 				(description "")
 			)
@@ -1781,10 +1781,10 @@
 		(comp
 			(ref "C104")
 			(value "1n C0G 5%")
-			(footprint "ato_transport:C_1206_3216Metric")
+			(footprint "scci_rh_transport:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1793,7 +1793,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "C104")
 				(description "")
 			)
@@ -1827,10 +1827,10 @@
 		(comp
 			(ref "C105")
 			(value "1n C0G 5%")
-			(footprint "ato_transport:C_1206_3216Metric")
+			(footprint "scci_rh_transport:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1839,7 +1839,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "C105")
 				(description "")
 			)
@@ -1873,10 +1873,10 @@
 		(comp
 			(ref "C106")
 			(value "1n C0G 5%")
-			(footprint "ato_transport:C_1206_3216Metric")
+			(footprint "scci_rh_transport:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1885,7 +1885,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "C106")
 				(description "")
 			)
@@ -1919,10 +1919,10 @@
 		(comp
 			(ref "C107")
 			(value "1n C0G 5%")
-			(footprint "ato_transport:C_1206_3216Metric")
+			(footprint "scci_rh_transport:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1931,7 +1931,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "C107")
 				(description "")
 			)
@@ -1965,10 +1965,10 @@
 		(comp
 			(ref "R100")
 			(value "100R 0.1%")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1977,7 +1977,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R100")
 				(description "")
 			)
@@ -2011,10 +2011,10 @@
 		(comp
 			(ref "R101")
 			(value "100R 0.1%")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2023,7 +2023,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R101")
 				(description "")
 			)
@@ -2057,10 +2057,10 @@
 		(comp
 			(ref "R102")
 			(value "100R 0.1%")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2069,7 +2069,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R102")
 				(description "")
 			)
@@ -2103,10 +2103,10 @@
 		(comp
 			(ref "R103")
 			(value "100R 0.1%")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2115,7 +2115,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R103")
 				(description "")
 			)
@@ -2149,10 +2149,10 @@
 		(comp
 			(ref "R104")
 			(value "100R 0.1%")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2161,7 +2161,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R104")
 				(description "")
 			)
@@ -2195,10 +2195,10 @@
 		(comp
 			(ref "R105")
 			(value "100R 0.1%")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2207,7 +2207,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R105")
 				(description "")
 			)
@@ -2241,10 +2241,10 @@
 		(comp
 			(ref "R106")
 			(value "100R 0.1%")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2253,7 +2253,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R106")
 				(description "")
 			)
@@ -2287,10 +2287,10 @@
 		(comp
 			(ref "R107")
 			(value "100R 0.1%")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2299,7 +2299,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R107")
 				(description "")
 			)
@@ -2333,10 +2333,10 @@
 		(comp
 			(ref "R120")
 			(value "4.99k 0.1%")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2345,7 +2345,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R120")
 				(description "")
 			)
@@ -2379,10 +2379,10 @@
 		(comp
 			(ref "R121")
 			(value "2.49k 0.1%")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2391,7 +2391,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R121")
 				(description "")
 			)
@@ -2425,10 +2425,10 @@
 		(comp
 			(ref "R122")
 			(value "2.4k 0.1%")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2437,7 +2437,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R122")
 				(description "")
 			)
@@ -2471,10 +2471,10 @@
 		(comp
 			(ref "R123")
 			(value "2k 0.1%")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2483,7 +2483,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R123")
 				(description "")
 			)
@@ -2517,10 +2517,10 @@
 		(comp
 			(ref "C20")
 			(value "100n X7R 10V")
-			(footprint "ato_transport:C_1206_3216Metric")
+			(footprint "scci_rh_transport:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2529,7 +2529,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "C20")
 				(description "")
 			)
@@ -2563,10 +2563,10 @@
 		(comp
 			(ref "C21")
 			(value "100n X7R 10V")
-			(footprint "ato_transport:C_1206_3216Metric")
+			(footprint "scci_rh_transport:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2575,7 +2575,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "C21")
 				(description "")
 			)
@@ -2609,10 +2609,10 @@
 		(comp
 			(ref "C22")
 			(value "1u X7R 10V")
-			(footprint "ato_transport:C_1206_3216Metric")
+			(footprint "scci_rh_transport:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2621,7 +2621,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "C22")
 				(description "")
 			)
@@ -2655,10 +2655,10 @@
 		(comp
 			(ref "C23")
 			(value "1u X7R 10V")
-			(footprint "ato_transport:C_1206_3216Metric")
+			(footprint "scci_rh_transport:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2667,7 +2667,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "C23")
 				(description "")
 			)
@@ -2701,10 +2701,10 @@
 		(comp
 			(ref "J7")
 			(value "HOST PROCESSED UART")
-			(footprint "ato_transport:PinHeader_1x04_P2.54mm_Vertical")
+			(footprint "scci_rh_transport:PinHeader_1x04_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:PinHeader_1x04_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_transport:PinHeader_1x04_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -2713,7 +2713,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "J7")
 				(description "")
 			)
@@ -2753,10 +2753,10 @@
 		(comp
 			(ref "J8")
 			(value "EXTERNAL COMPANION UART")
-			(footprint "ato_transport:PinHeader_1x04_P2.54mm_Vertical")
+			(footprint "scci_rh_transport:PinHeader_1x04_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:PinHeader_1x04_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_transport:PinHeader_1x04_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -2765,7 +2765,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "J8")
 				(description "")
 			)
@@ -2805,10 +2805,10 @@
 		(comp
 			(ref "R20")
 			(value "33R")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2817,7 +2817,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R20")
 				(description "")
 			)
@@ -2851,10 +2851,10 @@
 		(comp
 			(ref "R21")
 			(value "33R")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2863,7 +2863,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R21")
 				(description "")
 			)
@@ -2897,10 +2897,10 @@
 		(comp
 			(ref "R22")
 			(value "33R")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2909,7 +2909,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R22")
 				(description "")
 			)
@@ -2943,10 +2943,10 @@
 		(comp
 			(ref "R23")
 			(value "33R")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2955,7 +2955,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R23")
 				(description "")
 			)
@@ -2989,10 +2989,10 @@
 		(comp
 			(ref "R24")
 			(value "10k")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3001,7 +3001,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R24")
 				(description "")
 			)
@@ -3035,10 +3035,10 @@
 		(comp
 			(ref "R25")
 			(value "10k")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3047,7 +3047,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R25")
 				(description "")
 			)
@@ -3081,11 +3081,11 @@
 		(comp
 			(ref "U20")
 			(value "ISO6721BDR")
-			(footprint "ato_transport:SOIC-8_3.9x4.9mm_P1.27mm")
+			(footprint "scci_rh_transport:SOIC-8_3.9x4.9mm_P1.27mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/iso6721.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "scci_rh_transport:SOIC-8_3.9x4.9mm_P1.27mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/iso6721.pdf")
 				(field
@@ -3093,7 +3093,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "U20")
 				(description "")
 			)
@@ -3145,10 +3145,10 @@
 		(comp
 			(ref "J20")
 			(value "HOST CHARGE ADC BUS")
-			(footprint "ato_transport:PinHeader_1x12_P2.54mm_Vertical")
+			(footprint "scci_rh_transport:PinHeader_1x12_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:PinHeader_1x12_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_transport:PinHeader_1x12_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -3157,7 +3157,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "J20")
 				(description "")
 			)
@@ -3221,10 +3221,10 @@
 		(comp
 			(ref "J21")
 			(value "HOST HEALTH INPUTS")
-			(footprint "ato_transport:PinHeader_1x10_P2.54mm_Vertical")
+			(footprint "scci_rh_transport:PinHeader_1x10_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:PinHeader_1x10_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_transport:PinHeader_1x10_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -3233,7 +3233,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "J21")
 				(description "")
 			)
@@ -3291,10 +3291,10 @@
 		(comp
 			(ref "J22")
 			(value "HOST SHARED ENDPOINT SPI")
-			(footprint "ato_transport:PinHeader_1x07_P2.54mm_Vertical")
+			(footprint "scci_rh_transport:PinHeader_1x07_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:PinHeader_1x07_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_transport:PinHeader_1x07_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -3303,7 +3303,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "J22")
 				(description "")
 			)
@@ -3352,10 +3352,10 @@
 		(comp
 			(ref "R30")
 			(value "330R")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3364,7 +3364,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R30")
 				(description "")
 			)
@@ -3398,10 +3398,10 @@
 		(comp
 			(ref "R31")
 			(value "330R")
-			(footprint "ato_transport:R_0805_2012Metric")
+			(footprint "scci_rh_transport:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3410,7 +3410,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_TRANSPORT")
+				(lib "SCCI_RH_TRANSPORT")
 				(part "R31")
 				(description "")
 			)
@@ -3446,7 +3446,7 @@
 	(variants)
 	(libparts
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "C1")
 			(fields
 				(field
@@ -3454,7 +3454,7 @@
 				(field
 					(name "Value") "22u X7R 10V")
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3476,7 +3476,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "C100")
 			(fields
 				(field
@@ -3484,7 +3484,7 @@
 				(field
 					(name "Value") "1n C0G 5%")
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3506,7 +3506,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "C101")
 			(fields
 				(field
@@ -3514,7 +3514,7 @@
 				(field
 					(name "Value") "1n C0G 5%")
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3536,7 +3536,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "C102")
 			(fields
 				(field
@@ -3544,7 +3544,7 @@
 				(field
 					(name "Value") "1n C0G 5%")
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3566,7 +3566,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "C103")
 			(fields
 				(field
@@ -3574,7 +3574,7 @@
 				(field
 					(name "Value") "1n C0G 5%")
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3596,7 +3596,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "C104")
 			(fields
 				(field
@@ -3604,7 +3604,7 @@
 				(field
 					(name "Value") "1n C0G 5%")
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3626,7 +3626,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "C105")
 			(fields
 				(field
@@ -3634,7 +3634,7 @@
 				(field
 					(name "Value") "1n C0G 5%")
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3656,7 +3656,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "C106")
 			(fields
 				(field
@@ -3664,7 +3664,7 @@
 				(field
 					(name "Value") "1n C0G 5%")
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3686,7 +3686,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "C107")
 			(fields
 				(field
@@ -3694,7 +3694,7 @@
 				(field
 					(name "Value") "1n C0G 5%")
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3716,7 +3716,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "C2")
 			(fields
 				(field
@@ -3724,7 +3724,7 @@
 				(field
 					(name "Value") "22u X7R 10V")
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3746,7 +3746,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "C20")
 			(fields
 				(field
@@ -3754,7 +3754,7 @@
 				(field
 					(name "Value") "100n X7R 10V")
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3776,7 +3776,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "C21")
 			(fields
 				(field
@@ -3784,7 +3784,7 @@
 				(field
 					(name "Value") "100n X7R 10V")
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3806,7 +3806,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "C22")
 			(fields
 				(field
@@ -3814,7 +3814,7 @@
 				(field
 					(name "Value") "1u X7R 10V")
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3836,7 +3836,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "C23")
 			(fields
 				(field
@@ -3844,7 +3844,7 @@
 				(field
 					(name "Value") "1u X7R 10V")
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3866,7 +3866,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "C3")
 			(fields
 				(field
@@ -3874,7 +3874,7 @@
 				(field
 					(name "Value") "1u X7R 10V")
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3896,7 +3896,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "C4")
 			(fields
 				(field
@@ -3904,7 +3904,7 @@
 				(field
 					(name "Value") "10u X7R 10V")
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3926,7 +3926,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "C5")
 			(fields
 				(field
@@ -3934,7 +3934,7 @@
 				(field
 					(name "Value") "1u X7R 10V")
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3956,7 +3956,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "C6")
 			(fields
 				(field
@@ -3964,7 +3964,7 @@
 				(field
 					(name "Value") "10u X7R 10V")
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3986,7 +3986,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "C7")
 			(fields
 				(field
@@ -3994,7 +3994,7 @@
 				(field
 					(name "Value") "1u X7R 10V")
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4016,7 +4016,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "C8")
 			(fields
 				(field
@@ -4024,7 +4024,7 @@
 				(field
 					(name "Value") "10u X7R 10V")
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4046,7 +4046,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "C9")
 			(fields
 				(field
@@ -4054,7 +4054,7 @@
 				(field
 					(name "Value") "100n X7R 10V")
 				(field
-					(name "Footprint") "ato_transport:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_transport:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4076,7 +4076,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "J1")
 			(fields
 				(field
@@ -4084,7 +4084,7 @@
 				(field
 					(name "Value") "HOST RAILS / RAW ADC")
 				(field
-					(name "Footprint") "ato_transport:PinHeader_1x03_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_transport:PinHeader_1x03_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -4111,7 +4111,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "J2")
 			(fields
 				(field
@@ -4119,7 +4119,7 @@
 				(field
 					(name "Value") "EXISTING ANALOG TAPS")
 				(field
-					(name "Footprint") "ato_transport:PinHeader_1x08_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_transport:PinHeader_1x08_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -4171,7 +4171,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "J20")
 			(fields
 				(field
@@ -4179,7 +4179,7 @@
 				(field
 					(name "Value") "HOST CHARGE ADC BUS")
 				(field
-					(name "Footprint") "ato_transport:PinHeader_1x12_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_transport:PinHeader_1x12_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -4251,7 +4251,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "J21")
 			(fields
 				(field
@@ -4259,7 +4259,7 @@
 				(field
 					(name "Value") "HOST HEALTH INPUTS")
 				(field
-					(name "Footprint") "ato_transport:PinHeader_1x10_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_transport:PinHeader_1x10_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -4321,7 +4321,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "J22")
 			(fields
 				(field
@@ -4329,7 +4329,7 @@
 				(field
 					(name "Value") "HOST SHARED ENDPOINT SPI")
 				(field
-					(name "Footprint") "ato_transport:PinHeader_1x07_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_transport:PinHeader_1x07_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -4376,7 +4376,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "J3")
 			(fields
 				(field
@@ -4384,7 +4384,7 @@
 				(field
 					(name "Value") "DEDICATED RAW ADC BUS")
 				(field
-					(name "Footprint") "ato_transport:PinHeader_1x06_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_transport:PinHeader_1x06_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -4426,7 +4426,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "J4")
 			(fields
 				(field
@@ -4434,7 +4434,7 @@
 				(field
 					(name "Value") "TWO EXISTING CHARGE ADCs")
 				(field
-					(name "Footprint") "ato_transport:PinHeader_1x08_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_transport:PinHeader_1x08_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -4486,7 +4486,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "J5")
 			(fields
 				(field
@@ -4494,7 +4494,7 @@
 				(field
 					(name "Value") "CHARGE CONTROL HANDOFF")
 				(field
-					(name "Footprint") "ato_transport:PinHeader_1x05_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_transport:PinHeader_1x05_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -4531,7 +4531,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "J6")
 			(fields
 				(field
@@ -4539,7 +4539,7 @@
 				(field
 					(name "Value") "READ-ONLY NATIVE HEALTH")
 				(field
-					(name "Footprint") "ato_transport:PinHeader_1x10_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_transport:PinHeader_1x10_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -4601,7 +4601,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "J7")
 			(fields
 				(field
@@ -4609,7 +4609,7 @@
 				(field
 					(name "Value") "HOST PROCESSED UART")
 				(field
-					(name "Footprint") "ato_transport:PinHeader_1x04_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_transport:PinHeader_1x04_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -4641,7 +4641,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "J8")
 			(fields
 				(field
@@ -4649,7 +4649,7 @@
 				(field
 					(name "Value") "EXTERNAL COMPANION UART")
 				(field
-					(name "Footprint") "ato_transport:PinHeader_1x04_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_transport:PinHeader_1x04_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -4681,7 +4681,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R1")
 			(fields
 				(field
@@ -4689,7 +4689,7 @@
 				(field
 					(name "Value") "33R")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4711,7 +4711,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R100")
 			(fields
 				(field
@@ -4719,7 +4719,7 @@
 				(field
 					(name "Value") "100R 0.1%")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4741,7 +4741,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R101")
 			(fields
 				(field
@@ -4749,7 +4749,7 @@
 				(field
 					(name "Value") "100R 0.1%")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4771,7 +4771,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R102")
 			(fields
 				(field
@@ -4779,7 +4779,7 @@
 				(field
 					(name "Value") "100R 0.1%")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4801,7 +4801,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R103")
 			(fields
 				(field
@@ -4809,7 +4809,7 @@
 				(field
 					(name "Value") "100R 0.1%")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4831,7 +4831,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R104")
 			(fields
 				(field
@@ -4839,7 +4839,7 @@
 				(field
 					(name "Value") "100R 0.1%")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4861,7 +4861,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R105")
 			(fields
 				(field
@@ -4869,7 +4869,7 @@
 				(field
 					(name "Value") "100R 0.1%")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4891,7 +4891,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R106")
 			(fields
 				(field
@@ -4899,7 +4899,7 @@
 				(field
 					(name "Value") "100R 0.1%")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4921,7 +4921,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R107")
 			(fields
 				(field
@@ -4929,7 +4929,7 @@
 				(field
 					(name "Value") "100R 0.1%")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4951,7 +4951,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R120")
 			(fields
 				(field
@@ -4959,7 +4959,7 @@
 				(field
 					(name "Value") "4.99k 0.1%")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4981,7 +4981,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R121")
 			(fields
 				(field
@@ -4989,7 +4989,7 @@
 				(field
 					(name "Value") "2.49k 0.1%")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5011,7 +5011,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R122")
 			(fields
 				(field
@@ -5019,7 +5019,7 @@
 				(field
 					(name "Value") "2.4k 0.1%")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5041,7 +5041,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R123")
 			(fields
 				(field
@@ -5049,7 +5049,7 @@
 				(field
 					(name "Value") "2k 0.1%")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5071,7 +5071,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R2")
 			(fields
 				(field
@@ -5079,7 +5079,7 @@
 				(field
 					(name "Value") "33R")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5101,7 +5101,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R20")
 			(fields
 				(field
@@ -5109,7 +5109,7 @@
 				(field
 					(name "Value") "33R")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5131,7 +5131,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R21")
 			(fields
 				(field
@@ -5139,7 +5139,7 @@
 				(field
 					(name "Value") "33R")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5161,7 +5161,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R22")
 			(fields
 				(field
@@ -5169,7 +5169,7 @@
 				(field
 					(name "Value") "33R")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5191,7 +5191,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R23")
 			(fields
 				(field
@@ -5199,7 +5199,7 @@
 				(field
 					(name "Value") "33R")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5221,7 +5221,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R24")
 			(fields
 				(field
@@ -5229,7 +5229,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5251,7 +5251,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R25")
 			(fields
 				(field
@@ -5259,7 +5259,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5281,7 +5281,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R3")
 			(fields
 				(field
@@ -5289,7 +5289,7 @@
 				(field
 					(name "Value") "100k")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5311,7 +5311,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R30")
 			(fields
 				(field
@@ -5319,7 +5319,7 @@
 				(field
 					(name "Value") "330R")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5341,7 +5341,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R31")
 			(fields
 				(field
@@ -5349,7 +5349,7 @@
 				(field
 					(name "Value") "330R")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5371,7 +5371,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R4")
 			(fields
 				(field
@@ -5379,7 +5379,7 @@
 				(field
 					(name "Value") "100k")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5401,7 +5401,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R5")
 			(fields
 				(field
@@ -5409,7 +5409,7 @@
 				(field
 					(name "Value") "100k")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5431,7 +5431,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "R6")
 			(fields
 				(field
@@ -5439,7 +5439,7 @@
 				(field
 					(name "Value") "100k")
 				(field
-					(name "Footprint") "ato_transport:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_transport:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5461,7 +5461,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "U1")
 			(fields
 				(field
@@ -5469,7 +5469,7 @@
 				(field
 					(name "Value") "ADS8688IDBTR")
 				(field
-					(name "Footprint") "ato_transport:TSSOP-38_4.4x9.7mm_P0.5mm")
+					(name "Footprint") "scci_rh_transport:TSSOP-38_4.4x9.7mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -5671,7 +5671,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_TRANSPORT")
+			(lib "SCCI_RH_TRANSPORT")
 			(part "U20")
 			(fields
 				(field
@@ -5679,7 +5679,7 @@
 				(field
 					(name "Value") "ISO6721BDR")
 				(field
-					(name "Footprint") "ato_transport:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "scci_rh_transport:SOIC-8_3.9x4.9mm_P1.27mm")
 				(field
 					(name "Datasheet")
 				)
@@ -5733,8 +5733,8 @@
 	)
 	(libraries
 		(library
-			(logical "ATO_TRANSPORT")
-			(uri "${KIPRJMOD}/ATO_TRANSPORT.kicad_sym")
+			(logical "SCCI_RH_TRANSPORT")
+			(uri "${KIPRJMOD}/SCCI_RH_TRANSPORT.kicad_sym")
 		)
 	)
 	(nets

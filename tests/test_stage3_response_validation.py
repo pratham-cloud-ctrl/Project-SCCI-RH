@@ -5,7 +5,7 @@ import unittest
 
 import numpy as np
 
-from ato.stage3.response_validation import (
+from scci_rh.stage3.response_validation import (
     DomainSpec, PATTERNS, WholeFrameDensity, assess_applicability, capture_response,
     empirical_envelope, fit_route_map, monitored_input, propagate_correction_uncertainty, study_config,
 )

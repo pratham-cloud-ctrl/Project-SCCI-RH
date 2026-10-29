@@ -28,11 +28,11 @@ def sha(path: Path, text: bool = False) -> str:
 
 
 def sources() -> list[Path]:
-    return [HERE / "build_revision.py", HERE / "CMakeLists.txt", HERE / "src/ato_backend.c",
-        ROOT / "firmware/nrf5340/app/src/main.c", ROOT / "firmware/nrf5340/app/src/ato_backend.h",
-        ROOT / "firmware/nrf5340/app/src/ato_pins.h", ROOT / "firmware/nrf5340/app/prj.conf",
-        ROOT / "firmware/nrf5340/app/app.overlay", ROOT / "firmware/nrf5340/core/ato_runtime.c",
-        ROOT / "firmware/nrf5340/core/ato_runtime.h",
+    return [HERE / "build_revision.py", HERE / "CMakeLists.txt", HERE / "src/scci_rh_backend.c",
+        ROOT / "firmware/nrf5340/app/src/main.c", ROOT / "firmware/nrf5340/app/src/scci_rh_backend.h",
+        ROOT / "firmware/nrf5340/app/src/scci_rh_pins.h", ROOT / "firmware/nrf5340/app/prj.conf",
+        ROOT / "firmware/nrf5340/app/app.overlay", ROOT / "firmware/nrf5340/core/scci_rh_runtime.c",
+        ROOT / "firmware/nrf5340/core/scci_rh_runtime.h",
         ROOT / "electronics/stage4/integrated-pcb/firmware-profile/bt40f.conf"]
 
 
@@ -40,9 +40,9 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--incremental", action="store_true")
     args = parser.parse_args()
-    tools = Path("E:/ATO-Tools")
-    sdk_root = Path("E:/ATO-Nordic/ncs")
-    project = Path("E:/ATO")
+    tools = Path("E:/SCCI_RH-Tools")
+    sdk_root = Path("E:/SCCI_RH-Nordic/ncs")
+    project = Path("E:/SCCI_RH")
     assert project.resolve() == ROOT
     sdk = sdk_root / VERSION
     toolchain = sdk_root / "toolchains/4f5b6ad6dd"
@@ -86,27 +86,27 @@ def main() -> None:
     print(output[-2000:])
     artifacts = HERE / "artifacts"
     artifacts.mkdir(parents=True, exist_ok=True)
-    for source, target in {"zephyr.elf": "ato.elf", "zephyr.hex": "ato.hex", "zephyr.bin": "ato.bin",
-            "zephyr.map": "ato.map", ".config": "build.config", "zephyr.dts": "zephyr.dts"}.items():
+    for source, target in {"zephyr.elf": "scci_rh.elf", "zephyr.hex": "scci_rh.hex", "zephyr.bin": "scci_rh.bin",
+            "zephyr.map": "scci_rh.map", ".config": "build.config", "zephyr.dts": "zephyr.dts"}.items():
         shutil.copyfile(build / "zephyr" / source, artifacts / target)
-    size = execute("size", [str(compiler / "arm-zephyr-eabi-size.exe"), "-A", str(artifacts / "ato.elf")])
+    size = execute("size", [str(compiler / "arm-zephyr-eabi-size.exe"), "-A", str(artifacts / "scci_rh.elf")])
     symbols = execute("symbols", [str(compiler / "arm-zephyr-eabi-nm.exe"), "--print-size", "--size-sort",
-        str(artifacts / "ato.elf")])
+        str(artifacts / "scci_rh.elf")])
     (artifacts / "symbols.txt").write_text(symbols + "\n", encoding="utf-8")
     (artifacts / "sections.txt").write_text(size + "\n", encoding="utf-8")
     compiled = json.loads((build / "compile_commands.json").read_text(encoding="utf-8"))
     selected = [record for record in compiled if Path(record["file"]).name in
-        {"system_nrf5340_application.c", "ato_backend.c", "ato_runtime.c", "main.c"}]
+        {"system_nrf5340_application.c", "scci_rh_backend.c", "scci_rh_runtime.c", "main.c"}]
     assert {Path(record["file"]).name for record in selected} == {
-        "system_nrf5340_application.c", "ato_backend.c", "ato_runtime.c", "main.c"}
+        "system_nrf5340_application.c", "scci_rh_backend.c", "scci_rh_runtime.c", "main.c"}
     (artifacts / "compile-records.json").write_text(json.dumps(selected, indent=2) + "\n", encoding="utf-8")
     versions = {
         "compiler": execute("compiler", [str(compiler / "arm-zephyr-eabi-gcc.exe"), "--version"]),
         "west": execute("west", [str(sdk_python), "-m", "west", "--version"]),
         "cmake": execute("cmake", [str(toolchain / "opt/bin/cmake.exe"), "--version"]),
         "ninja": execute("ninja", [str(toolchain / "opt/bin/ninja.exe"), "--version"])}
-    receipt = {"schema": "ato.uart-revision.target-build.v1", "date": "2026-10-17",
-        "status": "ato_application_cross_compiled_and_linked", "hardware_carrier": "Fanstel BT40F",
+    receipt = {"schema": "scci_rh.uart-revision.target-build.v1", "date": "2026-10-28", "original_design_date": "2026-10-17",
+        "status": "scci_rh_application_cross_compiled_and_linked", "hardware_carrier": "Fanstel BT40F",
         "internal_HFXO_capacitance_pF": 11, "sdk_version": VERSION, "board": BOARD,
         "toolchain_bundle_id": "4f5b6ad6dd", "versions": versions,
         "source_sha256_lf": {p.relative_to(ROOT).as_posix(): sha(p, True) for p in sorted(sources())},
@@ -124,7 +124,7 @@ def main() -> None:
             "Existing polling gaps, write-only DAC, observation-only RHD and trusted companion assumptions remain",
             "No radio/network-core image, autonomous spinal policy or retained biological learning demonstrated"]}
     (HERE / "build-receipt.json").write_text(json.dumps(receipt, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({"status": receipt["status"], "elf_sha256": sha(artifacts / "ato.elf"),
+    print(json.dumps({"status": receipt["status"], "elf_sha256": sha(artifacts / "scci_rh.elf"),
         "flashed_or_executed": False}, indent=2))
 
 

@@ -28,7 +28,7 @@ def main():
     ref=json.loads((HERE/'reference/contract.json').read_text())
     hc=json.loads((HERE/'harness/contract.json').read_text())
     hr=json.loads((HERE/'harness/geometry-receipt.json').read_text())
-    native=HERE/'ATO_stage5_reference_full.FCStd'
+    native=HERE/'SCCI_RH_stage5_reference_full.FCStd'
     master=App.openDocument(str(native))
     by_label={o.Label:o for o in master.Objects}
     rows=[];residuals=[];maximum_metric=0
@@ -56,8 +56,8 @@ def main():
                              maximum_metric_error=max(errors),maximum_vertex_error_mm=vertex_error))
         App.closeDocument(source.Name)
     assert len(rows)==260 and len({r['label'] for r in rows})==260
-    report=dict(schema='ato.stage5.combined-native-inspection.v1',passed=True,
-                native='cad/stage5/ATO_stage5_reference_full.FCStd',native_sha256=sha(native),
+    report=dict(schema='scci_rh.stage5.combined-native-inspection.v1',passed=True,
+                native='cad/stage5/SCCI_RH_stage5_reference_full.FCStd',native_sha256=sha(native),
                 reference_native_sha256=sha(ROOT/ref['native']),harness_native_sha256=sha(ROOT/hc['native']),
                 inspector='scripts/inspect_stage5_combined.py',inspector_sha256_lf=sha(Path(__file__),True),
                 physical_objects=260,all_valid=True,source_parts_compared=260,source_geometry_preserved=True,

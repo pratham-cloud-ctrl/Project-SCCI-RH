@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "scripts/inspector/verify_inspector.py",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "6e41eb7c699595a5be5a783e9fd459c9609195b37a37b0ef03484f0b844e2ec4",
+  "current_sha256": "5240f26faf07ae25f9a0f0ad003e31983f29538b4b6c2a8b7b5471a39e75ad87",
+  "method": "reviewed_branding_verifier_adaptation",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "Original model topology/identity, native circuit, package and link checks retained; explicit branding adapter/current audit date added.",
+  "independent_evidence": []
+}

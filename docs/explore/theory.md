@@ -2,17 +2,17 @@
 
 [Explore](README.md) · **Theory** · [CAD](cad.md) · [Electronics](electronics.md) · [Firmware](firmware.md)
 
-**A future spinal interface that helps a person practise a movement or supports a selected bodily function through feedback.** Project ATO gives that idea a mechanism, mathematical models, electronics, firmware and a physical design. Everything in this repository is digital; the proposed biological capabilities remain conditional.
+**A future spinal interface that helps a person practise a movement or supports a selected bodily function through feedback.** Project SCCI RH gives that idea a mechanism, mathematical models, electronics, firmware and a physical design. Everything in this repository is digital; the proposed biological capabilities remain conditional.
 
-This page explains the concept without specialist software. The [illustrated paper](../../output/pdf/Project_ATO_Integrated_Manuscript.pdf) develops the full argument, equations, experiments and references.
+This page explains the concept without specialist software. The [illustrated paper](../../output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf) develops the full argument, equations, experiments and references.
 
 ## Start with the loop
 
-An SCCI is a **spinal cord–computer interface**. In ATO's future concept, implanted contacts record useful spinal activity. A computer estimates a selected state, chooses an individually calibrated intervention, and sends a stimulation request. Electrical monitoring checks delivery; independent movement or pressure measurements check what happened to the person. Those observations inform the next request.
+An SCCI is a **spinal cord–computer interface**. In SCCI_RH's future concept, implanted contacts record useful spinal activity. A computer estimates a selected state, chooses an individually calibrated intervention, and sends a stimulation request. Electrical monitoring checks delivery; independent movement or pressure measurements check what happened to the person. Those observations inform the next request.
 
-![ATO system diagram: spinal recording feeds interpretation and a learner- or function-specific policy; monitored stimulation produces a response that is independently measured.](../../manuscript/stage6/figures/01_system.png)
+![SCCI_RH system diagram: spinal recording feeds interpretation and a learner- or function-specific policy; monitored stimulation produces a response that is independently measured.](../../manuscript/stage6/figures/01_system.png)
 
-The proposal separates **intradural surface recording**—contacts inside the dura, the membrane surrounding the cord—from **epidural stimulation**, outside it. Whether this combination can provide stable, useful chronic human access is an explicit premise. ATO does not require brain recording; brain–spine experiments are identified separately as hybrid precedents.
+The proposal separates **intradural surface recording**—contacts inside the dura, the membrane surrounding the cord—from **epidural stimulation**, outside it. Whether this combination can provide stable, useful chronic human access is an explicit premise. SCCI_RH does not require brain recording; brain–spine experiments are identified separately as hybrid precedents.
 
 ## 1. Expert-informed practice: learn with help, then test without it
 
@@ -66,8 +66,8 @@ The current firmware restricts neural acquisition to **OBSERVE** mode. It does n
 
 The model asks three approachable questions: **What information is available now? Which correction can this learner's calibrated intervention produce? What changes after assistance ends?** The pressure model additionally asks how delay and lingering activation affect feedback.
 
-For equations, start with [observation and timing](../../manuscript/stage6/manuscript.md#41-observation-support-and-availability), then [expert alignment](../../manuscript/stage6/manuscript.md#42-expert-alignment-and-reachable-correction), [retained learning](../../manuscript/stage6/manuscript.md#43-assistance-and-retained-learning) and [pressure dynamics](../../manuscript/stage6/manuscript.md#44-pressure-dynamics-and-authority). For scientific support, use the [evidence review](../stage6/evidence-review.md) and [reference register](../stage6/references.json); published studies motivate individual links rather than proving all of ATO together.
+For equations, start with [observation and timing](../../manuscript/stage6/manuscript.md#41-observation-support-and-availability), then [expert alignment](../../manuscript/stage6/manuscript.md#42-expert-alignment-and-reachable-correction), [retained learning](../../manuscript/stage6/manuscript.md#43-assistance-and-retained-learning) and [pressure dynamics](../../manuscript/stage6/manuscript.md#44-pressure-dynamics-and-authority). For scientific support, use the [evidence review](../stage6/evidence-review.md) and [reference register](../stage6/references.json); published studies motivate individual links rather than proving all of SCCI_RH together.
 
-AstroSam's [Mind-Link](https://github.com/sam-astro/Mind-link) inspired the progression from future concept to inspectable engineering. ATO develops its own spinal mechanisms and designs. The [contribution record](../stage6/contributions.md) identifies project direction, AI-assisted work and third-party research.
+AstroSam's [Mind-Link](https://github.com/sam-astro/Mind-link) inspired the progression from future concept to inspectable engineering. SCCI_RH develops its own spinal mechanisms and designs. The [contribution record](../stage6/contributions.md) identifies project direction, AI-assisted work and third-party research.
 
 **Next:** [see the physical design](cad.md), [follow the electronics](electronics.md), or [inspect the implemented firmware](firmware.md).

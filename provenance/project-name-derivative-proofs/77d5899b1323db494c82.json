@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/boards/recording-front-end/drc-binding.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "681abb68f41b83eff98685e735eafcdcdb77dca94976843091743a62a9e269f8",
+  "current_sha256": "f8cb5df1c9c4a14e3e4ac5b0a0ced4531249fdaea4d9e1f839c409025973939d",
+  "method": "unchanged_drc_findings_with_actual_native_reexecution_and_source_bindings",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

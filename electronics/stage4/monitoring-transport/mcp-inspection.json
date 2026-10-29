@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage4.monitoring-transport.mcp.v1",
+  "schema": "scci_rh.stage4.monitoring-transport.mcp.v1",
   "scope": "Saved native schematics inspected through actual Konnect MCP; no unsaved PCB/editor evidence",
   "date": "2026-10-14",
   "installation": {
@@ -1042,13 +1042,13 @@
     }
   },
   "schematic_sha256": {
-    "adc.kicad_sch": "34f8d195ab433a22203e78cb915235a4963f2dbcde6e159eb8248d767b571522",
-    "companion.kicad_sch": "1dd8cc0c24043c52b0f81273e912b9b566ed3c23fa253051ce2212443bc7afee",
-    "handoff.kicad_sch": "5deac25f60a92d346d9e5cf11146de96baba38e3f12293bd8c9aa7b0d7dfa603",
-    "health.kicad_sch": "1c716d0ae089abf5b6c1edfaf8b86ba5eff5e714d7e4c91b996bfe988dcac66e",
-    "inputs.kicad_sch": "d8aa8fe47577b8edebcb05c66bec80a0c1cd115fb0ef8ce5c9a3b6ab6a0b20e3",
-    "monitoring_transport.kicad_sch": "234a583c44fe6c8460c08957a8b3b430040381ca0c7bd6495297ef9ab94680a5",
-    "reference.kicad_sch": "763cca188e07c7f11d075250f520d5944b55a94e1567d1879d9fd876c1f68ed9",
-    "root_2.kicad_sch": "ff464ae4d4c01c563af672c7c064d5e45d8078eabc024073091b2a1a123fb67b"
+    "adc.kicad_sch": "c6d8a1c72a9c172194a129fc3bfbe39061671b3c7f2b536861d374a5dc641b32",
+    "companion.kicad_sch": "41f3bd8de89bb8f196d9012efbbddb08a08d6e969ad9dd52cc66cf11b8163eb8",
+    "handoff.kicad_sch": "c12feef8b17c7fb3b69a7a848bdc3add699033dcf6d9c917e3e12a904245bd79",
+    "health.kicad_sch": "95e3572f96b82f85d52d635dbe59c71a7124d62eadc5364d0821a3bfc7758a3b",
+    "inputs.kicad_sch": "c344bb751c68bb5cf2308911a0c5609623b556c6e4a902d1fbb5bf58e510d937",
+    "monitoring_transport.kicad_sch": "f588c869f4258edf5c8b6350f654524f5a81dd3b3fc1832a794797fcb0e398c6",
+    "reference.kicad_sch": "04dee261cbc115b483827fcbb5098e5323fcafd3628771ca2fe741602a79c5f1",
+    "root_2.kicad_sch": "f73714b902f3a5d394db53139f8b3fe334e25e25a864c147e006dc7d74d80584"
   }
 }

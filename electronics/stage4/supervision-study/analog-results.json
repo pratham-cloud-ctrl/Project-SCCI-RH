@@ -1,8 +1,8 @@
 {
-  "schema": "ato.stage4.supervision-analog.v1",
+  "schema": "scci_rh.stage4.supervision-analog.v1",
   "date": "2026-10-14",
   "scope": "Finite threshold corners, passive loading and artificial interrupted load; not biological or whole-implant validation",
-  "source_sha256_lf": "7a9be1c5d3f0449a5cd901ad0781fdd6e8d5b79446922587ea8f7ddad2f61666",
+  "source_sha256_lf": "1f11081b931edfeac77dd7d42f9ffaf26dee61a4fb486af4f2914131f1871f9d",
   "assumptions": {
     "resistor_fraction": 0.001,
     "rail_bottom_R_ohm": 10000.0,

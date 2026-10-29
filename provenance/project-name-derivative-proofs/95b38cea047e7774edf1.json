@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-B_Cu.gbl",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "b81e74e383e89371efce5224a63f2da9cea7852a0d71cf4caac3145e0f1a7338",
+  "current_sha256": "1a71ede9f67d8faacf4fa33b005bac4e02a61e22ad4ad1dd242e2ac5fcd6b52e",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-electrical-export-bindings.json",
+      "sha256_lf": "dd59d6e765731daa7a1762469b7f3d713087851bcc6ccb6e043b8e09b86ef27e"
+    }
+  ]
+}

@@ -25,9 +25,9 @@ fut=json.loads((HERE/'future-interface/contract.json').read_text())
 har=json.loads((HERE/'harness/contract.json').read_text())
 prod=json.loads((HERE/'reference/producer-geometry.json').read_text())
 ports=list(csv.DictReader((HERE/'harness/body-port-bridge.csv').open(newline='',encoding='utf-8')))
-c=canvas.Canvas(str(OUT/'ATO_Stage5_Mechanical_Review.pdf'),pagesize=(W,H))
-c.setTitle('Project ATO - Stage5 mechanical assembly and packaging')
-c.setAuthor('Project ATO / Pratham with documented AI assistance')
+c=canvas.Canvas(str(OUT/'SCCI_RH_Stage5_Mechanical_Review.pdf'),pagesize=(W,H))
+c.setTitle('Project SCCI RH - Stage5 mechanical assembly and packaging')
+c.setAuthor('Project SCCI RH / Pratham with documented AI assistance')
 
 
 def text(x,y,s,size=9,bold=False,color=INK):
@@ -73,12 +73,12 @@ def dimension(a,b,offset,label,vertical=False):
 
 def heading(sheet,title,subtitle):
     c.setFillColor(white);c.rect(0,0,W,H,fill=1,stroke=0)
-    text(15,280,'PROJECT ATO',21,True);text(337,282,'MECHANICAL ENGINEERING',8,True,color=TEAL)
+    text(15,280,'PROJECT SCCI RH',21,True);text(337,282,'MECHANICAL ENGINEERING',8,True,color=TEAL)
     text(337,276,'STAGE 05 / DIGITAL REVIEW',8,color=GREY)
     text(15,264,title,16,True);text(15,256,subtitle,9,color=GREY)
     line(15,250,405,250,TEAL,1)
     line(15,22,405,22,GREY,.5)
-    text(15,15,'ATO-MECH-05  |  Rev A  |  16 OCT 2026  |  Dimensions in mm  |  Nominal review geometry',8,color=GREY)
+    text(15,15,'SCCI_RH-MECH-05  |  Rev A  |  16 OCT 2026  |  Dimensions in mm  |  Nominal review geometry',8,color=GREY)
     text(15,9,'Digital reference + conditional implant concept. No physical, hermetic, anatomical or biological qualification.',7,color=GREY)
     text(378,15,f'{sheet:02} / 06',10,True)
 
@@ -215,7 +215,7 @@ for title,body in [
     ('Unqualified mechanical work','No load/preload, material fatigue, environmental ingress, drop, sterilization, hermetic leakage, biocompatibility, RF, thermal or manufacturing process test has been performed.'),
     ('Unqualified electronics work','No assembly, flashing or physical analog measurement is claimed. Native ERC/DRC and target-linked firmware establish digital design artifacts; they do not establish working implanted hardware.'),
     ('Consumer mechanism','The proposed consumer practices a task while a personalized controller estimates relevant spinal state and applies bounded timing assistance; retained learning is assessed with assistance off. Function-specific physiological feedback uses its own selected sensor/pathway/policy.'),
-    ('Credit and next stage','AstroSam Mind-Link inspired the progression from a future interface idea to inspectable electronics and a physical design identity. Project ATO contributes its own spinal architecture and mechanisms. Stage 6 integrates the illustrated paper and final private repository release; video and website remain parked.')]:
+    ('Credit and next stage','AstroSam Mind-Link inspired the progression from a future interface idea to inspectable electronics and a physical design identity. Project SCCI RH contributes its own spinal architecture and mechanisms. Stage 6 integrates the illustrated paper and final private repository release; video and website remain parked.')]:
     text(right,ry,title.upper(),10,True,color=TEAL);ry=wrap(right,ry-7,body,177,10,5)-12
 text(20,38,'SOURCE INDEX',8,True,color=TEAL)
 text(20,32,'assembly-contract.json  /  reference/contract.json  /  future-interface/contract.json  /  harness/contract.json  /  provenance/stage5-*.json',8,color=GREY)

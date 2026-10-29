@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/boards/controller-carrier/drc.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "60d633b2cc4f691ef69e15a6746f1506d3243188b2cac67ddae9d0ad9a0cbcec",
+  "current_sha256": "8079e337ae204b71afaace5ccd01075b37e864c9dad9cba02b38679058cfee8f",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-electrical-export-bindings.json",
+      "sha256_lf": "dd59d6e765731daa7a1762469b7f3d713087851bcc6ccb6e043b8e09b86ef27e"
+    }
+  ]
+}

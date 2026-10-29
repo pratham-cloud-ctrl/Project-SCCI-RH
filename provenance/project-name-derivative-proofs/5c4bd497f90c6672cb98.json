@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/boards/recording-front-end/routing.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "96e0e86a8268030bb8cf60aabc79a149bbc14a61121ce3ebe83a3a3363c7af2d",
+  "current_sha256": "75452852c19198e8d7e12ef25586778b13e9fabd4154c84c4ba20d850f1e1b2c",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

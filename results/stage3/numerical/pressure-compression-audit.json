@@ -1,10 +1,10 @@
 {
-  "schema": "ato.stage3.pressure-compression-audit.v1",
+  "schema": "scci_rh.stage3.pressure-compression-audit.v1",
   "action": "lossless numerical-witness packaging only; no408-run recomputation and no model/parameter/result changes",
   "original_full_json_sha256": "811b3ae371e6bb24b83f3dbd9167b16a23c616894f29c5f566dfe8c100c05833",
   "original_generating_runner_lf_sha256": "c6596b383d64c44a470e4dfa28af6bf3a5afceb66fce8cdac6caec753eaed46b",
-  "packaging_runner_lf_sha256": "9c93fbceec19c7dbb4df942eb89446d9827a3e350357ba1f7cc305a39dbec3bc",
-  "compressed_full_receipt_sha256": "096893cc9a626fc1fed67a017c8aa3caf7daa91667066fef2e87cf51cfea06a8",
+  "packaging_runner_lf_sha256": "7308444a87b67583f0d429a19acdde9fb60db0c8f1da454854dc68b33be1f15e",
+  "compressed_full_receipt_sha256": "11c429433736f39ecbf2a2c29ffc06a771a3feb8ea33bdd48313cc51460ce51b",
   "uncompressed_repacked_receipt_sha256": "72346392550c5a1f96ca2275420caae3dcd0c3ef148769c61c5bed1e6aa6e4ca",
   "numerical_witness_payload_sha256": "4cdeda87964ed3e4a9baf198a331827bdee51d6a4a3814fbfe547033f753acc1",
   "unchanged_numerical_payload": true,

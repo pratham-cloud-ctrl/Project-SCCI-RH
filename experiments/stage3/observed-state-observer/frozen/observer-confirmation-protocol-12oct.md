@@ -25,10 +25,10 @@ record. These IDs and the cohort manifest are frozen before any noise is drawn.
 ## Frozen observer and producer
 
 Observer source SHA256:
-`cbb2d6aa5a466261e372d1071cccf908983c8dbe8eeb8001b1d20428ed2362af`.
+`203a5bdd90ae20a67f1b6475b47c31a73880d96a5c4434957b51f28a2f767c44`.
 
 Common measured-data method receipt SHA256:
-`73a26e74e91f738fbc2f90e30655eaa0987a1e0d1ab905feb3b7aea52622e07a`.
+`1157a4490d4455faba6773fe447560b22c218db852efe65fc95c180f373dce7f`.
 
 Use exactly this common prior/diffusion and every frozen setting. No refit,
 family selector, subject parameter, private theta/gain/scale, learned-parameter
@@ -44,7 +44,7 @@ Its outer observation/advance loop matches `generate_unassisted`: observe x
 before advancing each 5 ms interval, add declared independent 1.5 mm noise,
 then advance zero dose with learning=True. No monkeypatch and no source edit.
 The motor and isolated-pilot source byte hashes and a complete sorted byte-hash
-manifest of every `src/ato/**/*.py` file are frozen with the protocol, binding
+manifest of every `src/scci_rh/**/*.py` file are frozen with the protocol, binding
 transitive imports. Generation checks the complete manifest before and after
 the cohort. The approved preflight receipt is immutable; rerunning preflight
 can only verify identical content, never replace an approved freeze.

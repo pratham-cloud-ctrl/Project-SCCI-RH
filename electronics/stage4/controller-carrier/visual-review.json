@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage4.controller-carrier.visual-review.v1",
+  "schema": "scci_rh.stage4.controller-carrier.visual-review.v1",
   "date": "2026-10-14",
   "pages_reviewed": [
     1,
@@ -13,18 +13,18 @@
     9,
     10
   ],
-  "pdf_sha256": "047f6a7aaf047d00fe64f39827eddb7b78b4ab495fe5927915495601c4085e10",
+  "pdf_sha256": "3cd9bf1e10a55a3029d5a362aa08174f582caf4deefa7014f5d44b7185101569",
   "png_sha256": {
-    "page-1.png": "89e56b7cfed4d1d89d3899f3000520087c642d2a01690c96d606f44b4a9e96ff",
-    "page-10.png": "d6e35a2c4a563348127a8df72dbade48f04fb695dc0523e34604a2703860e46f",
-    "page-2.png": "0915ee5e724f9941d6106858e379f1eb7bccbc430ef1507ec62e77336e1683d9",
-    "page-3.png": "1cfd54b3b30fef1fa5e5350f9e4ec9a0942dd0e2a5b3d965ec600bb7a8095668",
-    "page-4.png": "6461897b3cd4ed1473a3a2d1c3e3ae08c1c99efcba1f2b706d67096e88f7f3f4",
-    "page-5.png": "e77a38aa2cbd87b1fefc067ff748587489bfdc73407ffa000d7d4cc7449a732d",
-    "page-6.png": "9bdf3195011223c6c4f1338cdbd4bcb3b6756e1726bfbbbff15aa160f5a8a716",
-    "page-7.png": "874be8707ed371655a1b73f26a944edb6d01e8a64f9e9cf94650469ce21b6382",
-    "page-8.png": "abe4dc9b3fcdc2e78bfa741a40bd38962e13efffaa473d4faea913797597ba7b",
-    "page-9.png": "48fa72369328c46dda52bdf4d811cd77504c8a6f043939f9db5320d029b64b0f"
+    "page-1.png": "087234d482025aa989d7f905ccd51e8b5b56ea5a963851bf88d8551716a41b30",
+    "page-10.png": "49e0a99ab153d3e173ca792d7feff053038baa0cf324fc719545ef2e52180eea",
+    "page-2.png": "b2436c938818c8d3cec73b63f6cb4d3bbd1023ee460f7359a72a2331758fe7a3",
+    "page-3.png": "d4517de2f3cf307213f1a36426c1730b017d64b638b64ac7bdf8b3df6c52b631",
+    "page-4.png": "e27d2f72ba088e97ae2b548e3e83796e0701f7a9d1f84eaa9afa7f94267c2ff3",
+    "page-5.png": "a2c69df0f83c21eea23e8ea877a64cf6cc4c653ced47eed1fc52615b5a53ab52",
+    "page-6.png": "4500edc94807b48fe8b83a140213e9ad1ac393543dda964591706ee7ddbeb1d7",
+    "page-7.png": "af458ab68199dec456aa6c7225ebc924fe8a160deec7d1a62c03d4d832c360dd",
+    "page-8.png": "206521e72521dd47df8e3e58815f93367eb0429a1e0ffade14b5a52da73dfb1f",
+    "page-9.png": "4bfb86655f1ad63280b89f36ab80b09286eb3f1fe2d4b6c4eb283666093bec91"
   },
   "review": "AlltennativePDFpagesrenderedwithPopplerandvisuallyinspected;modulepinlabels,physicalsidebandchain,handoffconnectors,defaultresistorsandtitleblockslegiblewithnoboundsorlabelcollisions. NativeA2sheetsretainzoomableengineeringlayout."
 }

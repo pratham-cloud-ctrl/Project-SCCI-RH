@@ -1,12 +1,12 @@
 {
-  "schema": "ato.board-export.v1",
+  "schema": "scci_rh.board-export.v1",
   "board": "supervision",
   "source_board": "electronics/stage4/integrated-pcb/boards/supervision/supervision.kicad_pcb",
-  "exporter_sha256_lf": "3bb0cad3cbf63fc3940d9a30e0a7fc31be818bc4b35b5eba81bff60a592aca76",
-  "source_sha256_lf": "877e2d5643182aa68e16e77dbdd7821ee55f36b763745bb6aba7ea7a8afc3440",
+  "exporter_sha256_lf": "022a370fcb3e2c04d9ea166d6ad92ad1478333f4a73f8e68aef5d1f96d0ab18f",
+  "source_sha256_lf": "409919d0b44359008860d473d92eb6ac4944572a33c2ee322e8c331214563958",
   "source_project_sha256_lf": "eec875eff6cb8e6a98e2813452af121e3b4fad1599d208381f3dc729fe2e9957",
-  "source_xml_sha256_lf": "a93dbc94047527a165d5657aaf74312cc4ce88756115100eb05ceda574a0cd63",
-  "DRC_sha256_lf": "a4a907ee22dea5efd05a28e7ac0b354eaf078947d60f80a57a7bba24baa0c174",
+  "source_xml_sha256_lf": "32fe2fc6e02cd7339647ce56173c31695fc35a0bfdf4d894df26795130af5caf",
+  "DRC_sha256_lf": "f4e3a11eb1082ef37ccbc9437169333882d1f36696e0ef47026d65ab2a22d4b2",
   "component_count": 479,
   "fitted_component_count": 479,
   "DNP_references": [],
@@ -20,8 +20,8 @@
         "--force",
         "--no-dnp",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\supervision\\populated.step",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\supervision\\supervision.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\supervision\\populated.step",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\supervision\\supervision.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -40,8 +40,8 @@
         "--side",
         "top",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\supervision\\top.png",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\supervision\\supervision.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\supervision\\top.png",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\supervision\\supervision.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -60,8 +60,8 @@
         "--side",
         "bottom",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\supervision\\bottom.png",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\supervision\\supervision.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\supervision\\bottom.png",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\supervision\\supervision.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -82,8 +82,8 @@
         "--zoom",
         ".83",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\supervision\\isometric.png",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\supervision\\supervision.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\supervision\\isometric.png",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\supervision\\supervision.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -99,8 +99,8 @@
         "--exclude-drawing-sheet",
         "--mode-single",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\supervision\\top-copper.svg",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\supervision\\supervision.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\supervision\\top-copper.svg",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\supervision\\supervision.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -117,8 +117,8 @@
         "--mirror",
         "--mode-single",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\supervision\\bottom-copper.svg",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\supervision\\supervision.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\supervision\\bottom-copper.svg",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\supervision\\supervision.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -131,8 +131,8 @@
         "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts",
         "--subtract-soldermask",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\supervision\\fabrication-reference\\",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\supervision\\supervision.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\supervision\\fabrication-reference\\",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\supervision\\supervision.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -148,10 +148,10 @@
         "--excellon-separate-th",
         "--generate-report",
         "--report-path",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\supervision\\fabrication-reference\\drill-report.txt",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\supervision\\fabrication-reference\\drill-report.txt",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\supervision\\fabrication-reference\\",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\supervision\\supervision.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\supervision\\fabrication-reference\\",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\supervision\\supervision.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -168,8 +168,8 @@
         "both",
         "--exclude-dnp",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\supervision\\fabrication-reference\\positions.csv",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\supervision\\supervision.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\supervision\\fabrication-reference\\positions.csv",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\supervision\\supervision.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -183,27 +183,27 @@
   "populated_models_nominal_where_documented": true,
   "physical_qualification": false,
   "outputs": {
-    "bottom-copper.svg": "d7173be6fc4aefdc102b1444554ebd4f18a3631340b8b82dff058fabb3936eac",
-    "bottom.png": "41c041fa0b6bb83f19e41578ac4c0400d0a153dec18d57bb4356abfd55ac4da6",
-    "isometric.png": "73db25d6d25be56d226a378120c636e6aa518e826abbced6aeb3ef8a870580a0",
+    "bottom-copper.svg": "f973b5a1cf4e43f36d192941d077dd5c7d17e29e8f5a109ce8752bbb0d310bf3",
+    "bottom.png": "5a455c837fe1820de65666e021efb097c7228856e61ea62ab18d93683b317930",
+    "isometric.png": "d6c0428f672d3448afba1cd0c215a37333618df615ab1a27201116c6c9b1112f",
     "populated.step": "d29140bdda3f57c6dd43d621d389aae04ed2edef23fda52a071b5965062a39ad",
-    "top-copper.svg": "24e20bc5bdb5a8f4b6bf5c3cd815738e2fdc7ac93b022d0f2794726caaa4db9f",
-    "top.png": "57cd9d01465393d4a23e16f8f0d91591d3acbeb7e661c95cff33bd8a6dc96d60",
-    "fabrication-reference/bom.csv": "39912d70ab47d69e1a01110fce62622bab9f9cf901e514661c68db11bd4f59f3",
-    "fabrication-reference/drill-report.txt": "6e680d66a36a06cb94c958e5f083f6e837e623d156d72774107b0636d469a8f8",
+    "top-copper.svg": "feeab0ff09198b1761fa8b49d0814bd62c489287022bee34580a048988cdc824",
+    "top.png": "23d968bd900d580d79f15ae071bd8de53be06fdf3f731229e99acdf5ee1c43c9",
+    "fabrication-reference/bom.csv": "59577e464a77c769ea9da198908511b5c99c90647100bff573c64b88c94fd675",
+    "fabrication-reference/drill-report.txt": "d50a9e2899f8a32baf7f8ca2969a8b9b18c92fd8e3b09c502f10094aed25a5d6",
     "fabrication-reference/positions.csv": "aa6e983d5549d6a53d49341df5be53cd5ac6dec7ea080faa3ef06d65a571fe86",
     "fabrication-reference/README.md": "118a7498542a8992e20d99363fd12818a8dacb65e4b57cefaea220f696f077b5",
-    "fabrication-reference/supervision-B_Cu.gbl": "841614b1184fd8a7ec547c17ce0508c729ad4b593d2cad4f82c292c34ff9e376",
-    "fabrication-reference/supervision-B_Mask.gbs": "e1bfc36ecf13581d5f34b328f67eb9814218443ace94d1f856de91035a33737e",
-    "fabrication-reference/supervision-B_Silkscreen.gbo": "c10c866a25d18e45c8aef2eed1ab6df88cb0b27bbfd8a1109b790e8b2ff86cb8",
-    "fabrication-reference/supervision-Edge_Cuts.gm1": "71ed2518ca4efef5a8b3e673577ebafe7e8d85a7ff080ecc56e4b8e6391d4c9d",
-    "fabrication-reference/supervision-F_Cu.gtl": "1eb61f2bce30b8fb5cba39f00e66a516f5fa9c722de49e9eb26b99779fda56a4",
-    "fabrication-reference/supervision-F_Mask.gts": "e8d73d731d6b02df56817961d8ae97d9e56a3222a963843ffcba7cb28552abb4",
-    "fabrication-reference/supervision-F_Silkscreen.gto": "34ec30e144d92dedd63e341b2c65ae3cf933a01b0a423e794bf431a9a1a4950d",
-    "fabrication-reference/supervision-In1_Cu.g1": "bc521ad8f9663a8387fc14db7e516950c3e395203efd2d5b67683244e725fdfb",
-    "fabrication-reference/supervision-In2_Cu.g2": "3bceebaf2ba738e283c5facd9f9e3ff80216972d7139548148f3cc8980f70377",
-    "fabrication-reference/supervision-job.gbrjob": "1f96a464aa9c44613799d6817ff6ff8eb36fe2dad661fed7ad929e047d7881b9",
-    "fabrication-reference/supervision-NPTH.drl": "f4f2d79c16b723cf2dea713649bc5f8350eed7e9d2703b56da049a4f6f8a2cb9",
-    "fabrication-reference/supervision-PTH.drl": "81eaea565633405f9400facb2eaad92885508ea624de4fa8b99caa4f06f0d97f"
+    "fabrication-reference/supervision-B_Cu.gbl": "33bcfe7c28ae9f352d0637bee7557310b8e6431e603fad2ee43bebb422c0e836",
+    "fabrication-reference/supervision-B_Mask.gbs": "3366b042d099d9dc765a7f9af0d3cd8a1692a151860f4e045ef6010158ca5aca",
+    "fabrication-reference/supervision-B_Silkscreen.gbo": "6b34a2319a48e7c14a068f252d4423caf92fc98cbb38ca8bd8cc168fe7780725",
+    "fabrication-reference/supervision-Edge_Cuts.gm1": "faca6bf52b12836d9decd899593654acc25b7b08f716a5c13a246faafc2f6296",
+    "fabrication-reference/supervision-F_Cu.gtl": "021efea3549abcfde6fb5bd1a1bc2967601af5e4e177e065f4410c71c044f561",
+    "fabrication-reference/supervision-F_Mask.gts": "555db2919008cb4a85ae4d8dbb21bfa8a1375dcfb7da3f17655ae83cd8b058d4",
+    "fabrication-reference/supervision-F_Silkscreen.gto": "e2114ac36d801ba6254e94bbd6bb6307c1d279438806e82e588122df7ab11367",
+    "fabrication-reference/supervision-In1_Cu.g1": "c9d6c81deef8927bfc1e9dceaa0cddc889a90c293d529173e48f8640578a5706",
+    "fabrication-reference/supervision-In2_Cu.g2": "de8b98302f2e8f0544f7b8fe57587978e51fb8cc78988aae74cf0017b1b3af0d",
+    "fabrication-reference/supervision-job.gbrjob": "7d0d9da2f9df3ff21988e83fb753d9c8104c8176bc4d0d9b6997fa7213658a70",
+    "fabrication-reference/supervision-NPTH.drl": "d388ac538f1b578c39f8d9185f6701a97c4e1059aef1d4f61b90aea271bab450",
+    "fabrication-reference/supervision-PTH.drl": "e13077a9d70801b409f13357a558afe996e257cb1bfa9d7a9b8b3749bdc61f49"
   }
 }

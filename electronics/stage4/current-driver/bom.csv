@@ -1,157 +1,157 @@
 reference,value,footprint,sheet,dnp,description,primary_source
-J1,QUALIFIED EXTERNAL RAILS,ato_drv:PinHeader_1x05_P2.54mm_Vertical,root,False,"External regulated rails; no converters, battery, power-on supervisor or isolation",
-J2,MCU SPI / PRELOAD INHIBITED,ato_drv:PinHeader_1x04_P2.54mm_Vertical,root,False,3.3V host SPI; configuration write and independent setpoint verification required before RESET_READY,
-J3,MCU PHASE / EXPLICIT REARM,ato_drv:PinHeader_1x09_P2.54mm_Vertical,root,False,"Separate controls; REARM pulse only after external observed quiescence, no automatic retry",
-J4,EXTERNAL HEALTH CONTRACTS,ato_drv:PinHeader_1x11_P2.54mm_Vertical,root,False,"Independent monitor, watchdog/compliance, power-startup, route and zero-current evidence are external; keep low until qualified",
-J5,STATUS ONLY / NOT DELIVERY EVIDENCE,ato_drv:PinHeader_1x09_P2.54mm_Vertical,root,False,"Internal command status does not certify actual current, dose or successful stimulation",
-U1,DAC80502DRXR,ato_drv:Texas_DRX_WSON-10_2.5x2.5mm_P0.5mm,root,False,DRX10 has ten lands and no invented exposed-pad pin; internal reference; gain register0x0103,https://www.ti.com/lit/ds/symlink/dac80502.pdf
-C1,100n 10V,ato_drv:C_0805_2012Metric,root,False,DAC local supply/reference bypass; effective reference capacitance >=150nF,
-C2,4.7u 10V,ato_drv:C_0805_2012Metric,root,False,DAC local supply/reference bypass; effective reference capacitance >=150nF,
-C3,220n 10V,ato_drv:C_0805_2012Metric,root,False,DAC local supply/reference bypass; effective reference capacitance >=150nF,
-R1,10k,ato_drv:R_0805_2012Metric,root,False,SPI clock default low,
-R2,10k,ato_drv:R_0805_2012Metric,root,False,SPI data default low,
-R3,10k,ato_drv:R_0805_2012Metric,root,False,SPI inactive pull-up to host3.3V domain; no5V backdrive to MCU,
-R4,10k,ato_drv:R_0805_2012Metric,root,False,Startup must remain inhibited until externally qualified,
-R5,10k,ato_drv:R_0805_2012Metric,root,False,Disconnected rail supervisor cannot admit output,
-U100,OPA192IDBVR,ato_drv:SOT-23-5,source0,False,Current servo; compensation and startup/overload performance remain conditional,https://www.ti.com/lit/ds/symlink/opa192.pdf
-Q100,BSP89H6327XTSA1,ato_drv:BSP89_PG-SOT223-4_DrainTab,source0,False,Linear sink; numbered drain tab4 and drain lead2 deliberately share drain net,https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsp89-datasheet-en.pdf
-U101,TMUX7212PWR,ato_drv:TSSOP-16_4.4x5mm_P0.65mm,source0,False,"Restricted24Vbridge: diagonal1/4positive,2/3negative; alloff is not fail-open rail isolation",https://www.ti.com/lit/ds/symlink/tmux7212.pdf
-U102,TMUX6219DGKR,ato_drv:VSSOP-8_2.3x2mm_P0.5mm,source0,False,"ENhigh15V; RUNlow selectsS1ground, RUNhigh selectsS2servo; passive gate pulldown remains",https://www.ti.com/lit/ds/symlink/tmux6219.pdf
-U103,TMUX6219DGKR,ato_drv:VSSOP-8_2.3x2mm_P0.5mm,source0,False,"RUNlow selects unity local feedback, RUNhigh Kelvin feedback; skew/stuck-path study required",https://www.ti.com/lit/ds/symlink/tmux6219.pdf
-J100,EXTERNAL ROUTER / MONITOR,ato_drv:PinHeader_1x04_P2.54mm_Vertical,source0,False,Artificial loadA via future router; B_BR connects existingmonitorRETURN_DRIVER; external2ohmmonitor shunt thenloadB,
-R100,100R 0.1% LOW TCR,ato_drv:R_0805_2012Metric,source0,False,Feedback resistor; exact passiveMPN/thermalrating unselected; Kelvin sense/layout required,
-R101,330R,ato_drv:R_0805_2012Metric,source0,False,Provisional gate resistor; mux clamp-current and repeated pulse stress unqualified,
-R102,100k,ato_drv:R_0805_2012Metric,source0,False,Passive gate default on loss of auxrail; not terminal isolation,
-C100,DNP 10p C0G,ato_drv:C_0805_2012Metric,source0,True,"Reserved compensation footprint, not populated/stablebandwidth claim",
-C101,100n 25V,ato_drv:C_0805_2012Metric,source0,False,Servo bypass,
-C102,100n 25V,ato_drv:C_0805_2012Metric,source0,False,Gate mux bypass,
-C103,100n 25V,ato_drv:C_0805_2012Metric,source0,False,Feedback mux bypass,
-C104,100n 50V,ato_drv:C_0805_2012Metric,source0,False,Bridge bypass,
-C105,1u 50V,ato_drv:C_0805_2012Metric,source0,False,Bridge local reservoir; effective capacitance/rail transient requiresreview,
-R103,22k,ato_drv:R_0805_2012Metric,source0,False,BothpositiveSELinputs pulldown on sharedsame-net diagonal,
-R104,22k,ato_drv:R_0805_2012Metric,source0,False,BothnegativeSELinputs pulldown on sharedsame-net diagonal,
-R105,22k,ato_drv:R_0805_2012Metric,source0,False,Mux selectors defaultinhibited iflogicunpowered; startupsequence still external,
-U300,LTC6993HS6-1#TRPBF,ato_drv:TSOT-23-6,permission0,False,Raw request edge; non-retriggerable -1; timer clocks never gated by readiness,https://www.analog.com/media/en/technical-documentation/data-sheets/ltc6993-6993-1-6993-2-6993-4.pdf
-U301,SN74LVC1G86DBVR,ato_drv:SOT-23-5,permission0,False,Exactly one raw direction; invalid state immediately dropsBASE_GOOD,https://www.ti.com/lit/ds/symlink/sn74lvc1g86.pdf
-U302,SN74LVC1G11DBVR,ato_drv:SOT-23-6,permission0,False,"External current guard, independent supervision and route ownership",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-U303,SN74LVC1G11DBVR,ato_drv:SOT-23-6,permission0,False,Qualified startup/rails and direction; these externalports are not populatedsupervisors,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-U304,SN74LVC1G08DBVR,ato_drv:SOT-23-5,permission0,False,BASE_GOOD excludesstickyBLOCK/TIMEOUT soexplicitrearmcan clear them,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-U305,SN74LVC1G04DBVR,ato_drv:SOT-23-5,permission0,False,Normal request end contributes to consumed-admission latch,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-U306,SN74LVC1G04DBVR,ato_drv:SOT-23-5,permission0,False,Risinginvertedtimerclocks stickytimeout atwindowend,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-U307,SN74LVC1G08DBVR,ato_drv:SOT-23-5,permission0,False,Request ending duringtimer consumesadmission; notclassifiedas timeout,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-U308,SN74LVC1G04DBVR,ato_drv:SOT-23-5,permission0,False,Active-low consumedadmissioncondition,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-U309,SN74LVC1G08DBVR,ato_drv:SOT-23-5,permission0,False,Asyncblockset onfault ornormalend; recovery cannot clearblock,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-U310,SN74LVC1G11DBVR,ato_drv:SOT-23-6,permission0,False,Externallydeliberaterearm mustbe stableandnonoverlap; monitorrearm independent,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-U311,SN74LVC1G11DBVR,ato_drv:SOT-23-6,permission0,False,"Rearm onlyrequestLOW,timerLOW,observedquiescent andallhealthgood",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-U312,SN74LVC1G04DBVR,ato_drv:SOT-23-5,permission0,False,Onlyqualifiedexplicitrearm clearsdriverblock/timeout,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-U313,SN74LVC1G74DCUR,ato_drv:VSSOP-8_2.3x2mm_P0.5mm,permission0,False,AsyncPRE setsstickyadmissionblock; asyncCLRqualifiedrearm; no simultaneousactivecontrolsadmitted,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-U314,SN74LVC1G32DBVR,ato_drv:SOT-23-5,permission0,False,StickyOR avoids a later normalphase clearingrecordedtimeout,https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
-U315,SN74LVC1G74DCUR,ato_drv:VSSOP-8_2.3x2mm_P0.5mm,permission0,False,At timerfall latchfaultifrequestheld; directtimergate inhibitsregardlessofsetup/holdclassification,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-U316,SN74LVC1G74DCUR,ato_drv:VSSOP-8_2.3x2mm_P0.5mm,permission0,False,Qualifiedrearmcapturesdirectionwhileoff; externalrearmmustreleaseandsettlebeforefreshrequest,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-U317,SN74LVC1G11DBVR,ato_drv:SOT-23-6,permission0,False,Permission includesboth stickyblockandstickytimeout,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-U318,SN74LVC1G11DBVR,ato_drv:SOT-23-6,permission0,False,TimerdirectlycutsRUN; nofirmwarecanextendactivewindow,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-U319,SN74LVC1G08DBVR,ato_drv:SOT-23-5,permission0,False,Capturedpositivephase drives bridgeSEL1/SEL4,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-U320,SN74LVC1G08DBVR,ato_drv:SOT-23-5,permission0,False,Capturednegativephase drives bridgeSEL2/SEL3,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C300,100n 10V,ato_drv:C_0805_2012Metric,permission0,False,Local bypass for U300,
-C301,100n 10V,ato_drv:C_0805_2012Metric,permission0,False,Local bypass for U301,
-C302,100n 10V,ato_drv:C_0805_2012Metric,permission0,False,Local bypass for U302,
-C303,100n 10V,ato_drv:C_0805_2012Metric,permission0,False,Local bypass for U303,
-C304,100n 10V,ato_drv:C_0805_2012Metric,permission0,False,Local bypass for U304,
-C305,100n 10V,ato_drv:C_0805_2012Metric,permission0,False,Local bypass for U305,
-C306,100n 10V,ato_drv:C_0805_2012Metric,permission0,False,Local bypass for U306,
-C307,100n 10V,ato_drv:C_0805_2012Metric,permission0,False,Local bypass for U307,
-C308,100n 10V,ato_drv:C_0805_2012Metric,permission0,False,Local bypass for U308,
-C309,100n 10V,ato_drv:C_0805_2012Metric,permission0,False,Local bypass for U309,
-C310,100n 10V,ato_drv:C_0805_2012Metric,permission0,False,Local bypass for U310,
-C311,100n 10V,ato_drv:C_0805_2012Metric,permission0,False,Local bypass for U311,
-C312,100n 10V,ato_drv:C_0805_2012Metric,permission0,False,Local bypass for U312,
-C313,100n 10V,ato_drv:C_0805_2012Metric,permission0,False,Local bypass for U313,
-C314,100n 10V,ato_drv:C_0805_2012Metric,permission0,False,Local bypass for U314,
-C315,100n 10V,ato_drv:C_0805_2012Metric,permission0,False,Local bypass for U315,
-C316,100n 10V,ato_drv:C_0805_2012Metric,permission0,False,Local bypass for U316,
-C317,100n 10V,ato_drv:C_0805_2012Metric,permission0,False,Local bypass for U317,
-C318,100n 10V,ato_drv:C_0805_2012Metric,permission0,False,Local bypass for U318,
-C319,100n 10V,ato_drv:C_0805_2012Metric,permission0,False,Local bypass for U319,
-C320,100n 10V,ato_drv:C_0805_2012Metric,permission0,False,Local bypass for U320,
-R300,175.8k 0.1%,ato_drv:R_0805_2012Metric,permission0,False,FixedtimerRSET; temperaturedriftandstartuptimequalificationexternal,
-R301,976k 0.1%,ato_drv:R_0805_2012Metric,permission0,False,DIVcode2 topresistor,
-R302,182k 0.1%,ato_drv:R_0805_2012Metric,permission0,False,DIVcode2 bottomresistor,
-R303,10k,ato_drv:R_0805_2012Metric,permission0,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
-R304,10k,ato_drv:R_0805_2012Metric,permission0,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
-R305,10k,ato_drv:R_0805_2012Metric,permission0,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
-R306,10k,ato_drv:R_0805_2012Metric,permission0,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
-R307,10k,ato_drv:R_0805_2012Metric,permission0,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
-R308,10k,ato_drv:R_0805_2012Metric,permission0,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
-R309,10k,ato_drv:R_0805_2012Metric,permission0,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
-R310,10k,ato_drv:R_0805_2012Metric,permission0,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
-U200,OPA192IDBVR,ato_drv:SOT-23-5,source1,False,Current servo; compensation and startup/overload performance remain conditional,https://www.ti.com/lit/ds/symlink/opa192.pdf
-Q200,BSP89H6327XTSA1,ato_drv:BSP89_PG-SOT223-4_DrainTab,source1,False,Linear sink; numbered drain tab4 and drain lead2 deliberately share drain net,https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsp89-datasheet-en.pdf
-U201,TMUX7212PWR,ato_drv:TSSOP-16_4.4x5mm_P0.65mm,source1,False,"Restricted24Vbridge: diagonal1/4positive,2/3negative; alloff is not fail-open rail isolation",https://www.ti.com/lit/ds/symlink/tmux7212.pdf
-U202,TMUX6219DGKR,ato_drv:VSSOP-8_2.3x2mm_P0.5mm,source1,False,"ENhigh15V; RUNlow selectsS1ground, RUNhigh selectsS2servo; passive gate pulldown remains",https://www.ti.com/lit/ds/symlink/tmux6219.pdf
-U203,TMUX6219DGKR,ato_drv:VSSOP-8_2.3x2mm_P0.5mm,source1,False,"RUNlow selects unity local feedback, RUNhigh Kelvin feedback; skew/stuck-path study required",https://www.ti.com/lit/ds/symlink/tmux6219.pdf
-J200,EXTERNAL ROUTER / MONITOR,ato_drv:PinHeader_1x04_P2.54mm_Vertical,source1,False,Artificial loadA via future router; B_BR connects existingmonitorRETURN_DRIVER; external2ohmmonitor shunt thenloadB,
-R200,100R 0.1% LOW TCR,ato_drv:R_0805_2012Metric,source1,False,Feedback resistor; exact passiveMPN/thermalrating unselected; Kelvin sense/layout required,
-R201,330R,ato_drv:R_0805_2012Metric,source1,False,Provisional gate resistor; mux clamp-current and repeated pulse stress unqualified,
-R202,100k,ato_drv:R_0805_2012Metric,source1,False,Passive gate default on loss of auxrail; not terminal isolation,
-C200,DNP 10p C0G,ato_drv:C_0805_2012Metric,source1,True,"Reserved compensation footprint, not populated/stablebandwidth claim",
-C201,100n 25V,ato_drv:C_0805_2012Metric,source1,False,Servo bypass,
-C202,100n 25V,ato_drv:C_0805_2012Metric,source1,False,Gate mux bypass,
-C203,100n 25V,ato_drv:C_0805_2012Metric,source1,False,Feedback mux bypass,
-C204,100n 50V,ato_drv:C_0805_2012Metric,source1,False,Bridge bypass,
-C205,1u 50V,ato_drv:C_0805_2012Metric,source1,False,Bridge local reservoir; effective capacitance/rail transient requiresreview,
-R203,22k,ato_drv:R_0805_2012Metric,source1,False,BothpositiveSELinputs pulldown on sharedsame-net diagonal,
-R204,22k,ato_drv:R_0805_2012Metric,source1,False,BothnegativeSELinputs pulldown on sharedsame-net diagonal,
-R205,22k,ato_drv:R_0805_2012Metric,source1,False,Mux selectors defaultinhibited iflogicunpowered; startupsequence still external,
-U400,LTC6993HS6-1#TRPBF,ato_drv:TSOT-23-6,permission1,False,Raw request edge; non-retriggerable -1; timer clocks never gated by readiness,https://www.analog.com/media/en/technical-documentation/data-sheets/ltc6993-6993-1-6993-2-6993-4.pdf
-U401,SN74LVC1G86DBVR,ato_drv:SOT-23-5,permission1,False,Exactly one raw direction; invalid state immediately dropsBASE_GOOD,https://www.ti.com/lit/ds/symlink/sn74lvc1g86.pdf
-U402,SN74LVC1G11DBVR,ato_drv:SOT-23-6,permission1,False,"External current guard, independent supervision and route ownership",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-U403,SN74LVC1G11DBVR,ato_drv:SOT-23-6,permission1,False,Qualified startup/rails and direction; these externalports are not populatedsupervisors,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-U404,SN74LVC1G08DBVR,ato_drv:SOT-23-5,permission1,False,BASE_GOOD excludesstickyBLOCK/TIMEOUT soexplicitrearmcan clear them,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-U405,SN74LVC1G04DBVR,ato_drv:SOT-23-5,permission1,False,Normal request end contributes to consumed-admission latch,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-U406,SN74LVC1G04DBVR,ato_drv:SOT-23-5,permission1,False,Risinginvertedtimerclocks stickytimeout atwindowend,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-U407,SN74LVC1G08DBVR,ato_drv:SOT-23-5,permission1,False,Request ending duringtimer consumesadmission; notclassifiedas timeout,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-U408,SN74LVC1G04DBVR,ato_drv:SOT-23-5,permission1,False,Active-low consumedadmissioncondition,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-U409,SN74LVC1G08DBVR,ato_drv:SOT-23-5,permission1,False,Asyncblockset onfault ornormalend; recovery cannot clearblock,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-U410,SN74LVC1G11DBVR,ato_drv:SOT-23-6,permission1,False,Externallydeliberaterearm mustbe stableandnonoverlap; monitorrearm independent,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-U411,SN74LVC1G11DBVR,ato_drv:SOT-23-6,permission1,False,"Rearm onlyrequestLOW,timerLOW,observedquiescent andallhealthgood",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-U412,SN74LVC1G04DBVR,ato_drv:SOT-23-5,permission1,False,Onlyqualifiedexplicitrearm clearsdriverblock/timeout,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-U413,SN74LVC1G74DCUR,ato_drv:VSSOP-8_2.3x2mm_P0.5mm,permission1,False,AsyncPRE setsstickyadmissionblock; asyncCLRqualifiedrearm; no simultaneousactivecontrolsadmitted,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-U414,SN74LVC1G32DBVR,ato_drv:SOT-23-5,permission1,False,StickyOR avoids a later normalphase clearingrecordedtimeout,https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
-U415,SN74LVC1G74DCUR,ato_drv:VSSOP-8_2.3x2mm_P0.5mm,permission1,False,At timerfall latchfaultifrequestheld; directtimergate inhibitsregardlessofsetup/holdclassification,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-U416,SN74LVC1G74DCUR,ato_drv:VSSOP-8_2.3x2mm_P0.5mm,permission1,False,Qualifiedrearmcapturesdirectionwhileoff; externalrearmmustreleaseandsettlebeforefreshrequest,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-U417,SN74LVC1G11DBVR,ato_drv:SOT-23-6,permission1,False,Permission includesboth stickyblockandstickytimeout,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-U418,SN74LVC1G11DBVR,ato_drv:SOT-23-6,permission1,False,TimerdirectlycutsRUN; nofirmwarecanextendactivewindow,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-U419,SN74LVC1G08DBVR,ato_drv:SOT-23-5,permission1,False,Capturedpositivephase drives bridgeSEL1/SEL4,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-U420,SN74LVC1G08DBVR,ato_drv:SOT-23-5,permission1,False,Capturednegativephase drives bridgeSEL2/SEL3,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C400,100n 10V,ato_drv:C_0805_2012Metric,permission1,False,Local bypass for U400,
-C401,100n 10V,ato_drv:C_0805_2012Metric,permission1,False,Local bypass for U401,
-C402,100n 10V,ato_drv:C_0805_2012Metric,permission1,False,Local bypass for U402,
-C403,100n 10V,ato_drv:C_0805_2012Metric,permission1,False,Local bypass for U403,
-C404,100n 10V,ato_drv:C_0805_2012Metric,permission1,False,Local bypass for U404,
-C405,100n 10V,ato_drv:C_0805_2012Metric,permission1,False,Local bypass for U405,
-C406,100n 10V,ato_drv:C_0805_2012Metric,permission1,False,Local bypass for U406,
-C407,100n 10V,ato_drv:C_0805_2012Metric,permission1,False,Local bypass for U407,
-C408,100n 10V,ato_drv:C_0805_2012Metric,permission1,False,Local bypass for U408,
-C409,100n 10V,ato_drv:C_0805_2012Metric,permission1,False,Local bypass for U409,
-C410,100n 10V,ato_drv:C_0805_2012Metric,permission1,False,Local bypass for U410,
-C411,100n 10V,ato_drv:C_0805_2012Metric,permission1,False,Local bypass for U411,
-C412,100n 10V,ato_drv:C_0805_2012Metric,permission1,False,Local bypass for U412,
-C413,100n 10V,ato_drv:C_0805_2012Metric,permission1,False,Local bypass for U413,
-C414,100n 10V,ato_drv:C_0805_2012Metric,permission1,False,Local bypass for U414,
-C415,100n 10V,ato_drv:C_0805_2012Metric,permission1,False,Local bypass for U415,
-C416,100n 10V,ato_drv:C_0805_2012Metric,permission1,False,Local bypass for U416,
-C417,100n 10V,ato_drv:C_0805_2012Metric,permission1,False,Local bypass for U417,
-C418,100n 10V,ato_drv:C_0805_2012Metric,permission1,False,Local bypass for U418,
-C419,100n 10V,ato_drv:C_0805_2012Metric,permission1,False,Local bypass for U419,
-C420,100n 10V,ato_drv:C_0805_2012Metric,permission1,False,Local bypass for U420,
-R400,175.8k 0.1%,ato_drv:R_0805_2012Metric,permission1,False,FixedtimerRSET; temperaturedriftandstartuptimequalificationexternal,
-R401,976k 0.1%,ato_drv:R_0805_2012Metric,permission1,False,DIVcode2 topresistor,
-R402,182k 0.1%,ato_drv:R_0805_2012Metric,permission1,False,DIVcode2 bottomresistor,
-R403,10k,ato_drv:R_0805_2012Metric,permission1,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
-R404,10k,ato_drv:R_0805_2012Metric,permission1,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
-R405,10k,ato_drv:R_0805_2012Metric,permission1,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
-R406,10k,ato_drv:R_0805_2012Metric,permission1,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
-R407,10k,ato_drv:R_0805_2012Metric,permission1,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
-R408,10k,ato_drv:R_0805_2012Metric,permission1,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
-R409,10k,ato_drv:R_0805_2012Metric,permission1,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
-R410,10k,ato_drv:R_0805_2012Metric,permission1,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
+J1,QUALIFIED EXTERNAL RAILS,scci_rh_drv:PinHeader_1x05_P2.54mm_Vertical,root,False,"External regulated rails; no converters, battery, power-on supervisor or isolation",
+J2,MCU SPI / PRELOAD INHIBITED,scci_rh_drv:PinHeader_1x04_P2.54mm_Vertical,root,False,3.3V host SPI; configuration write and independent setpoint verification required before RESET_READY,
+J3,MCU PHASE / EXPLICIT REARM,scci_rh_drv:PinHeader_1x09_P2.54mm_Vertical,root,False,"Separate controls; REARM pulse only after external observed quiescence, no automatic retry",
+J4,EXTERNAL HEALTH CONTRACTS,scci_rh_drv:PinHeader_1x11_P2.54mm_Vertical,root,False,"Independent monitor, watchdog/compliance, power-startup, route and zero-current evidence are external; keep low until qualified",
+J5,STATUS ONLY / NOT DELIVERY EVIDENCE,scci_rh_drv:PinHeader_1x09_P2.54mm_Vertical,root,False,"Internal command status does not certify actual current, dose or successful stimulation",
+U1,DAC80502DRXR,scci_rh_drv:Texas_DRX_WSON-10_2.5x2.5mm_P0.5mm,root,False,DRX10 has ten lands and no invented exposed-pad pin; internal reference; gain register0x0103,https://www.ti.com/lit/ds/symlink/dac80502.pdf
+C1,100n 10V,scci_rh_drv:C_0805_2012Metric,root,False,DAC local supply/reference bypass; effective reference capacitance >=150nF,
+C2,4.7u 10V,scci_rh_drv:C_0805_2012Metric,root,False,DAC local supply/reference bypass; effective reference capacitance >=150nF,
+C3,220n 10V,scci_rh_drv:C_0805_2012Metric,root,False,DAC local supply/reference bypass; effective reference capacitance >=150nF,
+R1,10k,scci_rh_drv:R_0805_2012Metric,root,False,SPI clock default low,
+R2,10k,scci_rh_drv:R_0805_2012Metric,root,False,SPI data default low,
+R3,10k,scci_rh_drv:R_0805_2012Metric,root,False,SPI inactive pull-up to host3.3V domain; no5V backdrive to MCU,
+R4,10k,scci_rh_drv:R_0805_2012Metric,root,False,Startup must remain inhibited until externally qualified,
+R5,10k,scci_rh_drv:R_0805_2012Metric,root,False,Disconnected rail supervisor cannot admit output,
+U100,OPA192IDBVR,scci_rh_drv:SOT-23-5,source0,False,Current servo; compensation and startup/overload performance remain conditional,https://www.ti.com/lit/ds/symlink/opa192.pdf
+Q100,BSP89H6327XTSA1,scci_rh_drv:BSP89_PG-SOT223-4_DrainTab,source0,False,Linear sink; numbered drain tab4 and drain lead2 deliberately share drain net,https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsp89-datasheet-en.pdf
+U101,TMUX7212PWR,scci_rh_drv:TSSOP-16_4.4x5mm_P0.65mm,source0,False,"Restricted24Vbridge: diagonal1/4positive,2/3negative; alloff is not fail-open rail isolation",https://www.ti.com/lit/ds/symlink/tmux7212.pdf
+U102,TMUX6219DGKR,scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm,source0,False,"ENhigh15V; RUNlow selectsS1ground, RUNhigh selectsS2servo; passive gate pulldown remains",https://www.ti.com/lit/ds/symlink/tmux6219.pdf
+U103,TMUX6219DGKR,scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm,source0,False,"RUNlow selects unity local feedback, RUNhigh Kelvin feedback; skew/stuck-path study required",https://www.ti.com/lit/ds/symlink/tmux6219.pdf
+J100,EXTERNAL ROUTER / MONITOR,scci_rh_drv:PinHeader_1x04_P2.54mm_Vertical,source0,False,Artificial loadA via future router; B_BR connects existingmonitorRETURN_DRIVER; external2ohmmonitor shunt thenloadB,
+R100,100R 0.1% LOW TCR,scci_rh_drv:R_0805_2012Metric,source0,False,Feedback resistor; exact passiveMPN/thermalrating unselected; Kelvin sense/layout required,
+R101,330R,scci_rh_drv:R_0805_2012Metric,source0,False,Provisional gate resistor; mux clamp-current and repeated pulse stress unqualified,
+R102,100k,scci_rh_drv:R_0805_2012Metric,source0,False,Passive gate default on loss of auxrail; not terminal isolation,
+C100,DNP 10p C0G,scci_rh_drv:C_0805_2012Metric,source0,True,"Reserved compensation footprint, not populated/stablebandwidth claim",
+C101,100n 25V,scci_rh_drv:C_0805_2012Metric,source0,False,Servo bypass,
+C102,100n 25V,scci_rh_drv:C_0805_2012Metric,source0,False,Gate mux bypass,
+C103,100n 25V,scci_rh_drv:C_0805_2012Metric,source0,False,Feedback mux bypass,
+C104,100n 50V,scci_rh_drv:C_0805_2012Metric,source0,False,Bridge bypass,
+C105,1u 50V,scci_rh_drv:C_0805_2012Metric,source0,False,Bridge local reservoir; effective capacitance/rail transient requiresreview,
+R103,22k,scci_rh_drv:R_0805_2012Metric,source0,False,BothpositiveSELinputs pulldown on sharedsame-net diagonal,
+R104,22k,scci_rh_drv:R_0805_2012Metric,source0,False,BothnegativeSELinputs pulldown on sharedsame-net diagonal,
+R105,22k,scci_rh_drv:R_0805_2012Metric,source0,False,Mux selectors defaultinhibited iflogicunpowered; startupsequence still external,
+U300,LTC6993HS6-1#TRPBF,scci_rh_drv:TSOT-23-6,permission0,False,Raw request edge; non-retriggerable -1; timer clocks never gated by readiness,https://www.analog.com/media/en/technical-documentation/data-sheets/ltc6993-6993-1-6993-2-6993-4.pdf
+U301,SN74LVC1G86DBVR,scci_rh_drv:SOT-23-5,permission0,False,Exactly one raw direction; invalid state immediately dropsBASE_GOOD,https://www.ti.com/lit/ds/symlink/sn74lvc1g86.pdf
+U302,SN74LVC1G11DBVR,scci_rh_drv:SOT-23-6,permission0,False,"External current guard, independent supervision and route ownership",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+U303,SN74LVC1G11DBVR,scci_rh_drv:SOT-23-6,permission0,False,Qualified startup/rails and direction; these externalports are not populatedsupervisors,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+U304,SN74LVC1G08DBVR,scci_rh_drv:SOT-23-5,permission0,False,BASE_GOOD excludesstickyBLOCK/TIMEOUT soexplicitrearmcan clear them,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+U305,SN74LVC1G04DBVR,scci_rh_drv:SOT-23-5,permission0,False,Normal request end contributes to consumed-admission latch,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+U306,SN74LVC1G04DBVR,scci_rh_drv:SOT-23-5,permission0,False,Risinginvertedtimerclocks stickytimeout atwindowend,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+U307,SN74LVC1G08DBVR,scci_rh_drv:SOT-23-5,permission0,False,Request ending duringtimer consumesadmission; notclassifiedas timeout,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+U308,SN74LVC1G04DBVR,scci_rh_drv:SOT-23-5,permission0,False,Active-low consumedadmissioncondition,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+U309,SN74LVC1G08DBVR,scci_rh_drv:SOT-23-5,permission0,False,Asyncblockset onfault ornormalend; recovery cannot clearblock,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+U310,SN74LVC1G11DBVR,scci_rh_drv:SOT-23-6,permission0,False,Externallydeliberaterearm mustbe stableandnonoverlap; monitorrearm independent,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+U311,SN74LVC1G11DBVR,scci_rh_drv:SOT-23-6,permission0,False,"Rearm onlyrequestLOW,timerLOW,observedquiescent andallhealthgood",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+U312,SN74LVC1G04DBVR,scci_rh_drv:SOT-23-5,permission0,False,Onlyqualifiedexplicitrearm clearsdriverblock/timeout,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+U313,SN74LVC1G74DCUR,scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm,permission0,False,AsyncPRE setsstickyadmissionblock; asyncCLRqualifiedrearm; no simultaneousactivecontrolsadmitted,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+U314,SN74LVC1G32DBVR,scci_rh_drv:SOT-23-5,permission0,False,StickyOR avoids a later normalphase clearingrecordedtimeout,https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
+U315,SN74LVC1G74DCUR,scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm,permission0,False,At timerfall latchfaultifrequestheld; directtimergate inhibitsregardlessofsetup/holdclassification,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+U316,SN74LVC1G74DCUR,scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm,permission0,False,Qualifiedrearmcapturesdirectionwhileoff; externalrearmmustreleaseandsettlebeforefreshrequest,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+U317,SN74LVC1G11DBVR,scci_rh_drv:SOT-23-6,permission0,False,Permission includesboth stickyblockandstickytimeout,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+U318,SN74LVC1G11DBVR,scci_rh_drv:SOT-23-6,permission0,False,TimerdirectlycutsRUN; nofirmwarecanextendactivewindow,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+U319,SN74LVC1G08DBVR,scci_rh_drv:SOT-23-5,permission0,False,Capturedpositivephase drives bridgeSEL1/SEL4,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+U320,SN74LVC1G08DBVR,scci_rh_drv:SOT-23-5,permission0,False,Capturednegativephase drives bridgeSEL2/SEL3,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C300,100n 10V,scci_rh_drv:C_0805_2012Metric,permission0,False,Local bypass for U300,
+C301,100n 10V,scci_rh_drv:C_0805_2012Metric,permission0,False,Local bypass for U301,
+C302,100n 10V,scci_rh_drv:C_0805_2012Metric,permission0,False,Local bypass for U302,
+C303,100n 10V,scci_rh_drv:C_0805_2012Metric,permission0,False,Local bypass for U303,
+C304,100n 10V,scci_rh_drv:C_0805_2012Metric,permission0,False,Local bypass for U304,
+C305,100n 10V,scci_rh_drv:C_0805_2012Metric,permission0,False,Local bypass for U305,
+C306,100n 10V,scci_rh_drv:C_0805_2012Metric,permission0,False,Local bypass for U306,
+C307,100n 10V,scci_rh_drv:C_0805_2012Metric,permission0,False,Local bypass for U307,
+C308,100n 10V,scci_rh_drv:C_0805_2012Metric,permission0,False,Local bypass for U308,
+C309,100n 10V,scci_rh_drv:C_0805_2012Metric,permission0,False,Local bypass for U309,
+C310,100n 10V,scci_rh_drv:C_0805_2012Metric,permission0,False,Local bypass for U310,
+C311,100n 10V,scci_rh_drv:C_0805_2012Metric,permission0,False,Local bypass for U311,
+C312,100n 10V,scci_rh_drv:C_0805_2012Metric,permission0,False,Local bypass for U312,
+C313,100n 10V,scci_rh_drv:C_0805_2012Metric,permission0,False,Local bypass for U313,
+C314,100n 10V,scci_rh_drv:C_0805_2012Metric,permission0,False,Local bypass for U314,
+C315,100n 10V,scci_rh_drv:C_0805_2012Metric,permission0,False,Local bypass for U315,
+C316,100n 10V,scci_rh_drv:C_0805_2012Metric,permission0,False,Local bypass for U316,
+C317,100n 10V,scci_rh_drv:C_0805_2012Metric,permission0,False,Local bypass for U317,
+C318,100n 10V,scci_rh_drv:C_0805_2012Metric,permission0,False,Local bypass for U318,
+C319,100n 10V,scci_rh_drv:C_0805_2012Metric,permission0,False,Local bypass for U319,
+C320,100n 10V,scci_rh_drv:C_0805_2012Metric,permission0,False,Local bypass for U320,
+R300,175.8k 0.1%,scci_rh_drv:R_0805_2012Metric,permission0,False,FixedtimerRSET; temperaturedriftandstartuptimequalificationexternal,
+R301,976k 0.1%,scci_rh_drv:R_0805_2012Metric,permission0,False,DIVcode2 topresistor,
+R302,182k 0.1%,scci_rh_drv:R_0805_2012Metric,permission0,False,DIVcode2 bottomresistor,
+R303,10k,scci_rh_drv:R_0805_2012Metric,permission0,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
+R304,10k,scci_rh_drv:R_0805_2012Metric,permission0,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
+R305,10k,scci_rh_drv:R_0805_2012Metric,permission0,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
+R306,10k,scci_rh_drv:R_0805_2012Metric,permission0,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
+R307,10k,scci_rh_drv:R_0805_2012Metric,permission0,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
+R308,10k,scci_rh_drv:R_0805_2012Metric,permission0,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
+R309,10k,scci_rh_drv:R_0805_2012Metric,permission0,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
+R310,10k,scci_rh_drv:R_0805_2012Metric,permission0,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
+U200,OPA192IDBVR,scci_rh_drv:SOT-23-5,source1,False,Current servo; compensation and startup/overload performance remain conditional,https://www.ti.com/lit/ds/symlink/opa192.pdf
+Q200,BSP89H6327XTSA1,scci_rh_drv:BSP89_PG-SOT223-4_DrainTab,source1,False,Linear sink; numbered drain tab4 and drain lead2 deliberately share drain net,https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsp89-datasheet-en.pdf
+U201,TMUX7212PWR,scci_rh_drv:TSSOP-16_4.4x5mm_P0.65mm,source1,False,"Restricted24Vbridge: diagonal1/4positive,2/3negative; alloff is not fail-open rail isolation",https://www.ti.com/lit/ds/symlink/tmux7212.pdf
+U202,TMUX6219DGKR,scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm,source1,False,"ENhigh15V; RUNlow selectsS1ground, RUNhigh selectsS2servo; passive gate pulldown remains",https://www.ti.com/lit/ds/symlink/tmux6219.pdf
+U203,TMUX6219DGKR,scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm,source1,False,"RUNlow selects unity local feedback, RUNhigh Kelvin feedback; skew/stuck-path study required",https://www.ti.com/lit/ds/symlink/tmux6219.pdf
+J200,EXTERNAL ROUTER / MONITOR,scci_rh_drv:PinHeader_1x04_P2.54mm_Vertical,source1,False,Artificial loadA via future router; B_BR connects existingmonitorRETURN_DRIVER; external2ohmmonitor shunt thenloadB,
+R200,100R 0.1% LOW TCR,scci_rh_drv:R_0805_2012Metric,source1,False,Feedback resistor; exact passiveMPN/thermalrating unselected; Kelvin sense/layout required,
+R201,330R,scci_rh_drv:R_0805_2012Metric,source1,False,Provisional gate resistor; mux clamp-current and repeated pulse stress unqualified,
+R202,100k,scci_rh_drv:R_0805_2012Metric,source1,False,Passive gate default on loss of auxrail; not terminal isolation,
+C200,DNP 10p C0G,scci_rh_drv:C_0805_2012Metric,source1,True,"Reserved compensation footprint, not populated/stablebandwidth claim",
+C201,100n 25V,scci_rh_drv:C_0805_2012Metric,source1,False,Servo bypass,
+C202,100n 25V,scci_rh_drv:C_0805_2012Metric,source1,False,Gate mux bypass,
+C203,100n 25V,scci_rh_drv:C_0805_2012Metric,source1,False,Feedback mux bypass,
+C204,100n 50V,scci_rh_drv:C_0805_2012Metric,source1,False,Bridge bypass,
+C205,1u 50V,scci_rh_drv:C_0805_2012Metric,source1,False,Bridge local reservoir; effective capacitance/rail transient requiresreview,
+R203,22k,scci_rh_drv:R_0805_2012Metric,source1,False,BothpositiveSELinputs pulldown on sharedsame-net diagonal,
+R204,22k,scci_rh_drv:R_0805_2012Metric,source1,False,BothnegativeSELinputs pulldown on sharedsame-net diagonal,
+R205,22k,scci_rh_drv:R_0805_2012Metric,source1,False,Mux selectors defaultinhibited iflogicunpowered; startupsequence still external,
+U400,LTC6993HS6-1#TRPBF,scci_rh_drv:TSOT-23-6,permission1,False,Raw request edge; non-retriggerable -1; timer clocks never gated by readiness,https://www.analog.com/media/en/technical-documentation/data-sheets/ltc6993-6993-1-6993-2-6993-4.pdf
+U401,SN74LVC1G86DBVR,scci_rh_drv:SOT-23-5,permission1,False,Exactly one raw direction; invalid state immediately dropsBASE_GOOD,https://www.ti.com/lit/ds/symlink/sn74lvc1g86.pdf
+U402,SN74LVC1G11DBVR,scci_rh_drv:SOT-23-6,permission1,False,"External current guard, independent supervision and route ownership",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+U403,SN74LVC1G11DBVR,scci_rh_drv:SOT-23-6,permission1,False,Qualified startup/rails and direction; these externalports are not populatedsupervisors,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+U404,SN74LVC1G08DBVR,scci_rh_drv:SOT-23-5,permission1,False,BASE_GOOD excludesstickyBLOCK/TIMEOUT soexplicitrearmcan clear them,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+U405,SN74LVC1G04DBVR,scci_rh_drv:SOT-23-5,permission1,False,Normal request end contributes to consumed-admission latch,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+U406,SN74LVC1G04DBVR,scci_rh_drv:SOT-23-5,permission1,False,Risinginvertedtimerclocks stickytimeout atwindowend,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+U407,SN74LVC1G08DBVR,scci_rh_drv:SOT-23-5,permission1,False,Request ending duringtimer consumesadmission; notclassifiedas timeout,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+U408,SN74LVC1G04DBVR,scci_rh_drv:SOT-23-5,permission1,False,Active-low consumedadmissioncondition,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+U409,SN74LVC1G08DBVR,scci_rh_drv:SOT-23-5,permission1,False,Asyncblockset onfault ornormalend; recovery cannot clearblock,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+U410,SN74LVC1G11DBVR,scci_rh_drv:SOT-23-6,permission1,False,Externallydeliberaterearm mustbe stableandnonoverlap; monitorrearm independent,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+U411,SN74LVC1G11DBVR,scci_rh_drv:SOT-23-6,permission1,False,"Rearm onlyrequestLOW,timerLOW,observedquiescent andallhealthgood",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+U412,SN74LVC1G04DBVR,scci_rh_drv:SOT-23-5,permission1,False,Onlyqualifiedexplicitrearm clearsdriverblock/timeout,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+U413,SN74LVC1G74DCUR,scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm,permission1,False,AsyncPRE setsstickyadmissionblock; asyncCLRqualifiedrearm; no simultaneousactivecontrolsadmitted,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+U414,SN74LVC1G32DBVR,scci_rh_drv:SOT-23-5,permission1,False,StickyOR avoids a later normalphase clearingrecordedtimeout,https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
+U415,SN74LVC1G74DCUR,scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm,permission1,False,At timerfall latchfaultifrequestheld; directtimergate inhibitsregardlessofsetup/holdclassification,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+U416,SN74LVC1G74DCUR,scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm,permission1,False,Qualifiedrearmcapturesdirectionwhileoff; externalrearmmustreleaseandsettlebeforefreshrequest,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+U417,SN74LVC1G11DBVR,scci_rh_drv:SOT-23-6,permission1,False,Permission includesboth stickyblockandstickytimeout,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+U418,SN74LVC1G11DBVR,scci_rh_drv:SOT-23-6,permission1,False,TimerdirectlycutsRUN; nofirmwarecanextendactivewindow,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+U419,SN74LVC1G08DBVR,scci_rh_drv:SOT-23-5,permission1,False,Capturedpositivephase drives bridgeSEL1/SEL4,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+U420,SN74LVC1G08DBVR,scci_rh_drv:SOT-23-5,permission1,False,Capturednegativephase drives bridgeSEL2/SEL3,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C400,100n 10V,scci_rh_drv:C_0805_2012Metric,permission1,False,Local bypass for U400,
+C401,100n 10V,scci_rh_drv:C_0805_2012Metric,permission1,False,Local bypass for U401,
+C402,100n 10V,scci_rh_drv:C_0805_2012Metric,permission1,False,Local bypass for U402,
+C403,100n 10V,scci_rh_drv:C_0805_2012Metric,permission1,False,Local bypass for U403,
+C404,100n 10V,scci_rh_drv:C_0805_2012Metric,permission1,False,Local bypass for U404,
+C405,100n 10V,scci_rh_drv:C_0805_2012Metric,permission1,False,Local bypass for U405,
+C406,100n 10V,scci_rh_drv:C_0805_2012Metric,permission1,False,Local bypass for U406,
+C407,100n 10V,scci_rh_drv:C_0805_2012Metric,permission1,False,Local bypass for U407,
+C408,100n 10V,scci_rh_drv:C_0805_2012Metric,permission1,False,Local bypass for U408,
+C409,100n 10V,scci_rh_drv:C_0805_2012Metric,permission1,False,Local bypass for U409,
+C410,100n 10V,scci_rh_drv:C_0805_2012Metric,permission1,False,Local bypass for U410,
+C411,100n 10V,scci_rh_drv:C_0805_2012Metric,permission1,False,Local bypass for U411,
+C412,100n 10V,scci_rh_drv:C_0805_2012Metric,permission1,False,Local bypass for U412,
+C413,100n 10V,scci_rh_drv:C_0805_2012Metric,permission1,False,Local bypass for U413,
+C414,100n 10V,scci_rh_drv:C_0805_2012Metric,permission1,False,Local bypass for U414,
+C415,100n 10V,scci_rh_drv:C_0805_2012Metric,permission1,False,Local bypass for U415,
+C416,100n 10V,scci_rh_drv:C_0805_2012Metric,permission1,False,Local bypass for U416,
+C417,100n 10V,scci_rh_drv:C_0805_2012Metric,permission1,False,Local bypass for U417,
+C418,100n 10V,scci_rh_drv:C_0805_2012Metric,permission1,False,Local bypass for U418,
+C419,100n 10V,scci_rh_drv:C_0805_2012Metric,permission1,False,Local bypass for U419,
+C420,100n 10V,scci_rh_drv:C_0805_2012Metric,permission1,False,Local bypass for U420,
+R400,175.8k 0.1%,scci_rh_drv:R_0805_2012Metric,permission1,False,FixedtimerRSET; temperaturedriftandstartuptimequalificationexternal,
+R401,976k 0.1%,scci_rh_drv:R_0805_2012Metric,permission1,False,DIVcode2 topresistor,
+R402,182k 0.1%,scci_rh_drv:R_0805_2012Metric,permission1,False,DIVcode2 bottomresistor,
+R403,10k,scci_rh_drv:R_0805_2012Metric,permission1,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
+R404,10k,scci_rh_drv:R_0805_2012Metric,permission1,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
+R405,10k,scci_rh_drv:R_0805_2012Metric,permission1,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
+R406,10k,scci_rh_drv:R_0805_2012Metric,permission1,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
+R407,10k,scci_rh_drv:R_0805_2012Metric,permission1,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
+R408,10k,scci_rh_drv:R_0805_2012Metric,permission1,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
+R409,10k,scci_rh_drv:R_0805_2012Metric,permission1,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,
+R410,10k,scci_rh_drv:R_0805_2012Metric,permission1,False,Disconnectedexternalinput defaultsLOW; notpowersequencingproof,

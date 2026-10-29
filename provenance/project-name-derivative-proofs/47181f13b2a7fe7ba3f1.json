@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/power/svg/power-afen.svg",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "93dddc340e927a070749b02aaf6e35d2dd1cb75371799a06f95ca43680c86401",
+  "current_sha256": "d29356b4cb063602b946f48d67c21ff7f5a12f6b7d3eb40e7d1799ec56b62dc6",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-legacy-native-svg.json",
+      "sha256_lf": "72e16066a70bd8090ae9fddd687b65a7d9a7e151e09b3cce60b296c24af0232a"
+    }
+  ]
+}

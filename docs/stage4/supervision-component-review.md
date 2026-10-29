@@ -1,6 +1,6 @@
 # Independent supervision: manufacturer review and design conditions
 
-**14 October 2026 — Project ATO, Stage 4 — digital circuit design.**
+**14 October 2026 — Project SCCI RH, Stage 4 — digital circuit design.**
 
 This review supports the independent shutdown package connecting the restricted
 24 V, approximately 3 mA, 200 microsecond driver, recording front end, signed

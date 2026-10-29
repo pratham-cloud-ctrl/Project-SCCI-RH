@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "scripts/audit_frozen_observer_pilot.py",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "718ea49e9b9bd605034e0fd96deebed1cd3cfce7c67b1bc3b3e693fd98c095a6",
+  "current_sha256": "793310697149a62075d0caf3351e0bf528d6edb2f750f6b49e88f012c802374f",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

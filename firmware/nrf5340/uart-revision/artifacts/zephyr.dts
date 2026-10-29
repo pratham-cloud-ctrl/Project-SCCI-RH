@@ -1,1061 +1,1061 @@
 /dts-v1/;
 
-/* node '/' defined in zephyr\dts\common\skeleton.dtsi:9 */
+/* node '/' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\common\skeleton.dtsi:9 */
 / {
-	#address-cells = < 0x1 >;                        /* in zephyr\dts\common\skeleton.dtsi:10 */
-	#size-cells = < 0x1 >;                           /* in zephyr\dts\common\skeleton.dtsi:11 */
-	model = "Nordic NRF5340 DK NRF5340 Application"; /* in zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:12 */
-	compatible = "nordic,nrf5340-dk-nrf5340-cpuapp"; /* in zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:13 */
+	#address-cells = < 0x1 >;                        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\common\skeleton.dtsi:10 */
+	#size-cells = < 0x1 >;                           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\common\skeleton.dtsi:11 */
+	model = "Nordic NRF5340 DK NRF5340 Application"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:12 */
+	compatible = "nordic,nrf5340-dk-nrf5340-cpuapp"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:13 */
 
-	/* node '/chosen' defined in zephyr\dts\common\skeleton.dtsi:13 */
+	/* node '/chosen' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\common\skeleton.dtsi:13 */
 	chosen {
-		zephyr,entropy = &cryptocell;                 /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:38 */
-		zephyr,flash-controller = &flash_controller;  /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:39 */
-		zephyr,console = &uart0;                      /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:12 */
-		zephyr,shell-uart = &uart0;                   /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:13 */
-		zephyr,uart-mcumgr = &uart0;                  /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:14 */
-		zephyr,bt-mon-uart = &uart0;                  /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:15 */
-		zephyr,bt-c2h-uart = &uart0;                  /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:16 */
-		zephyr,bt-hci = &bt_hci_ipc0;                 /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:17 */
-		nordic,802154-spinel-ipc = &ipc0;             /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:18 */
-		zephyr,ieee802154 = &ieee802154;              /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:19 */
-		zephyr,sram = &sram0_image;                   /* in zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:16 */
-		zephyr,flash = &flash0;                       /* in zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:17 */
-		zephyr,code-partition = &slot0_partition;     /* in zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:18 */
-		zephyr,sram-secure-partition = &sram0_s;      /* in zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:19 */
-		zephyr,sram-non-secure-partition = &sram0_ns; /* in zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:20 */
-		zephyr,boot-mode = &boot_mode0;               /* in zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:21 */
-		zephyr,ipc_shm = &sram0_shared;               /* in zephyr\dts\vendor\nordic\nrf5340_shared_sram_partition.dtsi:22 */
+		zephyr,entropy = &cryptocell;                 /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:38 */
+		zephyr,flash-controller = &flash_controller;  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:39 */
+		zephyr,console = &uart0;                      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:12 */
+		zephyr,shell-uart = &uart0;                   /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:13 */
+		zephyr,uart-mcumgr = &uart0;                  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:14 */
+		zephyr,bt-mon-uart = &uart0;                  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:15 */
+		zephyr,bt-c2h-uart = &uart0;                  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:16 */
+		zephyr,bt-hci = &bt_hci_ipc0;                 /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:17 */
+		nordic,802154-spinel-ipc = &ipc0;             /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:18 */
+		zephyr,ieee802154 = &ieee802154;              /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:19 */
+		zephyr,sram = &sram0_image;                   /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:16 */
+		zephyr,flash = &flash0;                       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:17 */
+		zephyr,code-partition = &slot0_partition;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:18 */
+		zephyr,sram-secure-partition = &sram0_s;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:19 */
+		zephyr,sram-non-secure-partition = &sram0_ns; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:20 */
+		zephyr,boot-mode = &boot_mode0;               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:21 */
+		zephyr,ipc_shm = &sram0_shared;               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_shared_sram_partition.dtsi:22 */
 	};
 
-	/* node '/aliases' defined in zephyr\dts\common\skeleton.dtsi:15 */
+	/* node '/aliases' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\common\skeleton.dtsi:15 */
 	aliases {
-		watchdog0 = &wdt0; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:53 */
+		watchdog0 = &wdt0; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:53 */
 	};
 
-	/* node '/soc' defined in zephyr\dts\arm\armv8-m.dtsi:6 */
+	/* node '/soc' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\armv8-m.dtsi:6 */
 	soc {
-		#address-cells = < 0x1 >;     /* in zephyr\dts\arm\armv8-m.dtsi:7 */
-		#size-cells = < 0x1 >;        /* in zephyr\dts\arm\armv8-m.dtsi:8 */
-		interrupt-parent = < &nvic >; /* in zephyr\dts\arm\armv8-m.dtsi:10 */
-		ranges;                       /* in zephyr\dts\arm\armv8-m.dtsi:11 */
-		compatible = "simple-bus";    /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:43 */
+		#address-cells = < 0x1 >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\armv8-m.dtsi:7 */
+		#size-cells = < 0x1 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\armv8-m.dtsi:8 */
+		interrupt-parent = < &nvic >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\armv8-m.dtsi:10 */
+		ranges;                       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\armv8-m.dtsi:11 */
+		compatible = "simple-bus";    /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:43 */
 
-		/* node '/soc/interrupt-controller@e000e100' defined in zephyr\dts\arm\armv8-m.dtsi:13 */
+		/* node '/soc/interrupt-controller@e000e100' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\armv8-m.dtsi:13 */
 		nvic: interrupt-controller@e000e100 {
-			#address-cells = < 0x1 >;            /* in zephyr\dts\arm\armv8-m.dtsi:14 */
-			compatible = "arm,v8m-nvic";         /* in zephyr\dts\arm\armv8-m.dtsi:15 */
-			reg = < 0xe000e100 0xc00 >;          /* in zephyr\dts\arm\armv8-m.dtsi:16 */
-			interrupt-controller;                /* in zephyr\dts\arm\armv8-m.dtsi:17 */
-			#interrupt-cells = < 0x2 >;          /* in zephyr\dts\arm\armv8-m.dtsi:18 */
-			arm,num-irq-priority-bits = < 0x3 >; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:152 */
-			phandle = < 0x1 >;                   /* in zephyr\dts\arm\armv8-m.dtsi:10 */
+			#address-cells = < 0x1 >;            /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\armv8-m.dtsi:14 */
+			compatible = "arm,v8m-nvic";         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\armv8-m.dtsi:15 */
+			reg = < 0xe000e100 0xc00 >;          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\armv8-m.dtsi:16 */
+			interrupt-controller;                /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\armv8-m.dtsi:17 */
+			#interrupt-cells = < 0x2 >;          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\armv8-m.dtsi:18 */
+			arm,num-irq-priority-bits = < 0x3 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:152 */
+			phandle = < 0x1 >;                   /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\armv8-m.dtsi:10 */
 		};
 
-		/* node '/soc/timer@e000e010' defined in zephyr\dts\arm\armv8-m.dtsi:21 */
+		/* node '/soc/timer@e000e010' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\armv8-m.dtsi:21 */
 		systick: timer@e000e010 {
-			compatible = "arm,armv8m-systick"; /* in zephyr\dts\arm\armv8-m.dtsi:22 */
-			reg = < 0xe000e010 0x10 >;         /* in zephyr\dts\arm\armv8-m.dtsi:23 */
-			status = "disabled";               /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:157 */
+			compatible = "arm,armv8m-systick"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\armv8-m.dtsi:22 */
+			reg = < 0xe000e010 0x10 >;         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\armv8-m.dtsi:23 */
+			status = "disabled";               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:157 */
 		};
 
-		/* node '/soc/ficr@ff0000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:45 */
+		/* node '/soc/ficr@ff0000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:45 */
 		ficr: ficr@ff0000 {
-			compatible = "nordic,nrf-ficr"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:46 */
-			reg = < 0xff0000 0x1000 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:47 */
-			#nordic,ficr-cells = < 0x1 >;   /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:48 */
-			status = "okay";                /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:49 */
+			compatible = "nordic,nrf-ficr"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:46 */
+			reg = < 0xff0000 0x1000 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:47 */
+			#nordic,ficr-cells = < 0x1 >;   /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:48 */
+			status = "okay";                /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:49 */
 		};
 
-		/* node '/soc/uicr@ff8000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:52 */
+		/* node '/soc/uicr@ff8000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:52 */
 		uicr: uicr@ff8000 {
-			compatible = "nordic,nrf-uicr";   /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:53 */
-			reg = < 0xff8000 0x1000 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:54 */
-			ranges = < 0x0 0xff8000 0x1000 >; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:55 */
-			status = "okay";                  /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:56 */
-			#address-cells = < 0x1 >;         /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:57 */
-			#size-cells = < 0x1 >;            /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:58 */
+			compatible = "nordic,nrf-uicr";   /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:53 */
+			reg = < 0xff8000 0x1000 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:54 */
+			ranges = < 0x0 0xff8000 0x1000 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:55 */
+			status = "okay";                  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:56 */
+			#address-cells = < 0x1 >;         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:57 */
+			#size-cells = < 0x1 >;            /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:58 */
 			nfct-pins-as-gpios;               /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:53 */
 
-			/* node '/soc/uicr@ff8000/uicr@100' defined in zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:43 */
+			/* node '/soc/uicr@ff8000/uicr@100' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:43 */
 			bl_storage: uicr@100 {
-				reg = < 0x100 0x280 >; /* in zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:44 */
+				reg = < 0x100 0x280 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:44 */
 			};
 		};
 
-		/* node '/soc/memory@20000000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:61 */
+		/* node '/soc/memory@20000000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:61 */
 		sram0: memory@20000000 {
-			compatible = "mmio-sram";            /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:62 */
-			#address-cells = < 0x1 >;            /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:63 */
-			#size-cells = < 0x1 >;               /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:64 */
-			reg = < 0x20000000 0x80000 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_qkaa.dtsi:11 */
-			ranges = < 0x0 0x20000000 0x80000 >; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_qkaa.dtsi:12 */
+			compatible = "mmio-sram";            /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:62 */
+			#address-cells = < 0x1 >;            /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:63 */
+			#size-cells = < 0x1 >;               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:64 */
+			reg = < 0x20000000 0x80000 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_qkaa.dtsi:11 */
+			ranges = < 0x0 0x20000000 0x80000 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_qkaa.dtsi:12 */
 
-			/* node '/soc/memory@20000000/sram@0' defined in zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:16 */
+			/* node '/soc/memory@20000000/sram@0' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:16 */
 			sram0_image: sram@0 {
-				reg = < 0x0 0x70000 >;        /* in zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:18 */
-				ranges = < 0x0 0x0 0x70000 >; /* in zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:19 */
-				#address-cells = < 0x1 >;     /* in zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:20 */
-				#size-cells = < 0x1 >;        /* in zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:21 */
+				reg = < 0x0 0x70000 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:18 */
+				ranges = < 0x0 0x0 0x70000 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:19 */
+				#address-cells = < 0x1 >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:20 */
+				#size-cells = < 0x1 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:21 */
 
-				/* node '/soc/memory@20000000/sram@0/sram0_image@0' defined in zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:23 */
+				/* node '/soc/memory@20000000/sram@0/sram0_image@0' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:23 */
 				sram0_s: sram0_image@0 {
-					reg = < 0x0 0x40000 >; /* in zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:25 */
+					reg = < 0x0 0x40000 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:25 */
 				};
 
-				/* node '/soc/memory@20000000/sram@0/sram@2000' defined in zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:28 */
+				/* node '/soc/memory@20000000/sram@0/sram@2000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:28 */
 				sram0_offset_for_dfu: sram@2000 {
-					reg = < 0x2000 0x6e000 >;        /* in zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:29 */
-					ranges = < 0x0 0x2000 0x6e000 >; /* in zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:30 */
-					#address-cells = < 0x1 >;        /* in zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:31 */
-					#size-cells = < 0x1 >;           /* in zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:32 */
+					reg = < 0x2000 0x6e000 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:29 */
+					ranges = < 0x0 0x2000 0x6e000 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:30 */
+					#address-cells = < 0x1 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:31 */
+					#size-cells = < 0x1 >;           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:32 */
 				};
 			};
 
-			/* node '/soc/memory@20000000/sram@40000' defined in zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:40 */
+			/* node '/soc/memory@20000000/sram@40000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:40 */
 			sram0_ns: sram@40000 {
-				reg = < 0x40000 0x40000 >;        /* in zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:42 */
-				ranges = < 0x0 0x40000 0x40000 >; /* in zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:43 */
-				#address-cells = < 0x1 >;         /* in zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:44 */
-				#size-cells = < 0x1 >;            /* in zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:45 */
+				reg = < 0x40000 0x40000 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:42 */
+				ranges = < 0x0 0x40000 0x40000 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:43 */
+				#address-cells = < 0x1 >;         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:44 */
+				#size-cells = < 0x1 >;            /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:45 */
 
-				/* node '/soc/memory@20000000/sram@40000/sram0_ns@0' defined in zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:47 */
+				/* node '/soc/memory@20000000/sram@40000/sram0_ns@0' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:47 */
 				sram0_ns_app: sram0_ns@0 {
-					reg = < 0x0 0x30000 >; /* in zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:49 */
+					reg = < 0x0 0x30000 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_sram_partition.dtsi:49 */
 				};
 			};
 
-			/* node '/soc/memory@20000000/shared-sram@0' defined in zephyr\dts\vendor\nordic\nrf5340_shared_sram_partition.dtsi:27 */
+			/* node '/soc/memory@20000000/shared-sram@0' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_shared_sram_partition.dtsi:27 */
 			sram0_dfu_shared: shared-sram@0 {
-				reg = < 0x0 0x2000 >; /* in zephyr\dts\vendor\nordic\nrf5340_shared_sram_partition.dtsi:28 */
+				reg = < 0x0 0x2000 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_shared_sram_partition.dtsi:28 */
 			};
 
-			/* node '/soc/memory@20000000/sram@70000' defined in zephyr\dts\vendor\nordic\nrf5340_shared_sram_partition.dtsi:31 */
+			/* node '/soc/memory@20000000/sram@70000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_shared_sram_partition.dtsi:31 */
 			sram0_shared: sram@70000 {
-				reg = < 0x70000 0x10000 >; /* in zephyr\dts\vendor\nordic\nrf5340_shared_sram_partition.dtsi:33 */
-				phandle = < 0x11 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:9 */
+				reg = < 0x70000 0x10000 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_shared_sram_partition.dtsi:33 */
+				phandle = < 0x11 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:9 */
 			};
 		};
 
-		/* node '/soc/peripheral@50000000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:67 */
+		/* node '/soc/peripheral@50000000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:67 */
 		peripheral@50000000 {
-			reg = < 0x50000000 0x10000000 >;               /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:68 */
-			#address-cells = < 0x1 >;                      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:69 */
-			#size-cells = < 0x1 >;                         /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:70 */
+			reg = < 0x50000000 0x10000000 >;               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:68 */
+			#address-cells = < 0x1 >;                      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:69 */
+			#size-cells = < 0x1 >;                         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:70 */
 			ranges = < 0x0 0x50000000 0x10000000 >,
-			         < 0x10000000 0x10000000 0x10000000 >; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:71 */
+			         < 0x10000000 0x10000000 0x10000000 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:71 */
 
-			/* node '/soc/peripheral@50000000/dcnf@0' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:9 */
+			/* node '/soc/peripheral@50000000/dcnf@0' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:9 */
 			dcnf: dcnf@0 {
-				compatible = "nordic,nrf-dcnf"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:10 */
-				reg = < 0x0 0x1000 >;           /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:11 */
-				status = "okay";                /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:12 */
+				compatible = "nordic,nrf-dcnf"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:10 */
+				reg = < 0x0 0x1000 >;           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:11 */
+				status = "okay";                /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:12 */
 			};
 
-			/* node '/soc/peripheral@50000000/clock-controller@4000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:15 */
+			/* node '/soc/peripheral@50000000/clock-controller@4000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:15 */
 			oscillators: clock-controller@4000 {
-				compatible = "nordic,nrf53-oscillators"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:16 */
-				reg = < 0x4000 0x1000 >;                 /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:17 */
+				compatible = "nordic,nrf53-oscillators"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:16 */
+				reg = < 0x4000 0x1000 >;                 /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:17 */
 			};
 
-			/* node '/soc/peripheral@50000000/regulator@4000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:20 */
+			/* node '/soc/peripheral@50000000/regulator@4000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:20 */
 			regulators: regulator@4000 {
-				compatible = "nordic,nrf53x-regulators"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:21 */
-				reg = < 0x4000 0x1000 >;                 /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:22 */
-				status = "okay";                         /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:23 */
-				#address-cells = < 0x1 >;                /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:24 */
-				#size-cells = < 0x1 >;                   /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:25 */
+				compatible = "nordic,nrf53x-regulators"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:21 */
+				reg = < 0x4000 0x1000 >;                 /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:22 */
+				status = "okay";                         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:23 */
+				#address-cells = < 0x1 >;                /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:24 */
+				#size-cells = < 0x1 >;                   /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:25 */
 
-				/* node '/soc/peripheral@50000000/regulator@4000/regulator@4704' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:27 */
+				/* node '/soc/peripheral@50000000/regulator@4000/regulator@4704' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:27 */
 				vregmain: regulator@4704 {
-					compatible = "nordic,nrf5x-regulator"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:28 */
-					reg = < 0x4704 0x1 >;                  /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:29 */
-					status = "okay";                       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:30 */
-					regulator-name = "VREGMAIN";           /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:31 */
-					regulator-initial-mode = < 0x1 >;      /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:58 */
+					compatible = "nordic,nrf5x-regulator"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:28 */
+					reg = < 0x4704 0x1 >;                  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:29 */
+					status = "okay";                       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:30 */
+					regulator-name = "VREGMAIN";           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:31 */
+					regulator-initial-mode = < 0x1 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:58 */
 				};
 
-				/* node '/soc/peripheral@50000000/regulator@4000/regulator@4904' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:35 */
+				/* node '/soc/peripheral@50000000/regulator@4000/regulator@4904' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:35 */
 				vregradio: regulator@4904 {
-					compatible = "nordic,nrf5x-regulator"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:36 */
-					reg = < 0x4904 0x1 >;                  /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:37 */
-					status = "okay";                       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:38 */
-					regulator-name = "VREGRADIO";          /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:39 */
-					regulator-initial-mode = < 0x1 >;      /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:62 */
+					compatible = "nordic,nrf5x-regulator"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:36 */
+					reg = < 0x4904 0x1 >;                  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:37 */
+					status = "okay";                       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:38 */
+					regulator-name = "VREGRADIO";          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:39 */
+					regulator-initial-mode = < 0x1 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:62 */
 				};
 
-				/* node '/soc/peripheral@50000000/regulator@4000/regulator@4b00' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:43 */
+				/* node '/soc/peripheral@50000000/regulator@4000/regulator@4b00' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:43 */
 				vregh: regulator@4b00 {
-					compatible = "nordic,nrf53x-regulator-hv"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:44 */
-					reg = < 0x4b00 0x44 >;                     /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:45 */
-					regulator-name = "VREGH";                  /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:47 */
-					status = "okay";                           /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:66 */
+					compatible = "nordic,nrf53x-regulator-hv"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:44 */
+					reg = < 0x4b00 0x44 >;                     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:45 */
+					regulator-name = "VREGH";                  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:47 */
+					status = "okay";                           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:66 */
 				};
 			};
 
-			/* node '/soc/peripheral@50000000/clock@5000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:51 */
+			/* node '/soc/peripheral@50000000/clock@5000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:51 */
 			clock: clock@5000 {
-				compatible = "nordic,nrf-clock"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:52 */
-				reg = < 0x5000 0x1000 >;         /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:53 */
-				interrupts = < 0x5 0x1 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:54 */
-				status = "okay";                 /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:55 */
+				compatible = "nordic,nrf-clock"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:52 */
+				reg = < 0x5000 0x1000 >;         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:53 */
+				interrupts = < 0x5 0x1 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:54 */
+				status = "okay";                 /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:55 */
 			};
 
-			/* node '/soc/peripheral@50000000/power@5000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:58 */
+			/* node '/soc/peripheral@50000000/power@5000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:58 */
 			power: power@5000 {
-				compatible = "nordic,nrf-power"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:59 */
-				reg = < 0x5000 0x1000 >;         /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:60 */
-				ranges = < 0x0 0x5000 0x1000 >;  /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:61 */
-				interrupts = < 0x5 0x1 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:62 */
-				status = "okay";                 /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:63 */
-				#address-cells = < 0x1 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:64 */
-				#size-cells = < 0x1 >;           /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:65 */
+				compatible = "nordic,nrf-power"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:59 */
+				reg = < 0x5000 0x1000 >;         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:60 */
+				ranges = < 0x0 0x5000 0x1000 >;  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:61 */
+				interrupts = < 0x5 0x1 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:62 */
+				status = "okay";                 /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:63 */
+				#address-cells = < 0x1 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:64 */
+				#size-cells = < 0x1 >;           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:65 */
 
-				/* node '/soc/peripheral@50000000/power@5000/gpregret1@51c' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:67 */
+				/* node '/soc/peripheral@50000000/power@5000/gpregret1@51c' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:67 */
 				gpregret1: gpregret1@51c {
-					#address-cells = < 0x1 >;           /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:68 */
-					#size-cells = < 0x1 >;              /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:69 */
-					compatible = "nordic,nrf-gpregret"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:70 */
-					reg = < 0x51c 0x1 >;                /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:71 */
-					status = "okay";                    /* in zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:26 */
+					#address-cells = < 0x1 >;           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:68 */
+					#size-cells = < 0x1 >;              /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:69 */
+					compatible = "nordic,nrf-gpregret"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:70 */
+					reg = < 0x51c 0x1 >;                /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:71 */
+					status = "okay";                    /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:26 */
 
-					/* node '/soc/peripheral@50000000/power@5000/gpregret1@51c/boot_mode@0' defined in zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:28 */
+					/* node '/soc/peripheral@50000000/power@5000/gpregret1@51c/boot_mode@0' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:28 */
 					boot_mode0: boot_mode@0 {
-						compatible = "zephyr,retention"; /* in zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:29 */
-						status = "okay";                 /* in zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:30 */
-						reg = < 0x0 0x1 >;               /* in zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:31 */
+						compatible = "zephyr,retention"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:29 */
+						status = "okay";                 /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:30 */
+						reg = < 0x0 0x1 >;               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340dk_nrf5340_cpuapp.dts:31 */
 					};
 				};
 
-				/* node '/soc/peripheral@50000000/power@5000/gpregret2@520' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:75 */
+				/* node '/soc/peripheral@50000000/power@5000/gpregret2@520' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:75 */
 				gpregret2: gpregret2@520 {
-					#address-cells = < 0x1 >;           /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:76 */
-					#size-cells = < 0x1 >;              /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:77 */
-					compatible = "nordic,nrf-gpregret"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:78 */
-					reg = < 0x520 0x1 >;                /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:79 */
-					status = "okay";                    /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:80 */
+					#address-cells = < 0x1 >;           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:76 */
+					#size-cells = < 0x1 >;              /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:77 */
+					compatible = "nordic,nrf-gpregret"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:78 */
+					reg = < 0x520 0x1 >;                /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:79 */
+					status = "okay";                    /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:80 */
 				};
 			};
 
-			/* node '/soc/peripheral@50000000/reset-controller@5000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:84 */
+			/* node '/soc/peripheral@50000000/reset-controller@5000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:84 */
 			reset: reset-controller@5000 {
-				compatible = "nordic,nrf-reset"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:85 */
-				reg = < 0x5000 0x1000 >;         /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:86 */
-				status = "okay";                 /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:87 */
+				compatible = "nordic,nrf-reset"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:85 */
+				reg = < 0x5000 0x1000 >;         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:86 */
+				status = "okay";                 /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:87 */
 			};
 
-			/* node '/soc/peripheral@50000000/ctrlap@6000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:90 */
+			/* node '/soc/peripheral@50000000/ctrlap@6000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:90 */
 			ctrlap: ctrlap@6000 {
-				compatible = "nordic,nrf-ctrlapperi"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:91 */
-				reg = < 0x6000 0x1000 >;              /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:92 */
-				status = "okay";                      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:93 */
+				compatible = "nordic,nrf-ctrlapperi"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:91 */
+				reg = < 0x6000 0x1000 >;              /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:92 */
+				status = "okay";                      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:93 */
 			};
 
-			/* node '/soc/peripheral@50000000/i2c@8000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:96 */
+			/* node '/soc/peripheral@50000000/i2c@8000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:96 */
 			i2c0: i2c@8000 {
-				compatible = "nordic,nrf-twim"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:102 */
-				#address-cells = < 0x1 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:103 */
-				#size-cells = < 0x0 >;          /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:104 */
-				reg = < 0x8000 0x1000 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:105 */
-				interrupts = < 0x8 0x1 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:106 */
-				easydma-maxcnt-bits = < 0x10 >; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:107 */
-				zephyr,pm-device-runtime-auto;  /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:109 */
+				compatible = "nordic,nrf-twim"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:102 */
+				#address-cells = < 0x1 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:103 */
+				#size-cells = < 0x0 >;          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:104 */
+				reg = < 0x8000 0x1000 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:105 */
+				interrupts = < 0x8 0x1 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:106 */
+				easydma-maxcnt-bits = < 0x10 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:107 */
+				zephyr,pm-device-runtime-auto;  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:109 */
 				status = "disabled";            /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:47 */
 			};
 
-			/* node '/soc/peripheral@50000000/spi@8000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:112 */
+			/* node '/soc/peripheral@50000000/spi@8000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:112 */
 			spi0: spi@8000 {
-				compatible = "nordic,nrf-spim"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:119 */
-				#address-cells = < 0x1 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:120 */
-				#size-cells = < 0x0 >;          /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:121 */
-				reg = < 0x8000 0x1000 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:122 */
-				interrupts = < 0x8 0x1 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:123 */
-				max-frequency = < 0x7a1200 >;   /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:124 */
-				easydma-maxcnt-bits = < 0x10 >; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:125 */
+				compatible = "nordic,nrf-spim"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:119 */
+				#address-cells = < 0x1 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:120 */
+				#size-cells = < 0x0 >;          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:121 */
+				reg = < 0x8000 0x1000 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:122 */
+				interrupts = < 0x8 0x1 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:123 */
+				max-frequency = < 0x7a1200 >;   /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:124 */
+				easydma-maxcnt-bits = < 0x10 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:125 */
 				status = "disabled";            /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:42 */
 			};
 
-			/* node '/soc/peripheral@50000000/uart@8000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:129 */
+			/* node '/soc/peripheral@50000000/uart@8000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:129 */
 			uart0: uart@8000 {
-				compatible = "nordic,nrf-uarte";   /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:130 */
-				reg = < 0x8000 0x1000 >;           /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:131 */
-				interrupts = < 0x8 0x1 >;          /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:132 */
-				status = "okay";                   /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:33 */
-				current-speed = < 0xf4240 >;       /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:34 */
-				pinctrl-0 = < &ato_uart_default >; /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:35 */
-				pinctrl-1 = < &ato_uart_sleep >;   /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:36 */
+				compatible = "nordic,nrf-uarte";       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:130 */
+				reg = < 0x8000 0x1000 >;               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:131 */
+				interrupts = < 0x8 0x1 >;              /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:132 */
+				status = "okay";                       /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:33 */
+				current-speed = < 0xf4240 >;           /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:34 */
+				pinctrl-0 = < &scci_rh_uart_default >; /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:35 */
+				pinctrl-1 = < &scci_rh_uart_sleep >;   /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:36 */
 				pinctrl-names = "default",
-				                "sleep";           /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:37 */
+				                "sleep";               /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:37 */
 			};
 
-			/* node '/soc/peripheral@50000000/i2c@9000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:136 */
+			/* node '/soc/peripheral@50000000/i2c@9000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:136 */
 			i2c1: arduino_i2c: i2c@9000 {
-				#address-cells = < 0x1 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:144 */
-				#size-cells = < 0x0 >;          /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:145 */
-				reg = < 0x9000 0x1000 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:146 */
-				interrupts = < 0x9 0x1 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:147 */
-				easydma-maxcnt-bits = < 0x10 >; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:148 */
-				zephyr,pm-device-runtime-auto;  /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:150 */
-				compatible = "nordic,nrf-twim"; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:95 */
-				pinctrl-0 = < &i2c1_default >;  /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:97 */
-				pinctrl-1 = < &i2c1_sleep >;    /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:98 */
+				#address-cells = < 0x1 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:144 */
+				#size-cells = < 0x0 >;          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:145 */
+				reg = < 0x9000 0x1000 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:146 */
+				interrupts = < 0x9 0x1 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:147 */
+				easydma-maxcnt-bits = < 0x10 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:148 */
+				zephyr,pm-device-runtime-auto;  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:150 */
+				compatible = "nordic,nrf-twim"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:95 */
+				pinctrl-0 = < &i2c1_default >;  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:97 */
+				pinctrl-1 = < &i2c1_sleep >;    /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:98 */
 				pinctrl-names = "default",
-				                "sleep";        /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:99 */
+				                "sleep";        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:99 */
 				status = "disabled";            /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:48 */
 			};
 
-			/* node '/soc/peripheral@50000000/spi@9000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:153 */
+			/* node '/soc/peripheral@50000000/spi@9000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:153 */
 			spi1: spi@9000 {
-				compatible = "nordic,nrf-spim"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:160 */
-				#address-cells = < 0x1 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:161 */
-				#size-cells = < 0x0 >;          /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:162 */
-				reg = < 0x9000 0x1000 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:163 */
-				interrupts = < 0x9 0x1 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:164 */
-				max-frequency = < 0x7a1200 >;   /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:165 */
-				easydma-maxcnt-bits = < 0x10 >; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:166 */
+				compatible = "nordic,nrf-spim"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:160 */
+				#address-cells = < 0x1 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:161 */
+				#size-cells = < 0x0 >;          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:162 */
+				reg = < 0x9000 0x1000 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:163 */
+				interrupts = < 0x9 0x1 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:164 */
+				max-frequency = < 0x7a1200 >;   /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:165 */
+				easydma-maxcnt-bits = < 0x10 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:166 */
 				status = "disabled";            /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:43 */
 			};
 
-			/* node '/soc/peripheral@50000000/uart@9000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:170 */
+			/* node '/soc/peripheral@50000000/uart@9000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:170 */
 			uart1: arduino_serial: uart@9000 {
-				reg = < 0x9000 0x1000 >;         /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:172 */
-				interrupts = < 0x9 0x1 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:173 */
-				compatible = "nordic,nrf-uarte"; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:144 */
-				current-speed = < 0x1c200 >;     /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:145 */
-				pinctrl-0 = < &uart1_default >;  /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:146 */
-				pinctrl-1 = < &uart1_sleep >;    /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:147 */
+				reg = < 0x9000 0x1000 >;         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:172 */
+				interrupts = < 0x9 0x1 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:173 */
+				compatible = "nordic,nrf-uarte"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:144 */
+				current-speed = < 0x1c200 >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:145 */
+				pinctrl-0 = < &uart1_default >;  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:146 */
+				pinctrl-1 = < &uart1_sleep >;    /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:147 */
 				pinctrl-names = "default",
-				                "sleep";         /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:148 */
+				                "sleep";         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:148 */
 				status = "disabled";             /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:39 */
 			};
 
-			/* node '/soc/peripheral@50000000/spi@a000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:177 */
+			/* node '/soc/peripheral@50000000/spi@a000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:177 */
 			spi4: arduino_spi: spi@a000 {
-				#address-cells = < 0x1 >;                /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:179 */
-				#size-cells = < 0x0 >;                   /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:180 */
-				reg = < 0xa000 0x1000 >;                 /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:181 */
-				interrupts = < 0xa 0x1 >;                /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:182 */
-				max-frequency = < 0x1e84800 >;           /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:183 */
-				easydma-maxcnt-bits = < 0x10 >;          /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:184 */
-				rx-delay-supported;                      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:185 */
-				rx-delay = < 0x2 >;                      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:186 */
-				compatible = "nordic,nrf-spim";          /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:154 */
-				cs-gpios = < &arduino_header 0x10 0x1 >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:156 */
-				pinctrl-0 = < &spi4_default >;           /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:157 */
-				pinctrl-1 = < &spi4_sleep >;             /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:158 */
+				#address-cells = < 0x1 >;                /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:179 */
+				#size-cells = < 0x0 >;                   /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:180 */
+				reg = < 0xa000 0x1000 >;                 /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:181 */
+				interrupts = < 0xa 0x1 >;                /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:182 */
+				max-frequency = < 0x1e84800 >;           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:183 */
+				easydma-maxcnt-bits = < 0x10 >;          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:184 */
+				rx-delay-supported;                      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:185 */
+				rx-delay = < 0x2 >;                      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:186 */
+				compatible = "nordic,nrf-spim";          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:154 */
+				cs-gpios = < &arduino_header 0x10 0x1 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:156 */
+				pinctrl-0 = < &spi4_default >;           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:157 */
+				pinctrl-1 = < &spi4_sleep >;             /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:158 */
 				pinctrl-names = "default",
-				                "sleep";                 /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:159 */
+				                "sleep";                 /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:159 */
 				status = "disabled";                     /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:46 */
 			};
 
-			/* node '/soc/peripheral@50000000/i2c@b000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:190 */
+			/* node '/soc/peripheral@50000000/i2c@b000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:190 */
 			i2c2: i2c@b000 {
-				compatible = "nordic,nrf-twim"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:197 */
-				#address-cells = < 0x1 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:198 */
-				#size-cells = < 0x0 >;          /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:199 */
-				reg = < 0xb000 0x1000 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:200 */
-				interrupts = < 0xb 0x1 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:201 */
-				easydma-maxcnt-bits = < 0x10 >; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:202 */
-				zephyr,pm-device-runtime-auto;  /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:204 */
+				compatible = "nordic,nrf-twim"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:197 */
+				#address-cells = < 0x1 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:198 */
+				#size-cells = < 0x0 >;          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:199 */
+				reg = < 0xb000 0x1000 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:200 */
+				interrupts = < 0xb 0x1 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:201 */
+				easydma-maxcnt-bits = < 0x10 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:202 */
+				zephyr,pm-device-runtime-auto;  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:204 */
 				status = "disabled";            /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:49 */
 			};
 
-			/* node '/soc/peripheral@50000000/spi@b000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:207 */
+			/* node '/soc/peripheral@50000000/spi@b000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:207 */
 			spi2: spi@b000 {
-				compatible = "nordic,nrf-spim"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:214 */
-				#address-cells = < 0x1 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:215 */
-				#size-cells = < 0x0 >;          /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:216 */
-				reg = < 0xb000 0x1000 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:217 */
-				interrupts = < 0xb 0x1 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:218 */
-				max-frequency = < 0x7a1200 >;   /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:219 */
-				easydma-maxcnt-bits = < 0x10 >; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:220 */
+				compatible = "nordic,nrf-spim"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:214 */
+				#address-cells = < 0x1 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:215 */
+				#size-cells = < 0x0 >;          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:216 */
+				reg = < 0xb000 0x1000 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:217 */
+				interrupts = < 0xb 0x1 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:218 */
+				max-frequency = < 0x7a1200 >;   /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:219 */
+				easydma-maxcnt-bits = < 0x10 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:220 */
 				status = "disabled";            /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:44 */
 			};
 
-			/* node '/soc/peripheral@50000000/uart@b000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:224 */
+			/* node '/soc/peripheral@50000000/uart@b000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:224 */
 			uart2: uart@b000 {
-				compatible = "nordic,nrf-uarte"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:225 */
-				reg = < 0xb000 0x1000 >;         /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:226 */
-				interrupts = < 0xb 0x1 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:227 */
+				compatible = "nordic,nrf-uarte"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:225 */
+				reg = < 0xb000 0x1000 >;         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:226 */
+				interrupts = < 0xb 0x1 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:227 */
 				status = "disabled";             /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:40 */
 			};
 
-			/* node '/soc/peripheral@50000000/i2c@c000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:231 */
+			/* node '/soc/peripheral@50000000/i2c@c000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:231 */
 			i2c3: i2c@c000 {
-				compatible = "nordic,nrf-twim"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:238 */
-				#address-cells = < 0x1 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:239 */
-				#size-cells = < 0x0 >;          /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:240 */
-				reg = < 0xc000 0x1000 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:241 */
-				interrupts = < 0xc 0x1 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:242 */
-				easydma-maxcnt-bits = < 0x10 >; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:243 */
-				zephyr,pm-device-runtime-auto;  /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:245 */
+				compatible = "nordic,nrf-twim"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:238 */
+				#address-cells = < 0x1 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:239 */
+				#size-cells = < 0x0 >;          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:240 */
+				reg = < 0xc000 0x1000 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:241 */
+				interrupts = < 0xc 0x1 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:242 */
+				easydma-maxcnt-bits = < 0x10 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:243 */
+				zephyr,pm-device-runtime-auto;  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:245 */
 				status = "disabled";            /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:50 */
 			};
 
-			/* node '/soc/peripheral@50000000/spi@c000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:248 */
+			/* node '/soc/peripheral@50000000/spi@c000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:248 */
 			spi3: spi@c000 {
-				compatible = "nordic,nrf-spim"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:255 */
-				#address-cells = < 0x1 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:256 */
-				#size-cells = < 0x0 >;          /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:257 */
-				reg = < 0xc000 0x1000 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:258 */
-				interrupts = < 0xc 0x1 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:259 */
-				max-frequency = < 0x7a1200 >;   /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:260 */
-				easydma-maxcnt-bits = < 0x10 >; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:261 */
+				compatible = "nordic,nrf-spim"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:255 */
+				#address-cells = < 0x1 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:256 */
+				#size-cells = < 0x0 >;          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:257 */
+				reg = < 0xc000 0x1000 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:258 */
+				interrupts = < 0xc 0x1 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:259 */
+				max-frequency = < 0x7a1200 >;   /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:260 */
+				easydma-maxcnt-bits = < 0x10 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:261 */
 				status = "disabled";            /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:45 */
 			};
 
-			/* node '/soc/peripheral@50000000/uart@c000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:265 */
+			/* node '/soc/peripheral@50000000/uart@c000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:265 */
 			uart3: uart@c000 {
-				compatible = "nordic,nrf-uarte"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:266 */
-				reg = < 0xc000 0x1000 >;         /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:267 */
-				interrupts = < 0xc 0x1 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:268 */
+				compatible = "nordic,nrf-uarte"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:266 */
+				reg = < 0xc000 0x1000 >;         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:267 */
+				interrupts = < 0xc 0x1 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:268 */
 				status = "disabled";             /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:41 */
 			};
 
-			/* node '/soc/peripheral@50000000/adc@e000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:272 */
+			/* node '/soc/peripheral@50000000/adc@e000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:272 */
 			adc: adc@e000 {
-				compatible = "nordic,nrf-saadc"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:273 */
-				reg = < 0xe000 0x1000 >;         /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:274 */
-				interrupts = < 0xe 0x1 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:275 */
-				#io-channel-cells = < 0x1 >;     /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:277 */
-				zephyr,pm-device-runtime-auto;   /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:278 */
+				compatible = "nordic,nrf-saadc"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:273 */
+				reg = < 0xe000 0x1000 >;         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:274 */
+				interrupts = < 0xe 0x1 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:275 */
+				#io-channel-cells = < 0x1 >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:277 */
+				zephyr,pm-device-runtime-auto;   /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:278 */
 				status = "disabled";             /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:51 */
-				phandle = < 0x15 >;              /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:33 */
+				phandle = < 0x15 >;              /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:33 */
 			};
 
-			/* node '/soc/peripheral@50000000/timer@f000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:281 */
+			/* node '/soc/peripheral@50000000/timer@f000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:281 */
 			timer0: timer@f000 {
-				compatible = "nordic,nrf-timer"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:282 */
-				reg = < 0xf000 0x1000 >;         /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:284 */
-				cc-num = < 0x6 >;                /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:285 */
-				max-bit-width = < 0x20 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:286 */
-				interrupts = < 0xf 0x1 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:287 */
-				prescaler = < 0x0 >;             /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:288 */
+				compatible = "nordic,nrf-timer"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:282 */
+				reg = < 0xf000 0x1000 >;         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:284 */
+				cc-num = < 0x6 >;                /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:285 */
+				max-bit-width = < 0x20 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:286 */
+				interrupts = < 0xf 0x1 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:287 */
+				prescaler = < 0x0 >;             /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:288 */
 				status = "disabled";             /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:59 */
 			};
 
-			/* node '/soc/peripheral@50000000/timer@10000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:291 */
+			/* node '/soc/peripheral@50000000/timer@10000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:291 */
 			timer1: timer@10000 {
-				compatible = "nordic,nrf-timer"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:292 */
-				reg = < 0x10000 0x1000 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:294 */
-				cc-num = < 0x6 >;                /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:295 */
-				max-bit-width = < 0x20 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:296 */
-				interrupts = < 0x10 0x1 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:297 */
-				prescaler = < 0x0 >;             /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:298 */
+				compatible = "nordic,nrf-timer"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:292 */
+				reg = < 0x10000 0x1000 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:294 */
+				cc-num = < 0x6 >;                /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:295 */
+				max-bit-width = < 0x20 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:296 */
+				interrupts = < 0x10 0x1 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:297 */
+				prescaler = < 0x0 >;             /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:298 */
 				status = "disabled";             /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:60 */
-				phandle = < 0x10 >;              /* in zephyr\dts\vendor\nordic\nrf_common.dtsi:42 */
+				phandle = < 0x10 >;              /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf_common.dtsi:42 */
 			};
 
-			/* node '/soc/peripheral@50000000/timer@11000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:301 */
+			/* node '/soc/peripheral@50000000/timer@11000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:301 */
 			timer2: timer@11000 {
-				compatible = "nordic,nrf-timer"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:302 */
-				reg = < 0x11000 0x1000 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:304 */
-				cc-num = < 0x6 >;                /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:305 */
-				max-bit-width = < 0x20 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:306 */
-				interrupts = < 0x11 0x1 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:307 */
-				prescaler = < 0x0 >;             /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:308 */
+				compatible = "nordic,nrf-timer"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:302 */
+				reg = < 0x11000 0x1000 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:304 */
+				cc-num = < 0x6 >;                /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:305 */
+				max-bit-width = < 0x20 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:306 */
+				interrupts = < 0x11 0x1 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:307 */
+				prescaler = < 0x0 >;             /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:308 */
 				status = "disabled";             /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:61 */
 			};
 
-			/* node '/soc/peripheral@50000000/rtc@14000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:311 */
+			/* node '/soc/peripheral@50000000/rtc@14000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:311 */
 			rtc0: rtc@14000 {
-				compatible = "nordic,nrf-rtc"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:312 */
-				reg = < 0x14000 0x1000 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:313 */
-				cc-num = < 0x4 >;              /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:314 */
-				interrupts = < 0x14 0x1 >;     /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:315 */
-				status = "disabled";           /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:316 */
-				clock-frequency = < 0x8000 >;  /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:317 */
-				prescaler = < 0x1 >;           /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:318 */
+				compatible = "nordic,nrf-rtc"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:312 */
+				reg = < 0x14000 0x1000 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:313 */
+				cc-num = < 0x4 >;              /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:314 */
+				interrupts = < 0x14 0x1 >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:315 */
+				status = "disabled";           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:316 */
+				clock-frequency = < 0x8000 >;  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:317 */
+				prescaler = < 0x1 >;           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:318 */
 			};
 
-			/* node '/soc/peripheral@50000000/rtc@15000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:321 */
+			/* node '/soc/peripheral@50000000/rtc@15000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:321 */
 			rtc1: rtc@15000 {
-				compatible = "nordic,nrf-rtc"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:322 */
-				reg = < 0x15000 0x1000 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:323 */
-				cc-num = < 0x4 >;              /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:324 */
-				interrupts = < 0x15 0x1 >;     /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:325 */
-				status = "disabled";           /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:326 */
-				clock-frequency = < 0x8000 >;  /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:327 */
-				prescaler = < 0x1 >;           /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:328 */
+				compatible = "nordic,nrf-rtc"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:322 */
+				reg = < 0x15000 0x1000 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:323 */
+				cc-num = < 0x4 >;              /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:324 */
+				interrupts = < 0x15 0x1 >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:325 */
+				status = "disabled";           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:326 */
+				clock-frequency = < 0x8000 >;  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:327 */
+				prescaler = < 0x1 >;           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:328 */
 			};
 
-			/* node '/soc/peripheral@50000000/dppic@17000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:331 */
+			/* node '/soc/peripheral@50000000/dppic@17000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:331 */
 			dppic0: dppic: dppic@17000 {
-				compatible = "nordic,nrf-dppic"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:332 */
-				reg = < 0x17000 0x1000 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:333 */
-				status = "okay";                 /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:334 */
-				channels = < 0x20 >;             /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:335 */
-				groups = < 0x6 >;                /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:336 */
+				compatible = "nordic,nrf-dppic"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:332 */
+				reg = < 0x17000 0x1000 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:333 */
+				status = "okay";                 /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:334 */
+				channels = < 0x20 >;             /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:335 */
+				groups = < 0x6 >;                /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:336 */
 			};
 
-			/* node '/soc/peripheral@50000000/watchdog@18000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:339 */
+			/* node '/soc/peripheral@50000000/watchdog@18000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:339 */
 			wdt: wdt0: watchdog@18000 {
-				compatible = "nordic,nrf-wdt"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:340 */
-				reg = < 0x18000 0x1000 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:341 */
-				interrupts = < 0x18 0x1 >;     /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:342 */
-				status = "okay";               /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:343 */
+				compatible = "nordic,nrf-wdt"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:340 */
+				reg = < 0x18000 0x1000 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:341 */
+				interrupts = < 0x18 0x1 >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:342 */
+				status = "okay";               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:343 */
 			};
 
-			/* node '/soc/peripheral@50000000/watchdog@19000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:346 */
+			/* node '/soc/peripheral@50000000/watchdog@19000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:346 */
 			wdt1: watchdog@19000 {
-				compatible = "nordic,nrf-wdt"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:347 */
-				reg = < 0x19000 0x1000 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:348 */
-				interrupts = < 0x19 0x1 >;     /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:349 */
-				status = "disabled";           /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:350 */
+				compatible = "nordic,nrf-wdt"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:347 */
+				reg = < 0x19000 0x1000 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:348 */
+				interrupts = < 0x19 0x1 >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:349 */
+				status = "disabled";           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:350 */
 			};
 
-			/* node '/soc/peripheral@50000000/comparator@1a000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:353 */
+			/* node '/soc/peripheral@50000000/comparator@1a000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:353 */
 			comp: comparator@1a000 {
-				compatible = "nordic,nrf-comp"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:358 */
-				reg = < 0x1a000 0x1000 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:359 */
-				interrupts = < 0x1a 0x1 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:360 */
-				status = "disabled";            /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:361 */
+				compatible = "nordic,nrf-comp"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:358 */
+				reg = < 0x1a000 0x1000 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:359 */
+				interrupts = < 0x1a 0x1 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:360 */
+				status = "disabled";            /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:361 */
 			};
 
-			/* node '/soc/peripheral@50000000/egu@1b000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:364 */
+			/* node '/soc/peripheral@50000000/egu@1b000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:364 */
 			egu0: egu@1b000 {
-				compatible = "nordic,nrf-egu"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:365 */
-				reg = < 0x1b000 0x1000 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:366 */
-				interrupts = < 0x1b 0x1 >;     /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:367 */
-				status = "okay";               /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:368 */
+				compatible = "nordic,nrf-egu"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:365 */
+				reg = < 0x1b000 0x1000 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:366 */
+				interrupts = < 0x1b 0x1 >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:367 */
+				status = "okay";               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:368 */
 			};
 
-			/* node '/soc/peripheral@50000000/egu@1c000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:371 */
+			/* node '/soc/peripheral@50000000/egu@1c000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:371 */
 			egu1: egu@1c000 {
-				compatible = "nordic,nrf-egu"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:372 */
-				reg = < 0x1c000 0x1000 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:373 */
-				interrupts = < 0x1c 0x1 >;     /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:374 */
-				status = "okay";               /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:375 */
+				compatible = "nordic,nrf-egu"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:372 */
+				reg = < 0x1c000 0x1000 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:373 */
+				interrupts = < 0x1c 0x1 >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:374 */
+				status = "okay";               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:375 */
 			};
 
-			/* node '/soc/peripheral@50000000/egu@1d000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:378 */
+			/* node '/soc/peripheral@50000000/egu@1d000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:378 */
 			egu2: egu@1d000 {
-				compatible = "nordic,nrf-egu"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:379 */
-				reg = < 0x1d000 0x1000 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:380 */
-				interrupts = < 0x1d 0x1 >;     /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:381 */
-				status = "okay";               /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:382 */
+				compatible = "nordic,nrf-egu"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:379 */
+				reg = < 0x1d000 0x1000 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:380 */
+				interrupts = < 0x1d 0x1 >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:381 */
+				status = "okay";               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:382 */
 			};
 
-			/* node '/soc/peripheral@50000000/egu@1e000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:385 */
+			/* node '/soc/peripheral@50000000/egu@1e000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:385 */
 			egu3: egu@1e000 {
-				compatible = "nordic,nrf-egu"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:386 */
-				reg = < 0x1e000 0x1000 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:387 */
-				interrupts = < 0x1e 0x1 >;     /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:388 */
-				status = "okay";               /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:389 */
+				compatible = "nordic,nrf-egu"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:386 */
+				reg = < 0x1e000 0x1000 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:387 */
+				interrupts = < 0x1e 0x1 >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:388 */
+				status = "okay";               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:389 */
 			};
 
-			/* node '/soc/peripheral@50000000/egu@1f000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:392 */
+			/* node '/soc/peripheral@50000000/egu@1f000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:392 */
 			egu4: egu@1f000 {
-				compatible = "nordic,nrf-egu"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:393 */
-				reg = < 0x1f000 0x1000 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:394 */
-				interrupts = < 0x1f 0x1 >;     /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:395 */
-				status = "okay";               /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:396 */
+				compatible = "nordic,nrf-egu"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:393 */
+				reg = < 0x1f000 0x1000 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:394 */
+				interrupts = < 0x1f 0x1 >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:395 */
+				status = "okay";               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:396 */
 			};
 
-			/* node '/soc/peripheral@50000000/egu@20000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:399 */
+			/* node '/soc/peripheral@50000000/egu@20000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:399 */
 			egu5: egu@20000 {
-				compatible = "nordic,nrf-egu"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:400 */
-				reg = < 0x20000 0x1000 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:401 */
-				interrupts = < 0x20 0x1 >;     /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:402 */
-				status = "okay";               /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:403 */
+				compatible = "nordic,nrf-egu"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:400 */
+				reg = < 0x20000 0x1000 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:401 */
+				interrupts = < 0x20 0x1 >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:402 */
+				status = "okay";               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:403 */
 			};
 
-			/* node '/soc/peripheral@50000000/pwm@21000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:406 */
+			/* node '/soc/peripheral@50000000/pwm@21000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:406 */
 			pwm0: pwm@21000 {
-				compatible = "nordic,nrf-pwm"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:407 */
-				reg = < 0x21000 0x1000 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:408 */
-				interrupts = < 0x21 0x1 >;     /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:409 */
-				#pwm-cells = < 0x3 >;          /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:411 */
-				pinctrl-0 = < &pwm0_default >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:112 */
-				pinctrl-1 = < &pwm0_sleep >;   /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:113 */
+				compatible = "nordic,nrf-pwm"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:407 */
+				reg = < 0x21000 0x1000 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:408 */
+				interrupts = < 0x21 0x1 >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:409 */
+				#pwm-cells = < 0x3 >;          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:411 */
+				pinctrl-0 = < &pwm0_default >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:112 */
+				pinctrl-1 = < &pwm0_sleep >;   /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:113 */
 				pinctrl-names = "default",
-				                "sleep";       /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:114 */
+				                "sleep";       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:114 */
 				status = "disabled";           /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:54 */
 			};
 
-			/* node '/soc/peripheral@50000000/pwm@22000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:414 */
+			/* node '/soc/peripheral@50000000/pwm@22000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:414 */
 			pwm1: pwm@22000 {
-				compatible = "nordic,nrf-pwm"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:415 */
-				reg = < 0x22000 0x1000 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:416 */
-				interrupts = < 0x22 0x1 >;     /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:417 */
-				status = "disabled";           /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:418 */
-				#pwm-cells = < 0x3 >;          /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:419 */
+				compatible = "nordic,nrf-pwm"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:415 */
+				reg = < 0x22000 0x1000 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:416 */
+				interrupts = < 0x22 0x1 >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:417 */
+				status = "disabled";           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:418 */
+				#pwm-cells = < 0x3 >;          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:419 */
 			};
 
-			/* node '/soc/peripheral@50000000/pwm@23000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:422 */
+			/* node '/soc/peripheral@50000000/pwm@23000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:422 */
 			pwm2: pwm@23000 {
-				compatible = "nordic,nrf-pwm"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:423 */
-				reg = < 0x23000 0x1000 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:424 */
-				interrupts = < 0x23 0x1 >;     /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:425 */
-				status = "disabled";           /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:426 */
-				#pwm-cells = < 0x3 >;          /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:427 */
+				compatible = "nordic,nrf-pwm"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:423 */
+				reg = < 0x23000 0x1000 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:424 */
+				interrupts = < 0x23 0x1 >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:425 */
+				status = "disabled";           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:426 */
+				#pwm-cells = < 0x3 >;          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:427 */
 			};
 
-			/* node '/soc/peripheral@50000000/pwm@24000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:430 */
+			/* node '/soc/peripheral@50000000/pwm@24000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:430 */
 			pwm3: pwm@24000 {
-				compatible = "nordic,nrf-pwm"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:431 */
-				reg = < 0x24000 0x1000 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:432 */
-				interrupts = < 0x24 0x1 >;     /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:433 */
-				status = "disabled";           /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:434 */
-				#pwm-cells = < 0x3 >;          /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:435 */
+				compatible = "nordic,nrf-pwm"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:431 */
+				reg = < 0x24000 0x1000 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:432 */
+				interrupts = < 0x24 0x1 >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:433 */
+				status = "disabled";           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:434 */
+				#pwm-cells = < 0x3 >;          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:435 */
 			};
 
-			/* node '/soc/peripheral@50000000/pdm@26000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:438 */
+			/* node '/soc/peripheral@50000000/pdm@26000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:438 */
 			pdm0: pdm@26000 {
-				compatible = "nordic,nrf-pdm"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:439 */
-				reg = < 0x26000 0x1000 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:440 */
-				interrupts = < 0x26 0x1 >;     /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:441 */
-				status = "disabled";           /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:442 */
+				compatible = "nordic,nrf-pdm"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:439 */
+				reg = < 0x26000 0x1000 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:440 */
+				interrupts = < 0x26 0x1 >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:441 */
+				status = "disabled";           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:442 */
 			};
 
-			/* node '/soc/peripheral@50000000/i2s@28000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:445 */
+			/* node '/soc/peripheral@50000000/i2s@28000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:445 */
 			i2s0: i2s@28000 {
-				compatible = "nordic,nrf-i2s"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:446 */
-				#address-cells = < 0x1 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:447 */
-				#size-cells = < 0x0 >;         /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:448 */
-				reg = < 0x28000 0x1000 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:449 */
-				interrupts = < 0x28 0x1 >;     /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:450 */
-				status = "disabled";           /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:451 */
+				compatible = "nordic,nrf-i2s"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:446 */
+				#address-cells = < 0x1 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:447 */
+				#size-cells = < 0x0 >;         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:448 */
+				reg = < 0x28000 0x1000 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:449 */
+				interrupts = < 0x28 0x1 >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:450 */
+				status = "disabled";           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:451 */
 			};
 
-			/* node '/soc/peripheral@50000000/mbox@2a000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:454 */
+			/* node '/soc/peripheral@50000000/mbox@2a000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:454 */
 			mbox: ipc: mbox@2a000 {
 				compatible = "nordic,mbox-nrf-ipc",
-				             "nordic,nrf-ipc";      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:455 */
-				reg = < 0x2a000 0x1000 >;           /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:456 */
-				tx-mask = < 0xffff >;               /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:457 */
-				rx-mask = < 0xffff >;               /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:458 */
-				interrupts = < 0x2a 0x1 >;          /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:459 */
-				#mbox-cells = < 0x1 >;              /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:460 */
-				status = "okay";                    /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:461 */
-				phandle = < 0x12 >;                 /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:10 */
+				             "nordic,nrf-ipc";      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:455 */
+				reg = < 0x2a000 0x1000 >;           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:456 */
+				tx-mask = < 0xffff >;               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:457 */
+				rx-mask = < 0xffff >;               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:458 */
+				interrupts = < 0x2a 0x1 >;          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:459 */
+				#mbox-cells = < 0x1 >;              /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:460 */
+				status = "okay";                    /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:461 */
+				phandle = < 0x12 >;                 /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:10 */
 			};
 
-			/* node '/soc/peripheral@50000000/qspi@2b000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:464 */
+			/* node '/soc/peripheral@50000000/qspi@2b000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:464 */
 			qspi: qspi@2b000 {
-				compatible = "nordic,nrf-qspi";  /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:465 */
-				#address-cells = < 0x1 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:466 */
-				#size-cells = < 0x0 >;           /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:467 */
+				compatible = "nordic,nrf-qspi";  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:465 */
+				#address-cells = < 0x1 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:466 */
+				#size-cells = < 0x0 >;           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:467 */
 				reg = < 0x2b000 0x1000 >,
-				      < 0x10000000 0x10000000 >; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:468 */
+				      < 0x10000000 0x10000000 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:468 */
 				reg-names = "qspi",
-				            "qspi_mm";           /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:469 */
-				interrupts = < 0x2b 0x1 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:470 */
-				pinctrl-0 = < &qspi_default >;   /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:119 */
-				pinctrl-1 = < &qspi_sleep >;     /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:120 */
+				            "qspi_mm";           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:469 */
+				interrupts = < 0x2b 0x1 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:470 */
+				pinctrl-0 = < &qspi_default >;   /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:119 */
+				pinctrl-1 = < &qspi_sleep >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:120 */
 				pinctrl-names = "default",
-				                "sleep";         /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:121 */
+				                "sleep";         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:121 */
 				status = "disabled";             /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:55 */
 
-				/* node '/soc/peripheral@50000000/qspi@2b000/mx25r6435f@0' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:123 */
+				/* node '/soc/peripheral@50000000/qspi@2b000/mx25r6435f@0' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:123 */
 				mx25r64: mx25r6435f@0 {
-					compatible = "nordic,qspi-nor";                                                               /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:124 */
-					reg = < 0x0 >;                                                                                /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:125 */
-					writeoc = "pp4io";                                                                            /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:127 */
-					readoc = "read4io";                                                                           /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:129 */
-					sck-frequency = < 0x7a1200 >;                                                                 /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:130 */
-					jedec-id = [ C2 28 17 ];                                                                      /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:131 */
+					compatible = "nordic,qspi-nor";                                                               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:124 */
+					reg = < 0x0 >;                                                                                /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:125 */
+					writeoc = "pp4io";                                                                            /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:127 */
+					readoc = "read4io";                                                                           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:129 */
+					sck-frequency = < 0x7a1200 >;                                                                 /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:130 */
+					jedec-id = [ C2 28 17 ];                                                                      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:131 */
 					sfdp-bfp = [ E5 20 F1 FF FF FF FF 03 44 EB 08 6B 08 3B 04 BB EE FF FF FF FF FF 00 FF FF FF 00
 					             FF 0C 20 0F 52 10 D8 00 FF 23 72 F5 00 82 ED 04 CC 44 83 68 44 30 B0 30 B0 F7 C4
-					             D5 5C 00 BE 29 FF F0 D0 FF FF ];                                                 /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:132 */
-					size = < 0x4000000 >;                                                                         /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:136 */
-					has-dpd;                                                                                      /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:137 */
-					t-enter-dpd = < 0x2710 >;                                                                     /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:138 */
-					t-exit-dpd = < 0x88b8 >;                                                                      /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:139 */
+					             D5 5C 00 BE 29 FF F0 D0 FF FF ];                                                 /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:132 */
+					size = < 0x4000000 >;                                                                         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:136 */
+					has-dpd;                                                                                      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:137 */
+					t-enter-dpd = < 0x2710 >;                                                                     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:138 */
+					t-exit-dpd = < 0x88b8 >;                                                                      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:139 */
 				};
 			};
 
-			/* node '/soc/peripheral@50000000/nfct@2d000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:474 */
+			/* node '/soc/peripheral@50000000/nfct@2d000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:474 */
 			nfct: nfct@2d000 {
-				compatible = "nordic,nrf-nfct"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:475 */
-				reg = < 0x2d000 0x1000 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:476 */
-				interrupts = < 0x2d 0x1 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:477 */
+				compatible = "nordic,nrf-nfct"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:475 */
+				reg = < 0x2d000 0x1000 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:476 */
+				interrupts = < 0x2d 0x1 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:477 */
 				status = "disabled";            /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:52 */
 			};
 
-			/* node '/soc/peripheral@50000000/mutex@30000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:481 */
+			/* node '/soc/peripheral@50000000/mutex@30000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:481 */
 			mutex: mutex@30000 {
-				compatible = "nordic,nrf-mutex"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:482 */
-				reg = < 0x30000 0x1000 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:483 */
-				status = "okay";                 /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:484 */
+				compatible = "nordic,nrf-mutex"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:482 */
+				reg = < 0x30000 0x1000 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:483 */
+				status = "okay";                 /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:484 */
 			};
 
-			/* node '/soc/peripheral@50000000/qdec@33000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:487 */
+			/* node '/soc/peripheral@50000000/qdec@33000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:487 */
 			qdec0: qdec@33000 {
-				compatible = "nordic,nrf-qdec"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:488 */
-				reg = < 0x33000 0x1000 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:489 */
-				interrupts = < 0x33 0x1 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:490 */
-				status = "disabled";            /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:491 */
+				compatible = "nordic,nrf-qdec"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:488 */
+				reg = < 0x33000 0x1000 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:489 */
+				interrupts = < 0x33 0x1 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:490 */
+				status = "disabled";            /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:491 */
 			};
 
-			/* node '/soc/peripheral@50000000/qdec@34000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:494 */
+			/* node '/soc/peripheral@50000000/qdec@34000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:494 */
 			qdec1: qdec@34000 {
-				compatible = "nordic,nrf-qdec"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:495 */
-				reg = < 0x34000 0x1000 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:496 */
-				interrupts = < 0x34 0x1 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:497 */
-				status = "disabled";            /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:498 */
+				compatible = "nordic,nrf-qdec"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:495 */
+				reg = < 0x34000 0x1000 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:496 */
+				interrupts = < 0x34 0x1 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:497 */
+				status = "disabled";            /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:498 */
 			};
 
-			/* node '/soc/peripheral@50000000/usbd@36000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:501 */
+			/* node '/soc/peripheral@50000000/usbd@36000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:501 */
 			usbd: zephyr_udc0: usbd@36000 {
-				reg = < 0x36000 0x1000 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:503 */
-				interrupts = < 0x36 0x1 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:504 */
-				num-bidir-endpoints = < 0x1 >;  /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:505 */
-				num-in-endpoints = < 0x7 >;     /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:506 */
-				num-out-endpoints = < 0x7 >;    /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:507 */
-				num-isoin-endpoints = < 0x1 >;  /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:508 */
-				num-isoout-endpoints = < 0x1 >; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:509 */
-				compatible = "nordic,nrf-usbd"; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:167 */
+				reg = < 0x36000 0x1000 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:503 */
+				interrupts = < 0x36 0x1 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:504 */
+				num-bidir-endpoints = < 0x1 >;  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:505 */
+				num-in-endpoints = < 0x7 >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:506 */
+				num-out-endpoints = < 0x7 >;    /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:507 */
+				num-isoin-endpoints = < 0x1 >;  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:508 */
+				num-isoout-endpoints = < 0x1 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:509 */
+				compatible = "nordic,nrf-usbd"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:167 */
 				status = "disabled";            /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:57 */
 			};
 
-			/* node '/soc/peripheral@50000000/regulator@37000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:513 */
+			/* node '/soc/peripheral@50000000/regulator@37000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:513 */
 			usbreg: regulator@37000 {
-				compatible = "nordic,nrf-usbreg"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:514 */
-				reg = < 0x37000 0x1000 >;         /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:515 */
-				interrupts = < 0x37 0x1 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:516 */
-				status = "okay";                  /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:517 */
+				compatible = "nordic,nrf-usbreg"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:514 */
+				reg = < 0x37000 0x1000 >;         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:515 */
+				interrupts = < 0x37 0x1 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:516 */
+				status = "okay";                  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:517 */
 			};
 
-			/* node '/soc/peripheral@50000000/kmu@39000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:520 */
+			/* node '/soc/peripheral@50000000/kmu@39000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:520 */
 			kmu: kmu@39000 {
-				compatible = "nordic,nrf-kmu"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:521 */
-				reg = < 0x39000 0x1000 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:522 */
-				interrupts = < 0x39 0x1 >;     /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:523 */
-				status = "okay";               /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:524 */
+				compatible = "nordic,nrf-kmu"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:521 */
+				reg = < 0x39000 0x1000 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:522 */
+				interrupts = < 0x39 0x1 >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:523 */
+				status = "okay";               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:524 */
 			};
 
-			/* node '/soc/peripheral@50000000/vmc@81000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:527 */
+			/* node '/soc/peripheral@50000000/vmc@81000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:527 */
 			vmc: vmc@81000 {
-				compatible = "nordic,nrf-vmc"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:528 */
-				reg = < 0x81000 0x1000 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:529 */
-				status = "okay";               /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:530 */
+				compatible = "nordic,nrf-vmc"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:528 */
+				reg = < 0x81000 0x1000 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:529 */
+				status = "okay";               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:530 */
 			};
 
-			/* node '/soc/peripheral@50000000/gpio@842500' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:533 */
+			/* node '/soc/peripheral@50000000/gpio@842500' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:533 */
 			gpio0: gpio@842500 {
-				compatible = "nordic,nrf-gpio"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:534 */
-				gpio-controller;                /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:535 */
-				reg = < 0x842500 0x300 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:536 */
-				#gpio-cells = < 0x2 >;          /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:537 */
-				port = < 0x0 >;                 /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:539 */
-				gpiote-instance = < &gpiote >;  /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:540 */
-				status = "okay";                /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:87 */
-				phandle = < 0x13 >;             /* in zephyr\boards\nordic\nrf5340dk\nrf5340dk_common.dtsi:67 */
+				compatible = "nordic,nrf-gpio"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:534 */
+				gpio-controller;                /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:535 */
+				reg = < 0x842500 0x300 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:536 */
+				#gpio-cells = < 0x2 >;          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:537 */
+				port = < 0x0 >;                 /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:539 */
+				gpiote-instance = < &gpiote >;  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:540 */
+				status = "okay";                /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:87 */
+				phandle = < 0x13 >;             /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340dk_common.dtsi:67 */
 			};
 
-			/* node '/soc/peripheral@50000000/gpio@842800' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:543 */
+			/* node '/soc/peripheral@50000000/gpio@842800' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:543 */
 			gpio1: gpio@842800 {
-				compatible = "nordic,nrf-gpio"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:544 */
-				gpio-controller;                /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:545 */
-				reg = < 0x842800 0x300 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:546 */
-				#gpio-cells = < 0x2 >;          /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:547 */
-				ngpios = < 0x10 >;              /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:548 */
-				port = < 0x1 >;                 /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:550 */
-				gpiote-instance = < &gpiote >;  /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:551 */
-				status = "okay";                /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:91 */
-				phandle = < 0x14 >;             /* in zephyr\boards\nordic\nrf5340dk\nrf5340dk_common.dtsi:67 */
+				compatible = "nordic,nrf-gpio"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:544 */
+				gpio-controller;                /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:545 */
+				reg = < 0x842800 0x300 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:546 */
+				#gpio-cells = < 0x2 >;          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:547 */
+				ngpios = < 0x10 >;              /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:548 */
+				port = < 0x1 >;                 /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:550 */
+				gpiote-instance = < &gpiote >;  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:551 */
+				status = "okay";                /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:91 */
+				phandle = < 0x14 >;             /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340dk_common.dtsi:67 */
 			};
 
-			/* node '/soc/peripheral@50000000/ieee802154' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:554 */
+			/* node '/soc/peripheral@50000000/ieee802154' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:554 */
 			ieee802154: ieee802154 {
-				compatible = "nordic,nrf-ieee802154"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:555 */
+				compatible = "nordic,nrf-ieee802154"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:555 */
 				status = "disabled";                  /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:56 */
 			};
 		};
 
-		/* node '/soc/flash-controller@50039000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:80 */
+		/* node '/soc/flash-controller@50039000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:80 */
 		flash_controller: flash-controller@50039000 {
-			compatible = "nordic,nrf53-flash-controller"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:81 */
-			reg = < 0x50039000 0x1000 >;                  /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:82 */
-			ranges;                                       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:83 */
-			partial-erase;                                /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:84 */
-			#address-cells = < 0x1 >;                     /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:85 */
-			#size-cells = < 0x1 >;                        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:86 */
+			compatible = "nordic,nrf53-flash-controller"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:81 */
+			reg = < 0x50039000 0x1000 >;                  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:82 */
+			ranges;                                       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:83 */
+			partial-erase;                                /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:84 */
+			#address-cells = < 0x1 >;                     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:85 */
+			#size-cells = < 0x1 >;                        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:86 */
 
-			/* node '/soc/flash-controller@50039000/flash@0' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:88 */
+			/* node '/soc/flash-controller@50039000/flash@0' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:88 */
 			flash0: flash@0 {
-				compatible = "soc-nv-flash";   /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:89 */
-				erase-block-size = < 0x1000 >; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:90 */
-				write-block-size = < 0x4 >;    /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:91 */
-				reg = < 0x0 0x100000 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:92 */
-				ranges = < 0x0 0x0 0x100000 >; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:93 */
-				status = "okay";               /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:94 */
-				#address-cells = < 0x1 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:95 */
-				#size-cells = < 0x1 >;         /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:96 */
+				compatible = "soc-nv-flash";   /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:89 */
+				erase-block-size = < 0x1000 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:90 */
+				write-block-size = < 0x4 >;    /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:91 */
+				reg = < 0x0 0x100000 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:92 */
+				ranges = < 0x0 0x0 0x100000 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:93 */
+				status = "okay";               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:94 */
+				#address-cells = < 0x1 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:95 */
+				#size-cells = < 0x1 >;         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:96 */
 
-				/* node '/soc/flash-controller@50039000/flash@0/partitions' defined in zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:11 */
+				/* node '/soc/flash-controller@50039000/flash@0/partitions' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:11 */
 				partitions {
-					ranges;                   /* in zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:12 */
-					#address-cells = < 0x1 >; /* in zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:13 */
-					#size-cells = < 0x1 >;    /* in zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:14 */
+					ranges;                   /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:12 */
+					#address-cells = < 0x1 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:13 */
+					#size-cells = < 0x1 >;    /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:14 */
 
-					/* node '/soc/flash-controller@50039000/flash@0/partitions/partition@0' defined in zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:16 */
+					/* node '/soc/flash-controller@50039000/flash@0/partitions/partition@0' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:16 */
 					boot_partition: partition@0 {
-						compatible = "zephyr,mapped-partition"; /* in zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:17 */
-						label = "mcuboot";                      /* in zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:18 */
-						reg = < 0x0 0x10000 >;                  /* in zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:19 */
+						compatible = "zephyr,mapped-partition"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:17 */
+						label = "mcuboot";                      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:18 */
+						reg = < 0x0 0x10000 >;                  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:19 */
 					};
 
-					/* node '/soc/flash-controller@50039000/flash@0/partitions/partition@10000' defined in zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:22 */
+					/* node '/soc/flash-controller@50039000/flash@0/partitions/partition@10000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:22 */
 					slot0_partition: partition@10000 {
-						compatible = "zephyr,mapped-partition"; /* in zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:23 */
-						label = "image-0";                      /* in zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:24 */
-						reg = < 0x10000 0x74000 >;              /* in zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:25 */
+						compatible = "zephyr,mapped-partition"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:23 */
+						label = "image-0";                      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:24 */
+						reg = < 0x10000 0x74000 >;              /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:25 */
 					};
 
-					/* node '/soc/flash-controller@50039000/flash@0/partitions/partition@84000' defined in zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:28 */
+					/* node '/soc/flash-controller@50039000/flash@0/partitions/partition@84000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:28 */
 					slot1_partition: partition@84000 {
-						compatible = "zephyr,mapped-partition"; /* in zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:29 */
-						label = "image-1";                      /* in zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:30 */
-						reg = < 0x84000 0x74000 >;              /* in zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:31 */
+						compatible = "zephyr,mapped-partition"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:29 */
+						label = "image-1";                      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:30 */
+						reg = < 0x84000 0x74000 >;              /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:31 */
 					};
 
-					/* node '/soc/flash-controller@50039000/flash@0/partitions/partition@f8000' defined in zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:34 */
+					/* node '/soc/flash-controller@50039000/flash@0/partitions/partition@f8000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:34 */
 					storage_partition: partition@f8000 {
-						compatible = "zephyr,mapped-partition"; /* in zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:35 */
-						label = "storage";                      /* in zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:36 */
-						reg = < 0xf8000 0x8000 >;               /* in zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:37 */
+						compatible = "zephyr,mapped-partition"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:35 */
+						label = "storage";                      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:36 */
+						reg = < 0xf8000 0x8000 >;               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf5340_cpuapp_partition.dtsi:37 */
 					};
 				};
 			};
 		};
 
-		/* node '/soc/spu@50003000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:102 */
+		/* node '/soc/spu@50003000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:102 */
 		spu: spu@50003000 {
-			compatible = "nordic,nrf-spu"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:103 */
-			reg = < 0x50003000 0x1000 >;   /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:104 */
-			interrupts = < 0x3 0x1 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:105 */
-			status = "okay";               /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:106 */
+			compatible = "nordic,nrf-spu"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:103 */
+			reg = < 0x50003000 0x1000 >;   /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:104 */
+			interrupts = < 0x3 0x1 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:105 */
+			status = "okay";               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:106 */
 		};
 
-		/* node '/soc/gpiote@5000d000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:114 */
+		/* node '/soc/gpiote@5000d000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:114 */
 		gpiote: gpiote0: gpiote@5000d000 {
-			compatible = "nordic,nrf-gpiote"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:115 */
-			reg = < 0x5000d000 0x1000 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:116 */
-			interrupts = < 0xd 0x5 >;         /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:117 */
-			instance = < 0x0 >;               /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:119 */
+			compatible = "nordic,nrf-gpiote"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:115 */
+			reg = < 0x5000d000 0x1000 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:116 */
+			interrupts = < 0xd 0x5 >;         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:117 */
+			instance = < 0x0 >;               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:119 */
 			status = "disabled";              /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:58 */
-			phandle = < 0xf >;                /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:540 */
+			phandle = < 0xf >;                /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_peripherals.dtsi:540 */
 		};
 
-		/* node '/soc/gpiote@4002f000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:123 */
+		/* node '/soc/gpiote@4002f000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:123 */
 		gpiote1: gpiote@4002f000 {
-			compatible = "nordic,nrf-gpiote"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:124 */
-			reg = < 0x4002f000 0x1000 >;      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:125 */
-			interrupts = < 0x2f 0x5 >;        /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:126 */
-			status = "disabled";              /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:127 */
-			instance = < 0x1 >;               /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:128 */
+			compatible = "nordic,nrf-gpiote"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:124 */
+			reg = < 0x4002f000 0x1000 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:125 */
+			interrupts = < 0x2f 0x5 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:126 */
+			status = "disabled";              /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:127 */
+			instance = < 0x1 >;               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:128 */
 		};
 
-		/* node '/soc/crypto@50844000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:131 */
+		/* node '/soc/crypto@50844000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:131 */
 		cryptocell: crypto@50844000 {
-			compatible = "arm,cryptocell-312"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:132 */
+			compatible = "arm,cryptocell-312"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:132 */
 			reg = < 0x50844000 0x1000 >,
-			      < 0x50845000 0x1000 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:133 */
+			      < 0x50845000 0x1000 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:133 */
 			reg-names = "wrapper",
-			            "core";                /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:134 */
-			interrupts = < 0x44 0x1 >;         /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:135 */
-			status = "okay";                   /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:136 */
+			            "core";                /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:134 */
+			interrupts = < 0x44 0x1 >;         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:135 */
+			status = "okay";                   /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:136 */
 		};
 	};
 
-	/* node '/pin-controller' defined in zephyr\dts\vendor\nordic\nrf_common.dtsi:26 */
+	/* node '/pin-controller' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf_common.dtsi:26 */
 	pinctrl: pin-controller {
-		compatible = "nordic,nrf-pinctrl"; /* in zephyr\dts\vendor\nordic\nrf_common.dtsi:31 */
+		compatible = "nordic,nrf-pinctrl"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf_common.dtsi:31 */
 
-		/* node '/pin-controller/i2c1_default' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:7 */
+		/* node '/pin-controller/i2c1_default' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:7 */
 		i2c1_default: i2c1_default {
-			phandle = < 0x4 >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:97 */
+			phandle = < 0x4 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:97 */
 
-			/* node '/pin-controller/i2c1_default/group1' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:8 */
+			/* node '/pin-controller/i2c1_default/group1' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:8 */
 			group1 {
 				psels = < 0xc000022 >,
-				        < 0xb000023 >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:9 */
+				        < 0xb000023 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:9 */
 			};
 		};
 
-		/* node '/pin-controller/i2c1_sleep' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:14 */
+		/* node '/pin-controller/i2c1_sleep' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:14 */
 		i2c1_sleep: i2c1_sleep {
-			phandle = < 0x5 >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:98 */
+			phandle = < 0x5 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:98 */
 
-			/* node '/pin-controller/i2c1_sleep/group1' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:15 */
+			/* node '/pin-controller/i2c1_sleep/group1' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:15 */
 			group1 {
 				psels = < 0xc000022 >,
-				        < 0xb000023 >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:16 */
-				low-power-enable;      /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:18 */
+				        < 0xb000023 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:16 */
+				low-power-enable;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:18 */
 			};
 		};
 
-		/* node '/pin-controller/uart0_default' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:22 */
+		/* node '/pin-controller/uart0_default' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:22 */
 		uart0_default: uart0_default {
 
-			/* node '/pin-controller/uart0_default/group1' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:23 */
+			/* node '/pin-controller/uart0_default/group1' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:23 */
 			group1 {
 				psels = < 0x14 >,
-				        < 0x2000013 >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:24 */
+				        < 0x2000013 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:24 */
 			};
 
-			/* node '/pin-controller/uart0_default/group2' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:28 */
+			/* node '/pin-controller/uart0_default/group2' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:28 */
 			group2 {
 				psels = < 0x1000016 >,
-				        < 0x3000015 >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:29 */
-				bias-pull-up;          /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:31 */
+				        < 0x3000015 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:29 */
+				bias-pull-up;          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:31 */
 			};
 		};
 
-		/* node '/pin-controller/uart0_sleep' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:35 */
+		/* node '/pin-controller/uart0_sleep' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:35 */
 		uart0_sleep: uart0_sleep {
 
-			/* node '/pin-controller/uart0_sleep/group1' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:36 */
+			/* node '/pin-controller/uart0_sleep/group1' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:36 */
 			group1 {
 				psels = < 0x1000016 >,
 				        < 0x2000013 >,
-				        < 0x3000015 >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:37 */
-				low-power-enable;      /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:40 */
+				        < 0x3000015 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:37 */
+				low-power-enable;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:40 */
 			};
 
-			/* node '/pin-controller/uart0_sleep/group2' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:43 */
+			/* node '/pin-controller/uart0_sleep/group2' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:43 */
 			group2 {
-				psels = < 0x14 >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:44 */
-				low-power-enable; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:45 */
-				bias-pull-up;     /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:46 */
+				psels = < 0x14 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:44 */
+				low-power-enable; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:45 */
+				bias-pull-up;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:46 */
 			};
 		};
 
-		/* node '/pin-controller/pwm0_default' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:50 */
+		/* node '/pin-controller/pwm0_default' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:50 */
 		pwm0_default: pwm0_default {
-			phandle = < 0xb >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:112 */
+			phandle = < 0xb >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:112 */
 
-			/* node '/pin-controller/pwm0_default/group1' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:51 */
+			/* node '/pin-controller/pwm0_default/group1' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:51 */
 			group1 {
-				psels = < 0x1600001c >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:52 */
+				psels = < 0x1600001c >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:52 */
 			};
 		};
 
-		/* node '/pin-controller/pwm0_sleep' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:56 */
+		/* node '/pin-controller/pwm0_sleep' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:56 */
 		pwm0_sleep: pwm0_sleep {
-			phandle = < 0xc >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:113 */
+			phandle = < 0xc >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:113 */
 
-			/* node '/pin-controller/pwm0_sleep/group1' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:57 */
+			/* node '/pin-controller/pwm0_sleep/group1' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:57 */
 			group1 {
-				psels = < 0x1600001c >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:58 */
-				low-power-enable;       /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:59 */
+				psels = < 0x1600001c >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:58 */
+				low-power-enable;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:59 */
 			};
 		};
 
-		/* node '/pin-controller/qspi_default' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:63 */
+		/* node '/pin-controller/qspi_default' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:63 */
 		qspi_default: qspi_default {
-			phandle = < 0xd >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:119 */
+			phandle = < 0xd >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:119 */
 
-			/* node '/pin-controller/qspi_default/group1' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:64 */
+			/* node '/pin-controller/qspi_default/group1' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:64 */
 			group1 {
 				psels = < 0x1d000011 >,
 				        < 0x1f00000d >,
 				        < 0x2000000e >,
 				        < 0x2100000f >,
 				        < 0x22000010 >,
-				        < 0x1e000012 >;      /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:65 */
-				nordic,drive-mode = < 0x3 >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:71 */
+				        < 0x1e000012 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:65 */
+				nordic,drive-mode = < 0x3 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:71 */
 			};
 		};
 
-		/* node '/pin-controller/qspi_sleep' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:75 */
+		/* node '/pin-controller/qspi_sleep' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:75 */
 		qspi_sleep: qspi_sleep {
-			phandle = < 0xe >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:120 */
+			phandle = < 0xe >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:120 */
 
-			/* node '/pin-controller/qspi_sleep/group1' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:76 */
+			/* node '/pin-controller/qspi_sleep/group1' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:76 */
 			group1 {
 				psels = < 0x1d000011 >,
 				        < 0x1f00000d >,
 				        < 0x2000000e >,
 				        < 0x2100000f >,
-				        < 0x22000010 >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:77 */
-				low-power-enable;       /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:82 */
+				        < 0x22000010 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:77 */
+				low-power-enable;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:82 */
 			};
 
-			/* node '/pin-controller/qspi_sleep/group2' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:85 */
+			/* node '/pin-controller/qspi_sleep/group2' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:85 */
 			group2 {
-				psels = < 0x1e000012 >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:86 */
-				low-power-enable;       /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:87 */
-				bias-pull-up;           /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:88 */
+				psels = < 0x1e000012 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:86 */
+				low-power-enable;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:87 */
+				bias-pull-up;           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:88 */
 			};
 		};
 
-		/* node '/pin-controller/uart1_default' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:92 */
+		/* node '/pin-controller/uart1_default' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:92 */
 		uart1_default: uart1_default {
-			phandle = < 0x6 >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:146 */
+			phandle = < 0x6 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:146 */
 
-			/* node '/pin-controller/uart1_default/group1' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:93 */
+			/* node '/pin-controller/uart1_default/group1' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:93 */
 			group1 {
 				psels = < 0x21 >,
-				        < 0x200000b >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:94 */
+				        < 0x200000b >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:94 */
 			};
 
-			/* node '/pin-controller/uart1_default/group2' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:98 */
+			/* node '/pin-controller/uart1_default/group2' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:98 */
 			group2 {
 				psels = < 0x1000020 >,
-				        < 0x300000a >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:99 */
-				bias-pull-up;          /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:101 */
+				        < 0x300000a >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:99 */
+				bias-pull-up;          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:101 */
 			};
 		};
 
-		/* node '/pin-controller/uart1_sleep' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:105 */
+		/* node '/pin-controller/uart1_sleep' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:105 */
 		uart1_sleep: uart1_sleep {
-			phandle = < 0x7 >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:147 */
+			phandle = < 0x7 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:147 */
 
-			/* node '/pin-controller/uart1_sleep/group1' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:106 */
+			/* node '/pin-controller/uart1_sleep/group1' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:106 */
 			group1 {
 				psels = < 0x21 >,
 				        < 0x1000020 >,
 				        < 0x200000b >,
-				        < 0x300000a >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:107 */
-				low-power-enable;      /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:111 */
+				        < 0x300000a >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:107 */
+				low-power-enable;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:111 */
 			};
 		};
 
-		/* node '/pin-controller/spi4_default' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:115 */
+		/* node '/pin-controller/spi4_default' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:115 */
 		spi4_default: spi4_default {
-			phandle = < 0x9 >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:157 */
+			phandle = < 0x9 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:157 */
 
-			/* node '/pin-controller/spi4_default/group1' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:116 */
+			/* node '/pin-controller/spi4_default/group1' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:116 */
 			group1 {
 				psels = < 0x400002f >,
 				        < 0x600002e >,
-				        < 0x500002d >;       /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:117 */
-				nordic,drive-mode = < 0x3 >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:120 */
+				        < 0x500002d >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:117 */
+				nordic,drive-mode = < 0x3 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:120 */
 			};
 		};
 
-		/* node '/pin-controller/spi4_sleep' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:124 */
+		/* node '/pin-controller/spi4_sleep' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:124 */
 		spi4_sleep: spi4_sleep {
-			phandle = < 0xa >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:158 */
+			phandle = < 0xa >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:158 */
 
-			/* node '/pin-controller/spi4_sleep/group1' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:125 */
+			/* node '/pin-controller/spi4_sleep/group1' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:125 */
 			group1 {
 				psels = < 0x400002f >,
 				        < 0x600002e >,
-				        < 0x500002d >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:126 */
-				low-power-enable;      /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:129 */
+				        < 0x500002d >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:126 */
+				low-power-enable;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common-pinctrl.dtsi:129 */
 			};
 		};
 
-		/* node '/pin-controller/ato_uart_default' defined in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:22 */
-		ato_uart_default: ato_uart_default {
+		/* node '/pin-controller/scci_rh_uart_default' defined in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:22 */
+		scci_rh_uart_default: scci_rh_uart_default {
 			phandle = < 0x2 >; /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:35 */
 
-			/* node '/pin-controller/ato_uart_default/group1' defined in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:23 */
+			/* node '/pin-controller/scci_rh_uart_default/group1' defined in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:23 */
 			group1 {
 				psels = < 0x2c >,
 				        < 0x100002d >; /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:23 */
 			};
 		};
 
-		/* node '/pin-controller/ato_uart_sleep' defined in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:25 */
-		ato_uart_sleep: ato_uart_sleep {
+		/* node '/pin-controller/scci_rh_uart_sleep' defined in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:25 */
+		scci_rh_uart_sleep: scci_rh_uart_sleep {
 			phandle = < 0x3 >; /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:36 */
 
-			/* node '/pin-controller/ato_uart_sleep/group1' defined in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:26 */
+			/* node '/pin-controller/scci_rh_uart_sleep/group1' defined in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:26 */
 			group1 {
 				psels = < 0x2c >,
 				        < 0x100002d >; /* in ..\..\..\Project ATO\firmware\nrf5340\app\app.overlay:27 */
@@ -1064,98 +1064,98 @@
 		};
 	};
 
-	/* node '/entropy_bt_hci' defined in zephyr\dts\vendor\nordic\nrf_common.dtsi:34 */
+	/* node '/entropy_bt_hci' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf_common.dtsi:34 */
 	rng_hci: entropy_bt_hci {
-		compatible = "zephyr,bt-hci-entropy"; /* in zephyr\dts\vendor\nordic\nrf_common.dtsi:35 */
-		status = "okay";                      /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:148 */
+		compatible = "zephyr,bt-hci-entropy"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf_common.dtsi:35 */
+		status = "okay";                      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:148 */
 	};
 
-	/* node '/sw-pwm' defined in zephyr\dts\vendor\nordic\nrf_common.dtsi:39 */
+	/* node '/sw-pwm' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf_common.dtsi:39 */
 	sw_pwm: sw-pwm {
-		compatible = "nordic,nrf-sw-pwm"; /* in zephyr\dts\vendor\nordic\nrf_common.dtsi:40 */
-		status = "disabled";              /* in zephyr\dts\vendor\nordic\nrf_common.dtsi:41 */
-		generator = < &timer1 >;          /* in zephyr\dts\vendor\nordic\nrf_common.dtsi:42 */
-		clock-prescaler = < 0x0 >;        /* in zephyr\dts\vendor\nordic\nrf_common.dtsi:43 */
-		#pwm-cells = < 0x3 >;             /* in zephyr\dts\vendor\nordic\nrf_common.dtsi:44 */
+		compatible = "nordic,nrf-sw-pwm"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf_common.dtsi:40 */
+		status = "disabled";              /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf_common.dtsi:41 */
+		generator = < &timer1 >;          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf_common.dtsi:42 */
+		clock-prescaler = < 0x0 >;        /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf_common.dtsi:43 */
+		#pwm-cells = < 0x3 >;             /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\vendor\nordic\nrf_common.dtsi:44 */
 	};
 
-	/* node '/clocks' defined in zephyr\dts\arm\nordic\nrf5340_clocks.dtsi:8 */
+	/* node '/clocks' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_clocks.dtsi:8 */
 	clocks {
 
-		/* node '/clocks/lfxo' defined in zephyr\dts\arm\nordic\nrf5340_clocks.dtsi:9 */
+		/* node '/clocks/lfxo' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_clocks.dtsi:9 */
 		lfxo: lfxo {
-			compatible = "nordic,nrf53-lfxo";     /* in zephyr\dts\arm\nordic\nrf5340_clocks.dtsi:10 */
-			#clock-cells = < 0x0 >;               /* in zephyr\dts\arm\nordic\nrf5340_clocks.dtsi:11 */
-			clock-frequency = < 0x8000 >;         /* in zephyr\dts\arm\nordic\nrf5340_clocks.dtsi:12 */
-			load-capacitors = "internal";         /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:70 */
-			load-capacitance-picofarad = < 0x7 >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:71 */
+			compatible = "nordic,nrf53-lfxo";     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_clocks.dtsi:10 */
+			#clock-cells = < 0x0 >;               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_clocks.dtsi:11 */
+			clock-frequency = < 0x8000 >;         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_clocks.dtsi:12 */
+			load-capacitors = "internal";         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:70 */
+			load-capacitance-picofarad = < 0x7 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:71 */
 		};
 
-		/* node '/clocks/hfxo' defined in zephyr\dts\arm\nordic\nrf5340_clocks.dtsi:15 */
+		/* node '/clocks/hfxo' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_clocks.dtsi:15 */
 		hfxo: hfxo {
-			compatible = "nordic,nrf53-hfxo"; /* in zephyr\dts\arm\nordic\nrf5340_clocks.dtsi:16 */
-			#clock-cells = < 0x0 >;           /* in zephyr\dts\arm\nordic\nrf5340_clocks.dtsi:17 */
-			clock-frequency = < 0x1e84800 >;  /* in zephyr\dts\arm\nordic\nrf5340_clocks.dtsi:18 */
-			startup-time-us = < 0x578 >;      /* in zephyr\dts\arm\nordic\nrf5340_clocks.dtsi:19 */
+			compatible = "nordic,nrf53-hfxo"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_clocks.dtsi:16 */
+			#clock-cells = < 0x0 >;           /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_clocks.dtsi:17 */
+			clock-frequency = < 0x1e84800 >;  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_clocks.dtsi:18 */
+			startup-time-us = < 0x578 >;      /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_clocks.dtsi:19 */
 		};
 	};
 
-	/* node '/cpus' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:13 */
+	/* node '/cpus' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:13 */
 	cpus {
-		#address-cells = < 0x1 >; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:14 */
-		#size-cells = < 0x0 >;    /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:15 */
+		#address-cells = < 0x1 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:14 */
+		#size-cells = < 0x0 >;    /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:15 */
 
-		/* node '/cpus/cpu@0' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:17 */
+		/* node '/cpus/cpu@0' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:17 */
 		cpu0: cpu@0 {
-			device_type = "cpu";            /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:18 */
-			compatible = "arm,cortex-m33f"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:19 */
-			reg = < 0x0 >;                  /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:20 */
-			#address-cells = < 0x1 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:21 */
-			#size-cells = < 0x1 >;          /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:22 */
+			device_type = "cpu";            /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:18 */
+			compatible = "arm,cortex-m33f"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:19 */
+			reg = < 0x0 >;                  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:20 */
+			#address-cells = < 0x1 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:21 */
+			#size-cells = < 0x1 >;          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:22 */
 
-			/* node '/cpus/cpu@0/itm@e0000000' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:24 */
+			/* node '/cpus/cpu@0/itm@e0000000' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:24 */
 			itm: itm@e0000000 {
-				compatible = "arm,armv8m-itm";     /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:25 */
-				reg = < 0xe0000000 0x1000 >;       /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:26 */
-				swo-ref-frequency = < 0x3d09000 >; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:27 */
+				compatible = "arm,armv8m-itm";     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:25 */
+				reg = < 0xe0000000 0x1000 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:26 */
+				swo-ref-frequency = < 0x3d09000 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:27 */
 			};
 
-			/* node '/cpus/cpu@0/mpu@e000ed90' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:30 */
+			/* node '/cpus/cpu@0/mpu@e000ed90' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:30 */
 			mpu: mpu@e000ed90 {
-				compatible = "arm,armv8m-mpu"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:31 */
-				reg = < 0xe000ed90 0x40 >;     /* in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:32 */
+				compatible = "arm,armv8m-mpu"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:31 */
+				reg = < 0xe000ed90 0x40 >;     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:32 */
 			};
 		};
 	};
 
-	/* node '/ipc' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:141 */
+	/* node '/ipc' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp.dtsi:141 */
 	ipc {
 
-		/* node '/ipc/ipc0' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:7 */
+		/* node '/ipc/ipc0' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:7 */
 		ipc0: ipc0 {
-			compatible = "zephyr,ipc-openamp-static-vrings"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:8 */
-			memory-region = < &sram0_shared >;               /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:9 */
+			compatible = "zephyr,ipc-openamp-static-vrings"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:8 */
+			memory-region = < &sram0_shared >;               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:9 */
 			mboxes = < &mbox 0x0 >,
-			         < &mbox 0x1 >;                          /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:10 */
+			         < &mbox 0x1 >;                          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:10 */
 			mbox-names = "tx",
-			             "rx";                               /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:11 */
-			role = "host";                                   /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:12 */
-			status = "okay";                                 /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:13 */
+			             "rx";                               /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:11 */
+			role = "host";                                   /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:12 */
+			status = "okay";                                 /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:13 */
 
-			/* node '/ipc/ipc0/bt_hci_ipc0' defined in zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:15 */
+			/* node '/ipc/ipc0/bt_hci_ipc0' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:15 */
 			bt_hci_ipc0: bt_hci_ipc0 {
-				compatible = "zephyr,bt-hci-ipc"; /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:16 */
-				status = "okay";                  /* in zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:17 */
+				compatible = "zephyr,bt-hci-ipc"; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:16 */
+				status = "okay";                  /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\dts\arm\nordic\nrf5340_cpuapp_ipc.dtsi:17 */
 			};
 		};
 	};
 
-	/* node '/connector' defined in zephyr\boards\nordic\nrf5340dk\nrf5340dk_common.dtsi:62 */
+	/* node '/connector' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340dk_common.dtsi:62 */
 	arduino_header: connector {
-		compatible = "arduino-header-r3";          /* in zephyr\boards\nordic\nrf5340dk\nrf5340dk_common.dtsi:63 */
-		#gpio-cells = < 0x2 >;                     /* in zephyr\boards\nordic\nrf5340dk\nrf5340dk_common.dtsi:64 */
-		gpio-map-mask = < 0xffffffff 0xffffffc0 >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340dk_common.dtsi:65 */
-		gpio-map-pass-thru = < 0x0 0x3f >;         /* in zephyr\boards\nordic\nrf5340dk\nrf5340dk_common.dtsi:66 */
+		compatible = "arduino-header-r3";          /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340dk_common.dtsi:63 */
+		#gpio-cells = < 0x2 >;                     /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340dk_common.dtsi:64 */
+		gpio-map-mask = < 0xffffffff 0xffffffc0 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340dk_common.dtsi:65 */
+		gpio-map-pass-thru = < 0x0 0x3f >;         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340dk_common.dtsi:66 */
 		gpio-map = < 0x0 0x0 &gpio0 0x4 0x0 >,
 		           < 0x1 0x0 &gpio0 0x5 0x0 >,
 		           < 0x2 0x0 &gpio0 0x6 0x0 >,
@@ -1177,19 +1177,19 @@
 		           < 0x12 0x0 &gpio1 0xe 0x0 >,
 		           < 0x13 0x0 &gpio1 0xf 0x0 >,
 		           < 0x14 0x0 &gpio1 0x2 0x0 >,
-		           < 0x15 0x0 &gpio1 0x3 0x0 >;    /* in zephyr\boards\nordic\nrf5340dk\nrf5340dk_common.dtsi:67 */
-		phandle = < 0x8 >;                         /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:156 */
+		           < 0x15 0x0 &gpio1 0x3 0x0 >;    /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340dk_common.dtsi:67 */
+		phandle = < 0x8 >;                         /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:156 */
 	};
 
-	/* node '/analog-connector' defined in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:30 */
+	/* node '/analog-connector' defined in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:30 */
 	arduino_adc: analog-connector {
-		compatible = "arduino,uno-adc";    /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:31 */
-		#io-channel-cells = < 0x1 >;       /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:32 */
+		compatible = "arduino,uno-adc";    /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:31 */
+		#io-channel-cells = < 0x1 >;       /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:32 */
 		io-channel-map = < 0x0 &adc 0x0 >,
 		                 < 0x1 &adc 0x1 >,
 		                 < 0x2 &adc 0x2 >,
 		                 < 0x3 &adc 0x3 >,
 		                 < 0x4 &adc 0x4 >,
-		                 < 0x5 &adc 0x5 >; /* in zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:33 */
+		                 < 0x5 &adc 0x5 >; /* in ..\..\..\ATO-Nordic\ncs\v3.4.1\zephyr\boards\nordic\nrf5340dk\nrf5340_cpuapp_common.dtsi:33 */
 	};
 };

@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "inspector/assets/schematics/SCCI_RH_integrated-monitoring-transport-health.svg",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "d4e9d2392013bccbcdad5d981ad901862e749a8e20fee80d9f4e87d8220a299a",
+  "current_sha256": "3ec84bd6391e663dfcdd8808896f898502e6b3efa4888ffcc18c9147c8427492",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-browser-electronics-regeneration.json",
+      "sha256_lf": "530a98951d2d9dad5c5749ebbe49ec00d7dac1a976a6b4a4e7fa54ef886ec905"
+    }
+  ]
+}

@@ -1,7 +1,12 @@
 # Exact exporter source snapshots
 
-The source snapshot is named by its LF-normalized SHA-256. It preserves the
-actual source used for the first seven board exports before a final review
+The source snapshot retains its original LF-normalized SHA-256 filename. The
+Project SCCI RH name migration changed its project identifiers; the original
+executed bytes remain in the immutable Git baseline. Current receipts bind the
+exact renamed content, which the verifier resolves by its current digest rather
+than treating the historical filename as a current checksum.
+
+The original snapshot records the source used for the first seven board exports before a final review
 strengthened the exporter guard to require current native DRC hashes and exclude
 the separately generated geometry receipt. It is evidence, not another entry
 point to run. Use the current `export_boards.py` for future exports.

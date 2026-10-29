@@ -7,7 +7,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 HERE=Path(__file__).resolve().parent
 data=json.loads((HERE/"parasitic-results.json").read_text(encoding="utf-8"))
-plt.rcParams.update({"font.family":"DejaVu Sans","font.size":10,"axes.spines.top":False,"axes.spines.right":False,"svg.hashsalt":"ato-router-20261013"})
+plt.rcParams.update({"font.family":"DejaVu Sans","font.size":10,"axes.spines.top":False,"axes.spines.right":False,"svg.hashsalt":"scci_rh-router-20261013"})
 fig,axs=plt.subplots(1,2,figsize=(11,4.6),layout="constrained")
 with np.load(HERE/"parasitic-traces.npz") as traces:
     for pattern,label in (("aligned","Aligned edges"),("opposed_matched","Opposed / matched"),("opposed_asymmetric","Opposed / unequal"),("staggered","Staggered")):
@@ -25,7 +25,7 @@ axs[1].set_xticks(xs,["1 nF","100 nF","2 microfarads"])
 axs[1].set(xlabel="Assumed contact-to-body capacitance",ylabel="Peak unselected voltage (mV)",title="Contact impedance changes the consequence")
 axs[1].legend(fontsize=8)
 for ax in axs:ax.grid(axis="y",alpha=.15)
-fig.suptitle("ATO routing study - assumed mutual capacitance; no tissue or switch-fault validation",fontsize=12)
+fig.suptitle("SCCI_RH routing study - assumed mutual capacitance; no tissue or switch-fault validation",fontsize=12)
 fig.savefig(HERE/"router-parasitics.png",dpi=180)
 fig.savefig(HERE/"router-parasitics.svg",metadata={"Date":None})
 svg=HERE/"router-parasitics.svg"

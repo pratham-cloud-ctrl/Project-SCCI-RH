@@ -12,21 +12,21 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'src'))
-from ato.stage3 import motor
-from ato.stage3.dynamic_response import ProspectiveDose, response_model_from_record
-from ato.stage3.isolated_pilot import (ARMS, ACTION_DOMAINS, PILOT_CONTEXT_ID, IsolatedPilotSpec, config,
+from scci_rh.stage3 import motor
+from scci_rh.stage3.dynamic_response import ProspectiveDose, response_model_from_record
+from scci_rh.stage3.isolated_pilot import (ARMS, ACTION_DOMAINS, PILOT_CONTEXT_ID, IsolatedPilotSpec, config,
     generate_unassisted, aggregate_context, run_trial, reference_from_library)
-from ato.stage3.sparse_baseline import fit_unassisted_baseline, validate_zero_future_recording
+from scci_rh.stage3.sparse_baseline import fit_unassisted_baseline, validate_zero_future_recording
 from artifact_hashes import canonical_json_digest
 from run_stage3_studies import close_nested
 
 OUT = ROOT/'results/stage3/isolated-pilot'
 SPEC = IsolatedPilotSpec()
-SOURCE_PATHS = ('src/ato/stage3/isolated_pilot.py', 'scripts/stage3_isolated_pilot_study.py',
-    'src/ato/stage3/motor.py', 'src/ato/stage3/electrical.py',
-    'src/ato/stage3/dynamic_response.py', 'src/ato/stage3/sparse_baseline.py',
-    'src/ato/stage3/cue_policy.py', 'src/ato/stage3/assisted_prediction.py',
-    'src/ato/stage3/residual_guard.py', 'src/ato/stage3/teacher_library.py', 'scripts/artifact_hashes.py')
+SOURCE_PATHS = ('src/scci_rh/stage3/isolated_pilot.py', 'scripts/stage3_isolated_pilot_study.py',
+    'src/scci_rh/stage3/motor.py', 'src/scci_rh/stage3/electrical.py',
+    'src/scci_rh/stage3/dynamic_response.py', 'src/scci_rh/stage3/sparse_baseline.py',
+    'src/scci_rh/stage3/cue_policy.py', 'src/scci_rh/stage3/assisted_prediction.py',
+    'src/scci_rh/stage3/residual_guard.py', 'src/scci_rh/stage3/teacher_library.py', 'scripts/artifact_hashes.py')
 INPUTS = ('results/stage3/dynamic-response/dynamic-response-summary.json',
           'results/stage3/resolved-teacher/summary.json')
 
@@ -139,7 +139,7 @@ def pilot_experiment():
     if source_hashes() != identity: raise ValueError('Pilot source changed during generation')
     _, _, _, _, final_bindings = load_inputs()
     if final_bindings != bindings: raise ValueError('Frozen input changed during generation')
-    return {'schema': 'ato.stage3.isolated-pilot.v1', 'date': '2026-10-12',
+    return {'schema': 'scci_rh.stage3.isolated-pilot.v1', 'date': '2026-10-12',
         'source_sha256': identity, 'inputs': bindings, 'specification': asdict(SPEC), 'body_config': asdict(config()),
         'baseline': {'model': baseline, 'training_recording': training_raw, 'withheld_captures': captures,
             'independent_validation': validations, 'runtime_observed_context': aggregate},
@@ -179,7 +179,7 @@ def compact_summary(raw, *, raw_name, raw_sha):
             rows[label+'_trajectory_rmse_difference_vs_observe_m'] = (
                 assessment['metrics']['trajectory_rmse_m']-reference['assessments'][label]['metrics']['trajectory_rmse_m'])
         runs.append(rows)
-    return {'schema': 'ato.stage3.isolated-pilot-summary.v1', 'date': raw['date'],
+    return {'schema': 'scci_rh.stage3.isolated-pilot-summary.v1', 'date': raw['date'],
         'source_sha256': raw['source_sha256'],
         'inputs': raw['inputs'], 'specification': raw['specification'], 'scope': raw['scope'],
         'raw': {'path': raw_name, 'sha256': raw_sha, 'hash_scope': 'exact deterministic gzip bytes'},

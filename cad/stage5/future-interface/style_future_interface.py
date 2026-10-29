@@ -12,13 +12,13 @@ from pivy import coin
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
-import ato_future_features
+import scci_rh_future_features
 
 
 def style():
     rows = []
-    for filename, exploded in [('ATO_future_interface.FCStd', False),
-                               ('ATO_future_interface_exploded.FCStd', True)]:
+    for filename, exploded in [('SCCI_RH_future_interface.FCStd', False),
+                               ('SCCI_RH_future_interface_exploded.FCStd', True)]:
         path = HERE/filename
         existing = [d for d in App.listDocuments().values()
                     if d.FileName and Path(d.FileName).resolve() == path.resolve()]

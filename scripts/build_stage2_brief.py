@@ -16,12 +16,12 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image, Tabl
 
 ROOT=Path(__file__).resolve().parents[1]
 FIG=ROOT/'docs/stage2/figures'
-OUT=ROOT/'output/pdf/ATO_stage2_architecture_budgets.pdf'
+OUT=ROOT/'output/pdf/SCCI_RH_stage2_architecture_budgets.pdf'
 D=json.loads((ROOT/'docs/stage2/system-design.json').read_text(encoding='utf-8'))
 B=json.loads((ROOT/'results/stage2/budget-summary.json').read_text(encoding='utf-8'))
 INK='#15293D'; BLUE='#225B86'; TEAL='#12756D'; AMBER='#AD671C'; RED='#A54242'; GRAY='#627485'
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'axes.spines.top':False,
-    'axes.spines.right':False,'axes.labelcolor':INK,'text.color':INK,'svg.fonttype':'none','svg.hashsalt':'ATO-STAGE2'})
+    'axes.spines.right':False,'axes.labelcolor':INK,'text.color':INK,'svg.fonttype':'none','svg.hashsalt':'SCCI_RH-STAGE2'})
 
 
 def typography(text):
@@ -31,7 +31,7 @@ def typography(text):
         s=fragments[i]
         protected={}
         def part_number(match):
-            token='ATOPART'+'Z'*(len(protected)+1)+'_END'
+            token='SCCIRHPART'+'Z'*(len(protected)+1)+'_END'
             protected[token]=match.group(0)
             return token
         s=re.sub(r'\b(?:RHD\d+|nRF\d+|ADS\d+|LT\d+|SPIM\d+)\b',part_number,s)
@@ -152,12 +152,12 @@ def figures():
 
 def brief():
     font=Path(matplotlib.get_data_path())/'fonts/ttf'
-    pdfmetrics.registerFont(TTFont('ATO2',str(font/'DejaVuSans.ttf')))
-    pdfmetrics.registerFont(TTFont('ATO2Bold',str(font/'DejaVuSans-Bold.ttf')))
-    pdfmetrics.registerFontFamily('ATO2',normal='ATO2',bold='ATO2Bold',italic='ATO2',boldItalic='ATO2Bold')
-    body=ParagraphStyle('body',fontName='ATO2',fontSize=10,leading=14.5,textColor=colors.HexColor(INK),spaceAfter=9)
-    heading=ParagraphStyle('heading',parent=body,fontName='ATO2Bold',fontSize=22,leading=28,spaceAfter=15)
-    sub=ParagraphStyle('sub',parent=body,fontName='ATO2Bold',fontSize=12,leading=17,spaceBefore=7)
+    pdfmetrics.registerFont(TTFont('SCCIRH2',str(font/'DejaVuSans.ttf')))
+    pdfmetrics.registerFont(TTFont('SCCIRH2Bold',str(font/'DejaVuSans-Bold.ttf')))
+    pdfmetrics.registerFontFamily('SCCIRH2',normal='SCCIRH2',bold='SCCIRH2Bold',italic='SCCIRH2',boldItalic='SCCIRH2Bold')
+    body=ParagraphStyle('body',fontName='SCCIRH2',fontSize=10,leading=14.5,textColor=colors.HexColor(INK),spaceAfter=9)
+    heading=ParagraphStyle('heading',parent=body,fontName='SCCIRH2Bold',fontSize=22,leading=28,spaceAfter=15)
+    sub=ParagraphStyle('sub',parent=body,fontName='SCCIRH2Bold',fontSize=12,leading=17,spaceBefore=7)
     small=ParagraphStyle('small',parent=body,fontSize=8.5,leading=11.5)
     story=[]
     def p(text,style=body):story.append(Paragraph(typography(text),style))
@@ -177,11 +177,11 @@ def brief():
         story.append(tab);story.append(Spacer(1,9))
     def page():story.append(PageBreak())
 
-    p('PROJECT ATO / DESIGN DOSSIER 02',sub)
+    p('PROJECT SCCI RH / DESIGN DOSSIER 02',sub)
     h('A quantitative architecture\nfor invasive spinal interfaces')
     p('Selected resources, timing, output limits and physical allocations',sub)
     p('8 October 2026 · Entirely digital · Proposed system under development')
-    p('ATO links spinal recording, causal interpretation, learner-specific stimulation and feedback. '
+    p('SCCI_RH links spinal recording, causal interpretation, learner-specific stimulation and feedback. '
       'This dossier gives the proposed implant a finite resource architecture. It preserves both '
       'expert-informed motor practice and selected physiological automation.')
     table([['Reference configuration','Causal purpose'],
@@ -198,7 +198,7 @@ def brief():
       'human neural observability, retained-learning benefit, safe electrode chemistry, complete '
       'circuits, populated implant CAD or chronic qualification.')
     p('AstroSam / Mind-Link is credited for the future-concept-to-inspectable-design approach. '
-      'The SCCI mechanism, source audit, limits and engineering work are Project ATO contributions.',small)
+      'The SCCI mechanism, source audit, limits and engineering work are Project SCCI RH contributions.',small)
     page()
 
     h('01 / Recording and computation')
@@ -246,7 +246,7 @@ def brief():
         ['48V rail /40V usable terminal','4V pair-polarization reserve:20mA through2kΩ needs44V and fails'],
         ['Independent ADS7953 monitor','450ksample/s;16MHz separate SPI;49.5% occupancy with chosen overhead'],
         ['Effective HV reservoir33µF','Two20mA/500µs symmetric pulses:40µC draw,1.212V droop']], [190,285])
-    p('The waveform is an ATO symmetric active biphasic choice with100µs interphase. '
+    p('The waveform is an SCCI_RH symmetric active biphasic choice with100µs interphase. '
       'Matching a study pulse-width number does not prove equivalent recruitment or recharge. '
       'Equal commands are insufficient: integrate actual phase current and include clipping/faults.')
     p('Charge density is a geometric quantity, not a safe threshold. At6mm²,6µC gives100µC/cm² '
@@ -328,12 +328,12 @@ def brief():
         ('Leung etal.2015: in-vivo charge injection','https://doi.org/10.1109/TBME.2014.2366514')]
     for label,url in refs:p(f'<link href="{url}" color="{BLUE}">{label}</link>',small)
     def footer(canvas,doc):
-        canvas.saveState();canvas.setFont('ATO2',8);canvas.setFillColor(colors.HexColor(GRAY))
-        canvas.drawString(48,27,'PROJECT ATO / STAGE 2 / ANALYTICAL DESIGN PROPOSAL')
+        canvas.saveState();canvas.setFont('SCCIRH2',8);canvas.setFillColor(colors.HexColor(GRAY))
+        canvas.drawString(48,27,'PROJECT SCCI RH / STAGE 2 / ANALYTICAL DESIGN PROPOSAL')
         canvas.drawRightString(547,27,f'{doc.page} / 8');canvas.restoreState()
     OUT.parent.mkdir(parents=True,exist_ok=True)
     doc=SimpleDocTemplate(str(OUT),pagesize=(595.28,841.89),rightMargin=60,leftMargin=60,
-        topMargin=48,bottomMargin=48,title='Project ATO - Stage2 quantitative architecture',author='Project ATO')
+        topMargin=48,bottomMargin=48,title='Project SCCI RH - Stage2 quantitative architecture',author='Project SCCI RH')
     doc.build(story,onFirstPage=footer,onLaterPages=footer)
     print('Built Stage2 figures and illustrated analytical design brief')
 

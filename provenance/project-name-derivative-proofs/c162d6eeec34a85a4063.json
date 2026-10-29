@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "inspector/pcb/current-driver.html",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "262b9a90f6748916e5c46e551642db9d1df4c18fcc52b0d8d226ea02b69e3d73",
+  "current_sha256": "8f74c6ff5a40cffce9385be7419ebabd62b1df430ab7ae2c9ee6f17287353ab3",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-browser-electronics-regeneration.json",
+      "sha256_lf": "530a98951d2d9dad5c5749ebbe49ec00d7dac1a976a6b4a4e7fa54ef886ec905"
+    }
+  ]
+}

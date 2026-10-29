@@ -1,4 +1,4 @@
-# Evidence review for the integrated Project ATO manuscript
+# Evidence review for the integrated Project SCCI RH manuscript
 
 **Last primary-source verification: 16 October 2026.** This is a focused
 narrative audit of 17 original research reports and the official Mind-Link
@@ -20,10 +20,10 @@ The proposed chain is coherent enough to design conditionally: acquire useful
 spinal observations, infer a selected task or physiological state, choose an
 individualized intervention, stimulate reachable circuitry, observe delivered
 action and functional response, and update the policy. Published work supports
-separate links in that chain. It does not establish the complete ATO system or
+separate links in that chain. It does not establish the complete SCCI_RH system or
 its healthy-consumer benefits.
 
-ATO may assume undemonstrated but defensible links. Each assumption must name
+SCCI_RH may assume undemonstrated but defensible links. Each assumption must name
 the required information or biological authority, its consequences, and a case
 in which it fails. A premise need not be experimentally established before a
 digital concept is engineered. Conversely, an attractive CAD model, a target
@@ -38,7 +38,7 @@ additional implanted clinical participants. Papers in a research programme may
 share participants; their counts are not pooled into a larger independent
 cohort.
 
-| ID | Primary report and relevant evidence | Boundary carried into ATO |
+| ID | Primary report and relevant evidence | Boundary carried into SCCI_RH |
 | --- | --- | --- |
 | R01 | [El Hadwe et al., 2026](https://doi.org/10.1038/s41467-026-75128-z): short-term circumferential spinal recordings in rats; five-animal movement-decoding subset. | Pooled offline bidirectional reconstruction is not prospective human intent decoding or an expert-skill library. |
 | R02 | [Fan et al., 2023](https://doi.org/10.1002/advs.202303377): penetrating mouse ventral-horn recording over nine weeks; separate two-mouse movement decoding. | Penetrating recording results do not validate a nonpenetrating human lead or indefinite stability. |
@@ -72,7 +72,7 @@ external blood pressure. Spinal recording is a separate proposed source of
 context or recruitment information. Calling the common platform bidirectional
 does not require falsely relabelling the pressure measurement as neural.
 
-## Mechanisms and assumptions used by ATO
+## Mechanisms and assumptions used by SCCI_RH
 
 For motor practice, the expert supplies a task-conditioned representation of
 successful timing or coordination. Learner calibration maps that reference to
@@ -101,7 +101,7 @@ The [Stage 3 physiology review](../stage3/conditional-concept/physiology-evidenc
 sets out these assumptions and the distinction between external BP feedback,
 optional ECAP-like recruitment feedback, and a still-unestablished spinal
 pressure-state decoder. The bladder report is a useful expansion example,
-without making it an implemented ATO control mode. Other bodily functions need
+without making it an implemented SCCI_RH control mode. Other bodily functions need
 their own accessible pathways, measured state and finite operating conditions.
 
 For both branches, the sign of a task correction does not establish neural
@@ -147,7 +147,7 @@ volume proves those problems solved.
 R01 Figure 5 describes a 21.29% baseline as uniform random classification across
 eight classes. Uniform random chance would be 12.5%; 21.29% instead matches the
 listed largest class fraction, 215/1010. This is a source wording/analysis item
-needing clarification. ATO does not adopt that baseline, extrapolate the
+needing clarification. SCCI_RH does not adopt that baseline, extrapolate the
 headline decoding result to human prospective control, or claim a reanalysis of
 the dataset. The useful precedent here is spinal information acquisition.
 
@@ -170,7 +170,7 @@ labelled as such rather than used to invent day-level precision.
 This focused audit does not reverify every broader indication in the original
 paper. Sexual function, cough, bowel outcomes, sensory restoration and additional
 clinical motor indications remain in the preserved source map; none is silently
-promoted into an implemented or validated ATO capability.
+promoted into an implemented or validated SCCI_RH capability.
 
 ## AstroSam credit and contribution boundary
 
@@ -189,7 +189,7 @@ account of the ideal biological-interface assumption is contextual information,
 not fresh experimental evidence. Repository files do not establish functional
 implanted human interfacing.
 
-ATO's contribution is its own conditional SCCI mechanisms, explicit information
+SCCI_RH's contribution is its own conditional SCCI mechanisms, explicit information
 and actuation assumptions, finite synthetic studies and counterexamples,
 inspectable reference electronics/firmware, mechanical integration and traceable
 engineering evidence. Published biological results remain the work of their

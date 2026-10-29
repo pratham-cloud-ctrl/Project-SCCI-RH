@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "a4375223084c3debeb29b1dc566e067f169c7b941056b1e057b9ce91595e3d04",
+  "current_sha256": "f6bcd0781aa96807f7a8b05d1f8e0f3965a98f533ebe460122aa8ee6ae19e370",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-pdf-review.json",
+      "sha256_lf": "fdfd82c10d8fb18128ab61a3f8152ef3783bc9d386d365743d9ec1b2cf845c33"
+    }
+  ]
+}

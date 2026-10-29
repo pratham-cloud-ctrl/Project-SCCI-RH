@@ -3,10 +3,10 @@ from dataclasses import fields, replace
 import unittest
 import numpy as np
 
-from ato.stage3.motor import MotorConfig, Observation, StateEstimate, LearnerMap, ExpertRepresentation, _capture, calibrate
-from ato.stage3.acquisition import NeuralFeatures
-from ato.stage3.electrical import MotorDelivery
-from ato.stage3.cue_policy import (CueConfig, CueCommand, CuePolicy, CueFrameScheduler,
+from scci_rh.stage3.motor import MotorConfig, Observation, StateEstimate, LearnerMap, ExpertRepresentation, _capture, calibrate
+from scci_rh.stage3.acquisition import NeuralFeatures
+from scci_rh.stage3.electrical import MotorDelivery
+from scci_rh.stage3.cue_policy import (CueConfig, CueCommand, CuePolicy, CueFrameScheduler,
                                   fit_known_cue_forecast, validate_forecast_context)
 
 

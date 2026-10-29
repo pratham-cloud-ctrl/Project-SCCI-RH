@@ -21,7 +21,7 @@ from scipy.integrate import solve_ivp
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
-from ato.stage3 import motor  # noqa: E402
+from scci_rh.stage3 import motor  # noqa: E402
 
 STEPS = (.005, .0025, .00125, .000625)
 BUDGETS = {"maximum_position_difference_m": .00015,
@@ -286,14 +286,18 @@ def compare_closed(a, b):
 
 
 def coarse_baseline_witness():
+    if str(ROOT/'scripts') not in sys.path:
+        sys.path.insert(0,str(ROOT/'scripts'))
+    from project_branding import historical_bytes, rename_text
     try:
-        source = subprocess.check_output(["git", "show", FROZEN_COMMIT+":src/ato/stage3/motor.py"],
-                                         cwd=ROOT, text=True)
+        source = historical_bytes(ROOT, FROZEN_COMMIT, "src/scci_rh/stage3/motor.py").decode('utf-8')
     except subprocess.CalledProcessError:
         return {"status": "SKIP_FROZEN_GIT_OBJECT_UNAVAILABLE", "commit": FROZEN_COMMIT}
-    module = types.ModuleType("ato.stage3._frozen_convergence_baseline")
-    module.__package__ = "ato.stage3"; sys.modules[module.__name__] = module
-    exec(compile(source, "frozen_526b854_motor.py", "exec"), module.__dict__)
+    module = types.ModuleType("scci_rh.stage3._frozen_convergence_baseline")
+    module.__package__ = "scci_rh.stage3"; sys.modules[module.__name__] = module
+    # Resolve the actual immutable Git path, then migrate namespace references
+    # in memory. Equations, constants and frozen numeric observations stay exact.
+    exec(compile(rename_text(source), "frozen_526b854_motor.py", "exec"), module.__dict__)
     rows = []
     for family in motor.FAMILIES:
         old = module._World(3, module.MotorConfig()); new = motor._World(3, motor.MotorConfig())
@@ -369,10 +373,10 @@ def run_probe(include_closed=True):
             and row["changed_policy_reasons"] == 0 and row["changed_neural_validity"] == 0
             and row["changed_estimate_source"] == 0 and row["pulse_events_equal"]
             for row in selected_pair["rows"])
-    return {"schema": "ato.stage3.motor-convergence.v1", "status": "bounded_numerical_diagnostic",
-        "source_identity": {"motor.py": source_hash(ROOT/"src/ato/stage3/motor.py"),
-                            "acquisition.py": source_hash(ROOT/"src/ato/stage3/acquisition.py"),
-                            "external_history.py": source_hash(ROOT/"src/ato/stage3/external_history.py"),
+    return {"schema": "scci_rh.stage3.motor-convergence.v1", "status": "bounded_numerical_diagnostic",
+        "source_identity": {"motor.py": source_hash(ROOT/"src/scci_rh/stage3/motor.py"),
+                            "acquisition.py": source_hash(ROOT/"src/scci_rh/stage3/acquisition.py"),
+                            "external_history.py": source_hash(ROOT/"src/scci_rh/stage3/external_history.py"),
                             "stage3_motor_convergence.py": source_hash(Path(__file__))},
         "experiment": {"seed": 3, "closed_loop_seed": 2, "steps_s": list(STEPS),
             "fixed_input_duration_s": 3., "fixed_input_schedule": SCHEDULE,
@@ -407,7 +411,7 @@ def summary(receipt, raw_name, raw_hash):
     keys = ("schema", "status", "source_identity", "experiment", "coarse_baseline",
             "closed_loop_comparisons", "production_recommendation", "remaining")
     selected = {key: receipt[key] for key in keys}
-    selected["schema"] = "ato.stage3.motor-convergence-summary.v1"
+    selected["schema"] = "scci_rh.stage3.motor-convergence-summary.v1"
     selected["raw_witness"] = {"path": raw_name, "sha256": raw_hash,
                                "format": "deterministic gzip UTF8JSON; all fixed5ms trajectories and RNG receipts retained"}
     selected["fixed_input_cases"] = [{key: case[key] for key in (

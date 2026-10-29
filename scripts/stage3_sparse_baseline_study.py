@@ -12,9 +12,9 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path[:0] = [str(ROOT/'src'), str(ROOT/'scripts')]
-from ato.stage3.dynamic_response import (ResponsePosition, CompletedDose, FutureResponseFrame,
+from scci_rh.stage3.dynamic_response import (ResponsePosition, CompletedDose, FutureResponseFrame,
                                         response_model_from_record)
-from ato.stage3.sparse_baseline import (SparseBaselineSpec, fit_unassisted_baseline,
+from scci_rh.stage3.sparse_baseline import (SparseBaselineSpec, fit_unassisted_baseline,
                                        validate_zero_future_recording)
 from stage3_dynamic_response_study import capture, schedule
 from run_stage3_studies import close_nested
@@ -22,9 +22,9 @@ from artifact_hashes import canonical_json_digest
 
 INPUT = ROOT/'results/stage3/dynamic-response'
 OUT = ROOT/'results/stage3/sparse-baseline'
-SOURCES = ('src/ato/stage3/sparse_baseline.py', 'src/ato/stage3/dynamic_response.py',
-    'src/ato/stage3/cue_policy.py', 'src/ato/stage3/motor.py', 'src/ato/stage3/source_sensitivity.py',
-    'src/ato/stage3/electrical.py', 'scripts/stage3_dynamic_response_study.py',
+SOURCES = ('src/scci_rh/stage3/sparse_baseline.py', 'src/scci_rh/stage3/dynamic_response.py',
+    'src/scci_rh/stage3/cue_policy.py', 'src/scci_rh/stage3/motor.py', 'src/scci_rh/stage3/source_sensitivity.py',
+    'src/scci_rh/stage3/electrical.py', 'scripts/stage3_dynamic_response_study.py',
     'scripts/stage3_sparse_baseline_study.py', 'scripts/artifact_hashes.py')
 
 
@@ -103,7 +103,7 @@ def experiment():
                 for x, y in zip(ca['horizons'], cb['horizons']) if x['empirical_error_allocation_m'] is not None
                 and y['empirical_error_allocation_m'] is not None), default=0.)})
     if source_hashes() != identity: raise AssertionError('Source changed during zero-future study')
-    return {'schema': 'ato.stage3.sparse-baseline-study.v1', 'date': '2026-10-09', 'source_identity': identity,
+    return {'schema': 'scci_rh.stage3.sparse-baseline-study.v1', 'date': '2026-10-09', 'source_identity': identity,
         'qualification_scope_revision': {'date': '2026-10-12',
             'original_numerical_protocol_date': '2026-10-09',
             'change': 'bind qualified runtime calls to eligible5msphysical support and complete past action prefixes',

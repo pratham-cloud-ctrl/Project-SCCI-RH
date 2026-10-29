@@ -15,11 +15,11 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
-from ato.stage3.response_validation import DomainSpec, run_response_study  # noqa: E402
+from scci_rh.stage3.response_validation import DomainSpec, run_response_study  # noqa: E402
 
-SOURCE_PATHS = ("src/ato/stage3/response_validation.py", "src/ato/stage3/motor.py",
-                "src/ato/stage3/acquisition.py", "src/ato/stage3/electrical.py",
-                "src/ato/stage3/external_history.py", "scripts/stage3_response_validation.py")
+SOURCE_PATHS = ("src/scci_rh/stage3/response_validation.py", "src/scci_rh/stage3/motor.py",
+                "src/scci_rh/stage3/acquisition.py", "src/scci_rh/stage3/electrical.py",
+                "src/scci_rh/stage3/external_history.py", "scripts/stage3_response_validation.py")
 RTOL, ATOL = 2e-8, 1e-11
 BRANCHES = ("conditional_fast_assumed_delivery", "actual_nominal_delivery")
 VARIANTS = ("nominal", "no_authority", "cross_route_adverse")
@@ -48,7 +48,7 @@ def run_batch(jobs=1, scope="full"):
             studies = list(pool.map(run_case, tasks))
     if source_identity() != initial_sources:
         raise AssertionError("Model source changed during the response-domain experiment")
-    return {"schema": "ato.stage3.response-domain-batch.v1", "scope": scope,
+    return {"schema": "scci_rh.stage3.response-domain-batch.v1", "scope": scope,
             "source_identity": initial_sources,
             "specification": {"fixed_profile": "3mA,200us/phase,24V,40Hz; whole-frame density selection",
                               "densities": [.25, .5, 1.], "seeds": list(range(4)) if scope == "full" else [0],
@@ -81,7 +81,7 @@ def readable_summary(batch):
                         "existing_calibration_map": study["existing_calibration_anchor"]["response_map"],
                         "observed_four_route_map": study["response_map"],
                         "summary": study["summary"], "finite_cases": cases})
-    return {"schema": "ato.stage3.response-domain-summary.v1", "scope": batch["scope"],
+    return {"schema": "scci_rh.stage3.response-domain-summary.v1", "scope": batch["scope"],
             "source_identity": batch["source_identity"], "specification": batch["specification"],
             "reproduction": batch["reproduction"],
             "batch_summary": {

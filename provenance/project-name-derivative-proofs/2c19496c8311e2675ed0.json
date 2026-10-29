@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/monitoring-transport/monitoring_transport.pdf",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "526c9f8094aba5d9270ca99fcab830cfdd37210e47295f85b6dcaa03f335c519",
+  "current_sha256": "ae659e247ca9cd8701ecf358067c66cfb4d18d8ebc4b53e6633b81165e33e0e5",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-pdf-review.json",
+      "sha256_lf": "fdfd82c10d8fb18128ab61a3f8152ef3783bc9d386d365743d9ec1b2cf845c33"
+    }
+  ]
+}

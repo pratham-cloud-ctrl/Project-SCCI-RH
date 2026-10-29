@@ -1,6 +1,6 @@
 # Architecture and interfaces
 
-## Two layers of ATO
+## Two layers of SCCI_RH
 
 **Future implanted concept:** intradural surface spinal measurement; separate epidural stimulation; optional external movement and arterial-pressure feedback; computation that translates task state into a calibrated intervention. Eight recording and eight stimulation contacts are an illustrative scalable proposal. No cortical recording is required. Long-term human recording, anatomical placement, biocompatibility, power delivery and selective recruitment are unresolved.
 
@@ -50,4 +50,4 @@ Dimensions are millimetres. The reference PCB is 80 x 50 x 1.6 mm, with four 3.2
 | Command to electrical output | Test-load waveform, charge and compliance calculations | Tissue interface, electrochemistry, adverse effects and qualification |
 | Circuit to enclosure | CAD dimensions, source and exports | Physical tolerance, assembly, EMI and thermal measurements |
 
-These interfaces make ATO expandable while preventing a result from one layer being used as validation of another.
+These interfaces make SCCI_RH expandable while preventing a result from one layer being used as validation of another.

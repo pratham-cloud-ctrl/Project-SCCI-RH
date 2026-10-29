@@ -1,4 +1,4 @@
-ATO generic-device current-sink and switch test (NOT vendor macromodels)
+SCCI_RH generic-device current-sink and switch test (NOT vendor macromodels)
 * Matches R8/R9/R10/R11/R14/R15/Q1/Q2 and U3 A/B pin routing.
 * OPA2333 buffer/servo represented by ideal behavioral voltage sources.
 * 2N7002 is a generic level-1 NMOS; 74HC4053 is ideal Ron=70 ohm switch.

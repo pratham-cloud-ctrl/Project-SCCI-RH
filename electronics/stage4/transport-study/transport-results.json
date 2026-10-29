@@ -1,13 +1,13 @@
 {
-  "schema": "ato.stage4.transport-contract.v1",
+  "schema": "scci_rh.stage4.transport-contract.v1",
   "date": "2026-10-14",
   "scope": "finite digital schedule, protocol and queue contract; target implementation and physical behavior unearned",
-  "producer_sha256_lf": "c954f6a23a3b8aecebaeb456eed6dc605397ff5a2b9a881d92e0f25287477418",
+  "producer_sha256_lf": "560e0190e4524c017e771d8192027fcb25fe8c161d412036d3ab1c51f372f503",
   "native_binding": {
     "source_sha256_lf": {
-      "electronics/stage4/monitoring-cell/connectivity.json": "b79aab80ed2c366c1ad22b98d2fb911a195f20b02d08a40babfee1c13a284015",
-      "electronics/stage4/monitoring-transport/connectivity.json": "308e0e6e18e76570ba7703a7488132f0a4078365016163e007fa2b8f216cbea0",
-      "electronics/stage4/monitoring-transport/monitoring_transport.xml": "14342cd07769ddfd15bfbeb9759839704cf5bd87946924b8143503227e0a2d9f"
+      "electronics/stage4/monitoring-cell/connectivity.json": "32f88af05d2b2e892d0059ac95984d54c513cd3e5575a2edc52f4c0ed68df1c6",
+      "electronics/stage4/monitoring-transport/connectivity.json": "7d57cb9fa135ef0e2d9a5ad253ea12d82c3ab74b408ffa8ecffd0d50dd6aaae9",
+      "electronics/stage4/monitoring-transport/monitoring_transport.xml": "f909e141b569090dc7e07bf9a5513810e35d83173d62b281e217b6b884f8f4ff"
     },
     "endpoint_pins": [
       {

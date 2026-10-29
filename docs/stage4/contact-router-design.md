@@ -1,7 +1,7 @@
 # Contact router: mechanism and integration boundary
 
 This checkpoint gives the two existing stimulation sources explicit contact
-selection and hardware route admission. It serves ATO's proposed spinal
+selection and hardware route admission. It serves SCCI_RH's proposed spinal
 recording, interpretation, learner-specific stimulation and observed feedback
 architecture. The motor-learning and selected physiological-control applications
 retain their conditional biological assumptions. Routing is electrical access;

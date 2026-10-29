@@ -13,7 +13,7 @@ import numpy as np
 from scipy.linalg import expm
 
 HERE = Path(__file__).resolve().parent
-SCHEMA = "ato.stage4.recording-input-network.v1"
+SCHEMA = "scci_rh.stage4.recording-input-network.v1"
 PARAMETERS = {
     "temperature_K": 310.0,
     "series_ohm": 4990.0,

@@ -1,0 +1,39 @@
+{
+  "source": "electronics/scci_rh_reference.kicad_pcb",
+  "source_sha256": "a90533033fa18ed88a02dbfda9880f17eb6b6946363879090677f3292464fb81",
+  "native_design_saved": false,
+  "commands": [
+    [
+      "pcb",
+      "export",
+      "gerbers",
+      "--layers",
+      "F.Cu,B.Cu,F.Paste,B.Paste,F.SilkS,B.SilkS,F.Mask,B.Mask,Edge.Cuts",
+      "--output",
+      "electronics/exports/gerbers/",
+      "electronics/scci_rh_reference.kicad_pcb"
+    ],
+    [
+      "pcb",
+      "export",
+      "drill",
+      "--output",
+      "electronics/exports/gerbers/",
+      "electronics/scci_rh_reference.kicad_pcb"
+    ]
+  ],
+  "files_sha256": {
+    "electronics/exports/gerbers/scci_rh_reference-B_Cu.gbl": "b3625432e19ae55808f46330c476b5217b47ff69aeecd0f5b1c510b5e37a8ab6",
+    "electronics/exports/gerbers/scci_rh_reference-B_Mask.gbs": "eff4fe6e938a24c0af73ea7e8f162b1b82c686d22ea1fec4ef001595376448a4",
+    "electronics/exports/gerbers/scci_rh_reference-B_Paste.gbp": "1db1fe35c5bf8601df9ab89b3b498be14efa75269ccd6d190c93ce11b2c5c262",
+    "electronics/exports/gerbers/scci_rh_reference-B_Silkscreen.gbo": "54453271e21eac285130bae7e41cf36aed5132ab9b961ee035b2abbd815fd542",
+    "electronics/exports/gerbers/scci_rh_reference-Edge_Cuts.gm1": "d49e50d4a9c54ba4e3ca9919c9a861a84726ad1d8b2558d3b343d039567eccd0",
+    "electronics/exports/gerbers/scci_rh_reference-F_Cu.gtl": "0e5edd9e91679844df1b2bd33ba797daa645f02d599fce64904ccb31bfdcd89b",
+    "electronics/exports/gerbers/scci_rh_reference-F_Mask.gts": "84c7e595959defde942e7bd8fbe50784b4e89bbdadb2d287b855bb4bd7128193",
+    "electronics/exports/gerbers/scci_rh_reference-F_Paste.gtp": "90089023ac127c89ed9d4a2278775f84580d579a209d0ae382c00bd9ed4a6062",
+    "electronics/exports/gerbers/scci_rh_reference-F_Silkscreen.gto": "7992c5ba74a7222108ad27f0dc580f894d473fdfa2ee5829eddae6187fdfda44",
+    "electronics/exports/gerbers/scci_rh_reference-job.gbrjob": "c5ffaf82b3057c53bfc665ac434e2a9db273b92e1c08f44e42813e5d18a21263",
+    "electronics/exports/gerbers/scci_rh_reference.drl": "e2fa39c739c44fc3f04d5e182d0277e2c123bdc68f9e9b62a2f8b39b8dcea5c6"
+  },
+  "command_argument_paths": "Equivalent paths relative to repository working directory; actual native execution used absolute resolved paths."
+}

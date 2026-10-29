@@ -12,7 +12,7 @@ reference designs, not validated hardware or biological interfaces.
 
 The archived native files preserve the original design and all embedded
 schematic symbols. Their footprint and 3D-model collection is the shared
-`../../ato.pretty/` and `../../models3d/` collection; the main project's relative
+`../../scci_rh.pretty/` and `../../models3d/` collection; the main project's relative
 model paths would need rebasing to reopen this archival copy with full 3D models.
 The current main KiCad project is the supported editable deliverable.
 

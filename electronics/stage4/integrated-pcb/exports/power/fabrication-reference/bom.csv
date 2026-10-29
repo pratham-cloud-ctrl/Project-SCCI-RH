@@ -1,157 +1,157 @@
 Reference,Value,Footprint,Quantity,DNP
-C60001,100u 16V LOW ESR,ato_power:C_1206_3216Metric,1,0
-C60002,100n X7R 25V,ato_power:C_1206_3216Metric,1,0
-C60200,100n X7R 16V,ato_power:C_1206_3216Metric,1,0
-C60201,100n X7R 16V,ato_power:C_1206_3216Metric,1,0
-C60202,100n X7R 16V,ato_power:C_1206_3216Metric,1,0
-C60203,100n X7R 16V,ato_power:C_1206_3216Metric,1,0
-C60204,100n X7R 16V,ato_power:C_1206_3216Metric,1,0
-C60230,47n X7R 10%,ato_power:C_1206_3216Metric,1,0
-C60240,100n X7R 16V,ato_power:C_1206_3216Metric,1,0
-C60241,100n X7R 16V,ato_power:C_1206_3216Metric,1,0
-C60242,100n X7R 16V,ato_power:C_1206_3216Metric,1,0
-C60243,100n X7R 16V,ato_power:C_1206_3216Metric,1,0
-C60244,100n X7R 16V,ato_power:C_1206_3216Metric,1,0
-C60245,100n X7R 16V,ato_power:C_1206_3216Metric,1,0
-C60246,100n X7R 16V,ato_power:C_1206_3216Metric,1,0
-C60247,100n X7R 16V,ato_power:C_1206_3216Metric,1,0
-C60400,22u X7R 16V,ato_power:C_1206_3216Metric,1,0
-C60401,10u X7R 50V,ato_power:C_1206_3216Metric,1,0
-C60402,10u X7R 50V,ato_power:C_1206_3216Metric,1,0
-C61000,10u X7R 25V,ato_power:C_1206_3216Metric,1,0
-C61001,22u X7R 16V,ato_power:C_1206_3216Metric,1,0
-C61010,10u X7R 25V,ato_power:C_1206_3216Metric,1,0
-C61011,22u X7R 16V,ato_power:C_1206_3216Metric,1,0
-C61020,10u X7R 25V,ato_power:C_1206_3216Metric,1,0
-C61021,22u X7R 16V,ato_power:C_1206_3216Metric,1,0
-C61100,10u X7R 25V,ato_power:C_1206_3216Metric,1,0
-C61101,22u X7R 16V,ato_power:C_1206_3216Metric,1,0
-C61102,100n X7R 25V,ato_power:C_1206_3216Metric,1,0
-C61103,3.3n C0G 50V,ato_power:C_1206_3216Metric,1,0
-C63000,10u X7R 25V,ato_power:C_1206_3216Metric,1,0
-C63001,22u X7R 50V,ato_power:C_1206_3216Metric,1,0
-C63002,22u X7R 50V,ato_power:C_1206_3216Metric,1,0
-C63003,1u X7R 10V,ato_power:C_1206_3216Metric,1,0
-C63004,4.7p C0G 50V,ato_power:C_1206_3216Metric,1,0
-C63010,10u X7R 25V,ato_power:C_1206_3216Metric,1,0
-C63011,22u X7R 50V,ato_power:C_1206_3216Metric,1,0
-C63012,22u X7R 50V,ato_power:C_1206_3216Metric,1,0
-C63013,1u X7R 10V,ato_power:C_1206_3216Metric,1,0
-C63014,4.7p C0G 50V,ato_power:C_1206_3216Metric,1,0
-C64100,10u X7R 50V,ato_power:C_1206_3216Metric,1,0
-C64101,10u X7R 16V,ato_power:C_1206_3216Metric,1,0
-C64102,10n C0G 50V,ato_power:C_1206_3216Metric,1,0
-C64103,10n C0G 50V,ato_power:C_1206_3216Metric,1,0
-C64110,10u X7R 50V,ato_power:C_1206_3216Metric,1,0
-C64111,10u X7R 16V,ato_power:C_1206_3216Metric,1,0
-C64112,10n C0G 50V,ato_power:C_1206_3216Metric,1,0
-C64113,10n C0G 50V,ato_power:C_1206_3216Metric,1,0
-C64120,10u X7R 50V,ato_power:C_1206_3216Metric,1,0
-C64121,10u X7R 16V,ato_power:C_1206_3216Metric,1,0
-C64122,10n C0G 50V,ato_power:C_1206_3216Metric,1,0
-C64123,10n C0G 50V,ato_power:C_1206_3216Metric,1,0
-D60001,SS34-E3/57T,ato_power:D_SMC,1,0
-D60230,BAT54WS-7-F,ato_power:D_SOD-323,1,0
-D60300,PMEG6010CEJ,ato_power:D_SOD-323F,1,0
-D60301,PMEG6010CEJ,ato_power:D_SOD-323F,1,0
-F60001,2A FUSE 1206,ato_power:Fuse_1206_3216Metric,1,0
-J60001,AT31004 PROTECTED 2S PACK / 6.4 TO 8.4V,ato_power:PinHeader_1x02_P2.54mm_Vertical,1,0
-J60002,POWER REQUEST / STATUS,ato_power:PinHeader_1x12_P2.54mm_Vertical,1,0
-J60003,HOST AND SUPERVISOR RAILS,ato_power:PinHeader_1x07_P2.54mm_Vertical,1,0
-J60004,FLOATING RECORDING RAILS,ato_power:PinHeader_1x04_P2.54mm_Vertical,1,0
-J60005,CONVERTER TEST POINTS,ato_power:PinHeader_1x05_P2.54mm_Vertical,1,0
-J60006,EXISTING MONITOR REFERENCES,ato_power:PinHeader_1x03_P2.54mm_Vertical,1,0
-J60410,QUIESCENT TRIM / TEST ONLY,ato_power:PinHeader_1x03_P2.54mm_Vertical,1,0
-J60411,QUIESCENT TRIM / TEST ONLY,ato_power:PinHeader_1x03_P2.54mm_Vertical,1,0
-J60412,QUIESCENT TRIM / TEST ONLY,ato_power:PinHeader_1x03_P2.54mm_Vertical,1,0
-L60100,2.2uH SRP5030T-2R2M,ato_power:L_Bourns_SRP5030T,1,0
-L60101,2.2uH SRP5030T-2R2M,ato_power:L_Bourns_SRP5030T,1,0
-L60102,2.2uH SRP5030T-2R2M,ato_power:L_Bourns_SRP5030T,1,0
-L60110,2.2uH SRP5030T-2R2M,ato_power:L_Bourns_SRP5030T,1,0
-L60300,4.7uH SRP5030T-4R7M,ato_power:L_Bourns_SRP5030T,1,0
-L60301,4.7uH SRP5030T-4R7M,ato_power:L_Bourns_SRP5030T,1,0
-R60230,100k 1%,ato_power:R_0805_2012Metric,1,0
-R60231,100R,ato_power:R_0805_2012Metric,1,0
-R60240,10k,ato_power:R_0805_2012Metric,1,0
-R60241,10k,ato_power:R_0805_2012Metric,1,0
-R60242,10k,ato_power:R_0805_2012Metric,1,0
-R61000,31250R 0.1%,ato_power:R_0805_2012Metric,1,0
-R61001,10000R 0.1%,ato_power:R_0805_2012Metric,1,0
-R61002,100k,ato_power:R_0805_2012Metric,1,0
-R61003,47k,ato_power:R_0805_2012Metric,1,0
-R61010,52500R 0.1%,ato_power:R_0805_2012Metric,1,0
-R61011,10000R 0.1%,ato_power:R_0805_2012Metric,1,0
-R61012,100k,ato_power:R_0805_2012Metric,1,0
-R61013,47k,ato_power:R_0805_2012Metric,1,0
-R61020,31250R 0.1%,ato_power:R_0805_2012Metric,1,0
-R61021,10000R 0.1%,ato_power:R_0805_2012Metric,1,0
-R61022,100k,ato_power:R_0805_2012Metric,1,0
-R61023,47k,ato_power:R_0805_2012Metric,1,0
-R61100,52.5k 0.1%,ato_power:R_0805_2012Metric,1,0
-R61101,10k 0.1%,ato_power:R_0805_2012Metric,1,0
-R61102,100k,ato_power:R_0805_2012Metric,1,0
-R61103,47k,ato_power:R_0805_2012Metric,1,0
-R62000,155000R 0.1%,ato_power:R_0805_2012Metric,1,0
-R62001,10k 0.1%,ato_power:R_0805_2012Metric,1,0
-R62002,205000R 0.1%,ato_power:R_0805_2012Metric,1,0
-R62003,10k 0.1%,ato_power:R_0805_2012Metric,1,0
-R62004,10k,ato_power:R_0805_2012Metric,1,0
-R62010,67500R 0.1%,ato_power:R_0805_2012Metric,1,0
-R62011,10k 0.1%,ato_power:R_0805_2012Metric,1,0
-R62012,77500R 0.1%,ato_power:R_0805_2012Metric,1,0
-R62013,10k 0.1%,ato_power:R_0805_2012Metric,1,0
-R62014,10k,ato_power:R_0805_2012Metric,1,0
-R62020,108750R 0.1%,ato_power:R_0805_2012Metric,1,0
-R62021,10k 0.1%,ato_power:R_0805_2012Metric,1,0
-R62022,121250R 0.1%,ato_power:R_0805_2012Metric,1,0
-R62023,10k 0.1%,ato_power:R_0805_2012Metric,1,0
-R62024,10k,ato_power:R_0805_2012Metric,1,0
-R62030,89500R 0.1%,ato_power:R_0805_2012Metric,1,0
-R62031,10k 0.1%,ato_power:R_0805_2012Metric,1,0
-R62032,95500R 0.1%,ato_power:R_0805_2012Metric,1,0
-R62033,10k 0.1%,ato_power:R_0805_2012Metric,1,0
-R62034,10k,ato_power:R_0805_2012Metric,1,0
-R62040,39500R 0.1%,ato_power:R_0805_2012Metric,1,0
-R62041,10k 0.1%,ato_power:R_0805_2012Metric,1,0
-R62042,43000R 0.1%,ato_power:R_0805_2012Metric,1,0
-R62043,10k 0.1%,ato_power:R_0805_2012Metric,1,0
-R62044,10k,ato_power:R_0805_2012Metric,1,0
-R63000,418750R 0.1%,ato_power:R_0805_2012Metric,1,0
-R63001,50k 0.1%,ato_power:R_0805_2012Metric,1,0
-R63002,100k,ato_power:R_0805_2012Metric,1,0
-R63010,700000R 0.1%,ato_power:R_0805_2012Metric,1,0
-R63011,50k 0.1%,ato_power:R_0805_2012Metric,1,0
-R63012,100k,ato_power:R_0805_2012Metric,1,0
-R64100,19113.924R 0.1%,ato_power:R_0805_2012Metric,1,0
-R64101,10k 0.1%,ato_power:R_0805_2012Metric,1,0
-R64102,47k,ato_power:R_0805_2012Metric,1,0
-R64110,34725.738R 0.1%,ato_power:R_0805_2012Metric,1,0
-R64111,10k 0.1%,ato_power:R_0805_2012Metric,1,0
-R64112,47k,ato_power:R_0805_2012Metric,1,0
-R64120,33367.347R 0.1%,ato_power:R_0805_2012Metric,1,0
-R64121,10k 0.1%,ato_power:R_0805_2012Metric,1,0
-R64122,47k,ato_power:R_0805_2012Metric,1,0
-SW60001,MASTER SPST / OFFBOARD,ato_power:PinHeader_1x02_P2.54mm_Vertical,1,0
-U60100,TPS62160DGKR,ato_power:VSSOP-8_3x3mm_P0.65mm,1,0
-U60101,TPS62160DGKR,ato_power:VSSOP-8_3x3mm_P0.65mm,1,0
-U60102,TPS62160DGKR,ato_power:VSSOP-8_3x3mm_P0.65mm,1,0
-U60110,TPS62130ARGTR,ato_power:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm,1,0
-U60200,TPS3700DDCR,ato_power:SOT-23-6,1,0
-U60201,TPS3700DDCR,ato_power:SOT-23-6,1,0
-U60202,TPS3700DDCR,ato_power:SOT-23-6,1,0
-U60203,TPS3700DDCR,ato_power:SOT-23-6,1,0
-U60204,TPS3700DDCR,ato_power:SOT-23-6,1,0
-U60230,SN74LVC1G17DBVR,ato_power:SOT-23-5,1,0
-U60231,SN74LVC1G11DBVR,ato_power:SOT-23-6,1,0
-U60232,SN74LVC1G08DBVR,ato_power:SOT-23-5,1,0
-U60233,SN74LVC1G11DBVR,ato_power:SOT-23-6,1,0
-U60234,SN74LVC1G08DBVR,ato_power:SOT-23-5,1,0
-U60235,SN74LVC1G07DBVR,ato_power:SOT-23-5,1,0
-U60236,SN74LVC1G08DBVR,ato_power:SOT-23-5,1,0
-U60237,SN74LVC1G08DBVR,ato_power:SOT-23-5,1,0
-U60300,LT8330ES6#TRPBF,ato_power:TSOT-23-6,1,0
-U60301,LT8330ES6#TRPBF,ato_power:TSOT-23-6,1,0
-U60400,TMR3-0522,ato_power:TRACO_TMR3_SIP8_21.8x9.1_P2.54,1,0
-U60410,TPS7A4901DGNR,ato_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm,1,0
-U60411,TPS7A4901DGNR,ato_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm,1,0
-U60412,TPS7A3001DGNR,ato_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm,1,0
+C60001,100u 16V LOW ESR,scci_rh_power:C_1206_3216Metric,1,0
+C60002,100n X7R 25V,scci_rh_power:C_1206_3216Metric,1,0
+C60200,100n X7R 16V,scci_rh_power:C_1206_3216Metric,1,0
+C60201,100n X7R 16V,scci_rh_power:C_1206_3216Metric,1,0
+C60202,100n X7R 16V,scci_rh_power:C_1206_3216Metric,1,0
+C60203,100n X7R 16V,scci_rh_power:C_1206_3216Metric,1,0
+C60204,100n X7R 16V,scci_rh_power:C_1206_3216Metric,1,0
+C60230,47n X7R 10%,scci_rh_power:C_1206_3216Metric,1,0
+C60240,100n X7R 16V,scci_rh_power:C_1206_3216Metric,1,0
+C60241,100n X7R 16V,scci_rh_power:C_1206_3216Metric,1,0
+C60242,100n X7R 16V,scci_rh_power:C_1206_3216Metric,1,0
+C60243,100n X7R 16V,scci_rh_power:C_1206_3216Metric,1,0
+C60244,100n X7R 16V,scci_rh_power:C_1206_3216Metric,1,0
+C60245,100n X7R 16V,scci_rh_power:C_1206_3216Metric,1,0
+C60246,100n X7R 16V,scci_rh_power:C_1206_3216Metric,1,0
+C60247,100n X7R 16V,scci_rh_power:C_1206_3216Metric,1,0
+C60400,22u X7R 16V,scci_rh_power:C_1206_3216Metric,1,0
+C60401,10u X7R 50V,scci_rh_power:C_1206_3216Metric,1,0
+C60402,10u X7R 50V,scci_rh_power:C_1206_3216Metric,1,0
+C61000,10u X7R 25V,scci_rh_power:C_1206_3216Metric,1,0
+C61001,22u X7R 16V,scci_rh_power:C_1206_3216Metric,1,0
+C61010,10u X7R 25V,scci_rh_power:C_1206_3216Metric,1,0
+C61011,22u X7R 16V,scci_rh_power:C_1206_3216Metric,1,0
+C61020,10u X7R 25V,scci_rh_power:C_1206_3216Metric,1,0
+C61021,22u X7R 16V,scci_rh_power:C_1206_3216Metric,1,0
+C61100,10u X7R 25V,scci_rh_power:C_1206_3216Metric,1,0
+C61101,22u X7R 16V,scci_rh_power:C_1206_3216Metric,1,0
+C61102,100n X7R 25V,scci_rh_power:C_1206_3216Metric,1,0
+C61103,3.3n C0G 50V,scci_rh_power:C_1206_3216Metric,1,0
+C63000,10u X7R 25V,scci_rh_power:C_1206_3216Metric,1,0
+C63001,22u X7R 50V,scci_rh_power:C_1206_3216Metric,1,0
+C63002,22u X7R 50V,scci_rh_power:C_1206_3216Metric,1,0
+C63003,1u X7R 10V,scci_rh_power:C_1206_3216Metric,1,0
+C63004,4.7p C0G 50V,scci_rh_power:C_1206_3216Metric,1,0
+C63010,10u X7R 25V,scci_rh_power:C_1206_3216Metric,1,0
+C63011,22u X7R 50V,scci_rh_power:C_1206_3216Metric,1,0
+C63012,22u X7R 50V,scci_rh_power:C_1206_3216Metric,1,0
+C63013,1u X7R 10V,scci_rh_power:C_1206_3216Metric,1,0
+C63014,4.7p C0G 50V,scci_rh_power:C_1206_3216Metric,1,0
+C64100,10u X7R 50V,scci_rh_power:C_1206_3216Metric,1,0
+C64101,10u X7R 16V,scci_rh_power:C_1206_3216Metric,1,0
+C64102,10n C0G 50V,scci_rh_power:C_1206_3216Metric,1,0
+C64103,10n C0G 50V,scci_rh_power:C_1206_3216Metric,1,0
+C64110,10u X7R 50V,scci_rh_power:C_1206_3216Metric,1,0
+C64111,10u X7R 16V,scci_rh_power:C_1206_3216Metric,1,0
+C64112,10n C0G 50V,scci_rh_power:C_1206_3216Metric,1,0
+C64113,10n C0G 50V,scci_rh_power:C_1206_3216Metric,1,0
+C64120,10u X7R 50V,scci_rh_power:C_1206_3216Metric,1,0
+C64121,10u X7R 16V,scci_rh_power:C_1206_3216Metric,1,0
+C64122,10n C0G 50V,scci_rh_power:C_1206_3216Metric,1,0
+C64123,10n C0G 50V,scci_rh_power:C_1206_3216Metric,1,0
+D60001,SS34-E3/57T,scci_rh_power:D_SMC,1,0
+D60230,BAT54WS-7-F,scci_rh_power:D_SOD-323,1,0
+D60300,PMEG6010CEJ,scci_rh_power:D_SOD-323F,1,0
+D60301,PMEG6010CEJ,scci_rh_power:D_SOD-323F,1,0
+F60001,2A FUSE 1206,scci_rh_power:Fuse_1206_3216Metric,1,0
+J60001,AT31004 PROTECTED 2S PACK / 6.4 TO 8.4V,scci_rh_power:PinHeader_1x02_P2.54mm_Vertical,1,0
+J60002,POWER REQUEST / STATUS,scci_rh_power:PinHeader_1x12_P2.54mm_Vertical,1,0
+J60003,HOST AND SUPERVISOR RAILS,scci_rh_power:PinHeader_1x07_P2.54mm_Vertical,1,0
+J60004,FLOATING RECORDING RAILS,scci_rh_power:PinHeader_1x04_P2.54mm_Vertical,1,0
+J60005,CONVERTER TEST POINTS,scci_rh_power:PinHeader_1x05_P2.54mm_Vertical,1,0
+J60006,EXISTING MONITOR REFERENCES,scci_rh_power:PinHeader_1x03_P2.54mm_Vertical,1,0
+J60410,QUIESCENT TRIM / TEST ONLY,scci_rh_power:PinHeader_1x03_P2.54mm_Vertical,1,0
+J60411,QUIESCENT TRIM / TEST ONLY,scci_rh_power:PinHeader_1x03_P2.54mm_Vertical,1,0
+J60412,QUIESCENT TRIM / TEST ONLY,scci_rh_power:PinHeader_1x03_P2.54mm_Vertical,1,0
+L60100,2.2uH SRP5030T-2R2M,scci_rh_power:L_Bourns_SRP5030T,1,0
+L60101,2.2uH SRP5030T-2R2M,scci_rh_power:L_Bourns_SRP5030T,1,0
+L60102,2.2uH SRP5030T-2R2M,scci_rh_power:L_Bourns_SRP5030T,1,0
+L60110,2.2uH SRP5030T-2R2M,scci_rh_power:L_Bourns_SRP5030T,1,0
+L60300,4.7uH SRP5030T-4R7M,scci_rh_power:L_Bourns_SRP5030T,1,0
+L60301,4.7uH SRP5030T-4R7M,scci_rh_power:L_Bourns_SRP5030T,1,0
+R60230,100k 1%,scci_rh_power:R_0805_2012Metric,1,0
+R60231,100R,scci_rh_power:R_0805_2012Metric,1,0
+R60240,10k,scci_rh_power:R_0805_2012Metric,1,0
+R60241,10k,scci_rh_power:R_0805_2012Metric,1,0
+R60242,10k,scci_rh_power:R_0805_2012Metric,1,0
+R61000,31250R 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R61001,10000R 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R61002,100k,scci_rh_power:R_0805_2012Metric,1,0
+R61003,47k,scci_rh_power:R_0805_2012Metric,1,0
+R61010,52500R 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R61011,10000R 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R61012,100k,scci_rh_power:R_0805_2012Metric,1,0
+R61013,47k,scci_rh_power:R_0805_2012Metric,1,0
+R61020,31250R 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R61021,10000R 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R61022,100k,scci_rh_power:R_0805_2012Metric,1,0
+R61023,47k,scci_rh_power:R_0805_2012Metric,1,0
+R61100,52.5k 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R61101,10k 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R61102,100k,scci_rh_power:R_0805_2012Metric,1,0
+R61103,47k,scci_rh_power:R_0805_2012Metric,1,0
+R62000,155000R 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R62001,10k 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R62002,205000R 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R62003,10k 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R62004,10k,scci_rh_power:R_0805_2012Metric,1,0
+R62010,67500R 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R62011,10k 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R62012,77500R 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R62013,10k 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R62014,10k,scci_rh_power:R_0805_2012Metric,1,0
+R62020,108750R 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R62021,10k 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R62022,121250R 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R62023,10k 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R62024,10k,scci_rh_power:R_0805_2012Metric,1,0
+R62030,89500R 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R62031,10k 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R62032,95500R 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R62033,10k 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R62034,10k,scci_rh_power:R_0805_2012Metric,1,0
+R62040,39500R 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R62041,10k 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R62042,43000R 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R62043,10k 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R62044,10k,scci_rh_power:R_0805_2012Metric,1,0
+R63000,418750R 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R63001,50k 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R63002,100k,scci_rh_power:R_0805_2012Metric,1,0
+R63010,700000R 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R63011,50k 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R63012,100k,scci_rh_power:R_0805_2012Metric,1,0
+R64100,19113.924R 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R64101,10k 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R64102,47k,scci_rh_power:R_0805_2012Metric,1,0
+R64110,34725.738R 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R64111,10k 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R64112,47k,scci_rh_power:R_0805_2012Metric,1,0
+R64120,33367.347R 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R64121,10k 0.1%,scci_rh_power:R_0805_2012Metric,1,0
+R64122,47k,scci_rh_power:R_0805_2012Metric,1,0
+SW60001,MASTER SPST / OFFBOARD,scci_rh_power:PinHeader_1x02_P2.54mm_Vertical,1,0
+U60100,TPS62160DGKR,scci_rh_power:VSSOP-8_3x3mm_P0.65mm,1,0
+U60101,TPS62160DGKR,scci_rh_power:VSSOP-8_3x3mm_P0.65mm,1,0
+U60102,TPS62160DGKR,scci_rh_power:VSSOP-8_3x3mm_P0.65mm,1,0
+U60110,TPS62130ARGTR,scci_rh_power:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm,1,0
+U60200,TPS3700DDCR,scci_rh_power:SOT-23-6,1,0
+U60201,TPS3700DDCR,scci_rh_power:SOT-23-6,1,0
+U60202,TPS3700DDCR,scci_rh_power:SOT-23-6,1,0
+U60203,TPS3700DDCR,scci_rh_power:SOT-23-6,1,0
+U60204,TPS3700DDCR,scci_rh_power:SOT-23-6,1,0
+U60230,SN74LVC1G17DBVR,scci_rh_power:SOT-23-5,1,0
+U60231,SN74LVC1G11DBVR,scci_rh_power:SOT-23-6,1,0
+U60232,SN74LVC1G08DBVR,scci_rh_power:SOT-23-5,1,0
+U60233,SN74LVC1G11DBVR,scci_rh_power:SOT-23-6,1,0
+U60234,SN74LVC1G08DBVR,scci_rh_power:SOT-23-5,1,0
+U60235,SN74LVC1G07DBVR,scci_rh_power:SOT-23-5,1,0
+U60236,SN74LVC1G08DBVR,scci_rh_power:SOT-23-5,1,0
+U60237,SN74LVC1G08DBVR,scci_rh_power:SOT-23-5,1,0
+U60300,LT8330ES6#TRPBF,scci_rh_power:TSOT-23-6,1,0
+U60301,LT8330ES6#TRPBF,scci_rh_power:TSOT-23-6,1,0
+U60400,TMR3-0522,scci_rh_power:TRACO_TMR3_SIP8_21.8x9.1_P2.54,1,0
+U60410,TPS7A4901DGNR,scci_rh_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm,1,0
+U60411,TPS7A4901DGNR,scci_rh_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm,1,0
+U60412,TPS7A3001DGNR,scci_rh_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm,1,0

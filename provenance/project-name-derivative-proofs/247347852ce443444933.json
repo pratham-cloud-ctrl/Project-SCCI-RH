@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/exports/recording-front-end/bottom.png",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "1f98098c98f6fd432b3e120f8794865c29ab3bb06d99c496905ee4f0dafaf337",
+  "current_sha256": "21b3d18633744e1446b690e23c0390185b7fe5e10fac53e645e9e7dfa6af6372",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-native-pcb-visuals.json",
+      "sha256_lf": "4f05937d3cf81c9eb11969cd98123a39259b7f0267eed58d7d41444662494514"
+    }
+  ]
+}

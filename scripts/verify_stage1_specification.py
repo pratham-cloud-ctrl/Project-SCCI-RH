@@ -75,7 +75,7 @@ def verify(creating_receipt=False):
         assert len(definitions) == count and len(set(definitions)) == count, (prefix, definitions)
     checks.append('Four access alternatives, thirteen modules and fifteen interfaces are defined uniquely')
 
-    pdf = ROOT / 'output' / 'pdf' / 'ATO_stage1_system_specification.pdf'
+    pdf = ROOT / 'output' / 'pdf' / 'SCCI_RH_stage1_system_specification.pdf'
     pages = PdfReader(pdf).pages
     assert len(pages) == 9
     for index, page in enumerate(pages, 1):

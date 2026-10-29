@@ -1,13 +1,13 @@
 {
-  "schema": "ato.stage3.assisted-prediction-study.v1",
+  "schema": "scci_rh.stage3.assisted-prediction-study.v1",
   "date": "2026-10-09",
   "source_identity": {
-    "src/ato/stage3/assisted_prediction.py": "21d6292e22eda70707d58903c44e737284d7a7e8fe398c529eaccacaa40da67b",
-    "src/ato/stage3/motor.py": "d86b4d091baf226475ce9f6d6e2390b65bb63752e5f50e73d42c5c3408b2323c",
-    "src/ato/stage3/acquisition.py": "bd681adefc5e82c58b449490ad14917fff307be9947de647e92aeb6c38b22f03",
-    "src/ato/stage3/filter_residual.py": "0404915b1f891ef8e1da8fbc7549888110b90a0100877f361154ce39154dca47",
-    "src/ato/stage3/electrical.py": "8a7a20702be3f3f5893e1f859f675347fa35db01dadb20ab7e64635ca8913ff0",
-    "scripts/stage3_assisted_prediction_study.py": "1e35bfda630855ea15b0d4cf50ec0dbed253672c92746e9446d2e8215ae3ecef"
+    "src/scci_rh/stage3/assisted_prediction.py": "d11d9b433a5b694dc2c16d8169d09e82e464a3597b356ac7cfdb1e253acc78d2",
+    "src/scci_rh/stage3/motor.py": "fdc83232adcd15759319a05af2204c7d3481f5da3ecf4538f152b569760c05fe",
+    "src/scci_rh/stage3/acquisition.py": "bd681adefc5e82c58b449490ad14917fff307be9947de647e92aeb6c38b22f03",
+    "src/scci_rh/stage3/filter_residual.py": "0404915b1f891ef8e1da8fbc7549888110b90a0100877f361154ce39154dca47",
+    "src/scci_rh/stage3/electrical.py": "8a7a20702be3f3f5893e1f859f675347fa35db01dadb20ab7e64635ca8913ff0",
+    "scripts/stage3_assisted_prediction_study.py": "0a09796e1e7ee7ebc094ed2c82bb8b2e2bd83ba1e96136127d79e8f45627aecd"
   },
   "status": "independent_assisted_forecast_and_admission_audit",
   "specification": {
@@ -519,7 +519,7 @@
     "Static route-map qualification does not qualify dynamic execution-time correction."
   ],
   "model": {
-    "schema": "ato.stage3.assisted-predictor.v1",
+    "schema": "scci_rh.stage3.assisted-predictor.v1",
     "specification": {
       "sample_s": 0.005,
       "history_rows": 16,
@@ -42465,6 +42465,6 @@
   },
   "raw_witness": {
     "path": "raw.json.gz",
-    "sha256": "51902630b2d89dcb9280e3a214841328874a2980f3f881b0d5deb6fb073020d4"
+    "sha256": "c334057b53cde7036806a992a64a0226d0a0b78a7d75166b5a259599873e2862"
   }
 }

@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "inspector/downloads/SHA256SUMS.txt",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "c3342f53e972837761021ceb87585f5f054c5c946ab1405baf7196b502227865",
+  "current_sha256": "36cd9c52d424bf5d00c953377a79a11f87d219e3ccb1adbe240c04eba7c5a184",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

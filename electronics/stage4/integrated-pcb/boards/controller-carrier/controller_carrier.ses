@@ -2,7 +2,7 @@
   (base_design "controller_carrier")
   (placement
     (resolution um 10)
-    (component "ato_controller:C_1206_3216Metric"
+    (component "scci_rh_controller:C_1206_3216Metric"
       (place C80010 441750 -1088950 front 0)
       (place C80013 441750 -1215950 front 0)
       (place C80003 1164550 -655350 front 0)
@@ -11,15 +11,15 @@
       (place C80001 1157050 -686850 front 0)
       (place C80002 1114050 -679350 front 90)
     )
-    (component "ato_controller:PinHeader_1x09_P2.54mm_Vertical"
+    (component "scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical"
       (place J80017 147950 -909250 front 90)
       (place J80016 147950 -833350 front 90)
       (place J80015 147950 -757450 front 90)
     )
-    (component "ato_controller:PinHeader_1x07_P2.54mm_Vertical"
+    (component "scci_rh_controller:PinHeader_1x07_P2.54mm_Vertical"
       (place J80012 1127350 -399750 front 90)
     )
-    (component "ato_controller:R_0805_2012Metric"
+    (component "scci_rh_controller:R_0805_2012Metric"
       (place R80105 351150 -252450 front 90)
       (place R80127 595650 -322050 front 90)
       (place R80120 625650 -322050 front 90)
@@ -63,28 +63,28 @@
       (place R80110 354050 -354750 front 0)
       (place R80137 877450 -219750 front 0)
     )
-    (component "ato_controller:TSSOP-16_4.4x5mm_P0.65mm"
+    (component "scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm"
       (place U80013 449250 -1263450 front 0)
       (place U80011 566750 -1136450 front 0)
       (place U80012 684250 -1136450 front 0)
       (place U80010 449250 -1136450 front 0)
     )
-    (component "ato_controller:PinHeader_1x08_P2.54mm_Vertical"
+    (component "scci_rh_controller:PinHeader_1x08_P2.54mm_Vertical"
       (place J80018 507050 -681550 front 90)
     )
-    (component "ato_controller:PinHeader_1x04_P2.54mm_Vertical"
+    (component "scci_rh_controller:PinHeader_1x04_P2.54mm_Vertical"
       (place J80014 147950 -681550 front 90)
       (place J80020 507050 -833350 front 90)
     )
-    (component "ato_controller:PinHeader_1x06_P2.54mm_Vertical"
+    (component "scci_rh_controller:PinHeader_1x06_P2.54mm_Vertical"
       (place J80002 1120250 -799350 front 90)
       (place J80010 1127250 -247950 front 90)
     )
-    (component "ato_controller:PinHeader_1x02_P2.54mm_Vertical"
+    (component "scci_rh_controller:PinHeader_1x02_P2.54mm_Vertical"
       (place J80003 1323150 -799350 front 90)
       (place J80001 147950 -247950 front 90)
     )
-    (component "ato_controller:PinHeader_1x05_P2.54mm_Vertical"
+    (component "scci_rh_controller:PinHeader_1x05_P2.54mm_Vertical"
       (place J80013 1127250 -475650 front 90)
     )
     (component "MountingHole_3.2mm_M3"
@@ -93,13 +93,13 @@
       (place H2 1510000 -40000 front 0)
       (place H1 40000 -40000 front 0)
     )
-    (component "ato_controller:PinHeader_1x19_P2.54mm_Vertical"
+    (component "scci_rh_controller:PinHeader_1x19_P2.54mm_Vertical"
       (place J80019 507150 -757450 front 90)
     )
-    (component "ato_controller:PinHeader_1x10_P2.54mm_Vertical"
+    (component "scci_rh_controller:PinHeader_1x10_P2.54mm_Vertical"
       (place J80011 1127250 -323850 front 90)
     )
-    (component "ato_controller:BT40F_Manufacturer_66Pad"
+    (component "scci_rh_controller:BT40F_Manufacturer_66Pad"
       (place U80001 215250 -1187450 front 0)
     )
   )

@@ -3,9 +3,9 @@ import unittest
 from types import SimpleNamespace
 import numpy as np
 
-from ato.stage3.external_history import (CausalExternalHistoryDecoder,
+from scci_rh.stage3.external_history import (CausalExternalHistoryDecoder,
                                          fit_external_history)
-from ato.stage3.motor import MotorConfig, _fit_neural, _capture
+from scci_rh.stage3.motor import MotorConfig, _fit_neural, _capture
 
 
 def packet(support, position, *, available=None, neural_valid=True, external_valid=True):

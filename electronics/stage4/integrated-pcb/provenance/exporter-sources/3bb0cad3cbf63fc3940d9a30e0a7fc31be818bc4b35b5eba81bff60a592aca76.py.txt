@@ -81,7 +81,7 @@ def export(name, cli):
         'assembler-specific orientation review. No sourcing, stackup-vendor,\n'
         'physical performance, medical clearance or manufacturing approval is\n'
         'claimed. Use artificial loads only.\n',encoding='utf-8')
-    receipt=dict(schema='ato.board-export.v1',board=name,source_board=board.relative_to(ROOT).as_posix(),
+    receipt=dict(schema='scci_rh.board-export.v1',board=name,source_board=board.relative_to(ROOT).as_posix(),
                  exporter_sha256_lf=sha(Path(__file__)),
                  source_sha256_lf=sha(board),source_project_sha256_lf=sha(board.with_suffix('.kicad_pro')),
                  source_xml_sha256_lf=sha(xml),DRC_sha256_lf=sha(drc_path),

@@ -6,7 +6,7 @@ This entry works after the repository is moved to a different folder. It opens
 the actual FreeCAD sources and preserves the original Stage 5 launchers.
 
 FreeCAD **1.1 or later** is required. The launcher looks for an explicit
-`ATO_FREECAD_EXE` setting, `FreeCAD.exe` on PATH, a common Windows installation,
+`SCCI_RH_FREECAD_EXE` setting, `FreeCAD.exe` on PATH, a common Windows installation,
 then the verified portable installation on the original project laptop.
 An invalid explicit setting produces a clear error instead of selecting a
 different installation silently.
@@ -14,7 +14,7 @@ different installation silently.
 For a portable or other installation, use PowerShell:
 
 ```powershell
-$env:ATO_FREECAD_EXE = 'C:\Path To FreeCAD\bin\FreeCAD.exe'
+$env:SCCI_RH_FREECAD_EXE = 'C:\Path To FreeCAD\bin\FreeCAD.exe'
 .\cad\OPEN_CURRENT_CAD.cmd -Mode reference
 ```
 

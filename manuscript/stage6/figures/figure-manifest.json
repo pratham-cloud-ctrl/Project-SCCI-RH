@@ -1,29 +1,29 @@
 {
-  "schema": "ato.stage6.figures.v1",
+  "schema": "scci_rh.stage6.figures.v1",
   "inputs_sha256_lf": {
-    "experiments/stage3/conditional-concept/summary.json": "bd5cb2e93b5cc786fac99abab2ccb02a19fef601a22cf5c3d2e90e01297666a1",
-    "results/stage3/pressure-summary.json": "f57c18baab6c8277d6de24e718beeafd7aa27ce4744ab5bdd3105caf736ce222",
-    "results/stage6/integration-summary.json": "c5e329cd5b6b1e314096572487f3e37f1d030ad055000dfa3e364ac19805bfdf",
-    "provenance/stage5-mechanical-verification.json": "74499c4f9fdd3d17e6a109aee0f8d8af2af3ce56e002b55117381abdd2c6a4e2"
+    "experiments/stage3/conditional-concept/summary.json": "b8eaae400f7cffb8459da09a36034a0839e8359b1eeb5f9e8ea3fb40ddec3981",
+    "results/stage3/pressure-summary.json": "6e4baf2f8df3777064fb72a53802f8e9be54eca3d8959ac90314fc2e9312fa59",
+    "results/stage6/integration-summary.json": "6846e11e3f17c220356800640811f8c6b95c06b59a76ba72c5f5915671e6858d",
+    "provenance/stage5-mechanical-verification.json": "6df5b72a122f32f6f73d1b5d9dc0c3b37c31134bc31997faf49fce3aa570c364"
   },
   "artifacts_sha256": {
     "manuscript/stage6/figures/01_system.png": "43cefc1d4ba9440f745503494dc7247909dc64f737353f081d7e2be951784012",
-    "manuscript/stage6/figures/01_system.svg": "c41ee4595165be7cb8b8ecff3b4f86f1e51a68f363441b99b06dc5a0d80a338a",
+    "manuscript/stage6/figures/01_system.svg": "409f08c623e027a6e8a6842ec4d8104e54e1e62e40b5a3bf8e8db83f410dc569",
     "manuscript/stage6/figures/02_learning.png": "cf25c1e3bdab4f1d5325469a1b630a2c944267df52df9f834865a97cd9cf59e6",
-    "manuscript/stage6/figures/02_learning.svg": "19710a336efac815deeb70978acebdf39c8b6ba032442bda93486966d49dd30e",
+    "manuscript/stage6/figures/02_learning.svg": "e2373600c4fceba0d10d179f77a8e7edc81f798ae7b9c27a3ee5f9b0dde60f8e",
     "manuscript/stage6/figures/03_pressure.png": "7c1693203bb17856f040a4814e8ec2e04e9c876ad38bb4b6ab4b6b966d89ac53",
-    "manuscript/stage6/figures/03_pressure.svg": "1c1e14b186c3d95e6eea10d0cb4f3b0f3b6bf2830e3ce86a0890a8db014fba1a",
+    "manuscript/stage6/figures/03_pressure.svg": "344c66defe75834f62bcaef315b63e2078b682e01314207b789ccce327e1340d",
     "manuscript/stage6/figures/04_conditional_learning.png": "8e3fd612a8a38fec550cf355247b1c2b4225863477e36c848f38d9b862929979",
-    "manuscript/stage6/figures/04_conditional_learning.svg": "8eb92fecc4a3836b8be2876592be66fc8ac30c17254fac935f5fd2f187d66b1a",
+    "manuscript/stage6/figures/04_conditional_learning.svg": "7570b2dbd3ad92e5425b867291f3b79d93e24d0408d0ace1d97655e69c380913",
     "manuscript/stage6/figures/05_exposure.png": "3133395d7a9c149f214b5d04c321883b0a179f43e4d55c82021b7a16a92d8b53",
-    "manuscript/stage6/figures/05_exposure.svg": "6ff81252e915483b8077d4404ffc2e3618e0ac26df17cfae38cb2635fd75389c",
+    "manuscript/stage6/figures/05_exposure.svg": "94045a245756616616adcf0eddb8d4c99f6bc7e79734183e98157f583f904a55",
     "manuscript/stage6/figures/06_pressure_tradeoff.png": "b99c06f34aefa7c303a4279c093377686bd9e5004be443153eacaaf31a4a49ed",
-    "manuscript/stage6/figures/06_pressure_tradeoff.svg": "34c6704c2b1a6db2f8ef46a586f9b4c193baaeec2da8ebe39a9569b0e4171877",
+    "manuscript/stage6/figures/06_pressure_tradeoff.svg": "1102cbbe5c9522d54136fb8157c49682cc855989926cad3a87219f90ff9285be",
     "manuscript/stage6/figures/07_integration.png": "3951413e7fe49c0fe715795fca7db89db574b2c9d6a43643e08026e65077fb39",
-    "manuscript/stage6/figures/07_integration.svg": "761e162cfd605b82b33144230a4ee3ada21a184dcee2a178c9e2ec096070aff1",
-    "manuscript/stage6/figures/08_evidence.png": "7a1ad0164f7183aebd771814fb8b43efc32f1059a01daec7f52b8737ba586d9d",
-    "manuscript/stage6/figures/08_evidence.svg": "f7c74facf09a053bcefafde37bfa9f46aa2fb24595071027aca416f8dff442fa",
+    "manuscript/stage6/figures/07_integration.svg": "73fb66d7d67d0e9dbce0273734da2d02cb49056ee9a6fc069ffe2bf9c579d604",
+    "manuscript/stage6/figures/08_evidence.png": "23537e91b5728a7b84559bbeab35bbc47cc7a746f48c0577fceeb1ffb28f045c",
+    "manuscript/stage6/figures/08_evidence.svg": "ffa1f320f0e34482a66c9ad71e538e3cb08321c086779c897185df2db1b73294",
     "manuscript/stage6/figures/09_runtime.png": "088923b510d1102bc12fc5432072029d9479190ba67ff27f316c111f963c8160",
-    "manuscript/stage6/figures/09_runtime.svg": "578c255cef3947f17e5af0b0dfe9f9a58ddf9abd1221991dffe7cb31ff9be2dd"
+    "manuscript/stage6/figures/09_runtime.svg": "0f0405d25463ee2e710f7beb5e41d358a4c31797fbd10cde09eb5a78c4f1c961"
   }
 }

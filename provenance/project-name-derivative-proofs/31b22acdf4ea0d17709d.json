@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "firmware/nrf5340/uart-revision/artifacts/scci_rh.map",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "7eb9c3f7dc987b576aaad4f7dc361e35306055fc5b31a2a4d1a1110fae2b9de0",
+  "current_sha256": "9544fb77f176bf38506ec9f6f1f1292db2289857fce0efa11a55fd339735cf1d",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-target-build-date-metadata.json",
+      "sha256_lf": "0e8a2df7355024b1412bbba38beac6021318b8f361fd2d69ab1184f5b03379cd"
+    }
+  ]
+}

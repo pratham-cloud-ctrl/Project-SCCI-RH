@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "experiments/stage3/observed-state-observer/frozen/drift_forecast_exploratory_observations_12oct.json.gz",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "8b86e2980dbe9501a09587a3ea7669f5f0618cb2fceb8db67510810271687d4e",
+  "current_sha256": "b0857e8a59860b1c27b6668d498ee439113b5ca4920805b4a740e43a7c4123f5",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

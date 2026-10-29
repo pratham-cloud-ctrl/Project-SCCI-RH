@@ -9,5 +9,5 @@ data={'summary':json.loads((ROOT/'results'/'summary.json').read_text()),
       'motor':trace('motor_example_trace.csv'),'pressure':trace('pressure_example_trace.csv'),
       'fault':trace('pressure_fault_trace.csv')}
 template=(ROOT/'site'/'template.html').read_text(encoding='utf-8')
-(ROOT/'site'/'index.html').write_text(template.replace('__ATO_DATA__',json.dumps(data,separators=(',',':'),allow_nan=False)),encoding='utf-8')
+(ROOT/'site'/'index.html').write_text(template.replace('__SCCI_RH_DATA__',json.dumps(data,separators=(',',':'),allow_nan=False)),encoding='utf-8')
 print('Self-contained study data embedded in site/index.html.')

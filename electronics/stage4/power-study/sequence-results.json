@@ -1,11 +1,11 @@
 {
-  "schema": "ato.stage4.power-sequence.v1",
+  "schema": "scci_rh.stage4.power-sequence.v1",
   "date": "2026-10-14",
-  "source_sha256_lf": "d04101f9e0d4c76bc2f09b08227dbed2847093e60310a98b19781c48833a2a1a",
+  "source_sha256_lf": "d3cb91fde4bf93ba003a4b93bf50b58b2b2d34f98768f5cf54408fba96091277",
   "scope": "Actual native gate/enable pin audit and finite valid-supply ideal event adapter to prior sticky supervision",
   "native_audit": {
-    "native_XML_sha256_lf": "fd0dd56627e320921b5906c81adfc2b830c6a35a19c4b0a5c7bbbdd7d820fbff",
-    "native_manifest_sha256_lf": "787f5b5d14508b8e90058d14c593b8b4b5b96ccf2252766e721ab9e0e58703a8",
+    "native_XML_sha256_lf": "86dbfd66578c6f3a1a8d42e23fb0bf5d1da4fbb88a9560ab04fb40d7b0156be4",
+    "native_manifest_sha256_lf": "8e09d19bcab498a826910319cb90a40363cef62c0710dc8db0945fc68938096f",
     "Boolean_input_rows": 256,
     "gate_output_comparisons": 1536,
     "gate_truth_sha256": "4e1b951a545dfd4ca90e4b53f7ad3b45be35761615a9c80877c6b623e38f99de",

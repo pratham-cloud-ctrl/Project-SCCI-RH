@@ -1,4 +1,4 @@
-# ATO electrical reference and digital verification
+# SCCI_RH electrical reference and digital verification
 
 The electronics give part of the future architecture a concrete, inspectable
 mechanism. The board amplifies a small **artificial** voltage and reverses a
@@ -8,7 +8,7 @@ regulate pressure. Both application studies remain separate synthetic models.
 
 ## Native design and external interfaces
 
-The editable [KiCad project](../electronics/ato_reference.kicad_pro) has an
+The editable [KiCad project](../electronics/scci_rh_reference.kicad_pro) has an
 80 x 50 x 1.6 mm two-layer board. Four 3.2 mm mounting holes are at board
 coordinates (10,10), (70,10), (10,40), (70,40) mm. The native schematic and PCB
 derive from the same [connectivity manifest](../electronics/connectivity.json).

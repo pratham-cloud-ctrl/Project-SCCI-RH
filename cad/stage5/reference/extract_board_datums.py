@@ -22,6 +22,6 @@ for folder in sorted((PKG/'exports').iterdir()):
     receipt=json.loads((folder/'export-receipt.json').read_text())
     assert len(mounts)==4
     boards.append(dict(board=name,pcb=path.relative_to(ROOT).as_posix(),pcb_sha256_lf=sha(path),step=(folder/'populated.step').relative_to(ROOT).as_posix(),step_sha256=sha(folder/'populated.step'),outline_mm=[pcb.ToMM(bb.GetWidth())-.05,pcb.ToMM(bb.GetHeight())-.05],fitted_components=receipt['fitted_component_count'],mounts=sorted(mounts,key=lambda x:x['reference']),connectors=sorted(connectors,key=lambda x:x['reference'])))
-(HERE/'board-datums.json').write_text(json.dumps(dict(schema='ato.stage5.board-datums.v1',boards=boards),indent=2)+'\n')
+(HERE/'board-datums.json').write_text(json.dumps(dict(schema='scci_rh.stage5.board-datums.v1',boards=boards),indent=2)+'\n')
 print('Extracted',len(boards),'boards /',sum(len(b['mounts']) for b in boards),'native mounting axes /',sum(len(b['connectors']) for b in boards),'connector datums')
 

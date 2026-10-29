@@ -1,8 +1,8 @@
-# Project ATO: Stage 1 design dossier
+# Project SCCI RH: Stage 1 design dossier
 
 8 October 2026. Full-system proposal; electronics/CAD implementation follows.
 
-Read the [illustrated brief](../../output/pdf/ATO_stage1_system_specification.pdf)
+Read the [illustrated brief](../../output/pdf/SCCI_RH_stage1_system_specification.pdf)
 for an overview, then the [mechanism specification](system-specification.md) for
 the complete proposed device and its two application chains.
 

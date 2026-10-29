@@ -1,10 +1,10 @@
 {
-  "schema": "ato.stage3.motor-summary.v1",
+  "schema": "scci_rh.stage3.motor-summary.v1",
   "runs": [
     {
       "configuration_label": "nominal",
       "study": {
-        "schema": "ATO-S3-MOTOR-1",
+        "schema": "SCCI_RH-S3-MOTOR-1",
         "seed": 0,
         "config": {
           "dt_s": 0.005,
@@ -12210,7 +12210,7 @@
     {
       "configuration_label": "nominal",
       "study": {
-        "schema": "ATO-S3-MOTOR-1",
+        "schema": "SCCI_RH-S3-MOTOR-1",
         "seed": 1,
         "config": {
           "dt_s": 0.005,
@@ -24283,7 +24283,7 @@
     {
       "configuration_label": "nominal",
       "study": {
-        "schema": "ATO-S3-MOTOR-1",
+        "schema": "SCCI_RH-S3-MOTOR-1",
         "seed": 2,
         "config": {
           "dt_s": 0.005,
@@ -36356,7 +36356,7 @@
     {
       "configuration_label": "nominal",
       "study": {
-        "schema": "ATO-S3-MOTOR-1",
+        "schema": "SCCI_RH-S3-MOTOR-1",
         "seed": 3,
         "config": {
           "dt_s": 0.005,
@@ -48429,7 +48429,7 @@
     {
       "configuration_label": "fast_response_sensitivity",
       "study": {
-        "schema": "ATO-S3-MOTOR-1",
+        "schema": "SCCI_RH-S3-MOTOR-1",
         "seed": 0,
         "config": {
           "dt_s": 0.005,
@@ -60635,7 +60635,7 @@
     {
       "configuration_label": "fast_response_sensitivity",
       "study": {
-        "schema": "ATO-S3-MOTOR-1",
+        "schema": "SCCI_RH-S3-MOTOR-1",
         "seed": 1,
         "config": {
           "dt_s": 0.005,
@@ -72708,7 +72708,7 @@
     {
       "configuration_label": "fast_response_sensitivity",
       "study": {
-        "schema": "ATO-S3-MOTOR-1",
+        "schema": "SCCI_RH-S3-MOTOR-1",
         "seed": 2,
         "config": {
           "dt_s": 0.005,
@@ -84781,7 +84781,7 @@
     {
       "configuration_label": "fast_response_sensitivity",
       "study": {
-        "schema": "ATO-S3-MOTOR-1",
+        "schema": "SCCI_RH-S3-MOTOR-1",
         "seed": 3,
         "config": {
           "dt_s": 0.005,
@@ -96854,7 +96854,7 @@
     {
       "configuration_label": "conditional_fast_response_assumed_delivery",
       "study": {
-        "schema": "ATO-S3-MOTOR-1",
+        "schema": "SCCI_RH-S3-MOTOR-1",
         "seed": 0,
         "config": {
           "dt_s": 0.005,
@@ -105634,7 +105634,7 @@
     {
       "configuration_label": "conditional_fast_response_assumed_delivery",
       "study": {
-        "schema": "ATO-S3-MOTOR-1",
+        "schema": "SCCI_RH-S3-MOTOR-1",
         "seed": 1,
         "config": {
           "dt_s": 0.005,
@@ -114272,7 +114272,7 @@
     {
       "configuration_label": "conditional_fast_response_assumed_delivery",
       "study": {
-        "schema": "ATO-S3-MOTOR-1",
+        "schema": "SCCI_RH-S3-MOTOR-1",
         "seed": 2,
         "config": {
           "dt_s": 0.005,
@@ -122897,7 +122897,7 @@
     {
       "configuration_label": "conditional_fast_response_assumed_delivery",
       "study": {
-        "schema": "ATO-S3-MOTOR-1",
+        "schema": "SCCI_RH-S3-MOTOR-1",
         "seed": 3,
         "config": {
           "dt_s": 0.005,

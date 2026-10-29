@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage4.router-checkpoint-review.v1",
+  "schema": "scci_rh.stage4.router-checkpoint-review.v1",
   "date": "2026-10-13",
   "native_components": 155,
   "native_pin_contracts": 650,
@@ -63,16 +63,16 @@
   "historical_packages_and_synced_sources_modified": false,
   "hash_policy": "SHA256 LF-normalized text and exact PDF/binary",
   "sha256": {
-    "electronics/stage4/contact-router/connectivity.json": "cd14e9e2c6e9e61cd615a5aa75c5a41e7fbfb899895ad4ebd1c09d4e1973f41c",
+    "electronics/stage4/contact-router/connectivity.json": "d6c60149961011eae9256fa37a39b93ec3384bdef3fb6785fec433b7c623a9ab",
     "electronics/stage4/contact-router/contact_router.pdf": "6335988e5f2603095754af1f0736a2195e6e3b46c48be3f88cbbf85f4e7f1e96",
-    "electronics/stage4/contact-router/verification.json": "1965e5f47a5b0a1ff3617fec49590871729b9fb606548f6f94082da67ef0dd89",
-    "electronics/stage4/routing-study/route-results.json": "5547500e01f7b4f70dd635a19d3de0814dbd317232d17be1cf19602cbef99f81",
-    "electronics/stage4/routing-study/parasitic-results.json": "2894224d214deca76e49634ce9c487de3c0024f742d2831e09199547c8793eac",
-    "electronics/stage4/routing-study/parasitic-verification.json": "20e3f6e158f25c0b227cbdc6a5a93c22f14566075632c5d55565ee2a8577efc0",
+    "electronics/stage4/contact-router/verification.json": "c83e86bf4c5564de5a18e46bfbb8964abc16ddfea15679456c2ca89710af5575",
+    "electronics/stage4/routing-study/route-results.json": "bc4c3619e65556ea6d970db8aa794a03d737663f8ce6933a06b95302e4426912",
+    "electronics/stage4/routing-study/parasitic-results.json": "52b8652a2623c19b40bf39adfb9de905b15dfddac72b10e27b1a4935145940f3",
+    "electronics/stage4/routing-study/parasitic-verification.json": "d3168ea87a13aa16bc2139581956517d3ea9356272af885c109a4673668ba879",
     "docs/stage4/contact-router-component-review.md": "03b0570961525d77474e317981529de512cb1208ea926407475237ce39e008e7",
-    "docs/stage4/contact-router-control-contract.md": "09ae7004a7ad1a643ff5bc53bec9c6c214c9fa5acb361b513d2d54155dac91ca",
-    "docs/stage4/contact-router-design.md": "e3034a60471fc0bfe936b43e3278a5182a48c505e368b14860ec357fa3e98c32",
+    "docs/stage4/contact-router-control-contract.md": "3a9ba75a14f11b722e2156d31ebebb955f1665c8dbbbae21dad73781a55ca3e6",
+    "docs/stage4/contact-router-design.md": "a91160b30f5985c40c526e41e8285bd83dd9ca37c04c2b9286796e1ef701400b",
     "docs/stage4/remaining-work.md": "6997ee4e84a8972002a4fb2a9b4947f95a4da88242be8ef42708189e748436bc",
-    "provenance/stage4-mcp-readiness.json": "06050c589c8cab0471ee3cec530d93ac9e073ea9858c53ad054a999f1be3fc3b"
+    "provenance/stage4-mcp-readiness.json": "16a5ff3c78c068800b8a2bfd533ce07858a0b133ea6d05e969201b37a8eef67f"
   }
 }

@@ -1,12 +1,12 @@
 {
-  "schema": "ato.stage5.combined-native-inspection.v1",
+  "schema": "scci_rh.stage5.combined-native-inspection.v1",
   "passed": true,
-  "native": "cad/stage5/ATO_stage5_reference_full.FCStd",
-  "native_sha256": "b4323834775d269d458726106929aa30a197aebb93b7eb6c6f7e9e23f49f386b",
-  "reference_native_sha256": "764a4e7a9ec8212fefb1c9c0deb7cab2ee76a5c9e72b2895f9199c98d0e5ae9a",
-  "harness_native_sha256": "6079242db047b70f21114a3eac33c0a8cce77260a189033362feb2b3bacbacf9",
+  "native": "cad/stage5/SCCI_RH_stage5_reference_full.FCStd",
+  "native_sha256": "2b39d33d30866d3fa0e9cd9d0ad7f20405466cda20d8cbe907a66c2278f1d355",
+  "reference_native_sha256": "eb720889c30de3c15015d1a4c765cc5791eeb8b4df733da222730497acd88dd3",
+  "harness_native_sha256": "141e4301f41cfa303b594d66c324e2f881d0deaeacc05586cf95e11be8b29e48",
   "inspector": "scripts/inspect_stage5_combined.py",
-  "inspector_sha256_lf": "80dc4f876b940585a142c023d8bc98a9e29b3411b12cdb0e980ed8f997d4b9cd",
+  "inspector_sha256_lf": "8eba1aa6337d499694082904c427863bd2a716d23858e8f25cc405e3ac4b8f55",
   "physical_objects": 260,
   "all_valid": true,
   "source_parts_compared": 260,
@@ -16,7 +16,7 @@
   "parts": [
     {
       "label": "Base",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "BaseBlank",
       "source_geometry": {
         "solids": 1,
@@ -44,7 +44,7 @@
     },
     {
       "label": "SideLeft",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LeftWallBlank",
       "source_geometry": {
         "solids": 1,
@@ -72,7 +72,7 @@
     },
     {
       "label": "SideRight",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RightWallBlank",
       "source_geometry": {
         "solids": 1,
@@ -100,7 +100,7 @@
     },
     {
       "label": "FrontBracket_0_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FrontBracketCut_0_0",
       "source_geometry": {
         "solids": 1,
@@ -128,7 +128,7 @@
     },
     {
       "label": "FrontScrew_0_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FrontScrew_0_0",
       "source_geometry": {
         "solids": 1,
@@ -156,7 +156,7 @@
     },
     {
       "label": "FrontBracket_0_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FrontBracketCut_0_1",
       "source_geometry": {
         "solids": 1,
@@ -184,7 +184,7 @@
     },
     {
       "label": "FrontScrew_0_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FrontScrew_0_1",
       "source_geometry": {
         "solids": 1,
@@ -212,7 +212,7 @@
     },
     {
       "label": "FrontBracket_1_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FrontBracketCut_1_0",
       "source_geometry": {
         "solids": 1,
@@ -240,7 +240,7 @@
     },
     {
       "label": "FrontScrew_1_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FrontScrew_1_0",
       "source_geometry": {
         "solids": 1,
@@ -268,7 +268,7 @@
     },
     {
       "label": "FrontBracket_1_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FrontBracketCut_1_1",
       "source_geometry": {
         "solids": 1,
@@ -296,7 +296,7 @@
     },
     {
       "label": "FrontScrew_1_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FrontScrew_1_1",
       "source_geometry": {
         "solids": 1,
@@ -324,7 +324,7 @@
     },
     {
       "label": "FrontPanel",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FrontPanelCut",
       "source_geometry": {
         "solids": 1,
@@ -352,7 +352,7 @@
     },
     {
       "label": "RearPanel",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RearPanelCut",
       "source_geometry": {
         "solids": 1,
@@ -380,7 +380,7 @@
     },
     {
       "label": "Post_0_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FramePostCut_0_0",
       "source_geometry": {
         "solids": 1,
@@ -408,7 +408,7 @@
     },
     {
       "label": "LidScrew_0_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LidFastener_0_0",
       "source_geometry": {
         "solids": 1,
@@ -436,7 +436,7 @@
     },
     {
       "label": "Post_0_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FramePostCut_0_1",
       "source_geometry": {
         "solids": 1,
@@ -464,7 +464,7 @@
     },
     {
       "label": "LidScrew_0_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LidFastener_0_1",
       "source_geometry": {
         "solids": 1,
@@ -492,7 +492,7 @@
     },
     {
       "label": "Post_1_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FramePostCut_1_0",
       "source_geometry": {
         "solids": 1,
@@ -520,7 +520,7 @@
     },
     {
       "label": "LidScrew_1_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LidFastener_1_0",
       "source_geometry": {
         "solids": 1,
@@ -548,7 +548,7 @@
     },
     {
       "label": "Post_1_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FramePostCut_1_1",
       "source_geometry": {
         "solids": 1,
@@ -576,7 +576,7 @@
     },
     {
       "label": "LidScrew_1_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LidFastener_1_1",
       "source_geometry": {
         "solids": 1,
@@ -604,7 +604,7 @@
     },
     {
       "label": "Post_2_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FramePostCut_2_0",
       "source_geometry": {
         "solids": 1,
@@ -632,7 +632,7 @@
     },
     {
       "label": "LidScrew_2_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LidFastener_2_0",
       "source_geometry": {
         "solids": 1,
@@ -660,7 +660,7 @@
     },
     {
       "label": "Post_2_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FramePostCut_2_1",
       "source_geometry": {
         "solids": 1,
@@ -688,7 +688,7 @@
     },
     {
       "label": "LidScrew_2_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LidFastener_2_1",
       "source_geometry": {
         "solids": 1,
@@ -716,7 +716,7 @@
     },
     {
       "label": "Post_3_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FramePostCut_3_0",
       "source_geometry": {
         "solids": 1,
@@ -744,7 +744,7 @@
     },
     {
       "label": "LidScrew_3_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LidFastener_3_0",
       "source_geometry": {
         "solids": 1,
@@ -772,7 +772,7 @@
     },
     {
       "label": "Post_3_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FramePostCut_3_1",
       "source_geometry": {
         "solids": 1,
@@ -800,7 +800,7 @@
     },
     {
       "label": "LidScrew_3_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LidFastener_3_1",
       "source_geometry": {
         "solids": 1,
@@ -828,7 +828,7 @@
     },
     {
       "label": "Lid",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LidCut",
       "source_geometry": {
         "solids": 1,
@@ -856,7 +856,7 @@
     },
     {
       "label": "Foot_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RubberFoot_0",
       "source_geometry": {
         "solids": 1,
@@ -884,7 +884,7 @@
     },
     {
       "label": "Foot_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RubberFoot_1",
       "source_geometry": {
         "solids": 1,
@@ -912,7 +912,7 @@
     },
     {
       "label": "Foot_2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RubberFoot_2",
       "source_geometry": {
         "solids": 1,
@@ -940,7 +940,7 @@
     },
     {
       "label": "Foot_3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RubberFoot_3",
       "source_geometry": {
         "solids": 1,
@@ -968,7 +968,7 @@
     },
     {
       "label": "Rail_left_0_left",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_left_0_left",
       "source_geometry": {
         "solids": 1,
@@ -996,7 +996,7 @@
     },
     {
       "label": "Rail_left_0_right",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_left_0_right",
       "source_geometry": {
         "solids": 1,
@@ -1024,7 +1024,7 @@
     },
     {
       "label": "Rail_left_1_left",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_left_1_left",
       "source_geometry": {
         "solids": 1,
@@ -1052,7 +1052,7 @@
     },
     {
       "label": "Rail_left_1_right",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_left_1_right",
       "source_geometry": {
         "solids": 1,
@@ -1080,7 +1080,7 @@
     },
     {
       "label": "Rail_left_2_left",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_left_2_left",
       "source_geometry": {
         "solids": 1,
@@ -1108,7 +1108,7 @@
     },
     {
       "label": "Rail_left_2_right",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_left_2_right",
       "source_geometry": {
         "solids": 1,
@@ -1136,7 +1136,7 @@
     },
     {
       "label": "Rail_left_3_left",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_left_3_left",
       "source_geometry": {
         "solids": 1,
@@ -1164,7 +1164,7 @@
     },
     {
       "label": "Rail_left_3_right",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_left_3_right",
       "source_geometry": {
         "solids": 1,
@@ -1192,7 +1192,7 @@
     },
     {
       "label": "Rail_right_0_left",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_right_0_left",
       "source_geometry": {
         "solids": 1,
@@ -1220,7 +1220,7 @@
     },
     {
       "label": "Rail_right_0_right",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_right_0_right",
       "source_geometry": {
         "solids": 1,
@@ -1248,7 +1248,7 @@
     },
     {
       "label": "Rail_right_1_left",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_right_1_left",
       "source_geometry": {
         "solids": 1,
@@ -1276,7 +1276,7 @@
     },
     {
       "label": "Rail_right_1_right",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_right_1_right",
       "source_geometry": {
         "solids": 1,
@@ -1304,7 +1304,7 @@
     },
     {
       "label": "Rail_right_2_left",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_right_2_left",
       "source_geometry": {
         "solids": 1,
@@ -1332,7 +1332,7 @@
     },
     {
       "label": "Rail_right_2_right",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_right_2_right",
       "source_geometry": {
         "solids": 1,
@@ -1360,7 +1360,7 @@
     },
     {
       "label": "Rail_right_3_left",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_right_3_left",
       "source_geometry": {
         "solids": 1,
@@ -1388,7 +1388,7 @@
     },
     {
       "label": "Rail_right_3_right",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_right_3_right",
       "source_geometry": {
         "solids": 1,
@@ -1416,7 +1416,7 @@
     },
     {
       "label": "Standoff_contact_router_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_contact_router_H1",
       "source_geometry": {
         "solids": 1,
@@ -1444,7 +1444,7 @@
     },
     {
       "label": "UpperScrew_contact_router_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_contact_router_H1",
       "source_geometry": {
         "solids": 1,
@@ -1472,7 +1472,7 @@
     },
     {
       "label": "LowerScrew_contact_router_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_contact_router_H1",
       "source_geometry": {
         "solids": 1,
@@ -1500,7 +1500,7 @@
     },
     {
       "label": "Standoff_contact_router_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_contact_router_H2",
       "source_geometry": {
         "solids": 1,
@@ -1528,7 +1528,7 @@
     },
     {
       "label": "UpperScrew_contact_router_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_contact_router_H2",
       "source_geometry": {
         "solids": 1,
@@ -1556,7 +1556,7 @@
     },
     {
       "label": "LowerScrew_contact_router_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_contact_router_H2",
       "source_geometry": {
         "solids": 1,
@@ -1584,7 +1584,7 @@
     },
     {
       "label": "Standoff_contact_router_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_contact_router_H3",
       "source_geometry": {
         "solids": 1,
@@ -1612,7 +1612,7 @@
     },
     {
       "label": "UpperScrew_contact_router_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_contact_router_H3",
       "source_geometry": {
         "solids": 1,
@@ -1640,7 +1640,7 @@
     },
     {
       "label": "LowerScrew_contact_router_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_contact_router_H3",
       "source_geometry": {
         "solids": 1,
@@ -1668,7 +1668,7 @@
     },
     {
       "label": "Standoff_contact_router_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_contact_router_H4",
       "source_geometry": {
         "solids": 1,
@@ -1696,7 +1696,7 @@
     },
     {
       "label": "UpperScrew_contact_router_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_contact_router_H4",
       "source_geometry": {
         "solids": 1,
@@ -1724,7 +1724,7 @@
     },
     {
       "label": "LowerScrew_contact_router_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_contact_router_H4",
       "source_geometry": {
         "solids": 1,
@@ -1752,7 +1752,7 @@
     },
     {
       "label": "Tray_contact_router",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "TrayPocket_contact_router",
       "source_geometry": {
         "solids": 1,
@@ -1780,7 +1780,7 @@
     },
     {
       "label": "Pull_contact_router",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PullCut_contact_router",
       "source_geometry": {
         "solids": 1,
@@ -1808,7 +1808,7 @@
     },
     {
       "label": "Standoff_controller_carrier_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_controller_carrier_H1",
       "source_geometry": {
         "solids": 1,
@@ -1836,7 +1836,7 @@
     },
     {
       "label": "UpperScrew_controller_carrier_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_controller_carrier_H1",
       "source_geometry": {
         "solids": 1,
@@ -1864,7 +1864,7 @@
     },
     {
       "label": "LowerScrew_controller_carrier_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_controller_carrier_H1",
       "source_geometry": {
         "solids": 1,
@@ -1892,7 +1892,7 @@
     },
     {
       "label": "Standoff_controller_carrier_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_controller_carrier_H2",
       "source_geometry": {
         "solids": 1,
@@ -1920,7 +1920,7 @@
     },
     {
       "label": "UpperScrew_controller_carrier_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_controller_carrier_H2",
       "source_geometry": {
         "solids": 1,
@@ -1948,7 +1948,7 @@
     },
     {
       "label": "LowerScrew_controller_carrier_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_controller_carrier_H2",
       "source_geometry": {
         "solids": 1,
@@ -1976,7 +1976,7 @@
     },
     {
       "label": "Standoff_controller_carrier_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_controller_carrier_H3",
       "source_geometry": {
         "solids": 1,
@@ -2004,7 +2004,7 @@
     },
     {
       "label": "UpperScrew_controller_carrier_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_controller_carrier_H3",
       "source_geometry": {
         "solids": 1,
@@ -2032,7 +2032,7 @@
     },
     {
       "label": "LowerScrew_controller_carrier_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_controller_carrier_H3",
       "source_geometry": {
         "solids": 1,
@@ -2060,7 +2060,7 @@
     },
     {
       "label": "Standoff_controller_carrier_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_controller_carrier_H4",
       "source_geometry": {
         "solids": 1,
@@ -2088,7 +2088,7 @@
     },
     {
       "label": "UpperScrew_controller_carrier_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_controller_carrier_H4",
       "source_geometry": {
         "solids": 1,
@@ -2116,7 +2116,7 @@
     },
     {
       "label": "LowerScrew_controller_carrier_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_controller_carrier_H4",
       "source_geometry": {
         "solids": 1,
@@ -2144,7 +2144,7 @@
     },
     {
       "label": "Tray_controller_carrier",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "TrayPocket_controller_carrier",
       "source_geometry": {
         "solids": 1,
@@ -2172,7 +2172,7 @@
     },
     {
       "label": "Pull_controller_carrier",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PullCut_controller_carrier",
       "source_geometry": {
         "solids": 1,
@@ -2200,7 +2200,7 @@
     },
     {
       "label": "Standoff_current_driver_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_current_driver_H1",
       "source_geometry": {
         "solids": 1,
@@ -2228,7 +2228,7 @@
     },
     {
       "label": "UpperScrew_current_driver_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_current_driver_H1",
       "source_geometry": {
         "solids": 1,
@@ -2256,7 +2256,7 @@
     },
     {
       "label": "LowerScrew_current_driver_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_current_driver_H1",
       "source_geometry": {
         "solids": 1,
@@ -2284,7 +2284,7 @@
     },
     {
       "label": "Standoff_current_driver_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_current_driver_H2",
       "source_geometry": {
         "solids": 1,
@@ -2312,7 +2312,7 @@
     },
     {
       "label": "UpperScrew_current_driver_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_current_driver_H2",
       "source_geometry": {
         "solids": 1,
@@ -2340,7 +2340,7 @@
     },
     {
       "label": "LowerScrew_current_driver_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_current_driver_H2",
       "source_geometry": {
         "solids": 1,
@@ -2368,7 +2368,7 @@
     },
     {
       "label": "Standoff_current_driver_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_current_driver_H3",
       "source_geometry": {
         "solids": 1,
@@ -2396,7 +2396,7 @@
     },
     {
       "label": "UpperScrew_current_driver_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_current_driver_H3",
       "source_geometry": {
         "solids": 1,
@@ -2424,7 +2424,7 @@
     },
     {
       "label": "LowerScrew_current_driver_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_current_driver_H3",
       "source_geometry": {
         "solids": 1,
@@ -2452,7 +2452,7 @@
     },
     {
       "label": "Standoff_current_driver_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_current_driver_H4",
       "source_geometry": {
         "solids": 1,
@@ -2480,7 +2480,7 @@
     },
     {
       "label": "UpperScrew_current_driver_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_current_driver_H4",
       "source_geometry": {
         "solids": 1,
@@ -2508,7 +2508,7 @@
     },
     {
       "label": "LowerScrew_current_driver_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_current_driver_H4",
       "source_geometry": {
         "solids": 1,
@@ -2536,7 +2536,7 @@
     },
     {
       "label": "Tray_current_driver",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "TrayPocket_current_driver",
       "source_geometry": {
         "solids": 1,
@@ -2564,7 +2564,7 @@
     },
     {
       "label": "Pull_current_driver",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PullCut_current_driver",
       "source_geometry": {
         "solids": 1,
@@ -2592,7 +2592,7 @@
     },
     {
       "label": "Standoff_monitoring_cell_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_monitoring_cell_H1",
       "source_geometry": {
         "solids": 1,
@@ -2620,7 +2620,7 @@
     },
     {
       "label": "UpperScrew_monitoring_cell_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_monitoring_cell_H1",
       "source_geometry": {
         "solids": 1,
@@ -2648,7 +2648,7 @@
     },
     {
       "label": "LowerScrew_monitoring_cell_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_monitoring_cell_H1",
       "source_geometry": {
         "solids": 1,
@@ -2676,7 +2676,7 @@
     },
     {
       "label": "Standoff_monitoring_cell_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_monitoring_cell_H2",
       "source_geometry": {
         "solids": 1,
@@ -2704,7 +2704,7 @@
     },
     {
       "label": "UpperScrew_monitoring_cell_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_monitoring_cell_H2",
       "source_geometry": {
         "solids": 1,
@@ -2732,7 +2732,7 @@
     },
     {
       "label": "LowerScrew_monitoring_cell_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_monitoring_cell_H2",
       "source_geometry": {
         "solids": 1,
@@ -2760,7 +2760,7 @@
     },
     {
       "label": "Standoff_monitoring_cell_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_monitoring_cell_H3",
       "source_geometry": {
         "solids": 1,
@@ -2788,7 +2788,7 @@
     },
     {
       "label": "UpperScrew_monitoring_cell_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_monitoring_cell_H3",
       "source_geometry": {
         "solids": 1,
@@ -2816,7 +2816,7 @@
     },
     {
       "label": "LowerScrew_monitoring_cell_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_monitoring_cell_H3",
       "source_geometry": {
         "solids": 1,
@@ -2844,7 +2844,7 @@
     },
     {
       "label": "Standoff_monitoring_cell_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_monitoring_cell_H4",
       "source_geometry": {
         "solids": 1,
@@ -2872,7 +2872,7 @@
     },
     {
       "label": "UpperScrew_monitoring_cell_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_monitoring_cell_H4",
       "source_geometry": {
         "solids": 1,
@@ -2900,7 +2900,7 @@
     },
     {
       "label": "LowerScrew_monitoring_cell_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_monitoring_cell_H4",
       "source_geometry": {
         "solids": 1,
@@ -2928,7 +2928,7 @@
     },
     {
       "label": "Tray_monitoring_cell",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "TrayPocket_monitoring_cell",
       "source_geometry": {
         "solids": 1,
@@ -2956,7 +2956,7 @@
     },
     {
       "label": "Pull_monitoring_cell",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PullCut_monitoring_cell",
       "source_geometry": {
         "solids": 1,
@@ -2984,7 +2984,7 @@
     },
     {
       "label": "Standoff_monitoring_transport_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_monitoring_transport_H1",
       "source_geometry": {
         "solids": 1,
@@ -3012,7 +3012,7 @@
     },
     {
       "label": "UpperScrew_monitoring_transport_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_monitoring_transport_H1",
       "source_geometry": {
         "solids": 1,
@@ -3040,7 +3040,7 @@
     },
     {
       "label": "LowerScrew_monitoring_transport_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_monitoring_transport_H1",
       "source_geometry": {
         "solids": 1,
@@ -3068,7 +3068,7 @@
     },
     {
       "label": "Standoff_monitoring_transport_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_monitoring_transport_H2",
       "source_geometry": {
         "solids": 1,
@@ -3096,7 +3096,7 @@
     },
     {
       "label": "UpperScrew_monitoring_transport_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_monitoring_transport_H2",
       "source_geometry": {
         "solids": 1,
@@ -3124,7 +3124,7 @@
     },
     {
       "label": "LowerScrew_monitoring_transport_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_monitoring_transport_H2",
       "source_geometry": {
         "solids": 1,
@@ -3152,7 +3152,7 @@
     },
     {
       "label": "Standoff_monitoring_transport_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_monitoring_transport_H3",
       "source_geometry": {
         "solids": 1,
@@ -3180,7 +3180,7 @@
     },
     {
       "label": "UpperScrew_monitoring_transport_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_monitoring_transport_H3",
       "source_geometry": {
         "solids": 1,
@@ -3208,7 +3208,7 @@
     },
     {
       "label": "LowerScrew_monitoring_transport_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_monitoring_transport_H3",
       "source_geometry": {
         "solids": 1,
@@ -3236,7 +3236,7 @@
     },
     {
       "label": "Standoff_monitoring_transport_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_monitoring_transport_H4",
       "source_geometry": {
         "solids": 1,
@@ -3264,7 +3264,7 @@
     },
     {
       "label": "UpperScrew_monitoring_transport_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_monitoring_transport_H4",
       "source_geometry": {
         "solids": 1,
@@ -3292,7 +3292,7 @@
     },
     {
       "label": "LowerScrew_monitoring_transport_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_monitoring_transport_H4",
       "source_geometry": {
         "solids": 1,
@@ -3320,7 +3320,7 @@
     },
     {
       "label": "Tray_monitoring_transport",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "TrayPocket_monitoring_transport",
       "source_geometry": {
         "solids": 1,
@@ -3348,7 +3348,7 @@
     },
     {
       "label": "Pull_monitoring_transport",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PullCut_monitoring_transport",
       "source_geometry": {
         "solids": 1,
@@ -3376,7 +3376,7 @@
     },
     {
       "label": "Standoff_power_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_power_H1",
       "source_geometry": {
         "solids": 1,
@@ -3404,7 +3404,7 @@
     },
     {
       "label": "UpperScrew_power_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_power_H1",
       "source_geometry": {
         "solids": 1,
@@ -3432,7 +3432,7 @@
     },
     {
       "label": "LowerScrew_power_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_power_H1",
       "source_geometry": {
         "solids": 1,
@@ -3460,7 +3460,7 @@
     },
     {
       "label": "Standoff_power_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_power_H2",
       "source_geometry": {
         "solids": 1,
@@ -3488,7 +3488,7 @@
     },
     {
       "label": "UpperScrew_power_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_power_H2",
       "source_geometry": {
         "solids": 1,
@@ -3516,7 +3516,7 @@
     },
     {
       "label": "LowerScrew_power_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_power_H2",
       "source_geometry": {
         "solids": 1,
@@ -3544,7 +3544,7 @@
     },
     {
       "label": "Standoff_power_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_power_H3",
       "source_geometry": {
         "solids": 1,
@@ -3572,7 +3572,7 @@
     },
     {
       "label": "UpperScrew_power_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_power_H3",
       "source_geometry": {
         "solids": 1,
@@ -3600,7 +3600,7 @@
     },
     {
       "label": "LowerScrew_power_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_power_H3",
       "source_geometry": {
         "solids": 1,
@@ -3628,7 +3628,7 @@
     },
     {
       "label": "Standoff_power_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_power_H4",
       "source_geometry": {
         "solids": 1,
@@ -3656,7 +3656,7 @@
     },
     {
       "label": "UpperScrew_power_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_power_H4",
       "source_geometry": {
         "solids": 1,
@@ -3684,7 +3684,7 @@
     },
     {
       "label": "LowerScrew_power_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_power_H4",
       "source_geometry": {
         "solids": 1,
@@ -3712,7 +3712,7 @@
     },
     {
       "label": "Tray_power",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "TrayPocket_power",
       "source_geometry": {
         "solids": 1,
@@ -3740,7 +3740,7 @@
     },
     {
       "label": "Pull_power",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PullCut_power",
       "source_geometry": {
         "solids": 1,
@@ -3768,7 +3768,7 @@
     },
     {
       "label": "Standoff_recording_front_end_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_recording_front_end_H1",
       "source_geometry": {
         "solids": 1,
@@ -3796,7 +3796,7 @@
     },
     {
       "label": "UpperScrew_recording_front_end_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_recording_front_end_H1",
       "source_geometry": {
         "solids": 1,
@@ -3824,7 +3824,7 @@
     },
     {
       "label": "LowerScrew_recording_front_end_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_recording_front_end_H1",
       "source_geometry": {
         "solids": 1,
@@ -3852,7 +3852,7 @@
     },
     {
       "label": "Standoff_recording_front_end_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_recording_front_end_H2",
       "source_geometry": {
         "solids": 1,
@@ -3880,7 +3880,7 @@
     },
     {
       "label": "UpperScrew_recording_front_end_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_recording_front_end_H2",
       "source_geometry": {
         "solids": 1,
@@ -3908,7 +3908,7 @@
     },
     {
       "label": "LowerScrew_recording_front_end_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_recording_front_end_H2",
       "source_geometry": {
         "solids": 1,
@@ -3936,7 +3936,7 @@
     },
     {
       "label": "Standoff_recording_front_end_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_recording_front_end_H3",
       "source_geometry": {
         "solids": 1,
@@ -3964,7 +3964,7 @@
     },
     {
       "label": "UpperScrew_recording_front_end_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_recording_front_end_H3",
       "source_geometry": {
         "solids": 1,
@@ -3992,7 +3992,7 @@
     },
     {
       "label": "LowerScrew_recording_front_end_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_recording_front_end_H3",
       "source_geometry": {
         "solids": 1,
@@ -4020,7 +4020,7 @@
     },
     {
       "label": "Standoff_recording_front_end_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_recording_front_end_H4",
       "source_geometry": {
         "solids": 1,
@@ -4048,7 +4048,7 @@
     },
     {
       "label": "UpperScrew_recording_front_end_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_recording_front_end_H4",
       "source_geometry": {
         "solids": 1,
@@ -4076,7 +4076,7 @@
     },
     {
       "label": "LowerScrew_recording_front_end_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_recording_front_end_H4",
       "source_geometry": {
         "solids": 1,
@@ -4104,7 +4104,7 @@
     },
     {
       "label": "Tray_recording_front_end",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "TrayPocket_recording_front_end",
       "source_geometry": {
         "solids": 1,
@@ -4132,7 +4132,7 @@
     },
     {
       "label": "Pull_recording_front_end",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PullCut_recording_front_end",
       "source_geometry": {
         "solids": 1,
@@ -4160,7 +4160,7 @@
     },
     {
       "label": "Standoff_supervision_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_supervision_H1",
       "source_geometry": {
         "solids": 1,
@@ -4188,7 +4188,7 @@
     },
     {
       "label": "UpperScrew_supervision_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_supervision_H1",
       "source_geometry": {
         "solids": 1,
@@ -4216,7 +4216,7 @@
     },
     {
       "label": "LowerScrew_supervision_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_supervision_H1",
       "source_geometry": {
         "solids": 1,
@@ -4244,7 +4244,7 @@
     },
     {
       "label": "Standoff_supervision_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_supervision_H2",
       "source_geometry": {
         "solids": 1,
@@ -4272,7 +4272,7 @@
     },
     {
       "label": "UpperScrew_supervision_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_supervision_H2",
       "source_geometry": {
         "solids": 1,
@@ -4300,7 +4300,7 @@
     },
     {
       "label": "LowerScrew_supervision_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_supervision_H2",
       "source_geometry": {
         "solids": 1,
@@ -4328,7 +4328,7 @@
     },
     {
       "label": "Standoff_supervision_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_supervision_H3",
       "source_geometry": {
         "solids": 1,
@@ -4356,7 +4356,7 @@
     },
     {
       "label": "UpperScrew_supervision_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_supervision_H3",
       "source_geometry": {
         "solids": 1,
@@ -4384,7 +4384,7 @@
     },
     {
       "label": "LowerScrew_supervision_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_supervision_H3",
       "source_geometry": {
         "solids": 1,
@@ -4412,7 +4412,7 @@
     },
     {
       "label": "Standoff_supervision_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_supervision_H4",
       "source_geometry": {
         "solids": 1,
@@ -4440,7 +4440,7 @@
     },
     {
       "label": "UpperScrew_supervision_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_supervision_H4",
       "source_geometry": {
         "solids": 1,
@@ -4468,7 +4468,7 @@
     },
     {
       "label": "LowerScrew_supervision_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_supervision_H4",
       "source_geometry": {
         "solids": 1,
@@ -4496,7 +4496,7 @@
     },
     {
       "label": "Tray_supervision",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "TrayPocket_supervision",
       "source_geometry": {
         "solids": 1,
@@ -4524,7 +4524,7 @@
     },
     {
       "label": "Pull_supervision",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PullCut_supervision",
       "source_geometry": {
         "solids": 1,
@@ -4552,7 +4552,7 @@
     },
     {
       "label": "PCB_contact_router",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PCB_contact_router",
       "source_geometry": {
         "solids": 156,
@@ -4580,7 +4580,7 @@
     },
     {
       "label": "PCB_controller_carrier",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PCB_controller_carrier",
       "source_geometry": {
         "solids": 136,
@@ -4608,7 +4608,7 @@
     },
     {
       "label": "PCB_current_driver",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PCB_current_driver",
       "source_geometry": {
         "solids": 165,
@@ -4636,7 +4636,7 @@
     },
     {
       "label": "PCB_monitoring_cell",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PCB_monitoring_cell",
       "source_geometry": {
         "solids": 72,
@@ -4664,7 +4664,7 @@
     },
     {
       "label": "PCB_monitoring_transport",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PCB_monitoring_transport",
       "source_geometry": {
         "solids": 61,
@@ -4692,7 +4692,7 @@
     },
     {
       "label": "PCB_power",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PCB_power",
       "source_geometry": {
         "solids": 208,
@@ -4720,7 +4720,7 @@
     },
     {
       "label": "PCB_recording_front_end",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PCB_recording_front_end",
       "source_geometry": {
         "solids": 296,
@@ -4748,7 +4748,7 @@
     },
     {
       "label": "PCB_supervision",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PCB_supervision",
       "source_geometry": {
         "solids": 574,
@@ -4776,7 +4776,7 @@
     },
     {
       "label": "Mate_contact_router_J40001",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_contact_router_J40001",
       "source_geometry": {
         "solids": 1,
@@ -4804,7 +4804,7 @@
     },
     {
       "label": "Mate_contact_router_J40002",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_contact_router_J40002",
       "source_geometry": {
         "solids": 1,
@@ -4832,7 +4832,7 @@
     },
     {
       "label": "Mate_contact_router_J40003",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_contact_router_J40003",
       "source_geometry": {
         "solids": 1,
@@ -4860,7 +4860,7 @@
     },
     {
       "label": "Mate_contact_router_J40004",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_contact_router_J40004",
       "source_geometry": {
         "solids": 1,
@@ -4888,7 +4888,7 @@
     },
     {
       "label": "Mate_contact_router_J40005",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_contact_router_J40005",
       "source_geometry": {
         "solids": 1,
@@ -4916,7 +4916,7 @@
     },
     {
       "label": "Mate_contact_router_J40006",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_contact_router_J40006",
       "source_geometry": {
         "solids": 1,
@@ -4944,7 +4944,7 @@
     },
     {
       "label": "Mate_contact_router_J40007",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_contact_router_J40007",
       "source_geometry": {
         "solids": 1,
@@ -4972,7 +4972,7 @@
     },
     {
       "label": "Mate_contact_router_J40100",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_contact_router_J40100",
       "source_geometry": {
         "solids": 1,
@@ -5000,7 +5000,7 @@
     },
     {
       "label": "Mate_contact_router_J40200",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_contact_router_J40200",
       "source_geometry": {
         "solids": 1,
@@ -5028,7 +5028,7 @@
     },
     {
       "label": "Mate_controller_carrier_J80001",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80001",
       "source_geometry": {
         "solids": 1,
@@ -5056,7 +5056,7 @@
     },
     {
       "label": "Mate_controller_carrier_J80002",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80002",
       "source_geometry": {
         "solids": 1,
@@ -5084,7 +5084,7 @@
     },
     {
       "label": "Mate_controller_carrier_J80010",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80010",
       "source_geometry": {
         "solids": 1,
@@ -5112,7 +5112,7 @@
     },
     {
       "label": "Mate_controller_carrier_J80011",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80011",
       "source_geometry": {
         "solids": 1,
@@ -5140,7 +5140,7 @@
     },
     {
       "label": "Mate_controller_carrier_J80012",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80012",
       "source_geometry": {
         "solids": 1,
@@ -5168,7 +5168,7 @@
     },
     {
       "label": "Mate_controller_carrier_J80013",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80013",
       "source_geometry": {
         "solids": 1,
@@ -5196,7 +5196,7 @@
     },
     {
       "label": "Mate_controller_carrier_J80014",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80014",
       "source_geometry": {
         "solids": 1,
@@ -5224,7 +5224,7 @@
     },
     {
       "label": "Mate_controller_carrier_J80015",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80015",
       "source_geometry": {
         "solids": 1,
@@ -5252,7 +5252,7 @@
     },
     {
       "label": "Mate_controller_carrier_J80016",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80016",
       "source_geometry": {
         "solids": 1,
@@ -5280,7 +5280,7 @@
     },
     {
       "label": "Mate_controller_carrier_J80017",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80017",
       "source_geometry": {
         "solids": 1,
@@ -5308,7 +5308,7 @@
     },
     {
       "label": "Mate_controller_carrier_J80018",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80018",
       "source_geometry": {
         "solids": 1,
@@ -5336,7 +5336,7 @@
     },
     {
       "label": "Mate_controller_carrier_J80019",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80019",
       "source_geometry": {
         "solids": 1,
@@ -5364,7 +5364,7 @@
     },
     {
       "label": "Mate_controller_carrier_J80020",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80020",
       "source_geometry": {
         "solids": 1,
@@ -5392,7 +5392,7 @@
     },
     {
       "label": "Mate_current_driver_J20001",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_current_driver_J20001",
       "source_geometry": {
         "solids": 1,
@@ -5420,7 +5420,7 @@
     },
     {
       "label": "Mate_current_driver_J20002",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_current_driver_J20002",
       "source_geometry": {
         "solids": 1,
@@ -5448,7 +5448,7 @@
     },
     {
       "label": "Mate_current_driver_J20003",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_current_driver_J20003",
       "source_geometry": {
         "solids": 1,
@@ -5476,7 +5476,7 @@
     },
     {
       "label": "Mate_current_driver_J20004",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_current_driver_J20004",
       "source_geometry": {
         "solids": 1,
@@ -5504,7 +5504,7 @@
     },
     {
       "label": "Mate_current_driver_J20005",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_current_driver_J20005",
       "source_geometry": {
         "solids": 1,
@@ -5532,7 +5532,7 @@
     },
     {
       "label": "Mate_current_driver_J20100",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_current_driver_J20100",
       "source_geometry": {
         "solids": 1,
@@ -5560,7 +5560,7 @@
     },
     {
       "label": "Mate_current_driver_J20200",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_current_driver_J20200",
       "source_geometry": {
         "solids": 1,
@@ -5588,7 +5588,7 @@
     },
     {
       "label": "Mate_monitoring_cell_J10001",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_cell_J10001",
       "source_geometry": {
         "solids": 1,
@@ -5616,7 +5616,7 @@
     },
     {
       "label": "Mate_monitoring_cell_J10002",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_cell_J10002",
       "source_geometry": {
         "solids": 1,
@@ -5644,7 +5644,7 @@
     },
     {
       "label": "Mate_monitoring_cell_J10003",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_cell_J10003",
       "source_geometry": {
         "solids": 1,
@@ -5672,7 +5672,7 @@
     },
     {
       "label": "Mate_monitoring_cell_J10004",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_cell_J10004",
       "source_geometry": {
         "solids": 1,
@@ -5700,7 +5700,7 @@
     },
     {
       "label": "Mate_monitoring_cell_J10100",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_cell_J10100",
       "source_geometry": {
         "solids": 1,
@@ -5728,7 +5728,7 @@
     },
     {
       "label": "Mate_monitoring_cell_J10200",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_cell_J10200",
       "source_geometry": {
         "solids": 1,
@@ -5756,7 +5756,7 @@
     },
     {
       "label": "Mate_monitoring_cell_J19901",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_cell_J19901",
       "source_geometry": {
         "solids": 1,
@@ -5784,7 +5784,7 @@
     },
     {
       "label": "Mate_monitoring_transport_J70001",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_transport_J70001",
       "source_geometry": {
         "solids": 1,
@@ -5812,7 +5812,7 @@
     },
     {
       "label": "Mate_monitoring_transport_J70002",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_transport_J70002",
       "source_geometry": {
         "solids": 1,
@@ -5840,7 +5840,7 @@
     },
     {
       "label": "Mate_monitoring_transport_J70003",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_transport_J70003",
       "source_geometry": {
         "solids": 1,
@@ -5868,7 +5868,7 @@
     },
     {
       "label": "Mate_monitoring_transport_J70004",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_transport_J70004",
       "source_geometry": {
         "solids": 1,
@@ -5896,7 +5896,7 @@
     },
     {
       "label": "Mate_monitoring_transport_J70005",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_transport_J70005",
       "source_geometry": {
         "solids": 1,
@@ -5924,7 +5924,7 @@
     },
     {
       "label": "Mate_monitoring_transport_J70006",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_transport_J70006",
       "source_geometry": {
         "solids": 1,
@@ -5952,7 +5952,7 @@
     },
     {
       "label": "Mate_monitoring_transport_J70007",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_transport_J70007",
       "source_geometry": {
         "solids": 1,
@@ -5980,7 +5980,7 @@
     },
     {
       "label": "Mate_monitoring_transport_J70008",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_transport_J70008",
       "source_geometry": {
         "solids": 1,
@@ -6008,7 +6008,7 @@
     },
     {
       "label": "Mate_monitoring_transport_J70020",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_transport_J70020",
       "source_geometry": {
         "solids": 1,
@@ -6036,7 +6036,7 @@
     },
     {
       "label": "Mate_monitoring_transport_J70022",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_transport_J70022",
       "source_geometry": {
         "solids": 1,
@@ -6064,7 +6064,7 @@
     },
     {
       "label": "Mate_power_J60001",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_power_J60001",
       "source_geometry": {
         "solids": 1,
@@ -6092,7 +6092,7 @@
     },
     {
       "label": "Mate_power_J60002",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_power_J60002",
       "source_geometry": {
         "solids": 1,
@@ -6120,7 +6120,7 @@
     },
     {
       "label": "Mate_power_J60003",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_power_J60003",
       "source_geometry": {
         "solids": 1,
@@ -6148,7 +6148,7 @@
     },
     {
       "label": "Mate_power_J60004",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_power_J60004",
       "source_geometry": {
         "solids": 1,
@@ -6176,7 +6176,7 @@
     },
     {
       "label": "Mate_power_J60005",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_power_J60005",
       "source_geometry": {
         "solids": 1,
@@ -6204,7 +6204,7 @@
     },
     {
       "label": "Mate_power_J60006",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_power_J60006",
       "source_geometry": {
         "solids": 1,
@@ -6232,7 +6232,7 @@
     },
     {
       "label": "Mate_recording_front_end_J30001",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_recording_front_end_J30001",
       "source_geometry": {
         "solids": 1,
@@ -6260,7 +6260,7 @@
     },
     {
       "label": "Mate_recording_front_end_J30002",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_recording_front_end_J30002",
       "source_geometry": {
         "solids": 1,
@@ -6288,7 +6288,7 @@
     },
     {
       "label": "Mate_recording_front_end_J30003",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_recording_front_end_J30003",
       "source_geometry": {
         "solids": 1,
@@ -6316,7 +6316,7 @@
     },
     {
       "label": "Mate_recording_front_end_J39901",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_recording_front_end_J39901",
       "source_geometry": {
         "solids": 1,
@@ -6344,7 +6344,7 @@
     },
     {
       "label": "Mate_recording_front_end_J39902",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_recording_front_end_J39902",
       "source_geometry": {
         "solids": 1,
@@ -6372,7 +6372,7 @@
     },
     {
       "label": "Mate_supervision_J50001",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50001",
       "source_geometry": {
         "solids": 1,
@@ -6400,7 +6400,7 @@
     },
     {
       "label": "Mate_supervision_J50002",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50002",
       "source_geometry": {
         "solids": 1,
@@ -6428,7 +6428,7 @@
     },
     {
       "label": "Mate_supervision_J50003",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50003",
       "source_geometry": {
         "solids": 1,
@@ -6456,7 +6456,7 @@
     },
     {
       "label": "Mate_supervision_J50004",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50004",
       "source_geometry": {
         "solids": 1,
@@ -6484,7 +6484,7 @@
     },
     {
       "label": "Mate_supervision_J50005",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50005",
       "source_geometry": {
         "solids": 1,
@@ -6512,7 +6512,7 @@
     },
     {
       "label": "Mate_supervision_J50006",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50006",
       "source_geometry": {
         "solids": 1,
@@ -6540,7 +6540,7 @@
     },
     {
       "label": "Mate_supervision_J50100",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50100",
       "source_geometry": {
         "solids": 1,
@@ -6568,7 +6568,7 @@
     },
     {
       "label": "Mate_supervision_J50101",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50101",
       "source_geometry": {
         "solids": 1,
@@ -6596,7 +6596,7 @@
     },
     {
       "label": "Mate_supervision_J50600",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50600",
       "source_geometry": {
         "solids": 1,
@@ -6624,7 +6624,7 @@
     },
     {
       "label": "Mate_supervision_J50601",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50601",
       "source_geometry": {
         "solids": 1,
@@ -6652,7 +6652,7 @@
     },
     {
       "label": "Mate_supervision_J50602",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50602",
       "source_geometry": {
         "solids": 1,
@@ -6680,7 +6680,7 @@
     },
     {
       "label": "Mate_supervision_J50603",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50603",
       "source_geometry": {
         "solids": 1,
@@ -6708,7 +6708,7 @@
     },
     {
       "label": "Mate_supervision_J50604",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50604",
       "source_geometry": {
         "solids": 1,
@@ -6736,7 +6736,7 @@
     },
     {
       "label": "Mate_supervision_J50605",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50605",
       "source_geometry": {
         "solids": 1,
@@ -6764,7 +6764,7 @@
     },
     {
       "label": "Mate_supervision_J50606",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50606",
       "source_geometry": {
         "solids": 1,
@@ -6792,7 +6792,7 @@
     },
     {
       "label": "Mate_supervision_J50607",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50607",
       "source_geometry": {
         "solids": 1,
@@ -6820,7 +6820,7 @@
     },
     {
       "label": "Mate_supervision_J50608",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50608",
       "source_geometry": {
         "solids": 1,
@@ -6848,7 +6848,7 @@
     },
     {
       "label": "Mate_supervision_J50609",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50609",
       "source_geometry": {
         "solids": 1,
@@ -6876,7 +6876,7 @@
     },
     {
       "label": "Mate_supervision_J50610",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50610",
       "source_geometry": {
         "solids": 1,
@@ -6904,7 +6904,7 @@
     },
     {
       "label": "Mate_supervision_J50611",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50611",
       "source_geometry": {
         "solids": 1,
@@ -6932,7 +6932,7 @@
     },
     {
       "label": "Mate_supervision_J50612",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50612",
       "source_geometry": {
         "solids": 1,
@@ -6960,7 +6960,7 @@
     },
     {
       "label": "Mate_supervision_J50613",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50613",
       "source_geometry": {
         "solids": 1,
@@ -6988,7 +6988,7 @@
     },
     {
       "label": "Mate_supervision_J50614",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50614",
       "source_geometry": {
         "solids": 1,
@@ -7016,7 +7016,7 @@
     },
     {
       "label": "Mate_supervision_J50615",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50615",
       "source_geometry": {
         "solids": 1,
@@ -7044,7 +7044,7 @@
     },
     {
       "label": "Mate_supervision_J50616",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50616",
       "source_geometry": {
         "solids": 1,
@@ -7072,7 +7072,7 @@
     },
     {
       "label": "Mate_supervision_J59901",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J59901",
       "source_geometry": {
         "solids": 1,
@@ -7100,7 +7100,7 @@
     },
     {
       "label": "Grommet_ArtificialLoad_58",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Grommet_ArtificialLoad_58",
       "source_geometry": {
         "solids": 1,
@@ -7128,7 +7128,7 @@
     },
     {
       "label": "Grommet_ArtificialLoad_96",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Grommet_ArtificialLoad_96",
       "source_geometry": {
         "solids": 1,
@@ -7156,7 +7156,7 @@
     },
     {
       "label": "RearInsert_ArtificialLoad",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "RearInsert_ArtificialLoad",
       "source_geometry": {
         "solids": 1,
@@ -7184,7 +7184,7 @@
     },
     {
       "label": "Grommet_CompanionPowerDebug_410",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Grommet_CompanionPowerDebug_410",
       "source_geometry": {
         "solids": 1,
@@ -7212,7 +7212,7 @@
     },
     {
       "label": "Grommet_CompanionPowerDebug_440",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Grommet_CompanionPowerDebug_440",
       "source_geometry": {
         "solids": 1,
@@ -7240,7 +7240,7 @@
     },
     {
       "label": "Grommet_CompanionPowerDebug_470",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Grommet_CompanionPowerDebug_470",
       "source_geometry": {
         "solids": 1,
@@ -7268,7 +7268,7 @@
     },
     {
       "label": "RearInsert_CompanionPowerDebug",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "RearInsert_CompanionPowerDebug",
       "source_geometry": {
         "solids": 1,

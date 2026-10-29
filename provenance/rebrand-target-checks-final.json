@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-29",
+  "passed": true,
+  "scope": "Actual compiled host regressions and independent checks of3completed target builds. No target execution or hardware timing claim.",
+  "commands": [
+    {
+      "arguments": [
+        "firmware/nrf5340/tests/check_runtime.py",
+        "--write-results"
+      ],
+      "returncode": 0,
+      "summary": "{\"assertions\": 713, \"fault_record_bytes\": 16, \"passed\": true, \"runtime_bytes\": 432, \"scenarios\": 75}",
+      "script_sha256": "1e63adac9a07ae1e68b92b9f98e9dde2de78dcfd95a64e76fc8cf99e65a6ced5"
+    },
+    {
+      "arguments": [
+        "scripts/verify_nrf5340.py",
+        "--write-report"
+      ],
+      "returncode": 0,
+      "summary": "{\"GPIO_count\": 46, \"RAM_extent_bytes\": 98000, \"checks\": 128, \"flash_LOAD_extent_bytes\": 54040, \"native_endpoint_checks\": 50, \"passed\": true}",
+      "script_sha256": "8ae7aab3b754597114735df9e671de0e4f1874f5fe17c8427dbb074972fe4003"
+    },
+    {
+      "arguments": [
+        "electronics/stage4/integrated-pcb/firmware-profile/verify_bt40f.py",
+        "--write-report"
+      ],
+      "returncode": 0,
+      "summary": "{\"RAM_extent_bytes\": 98000, \"checks\": 83, \"flash_LOAD_extent_bytes\": 54072, \"internal_HFXO_capacitance_pF\": 11, \"original_package_bindings_preserved\": true, \"passed\": true}",
+      "script_sha256": "9f761c415da4089e775b86858eac2be3b4d12f60afa9bb09afb2a82fef359689"
+    },
+    {
+      "arguments": [
+        "firmware/nrf5340/uart-revision/tests/check_uart_framing.py",
+        "--write-report"
+      ],
+      "returncode": 0,
+      "summary": "{\"current\": {\"failed\": 0, \"passed\": 1172, \"scenarios\": 1172}, \"historical\": {\"failed\": 334, \"passed\": 838, \"scenarios\": 1172}, \"passed\": true}",
+      "script_sha256": "e23d19d863a8084a301cd0a64ee28a806a88720f30a566d56cc265ae691a3265"
+    },
+    {
+      "arguments": [
+        "firmware/nrf5340/uart-revision/verify_revision.py",
+        "--write-report"
+      ],
+      "returncode": 0,
+      "summary": "{\"RAM_extent_bytes\": 98000, \"checks\": 70, \"current_passing_host_scenarios\": 1172, \"flash_LOAD_extent_bytes\": 54200, \"historical_failing_host_scenarios\": 334, \"passed\": true}",
+      "script_sha256": "8de48e1d5ace0799fc2306cfaba063c52eab7fa04248a431d35e8aadeff7ba8d"
+    }
+  ],
+  "files": [
+    {
+      "path": "firmware/nrf5340/runtime-tests.json",
+      "current_sha256": "d69bbd43a732301ca208548a440bf384b207a2051981677091d6d0e97bff779d",
+      "method": "Exact current saved output after successful actual compiled host regression / independent ELF HEX BIN audit; builds were performed earlier and are independently verified here."
+    },
+    {
+      "path": "firmware/nrf5340/uart-revision/uart-framing-tests.json",
+      "current_sha256": "436067c31f51d5b4d81bd70c4b1573e12e6e1fb11de802be05ac569389ef31fd",
+      "method": "Exact current saved output after successful actual compiled host regression / independent ELF HEX BIN audit; builds were performed earlier and are independently verified here."
+    },
+    {
+      "path": "provenance/stage4-nrf5340-build.json",
+      "current_sha256": "86581953fd9a789b6300995439a6a9fab5b8ea7732b20cdb7d6b2fdcc0a062a9",
+      "method": "Exact current saved output after successful actual compiled host regression / independent ELF HEX BIN audit; builds were performed earlier and are independently verified here."
+    },
+    {
+      "path": "electronics/stage4/integrated-pcb/firmware-profile/build-receipt.json",
+      "current_sha256": "a861101217b87e2635059fd70cfbe36d08dace06f25d29b7ddf2569b58bd525a",
+      "method": "Exact current saved output after successful actual compiled host regression / independent ELF HEX BIN audit; builds were performed earlier and are independently verified here."
+    },
+    {
+      "path": "firmware/nrf5340/uart-revision/build-receipt.json",
+      "current_sha256": "f57b328a9fec504660708b7baa0ea6b502682c04e58155a03014f5f221d97477",
+      "method": "Exact current saved output after successful actual compiled host regression / independent ELF HEX BIN audit; builds were performed earlier and are independently verified here."
+    },
+    {
+      "path": "provenance/stage4-nrf5340-verification.json",
+      "current_sha256": "d75041cd8f7f74b1ac75f9b25457ec9f91226c3e1b2c0b8ea494b0231ad7ff09",
+      "method": "Exact current saved output after successful actual compiled host regression / independent ELF HEX BIN audit; builds were performed earlier and are independently verified here."
+    },
+    {
+      "path": "electronics/stage4/integrated-pcb/firmware-profile/verification.json",
+      "current_sha256": "e02318e4c5d300487eb34d4897726631979e20644d1d128fb32acc2849e482e0",
+      "method": "Exact current saved output after successful actual compiled host regression / independent ELF HEX BIN audit; builds were performed earlier and are independently verified here."
+    },
+    {
+      "path": "firmware/nrf5340/uart-revision/verification.json",
+      "current_sha256": "fffaceee01019f9a873fd61cae5bedb5fb65656931037b5e31e7a23478f7335e",
+      "method": "Exact current saved output after successful actual compiled host regression / independent ELF HEX BIN audit; builds were performed earlier and are independently verified here."
+    }
+  ]
+}

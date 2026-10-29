@@ -4,11 +4,11 @@ from itertools import product
 import unittest
 import numpy as np
 
-from ato.stage3.assisted_prediction import (PredictionSpec, KnownInstruction,
+from scci_rh.stage3.assisted_prediction import (PredictionSpec, KnownInstruction,
     MeasuredPosition, ObservedDose, PlannedFrame, PredictionInput, feature_vector,
     packet_at, predict_assisted, validate_assisted_recording, correction_uncertainty,
     coupling_admission)
-from ato.stage3.motor import LearnerMap, ExpertRepresentation
+from scci_rh.stage3.motor import LearnerMap, ExpertRepresentation
 
 
 def packet(now=.600):

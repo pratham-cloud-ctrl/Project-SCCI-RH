@@ -10,11 +10,11 @@ parked, as requested.
 
 ## The original goal remains the project
 
-Project ATO gives an ambitious invasive spinal cord-computer interface a
+Project SCCI RH gives an ambitious invasive spinal cord-computer interface a
 defensible mechanism, illustrated research account, electronic architecture,
 compiled software and physical identity in editable CAD. AstroSam's Mind-Link
 inspired that progression from future vision to inspectable engineering.
-ATO's contribution is its own spinal architecture, application arguments,
+SCCI_RH's contribution is its own spinal architecture, application arguments,
 models and implementation, with substantial AI assistance disclosed.
 
 Both application ambitions remain central. Expert performance informs a
@@ -31,7 +31,7 @@ stimulation, observation of response, and feedback to the next decision. The
 completed digital reference demonstrates selected software/model parts of that
 mechanism. Useful chronic recording, selective recruitment and favorable retained
 learning remain explicit, testable premises. Those premises can be explored
-without falsely claiming they have already been demonstrated by ATO.
+without falsely claiming they have already been demonstrated by SCCI_RH.
 
 ## Concrete corrections
 

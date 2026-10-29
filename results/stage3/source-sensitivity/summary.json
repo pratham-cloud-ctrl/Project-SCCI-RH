@@ -1,13 +1,13 @@
 {
-  "schema": "ato.stage3.moving-source-sensitivity-summary.v1",
+  "schema": "scci_rh.stage3.moving-source-sensitivity-summary.v1",
   "scope": "full",
   "source_identity": {
-    "src/ato/stage3/source_sensitivity.py": "fedaeb9d7edadb53b7e23ac88af2eca6abacb7e231800fd6c6e3fbf1a889b477",
-    "src/ato/stage3/motor.py": "d86b4d091baf226475ce9f6d6e2390b65bb63752e5f50e73d42c5c3408b2323c",
-    "src/ato/stage3/acquisition.py": "bd681adefc5e82c58b449490ad14917fff307be9947de647e92aeb6c38b22f03",
-    "src/ato/stage3/filter_residual.py": "0404915b1f891ef8e1da8fbc7549888110b90a0100877f361154ce39154dca47",
-    "src/ato/stage3/external_history.py": "2ec8bb81bd96066fe8f80696a0351d4407b68baabd6526e6211922abb8a4f97d",
-    "scripts/stage3_source_sensitivity.py": "34ef1014de69dca617fbbabb9dda7bb4bcc7995055a8bb030fb1bd07c2edd9a8"
+    "src/scci_rh/stage3/source_sensitivity.py": "fedaeb9d7edadb53b7e23ac88af2eca6abacb7e231800fd6c6e3fbf1a889b477",
+    "src/scci_rh/stage3/motor.py": "fdc83232adcd15759319a05af2204c7d3481f5da3ecf4538f152b569760c05fe",
+    "src/scci_rh/stage3/acquisition.py": "bd681adefc5e82c58b449490ad14917fff307be9947de647e92aeb6c38b22f03",
+    "src/scci_rh/stage3/filter_residual.py": "0404915b1f891ef8e1da8fbc7549888110b90a0100877f361154ce39154dca47",
+    "src/scci_rh/stage3/external_history.py": "2ec8bb81bd96066fe8f80696a0351d4407b68baabd6526e6211922abb8a4f97d",
+    "scripts/stage3_source_sensitivity.py": "4c7c65f629b1eea46a2a119048c1c743180bd6a75334c1d4210d9784d964c27c"
   },
   "specification": {
     "frozen_before_outcomes": true,

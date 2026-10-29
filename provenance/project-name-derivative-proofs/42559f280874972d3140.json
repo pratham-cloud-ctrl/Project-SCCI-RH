@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "firmware/nrf5340/uart-revision/artifacts/zephyr.dts",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "36d53f51636a8a39a9e56c5e96da8704ce9bdfb5e18ef63d8e0f066867e7efd8",
+  "current_sha256": "f9b7525e8ed82af5c9dccd211b007b6177f636e5d6291f3af7cebe068352b6d9",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-target-build-date-metadata.json",
+      "sha256_lf": "0e8a2df7355024b1412bbba38beac6021318b8f361fd2d69ab1184f5b03379cd"
+    }
+  ]
+}

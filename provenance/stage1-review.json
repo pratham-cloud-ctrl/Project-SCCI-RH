@@ -40,8 +40,8 @@
     ]
   },
   "pdf_visual_review": {
-    "artifact": "output/pdf/ATO_stage1_system_specification.pdf",
-    "sha256": "ce4e1532ce9f3b0fa25240274c9c90a5eecbeba489bfac6459ebb8b7c24ec12f",
+    "artifact": "output/pdf/SCCI_RH_stage1_system_specification.pdf",
+    "sha256": "bd2b3ea2e6971d9a10014f607bbc1486d2b9e1192605c0086e1c4e3b27432f5d",
     "page_count": 9,
     "renderer": "Bundled Poppler pdftoppm at 100 and 115 dpi",
     "review": "All nine pages inspected in contact sheet; mechanism pages and changed pages inspected individually",

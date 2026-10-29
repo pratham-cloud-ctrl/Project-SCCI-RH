@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/recording-front-end/svg/recording_front_end-bank2.svg",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "d6d4d3e020817fa68024747ef77e432ca758ff0cfd138d3169c538b85f37e8ec",
+  "current_sha256": "19e6bf3233029c9fb7ee2dac8593a38489cd3f6677229e5ffe12fdfbbecdd233",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-legacy-native-svg.json",
+      "sha256_lf": "72e16066a70bd8090ae9fddd687b65a7d9a7e151e09b3cce60b296c24af0232a"
+    }
+  ]
+}

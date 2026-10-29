@@ -89,7 +89,7 @@ def verify():
     close(p['host_added_capacitor_energy_J'],sum(c['energy_J'] for c in p['capacitors'] if not c['external_peer']),'host capacitor sum')
     close(p['host_added_capacitor_energy_plus20percent_J'],1.2*p['host_added_capacitor_energy_J'],'energy margin')
     check(not p['compact_thermal_2K_earned'],'thermal failure retained')
-    return dict(schema='ato.stage4.transport-input-verification.v1',passed=True,checks=checks,
+    return dict(schema='scci_rh.stage4.transport-input-verification.v1',passed=True,checks=checks,
                 results_sha256_lf=sha(HERE/'input-results.json'),traces_sha256=hashlib.sha256((HERE/'input-traces.npz').read_bytes()).hexdigest(),
                 verifier_sha256_lf=sha(Path(__file__)),scope='independent analytic/KCL/arithmetic finite audit, not physical qualification')
 

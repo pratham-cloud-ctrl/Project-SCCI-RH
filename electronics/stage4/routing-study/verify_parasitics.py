@@ -95,7 +95,7 @@ def main():
         b = (HERE/name).read_bytes()
         if Path(name).suffix not in (".png", ".npz"): b = b.replace(b"\r\n",b"\n")
         hashes[name] = hashlib.sha256(b).hexdigest()
-    receipt = {"schema":"ato.stage4.router-parasitic-audit.v1", "scalar_charge_RC_checks":checks,
+    receipt = {"schema":"scci_rh.stage4.router-parasitic-audit.v1", "scalar_charge_RC_checks":checks,
                "cases":36,"max_absolute_KCL_residual_C":max_charge_residual,
                "sha256_lf_text_exact_binary":hashes}
     if args.write_receipt:

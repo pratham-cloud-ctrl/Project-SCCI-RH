@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/current-driver/current_driver.pdf",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "1e2c0159f11e31e97a4ddb60b28ca847bbd4e5e1d3dd476eb6a5b7c60c7684be",
+  "current_sha256": "5f27f519b85c1f18d173aad116588da4c245af287386655553e4b8a29ee58990",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-pdf-review.json",
+      "sha256_lf": "fdfd82c10d8fb18128ab61a3f8152ef3783bc9d386d365743d9ec1b2cf845c33"
+    }
+  ]
+}

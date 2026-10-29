@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/provenance/exporter-sources/README.md",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "9b32139ffda1523d1dd3016dbef924cfbe381f1913da6985b6541d1c66e8e83a",
+  "current_sha256": "96a56c3e694cbc8cb0dfc23322ae25aae217d3e3392369e4fdec307740298052",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-archived-source-documentation.json",
+      "sha256_lf": "0fadee3a215269de894576f73807bee4920cf391dee81eaf04c5b2c33525c334"
+    }
+  ]
+}

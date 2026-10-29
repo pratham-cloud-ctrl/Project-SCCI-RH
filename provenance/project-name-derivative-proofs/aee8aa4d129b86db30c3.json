@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/contact-router/contact_router.pdf",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "6335988e5f2603095754af1f0736a2195e6e3b46c48be3f88cbbf85f4e7f1e96",
+  "current_sha256": "7916b2e28d28e8ca5906a61be258458e77de29aa0d0462355069c522afdf42a6",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-pdf-review.json",
+      "sha256_lf": "fdfd82c10d8fb18128ab61a3f8152ef3783bc9d386d365743d9ec1b2cf845c33"
+    }
+  ]
+}

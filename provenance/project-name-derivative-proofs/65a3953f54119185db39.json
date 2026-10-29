@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "firmware/nrf5340/tests/check_runtime.py",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "88db7905ebe8346d66e65f7ab2c90855e41caf92b31a2513e4378e588ba4e836",
+  "current_sha256": "1e63adac9a07ae1e68b92b9f98e9dde2de78dcfd95a64e76fc8cf99e65a6ced5",
+  "method": "reviewed_branding_verifier_adaptation",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "Only branding and actual rerun/original design date metadata changed; actual compiled75-scenario713-assertion production-core test reran successfully.",
+  "independent_evidence": []
+}

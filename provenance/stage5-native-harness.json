@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage5.independent-native-inspection.v1",
+  "schema": "scci_rh.stage5.independent-native-inspection.v1",
   "scope": "Nominal digital geometry; no fabrication, anatomy, hermetic or thermal qualification",
   "FreeCAD_version": [
     "1",
@@ -11,18 +11,18 @@
     "(HEAD detached at 4fd3bf320)",
     "4fd3bf320d9566a27e60069fc8387448aaa3a094"
   ],
-  "inspector_sha256_lf": "09027f6659e8b585d2433e97415ddd64e32a4c770cccfb3c2f6853e32685307e",
+  "inspector_sha256_lf": "a30a92b1c08706eb7cb5cf36222a65549e442f1683e71f7bd6e3838b1ffdf895",
   "packages": {
     "harness": {
       "contract": "cad/stage5/harness/contract.json",
-      "contract_canonical_sha256": "ea46a20d946555dbe03a34806cc74eeed033cc8057ae21be1beb0e6280f341a0",
-      "native": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
-      "native_sha256": "6079242db047b70f21114a3eac33c0a8cce77260a189033362feb2b3bacbacf9",
-      "step": "cad/stage5/harness/ATO_mating_interfaces.step",
-      "step_sha256": "8c37241e686e1efe3e807e29c9da885384a7aee5128b75821ea81ae897890c2f",
-      "routing_native": "cad/stage5/harness/ATO_harness_routes.FCStd",
-      "routing_native_sha256": "23e3e6b6744c901e051962248e7b4ae7ec8cb48e778db850d7182a1995b6dd8b",
-      "reference_native_sha256": "764a4e7a9ec8212fefb1c9c0deb7cab2ee76a5c9e72b2895f9199c98d0e5ae9a",
+      "contract_canonical_sha256": "4f184ea9308c423583722ed01383d3f9aa7f193b30b5ae3065f8581619f678b3",
+      "native": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
+      "native_sha256": "141e4301f41cfa303b594d66c324e2f881d0deaeacc05586cf95e11be8b29e48",
+      "step": "cad/stage5/harness/SCCI_RH_mating_interfaces.step",
+      "step_sha256": "74ee88a5f80000ab4aa9f1767f909547ea43bbc93c4e991729bf8fc887a185c2",
+      "routing_native": "cad/stage5/harness/SCCI_RH_harness_routes.FCStd",
+      "routing_native_sha256": "06ce0f35374abe431a95abc076d43b905026c9de607aadc6523f0da9d2ba6eae",
+      "reference_native_sha256": "eb720889c30de3c15015d1a4c765cc5791eeb8b4df733da222730497acd88dd3",
       "final_objects": 90,
       "parts": [
         {

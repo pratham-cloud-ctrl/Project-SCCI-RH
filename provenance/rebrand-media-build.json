@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-28",
+  "blender_version": "5.2.2 LTS",
+  "source": "cad/render_scci_rh.py",
+  "actual_blender_render": true,
+  "logo": "SCCI RH",
+  "visual_reviewed": [
+    "media/scci_rh-hero.png",
+    "docs/stage1/figures/full-system.png"
+  ],
+  "walkthrough_frames": 864,
+  "walkthrough_source": "scripts/build_video.py",
+  "artifacts_sha256": {
+    "cad/render_scci_rh.py": "fc2ee98423ce0f97a0d396ed212f3d9ede905a0d986fab03bdf2e84a1168123d",
+    "media/scci_rh-hero.png": "25b1bc864e51ae144148aafd5222f4c28d00c6078f021c11a66f273c81df32f0",
+    "media/scci_rh-exploded.png": "b7b7a91a9ac600f6d4da87fb4fe79ac647ca3dcf8c3ad07a221d4dc80a8dff0d",
+    "cad/scci_rh-presentation.blend": "b4fe628969a6671517a024311d8b539c035a093a14c0ec79a87f83111d7cdf5d",
+    "cad/scci_rh-exploded.blend": "13b0915349341b885f679328d459576c57b6c7c002ab5383a9975bdf343ebf91",
+    "scripts/build_video.py": "eda18bfea22a878019ad23097ee190c155c70b3479d79ddeed5e74dbc92970a6",
+    "media/SCCI_RH_walkthrough.mp4": "f7abbb0440b13e154ca685c83a6c1871bf251313639349288a5c59360b5f5215"
+  },
+  "scope": "Actual branding rerender; source geometric meshes reused; no physical qualification"
+}

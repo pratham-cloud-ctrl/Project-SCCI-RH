@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "cad/stage5/reference/drawings/contact-router-tray.png",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "9b14eb6a29c5748d4938395ff00674b5563db8ab60d46f094ffbc0370d7cffa2",
+  "current_sha256": "f9aa939358bfac8869af39d3d0e507b30ebc453921c344595c4c1a24ee9d9325",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-visual-assets.json",
+      "sha256_lf": "f46e8ac68ecb8f2b1fad016c0725d38877ca4682f0a2eef30431e542cd1b3db1"
+    }
+  ]
+}

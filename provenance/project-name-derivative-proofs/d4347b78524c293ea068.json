@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "inspector/assets/electronics-manifest.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "271d26a4775c97910eeaff56ad553dbed4f2af97045053d1dcfa7616b1b2b870",
+  "current_sha256": "435aae0ae4d52a267324120d4a0a174244751ca45e2c0b2638aeafd77df2b52e",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-browser-catalog-final.json",
+      "sha256_lf": "eea7003c4c5f9ecffcef97f816b01bb4fe09a9d55c69c991bbf8912993484d94"
+    }
+  ]
+}

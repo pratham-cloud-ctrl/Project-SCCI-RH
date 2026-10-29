@@ -1,19 +1,19 @@
-# ATO analog reference
+# SCCI_RH analog reference
 
 An editable, routed **5 V artificial-signal / electrical-test-load circuit**.
 It is one recording channel and one fixed-current biphasic load channel. It is
 not implant electronics and contains no populated ADC, processor or biological
 interface.
 
-Open **`ato_reference.kicad_pro`** in KiCad 10.0.6 or later. Local symbols,
+Open **`scci_rh_reference.kicad_pro`** in KiCad 10.0.6 or later. Local symbols,
 footprints and component STEP models accompany the project. The 80 x 50 x
 1.6 mm board has four 3.2 mm mounting holes at (10,10), (70,10), (10,40), (70,40).
 
 - [Circuit explanation and boundaries](../docs/electronics.md)
-- [Schematic PDF](exports/ato_reference_schematic.pdf)
+- [Schematic PDF](exports/scci_rh_reference_schematic.pdf)
 - [BOM](bom.csv)
-- [Native board](ato_reference.kicad_pcb)
-- [Board STEP](exports/ato_reference.step)
+- [Native board](scci_rh_reference.kicad_pcb)
+- [Board STEP](exports/scci_rh_reference.step)
 - [Gerber and drill reference exports](exports/gerbers/)
 - [ERC report](reports/erc.json) and [DRC/parity report](reports/drc.json)
 - [Model parameters](simulation/parameters.json) and [results](simulation/metrics.json)

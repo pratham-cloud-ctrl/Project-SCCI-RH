@@ -1,0 +1,115 @@
+{
+  "schema": "scci_rh.rebrand-manuscript-regeneration.v1",
+  "date": "2026-10-29",
+  "scope": "Actual existing figure builder executed from saved frozen result sources, no numerical study generation or tuning. Figures and final28page manuscript actually reviewed through four rendered contactsheets.",
+  "builder": "manuscript/stage6/build_figures.py",
+  "builder_sha256": "b4871d6616200de32018386e71577d6e757b885218556b220b2812fc18ee92a9",
+  "inputs": {
+    "experiments/stage3/conditional-concept/summary.json": "b8eaae400f7cffb8459da09a36034a0839e8359b1eeb5f9e8ea3fb40ddec3981",
+    "results/stage3/pressure-summary.json": "6e4baf2f8df3777064fb72a53802f8e9be54eca3d8959ac90314fc2e9312fa59",
+    "results/stage6/integration-summary.json": "6846e11e3f17c220356800640811f8c6b95c06b59a76ba72c5f5915671e6858d",
+    "provenance/stage5-mechanical-verification.json": "6df5b72a122f32f6f73d1b5d9dc0c3b37c31134bc31997faf49fce3aa570c364"
+  },
+  "artifacts": [
+    {
+      "path": "manuscript/stage6/figures/01_system.png",
+      "before_sha256": "43cefc1d4ba9440f745503494dc7247909dc64f737353f081d7e2be951784012",
+      "current_sha256": "43cefc1d4ba9440f745503494dc7247909dc64f737353f081d7e2be951784012"
+    },
+    {
+      "path": "manuscript/stage6/figures/01_system.svg",
+      "before_sha256": "51c58b889ecc112b242d91ccfa5f37e0ecbbc5d128b80086003368bdc1894729",
+      "current_sha256": "409f08c623e027a6e8a6842ec4d8104e54e1e62e40b5a3bf8e8db83f410dc569"
+    },
+    {
+      "path": "manuscript/stage6/figures/02_learning.png",
+      "before_sha256": "cf25c1e3bdab4f1d5325469a1b630a2c944267df52df9f834865a97cd9cf59e6",
+      "current_sha256": "cf25c1e3bdab4f1d5325469a1b630a2c944267df52df9f834865a97cd9cf59e6"
+    },
+    {
+      "path": "manuscript/stage6/figures/02_learning.svg",
+      "before_sha256": "c5e40ba8d55e245be5fd12ec2dc459d1aff7c774e10ca465adb09c03e3d53533",
+      "current_sha256": "e2373600c4fceba0d10d179f77a8e7edc81f798ae7b9c27a3ee5f9b0dde60f8e"
+    },
+    {
+      "path": "manuscript/stage6/figures/03_pressure.png",
+      "before_sha256": "7c1693203bb17856f040a4814e8ec2e04e9c876ad38bb4b6ab4b6b966d89ac53",
+      "current_sha256": "7c1693203bb17856f040a4814e8ec2e04e9c876ad38bb4b6ab4b6b966d89ac53"
+    },
+    {
+      "path": "manuscript/stage6/figures/03_pressure.svg",
+      "before_sha256": "ca8e7d46fc31cbd76a827343569b9d400dab29125bee9435616d397ada648e63",
+      "current_sha256": "344c66defe75834f62bcaef315b63e2078b682e01314207b789ccce327e1340d"
+    },
+    {
+      "path": "manuscript/stage6/figures/04_conditional_learning.png",
+      "before_sha256": "8e3fd612a8a38fec550cf355247b1c2b4225863477e36c848f38d9b862929979",
+      "current_sha256": "8e3fd612a8a38fec550cf355247b1c2b4225863477e36c848f38d9b862929979"
+    },
+    {
+      "path": "manuscript/stage6/figures/04_conditional_learning.svg",
+      "before_sha256": "3eaae8f819686012f82bb27506e6121ce7f2b611f4cfb013dc8b26a673e2cc8a",
+      "current_sha256": "7570b2dbd3ad92e5425b867291f3b79d93e24d0408d0ace1d97655e69c380913"
+    },
+    {
+      "path": "manuscript/stage6/figures/05_exposure.png",
+      "before_sha256": "3133395d7a9c149f214b5d04c321883b0a179f43e4d55c82021b7a16a92d8b53",
+      "current_sha256": "3133395d7a9c149f214b5d04c321883b0a179f43e4d55c82021b7a16a92d8b53"
+    },
+    {
+      "path": "manuscript/stage6/figures/05_exposure.svg",
+      "before_sha256": "768674322d1f8daf38b6e8b6827e90f4896232d1eb7159e41b7784750c75c141",
+      "current_sha256": "94045a245756616616adcf0eddb8d4c99f6bc7e79734183e98157f583f904a55"
+    },
+    {
+      "path": "manuscript/stage6/figures/06_pressure_tradeoff.png",
+      "before_sha256": "b99c06f34aefa7c303a4279c093377686bd9e5004be443153eacaaf31a4a49ed",
+      "current_sha256": "b99c06f34aefa7c303a4279c093377686bd9e5004be443153eacaaf31a4a49ed"
+    },
+    {
+      "path": "manuscript/stage6/figures/06_pressure_tradeoff.svg",
+      "before_sha256": "c60ec2ae8f7658276af93fccce7769f4764ba3c15666dcd91fb14a6aad356b7e",
+      "current_sha256": "1102cbbe5c9522d54136fb8157c49682cc855989926cad3a87219f90ff9285be"
+    },
+    {
+      "path": "manuscript/stage6/figures/07_integration.png",
+      "before_sha256": "3951413e7fe49c0fe715795fca7db89db574b2c9d6a43643e08026e65077fb39",
+      "current_sha256": "3951413e7fe49c0fe715795fca7db89db574b2c9d6a43643e08026e65077fb39"
+    },
+    {
+      "path": "manuscript/stage6/figures/07_integration.svg",
+      "before_sha256": "010f80a2f3ee8a9422db3e6f08e324ad3424b5774cbf382ece6ac5f4a516ad10",
+      "current_sha256": "73fb66d7d67d0e9dbce0273734da2d02cb49056ee9a6fc069ffe2bf9c579d604"
+    },
+    {
+      "path": "manuscript/stage6/figures/08_evidence.png",
+      "before_sha256": "23537e91b5728a7b84559bbeab35bbc47cc7a746f48c0577fceeb1ffb28f045c",
+      "current_sha256": "23537e91b5728a7b84559bbeab35bbc47cc7a746f48c0577fceeb1ffb28f045c"
+    },
+    {
+      "path": "manuscript/stage6/figures/08_evidence.svg",
+      "before_sha256": "afc329fa2e8e976834800918e4e9dd7bca08d5892191c42720bcea587a24bfef",
+      "current_sha256": "ffa1f320f0e34482a66c9ad71e538e3cb08321c086779c897185df2db1b73294"
+    },
+    {
+      "path": "manuscript/stage6/figures/09_runtime.png",
+      "before_sha256": "088923b510d1102bc12fc5432072029d9479190ba67ff27f316c111f963c8160",
+      "current_sha256": "088923b510d1102bc12fc5432072029d9479190ba67ff27f316c111f963c8160"
+    },
+    {
+      "path": "manuscript/stage6/figures/09_runtime.svg",
+      "before_sha256": "2f7a4f79c847b29fe0615d0bc3e115387ed971d05d3b64fe23adf28faaeb145c",
+      "current_sha256": "0f0405d25463ee2e710f7beb5e41d358a4c31797fbd10cde09eb5a78c4f1c961"
+    },
+    {
+      "path": "manuscript/stage6/figures/figure-manifest.json",
+      "before_sha256": "2ae1fe0437ed7bbe839b604129cfe63105368895ba5a09f489ddf3e0f586258e",
+      "current_sha256": "2ae1fe0437ed7bbe839b604129cfe63105368895ba5a09f489ddf3e0f586258e"
+    },
+    {
+      "path": "manuscript/stage6/build-manifest.json",
+      "current_sha256": "764fd24c82b9247ba4a5bb484a84a97b6c2f3694a3839f34b6e6c749e5a7b28b",
+      "operation": "actual manuscript builder rerun on29Oct;28pages exact PDF hash unchanged"
+    }
+  ]
+}

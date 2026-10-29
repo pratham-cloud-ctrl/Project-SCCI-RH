@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/supervision/review/page-5.png",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "30d7bb47064b7249a5509ca007143cbca2bc116fdd92d7437a43481ff8a8e389",
+  "current_sha256": "548d1357e7f6121502f207ce36007dccbc4fe3e8bac69e9d2e36fc648d13e7d2",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-legacy-review-renders.json",
+      "sha256_lf": "cad3394dbd69d47c83203a8fb2ae4d6c3559b1536070b84765d1429576c60350"
+    }
+  ]
+}

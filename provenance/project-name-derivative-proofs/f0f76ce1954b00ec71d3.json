@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/recording-front-end/verification.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "55b6bfeb6d6241b8f5dde32add7faaa41ad9b36572d169b9a42ff0466ed1fb7c",
+  "current_sha256": "5de41dc8e6c817b48eb6196972d7f8a648ff6f70dafaadbad40ccf0eaae0ccde",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

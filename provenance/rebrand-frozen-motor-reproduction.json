@@ -1,0 +1,61 @@
+{
+  "schema": "project-name-frozen-motor-reproduction.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "scope": "Actual frozen historical world and acquisition-capture equality under renamed Python namespace; no biological or physical performance",
+  "original_git_commit": "526b854ad90dda8320325635fb26fef2a9e120bf",
+  "current_sources_sha256_lf": {
+    "scripts/stage3_motor_convergence.py": "3d343ac5294d9f696c678af24e70af3840b35da0dea8d66a2261eceeb5c2fb70",
+    "scripts/project_branding.py": "c9fd1cff27cc8cb8b9d250ea3caaf565a92d6368a2e04037d568779eb6c4e295",
+    "src/scci_rh/stage3/motor.py": "fdc83232adcd15759319a05af2204c7d3481f5da3ecf4538f152b569760c05fe"
+  },
+  "result": {
+    "status": "EXACT_FROZEN_COARSE_REPRODUCTION",
+    "commit": "526b854ad90dda8320325635fb26fef2a9e120bf",
+    "normalized_lf_source_sha256": "78e383028745e29273c4ff8a556ebf3e9a6749fd4763d97a3fee21fcc0a73d37",
+    "world_checks": [
+      {
+        "family": "favorable",
+        "position_exact": true,
+        "velocity_exact": true,
+        "activation_exact": true,
+        "coefficient_exact": true
+      },
+      {
+        "family": "zero",
+        "position_exact": true,
+        "velocity_exact": true,
+        "activation_exact": true,
+        "coefficient_exact": true
+      },
+      {
+        "family": "harmful",
+        "position_exact": true,
+        "velocity_exact": true,
+        "activation_exact": true,
+        "coefficient_exact": true
+      },
+      {
+        "family": "dependent",
+        "position_exact": true,
+        "velocity_exact": true,
+        "activation_exact": true,
+        "coefficient_exact": true
+      }
+    ],
+    "capture_checks": [
+      {
+        "onset_delay_s": 0.005,
+        "all_capture_outputs_exact": true
+      },
+      {
+        "onset_delay_s": 0.035,
+        "all_capture_outputs_exact": true
+      },
+      {
+        "onset_delay_s": 0.15,
+        "all_capture_outputs_exact": true
+      }
+    ]
+  }
+}

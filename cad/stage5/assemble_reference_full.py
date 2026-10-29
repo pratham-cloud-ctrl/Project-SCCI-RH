@@ -18,7 +18,7 @@ def main():
     ref=json.loads((HERE/'reference/contract.json').read_text())
     hr=json.loads((HERE/'harness/geometry-receipt.json').read_text())
     hc=json.loads((HERE/'harness/contract.json').read_text())
-    master=App.newDocument('ATO_Stage5_Reference_Full')
+    master=App.newDocument('SCCI_RH_Stage5_Reference_Full')
     sources=[];final=[];copied=[]
     for name,path,rows in [('Reference',ref['native'],ref['parts']),('Mating',hc['native'],hr['parts'])]:
         source=App.openDocument(str(ROOT/path));sources.append(source)
@@ -38,7 +38,7 @@ def main():
     scope=master.addObject('App::FeaturePython','Stage5Scope')
     scope.addProperty('App::PropertyString','Status');scope.Status='True-scale eight-board reference chassis and nominal mating housings; separate route-planning file contains no physical wiring'
     scope.addProperty('App::PropertyString','Miniaturization');scope.Miniaturization='No implant scale transformation. Conditional future interface is a separate native assembly.'
-    path=HERE/'ATO_stage5_reference_full.FCStd';master.saveAs(str(path))
+    path=HERE/'SCCI_RH_stage5_reference_full.FCStd';master.saveAs(str(path))
     meshes=[]
     for obj in final:
         if obj.Label not in ('Lid','FrontPanel'):
@@ -46,7 +46,7 @@ def main():
     import Mesh
     combined=Mesh.Mesh()
     for mesh in meshes:combined.addMesh(mesh)
-    combined.write(str(HERE/'ATO_reference_inspection.stl'))
+    combined.write(str(HERE/'SCCI_RH_reference_inspection.stl'))
     # A material-complete STLis a visualization derivative. Touching individual
     # assembly parts are not a unioned, printable single body.
     native_checks=[]
@@ -58,7 +58,7 @@ def main():
                                   valid=obj.Shape.isValid()))
         assert native_checks[-1]['volume_error_mm3']<1e-5
         assert len(original.Solids)==len(obj.Shape.Solids)
-    receipt=dict(schema='ato.stage5.combined-native.v1',native='cad/stage5/ATO_stage5_reference_full.FCStd',
+    receipt=dict(schema='scci_rh.stage5.combined-native.v1',native='cad/stage5/SCCI_RH_stage5_reference_full.FCStd',
                  sha256=hashlib.sha256(path.read_bytes()).hexdigest(),part_count=len(final),
                  construction_feature_count=len(master.Objects)-len(final)-3,
                  sources={p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in [ref['native'],hc['native']]},

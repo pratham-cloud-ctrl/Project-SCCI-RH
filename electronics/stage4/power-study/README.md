@@ -1,4 +1,4 @@
-# ATO-S4-PWR quantitative study
+# SCCI_RH-S4-PWR quantitative study
 
 This package binds the actual six native KiCad connectivity manifests to a finite
 electrical and resource budget. It is a digital reference. Its load caps,

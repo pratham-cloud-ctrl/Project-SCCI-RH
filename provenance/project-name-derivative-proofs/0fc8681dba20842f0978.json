@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/controller-carrier/visual-review.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "eae0e1997c287cbcaeb6066b26d244acf448c5403e9d6c7ddd26defc2170ce59",
+  "current_sha256": "94421931d3cc7165711294f81918a5e27e1f7e9ee70db1aea887b649c1e877fb",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

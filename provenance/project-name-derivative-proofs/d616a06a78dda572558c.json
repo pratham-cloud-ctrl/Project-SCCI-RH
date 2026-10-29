@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "794abbd003d620ac901e1ccfdca49adf4ea04e7d060533a2b620718144935ed9",
+  "current_sha256": "66a77d7f84566c6f1e875849dbaa742595a4fae96d718aec8fdc1ea3fb60f3b4",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-pdf-review.json",
+      "sha256_lf": "fdfd82c10d8fb18128ab61a3f8152ef3783bc9d386d365743d9ec1b2cf845c33"
+    }
+  ]
+}

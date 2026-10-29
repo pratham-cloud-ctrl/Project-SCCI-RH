@@ -23,15 +23,15 @@ def main():
     artifacts={}
     for p in sorted(ST5.rglob('*')):
         if not p.is_file() or any(s in p.parts for s in ('__pycache__','extracted')):continue
-        if p.suffix in ('.FCBak','.blend1') or p.name in ('ATO_reference_assembly.step','ATO_reference_exploded.step'):continue
+        if p.suffix in ('.FCBak','.blend1') or p.name in ('SCCI_RH_reference_assembly.step','SCCI_RH_reference_exploded.step'):continue
         assert p.stat().st_size<100*1024*1024,('GitHub single-file limit',p)
         # Every artifact gets its ordinary Git-normalized representation digest.
         is_text=p.suffix in ('.py','.json','.csv','.md','.cmd','.FCMacro','.svg')
         artifacts[p.relative_to(ROOT).as_posix()]=dict(sha256=sha(p,is_text),text_normalized=is_text,bytes=p.stat().st_size)
-    drawing=ST5/'drawings/ATO_Stage5_Mechanical_Review.pdf'
+    drawing=ST5/'drawings/SCCI_RH_Stage5_Mechanical_Review.pdf'
     reader=PdfReader(str(drawing));assert len(reader.pages)==6
     pages=[page.extract_text() for page in reader.pages]
-    assert all('PROJECT ATO' in p and 'Nominal review geometry' in p for p in pages)
+    assert all('PROJECT SCCI RH' in p and 'Nominal review geometry' in p for p in pages)
     assert all(f'P{i:02}' in pages[4] for i in range(1,37)), 'complete36portdrawing'
     images={}
     for name in ('reference_assembled','reference_exploded','future_assembled','future_exploded'):
@@ -50,7 +50,7 @@ def main():
     assert not missing,('broken mechanical entry link',missing)
     checks=json.loads((ROOT/'provenance/stage5-mechanical-verification.json').read_text())
     assert checks['passed']
-    report=dict(schema='ato.stage5.delivery-review.v1',passed=True,date='2026-10-16',
+    report=dict(schema='scci_rh.stage5.delivery-review.v1',passed=True,date='2026-10-16',
                 source_geometry='Saved native/STEP files validated by the independent Stage5 mechanical checkpoint',
                 independent_mechanical_report_sha256=sha(ROOT/'provenance/stage5-mechanical-verification.json',True),
                 artifacts=artifacts,illustrated_pdf_pages=6,port_drawing_ids=36,technical_renders=images,

@@ -20,7 +20,7 @@ import stage3_assisted_prediction_study as prediction
 import stage3_resolved_teacher_study as resolved
 import stage3_sparse_baseline_study as sparse
 import stage3_isolated_pilot_study as pilot
-from ato.stage3.dynamic_response import (
+from scci_rh.stage3.dynamic_response import (
     fit_response_kernel, response_model_from_record, validate_response_recording,
     ProspectiveDose,
 )
@@ -89,7 +89,7 @@ def verify():
         independent_nominal_teacher_streams(library)
         assert library['source_limits']['aperture_resolved_source']
         assert library['source_limits']['source_hold_s'] == 0.
-        assert library['library_id'].startswith('ATO-S3-RESOLVED-TEACHER-1:')
+        assert library['library_id'].startswith('SCCI_RH-S3-RESOLVED-TEACHER-1:')
         nominal, faster = library['qualification']['domains']['1'], library['qualification']['domains']['1.15']
         for gate in nominal['references'].values():
             assert gate['qualified'] == (generator == 'idealized_inverse')
@@ -303,12 +303,12 @@ def verify():
         'delivery-requirements', 'dynamic-response', 'sparse-baseline', 'isolated-pilot')
         for p in (ROOT/'results/stage3'/directory).glob('*') if p.is_file())
     source_paths = ['scripts/verify_stage3_revision.py', 'scripts/build_stage3_revision_figures.py',
-                    'scripts/build_stage3_revision_brief.py', 'src/ato/stage3/residual_guard.py']
+                    'scripts/build_stage3_revision_brief.py', 'src/scci_rh/stage3/residual_guard.py']
     for record in (teacher, delivery, dynamic): source_paths.extend(record['source_sha256'])
     for directory in ('resolved-teacher', 'source-sensitivity', 'assisted-prediction', 'sparse-baseline'):
         source_paths.extend(read(f'results/stage3/{directory}/summary.json')['source_identity'])
     source_paths.extend(read('results/stage3/isolated-pilot/summary.json')['source_sha256'])
-    return {'schema': 'ato.stage3.mechanism-revision-verification.v2', 'date': '2026-10-12',
+    return {'schema': 'scci_rh.stage3.mechanism-revision-verification.v2', 'date': '2026-10-12',
         'scope': 'Saved evidence audit for a partial Stage3 mechanism revision and negative coupled admission pilot; no admitted pilot intervention, retained learner benefit, biological or complete-implant qualification.',
         'checks': checks, 'counts': counts,
         'input_normalized_hashes': {p: normalized_sha(p) for p in sorted(set(source_paths))},

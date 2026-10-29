@@ -10,7 +10,7 @@ biological validation. Those are later stages of the [overhaul programme](../ove
 
 | Read or inspect | Purpose |
 |---|---|
-| [Illustrated architecture brief](../../output/pdf/ATO_stage2_architecture_budgets.pdf) | Selected design, plots, admitted/rejected reference cases and package allocations |
+| [Illustrated architecture brief](../../output/pdf/SCCI_RH_stage2_architecture_budgets.pdf) | Selected design, plots, admitted/rejected reference cases and package allocations |
 | [Selected design and decisions](selected-design.md) | What changed, why, and the conditional operating envelope |
 | [Acquisition and computation](acquisition-and-compute.md) | Signal/noise, causal filtering, channel topology, ADC/SPI, memory and cycle budgets |
 | [Stimulation and biological access](stimulation-and-access.md) | Published anchors, contacts, waveform assumptions, compliance, charge and recruitment limits |

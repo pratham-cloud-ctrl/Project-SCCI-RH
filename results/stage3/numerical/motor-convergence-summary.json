@@ -1,11 +1,11 @@
 {
-  "schema": "ato.stage3.motor-convergence-summary.v1",
+  "schema": "scci_rh.stage3.motor-convergence-summary.v1",
   "status": "bounded_numerical_diagnostic",
   "source_identity": {
-    "motor.py": "d86b4d091baf226475ce9f6d6e2390b65bb63752e5f50e73d42c5c3408b2323c",
+    "motor.py": "fdc83232adcd15759319a05af2204c7d3481f5da3ecf4538f152b569760c05fe",
     "acquisition.py": "bd681adefc5e82c58b449490ad14917fff307be9947de647e92aeb6c38b22f03",
     "external_history.py": "2ec8bb81bd96066fe8f80696a0351d4407b68baabd6526e6211922abb8a4f97d",
-    "stage3_motor_convergence.py": "e286e29da9874b2913e89e8690e2e764795c91739323c8f8f2358345940f51ca"
+    "stage3_motor_convergence.py": "3d343ac5294d9f696c678af24e70af3840b35da0dea8d66a2261eceeb5c2fb70"
   },
   "experiment": {
     "seed": 3,
@@ -3344,7 +3344,7 @@
   ],
   "raw_witness": {
     "path": "motor-convergence.json.gz",
-    "sha256": "e1dd5dc7bf58d097165cbc03f8d148b035f68960642fa93d27a268c6218b02a8",
+    "sha256": "955aab8d591929026305d9565f0ee2a13d70159d5f4540fddd4e0c772945bfb4",
     "format": "deterministic gzip UTF8JSON; all fixed5ms trajectories and RNG receipts retained"
   },
   "fixed_input_cases": [

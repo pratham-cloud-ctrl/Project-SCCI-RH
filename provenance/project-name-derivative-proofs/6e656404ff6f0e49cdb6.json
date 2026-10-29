@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "cad/stage5/renders/future_exploded.png",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "0b900b3027a9c391703304e992a6e66e99856d360922a55c96c7d6a49790bb1d",
+  "current_sha256": "7720956d7b52e6958f7f63181ed40b32c8ff1512a14ec7968e1794730f9ad783",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-raster-metadata.json",
+      "sha256_lf": "080581affa607d0673615780371f14215ee4f2cbe31ad5ad8ee9447228fdd9fa"
+    }
+  ]
+}

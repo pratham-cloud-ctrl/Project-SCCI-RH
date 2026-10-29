@@ -1,6 +1,6 @@
 # Integrated populated circuit system
 
-Project ATO now brings its seven circuit packages and the actual nRF5340 carrier
+Project SCCI RH now brings its seven circuit packages and the actual nRF5340 carrier
 into one native electrical hierarchy and an eight-board populated layout. This
 is a digital engineering assembly for artificial signals and loads. It gives the
 SCCI concept a concrete electrical implementation and inspectable component
@@ -32,7 +32,7 @@ Driver C20100 and C20200 are deliberately marked DNP in the native source. Their
 footprints and optional test nodes remain present; the assembly BOM retains the
 same do-not-populate flags instead of silently fitting them.
 
-The [editable master](../../electronics/stage4/integrated-pcb/integration/master/ATO_integrated.kicad_sch)
+The [editable master](../../electronics/stage4/integrated-pcb/integration/master/SCCI_RH_integrated.kicad_sch)
 contains the actual circuit sheets, rather than a diagram that merely names
 separate designs. Its native exported XML supplies the electrical graph for the
 independent integration audit. Per-board editable schematic copies have the same

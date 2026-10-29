@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/monitoring-transport/review/final-review-contact.png",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "a03a6f73b17e58dcdc4df83fb62b9769d81764d4ff26a257aef2e78b8d73e21b",
+  "current_sha256": "e8a782f39dbe811edb0ec372bf7f866fa5aaa8a7219dec8c6aac12984d18d08a",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-monitoring-review-contact.json",
+      "sha256_lf": "5e0037f5ed72a9f6498e4b3bde4d6d0943c8ada53c1145c20b6922e1d07fc269"
+    }
+  ]
+}

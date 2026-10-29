@@ -15,17 +15,17 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'src'))
-from ato.stage3 import motor
-from ato.stage3.acquisition import AcquisitionConfig, ContactAcquisition
-from ato.stage3.electrical import MotorDelivery
-from ato.stage3.assisted_prediction import (
+from scci_rh.stage3 import motor
+from scci_rh.stage3.acquisition import AcquisitionConfig, ContactAcquisition
+from scci_rh.stage3.electrical import MotorDelivery
+from scci_rh.stage3.assisted_prediction import (
     PredictionSpec, KnownInstruction, ObservedDose, PlannedFrame, measured_record,
     fit_assisted_predictor, validate_assisted_recording, coupling_admission)
 from run_stage3_studies import close_nested
 
-SOURCE_PATHS = ('src/ato/stage3/assisted_prediction.py', 'src/ato/stage3/motor.py',
-                'src/ato/stage3/acquisition.py', 'src/ato/stage3/filter_residual.py',
-                'src/ato/stage3/electrical.py', 'scripts/stage3_assisted_prediction_study.py')
+SOURCE_PATHS = ('src/scci_rh/stage3/assisted_prediction.py', 'src/scci_rh/stage3/motor.py',
+                'src/scci_rh/stage3/acquisition.py', 'src/scci_rh/stage3/filter_residual.py',
+                'src/scci_rh/stage3/electrical.py', 'scripts/stage3_assisted_prediction_study.py')
 SPEC = PredictionSpec()
 
 
@@ -162,7 +162,7 @@ def run_study():
             'context_admissions': {r['recording_id']: coupling_admission(model, r['recording_id'], response,
                 reference, dynamic_response_qualified=False) for r in recordings}})
     if source_hashes() != identity: raise AssertionError('Source changed during prediction experiment')
-    return {'schema': 'ato.stage3.assisted-prediction-study.v1', 'date': '2026-10-09',
+    return {'schema': 'scci_rh.stage3.assisted-prediction-study.v1', 'date': '2026-10-09',
         'source_identity': identity, 'status': 'independent_assisted_forecast_and_admission_audit',
         'specification': asdict(SPEC), 'motor_config': asdict(config), 'model': model,
         'training_recordings': [serialize_recording(r) for r in training],

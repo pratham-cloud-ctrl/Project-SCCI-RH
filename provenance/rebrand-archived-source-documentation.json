@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-29",
+  "files": [
+    {
+      "path": "electronics/stage4/integrated-pcb/provenance/exporter-sources/README.md",
+      "current_sha256": "96a56c3e694cbc8cb0dfc23322ae25aae217d3e3392369e4fdec307740298052",
+      "method": "Reviewed provenance wording clarification: distinguish original executed source bytes in immutable Git from exactly hash-bound namespace-renamed copies and retained historical SHA filenames. No numerical result, geometry or execution status changed."
+    },
+    {
+      "path": "provenance/stage5-inspector-sources/README.md",
+      "current_sha256": "b16fff230ceebd099cb92ebc6450d251c891412bb6c20d98be3e91e6f99a9031",
+      "method": "Reviewed provenance wording clarification: distinguish original executed source bytes in immutable Git from exactly hash-bound namespace-renamed copies and retained historical SHA filenames. No numerical result, geometry or execution status changed."
+    }
+  ]
+}

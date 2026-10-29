@@ -1,5 +1,5 @@
 {
-  "schema": "ato-browser-native-electrical-exports-v1",
+  "schema": "scci_rh-browser-native-electrical-exports-v1",
   "date": "2026-10-21",
   "mcp": {
     "server": "kicad / Konnect",
@@ -12,7 +12,7 @@
     ],
     "schematic_export": {
       "tool": "export_schematic_svg",
-      "source": "electronics/stage4/integrated-pcb/integration/master/ATO_integrated.kicad_sch",
+      "source": "electronics/stage4/integrated-pcb/integration/master/SCCI_RH_integrated.kicad_sch",
       "result": "success",
       "sheets": 80
     },

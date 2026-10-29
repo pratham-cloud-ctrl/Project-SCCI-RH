@@ -1,70 +1,70 @@
 {
-  "schema": "ato.integrated-pcb-mcp-inspection.v1",
+  "schema": "scci_rh.integrated-pcb-mcp-inspection.v1",
   "date": "2026-10-15",
   "source": "Saved native files, no unsaved GUI state claimed",
   "boards": [
     {
       "board": "monitoring-cell",
       "metadata": {
-        "company": "Project ATO / Pratham",
+        "company": "Project SCCI RH / Pratham",
         "copper_layer_count": 4,
         "date": "2026-10-15",
-        "file": "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\monitoring-cell\\monitoring_cell.kicad_pcb",
+        "file": "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\monitoring-cell\\monitoring_cell.kicad_pcb",
         "layer_count": 26,
         "net_count": 46,
         "paper": "A4",
         "paper_size_mm": null,
         "revision": "A / Digital modular reference",
         "source": "file",
-        "title": "Project ATO / Monitoring Cell"
+        "title": "Project SCCI RH / Monitoring Cell"
       }
     },
     {
       "board": "monitoring-transport",
       "metadata": {
-        "company": "Project ATO / Pratham",
+        "company": "Project SCCI RH / Pratham",
         "copper_layer_count": 4,
         "date": "2026-10-15",
-        "file": "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\monitoring-transport\\monitoring_transport.kicad_pcb",
+        "file": "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\monitoring-transport\\monitoring_transport.kicad_pcb",
         "layer_count": 26,
         "net_count": 60,
         "paper": "A4",
         "paper_size_mm": null,
         "revision": "A / Digital modular reference",
         "source": "file",
-        "title": "Project ATO / Monitoring Transport"
+        "title": "Project SCCI RH / Monitoring Transport"
       }
     },
     {
       "board": "current-driver",
       "metadata": {
-        "company": "Project ATO / Pratham",
+        "company": "Project SCCI RH / Pratham",
         "copper_layer_count": 4,
         "date": "2026-10-15",
-        "file": "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\current-driver\\current_driver.kicad_pcb",
+        "file": "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\current-driver\\current_driver.kicad_pcb",
         "layer_count": 26,
         "net_count": 106,
         "paper": "A4",
         "paper_size_mm": null,
         "revision": "A / Digital modular reference",
         "source": "file",
-        "title": "Project ATO / Current Driver"
+        "title": "Project SCCI RH / Current Driver"
       }
     },
     {
       "board": "power",
       "metadata": {
-        "company": "Project ATO / Pratham",
+        "company": "Project SCCI RH / Pratham",
         "copper_layer_count": 4,
         "date": "2026-10-15",
-        "file": "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\power\\power.kicad_pcb",
+        "file": "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\power\\power.kicad_pcb",
         "layer_count": 26,
         "net_count": 80,
         "paper": "A4",
         "paper_size_mm": null,
         "revision": "A / Digital modular reference",
         "source": "file",
-        "title": "Project ATO / Power"
+        "title": "Project SCCI RH / Power"
       }
     }
   ],

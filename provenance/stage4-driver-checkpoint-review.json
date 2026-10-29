@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage4.driver-checkpoint-review.v1",
+  "schema": "scci_rh.stage4.driver-checkpoint-review.v1",
   "date": "2026-10-13",
   "scope": "Native restricted driver and selected model evidence; fullStage4/PCB/CAD remain unfinished",
   "native_components": 156,
@@ -23,11 +23,11 @@
   "PCB_or_populated_CAD_complete": false,
   "all_current_stage4_local_links_resolve": 56,
   "sha256": {
-    "electronics/stage4/current-driver/connectivity.json": "6de38e485762d6e5f4b2b72360e1ecb415eb0f5dff40a5a4770188ee141baa6f",
-    "electronics/stage4/current-driver/current_driver.pdf": "1e2c0159f11e31e97a4ddb60b28ca847bbd4e5e1d3dd476eb6a5b7c60c7684be",
-    "electronics/stage4/current-driver/verification.json": "6f7a6eb249a4dbc3033d8ad4dcf4c03f93d9955fd1c418632e9fb81fbe9a4517",
-    "electronics/stage4/driver-study/verification.json": "36075113410c4cb10587453a4730c6f6524ad20f47ac244301a9dc72266db371",
-    "docs/stage4/current-driver-component-review.md": "e701d2c82dd1db5d7fb4987cb71b55e6d62fc7b411e333d60c05c1f5e9885d66",
+    "electronics/stage4/current-driver/connectivity.json": "fffcc6b5e23ef1b9e67f1e029924bc6d509be060ebbe5c31f13893474895c8e3",
+    "electronics/stage4/current-driver/current_driver.pdf": "5f27f519b85c1f18d173aad116588da4c245af287386655553e4b8a29ee58990",
+    "electronics/stage4/current-driver/verification.json": "c5be9a53465178e15b9ed77d783e65d95a8cff5cd1bbf23bfe602a1cd5fa405a",
+    "electronics/stage4/driver-study/verification.json": "fd53e01b93e4bbf1b00dec4cc13170f1653cf8f7b2df1eba08e297a87fc5bdbe",
+    "docs/stage4/current-driver-component-review.md": "eb86e813c89a6bcb0afc4ab94a9049b51c547c182e648828ec0a6f97458e4daa",
     "docs/stage4/current-driver-control-contract.md": "efd3568cea71f76b5313ba28cfe807e06a1611506fa69a0e058324bed0743948"
   },
   "hash_policy": "SHA256 after LF normalization for text; exact PDF bytes"

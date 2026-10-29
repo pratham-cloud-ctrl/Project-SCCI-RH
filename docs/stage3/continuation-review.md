@@ -3,7 +3,7 @@
 Integration review: **12 October 2026**. The underlying studies were developed on
 8–12 October and remain individually dated. Stage 3 is **in progress**.
 
-Project ATO gives the proposed invasive spinal interface a complete digital
+Project SCCI RH gives the proposed invasive spinal interface a complete digital
 engineering embodiment: recording contacts, acquisition, interpretation,
 learner-specific stimulation, monitored delivery and feedback, eventually joined
 to native electronics, firmware, engineering CAD and an illustrated paper.

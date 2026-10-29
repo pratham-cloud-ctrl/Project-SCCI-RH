@@ -13,7 +13,7 @@ RESULT=ROOT/'results/stage3'
 DOC=ROOT/'docs/stage3'
 FIG=DOC/'figures'
 MMHG=133.322387415
-plt.rcParams.update({'font.size':10,'svg.hashsalt':'ATO-STAGE3','axes.spines.top':False,
+plt.rcParams.update({'font.size':10,'svg.hashsalt':'SCCI_RH-STAGE3','axes.spines.top':False,
                      'axes.spines.right':False,'figure.facecolor':'white'})
 
 

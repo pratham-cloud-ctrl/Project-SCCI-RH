@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/routing-study/router-parasitics.svg",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "f8501e6318f367689228c6cf33b5ad7446049a04710e34ed6ce5ac5f01f5cb49",
+  "current_sha256": "cc91f8b307f56952fa558e7362cd9818b02faa33e32385d063739ef2670f5088",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-electrical-study-visuals.json",
+      "sha256_lf": "d5e2d523efd10df7f48e303628fa8a666e46feeecd1c34a2b6779971d01ab9da"
+    }
+  ]
+}

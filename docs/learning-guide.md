@@ -1,10 +1,10 @@
-# Learning and defending Project ATO
+# Learning and defending Project SCCI RH
 
 The polished repository is an AI-assisted engineering result. It becomes your research portfolio through your ability to explain its assumptions, reproduce its outputs, challenge them and document your own revisions. Possession of the files does not establish understanding.
 
 ## A clear explanation in one minute
 
-Project ATO is a digital engineering study of a future implanted spinal interface. It asks how useful spinal measurements and calibrated stimulation could support expert-informed practice and selected physiological feedback. The release tests a rhythmic training surrogate and a synthetic blood-pressure plant, documents representative electronics, and gives the concept an editable CAD identity. It separates assistance from retained learning. Its results are conditional simulations, not evidence that an implant copies skills or works in a person. AstroSam inspired the progression from concept to inspectable engineering; ATO's spinal application, models and design are its own.
+Project SCCI RH is a digital engineering study of a future implanted spinal interface. It asks how useful spinal measurements and calibrated stimulation could support expert-informed practice and selected physiological feedback. The release tests a rhythmic training surrogate and a synthetic blood-pressure plant, documents representative electronics, and gives the concept an editable CAD identity. It separates assistance from retained learning. Its results are conditional simulations, not evidence that an implant copies skills or works in a person. AstroSam inspired the progression from concept to inspectable engineering; SCCI_RH's spinal application, models and design are its own.
 
 Use this explanation as a starting point, then express it in your own words. Explain one figure without reading its caption. State one result, one assumption behind it and one observation that would disprove the associated claim.
 
@@ -14,8 +14,8 @@ Use this explanation as a starting point, then express it in your own words. Exp
 |---|---|---|
 | Scope | README, `docs/claim-register.csv` | Classify three statements as evidence, design choices or synthetic results |
 | Access | Architecture and research documents | Explain intradural recording versus epidural stimulation and motor versus pressure placement |
-| Motor model | `src/ato/motor.py`, `docs/model-methods.md` | Predict what beta=0 does before rerunning it |
-| Pressure model | `src/ato/pressure.py`, generated traces | Explain the initial dip and the scored window |
+| Motor model | `src/scci_rh/motor.py`, `docs/model-methods.md` | Predict what beta=0 does before rerunning it |
+| Pressure model | `src/scci_rh/pressure.py`, generated traces | Explain the initial dip and the scored window |
 | Electronics | Native sources, schematics and validation | Follow artificial input to conditioned output and command to dummy load |
 | Mechanical design | CAD source and exports | Explain board coordinates, clearance and the conceptual leads |
 | Reproducibility | Reproduction instructions and raw results | Rerun a study and match its summary |

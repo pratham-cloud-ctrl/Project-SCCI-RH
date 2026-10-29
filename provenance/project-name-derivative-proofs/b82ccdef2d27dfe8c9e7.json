@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "provenance/stage4-monitoring-companion-checkpoint-review.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "01b918af12b256416a2de7ab49f0abd05929149f90e002c38fa93fdeddecd470",
+  "current_sha256": "b1b7d83746bb7832a2183293670ff012fe19557fd71a3acf5649257a19bd1135",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

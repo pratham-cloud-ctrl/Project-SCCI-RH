@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage3.pressure-fallback-summary.v1",
+  "schema": "scci_rh.stage3.pressure-fallback-summary.v1",
   "runs": [
     {
       "metadata": {

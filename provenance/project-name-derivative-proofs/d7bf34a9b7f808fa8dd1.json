@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "scripts/inspector/build_electronics_assets.py",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "9369d42ac5e209432a7ace04d8f818ae2c03a5d2a7f5e7af1b5e45521fc7707c",
+  "current_sha256": "fdfa44585133f8557acae874778e3877dfeefb3952d4e7dde0f91dae00c39e26",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-reviewed-source-adaptations.json",
+      "sha256_lf": "0a1ac7a47a29a98575b6ded308f6acc46e3766a8446f56498728dac44c784846"
+    }
+  ]
+}

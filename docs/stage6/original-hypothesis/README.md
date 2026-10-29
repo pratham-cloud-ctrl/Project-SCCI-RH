@@ -11,9 +11,9 @@ modified.
 
 SHA-256: `a1784965d63060e3b0c11fd3c01c9f0b4fe0b007cc65c605c76164ee1d4bf103`
 
-The paper is background for ATO, not a report of original human or animal
+The paper is background for SCCI_RH, not a report of original human or animal
 experiments. Its illustrative numbers are not measured outcomes. The
 [Stage 6 evidence review](../evidence-review.md) checks the important primary
-sources; the [integrated manuscript](../../../output/pdf/Project_ATO_Integrated_Manuscript.pdf)
+sources; the [integrated manuscript](../../../output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf)
 connects that evidence to the completed digital project and its explicit
 assumptions. Keep this original input unchanged in subsequent revisions.

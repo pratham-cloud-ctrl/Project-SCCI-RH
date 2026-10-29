@@ -4,7 +4,7 @@ stdout ** ngspice-46 shared library
 stdout ** Creation Date: Apr 14 2026   05:15:29
 stdout ******
 stdout Note: No compatibility mode selected!
-stdout Circuit: ato generic-device current-sink and switch test (not vendor macromodels)
+stdout Circuit: scci_rh generic-device current-sink and switch test (not vendor macromodels)
 Prepare Deck
 Parse
 stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000

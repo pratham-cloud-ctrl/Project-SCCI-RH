@@ -1,5 +1,5 @@
 {
-  "schema": "ato.conditional-concept.review.v1",
+  "schema": "scci_rh.conditional-concept.review.v1",
   "date": "2026-10-13",
   "scope": "Conditional illustrative model and design handoff; no biological or native-circuit qualification",
   "run_count": 128,
@@ -27,14 +27,14 @@
   "all_new_package_local_links_resolve": 17,
   "artifacts_sha256": {
     "experiments/stage3/conditional-concept/conditional-assistance.png": "df903025a24f8e6df5d3e160b80dac58f12ba67cd8207e1e684e3620a1387442",
-    "experiments/stage3/conditional-concept/conditional-assistance.svg": "be26953a56d3c4d0bcfc21650da1e564d2597b5262d15f531dbc810b48969db6",
+    "experiments/stage3/conditional-concept/conditional-assistance.svg": "8bf6b6ec0182947ca07b9d6ce7a159a1f3266111923661050c3ca46278e81ac5",
     "experiments/stage3/conditional-concept/conditional-learning.png": "7086842ba2a4f3841a96d95dddaeaf04f262a32890812022368fe2813be5907f",
-    "experiments/stage3/conditional-concept/conditional-learning.svg": "ade8d196a6375079f8b9f0489a1cd700f58e33cb2590c431e0e39f756138dd2c",
-    "experiments/stage3/conditional-concept/first-practice-traces.json": "be1fd99bd4fd0ea0580e525bd77db8bc06eaf30057f4309135a54de4bd4aa9ea",
-    "experiments/stage3/conditional-concept/learning-curves.csv": "c853e7699835fa57b99e8dff7b31c9fa31c94750d999a59af420854fa898caa2",
+    "experiments/stage3/conditional-concept/conditional-learning.svg": "9b21fcbe2063e0b3aa0b9f8a3f22a0831f89450ada5151649125298ab44bf375",
+    "experiments/stage3/conditional-concept/first-practice-traces.json": "485374a723ae559d867cd41c609077f386810ebd484654d4b14b5a3d3a50e375",
+    "experiments/stage3/conditional-concept/learning-curves.csv": "428f3e76402a488b7d16f4fa918fc7839d93d5cc75b3998170801bb5d8f76892",
     "experiments/stage3/conditional-concept/protocol.md": "7d7b9851575b9db8b12ef93569c460655d5ffac972a6894693b414c4fcfa5e0e",
     "experiments/stage3/conditional-concept/README.md": "622bdc847e6736852876766d0e8e4efe5ea8de7b7c31c50365610925b673d4fb",
-    "experiments/stage3/conditional-concept/study.py": "edbfffe80632aa058f5b6bd0ae4865c397ad078e09e9e06d7a63065d4ede151f",
-    "experiments/stage3/conditional-concept/summary.json": "90b18551e01b71700605d0feab9b8748566355616a806ed1ed01d86e1b3ed83e"
+    "experiments/stage3/conditional-concept/study.py": "7765a992ec976278c21006ce847ca1ceb1c3ebd68ce6000329178ea70a1c5b79",
+    "experiments/stage3/conditional-concept/summary.json": "b8eaae400f7cffb8459da09a36034a0839e8359b1eeb5f9e8ea3fb40ddec3981"
   }
 }

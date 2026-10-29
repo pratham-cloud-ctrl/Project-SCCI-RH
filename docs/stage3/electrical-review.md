@@ -6,7 +6,7 @@ model; it does not qualify an implant or a human stimulation profile.
 
 ## Review boundary
 
-Reviewed [electrical.py](../../src/ato/stage3/electrical.py),
+Reviewed [electrical.py](../../src/scci_rh/stage3/electrical.py),
 [electrical tests](../../tests/test_stage3_electrical.py),
 [study runner](../../scripts/run_stage3_studies.py),
 [ngspice cross-check](../../scripts/stage3_ngspice_check.py), the

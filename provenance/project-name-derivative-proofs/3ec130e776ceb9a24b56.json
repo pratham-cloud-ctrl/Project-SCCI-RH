@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "scripts/inspector/build_catalog.py",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "c8f060666a1c19a311ad2bad874f90978af60b79fa174af46d5fb253f2b09800",
+  "current_sha256": "ccfb1d6b313b1311d3856cae5dd265ee659b2f556ed8c0824ecdd06247788ede",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-reviewed-source-adaptations.json",
+      "sha256_lf": "0a1ac7a47a29a98575b6ded308f6acc46e3766a8446f56498728dac44c784846"
+    }
+  ]
+}

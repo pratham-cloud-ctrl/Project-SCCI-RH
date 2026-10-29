@@ -1620,15 +1620,15 @@
     }
   },
   "schematic_sha256": {
-    "controller_carrier.kicad_sch": "c1539a270995d7d44e52a0994265986765e24af7762a2d8aec04c59f4df99f74",
-    "defaults.kicad_sch": "b4d0cbb6898202284c9f92c954c0da044f4372485a995a79d3e346814fbeeb90",
-    "defaults_2.kicad_sch": "de54495791d68a141fb2733dc95e01bba73763b1584ea23329eecb6ddfa4839e",
-    "defaults_3.kicad_sch": "ea6c6a25ba55f8e1e9941a081b5aaf2f76dd315c25773215e02379c16674860b",
-    "handoff.kicad_sch": "240bd5c28e0b0f75eb8802d437c79483c2f1ef5ab6fba931ec4655e65ef8214d",
-    "handoff_2.kicad_sch": "3ace911ed5add5f1fc57b9f34f266d410f2e28cc4c589f0c1d3d04b135c4a6bd",
-    "handoff_3.kicad_sch": "aea0c07a082688e6a96deff4df2eb28be31a505c5a31d032b8d0b7c8c98ccf99",
-    "power.kicad_sch": "ec7078f0fc0bd94979bf1a6df5d6c1d5581fb5bdf4fb315e03273a8c50e9bbb4",
-    "processor.kicad_sch": "f71a6339483e52198dff01569d2f9545f8dffd7365654690377f722bdd026277",
-    "sideband.kicad_sch": "2239d3e649ad7f37354a71cb7d322af0a4188abeb629de6294305d724d884441"
+    "controller_carrier.kicad_sch": "b224e051142c4cf0a168ab05c282813a34ff59f16678d86b9e3176598f7573d8",
+    "defaults.kicad_sch": "fd710c1c4fa840a6d29a1081f57c8c459083f2f40efc33f47115a8e3606e1b16",
+    "defaults_2.kicad_sch": "59f7913b7df62bdbc2551e1f6d6cfb7437241ecb332a5a0ba8d8adc387a83a46",
+    "defaults_3.kicad_sch": "86ec6e1cddf2b4c07ac7d22a8a376bf21b1459903632a2c9db1ade97a96e661d",
+    "handoff.kicad_sch": "7df41661eca456af8b5df6e9ef4311230c4b8a492377af773c3ec8915f832061",
+    "handoff_2.kicad_sch": "72db901f9a6eb2d9cd3d8dafb636e1354cd11f479038672a3e63350144da7db0",
+    "handoff_3.kicad_sch": "729349bfbf5109cd179e250e6d060eeae064abaa82b9599d7d78ed1243fda0bf",
+    "power.kicad_sch": "d7df9d2f7dc5ec0cc4043ad56a38b9cbf895165d9fb13f8db33c64eeec2e98c1",
+    "processor.kicad_sch": "1ae4dc7a450df46e62dbb3f0e8d7a8ab990b6ab68684387e417c1faed2366d3d",
+    "sideband.kicad_sch": "05e7ef42bc3a71db2d4f60543771a1e2221de15e06719d8ba3f37b9a51bd1393"
   }
 }

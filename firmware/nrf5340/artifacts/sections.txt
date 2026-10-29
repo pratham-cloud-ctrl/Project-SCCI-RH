@@ -1,4 +1,4 @@
-E:\Project ATO\firmware\nrf5340\artifacts\ato.elf  :
+E:\Project ATO\firmware\nrf5340\artifacts\scci_rh.elf  :
 section                            size        addr
 rom_start                           340           0
 text                              44168         340
@@ -9,7 +9,7 @@ sw_isr_table                        552       44660
 clock_control_driver_api_area        28       45212
 uart_driver_api_area                 68       45240
 tbss                                  4       45308
-rodata                             7816       45312
+rodata                             8240       45312
 _RTT_SECTION_NAME                  1208   536870912
 .ramfunc                              8   536872120
 datas                               392   536872128
@@ -19,13 +19,13 @@ k_mutex_area                         80   536872524
 .debug_aranges                     6440           0
 .debug_info                      368264           0
 .debug_abbrev                     57710           0
-.debug_line                      177949           0
+.debug_line                      178131           0
 .debug_frame                      15732           0
-.debug_str                        56402           0
+.debug_str                        56690           0
 .debug_loc                       159464           0
 .debug_ranges                     26848           0
 .ARM.attributes                      62           0
-.last_section                         4       53612
+.last_section                         4       54036
 bss                               87787   536872608
 noinit                             8512   536960400
-Total                           1020057
+Total                           1020951

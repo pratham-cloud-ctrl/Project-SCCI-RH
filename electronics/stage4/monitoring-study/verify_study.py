@@ -38,7 +38,7 @@ def close(a, b, atol=1e-16):
 def validate():
     study.check()
     result = json.loads((HERE / "results.json").read_text(encoding="utf-8"))
-    assert result["schema"] == "ato.stage4.monitoring-study.v1"
+    assert result["schema"] == "scci_rh.stage4.monitoring-study.v1"
     assert result["four_percent_target_earned"] is False
     assert result["native_cell_modified"] is False
     assert result["numerical_comparison_criteria"] == CRITERIA
@@ -183,7 +183,7 @@ def main():
     args = parser.parse_args()
     evidence = validate()
     if args.write_receipt:
-        receipt = {"schema": "ato.stage4.monitoring-study.manifest.v1", "date": "2026-10-12",
+        receipt = {"schema": "scci_rh.stage4.monitoring-study.manifest.v1", "date": "2026-10-12",
                    "hash_policy": HASH_POLICY, "files": hashes(), "verification": evidence}
         RECEIPT.write_text(json.dumps(receipt, indent=2, allow_nan=False) + "\n", encoding="utf-8")
     receipt = json.loads(RECEIPT.read_text(encoding="utf-8"))

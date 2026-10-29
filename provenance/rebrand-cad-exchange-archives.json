@@ -1,0 +1,42 @@
+{
+  "applied": true,
+  "assets": [
+    {
+      "path": "cad/stage5/reference/SCCI_RH_reference_assembly.step.zip",
+      "changed": true,
+      "before_sha256": "74b924bd9544f1361c5aab83804da2bd12cfff4b6a9ec1a919b1d46a8fae02a1",
+      "after_sha256": "0c9e237ff15075d53adbe09f3feb32706e56adc8e96b9e058c383789fcfa5e27",
+      "evidence": {
+        "kind": "ZIP container",
+        "changed_members": [
+          {
+            "after": "SCCI_RH_reference_assembly.step",
+            "before_sha256": "57b7729a8f73e807369791934ee8e94463ab574ed1e52c6e51e5649adfa5c54d",
+            "after_sha256": "57b7729a8f73e807369791934ee8e94463ab574ed1e52c6e51e5649adfa5c54d",
+            "before_name_sha256": "1350237029ce1887b82e77096d625844bf8f833fa27ae4ce5556244c5c67af7b"
+          }
+        ],
+        "preserved_geometry_members_sha256": {}
+      }
+    },
+    {
+      "path": "cad/stage5/reference/SCCI_RH_reference_exploded.step.zip",
+      "changed": true,
+      "before_sha256": "3375c3cdafde31a9d93d10ab872d0ba778f9725dc68cdf11fd361e5b33e6dea4",
+      "after_sha256": "7abca768ce2ce2689bf4901455a9768d3678037a931a46ac5d3bcbdce8aeb405",
+      "evidence": {
+        "kind": "ZIP container",
+        "changed_members": [
+          {
+            "after": "SCCI_RH_reference_exploded.step",
+            "before_sha256": "5c685747a4524cf102aa36647e72396a404b974e1029fdf9557b992e57ede5e1",
+            "after_sha256": "5c685747a4524cf102aa36647e72396a404b974e1029fdf9557b992e57ede5e1",
+            "before_name_sha256": "04540f510ebb95d2bc6ee83274682a89e9f13554c6fa7a0c066c809fd145a264"
+          }
+        ],
+        "preserved_geometry_members_sha256": {}
+      }
+    }
+  ],
+  "opaque_firmware_changed": false
+}

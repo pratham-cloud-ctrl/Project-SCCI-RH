@@ -1,4 +1,4 @@
-# ATO controller carrier
+# SCCI_RH controller carrier
 
 This native circuit gives the compiled nRF5340 backend a dedicated physical
 carrier. It contains a Fanstel **BT40F** module, all **46 firmware GPIO**, a

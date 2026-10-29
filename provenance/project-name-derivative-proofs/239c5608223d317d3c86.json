@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/controller-carrier/svg/controller_carrier-defaults.svg",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "938c6397ba603356d45bed7b754faf61cfea83fbbef42e1fea8ed94437d604f6",
+  "current_sha256": "673b5ee8019515d07d6de05f0b4834196d3b52bae3cc93a0dd2f6602e17fc10b",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-legacy-native-svg.json",
+      "sha256_lf": "72e16066a70bd8090ae9fddd687b65a7d9a7e151e09b3cce60b296c24af0232a"
+    }
+  ]
+}

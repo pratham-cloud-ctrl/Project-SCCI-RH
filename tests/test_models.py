@@ -5,8 +5,8 @@ from dataclasses import replace
 import numpy as np
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/"src"))
-from ato.motor import MotorConfig, phase_estimate, simulate_motor
-from ato.pressure import PressureConfig, simulate_pressure
+from scci_rh.motor import MotorConfig, phase_estimate, simulate_motor
+from scci_rh.pressure import PressureConfig, simulate_pressure
 
 
 class MotorEvidenceTests(unittest.TestCase):

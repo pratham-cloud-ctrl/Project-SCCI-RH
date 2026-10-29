@@ -117,7 +117,7 @@ def main():
             for pi,net in enumerate(chunk,1):
                 pins.append({'number':str(pi),'name':str(pi),'type':'passive','source_net':net,'net':mappings[key(pkg,net)]})
                 tap_pins[pkg,net]=(reference,str(pi))
-            cp={'board':pkg,'source_package':pkg,'source_ref':src_ref,'reference':reference,'lib_id':'ATO_INTEGRATION:'+src_ref,'value':domain+' TAP HARNESS','footprint':'Connector_PinHeader_2.54mm:PinHeader_1x%02d_P2.54mm_Vertical'%len(pins),'pins':pins,'source_sheet':'integration_taps.kicad_sch','source_sheet_uuid':'','source_symbol_uuid':'','added':True,'domain':domain}
+            cp={'board':pkg,'source_package':pkg,'source_ref':src_ref,'reference':reference,'lib_id':'SCCI_RH_INTEGRATION:'+src_ref,'value':domain+' TAP HARNESS','footprint':'Connector_PinHeader_2.54mm:PinHeader_1x%02d_P2.54mm_Vertical'%len(pins),'pins':pins,'source_sheet':'integration_taps.kicad_sch','source_sheet_uuid':'','source_symbol_uuid':'','added':True,'domain':domain}
             adapters.append(cp); components.append(cp); boards[pkg]['references'].append(reference)
     for row in rows:
         for side in ['from','to']:
@@ -126,9 +126,9 @@ def main():
                 row[side+'_harness_ref'],row[side+'_harness_pin']=tap_pins[pkg,net]
             else:
                 row[side+'_harness_ref']=row[side+'_integrated_ref']; row[side+'_harness_pin']=row[side+'_pin']
-    result={'schema':'ato.integrated-system.v1','scope':'Digital modular artificial-load engineering; no physical qualification','sources':sources,'boards':boards,'components':components,'nets':nets,'net_mapping':mappings,'wires':rows,'added_tap_headers':adapters,'excluded_legacy_wires':excluded}
+    result={'schema':'scci_rh.integrated-system.v1','scope':'Digital modular artificial-load engineering; no physical qualification','sources':sources,'boards':boards,'components':components,'nets':nets,'net_mapping':mappings,'wires':rows,'added_tap_headers':adapters,'excluded_legacy_wires':excluded}
     (HERE/'system.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8')
-    (HERE/'integration-changes.json').write_text(json.dumps({'schema':'ato.integration-changes.v1','excluded_legacy_wires':excluded,'added_tap_headers':adapters,'source_edit_policy':'Seven source circuit packages and previous CSV files remain unchanged.'},indent=2)+'\n',encoding='utf-8')
+    (HERE/'integration-changes.json').write_text(json.dumps({'schema':'scci_rh.integration-changes.v1','excluded_legacy_wires':excluded,'added_tap_headers':adapters,'source_edit_policy':'Seven source circuit packages and previous CSV files remain unchanged.'},indent=2)+'\n',encoding='utf-8')
     columns=['from_package','from_ref','from_pin','from_net','to_package','to_ref','to_pin','to_net','purpose','integrated_net','from_integrated_ref','to_integrated_ref','from_harness_ref','from_harness_pin','to_harness_ref','to_harness_pin']
     with (ROOT/'docs/stage4/integrated-pcb-wiring.csv').open('w',encoding='utf-8',newline='') as f:
         writer=csv.DictWriter(f,fieldnames=columns); writer.writeheader(); writer.writerows(rows)

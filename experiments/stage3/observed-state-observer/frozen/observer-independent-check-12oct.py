@@ -222,7 +222,7 @@ checks['causal_measurement_noise'] = {'supports':noise_checks,
 assert receipt['implementation_sha256'] == candidate.digest(Path(candidate.__file__))
 assert receipt['protocol_sha256'] == candidate.digest(candidate.PROTOCOL)
 assert receipt['calibration_input_sha256'] == candidate.digest(candidate.CALIBRATION)
-summary = {'schema':'ato.tmp.observer-independent-check.v1', 'date':'2026-10-12',
+summary = {'schema':'scci_rh.tmp.observer-independent-check.v1', 'date':'2026-10-12',
     'classification':'NONCONFIRMATORY_CHECKS_NO_DRIFT_TARGETS_LOADED',
     'method_receipt_sha256':candidate.digest(candidate.RECEIPT),
     'independent_check_source_sha256':candidate.digest(Path(__file__)),

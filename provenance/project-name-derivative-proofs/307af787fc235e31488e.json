@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "provenance/stage4-supervision-checkpoint-review.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "9cf76598597bd5d839cb4056ce5b51c837dfd777be286637f7e69cddbf8138b5",
+  "current_sha256": "b6511737cc7295022d37a78ae0fa01e96421ca57d423844a78b46f91a8373b95",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

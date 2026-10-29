@@ -20,22 +20,22 @@ from reportlab.platypus import (
 )
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT/'output/pdf/ATO_stage3_mechanism_revision.pdf'
+OUT = ROOT/'output/pdf/SCCI_RH_stage3_mechanism_revision.pdf'
 INK, BLUE, TEAL, GRAY = '#15293D', '#225B86', '#12756D', '#627485'
 WIDTH = 475
 
 
 def main():
     font = Path(matplotlib.get_data_path())/'fonts/ttf'
-    for name, file in [('ATO3', 'DejaVuSans.ttf'), ('ATO3Bold', 'DejaVuSans-Bold.ttf')]:
+    for name, file in [('SCCIRH3', 'DejaVuSans.ttf'), ('SCCIRH3Bold', 'DejaVuSans-Bold.ttf')]:
         pdfmetrics.registerFont(TTFont(name, str(font/file)))
-    pdfmetrics.registerFontFamily('ATO3', normal='ATO3', bold='ATO3Bold', italic='ATO3', boldItalic='ATO3Bold')
-    body = ParagraphStyle('body', fontName='ATO3', fontSize=9.5, leading=14,
+    pdfmetrics.registerFontFamily('SCCIRH3', normal='SCCIRH3', bold='SCCIRH3Bold', italic='SCCIRH3', boldItalic='SCCIRH3Bold')
+    body = ParagraphStyle('body', fontName='SCCIRH3', fontSize=9.5, leading=14,
                           textColor=colors.HexColor(INK), spaceAfter=9)
-    heading = ParagraphStyle('heading', parent=body, fontName='ATO3Bold', fontSize=23, leading=29, spaceAfter=16)
-    sub = ParagraphStyle('sub', parent=body, fontName='ATO3Bold', fontSize=11.5, leading=16, spaceBefore=8)
+    heading = ParagraphStyle('heading', parent=body, fontName='SCCIRH3Bold', fontSize=23, leading=29, spaceAfter=16)
+    sub = ParagraphStyle('sub', parent=body, fontName='SCCIRH3Bold', fontSize=11.5, leading=16, spaceBefore=8)
     small = ParagraphStyle('small', parent=body, fontSize=8, leading=11.5, spaceAfter=7)
-    label = ParagraphStyle('label', parent=small, fontName='ATO3Bold', textColor=colors.HexColor(TEAL))
+    label = ParagraphStyle('label', parent=small, fontName='SCCIRH3Bold', textColor=colors.HexColor(TEAL))
     story = []
 
     def p(text, style=body):
@@ -66,12 +66,12 @@ def main():
         story.append(tab)
         story.append(Spacer(1, 10))
 
-    p('PROJECT ATO / MECHANISM REVISION S3-R2', label)
+    p('PROJECT SCCI RH / MECHANISM REVISION S3-R2', label)
     h('From spinal observations\nto an admissible intervention')
     p('A digital evidence report for expert-informed practice and selected physiological feedback', sub)
-    p('Pratham · Project ATO · 12 October 2026', small)
+    p('Pratham · Project SCCI RH · 12 October 2026', small)
     image('docs/stage1/figures/full-system.png')
-    p('<b>Abstract.</b> Project ATO proposes implanted spinal recording, computational interpretation, '
+    p('<b>Abstract.</b> Project SCCI RH proposes implanted spinal recording, computational interpretation, '
       'individualized stimulation and measured feedback. This revision tests intermediate requirements '
       'rather than presuming an ideal decoder or replaying expert voltages. New digital experiments '
       'separate teacher competence from reference fidelity, evaluate moving sources at contact apertures, '
@@ -291,15 +291,15 @@ def main():
         canvas.saveState()
         canvas.setStrokeColor(colors.HexColor('#D9E3EB'))
         canvas.line(60, 43, 535, 43)
-        canvas.setFont('ATO3', 7.5)
+        canvas.setFont('SCCIRH3', 7.5)
         canvas.setFillColor(colors.HexColor(GRAY))
-        canvas.drawString(60, 28, 'PROJECT ATO / STAGE 3 REVISION / DIGITAL MODEL EVIDENCE')
+        canvas.drawString(60, 28, 'PROJECT SCCI RH / STAGE 3 REVISION / DIGITAL MODEL EVIDENCE')
         canvas.drawRightString(535, 28, f'{doc.page} / 8')
         canvas.restoreState()
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     doc = SimpleDocTemplate(str(OUT), pagesize=(595.28, 841.89), leftMargin=60, rightMargin=60,
-        topMargin=49, bottomMargin=58, title='Project ATO - Stage 3 mechanism revision', author='Project ATO / Pratham')
+        topMargin=49, bottomMargin=58, title='Project SCCI RH - Stage 3 mechanism revision', author='Project SCCI RH / Pratham')
     doc.build(story, onFirstPage=footer, onLaterPages=footer, canvasmaker=partial(Canvas, invariant=1))
     print(json.dumps({'path': OUT.relative_to(ROOT).as_posix(), 'sha256': hashlib.sha256(OUT.read_bytes()).hexdigest()}))
 

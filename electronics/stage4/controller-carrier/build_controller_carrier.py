@@ -9,7 +9,7 @@ OUT=Path(__file__).resolve().parent
 ROOT=OUT.parents[2]
 SHARE=Path(os.environ.get('KICAD_SHARE',r'E:\project workspace assests\EDA\KiCAD\share\kicad'))
 PROJECT='controller_carrier'
-def uid(key): return str(uuid.uuid5(uuid.NAMESPACE_URL,'project-ato/stage4/controller-carrier/'+key))
+def uid(key): return str(uuid.uuid5(uuid.NAMESPACE_URL,'project-scci-rh/stage4/controller-carrier/'+key))
 ROOT_ID=uid('root'); parts=[]; SOURCES={}; PINS={}
 FP={'R':'Resistor_SMD:R_0805_2012Metric','C':'Capacitor_SMD:C_1206_3216Metric'}
 def add(ref,value,kind,nets,sheet,description):
@@ -26,7 +26,7 @@ def C(ref,val,a,b,s,d): add(ref,val,'C',{1:a,2:b},s,d)
 def J(ref,val,ns,s,d): add(ref,val,'J',dict(enumerate(ns,1)),s,d)
 SOURCES['module']='https://www.fanstel.com/s/BT40F_BT40N-Product-Specifications.pdf'
 SOURCES['sideband']='https://www.ti.com/lit/gpn/sn74lvc165a'
-FP['module']='ato_controller:BT40F_Manufacturer_66Pad'
+FP['module']='scci_rh_controller:BT40F_Manufacturer_66Pad'
 FP['sideband']='Package_SO:TSSOP-16_4.4x5mm_P0.65mm'
 pad_functions={
  '1':'P1.02','2':'P1.03','3':'NC_XL1_INTERNAL','4':'NC_XL2_INTERNAL',
@@ -106,7 +106,7 @@ for base in base_order:
    p['sheet']=sh
    p['xy']=(254,177.8) if base=='processor' else (101.6+(i%2)*266.7,99.06+(i//2)*139.7) if base=='handoff' else (76.2+(i%4)*137.16,96.52+(i//4)*73.66)
 exec((OUT/'native_render.py').read_text(encoding='utf-8'),globals())
-manifest={'schema':'ato.stage4.controller-carrier.connectivity.v1','date':'2026-10-14','scope':'PhysicalBT40FnRF5340modulecarrierwith46GPIOandfourSN74LVC165;digitalbenchonly,radioOFF','parts':parts,'source_documents':SOURCES,'physical_pad_functions':pad_functions,'firmware_pin_map_sha256':hashlib.sha256((ROOT/'docs/stage4/nrf5340-pin-map.csv').read_bytes().replace(b'\r\n',b'\n')).hexdigest(),'gpio_bindings':[dict(row,module_reference='U1',physical_pad=next(p for p,f in pad_functions.items() if f==row['pin'])) for row in rows],'sideband_bits':sideband,'harnesses':{ref:{'description':name,'nets':dict(enumerate(ns,1)),'target':target} for ref,(name,ns,target) in harnesses.items()},'nominal':{'host_supply_V':3.3,'GPIO_count':46,'sideband_bits':32,'carrier_reset_pull_ohm':10000,'module_HFXO_internal_load_pF':11,'module_LFXO_internal':True,'module_VDD_VDDH_join':True},'unqualified':['PhysicalSPI/UARTedges,cablelengths,fanoutandreturnintegrity','Moduleactualoscillatorloadingandfinalcarrierfirmwareclockconfiguration','Noexecutedtargetboard,noimplant,noRFqualification','Resetdefaultresistorbiasdoesnotprovealltransientpowerorderings','LGAassemblymask/paste/thermal/ripple/effectivecapacitancequalification','Serializedhealthsnapshotdoesnotreplaceindependentnativeanalogguards']}
+manifest={'schema':'scci_rh.stage4.controller-carrier.connectivity.v1','date':'2026-10-14','scope':'PhysicalBT40FnRF5340modulecarrierwith46GPIOandfourSN74LVC165;digitalbenchonly,radioOFF','parts':parts,'source_documents':SOURCES,'physical_pad_functions':pad_functions,'firmware_pin_map_sha256':hashlib.sha256((ROOT/'docs/stage4/nrf5340-pin-map.csv').read_bytes().replace(b'\r\n',b'\n')).hexdigest(),'gpio_bindings':[dict(row,module_reference='U1',physical_pad=next(p for p,f in pad_functions.items() if f==row['pin'])) for row in rows],'sideband_bits':sideband,'harnesses':{ref:{'description':name,'nets':dict(enumerate(ns,1)),'target':target} for ref,(name,ns,target) in harnesses.items()},'nominal':{'host_supply_V':3.3,'GPIO_count':46,'sideband_bits':32,'carrier_reset_pull_ohm':10000,'module_HFXO_internal_load_pF':11,'module_LFXO_internal':True,'module_VDD_VDDH_join':True},'unqualified':['PhysicalSPI/UARTedges,cablelengths,fanoutandreturnintegrity','Moduleactualoscillatorloadingandfinalcarrierfirmwareclockconfiguration','Noexecutedtargetboard,noimplant,noRFqualification','Resetdefaultresistorbiasdoesnotprovealltransientpowerorderings','LGAassemblymask/paste/thermal/ripple/effectivecapacitancequalification','Serializedhealthsnapshotdoesnotreplaceindependentnativeanalogguards']}
 (OUT/'connectivity.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
 with (OUT/'bom.csv').open('w',encoding='utf-8',newline='') as f:
  w=csv.writer(f);w.writerow(['reference','value','footprint','sheet','description','primary_source'])

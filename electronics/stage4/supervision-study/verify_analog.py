@@ -147,7 +147,7 @@ def main():
     assert data['RC_holds'][0]['nonreleasing_corner_count']>0
     assert data['RC_holds'][2]['nonreleasing_corner_count']==0
     assert not data['old_100us_interphase_gap_earned']
-    receipt={'schema':'ato.stage4.supervision-independent-analog.v1','date':'2026-10-14',
+    receipt={'schema':'scci_rh.stage4.supervision-independent-analog.v1','date':'2026-10-14',
              'checks':CHECKS,'trajectory_points':points,'max_trajectory_residual_V':max_residual,
              'rail_windows':9,'interrupted_load_cases':7,
              'independent_of_producer_import':True,'physical_delay_or_tissue_validation':False,

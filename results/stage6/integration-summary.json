@@ -1,9 +1,9 @@
 {
-  "schema": "ato-stage6-integration-summary-v1",
+  "schema": "scci_rh-stage6-integration-summary-v1",
   "date": "2026-10-16",
   "passed": true,
   "source_report": "results/stage6/digital-path-verification.json",
-  "source_report_sha256_lf": "6f4effd8f773700925caf5d826f4568d34f3c8728c7c8177b32782a2a7f32fc6",
+  "source_report_sha256_lf": "813fc9a27a6f616a67f5cf3e6162eecb359c0986d95f9db0b113dad18f49ca5e",
   "assertions": 114426,
   "scenario_groups": 28,
   "motor_arms": [

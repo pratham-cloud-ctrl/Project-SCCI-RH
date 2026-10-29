@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage3.revision-document-review.v1",
+  "schema": "scci_rh.stage3.revision-document-review.v1",
   "date": "2026-10-12",
   "scope": "Eight-page partial Stage3 mechanism report including negative connected pilot; not final manuscript or implant qualification.",
   "page_count": 8,
@@ -18,11 +18,11 @@
     "findings": "All pages inspected: diagrams, scientific figure, tables, wrapping, hyperlinks, footer numbering and evidence boundaries are readable with no clipped or overlapping content."
   },
   "files": {
-    "output/pdf/ATO_stage3_mechanism_revision.pdf": {
-      "sha256": "699d61540f6f8868ffcaf3b2dd4990dbbac9c2dfceeed60ca68f3b8ac2d5bbaf"
+    "output/pdf/SCCI_RH_stage3_mechanism_revision.pdf": {
+      "sha256": "66fb5a1f515af5ae8bf8d5b243147ea068bae985e90aec285df70c9d8457355d"
     },
     "scripts/build_stage3_revision_brief.py": {
-      "sha256": "dc147cc65c897e81efe7b07a2496bcc679a8e1ab9423d3c039bc51432b3f549e"
+      "sha256": "e30d84401a448efa3c08ba273990aab9ce3e717545300aff3ba501b35c164c0a"
     }
   }
 }

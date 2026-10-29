@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/supervision-study/control-results.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "b40b11b69522ff35961c6b5e2afdfce15c8a3266421952cb3728f78635fba303",
+  "current_sha256": "5b7f17f5ec5f6eb1d4d93b07e1203c12c93233277083022f82db89fa4cbb9b39",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

@@ -20,8 +20,8 @@ import zlib
 HERE = Path(__file__).resolve().parents[1]
 ROOT = HERE.parents[2]
 REPORT = HERE / "uart-framing-tests.json"
-ORIGINAL = ROOT / "firmware/nrf5340/app/src/ato_backend.c"
-CURRENT = HERE / "src/ato_backend.c"
+ORIGINAL = ROOT / "firmware/nrf5340/app/src/scci_rh_backend.c"
+CURRENT = HERE / "src/scci_rh_backend.c"
 
 
 def sha(path: Path) -> str:
@@ -136,7 +136,7 @@ int main(void)
     return 0;
 }
 '''.replace("RESET_FRAME_STATE", reset_state)
-    spec = importlib.util.spec_from_file_location("ato_host_compiler", ROOT / "firmware/nrf5340/tests/check_runtime.py")
+    spec = importlib.util.spec_from_file_location("scci_rh_host_compiler", ROOT / "firmware/nrf5340/tests/check_runtime.py")
     runner = importlib.util.module_from_spec(spec)
     assert spec.loader
     spec.loader.exec_module(runner)
@@ -150,7 +150,7 @@ int main(void)
 
 
 def run() -> dict:
-    with tempfile.TemporaryDirectory(prefix="ato-uart-framing-") as temp:
+    with tempfile.TemporaryDirectory(prefix="scci_rh-uart-framing-") as temp:
         directory = Path(temp)
         historical = compile_run(ORIGINAL, False, directory)
         current = compile_run(CURRENT, True, directory)
@@ -158,7 +158,7 @@ def run() -> dict:
         raise AssertionError("historical framing defect was not reproduced")
     if current["failed"] or current["scenarios"] != historical["scenarios"]:
         raise AssertionError("revised callback failed finite UART framing scenarios")
-    return {"schema": "ato.uart-frame-regression.v1", "date": "2026-10-17", "passed": True,
+    return {"schema": "scci_rh.uart-frame-regression.v1", "date": "2026-10-28", "original_design_date": "2026-10-17", "passed": True,
         "scope": "Actual C callbacks with FIFO/interrupt stubs; no target execution or physical UART proof",
         "historical": historical, "current": current,
         "covered": ["raw interrupted by new normal frame", "normal interrupted by new raw frame",

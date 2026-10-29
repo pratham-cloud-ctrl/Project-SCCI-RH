@@ -422,7 +422,7 @@ def native_binding() -> dict:
 
 
 def calculate() -> dict:
-    return {"schema": "ato.stage4.transport-contract.v1", "date": "2026-10-14",
+    return {"schema": "scci_rh.stage4.transport-contract.v1", "date": "2026-10-14",
             "scope": "finite digital schedule, protocol and queue contract; target implementation and physical behavior unearned",
             "producer_sha256_lf": sha(Path(__file__)), "native_binding": native_binding(),
             "raw_ADC": raw_schedule(), "endpoints": endpoint_schedule(),

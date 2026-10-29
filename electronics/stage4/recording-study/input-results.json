@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage4.recording-input-network.v1",
+  "schema": "scci_rh.stage4.recording-input-network.v1",
   "parameters": {
     "temperature_K": 310.0,
     "series_ohm": 4990.0,
@@ -331,5 +331,5 @@
   "bias_24V_two_499k_A": 2.404809619238477e-05,
   "bias_24V_one_499k_short_A": 4.809619238476954e-05,
   "bleeder_25nA_open_source_V": 0.25,
-  "source_sha256_lf": "2643583ced3d6ab9bffa1ba702a34b59dddb9375dfb8fc23cf1d23604e1f2837"
+  "source_sha256_lf": "7a2bc0c2b71a1056a5c1702fd3215fba4664d2921dc2df9aa2cda670b75eae2c"
 }

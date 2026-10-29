@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-29",
+  "command": "kicad-cli sch export svg --output electronics/exports/ electronics/scci_rh_reference.kicad_sch",
+  "renderer": "KiCad10CLI",
+  "passed": true,
+  "path": "electronics/exports/scci_rh_reference.svg",
+  "source": "electronics/scci_rh_reference.kicad_sch",
+  "source_sha256": "dd6c3b690fd7c85b31df929a76d3e226e7311073a288407608601c5d1f19d692",
+  "current_sha256": "4d0002ac0451393ace3714e8cde35d215596fa01f4f4bad83fb13e34ade4424b"
+}

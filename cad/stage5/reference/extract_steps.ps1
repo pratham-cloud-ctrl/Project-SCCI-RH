@@ -5,7 +5,7 @@ Add-Type -AssemblyName System.IO.Compression.FileSystem
 $receipt = Get-Content -LiteralPath (Join-Path $PSScriptRoot 'producer-geometry.json') -Raw | ConvertFrom-Json
 $destination = Join-Path $PSScriptRoot 'extracted'
 [System.IO.Directory]::CreateDirectory($destination) | Out-Null
-foreach ($memberName in @('ATO_reference_assembly.step','ATO_reference_exploded.step')) {
+foreach ($memberName in @('SCCI_RH_reference_assembly.step','SCCI_RH_reference_exploded.step')) {
     $binding = $receipt.outputs.$memberName
     $archivePath = Join-Path $PSScriptRoot $binding.lossless_archive
     if ((Get-FileHash -LiteralPath $archivePath -Algorithm SHA256).Hash.ToLowerInvariant() -ne $binding.archive_sha256) {

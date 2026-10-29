@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage4.recording-checkpoint-review.v1",
+  "schema": "scci_rh.stage4.recording-checkpoint-review.v1",
   "date": "2026-10-13",
   "scope": "Native recording slice and finite passive/protocol evidence; integrated Stage4 and populated PCB/CAD unfinished",
   "native_components": 151,
@@ -25,14 +25,14 @@
   "full_power_firmware_voltage_recovery_qualification_earned": false,
   "hash_policy": "SHA256 LF-normalized text and exact PDF",
   "sha256": {
-    "electronics/stage4/recording-front-end/connectivity.json": "633c3386bf602e2544722abae2742a722775969cc53a3b2f1a26524325ccbf05",
-    "electronics/stage4/recording-front-end/recording_front_end.pdf": "7202cc4028c7c331c21f928cef30151f4a864394e8c46db501c5191b1659a99e",
-    "electronics/stage4/recording-front-end/verification.json": "55b6bfeb6d6241b8f5dde32add7faaa41ad9b36572d169b9a42ff0466ed1fb7c",
-    "electronics/stage4/recording-study/input-results.json": "f17465da118880b80517385c01638547e64fb5f2bfa871f95692798189aae09e",
-    "electronics/stage4/recording-study/input-verification.json": "243e6441af01c096b67156d4767cddf181ff9f2a1f4a58f17d63f99fde7578ed",
-    "electronics/stage4/recording-study/timing-results.json": "0d08c9ad7fdf54ff026a181fae14a21abe8aa2b169d6f393b62604123373be1b",
-    "docs/stage4/recording-front-end-component-review.md": "56b0dbbaef538d380a59f4d2ae0d77d4585b2ba5a536c89394efb071aa6db7c8",
-    "docs/stage4/recording-front-end-control-contract.md": "e05ded909dccf3a479fab17283b608b03652ba31f5d90236440b78bf5f1b6ed9",
-    "docs/stage4/recording-front-end-design.md": "e48a6c82a1f724a26e9af5daa70b6c4fbaa160822ff359028fbbf0163447abf5"
+    "electronics/stage4/recording-front-end/connectivity.json": "adb009feeb48c04145c5be61b97747da1b26cd38dbf38916442b4fcf7b329fd2",
+    "electronics/stage4/recording-front-end/recording_front_end.pdf": "d1253dc5329a48a4b53dcccab0bdb076f708d307e0e6706c1ee21cc7ab718f5e",
+    "electronics/stage4/recording-front-end/verification.json": "5de41dc8e6c817b48eb6196972d7f8a648ff6f70dafaadbad40ccf0eaae0ccde",
+    "electronics/stage4/recording-study/input-results.json": "c2da133398418ae38dbe3a3296c234f8e7cb11c69d2199a9a65ca5b760a4d4e2",
+    "electronics/stage4/recording-study/input-verification.json": "cff2bdd5775ef74bd1f285748484fd3f316ad8982e8cfb4c8bf8eb04175b7238",
+    "electronics/stage4/recording-study/timing-results.json": "883d832c33fb3e281b2725e47d001cdd0cf49621e4dfa541564417c97f169c0d",
+    "docs/stage4/recording-front-end-component-review.md": "40e1c36508d41989761d10a438ede53bdbe1408db949fd14ef0f934a914fc81d",
+    "docs/stage4/recording-front-end-control-contract.md": "1a3dc3d90f87132e13212848d935aa19b2cb0a3c17fa874cb8a30501119ab210",
+    "docs/stage4/recording-front-end-design.md": "36dc1a130dcd82b3391f504c8f1d689a5d31f1a88a6a52bc863ce95753b01cc7"
   }
 }

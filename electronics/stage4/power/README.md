@@ -1,4 +1,4 @@
-# ATO-S4-PWR-01 - battery, rail generation and power interlock
+# SCCI_RH-S4-PWR-01 - battery, rail generation and power interlock
 
 **14 October 2026 - native digital engineering package - artificial loads**
 
@@ -9,7 +9,7 @@ editable A2 sheets**, original pin-specific symbols, local footprint snapshots,
 [native netlist](power.net), [schematic PDF](power.pdf), [SVGs](svg/) and
 [reviewed page renders](review/).
 
-This supplies the concrete digital demonstrator architecture for ATO's spinal
+This supplies the concrete digital demonstrator architecture for SCCI_RH's spinal
 recording, computation and learner-specific or physiological stimulation concept.
 The selected pack, module and large discrete converters describe an inspectable
 engineering demonstrator. They do not claim an implant-sized, chronically

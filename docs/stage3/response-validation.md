@@ -4,7 +4,7 @@
 
 This study closes part of the response-domain gap between the original individual full-train calibration and the proposed learner-specific controller. It asks whether an observed map remains useful for lower whole-pulse densities, withheld route combinations and a changed response context. It keeps the delivered-charge uncertainty, wrong-sign and null-response cases visible.
 
-The study uses the existing [motor capture/calibration mechanism](../../src/ato/stage3/motor.py) and [reduced electrical adapter](../../src/ato/stage3/electrical.py). The [new response-domain module](../../src/ato/stage3/response_validation.py) contains the observable identification and finite applicability tests. It does not change the original motor studies.
+The study uses the existing [motor capture/calibration mechanism](../../src/scci_rh/stage3/motor.py) and [reduced electrical adapter](../../src/scci_rh/stage3/electrical.py). The [new response-domain module](../../src/scci_rh/stage3/response_validation.py) contains the observable identification and finite applicability tests. It does not change the original motor studies.
 
 ## Frozen experiment and information boundary
 

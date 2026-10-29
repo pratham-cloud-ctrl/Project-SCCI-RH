@@ -1,4 +1,4 @@
-"""Scoped behavioral transient investigation of ATO-S4-MON-01.
+"""Scoped behavioral transient investigation of SCCI_RH-S4-MON-01.
 
 Writes only this monitoring-study package with --run. Default --check reads the
 frozen study and independently checks KCL, endpoint arithmetic and provenance.
@@ -94,7 +94,7 @@ def pwl(points):
     return "PWL("+" ".join(f"{t:.15g} {v:.15g}" for t,v in points)+")"
 
 def make_netlist(case, grid):
-    lines=[f"ATO Stage4 behavioral monitor: {case.name}; NOT vendor model",
+    lines=[f"SCCI_RH Stage4 behavioral monitor: {case.name}; NOT vendor model",
            "* Two independent sources; no driver-loop, electrode chemistry or biological model",
            "* Positive Iload enters load-return; positive Ishunt flows load to driver",
            ".model Reset SW(Ron=2 Roff=1e12 Vt=0.5 Vh=0)",
@@ -335,7 +335,7 @@ def run(library):
                       for ca,cb in zip(coarse["channels"],fine["channels"])
                       for a,b in zip(ca["intervals"],cb["intervals"]))
             convergence.append({"case":case.name,"coarse_step_s":coarse["max_step_s"],"fine_step_s":fine["max_step_s"],"max_interval_charge_delta_C":delta})
-    results={"schema":"ato.stage4.monitoring-study.v1","date":"2026-10-12",
+    results={"schema":"scci_rh.stage4.monitoring-study.v1","date":"2026-10-12",
              "engine":"ngspice shared library","library":library,"engine_messages":sim.version_messages,
              "status":"behavioral_study_completed_not_analog_qualification","cases":[asdict(c) for c in CASES],
              "grids_s":list(GRIDS),"runs":runs,"refinement":convergence,"analytical_witnesses":witnesses(),

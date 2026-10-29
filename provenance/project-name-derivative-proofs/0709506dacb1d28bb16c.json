@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/visual-review.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "25fab962796da2f068a641e7b37209eaf5ee15043cd4ab9cc20a3c38ec3f0381",
+  "current_sha256": "4528c463bb3ea22f45f05ed8904ca2e30a3b33cbf73042b6417ec2efc29ec464",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

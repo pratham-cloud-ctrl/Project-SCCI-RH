@@ -8,8 +8,8 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 STARTED = time.perf_counter()
-EXPECTED_FREEZE = '57c00950e44aee7c674f34a1335fd79f816f8ca09ce64ae66ce9916cf9bd3916'
-EXPECTED_PRODUCER = 'e177eb4837bbb437b8150a1a8a4daf9ee172719b6e3a2d407642771ac18d7c3d'
+EXPECTED_FREEZE = '6e4725e801f3e7e9eb88d0c9e40520c6ea0b462f9776cf4adb5831d6d6dcbac0'
+EXPECTED_PRODUCER = '7c7729caa49cac204c2edc8be81bc9ba11e3ae6b4ec2bd26ac129c18b087978d'
 digest = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
 freeze_path = ROOT/'tmp/observer-confirmation-freeze-12oct.json'
 assert digest(freeze_path) == EXPECTED_FREEZE
@@ -22,12 +22,12 @@ assert digest(ROOT/'tmp/observed_state_observer_12oct.py') == freeze['observer_s
 assert digest(ROOT/'tmp/observer-method-freeze-12oct.json') == freeze['method_receipt_sha256']
 assert digest(ROOT/'tmp/phase_balanced_longcal_observations_12oct.json.gz') == freeze['calibration_input_sha256']
 assert digest(ROOT/'tmp/drift_forecast_exploratory_observations_12oct.json.gz') == freeze['already_inspected_development_input_sha256']
-actual_sources = {p.relative_to(ROOT).as_posix():digest(p) for p in sorted((ROOT/'src/ato').rglob('*.py'))}
-assert actual_sources == freeze['full_ato_source_bytes_sha256']
+actual_sources = {p.relative_to(ROOT).as_posix():digest(p) for p in sorted((ROOT/'src/scci_rh').rglob('*.py'))}
+assert actual_sources == freeze['full_scci_rh_source_bytes_sha256']
 for path,value in freeze['body_source_bytes_sha256'].items(): assert digest(ROOT/path) == value
 expected_binding_keys = ('protocol_sha256','producer_evaluator_sha256','observer_source_sha256',
     'method_receipt_sha256','calibration_input_sha256','already_inspected_development_input_sha256',
-    'body_source_bytes_sha256','full_ato_source_bytes_sha256')
+    'body_source_bytes_sha256','full_scci_rh_source_bytes_sha256')
 expected_bindings = {key:freeze[key] for key in expected_binding_keys}
 assert summary['freeze_receipt_sha256'] == EXPECTED_FREEZE and summary['frozen_bindings'] == expected_bindings
 assert summary['review_reference'] and 'observer-confirmation-root-review-12oct.md' in summary['review_reference']
@@ -151,11 +151,11 @@ for key,metric in (('maximum_observed_position_grid_difference_m','observed_posi
     ('maximum_forecast_grid_difference_m','forecasts'),('maximum_residual_grid_difference_m','residuals')):
     assert summary[key] == max(r[metric]['maximum_absolute_difference_m'] for r in grid_diagnostics)
 assert summary['changed_grid_horizon_budget_decisions'] == sum(sum(g['changed_horizon_budget_decisions']) for g in grid_diagnostics)
-result = {'schema':'ato.tmp.observer-confirmation-saved-audit.v1','date':'2026-10-12',
+result = {'schema':'scci_rh.tmp.observer-confirmation-saved-audit.v1','date':'2026-10-12',
     'audit_passed':True,'scientific_budget_arithmetic_pass':summary['all_conditions_both_grids_within_budget'],
     'audit_source_sha256':digest(Path(__file__)),'freeze_receipt_sha256':EXPECTED_FREEZE,
     'summary_sha256':digest(summary_path),'producer_sha256':EXPECTED_PRODUCER,
-    'full_ato_source_files_verified':len(actual_sources),'noise_pairs_verified':16,
+    'full_scci_rh_source_files_verified':len(actual_sources),'noise_pairs_verified':16,
     'capture_coverage_verified':32*550,'coordinate_residuals_recomputed':count_residuals,
     'maximum_noise_injection_roundoff_m':injection_roundoff_max,
     'maximum_segment_file_bytes':maximum_file_size,'pair_audits':pair_audits,

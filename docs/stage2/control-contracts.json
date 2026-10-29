@@ -1,5 +1,5 @@
 {
-  "schema_version": "ato.stage2.control-contracts.v1",
+  "schema_version": "scci_rh.stage2.control-contracts.v1",
   "document_id": "S2-CTRL-001",
   "date": "2026-10-08",
   "status": "Specified digital contracts; not implemented or validated",
@@ -466,7 +466,7 @@
           "maximum_phase_width_s": 0.0005,
           "interphase_s": 0.0001,
           "max_concurrent_sources": 2,
-          "status": "Published timing/amplitude range motivates envelope;nominal3mA and biphasic phase/gap interpretation are ATO choices, not proof of equivalent physiological action."
+          "status": "Published timing/amplitude range motivates envelope;nominal3mA and biphasic phase/gap interpretation are SCCI_RH choices, not proof of equivalent physiological action."
         }
       },
       "invariants": [

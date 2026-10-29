@@ -1,7 +1,7 @@
 {
-  "schema": "ato.stage4.driver-control-contract-study.v1",
+  "schema": "scci_rh.stage4.driver-control-contract-study.v1",
   "scope": "Finite ideal-Boolean/event model; digital artificial-load concept only",
-  "source_sha256": "5f975e28df1bec5d8aee5a545585fb41bf172a9eaa96d5c6feca46766b4ddec9",
+  "source_sha256": "43db7a1abfa87c70a690264fd2370a3f8605f750200de67745d8d37529616ab0",
   "contract": "docs/stage4/current-driver-control-contract.md",
   "assumptions": {
     "timer_nominal_ns": 225024,

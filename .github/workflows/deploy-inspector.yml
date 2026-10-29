@@ -13,7 +13,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: ato-build-inspector-pages
+  group: scci_rh-build-inspector-pages
   cancel-in-progress: false
 
 jobs:

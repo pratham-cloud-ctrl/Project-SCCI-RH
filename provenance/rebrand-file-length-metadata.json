@@ -1,0 +1,80 @@
+{
+  "scope": "Hash-bound file byte lengths only; no model parameters changed",
+  "files": [
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/artifact-manifest.json",
+      "length_fields": [
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/audit.json",
+          "prior_bytes": 1575,
+          "current_bytes": 1579
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/study.py",
+          "prior_bytes": 31350,
+          "current_bytes": 31398
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/verify_study.py",
+          "prior_bytes": 24875,
+          "current_bytes": 24887
+        }
+      ]
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/artifact-manifest.json",
+      "length_fields": [
+        {
+          "source": "experiments/stage3/observed-state-observer/build_figure.py",
+          "prior_bytes": 2856,
+          "current_bytes": 2860
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observed_state_observer_12oct.py",
+          "prior_bytes": 23153,
+          "current_bytes": 23161
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-independent-check-12oct.py",
+          "prior_bytes": 12561,
+          "current_bytes": 12565
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-method-freeze-12oct.json",
+          "prior_bytes": 1287246,
+          "current_bytes": 1231020
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-saved-data-audit-12oct.py",
+          "prior_bytes": 6543,
+          "current_bytes": 6547
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/README.md",
+          "prior_bytes": 7439,
+          "current_bytes": 7447
+        }
+      ]
+    },
+    {
+      "path": "provenance/stage5-reference-clearance/manifest.json",
+      "length_fields": [
+        {
+          "source": "provenance/stage5-reference-clearance/executed-probe.py.txt",
+          "prior_bytes": 3460,
+          "current_bytes": 3406
+        },
+        {
+          "source": "provenance/stage5-reference-clearance/raw-topology.json",
+          "prior_bytes": 2065,
+          "current_bytes": 1967
+        },
+        {
+          "source": "provenance/stage5-reference-clearance/raw-execution.log",
+          "prior_bytes": 16378,
+          "current_bytes": 16263
+        }
+      ]
+    }
+  ]
+}

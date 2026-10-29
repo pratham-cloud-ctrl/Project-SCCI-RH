@@ -68,7 +68,7 @@ def generate():
                      "final_victim_V": v, "trace_key": case})
         traces[case] = np.asarray(tr)
     source = hashlib.sha256(Path(__file__).read_bytes().replace(b"\r\n", b"\n")).hexdigest()
-    data = {"schema": "ato.stage4.router-parasitics.v1", "source_sha256_lf": source,
+    data = {"schema": "scci_rh.stage4.router-parasitics.v1", "source_sha256_lf": source,
             "scope": "Finite passive unselected-contact fixture; assumed coupling; not a nonlinear switch/tissue or complete driver model",
             "rows": rows,
             "source_capacitance_is_not_interterminal_coupling": True,

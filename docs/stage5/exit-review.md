@@ -2,7 +2,7 @@
 
 **16 October 2026 - complete within the bounded digital mechanical scope.**
 
-Project ATO now has an inspectable mechanical body linked to its actual
+Project SCCI RH now has an inspectable mechanical body linked to its actual
 electrical architecture. The full-size reference chassis packages all eight
 populated boards; a separate conditional implanted-interface design expresses
 the future spinal platform without pretending those boards have been shrunk.

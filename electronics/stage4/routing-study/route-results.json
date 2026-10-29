@@ -1,7 +1,7 @@
 {
-  "schema": "ato.stage4.contact-router-control-contract.v1",
+  "schema": "scci_rh.stage4.contact-router-control-contract.v1",
   "scope": "Finite stable ideal-Boolean/address/ownership study; digital concept only",
-  "source_sha256_normalized_lf": "e092713419c6617942e1cce4aadf39fc1bbe47376cb505aa749b9691c19dc088",
+  "source_sha256_normalized_lf": "fc500af513719a4e3fe1537b2d1a45613b70b4ce2ee8cb669b368cc3f283ff43",
   "contract": "docs/stage4/contact-router-control-contract.md",
   "assumptions": {
     "sources": 2,

@@ -1,0 +1,382 @@
+{
+  "scope": "Visible branding only; source scientific values and geometry paths preserved",
+  "source_svgs": [
+    {
+      "path": "cad/stage5/reference/drawings/contact-router-tray.svg",
+      "baseline": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+      "before_sha256": "5a9e11e460699e3675ba52f90606c81741b0fccd9a473408b7d6ffa475b4fb98",
+      "after_sha256": "f8be1342c1a1d209c9b7708b91a30a5b63f1586de52783bec5c747253ba99c32",
+      "labels": [
+        {
+          "new_text": "PROJECT SCCI RH / STAGE 5"
+        }
+      ],
+      "geometry_paths_sha256": "dd66861981b135aa9ea7b7dec0afe6199132b177ee4058d134d293ebc4ac8d74",
+      "all_original_geometry_paths_unchanged": true,
+      "receipt_recovered_from_original_git_geometry": true
+    },
+    {
+      "path": "cad/stage5/reference/drawings/controller-carrier-tray.svg",
+      "baseline": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+      "before_sha256": "7a66c159272f57d14abbd69286ecb332bdce84bb5e6302f04ab26f8551a56d33",
+      "after_sha256": "395ff846ee5f6145bd379629850631f14e0b76907bfde949a62cf12a0d155a73",
+      "labels": [
+        {
+          "new_text": "PROJECT SCCI RH / STAGE 5"
+        }
+      ],
+      "geometry_paths_sha256": "40c64fbdb2d5e28c75de42ce463cf410d105746b9051b9bb9b379dcc5690d69f",
+      "all_original_geometry_paths_unchanged": true,
+      "receipt_recovered_from_original_git_geometry": true
+    },
+    {
+      "path": "cad/stage5/reference/drawings/current-driver-tray.svg",
+      "baseline": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+      "before_sha256": "cdf7f150c6f99d2886316fb32ff1d69352bec9fcef52fd8baf09d68ce376916c",
+      "after_sha256": "086f7eb292a2b223298c8a293b271a4ab85707d3e419c78d80e5922e13c47d56",
+      "labels": [
+        {
+          "new_text": "PROJECT SCCI RH / STAGE 5"
+        }
+      ],
+      "geometry_paths_sha256": "dd66861981b135aa9ea7b7dec0afe6199132b177ee4058d134d293ebc4ac8d74",
+      "all_original_geometry_paths_unchanged": true,
+      "receipt_recovered_from_original_git_geometry": true
+    },
+    {
+      "path": "cad/stage5/reference/drawings/monitoring-cell-tray.svg",
+      "baseline": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+      "before_sha256": "36a275205e9e186e38d7b4c931e74a9d4f564233194da25bcf6514df83e903a1",
+      "after_sha256": "0f21ed01fe191e66c001267bb72b4806081b5f5ba482a79286a4b0cb1a5d52e6",
+      "labels": [
+        {
+          "new_text": "PROJECT SCCI RH / STAGE 5"
+        }
+      ],
+      "geometry_paths_sha256": "b9785c5115a4ba08a4c12c96028e1bff5d6c101e6517f87870e5fa888ef19973",
+      "all_original_geometry_paths_unchanged": true,
+      "receipt_recovered_from_original_git_geometry": true
+    },
+    {
+      "path": "cad/stage5/reference/drawings/monitoring-transport-tray.svg",
+      "baseline": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+      "before_sha256": "5cb22b68e3c6b7b0d49b9ded83187476a7241a0ef6c7f99795d25fa2b318fad1",
+      "after_sha256": "8091f1ae181ca219c8f689206c31637cd66b2f7f48d047739da877c8b2d2078b",
+      "labels": [
+        {
+          "new_text": "PROJECT SCCI RH / STAGE 5"
+        }
+      ],
+      "geometry_paths_sha256": "585750cf43c9cb6434f311b36aa6b5ebfb5b6462ac46669253d04f8db9778d0d",
+      "all_original_geometry_paths_unchanged": true,
+      "receipt_recovered_from_original_git_geometry": true
+    },
+    {
+      "path": "cad/stage5/reference/drawings/power-tray.svg",
+      "baseline": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+      "before_sha256": "c622db129f66b613e33605b159ac8a5dab138efdd57c1339d1727b28a395edc4",
+      "after_sha256": "a9fd745fc2d0d32cdfdfa481e02b5202c89ed57d7d1b2578d89a21903fa153df",
+      "labels": [
+        {
+          "new_text": "PROJECT SCCI RH / STAGE 5"
+        }
+      ],
+      "geometry_paths_sha256": "b81fbe7ec00e1c455655fd9ae8122fa04435ce30d654f1faf5145e8b006ebd92",
+      "all_original_geometry_paths_unchanged": true,
+      "receipt_recovered_from_original_git_geometry": true
+    },
+    {
+      "path": "cad/stage5/reference/drawings/recording-front-end-tray.svg",
+      "baseline": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+      "before_sha256": "49972daadee7a2349fd4a56f719d45db672e2eb01b453f075a5a9b3fc4aa7818",
+      "after_sha256": "1bb9c2f4f7963a581819b9f42ee1a398e7f8a374ddaaa7fe2d5ba445b77fbbc2",
+      "labels": [
+        {
+          "new_text": "PROJECT SCCI RH / STAGE 5"
+        }
+      ],
+      "geometry_paths_sha256": "23ce1a267aea99a4da89dc1c701f9046c65e7d497b9fa42d31c5ce8e392da43b",
+      "all_original_geometry_paths_unchanged": true,
+      "receipt_recovered_from_original_git_geometry": true
+    },
+    {
+      "path": "cad/stage5/reference/drawings/reference-layout.svg",
+      "baseline": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+      "before_sha256": "f51122ed90941feb0dd43922a235605f31b9851edf51b9510b04eada0e852cb9",
+      "after_sha256": "7c1c5f0cc1744398f010d92a5017c7ecce74cd47dc499feb37ec209b9577a47d",
+      "labels": [
+        {
+          "new_text": "PROJECT SCCI RH / STAGE 5"
+        }
+      ],
+      "geometry_paths_sha256": "d5e6cd3c381862389e3fc15cdc1c58fea3affe5bcb89b54d6a2bc7c3768dc7a2",
+      "all_original_geometry_paths_unchanged": true,
+      "receipt_recovered_from_original_git_geometry": true
+    },
+    {
+      "path": "cad/stage5/reference/drawings/supervision-tray.svg",
+      "baseline": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+      "before_sha256": "97d0c84765c43579afdd105e9112db00f5648aef9181e2a79e3ed9a90b64a664",
+      "after_sha256": "4070aae794894a02d3ea7be646c1eabb9ab86c30c580661a6f5372fedf4af5e4",
+      "labels": [
+        {
+          "new_text": "PROJECT SCCI RH / STAGE 5"
+        }
+      ],
+      "geometry_paths_sha256": "a23c8a4034eb5c011806f1df2017236544d795c7567375d8c76349d18750ca7b",
+      "all_original_geometry_paths_unchanged": true,
+      "receipt_recovered_from_original_git_geometry": true
+    },
+    {
+      "path": "docs/stage1/figures/full-system.svg",
+      "baseline": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+      "before_sha256": "5b20ac99ccb3dd0238724cc14482acc8f61498001ff643069230571d36670c62",
+      "after_sha256": "d8239b82f123c996bac12810f98f0bd609fe63d95029039bc14aaf62d72f663e",
+      "labels": [
+        {
+          "new_text": "SCCI_RH Studio / offline"
+        },
+        {
+          "new_text": "SCCI_RH Hub / companion"
+        },
+        {
+          "new_text": "SCCI_RH CORE / IMPLANTED ENGINEERING PROPOSAL"
+        }
+      ],
+      "geometry_paths_sha256": "f6d00578bbc810469b2419f5cd1a59439cf70453bcdf8bcd541feeeb82c87de9",
+      "all_original_geometry_paths_unchanged": true,
+      "receipt_recovered_from_original_git_geometry": true
+    },
+    {
+      "path": "docs/stage3/figures/mechanism-revision.svg",
+      "baseline": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+      "before_sha256": "cade2fc235499e9e296939f5c2af646d79f62ef838d6df81b3138ef3aa4f6011",
+      "after_sha256": "3e12e6b778e9d6013a99917099c5266b13a0a792576273fbc1cbaeccf96659ac",
+      "labels": [
+        {
+          "new_text": "Project SCCI RH | Mechanism revision and design consequences"
+        }
+      ],
+      "geometry_paths_sha256": "cffc1a33a07878cb38bb5299601e381416ab6c9db24261496d1537fbe864e881",
+      "all_original_geometry_paths_unchanged": true,
+      "receipt_recovered_from_original_git_geometry": true
+    },
+    {
+      "path": "figures/architecture.svg",
+      "baseline": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+      "before_sha256": "692ec91288240eb59235d2e67475d521599540fad4bf60660b59807cc9defc32",
+      "after_sha256": "779004d1d340f5b7bad4e194f434bee0bb10aa0e8675b97a860147a2b2af6388",
+      "labels": [
+        {
+          "new_text": "SCCI RH / proposed spinal interface"
+        }
+      ],
+      "geometry_paths_sha256": "ca41a65ae8f147ac8921ee5dd29076c9b4541e86cda846732afbed843ea43293",
+      "all_original_geometry_paths_unchanged": true,
+      "receipt_recovered_from_original_git_geometry": true
+    },
+    {
+      "path": "figures/electronics_board_overview.svg",
+      "baseline": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+      "before_sha256": "46b5709dad660e09cd8dca1380be71a443e2fbc1affc86a57532977b52f9f82f",
+      "after_sha256": "0e847fb8947a32fcc77fd065c8f3778c954cb293cb93ab2790af262a6c2a0b9f",
+      "labels": [
+        {
+          "new_text": "SCCI RH / ANALOG REFERENCE"
+        }
+      ],
+      "geometry_paths_sha256": "866dd0eacc2475308455a1fbe262dd7f8508b2b630910b1c6eb8a33f1de2e0a4",
+      "all_original_geometry_paths_unchanged": true,
+      "receipt_recovered_from_original_git_geometry": true
+    },
+    {
+      "path": "figures/motor_study.svg",
+      "baseline": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+      "before_sha256": "5fc1b0d028310f3b4970fafcc738e52c4b8d9a844b1b17f99a5b3c7131585e59",
+      "after_sha256": "c6bf4e496255a6f11540340335a560fe4aeffc1aa877f0293c530d810ad788fe",
+      "labels": [
+        {
+          "new_text": "SCCI RH motor study | synthetic signals and explicit learning assumptions"
+        }
+      ],
+      "geometry_paths_sha256": "86e16ab5275ed50a8783fdb295dac2be2524245dbf7d69805e8a99bdc0efb6c5",
+      "all_original_geometry_paths_unchanged": true,
+      "receipt_recovered_from_original_git_geometry": true
+    },
+    {
+      "path": "figures/pressure_study.svg",
+      "baseline": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+      "before_sha256": "997d7bc60a93ae7515f87240da1923e302388da19e22ea1d38ea8851176e9756",
+      "after_sha256": "923509c84ce5f10013ee9dcd9f992adda22d18d4e88cc0357cbf3a967707b45a",
+      "labels": [
+        {
+          "new_text": "SCCI RH physiological-control study | external MAP sensor and synthetic plant"
+        }
+      ],
+      "geometry_paths_sha256": "e8055cc86a99bfadf692d3b57418822e1de95bac111aa4dcd574ce89c5cf110a",
+      "all_original_geometry_paths_unchanged": true,
+      "receipt_recovered_from_original_git_geometry": true
+    },
+    {
+      "path": "figures/pulse_protocol.svg",
+      "baseline": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+      "before_sha256": "47b9f4a6f89e19dc278c5c8d0afffe2193d19280f34620149e315897f35ddccc",
+      "after_sha256": "eec27cc47b80401d3b9a6b7241d1ea5c2af992a34fac103cc5867fc0c83c56dc",
+      "labels": [
+        {
+          "new_text": "SCCI RH application-to-pulse adapter | ideal C timing and digital routing"
+        }
+      ],
+      "geometry_paths_sha256": "b5d5a31808143b9ea1492ecbcccd53a865e566b92f4c392701521d9ae876995f",
+      "all_original_geometry_paths_unchanged": true,
+      "receipt_recovered_from_original_git_geometry": true
+    }
+  ],
+  "rendered_pngs": [
+    {
+      "path": "cad/stage5/reference/drawings/contact-router-tray.png",
+      "width": 1191,
+      "height": 842,
+      "before_sha256": "f9aa939358bfac8869af39d3d0e507b30ebc453921c344595c4c1a24ee9d9325",
+      "after_sha256": "f9aa939358bfac8869af39d3d0e507b30ebc453921c344595c4c1a24ee9d9325",
+      "source_svg_sha256": "f8be1342c1a1d209c9b7708b91a30a5b63f1586de52783bec5c747253ba99c32",
+      "renderer": "Qt QSvgRenderer"
+    },
+    {
+      "path": "cad/stage5/reference/drawings/controller-carrier-tray.png",
+      "width": 1191,
+      "height": 842,
+      "before_sha256": "e89558ac80b09cb0ff87b379705dc522059426c72a70e4084a33282544fe3e21",
+      "after_sha256": "e89558ac80b09cb0ff87b379705dc522059426c72a70e4084a33282544fe3e21",
+      "source_svg_sha256": "395ff846ee5f6145bd379629850631f14e0b76907bfde949a62cf12a0d155a73",
+      "renderer": "Qt QSvgRenderer"
+    },
+    {
+      "path": "cad/stage5/reference/drawings/current-driver-tray.png",
+      "width": 1191,
+      "height": 842,
+      "before_sha256": "dcc7007bb5433fe969b0b5d3db3132261544556ec1d12fe43a418c213d94af2b",
+      "after_sha256": "dcc7007bb5433fe969b0b5d3db3132261544556ec1d12fe43a418c213d94af2b",
+      "source_svg_sha256": "086f7eb292a2b223298c8a293b271a4ab85707d3e419c78d80e5922e13c47d56",
+      "renderer": "Qt QSvgRenderer"
+    },
+    {
+      "path": "cad/stage5/reference/drawings/monitoring-cell-tray.png",
+      "width": 1191,
+      "height": 842,
+      "before_sha256": "64be01d42a181f860daf39350878acc55843b1779a9010fda0d7c04b9229af4a",
+      "after_sha256": "64be01d42a181f860daf39350878acc55843b1779a9010fda0d7c04b9229af4a",
+      "source_svg_sha256": "0f21ed01fe191e66c001267bb72b4806081b5f5ba482a79286a4b0cb1a5d52e6",
+      "renderer": "Qt QSvgRenderer"
+    },
+    {
+      "path": "cad/stage5/reference/drawings/monitoring-transport-tray.png",
+      "width": 1191,
+      "height": 842,
+      "before_sha256": "5a8b43a5b9775c2ad668a478c23e9c7f4d51bb1b0c14554883fb2f8fa45de531",
+      "after_sha256": "5a8b43a5b9775c2ad668a478c23e9c7f4d51bb1b0c14554883fb2f8fa45de531",
+      "source_svg_sha256": "8091f1ae181ca219c8f689206c31637cd66b2f7f48d047739da877c8b2d2078b",
+      "renderer": "Qt QSvgRenderer"
+    },
+    {
+      "path": "cad/stage5/reference/drawings/power-tray.png",
+      "width": 1191,
+      "height": 842,
+      "before_sha256": "23e186845ec5893b4e1a6ac603cee29afc43ebddf2d5d3e0ffce5e2ad2f82181",
+      "after_sha256": "23e186845ec5893b4e1a6ac603cee29afc43ebddf2d5d3e0ffce5e2ad2f82181",
+      "source_svg_sha256": "a9fd745fc2d0d32cdfdfa481e02b5202c89ed57d7d1b2578d89a21903fa153df",
+      "renderer": "Qt QSvgRenderer"
+    },
+    {
+      "path": "cad/stage5/reference/drawings/recording-front-end-tray.png",
+      "width": 1191,
+      "height": 842,
+      "before_sha256": "0bf72dbe813d63ad1cabf59c23ac57a15c24bcc5c333190e155979bc0601cb92",
+      "after_sha256": "0bf72dbe813d63ad1cabf59c23ac57a15c24bcc5c333190e155979bc0601cb92",
+      "source_svg_sha256": "1bb9c2f4f7963a581819b9f42ee1a398e7f8a374ddaaa7fe2d5ba445b77fbbc2",
+      "renderer": "Qt QSvgRenderer"
+    },
+    {
+      "path": "cad/stage5/reference/drawings/reference-layout.png",
+      "width": 1191,
+      "height": 842,
+      "before_sha256": "850689037ae86881f973649e6fbeebaf4fbaf7dc25e2aa71af15612c0ec96f90",
+      "after_sha256": "850689037ae86881f973649e6fbeebaf4fbaf7dc25e2aa71af15612c0ec96f90",
+      "source_svg_sha256": "7c1c5f0cc1744398f010d92a5017c7ecce74cd47dc499feb37ec209b9577a47d",
+      "renderer": "Qt QSvgRenderer"
+    },
+    {
+      "path": "cad/stage5/reference/drawings/supervision-tray.png",
+      "width": 1191,
+      "height": 842,
+      "before_sha256": "5efd9257c9b66799c2dc9573c924354eeb6dd0ca222d4001ffefff2ef6ef6370",
+      "after_sha256": "5efd9257c9b66799c2dc9573c924354eeb6dd0ca222d4001ffefff2ef6ef6370",
+      "source_svg_sha256": "4070aae794894a02d3ea7be646c1eabb9ab86c30c580661a6f5372fedf4af5e4",
+      "renderer": "Qt QSvgRenderer"
+    },
+    {
+      "path": "docs/stage1/figures/full-system.png",
+      "width": 3080,
+      "height": 1760,
+      "before_sha256": "f18566ed21066e6e1c9e0a24738aa8651442e4746d0f1c6b60d328d18db828f7",
+      "after_sha256": "77bc0442e5fdb576522b3a061a1af3c920671b879abf8cc9208343c2c992c578",
+      "source_svg_sha256": "d8239b82f123c996bac12810f98f0bd609fe63d95029039bc14aaf62d72f663e",
+      "renderer": "Qt QSvgRenderer"
+    },
+    {
+      "path": "docs/stage3/figures/mechanism-revision.png",
+      "width": 2210,
+      "height": 1530,
+      "before_sha256": "d20e6a391e323d15f034ae813a9667b1ff49a149de2f38d832fdb8c7d5a81108",
+      "after_sha256": "d20e6a391e323d15f034ae813a9667b1ff49a149de2f38d832fdb8c7d5a81108",
+      "source_svg_sha256": "3e12e6b778e9d6013a99917099c5266b13a0a792576273fbc1cbaeccf96659ac",
+      "renderer": "Qt QSvgRenderer"
+    },
+    {
+      "path": "figures/architecture.png",
+      "width": 2160,
+      "height": 1170,
+      "before_sha256": "708f3c2bf9eedba8ffc4f23b8553c92f2794c2cc85dda8d2481804b06bbb092f",
+      "after_sha256": "708f3c2bf9eedba8ffc4f23b8553c92f2794c2cc85dda8d2481804b06bbb092f",
+      "source_svg_sha256": "779004d1d340f5b7bad4e194f434bee0bb10aa0e8675b97a860147a2b2af6388",
+      "renderer": "Qt QSvgRenderer"
+    },
+    {
+      "path": "figures/electronics_board_overview.png",
+      "width": 1716,
+      "height": 1116,
+      "before_sha256": "9afcd8c488500d5349ee7b03797f498258f8161439b226fd95de3e0d6a2c577e",
+      "after_sha256": "9afcd8c488500d5349ee7b03797f498258f8161439b226fd95de3e0d6a2c577e",
+      "source_svg_sha256": "0e847fb8947a32fcc77fd065c8f3778c954cb293cb93ab2790af262a6c2a0b9f",
+      "renderer": "Qt QSvgRenderer"
+    },
+    {
+      "path": "figures/motor_study.png",
+      "width": 2365,
+      "height": 1742,
+      "before_sha256": "1335ae6152f24a9e306f9a34841f46f54f0461fd73626ac8da55a607bc917195",
+      "after_sha256": "1335ae6152f24a9e306f9a34841f46f54f0461fd73626ac8da55a607bc917195",
+      "source_svg_sha256": "c6bf4e496255a6f11540340335a560fe4aeffc1aa877f0293c530d810ad788fe",
+      "renderer": "Qt QSvgRenderer"
+    },
+    {
+      "path": "figures/pressure_study.png",
+      "width": 2380,
+      "height": 1742,
+      "before_sha256": "5dc6bf3bdd62090bcc5fb60c13a4aeb8bae486df0a2ae73702cd847673ac77db",
+      "after_sha256": "5dc6bf3bdd62090bcc5fb60c13a4aeb8bae486df0a2ae73702cd847673ac77db",
+      "source_svg_sha256": "923509c84ce5f10013ee9dcd9f992adda22d18d4e88cc0357cbf3a967707b45a",
+      "renderer": "Qt QSvgRenderer"
+    },
+    {
+      "path": "figures/pulse_protocol.png",
+      "width": 1978,
+      "height": 1594,
+      "before_sha256": "65f1fadb441ba79c1e56b5d61ee4ee0b61af1efea69b55cba1989fcf98c07471",
+      "after_sha256": "65f1fadb441ba79c1e56b5d61ee4ee0b61af1efea69b55cba1989fcf98c07471",
+      "source_svg_sha256": "eec27cc47b80401d3b9a6b7241d1ea5c2af992a34fac103cc5867fc0c83c56dc",
+      "renderer": "Qt QSvgRenderer"
+    }
+  ],
+  "requires_source_generator": []
+}

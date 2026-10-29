@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "results/stage3/expert-validation/idealized_inverse_faster_performance0.json.gz",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "87aa0a4143381e7479e5d7861da74b40a15f6aacf0291098b091d39ae3d24cf0",
+  "current_sha256": "79241ce3f27caf49b276fb2f2eca23a5f68a22cd6ae93abf17005a3413d26377",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

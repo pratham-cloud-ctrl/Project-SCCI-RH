@@ -1,22 +1,23 @@
 {
-  "schema": "ato.inspection-provenance.v1",
-  "engineering_release": "v2.0.1",
-  "viewer_date": "2026-10-21",
+  "schema": "scci_rh.inspection-provenance.v1",
+  "engineering_release": "v2.1.0",
+  "viewer_date": "2026-10-28",
   "sources": [
     {
       "file": "assets/cad-manifest.json",
-      "sha256": "ec263a8aaa7f478e48f5e5a3ecca3a609d52b33d40aac07b2ac684d65c9a02df"
+      "sha256": "a54e61a1689a232a899b5f97a11f3cccc34556763aeea711bbe1cf8e07ecd634"
     },
     {
       "file": "assets/electronics-manifest.json",
-      "sha256": "271d26a4775c97910eeaff56ad553dbed4f2af97045053d1dcfa7616b1b2b870"
+      "sha256": "435aae0ae4d52a267324120d4a0a174244751ca45e2c0b2638aeafd77df2b52e"
     },
     {
       "file": "assets/downloads-manifest.json",
-      "sha256": "878ae5a1496f2ee2c3130b4612df44f721733ad30b74e6d48a8a2487f55694b0"
+      "sha256": "e3fc53d4fa49b01dca94b9d6736f77fdca51a7e82974b1c4ea59e78baee95dee"
     }
   ],
-  "catalog_sha256": "d4ac32deab8d03f80e7a93aef9ec0b3d2cd715d3ef4348274fa82e5ed13ed048",
-  "engineering_sources_changed": false,
+  "catalog_sha256": "6a32b832c431063777780658bf1a3a1ded7649539c5c19c1f0954337a1b17735",
+  "engineering_sources_changed": true,
+  "change_scope": "Project name and metadata only; engineering geometry and behavior checked against the prior release",
   "reading": "All meshes and drawings are visualization derivatives. Open linked manifests for native engine versions, input/output SHA-256, units, part identities and finite export checks."
 }

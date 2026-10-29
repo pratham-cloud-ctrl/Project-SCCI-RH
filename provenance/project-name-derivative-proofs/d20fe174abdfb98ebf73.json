@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "manuscript/stage6/figures/06_pressure_tradeoff.svg",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "e3aa156432a0ead56336365557b595e9e5bac4b1d9ab0f797827ab46fb14015c",
+  "current_sha256": "1102cbbe5c9522d54136fb8157c49682cc855989926cad3a87219f90ff9285be",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-manuscript-regeneration.json",
+      "sha256_lf": "e82e5ae3e9de1c5d04091a9b5f852f529320017753446324cb26c8cd0b19bafd"
+    }
+  ]
+}

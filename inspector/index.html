@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Inspect Project ATO's real CAD assemblies, eight populated circuit boards, copper layers and 80 schematic sheets. Browser viewers and standard engineering downloads.">
+  <meta name="description" content="Inspect Project SCCI RH's real CAD assemblies, eight populated circuit boards, copper layers and 80 schematic sheets. Browser viewers and standard engineering downloads.">
   <meta name="theme-color" content="#122a35">
-  <title>Project ATO · Build inspector</title>
+  <title>Project SCCI RH · Build inspector</title>
   <link rel="stylesheet" href="app.css">
   <script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.js","three/addons/":"./vendor/three/examples/jsm/"}}</script>
   <script type="module" src="app.js"></script>
@@ -13,17 +13,17 @@
 <body>
 <a class="skip" href="#main">Skip to inspector</a>
 <header class="masthead">
-  <a class="brand" href="./"><span class="mark" aria-hidden="true">A</span><span>PROJECT ATO<small>ENGINEERING INSPECTOR</small></span></a>
-  <nav aria-label="Project"><a href="https://github.com/pratham-cloud-ctrl/Project-ATO">Repository ↗</a><a href="https://github.com/pratham-cloud-ctrl/Project-ATO/blob/main/docs/explore/theory.md">Theory & evidence ↗</a><a href="#downloads" id="header-download">Downloads ↓</a></nav>
+  <a class="brand" href="./"><span class="mark" aria-hidden="true">S</span><span>PROJECT SCCI RH<small>ENGINEERING INSPECTOR</small></span></a>
+  <nav aria-label="Project"><a href="https://github.com/pratham-cloud-ctrl/Project-SCCI-RH">Repository ↗</a><a href="https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/main/docs/explore/theory.md">Theory & evidence ↗</a><a href="#downloads" id="header-download">Downloads ↓</a></nav>
 </header>
 <main id="main">
   <section class="intro">
-    <div><p class="eyebrow">OPEN THE BUILD · NO ENGINEERING SOFTWARE REQUIRED</p><h1>Look inside Project ATO.</h1><p>Explore the actual mechanical assemblies and eight-board electrical reference. Rotate a model, trace a component, read a circuit, or download the editable design.</p></div>
+    <div><p class="eyebrow">OPEN THE BUILD · NO ENGINEERING SOFTWARE REQUIRED</p><h1>Look inside Project SCCI RH.</h1><p>Explore the actual mechanical assemblies and eight-board electrical reference. Rotate a model, trace a component, read a circuit, or download the editable design.</p></div>
     <div class="scope-note"><span class="status-dot"></span><strong>Digital engineering reference</strong><p>The full-scale reference and proposed compact implant are separate designs. These views document geometry and circuits; biological capabilities remain conditional.</p></div>
   </section>
 
   <section class="workspace" aria-label="Engineering inspection workspace">
-    <div class="workspace-top"><div><label for="target">Choose a design</label><select id="target"><optgroup label="Mechanical assemblies"><option value="future">Future implanted interface</option><option value="reference">Full-scale reference assembly</option></optgroup><optgroup label="Populated circuit boards" id="board-options"></optgroup></select></div><div class="target-meta"><span id="target-type">MECHANICAL ASSEMBLY</span><strong id="target-size">60 × 58 × 14 mm before leads</strong></div><a id="source-link" href="https://github.com/pratham-cloud-ctrl/Project-ATO/tree/main/cad/stage5/future-interface">Original source ↗</a></div>
+    <div class="workspace-top"><div><label for="target">Choose a design</label><select id="target"><optgroup label="Mechanical assemblies"><option value="future">Future implanted interface</option><option value="reference">Full-scale reference assembly</option></optgroup><optgroup label="Populated circuit boards" id="board-options"></optgroup></select></div><div class="target-meta"><span id="target-type">MECHANICAL ASSEMBLY</span><strong id="target-size">60 × 58 × 14 mm before leads</strong></div><a id="source-link" href="https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/tree/main/cad/stage5/future-interface">Original source ↗</a></div>
     <div class="tabs" role="tablist" aria-label="Inspection views">
       <button role="tab" id="tab-model" aria-controls="panel-model" aria-selected="true" data-tab="model">3D assembly</button>
       <button role="tab" id="tab-pcb" aria-controls="panel-pcb" aria-selected="false" tabindex="-1" data-tab="pcb">PCB & components</button>
@@ -38,7 +38,7 @@
           <div class="model-toolbar"><button id="reset-model">Fit model</button><label id="explode-control">Explode <input id="explode" type="range" min="0" max="100" value="0" aria-label="Explode assembly"><output id="explode-value">0%</output></label><label id="cover-control"><input type="checkbox" id="show-covers" checked> Covers</label><label id="allocation-control"><input type="checkbox" id="show-allocations"> Internal allocations</label><button id="full-model">Full screen</button></div>
           <div class="canvas-wrap" id="canvas-wrap"><div id="model-canvas" tabindex="0" aria-label="Interactive 3D model. Drag to rotate; scroll to zoom; right drag to pan. Use part list and Fit model for keyboard inspection."></div><div id="model-status" role="status">Preparing the model viewer…</div><div class="canvas-caption"><span id="model-count"></span><span>Drag to rotate · scroll to zoom · click a part</span></div></div>
           <div class="model-footnote"><strong id="model-label">Source-derived geometry</strong><span id="model-limit">Browser meshes are inspection copies. STEP and native CAD retain the engineering geometry.</span></div>
-          <div id="model-fallback" hidden><p>The interactive model could not load. Use the full-resolution preview or download the STEP/native design below.</p><a id="fallback-preview" href="https://github.com/pratham-cloud-ctrl/Project-ATO/blob/main/cad/stage5/renders/future_assembled.png">Open preview ↗</a></div>
+          <div id="model-fallback" hidden><p>The interactive model could not load. Use the full-resolution preview or download the STEP/native design below.</p><a id="fallback-preview" href="https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/main/cad/stage5/renders/future_assembled.png">Open preview ↗</a></div>
         </div>
         <aside class="parts-panel" aria-label="Assembly parts"><div class="parts-heading"><h2>Inside this design</h2><button id="show-all-parts">Show all</button></div><label class="sr-only" for="part-search">Find a part</label><input type="search" id="part-search" placeholder="Find a part or reference…"><p id="part-summary" class="quiet"></p><div id="part-list" class="part-list"></div><div class="part-detail" id="part-detail"><p>Select a part in the model or list to inspect its identity.</p></div></aside>
       </div>
@@ -65,10 +65,10 @@
     <section id="panel-downloads" class="panel" role="tabpanel" aria-labelledby="tab-downloads" hidden><div class="panel-heading"><div><p class="eyebrow">BROWSER INSPECTION + EDITABLE ENGINEERING</p><h2 id="downloads">Take the actual design into your tools.</h2><p>Use STEP for solid geometry in CAD software, the complete FreeCAD package for editable features, and the complete KiCad package for circuits and layouts.</p></div></div><div id="download-cards" class="download-grid"></div><p class="download-note">Extract ZIP files before opening. Keep the supplied folder structure and libraries. Inspect a copy; save intentional edits as a new revision. Browser GLBs are triangulated display assets, not replacements for STEP solids or native engineering files.</p><div id="download-checks"></div></section>
   </section>
 
-  <section class="inspection-notes"><article><span class="note-number">01</span><h2>Actual engineering sources</h2><p>Models and drawings are exported from the saved FreeCAD and KiCad designs. Part identities, source hashes and export settings are recorded in the inspection manifest.</p><a href="assets/inspection-manifest.json">Inspect export provenance ↗</a></article><article><span class="note-number">02</span><h2>Two physical identities</h2><p>The 600 × 310 × 240 mm reference holds the real board-scale electronics. The separate 60 × 58 × 14 mm future can proposes miniaturization; the reference boards do not fit it.</p><a href="https://github.com/pratham-cloud-ctrl/Project-ATO/blob/main/docs/explore/theory.md">Read mechanisms and assumptions ↗</a></article><article><span class="note-number">03</span><h2>A dependable way in</h2><p>Interactive views are accompanied by full-resolution images, vector sheets, PDFs and standard CAD downloads. You can inspect the build even when a browser cannot run 3D.</p><a href="fallback.html">Open the static inspection index ↗</a></article></section>
+  <section class="inspection-notes"><article><span class="note-number">01</span><h2>Actual engineering sources</h2><p>Models and drawings are exported from the saved FreeCAD and KiCad designs. Part identities, source hashes and export settings are recorded in the inspection manifest.</p><a href="assets/inspection-manifest.json">Inspect export provenance ↗</a></article><article><span class="note-number">02</span><h2>Two physical identities</h2><p>The 600 × 310 × 240 mm reference holds the real board-scale electronics. The separate 60 × 58 × 14 mm future can proposes miniaturization; the reference boards do not fit it.</p><a href="https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/main/docs/explore/theory.md">Read mechanisms and assumptions ↗</a></article><article><span class="note-number">03</span><h2>A dependable way in</h2><p>Interactive views are accompanied by full-resolution images, vector sheets, PDFs and standard CAD downloads. You can inspect the build even when a browser cannot run 3D.</p><a href="fallback.html">Open the static inspection index ↗</a></article></section>
   <noscript><section class="no-script"><h2>JavaScript is disabled.</h2><p>The interactive inspector needs JavaScript. The <a href="fallback.html">static inspection index</a> includes all schematic pages, layer drawings, previews and downloadable designs.</p></section></noscript>
   <div id="app-error" role="alert" hidden></div>
 </main>
-<footer><p><strong>Project ATO</strong> · Pratham Varma · Digital SCCI research and engineering</p><p><a href="https://github.com/sam-astro/Mind-link">AstroSam / Mind-Link inspiration</a> · <a href="credits.html">Viewer tools, licenses & design review</a> · <a href="https://github.com/pratham-cloud-ctrl/Project-ATO/blob/main/docs/stage6/contributions.md">Contributions</a></p></footer>
+<footer><p><strong>Project SCCI RH</strong> · Pratham Varma · Digital SCCI research and engineering</p><p><a href="https://github.com/sam-astro/Mind-link">AstroSam / Mind-Link inspiration</a> · <a href="credits.html">Viewer tools, licenses & design review</a> · <a href="https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/main/docs/stage6/contributions.md">Contributions</a></p></footer>
 </body>
 </html>

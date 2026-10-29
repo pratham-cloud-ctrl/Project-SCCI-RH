@@ -1,6 +1,6 @@
 # Monitoring and companion interfaces
 
-**14 October 2026 · ATO-S4-TRANSPORT-01 · bounded digital package**
+**14 October 2026 · SCCI_RH-S4-TRANSPORT-01 · bounded digital package**
 
 The proposed spinal interface needs observations of delivered electrical output
 and external physiological feedback, alongside its sixteen neural streams.

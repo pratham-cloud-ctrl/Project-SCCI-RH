@@ -1,0 +1,65 @@
+{
+  "schema": "project-name-path-binding-repair.v1",
+  "applied": true,
+  "scope": "Explicit local path/hash and associated file byte-count metadata only; numeric model values untouched",
+  "changed_documents": [
+    {
+      "path": "provenance/stage5-native-harness.json",
+      "before_sha256": "8c8123042ecf6999ac6822d5b6ef63e73492ad15a0c994fc98301b1c5d9b9e9e",
+      "after_sha256": "6db956d43a505ac7ccff729f45c0c69c5a5185d537023d777091aaff17304690",
+      "bindings": [
+        {
+          "field": "contract_canonical_sha256",
+          "previous": "ea46a20d946555dbe03a34806cc74eeed033cc8057ae21be1beb0e6280f341a0",
+          "current": "4f184ea9308c423583722ed01383d3f9aa7f193b30b5ae3065f8581619f678b3",
+          "occurrences": 1,
+          "actual_source_paths": [
+            "cad/stage5/harness/contract.json"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "provenance/stage5-reference-clearance/manifest.json",
+      "before_sha256": "0c9a6b9764f65d1ab4fe8cb522887e82491412a7cd4d35b8ff8ce4066b6ccd46",
+      "after_sha256": "dac6b18b4f2f2aec5bf5bb75d6b87b167b71f9133d8b3e33050961904c3e311a",
+      "bindings": [
+        {
+          "field": "bytes",
+          "previous": "8600",
+          "current": "8339",
+          "occurrences": 1,
+          "actual_source_paths": [
+            "provenance/stage5-reference-clearance/raw-results.json"
+          ]
+        },
+        {
+          "field": "bytes",
+          "previous": "3064",
+          "current": "2954",
+          "occurrences": 1,
+          "actual_source_paths": [
+            "provenance/stage5-reference-clearance/raw-summary.json"
+          ]
+        }
+      ]
+    }
+  ],
+  "unresolved_not_modified": [],
+  "explicit_clearance_manifest_rebinding": {
+    "path": "provenance/stage5-native-reference.json",
+    "field": "evidence_reuse.clearance.manifest_sha256",
+    "source": "provenance/stage5-reference-clearance/manifest.json",
+    "previous": "d1f576355ecb879a958ab2a7d0458f3fd46791955a0b61bc107146135c1fcd1c",
+    "current": "dac6b18b4f2f2aec5bf5bb75d6b87b167b71f9133d8b3e33050961904c3e311a",
+    "reason": "Manifest own file-byte lengths updated; no clearance measurements or results changed."
+  },
+  "explicit_harness_routing_native_rebinding": {
+    "path": "provenance/stage5-native-harness.json",
+    "source": "cad/stage5/harness/SCCI_RH_harness_routes.FCStd",
+    "previous": "23e3e6b6744c901e051962248e7b4ae7ec8cb48e778db850d7182a1995b6dd8b",
+    "current": "06ce0f35374abe431a95abc076d43b905026c9de607aadc6523f0da9d2ba6eae",
+    "native_evidence": "provenance/rebrand-native-cad.json",
+    "reason": "Metadata-only FCStd rename with all BRep members preserved and actual FreeCAD checks recorded."
+  }
+}

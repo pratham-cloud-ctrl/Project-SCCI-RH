@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-root-review-12oct.md",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "eab93a34de68073db590d843dbf888896d7bd3f45cc7e0e5280da4fbc36dc0e9",
+  "current_sha256": "e5131eaeb2970371b490d10c7c54c2949f8d8af84142311a1047df4aaacc15b7",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

@@ -1,9 +1,9 @@
 {
-  "schema": "ato.stage3.frozen-pilot-portability.v1",
+  "schema": "scci_rh.stage3.frozen-pilot-portability.v1",
   "date": "2026-10-13",
   "cause": "Original inherited JSON byte hashes bind CRLF; Git blobs are LF",
   "fix": "Disposable original-layout scratch; newline restoration accepted only when complete original SHA256 matches; no frozen code/data changes",
-  "wrapper_sha256": "71893b1ef3835b02e33da2e9b40a27633b61d0a9cae8f355274fb7c19f1d1bde",
+  "wrapper_sha256": "2d5bd2821b3f8994da6c6916a289d8ce28b1f516cf8f369ec0cfc584b99cf576",
   "verified_source_checkout": "7e2e6107a1ab6888ac3b1783e32c78f8838747ac",
   "full_same_cohort_reproduction_from_clean_checkout_passed": true,
   "independent_raw_auditor_passed": true,

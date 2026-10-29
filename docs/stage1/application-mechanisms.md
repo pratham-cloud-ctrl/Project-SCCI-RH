@@ -1,8 +1,8 @@
-# Project ATO: application mechanisms and evidence boundaries
+# Project SCCI RH: application mechanisms and evidence boundaries
 
 Stage 1 design study · 8 October 2026 · status: proposals for review, with no settled electrode placement
 
-Project ATO proposes a complete implanted spinal interface and its computing/control system. Its two central ambitions remain **expert-informed motor learning** and **selected physiological automation**. Piano performance, football footwork, bodily feedback and future consumer uses remain motivating applications. A worked reference case develops part of this platform; it does not redefine the entire platform as a gait phase estimator or blood-pressure controller.
+Project SCCI RH proposes a complete implanted spinal interface and its computing/control system. Its two central ambitions remain **expert-informed motor learning** and **selected physiological automation**. Piano performance, football footwork, bodily feedback and future consumer uses remain motivating applications. A worked reference case develops part of this platform; it does not redefine the entire platform as a gait phase estimator or blood-pressure controller.
 
 The starting 28-page paper is a narrative review and hypothesis paper, with an evidence cutoff of **30 September 2026**, not an experimental report. This document audits selected decision-relevant primary sources on **8 October 2026**. Sources below were published before that cutoff; the access date is separate. Published evidence is marked **E**, a proposed engineering operation **P**, an unproved biological link **H**, and an explicitly assumed interface property **I**. These labels describe the link in the argument, not the prestige of a source.
 
@@ -45,7 +45,7 @@ For each application, distinguish four quantities: the state that matters, the c
 
 Two primary examples support useful spinal observations, with substantially different access and experimental scope:
 
-| Evidence | Direct result relevant to ATO | Limit that the design must retain |
+| Evidence | Direct result relevant to SCCI_RH | Limit that the design must retain |
 |---|---|---|
 | **E · S1-REF-001**, surface circumferential recording, 2026 | Fifteen freely moving rats overall; five contributed to pooled motor decoding. Three pigs were studied acutely. | Short-term rat recording, up to three days. The bidirectional recurrent decoder predicts kinematics offline; it does not establish causal online human intent decoding or expert-to-learner transfer. |
 | **E · S1-REF-002**, penetrating hyperflexible recording, 2023 | Five mice in the nine-week recording cohort; movement decoding in two mice. | Local ventral-horn access and mouse wheel-running cannot establish a chronic human multi-function interface. |
@@ -114,7 +114,7 @@ This is an application comparison, not a final anatomical or hardware selection.
 
 ## 5. Three candidate learning mechanisms, with different evidence
 
-| Mechanism | Evidence relevant to plausibility | Unproved ATO extension |
+| Mechanism | Evidence relevant to plausibility | Unproved SCCI_RH extension |
 |---|---|---|
 | Activity-dependent circuit conditioning | **E:** McPherson 2015 used forelimb muscle activity to trigger intraspinal stimulation during rat SCI retraining; gains persisted three weeks after stimulation. Nishimura 2013 showed timing-dependent corticospinal changes in two monkeys using cortical spikes to trigger spinal stimulation. | **H:** Spinal observations alone can supply the required learner activity signal; expert-derived information improves that conditioning beyond learner-only timing; changes support the desired intact skill. |
 | Assistance during active practice | **E:** Human spinal stimulation studies show movement assistance and, in selected rehabilitation contexts, stimulation-off changes. | **H:** Assistance increases useful error-driven practice rather than reducing active participation, masking errors or creating dependence. |
@@ -122,7 +122,7 @@ This is an application comparison, not a final anatomical or hardware selection.
 
 [S1-REF-008](https://doi.org/10.1073/pnas.1505383112), [S1-REF-009](https://doi.org/10.1016/j.neuron.2013.08.028), [S1-REF-010](https://doi.org/10.1523/JNEUROSCI.3968-12.2013), [S1-REF-016](https://doi.org/10.7554/eLife.54349), [S1-REF-017](https://doi.org/10.1038/s41598-022-21264-7).
 
-**E:** Rat EES models and experiments support trans-synaptic circuit recruitment through myelinated afferents in the tested setting. **P/H:** ATO therefore needs a recruitment/response map between electrical pulses and useful outputs. Reversing pulse polarity for charge balance is not equivalent to reversing joint motion or supplying a selective neural inhibition command. Each proposed facilitation, suppression or cue requires its own mechanism. [S1-REF-004](https://doi.org/10.1523/JNEUROSCI.1688-13.2013).
+**E:** Rat EES models and experiments support trans-synaptic circuit recruitment through myelinated afferents in the tested setting. **P/H:** SCCI_RH therefore needs a recruitment/response map between electrical pulses and useful outputs. Reversing pulse polarity for charge balance is not equivalent to reversing joint motion or supplying a selective neural inhibition command. Each proposed facilitation, suppression or cue requires its own mechanism. [S1-REF-004](https://doi.org/10.1523/JNEUROSCI.1688-13.2013).
 
 The trigger source matters: McPherson used **EMG**, Nishimura **cortical spikes**, and Thompson's H-reflex protocol **surface peripheral stimulation and EMG**. They support mechanistic comparisons, not an already demonstrated expert-recording SCCI. Lorach 2023 is explicitly a **hybrid brain–spine interface**, with cortical recording and spinal stimulation in one participant. [S1-REF-022](https://doi.org/10.1038/s41586-023-06094-5).
 
@@ -169,7 +169,7 @@ This proposed application state machine supplements the electrical supervisor. L
 
 [BP: S1-REF-012](https://doi.org/10.1038/s41591-025-03614-w), [earlier baroreflex: S1-REF-013](https://doi.org/10.1038/s41586-020-03180-w), [bladder: S1-REF-014](https://doi.org/10.3390/jcm15166287), [cough: S1-REF-015](https://doi.org/10.1016/j.apmr.2008.11.013), [bowel: S1-REF-024](https://doi.org/10.1016/j.apmr.2020.09.394), [ejaculation cases: S1-REF-018](https://doi.org/10.1080/00207454.2023.2273772), [female function: S1-REF-019](https://doi.org/10.3389/fnins.2023.1155796), [rat mechanism: S1-REF-020](https://doi.org/10.1016/j.eururo.2008.03.043).
 
-**Conditional recommendation:** Use blood-pressure regulation as the first detailed physiological reference, with external pressure feedback admitted explicitly. The biological precedent regulates principally **systolic pressure**; choosing mean arterial pressure for an ATO abstraction requires a declared measurement/model conversion, not relabelling the primary endpoint. Spinal recording may add context, recruitment monitoring or prediction, but must be tested against an external-pressure-only controller. A complete SCCI platform can retain recording even when a particular policy does not need neural decoding.
+**Conditional recommendation:** Use blood-pressure regulation as the first detailed physiological reference, with external pressure feedback admitted explicitly. The biological precedent regulates principally **systolic pressure**; choosing mean arterial pressure for an SCCI_RH abstraction requires a declared measurement/model conversion, not relabelling the primary endpoint. Spinal recording may add context, recruitment monitoring or prediction, but must be tested against an external-pressure-only controller. A complete SCCI platform can retain recording even when a particular policy does not need neural decoding.
 
 Keep bladder transitions and cough triggering/repetition as named extensions with distinct policy interfaces. Keep pelvic response timing and bounded sustained influence as open hypotheses with explicit missing selective access. A controller that can evoke ejaculation has not thereby acquired an inhibitory channel; pharmacological interruption in an animal study is not proof of electrical delay. These applications preserve the consumer ambition while making its individual propositions inspectable.
 
@@ -224,10 +224,10 @@ Stage 1 should resolve or explicitly label these choices:
 
 - **Starting paper page 7:** “five rats” applies to the 2026 motor-decoding subset; the freely moving study included **15 rats overall**. The source audit retains both denominators.
 - **Count and endpoint discipline:** the bladder pilot had four consented/three implanted/two full follow-up participants; high voiding efficiency was an individual result. Four amputees in the sensory paper and two in the subsequent discrimination study should not be reduced to three or one because of lead counts or the phrase “case study.”
-- **Decoder discipline:** a bidirectional offline model and pooled held-out time samples do not demonstrate causal streaming decoding, held-out-person generalization or command specificity. ATO needs its own causal validation.
+- **Decoder discipline:** a bidirectional offline model and pooled held-out time samples do not demonstrate causal streaming decoding, held-out-person generalization or command specificity. SCCI_RH needs its own causal validation.
 - **Scope discipline:** SCI/stroke restoration, peripheral reflex conditioning, cortical-triggered plasticity, transcutaneous stimulation and implanted spinal-only expert learning remain separate evidence classes.
 - **Anatomical discipline:** preserve access-plane and segment/vertebral distinctions, especially the different 2024 rat and cadaver methods and the 2026 intradural study.
-- **Source arithmetic caveat:** the 2026 circumferential paper labels a 21.29% eight-class baseline as uniform random; uniform selection over eight classes would be 12.5%. Do not use that baseline to quantify ATO's improvement without clarification. This caveat alone does not negate the recordings.
+- **Source arithmetic caveat:** the 2026 circumferential paper labels a 21.29% eight-class baseline as uniform random; uniform selection over eight classes would be 12.5%. Do not use that baseline to quantify SCCI_RH's improvement without clarification. This caveat alone does not negate the recordings.
 - **Access limits:** some publisher pages failed or required subscription; PMC pages sometimes presented a browser challenge. Author-written abstracts and accessible primary full-text XML were used where available. Rows record which conclusions were verified at abstract level and where cohort or parameter detail remains unverified. No inaccessible method was filled in from assumption or a secondary review.
 
-AstroSam's Mind-Link remains the credited inspiration for turning an ambitious interface concept into inspectable research, engineering and a physical design. Project ATO's contribution is its own application mechanisms, bounded interface assumptions, full proposed architecture and subsequent digital verification. Inspiration credit does not replace scientific evidence for an SCCI capability.
+AstroSam's Mind-Link remains the credited inspiration for turning an ambitious interface concept into inspectable research, engineering and a physical design. Project SCCI RH's contribution is its own application mechanisms, bounded interface assumptions, full proposed architecture and subsequent digital verification. Inspiration credit does not replace scientific evidence for an SCCI capability.

@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "results/stage3/resolved-teacher/raw.json.gz",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "c4474461c5cf223ff5a935f4f645604e48b5f3b6a643e1cd1144d683315922ae",
+  "current_sha256": "b28cb2270e0dbd2324e0e63c50be9d7b46efbb72b2434ae46959132eb7a989ca",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

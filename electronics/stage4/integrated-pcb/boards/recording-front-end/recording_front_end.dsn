@@ -1,4 +1,4 @@
-(pcb "E:\Project ATO\electronics\stage4\integrated-pcb\boards\recording-front-end\recording_front_end.dsn"
+(pcb "E:\Project SCCI RH\electronics\stage4\integrated-pcb\boards\recording-front-end\recording_front_end.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -43,7 +43,7 @@
     )
   )
   (placement
-    (component ato_afe:C_0805_2012Metric
+    (component scci_rh_afe:C_0805_2012Metric
       (place C30005 98925 -119785 front 0 (PN "100n X7R 16V"))
       (place C30103 45225 -47504.999 front 0 (PN "470p C0G 50V"))
       (place C30004 98925 -112725 front 0 (PN "100n X7R 16V"))
@@ -84,7 +84,7 @@
       (place C30114 27005 -88815 front 0 (PN "470p C0G 50V"))
       (place C30011 19835 -22005 front 0 (PN "100n X7R 16V"))
     )
-    (component ato_afe:C_0805_2012Metric::1
+    (component scci_rh_afe:C_0805_2012Metric::1
       (place C30304 77664.999 -46785 front 90 (PN "100n X7R 16V"))
       (place C30021 78765 -25725 front 90 (PN "100n X7R 16V"))
       (place C30003 95125 -102995 front 90 (PN "100n X7R 16V"))
@@ -118,7 +118,7 @@
       (place C30023 15405 -77835 front 90 (PN "100n X7R 16V"))
       (place C30303 52725 -54385 front 90 (PN "100n X7R 16V"))
     )
-    (component "ato_afe:VSSOP-8_2.3x2mm_P0.5mm"
+    (component "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm"
       (place U30500 31215 -164045 front 0 (PN TMUX6219DGKR))
       (place U30114 28505 -91895 front 0 (PN TMUX6219DGKR))
       (place U30104 95495 -25085 front 0 (PN TMUX6219DGKR))
@@ -137,7 +137,7 @@
       (place U30108 131685 -25085 front 0 (PN TMUX6219DGKR))
       (place U30115 19555 -102695 front 0 (PN TMUX6219DGKR))
     )
-    (component ato_afe:R_0805_2012Metric
+    (component scci_rh_afe:R_0805_2012Metric
       (place R30100 41875 -21975 front 0 (PN "4.99k 0.1%"))
       (place R30115 16684.999 -82835 front 0 (PN "4.99k 0.1%"))
       (place R30106 84545 -30725 front 0 (PN "4.99k 0.1%"))
@@ -161,13 +161,13 @@
       (place R30011 121164.999 -96965 front 0 (PN 10k))
       (place R30007 95095 -115505 front 0 (PN 10k))
     )
-    (component ato_afe:PinHeader_1x04_P2.54mm_Vertical
+    (component scci_rh_afe:PinHeader_1x04_P2.54mm_Vertical
       (place J30001 94515 -126585 front 90 (PN "EXTERNAL ISOLATED AFE RAILS"))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical
       (place J39901 50985 -76905 front 90 (PN "AFE TAP HARNESS"))
     )
-    (component ato_afe:R_0805_2012Metric::1
+    (component scci_rh_afe:R_0805_2012Metric::1
       (place R30013 110615 -81535 front 90 (PN 10k))
       (place R30204 99575 -24335 front 90 (PN 10M))
       (place R30004 95155 -98495 front 90 (PN 10k))
@@ -197,7 +197,7 @@
       (place R30208 135765 -24335 front 90 (PN 10M))
       (place R30207 91164.999 -46805 front 90 (PN 10M))
     )
-    (component ato_afe:PinHeader_1x10_P2.54mm_Vertical
+    (component scci_rh_afe:PinHeader_1x10_P2.54mm_Vertical
       (place J30002 94515 -134175 front 90 (PN "HOST SPI / SUPERVISOR"))
     )
     (component MountingHole_3.2mm_M3
@@ -206,33 +206,33 @@
       (place H3 4000 -186000 front 0 (PN MountingHole_3.2mm_M3))
       (place H4 151000 -186000 front 0 (PN MountingHole_3.2mm_M3))
     )
-    (component "ato_afe:SOT-23-5"
+    (component "scci_rh_afe:SOT-23-5"
       (place U30003 120414.999 -93465 front 0 (PN SN74LVC1G04DBVR))
       (place U30004 99675 -116255 front 0 (PN SN74LVC1G08DBVR))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical
       (place J39902 50984.999 -84495 front 90 (PN "AFE TAP HARNESS"))
     )
-    (component ato_afe:PinHeader_1x18_P2.54mm_Vertical
+    (component scci_rh_afe:PinHeader_1x18_P2.54mm_Vertical
       (place J30003 94525 -141765 front 90 (PN "18 RECORDING FUNCTIONAL PORTS"))
     )
-    (component ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6
+    (component scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6
       (place U30021 83045 -26475 front 0 (PN TMUX7412FRRPR))
       (place U30024 18225 -161035 front 0 (PN TMUX7412FRRPR))
       (place U30022 119235 -26475 front 0 (PN TMUX7412FRRPR))
       (place U30020 46855 -26475 front 0 (PN TMUX7412FRRPR))
       (place U30023 19685 -78585 front 0 (PN TMUX7412FRRPR))
     )
-    (component "ato_afe:SOIC-16W_7.5x10.3mm_P1.27mm"
+    (component "scci_rh_afe:SOIC-16W_7.5x10.3mm_P1.27mm"
       (place U30002 102885 -99245 front 0 (PN ISO6741FDWR))
       (place U30001 102885 -78535 front 0 (PN ISO6741FDWR))
     )
-    (component ato_afe:RHD2216_QFN56_8x8_P0.5_EP6.1
+    (component scci_rh_afe:RHD2216_QFN56_8x8_P0.5_EP6.1
       (place U30010 20585 -28585 front 0 (PN RHD2216))
     )
   )
   (library
-    (image ato_afe:C_0805_2012Metric
+    (image scci_rh_afe:C_0805_2012Metric
       (outline (polygon signal 0  1695 -975  -1695 -975  -1695 975  1695 975))
       (outline (path signal 120  -261.252 735  261.252 735))
       (outline (path signal 120  -261.252 -735  261.252 -735))
@@ -240,7 +240,7 @@
       (pin RoundRect[T]Pad_1000.000000x1450.000000_250.951000_um_0.000000_0 1 -950 0)
       (pin RoundRect[T]Pad_1000.000000x1450.000000_250.951000_um_0.000000_0 2 950 0)
     )
-    (image ato_afe:C_0805_2012Metric::1
+    (image scci_rh_afe:C_0805_2012Metric::1
       (outline (polygon signal 0  -1695 -975  -1695 975  1695 975  1695 -975))
       (outline (path signal 120  -261.252 735  261.252 735))
       (outline (path signal 120  -261.252 -735  261.252 -735))
@@ -248,7 +248,7 @@
       (pin RoundRect[T]Pad_1000.000000x1450.000000_250.951000_um_0.000000_0 1 -950 0)
       (pin RoundRect[T]Pad_1000.000000x1450.000000_250.951000_um_0.000000_0 2 950 0)
     )
-    (image "ato_afe:VSSOP-8_2.3x2mm_P0.5mm"
+    (image "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm"
       (outline (polygon signal 0  1395 1175  2275 1175  2275 -1175  1395 -1175  1395 -1245
             -1395 -1245  -1395 -1175  -2275 -1175  -2275 1175  -1395 1175
             -1395 1245  1395 1245))
@@ -263,7 +263,7 @@
       (pin RoundRect[T]Pad_1250.000000x350.000000_87.833000_um_0.000000_0 7 1400 250)
       (pin RoundRect[T]Pad_1250.000000x350.000000_87.833000_um_0.000000_0 8 1400 750)
     )
-    (image ato_afe:R_0805_2012Metric
+    (image scci_rh_afe:R_0805_2012Metric
       (outline (polygon signal 0  1675 -945  -1675 -945  -1675 945  1675 945))
       (outline (path signal 120  -227.064 735  227.064 735))
       (outline (path signal 120  -227.064 -735  227.064 -735))
@@ -271,7 +271,7 @@
       (pin RoundRect[T]Pad_1025.000000x1400.000000_250.951000_um_0.000000_0 1 -912.5 0)
       (pin RoundRect[T]Pad_1025.000000x1400.000000_250.951000_um_0.000000_0 2 912.5 0)
     )
-    (image ato_afe:PinHeader_1x04_P2.54mm_Vertical
+    (image scci_rh_afe:PinHeader_1x04_P2.54mm_Vertical
       (outline (polygon signal 0  -1765 -9385  -1765 1765  1765 1765  1765 -9385))
       (outline (path signal 120  -1380 1380  0 1380))
       (outline (path signal 120  -1380 0  -1380 1380))
@@ -315,7 +315,7 @@
       (pin Round[A]Pad_1700.000000_um 11 0 -25400)
       (pin Round[A]Pad_1700.000000_um 12 0 -27940)
     )
-    (image ato_afe:R_0805_2012Metric::1
+    (image scci_rh_afe:R_0805_2012Metric::1
       (outline (polygon signal 0  -1675 -945  -1675 945  1675 945  1675 -945))
       (outline (path signal 120  -227.064 735  227.064 735))
       (outline (path signal 120  -227.064 -735  227.064 -735))
@@ -323,7 +323,7 @@
       (pin RoundRect[T]Pad_1025.000000x1400.000000_250.951000_um_0.000000_0 1 -912.5 0)
       (pin RoundRect[T]Pad_1025.000000x1400.000000_250.951000_um_0.000000_0 2 912.5 0)
     )
-    (image ato_afe:PinHeader_1x10_P2.54mm_Vertical
+    (image scci_rh_afe:PinHeader_1x10_P2.54mm_Vertical
       (outline (polygon signal 0  -1765 -24625  -1765 1765  1765 1765  1765 -24625))
       (outline (path signal 120  -1380 1380  0 1380))
       (outline (path signal 120  -1380 0  -1380 1380))
@@ -383,7 +383,7 @@
       (keepout "" (circle In2.Cu 3700))
       (keepout "" (circle B.Cu 3700))
     )
-    (image "ato_afe:SOT-23-5"
+    (image "scci_rh_afe:SOT-23-5"
       (outline (polygon signal 0  1045 1495  2045 1495  2045 395  1045 395  1045 -395  2045 -395
             2045 -1495  1045 -1495  1045 -1695  -1045 -1695  -1045 -1495
             -2045 -1495  -2045 1495  -1045 1495  -1045 1695  1045 1695))
@@ -423,7 +423,7 @@
       (pin Round[A]Pad_1700.000000_um 8 0 -17780)
       (pin Round[A]Pad_1700.000000_um 9 0 -20320)
     )
-    (image ato_afe:PinHeader_1x18_P2.54mm_Vertical
+    (image scci_rh_afe:PinHeader_1x18_P2.54mm_Vertical
       (outline (polygon signal 0  -1765 -44945  -1765 1775  1765 1775  1765 -44945))
       (outline (path signal 120  -1380 1380  0 1380))
       (outline (path signal 120  -1380 0  -1380 1380))
@@ -455,7 +455,7 @@
       (pin Round[A]Pad_1700.000000_um 17 0 -40640)
       (pin Round[A]Pad_1700.000000_um 18 0 -43180)
     )
-    (image ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6
+    (image scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6
       (outline (polygon signal 0  2445 -2445  -2445 -2445  -2445 2445  2445 2445))
       (outline (path signal 150  -2300 1500  -2317.29 1418.65  -2366.17 1351.37  -2438.2 1309.79
             -2520.91 1301.1  -2600 1326.8  -2661.8 1382.44  -2695.63 1458.42
@@ -480,7 +480,7 @@
       (pin Rect[T]Pad_300.000000x600.000000_um 16 -975 1900)
       (pin Rect[T]Pad_2600.000000x2600.000000_um 17 0 0)
     )
-    (image "ato_afe:SOIC-16W_7.5x10.3mm_P1.27mm"
+    (image "scci_rh_afe:SOIC-16W_7.5x10.3mm_P1.27mm"
       (outline (polygon signal 0  3995 4995  5925 4995  5925 -4995  3995 -4995  3995 -5395
             -3995 -5395  -3995 -4995  -5925 -4995  -5925 4995  -3995 4995
             -3995 5395  3995 5395))
@@ -507,7 +507,7 @@
       (pin RoundRect[T]Pad_2050.000000x600.000000_150.571000_um_0.000000_0 15 4650 3175)
       (pin RoundRect[T]Pad_2050.000000x600.000000_150.571000_um_0.000000_0 16 4650 4445)
     )
-    (image ato_afe:RHD2216_QFN56_8x8_P0.5_EP6.1
+    (image scci_rh_afe:RHD2216_QFN56_8x8_P0.5_EP6.1
       (outline (polygon signal 0  4745 -4745  -4745 -4745  -4745 4745  4745 4745))
       (outline (path signal 150  -4300 3500  -4317.29 3418.65  -4366.17 3351.37  -4438.2 3309.79
             -4520.91 3301.1  -4600 3326.8  -4661.8 3382.44  -4695.63 3458.42

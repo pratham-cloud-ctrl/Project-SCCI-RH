@@ -1,12 +1,12 @@
 {
-  "schema": "ato.board-export.v1",
+  "schema": "scci_rh.board-export.v1",
   "board": "current-driver",
   "source_board": "electronics/stage4/integrated-pcb/boards/current-driver/current_driver.kicad_pcb",
-  "exporter_sha256_lf": "3bb0cad3cbf63fc3940d9a30e0a7fc31be818bc4b35b5eba81bff60a592aca76",
-  "source_sha256_lf": "03f6d4c71fbb8e683788def698db68f5642ea1a43801e5ed6a282f132385b63b",
+  "exporter_sha256_lf": "022a370fcb3e2c04d9ea166d6ad92ad1478333f4a73f8e68aef5d1f96d0ab18f",
+  "source_sha256_lf": "3017e903630d4de7ad98567914e51fdbd73766bab8be487a46bbf27d81e7f4ec",
   "source_project_sha256_lf": "76e8f90f47d87d035313107ab5388c0aacf9834de92394cca5f8c22516154afd",
-  "source_xml_sha256_lf": "75fdcb40eb07fcbea07d8d4ec798c7240d8154a1517b551bc141ab5fa0949d8a",
-  "DRC_sha256_lf": "315eeb9bcae4551d432b5bb791c8feb8229c1b18dc6ff1b0bb3e993b0992a65c",
+  "source_xml_sha256_lf": "d03b1f91a02214a8c79820f5025b82f22bb72e34b8190ce304e8eb801628476e",
+  "DRC_sha256_lf": "37b2fb9f94536c64b936b57e21064fba2be877a9b0106b6e81a451b485275be4",
   "component_count": 156,
   "fitted_component_count": 154,
   "DNP_references": [
@@ -23,8 +23,8 @@
         "--force",
         "--no-dnp",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\current-driver\\populated.step",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\current-driver\\current_driver.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\current-driver\\populated.step",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\current-driver\\current_driver.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -43,8 +43,8 @@
         "--side",
         "top",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\current-driver\\top.png",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\current-driver\\current_driver.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\current-driver\\top.png",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\current-driver\\current_driver.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -63,8 +63,8 @@
         "--side",
         "bottom",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\current-driver\\bottom.png",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\current-driver\\current_driver.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\current-driver\\bottom.png",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\current-driver\\current_driver.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -85,8 +85,8 @@
         "--zoom",
         ".83",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\current-driver\\isometric.png",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\current-driver\\current_driver.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\current-driver\\isometric.png",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\current-driver\\current_driver.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -102,8 +102,8 @@
         "--exclude-drawing-sheet",
         "--mode-single",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\current-driver\\top-copper.svg",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\current-driver\\current_driver.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\current-driver\\top-copper.svg",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\current-driver\\current_driver.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -120,8 +120,8 @@
         "--mirror",
         "--mode-single",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\current-driver\\bottom-copper.svg",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\current-driver\\current_driver.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\current-driver\\bottom-copper.svg",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\current-driver\\current_driver.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -134,8 +134,8 @@
         "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts",
         "--subtract-soldermask",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\current-driver\\fabrication-reference\\",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\current-driver\\current_driver.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\current-driver\\fabrication-reference\\",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\current-driver\\current_driver.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -151,10 +151,10 @@
         "--excellon-separate-th",
         "--generate-report",
         "--report-path",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\current-driver\\fabrication-reference\\drill-report.txt",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\current-driver\\fabrication-reference\\drill-report.txt",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\current-driver\\fabrication-reference\\",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\current-driver\\current_driver.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\current-driver\\fabrication-reference\\",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\current-driver\\current_driver.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -171,8 +171,8 @@
         "both",
         "--exclude-dnp",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\current-driver\\fabrication-reference\\positions.csv",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\current-driver\\current_driver.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\current-driver\\fabrication-reference\\positions.csv",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\current-driver\\current_driver.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -186,26 +186,26 @@
   "populated_models_nominal_where_documented": true,
   "physical_qualification": false,
   "outputs": {
-    "bottom-copper.svg": "59a374139593242bcad4dec628d26131bf4117c74b33500b9b58eab71e7c158d",
-    "bottom.png": "b5409cec45ee82b95d272ff8e11b0b06dced1a887c2cc875d4859366d43a5e34",
-    "isometric.png": "53db4c11b9151c200758f854908e0674fc5773f73ed91d62b39200c9cb321663",
+    "bottom-copper.svg": "54d3a99591a62ac1e66e1af42dd82dbba731ab0fb93f5ca4e6e6fd3a0b943bc7",
+    "bottom.png": "ef49228eb3db4da8a0dbb0885600e4b993fd4e21f92f6fa07314a9f7bc4bc594",
+    "isometric.png": "282110b05c2c97d8993a97ad80abcad9cc16b932e7fa7166dd52dcc9a668c120",
     "populated.step": "5f6d3b11f88a4778a733e75142d26aae26efaebebddc4dd22f601a94b9d29225",
-    "top-copper.svg": "230ac75f9a70dc18c90d24eb643288395f49afb3df0134574fec04e8d7e87963",
-    "top.png": "e7bae19b142425a487f9151d09c182de1e4e32faaafa7f9d4a6a5aca49e6954d",
-    "fabrication-reference/bom.csv": "7443919fa1baa2d321a6f8b7016f78394deffe512f107ab4570776ed8c9ddc1f",
-    "fabrication-reference/current_driver-B_Cu.gbl": "b6db9f541797561a508bc0020a7433695c0376bcb4bb3b66513f22db4730bf94",
-    "fabrication-reference/current_driver-B_Mask.gbs": "5174fb8041e64accec7d936c7bec00062b30b9279d0f8c8a817f858099a62679",
-    "fabrication-reference/current_driver-B_Silkscreen.gbo": "07c090f062419983fdd2533602ce6269d93ac2111da3542372379e4691df8694",
-    "fabrication-reference/current_driver-Edge_Cuts.gm1": "46f5cbfec370b52d06a11e0b90e970228cdeed5273bcd5f275035d752b4c8331",
-    "fabrication-reference/current_driver-F_Cu.gtl": "9ac33548537fef74b7158baa9e2c4abfa27184228660b4f1e9d801ae4edb3ea1",
-    "fabrication-reference/current_driver-F_Mask.gts": "e56bf9f241b8fa8debff367e3141080115105d2541181620b31411d2a2a0844c",
-    "fabrication-reference/current_driver-F_Silkscreen.gto": "20207089a7c89198081008dacb8fc38c8c70d4737f8e94fd022c33f97f13719a",
-    "fabrication-reference/current_driver-In1_Cu.g1": "3f3bba5d4b313653d2bd7bb808f6fd1a5a30ab51c4c95533ef00880110653ef6",
-    "fabrication-reference/current_driver-In2_Cu.g2": "2bdf808245f4a71cf4e90575ceafba5f49ae5a2af6b7c13d0cfe9e9370ae8003",
-    "fabrication-reference/current_driver-job.gbrjob": "487d9b1d162b83499009096f05dc155c4aacf34fda5a44f0d5b28618dabb4227",
-    "fabrication-reference/current_driver-NPTH.drl": "44db71aa487346b5be63fa234f886d170f05b6198aa355e9fcfafd56636fd8f6",
-    "fabrication-reference/current_driver-PTH.drl": "252315373dd1dfacd21d8523a8fa78858eac27aa581124717a869e4957cfd464",
-    "fabrication-reference/drill-report.txt": "96abd5fd7a1fbed5e225f2ab1a2767226dba79cd2a2c1ed4127e47ef901506ad",
+    "top-copper.svg": "260d52cc4850001be48f3fe8027471a5c22846e976ef8cab4546a7c32a508e2d",
+    "top.png": "769b969617b05eace3bf906f642a3de12b1cedbc0cb07621b3ed5811392ca9e2",
+    "fabrication-reference/bom.csv": "5a237b8bb785780ea7d0a8a82be8311863acb3a68b2c6693313ee0f152223237",
+    "fabrication-reference/current_driver-B_Cu.gbl": "265e3468bc8060b3e3fc76c4f3a429c891c23cfa9085ccbf21aefda194cca6d8",
+    "fabrication-reference/current_driver-B_Mask.gbs": "35ff4d22087d8e2054b56e876ae2a02e50d24ee2338e47c4b6d96f15702708b8",
+    "fabrication-reference/current_driver-B_Silkscreen.gbo": "d0d4f5ef1fee88e034403e2aea1bf176355e6f163bde65830bf1aacd19248fe7",
+    "fabrication-reference/current_driver-Edge_Cuts.gm1": "5fda95b468d78cec751dba90a596deb16a4edba59ae1080103e85046e34a2559",
+    "fabrication-reference/current_driver-F_Cu.gtl": "b9ae3a5d1e7873442b2cd426f25c38634882199ecbb9cb1bf1fe10eb8a83e0b5",
+    "fabrication-reference/current_driver-F_Mask.gts": "9c0a764d103523a3ef24cd5907a2f0a0e1ab6b697a5ed038ff3fbca16e7caca7",
+    "fabrication-reference/current_driver-F_Silkscreen.gto": "28ea7cc4c156947df8f9a9f1faed41e53e54581697ee55a802c87ac98a67f6e0",
+    "fabrication-reference/current_driver-In1_Cu.g1": "ec0c009071f4133569b387481ddc8a598e260b568d23e24d2c1c4dc3d172f2ec",
+    "fabrication-reference/current_driver-In2_Cu.g2": "1b97a98ba647bb59fdf96f757a2f91fff38160678f0dc290333e1ecf6694dd14",
+    "fabrication-reference/current_driver-job.gbrjob": "b78055af704e06532a63d1395eabb63b393de78d4c35532eb735600c37fb2503",
+    "fabrication-reference/current_driver-NPTH.drl": "065de378b962d6b851ad8a9e42d0cf1387669dcda99ae282561dadd0a73f819f",
+    "fabrication-reference/current_driver-PTH.drl": "2d23d06bd80541d0fa07bb832222792ad59d3ae76b82f3e95c128086c61633ac",
+    "fabrication-reference/drill-report.txt": "b62b415b287c6bd783d63522925073467cf5505102845361d60abd53df26afab",
     "fabrication-reference/positions.csv": "9c6aa0c5b1579a0726555bc6622652fd038e7471e6553a9c5360920a7a3328a0",
     "fabrication-reference/README.md": "118a7498542a8992e20d99363fd12818a8dacb65e4b57cefaea220f696f077b5"
   }

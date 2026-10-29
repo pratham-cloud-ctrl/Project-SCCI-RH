@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/boards/monitoring-transport/routing.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "39c2181148fafc1d325a04cbbfe7f2e6b5b7fd3176f61b35eb4f93a8c08ea006",
+  "current_sha256": "cb17db3518da56e479fd0de9a7d08521fcddf8c17852f22b22e5423ed93e76d0",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

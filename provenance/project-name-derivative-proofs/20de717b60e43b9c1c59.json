@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/contact-router/mcp-inspection.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "c7098ed70d784780ab36dda83480c1b6aa1640b62a0fdfd3168a4938ef0a84f6",
+  "current_sha256": "9ac76822c327185f4dbee35f2d792509abe765edf25a11cea627c81ea46fddc0",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

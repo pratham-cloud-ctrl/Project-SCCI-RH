@@ -1,6 +1,6 @@
 {
-  "schema": "ato.stage4.router-parasitics.v1",
-  "source_sha256_lf": "47e7f5e07028f61bdc8085dfa646b697c947188b07822631fdac4f19a0d8fc87",
+  "schema": "scci_rh.stage4.router-parasitics.v1",
+  "source_sha256_lf": "d09e2fd3953b5643bf1dcf81588e4aea4006777ee7849ae4d84646e83762570f",
   "scope": "Finite passive unselected-contact fixture; assumed coupling; not a nonlinear switch/tissue or complete driver model",
   "rows": [
     {

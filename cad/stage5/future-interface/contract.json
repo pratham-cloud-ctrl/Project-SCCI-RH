@@ -61,39 +61,39 @@
     ]
   },
   "source_hashes": {
-    "docs/stage2/system-design.json": "b310ba67b07e96ba64cc5e86884f1150477cdd063a29a4167e49ae526dddfb33",
+    "docs/stage2/system-design.json": "0c88391d3e910ad43a9c42d0855ddd8fd9f36e2b16502485b621f0b42a817eb1",
     "docs/stage2/functional-port-map.csv": "b7f98d085a9f37a1d2b0047cde472e9b08b5f5fa42b40ef2e28155c215c4a806",
-    "cad/stage5/future-interface/build_future_interface.py": "2fc5f46a8fad2482fb0003af08edaca9fcfb47b9f4320bc64b3d7d28eba1ebff",
-    "cad/stage5/future-interface/ato_future_features.py": "43275e3cfcb78db56bf197f0b94d2430ff5c173e19836b7aadf24e118051eba6",
-    "cad/stage5/future-interface/style_future_interface.py": "77e8ab5b170821d9408dfab94d5d2e619e0afcbf4e699ba15b9bc352af8753c8",
-    "cad/stage5/future-interface/finalize_presentation.py": "a45ad44b6f1cbd3d710f2edf63be9589ffe5572662bccf8e06c9f814df87b0e8",
-    "cad/stage5/future-interface/open_future_interface.FCMacro": "9fc2edfc19fd97b22a0792abcb838a36e4b1207eed27c719f5525f058b9b460a",
-    "cad/stage5/future-interface/open_future_interface_exploded.FCMacro": "5602e54a5763519258e5d0668f2ad88f5a572095aa75368fd3a1f4cd032c926b",
+    "cad/stage5/future-interface/build_future_interface.py": "3943c3820886adca0665c78186be4abbd9f66b7cfc71e42c211b78583c0e827d",
+    "cad/stage5/future-interface/scci_rh_future_features.py": "5e11e1656e067db9eb74fcc25d9553a3bb6a4996ac54f09fb3c69bd1d19106a7",
+    "cad/stage5/future-interface/style_future_interface.py": "3b6a5aaffdc3c0f9ca5cdfc39170a03cea133aa31f9e9073a2372bec4c04dc6f",
+    "cad/stage5/future-interface/finalize_presentation.py": "21c1b5af17f48c12df8cfce412a18dc5d38c304dd88e2fa8f831dffe9f415eae",
+    "cad/stage5/future-interface/open_future_interface.FCMacro": "435b0f76abd378bdea79ac7c0967cfef28d460b49fda84bb98a63f680283fba9",
+    "cad/stage5/future-interface/open_future_interface_exploded.FCMacro": "559f10825616fc5b88af3cc0727d42a3159640c94c4c4b3ee9741cfeab0c2fc0",
     "cad/stage5/future-interface/OPEN_FUTURE_INTERFACE.cmd": "c5aa502d73445fb7ac11d1579144d62bec8fde28e305484fdc6bd226b603e921",
     "cad/stage5/future-interface/OPEN_FUTURE_INTERFACE_EXPLODED.cmd": "7b03aebd8041cfc081f5fd3429335f0395bfb4788a5a9bd8d5fc0a79b71e4127",
-    "cad/stage5/future-interface/README.md": "78c9d924c8b80432d95382b3c1e506bf8626c0a2a5c84dcfa0bb2aad24dd858f",
-    "docs/stage5/future-package-design.md": "4323e91054d6a6eedd62607b62ff8c421621d5eef39995d5f9bb17adf56af194"
+    "cad/stage5/future-interface/README.md": "0b3a4c7ebf894a47deb98aa8e7c77c766952ce0540d5b4e64d8f40cb79784f81",
+    "docs/stage5/future-package-design.md": "ffda59ce4d947c2df803abac54a07e61678f27a947bd52b168e4859fca423f2d"
   },
   "hash_policy": "Text py/json/csv/md/cmd/FCMacro sources use CRLF-to-LF normalization; native/STEP/STL byte-exact SHA256.",
   "artifacts": {
-    "native": "ATO_future_interface.FCStd",
-    "step": "ATO_future_interface.step",
-    "stl": "ATO_future_interface.stl",
-    "exploded_native": "ATO_future_interface_exploded.FCStd",
-    "exploded_step": "ATO_future_interface_exploded.step",
+    "native": "SCCI_RH_future_interface.FCStd",
+    "step": "SCCI_RH_future_interface.step",
+    "stl": "SCCI_RH_future_interface.stl",
+    "exploded_native": "SCCI_RH_future_interface_exploded.FCStd",
+    "exploded_step": "SCCI_RH_future_interface_exploded.step",
     "fitted_native_png": "future-fitted-native.png",
     "exploded_native_png": "future-exploded-native.png",
     "native_visual_receipt": "native-visual-receipt.json"
   },
   "artifact_sha256": {
-    "ATO_future_interface.FCStd": "b148467eac2c00497052cd0e4f5290d8ea1290199ef06559fb583aaac3b5499c",
-    "ATO_future_interface.step": "5ab3f5dc211af366afbfa668ae5d59eb0be75a1bd99327b2e90f09323a4ae7f1",
-    "ATO_future_interface.stl": "56433d7debf3bafb41604cb7c971a2f45e7495ba252c1fff6bc47a709c15c930",
-    "ATO_future_interface_exploded.FCStd": "eccccf3683eec9eaab0f149cb405657eec075e783727dfc563c5234a5b51f1f9",
-    "ATO_future_interface_exploded.step": "99e97143019bd55eae8c23ac588fa5f54ec9eedece6b05d8d2882d557db74f0a",
-    "future-fitted-native.png": "81c4e821a509ab9d0fb1659bd60b4950a9ad537ed3edc3c39c8035d8e99ebbf6",
-    "future-exploded-native.png": "62287b478270cad3a311ceedccb4aa2cda964053c441429462efd791d35461de",
-    "native-visual-receipt.json": "8b0f63328f6e997aa6975a4308a645b55dc6de87f6c2e0cfc13f9a837b7cb992"
+    "SCCI_RH_future_interface.FCStd": "3a1cfb5a59855442214772e50dab670c403e6326e929de8362b37037723158ba",
+    "SCCI_RH_future_interface.step": "5ab3f5dc211af366afbfa668ae5d59eb0be75a1bd99327b2e90f09323a4ae7f1",
+    "SCCI_RH_future_interface.stl": "56433d7debf3bafb41604cb7c971a2f45e7495ba252c1fff6bc47a709c15c930",
+    "SCCI_RH_future_interface_exploded.FCStd": "5d4c904e9e6c3e4cc1e2cf55a5172b451d5b09b5f9ed0445bdca9eb506830afc",
+    "SCCI_RH_future_interface_exploded.step": "99e97143019bd55eae8c23ac588fa5f54ec9eedece6b05d8d2882d557db74f0a",
+    "future-fitted-native.png": "43f3d4ebea9f97b6aa2556265b4e527d1bb82432e79e1a0a7cd0c620ea437bd4",
+    "future-exploded-native.png": "15e16dde74192f3933e2987fe07923ff8f05f559e0f78551cedf572f6ec73df7",
+    "native-visual-receipt.json": "0efb6e4ebdd26d33fffffff7d84ebe9ecaea86e89ee949f7eef53b446c37a362"
   },
   "step_included_categories": [
     "physical"

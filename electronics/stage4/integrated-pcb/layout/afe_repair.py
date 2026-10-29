@@ -278,7 +278,7 @@ def main():
     if not backup.exists():backup.write_bytes(PATH.read_bytes())
     if args.cleanup:
         result=cleanup(board,json.loads(args.report.read_text()))
-        result.update(schema='ato.afe-native-copper-cleanup.v1',before_sha256_lf=before,after_sha256_lf=digest(PATH))
+        result.update(schema='scci_rh.afe-native-copper-cleanup.v1',before_sha256_lf=before,after_sha256_lf=digest(PATH))
         cleanup_path=PATH.parent/'afe-cleanup.json'
         if cleanup_path.exists():
             previous=json.loads(cleanup_path.read_text())
@@ -298,7 +298,7 @@ def main():
         pcb.SaveBoard(str(PATH),board)
         receipt_path=PATH.parent/'afe-escape.json'
         history=json.loads(receipt_path.read_text()).get('escapes',[]) if receipt_path.exists() else []
-        receipt_path.write_text(json.dumps(dict(schema='ato.afe-pad-escape.v1',before_sha256_lf=before,after_sha256_lf=digest(PATH),escapes=history+records,native_DRC_required=True),indent=2)+'\n')
+        receipt_path.write_text(json.dumps(dict(schema='scci_rh.afe-pad-escape.v1',before_sha256_lf=before,after_sha256_lf=digest(PATH),escapes=history+records,native_DRC_required=True),indent=2)+'\n')
         print(json.dumps(records),flush=True)
         return
     report=json.loads(args.report.read_text());items=native_items(board)
@@ -332,7 +332,7 @@ def main():
         except RuntimeError as exc:
             result=dict(pair=number,net=name,error=str(exc),elapsed_s=round(time.perf_counter()-t,3));failed.append(result);print(json.dumps(result),flush=True)
     board.BuildConnectivity();conn=board.GetConnectivity();conn.RecalculateRatsnest()
-    receipt=dict(schema='ato.afe-native-copper-repair.v1',source_before_sha256_lf=before,source_after_sha256_lf=digest(PATH),grid_mm=GRID,track_width_mm=WIDTH,via_diameter_mm=VIA,via_drill_mm=.3,configured_clearance_mm=CLEAR,geometric_margin_mm=MARGIN,connections=results,failed=failed,native_unconnected_count=conn.GetUnconnectedCount(False),native_DRC_required=True)
+    receipt=dict(schema='scci_rh.afe-native-copper-repair.v1',source_before_sha256_lf=before,source_after_sha256_lf=digest(PATH),grid_mm=GRID,track_width_mm=WIDTH,via_diameter_mm=VIA,via_drill_mm=.3,configured_clearance_mm=CLEAR,geometric_margin_mm=MARGIN,connections=results,failed=failed,native_unconnected_count=conn.GetUnconnectedCount(False),native_DRC_required=True)
     (PATH.parent/'afe-repair.json').write_text(json.dumps(receipt,indent=2)+'\n')
     print(json.dumps({k:receipt[k] for k in ['native_unconnected_count','source_after_sha256_lf']}),flush=True)
 

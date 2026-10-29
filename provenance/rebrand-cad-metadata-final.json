@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-29",
+  "scope": "Explicit native CAD export input metadata rebound after fresh nested electrical export audits; GLB binary geometry untouched; final geometry checker required",
+  "changes": [
+    {
+      "source": "electronics/stage4/integrated-pcb/exports/recording-front-end/export-receipt.json",
+      "previous_sha256": "6a90f40632b17c98c87205b87e242973b4f1210d09ce2c45eb5e8a48c02c4915",
+      "current_sha256": "e89259c2b0318a89c949e3ff56709922d374b0318fb81df04c58cf59d86d3545"
+    },
+    {
+      "source": "electronics/stage4/integrated-pcb/exports/current-driver/export-receipt.json",
+      "previous_sha256": "8f1d0c0a44096604b0ac7f8f015578fe890eea1022fcbcef769e68d5ee5c459a",
+      "current_sha256": "4c1a23061705fbf14c20dd14e0364bb5075a3f59594419c339cabde8f13d9b57"
+    },
+    {
+      "source": "electronics/stage4/integrated-pcb/exports/contact-router/export-receipt.json",
+      "previous_sha256": "6f90edcaa89e419f16c0617fe94d42550bceb89662cb1f9f2ff3f1fefc4da2e4",
+      "current_sha256": "77bf40fc46d97db790fa1ba6459fb16f62f65bb37886fbdee5f140f53ccbfc90"
+    },
+    {
+      "source": "electronics/stage4/integrated-pcb/exports/supervision/export-receipt.json",
+      "previous_sha256": "7959c83f7d6629957f898f19400dcf10f48eb31153433e3e87f17e1cbea5c85c",
+      "current_sha256": "058c2a091a9e87d616af6c29b140eba66998c2ea8db2c074df5b70752c95a088"
+    },
+    {
+      "source": "electronics/stage4/integrated-pcb/exports/power/export-receipt.json",
+      "previous_sha256": "7b4f2a215b38ec837612ed7deb9fde9823e2492e6a5455b0a84a5440ddbf05d8",
+      "current_sha256": "23131899439c2b8195e71a127b5094727e9f3e28b740ab756fe503e43dad3366"
+    },
+    {
+      "source": "electronics/stage4/integrated-pcb/exports/monitoring-cell/export-receipt.json",
+      "previous_sha256": "a8f5d82609bc60f44f7cc28066cdacccc0e68db620e7969e4cefb53f824b4879",
+      "current_sha256": "66a709a25d63154fc5aca97a45b19278d29f5047f02f7c8466cb7cc231c61017"
+    },
+    {
+      "source": "electronics/stage4/integrated-pcb/exports/monitoring-transport/export-receipt.json",
+      "previous_sha256": "aa2a8a09e2bd5a33982b465d7ae504b5210e5e70759941e19d56a5dccfbd6b0c",
+      "current_sha256": "3beaf6ed1d055bbeedb353b7b8f3248091cecd28fd8e925ee710e71de476f6c3"
+    },
+    {
+      "source": "electronics/stage4/integrated-pcb/exports/controller-carrier/export-receipt.json",
+      "previous_sha256": "f8cb9a59404f76a19b9c35208c0b9be880a06bc05acb9f2cd722808ede17d343",
+      "current_sha256": "35c3f3bd912f692c989f43387c149d3dfcc5b9e7208f553e862d2fca62fab047"
+    }
+  ]
+}

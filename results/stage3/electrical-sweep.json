@@ -1,8 +1,8 @@
 {
-  "schema": "ato.stage3.electrical-review-sweep.v1",
+  "schema": "scci_rh.stage3.electrical-review-sweep.v1",
   "review_date": "2026-10-08",
   "status": "passed_under_assumptions",
-  "model": "src/ato/stage3/electrical.py",
+  "model": "src/scci_rh/stage3/electrical.py",
   "ode_intervals": {
     "seed": 5,
     "random_generator": "PCG64",

@@ -9,17 +9,17 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'src'))
-from ato.stage3.motor import MotorConfig, LearnerMap, StateEstimate, control_request
-from ato.stage3.teacher_library import build_teacher_library
+from scci_rh.stage3.motor import MotorConfig, LearnerMap, StateEstimate, control_request
+from scci_rh.stage3.teacher_library import build_teacher_library
 from run_stage3_studies import close_nested
 from artifact_hashes import canonical_json_digest
 
 INPUT = ROOT/'results/stage3/expert-validation'
 OUT = ROOT/'results/stage3/teacher-library'
 DOC = ROOT/'docs/stage3/teacher-library.md'
-SOURCE_PATHS = ('src/ato/stage3/teacher_library.py', 'scripts/stage3_teacher_library_study.py',
-                'src/ato/stage3/expert_validation.py', 'src/ato/stage3/motor.py',
-                'src/ato/stage3/acquisition.py', 'scripts/artifact_hashes.py')
+SOURCE_PATHS = ('src/scci_rh/stage3/teacher_library.py', 'scripts/stage3_teacher_library_study.py',
+                'src/scci_rh/stage3/expert_validation.py', 'src/scci_rh/stage3/motor.py',
+                'src/scci_rh/stage3/acquisition.py', 'scripts/artifact_hashes.py')
 
 
 def sha256(path):
@@ -34,7 +34,7 @@ def source_hashes():
 def load_frozen_captures():
     summary_path = INPUT/'expert-summary.json'
     summary = json.loads(summary_path.read_text(encoding='utf-8'))
-    if summary['schema'] != 'ato.stage3.expert-validation.v1':
+    if summary['schema'] != 'scci_rh.stage3.expert-validation.v1':
         raise ValueError('unexpected expert benchmark schema')
     captures = []
     for entry in summary['raw_files']:
@@ -42,7 +42,7 @@ def load_frozen_captures():
         if path.parent != INPUT or sha256(path) != entry['sha256']:
             raise ValueError('frozen expert recording identity failed: '+entry['path'])
         value = json.loads(gzip.decompress(path.read_bytes()).decode('utf-8'))
-        if value['schema'] != 'ato.stage3.expert-performance.v1':
+        if value['schema'] != 'scci_rh.stage3.expert-performance.v1':
             raise ValueError('unexpected expert recording schema')
         captures.append(value['capture'])
     return summary, captures, canonical_json_digest(summary_path)
@@ -77,8 +77,8 @@ def experiment():
         library = build_teacher_library(captures, config, generator=generator)
         records[generator] = library.to_record()
         records[generator]['consumer_witness'] = consumer_witness(library, config)
-    return {'schema': 'ato.stage3.teacher-library-study.v1',
-            'result_id': 'ATO-S3-QUALIFIED-TEACHER-LIBRARY-1',
+    return {'schema': 'scci_rh.stage3.teacher-library-study.v1',
+            'result_id': 'SCCI_RH-S3-QUALIFIED-TEACHER-LIBRARY-1',
             'source_sha256': source_hashes(),
             'input_receipt': {'path': 'results/stage3/expert-validation/expert-summary.json',
                               'sha256': frozen_sha, 'summary_hash_scope': 'canonical parsed JSON; raw gzip hashes exact',
@@ -184,8 +184,8 @@ def report(value):
               '`python -X utf8 scripts/stage3_teacher_library_study.py --check` verifies all 16 frozen',
               'gzip input identities, refits and independently validates the two libraries, and compares',
               'the resulting receipts and this report (relative tolerance 2e-8, absolute 1e-11).',
-              'Result schema: `ato.stage3.teacher-library-study.v1`; each library is',
-              '`ato.stage3.teacher-library.v1`. Raw benchmark recordings remain under',
+              'Result schema: `scci_rh.stage3.teacher-library-study.v1`; each library is',
+              '`scci_rh.stage3.teacher-library.v1`. Raw benchmark recordings remain under',
               '`results/stage3/expert-validation/`; no new recordings or historical replacements occur.', '']
     return '\n'.join(lines)
 

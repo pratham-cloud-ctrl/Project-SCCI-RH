@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/power-study/budget-verification.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "5247fb4a893b80d9112045bd9e0e010e9032a895b4b4be3578184164f26562f8",
+  "current_sha256": "703a2f2b9b12f3075be610dc1a26c8e10a2d4a3de019fd046cbf68a2a81940c9",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

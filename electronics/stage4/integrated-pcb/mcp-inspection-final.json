@@ -1,5 +1,5 @@
 {
-  "schema": "ato.integrated-pcb-mcp-final-inspection.v1",
+  "schema": "scci_rh.integrated-pcb-mcp-final-inspection.v1",
   "date": "2026-10-16",
   "source": "Saved native files; no unsaved GUI state claimed",
   "earlier_four_board_inspection": "mcp-inspection.json",
@@ -7,70 +7,70 @@
     {
       "board": "contact-router",
       "metadata": {
-        "company": "Project ATO / Pratham",
+        "company": "Project SCCI RH / Pratham",
         "copper_layer_count": 4,
         "date": "2026-10-15",
-        "file": "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\contact-router\\contact_router.kicad_pcb",
+        "file": "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\contact-router\\contact_router.kicad_pcb",
         "layer_count": 26,
         "net_count": 128,
         "paper": "A4",
         "paper_size_mm": null,
         "revision": "A / Digital modular reference",
         "source": "file",
-        "title": "Project ATO / Contact Router"
+        "title": "Project SCCI RH / Contact Router"
       },
-      "pcb_sha256_lf": "2bf7bf8b049e4b7e27dca0bed9db88f4efab5a3944f183a16246432411ea137f"
+      "pcb_sha256_lf": "040fdffc12fc0de29bdbf233bf44f12246ffb3d582307ac55b75330cbbec0346"
     },
     {
       "board": "supervision",
       "metadata": {
-        "company": "Project ATO / Pratham",
+        "company": "Project SCCI RH / Pratham",
         "copper_layer_count": 4,
         "date": "2026-10-15",
-        "file": "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\supervision\\supervision.kicad_pcb",
+        "file": "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\supervision\\supervision.kicad_pcb",
         "layer_count": 26,
         "net_count": 352,
         "paper": "A4",
         "paper_size_mm": null,
         "revision": "A / Digital modular reference",
         "source": "file",
-        "title": "Project ATO / Supervision"
+        "title": "Project SCCI RH / Supervision"
       },
-      "pcb_sha256_lf": "877e2d5643182aa68e16e77dbdd7821ee55f36b763745bb6aba7ea7a8afc3440"
+      "pcb_sha256_lf": "409919d0b44359008860d473d92eb6ac4944572a33c2ee322e8c331214563958"
     },
     {
       "board": "controller-carrier",
       "metadata": {
-        "company": "Project ATO / Pratham",
+        "company": "Project SCCI RH / Pratham",
         "copper_layer_count": 4,
         "date": "2026-10-15",
-        "file": "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\controller-carrier\\controller_carrier.kicad_pcb",
+        "file": "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\controller-carrier\\controller_carrier.kicad_pcb",
         "layer_count": 26,
         "net_count": 91,
         "paper": "A4",
         "paper_size_mm": null,
         "revision": "A / Digital modular reference",
         "source": "file",
-        "title": "Project ATO / Controller Carrier"
+        "title": "Project SCCI RH / Controller Carrier"
       },
-      "pcb_sha256_lf": "ae600148f4efeadceaf92f42cf3e15e102d68e1beb5b34094e02d2593858e1f8"
+      "pcb_sha256_lf": "86880cccc4b28ab582e8aa62903fb25aeda830a7896317704110485c9246412e"
     },
     {
       "board": "recording-front-end",
       "metadata": {
-        "company": "Project ATO / Pratham",
+        "company": "Project SCCI RH / Pratham",
         "copper_layer_count": 4,
         "date": "2026-10-15",
-        "file": "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\recording-front-end\\recording_front_end.kicad_pcb",
+        "file": "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\recording-front-end\\recording_front_end.kicad_pcb",
         "layer_count": 26,
         "net_count": 100,
         "paper": "A4",
         "paper_size_mm": null,
         "revision": "A / Digital modular reference",
         "source": "file",
-        "title": "Project ATO / Recording Front End"
+        "title": "Project SCCI RH / Recording Front End"
       },
-      "pcb_sha256_lf": "584360f1b286a1b02f8adfa971225be66456e0109c77c9f2d8ab2f57f17c21a9"
+      "pcb_sha256_lf": "5cd64396fc8a0f562a2deb5d02d0556e189533b5a653dcac482aa238b09c664c"
     }
   ],
   "component_samples": [

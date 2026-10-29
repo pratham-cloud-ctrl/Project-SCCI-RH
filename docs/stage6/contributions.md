@@ -1,4 +1,4 @@
-# Project ATO: contributions and provenance for the integrated release
+# Project SCCI RH: contributions and provenance for the integrated release
 
 **16 October 2026.** This is an extensively AI-assisted student-directed digital
 research and engineering project. It is not a record of original human or animal
@@ -12,8 +12,8 @@ student mastery.
 | Pratham Varma, project owner | Chose invasive spinal access; proposed expert-informed learning and sustained function-specific physiological control; supplied the starting hypothesis paper; set the AstroSam-inspired format, digital scope and private GitHub destination; directed the staged overhaul and permitted defensible future assumptions | Personal fabrication, collection of neural data, independent authorship of every derivation or file, completed mastery of all included disciplines |
 | Codex and collaborating AI agents | Targeted primary-source review; mathematical formulation; synthetic experiments and controls; code, firmware, KiCad/FreeCAD engineering; automated audits; technical figures; manuscript and repository preparation | Human expert review, clinical certification, an external peer-review process or independent experimental replication |
 | Installed engineering software | Native KiCad/FreeCAD inspection and exports; compiler/toolchain builds; circuit simulation, rendering and numerical computation | Evidence that a physical circuit, biological mechanism or manufacturing process performs as proposed |
-| Earlier researchers | Published spinal recording, stimulation, movement assistance, plasticity and selected autonomic feedback evidence cited in the source reviews and manuscript | Demonstration of ATO's complete combined system or its proposed healthy-consumer outcomes |
-| AstroSam / Mind-Link | Inspiration for expressing an ambitious neural-interface vision through an inspectable mechanism, electronics, CAD and repository | Invention of ATO's spinal architecture or contribution of incorporated Mind-Link code/geometry |
+| Earlier researchers | Published spinal recording, stimulation, movement assistance, plasticity and selected autonomic feedback evidence cited in the source reviews and manuscript | Demonstration of SCCI_RH's complete combined system or its proposed healthy-consumer outcomes |
+| AstroSam / Mind-Link | Inspiration for expressing an ambitious neural-interface vision through an inspectable mechanism, electronics, CAD and repository | Invention of SCCI_RH's spinal architecture or contribution of incorporated Mind-Link code/geometry |
 
 The starting 28-page review/hypothesis paper is a research map. Its illustrative
 numbers are not participant measurements. Its stated evidence cutoff does not
@@ -22,7 +22,7 @@ of use. The synced original remains read-only.
 
 ## Original project artifacts
 
-ATO's contribution is the particular synthesis and inspectable implementation:
+SCCI_RH's contribution is the particular synthesis and inspectable implementation:
 
 - A full spinal acquisition-to-feedback argument covering **both** expert-informed
   retained motor learning and selected physiological regulation, with distinct
@@ -41,7 +41,7 @@ ATO's contribution is the particular synthesis and inspectable implementation:
 - Integrated illustrated documentation, reproducible artifact records and
   explicit contribution/claim boundaries.
 
-These are original **project artifacts and engineering choices**. ATO does not
+These are original **project artifacts and engineering choices**. SCCI_RH does not
 claim to have invented spinal cord interfaces, discovered a universal skill code
 or established a working implanted consumer product.
 

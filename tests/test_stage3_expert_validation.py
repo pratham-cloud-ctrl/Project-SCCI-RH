@@ -2,8 +2,8 @@
 import unittest
 from dataclasses import fields
 import numpy as np
-from ato.stage3.motor import MotorConfig, Observation, _capture
-from ato.stage3.expert_validation import (capture_expert_performance,
+from scci_rh.stage3.motor import MotorConfig, Observation, _capture
+from scci_rh.stage3.expert_validation import (capture_expert_performance,
                                          qualify_observed_expert,
                                          inverse_teacher_coefficients)
 

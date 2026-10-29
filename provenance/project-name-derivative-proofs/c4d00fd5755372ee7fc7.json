@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "firmware/nrf5340/uart-revision/verify_revision.py",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "4508333d6fa1c75b590f23292c42131fe79f86ddcd6e447812f414370da4f48a",
+  "current_sha256": "8de48e1d5ace0799fc2306cfaba063c52eab7fa04248a431d35e8aadeff7ba8d",
+  "method": "reviewed_branding_verifier_adaptation",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "Actual rebuild date and original implementation date distinguished; source/frame/ELF/HEX/BIN/configuration assertions retained.",
+  "independent_evidence": []
+}

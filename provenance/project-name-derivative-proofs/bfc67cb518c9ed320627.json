@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "firmware/nrf5340/uart-revision/artifacts/sections.txt",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "043d38fadb59787bcfc75ee059a6a0252c09a206d4eb3de3a09ac05725eb1aba",
+  "current_sha256": "1ead6b70e4806198bc3d22725faf52a6bb5913609db067ed77f02a9ceb984030",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-target-build-date-metadata.json",
+      "sha256_lf": "0e8a2df7355024b1412bbba38beac6021318b8f361fd2d69ab1184f5b03379cd"
+    }
+  ]
+}

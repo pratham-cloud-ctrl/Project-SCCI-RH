@@ -1,6 +1,6 @@
 # Power and quantitative budget — completed digital reference
 
-**14 October 2026 — Project ATO Stage 4, bounded package 2.**
+**14 October 2026 — Project SCCI RH Stage 4, bounded package 2.**
 
 This package gives the proposed spinal recording–interpretation–stimulation–
 feedback system actual native power circuits and an explicit resource budget.

@@ -1,6 +1,6 @@
 {
-  "schema": "ato.stage3.teacher-library.v1",
-  "library_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922",
+  "schema": "scci_rh.stage3.teacher-library.v1",
+  "library_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922",
   "generator": "legacy_voluntary",
   "references_by_cadence": {
     "1": {
@@ -1155,7 +1155,7 @@
               "OBSERVED_TEACHER_COMPETENCE_FAILED",
               "INDEPENDENT_REPRESENTATION_ALLOCATION_FAILED"
             ],
-            "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_external:1Hz"
+            "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_external:1Hz"
           },
           "expert_neural": {
             "qualified": false,
@@ -1164,7 +1164,7 @@
               "INDEPENDENT_REPRESENTATION_ALLOCATION_FAILED",
               "INDEPENDENT_NEURAL_DECODER_QUALIFICATION_FAILED"
             ],
-            "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_neural:1Hz"
+            "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_neural:1Hz"
           }
         }
       },
@@ -1179,7 +1179,7 @@
               "OBSERVED_TEACHER_COMPETENCE_FAILED",
               "INDEPENDENT_REPRESENTATION_ALLOCATION_FAILED"
             ],
-            "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_external:1.15Hz"
+            "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_external:1.15Hz"
           },
           "expert_neural": {
             "qualified": false,
@@ -1188,7 +1188,7 @@
               "INDEPENDENT_REPRESENTATION_ALLOCATION_FAILED",
               "INDEPENDENT_NEURAL_DECODER_QUALIFICATION_FAILED"
             ],
-            "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_neural:1.15Hz"
+            "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_neural:1.15Hz"
           }
         }
       }
@@ -1521,7 +1521,7 @@
       {
         "cadence_hz": 1.0,
         "kind": "learner_only",
-        "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:learner_only:1Hz",
+        "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:learner_only:1Hz",
         "reference_qualified": true,
         "qualification_reason": "AVAILABLE_DECLARED_TASK_REFERENCE",
         "request_fraction": [
@@ -1533,7 +1533,7 @@
       {
         "cadence_hz": 1.0,
         "kind": "expert_external",
-        "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_external:1Hz",
+        "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_external:1Hz",
         "reference_qualified": false,
         "qualification_reason": "OBSERVED_TEACHER_COMPETENCE_FAILED+INDEPENDENT_REPRESENTATION_ALLOCATION_FAILED",
         "request_fraction": [
@@ -1545,7 +1545,7 @@
       {
         "cadence_hz": 1.0,
         "kind": "expert_neural",
-        "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_neural:1Hz",
+        "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_neural:1Hz",
         "reference_qualified": false,
         "qualification_reason": "OBSERVED_TEACHER_COMPETENCE_FAILED+INDEPENDENT_REPRESENTATION_ALLOCATION_FAILED+INDEPENDENT_NEURAL_DECODER_QUALIFICATION_FAILED",
         "request_fraction": [
@@ -1557,7 +1557,7 @@
       {
         "cadence_hz": 1.15,
         "kind": "learner_only",
-        "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:learner_only:1.15Hz",
+        "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:learner_only:1.15Hz",
         "reference_qualified": true,
         "qualification_reason": "AVAILABLE_DECLARED_TASK_REFERENCE",
         "request_fraction": [
@@ -1569,7 +1569,7 @@
       {
         "cadence_hz": 1.15,
         "kind": "expert_external",
-        "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_external:1.15Hz",
+        "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_external:1.15Hz",
         "reference_qualified": false,
         "qualification_reason": "OBSERVED_TEACHER_COMPETENCE_FAILED+INDEPENDENT_REPRESENTATION_ALLOCATION_FAILED",
         "request_fraction": [
@@ -1581,7 +1581,7 @@
       {
         "cadence_hz": 1.15,
         "kind": "expert_neural",
-        "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_neural:1.15Hz",
+        "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_neural:1.15Hz",
         "reference_qualified": false,
         "qualification_reason": "OBSERVED_TEACHER_COMPETENCE_FAILED+INDEPENDENT_REPRESENTATION_ALLOCATION_FAILED+INDEPENDENT_NEURAL_DECODER_QUALIFICATION_FAILED",
         "request_fraction": [
@@ -1593,7 +1593,7 @@
       {
         "cadence_hz": 1.3,
         "kind": "learner_only",
-        "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:learner_only:1.3Hz",
+        "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:learner_only:1.3Hz",
         "reference_qualified": false,
         "qualification_reason": "TEACHER_REFERENCE_OUTSIDE_VALIDATED_CADENCE",
         "request_fraction": [
@@ -1605,7 +1605,7 @@
       {
         "cadence_hz": 1.3,
         "kind": "expert_external",
-        "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_external:1.3Hz",
+        "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_external:1.3Hz",
         "reference_qualified": false,
         "qualification_reason": "TEACHER_REFERENCE_OUTSIDE_VALIDATED_CADENCE",
         "request_fraction": [
@@ -1617,7 +1617,7 @@
       {
         "cadence_hz": 1.3,
         "kind": "expert_neural",
-        "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_neural:1.3Hz",
+        "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_neural:1.3Hz",
         "reference_qualified": false,
         "qualification_reason": "TEACHER_REFERENCE_OUTSIDE_VALIDATED_CADENCE",
         "request_fraction": [

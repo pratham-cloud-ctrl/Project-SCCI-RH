@@ -1,7 +1,7 @@
 # Power component review
 
 Reviewed 14 October 2026 against manufacturer documents. This review fixes a
-finite digital power architecture for the ATO demonstrator. It does not qualify
+finite digital power architecture for the SCCI_RH demonstrator. It does not qualify
 an implant supply, medical isolation, battery construction or physical thermal
 performance. The saved native design and quantitative study supply the final
 values and tests; recommendations below are not measurements.
@@ -41,7 +41,7 @@ derating remain explicit study assumptions. [Manufacturer pack page](https://pow
 
 Select offboard **Tenergy TLP-2000, item 01211**, 500 mA, with the 7.4 V/2S
 selection. The pack page lists it as compatible. Its manual requires a protected
-pack. ATO has no onboard charger and does not claim charging while connected
+pack. SCCI_RH has no onboard charger and does not claim charging while connected
 to the electronics. [Charger manual](https://power.tenergy.com/content/manuals/01211_manual.pdf).
 
 The input path uses a 2 A fuse, series reverse-polarity diode and physical master
@@ -105,7 +105,7 @@ position represented physically. Leave remote open for on; it is not a
 TTL enable. Manufacturer values include 60 mA **typical** no-load input,
 81% typical full-load efficiency, no required minimum load, 470 µF maximum
 external capacitance per ±12 V rail, 30 ms typical startup and 5% cross
-regulation at a 25%/100% asymmetric test condition. The low unequal ATO
+regulation at a 25%/100% asymmetric test condition. The low unequal SCCI_RH
 loads are not that test. The study's raw-rail and efficiency envelopes are
 declared assumptions, not extrapolated guarantees. Its 1600 VDC/60 s test
 is **functional insulation**, with up to 200 pF isolation capacitance.

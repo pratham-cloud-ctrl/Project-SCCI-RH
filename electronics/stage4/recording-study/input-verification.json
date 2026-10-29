@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage4.recording-input-audit.v1",
+  "schema": "scci_rh.stage4.recording-input-audit.v1",
   "independent_scalar_and_KCL_checks": 175,
   "max_normalized_saved_grid_KCL_residual": 0.0011781846101149107,
   "KCL_allowance": 0.01,
@@ -8,13 +8,13 @@
     "unblanked_600mV"
   ],
   "sha256_lf_text_exact_binary": {
-    "input_network_study.py": "2643583ced3d6ab9bffa1ba702a34b59dddb9375dfb8fc23cf1d23604e1f2837",
-    "verify_input_network.py": "996a740aa9348f3d3ef97476dd2d3d6fee396012140e7d465d6a08c86f3a3b30",
-    "input-results.json": "f17465da118880b80517385c01638547e64fb5f2bfa871f95692798189aae09e",
-    "build_input_figures.py": "6b1a4b55638173c3f104c6da56583c20c147770711a37f0735dcc7786ffdb9b0",
-    "input-network.png": "8973a04926515de1da0efc80896a1c93b3261875f7d754f0e605a54e962cd27e",
-    "input-network.svg": "985b0b8700595404e6e9781373106530834ecab5df8e29973af516fc4f3241cb",
-    "README.md": "6ef58c836ea56691a7af437eab54d8b17ccafdf41fb19168d9546b3317c2188b",
+    "input_network_study.py": "7a2bc0c2b71a1056a5c1702fd3215fba4664d2921dc2df9aa2cda670b75eae2c",
+    "verify_input_network.py": "8e73f5dc409eec4a6361cee1bc8cc8b32bc3997a22e05191a3f46090cedba4f7",
+    "input-results.json": "c2da133398418ae38dbe3a3296c234f8e7cb11c69d2199a9a65ca5b760a4d4e2",
+    "build_input_figures.py": "851f5836e4f9a053571c5747519869f07e44afcdcfb09fc90c36b5a32610ac58",
+    "input-network.png": "afd84b7a986c9664a309d451aba83769e8c24ae0e43d113cbfdee2dbb84a434c",
+    "input-network.svg": "b827799b72606ed9b804403d4ae8d956cc41c8850791d3a19a1891bb08785ced",
+    "README.md": "3671ab79a3fb4e8676b9c7aeaa5543642fbb7ec3758cf6febb17056d781f95b8",
     "traces/feedthrough_10pF.npz": "39b1da97fa134961eca4f4dcabfc8a44a64fcb0ec7b68f38eb909b813003af2a",
     "traces/high_source_impedance.npz": "b160768d73031efb287f9b5995dc7d068c63bc9597ab1641a69250b9b064210c",
     "traces/injection_100pC.npz": "fa7ce2b2f8e4b793c4fc4f8b0e5bea356393fb60d43b13be6d94bdc34561791e",

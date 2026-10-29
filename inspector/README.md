@@ -1,8 +1,8 @@
-# Project ATO build inspector
+# Project SCCI RH build inspector
 
-**Public viewer:** <https://pratham-cloud-ctrl.github.io/Project-ATO/>
+**Public viewer:** <https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/>
 
-This inspection layer accompanies the preserved v2.0.1 engineering sources.
+This inspection layer accompanies the preserved v2.1.0 engineering sources.
 It provides two mechanical assemblies, eight populated boards, interactive
 component/outer-copper lookup, four copper layers per board, all 80 current
 schematic sheets, and standard/native downloads. No visitor account, CAD
@@ -29,7 +29,7 @@ source/download page; the public inspector opens the browser experience.
 ## Why this combination
 
 The [review and credits](credits.html) explains the choices and limitations.
-The [dated inspection review](https://github.com/pratham-cloud-ctrl/Project-ATO/blob/main/docs/explore/inspector-review.md)
+The [dated inspection review](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/main/docs/explore/inspector-review.md)
 records actual desktop browser checks and the limits of that coverage.
 
 | Choice | Reason | Deliberate limit |
@@ -73,7 +73,7 @@ python scripts/inspector/verify_inspector.py
 python scripts/inspector/serve_inspector.py --port 8801
 ```
 
-The local inspector is served at `http://127.0.0.1:8801/Project-ATO/`, exercising
+The local inspector is served at `http://127.0.0.1:8801/Project-SCCI-RH/`, exercising
 the same project prefix as Pages. Re-export commands and exact native/tool
 versions are recorded by each builder/manifest. No export command saves the
 original CAD or circuit files. The vendored MIT licenses must accompany the

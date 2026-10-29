@@ -261,7 +261,7 @@ def run(c: Config) -> tuple[dict, list[dict], dict]:
                    "No identified recruitment authority gives zero commands",
                    "All control observations have support <= availability",
                    "Learning identity independently matches the integrated update"))
-    summary = dict(schema="ato.conditional-concept.v1", date="2026-10-13",
+    summary = dict(schema="scci_rh.conditional-concept.v1", date="2026-10-13",
                    scope="Illustrative future-interface scenario; no biological or native-circuit validation",
                    source_sha256=hashlib.sha256(Path(__file__).read_bytes().replace(b"\r\n", b"\n")).hexdigest(),
                    config=asdict(c), seeds=list(SEEDS), rhos=list(RHOS),
@@ -321,7 +321,7 @@ def plot(summary: dict, history: list[dict], traces: dict) -> None:
     import matplotlib.pyplot as plt
     plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 10,
                          "axes.spines.top": False, "axes.spines.right": False,
-                         "svg.hashsalt": "ato-conditional-20261013"})
+                         "svg.hashsalt": "scci_rh-conditional-20261013"})
     fig, axes = plt.subplots(1, 3, figsize=(12, 4.2), layout="constrained")
     for ax, rho in zip(axes, (0.0, 1.0, 2.0)):
         for arm, label in (("off", "Unaided"), ("expert_external", "External feedback"),

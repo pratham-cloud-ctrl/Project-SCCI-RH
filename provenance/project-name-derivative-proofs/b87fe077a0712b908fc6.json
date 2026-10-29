@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/integration/populated-verification.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "527a13cf125bb68b8abf15e5698c56cf4e52ec41553482843068e0bae49d9b6b",
+  "current_sha256": "01e69b23797bae282e1414318309e5c857694b71e40b7dc8c0c71df828d07b59",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-electrical-nested-checks.json",
+      "sha256_lf": "653a659c7d8ea89489c19f0a1851078f68808d045ac25feac0e1ec91f1124114"
+    }
+  ]
+}

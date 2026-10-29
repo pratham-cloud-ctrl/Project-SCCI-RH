@@ -1,8 +1,8 @@
 {
-  "schema": "ato.conditional-concept.v1",
+  "schema": "scci_rh.conditional-concept.v1",
   "date": "2026-10-13",
   "scope": "Illustrative future-interface scenario; no biological or native-circuit validation",
-  "source_sha256": "edbfffe80632aa058f5b6bd0ae4865c397ad078e09e9e06d7a63065d4ede151f",
+  "source_sha256": "7765a992ec976278c21006ce847ca1ceb1c3ebd68ce6000329178ea70a1c5b79",
   "config": {
     "dt_s": 0.005,
     "frame_s": 0.025,

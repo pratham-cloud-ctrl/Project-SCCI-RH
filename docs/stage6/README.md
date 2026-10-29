@@ -4,13 +4,13 @@ This dossier completes the specified digital research and engineering package.
 The proposed consumer capabilities remain conditional; no original human/animal
 experiment, physical execution or implanted qualification is reported.
 
-The [v2.0.1 whole-project review](../review-v2.0.1/README.md) records the current
+The [whole-project engineering review](../review-v2.0.1/README.md) records the current
 corrections and their tests. Historical Stage 1-5 source paths remain unchanged;
 the corrected UART application is an explicitly named additive revision.
 
 | Entry | Purpose |
 |---|---|
-| [Integrated manuscript](../../output/pdf/Project_ATO_Integrated_Manuscript.pdf) | 28 illustrated pages, both mechanisms, math, model results, native engineering and 18 references |
+| [Integrated manuscript](../../output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf) | 28 illustrated pages, both mechanisms, math, model results, native engineering and 18 references |
 | [Manuscript source](../../manuscript/stage6/manuscript.md) | Editable text; figure and PDF builders in the same directory |
 | [Original hypothesis paper](original-hypothesis/README.md) | Unchanged 28-page research input, preserved with its source digest |
 | [Evidence review](evidence-review.md) / [reference register](references.json) | Primary populations, access, supported claims and inference boundaries |

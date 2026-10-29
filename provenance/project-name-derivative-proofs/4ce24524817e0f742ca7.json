@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "results/stage3/response-validation/response-domain-smoke-raw.json.gz",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "fe4448ed4305a5e253eef4dc7cafa17e4722cefb50fcca76b7befc919a5e3bc5",
+  "current_sha256": "1310ab935c2b1ee3fbdf1086ccd9f36b777a7555fe12020fc38fce705bc47ef7",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

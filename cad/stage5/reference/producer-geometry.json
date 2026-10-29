@@ -1,6 +1,6 @@
 {
-  "schema": "ato.stage5.reference-producer-geometry.v1",
-  "native": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+  "schema": "scci_rh.stage5.reference-producer-geometry.v1",
+  "native": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
   "FreeCAD_version": [
     "1",
     "1",
@@ -2942,25 +2942,25 @@
   "total_solid_volume_mm3": 4020786.6811319524,
   "mass_not_inferred": "Material grades and composite source board densities unqualified; solid volumes are reported without claiming measured mass",
   "outputs": {
-    "ATO_reference_assembly.step": {
+    "SCCI_RH_reference_assembly.step": {
       "sha256": "57b7729a8f73e807369791934ee8e94463ab574ed1e52c6e51e5649adfa5c54d",
       "bytes": 122130702,
-      "lossless_archive": "ATO_reference_assembly.step.zip",
-      "archive_sha256": "74b924bd9544f1361c5aab83804da2bd12cfff4b6a9ec1a919b1d46a8fae02a1",
+      "lossless_archive": "SCCI_RH_reference_assembly.step.zip",
+      "archive_sha256": "0c9e237ff15075d53adbe09f3feb32706e56adc8e96b9e058c383789fcfa5e27",
       "archive_bytes": 18951745
     },
-    "ATO_reference_exploded.step": {
+    "SCCI_RH_reference_exploded.step": {
       "sha256": "5c685747a4524cf102aa36647e72396a404b974e1029fdf9557b992e57ede5e1",
       "bytes": 122195967,
-      "lossless_archive": "ATO_reference_exploded.step.zip",
-      "archive_sha256": "3375c3cdafde31a9d93d10ab872d0ba778f9725dc68cdf11fd361e5b33e6dea4",
+      "lossless_archive": "SCCI_RH_reference_exploded.step.zip",
+      "archive_sha256": "7abca768ce2ce2689bf4901455a9768d3678037a931a46ac5d3bcbdce8aeb405",
       "archive_bytes": 18951641
     },
-    "ATO_reference_assembly.FCStd": {
-      "sha256": "764a4e7a9ec8212fefb1c9c0deb7cab2ee76a5c9e72b2895f9199c98d0e5ae9a",
+    "SCCI_RH_reference_assembly.FCStd": {
+      "sha256": "eb720889c30de3c15015d1a4c765cc5791eeb8b4df733da222730497acd88dd3",
       "bytes": 2529209
     },
-    "ATO_reference_mechanical.step": {
+    "SCCI_RH_reference_mechanical.step": {
       "sha256": "adfab80b3b1e7e1b84c08fa17353a9cfe5a83f42942923498357927cf39c909c",
       "bytes": 1036339
     },

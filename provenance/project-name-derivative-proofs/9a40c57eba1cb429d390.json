@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "scripts/stage3_motor_convergence.py",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "e286e29da9874b2913e89e8690e2e764795c91739323c8f8f2358345940f51ca",
+  "current_sha256": "3d343ac5294d9f696c678af24e70af3840b35da0dea8d66a2261eceeb5c2fb70",
+  "method": "reviewed_branding_verifier_adaptation",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "Frozen Git path resolves to actual immutable object, then namespace-only migration occurs in memory; actual frozen worlds/captures independently reproduced exactly.",
+  "independent_evidence": []
+}

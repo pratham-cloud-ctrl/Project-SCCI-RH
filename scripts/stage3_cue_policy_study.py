@@ -16,9 +16,9 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/"src"))
-from ato.stage3 import motor
-from ato.stage3.electrical import MotorDelivery
-from ato.stage3.cue_policy import (CueConfig, CuePolicy, CueFrameScheduler,
+from scci_rh.stage3 import motor
+from scci_rh.stage3.electrical import MotorDelivery
+from scci_rh.stage3.cue_policy import (CueConfig, CuePolicy, CueFrameScheduler,
                                  fit_known_cue_forecast, validate_forecast_context)
 
 
@@ -108,9 +108,9 @@ def run_study():
         raise AssertionError("Actual unqualified authority emitted a cue command")
     if runs[2]["replay"]["summary"]["launched_commands"]>1:
         raise AssertionError("Unvalidated assisted context was silently continued")
-    return {"schema": "ato.stage3.cue-policy-study.v1", "status": "component_witness_only",
+    return {"schema": "scci_rh.stage3.cue-policy-study.v1", "status": "component_witness_only",
         "source_identity": {name: source_hash(name) for name in (
-            "src/ato/stage3/cue_policy.py", "src/ato/stage3/motor.py", "src/ato/stage3/acquisition.py",
+            "src/scci_rh/stage3/cue_policy.py", "src/scci_rh/stage3/motor.py", "src/scci_rh/stage3/acquisition.py",
             "scripts/stage3_cue_policy_study.py")},
         "specification": asdict(CueConfig()), "motor_config": asdict(c),
         "task_reference": asdict(reference),

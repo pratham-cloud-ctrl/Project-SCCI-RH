@@ -1,0 +1,117 @@
+{
+  "files": [
+    {
+      "path": "cad/stage5/renders/future_assembled.png",
+      "before_sha256": "560e4aeb86e7da100118a57085c97d11f4ea89354ab3058bcbee3ca8be3de95f",
+      "after_sha256": "23537dcfc1c6c2269b28e9d8b1e7ecf002eca77f6cdf67cef590e12d7f59e5e6",
+      "changed_chunks": [
+        "tEXt"
+      ],
+      "unchanged_IDAT_sha256": "fbeaa017c0e36f35efbd24ce6169ddfb5052b7dbc1f1e3f819af51208fac1aa0",
+      "pixels_unchanged": true
+    },
+    {
+      "path": "cad/stage5/renders/future_exploded.png",
+      "before_sha256": "0b900b3027a9c391703304e992a6e66e99856d360922a55c96c7d6a49790bb1d",
+      "after_sha256": "7720956d7b52e6958f7f63181ed40b32c8ff1512a14ec7968e1794730f9ad783",
+      "changed_chunks": [
+        "tEXt"
+      ],
+      "unchanged_IDAT_sha256": "4e61a8373ccdf9a7955341da83ca6046097f6232984d010b1b534f70f959c79a",
+      "pixels_unchanged": true
+    },
+    {
+      "path": "cad/stage5/renders/reference_exploded.png",
+      "before_sha256": "93b60c6dcb89f456bd139c5013f0c2033d82deb3bf538114e5419d6283965cc6",
+      "after_sha256": "48dca660333a71649f4e546656311757c88a0c5be6cf9d355641427bceb1c038",
+      "changed_chunks": [
+        "tEXt"
+      ],
+      "unchanged_IDAT_sha256": "79dfb756d4c03dcda65b0097536eff994002414633b52d5cca90ec52d539dc34",
+      "pixels_unchanged": true
+    },
+    {
+      "path": "media/scci_rh-exploded.png",
+      "before_sha256": "dcffbb7950499efd6761b9772c84a9eb9ce4a2ee4eea78960b8a6bd26728d76d",
+      "after_sha256": "b7b7a91a9ac600f6d4da87fb4fe79ac647ca3dcf8c3ad07a221d4dc80a8dff0d",
+      "changed_chunks": [
+        "tEXt"
+      ],
+      "unchanged_IDAT_sha256": "4f1638f6e81aadee5988acb0d7d7cd9b90a06c80febc5deb24359b27f03139ba",
+      "pixels_unchanged": true
+    },
+    {
+      "path": "cad/stage5/future-interface/future-exploded-native.png",
+      "before_sha256": "62287b478270cad3a311ceedccb4aa2cda964053c441429462efd791d35461de",
+      "after_sha256": "62287b478270cad3a311ceedccb4aa2cda964053c441429462efd791d35461de",
+      "changed_chunks": [],
+      "unchanged_IDAT_sha256": "2b690477c39f9c8517987505a84a268668fd991506fb7ddafad6e4bd8ec0a525",
+      "pixels_unchanged": true
+    },
+    {
+      "path": "cad/stage5/future-interface/future-fitted-native.png",
+      "before_sha256": "81c4e821a509ab9d0fb1659bd60b4950a9ad537ed3edc3c39c8035d8e99ebbf6",
+      "after_sha256": "81c4e821a509ab9d0fb1659bd60b4950a9ad537ed3edc3c39c8035d8e99ebbf6",
+      "changed_chunks": [],
+      "unchanged_IDAT_sha256": "4d07dcba66a93d2455b801531b89a7c10d9d045622c3b6579a2c59150d52c0ca",
+      "pixels_unchanged": true
+    },
+    {
+      "path": "cad/stage5/reference-full-native.png",
+      "before_sha256": "a4cf06e77a5cd5cb4da6d92874a43ca2dccfe9e4fdcedbf3e7e4b39585a02b62",
+      "after_sha256": "a4cf06e77a5cd5cb4da6d92874a43ca2dccfe9e4fdcedbf3e7e4b39585a02b62",
+      "changed_chunks": [],
+      "unchanged_IDAT_sha256": "439d75f5934d18a282d9247dbc083f5e9e4aa603f219af023d602c3e0caf4ac0",
+      "pixels_unchanged": true
+    },
+    {
+      "path": "cad/stage5/reference-inspection-native.png",
+      "before_sha256": "9bf737a970e5b27fbdb05eadec871d4bf5fa0cf33c439ce8125ebe3ec440b89d",
+      "after_sha256": "9bf737a970e5b27fbdb05eadec871d4bf5fa0cf33c439ce8125ebe3ec440b89d",
+      "changed_chunks": [],
+      "unchanged_IDAT_sha256": "1ce08270cb2c25153efac38f1639fc6e47882060e98a50e67cbd8be9bacd7159",
+      "pixels_unchanged": true
+    },
+    {
+      "path": "cad/stage5/future-interface/future-exploded-native.png",
+      "before_sha256": "62287b478270cad3a311ceedccb4aa2cda964053c441429462efd791d35461de",
+      "after_sha256": "15e16dde74192f3933e2987fe07923ff8f05f559e0f78551cedf572f6ec73df7",
+      "changed_chunks": [
+        "compressedTitle made project relative"
+      ],
+      "unchanged_IDAT_sha256": "2b690477c39f9c8517987505a84a268668fd991506fb7ddafad6e4bd8ec0a525",
+      "pixels_unchanged": true
+    },
+    {
+      "path": "cad/stage5/future-interface/future-fitted-native.png",
+      "before_sha256": "81c4e821a509ab9d0fb1659bd60b4950a9ad537ed3edc3c39c8035d8e99ebbf6",
+      "after_sha256": "43f3d4ebea9f97b6aa2556265b4e527d1bb82432e79e1a0a7cd0c620ea437bd4",
+      "changed_chunks": [
+        "compressedTitle made project relative"
+      ],
+      "unchanged_IDAT_sha256": "4d07dcba66a93d2455b801531b89a7c10d9d045622c3b6579a2c59150d52c0ca",
+      "pixels_unchanged": true
+    },
+    {
+      "path": "cad/stage5/reference-full-native.png",
+      "before_sha256": "a4cf06e77a5cd5cb4da6d92874a43ca2dccfe9e4fdcedbf3e7e4b39585a02b62",
+      "after_sha256": "1ad3f647c4b506d5c5702abcb36c511c48aa4aa8d6131f43ef1807253949d812",
+      "changed_chunks": [
+        "compressedTitle made project relative"
+      ],
+      "unchanged_IDAT_sha256": "439d75f5934d18a282d9247dbc083f5e9e4aa603f219af023d602c3e0caf4ac0",
+      "pixels_unchanged": true
+    },
+    {
+      "path": "cad/stage5/reference-inspection-native.png",
+      "before_sha256": "9bf737a970e5b27fbdb05eadec871d4bf5fa0cf33c439ce8125ebe3ec440b89d",
+      "after_sha256": "bcea85cfc696780ee2fed9e0b208c1e39bb3aa2c82fb68141f9204020d64d559",
+      "changed_chunks": [
+        "compressedTitle made project relative"
+      ],
+      "unchanged_IDAT_sha256": "1ce08270cb2c25153efac38f1639fc6e47882060e98a50e67cbd8be9bacd7159",
+      "pixels_unchanged": true
+    }
+  ],
+  "scope": "PNG ancillary text metadata only; compressed image IDAT preserved"
+}

@@ -1,6 +1,6 @@
 # Browser inspector review · 21 October 2026
 
-[Open the build inspector](https://pratham-cloud-ctrl.github.io/Project-ATO/) · [Explore the project](README.md) · [Tool choices and critique](../../inspector/credits.html)
+[Open the build inspector](https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/) · [Explore the project](README.md) · [Tool choices and critique](../../inspector/credits.html)
 
 The inspector combines browser inspection with standard STEP solids and complete
 native FreeCAD/KiCad packages. The browser is the easiest entry point; the saved
@@ -16,12 +16,9 @@ drawing loaded, and schematic search found U80001 on integrated sheet 72; openin
 and zooming that sheet worked. No console warnings or errors were reported in
 the checked model-loading session.
 
-![Actual browser inspection of the open reference assembly](inspector-review/reference-open.jpg)
 
-![Actual browser component lookup and selection](inspector-review/pcb-component.jpg)
 
-These screenshots show the local preview at the same `/Project-ATO/` prefix used
-by GitHub Pages. They are browser captures, not CAD renders presented as UI tests.
+The original dated browser captures remain available in Git history. They were retired from the active release during the name change because they display the previous branding; no revised capture is claimed here.
 
 ## Independent file and transport checks
 

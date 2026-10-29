@@ -24,7 +24,7 @@ def read(name):
 
 
 def inputs():
-    files=sorted((ROOT/'src/ato/stage3').glob('*.py'))
+    files=sorted((ROOT/'src/scci_rh/stage3').glob('*.py'))
     files += [ROOT/'scripts/run_stage3_studies.py',ROOT/'scripts/build_stage3_figures.py',
               ROOT/'scripts/stage3_ngspice_check.py',ROOT/'requirements-lock.txt']
     files.append(ROOT/'scripts/stage3_electrical_sweep.py')
@@ -137,7 +137,7 @@ def verify():
     assert len({r['noise_witness']['samples_sha256'] for r in probe['runs']})==1
     assert all(r['noise_witness']['scalar_call_count']==84001 for r in probe['runs'])
     assert probe['source_identity']['normalized_lf_sha256']==hashlib.sha256(
-        (ROOT/'src/ato/stage3/pressure.py').read_text(encoding='utf-8').replace('\r\n','\n').encode()).hexdigest()
+        (ROOT/'src/scci_rh/stage3/pressure.py').read_text(encoding='utf-8').replace('\r\n','\n').encode()).hexdigest()
     checks.append('Six separately scoped pressure refinement probes retain identical actual noise, fixed observation schedules and chosen surrogate delivery; no general convergence pass')
 
     matrix={r['verification_id'] for r in csv.DictReader((ROOT/'docs/stage1/verification-matrix.csv').open(encoding='utf-8'))}
@@ -170,7 +170,7 @@ def verify():
     hashes={str(p.relative_to(ROOT)).replace('\\','/'):(canonical_json_digest(p) if p.suffix=='.json'
                                                     else hashlib.sha256(p.read_bytes()).hexdigest())
             for p in sorted(DATA.iterdir()) if p.is_file()}
-    return {'schema':'ato.stage3.foundation-verification.v1','date':'2026-10-12',
+    return {'schema':'scci_rh.stage3.foundation-verification.v1','date':'2026-10-12',
             'scope':'artifact and model-boundary audit; Stage3 partial; no biological or implant qualification',
             'checks':checks,'counts':{'electrical_cases':7,'motor_studies':12,'motor_condition_families':336,
                                     'pressure_runs':156,'additional_fallback_runs':8,'bounded_pressure_refinement_probes':6},

@@ -8,9 +8,9 @@ and Stage 2 [control contracts](../stage2/control-contracts.json). It is an audi
 of a synthetic computational mechanism, not a finding about implanted human
 recording, motor skill transfer or clinical safety.
 
-The reviewed implementation is [motor.py](../../src/ato/stage3/motor.py) and
-[acquisition.py](../../src/ato/stage3/acquisition.py), with the separate
-[electrical delivery adapter](../../src/ato/stage3/electrical.py). Test receipts
+The reviewed implementation is [motor.py](../../src/scci_rh/stage3/motor.py) and
+[acquisition.py](../../src/scci_rh/stage3/acquisition.py), with the separate
+[electrical delivery adapter](../../src/scci_rh/stage3/electrical.py). Test receipts
 and the study outputs are separate evidence; this document does not replace them.
 
 The frozen package includes 14 motor/acquisition checks. The project-level

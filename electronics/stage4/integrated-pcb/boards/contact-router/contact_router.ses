@@ -2,7 +2,7 @@
   (base_design "contact_router")
   (placement
     (resolution um 10)
-    (component "ato_rte:SOT-23-5"
+    (component "scci_rh_rte:SOT-23-5"
       (place U40312 898550 -515550 front 0)
       (place U40305 723750 -385450 front 0)
       (place U40414 1580150 -460550 front 0)
@@ -34,7 +34,7 @@
       (place U40306 836550 -385450 front 0)
       (place U40303 1011350 -255350 front 0)
     )
-    (component "ato_rte:C_0805_2012Metric"
+    (component "scci_rh_rte:C_0805_2012Metric"
       (place C40312 891050 -480250 front 0)
       (place C40404 1572650 -220050 front 0)
       (place C40321 607250 -712950 front 0)
@@ -96,7 +96,7 @@
       (place C40203 1298950 -1012750 front 90)
       (place C40103 886850 -1012750 front 90)
     )
-    (component "ato_rte:R_0805_2012Metric"
+    (component "scci_rh_rte:R_0805_2012Metric"
       (place R40203 1393250 -974750 front 0)
       (place R40011 198750 -311350 front 0)
       (place R40103 981150 -974750 front 0)
@@ -134,7 +134,7 @@
       (place H3 40000 -1510000 front 0)
       (place H2 1710000 -40000 front 0)
     )
-    (component "ato_rte:VSSOP-8_2.3x2mm_P0.5mm"
+    (component "scci_rh_rte:VSSOP-8_2.3x2mm_P0.5mm"
       (place U40316 726050 -641150 front 0)
       (place U40030 154750 -401950 front 0)
       (place U40035 242550 -523050 front 0)
@@ -147,11 +147,11 @@
       (place U40036 330350 -523050 front 0)
       (place U40314 1069550 -511050 front 0)
     )
-    (component "ato_rte:PinHeader_1x07_P2.54mm_Vertical"
+    (component "scci_rh_rte:PinHeader_1x07_P2.54mm_Vertical"
       (place J40003 148050 -1049350 front 90)
       (place J40002 274750 -973450 front 90)
     )
-    (component "ato_rte:TSSOP-16_4.4x5mm_P0.65mm"
+    (component "scci_rh_rte:TSSOP-16_4.4x5mm_P0.65mm"
       (place U40100 784050 -991350 front 0)
       (place U40010 168750 -265850 front 0)
       (place U40101 943650 -1020250 front 0)
@@ -160,13 +160,13 @@
       (place U40021 431250 -265850 front 0)
       (place U40201 1355750 -1020250 front 0)
     )
-    (component "ato_rte:PinHeader_1x18_P2.54mm_Vertical"
+    (component "scci_rh_rte:PinHeader_1x18_P2.54mm_Vertical"
       (place J40007 148050 -1352950 front 90)
     )
-    (component "ato_rte:PinHeader_1x09_P2.54mm_Vertical"
+    (component "scci_rh_rte:PinHeader_1x09_P2.54mm_Vertical"
       (place J40006 147950 -1277050 front 90)
     )
-    (component "ato_rte:SOT-23-6"
+    (component "scci_rh_rte:SOT-23-6"
       (place U40313 984050 -515550 front 0)
       (place U40319 987150 -645650 front 0)
       (place U40300 652850 -255350 front 0)
@@ -176,15 +176,15 @@
       (place U40317 813850 -645650 front 0)
       (place U40310 727550 -515550 front 0)
     )
-    (component "ato_rte:PinHeader_1x12_P2.54mm_Vertical"
+    (component "scci_rh_rte:PinHeader_1x12_P2.54mm_Vertical"
       (place J40005 147950 -1201150 front 90)
     )
-    (component "ato_rte:PinHeader_1x03_P2.54mm_Vertical"
+    (component "scci_rh_rte:PinHeader_1x03_P2.54mm_Vertical"
       (place J40200 1147850 -1134050 front 90)
       (place J40001 147950 -973450 front 90)
       (place J40100 735750 -1134050 front 90)
     )
-    (component "ato_rte:PinHeader_1x10_P2.54mm_Vertical"
+    (component "scci_rh_rte:PinHeader_1x10_P2.54mm_Vertical"
       (place J40004 147950 -1125250 front 90)
     )
   )

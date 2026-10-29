@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "E:\\Project ATO\\electronics\\stage4\\recording-front-end\\recording_front_end.kicad_sch")
+		(source "E:\\Project SCCI RH\\electronics\\stage4\\recording-front-end\\recording_front_end.kicad_sch")
 		(date "2026-10-13T15:28:51")
 		(tool "Eeschema 10.0.6")
 		(sheet
@@ -9,8 +9,8 @@
 			(name "/")
 			(tstamps "/")
 			(title_block
-				(title "ATO S4 / Isolated SPI, control and supplied power")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Isolated SPI, control and supplied power")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-13")
 				(source "recording_front_end.kicad_sch")
@@ -57,8 +57,8 @@
 			(name "/acquisition/")
 			(tstamps "/3e931413-2889-58db-abdd-4cec72f15079/")
 			(title_block
-				(title "ATO S4 / RHD2216 / sixteen sampled differential streams")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / RHD2216 / sixteen sampled differential streams")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-13")
 				(source "acquisition.kicad_sch")
@@ -105,8 +105,8 @@
 			(name "/bank0/")
 			(tstamps "/b88b7e86-d941-5a49-a2bb-d328ca04ee06/")
 			(title_block
-				(title "ATO S4 / Inputs 00-03 / protected recording")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Inputs 00-03 / protected recording")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-13")
 				(source "bank0.kicad_sch")
@@ -153,8 +153,8 @@
 			(name "/bank1/")
 			(tstamps "/29a83ade-80f2-57bd-8b7f-ac0a7d778363/")
 			(title_block
-				(title "ATO S4 / Inputs 04-07 / protected recording")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Inputs 04-07 / protected recording")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-13")
 				(source "bank1.kicad_sch")
@@ -201,8 +201,8 @@
 			(name "/bank2/")
 			(tstamps "/46a10f64-bb20-5348-939e-93bd12b175f4/")
 			(title_block
-				(title "ATO S4 / Inputs 08-11 / protected recording")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Inputs 08-11 / protected recording")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-13")
 				(source "bank2.kicad_sch")
@@ -249,8 +249,8 @@
 			(name "/bank3/")
 			(tstamps "/b5adc5ab-b363-507c-8819-96d7e02279cc/")
 			(title_block
-				(title "ATO S4 / Inputs 12-15 / protected recording")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Inputs 12-15 / protected recording")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-13")
 				(source "bank3.kicad_sch")
@@ -297,8 +297,8 @@
 			(name "/reference/")
 			(tstamps "/f1bd052f-da12-55fe-a768-f373569c7436/")
 			(title_block
-				(title "ATO S4 / Shared reference / passive body bias")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Shared reference / passive body bias")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-13")
 				(source "reference.kicad_sch")
@@ -345,10 +345,10 @@
 		(comp
 			(ref "C1")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -357,7 +357,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C1")
 				(description "")
 			)
@@ -391,10 +391,10 @@
 		(comp
 			(ref "C2")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -403,7 +403,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C2")
 				(description "")
 			)
@@ -437,10 +437,10 @@
 		(comp
 			(ref "C3")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -449,7 +449,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C3")
 				(description "")
 			)
@@ -483,10 +483,10 @@
 		(comp
 			(ref "C4")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -495,7 +495,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C4")
 				(description "")
 			)
@@ -529,10 +529,10 @@
 		(comp
 			(ref "C5")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -541,7 +541,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C5")
 				(description "")
 			)
@@ -575,10 +575,10 @@
 		(comp
 			(ref "C6")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -587,7 +587,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C6")
 				(description "")
 			)
@@ -621,10 +621,10 @@
 		(comp
 			(ref "J1")
 			(value "EXTERNAL ISOLATED AFE RAILS")
-			(footprint "ato_afe:PinHeader_1x04_P2.54mm_Vertical")
+			(footprint "scci_rh_afe:PinHeader_1x04_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:PinHeader_1x04_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_afe:PinHeader_1x04_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -633,7 +633,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "J1")
 				(description "")
 			)
@@ -673,10 +673,10 @@
 		(comp
 			(ref "J2")
 			(value "HOST SPI / SUPERVISOR")
-			(footprint "ato_afe:PinHeader_1x10_P2.54mm_Vertical")
+			(footprint "scci_rh_afe:PinHeader_1x10_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:PinHeader_1x10_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_afe:PinHeader_1x10_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -685,7 +685,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "J2")
 				(description "")
 			)
@@ -743,10 +743,10 @@
 		(comp
 			(ref "J3")
 			(value "18 RECORDING FUNCTIONAL PORTS")
-			(footprint "ato_afe:PinHeader_1x18_P2.54mm_Vertical")
+			(footprint "scci_rh_afe:PinHeader_1x18_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:PinHeader_1x18_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_afe:PinHeader_1x18_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -755,7 +755,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "J3")
 				(description "")
 			)
@@ -837,10 +837,10 @@
 		(comp
 			(ref "R1")
 			(value "10k")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -849,7 +849,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R1")
 				(description "")
 			)
@@ -883,10 +883,10 @@
 		(comp
 			(ref "R2")
 			(value "10k")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -895,7 +895,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R2")
 				(description "")
 			)
@@ -929,10 +929,10 @@
 		(comp
 			(ref "R3")
 			(value "10k")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -941,7 +941,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R3")
 				(description "")
 			)
@@ -975,10 +975,10 @@
 		(comp
 			(ref "R4")
 			(value "10k")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -987,7 +987,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R4")
 				(description "")
 			)
@@ -1021,10 +1021,10 @@
 		(comp
 			(ref "R5")
 			(value "10k")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1033,7 +1033,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R5")
 				(description "")
 			)
@@ -1067,10 +1067,10 @@
 		(comp
 			(ref "R6")
 			(value "10k")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1079,7 +1079,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R6")
 				(description "")
 			)
@@ -1113,10 +1113,10 @@
 		(comp
 			(ref "R7")
 			(value "10k")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1125,7 +1125,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R7")
 				(description "")
 			)
@@ -1159,10 +1159,10 @@
 		(comp
 			(ref "R8")
 			(value "10k")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1171,7 +1171,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R8")
 				(description "")
 			)
@@ -1205,10 +1205,10 @@
 		(comp
 			(ref "R9")
 			(value "10k")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1217,7 +1217,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R9")
 				(description "")
 			)
@@ -1251,10 +1251,10 @@
 		(comp
 			(ref "R10")
 			(value "10k")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1263,7 +1263,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R10")
 				(description "")
 			)
@@ -1297,10 +1297,10 @@
 		(comp
 			(ref "R11")
 			(value "10k")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1309,7 +1309,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R11")
 				(description "")
 			)
@@ -1343,10 +1343,10 @@
 		(comp
 			(ref "R12")
 			(value "10k")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1355,7 +1355,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R12")
 				(description "")
 			)
@@ -1389,10 +1389,10 @@
 		(comp
 			(ref "R13")
 			(value "10k")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1401,7 +1401,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R13")
 				(description "")
 			)
@@ -1435,10 +1435,10 @@
 		(comp
 			(ref "R14")
 			(value "1k")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1447,7 +1447,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R14")
 				(description "")
 			)
@@ -1481,11 +1481,11 @@
 		(comp
 			(ref "U1")
 			(value "ISO6741FDWR")
-			(footprint "ato_afe:SOIC-16W_7.5x10.3mm_P1.27mm")
+			(footprint "scci_rh_afe:SOIC-16W_7.5x10.3mm_P1.27mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/iso6741.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:SOIC-16W_7.5x10.3mm_P1.27mm")
+					(name "Footprint") "scci_rh_afe:SOIC-16W_7.5x10.3mm_P1.27mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/iso6741.pdf")
 				(field
@@ -1493,7 +1493,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U1")
 				(description "")
 			)
@@ -1569,11 +1569,11 @@
 		(comp
 			(ref "U2")
 			(value "ISO6741FDWR")
-			(footprint "ato_afe:SOIC-16W_7.5x10.3mm_P1.27mm")
+			(footprint "scci_rh_afe:SOIC-16W_7.5x10.3mm_P1.27mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/iso6741.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:SOIC-16W_7.5x10.3mm_P1.27mm")
+					(name "Footprint") "scci_rh_afe:SOIC-16W_7.5x10.3mm_P1.27mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/iso6741.pdf")
 				(field
@@ -1581,7 +1581,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U2")
 				(description "")
 			)
@@ -1657,11 +1657,11 @@
 		(comp
 			(ref "U3")
 			(value "SN74LVC1G04DBVR")
-			(footprint "ato_afe:SOT-23-5")
+			(footprint "scci_rh_afe:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:SOT-23-5")
+					(name "Footprint") "scci_rh_afe:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf")
 				(field
@@ -1669,7 +1669,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U3")
 				(description "")
 			)
@@ -1712,11 +1712,11 @@
 		(comp
 			(ref "U4")
 			(value "SN74LVC1G08DBVR")
-			(footprint "ato_afe:SOT-23-5")
+			(footprint "scci_rh_afe:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:SOT-23-5")
+					(name "Footprint") "scci_rh_afe:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 				(field
@@ -1724,7 +1724,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U4")
 				(description "")
 			)
@@ -1767,10 +1767,10 @@
 		(comp
 			(ref "C10")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1779,7 +1779,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C10")
 				(description "")
 			)
@@ -1813,10 +1813,10 @@
 		(comp
 			(ref "C11")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1825,7 +1825,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C11")
 				(description "")
 			)
@@ -1859,10 +1859,10 @@
 		(comp
 			(ref "C12")
 			(value "10n 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1871,7 +1871,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C12")
 				(description "")
 			)
@@ -1905,10 +1905,10 @@
 		(comp
 			(ref "C13")
 			(value "1u X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1917,7 +1917,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C13")
 				(description "")
 			)
@@ -1951,11 +1951,11 @@
 		(comp
 			(ref "U10")
 			(value "RHD2216")
-			(footprint "ato_afe:RHD2216_QFN56_8x8_P0.5_EP6.1")
+			(footprint "scci_rh_afe:RHD2216_QFN56_8x8_P0.5_EP6.1")
 			(datasheet "https://intantech.com/files/Intan_RHD2000_series_datasheet.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:RHD2216_QFN56_8x8_P0.5_EP6.1")
+					(name "Footprint") "scci_rh_afe:RHD2216_QFN56_8x8_P0.5_EP6.1")
 				(field
 					(name "Datasheet") "https://intantech.com/files/Intan_RHD2000_series_datasheet.pdf")
 				(field
@@ -1963,7 +1963,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U10")
 				(description "")
 			)
@@ -2162,10 +2162,10 @@
 		(comp
 			(ref "C20")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2174,7 +2174,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C20")
 				(description "")
 			)
@@ -2208,10 +2208,10 @@
 		(comp
 			(ref "C30")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2220,7 +2220,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C30")
 				(description "")
 			)
@@ -2254,10 +2254,10 @@
 		(comp
 			(ref "C100")
 			(value "470p C0G 50V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2266,7 +2266,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C100")
 				(description "")
 			)
@@ -2300,10 +2300,10 @@
 		(comp
 			(ref "C101")
 			(value "470p C0G 50V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2312,7 +2312,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C101")
 				(description "")
 			)
@@ -2346,10 +2346,10 @@
 		(comp
 			(ref "C102")
 			(value "470p C0G 50V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2358,7 +2358,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C102")
 				(description "")
 			)
@@ -2392,10 +2392,10 @@
 		(comp
 			(ref "C103")
 			(value "470p C0G 50V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2404,7 +2404,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C103")
 				(description "")
 			)
@@ -2438,10 +2438,10 @@
 		(comp
 			(ref "C200")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2450,7 +2450,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C200")
 				(description "")
 			)
@@ -2484,10 +2484,10 @@
 		(comp
 			(ref "C201")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2496,7 +2496,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C201")
 				(description "")
 			)
@@ -2530,10 +2530,10 @@
 		(comp
 			(ref "C202")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2542,7 +2542,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C202")
 				(description "")
 			)
@@ -2576,10 +2576,10 @@
 		(comp
 			(ref "C203")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2588,7 +2588,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C203")
 				(description "")
 			)
@@ -2622,10 +2622,10 @@
 		(comp
 			(ref "C300")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2634,7 +2634,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C300")
 				(description "")
 			)
@@ -2668,10 +2668,10 @@
 		(comp
 			(ref "C301")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2680,7 +2680,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C301")
 				(description "")
 			)
@@ -2714,10 +2714,10 @@
 		(comp
 			(ref "C302")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2726,7 +2726,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C302")
 				(description "")
 			)
@@ -2760,10 +2760,10 @@
 		(comp
 			(ref "C303")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2772,7 +2772,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C303")
 				(description "")
 			)
@@ -2806,10 +2806,10 @@
 		(comp
 			(ref "R100")
 			(value "4.99k 0.1%")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2818,7 +2818,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R100")
 				(description "")
 			)
@@ -2852,10 +2852,10 @@
 		(comp
 			(ref "R101")
 			(value "4.99k 0.1%")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2864,7 +2864,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R101")
 				(description "")
 			)
@@ -2898,10 +2898,10 @@
 		(comp
 			(ref "R102")
 			(value "4.99k 0.1%")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2910,7 +2910,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R102")
 				(description "")
 			)
@@ -2944,10 +2944,10 @@
 		(comp
 			(ref "R103")
 			(value "4.99k 0.1%")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2956,7 +2956,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R103")
 				(description "")
 			)
@@ -2990,10 +2990,10 @@
 		(comp
 			(ref "R200")
 			(value "10M")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3002,7 +3002,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R200")
 				(description "")
 			)
@@ -3036,10 +3036,10 @@
 		(comp
 			(ref "R201")
 			(value "10M")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3048,7 +3048,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R201")
 				(description "")
 			)
@@ -3082,10 +3082,10 @@
 		(comp
 			(ref "R202")
 			(value "10M")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3094,7 +3094,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R202")
 				(description "")
 			)
@@ -3128,10 +3128,10 @@
 		(comp
 			(ref "R203")
 			(value "10M")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3140,7 +3140,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R203")
 				(description "")
 			)
@@ -3174,11 +3174,11 @@
 		(comp
 			(ref "U20")
 			(value "TMUX7412FRRPR")
-			(footprint "ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
+			(footprint "scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux7412f.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
+					(name "Footprint") "scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux7412f.pdf")
 				(field
@@ -3186,7 +3186,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U20")
 				(description "")
 			)
@@ -3265,11 +3265,11 @@
 		(comp
 			(ref "U100")
 			(value "TMUX6219DGKR")
-			(footprint "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 				(field
@@ -3277,7 +3277,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U100")
 				(description "")
 			)
@@ -3329,11 +3329,11 @@
 		(comp
 			(ref "U101")
 			(value "TMUX6219DGKR")
-			(footprint "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 				(field
@@ -3341,7 +3341,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U101")
 				(description "")
 			)
@@ -3393,11 +3393,11 @@
 		(comp
 			(ref "U102")
 			(value "TMUX6219DGKR")
-			(footprint "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 				(field
@@ -3405,7 +3405,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U102")
 				(description "")
 			)
@@ -3457,11 +3457,11 @@
 		(comp
 			(ref "U103")
 			(value "TMUX6219DGKR")
-			(footprint "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 				(field
@@ -3469,7 +3469,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U103")
 				(description "")
 			)
@@ -3521,10 +3521,10 @@
 		(comp
 			(ref "C21")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3533,7 +3533,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C21")
 				(description "")
 			)
@@ -3567,10 +3567,10 @@
 		(comp
 			(ref "C31")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3579,7 +3579,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C31")
 				(description "")
 			)
@@ -3613,10 +3613,10 @@
 		(comp
 			(ref "C104")
 			(value "470p C0G 50V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3625,7 +3625,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C104")
 				(description "")
 			)
@@ -3659,10 +3659,10 @@
 		(comp
 			(ref "C105")
 			(value "470p C0G 50V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3671,7 +3671,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C105")
 				(description "")
 			)
@@ -3705,10 +3705,10 @@
 		(comp
 			(ref "C106")
 			(value "470p C0G 50V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3717,7 +3717,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C106")
 				(description "")
 			)
@@ -3751,10 +3751,10 @@
 		(comp
 			(ref "C107")
 			(value "470p C0G 50V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3763,7 +3763,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C107")
 				(description "")
 			)
@@ -3797,10 +3797,10 @@
 		(comp
 			(ref "C204")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3809,7 +3809,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C204")
 				(description "")
 			)
@@ -3843,10 +3843,10 @@
 		(comp
 			(ref "C205")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3855,7 +3855,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C205")
 				(description "")
 			)
@@ -3889,10 +3889,10 @@
 		(comp
 			(ref "C206")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3901,7 +3901,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C206")
 				(description "")
 			)
@@ -3935,10 +3935,10 @@
 		(comp
 			(ref "C207")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3947,7 +3947,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C207")
 				(description "")
 			)
@@ -3981,10 +3981,10 @@
 		(comp
 			(ref "C304")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3993,7 +3993,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C304")
 				(description "")
 			)
@@ -4027,10 +4027,10 @@
 		(comp
 			(ref "C305")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4039,7 +4039,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C305")
 				(description "")
 			)
@@ -4073,10 +4073,10 @@
 		(comp
 			(ref "C306")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4085,7 +4085,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C306")
 				(description "")
 			)
@@ -4119,10 +4119,10 @@
 		(comp
 			(ref "C307")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4131,7 +4131,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C307")
 				(description "")
 			)
@@ -4165,10 +4165,10 @@
 		(comp
 			(ref "R104")
 			(value "4.99k 0.1%")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4177,7 +4177,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R104")
 				(description "")
 			)
@@ -4211,10 +4211,10 @@
 		(comp
 			(ref "R105")
 			(value "4.99k 0.1%")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4223,7 +4223,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R105")
 				(description "")
 			)
@@ -4257,10 +4257,10 @@
 		(comp
 			(ref "R106")
 			(value "4.99k 0.1%")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4269,7 +4269,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R106")
 				(description "")
 			)
@@ -4303,10 +4303,10 @@
 		(comp
 			(ref "R107")
 			(value "4.99k 0.1%")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4315,7 +4315,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R107")
 				(description "")
 			)
@@ -4349,10 +4349,10 @@
 		(comp
 			(ref "R204")
 			(value "10M")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4361,7 +4361,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R204")
 				(description "")
 			)
@@ -4395,10 +4395,10 @@
 		(comp
 			(ref "R205")
 			(value "10M")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4407,7 +4407,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R205")
 				(description "")
 			)
@@ -4441,10 +4441,10 @@
 		(comp
 			(ref "R206")
 			(value "10M")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4453,7 +4453,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R206")
 				(description "")
 			)
@@ -4487,10 +4487,10 @@
 		(comp
 			(ref "R207")
 			(value "10M")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4499,7 +4499,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R207")
 				(description "")
 			)
@@ -4533,11 +4533,11 @@
 		(comp
 			(ref "U21")
 			(value "TMUX7412FRRPR")
-			(footprint "ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
+			(footprint "scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux7412f.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
+					(name "Footprint") "scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux7412f.pdf")
 				(field
@@ -4545,7 +4545,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U21")
 				(description "")
 			)
@@ -4624,11 +4624,11 @@
 		(comp
 			(ref "U104")
 			(value "TMUX6219DGKR")
-			(footprint "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 				(field
@@ -4636,7 +4636,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U104")
 				(description "")
 			)
@@ -4688,11 +4688,11 @@
 		(comp
 			(ref "U105")
 			(value "TMUX6219DGKR")
-			(footprint "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 				(field
@@ -4700,7 +4700,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U105")
 				(description "")
 			)
@@ -4752,11 +4752,11 @@
 		(comp
 			(ref "U106")
 			(value "TMUX6219DGKR")
-			(footprint "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 				(field
@@ -4764,7 +4764,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U106")
 				(description "")
 			)
@@ -4816,11 +4816,11 @@
 		(comp
 			(ref "U107")
 			(value "TMUX6219DGKR")
-			(footprint "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 				(field
@@ -4828,7 +4828,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U107")
 				(description "")
 			)
@@ -4880,10 +4880,10 @@
 		(comp
 			(ref "C22")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4892,7 +4892,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C22")
 				(description "")
 			)
@@ -4926,10 +4926,10 @@
 		(comp
 			(ref "C32")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4938,7 +4938,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C32")
 				(description "")
 			)
@@ -4972,10 +4972,10 @@
 		(comp
 			(ref "C108")
 			(value "470p C0G 50V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4984,7 +4984,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C108")
 				(description "")
 			)
@@ -5018,10 +5018,10 @@
 		(comp
 			(ref "C109")
 			(value "470p C0G 50V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5030,7 +5030,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C109")
 				(description "")
 			)
@@ -5064,10 +5064,10 @@
 		(comp
 			(ref "C110")
 			(value "470p C0G 50V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5076,7 +5076,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C110")
 				(description "")
 			)
@@ -5110,10 +5110,10 @@
 		(comp
 			(ref "C111")
 			(value "470p C0G 50V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5122,7 +5122,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C111")
 				(description "")
 			)
@@ -5156,10 +5156,10 @@
 		(comp
 			(ref "C208")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5168,7 +5168,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C208")
 				(description "")
 			)
@@ -5202,10 +5202,10 @@
 		(comp
 			(ref "C209")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5214,7 +5214,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C209")
 				(description "")
 			)
@@ -5248,10 +5248,10 @@
 		(comp
 			(ref "C210")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5260,7 +5260,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C210")
 				(description "")
 			)
@@ -5294,10 +5294,10 @@
 		(comp
 			(ref "C211")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5306,7 +5306,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C211")
 				(description "")
 			)
@@ -5340,10 +5340,10 @@
 		(comp
 			(ref "C308")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5352,7 +5352,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C308")
 				(description "")
 			)
@@ -5386,10 +5386,10 @@
 		(comp
 			(ref "C309")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5398,7 +5398,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C309")
 				(description "")
 			)
@@ -5432,10 +5432,10 @@
 		(comp
 			(ref "C310")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5444,7 +5444,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C310")
 				(description "")
 			)
@@ -5478,10 +5478,10 @@
 		(comp
 			(ref "C311")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5490,7 +5490,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C311")
 				(description "")
 			)
@@ -5524,10 +5524,10 @@
 		(comp
 			(ref "R108")
 			(value "4.99k 0.1%")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5536,7 +5536,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R108")
 				(description "")
 			)
@@ -5570,10 +5570,10 @@
 		(comp
 			(ref "R109")
 			(value "4.99k 0.1%")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5582,7 +5582,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R109")
 				(description "")
 			)
@@ -5616,10 +5616,10 @@
 		(comp
 			(ref "R110")
 			(value "4.99k 0.1%")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5628,7 +5628,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R110")
 				(description "")
 			)
@@ -5662,10 +5662,10 @@
 		(comp
 			(ref "R111")
 			(value "4.99k 0.1%")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5674,7 +5674,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R111")
 				(description "")
 			)
@@ -5708,10 +5708,10 @@
 		(comp
 			(ref "R208")
 			(value "10M")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5720,7 +5720,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R208")
 				(description "")
 			)
@@ -5754,10 +5754,10 @@
 		(comp
 			(ref "R209")
 			(value "10M")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5766,7 +5766,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R209")
 				(description "")
 			)
@@ -5800,10 +5800,10 @@
 		(comp
 			(ref "R210")
 			(value "10M")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5812,7 +5812,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R210")
 				(description "")
 			)
@@ -5846,10 +5846,10 @@
 		(comp
 			(ref "R211")
 			(value "10M")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5858,7 +5858,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R211")
 				(description "")
 			)
@@ -5892,11 +5892,11 @@
 		(comp
 			(ref "U22")
 			(value "TMUX7412FRRPR")
-			(footprint "ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
+			(footprint "scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux7412f.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
+					(name "Footprint") "scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux7412f.pdf")
 				(field
@@ -5904,7 +5904,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U22")
 				(description "")
 			)
@@ -5983,11 +5983,11 @@
 		(comp
 			(ref "U108")
 			(value "TMUX6219DGKR")
-			(footprint "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 				(field
@@ -5995,7 +5995,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U108")
 				(description "")
 			)
@@ -6047,11 +6047,11 @@
 		(comp
 			(ref "U109")
 			(value "TMUX6219DGKR")
-			(footprint "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 				(field
@@ -6059,7 +6059,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U109")
 				(description "")
 			)
@@ -6111,11 +6111,11 @@
 		(comp
 			(ref "U110")
 			(value "TMUX6219DGKR")
-			(footprint "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 				(field
@@ -6123,7 +6123,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U110")
 				(description "")
 			)
@@ -6175,11 +6175,11 @@
 		(comp
 			(ref "U111")
 			(value "TMUX6219DGKR")
-			(footprint "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 				(field
@@ -6187,7 +6187,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U111")
 				(description "")
 			)
@@ -6239,10 +6239,10 @@
 		(comp
 			(ref "C23")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6251,7 +6251,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C23")
 				(description "")
 			)
@@ -6285,10 +6285,10 @@
 		(comp
 			(ref "C33")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6297,7 +6297,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C33")
 				(description "")
 			)
@@ -6331,10 +6331,10 @@
 		(comp
 			(ref "C112")
 			(value "470p C0G 50V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6343,7 +6343,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C112")
 				(description "")
 			)
@@ -6377,10 +6377,10 @@
 		(comp
 			(ref "C113")
 			(value "470p C0G 50V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6389,7 +6389,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C113")
 				(description "")
 			)
@@ -6423,10 +6423,10 @@
 		(comp
 			(ref "C114")
 			(value "470p C0G 50V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6435,7 +6435,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C114")
 				(description "")
 			)
@@ -6469,10 +6469,10 @@
 		(comp
 			(ref "C115")
 			(value "470p C0G 50V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6481,7 +6481,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C115")
 				(description "")
 			)
@@ -6515,10 +6515,10 @@
 		(comp
 			(ref "C212")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6527,7 +6527,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C212")
 				(description "")
 			)
@@ -6561,10 +6561,10 @@
 		(comp
 			(ref "C213")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6573,7 +6573,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C213")
 				(description "")
 			)
@@ -6607,10 +6607,10 @@
 		(comp
 			(ref "C214")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6619,7 +6619,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C214")
 				(description "")
 			)
@@ -6653,10 +6653,10 @@
 		(comp
 			(ref "C215")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6665,7 +6665,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C215")
 				(description "")
 			)
@@ -6699,10 +6699,10 @@
 		(comp
 			(ref "C312")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6711,7 +6711,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C312")
 				(description "")
 			)
@@ -6745,10 +6745,10 @@
 		(comp
 			(ref "C313")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6757,7 +6757,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C313")
 				(description "")
 			)
@@ -6791,10 +6791,10 @@
 		(comp
 			(ref "C314")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6803,7 +6803,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C314")
 				(description "")
 			)
@@ -6837,10 +6837,10 @@
 		(comp
 			(ref "C315")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6849,7 +6849,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C315")
 				(description "")
 			)
@@ -6883,10 +6883,10 @@
 		(comp
 			(ref "R112")
 			(value "4.99k 0.1%")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6895,7 +6895,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R112")
 				(description "")
 			)
@@ -6929,10 +6929,10 @@
 		(comp
 			(ref "R113")
 			(value "4.99k 0.1%")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6941,7 +6941,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R113")
 				(description "")
 			)
@@ -6975,10 +6975,10 @@
 		(comp
 			(ref "R114")
 			(value "4.99k 0.1%")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6987,7 +6987,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R114")
 				(description "")
 			)
@@ -7021,10 +7021,10 @@
 		(comp
 			(ref "R115")
 			(value "4.99k 0.1%")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7033,7 +7033,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R115")
 				(description "")
 			)
@@ -7067,10 +7067,10 @@
 		(comp
 			(ref "R212")
 			(value "10M")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7079,7 +7079,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R212")
 				(description "")
 			)
@@ -7113,10 +7113,10 @@
 		(comp
 			(ref "R213")
 			(value "10M")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7125,7 +7125,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R213")
 				(description "")
 			)
@@ -7159,10 +7159,10 @@
 		(comp
 			(ref "R214")
 			(value "10M")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7171,7 +7171,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R214")
 				(description "")
 			)
@@ -7205,10 +7205,10 @@
 		(comp
 			(ref "R215")
 			(value "10M")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7217,7 +7217,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R215")
 				(description "")
 			)
@@ -7251,11 +7251,11 @@
 		(comp
 			(ref "U23")
 			(value "TMUX7412FRRPR")
-			(footprint "ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
+			(footprint "scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux7412f.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
+					(name "Footprint") "scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux7412f.pdf")
 				(field
@@ -7263,7 +7263,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U23")
 				(description "")
 			)
@@ -7342,11 +7342,11 @@
 		(comp
 			(ref "U112")
 			(value "TMUX6219DGKR")
-			(footprint "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 				(field
@@ -7354,7 +7354,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U112")
 				(description "")
 			)
@@ -7406,11 +7406,11 @@
 		(comp
 			(ref "U113")
 			(value "TMUX6219DGKR")
-			(footprint "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 				(field
@@ -7418,7 +7418,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U113")
 				(description "")
 			)
@@ -7470,11 +7470,11 @@
 		(comp
 			(ref "U114")
 			(value "TMUX6219DGKR")
-			(footprint "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 				(field
@@ -7482,7 +7482,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U114")
 				(description "")
 			)
@@ -7534,11 +7534,11 @@
 		(comp
 			(ref "U115")
 			(value "TMUX6219DGKR")
-			(footprint "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 				(field
@@ -7546,7 +7546,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U115")
 				(description "")
 			)
@@ -7598,10 +7598,10 @@
 		(comp
 			(ref "C500")
 			(value "2.2n C0G 50V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7610,7 +7610,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C500")
 				(description "")
 			)
@@ -7644,10 +7644,10 @@
 		(comp
 			(ref "C510")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7656,7 +7656,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C510")
 				(description "")
 			)
@@ -7690,10 +7690,10 @@
 		(comp
 			(ref "C511")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7702,7 +7702,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C511")
 				(description "")
 			)
@@ -7736,10 +7736,10 @@
 		(comp
 			(ref "C512")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7748,7 +7748,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C512")
 				(description "")
 			)
@@ -7782,10 +7782,10 @@
 		(comp
 			(ref "C513")
 			(value "100n X7R 16V")
-			(footprint "ato_afe:C_0805_2012Metric")
+			(footprint "scci_rh_afe:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7794,7 +7794,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "C513")
 				(description "")
 			)
@@ -7828,10 +7828,10 @@
 		(comp
 			(ref "R500")
 			(value "4.99k 0.1%")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7840,7 +7840,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R500")
 				(description "")
 			)
@@ -7874,10 +7874,10 @@
 		(comp
 			(ref "R501")
 			(value "10M")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7886,7 +7886,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R501")
 				(description "")
 			)
@@ -7920,10 +7920,10 @@
 		(comp
 			(ref "R502")
 			(value "499k 0.1%")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7932,7 +7932,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R502")
 				(description "")
 			)
@@ -7966,10 +7966,10 @@
 		(comp
 			(ref "R503")
 			(value "499k 0.1%")
-			(footprint "ato_afe:R_0805_2012Metric")
+			(footprint "scci_rh_afe:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7978,7 +7978,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "R503")
 				(description "")
 			)
@@ -8012,11 +8012,11 @@
 		(comp
 			(ref "U24")
 			(value "TMUX7412FRRPR")
-			(footprint "ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
+			(footprint "scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux7412f.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
+					(name "Footprint") "scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux7412f.pdf")
 				(field
@@ -8024,7 +8024,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U24")
 				(description "")
 			)
@@ -8103,11 +8103,11 @@
 		(comp
 			(ref "U500")
 			(value "TMUX6219DGKR")
-			(footprint "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 				(field
@@ -8115,7 +8115,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_AFE")
+				(lib "SCCI_RH_AFE")
 				(part "U500")
 				(description "")
 			)
@@ -8169,7 +8169,7 @@
 	(variants)
 	(libparts
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C1")
 			(fields
 				(field
@@ -8177,7 +8177,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8199,7 +8199,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C10")
 			(fields
 				(field
@@ -8207,7 +8207,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8229,7 +8229,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C100")
 			(fields
 				(field
@@ -8237,7 +8237,7 @@
 				(field
 					(name "Value") "470p C0G 50V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8259,7 +8259,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C101")
 			(fields
 				(field
@@ -8267,7 +8267,7 @@
 				(field
 					(name "Value") "470p C0G 50V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8289,7 +8289,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C102")
 			(fields
 				(field
@@ -8297,7 +8297,7 @@
 				(field
 					(name "Value") "470p C0G 50V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8319,7 +8319,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C103")
 			(fields
 				(field
@@ -8327,7 +8327,7 @@
 				(field
 					(name "Value") "470p C0G 50V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8349,7 +8349,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C104")
 			(fields
 				(field
@@ -8357,7 +8357,7 @@
 				(field
 					(name "Value") "470p C0G 50V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8379,7 +8379,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C105")
 			(fields
 				(field
@@ -8387,7 +8387,7 @@
 				(field
 					(name "Value") "470p C0G 50V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8409,7 +8409,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C106")
 			(fields
 				(field
@@ -8417,7 +8417,7 @@
 				(field
 					(name "Value") "470p C0G 50V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8439,7 +8439,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C107")
 			(fields
 				(field
@@ -8447,7 +8447,7 @@
 				(field
 					(name "Value") "470p C0G 50V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8469,7 +8469,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C108")
 			(fields
 				(field
@@ -8477,7 +8477,7 @@
 				(field
 					(name "Value") "470p C0G 50V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8499,7 +8499,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C109")
 			(fields
 				(field
@@ -8507,7 +8507,7 @@
 				(field
 					(name "Value") "470p C0G 50V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8529,7 +8529,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C11")
 			(fields
 				(field
@@ -8537,7 +8537,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8559,7 +8559,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C110")
 			(fields
 				(field
@@ -8567,7 +8567,7 @@
 				(field
 					(name "Value") "470p C0G 50V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8589,7 +8589,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C111")
 			(fields
 				(field
@@ -8597,7 +8597,7 @@
 				(field
 					(name "Value") "470p C0G 50V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8619,7 +8619,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C112")
 			(fields
 				(field
@@ -8627,7 +8627,7 @@
 				(field
 					(name "Value") "470p C0G 50V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8649,7 +8649,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C113")
 			(fields
 				(field
@@ -8657,7 +8657,7 @@
 				(field
 					(name "Value") "470p C0G 50V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8679,7 +8679,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C114")
 			(fields
 				(field
@@ -8687,7 +8687,7 @@
 				(field
 					(name "Value") "470p C0G 50V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8709,7 +8709,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C115")
 			(fields
 				(field
@@ -8717,7 +8717,7 @@
 				(field
 					(name "Value") "470p C0G 50V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8739,7 +8739,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C12")
 			(fields
 				(field
@@ -8747,7 +8747,7 @@
 				(field
 					(name "Value") "10n 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8769,7 +8769,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C13")
 			(fields
 				(field
@@ -8777,7 +8777,7 @@
 				(field
 					(name "Value") "1u X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8799,7 +8799,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C2")
 			(fields
 				(field
@@ -8807,7 +8807,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8829,7 +8829,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C20")
 			(fields
 				(field
@@ -8837,7 +8837,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8859,7 +8859,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C200")
 			(fields
 				(field
@@ -8867,7 +8867,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8889,7 +8889,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C201")
 			(fields
 				(field
@@ -8897,7 +8897,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8919,7 +8919,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C202")
 			(fields
 				(field
@@ -8927,7 +8927,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8949,7 +8949,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C203")
 			(fields
 				(field
@@ -8957,7 +8957,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8979,7 +8979,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C204")
 			(fields
 				(field
@@ -8987,7 +8987,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9009,7 +9009,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C205")
 			(fields
 				(field
@@ -9017,7 +9017,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9039,7 +9039,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C206")
 			(fields
 				(field
@@ -9047,7 +9047,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9069,7 +9069,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C207")
 			(fields
 				(field
@@ -9077,7 +9077,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9099,7 +9099,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C208")
 			(fields
 				(field
@@ -9107,7 +9107,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9129,7 +9129,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C209")
 			(fields
 				(field
@@ -9137,7 +9137,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9159,7 +9159,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C21")
 			(fields
 				(field
@@ -9167,7 +9167,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9189,7 +9189,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C210")
 			(fields
 				(field
@@ -9197,7 +9197,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9219,7 +9219,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C211")
 			(fields
 				(field
@@ -9227,7 +9227,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9249,7 +9249,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C212")
 			(fields
 				(field
@@ -9257,7 +9257,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9279,7 +9279,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C213")
 			(fields
 				(field
@@ -9287,7 +9287,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9309,7 +9309,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C214")
 			(fields
 				(field
@@ -9317,7 +9317,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9339,7 +9339,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C215")
 			(fields
 				(field
@@ -9347,7 +9347,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9369,7 +9369,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C22")
 			(fields
 				(field
@@ -9377,7 +9377,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9399,7 +9399,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C23")
 			(fields
 				(field
@@ -9407,7 +9407,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9429,7 +9429,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C3")
 			(fields
 				(field
@@ -9437,7 +9437,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9459,7 +9459,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C30")
 			(fields
 				(field
@@ -9467,7 +9467,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9489,7 +9489,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C300")
 			(fields
 				(field
@@ -9497,7 +9497,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9519,7 +9519,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C301")
 			(fields
 				(field
@@ -9527,7 +9527,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9549,7 +9549,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C302")
 			(fields
 				(field
@@ -9557,7 +9557,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9579,7 +9579,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C303")
 			(fields
 				(field
@@ -9587,7 +9587,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9609,7 +9609,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C304")
 			(fields
 				(field
@@ -9617,7 +9617,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9639,7 +9639,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C305")
 			(fields
 				(field
@@ -9647,7 +9647,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9669,7 +9669,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C306")
 			(fields
 				(field
@@ -9677,7 +9677,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9699,7 +9699,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C307")
 			(fields
 				(field
@@ -9707,7 +9707,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9729,7 +9729,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C308")
 			(fields
 				(field
@@ -9737,7 +9737,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9759,7 +9759,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C309")
 			(fields
 				(field
@@ -9767,7 +9767,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9789,7 +9789,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C31")
 			(fields
 				(field
@@ -9797,7 +9797,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9819,7 +9819,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C310")
 			(fields
 				(field
@@ -9827,7 +9827,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9849,7 +9849,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C311")
 			(fields
 				(field
@@ -9857,7 +9857,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9879,7 +9879,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C312")
 			(fields
 				(field
@@ -9887,7 +9887,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9909,7 +9909,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C313")
 			(fields
 				(field
@@ -9917,7 +9917,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9939,7 +9939,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C314")
 			(fields
 				(field
@@ -9947,7 +9947,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9969,7 +9969,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C315")
 			(fields
 				(field
@@ -9977,7 +9977,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9999,7 +9999,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C32")
 			(fields
 				(field
@@ -10007,7 +10007,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10029,7 +10029,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C33")
 			(fields
 				(field
@@ -10037,7 +10037,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10059,7 +10059,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C4")
 			(fields
 				(field
@@ -10067,7 +10067,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10089,7 +10089,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C5")
 			(fields
 				(field
@@ -10097,7 +10097,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10119,7 +10119,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C500")
 			(fields
 				(field
@@ -10127,7 +10127,7 @@
 				(field
 					(name "Value") "2.2n C0G 50V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10149,7 +10149,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C510")
 			(fields
 				(field
@@ -10157,7 +10157,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10179,7 +10179,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C511")
 			(fields
 				(field
@@ -10187,7 +10187,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10209,7 +10209,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C512")
 			(fields
 				(field
@@ -10217,7 +10217,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10239,7 +10239,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C513")
 			(fields
 				(field
@@ -10247,7 +10247,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10269,7 +10269,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "C6")
 			(fields
 				(field
@@ -10277,7 +10277,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_afe:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10299,7 +10299,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "J1")
 			(fields
 				(field
@@ -10307,7 +10307,7 @@
 				(field
 					(name "Value") "EXTERNAL ISOLATED AFE RAILS")
 				(field
-					(name "Footprint") "ato_afe:PinHeader_1x04_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_afe:PinHeader_1x04_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -10339,7 +10339,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "J2")
 			(fields
 				(field
@@ -10347,7 +10347,7 @@
 				(field
 					(name "Value") "HOST SPI / SUPERVISOR")
 				(field
-					(name "Footprint") "ato_afe:PinHeader_1x10_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_afe:PinHeader_1x10_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -10409,7 +10409,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "J3")
 			(fields
 				(field
@@ -10417,7 +10417,7 @@
 				(field
 					(name "Value") "18 RECORDING FUNCTIONAL PORTS")
 				(field
-					(name "Footprint") "ato_afe:PinHeader_1x18_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_afe:PinHeader_1x18_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -10519,7 +10519,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R1")
 			(fields
 				(field
@@ -10527,7 +10527,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10549,7 +10549,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R10")
 			(fields
 				(field
@@ -10557,7 +10557,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10579,7 +10579,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R100")
 			(fields
 				(field
@@ -10587,7 +10587,7 @@
 				(field
 					(name "Value") "4.99k 0.1%")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10609,7 +10609,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R101")
 			(fields
 				(field
@@ -10617,7 +10617,7 @@
 				(field
 					(name "Value") "4.99k 0.1%")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10639,7 +10639,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R102")
 			(fields
 				(field
@@ -10647,7 +10647,7 @@
 				(field
 					(name "Value") "4.99k 0.1%")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10669,7 +10669,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R103")
 			(fields
 				(field
@@ -10677,7 +10677,7 @@
 				(field
 					(name "Value") "4.99k 0.1%")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10699,7 +10699,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R104")
 			(fields
 				(field
@@ -10707,7 +10707,7 @@
 				(field
 					(name "Value") "4.99k 0.1%")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10729,7 +10729,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R105")
 			(fields
 				(field
@@ -10737,7 +10737,7 @@
 				(field
 					(name "Value") "4.99k 0.1%")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10759,7 +10759,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R106")
 			(fields
 				(field
@@ -10767,7 +10767,7 @@
 				(field
 					(name "Value") "4.99k 0.1%")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10789,7 +10789,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R107")
 			(fields
 				(field
@@ -10797,7 +10797,7 @@
 				(field
 					(name "Value") "4.99k 0.1%")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10819,7 +10819,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R108")
 			(fields
 				(field
@@ -10827,7 +10827,7 @@
 				(field
 					(name "Value") "4.99k 0.1%")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10849,7 +10849,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R109")
 			(fields
 				(field
@@ -10857,7 +10857,7 @@
 				(field
 					(name "Value") "4.99k 0.1%")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10879,7 +10879,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R11")
 			(fields
 				(field
@@ -10887,7 +10887,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10909,7 +10909,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R110")
 			(fields
 				(field
@@ -10917,7 +10917,7 @@
 				(field
 					(name "Value") "4.99k 0.1%")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10939,7 +10939,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R111")
 			(fields
 				(field
@@ -10947,7 +10947,7 @@
 				(field
 					(name "Value") "4.99k 0.1%")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10969,7 +10969,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R112")
 			(fields
 				(field
@@ -10977,7 +10977,7 @@
 				(field
 					(name "Value") "4.99k 0.1%")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10999,7 +10999,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R113")
 			(fields
 				(field
@@ -11007,7 +11007,7 @@
 				(field
 					(name "Value") "4.99k 0.1%")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11029,7 +11029,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R114")
 			(fields
 				(field
@@ -11037,7 +11037,7 @@
 				(field
 					(name "Value") "4.99k 0.1%")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11059,7 +11059,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R115")
 			(fields
 				(field
@@ -11067,7 +11067,7 @@
 				(field
 					(name "Value") "4.99k 0.1%")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11089,7 +11089,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R12")
 			(fields
 				(field
@@ -11097,7 +11097,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11119,7 +11119,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R13")
 			(fields
 				(field
@@ -11127,7 +11127,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11149,7 +11149,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R14")
 			(fields
 				(field
@@ -11157,7 +11157,7 @@
 				(field
 					(name "Value") "1k")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11179,7 +11179,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R2")
 			(fields
 				(field
@@ -11187,7 +11187,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11209,7 +11209,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R200")
 			(fields
 				(field
@@ -11217,7 +11217,7 @@
 				(field
 					(name "Value") "10M")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11239,7 +11239,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R201")
 			(fields
 				(field
@@ -11247,7 +11247,7 @@
 				(field
 					(name "Value") "10M")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11269,7 +11269,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R202")
 			(fields
 				(field
@@ -11277,7 +11277,7 @@
 				(field
 					(name "Value") "10M")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11299,7 +11299,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R203")
 			(fields
 				(field
@@ -11307,7 +11307,7 @@
 				(field
 					(name "Value") "10M")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11329,7 +11329,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R204")
 			(fields
 				(field
@@ -11337,7 +11337,7 @@
 				(field
 					(name "Value") "10M")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11359,7 +11359,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R205")
 			(fields
 				(field
@@ -11367,7 +11367,7 @@
 				(field
 					(name "Value") "10M")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11389,7 +11389,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R206")
 			(fields
 				(field
@@ -11397,7 +11397,7 @@
 				(field
 					(name "Value") "10M")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11419,7 +11419,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R207")
 			(fields
 				(field
@@ -11427,7 +11427,7 @@
 				(field
 					(name "Value") "10M")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11449,7 +11449,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R208")
 			(fields
 				(field
@@ -11457,7 +11457,7 @@
 				(field
 					(name "Value") "10M")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11479,7 +11479,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R209")
 			(fields
 				(field
@@ -11487,7 +11487,7 @@
 				(field
 					(name "Value") "10M")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11509,7 +11509,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R210")
 			(fields
 				(field
@@ -11517,7 +11517,7 @@
 				(field
 					(name "Value") "10M")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11539,7 +11539,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R211")
 			(fields
 				(field
@@ -11547,7 +11547,7 @@
 				(field
 					(name "Value") "10M")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11569,7 +11569,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R212")
 			(fields
 				(field
@@ -11577,7 +11577,7 @@
 				(field
 					(name "Value") "10M")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11599,7 +11599,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R213")
 			(fields
 				(field
@@ -11607,7 +11607,7 @@
 				(field
 					(name "Value") "10M")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11629,7 +11629,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R214")
 			(fields
 				(field
@@ -11637,7 +11637,7 @@
 				(field
 					(name "Value") "10M")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11659,7 +11659,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R215")
 			(fields
 				(field
@@ -11667,7 +11667,7 @@
 				(field
 					(name "Value") "10M")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11689,7 +11689,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R3")
 			(fields
 				(field
@@ -11697,7 +11697,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11719,7 +11719,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R4")
 			(fields
 				(field
@@ -11727,7 +11727,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11749,7 +11749,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R5")
 			(fields
 				(field
@@ -11757,7 +11757,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11779,7 +11779,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R500")
 			(fields
 				(field
@@ -11787,7 +11787,7 @@
 				(field
 					(name "Value") "4.99k 0.1%")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11809,7 +11809,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R501")
 			(fields
 				(field
@@ -11817,7 +11817,7 @@
 				(field
 					(name "Value") "10M")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11839,7 +11839,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R502")
 			(fields
 				(field
@@ -11847,7 +11847,7 @@
 				(field
 					(name "Value") "499k 0.1%")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11869,7 +11869,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R503")
 			(fields
 				(field
@@ -11877,7 +11877,7 @@
 				(field
 					(name "Value") "499k 0.1%")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11899,7 +11899,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R6")
 			(fields
 				(field
@@ -11907,7 +11907,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11929,7 +11929,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R7")
 			(fields
 				(field
@@ -11937,7 +11937,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11959,7 +11959,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R8")
 			(fields
 				(field
@@ -11967,7 +11967,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11989,7 +11989,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "R9")
 			(fields
 				(field
@@ -11997,7 +11997,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_afe:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_afe:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -12019,7 +12019,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U1")
 			(fields
 				(field
@@ -12027,7 +12027,7 @@
 				(field
 					(name "Value") "ISO6741FDWR")
 				(field
-					(name "Footprint") "ato_afe:SOIC-16W_7.5x10.3mm_P1.27mm")
+					(name "Footprint") "scci_rh_afe:SOIC-16W_7.5x10.3mm_P1.27mm")
 				(field
 					(name "Datasheet")
 				)
@@ -12119,7 +12119,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U10")
 			(fields
 				(field
@@ -12127,7 +12127,7 @@
 				(field
 					(name "Value") "RHD2216")
 				(field
-					(name "Footprint") "ato_afe:RHD2216_QFN56_8x8_P0.5_EP6.1")
+					(name "Footprint") "scci_rh_afe:RHD2216_QFN56_8x8_P0.5_EP6.1")
 				(field
 					(name "Datasheet")
 				)
@@ -12424,7 +12424,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U100")
 			(fields
 				(field
@@ -12432,7 +12432,7 @@
 				(field
 					(name "Value") "TMUX6219DGKR")
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -12484,7 +12484,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U101")
 			(fields
 				(field
@@ -12492,7 +12492,7 @@
 				(field
 					(name "Value") "TMUX6219DGKR")
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -12544,7 +12544,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U102")
 			(fields
 				(field
@@ -12552,7 +12552,7 @@
 				(field
 					(name "Value") "TMUX6219DGKR")
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -12604,7 +12604,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U103")
 			(fields
 				(field
@@ -12612,7 +12612,7 @@
 				(field
 					(name "Value") "TMUX6219DGKR")
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -12664,7 +12664,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U104")
 			(fields
 				(field
@@ -12672,7 +12672,7 @@
 				(field
 					(name "Value") "TMUX6219DGKR")
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -12724,7 +12724,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U105")
 			(fields
 				(field
@@ -12732,7 +12732,7 @@
 				(field
 					(name "Value") "TMUX6219DGKR")
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -12784,7 +12784,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U106")
 			(fields
 				(field
@@ -12792,7 +12792,7 @@
 				(field
 					(name "Value") "TMUX6219DGKR")
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -12844,7 +12844,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U107")
 			(fields
 				(field
@@ -12852,7 +12852,7 @@
 				(field
 					(name "Value") "TMUX6219DGKR")
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -12904,7 +12904,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U108")
 			(fields
 				(field
@@ -12912,7 +12912,7 @@
 				(field
 					(name "Value") "TMUX6219DGKR")
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -12964,7 +12964,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U109")
 			(fields
 				(field
@@ -12972,7 +12972,7 @@
 				(field
 					(name "Value") "TMUX6219DGKR")
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -13024,7 +13024,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U110")
 			(fields
 				(field
@@ -13032,7 +13032,7 @@
 				(field
 					(name "Value") "TMUX6219DGKR")
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -13084,7 +13084,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U111")
 			(fields
 				(field
@@ -13092,7 +13092,7 @@
 				(field
 					(name "Value") "TMUX6219DGKR")
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -13144,7 +13144,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U112")
 			(fields
 				(field
@@ -13152,7 +13152,7 @@
 				(field
 					(name "Value") "TMUX6219DGKR")
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -13204,7 +13204,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U113")
 			(fields
 				(field
@@ -13212,7 +13212,7 @@
 				(field
 					(name "Value") "TMUX6219DGKR")
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -13264,7 +13264,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U114")
 			(fields
 				(field
@@ -13272,7 +13272,7 @@
 				(field
 					(name "Value") "TMUX6219DGKR")
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -13324,7 +13324,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U115")
 			(fields
 				(field
@@ -13332,7 +13332,7 @@
 				(field
 					(name "Value") "TMUX6219DGKR")
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -13384,7 +13384,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U2")
 			(fields
 				(field
@@ -13392,7 +13392,7 @@
 				(field
 					(name "Value") "ISO6741FDWR")
 				(field
-					(name "Footprint") "ato_afe:SOIC-16W_7.5x10.3mm_P1.27mm")
+					(name "Footprint") "scci_rh_afe:SOIC-16W_7.5x10.3mm_P1.27mm")
 				(field
 					(name "Datasheet")
 				)
@@ -13484,7 +13484,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U20")
 			(fields
 				(field
@@ -13492,7 +13492,7 @@
 				(field
 					(name "Value") "TMUX7412FRRPR")
 				(field
-					(name "Footprint") "ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
+					(name "Footprint") "scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
 				(field
 					(name "Datasheet")
 				)
@@ -13589,7 +13589,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U21")
 			(fields
 				(field
@@ -13597,7 +13597,7 @@
 				(field
 					(name "Value") "TMUX7412FRRPR")
 				(field
-					(name "Footprint") "ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
+					(name "Footprint") "scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
 				(field
 					(name "Datasheet")
 				)
@@ -13694,7 +13694,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U22")
 			(fields
 				(field
@@ -13702,7 +13702,7 @@
 				(field
 					(name "Value") "TMUX7412FRRPR")
 				(field
-					(name "Footprint") "ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
+					(name "Footprint") "scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
 				(field
 					(name "Datasheet")
 				)
@@ -13799,7 +13799,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U23")
 			(fields
 				(field
@@ -13807,7 +13807,7 @@
 				(field
 					(name "Value") "TMUX7412FRRPR")
 				(field
-					(name "Footprint") "ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
+					(name "Footprint") "scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
 				(field
 					(name "Datasheet")
 				)
@@ -13904,7 +13904,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U24")
 			(fields
 				(field
@@ -13912,7 +13912,7 @@
 				(field
 					(name "Value") "TMUX7412FRRPR")
 				(field
-					(name "Footprint") "ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
+					(name "Footprint") "scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
 				(field
 					(name "Datasheet")
 				)
@@ -14009,7 +14009,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U3")
 			(fields
 				(field
@@ -14017,7 +14017,7 @@
 				(field
 					(name "Value") "SN74LVC1G04DBVR")
 				(field
-					(name "Footprint") "ato_afe:SOT-23-5")
+					(name "Footprint") "scci_rh_afe:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -14054,7 +14054,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U4")
 			(fields
 				(field
@@ -14062,7 +14062,7 @@
 				(field
 					(name "Value") "SN74LVC1G08DBVR")
 				(field
-					(name "Footprint") "ato_afe:SOT-23-5")
+					(name "Footprint") "scci_rh_afe:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -14099,7 +14099,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_AFE")
+			(lib "SCCI_RH_AFE")
 			(part "U500")
 			(fields
 				(field
@@ -14107,7 +14107,7 @@
 				(field
 					(name "Value") "TMUX6219DGKR")
 				(field
-					(name "Footprint") "ato_afe:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -14161,8 +14161,8 @@
 	)
 	(libraries
 		(library
-			(logical "ATO_AFE")
-			(uri "${KIPRJMOD}/ATO_AFE.kicad_sym")
+			(logical "SCCI_RH_AFE")
+			(uri "${KIPRJMOD}/SCCI_RH_AFE.kicad_sym")
 		)
 	)
 	(nets

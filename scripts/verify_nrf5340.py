@@ -68,7 +68,7 @@ def audit():
         checks+=1
         if not value:raise AssertionError(reason)
     receipt=json.loads((ROOT/'provenance/stage4-nrf5340-build.json').read_text())
-    check(receipt['status']=='ato_application_cross_compiled_and_linked','successful actual ATO build')
+    check(receipt['status']=='scci_rh_application_cross_compiled_and_linked','successful actual SCCI_RH build')
     check(receipt['board']=='nrf5340dk/nrf5340/cpuapp','application-core target')
     check(not receipt['flashed_or_executed'] and not receipt['hardware_timing_verified'],'evidence bounds')
     source_bindings={}
@@ -81,12 +81,12 @@ def audit():
         actual=sha(path,path.suffix not in ('.elf','.bin'))
         exact=sha(path)
         check(h in (actual,exact),'build export '+name)
-    image=elf_image(BASE/'artifacts/ato.elf')
-    for name in ['main','ato_backend_init','ato_backend_service','ato_backend_stop',
-                 'ato_runtime_init','ato_runtime_trip','ato_runtime_sbp','ato_runtime_event',
-                 'ato_runtime_rearm','ato_runtime_route_readback','ato_runtime_phase_start']:
+    image=elf_image(BASE/'artifacts/scci_rh.elf')
+    for name in ['main','scci_rh_backend_init','scci_rh_backend_service','scci_rh_backend_stop',
+                 'scci_rh_runtime_init','scci_rh_runtime_trip','scci_rh_runtime_sbp','scci_rh_runtime_event',
+                 'scci_rh_runtime_rearm','scci_rh_runtime_route_readback','scci_rh_runtime_phase_start']:
         check(name in image['functions'],'linked production function '+name)
-    map_text=(BASE/'artifacts/ato.map').read_text()
+    map_text=(BASE/'artifacts/scci_rh.map').read_text()
     ram_region=re.search(r'^RAM\s+(0x[0-9a-fA-F]+)\s+(0x[0-9a-fA-F]+)',map_text,re.MULTILINE)
     check(ram_region is not None,'actual linker RAM region')
     ram_origin,ram_capacity=[int(v,16) for v in ram_region.groups()]
@@ -99,8 +99,8 @@ def audit():
         check(item in config,'linked Kconfig '+item)
     check('CONFIG_BT=y' not in config,'wired profile does not enable radio')
     cmake=(BASE/'app/CMakeLists.txt').read_text()
-    check('../core/ato_runtime.c' in cmake,'production shared core in actual target')
-    pins=(BASE/'app/src/ato_pins.h').read_text()
+    check('../core/scci_rh_runtime.c' in cmake,'production shared core in actual target')
+    pins=(BASE/'app/src/scci_rh_pins.h').read_text()
     pin_values={name:int(value) for name,value in re.findall(r'\b(PIN_[A-Z0-9_]+)\s*=\s*(\d+)',pins)}
     check(len(pin_values)==46 and set(pin_values.values())==set(range(2,48)),'46 distinct carrier GPIOs; LF pins retained')
     check([pin_values[k] for k in ['PIN_RAW_SCK','PIN_RAW_MOSI','PIN_RAW_MISO','PIN_RAW_CS']]==[8,9,10,11],'dedicated SPIM4 pins')
@@ -112,7 +112,7 @@ def audit():
     check('&uicr' in overlay and 'nfct-pins-as-gpios;' in overlay,'actual SDK NFC pin protection policy')
     commands=json.loads((BASE/'artifacts/compile-records.json').read_text())
     by_name={Path(c['file'].replace('\\','/')).name:c['command'] for c in commands}
-    for name in ['main.c','ato_backend.c','ato_runtime.c','system_nrf5340_application.c']:
+    for name in ['main.c','scci_rh_backend.c','scci_rh_runtime.c','system_nrf5340_application.c']:
         check(name in by_name,'actual compile record '+name)
         check('-mcpu=cortex-m33' in by_name[name] and '-mthumb' in by_name[name],'actual M33 compiler arguments '+name)
     check(re.search(r'-DNRF_CONFIG_NFCT_PINS_AS_GPIOS(?:=1)?(?:\s|$)',by_name['system_nrf5340_application.c']) is not None,'compiled SystemInit UICR GPIO policy')
@@ -136,9 +136,9 @@ def audit():
             net=manifest[package][ref]['nets'][pin]
             check(net is not None and xml[package][ref,pin].lstrip('/')==net,'native endpoint '+endpoint)
             endpoint_rows.append(dict(GPIO=row['pin'],signal=row['signal'],endpoint=endpoint,native_net=net))
-    code=(BASE/'app/src/ato_backend.c').read_text()
+    code=(BASE/'app/src/scci_rh_backend.c').read_text()
     for instance in range(1,5):check(f'NRF_SPIM{instance}' in code,'actual SPIM instance '+str(instance))
-    check('DT_NODELABEL(uart0)' in code,'UART0 avoids SPI1–4 instance sharing')
+    check('DT_NODELABEL(uart0)' in code,'UART0 avoids SPI1â€“4 instance sharing')
     check('NRF_TIMER_EVENT_COMPARE2' in code and 'NRF_TIMER_TASK_CAPTURE1' in code,'timer compare/capture wiring')
     check('TASKS_CLR[0]' in code and 'TASKS_CLR[1]' in code and 'nrfx_gppi_ep_attach' in code,'two GPIO hardware cutoff subscriptions')
     check('nrfx_gppi_conn_alloc' in code and 'nrfx_gppi_conn_enable' in code,'shared SDK DPPI allocator avoids UART connection collision')
@@ -155,15 +155,15 @@ def audit():
                 uninterrupted_RHD_fits_between_raw_slots=False,
                 continuous_requested_cadences_proved=False,physical_WCET_or_jitter_measured=False,
                 policy='actual aperture brackets and missed-slot/gap counters required; never reconstruct a missed measurement as valid')
-    return dict(schema='ato.stage4.nrf5340-independent-verification.v1',date='2026-10-14',passed=True,checks=checks,
+    return dict(schema='scci_rh.stage4.nrf5340-independent-verification.v1',date='2026-10-28',original_design_date='2026-10-14',passed=True,checks=checks,
                 evidence='independent ELF32 parser, source/export bindings, GPIO/native/XML and peripheral ownership checks; no target execution',
-                elf_sha256=sha(BASE/'artifacts/ato.elf'),entry_hex=hex(image['entry']),
+                elf_sha256=sha(BASE/'artifacts/scci_rh.elf'),entry_hex=hex(image['entry']),
                 RAM_allocated_section_bytes=image['RAM_allocated_section_bytes'],RAM_extent_bytes=image['RAM_extent_bytes'],
                 RAM_physical_capacity_bytes=524288,RAM_linker_capacity_bytes=ram_capacity,
                 RAM_20percent_headroom_pass=True,flash_LOAD_extent_bytes=image['flash_LOAD_extent_bytes'],
                 compiled_core_tests=test['compiled_results'],GPIO_count=46,native_endpoint_checks=len(endpoint_rows),
                 endpoint_bindings=endpoint_rows,timing_review=timing,
-                linked_ato_functions={k:v for k,v in sorted(image['functions'].items()) if k.startswith('ato_') or k=='main'},
+                linked_scci_rh_functions={k:v for k,v in sorted(image['functions'].items()) if k.startswith('scci_rh_') or k=='main'},
                 source_sha256_lf=source_bindings)
 
 

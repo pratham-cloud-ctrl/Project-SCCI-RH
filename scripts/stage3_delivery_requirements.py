@@ -15,12 +15,12 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'src'))
-from ato.stage3.motor import MotorConfig, calibrate
-from ato.stage3.electrical import MotorDelivery
+from scci_rh.stage3.motor import MotorConfig, calibrate
+from scci_rh.stage3.electrical import MotorDelivery
 
-SOURCE_PATHS = ('src/ato/stage3/motor.py', 'src/ato/stage3/acquisition.py',
-                'src/ato/stage3/filter_residual.py', 'src/ato/stage3/electrical.py',
-                'src/ato/stage3/external_history.py', 'scripts/stage3_delivery_requirements.py')
+SOURCE_PATHS = ('src/scci_rh/stage3/motor.py', 'src/scci_rh/stage3/acquisition.py',
+                'src/scci_rh/stage3/filter_residual.py', 'src/scci_rh/stage3/electrical.py',
+                'src/scci_rh/stage3/external_history.py', 'scripts/stage3_delivery_requirements.py')
 
 
 def source_hashes():
@@ -124,7 +124,7 @@ def run():
                 'withheld_mixed_routes': calibration['heldout_mixed_route_calibration_s']},
             'thresholds': thresholds, 'requirements': rows})
         print(f'Observed calibration and requirements seed {seed}: complete', flush=True)
-    return {'schema': 'ato.stage3.delivery-requirements.v1', 'date': '2026-10-09',
+    return {'schema': 'scci_rh.stage3.delivery-requirements.v1', 'date': '2026-10-09',
         'source_sha256': source_hashes(), 'config': asdict(config), 'records': records,
         'counts': {'independent_observed_calibrations': len(records),
                    'counterfactual_requirement_rows': sum(len(r['requirements']) for r in records),

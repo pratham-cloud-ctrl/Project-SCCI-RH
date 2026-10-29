@@ -1,11 +1,11 @@
 {
-  "schema": "ato.stage3.cue-policy-study.v1",
+  "schema": "scci_rh.stage3.cue-policy-study.v1",
   "status": "component_witness_only",
   "source_identity": {
-    "src/ato/stage3/cue_policy.py": "86c55451d04ea26a9ba6d14bfdb2689faf61bba9432623e190d159f9bbfe5395",
-    "src/ato/stage3/motor.py": "d86b4d091baf226475ce9f6d6e2390b65bb63752e5f50e73d42c5c3408b2323c",
-    "src/ato/stage3/acquisition.py": "bd681adefc5e82c58b449490ad14917fff307be9947de647e92aeb6c38b22f03",
-    "scripts/stage3_cue_policy_study.py": "12110b06a67c668f79c603b9347624b9c1e129b01ac893e22dbca64e3dbc300f"
+    "src/scci_rh/stage3/cue_policy.py": "b93fccb3b7c53628e9f2a36752d9260c47e14753e85cd507e145ad9df486e5b0",
+    "src/scci_rh/stage3/motor.py": "fdc83232adcd15759319a05af2204c7d3481f5da3ecf4538f152b569760c05fe",
+    "src/scci_rh/stage3/acquisition.py": "bd681adefc5e82c58b449490ad14917fff307be9947de647e92aeb6c38b22f03",
+    "scripts/stage3_cue_policy_study.py": "eb88cea105c345de6a01ff11b58831097c7b4e3bfcb76e9da40c8ec85220a122"
   },
   "specification": {
     "maximum_forecast_horizon_s": 0.15,
@@ -152,10 +152,10 @@
   ],
   "raw_witness": {
     "path": "raw.json.gz",
-    "sha256": "e6df858060848664019e3482889e52bfd55014f9802b2130422c60cff9f68476"
+    "sha256": "6c41f9c298718e5e8418c12c9ac707eb18efd59f7151eacf7c657a56932d7e2b"
   },
   "forecast": {
-    "schema": "ato.stage3.known-cue-forecast.v1",
+    "schema": "scci_rh.stage3.known-cue-forecast.v1",
     "context_validation": {
       "nominal_unassisted": {
         "qualified": true,

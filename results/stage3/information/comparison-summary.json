@@ -1,13 +1,13 @@
 {
-  "schema": "ato.stage3.information-comparison.v1",
+  "schema": "scci_rh.stage3.information-comparison.v1",
   "scope": "chosen synthetic source hypotheses and plasticity; no clinical or consumer efficacy",
   "source_sha256": {
-    "src/ato/stage3/motor.py": "d86b4d091baf226475ce9f6d6e2390b65bb63752e5f50e73d42c5c3408b2323c",
-    "src/ato/stage3/acquisition.py": "bd681adefc5e82c58b449490ad14917fff307be9947de647e92aeb6c38b22f03",
-    "src/ato/stage3/filter_residual.py": "0404915b1f891ef8e1da8fbc7549888110b90a0100877f361154ce39154dca47",
-    "src/ato/stage3/external_history.py": "2ec8bb81bd96066fe8f80696a0351d4407b68baabd6526e6211922abb8a4f97d",
-    "src/ato/stage3/electrical.py": "8a7a20702be3f3f5893e1f859f675347fa35db01dadb20ab7e64635ca8913ff0",
-    "scripts/stage3_information_comparison.py": "dcb9c3707466151730fa20221c02cb01527b02b5bb65c106c6881a8c0ba6d470"
+    "src/scci_rh/stage3/motor.py": "fdc83232adcd15759319a05af2204c7d3481f5da3ecf4538f152b569760c05fe",
+    "src/scci_rh/stage3/acquisition.py": "bd681adefc5e82c58b449490ad14917fff307be9947de647e92aeb6c38b22f03",
+    "src/scci_rh/stage3/filter_residual.py": "0404915b1f891ef8e1da8fbc7549888110b90a0100877f361154ce39154dca47",
+    "src/scci_rh/stage3/external_history.py": "2ec8bb81bd96066fe8f80696a0351d4407b68baabd6526e6211922abb8a4f97d",
+    "src/scci_rh/stage3/electrical.py": "8a7a20702be3f3f5893e1f859f675347fa35db01dadb20ab7e64635ca8913ff0",
+    "scripts/stage3_information_comparison.py": "e2d40636cd683a1613750f75592c4bf0afb3d862c4b21a77f67bfd278562f336"
   },
   "numerical_reproduction_tolerances": {
     "relative": 2e-08,
@@ -23,38 +23,38 @@
   "raw_files": [
     {
       "path": "conditional_fast_informative_seed0.json.gz",
-      "sha256": "aeb8bba0e86718c98a35eed1af6d0bdb0b4d504dc756e5f37313eb27ec54427c",
-      "semantic_sha256": "05395028ed029260ae9dc2ff29a573c1c766224a118892eb46c4775a2a18411f"
+      "sha256": "1bcee015734814facaac643d568f8c53bddf93a3952f8f6181ed3dc7e960690a",
+      "semantic_sha256": "683bbecb6f515c73f4160d7c2bcb4b8bfd64a9a7c3f7ae7514b4857643d7c6ad"
     },
     {
       "path": "conditional_fast_informative_seed1.json.gz",
-      "sha256": "3f682ad725d43377d2de6d36ee42dc94206d2ca9fc4847815cc8a49141faa7e1",
-      "semantic_sha256": "d17007ec6d83f3f1227bfb32cfc0017d13215c07f53658077fd67a9863a65637"
+      "sha256": "8ba91cf25aedd593dac88196d169b96907ea1abd62c9f1677a69c9c911dc5308",
+      "semantic_sha256": "36359936f2ce04f0743acbc46931e39e346acd76f726ff4c8ea389ae37641f7b"
     },
     {
       "path": "conditional_fast_redundant_seed0.json.gz",
-      "sha256": "d86eeb9bc18556cc9f23f4fe1b5e5ea4e93fa0f0efe6c2fdf69ccf5f18d7a916",
-      "semantic_sha256": "bb804bf4381ba19486858d673a1b7cd0604f4657326beed1bf04fb213b70756c"
+      "sha256": "c1336c622bc4efe5cac07f956ba81f657ee1e6bc6186305a3225dbf506730f31",
+      "semantic_sha256": "758a11d1a786b454c2b84233986ab8f9594ee9d596aea0c33310cdffcac612b7"
     },
     {
       "path": "conditional_fast_redundant_seed1.json.gz",
-      "sha256": "161e3527b53f512dff949107553356c310cb12106dbd2fc4d0c7671f0dd5eaff",
-      "semantic_sha256": "25d9a04a756239ed9ffc417c57b4f6072110809688aab883fd99ec8ca8240926"
+      "sha256": "e90b6cc99110e81f914b82c37f41a3451c6b31cc2342b3ec6d46b330d122a536",
+      "semantic_sha256": "a577ff679f74d978a35644d257765499ebff0c7c396bfeb9c9fcd2b2d011f64e"
     },
     {
       "path": "conditional_fast_absent_seed0.json.gz",
-      "sha256": "058d4a6b0256c710fc9a8b30e8d1d06e96b6a9436d6f5b9e88081bb3a9891002",
-      "semantic_sha256": "d29378317bbe9a7cb2ff90b45f54152096e17143afdb4f14e0cd831117ceb377"
+      "sha256": "daab2b417e8f9427c26a54321949c07875108e1ba601dc62e0c38a04205791bf",
+      "semantic_sha256": "96b43502e08325bf6d4111e88b4b9f936cbafc6712e727ea058bd8917195077c"
     },
     {
       "path": "conditional_fast_absent_seed1.json.gz",
-      "sha256": "1ea9023ad9693d7f699eb0721f38464ae685b369f02f58da2fe5013d73b88065",
-      "semantic_sha256": "45bddd49c256b54732bfdf4d73a0aa0730a7ec3c3a72ac1238e4cb9e6d9d6663"
+      "sha256": "aa0daa738a84cefba174906a08b5d5df70f00ad525786f0546cb70b09d501d05",
+      "semantic_sha256": "24de205bb18659535728f3d60eb257fa7db3a6020da97259c487c88954d0ce40"
     },
     {
       "path": "actual_nominal_informative_seed0.json.gz",
-      "sha256": "07684d7756164987926f8d6201d6a8720c67f29e7aa776fae3a87c38cacab20b",
-      "semantic_sha256": "52d976093bb7fcd14e3e29d13c8ad620c6616e290ad77c344f4a9bd3e1100f3b"
+      "sha256": "5e2b7e95a851cf9366d75afa055c24dc0596a9af42b9d3091310dc55f9d2d8b1",
+      "semantic_sha256": "81c17873d90451fae52a929c55f79720b26d57a4c6e71ef9c600bd7c058eb59e"
     }
   ],
   "runs": [

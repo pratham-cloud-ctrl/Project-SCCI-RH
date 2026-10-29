@@ -1,4 +1,4 @@
-"""Replay both conditional ATO policies through the unchanged production C core.
+"""Replay both conditional SCCI_RH policies through the unchanged production C core.
 
 Default is read-only and compares saved results. --write-results regenerates only
 Stage 6 outputs. Requires numpy and a C11 compiler (CC, GCC, Clang or local Zig).
@@ -71,23 +71,23 @@ def pressure_command(observation):
 class Runtime:
     def __init__(self, dll):
         self.dll = ctypes.CDLL(str(dll))
-        self.dll.ato_replay_call.argtypes = [ctypes.c_uint] + [ctypes.c_uint64] * 5
-        self.dll.ato_replay_call.restype = ctypes.c_uint64
-        self.dll.ato_replay_get.argtypes = [ctypes.c_uint]
-        self.dll.ato_replay_get.restype = ctypes.c_uint64
-        self.dll.ato_replay_packet.argtypes = [ctypes.POINTER(ctypes.c_ubyte), ctypes.c_uint,
+        self.dll.scci_rh_replay_call.argtypes = [ctypes.c_uint] + [ctypes.c_uint64] * 5
+        self.dll.scci_rh_replay_call.restype = ctypes.c_uint64
+        self.dll.scci_rh_replay_get.argtypes = [ctypes.c_uint]
+        self.dll.scci_rh_replay_get.restype = ctypes.c_uint64
+        self.dll.scci_rh_replay_packet.argtypes = [ctypes.POINTER(ctypes.c_ubyte), ctypes.c_uint,
                                               ctypes.c_uint64]
-        self.dll.ato_replay_packet.restype = ctypes.c_uint64
+        self.dll.scci_rh_replay_packet.restype = ctypes.c_uint64
 
     def call(self, op, t, a=0, b=0, c=0, d=0):
-        return int(self.dll.ato_replay_call(op, t, a, b, c, d))
+        return int(self.dll.scci_rh_replay_call(op, t, a, b, c, d))
 
     def get(self, key):
-        return int(self.dll.ato_replay_get(key))
+        return int(self.dll.scci_rh_replay_get(key))
 
     def packet(self, data, now):
         wire = (ctypes.c_ubyte * len(data)).from_buffer_copy(data)
-        return bool(self.dll.ato_replay_packet(wire, len(data), now))
+        return bool(self.dll.scci_rh_replay_packet(wire, len(data), now))
 
     def start(self, mode, now, transport, pressure=100.0):
         self.call(0, now)
@@ -455,7 +455,7 @@ def companion_faults():
 
 
 def summary_of(actual):
-    return dict(schema="ato-stage6-integration-summary-v1",date=actual["date"],passed=True,
+    return dict(schema="scci_rh-stage6-integration-summary-v1",date=actual["date"],passed=True,
         source_report="results/stage6/digital-path-verification.json",
         source_report_sha256_lf=digest(OUT/"digital-path-verification.json"),
         assertions=actual["assertions"],
@@ -482,11 +482,11 @@ def run():
     transport=module("stage6_transport_source","electronics/stage4/transport-study/transport_contract.py")
     supervision=module("stage6_supervision_source","electronics/stage4/supervision-study/control_study.py")
     test=module("stage6_compiler_source","firmware/nrf5340/tests/check_runtime.py")
-    with tempfile.TemporaryDirectory(prefix="ato-stage6-") as temporary:
-        lib=Path(temporary)/("ato_replay.dll" if os.name=="nt" else "ato_replay.so")
+    with tempfile.TemporaryDirectory(prefix="scci_rh-stage6-") as temporary:
+        lib=Path(temporary)/("scci_rh_replay.dll" if os.name=="nt" else "scci_rh_replay.so")
         command=test.compiler()+["-std=c11","-O2","-Wall","-Wextra","-Werror","-Wpedantic",
              "-shared","-I",str(ROOT/"firmware/nrf5340/core"),
-             str(ROOT/"firmware/nrf5340/core/ato_runtime.c"),
+             str(ROOT/"firmware/nrf5340/core/scci_rh_runtime.c"),
              str(ROOT/"scripts/stage6/runtime_bridge.c"),"-o",str(lib)]
         if os.name!="nt":
             command+= ["-fPIC"]
@@ -502,16 +502,16 @@ def run():
             if os.name=="nt":
                 import _ctypes
                 _ctypes.FreeLibrary(runtime.dll._handle)
-    native_sources=["firmware/nrf5340/core/ato_runtime.c","firmware/nrf5340/core/ato_runtime.h",
+    native_sources=["firmware/nrf5340/core/scci_rh_runtime.c","firmware/nrf5340/core/scci_rh_runtime.h",
         "firmware/nrf5340/tests/check_runtime.py","experiments/stage3/conditional-concept/study.py",
         "electronics/stage4/transport-study/transport_contract.py",
         "electronics/stage4/supervision-study/control_study.py",
-        "cad/stage5/harness/body-port-bridge.csv","firmware/nrf5340/app/src/ato_backend.c",
+        "cad/stage5/harness/body-port-bridge.csv","firmware/nrf5340/app/src/scci_rh_backend.c",
         "scripts/stage6/runtime_bridge.c",
         "scripts/stage6/verify_digital_path.py"]
     ports=port_trace()
     companion_cases=companion_faults()
-    return stable(dict(schema="ato-stage6-digital-path-v1",date="2026-10-16",passed=True,
+    return stable(dict(schema="scci_rh-stage6-digital-path-v1",date="2026-10-16",passed=True,
         assertions=ASSERTIONS,baseline_commit="736015848cf581df66488bf53aa6360152eb767b",
         scope="Conditional companion/response replay through unchanged compiled production C core; separate ideal supervision model; no physical/target/biological execution",
         current_profile_limit="Target records RHD only in OBSERVE; live synthetic spinal feature adapter is conditional and not implemented by target",

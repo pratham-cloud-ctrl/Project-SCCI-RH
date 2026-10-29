@@ -1,0 +1,604 @@
+{
+  "date": "2026-10-29",
+  "scope": "Existing Stage5delivery artifact map rebound only to its explicitly named current source files and existing declared text normalization; original visual review assertions/date unchanged. Independent mechanical report binding remains pending its full new audit.",
+  "changes": [
+    {
+      "source": "cad/stage5/assemble_reference_full.py",
+      "field": "bytes",
+      "previous": 4181,
+      "current": 4201
+    },
+    {
+      "source": "cad/stage5/assembly-contract.json",
+      "field": "bytes",
+      "previous": 1370,
+      "current": 1378
+    },
+    {
+      "source": "cad/stage5/SCCI_RH_stage5_reference_full.FCStd",
+      "field": "bytes",
+      "previous": 3594357,
+      "current": 3678508
+    },
+    {
+      "source": "cad/stage5/build_combined_bom.py",
+      "field": "bytes",
+      "previous": 1942,
+      "current": 1946
+    },
+    {
+      "source": "cad/stage5/build_drawing_set.py",
+      "field": "bytes",
+      "previous": 16056,
+      "current": 16080
+    },
+    {
+      "source": "cad/stage5/combined-assembly-receipt.json",
+      "field": "bytes",
+      "previous": 92230,
+      "current": 90672
+    },
+    {
+      "source": "cad/stage5/combined-display-verification.json",
+      "field": "bytes",
+      "previous": 220,
+      "current": 225
+    },
+    {
+      "source": "cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf",
+      "field": "bytes",
+      "previous": 6086212,
+      "current": 6086267
+    },
+    {
+      "source": "cad/stage5/future-interface/scci_rh_future_features.py",
+      "field": "bytes",
+      "previous": 4852,
+      "current": 4876
+    },
+    {
+      "source": "cad/stage5/future-interface/SCCI_RH_future_interface.FCStd",
+      "field": "bytes",
+      "previous": 888294,
+      "current": 900312
+    },
+    {
+      "source": "cad/stage5/future-interface/SCCI_RH_future_interface_exploded.FCStd",
+      "field": "bytes",
+      "previous": 804885,
+      "current": 813945
+    },
+    {
+      "source": "cad/stage5/future-interface/build_future_interface.py",
+      "field": "bytes",
+      "previous": 29296,
+      "current": 29380
+    },
+    {
+      "source": "cad/stage5/future-interface/contract.json",
+      "field": "bytes",
+      "previous": 256560,
+      "current": 246198
+    },
+    {
+      "source": "cad/stage5/future-interface/finalize_presentation.py",
+      "field": "bytes",
+      "previous": 2482,
+      "current": 2486
+    },
+    {
+      "source": "cad/stage5/future-interface/future-exploded-native.png",
+      "field": "bytes",
+      "previous": 29913,
+      "current": 29898
+    },
+    {
+      "source": "cad/stage5/future-interface/future-fitted-native.png",
+      "field": "bytes",
+      "previous": 23336,
+      "current": 23321
+    },
+    {
+      "source": "cad/stage5/future-interface/geometry-receipt.json",
+      "field": "bytes",
+      "previous": 256560,
+      "current": 246198
+    },
+    {
+      "source": "cad/stage5/future-interface/native-visual-receipt.json",
+      "field": "bytes",
+      "previous": 11506,
+      "current": 11026
+    },
+    {
+      "source": "cad/stage5/future-interface/open_future_interface.FCMacro",
+      "field": "bytes",
+      "previous": 748,
+      "current": 756
+    },
+    {
+      "source": "cad/stage5/future-interface/open_future_interface_exploded.FCMacro",
+      "field": "bytes",
+      "previous": 487,
+      "current": 491
+    },
+    {
+      "source": "cad/stage5/future-interface/parts.csv",
+      "field": "bytes",
+      "previous": 38446,
+      "current": 38209
+    },
+    {
+      "source": "cad/stage5/future-interface/port-map.csv",
+      "field": "bytes",
+      "previous": 10983,
+      "current": 10946
+    },
+    {
+      "source": "cad/stage5/future-interface/README.md",
+      "field": "bytes",
+      "previous": 3661,
+      "current": 3685
+    },
+    {
+      "source": "cad/stage5/future-interface/render-meshes.json",
+      "field": "bytes",
+      "previous": 3656848,
+      "current": 3656847
+    },
+    {
+      "source": "cad/stage5/future-interface/style_future_interface.py",
+      "field": "bytes",
+      "previous": 3043,
+      "current": 3055
+    },
+    {
+      "source": "cad/stage5/harness/SCCI_RH_harness_routes.FCStd",
+      "field": "sha256",
+      "previous": "23e3e6b6744c901e051962248e7b4ae7ec8cb48e778db850d7182a1995b6dd8b",
+      "current": "06ce0f35374abe431a95abc076d43b905026c9de607aadc6523f0da9d2ba6eae"
+    },
+    {
+      "source": "cad/stage5/harness/SCCI_RH_harness_routes.FCStd",
+      "field": "bytes",
+      "previous": 153532,
+      "current": 154294
+    },
+    {
+      "source": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
+      "field": "bytes",
+      "previous": 1104695,
+      "current": 1124090
+    },
+    {
+      "source": "cad/stage5/harness/SCCI_RH_mating_interfaces.step",
+      "field": "bytes",
+      "previous": 3657977,
+      "current": 3657985
+    },
+    {
+      "source": "cad/stage5/harness/body-port-bridge.csv",
+      "field": "bytes",
+      "previous": 7757,
+      "current": 7720
+    },
+    {
+      "source": "cad/stage5/harness/build_mating_interfaces.py",
+      "field": "bytes",
+      "previous": 5599,
+      "current": 5611
+    },
+    {
+      "source": "cad/stage5/harness/contract.json",
+      "field": "bytes",
+      "previous": 1360910,
+      "current": 1301470
+    },
+    {
+      "source": "cad/stage5/harness/geometry-receipt.json",
+      "field": "bytes",
+      "previous": 30080,
+      "current": 28632
+    },
+    {
+      "source": "cad/stage5/harness/plan_harness.py",
+      "field": "bytes",
+      "previous": 10625,
+      "current": 10641
+    },
+    {
+      "source": "cad/stage5/harness/README.md",
+      "field": "bytes",
+      "previous": 2567,
+      "current": 2575
+    },
+    {
+      "source": "cad/stage5/harness/wire-length-planning.csv",
+      "field": "bytes",
+      "previous": 42262,
+      "current": 42003
+    },
+    {
+      "source": "cad/stage5/MECHANICAL_BOM.csv",
+      "field": "bytes",
+      "previous": 53764,
+      "current": 54543
+    },
+    {
+      "source": "cad/stage5/OPEN_REFERENCE_ASSEMBLY.cmd",
+      "field": "bytes",
+      "previous": 335,
+      "current": 351
+    },
+    {
+      "source": "cad/stage5/OPEN_REFERENCE_CLOSED.cmd",
+      "field": "sha256",
+      "previous": "d386966e2d34ced5ecb8baea5cc4bbedb9f0538be6e6e94a2a63d13029d24129",
+      "current": "a3c05271ae8d10a0a702b5a29ad6f2b5605625529e35f3d8c9f4ddff316c5600"
+    },
+    {
+      "source": "cad/stage5/OPEN_REFERENCE_CLOSED.cmd",
+      "field": "bytes",
+      "previous": 117,
+      "current": 121
+    },
+    {
+      "source": "cad/stage5/open_reference_inspection.FCMacro",
+      "field": "bytes",
+      "previous": 901,
+      "current": 905
+    },
+    {
+      "source": "cad/stage5/README.md",
+      "field": "bytes",
+      "previous": 6156,
+      "current": 6168
+    },
+    {
+      "source": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
+      "field": "bytes",
+      "previous": 2529209,
+      "current": 2596734
+    },
+    {
+      "source": "cad/stage5/reference/SCCI_RH_reference_assembly.step.zip",
+      "field": "bytes",
+      "previous": 18951745,
+      "current": 20028009
+    },
+    {
+      "source": "cad/stage5/reference/SCCI_RH_reference_exploded.step.zip",
+      "field": "bytes",
+      "previous": 18951641,
+      "current": 20028921
+    },
+    {
+      "source": "cad/stage5/reference/board-datums.json",
+      "field": "bytes",
+      "previous": 187978,
+      "current": 179961
+    },
+    {
+      "source": "cad/stage5/reference/build_reference.py",
+      "field": "bytes",
+      "previous": 13577,
+      "current": 13600
+    },
+    {
+      "source": "cad/stage5/reference/contract.json",
+      "field": "bytes",
+      "previous": 71127,
+      "current": 68364
+    },
+    {
+      "source": "cad/stage5/reference/drawings/contact-router-tray.png",
+      "field": "bytes",
+      "previous": 96378,
+      "current": 96937
+    },
+    {
+      "source": "cad/stage5/reference/drawings/contact-router-tray.svg",
+      "field": "bytes",
+      "previous": 6064,
+      "current": 6068
+    },
+    {
+      "source": "cad/stage5/reference/drawings/controller-carrier-tray.png",
+      "field": "bytes",
+      "previous": 97357,
+      "current": 97847
+    },
+    {
+      "source": "cad/stage5/reference/drawings/controller-carrier-tray.svg",
+      "field": "bytes",
+      "previous": 6077,
+      "current": 6081
+    },
+    {
+      "source": "cad/stage5/reference/drawings/current-driver-tray.png",
+      "field": "bytes",
+      "previous": 95985,
+      "current": 96558
+    },
+    {
+      "source": "cad/stage5/reference/drawings/current-driver-tray.svg",
+      "field": "bytes",
+      "previous": 6064,
+      "current": 6068
+    },
+    {
+      "source": "cad/stage5/reference/drawings/monitoring-cell-tray.png",
+      "field": "bytes",
+      "previous": 96483,
+      "current": 97014
+    },
+    {
+      "source": "cad/stage5/reference/drawings/monitoring-cell-tray.svg",
+      "field": "bytes",
+      "previous": 6070,
+      "current": 6074
+    },
+    {
+      "source": "cad/stage5/reference/drawings/monitoring-transport-tray.png",
+      "field": "bytes",
+      "previous": 98393,
+      "current": 98907
+    },
+    {
+      "source": "cad/stage5/reference/drawings/monitoring-transport-tray.svg",
+      "field": "bytes",
+      "previous": 6081,
+      "current": 6085
+    },
+    {
+      "source": "cad/stage5/reference/drawings/mounting-hole-table.csv",
+      "field": "bytes",
+      "previous": 1827,
+      "current": 1794
+    },
+    {
+      "source": "cad/stage5/reference/drawings/power-tray.png",
+      "field": "bytes",
+      "previous": 94606,
+      "current": 95032
+    },
+    {
+      "source": "cad/stage5/reference/drawings/power-tray.svg",
+      "field": "bytes",
+      "previous": 6045,
+      "current": 6049
+    },
+    {
+      "source": "cad/stage5/reference/drawings/recording-front-end-tray.png",
+      "field": "bytes",
+      "previous": 98055,
+      "current": 98567
+    },
+    {
+      "source": "cad/stage5/reference/drawings/recording-front-end-tray.svg",
+      "field": "bytes",
+      "previous": 6078,
+      "current": 6082
+    },
+    {
+      "source": "cad/stage5/reference/drawings/reference-layout.png",
+      "field": "bytes",
+      "previous": 155483,
+      "current": 155969
+    },
+    {
+      "source": "cad/stage5/reference/drawings/reference-layout.svg",
+      "field": "bytes",
+      "previous": 9436,
+      "current": 9440
+    },
+    {
+      "source": "cad/stage5/reference/drawings/supervision-tray.png",
+      "field": "bytes",
+      "previous": 98256,
+      "current": 98847
+    },
+    {
+      "source": "cad/stage5/reference/drawings/supervision-tray.svg",
+      "field": "bytes",
+      "previous": 6035,
+      "current": 6039
+    },
+    {
+      "source": "cad/stage5/reference/extract_board_datums.py",
+      "field": "bytes",
+      "previous": 2131,
+      "current": 2133
+    },
+    {
+      "source": "cad/stage5/reference/EXTRACT_STEP.cmd",
+      "field": "bytes",
+      "previous": 119,
+      "current": 118
+    },
+    {
+      "source": "cad/stage5/reference/extract_steps.ps1",
+      "field": "sha256",
+      "previous": "0a9d77ab8c220cddba3d8df0907e5a9db37f62106689589483f25c63da481637",
+      "current": "463df3a54d10de26e65a45c1c82a515d6c25bb841112a1837bbf1f995eddc6c0"
+    },
+    {
+      "source": "cad/stage5/reference/extract_steps.ps1",
+      "field": "bytes",
+      "previous": 1658,
+      "current": 1665
+    },
+    {
+      "source": "cad/stage5/reference/finalize_receipts.py",
+      "field": "bytes",
+      "previous": 3697,
+      "current": 3728
+    },
+    {
+      "source": "cad/stage5/reference/make_contract.py",
+      "field": "bytes",
+      "previous": 5838,
+      "current": 5857
+    },
+    {
+      "source": "cad/stage5/reference/make_drawings.py",
+      "field": "bytes",
+      "previous": 6844,
+      "current": 6847
+    },
+    {
+      "source": "cad/stage5/reference/mcp-inspect-request.json",
+      "field": "bytes",
+      "previous": 567,
+      "current": 570
+    },
+    {
+      "source": "cad/stage5/reference/mcp-inspection.json",
+      "field": "bytes",
+      "previous": 989,
+      "current": 967
+    },
+    {
+      "source": "cad/stage5/reference/mcp-open.json",
+      "field": "bytes",
+      "previous": 77,
+      "current": 84
+    },
+    {
+      "source": "cad/stage5/reference/mcp-style.json",
+      "field": "bytes",
+      "previous": 2211,
+      "current": 2219
+    },
+    {
+      "source": "cad/stage5/reference/mechanical-bom.csv",
+      "field": "bytes",
+      "previous": 16619,
+      "current": 16448
+    },
+    {
+      "source": "cad/stage5/reference/OPEN_EXPLODED.cmd",
+      "field": "bytes",
+      "previous": 428,
+      "current": 451
+    },
+    {
+      "source": "cad/stage5/reference/OPEN_REFERENCE.cmd",
+      "field": "sha256",
+      "previous": "035b048e565da27f2f7b2afcda6400dd3117991e0c9893d9dc787a5d5f7b4680",
+      "current": "fbae1ca8b11fa066e3369bebbf9bbc531744a38e65b6c69918e896ab7d12a062"
+    },
+    {
+      "source": "cad/stage5/reference/OPEN_REFERENCE.cmd",
+      "field": "bytes",
+      "previous": 304,
+      "current": 327
+    },
+    {
+      "source": "cad/stage5/reference/producer-geometry.json",
+      "field": "bytes",
+      "previous": 94961,
+      "current": 91363
+    },
+    {
+      "source": "cad/stage5/reference/README.md",
+      "field": "bytes",
+      "previous": 3614,
+      "current": 3611
+    },
+    {
+      "source": "cad/stage5/reference/render_drawings.py",
+      "field": "bytes",
+      "previous": 769,
+      "current": 768
+    },
+    {
+      "source": "cad/stage5/reference/style_gui.py",
+      "field": "bytes",
+      "previous": 2131,
+      "current": 2138
+    },
+    {
+      "source": "cad/stage5/reference-full-native.png",
+      "field": "bytes",
+      "previous": 42872,
+      "current": 42857
+    },
+    {
+      "source": "cad/stage5/reference-inspection-native.png",
+      "field": "bytes",
+      "previous": 66546,
+      "current": 66532
+    },
+    {
+      "source": "cad/stage5/render_assemblies.py",
+      "field": "bytes",
+      "previous": 6591,
+      "current": 6599
+    },
+    {
+      "source": "cad/stage5/renders/SCCI_RH_engineering_assemblies.blend",
+      "field": "bytes",
+      "previous": 10066369,
+      "current": 9694715
+    },
+    {
+      "source": "cad/stage5/renders/future_assembled.png",
+      "field": "bytes",
+      "previous": 2491017,
+      "current": 2491025
+    },
+    {
+      "source": "cad/stage5/renders/future_exploded.png",
+      "field": "bytes",
+      "previous": 2522253,
+      "current": 2522261
+    },
+    {
+      "source": "cad/stage5/renders/reference_exploded.png",
+      "field": "bytes",
+      "previous": 2628174,
+      "current": 2628182
+    },
+    {
+      "source": "cad/stage5/style_reference_full.py",
+      "field": "bytes",
+      "previous": 3441,
+      "current": 3445
+    }
+  ],
+  "path": "provenance/stage5-delivery-review.json",
+  "after_sha256": "2acc85553bc998afb9e93b18895b79e80c4e93fb79c5412c1ada8a3d1fbabf79",
+  "actual_current_visual_review": {
+    "date": "2026-10-29",
+    "renders": [
+      {
+        "path": "cad/stage5/renders/reference_assembled.png",
+        "sha256": "9005fbef213d4e590561e7c9fe4f134931ff8692c30fc34b329e9ef3e733375f",
+        "review": "Opened current full-resolution raster; assembled/exploded geometry visible, no clipped content or old project wordmark."
+      },
+      {
+        "path": "cad/stage5/renders/reference_exploded.png",
+        "sha256": "48dca660333a71649f4e546656311757c88a0c5be6cf9d355641427bceb1c038",
+        "review": "Opened current full-resolution raster; assembled/exploded geometry visible, no clipped content or old project wordmark."
+      },
+      {
+        "path": "cad/stage5/renders/future_assembled.png",
+        "sha256": "23537dcfc1c6c2269b28e9d8b1e7ecf002eca77f6cdf67cef590e12d7f59e5e6",
+        "review": "Opened current full-resolution raster; assembled/exploded geometry visible, no clipped content or old project wordmark."
+      },
+      {
+        "path": "cad/stage5/renders/future_exploded.png",
+        "sha256": "7720956d7b52e6958f7f63181ed40b32c8ff1512a14ec7968e1794730f9ad783",
+        "review": "Opened current full-resolution raster; assembled/exploded geometry visible, no clipped content or old project wordmark."
+      }
+    ],
+    "pdf": {
+      "path": "cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf",
+      "sha256": "f6bcd0781aa96807f7a8b05d1f8e0f3965a98f533ebe460122aa8ee6ae19e370",
+      "pages": 6,
+      "review": "Inspected existing rendered six-page contact sheet; Project SCCI RH headings, diagrams, 36-port table and page boundaries intact. Earlier page-by-page review bound separately in rebrand-pdf-review.json."
+    },
+    "native_application_view_checked_this_turn": false
+  }
+}

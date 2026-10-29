@@ -1,6 +1,6 @@
 # Native recording slice and system boundary
 
-This Stage 4 package makes the recording half of ATO's proposed bidirectional
+This Stage 4 package makes the recording half of SCCI_RH's proposed bidirectional
 spinal interface inspectable in native electronics. Eighteen contacts provide
 sixteen positive inputs, one shared reference feeding sixteen negative inputs,
 and one separately resistance-bounded bias contact. These yield sixteen

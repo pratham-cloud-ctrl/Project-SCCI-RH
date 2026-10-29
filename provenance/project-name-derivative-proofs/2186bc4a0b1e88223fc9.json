@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "scripts/verify_integrated_pcb.py",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "690b0517ecf4ff5de2878f9925d53e8bb7cf9afe8eb44eacd2861e74e29f69df",
+  "current_sha256": "84704f82b069e375ca7dbf9cb6fa2ad529ff26d6f0da0d9f3d074ca0c910153c",
+  "method": "reviewed_branding_verifier_adaptation",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "Original 667-file selection/count and electrical/numeric assertions retained; exact immutable-blob branding/attestation adapter replaces byte-unchanged claim.",
+  "independent_evidence": []
+}

@@ -50,7 +50,7 @@ def main():
     assert expected.issubset(set(parts['power']['J3']['nets'].values())|set(parts['power']['J4']['nets'].values()))
     assert find(('supervision','CH0_MON_SUP_OK'))!=find(('supervision','CH0_EXT_SUP_OK'))
     hashes[Path(__file__).relative_to(ROOT).as_posix()]=sha(Path(__file__))
-    receipt={'schema':'ato.stage4.power-integration.v1','date':'2026-10-14','new_power_wires':32,
+    receipt={'schema':'scci_rh.stage4.power-integration.v1','date':'2026-10-14','new_power_wires':32,
              'combined_wire_plan_connections':count,'endpoint_manifest_XML_comparisons':checks,
              'generated_rails':9,'floating_ground_preserved':True,'fault_output_is_open_drain':True,
              'consolidated_native_hierarchy_or_PCB_created':False,'sha256_lf':hashes}

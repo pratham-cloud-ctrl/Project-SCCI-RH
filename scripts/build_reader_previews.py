@@ -94,7 +94,7 @@ def build() -> tuple[dict, dict[str, bytes]]:
     source_bytes = sum(item["source_bytes"] for item in images)
     output_bytes = sum(item["output_bytes"] for item in images)
     manifest = {
-        "schema": "ato.reader-previews.v1",
+        "schema": "scci_rh.reader-previews.v1",
         "purpose": "Lightweight GitHub reader images; original native-render PNGs remain authoritative and unchanged",
         "generator": "scripts/build_reader_previews.py",
         "generator_sha256_lf": sha256(Path(__file__).read_bytes().replace(b"\r\n", b"\n")),

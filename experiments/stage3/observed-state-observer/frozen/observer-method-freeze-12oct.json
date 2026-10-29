@@ -1,9 +1,9 @@
 {
-  "schema": "ato.tmp.observed-state-method-freeze.v1",
+  "schema": "scci_rh.tmp.observed-state-method-freeze.v1",
   "date": "2026-10-12",
   "classification": "FROZEN_NONCONFIRMATORY_DEVELOPMENT_METHOD",
   "protocol_sha256": "d4f541a7d0d2b38f5e438ce30df148d45b753699d3c1251f79fe89b6f4ad84b2",
-  "implementation_sha256": "cbb2d6aa5a466261e372d1071cccf908983c8dbe8eeb8001b1d20428ed2362af",
+  "implementation_sha256": "203a5bdd90ae20a67f1b6475b47c31a73880d96a5c4434957b51f28a2f767c44",
   "calibration_input_sha256": "bf2feff549b8d984412fbf3f11aa5d4ff640dcb92f7dc4ee079cee492b201fcb",
   "calibration_records": [
     {

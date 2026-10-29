@@ -2,7 +2,7 @@
   (base_design power)
   (placement
     (resolution um 10)
-    (component "ato_power:R_0805_2012Metric"
+    (component "scci_rh_power:R_0805_2012Metric"
       (place R62013 404350 -659050 front 0)
       (place R60242 1159950 -683050 front 0)
       (place R62000 185350 -649050 front 0)
@@ -65,7 +65,7 @@
       (place R62012 397050 -621550 front 90)
       (place R63012 1565650 -227050 front 90)
     )
-    (component "ato_power:C_1206_3216Metric"
+    (component "scci_rh_power:C_1206_3216Metric"
       (place C63014 1475150 -287050 front 0)
       (place C61001 292550 -1599650 front 0)
       (place C63004 1073650 -287050 front 0)
@@ -118,12 +118,12 @@
       (place C63012 1567650 -272050 front 90)
       (place C64122 519850 -277350 front 90)
     )
-    (component "ato_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm"
+    (component "scci_rh_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm"
       (place U60410 207250 -269850 front 0)
       (place U60412 468050 -269850 front 0)
       (place U60411 728850 -269850 front 0)
     )
-    (component "ato_power:L_Bourns_SRP5030T"
+    (component "scci_rh_power:L_Bourns_SRP5030T"
       (place L60110 165250 -1011650 front 0)
       (place L60301 1349150 -238750 front 0)
       (place L60100 165250 -1521150 front 0)
@@ -131,27 +131,27 @@
       (place L60102 1429250 -594050 front 0)
       (place L60300 947650 -238750 front 0)
     )
-    (component "ato_power:PinHeader_1x03_P2.54mm_Vertical"
+    (component "scci_rh_power:PinHeader_1x03_P2.54mm_Vertical"
       (place J60412 408750 -397350 front 90)
       (place J60411 669550 -397350 front 90)
       (place J60410 147950 -397350 front 90)
       (place J60006 1232300 -1324450 front 90)
     )
-    (component "ato_power:VSSOP-8_3x3mm_P0.65mm"
+    (component "scci_rh_power:VSSOP-8_3x3mm_P0.65mm"
       (place U60102 1536550 -635050 front 0)
       (place U60101 636750 -1562150 front 0)
       (place U60100 300050 -1562150 front 0)
     )
-    (component "ato_power:PinHeader_1x12_P2.54mm_Vertical"
+    (component "scci_rh_power:PinHeader_1x12_P2.54mm_Vertical"
       (place J60002 1232300 -1096750 front 90)
     )
-    (component "ato_power:D_SOD-323"
+    (component "scci_rh_power:D_SOD-323"
       (place D60230 586150 -718550 front 0)
     )
-    (component "ato_power:Fuse_1206_3216Metric"
+    (component "scci_rh_power:Fuse_1206_3216Metric"
       (place F60001 597800 -1039650 front 0)
     )
-    (component "ato_power:SOT-23-6"
+    (component "scci_rh_power:SOT-23-6"
       (place U60231 980250 -582550 front 0)
       (place U60202 178250 -768150 front 0)
       (place U60203 610950 -614050 front 0)
@@ -168,7 +168,7 @@
       (place H3 40000 -1810000 front 0)
       (place H4 1710000 -1810000 front 0)
     )
-    (component "ato_power:SOT-23-5"
+    (component "scci_rh_power:SOT-23-5"
       (place U60235 980250 -684550 front 0)
       (place U60232 1061750 -582550 front 0)
       (place U60234 1232350 -610050 front 0)
@@ -176,29 +176,29 @@
       (place U60230 593650 -753550 front 0)
       (place U60236 1061750 -684550 front 0)
     )
-    (component "ato_power:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm"
+    (component "scci_rh_power:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm"
       (place U60110 310050 -1052450 front 0)
     )
-    (component "ato_power:D_SMC"
+    (component "scci_rh_power:D_SMC"
       (place D60001 662600 -1032150 front 90)
     )
-    (component "ato_power:PinHeader_1x05_P2.54mm_Vertical"
+    (component "scci_rh_power:PinHeader_1x05_P2.54mm_Vertical"
       (place J60005 1384400 -1248550 front 90)
     )
-    (component "ato_power:PinHeader_1x04_P2.54mm_Vertical"
+    (component "scci_rh_power:PinHeader_1x04_P2.54mm_Vertical"
       (place J60004 1232300 -1248550 front 90)
     )
-    (component "ato_power:PinHeader_1x07_P2.54mm_Vertical"
+    (component "scci_rh_power:PinHeader_1x07_P2.54mm_Vertical"
       (place J60003 1232400 -1172650 front 90)
     )
-    (component "ato_power:PinHeader_1x02_P2.54mm_Vertical"
+    (component "scci_rh_power:PinHeader_1x02_P2.54mm_Vertical"
       (place J60001 1232300 -1020850 front 90)
       (place SW60001 517550 -1002150 front 90)
     )
-    (component "ato_power:TRACO_TMR3_SIP8_21.8x9.1_P2.54"
+    (component "scci_rh_power:TRACO_TMR3_SIP8_21.8x9.1_P2.54"
       (place U60400 839200 -1040150 front 0)
     )
-    (component "ato_power:D_SOD-323F"
+    (component "scci_rh_power:D_SOD-323F"
       (place D60301 1402150 -231250 front 90)
       (place D60300 1000650 -231250 front 90)
     )

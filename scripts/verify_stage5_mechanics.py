@@ -18,6 +18,8 @@ import xml.etree.ElementTree as ET
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT/'scripts'))
+from project_branding import assert_baseline_equivalence
 BASELINE = '7a4371b7ff891248a5ab4f12e3149268485d828f'
 STAGE5 = ROOT / 'cad/stage5'
 REPORT = ROOT / 'provenance/stage5-mechanical-verification.json'
@@ -49,8 +51,15 @@ def actual_inspector_source(receipt):
     if sha(current,True)==expected:
         return current
     archived=ROOT/'provenance/stage5-inspector-sources'/(expected+'.py.txt')
-    assert archived.is_file() and sha(archived,True)==expected,'actual executed independent inspector source must be preserved'
-    return archived
+    if archived.is_file() and sha(archived,True)==expected:
+        return archived
+    # Archive basenames retain immutable historical source identities. A
+    # reviewed namespace migration can change source text without inventing a
+    # newly executed historical inspection; locate the exact migrated content.
+    matches=[path for path in (ROOT/'provenance/stage5-inspector-sources').glob('*.py.txt')
+             if sha(path,True)==expected]
+    assert len(matches)==1,'exact hash-bound independent inspector source must be present uniquely'
+    return matches[0]
 
 
 def audit_reused_reference_evidence(receipt, package_path, package, check):
@@ -86,7 +95,7 @@ def audit_reused_reference_evidence(receipt, package_path, package, check):
     manifest_path=ROOT/clearance['manifest']
     check(sha(manifest_path)==clearance['manifest_sha256'],'exact completed-clearance evidence manifest')
     manifest=json.loads(manifest_path.read_text(encoding='utf-8'))
-    check(manifest['schema']=='ato.stage5.actual-clearance-probe.v1','actual completed clearance schema')
+    check(manifest['schema']=='scci_rh.stage5.actual-clearance-probe.v1','actual completed clearance schema')
     check(manifest['bindings']['native_sha256']==sha(ROOT/package['native']),'actual completed clearance native binding')
     check(manifest['bindings']['contract_canonical_sha256']==canonical(package_path),'actual completed clearance contract binding')
     for role,row in manifest['files'].items():
@@ -128,7 +137,7 @@ def native_labels(path):
 
 
 def preserve_sources(check):
-    """Use Git's own filters, rather than platform-dependent working-tree bytes."""
+    """Retain original Git identities and explicitly compare renamed artifacts."""
     prefixes = ['cad/stage2', 'cad/exports', 'electronics', 'firmware',
                 'docs/stage1', 'docs/stage2', 'docs/stage3', 'experiments','provenance']
     tree = subprocess.check_output(['git', 'ls-tree', '-r', '-z', BASELINE, '--', *prefixes], cwd=ROOT)
@@ -144,14 +153,11 @@ def preserve_sources(check):
         check(kind == 'blob', 'source baseline contains ordinary file blobs')
         expected.append((relative, blob))
     check(len(expected) > 1500, 'substantial original Stage 1-4 source baseline')
-    hashed = subprocess.run(['git', 'hash-object', '--stdin-paths'], cwd=ROOT,
-                            input=('\n'.join(p for p, _ in expected)+'\n').encode('utf-8'),
-                            stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True).stdout.decode().splitlines()
-    check(len(hashed) == len(expected), 'every preserved source is present')
-    for (path, blob), actual in zip(expected, hashed):
-        check(blob == actual, 'unchanged Stage 1-4 source '+path)
-    return dict(commit=BASELINE, preserved_files=len(expected),
-                path_blob_digest=hashlib.sha256(''.join(p+' '+b+'\n' for p, b in expected).encode()).hexdigest())
+    migration = assert_baseline_equivalence(ROOT, BASELINE, expected)
+    check(migration['files_compared'] == len(expected), 'every original Stage 1-4 identity checked after branding migration')
+    return dict(commit=BASELINE, historical_source_files=len(expected),
+                path_blob_digest=hashlib.sha256(''.join(p+' '+b+'\n' for p, b in expected).encode()).hexdigest(),
+                authorized_brand_migration=migration)
 
 
 def pcb_geometry(path):
@@ -449,8 +455,9 @@ def audit():
         check(combined['inspector_sha256_lf']==sha(ROOT/combined['inspector'],True),'current combined independent inspector source')
         check(not combined['physical_qualification'],'combined entry point nominal geometry evidence limit')
         combined={'receipt_canonical_sha256':canonical(combined_path),'native_sha256':combined['native_sha256'],'physical_objects':260}
-    return dict(schema='ato.stage5.mechanical-verification.v1',passed=True,checks=checks,
+    return dict(schema='scci_rh.stage5.mechanical-verification.v1',date='2026-10-28',passed=True,checks=checks,
                 verifier='scripts/verify_stage5_mechanics.py',verifier_sha256_lf=sha(Path(__file__),True),
+                branding_adapter_sha256_lf=sha(ROOT/'scripts/project_branding.py',True),
                 scope='Full-size modular digital reference plus separate conditional future implant/interface geometry; no physical qualification',
                 baseline=preserved,root_contract_canonical_sha256=canonical(contract_path),
                 stage4_verification_canonical_sha256=canonical(stage4_path),

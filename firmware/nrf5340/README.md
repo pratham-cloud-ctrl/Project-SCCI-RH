@@ -1,6 +1,6 @@
-# ATO nRF5340 firmware
+# SCCI_RH nRF5340 firmware
 
-This is the actual C/Zephyr firmware package for ATO's digital SCCI engineering
+This is the actual C/Zephyr firmware package for SCCI_RH's digital SCCI engineering
 concept. It connects the proposed seven circuit packages to a bounded processor
 backend, a production policy runtime and an isolated companion protocol. The
 firmware supplies inspectable implementation and build evidence; it has not
@@ -39,13 +39,13 @@ catches up by claiming a continuous earlier history.
 - [Firmware design and evidence boundary](../../docs/stage4/nrf5340-firmware-design.md).
 - [Primary component/peripheral review](../../docs/stage4/nrf5340-component-and-peripheral-review.md).
 - [Pin map](../../docs/stage4/nrf5340-pin-map.csv).
-- [Application entry](app/src/main.c), [backend interface](app/src/ato_backend.h),
+- [Application entry](app/src/main.c), [backend interface](app/src/scci_rh_backend.h),
   and [production policy core](core/README.md).
 - [Exact binary companion protocol and backend details](app/README.md).
 - [Compiled policy test results](runtime-tests.json) and
   [read-only test runner](tests/check_runtime.py).
-- [Linked ELF](artifacts/ato.elf), [HEX](artifacts/ato.hex),
-  [binary](artifacts/ato.bin), [link map](artifacts/ato.map),
+- [Linked ELF](artifacts/scci_rh.elf), [HEX](artifacts/scci_rh.hex),
+  [binary](artifacts/scci_rh.bin), [link map](artifacts/scci_rh.map),
   [configuration](artifacts/build.config) and [device tree](artifacts/zephyr.dts).
 - [Target build receipt](../../provenance/stage4-nrf5340-build.json) and
   [independent verification receipt](../../provenance/stage4-nrf5340-verification.json).
@@ -53,9 +53,9 @@ catches up by claiming a continuous earlier history.
 
 The application uses nRF Connect SDK v3.4.1 and the supported
 `nrf5340dk/nrf5340/cpuapp` build target. That target supplies startup and linker
-support; it does not turn the DK into an ATO carrier. Its existing buttons, LEDs,
+support; it does not turn the DK into an SCCI_RH carrier. Its existing buttons, LEDs,
 flash and debugger connections conflict with some proposed pins. The dedicated
-ATO carrier remains the next PCB package.
+SCCI_RH carrier remains the next PCB package.
 
 The new carrier dependency is explicit: four SN74LVC165A devices serialize eight
 active-address bits and eighteen health/status bits, plus six fixed sentinel

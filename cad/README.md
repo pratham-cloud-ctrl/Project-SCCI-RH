@@ -3,10 +3,10 @@
 The current engineering package is [Stage 5 mechanical assembly and packaging](stage5/README.md):
 actual eight-board source geometry, a complete native reference assembly,
 editable chassis/mounting interfaces, and a separate detailed conditional
-future implanted-interface concept. Its [drawing set](stage5/drawings/ATO_Stage5_Mechanical_Review.pdf)
+future implanted-interface concept. Its [drawing set](stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf)
 and explicit launchers are the current entry points.
 
-The [Stage 2 allocation](stage2/ATO_stage2_allocation.FCStd) and the original
+The [Stage 2 allocation](stage2/SCCI_RH_stage2_allocation.FCStd) and the original
 desktop models below remain preserved historical inputs.
 
 ## Historical v1.0 subsystem enclosure
@@ -15,8 +15,8 @@ The 100 x 70 x 32 mm desktop enclosure makes the digital electronics tangible.
 It is distinct from the proposed future implanted interface. It has no claim to
 sterility, hermetic sealing, biocompatibility, anatomical fit or implantation.
 
-`build_ato.py` is the authoritative parametric source (millimetres). Install
-build123d 0.13 and run `python cad/build_ato.py`. Native STEP solids and STL meshes
+`build_scci_rh.py` is the authoritative parametric source (millimetres). Install
+build123d 0.13 and run `python cad/build_scci_rh.py`. Native STEP solids and STL meshes
 are in `exports/`; `geometry-checks.json` records validity, round-trip error and
 PCB/base and lid/base overlap. The PCB envelope is 80 x 50 x 1.6 mm, with 3.2 mm
 mounting holes at ±30 mm, ±15 mm about its centre. Its bottom is at z=8 mm.

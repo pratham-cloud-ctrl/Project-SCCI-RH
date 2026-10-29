@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage4.recording-front-end.connectivity.v1",
+  "schema": "scci_rh.stage4.recording-front-end.connectivity.v1",
   "date": "2026-10-13",
   "scope": "Native 16-stream shared-reference isolated recording research slice; artificial signals; not PCB or implant",
   "parts": [
@@ -44,7 +44,7 @@
         55.88
       ],
       "sheet": "root",
-      "footprint": "ato_afe:PinHeader_1x04_P2.54mm_Vertical",
+      "footprint": "scci_rh_afe:PinHeader_1x04_P2.54mm_Vertical",
       "description": "Externally supplied regulated isolated rails; no isolated power converter or rail supervisor is implemented",
       "source_url": "",
       "dnp": false
@@ -132,7 +132,7 @@
         111.76
       ],
       "sheet": "root",
-      "footprint": "ato_afe:PinHeader_1x10_P2.54mm_Vertical",
+      "footprint": "scci_rh_afe:PinHeader_1x10_P2.54mm_Vertical",
       "description": "Host/driver domain; active-high CS_ASSERT is inverted only on AFE island; voltage-qualified readiness is external",
       "source_url": "",
       "dnp": false
@@ -276,7 +276,7 @@
         91.44
       ],
       "sheet": "root",
-      "footprint": "ato_afe:PinHeader_1x18_P2.54mm_Vertical",
+      "footprint": "scci_rh_afe:PinHeader_1x18_P2.54mm_Vertical",
       "description": "Research fixture header only: sixteen positive contacts, one reference and one separate body-bias contact; no stimulation return",
       "source_url": "",
       "dnp": false
@@ -406,7 +406,7 @@
         63.5
       ],
       "sheet": "root",
-      "footprint": "ato_afe:SOIC-16W_7.5x10.3mm_P1.27mm",
+      "footprint": "scci_rh_afe:SOIC-16W_7.5x10.3mm_P1.27mm",
       "description": "SPI galvanic barrier; F outputs default LOW when valid receive supply lacks valid input signal; no isolated power",
       "source_url": "https://www.ti.com/lit/ds/symlink/iso6741.pdf",
       "dnp": false
@@ -536,7 +536,7 @@
         127
       ],
       "sheet": "root",
-      "footprint": "ato_afe:SOIC-16W_7.5x10.3mm_P1.27mm",
+      "footprint": "scci_rh_afe:SOIC-16W_7.5x10.3mm_P1.27mm",
       "description": "Separate active-high controls default disconnect/clamp; reverse wired fault flag is status, never evidence of RHD linear input voltage",
       "source_url": "https://www.ti.com/lit/ds/symlink/iso6741.pdf",
       "dnp": false
@@ -589,7 +589,7 @@
         63.5
       ],
       "sheet": "root",
-      "footprint": "ato_afe:SOT-23-5",
+      "footprint": "scci_rh_afe:SOT-23-5",
       "description": "Local inversion makes loss-of-link default CS inactive HIGH while island supply is valid",
       "source_url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf",
       "dnp": false
@@ -642,7 +642,7 @@
         127
       ],
       "sheet": "root",
-      "footprint": "ato_afe:SOT-23-5",
+      "footprint": "scci_rh_afe:SOT-23-5",
       "description": "ACQUIRE = CONNECT AND RECORD; invalid01 command remains physically clamped; no autonomous voltage qualification",
       "source_url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf",
       "dnp": false
@@ -674,7 +674,7 @@
         172.72
       ],
       "sheet": "root",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Explicit control/default or fault-flag pull; power ramps outside valid receiver supply remain unqualified",
       "source_url": "",
       "dnp": false
@@ -706,7 +706,7 @@
         172.72
       ],
       "sheet": "root",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Explicit control/default or fault-flag pull; power ramps outside valid receiver supply remain unqualified",
       "source_url": "",
       "dnp": false
@@ -738,7 +738,7 @@
         172.72
       ],
       "sheet": "root",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Explicit control/default or fault-flag pull; power ramps outside valid receiver supply remain unqualified",
       "source_url": "",
       "dnp": false
@@ -770,7 +770,7 @@
         172.72
       ],
       "sheet": "root",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Explicit control/default or fault-flag pull; power ramps outside valid receiver supply remain unqualified",
       "source_url": "",
       "dnp": false
@@ -802,7 +802,7 @@
         172.72
       ],
       "sheet": "root",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Explicit control/default or fault-flag pull; power ramps outside valid receiver supply remain unqualified",
       "source_url": "",
       "dnp": false
@@ -834,7 +834,7 @@
         198.12
       ],
       "sheet": "root",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Explicit control/default or fault-flag pull; power ramps outside valid receiver supply remain unqualified",
       "source_url": "",
       "dnp": false
@@ -866,7 +866,7 @@
         198.12
       ],
       "sheet": "root",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Explicit control/default or fault-flag pull; power ramps outside valid receiver supply remain unqualified",
       "source_url": "",
       "dnp": false
@@ -898,7 +898,7 @@
         198.12
       ],
       "sheet": "root",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Explicit control/default or fault-flag pull; power ramps outside valid receiver supply remain unqualified",
       "source_url": "",
       "dnp": false
@@ -930,7 +930,7 @@
         198.12
       ],
       "sheet": "root",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Explicit control/default or fault-flag pull; power ramps outside valid receiver supply remain unqualified",
       "source_url": "",
       "dnp": false
@@ -962,7 +962,7 @@
         198.12
       ],
       "sheet": "root",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Explicit control/default or fault-flag pull; power ramps outside valid receiver supply remain unqualified",
       "source_url": "",
       "dnp": false
@@ -994,7 +994,7 @@
         223.51999999999998
       ],
       "sheet": "root",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Explicit control/default or fault-flag pull; power ramps outside valid receiver supply remain unqualified",
       "source_url": "",
       "dnp": false
@@ -1026,7 +1026,7 @@
         223.51999999999998
       ],
       "sheet": "root",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Explicit control/default or fault-flag pull; power ramps outside valid receiver supply remain unqualified",
       "source_url": "",
       "dnp": false
@@ -1058,7 +1058,7 @@
         223.51999999999998
       ],
       "sheet": "root",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Explicit control/default or fault-flag pull; power ramps outside valid receiver supply remain unqualified",
       "source_url": "",
       "dnp": false
@@ -1090,7 +1090,7 @@
         223.51999999999998
       ],
       "sheet": "root",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Explicit control/default or fault-flag pull; power ramps outside valid receiver supply remain unqualified",
       "source_url": "",
       "dnp": false
@@ -1122,7 +1122,7 @@
         248.92
       ],
       "sheet": "root",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "U1 host bypass",
       "source_url": "",
       "dnp": false
@@ -1154,7 +1154,7 @@
         248.92
       ],
       "sheet": "root",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "U1 island bypass",
       "source_url": "",
       "dnp": false
@@ -1186,7 +1186,7 @@
         248.92
       ],
       "sheet": "root",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "U2 host bypass",
       "source_url": "",
       "dnp": false
@@ -1218,7 +1218,7 @@
         248.92
       ],
       "sheet": "root",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "U2 island bypass",
       "source_url": "",
       "dnp": false
@@ -1250,7 +1250,7 @@
         248.92
       ],
       "sheet": "root",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "U3 inverter bypass",
       "source_url": "",
       "dnp": false
@@ -1282,7 +1282,7 @@
         248.92
       ],
       "sheet": "root",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "U4 AND bypass",
       "source_url": "",
       "dnp": false
@@ -1699,8 +1699,8 @@
         101.6
       ],
       "sheet": "acquisition",
-      "footprint": "ato_afe:RHD2216_QFN56_8x8_P0.5_EP6.1",
-      "description": "Sixteen differential amplifier inputs and multiplexed 16-bit ADC; common-reference montage is an ATO choice, not sixteen bipolar electrode pairs",
+      "footprint": "scci_rh_afe:RHD2216_QFN56_8x8_P0.5_EP6.1",
+      "description": "Sixteen differential amplifier inputs and multiplexed 16-bit ADC; common-reference montage is an SCCI_RH choice, not sixteen bipolar electrode pairs",
       "source_url": "https://intantech.com/files/Intan_RHD2000_series_datasheet.pdf",
       "dnp": false
     },
@@ -1731,7 +1731,7 @@
         193.04
       ],
       "sheet": "acquisition",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "Bottom-side CMOS supply bypass, place near VDD13/26",
       "source_url": "",
       "dnp": false
@@ -1763,7 +1763,7 @@
         193.04
       ],
       "sheet": "acquisition",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "Right-side supply bypass, place near VDD31",
       "source_url": "",
       "dnp": false
@@ -1795,7 +1795,7 @@
         193.04
       ],
       "sheet": "acquisition",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "ADC reference bypass within 1cm; no external loading or reference voltage source",
       "source_url": "",
       "dnp": false
@@ -1827,7 +1827,7 @@
         228.6
       ],
       "sheet": "acquisition",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "Provisional local supply reservoir; effective capacitance and rail ripple are external qualifications",
       "source_url": "",
       "dnp": false
@@ -1859,7 +1859,7 @@
         66.04
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Series impedance before source-side fault protection; resistor voltage/pulse limits require qualification",
       "source_url": "",
       "dnp": false
@@ -1891,7 +1891,7 @@
         101.6
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Defines isolated internal node; maximum leakage can produce material DC voltage, so this is not a linear-range guarantee",
       "source_url": "",
       "dnp": false
@@ -1965,7 +1965,7 @@
         147.32
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm",
       "description": "Dual-supply bipolar SPDT: S1 grounds RHD during clamp; S2 connects protected node only after external qualification",
       "source_url": "https://www.ti.com/lit/ds/symlink/tmux6219.pdf",
       "dnp": false
@@ -1997,8 +1997,8 @@
         193.04
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:C_0805_2012Metric",
-      "description": "ATO charge-injection absorption choice; not a guaranteed switch injection bound",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
+      "description": "SCCI_RH charge-injection absorption choice; not a guaranteed switch injection bound",
       "source_url": "",
       "dnp": false
     },
@@ -2029,7 +2029,7 @@
         233.68
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local positive rail bypass",
       "source_url": "",
       "dnp": false
@@ -2061,7 +2061,7 @@
         266.7
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local negative rail bypass",
       "source_url": "",
       "dnp": false
@@ -2093,7 +2093,7 @@
         66.04
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Series impedance before source-side fault protection; resistor voltage/pulse limits require qualification",
       "source_url": "",
       "dnp": false
@@ -2125,7 +2125,7 @@
         101.6
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Defines isolated internal node; maximum leakage can produce material DC voltage, so this is not a linear-range guarantee",
       "source_url": "",
       "dnp": false
@@ -2199,7 +2199,7 @@
         147.32
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm",
       "description": "Dual-supply bipolar SPDT: S1 grounds RHD during clamp; S2 connects protected node only after external qualification",
       "source_url": "https://www.ti.com/lit/ds/symlink/tmux6219.pdf",
       "dnp": false
@@ -2231,8 +2231,8 @@
         193.04
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:C_0805_2012Metric",
-      "description": "ATO charge-injection absorption choice; not a guaranteed switch injection bound",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
+      "description": "SCCI_RH charge-injection absorption choice; not a guaranteed switch injection bound",
       "source_url": "",
       "dnp": false
     },
@@ -2263,7 +2263,7 @@
         233.68
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local positive rail bypass",
       "source_url": "",
       "dnp": false
@@ -2295,7 +2295,7 @@
         266.7
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local negative rail bypass",
       "source_url": "",
       "dnp": false
@@ -2327,7 +2327,7 @@
         66.04
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Series impedance before source-side fault protection; resistor voltage/pulse limits require qualification",
       "source_url": "",
       "dnp": false
@@ -2359,7 +2359,7 @@
         101.6
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Defines isolated internal node; maximum leakage can produce material DC voltage, so this is not a linear-range guarantee",
       "source_url": "",
       "dnp": false
@@ -2433,7 +2433,7 @@
         147.32
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm",
       "description": "Dual-supply bipolar SPDT: S1 grounds RHD during clamp; S2 connects protected node only after external qualification",
       "source_url": "https://www.ti.com/lit/ds/symlink/tmux6219.pdf",
       "dnp": false
@@ -2465,8 +2465,8 @@
         193.04
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:C_0805_2012Metric",
-      "description": "ATO charge-injection absorption choice; not a guaranteed switch injection bound",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
+      "description": "SCCI_RH charge-injection absorption choice; not a guaranteed switch injection bound",
       "source_url": "",
       "dnp": false
     },
@@ -2497,7 +2497,7 @@
         233.68
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local positive rail bypass",
       "source_url": "",
       "dnp": false
@@ -2529,7 +2529,7 @@
         266.7
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local negative rail bypass",
       "source_url": "",
       "dnp": false
@@ -2561,7 +2561,7 @@
         66.04
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Series impedance before source-side fault protection; resistor voltage/pulse limits require qualification",
       "source_url": "",
       "dnp": false
@@ -2593,7 +2593,7 @@
         101.6
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Defines isolated internal node; maximum leakage can produce material DC voltage, so this is not a linear-range guarantee",
       "source_url": "",
       "dnp": false
@@ -2667,7 +2667,7 @@
         147.32
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm",
       "description": "Dual-supply bipolar SPDT: S1 grounds RHD during clamp; S2 connects protected node only after external qualification",
       "source_url": "https://www.ti.com/lit/ds/symlink/tmux6219.pdf",
       "dnp": false
@@ -2699,8 +2699,8 @@
         193.04
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:C_0805_2012Metric",
-      "description": "ATO charge-injection absorption choice; not a guaranteed switch injection bound",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
+      "description": "SCCI_RH charge-injection absorption choice; not a guaranteed switch injection bound",
       "source_url": "",
       "dnp": false
     },
@@ -2731,7 +2731,7 @@
         233.68
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local positive rail bypass",
       "source_url": "",
       "dnp": false
@@ -2763,7 +2763,7 @@
         266.7
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local negative rail bypass",
       "source_url": "",
       "dnp": false
@@ -2900,7 +2900,7 @@
         322.58
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6",
+      "footprint": "scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6",
       "description": "Actual RRP WQFN part: external contact faces protected S; internal D floats on fault/disconnect; \u00b15V threshold does not protect RHD \u00b10.4V range",
       "source_url": "https://www.ti.com/lit/ds/symlink/tmux7412f.pdf",
       "dnp": false
@@ -2932,7 +2932,7 @@
         330.2
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "Quad fault switch positive rail bypass",
       "source_url": "",
       "dnp": false
@@ -2964,7 +2964,7 @@
         330.2
       ],
       "sheet": "bank0",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "Quad fault switch negative rail bypass",
       "source_url": "",
       "dnp": false
@@ -2996,7 +2996,7 @@
         66.04
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Series impedance before source-side fault protection; resistor voltage/pulse limits require qualification",
       "source_url": "",
       "dnp": false
@@ -3028,7 +3028,7 @@
         101.6
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Defines isolated internal node; maximum leakage can produce material DC voltage, so this is not a linear-range guarantee",
       "source_url": "",
       "dnp": false
@@ -3102,7 +3102,7 @@
         147.32
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm",
       "description": "Dual-supply bipolar SPDT: S1 grounds RHD during clamp; S2 connects protected node only after external qualification",
       "source_url": "https://www.ti.com/lit/ds/symlink/tmux6219.pdf",
       "dnp": false
@@ -3134,8 +3134,8 @@
         193.04
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:C_0805_2012Metric",
-      "description": "ATO charge-injection absorption choice; not a guaranteed switch injection bound",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
+      "description": "SCCI_RH charge-injection absorption choice; not a guaranteed switch injection bound",
       "source_url": "",
       "dnp": false
     },
@@ -3166,7 +3166,7 @@
         233.68
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local positive rail bypass",
       "source_url": "",
       "dnp": false
@@ -3198,7 +3198,7 @@
         266.7
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local negative rail bypass",
       "source_url": "",
       "dnp": false
@@ -3230,7 +3230,7 @@
         66.04
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Series impedance before source-side fault protection; resistor voltage/pulse limits require qualification",
       "source_url": "",
       "dnp": false
@@ -3262,7 +3262,7 @@
         101.6
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Defines isolated internal node; maximum leakage can produce material DC voltage, so this is not a linear-range guarantee",
       "source_url": "",
       "dnp": false
@@ -3336,7 +3336,7 @@
         147.32
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm",
       "description": "Dual-supply bipolar SPDT: S1 grounds RHD during clamp; S2 connects protected node only after external qualification",
       "source_url": "https://www.ti.com/lit/ds/symlink/tmux6219.pdf",
       "dnp": false
@@ -3368,8 +3368,8 @@
         193.04
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:C_0805_2012Metric",
-      "description": "ATO charge-injection absorption choice; not a guaranteed switch injection bound",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
+      "description": "SCCI_RH charge-injection absorption choice; not a guaranteed switch injection bound",
       "source_url": "",
       "dnp": false
     },
@@ -3400,7 +3400,7 @@
         233.68
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local positive rail bypass",
       "source_url": "",
       "dnp": false
@@ -3432,7 +3432,7 @@
         266.7
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local negative rail bypass",
       "source_url": "",
       "dnp": false
@@ -3464,7 +3464,7 @@
         66.04
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Series impedance before source-side fault protection; resistor voltage/pulse limits require qualification",
       "source_url": "",
       "dnp": false
@@ -3496,7 +3496,7 @@
         101.6
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Defines isolated internal node; maximum leakage can produce material DC voltage, so this is not a linear-range guarantee",
       "source_url": "",
       "dnp": false
@@ -3570,7 +3570,7 @@
         147.32
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm",
       "description": "Dual-supply bipolar SPDT: S1 grounds RHD during clamp; S2 connects protected node only after external qualification",
       "source_url": "https://www.ti.com/lit/ds/symlink/tmux6219.pdf",
       "dnp": false
@@ -3602,8 +3602,8 @@
         193.04
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:C_0805_2012Metric",
-      "description": "ATO charge-injection absorption choice; not a guaranteed switch injection bound",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
+      "description": "SCCI_RH charge-injection absorption choice; not a guaranteed switch injection bound",
       "source_url": "",
       "dnp": false
     },
@@ -3634,7 +3634,7 @@
         233.68
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local positive rail bypass",
       "source_url": "",
       "dnp": false
@@ -3666,7 +3666,7 @@
         266.7
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local negative rail bypass",
       "source_url": "",
       "dnp": false
@@ -3698,7 +3698,7 @@
         66.04
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Series impedance before source-side fault protection; resistor voltage/pulse limits require qualification",
       "source_url": "",
       "dnp": false
@@ -3730,7 +3730,7 @@
         101.6
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Defines isolated internal node; maximum leakage can produce material DC voltage, so this is not a linear-range guarantee",
       "source_url": "",
       "dnp": false
@@ -3804,7 +3804,7 @@
         147.32
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm",
       "description": "Dual-supply bipolar SPDT: S1 grounds RHD during clamp; S2 connects protected node only after external qualification",
       "source_url": "https://www.ti.com/lit/ds/symlink/tmux6219.pdf",
       "dnp": false
@@ -3836,8 +3836,8 @@
         193.04
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:C_0805_2012Metric",
-      "description": "ATO charge-injection absorption choice; not a guaranteed switch injection bound",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
+      "description": "SCCI_RH charge-injection absorption choice; not a guaranteed switch injection bound",
       "source_url": "",
       "dnp": false
     },
@@ -3868,7 +3868,7 @@
         233.68
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local positive rail bypass",
       "source_url": "",
       "dnp": false
@@ -3900,7 +3900,7 @@
         266.7
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local negative rail bypass",
       "source_url": "",
       "dnp": false
@@ -4037,7 +4037,7 @@
         322.58
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6",
+      "footprint": "scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6",
       "description": "Actual RRP WQFN part: external contact faces protected S; internal D floats on fault/disconnect; \u00b15V threshold does not protect RHD \u00b10.4V range",
       "source_url": "https://www.ti.com/lit/ds/symlink/tmux7412f.pdf",
       "dnp": false
@@ -4069,7 +4069,7 @@
         330.2
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "Quad fault switch positive rail bypass",
       "source_url": "",
       "dnp": false
@@ -4101,7 +4101,7 @@
         330.2
       ],
       "sheet": "bank1",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "Quad fault switch negative rail bypass",
       "source_url": "",
       "dnp": false
@@ -4133,7 +4133,7 @@
         66.04
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Series impedance before source-side fault protection; resistor voltage/pulse limits require qualification",
       "source_url": "",
       "dnp": false
@@ -4165,7 +4165,7 @@
         101.6
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Defines isolated internal node; maximum leakage can produce material DC voltage, so this is not a linear-range guarantee",
       "source_url": "",
       "dnp": false
@@ -4239,7 +4239,7 @@
         147.32
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm",
       "description": "Dual-supply bipolar SPDT: S1 grounds RHD during clamp; S2 connects protected node only after external qualification",
       "source_url": "https://www.ti.com/lit/ds/symlink/tmux6219.pdf",
       "dnp": false
@@ -4271,8 +4271,8 @@
         193.04
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:C_0805_2012Metric",
-      "description": "ATO charge-injection absorption choice; not a guaranteed switch injection bound",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
+      "description": "SCCI_RH charge-injection absorption choice; not a guaranteed switch injection bound",
       "source_url": "",
       "dnp": false
     },
@@ -4303,7 +4303,7 @@
         233.68
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local positive rail bypass",
       "source_url": "",
       "dnp": false
@@ -4335,7 +4335,7 @@
         266.7
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local negative rail bypass",
       "source_url": "",
       "dnp": false
@@ -4367,7 +4367,7 @@
         66.04
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Series impedance before source-side fault protection; resistor voltage/pulse limits require qualification",
       "source_url": "",
       "dnp": false
@@ -4399,7 +4399,7 @@
         101.6
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Defines isolated internal node; maximum leakage can produce material DC voltage, so this is not a linear-range guarantee",
       "source_url": "",
       "dnp": false
@@ -4473,7 +4473,7 @@
         147.32
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm",
       "description": "Dual-supply bipolar SPDT: S1 grounds RHD during clamp; S2 connects protected node only after external qualification",
       "source_url": "https://www.ti.com/lit/ds/symlink/tmux6219.pdf",
       "dnp": false
@@ -4505,8 +4505,8 @@
         193.04
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:C_0805_2012Metric",
-      "description": "ATO charge-injection absorption choice; not a guaranteed switch injection bound",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
+      "description": "SCCI_RH charge-injection absorption choice; not a guaranteed switch injection bound",
       "source_url": "",
       "dnp": false
     },
@@ -4537,7 +4537,7 @@
         233.68
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local positive rail bypass",
       "source_url": "",
       "dnp": false
@@ -4569,7 +4569,7 @@
         266.7
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local negative rail bypass",
       "source_url": "",
       "dnp": false
@@ -4601,7 +4601,7 @@
         66.04
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Series impedance before source-side fault protection; resistor voltage/pulse limits require qualification",
       "source_url": "",
       "dnp": false
@@ -4633,7 +4633,7 @@
         101.6
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Defines isolated internal node; maximum leakage can produce material DC voltage, so this is not a linear-range guarantee",
       "source_url": "",
       "dnp": false
@@ -4707,7 +4707,7 @@
         147.32
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm",
       "description": "Dual-supply bipolar SPDT: S1 grounds RHD during clamp; S2 connects protected node only after external qualification",
       "source_url": "https://www.ti.com/lit/ds/symlink/tmux6219.pdf",
       "dnp": false
@@ -4739,8 +4739,8 @@
         193.04
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:C_0805_2012Metric",
-      "description": "ATO charge-injection absorption choice; not a guaranteed switch injection bound",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
+      "description": "SCCI_RH charge-injection absorption choice; not a guaranteed switch injection bound",
       "source_url": "",
       "dnp": false
     },
@@ -4771,7 +4771,7 @@
         233.68
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local positive rail bypass",
       "source_url": "",
       "dnp": false
@@ -4803,7 +4803,7 @@
         266.7
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local negative rail bypass",
       "source_url": "",
       "dnp": false
@@ -4835,7 +4835,7 @@
         66.04
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Series impedance before source-side fault protection; resistor voltage/pulse limits require qualification",
       "source_url": "",
       "dnp": false
@@ -4867,7 +4867,7 @@
         101.6
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Defines isolated internal node; maximum leakage can produce material DC voltage, so this is not a linear-range guarantee",
       "source_url": "",
       "dnp": false
@@ -4941,7 +4941,7 @@
         147.32
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm",
       "description": "Dual-supply bipolar SPDT: S1 grounds RHD during clamp; S2 connects protected node only after external qualification",
       "source_url": "https://www.ti.com/lit/ds/symlink/tmux6219.pdf",
       "dnp": false
@@ -4973,8 +4973,8 @@
         193.04
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:C_0805_2012Metric",
-      "description": "ATO charge-injection absorption choice; not a guaranteed switch injection bound",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
+      "description": "SCCI_RH charge-injection absorption choice; not a guaranteed switch injection bound",
       "source_url": "",
       "dnp": false
     },
@@ -5005,7 +5005,7 @@
         233.68
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local positive rail bypass",
       "source_url": "",
       "dnp": false
@@ -5037,7 +5037,7 @@
         266.7
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local negative rail bypass",
       "source_url": "",
       "dnp": false
@@ -5174,7 +5174,7 @@
         322.58
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6",
+      "footprint": "scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6",
       "description": "Actual RRP WQFN part: external contact faces protected S; internal D floats on fault/disconnect; \u00b15V threshold does not protect RHD \u00b10.4V range",
       "source_url": "https://www.ti.com/lit/ds/symlink/tmux7412f.pdf",
       "dnp": false
@@ -5206,7 +5206,7 @@
         330.2
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "Quad fault switch positive rail bypass",
       "source_url": "",
       "dnp": false
@@ -5238,7 +5238,7 @@
         330.2
       ],
       "sheet": "bank2",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "Quad fault switch negative rail bypass",
       "source_url": "",
       "dnp": false
@@ -5270,7 +5270,7 @@
         66.04
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Series impedance before source-side fault protection; resistor voltage/pulse limits require qualification",
       "source_url": "",
       "dnp": false
@@ -5302,7 +5302,7 @@
         101.6
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Defines isolated internal node; maximum leakage can produce material DC voltage, so this is not a linear-range guarantee",
       "source_url": "",
       "dnp": false
@@ -5376,7 +5376,7 @@
         147.32
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm",
       "description": "Dual-supply bipolar SPDT: S1 grounds RHD during clamp; S2 connects protected node only after external qualification",
       "source_url": "https://www.ti.com/lit/ds/symlink/tmux6219.pdf",
       "dnp": false
@@ -5408,8 +5408,8 @@
         193.04
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:C_0805_2012Metric",
-      "description": "ATO charge-injection absorption choice; not a guaranteed switch injection bound",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
+      "description": "SCCI_RH charge-injection absorption choice; not a guaranteed switch injection bound",
       "source_url": "",
       "dnp": false
     },
@@ -5440,7 +5440,7 @@
         233.68
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local positive rail bypass",
       "source_url": "",
       "dnp": false
@@ -5472,7 +5472,7 @@
         266.7
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local negative rail bypass",
       "source_url": "",
       "dnp": false
@@ -5504,7 +5504,7 @@
         66.04
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Series impedance before source-side fault protection; resistor voltage/pulse limits require qualification",
       "source_url": "",
       "dnp": false
@@ -5536,7 +5536,7 @@
         101.6
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Defines isolated internal node; maximum leakage can produce material DC voltage, so this is not a linear-range guarantee",
       "source_url": "",
       "dnp": false
@@ -5610,7 +5610,7 @@
         147.32
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm",
       "description": "Dual-supply bipolar SPDT: S1 grounds RHD during clamp; S2 connects protected node only after external qualification",
       "source_url": "https://www.ti.com/lit/ds/symlink/tmux6219.pdf",
       "dnp": false
@@ -5642,8 +5642,8 @@
         193.04
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:C_0805_2012Metric",
-      "description": "ATO charge-injection absorption choice; not a guaranteed switch injection bound",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
+      "description": "SCCI_RH charge-injection absorption choice; not a guaranteed switch injection bound",
       "source_url": "",
       "dnp": false
     },
@@ -5674,7 +5674,7 @@
         233.68
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local positive rail bypass",
       "source_url": "",
       "dnp": false
@@ -5706,7 +5706,7 @@
         266.7
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local negative rail bypass",
       "source_url": "",
       "dnp": false
@@ -5738,7 +5738,7 @@
         66.04
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Series impedance before source-side fault protection; resistor voltage/pulse limits require qualification",
       "source_url": "",
       "dnp": false
@@ -5770,7 +5770,7 @@
         101.6
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Defines isolated internal node; maximum leakage can produce material DC voltage, so this is not a linear-range guarantee",
       "source_url": "",
       "dnp": false
@@ -5844,7 +5844,7 @@
         147.32
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm",
       "description": "Dual-supply bipolar SPDT: S1 grounds RHD during clamp; S2 connects protected node only after external qualification",
       "source_url": "https://www.ti.com/lit/ds/symlink/tmux6219.pdf",
       "dnp": false
@@ -5876,8 +5876,8 @@
         193.04
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:C_0805_2012Metric",
-      "description": "ATO charge-injection absorption choice; not a guaranteed switch injection bound",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
+      "description": "SCCI_RH charge-injection absorption choice; not a guaranteed switch injection bound",
       "source_url": "",
       "dnp": false
     },
@@ -5908,7 +5908,7 @@
         233.68
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local positive rail bypass",
       "source_url": "",
       "dnp": false
@@ -5940,7 +5940,7 @@
         266.7
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local negative rail bypass",
       "source_url": "",
       "dnp": false
@@ -5972,7 +5972,7 @@
         66.04
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Series impedance before source-side fault protection; resistor voltage/pulse limits require qualification",
       "source_url": "",
       "dnp": false
@@ -6004,7 +6004,7 @@
         101.6
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Defines isolated internal node; maximum leakage can produce material DC voltage, so this is not a linear-range guarantee",
       "source_url": "",
       "dnp": false
@@ -6078,7 +6078,7 @@
         147.32
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm",
       "description": "Dual-supply bipolar SPDT: S1 grounds RHD during clamp; S2 connects protected node only after external qualification",
       "source_url": "https://www.ti.com/lit/ds/symlink/tmux6219.pdf",
       "dnp": false
@@ -6110,8 +6110,8 @@
         193.04
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:C_0805_2012Metric",
-      "description": "ATO charge-injection absorption choice; not a guaranteed switch injection bound",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
+      "description": "SCCI_RH charge-injection absorption choice; not a guaranteed switch injection bound",
       "source_url": "",
       "dnp": false
     },
@@ -6142,7 +6142,7 @@
         233.68
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local positive rail bypass",
       "source_url": "",
       "dnp": false
@@ -6174,7 +6174,7 @@
         266.7
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "TMUX6219 local negative rail bypass",
       "source_url": "",
       "dnp": false
@@ -6311,7 +6311,7 @@
         322.58
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6",
+      "footprint": "scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6",
       "description": "Actual RRP WQFN part: external contact faces protected S; internal D floats on fault/disconnect; \u00b15V threshold does not protect RHD \u00b10.4V range",
       "source_url": "https://www.ti.com/lit/ds/symlink/tmux7412f.pdf",
       "dnp": false
@@ -6343,7 +6343,7 @@
         330.2
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "Quad fault switch positive rail bypass",
       "source_url": "",
       "dnp": false
@@ -6375,7 +6375,7 @@
         330.2
       ],
       "sheet": "bank3",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "Quad fault switch negative rail bypass",
       "source_url": "",
       "dnp": false
@@ -6512,7 +6512,7 @@
         86.36
       ],
       "sheet": "reference",
-      "footprint": "ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6",
+      "footprint": "scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6",
       "description": "One reference channel used, three unused S/D and selectors grounded; source side only is fault protected",
       "source_url": "https://www.ti.com/lit/ds/symlink/tmux7412f.pdf",
       "dnp": false
@@ -6544,7 +6544,7 @@
         154.94
       ],
       "sheet": "reference",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Single external reference input, not sixteen separate recording-reference contacts",
       "source_url": "",
       "dnp": false
@@ -6576,7 +6576,7 @@
         193.04
       ],
       "sheet": "reference",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Protected common-reference node DC bleed; source impedance and leakage affect all sixteen channels",
       "source_url": "",
       "dnp": false
@@ -6650,7 +6650,7 @@
         86.36
       ],
       "sheet": "reference",
-      "footprint": "ato_afe:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm",
       "description": "One clamped reference path fans out to all sixteen RHD negative pins; total intrinsic input capacitance is16\u00d712pF typical",
       "source_url": "https://www.ti.com/lit/ds/symlink/tmux6219.pdf",
       "dnp": false
@@ -6682,8 +6682,8 @@
         154.94
       ],
       "sheet": "reference",
-      "footprint": "ato_afe:C_0805_2012Metric",
-      "description": "ATO reference compensation/injection absorption choice; common-mode conversion must be studied with the shared fanout",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
+      "description": "SCCI_RH reference compensation/injection absorption choice; common-mode conversion must be studied with the shared fanout",
       "source_url": "",
       "dnp": false
     },
@@ -6714,7 +6714,7 @@
         228.6
       ],
       "sheet": "reference",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "First passive body-bias current-limiting resistor; no stimulation return or active common-mode driver",
       "source_url": "",
       "dnp": false
@@ -6746,7 +6746,7 @@
         228.6
       ],
       "sheet": "reference",
-      "footprint": "ato_afe:R_0805_2012Metric",
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
       "description": "Second passive body-bias resistor;24V/998k\u224824.05uA arithmetic is conditional, not a clinical safe-current claim",
       "source_url": "",
       "dnp": false
@@ -6778,7 +6778,7 @@
         243.84
       ],
       "sheet": "reference",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "U24 positive bypass",
       "source_url": "",
       "dnp": false
@@ -6810,7 +6810,7 @@
         243.84
       ],
       "sheet": "reference",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "U24 negative bypass",
       "source_url": "",
       "dnp": false
@@ -6842,7 +6842,7 @@
         269.24
       ],
       "sheet": "reference",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "U500 positive bypass",
       "source_url": "",
       "dnp": false
@@ -6874,7 +6874,7 @@
         269.24
       ],
       "sheet": "reference",
-      "footprint": "ato_afe:C_0805_2012Metric",
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
       "description": "U500 negative bypass",
       "source_url": "",
       "dnp": false

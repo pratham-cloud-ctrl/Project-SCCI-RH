@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/integration/master/erc.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "259aa3f36377e0764ad16421e1fdd6c86bb53922c22208927e43b5b9d84c6ce7",
+  "current_sha256": "ed0ee411e42c506d5cdd8416d1cb23831e158e26db6b843b970961e0b8ed66f5",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-native-electrical-checks.json",
+      "sha256_lf": "a7efadd0ea0f6936019232177ee29bd40278de894bf0b5113a6dd26d205040e3"
+    }
+  ]
+}

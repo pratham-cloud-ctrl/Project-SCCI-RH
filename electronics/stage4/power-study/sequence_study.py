@@ -134,7 +134,7 @@ def window_corners():
 
 def generate():
     hs=histories()
-    return {'schema':'ato.stage4.power-sequence.v1','date':'2026-10-14','source_sha256_lf':sha(Path(__file__)),
+    return {'schema':'scci_rh.stage4.power-sequence.v1','date':'2026-10-14','source_sha256_lf':sha(Path(__file__)),
             'scope':'Actual native gate/enable pin audit and finite valid-supply ideal event adapter to prior sticky supervision',
             'native_audit':audit_native(),'qualification_windows':window_corners(),'histories':hs,'scenario_groups':len(hs),
             'assertions_passed':sum(h['assertions'] for h in hs),'snapshots':sum(len(h['history']) for h in hs),

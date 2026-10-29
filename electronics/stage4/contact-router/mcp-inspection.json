@@ -1,28 +1,28 @@
 {
-  "schema": "ato.stage4.contact-router.mcp-inspection.v1",
+  "schema": "scci_rh.stage4.contact-router.mcp-inspection.v1",
   "date": "2026-10-13",
   "source": "Saved-file MCP readback and fresh kicad-cli ERC through registered KiCad bridge; no live PCB or unsaved editor evidence",
   "project": {
     "kicad_version": null,
     "last_modified_unix": 1791910287,
     "name": "contact_router",
-    "path": "E:\\Project ATO\\electronics\\stage4\\contact-router\\contact_router.kicad_pro",
-    "pcb": "E:\\Project ATO\\electronics\\stage4\\contact-router\\contact_router.kicad_pcb",
+    "path": "E:\\Project SCCI RH\\electronics\\stage4\\contact-router\\contact_router.kicad_pro",
+    "pcb": "E:\\Project SCCI RH\\electronics\\stage4\\contact-router\\contact_router.kicad_pcb",
     "pcb_exists": false,
     "pcb_generator_version": null,
     "project_file_version": 1,
-    "schematic": "E:\\Project ATO\\electronics\\stage4\\contact-router\\contact_router.kicad_sch",
+    "schematic": "E:\\Project SCCI RH\\electronics\\stage4\\contact-router\\contact_router.kicad_sch",
     "schematic_exists": true,
     "schematic_generator_version": null
   },
   "mux_component": {
-    "footprint": "ato_rte:TSSOP-16_4.4x5mm_P0.65mm",
-    "lib_id": "ATO_RTE:U100",
+    "footprint": "scci_rh_rte:TSSOP-16_4.4x5mm_P0.65mm",
+    "lib_id": "SCCI_RH_RTE:U100",
     "mirror_x": false,
     "mirror_y": false,
     "properties": {
       "Datasheet": "https://www.ti.com/lit/ds/symlink/tmux6208.pdf",
-      "Footprint": "ato_rte:TSSOP-16_4.4x5mm_P0.65mm",
+      "Footprint": "scci_rh_rte:TSSOP-16_4.4x5mm_P0.65mm",
       "Reference": "U100",
       "Value": "TMUX6208PWR"
     },
@@ -750,11 +750,11 @@
     }
   },
   "schematic_sha256": {
-    "address.kicad_sch": "6240140d9875226c0b84b28bf17b47b68a05d0fed26e8591cc416b7bab65d1ee",
-    "admission.kicad_sch": "9edbc58513312c1ff2ec797933a833a033a0d5148a9c0fad0fec968bd15d7b29",
-    "collision.kicad_sch": "8cfe99d95e9dbca702e919a0a19072a156f5edacf08022810afd7b7ca720d243",
-    "contact_router.kicad_sch": "4b096078c6ddc3dbd2607e677c0a607f71d7e5079a4fdbb262a91ce59280ca55",
-    "source0.kicad_sch": "50ef00a2eb49268e99f23793e1f94e92149f4b3a62d4c16bed42f2e0a8b24b2a",
-    "source1.kicad_sch": "1f1b3f88447d2bc1551475605c6823ceee7dfdd197900c62d52bd17953e4e2d2"
+    "address.kicad_sch": "a9d385fccb60e7158d3329ab3fa519d1e2b3b2fa90d9929d21e44ad36da855e4",
+    "admission.kicad_sch": "07ec6005075ff02eb027577a2c744782fdb33da49af9271f23df381ae0c794c8",
+    "collision.kicad_sch": "a3eec4096fe17c2744d263c72ff780833a1cb0f23144b44d0b07c6369b1f2b34",
+    "contact_router.kicad_sch": "41835cc515a11907ed4eafac4f04d5051d54e30c163f569490ef2d8942f91b9a",
+    "source0.kicad_sch": "715b451ffc97ea0019c6f45eef07e116b118e78af3fd218f0fc6924df7a22735",
+    "source1.kicad_sch": "16a8838f35e6383d1fd1886fd99367d35ff679c3791a5af0eaae381e1df33135"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "schema": "ato.supervision-finite-copper-repair.v1",
+  "schema": "scci_rh.supervision-finite-copper-repair.v1",
   "scope": "Exactly two complete net copper replacements after corrected TPS3431 lead-pad geometry",
   "grid_mm": 0.1,
   "track_width_mm": 0.15,
@@ -23,7 +23,7 @@
       "old_copper_removed": 1
     }
   ],
-  "final_board_sha256_lf": "877e2d5643182aa68e16e77dbdd7821ee55f36b763745bb6aba7ea7a8afc3440",
+  "final_board_sha256_lf": "409919d0b44359008860d473d92eb6ac4944572a33c2ee322e8c331214563958",
   "native_DRC": {
     "violations": 0,
     "unconnected_items": 0,

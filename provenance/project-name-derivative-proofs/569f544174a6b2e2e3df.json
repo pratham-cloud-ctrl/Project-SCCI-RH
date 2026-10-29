@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "results/stage3/information/conditional_fast_redundant_seed0.json.gz",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "d86eeb9bc18556cc9f23f4fe1b5e5ea4e93fa0f0efe6c2fdf69ccf5f18d7a916",
+  "current_sha256": "c1336c622bc4efe5cac07f956ba81f657ee1e6bc6186305a3225dbf506730f31",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

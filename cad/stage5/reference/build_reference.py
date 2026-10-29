@@ -12,7 +12,7 @@ import Part,MeshPart
 HERE=Path(__file__).resolve().parent
 ROOT=HERE.parents[2]
 C=json.loads((HERE/'contract.json').read_text())
-DOC=App.newDocument('ATO_Reference_Assembly')
+DOC=App.newDocument('SCCI_RH_Reference_Assembly')
 FINAL=[];CONSTRUCTION=[];BOM=[]
 GROUPS={}
 for name in ['Electronics','Trays','MountingHardware','Chassis','Rails','Fasteners','Feet']:
@@ -150,7 +150,7 @@ for obj in FINAL:
     if obj.ViewObject:obj.ViewObject.Visibility=True
 DOC.recompute()
 DOC.addObject('App::DocumentObjectGroup','DesignNotes').addProperty('App::PropertyString','Scope','Design').Scope=C['design_scope']
-native=HERE/'ATO_reference_assembly.FCStd';DOC.saveAs(str(native))
+native=HERE/'SCCI_RH_reference_assembly.FCStd';DOC.saveAs(str(native))
 
 # Export provenance and finite geometry checks, independent audit is a separate task.
 records=[]
@@ -169,14 +169,14 @@ for r in records:
     elif r['label']=='Lid' or r['category']=='lid_screw':dz=165
     C['exploded_transforms'][r['label']]=[0,-50 if r['label']=='FrontPanel' else 0,dz]
 (HERE/'contract.json').write_text(json.dumps(C,indent=2)+'\n')
-receipt=dict(schema='ato.stage5.reference-producer-geometry.v1',native=native.relative_to(ROOT).as_posix(),FreeCAD_version=list(App.Version()[:3]),contract_sha256=sha(HERE/'contract.json'),board_datums_sha256=sha(HERE/'board-datums.json'),builder_sha256=sha(Path(__file__)),source_steps={b['source_step']:b['source_step_sha256'] for b in C['boards']},objects=records,part_count=len(FINAL),fitted_electronic_components=sum(b['fitted_components'] for b in C['boards']),mechanical_part_count=sum(o.PartRole!='populated_board' for o in FINAL),native_dependency_features=sum(o.TypeId.startswith('Part::') and o.TypeId!='Part::Feature' for o in DOC.Objects),scope_limits=C['assembly_assumptions'])
+receipt=dict(schema='scci_rh.stage5.reference-producer-geometry.v1',native=native.relative_to(ROOT).as_posix(),FreeCAD_version=list(App.Version()[:3]),contract_sha256=sha(HERE/'contract.json'),board_datums_sha256=sha(HERE/'board-datums.json'),builder_sha256=sha(Path(__file__)),source_steps={b['source_step']:b['source_step_sha256'] for b in C['boards']},objects=records,part_count=len(FINAL),fitted_electronic_components=sum(b['fitted_components'] for b in C['boards']),mechanical_part_count=sum(o.PartRole!='populated_board' for o in FINAL),native_dependency_features=sum(o.TypeId.startswith('Part::') and o.TypeId!='Part::Feature' for o in DOC.Objects),scope_limits=C['assembly_assumptions'])
 (HERE/'producer-geometry.json').write_text(json.dumps(receipt,indent=2)+'\n')
 parser=argparse.ArgumentParser();parser.add_argument('--native-only',action='store_true');args=parser.parse_args()
 if not args.native_only:
     print('Exporting actual populated reference STEP',flush=True)
-    Part.export(FINAL,str(HERE/'ATO_reference_assembly.step'))
+    Part.export(FINAL,str(HERE/'SCCI_RH_reference_assembly.step'))
     mechanical=[o for o in FINAL if o.PartRole!='populated_board']
-    Part.export(mechanical,str(HERE/'ATO_reference_mechanical.step'))
+    Part.export(mechanical,str(HERE/'SCCI_RH_reference_mechanical.step'))
     # Exploded view is a separate derivative; document source placements stay assembled.
     exploded=[]
     for obj in FINAL:
@@ -188,7 +188,7 @@ if not args.native_only:
         elif obj.Label=='Lid' or obj.PartRole=='lid_screw':dz=165
         elif obj.Label=='FrontPanel':q.translate(App.Vector(0,-50,0))
         q.translate(App.Vector(0,0,dz));exploded.append(q)
-    Part.makeCompound(exploded).exportStep(str(HERE/'ATO_reference_exploded.step'))
+    Part.makeCompound(exploded).exportStep(str(HERE/'SCCI_RH_reference_exploded.step'))
     meshdir=HERE/'stl';meshdir.mkdir(exist_ok=True)
     # Individual native mechanical parts are useful for inspection; not print permission.
     for obj in mechanical:

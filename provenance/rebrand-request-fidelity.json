@@ -1,0 +1,268 @@
+{
+  "schema": "scci_rh.rebrand-request-fidelity.v1",
+  "date": "2026-10-29",
+  "requested_display_name": "Project SCCI RH",
+  "requested_repository_slug": "Project-SCCI-RH",
+  "review_kind": "Read-only bounded final rename and viewer-access fidelity check; no new design/features",
+  "verdict": "ACTIVE_CONTENT_PASSES; ROOT_PUBLICATION_AND_LOCAL_FOLDER_MOVE_PENDING",
+  "active_human_names_and_paths_pass": true,
+  "tracked_old_brand_paths": [],
+  "pdf_review_complete": true,
+  "pdf_count": 20,
+  "all_pdf_review_hashes_current": true,
+  "pdfs": [
+    {
+      "path": "cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf",
+      "sha256": "f6bcd0781aa96807f7a8b05d1f8e0f3965a98f533ebe460122aa8ee6ae19e370",
+      "review_sha256_matches": true,
+      "pages": 6,
+      "old_brand_mentions": 0
+    },
+    {
+      "path": "docs/stage6/original-hypothesis/SCCI_research_hypothesis_paper.pdf",
+      "sha256": "a1784965d63060e3b0c11fd3c01c9f0b4fe0b007cc65c605c76164ee1d4bf103",
+      "review_sha256_matches": true,
+      "pages": 28,
+      "old_brand_mentions": 0
+    },
+    {
+      "path": "electronics/exports/scci_rh_reference_schematic.pdf",
+      "sha256": "3f777ff8bdcdd9278e4527bf2bfa60c2c3ecf39d08a292cd1b0b6bd1199cf26d",
+      "review_sha256_matches": true,
+      "pages": 1,
+      "old_brand_mentions": 0
+    },
+    {
+      "path": "electronics/stage4/contact-router/contact_router.pdf",
+      "sha256": "7916b2e28d28e8ca5906a61be258458e77de29aa0d0462355069c522afdf42a6",
+      "review_sha256_matches": true,
+      "pages": 6,
+      "old_brand_mentions": 0
+    },
+    {
+      "path": "electronics/stage4/controller-carrier/controller_carrier.pdf",
+      "sha256": "3cd9bf1e10a55a3029d5a362aa08174f582caf4deefa7014f5d44b7185101569",
+      "review_sha256_matches": true,
+      "pages": 10,
+      "old_brand_mentions": 0
+    },
+    {
+      "path": "electronics/stage4/current-driver/current_driver.pdf",
+      "sha256": "5f27f519b85c1f18d173aad116588da4c245af287386655553e4b8a29ee58990",
+      "review_sha256_matches": true,
+      "pages": 5,
+      "old_brand_mentions": 0
+    },
+    {
+      "path": "electronics/stage4/integrated-pcb/integration/master/SCCI_RH_integrated.pdf",
+      "sha256": "0d3b9ce151b87fcb9c94fc9286ac51f049bfd79a50a7442e6790863d7ff06560",
+      "review_sha256_matches": true,
+      "pages": 80,
+      "old_brand_mentions": 0
+    },
+    {
+      "path": "electronics/stage4/monitoring-cell/monitoring_cell.pdf",
+      "sha256": "d64e6d52874f9e95e5624b580eb900ec38b69246173feba1306d7d6a39f48df0",
+      "review_sha256_matches": true,
+      "pages": 3,
+      "old_brand_mentions": 0
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/monitoring_transport.pdf",
+      "sha256": "ae659e247ca9cd8701ecf358067c66cfb4d18d8ebc4b53e6633b81165e33e0e5",
+      "review_sha256_matches": true,
+      "pages": 8,
+      "old_brand_mentions": 0
+    },
+    {
+      "path": "electronics/stage4/power/power.pdf",
+      "sha256": "05c44983f73257c63928ec0570d4aa78bc9e7cd06417f3281e78f868d7be126d",
+      "review_sha256_matches": true,
+      "pages": 15,
+      "old_brand_mentions": 0
+    },
+    {
+      "path": "electronics/stage4/recording-front-end/recording_front_end.pdf",
+      "sha256": "d1253dc5329a48a4b53dcccab0bdb076f708d307e0e6706c1ee21cc7ab718f5e",
+      "review_sha256_matches": true,
+      "pages": 7,
+      "old_brand_mentions": 0
+    },
+    {
+      "path": "electronics/stage4/supervision/supervision.pdf",
+      "sha256": "3adf04b4174a811545b8851e12f6a01eff2c14a64989d0bc62a8937a44fcb563",
+      "review_sha256_matches": true,
+      "pages": 22,
+      "old_brand_mentions": 0
+    },
+    {
+      "path": "inspector/downloads/SCCI_RH_Integrated_Schematics.pdf",
+      "sha256": "0d3b9ce151b87fcb9c94fc9286ac51f049bfd79a50a7442e6790863d7ff06560",
+      "review_sha256_matches": true,
+      "pages": 80,
+      "old_brand_mentions": 0
+    },
+    {
+      "path": "inspector/downloads/SCCI_RH_Mechanical_Review.pdf",
+      "sha256": "f6bcd0781aa96807f7a8b05d1f8e0f3965a98f533ebe460122aa8ee6ae19e370",
+      "review_sha256_matches": true,
+      "pages": 6,
+      "old_brand_mentions": 0
+    },
+    {
+      "path": "output/pdf/SCCI_RH_engineering_paper.pdf",
+      "sha256": "e0f8cd80341e47e780945d6239482a13692bbcda4e185801411fb378155d426d",
+      "review_sha256_matches": true,
+      "pages": 20,
+      "old_brand_mentions": 0
+    },
+    {
+      "path": "output/pdf/SCCI_RH_stage1_system_specification.pdf",
+      "sha256": "bd2b3ea2e6971d9a10014f607bbc1486d2b9e1192605c0086e1c4e3b27432f5d",
+      "review_sha256_matches": true,
+      "pages": 9,
+      "old_brand_mentions": 0
+    },
+    {
+      "path": "output/pdf/SCCI_RH_stage2_architecture_budgets.pdf",
+      "sha256": "88d9c98b3741aa84e00075d8c79b2ea9dd64a27bb2291358c79224c1091428c1",
+      "review_sha256_matches": true,
+      "pages": 8,
+      "old_brand_mentions": 0
+    },
+    {
+      "path": "output/pdf/SCCI_RH_stage3_mechanism_revision.pdf",
+      "sha256": "66fb5a1f515af5ae8bf8d5b243147ea068bae985e90aec285df70c9d8457355d",
+      "review_sha256_matches": true,
+      "pages": 8,
+      "old_brand_mentions": 0
+    },
+    {
+      "path": "output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf",
+      "sha256": "66a77d7f84566c6f1e875849dbaa742595a4fae96d718aec8fdc1ea3fb60f3b4",
+      "review_sha256_matches": true,
+      "pages": 28,
+      "old_brand_mentions": 0
+    },
+    {
+      "path": "output/pdf/SCCI_RH_stage3_closeout.pdf",
+      "sha256": "7f240140f18ef2b98718ce1b7f9b3a0e81633615af9a5318ae1d103a9df9f2d8",
+      "review_sha256_matches": true,
+      "pages": 8,
+      "old_brand_mentions": 0
+    }
+  ],
+  "download_package_identity_checks": [
+    {
+      "path": "inspector/downloads/KiCad-SCCI_RH-native-projects.zip",
+      "sha256": "2e4f182751636dc142ea19bfa548b06ccee25a90287cc14249cf9dcf1f55aabc",
+      "members": 519,
+      "old_brand_member_names": []
+    },
+    {
+      "path": "inspector/downloads/SCCI_RH_CAD_Native.zip",
+      "sha256": "c6833e78e0c762416e0e7e8307ae210cf1d93f5a47fcded46a6208af6f32a244",
+      "members": 76,
+      "old_brand_member_names": []
+    },
+    {
+      "path": "inspector/downloads/SCCI_RH_Reference_Complete_STEP.zip",
+      "sha256": "531498854dcdfe8a55146fb5b090038c95e8c4df3a90666ecb56db60fd606882",
+      "members": 3,
+      "old_brand_member_names": []
+    }
+  ],
+  "all_download_package_member_names_current": true,
+  "download_filenames": [
+    "KiCad-SCCI_RH-native-projects.zip",
+    "SCCI_RH_CAD_Native.zip",
+    "SCCI_RH_contact-router.step",
+    "SCCI_RH_controller-carrier.step",
+    "SCCI_RH_current-driver.step",
+    "SCCI_RH_Future_Interface.step",
+    "SCCI_RH_Integrated_Schematics.pdf",
+    "SCCI_RH_Mechanical_Review.pdf",
+    "SCCI_RH_monitoring-cell.step",
+    "SCCI_RH_monitoring-transport.step",
+    "SCCI_RH_power.step",
+    "SCCI_RH_recording-front-end.step",
+    "SCCI_RH_Reference_Complete_STEP.zip",
+    "SCCI_RH_supervision.step",
+    "SHA256SUMS.txt"
+  ],
+  "github_verified": {
+    "method": "Authenticated gh repo view JSON read in this review",
+    "name": "Project-SCCI-RH",
+    "nameWithOwner": "pratham-cloud-ctrl/Project-SCCI-RH",
+    "url": "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH",
+    "homepageUrl": "https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/",
+    "visibility": "PUBLIC"
+  },
+  "resolved_findings": [
+    {
+      "finding": "Two newly staged old-name uncompressed STEP caches exceeded100MB each",
+      "resolution": "Root unstaged and moved both to external recovery storage. Current tracked token-path check confirms no old branded path remains. Native/source ZIP downloads retained."
+    }
+  ],
+  "remaining_root_steps_at_review": [
+    "Rename active local workspace folder after owned process cleanup",
+    "Complete final aggregate source receipts/Git manifest; commit and push current files",
+    "Publish new branded release and deploy renamed GitHub Pages endpoint"
+  ],
+  "manual_user_step": "Rename ChatGPT Project container label later. This is distinct from current chat title; available tools do not provide a ChatGPT Project container rename operation.",
+  "historical_aliases_retained_deliberately": [
+    {
+      "category": "Migration alias map and original-file provenance",
+      "reason": "Literal previous names are necessary to resolve immutable original Git bytes and document the exact rename; they are not current product labels.",
+      "examples": [
+        "scripts/project_branding.py",
+        "provenance/project-name-migration.json"
+      ]
+    },
+    {
+      "category": "Real build transcript/resolved SDK paths",
+      "reason": "Compiler/source path traces still name the physical pre-move workspace or resolved external Nordic SDK directory at execution time. Altering a verbatim tool transcript would misrepresent the executed build.",
+      "examples": [
+        "firmware/nrf5340/artifacts/sections.txt",
+        "firmware/nrf5340/artifacts/compile-records.json",
+        "electronics/stage4/integrated-pcb/firmware-profile/build-receipt.json"
+      ]
+    },
+    {
+      "category": "Stable numerical protocol identifiers and wire signatures",
+      "reason": "Wire values are compatibility/behavior identities, not display branding; changing numerical constants solely for spelling would alter functionality."
+    },
+    {
+      "category": "Immutable Git history, original releases and external recovery copies",
+      "reason": "Historical objects retain their authentic original identity; active rebranded artifacts use the new name."
+    }
+  ],
+  "browser_ui_limit": "No new rotation/selection/mobile interaction claim: local browser connection was unavailable. Actual bundled-loader and source/download structural checks are separate evidence held by root.",
+  "scope_limits": [
+    "Text scan was bounded to tracked project-owned text files under4MB; large scientific datasets were not rescanned in this final fidelity pass. Their separate strict equivalence proofs remain authoritative.",
+    "All20PDF current hashes match actual final render-review receipt. Embedded observer chart old branding was found visually and fixed through its genuine frozen-data builder.",
+    "This review checks rename fidelity and accessibility identities; it does not add biological or physical performance claims."
+  ],
+  "input_bindings": {
+    "README.md": "2cbd6db14a946556a0a2c325f0f65de59f5ccf062bab5dc6286350c62b4358ed",
+    "START_HERE.md": "2e58cbe3b0b56f0be4ba7f46ec1c2a48c4491a79df3310e55a793ca7ac2f372f",
+    "CURRENT_STATUS.md": "2ed2be0ea60a94307816a83fdecf070ad789c7a464bf3cc8bd5586adbb62a23b",
+    "docs/explore/README.md": "65e4367ea73b76160fc078fbe18add4706950d6a03f7d5f43216670c16dbc92b",
+    "inspector/index.html": "fc3f13a66e0d11bfd8798d67c8fc5d247d221906badf20529c5e6dcc5cbcb498",
+    "inspector/README.md": "bef54f0d89976fe0bcc21c827d604642220891cda3864da26a73c61df97c7470",
+    "inspector/assets/catalog.json": "6a32b832c431063777780658bf1a3a1ded7649539c5c19c1f0954337a1b17735",
+    "inspector/assets/downloads-manifest.json": "e3fc53d4fa49b01dca94b9d6736f77fdca51a7e82974b1c4ea59e78baee95dee",
+    "provenance/rebrand-pdf-review.json": "fdfd82c10d8fb18128ab61a3f8152ef3783bc9d386d365743d9ec1b2cf845c33",
+    "provenance/project-name-status.json": "3bf5ebfb3e94f0b6c95539a1023365f195fa3ad8746fcfc55de9e4b1568e82a6"
+  },
+  "actual_review_artifacts": [
+    {
+      "path": "provenance/stage6-document-review.json",
+      "current_sha256": "0174b66255a56088a5f318a71fec881b6e9e280957d56a6876db878edbfc4dca",
+      "pdf_path": "output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf",
+      "pdf_sha256": "66a77d7f84566c6f1e875849dbaa742595a4fae96d718aec8fdc1ea3fb60f3b4",
+      "pages_actually_reviewed": 28,
+      "evidence": "Exact canonical record authored after actual four-contact-sheet inspection of all28final pages; byte-identical PDF rebuild verified. All20PDF current review hashes also checked."
+    }
+  ]
+}

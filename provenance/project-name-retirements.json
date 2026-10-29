@@ -1,0 +1,16 @@
+{
+  "schema": "project-name-retirements.v1",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "files": [
+    {
+      "path": "docs/explore/inspector-review/pcb-component.jpg",
+      "original_sha256": "4a440a9af58ef3f768fe57b24dc271922b6ce66e25130f4cb1d244aa82092de2",
+      "reason": "historical_browser_capture_retired_after_rebrand"
+    },
+    {
+      "path": "docs/explore/inspector-review/reference-open.jpg",
+      "original_sha256": "2534e2088916e85bdb23b36bc46323c21a5a20fe8c5f43068d0979909faaee7c",
+      "reason": "historical_browser_capture_retired_after_rebrand"
+    }
+  ]
+}

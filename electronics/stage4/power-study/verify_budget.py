@@ -173,7 +173,7 @@ def verify():
         check(q["all_corner_cold_start_pass"]==(lo>q["all_corner_cold_start_UV_limit_V"]and hi<q["all_corner_cold_start_OV_limit_V"]),"startuprailgate")
     check(all(q["all_corner_cold_start_pass"]for q in start["rail_qualification"]if q["case"].startswith("conditional")),"conditionaltrimstartup")
     check(any(not q["all_corner_cold_start_pass"]for q in start["rail_qualification"]if q["case"].startswith("untrimmed")),"untrimmedstartupfailurewitness")
-    return {"schema":"ato.stage4.power-budget-audit.v1","status":"passed","independent_assertions":checks,
+    return {"schema":"scci_rh.stage4.power-budget-audit.v1","status":"passed","independent_assertions":checks,
             "results_sha256_lf":digest(HERE/"budget-results.json"),
             "unearned_claims_preserved":["untrimmedAFEstartup","450kADCcapacity","1Mbitraw4klink","2Kthermalclosure","all-conditionefficiency","physicalconvertertransients"]}
 

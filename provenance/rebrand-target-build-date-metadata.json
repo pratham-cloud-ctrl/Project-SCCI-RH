@@ -1,0 +1,110 @@
+{
+  "schema": "project-name-target-build-date-metadata.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "scope": "Date metadata correction after actual rebranding recompilation; no compiler commands, compiled application inputs or target artifact bytes changed",
+  "files": [
+    {
+      "builder": "scripts/build_nrf5340.py",
+      "executed_builder_sha256_lf": "c88ff91cfb4fb9582e559a9ea7113fca81222281f3af56239779f4015cac5c4b",
+      "metadata_corrected_builder_sha256_lf": "241ff11f34dfb18fc798c7ea7c6a5174f6fab3b47c889bc59866fa88f2e2c89c",
+      "only_source_diff": {
+        "previous": "\"date\": \"2026-10-14\"",
+        "current": "\"date\": \"2026-10-28\", \"original_design_date\": \"2026-10-14\""
+      },
+      "build_receipt": "provenance/stage4-nrf5340-build.json",
+      "actual_compiled_inputs_sha256_lf": {
+        "firmware/nrf5340/app/app.overlay": "67c5904eebe29cb66ff63c0c271cc15779577482bdcbfd058e60530155634418",
+        "firmware/nrf5340/app/CMakeLists.txt": "16afbed0e5a1921008bce14aa48bb6398737b69faa827f840a2f25a7cbb2e4f2",
+        "firmware/nrf5340/app/prj.conf": "b10a365341c2781d3b8fee77d559feb4b2e8b51b31923219ef390c992997dfeb",
+        "firmware/nrf5340/app/README.md": "62215f46b9a439e0b73d82cec790003f62be68d3bf76f9adccd5cb48992c6e4f",
+        "firmware/nrf5340/app/src/main.c": "a91bef9c8f45d742dccdbb825c37e42b626405d9645cbfb2599c01484e1fe74f",
+        "firmware/nrf5340/app/src/scci_rh_backend.c": "72cc56f3ef19404e539ed100e0a5ef37bce00cd218c40342ceef7d421dc660d8",
+        "firmware/nrf5340/app/src/scci_rh_backend.h": "b01a4852fb0b04effbf235a0a65e471556a3be162f10cbd2c351b7708dcc9292",
+        "firmware/nrf5340/app/src/scci_rh_pins.h": "2a8645c0f39947b45c999e8307bb9eb8626879e73f60ce92bbb12796da9abd9e",
+        "firmware/nrf5340/core/README.md": "c094ee64ed5967bb1b4fac757c82003a1849919f683fdbcd6ffa6e1e7c9725f6",
+        "firmware/nrf5340/core/scci_rh_runtime.c": "7a180e154b71ca51f3a60d4696f4d17a857880e745cf1b0027e2221282373216",
+        "firmware/nrf5340/core/scci_rh_runtime.h": "0852f505a5fac6001607ce908203b3661cb212c9989dcc48de4c1612fc5ada64"
+      },
+      "actual_artifacts_sha256": {
+        "firmware/nrf5340/artifacts/build.config": "56051f943a074981892751e1ed65251c5da53ba3e5647dcccd9de9174e0126a6",
+        "firmware/nrf5340/artifacts/compile-records.json": "a784f262f9a3b86dafb94e627f98318850ff0e1925511ae236abc0c5117303a7",
+        "firmware/nrf5340/artifacts/scci_rh.bin": "78d82025c3ee8913be7d4133ef976d3d2f6e5aa3915d30363dfd5e6a07fbbb0a",
+        "firmware/nrf5340/artifacts/scci_rh.elf": "a77b7da7ecf12d0b00cbb22fc6c0ba5383ebd12e27b8fc022dd7d3343dd16ecd",
+        "firmware/nrf5340/artifacts/scci_rh.hex": "75ff04faf423f6387f67ca672e863b452b65b8505ec25698d21654475de99b88",
+        "firmware/nrf5340/artifacts/scci_rh.map": "1c743d6005dc83534f6d0a5122150b2948c396887c379a26e81dbbed6a84c09f",
+        "firmware/nrf5340/artifacts/sections.txt": "94c168902cc4873eb94fd46d630f87c5cf3ffd3dde4e409bc516e495ee18ce70",
+        "firmware/nrf5340/artifacts/symbols.txt": "7b0b27986c1362eb7aee0893999b5d0005ff07b8a2ee1dd5a614b5b8418d506a",
+        "firmware/nrf5340/artifacts/zephyr.dts": "59b68b16b5ca26d8dd99d64c15e56013f23990814b13ba2d43817e378efc7229"
+      }
+    },
+    {
+      "builder": "electronics/stage4/integrated-pcb/firmware-profile/build_bt40f.py",
+      "executed_builder_sha256_lf": "78103836720d41c154b701641cf3edf6a50ec05ccf3a50242125c67c99c4dca0",
+      "metadata_corrected_builder_sha256_lf": "3d666c480206c937510f8f5d64bb17117d083f552e5eb4e3974e3a5138e52570",
+      "only_source_diff": {
+        "previous": "\"date\": \"2026-10-14\"",
+        "current": "\"date\": \"2026-10-28\", \"original_design_date\": \"2026-10-14\""
+      },
+      "build_receipt": "electronics/stage4/integrated-pcb/firmware-profile/build-receipt.json",
+      "actual_compiled_inputs_sha256_lf": {
+        "electronics/stage4/integrated-pcb/firmware-profile/bt40f.conf": "be7ef9debdb6d2b28a5a2be4b6bd6d0e34b059500e3e835331d4f75a23815ae5",
+        "firmware/nrf5340/app/app.overlay": "67c5904eebe29cb66ff63c0c271cc15779577482bdcbfd058e60530155634418",
+        "firmware/nrf5340/app/CMakeLists.txt": "16afbed0e5a1921008bce14aa48bb6398737b69faa827f840a2f25a7cbb2e4f2",
+        "firmware/nrf5340/app/prj.conf": "b10a365341c2781d3b8fee77d559feb4b2e8b51b31923219ef390c992997dfeb",
+        "firmware/nrf5340/app/README.md": "62215f46b9a439e0b73d82cec790003f62be68d3bf76f9adccd5cb48992c6e4f",
+        "firmware/nrf5340/app/src/main.c": "a91bef9c8f45d742dccdbb825c37e42b626405d9645cbfb2599c01484e1fe74f",
+        "firmware/nrf5340/app/src/scci_rh_backend.c": "72cc56f3ef19404e539ed100e0a5ef37bce00cd218c40342ceef7d421dc660d8",
+        "firmware/nrf5340/app/src/scci_rh_backend.h": "b01a4852fb0b04effbf235a0a65e471556a3be162f10cbd2c351b7708dcc9292",
+        "firmware/nrf5340/app/src/scci_rh_pins.h": "2a8645c0f39947b45c999e8307bb9eb8626879e73f60ce92bbb12796da9abd9e",
+        "firmware/nrf5340/core/README.md": "c094ee64ed5967bb1b4fac757c82003a1849919f683fdbcd6ffa6e1e7c9725f6",
+        "firmware/nrf5340/core/scci_rh_runtime.c": "7a180e154b71ca51f3a60d4696f4d17a857880e745cf1b0027e2221282373216",
+        "firmware/nrf5340/core/scci_rh_runtime.h": "0852f505a5fac6001607ce908203b3661cb212c9989dcc48de4c1612fc5ada64"
+      },
+      "actual_artifacts_sha256": {
+        "electronics/stage4/integrated-pcb/firmware-profile/artifacts/build.config": "94f2f1bff151a836112fd1dd7f871d9f1f3a34536f350906fba051e6d1aa33fb",
+        "electronics/stage4/integrated-pcb/firmware-profile/artifacts/compile-records.json": "021041d13a8462a930eae645655b807c4144145df578fffb62c5d89e98430da6",
+        "electronics/stage4/integrated-pcb/firmware-profile/artifacts/scci_rh.bin": "bf520c82673fead0c9264b6f13a8cd42c6242bb45e88becabd921037f694dcd0",
+        "electronics/stage4/integrated-pcb/firmware-profile/artifacts/scci_rh.elf": "179fd0ab6350cdbd6596506218ee45f1283d183fb054331732ac3c60729dd8c4",
+        "electronics/stage4/integrated-pcb/firmware-profile/artifacts/scci_rh.hex": "48106124ca2c9f7719b419baac122797bf5264267ae3bd6ae9b21454e91f1571",
+        "electronics/stage4/integrated-pcb/firmware-profile/artifacts/scci_rh.map": "1bef874ee9fee6d3d73c126f2f2f42c8ac8017024866472d98011f54151364e7",
+        "electronics/stage4/integrated-pcb/firmware-profile/artifacts/sections.txt": "ae5dfa92f2ddcebc15f6e3ea1ff73b9afe6bccbebe2eba324726a9979cacc8ba",
+        "electronics/stage4/integrated-pcb/firmware-profile/artifacts/symbols.txt": "e8b3d67ba4ba25fda36e3a21f75ca26c0be34d448ee52def2dc9682a6c22234c",
+        "electronics/stage4/integrated-pcb/firmware-profile/artifacts/zephyr.dts": "59b68b16b5ca26d8dd99d64c15e56013f23990814b13ba2d43817e378efc7229"
+      }
+    },
+    {
+      "builder": "firmware/nrf5340/uart-revision/build_revision.py",
+      "executed_builder_sha256_lf": "b16f6ca4633936868c9a424a8fa4d9ed5005c2babc94bf6dcd3ca1f6ac1b1c4f",
+      "metadata_corrected_builder_sha256_lf": "aba422d476b84b53fae258a2bdbf0c828d224020ddf0401ba7c63724e2191cf9",
+      "only_source_diff": {
+        "previous": "\"date\": \"2026-10-17\"",
+        "current": "\"date\": \"2026-10-28\", \"original_design_date\": \"2026-10-17\""
+      },
+      "build_receipt": "firmware/nrf5340/uart-revision/build-receipt.json",
+      "actual_compiled_inputs_sha256_lf": {
+        "electronics/stage4/integrated-pcb/firmware-profile/bt40f.conf": "be7ef9debdb6d2b28a5a2be4b6bd6d0e34b059500e3e835331d4f75a23815ae5",
+        "firmware/nrf5340/app/app.overlay": "67c5904eebe29cb66ff63c0c271cc15779577482bdcbfd058e60530155634418",
+        "firmware/nrf5340/app/prj.conf": "b10a365341c2781d3b8fee77d559feb4b2e8b51b31923219ef390c992997dfeb",
+        "firmware/nrf5340/app/src/main.c": "a91bef9c8f45d742dccdbb825c37e42b626405d9645cbfb2599c01484e1fe74f",
+        "firmware/nrf5340/app/src/scci_rh_backend.h": "b01a4852fb0b04effbf235a0a65e471556a3be162f10cbd2c351b7708dcc9292",
+        "firmware/nrf5340/app/src/scci_rh_pins.h": "2a8645c0f39947b45c999e8307bb9eb8626879e73f60ce92bbb12796da9abd9e",
+        "firmware/nrf5340/core/scci_rh_runtime.c": "7a180e154b71ca51f3a60d4696f4d17a857880e745cf1b0027e2221282373216",
+        "firmware/nrf5340/core/scci_rh_runtime.h": "0852f505a5fac6001607ce908203b3661cb212c9989dcc48de4c1612fc5ada64",
+        "firmware/nrf5340/uart-revision/CMakeLists.txt": "ec76d7240ca5f84c466caeb96169cefe29eb127fd1019865e4e044f0507f2bae",
+        "firmware/nrf5340/uart-revision/src/scci_rh_backend.c": "274028a02481e0ae4b2bd56263d1fa7979daded7617d764799f5dcbda021f07c"
+      },
+      "actual_artifacts_sha256": {
+        "firmware/nrf5340/uart-revision/artifacts/build.config": "94f2f1bff151a836112fd1dd7f871d9f1f3a34536f350906fba051e6d1aa33fb",
+        "firmware/nrf5340/uart-revision/artifacts/compile-records.json": "232526fc5247caea4b58f49e0798e8762f98c438a8421a46b11a6ed173204e27",
+        "firmware/nrf5340/uart-revision/artifacts/scci_rh.bin": "a99c2e30f9ef9f62e84ccd447e536a76bc4a73cb7b34541ae922839db7c552ac",
+        "firmware/nrf5340/uart-revision/artifacts/scci_rh.elf": "813a611ae4b2e9746038f1beb3147338f9dae343ab523f0b4145332038b78b67",
+        "firmware/nrf5340/uart-revision/artifacts/scci_rh.hex": "e884bbb03b88ff31d2dea0bbe9ebc45343dd3f6390c80ab5cba6e1ac57090e42",
+        "firmware/nrf5340/uart-revision/artifacts/scci_rh.map": "9544fb77f176bf38506ec9f6f1f1292db2289857fce0efa11a55fd339735cf1d",
+        "firmware/nrf5340/uart-revision/artifacts/sections.txt": "1ead6b70e4806198bc3d22725faf52a6bb5913609db067ed77f02a9ceb984030",
+        "firmware/nrf5340/uart-revision/artifacts/symbols.txt": "e966b103accdf124029a3ae959f590a7163f9af955252006d786b019ba9c3daa",
+        "firmware/nrf5340/uart-revision/artifacts/zephyr.dts": "f9b7525e8ed82af5c9dccd211b007b6177f636e5d6291f3af7cebe068352b6d9"
+      }
+    }
+  ]
+}

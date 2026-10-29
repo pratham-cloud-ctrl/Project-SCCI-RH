@@ -1,1 +1,1 @@
-(sym_lib_table (version 7) (lib (name "ATO_CONTROLLER") (type "KiCad") (uri "${KIPRJMOD}/ATO_CONTROLLER.kicad_sym") (options "") (descr "Primary-pin-audited controller symbols; sources in connectivity.json")))
+(sym_lib_table (version 7) (lib (name "SCCI_RH_CONTROLLER") (type "KiCad") (uri "${KIPRJMOD}/SCCI_RH_CONTROLLER.kicad_sym") (options "") (descr "Primary-pin-audited controller symbols; sources in connectivity.json")))

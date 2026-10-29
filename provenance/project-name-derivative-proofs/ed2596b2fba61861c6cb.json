@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "93c06a2dae03ee4aa47b182a06b3eb76dae929bb15fa034571ef3e42891b0e72",
+  "current_sha256": "20c55c9e9217984ddc12ce93de6f9a0fc184979b33e09d49f2ee2c57d293a9f5",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-stage3-data-equivalence.json",
+      "sha256_lf": "8a50bd886a238ee75f5332b2badcf060a2ca5c45d5c9fb8b9da26bc5751da40b"
+    }
+  ]
+}

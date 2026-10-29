@@ -1,5 +1,5 @@
 {
-  "schema": "ato.populated-step-geometry.v1",
+  "schema": "scci_rh.populated-step-geometry.v1",
   "board": "power",
   "STEP_sha256": "599cf8072a973fb3b5d8fe22dd7e22243dcb98f762ddb69658814c0e0aa44dc7",
   "FreeCAD_version": [

@@ -16,7 +16,7 @@ from pathlib import Path
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-BACKEND_SHA256_LF = '2bf92060c1df3039f024cf7c70a0ca62a7ffcd455739eccbf28504ab763f8a49'
+BACKEND_SHA256_LF = '8705686a8a2efde080c1ad67868afe926c82e8c95bdec127a1ed659d4b06f75b'
 PHASES = ('native-specific', 'nominal-step', 'mechanical-step', 'exploded-step')
 
 
@@ -56,7 +56,7 @@ def load_phases(package_path, package):
 def load_clearance(package_path, package):
     manifest_path = ROOT/'provenance/stage5-reference-clearance/manifest.json'
     manifest = read(manifest_path)
-    assert manifest['schema']=='ato.stage5.actual-clearance-probe.v1'
+    assert manifest['schema']=='scci_rh.stage5.actual-clearance-probe.v1'
     bindings = manifest['bindings']
     assert bindings['native_sha256']==sha(ROOT/package['native'])
     assert bindings['contract_canonical_sha256']==backend.canonical(package_path)
@@ -153,7 +153,7 @@ def inspect():
                         **phases['native-specific'])
         # Recheck all source/export/native bindings after the fresh operations.
         assert load_phases(package_path, package)[2]==original_bindings
-        return dict(schema='ato.stage5.independent-native-inspection.v1',
+        return dict(schema='scci_rh.stage5.independent-native-inspection.v1',
                     scope='Nominal digital geometry; no fabrication, anatomy, hermetic or thermal qualification',
                     inspector='scripts/inspect_stage5_reference.py', inspector_sha256_lf=sha(Path(__file__), True),
                     FreeCAD_version=list(App.Version()), packages={'reference':geometry}, passed=True,

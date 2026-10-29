@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "provenance/stage5-reference-phases/reference-native-specific.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "1576dd9ec56b98b14110fd2204aa94b0cc5c9474844d8ad5b0eee10aa9d85066",
+  "current_sha256": "711035b71125609d3b187dc62de76ca31b7bf07c2255d337f56b3b138ae76414",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

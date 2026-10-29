@@ -1,7 +1,7 @@
 import unittest
 from dataclasses import replace
-from ato.stage3.assisted_prediction import MeasuredPosition
-from ato.stage3.residual_guard import DelayedResidualGuard, PredictionCommit
+from scci_rh.stage3.assisted_prediction import MeasuredPosition
+from scci_rh.stage3.residual_guard import DelayedResidualGuard, PredictionCommit
 
 
 class DelayedResidualTests(unittest.TestCase):

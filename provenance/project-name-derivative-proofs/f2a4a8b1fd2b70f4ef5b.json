@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/boards/contact-router/drc-binding.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "15bbc26c3aa02717980f3223cfd3cba43038e4731d98bd3242ea63df01462e16",
+  "current_sha256": "e33c23710d2dd9f00d1ec2fc5f032aab367150088ec72b70cc66c6d7536ede06",
+  "method": "unchanged_drc_findings_with_actual_native_reexecution_and_source_bindings",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

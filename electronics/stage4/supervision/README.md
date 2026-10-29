@@ -1,4 +1,4 @@
-# ATO-S4-SUP-01 - independent shutdown and supervision
+# SCCI_RH-S4-SUP-01 - independent shutdown and supervision
 
 **14 October 2026 - native digital engineering package - artificial loads only**
 
@@ -11,7 +11,7 @@ local symbols/footprint snapshots, [BOM](bom.csv), [connectivity](connectivity.j
 [reviewed page renders](review/). The explicit hierarchy separates the physical
 observations, phase timers, retained permission and body-facing guards.
 
-This implements the next bounded electronics step in ATO's future spinal
+This implements the next bounded electronics step in SCCI_RH's future spinal
 recording, interpretation, learner-specific stimulation and feedback architecture.
 It is not an implanted device or evidence that the conditional motor-learning
 and physiological hypotheses work in people. Those hypotheses remain the

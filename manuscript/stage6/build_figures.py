@@ -14,7 +14,7 @@ OUT.mkdir(parents=True,exist_ok=True)
 NAVY='#172d45'; TEAL='#087f8c'; GOLD='#c17b28'; RED='#a94141'; GRAY='#607283'
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'axes.spines.top':False,
                      'axes.spines.right':False,'axes.labelcolor':NAVY,'text.color':NAVY,
-                     'axes.titleweight':'bold','savefig.facecolor':'white','svg.hashsalt':'project-ato-stage6'})
+                     'axes.titleweight':'bold','savefig.facecolor':'white','svg.hashsalt':'project-scci-rh-stage6'})
 INPUTS=['experiments/stage3/conditional-concept/summary.json','results/stage3/pressure-summary.json',
         'results/stage6/integration-summary.json','provenance/stage5-mechanical-verification.json']
 
@@ -120,7 +120,7 @@ def main():
 
     diagram('08_evidence','Three evidence levels remain visible throughout the release',[
       (.02,.49,.28,.28,'Published biological precedents\nrecording / recruitment / recovery\nselected pressure feedback'),
-      (.36,.49,.28,.28,'ATO digital results\nmodels + compiled control code\nnative electronics + CAD'),
+      (.36,.49,.28,.28,'SCCI_RH digital results\nmodels + compiled control code\nnative electronics + CAD'),
       (.70,.49,.28,.28,'Future combination\nuseful human spinal features\nselectivity + retained learning')],
       [((.30,.63),(.36,.63)),((.64,.63),(.70,.63))],
       'Evidence motivates a design premise. A completed digital design does not measure the biological premise.')
@@ -133,7 +133,7 @@ def main():
       'The host replay uses an explicit conditional feature adapter. It does not claim simultaneous target neural recording.',font_size=9)
     artifacts={p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(OUT.glob('*')) if p.suffix in ('.png','.svg')}
     inputs={p:hashlib.sha256((ROOT/p).read_bytes().replace(b'\r\n',b'\n')).hexdigest() for p in INPUTS}
-    (OUT/'figure-manifest.json').write_text(json.dumps({'schema':'ato.stage6.figures.v1','inputs_sha256_lf':inputs,'artifacts_sha256':artifacts},indent=2)+'\n',encoding='utf-8',newline='\n')
+    (OUT/'figure-manifest.json').write_text(json.dumps({'schema':'scci_rh.stage6.figures.v1','inputs_sha256_lf':inputs,'artifacts_sha256':artifacts},indent=2)+'\n',encoding='utf-8',newline='\n')
     print(f'{len(artifacts)//2} figures rendered in PNG and SVG from frozen data.')
 
 if __name__=='__main__':main()

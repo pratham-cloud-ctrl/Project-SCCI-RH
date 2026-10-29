@@ -1,6 +1,6 @@
 # BT40F carrier firmware profile
 
-This is the carrier-specific build of the existing ATO nRF5340 application. The
+This is the carrier-specific build of the existing SCCI_RH nRF5340 application. The
 Fanstel BT40F hardware review specifies internal HFXO load capacitors of **11 pF**;
 `bt40f.conf` selects that configuration through `VALUE_X2=22`. The application,
 policy core, GPIO map and wired peripheral profile remain the previously reviewed
@@ -22,7 +22,7 @@ policy source was changed for this variant.
 
 The portable, standard-library-only verifier checks every build source and
 artifact binding, the exact configuration delta, the ARM ELF's sections and
-linked ATO functions, Intel HEX checksums and records, ELF/HEX load-byte parity,
+linked SCCI_RH functions, Intel HEX checksums and records, ELF/HEX load-byte parity,
 and BIN parity including its eight-byte erased-flash gap. It also checks the
 original firmware receipt's bindings without changing that package. Verification
 is read-only unless explicitly asked to refresh the saved report:

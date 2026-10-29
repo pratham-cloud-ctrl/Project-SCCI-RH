@@ -126,7 +126,7 @@ def verify():
     require(find(("power", "PWR_FAULT_N")) == find(("supervision", "GUARD_FAULT_N")) == find(("monitoring-transport", "PWR_FAULT_N")), "existing fault is observed without replacing guard authority")
     require(find(("supervision", "CH0_MON_SUP_OK")) != find(("supervision", "CH0_EXT_SUP_OK")), "prearm health remains separate from arm-qualified enable")
     hashes[Path(__file__).relative_to(ROOT).as_posix()] = sha(Path(__file__))
-    return {"schema": "ato.stage4.monitoring-transport-integration.v1", "date": "2026-10-14", "status": "pass",
+    return {"schema": "scci_rh.stage4.monitoring-transport-integration.v1", "date": "2026-10-14", "status": "pass",
             "new_monitoring_transport_wires": 34, "combined_wire_plan_connections": wire_count,
             "endpoint_manifest_XML_comparisons": endpoint_checks, "actual_interface_header_pins": boundary_pins,
             "assertions": checks, "native_packages": len(packages), "floating_recording_ground_preserved": True,

@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "docs/explore/assets/manifest.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "242d5bcd5b5f8fc2c717219b996d38ddca3ab5aa632bf15ffd55b2d3c57eb993",
+  "current_sha256": "fbfaa13a1a117a78fc87587b376bd51e883c5a08ef417dae16a8e7ab1d27607c",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-reader-inspector-final.json",
+      "sha256_lf": "fcfdb1e16c0d171925572501b606706a4b4990f291f183cdca4937b8011a5f63"
+    }
+  ]
+}

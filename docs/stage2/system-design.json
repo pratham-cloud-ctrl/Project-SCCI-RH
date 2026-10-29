@@ -1,5 +1,5 @@
 {
-  "schema": "ATO-S2-1",
+  "schema": "SCCI_RH-S2-1",
   "date": "2026-10-08",
   "scope": "Provisional digital architecture and budget inputs; no human stimulation prescription or efficacy result",
   "selection": {
@@ -288,7 +288,7 @@
       "boost_V": 48,
       "load_ohm": 1000,
       "recovery_s": 0.001,
-      "basis": "Primary amplitude upper range combined with ATO symmetric waveform; sustained thermal and low-cell limits may reject it",
+      "basis": "Primary amplitude upper range combined with SCCI_RH symmetric waveform; sustained thermal and low-cell limits may reject it",
       "profile_ids_per_event": [
         [
           "pressure_0"

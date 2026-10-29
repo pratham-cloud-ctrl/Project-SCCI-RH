@@ -23,7 +23,7 @@ checked=0
 for ref,p in parts.items():
  assert components[ref].findtext('value')==p['value']
  assert components[ref].findtext('footprint')==p['footprint']
- path=HERE/'ato_controller.pretty'/(p['footprint'].split(':')[1]+'.kicad_mod')
+ path=HERE/'scci_rh_controller.pretty'/(p['footprint'].split(':')[1]+'.kicad_mod')
  pads=re.findall(r'\(pad "([^"]+)"',path.read_text());assert set(pads)==set(p['nets']),(ref,pads,p['nets'])
  assert len(pads)==len(set(pads))
  for n,net in p['nets'].items():check(ref,n,net);checked+=1
@@ -96,7 +96,7 @@ assert source['body_geometry']['upper_x_bounds_mm']==[-8,7] and source['body_geo
 assert source['body_geometry']['y_bounds_mm']==[-10.5,10.5] and source['body_geometry']['notch_y_mm']==.5
 assert {r['pad'] for r in geometry}==set(m['physical_pad_functions'])
 assert source['numeric_to_physical_names']['52']=='F3' and source['numeric_to_physical_names']['59']=='H3'
-fp=(HERE/'ato_controller.pretty/BT40F_Manufacturer_66Pad.kicad_mod').read_text()
+fp=(HERE/'scci_rh_controller.pretty/BT40F_Manufacturer_66Pad.kicad_mod').read_text()
 assert '(start -8.5 -11) (end 7.5 11)' in fp and '(start -7 10.5) (end -7 0.5)' in fp
 for row in geometry:
  match=re.search(r'\(pad "'+re.escape(row['pad'])+r'" smd (\w+) \(at ([\d.-]+) ([\d.-]+)\) \(size ([\d.-]+) ([\d.-]+)\)',fp);assert match,row
@@ -118,7 +118,7 @@ for p in (HERE/'svg').glob('*.svg'):assert all(l==l.rstrip() for l in p.read_tex
 with (HERE/'bom.csv').open(encoding='utf-8',newline='') as f:bom=list(csv.DictReader(f))
 assert len(bom)==68 and {x['reference'] for x in bom}==set(parts)
 files=sorted(p for p in HERE.rglob('*') if p.is_file() and p.name not in ('verification.json','controller_carrier.kicad_prl') and '__pycache__' not in p.parts and not p.name.endswith('.lck'))
-receipt={'schema':'ato.stage4.controller-carrier.verification.v1','date':'2026-10-14','scope':'SavednativeGPIO,pad,sideband,ERC,MCPandvisualverification;physicalexecutionexcluded','components':68,'physical_pin_contracts':328,'module_physical_pads':66,'firmware_GPIO':46,'sideband_serial_vectors':len(vectors),'sheets':10,'ERC_violations':0,'ignored_ERC_checks':[],'checks':['all66actualmodulepadsand46frozenfirmwareGPIO','fourphysicalHtoA/QH/SERchainsand26observationsplus6sentinelbits','separatecommon-driverandtwo-phase-supervisorrearms','explicitcommonendpointCNV','forty10kresetbiasesandstatic13.2mAopposedceiling','primaryEaglegeometrytoactualnativepadnames','nativeXML/BOM/footprintpinsets','savedfileKonnectMCPgeometry/pins/ERC','tenPDF/SVGpageswithfinalvisualreview'],'unqualified':m['unqualified'],'hash_policy':'TextLFnormalized;PDF/PNGexact;selfreceipt/caches/preferencesexcluded','sha256':{p.relative_to(HERE).as_posix():digest(p) for p in files}}
+receipt={'schema':'scci_rh.stage4.controller-carrier.verification.v1','date':'2026-10-14','scope':'SavednativeGPIO,pad,sideband,ERC,MCPandvisualverification;physicalexecutionexcluded','components':68,'physical_pin_contracts':328,'module_physical_pads':66,'firmware_GPIO':46,'sideband_serial_vectors':len(vectors),'sheets':10,'ERC_violations':0,'ignored_ERC_checks':[],'checks':['all66actualmodulepadsand46frozenfirmwareGPIO','fourphysicalHtoA/QH/SERchainsand26observationsplus6sentinelbits','separatecommon-driverandtwo-phase-supervisorrearms','explicitcommonendpointCNV','forty10kresetbiasesandstatic13.2mAopposedceiling','primaryEaglegeometrytoactualnativepadnames','nativeXML/BOM/footprintpinsets','savedfileKonnectMCPgeometry/pins/ERC','tenPDF/SVGpageswithfinalvisualreview'],'unqualified':m['unqualified'],'hash_policy':'TextLFnormalized;PDF/PNGexact;selfreceipt/caches/preferencesexcluded','sha256':{p.relative_to(HERE).as_posix():digest(p) for p in files}}
 if args.write_receipt:(HERE/'verification.json').write_text(json.dumps(receipt,indent=2)+'\n',encoding='utf-8')
 else:assert json.loads((HERE/'verification.json').read_text())==receipt,'Review before deliberate receipt refresh'
 print(json.dumps({k:receipt[k] for k in ['components','physical_pin_contracts','module_physical_pads','firmware_GPIO','sideband_serial_vectors','sheets','ERC_violations']}))

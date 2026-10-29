@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "cad/stage5/future-interface/future-fitted-native.png",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "81c4e821a509ab9d0fb1659bd60b4950a9ad537ed3edc3c39c8035d8e99ebbf6",
+  "current_sha256": "43f3d4ebea9f97b6aa2556265b4e527d1bb82432e79e1a0a7cd0c620ea437bd4",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-raster-metadata.json",
+      "sha256_lf": "080581affa607d0673615780371f14215ee4f2cbe31ad5ad8ee9447228fdd9fa"
+    }
+  ]
+}

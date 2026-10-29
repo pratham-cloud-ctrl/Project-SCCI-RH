@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage4.monitoring-transport.connectivity.v1",
+  "schema": "scci_rh.stage4.monitoring-transport.connectivity.v1",
   "date": "2026-10-14",
   "scope": "DedicatedrawADC,existingcharge-ADC/healthhandoffandisolatedwiredcompanion; artificialsignals,notimplantedbodylinkqualification",
   "parts": [
@@ -7,7 +7,7 @@
       "ref": "J1",
       "value": "HOST RAILS / RAW ADC",
       "kind": "J",
-      "footprint": "ato_transport:PinHeader_1x03_P2.54mm_Vertical",
+      "footprint": "scci_rh_transport:PinHeader_1x03_P2.54mm_Vertical",
       "nets": {
         "1": "HOST_5",
         "2": "HOST_3V3",
@@ -45,7 +45,7 @@
       "ref": "J2",
       "value": "EXISTING ANALOG TAPS",
       "kind": "J",
-      "footprint": "ato_transport:PinHeader_1x08_P2.54mm_Vertical",
+      "footprint": "scci_rh_transport:PinHeader_1x08_P2.54mm_Vertical",
       "nets": {
         "1": "CH0_I_MON",
         "2": "CH1_I_MON",
@@ -118,7 +118,7 @@
       "ref": "J3",
       "value": "DEDICATED RAW ADC BUS",
       "kind": "J",
-      "footprint": "ato_transport:PinHeader_1x06_P2.54mm_Vertical",
+      "footprint": "scci_rh_transport:PinHeader_1x06_P2.54mm_Vertical",
       "nets": {
         "1": "RAW_SCLK",
         "2": "RAW_SDI",
@@ -177,7 +177,7 @@
       "ref": "J4",
       "value": "TWO EXISTING CHARGE ADCs",
       "kind": "J",
-      "footprint": "ato_transport:PinHeader_1x08_P2.54mm_Vertical",
+      "footprint": "scci_rh_transport:PinHeader_1x08_P2.54mm_Vertical",
       "nets": {
         "1": "CH0_CNV",
         "2": "CH0_CS_N",
@@ -250,7 +250,7 @@
       "ref": "J5",
       "value": "CHARGE CONTROL HANDOFF",
       "kind": "J",
-      "footprint": "ato_transport:PinHeader_1x05_P2.54mm_Vertical",
+      "footprint": "scci_rh_transport:PinHeader_1x05_P2.54mm_Vertical",
       "nets": {
         "1": "CH0_INT_RUN",
         "2": "CH1_INT_RUN",
@@ -302,7 +302,7 @@
       "ref": "J6",
       "value": "READ-ONLY NATIVE HEALTH",
       "kind": "J",
-      "footprint": "ato_transport:PinHeader_1x10_P2.54mm_Vertical",
+      "footprint": "scci_rh_transport:PinHeader_1x10_P2.54mm_Vertical",
       "nets": {
         "1": "RESET_READY",
         "2": "RAILS_QUALIFIED",
@@ -389,7 +389,7 @@
       "ref": "U1",
       "value": "ADS8688IDBTR",
       "kind": "raw_adc",
-      "footprint": "ato_transport:TSSOP-38_4.4x9.7mm_P0.5mm",
+      "footprint": "scci_rh_transport:TSSOP-38_4.4x9.7mm_P0.5mm",
       "nets": {
         "1": "RAW_SDI_PAD",
         "2": "RAW_RST_N",
@@ -672,7 +672,7 @@
       "ref": "R1",
       "value": "33R",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "RAW_SDI",
         "2": "RAW_SDI_PAD"
@@ -703,7 +703,7 @@
       "ref": "R2",
       "value": "33R",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "RAW_SCLK",
         "2": "RAW_SCLK_PAD"
@@ -734,7 +734,7 @@
       "ref": "R3",
       "value": "100k",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "HOST_3V3",
         "2": "RAW_CS_N"
@@ -765,7 +765,7 @@
       "ref": "R4",
       "value": "100k",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "RAW_RST_N",
         "2": "GND"
@@ -796,7 +796,7 @@
       "ref": "R5",
       "value": "100k",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "RAW_SCLK_PAD",
         "2": "GND"
@@ -827,7 +827,7 @@
       "ref": "R6",
       "value": "100k",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "RAW_SDI_PAD",
         "2": "GND"
@@ -858,7 +858,7 @@
       "ref": "C1",
       "value": "22u X7R 10V",
       "kind": "C",
-      "footprint": "ato_transport:C_1206_3216Metric",
+      "footprint": "scci_rh_transport:C_1206_3216Metric",
       "nets": {
         "1": "RAW_REFIO",
         "2": "GND"
@@ -889,7 +889,7 @@
       "ref": "C2",
       "value": "22u X7R 10V",
       "kind": "C",
-      "footprint": "ato_transport:C_1206_3216Metric",
+      "footprint": "scci_rh_transport:C_1206_3216Metric",
       "nets": {
         "1": "RAW_REFCAP",
         "2": "GND"
@@ -920,7 +920,7 @@
       "ref": "C3",
       "value": "1u X7R 10V",
       "kind": "C",
-      "footprint": "ato_transport:C_1206_3216Metric",
+      "footprint": "scci_rh_transport:C_1206_3216Metric",
       "nets": {
         "1": "RAW_REFCAP",
         "2": "GND"
@@ -951,7 +951,7 @@
       "ref": "C4",
       "value": "10u X7R 10V",
       "kind": "C",
-      "footprint": "ato_transport:C_1206_3216Metric",
+      "footprint": "scci_rh_transport:C_1206_3216Metric",
       "nets": {
         "1": "HOST_5",
         "2": "GND"
@@ -982,7 +982,7 @@
       "ref": "C5",
       "value": "1u X7R 10V",
       "kind": "C",
-      "footprint": "ato_transport:C_1206_3216Metric",
+      "footprint": "scci_rh_transport:C_1206_3216Metric",
       "nets": {
         "1": "HOST_5",
         "2": "GND"
@@ -1013,7 +1013,7 @@
       "ref": "C6",
       "value": "10u X7R 10V",
       "kind": "C",
-      "footprint": "ato_transport:C_1206_3216Metric",
+      "footprint": "scci_rh_transport:C_1206_3216Metric",
       "nets": {
         "1": "HOST_5",
         "2": "GND"
@@ -1044,7 +1044,7 @@
       "ref": "C7",
       "value": "1u X7R 10V",
       "kind": "C",
-      "footprint": "ato_transport:C_1206_3216Metric",
+      "footprint": "scci_rh_transport:C_1206_3216Metric",
       "nets": {
         "1": "HOST_5",
         "2": "GND"
@@ -1075,7 +1075,7 @@
       "ref": "C8",
       "value": "10u X7R 10V",
       "kind": "C",
-      "footprint": "ato_transport:C_1206_3216Metric",
+      "footprint": "scci_rh_transport:C_1206_3216Metric",
       "nets": {
         "1": "HOST_3V3",
         "2": "GND"
@@ -1106,7 +1106,7 @@
       "ref": "C9",
       "value": "100n X7R 10V",
       "kind": "C",
-      "footprint": "ato_transport:C_1206_3216Metric",
+      "footprint": "scci_rh_transport:C_1206_3216Metric",
       "nets": {
         "1": "HOST_3V3",
         "2": "GND"
@@ -1137,7 +1137,7 @@
       "ref": "R100",
       "value": "100R 0.1%",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "CH0_I_MON",
         "2": "ADC0"
@@ -1168,7 +1168,7 @@
       "ref": "C100",
       "value": "1n C0G 5%",
       "kind": "C",
-      "footprint": "ato_transport:C_1206_3216Metric",
+      "footprint": "scci_rh_transport:C_1206_3216Metric",
       "nets": {
         "1": "ADC0",
         "2": "GND"
@@ -1199,7 +1199,7 @@
       "ref": "R101",
       "value": "100R 0.1%",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "CH1_I_MON",
         "2": "ADC1"
@@ -1230,7 +1230,7 @@
       "ref": "C101",
       "value": "1n C0G 5%",
       "kind": "C",
-      "footprint": "ato_transport:C_1206_3216Metric",
+      "footprint": "scci_rh_transport:C_1206_3216Metric",
       "nets": {
         "1": "ADC1",
         "2": "GND"
@@ -1261,7 +1261,7 @@
       "ref": "R102",
       "value": "100R 0.1%",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "CH0_VPAIR",
         "2": "ADC2"
@@ -1292,7 +1292,7 @@
       "ref": "C102",
       "value": "1n C0G 5%",
       "kind": "C",
-      "footprint": "ato_transport:C_1206_3216Metric",
+      "footprint": "scci_rh_transport:C_1206_3216Metric",
       "nets": {
         "1": "ADC2",
         "2": "GND"
@@ -1323,7 +1323,7 @@
       "ref": "R103",
       "value": "100R 0.1%",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "CH1_VPAIR",
         "2": "ADC3"
@@ -1354,7 +1354,7 @@
       "ref": "C103",
       "value": "1n C0G 5%",
       "kind": "C",
-      "footprint": "ato_transport:C_1206_3216Metric",
+      "footprint": "scci_rh_transport:C_1206_3216Metric",
       "nets": {
         "1": "ADC3",
         "2": "GND"
@@ -1385,7 +1385,7 @@
       "ref": "R104",
       "value": "100R 0.1%",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "MON_VREF",
         "2": "ADC4"
@@ -1416,7 +1416,7 @@
       "ref": "C104",
       "value": "1n C0G 5%",
       "kind": "C",
-      "footprint": "ato_transport:C_1206_3216Metric",
+      "footprint": "scci_rh_transport:C_1206_3216Metric",
       "nets": {
         "1": "ADC4",
         "2": "GND"
@@ -1447,7 +1447,7 @@
       "ref": "R105",
       "value": "100R 0.1%",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "MON_VMID",
         "2": "ADC5"
@@ -1478,7 +1478,7 @@
       "ref": "C105",
       "value": "1n C0G 5%",
       "kind": "C",
-      "footprint": "ato_transport:C_1206_3216Metric",
+      "footprint": "scci_rh_transport:C_1206_3216Metric",
       "nets": {
         "1": "ADC5",
         "2": "GND"
@@ -1509,7 +1509,7 @@
       "ref": "R106",
       "value": "100R 0.1%",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "PACK_SCALED",
         "2": "ADC6"
@@ -1540,7 +1540,7 @@
       "ref": "C106",
       "value": "1n C0G 5%",
       "kind": "C",
-      "footprint": "ato_transport:C_1206_3216Metric",
+      "footprint": "scci_rh_transport:C_1206_3216Metric",
       "nets": {
         "1": "ADC6",
         "2": "GND"
@@ -1571,7 +1571,7 @@
       "ref": "R107",
       "value": "100R 0.1%",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "HOST5_SCALED",
         "2": "ADC7"
@@ -1602,7 +1602,7 @@
       "ref": "C107",
       "value": "1n C0G 5%",
       "kind": "C",
-      "footprint": "ato_transport:C_1206_3216Metric",
+      "footprint": "scci_rh_transport:C_1206_3216Metric",
       "nets": {
         "1": "ADC7",
         "2": "GND"
@@ -1633,7 +1633,7 @@
       "ref": "R120",
       "value": "4.99k 0.1%",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "PACK_BUS",
         "2": "PACK_SCALED"
@@ -1664,7 +1664,7 @@
       "ref": "R121",
       "value": "2.49k 0.1%",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "PACK_SCALED",
         "2": "GND"
@@ -1695,7 +1695,7 @@
       "ref": "R122",
       "value": "2.4k 0.1%",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "HOST_5",
         "2": "HOST5_SCALED"
@@ -1726,7 +1726,7 @@
       "ref": "R123",
       "value": "2k 0.1%",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "HOST5_SCALED",
         "2": "GND"
@@ -1757,7 +1757,7 @@
       "ref": "U20",
       "value": "ISO6721BDR",
       "kind": "uart_iso",
-      "footprint": "ato_transport:SOIC-8_3.9x4.9mm_P1.27mm",
+      "footprint": "scci_rh_transport:SOIC-8_3.9x4.9mm_P1.27mm",
       "nets": {
         "1": "HOST_3V3",
         "2": "UART_HOST_RX_PAD",
@@ -1830,7 +1830,7 @@
       "ref": "J7",
       "value": "HOST PROCESSED UART",
       "kind": "J",
-      "footprint": "ato_transport:PinHeader_1x04_P2.54mm_Vertical",
+      "footprint": "scci_rh_transport:PinHeader_1x04_P2.54mm_Vertical",
       "nets": {
         "1": "HOST_UART_TX",
         "2": "HOST_UART_RX",
@@ -1875,7 +1875,7 @@
       "ref": "J8",
       "value": "EXTERNAL COMPANION UART",
       "kind": "J",
-      "footprint": "ato_transport:PinHeader_1x04_P2.54mm_Vertical",
+      "footprint": "scci_rh_transport:PinHeader_1x04_P2.54mm_Vertical",
       "nets": {
         "1": "COMP_UART_TX",
         "2": "COMP_UART_RX",
@@ -1920,7 +1920,7 @@
       "ref": "R20",
       "value": "33R",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "HOST_UART_TX",
         "2": "UART_HOST_TX_PAD"
@@ -1951,7 +1951,7 @@
       "ref": "R21",
       "value": "33R",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "UART_HOST_RX_PAD",
         "2": "HOST_UART_RX"
@@ -1982,7 +1982,7 @@
       "ref": "R22",
       "value": "33R",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "COMP_UART_TX",
         "2": "UART_COMP_TX_PAD"
@@ -2013,7 +2013,7 @@
       "ref": "R23",
       "value": "33R",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "UART_COMP_RX_PAD",
         "2": "COMP_UART_RX"
@@ -2044,7 +2044,7 @@
       "ref": "R24",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "HOST_3V3",
         "2": "UART_HOST_TX_PAD"
@@ -2075,7 +2075,7 @@
       "ref": "R25",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "COMP_3V3",
         "2": "UART_COMP_TX_PAD"
@@ -2106,7 +2106,7 @@
       "ref": "C20",
       "value": "100n X7R 10V",
       "kind": "C",
-      "footprint": "ato_transport:C_1206_3216Metric",
+      "footprint": "scci_rh_transport:C_1206_3216Metric",
       "nets": {
         "1": "HOST_3V3",
         "2": "GND"
@@ -2137,7 +2137,7 @@
       "ref": "C21",
       "value": "100n X7R 10V",
       "kind": "C",
-      "footprint": "ato_transport:C_1206_3216Metric",
+      "footprint": "scci_rh_transport:C_1206_3216Metric",
       "nets": {
         "1": "COMP_3V3",
         "2": "COMP_GND"
@@ -2168,7 +2168,7 @@
       "ref": "C22",
       "value": "1u X7R 10V",
       "kind": "C",
-      "footprint": "ato_transport:C_1206_3216Metric",
+      "footprint": "scci_rh_transport:C_1206_3216Metric",
       "nets": {
         "1": "HOST_3V3",
         "2": "GND"
@@ -2199,7 +2199,7 @@
       "ref": "C23",
       "value": "1u X7R 10V",
       "kind": "C",
-      "footprint": "ato_transport:C_1206_3216Metric",
+      "footprint": "scci_rh_transport:C_1206_3216Metric",
       "nets": {
         "1": "COMP_3V3",
         "2": "COMP_GND"
@@ -2230,7 +2230,7 @@
       "ref": "J20",
       "value": "HOST CHARGE ADC BUS",
       "kind": "J",
-      "footprint": "ato_transport:PinHeader_1x12_P2.54mm_Vertical",
+      "footprint": "scci_rh_transport:PinHeader_1x12_P2.54mm_Vertical",
       "nets": {
         "1": "CH0_CNV",
         "2": "CH0_CS_N",
@@ -2331,7 +2331,7 @@
       "ref": "J21",
       "value": "HOST HEALTH INPUTS",
       "kind": "J",
-      "footprint": "ato_transport:PinHeader_1x10_P2.54mm_Vertical",
+      "footprint": "scci_rh_transport:PinHeader_1x10_P2.54mm_Vertical",
       "nets": {
         "1": "RESET_READY",
         "2": "RAILS_QUALIFIED",
@@ -2418,7 +2418,7 @@
       "ref": "R30",
       "value": "330R",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "CH0_DOUT",
         "2": "MON_MISO"
@@ -2449,7 +2449,7 @@
       "ref": "R31",
       "value": "330R",
       "kind": "R",
-      "footprint": "ato_transport:R_0805_2012Metric",
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
       "nets": {
         "1": "CH1_DOUT",
         "2": "MON_MISO"
@@ -2480,7 +2480,7 @@
       "ref": "J22",
       "value": "HOST SHARED ENDPOINT SPI",
       "kind": "J",
-      "footprint": "ato_transport:PinHeader_1x07_P2.54mm_Vertical",
+      "footprint": "scci_rh_transport:PinHeader_1x07_P2.54mm_Vertical",
       "nets": {
         "1": "MON_SCLK",
         "2": "MON_MISO",

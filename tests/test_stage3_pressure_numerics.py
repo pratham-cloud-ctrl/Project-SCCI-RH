@@ -9,8 +9,8 @@ import unittest
 
 import numpy as np
 
-from ato.stage3.electrical import PressureDelivery
-from ato.stage3.pressure import (
+from scci_rh.stage3.electrical import PressureDelivery
+from scci_rh.stage3.pressure import (
     PA_PER_MMHG, PressureScenario, TimestampedPressureBody, run_study,
 )
 

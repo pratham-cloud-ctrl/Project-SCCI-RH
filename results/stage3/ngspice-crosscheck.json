@@ -10,7 +10,7 @@
     "stderr Warning: can't find the initialization file spinit."
   ],
   "api_source": "https://ngspice.sourceforge.io/shared.html",
-  "reference_model": "src/ato/stage3/electrical.py",
+  "reference_model": "src/scci_rh/stage3/electrical.py",
   "inputs": {
     "current_A": 0.003,
     "phase_s": 0.0002,
@@ -96,7 +96,7 @@
   ],
   "netlists": {
     "open_recovery": [
-      "ATO linear pair load independent transient",
+      "SCCI_RH linear pair load independent transient",
       "Icommand 0 drive PWL(0 0 1p -3m 200u -3m 200.000001u 0 300u 0 300.000001u 3m 500u 3m 500.000001u 0 1.5m 0)",
       "Rseries drive pol 1000",
       "Cpair pol 0 2u IC=0",
@@ -107,7 +107,7 @@
       ".end"
     ],
     "passive_recovery": [
-      "ATO linear pair load independent transient",
+      "SCCI_RH linear pair load independent transient",
       "Icommand 0 drive PWL(0 0 1p -3m 200u -3m 200.000001u 0 300u 0 300.000001u 3m 500u 3m 500.000001u 0 1.5m 0)",
       "Rseries drive pol 1000",
       "Cpair pol 0 2u IC=0",

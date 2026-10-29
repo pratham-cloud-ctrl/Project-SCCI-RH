@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/boards/monitoring-transport/drc-binding.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "f224eb23c19b8f8ddd51d2b1b8146761e1c11811e9bc00fcfe2f4fa284656186",
+  "current_sha256": "268feef5a3d019d3e27410acf3b241b8f3ba0c6d27221df063bd4d005d0caac2",
+  "method": "unchanged_drc_findings_with_actual_native_reexecution_and_source_bindings",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

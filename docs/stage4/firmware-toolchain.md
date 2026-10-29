@@ -1,16 +1,16 @@
 # Target firmware tools
 
-**14 October update:** the [actual ATO application](../../firmware/nrf5340/README.md)
+**14 October update:** the [actual SCCI_RH application](../../firmware/nrf5340/README.md)
 now compiles and links for the application core. Its
 [build receipt](../../provenance/stage4-nrf5340-build.json),
 [independent audit](../../provenance/stage4-nrf5340-verification.json) and
 [implementation review](nrf5340-firmware-design.md) supersede the readiness-only
 status below. The older smoke receipt is preserved as a separate historical
-tool-installation check; it is not the ATO image.
+tool-installation check; it is not the SCCI_RH image.
 
 12 October 2026. **SDK installed and unmodified application-core example
 successfully cross-compiled and linked.** This is a tool-readiness record.
-The full ATO processor backend remains unimplemented.
+The full SCCI_RH processor backend remains unimplemented.
 
 The Stage 2 processor witness is nRF5340. Its native firmware work needs a
 supported Arm compiler, Nordic/Zephyr headers, build tools and a linked target
@@ -40,7 +40,7 @@ Observed checks:
 - The [build receipt](../../provenance/stage4-nordic-toolchain-smoke.json) binds
   the actual command, source and ELF hashes, tool versions and section sizes.
   The example's linker reports 24,856 B flash and 6,048 B RAM. These are example
-  sizes, not ATO firmware resource evidence.
+  sizes, not SCCI_RH firmware resource evidence.
 
 The original installer, manager metadata and installation physically reside in
 `E:\project workspace assests\Firmware\Nordic`. Nordic/Zephyr
@@ -49,8 +49,8 @@ so local junctions initially provided short paths:
 
 | Alias | Physical destination |
 |---|---|
-| `E:\ATO-Tools` | `E:\project workspace assests\Firmware\Nordic` |
-| `E:\ATO` | `E:\Project ATO` |
+| `E:\SCCI_RH-Tools` | `E:\project workspace assests\Firmware\Nordic` |
+| `E:\SCCI_RH` | `E:\Project SCCI RH` |
 
 The SDK resolves module paths to their physical directory. Generated unquoted
 Kconfig module paths then split the asset directory's spaces into arguments;
@@ -58,7 +58,7 @@ the first configure failed before compilation. An alias alone did not solve
 that documented path restriction, and no usable Windows short filename existed.
 
 A complete, separate copy of SDK `v3.4.1` and toolchain `4f5b6ad6dd` now resides
-at **`E:\ATO-Nordic\ncs`**, a physical path without spaces. The original asset
+at **`E:\SCCI_RH-Nordic\ncs`**, a physical path without spaces. The original asset
 installation remains intact. The copy included 157,478 SDK files and 47,229
 toolchain files, with zero copy failures. It adds approximately 7.3 GiB of local
 storage; it is not a project checkout or tracked repository artifact.
@@ -69,13 +69,13 @@ paths, forward-slash CMake Python settings and a pristine build avoid old cache
 and registry selections. No vendor source, global PATH, registry setting or
 physical device was modified. The project junction still serves the ignored
 build directory. Installer logs use the process-local
-`NRFUTIL_HOME=E:\ATO-Tools\nrfutil-home` setting.
+`NRFUTIL_HOME=E:\SCCI_RH-Tools\nrfutil-home` setting.
 
 The completed original installation used:
 
 ```powershell
-$env:NRFUTIL_HOME='E:\ATO-Tools\nrfutil-home'
-& E:\ATO-Tools\nrfutil.exe sdk-manager install v3.4.1 --install-dir E:\ATO-Tools\ncs
+$env:NRFUTIL_HOME='E:\SCCI_RH-Tools\nrfutil-home'
+& E:\SCCI_RH-Tools\nrfutil.exe sdk-manager install v3.4.1 --install-dir E:\SCCI_RH-Tools\ncs
 ```
 
 ## Repeat the build check
@@ -94,6 +94,6 @@ Its build log stays under `tmp/nordic-toolchain-check`. The command performs no
 flashing or physical execution.
 
 The passing result establishes the installation's basic build path. It does not
-close ATO firmware integration, application/network memory budgets, ADC/DMA/bus
+close SCCI_RH firmware integration, application/network memory budgets, ADC/DMA/bus
 arbitration, timer/DPPI timing, delivered-charge observation or fault shutdown.
-Those require the actual ATO backend and their own verification artifacts.
+Those require the actual SCCI_RH backend and their own verification artifacts.

@@ -1,6 +1,6 @@
-# Project ATO documentation
+# Project SCCI RH documentation
 
-**[Open the browser build inspector](https://pratham-cloud-ctrl.github.io/Project-ATO/)**
+**[Open the browser build inspector](https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/)**
 for 3D models, PCB/component lookup, all four copper layers, schematic sheets
 and standard/native downloads.
 
@@ -15,7 +15,7 @@ and standard/native downloads.
 | Assess the evidence or reproduce checks | [Reviewer guide](explore/reviewer-guide.md) |
 | Locate the source behind a result | [Repository map](explore/repository-map.md) |
 
-The [integrated paper](../output/pdf/Project_ATO_Integrated_Manuscript.pdf) is the
+The [integrated paper](../output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf) is the
 complete illustrated account. The [evidence audit](stage6/evidence-review.md),
 [claim register](stage6/evidence-claims.csv) and
 [requirements trace](stage6/requirements-claims-trace.csv) support detailed review.

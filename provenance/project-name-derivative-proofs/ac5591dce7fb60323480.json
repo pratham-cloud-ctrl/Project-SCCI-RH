@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "cad/stage5/reference/producer-geometry.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "c1b638876998d2f944a3b1226aed83e65a77479ee633589faf409502d32c5bd7",
+  "current_sha256": "e4bd42244689176cd31d9efe02cc15927835d23eb710c28a0e04b94660b38870",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

@@ -2,7 +2,7 @@
 from pathlib import Path
 import FreeCAD as App
 import FreeCADGui as Gui
-path=Path(__file__).resolve().parent/'ATO_stage5_reference_full.FCStd'
+path=Path(__file__).resolve().parent/'SCCI_RH_stage5_reference_full.FCStd'
 doc=next((d for d in App.listDocuments().values() if d.FileName and Path(d.FileName).resolve()==path.resolve()),None)
 if doc is None:doc=App.openDocument(str(path))
 App.setActiveDocument(doc.Name)

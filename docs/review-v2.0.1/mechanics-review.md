@@ -9,7 +9,7 @@ remain conditional applications of the same recording/stimulation architecture.
 ## Finding fixed
 
 Most original Stage 5 launchers assumed the original laptop's FreeCAD path.
-Two reference launchers already accepted `ATO_FREECAD_EXE`, but that setting
+Two reference launchers already accepted `SCCI_RH_FREECAD_EXE`, but that setting
 did not consistently work across the current assembly and future-interface
 entry points. This obstructed a reviewer using another Windows installation.
 

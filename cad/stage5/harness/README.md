@@ -1,6 +1,6 @@
 # Mating interfaces and cable planning
 
-The native [mating document](ATO_mating_interfaces.FCStd) contains **83** actual
+The native [mating document](SCCI_RH_mating_interfaces.FCStd) contains **83** actual
 housing envelope solids: the **78** internal connectors used by the frozen
 electrical harness, plus recording, guarded artificial-load output, protected
 supply, isolated companion UART and SWD interfaces. Two rear inserts and five
@@ -20,7 +20,7 @@ terminal must not be interpreted as several independently inserted wires.
 Branched nets require an appropriately rated insulated splice arrangement.
 HOST, AFE and companion returns remain separate as defined electrically.
 
-The separate [route document](ATO_harness_routes.FCStd) contains **zero-volume
+The separate [route document](SCCI_RH_harness_routes.FCStd) contains **zero-volume
 planning centerlines**. These are unsmoothed fanout/spine paths, with a proposed
 5 mm bend allocation and planning lengths allowing 20% service slack plus
 30 mm termination allowance, rounded up to 5 mm. The

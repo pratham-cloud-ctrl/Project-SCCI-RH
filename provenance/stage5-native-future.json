@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage5.independent-native-inspection.v1",
+  "schema": "scci_rh.stage5.independent-native-inspection.v1",
   "scope": "Nominal digital geometry; no fabrication, anatomy, hermetic or thermal qualification",
   "FreeCAD_version": [
     "1",
@@ -11,14 +11,14 @@
     "(HEAD detached at 4fd3bf320)",
     "4fd3bf320d9566a27e60069fc8387448aaa3a094"
   ],
-  "inspector_sha256_lf": "09027f6659e8b585d2433e97415ddd64e32a4c770cccfb3c2f6853e32685307e",
+  "inspector_sha256_lf": "a30a92b1c08706eb7cb5cf36222a65549e442f1683e71f7bd6e3838b1ffdf895",
   "packages": {
     "future": {
       "contract": "cad/stage5/future-interface/contract.json",
-      "contract_canonical_sha256": "5fe97fbbecb15dbe415f950b0362bd098c2e776f5f3419ae7492fe5baa5c5fcf",
-      "native": "cad/stage5/future-interface/ATO_future_interface.FCStd",
-      "native_sha256": "b148467eac2c00497052cd0e4f5290d8ea1290199ef06559fb583aaac3b5499c",
-      "step": "cad/stage5/future-interface/ATO_future_interface.step",
+      "contract_canonical_sha256": "194e27081872520054d46c6889c16b910fd58b25fd613fbb8fc47caa5e5360dc",
+      "native": "cad/stage5/future-interface/SCCI_RH_future_interface.FCStd",
+      "native_sha256": "3a1cfb5a59855442214772e50dab670c403e6326e929de8362b37037723158ba",
+      "step": "cad/stage5/future-interface/SCCI_RH_future_interface.step",
       "step_sha256": "5ab3f5dc211af366afbfa668ae5d59eb0be75a1bd99327b2e90f09323a4ae7f1",
       "parts": [
         {

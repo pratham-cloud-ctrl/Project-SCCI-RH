@@ -1,30 +1,30 @@
 {
-  "schema": "ato.stage3.isolated-pilot-summary.v1",
+  "schema": "scci_rh.stage3.isolated-pilot-summary.v1",
   "date": "2026-10-12",
   "source_sha256": {
-    "src/ato/stage3/isolated_pilot.py": "9625056c268b77aa5db99f0ff3a7d363e11f7041e2dcdb7a36b303b8721889ad",
-    "scripts/stage3_isolated_pilot_study.py": "1dad83b8a730221d4b1a04ae14dac1b72e7c12750030de70d8c9402a15c6673c",
-    "src/ato/stage3/motor.py": "d86b4d091baf226475ce9f6d6e2390b65bb63752e5f50e73d42c5c3408b2323c",
-    "src/ato/stage3/electrical.py": "8a7a20702be3f3f5893e1f859f675347fa35db01dadb20ab7e64635ca8913ff0",
-    "src/ato/stage3/dynamic_response.py": "87c8eac8675b3ef538d7504676f6dbdef5fa6c4d478d57b15bf781e5e1bda8e9",
-    "src/ato/stage3/sparse_baseline.py": "d940ec6a76d4fd1c6fbff8328dc9ae6fe2bafbeeb090181fdb8b73224d472058",
-    "src/ato/stage3/cue_policy.py": "86c55451d04ea26a9ba6d14bfdb2689faf61bba9432623e190d159f9bbfe5395",
-    "src/ato/stage3/assisted_prediction.py": "21d6292e22eda70707d58903c44e737284d7a7e8fe398c529eaccacaa40da67b",
-    "src/ato/stage3/residual_guard.py": "7ec30fc33dfeb8c58a852777e56f369155f57eec2fd3a2840c0da29d3078ec7c",
-    "src/ato/stage3/teacher_library.py": "87364e3321d64be8f672bfa414d05ef0e904de8cdfd08745323d184324bd4503",
+    "src/scci_rh/stage3/isolated_pilot.py": "9625056c268b77aa5db99f0ff3a7d363e11f7041e2dcdb7a36b303b8721889ad",
+    "scripts/stage3_isolated_pilot_study.py": "2ceece3d64482a268e6f694060e743670d9c98d8a6dba7049fe734876beff3f1",
+    "src/scci_rh/stage3/motor.py": "fdc83232adcd15759319a05af2204c7d3481f5da3ecf4538f152b569760c05fe",
+    "src/scci_rh/stage3/electrical.py": "8a7a20702be3f3f5893e1f859f675347fa35db01dadb20ab7e64635ca8913ff0",
+    "src/scci_rh/stage3/dynamic_response.py": "247394fb5db7ef0357ec3c37e340c80baaf3603ae71b2101c3d1c3c0d4911686",
+    "src/scci_rh/stage3/sparse_baseline.py": "9fb1a3c57159a6cffd781ca154af07a1a5b001b9280b760bd423b8eb3e90426d",
+    "src/scci_rh/stage3/cue_policy.py": "b93fccb3b7c53628e9f2a36752d9260c47e14753e85cd507e145ad9df486e5b0",
+    "src/scci_rh/stage3/assisted_prediction.py": "d11d9b433a5b694dc2c16d8169d09e82e464a3597b356ac7cfdb1e253acc78d2",
+    "src/scci_rh/stage3/residual_guard.py": "7ec30fc33dfeb8c58a852777e56f369155f57eec2fd3a2840c0da29d3078ec7c",
+    "src/scci_rh/stage3/teacher_library.py": "3fcb924d95d56c57a6407346f6e7e88425b1fe0eb23e504f47c34653e04dd497",
     "scripts/artifact_hashes.py": "e73e016d1a817b1337bd4b777a14d3b0142838126a3dda1eae3e36339c6ad454"
   },
   "inputs": {
     "canonical_json_sha256": {
-      "results/stage3/dynamic-response/dynamic-response-summary.json": "467f620b929afe6e0eafb0222b66957ce798a0ea004a878391965104233e7f33",
-      "results/stage3/resolved-teacher/summary.json": "60dcb3ae167c4dace32402053660c80a39111726f822e32bce520f24cada2f3e"
+      "results/stage3/dynamic-response/dynamic-response-summary.json": "6658a51b523baca04e1ceee604c7ab5b97d90bfdc5e1645530fb47a833efab82",
+      "results/stage3/resolved-teacher/summary.json": "23fa07452aa61c59ecf3be22e33d1f80039f3cd9eac6c0248171579497d81493"
     },
     "dynamic_raw": {
       "path": "results/stage3/dynamic-response/2500us.json.gz",
-      "sha256": "cfa0e0a18ec1873492e5db80e1511c80b0a5eaf74d32081d9fdc4a053131bbec"
+      "sha256": "7f987686dd078a89913b1d86e27a87f565b7dc9c7237fe47ce0453cd84aea71e"
     },
-    "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
-    "teacher_library_id": "ATO-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213",
+    "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+    "teacher_library_id": "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213",
     "teacher_generator": "idealized_inverse",
     "teacher_resource_accounting": {
       "unique_teacher_recording_seconds": 96.0,
@@ -66,13 +66,13 @@
   "scope": "actual model delivery into a private digital body; conditional one-frame reset-session experiment, not human efficacy",
   "raw": {
     "path": "raw.json.gz",
-    "sha256": "27d4b9f9a92e03cd67040669bceb9c5ef485c46baf09c4357ac5071d8504b9b9",
+    "sha256": "bbc9c06ebb44e67a0020331c9b1464ea375b4dd14d1733b53e54c1acd0dd96c4",
     "hash_scope": "exact deterministic gzip bytes"
   },
   "runtime_context": {
     "recording_id": "isolated_pilot_all_observed_drift_alternatives",
     "family": "isolated_nominal",
-    "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+    "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
     "qualified": false,
     "horizons": [
       {
@@ -466,7 +466,7 @@
     {
       "recording_id": "pilot_withheld_favorable_scale0.9",
       "family": "isolated_nominal",
-      "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+      "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
       "horizons": [
         {
           "horizon_s": 0.025,
@@ -975,7 +975,7 @@
     {
       "recording_id": "pilot_withheld_favorable_scale1",
       "family": "isolated_nominal",
-      "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+      "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
       "horizons": [
         {
           "horizon_s": 0.025,
@@ -1484,7 +1484,7 @@
     {
       "recording_id": "pilot_withheld_favorable_scale1.15",
       "family": "isolated_nominal",
-      "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+      "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
       "horizons": [
         {
           "horizon_s": 0.025,
@@ -1993,7 +1993,7 @@
     {
       "recording_id": "pilot_withheld_favorable_scale1.3",
       "family": "isolated_nominal",
-      "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+      "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
       "horizons": [
         {
           "horizon_s": 0.025,
@@ -2502,7 +2502,7 @@
     {
       "recording_id": "pilot_withheld_zero_scale0.9",
       "family": "isolated_nominal",
-      "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+      "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
       "horizons": [
         {
           "horizon_s": 0.025,
@@ -3011,7 +3011,7 @@
     {
       "recording_id": "pilot_withheld_zero_scale1",
       "family": "isolated_nominal",
-      "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+      "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
       "horizons": [
         {
           "horizon_s": 0.025,
@@ -3520,7 +3520,7 @@
     {
       "recording_id": "pilot_withheld_zero_scale1.15",
       "family": "isolated_nominal",
-      "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+      "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
       "horizons": [
         {
           "horizon_s": 0.025,
@@ -4029,7 +4029,7 @@
     {
       "recording_id": "pilot_withheld_zero_scale1.3",
       "family": "isolated_nominal",
-      "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+      "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
       "horizons": [
         {
           "horizon_s": 0.025,
@@ -4538,7 +4538,7 @@
     {
       "recording_id": "pilot_withheld_harmful_scale0.9",
       "family": "isolated_nominal",
-      "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+      "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
       "horizons": [
         {
           "horizon_s": 0.025,
@@ -5047,7 +5047,7 @@
     {
       "recording_id": "pilot_withheld_harmful_scale1",
       "family": "isolated_nominal",
-      "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+      "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
       "horizons": [
         {
           "horizon_s": 0.025,
@@ -5556,7 +5556,7 @@
     {
       "recording_id": "pilot_withheld_harmful_scale1.15",
       "family": "isolated_nominal",
-      "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+      "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
       "horizons": [
         {
           "horizon_s": 0.025,
@@ -6065,7 +6065,7 @@
     {
       "recording_id": "pilot_withheld_harmful_scale1.3",
       "family": "isolated_nominal",
-      "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+      "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
       "horizons": [
         {
           "horizon_s": 0.025,
@@ -6574,7 +6574,7 @@
     {
       "recording_id": "pilot_withheld_dependent_scale0.9",
       "family": "isolated_nominal",
-      "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+      "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
       "horizons": [
         {
           "horizon_s": 0.025,
@@ -7083,7 +7083,7 @@
     {
       "recording_id": "pilot_withheld_dependent_scale1",
       "family": "isolated_nominal",
-      "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+      "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
       "horizons": [
         {
           "horizon_s": 0.025,
@@ -7592,7 +7592,7 @@
     {
       "recording_id": "pilot_withheld_dependent_scale1.15",
       "family": "isolated_nominal",
-      "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+      "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
       "horizons": [
         {
           "horizon_s": 0.025,
@@ -8101,7 +8101,7 @@
     {
       "recording_id": "pilot_withheld_dependent_scale1.3",
       "family": "isolated_nominal",
-      "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+      "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
       "horizons": [
         {
           "horizon_s": 0.025,
@@ -8612,7 +8612,7 @@
     "actual_electrical_trace_domain": {
       "moving_single_0_1": {
         "qualified": false,
-        "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+        "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
         "target_support_s": 1.1,
         "launch_s": 1.0,
         "target_residual_allocation_m": [
@@ -8625,7 +8625,7 @@
       },
       "moving_single_0_-1": {
         "qualified": false,
-        "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+        "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
         "target_support_s": 1.1,
         "launch_s": 1.0,
         "target_residual_allocation_m": [
@@ -8638,7 +8638,7 @@
       },
       "moving_single_1_1": {
         "qualified": false,
-        "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+        "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
         "target_support_s": 1.1,
         "launch_s": 1.0,
         "target_residual_allocation_m": [
@@ -8651,7 +8651,7 @@
       },
       "moving_single_1_-1": {
         "qualified": false,
-        "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+        "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
         "target_support_s": 1.1,
         "launch_s": 1.0,
         "target_residual_allocation_m": [
@@ -8664,7 +8664,7 @@
       },
       "moving_paired_same": {
         "qualified": false,
-        "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+        "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
         "target_support_s": 1.1,
         "launch_s": 1.0,
         "target_residual_allocation_m": [
@@ -8677,7 +8677,7 @@
       },
       "moving_paired_opposite": {
         "qualified": false,
-        "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+        "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
         "target_support_s": 1.1,
         "launch_s": 1.0,
         "target_residual_allocation_m": [
@@ -8692,7 +8692,7 @@
     "nominal_future_assumption": {
       "moving_single_0_1": {
         "qualified": true,
-        "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+        "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
         "target_support_s": 1.1,
         "launch_s": 1.0,
         "target_residual_allocation_m": [
@@ -8705,7 +8705,7 @@
       },
       "moving_single_0_-1": {
         "qualified": true,
-        "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+        "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
         "target_support_s": 1.1,
         "launch_s": 1.0,
         "target_residual_allocation_m": [
@@ -8718,7 +8718,7 @@
       },
       "moving_single_1_1": {
         "qualified": true,
-        "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+        "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
         "target_support_s": 1.1,
         "launch_s": 1.0,
         "target_residual_allocation_m": [
@@ -8731,7 +8731,7 @@
       },
       "moving_single_1_-1": {
         "qualified": true,
-        "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+        "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
         "target_support_s": 1.1,
         "launch_s": 1.0,
         "target_residual_allocation_m": [
@@ -8744,7 +8744,7 @@
       },
       "moving_paired_same": {
         "qualified": true,
-        "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+        "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
         "target_support_s": 1.1,
         "launch_s": 1.0,
         "target_residual_allocation_m": [
@@ -8757,7 +8757,7 @@
       },
       "moving_paired_opposite": {
         "qualified": true,
-        "dynamic_model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+        "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
         "target_support_s": 1.1,
         "launch_s": 1.0,
         "target_residual_allocation_m": [
@@ -10297,7 +10297,7 @@
     "new_dynamic_calibration_seconds": 0.0,
     "inherited_dynamic_calibration_and_validation": {
       "path": "results/stage3/dynamic-response/2500us.json.gz",
-      "sha256": "cfa0e0a18ec1873492e5db80e1511c80b0a5eaf74d32081d9fdc4a053131bbec"
+      "sha256": "7f987686dd078a89913b1d86e27a87f565b7dc9c7237fe47ce0453cd84aea71e"
     }
   },
   "total_practice_launched_frames": 0,
@@ -10365,7 +10365,7 @@
       ],
       "position_error_allocation_m": 0.0031159201248507117,
       "qualified": true,
-      "reference_id": "ATO-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213:expert_external:1Hz",
+      "reference_id": "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213:expert_external:1Hz",
       "independent_recording_ids": [
         "idealized_inverse:61007:1Hz",
         "idealized_inverse:71014:1Hz",
@@ -10390,7 +10390,7 @@
       ],
       "position_error_allocation_m": 0.0031199713754244164,
       "qualified": true,
-      "reference_id": "ATO-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213:expert_neural:1Hz",
+      "reference_id": "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213:expert_neural:1Hz",
       "independent_recording_ids": [
         "idealized_inverse:61007:1Hz",
         "idealized_inverse:71014:1Hz",

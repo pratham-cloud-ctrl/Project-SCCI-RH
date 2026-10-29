@@ -3,7 +3,7 @@ import FreeCAD as App
 import FreeCADGui as Gui
 
 folder = os.path.dirname(__file__)
-doc = App.openDocument(os.path.join(folder, 'ATO_future_interface_exploded.FCStd'))
+doc = App.openDocument(os.path.join(folder, 'SCCI_RH_future_interface_exploded.FCStd'))
 for obj in doc.Objects:
     if 'DisplayColor' in obj.PropertiesList:
         obj.ViewObject.ShapeColor = tuple(obj.DisplayColor)[:3]

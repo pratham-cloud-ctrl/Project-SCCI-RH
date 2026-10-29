@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-29",
+  "scope": "Actual final build_catalog execution:10designs,8boards,80sheets,14downloads. CAD manifest retains source-derived meshes with unchanged geometry; complete STEP container retains native geometry with migrated metadata. Final independent verifier binds these outputs.",
+  "command": "python scripts/inspector/build_catalog.py",
+  "passed": true,
+  "files": [
+    {
+      "path": "inspector/assets/cad-manifest.json",
+      "current_sha256": "a54e61a1689a232a899b5f97a11f3cccc34556763aeea711bbe1cf8e07ecd634",
+      "bytes": 1668986
+    },
+    {
+      "path": "inspector/assets/catalog.json",
+      "current_sha256": "6a32b832c431063777780658bf1a3a1ded7649539c5c19c1f0954337a1b17735",
+      "bytes": 1922601
+    },
+    {
+      "path": "inspector/assets/downloads-manifest.json",
+      "current_sha256": "e3fc53d4fa49b01dca94b9d6736f77fdca51a7e82974b1c4ea59e78baee95dee",
+      "bytes": 119802
+    },
+    {
+      "path": "inspector/assets/electronics-manifest.json",
+      "current_sha256": "435aae0ae4d52a267324120d4a0a174244751ca45e2c0b2638aeafd77df2b52e",
+      "bytes": 4674168
+    },
+    {
+      "path": "inspector/assets/inspection-manifest.json",
+      "current_sha256": "7636c787efccbc73e2cb95fa949be64d2d30e38021340cf830cbb9420375b66d",
+      "bytes": 1027
+    },
+    {
+      "path": "inspector/fallback.html",
+      "current_sha256": "11c7cf6c6cf7dc02d12c94468dfe61b957923a104cf9b993dfebaea28abb9366",
+      "bytes": 41172
+    },
+    {
+      "path": "inspector/downloads/SCCI_RH_CAD_Native.zip",
+      "current_sha256": "c6833e78e0c762416e0e7e8307ae210cf1d93f5a47fcded46a6208af6f32a244",
+      "bytes": 13374091
+    },
+    {
+      "path": "inspector/downloads/SCCI_RH_Reference_Complete_STEP.zip",
+      "current_sha256": "531498854dcdfe8a55146fb5b090038c95e8c4df3a90666ecb56db60fd606882",
+      "bytes": 20641933
+    }
+  ]
+}

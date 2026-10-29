@@ -1,5 +1,5 @@
 {
-  "schema": "ato.layout.v1",
+  "schema": "scci_rh.layout.v1",
   "board": "recording-front-end",
   "pcb": "electronics/stage4/integrated-pcb/boards/recording-front-end/recording_front_end.kicad_pcb",
   "system_sha256_lf": "8ae2b0bb9369c48d4f5c8440981a3dd76684e403aea3fe1d2c1bb8bbc8ee68d3",

@@ -14,9 +14,9 @@ import uuid
 OUT = Path(__file__).resolve().parent
 SHARE = Path(os.environ.get("KICAD_SHARE", r"E:\project workspace assests\EDA\KiCAD\share\kicad"))
 PROJECT = "monitoring_cell"
-ROOT_ID = str(uuid.uuid5(uuid.NAMESPACE_URL, "project-ato/stage4/monitoring-cell/root"))
+ROOT_ID = str(uuid.uuid5(uuid.NAMESPACE_URL, "project-scci-rh/stage4/monitoring-cell/root"))
 def uid(key):
-    return str(uuid.uuid5(uuid.NAMESPACE_URL, "project-ato/stage4/monitoring-cell/" + key))
+    return str(uuid.uuid5(uuid.NAMESPACE_URL, "project-scci-rh/stage4/monitoring-cell/" + key))
 
 SOURCES = {
     "ina": "https://www.ti.com/lit/ds/symlink/ina241a.pdf",
@@ -130,7 +130,7 @@ def pin_positions(p):
 def lib_symbol(p):
     name=p['ref']; pins=pin_positions(p); ymax=max(v[4] for v in pins)+2.54; ymin=min(v[4] for v in pins)-2.54
     graphic=f'(rectangle (start -10.16 {fnum(ymax)}) (end 10.16 {fnum(ymin)}) (stroke (width 0.2) (type default)) (fill (type background)))'
-    s=f'(symbol "ATO_S4:{name}" (pin_names (offset 0.7)) (in_bom yes) (on_board yes) (property "Reference" "{name[0]}" (at 0 0 0) {FONT}) (property "Value" "{p["value"]}" (at 0 0 0) {FONT}) (property "Footprint" "{p["footprint"]}" (at 0 0 0) (effects (font (size 1 1)) hide)) (symbol "{name}_0_1" {graphic}) (symbol "{name}_1_1" '
+    s=f'(symbol "SCCI_RH_S4:{name}" (pin_names (offset 0.7)) (in_bom yes) (on_board yes) (property "Reference" "{name[0]}" (at 0 0 0) {FONT}) (property "Value" "{p["value"]}" (at 0 0 0) {FONT}) (property "Footprint" "{p["footprint"]}" (at 0 0 0) (effects (font (size 1 1)) hide)) (symbol "{name}_0_1" {graphic}) (symbol "{name}_1_1" '
     for n,nm,kind,x,y,a in pins:
         s+=f'(pin {kind} line (at {fnum(x)} {fnum(y)} {a}) (length 2.54) (name "{nm}" (effects (font (size 0.85 0.85)))) (number "{n}" {FONT})) '
     return s+'))'
@@ -140,16 +140,16 @@ def glabel(net,x,y,key,left=False):
     return f'(global_label "{net}" (shape bidirectional) (at {fnum(x)} {fnum(y)} {angle}) (effects (font (size 0.85 0.85)) (justify {justify})) (uuid {uid(key)}))'
 
 # Copy native footprints only; CAD models and PCB will be a separate qualified step.
-local=OUT/"ato_s4.pretty"; local.mkdir(parents=True,exist_ok=True)
+local=OUT/"scci_rh_s4.pretty"; local.mkdir(parents=True,exist_ok=True)
 for p in parts:
     lib,name=p['footprint'].split(':')
     src=SHARE/"footprints"/(lib+".pretty")/(name+".kicad_mod")
     if not src.is_file(): raise FileNotFoundError(src)
     shutil.copyfile(src,local/(name+".kicad_mod"))
-    p['footprint']='ato_s4:'+name
+    p['footprint']='scci_rh_s4:'+name
 
 liblist=[lib_symbol(p) for p in parts]
-flag_symbol='(symbol "ATO_S4:SUPPLIED_RAIL" (pin_names (offset 0)) (in_bom no) (on_board no) (property "Reference" "#FLG" (at 0 0 0) (effects (font (size 1 1)) hide)) (property "Value" "EXTERNAL_REGULATED_RAIL" (at 0 0 0) (effects (font (size 1 1)) hide)) (symbol "SUPPLIED_RAIL_0_1" (polyline (pts (xy -1 1) (xy 0 2) (xy 1 1)) (stroke (width 0.2) (type default)) (fill (type none)))) (symbol "SUPPLIED_RAIL_1_1" (pin power_out line (at 0 0 90) (length 0) (name "SUPPLIED" (effects (font (size 1 1)))) (number "1" (effects (font (size 1 1)))))))'
+flag_symbol='(symbol "SCCI_RH_S4:SUPPLIED_RAIL" (pin_names (offset 0)) (in_bom no) (on_board no) (property "Reference" "#FLG" (at 0 0 0) (effects (font (size 1 1)) hide)) (property "Value" "EXTERNAL_REGULATED_RAIL" (at 0 0 0) (effects (font (size 1 1)) hide)) (symbol "SUPPLIED_RAIL_0_1" (polyline (pts (xy -1 1) (xy 0 2) (xy 1 1)) (stroke (width 0.2) (type default)) (fill (type none)))) (symbol "SUPPLIED_RAIL_1_1" (pin power_out line (at 0 0 90) (length 0) (name "SUPPLIED" (effects (font (size 1 1)))) (number "1" (effects (font (size 1 1)))))))'
 liblist.append(flag_symbol)
 for sheet in ("root","channel0","channel1"):
     sid=ROOT_ID if sheet=="root" else uid(sheet+"-document")
@@ -158,7 +158,7 @@ for sheet in ("root","channel0","channel1"):
     for p in [p for p in parts if p['sheet']==sheet]:
         ref=p['ref']; x,y=p['xy']; pins=pin_positions(p)
         top=y-max(v[4] for v in pins)-5.08; bottom=y-min(v[4] for v in pins)+5.08
-        inst=f'(symbol (lib_id "ATO_S4:{ref}") (at {fnum(x)} {fnum(y)} 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid {uid(ref)}) (property "Reference" "{ref}" (at {fnum(x)} {fnum(top)} 0) {FONT}) (property "Value" "{p["value"]}" (at {fnum(x)} {fnum(bottom)} 0) (effects (font (size 0.95 0.95)))) (property "Footprint" "{p["footprint"]}" (at {fnum(x)} {fnum(y)} 0) (effects (font (size 1 1)) hide)) (property "Datasheet" "{p["source_url"]}" (at {fnum(x)} {fnum(y)} 0) (effects (font (size 1 1)) hide)) '
+        inst=f'(symbol (lib_id "SCCI_RH_S4:{ref}") (at {fnum(x)} {fnum(y)} 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid {uid(ref)}) (property "Reference" "{ref}" (at {fnum(x)} {fnum(top)} 0) {FONT}) (property "Value" "{p["value"]}" (at {fnum(x)} {fnum(bottom)} 0) (effects (font (size 0.95 0.95)))) (property "Footprint" "{p["footprint"]}" (at {fnum(x)} {fnum(y)} 0) (effects (font (size 1 1)) hide)) (property "Datasheet" "{p["source_url"]}" (at {fnum(x)} {fnum(y)} 0) (effects (font (size 1 1)) hide)) '
         for n,nm,kind,px,py,a in pins:
             xx,yy=x+px,y-py; net=p['nets'][n]
             inst+=f'(pin "{n}" (uuid {uid(ref+"-pin-"+n)})) '
@@ -178,7 +178,7 @@ for sheet in ("root","channel0","channel1"):
         # They do not assert that battery conversion or rail supervision is built.
         for i,net in enumerate(("+5VA","+3V3","GND")):
             x,y=38.1+i*45.72,91.44; ref=f"#FLG0{i+1}"
-            elements.append(f'(symbol (lib_id "ATO_S4:SUPPLIED_RAIL") (at {x} {y} 0) (unit 1) (in_bom no) (on_board no) (dnp no) (uuid {uid(ref)}) (property "Reference" "{ref}" (at {x} {y} 0) (effects (font (size 1 1)) hide)) (property "Value" "EXTERNAL_REGULATED_RAIL" (at {x} {y} 0) (effects (font (size 1 1)) hide)) (pin "1" (uuid {uid(ref+"-pin")})) (instances (project "{PROJECT}" (path "/{ROOT_ID}" (reference "{ref}") (unit 1)))))')
+            elements.append(f'(symbol (lib_id "SCCI_RH_S4:SUPPLIED_RAIL") (at {x} {y} 0) (unit 1) (in_bom no) (on_board no) (dnp no) (uuid {uid(ref)}) (property "Reference" "{ref}" (at {x} {y} 0) (effects (font (size 1 1)) hide)) (property "Value" "EXTERNAL_REGULATED_RAIL" (at {x} {y} 0) (effects (font (size 1 1)) hide)) (pin "1" (uuid {uid(ref+"-pin")})) (instances (project "{PROJECT}" (path "/{ROOT_ID}" (reference "{ref}") (unit 1)))))')
             elements.append(glabel(net,x,y,ref+"-label"))
         for ch in (0,1):
             name=f"channel{ch}"; shid=uid(name+"-sheet"); x=38.1+ch*137.16
@@ -198,14 +198,14 @@ for sheet in ("root","channel0","channel1"):
     title="Shared reference and interfaces" if sheet=="root" else f"Source {sheet[-1]}: current and phase charge"
     # All symbols are embedded, and only this sheet's symbols are embedded in each file.
     embedded=''.join(lib_symbol(p) for p in parts if p['sheet']==sheet)+(flag_symbol if sheet=="root" else "")
-    data=f'(kicad_sch (version 20250114) (generator "ato_stage4_monitor") (uuid {sid}) (paper "A3") (title_block (title "ATO S4 / {title}") (date "2026-10-12") (rev "0.2 DCK") (company "Project ATO") (comment 1 "ARTIFICIAL LOADS ONLY; native schematic slice, not a completed implant")) (lib_symbols {embedded}) '+''.join(elements)+')\n'
+    data=f'(kicad_sch (version 20250114) (generator "scci_rh_stage4_monitor") (uuid {sid}) (paper "A3") (title_block (title "Project SCCI RH S4 / {title}") (date "2026-10-12") (rev "0.2 DCK") (company "Project SCCI RH") (comment 1 "ARTIFICIAL LOADS ONLY; native schematic slice, not a completed implant")) (lib_symbols {embedded}) '+''.join(elements)+')\n'
     (OUT/(PROJECT if sheet=="root" else sheet)).with_suffix('.kicad_sch').write_text(data,encoding='utf-8')
 
-(OUT/"ATO_S4.kicad_sym").write_text('(kicad_symbol_lib (version 20241209) (generator "ato_stage4_monitor") '+''.join(liblist).replace('(symbol "ATO_S4:', '(symbol "')+')\n',encoding='utf-8')
-(OUT/"sym-lib-table").write_text('(sym_lib_table (version 7) (lib (name "ATO_S4") (type "KiCad") (uri "${KIPRJMOD}/ATO_S4.kicad_sym") (options "") (descr "Original explicit pin symbols; checked manufacturer references in manifest")))\n',encoding='utf-8')
-(OUT/"fp-lib-table").write_text('(fp_lib_table (version 7) (lib (name "ato_s4") (type "KiCad") (uri "${KIPRJMOD}/ato_s4.pretty") (options "") (descr "KiCad footprint snapshots; no PCB or populated CAD claimed")))\n',encoding='utf-8')
+(OUT/"SCCI_RH_S4.kicad_sym").write_text('(kicad_symbol_lib (version 20241209) (generator "scci_rh_stage4_monitor") '+''.join(liblist).replace('(symbol "SCCI_RH_S4:', '(symbol "')+')\n',encoding='utf-8')
+(OUT/"sym-lib-table").write_text('(sym_lib_table (version 7) (lib (name "SCCI_RH_S4") (type "KiCad") (uri "${KIPRJMOD}/SCCI_RH_S4.kicad_sym") (options "") (descr "Original explicit pin symbols; checked manufacturer references in manifest")))\n',encoding='utf-8')
+(OUT/"fp-lib-table").write_text('(fp_lib_table (version 7) (lib (name "scci_rh_s4") (type "KiCad") (uri "${KIPRJMOD}/scci_rh_s4.pretty") (options "") (descr "KiCad footprint snapshots; no PCB or populated CAD claimed")))\n',encoding='utf-8')
 (OUT/(PROJECT+'.kicad_pro')).write_text(json.dumps({"meta":{"filename":PROJECT+'.kicad_pro',"version":1},"erc":{"rule_severities":{"single_global_label":"warning","four_way_junction":"warning","simulation_model_issue":"warning","footprint_filter":"warning"}}},indent=2)+'\n',encoding='utf-8')
-manifest={"schema":"ato.stage4.monitoring-cell.connectivity.v1","date":"2026-10-12","scope":"Artificial-load monitoring slice only; no analog qualification","parts":parts,"external_unimplemented":["driver/current servo and polarity bridge","HV16-contact routing and actual route evidence","separate current/health ADC","differential compliance","independent duration/watchdog/rail/reference supervision","MCU and target peripheral schedule","PCB and populated CAD"],"nominal":{"shunt_ohm":2,"sense_gain":20,"integrator_R_ohm":10000,"integrator_C_F":22e-9,"Vref_V":4.096,"Vmid_V":2.048,"current_gain_V_per_A":40,"charge_scale_C_per_V":5.5e-6,"nominal_phase_charge_C":600e-9,"nominal_delta_V":600e-9/5.5e-6,"ideal_adc_charge_LSB_C":4.096/65536*5.5e-6},"source_documents":SOURCES}
+manifest={"schema":"scci_rh.stage4.monitoring-cell.connectivity.v1","date":"2026-10-12","scope":"Artificial-load monitoring slice only; no analog qualification","parts":parts,"external_unimplemented":["driver/current servo and polarity bridge","HV16-contact routing and actual route evidence","separate current/health ADC","differential compliance","independent duration/watchdog/rail/reference supervision","MCU and target peripheral schedule","PCB and populated CAD"],"nominal":{"shunt_ohm":2,"sense_gain":20,"integrator_R_ohm":10000,"integrator_C_F":22e-9,"Vref_V":4.096,"Vmid_V":2.048,"current_gain_V_per_A":40,"charge_scale_C_per_V":5.5e-6,"nominal_phase_charge_C":600e-9,"nominal_delta_V":600e-9/5.5e-6,"ideal_adc_charge_LSB_C":4.096/65536*5.5e-6},"source_documents":SOURCES}
 (OUT/"connectivity.json").write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
 with (OUT/"bom.csv").open('w',encoding='utf-8',newline='') as f:
     w=csv.writer(f);w.writerow(['reference','value','footprint','sheet','description','primary_source'])

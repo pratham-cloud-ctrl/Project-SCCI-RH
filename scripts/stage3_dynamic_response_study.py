@@ -13,9 +13,9 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'src'))
-from ato.stage3 import source_sensitivity, motor
-from ato.stage3.electrical import MotorDelivery
-from ato.stage3.dynamic_response import (DynamicResponseSpec, ResponsePosition, CompletedDose,
+from scci_rh.stage3 import source_sensitivity, motor
+from scci_rh.stage3.electrical import MotorDelivery
+from scci_rh.stage3.dynamic_response import (DynamicResponseSpec, ResponsePosition, CompletedDose,
     FutureResponseFrame, ProspectiveDose, fit_response_kernel, validate_response_recording,
     predict_future_effect)
 from run_stage3_studies import close_nested
@@ -24,9 +24,9 @@ from artifact_hashes import canonical_json_digest
 SPEC = DynamicResponseSpec()
 OUT = ROOT/'results/stage3/dynamic-response'
 DOC = ROOT/'docs/stage3/dynamic-response.md'
-SOURCE_PATHS = ('src/ato/stage3/dynamic_response.py', 'scripts/stage3_dynamic_response_study.py',
-                'src/ato/stage3/source_sensitivity.py', 'src/ato/stage3/motor.py',
-                'src/ato/stage3/electrical.py')
+SOURCE_PATHS = ('src/scci_rh/stage3/dynamic_response.py', 'scripts/stage3_dynamic_response_study.py',
+                'src/scci_rh/stage3/source_sensitivity.py', 'src/scci_rh/stage3/motor.py',
+                'src/scci_rh/stage3/electrical.py')
 GRIDS = (.0025, .000625)
 SUBJECT = 2
 
@@ -129,7 +129,7 @@ def protocol_id(source_identity, grid, training):
                 'recordings': [{'recording_id': r['recording_id'], 'recording_identity': r['recording_identity'],
                     'planned_frames': [asdict(f) for f in r['planned_frames']]} for r in training]}
     digest = hashlib.sha256(json.dumps(protocol, sort_keys=True, separators=(',', ':')).encode()).hexdigest()
-    return 'ATO-S3-DYNAMIC-1:'+digest[:20]
+    return 'SCCI_RH-S3-DYNAMIC-1:'+digest[:20]
 
 
 def validation_cases():
@@ -192,7 +192,7 @@ def experiment(check=False):
                                 plan=schedule(seconds, events), **extra)
             captures.append(recording)
             validation[name] = {key: validate_response_recording(model, recording, dose) for key, dose in doses.items()}
-        raw = {'schema': 'ato.stage3.dynamic-response-recordings.v1', 'source_sha256': identity,
+        raw = {'schema': 'scci_rh.stage3.dynamic-response-recordings.v1', 'source_sha256': identity,
                'grid_s': grid, 'training': [serialize(r) for r in training],
                'independent_validation': [serialize(r) for r in captures]}
         raw_path = OUT/(grid_id+'.json.gz')
@@ -219,7 +219,7 @@ def experiment(check=False):
                          for name in studies[coarse]['independent_validation']
                          for branch in studies[coarse]['prospective_branches'])
     if identity != source_hashes(): raise AssertionError('Source changed during dynamic response experiment')
-    return {'schema': 'ato.stage3.dynamic-response-study.v1', 'result_id': 'ATO-S3-DYNAMIC-RESPONSE-1',
+    return {'schema': 'scci_rh.stage3.dynamic-response-study.v1', 'result_id': 'SCCI_RH-S3-DYNAMIC-RESPONSE-1',
             'source_sha256': identity, 'specification': asdict(SPEC), 'grids': studies,
             'numerical_comparison': {'records': comparisons, 'qualification_decisions_match': decision_match,
                 'maximum_kernel_difference_m_per_fraction': float(np.max(abs(models[coarse].kernel_m_per_fraction-models[fine].kernel_m_per_fraction)))},
@@ -313,8 +313,8 @@ def report(value):
               '`python -X utf8 scripts/stage3_dynamic_response_study.py --check` reruns the actual',
               'per-frame electrical delivery, both integration grids, measured fits and all heldout',
               'domains, and compares saved receipts/report at relative tolerance 2e-8, absolute 1e-11.',
-              'Schemas: `ato.stage3.dynamic-response-study.v1`, `ato.stage3.dynamic-response-model.v1`,',
-              'and `ato.stage3.dynamic-response-recordings.v1`. All new files are separate from frozen',
+              'Schemas: `scci_rh.stage3.dynamic-response-study.v1`, `scci_rh.stage3.dynamic-response-model.v1`,',
+              'and `scci_rh.stage3.dynamic-response-recordings.v1`. All new files are separate from frozen',
               'Stage 3 studies. Model identities bind normalized sources, specification and declared',
               'recording/noise/schedule identities; numeric observations are compared separately with',
               'tolerance. ODE right-hand-side evaluation counts are platform-local diagnostics. The',

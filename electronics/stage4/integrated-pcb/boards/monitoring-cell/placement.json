@@ -1,5 +1,5 @@
 {
-  "schema": "ato.layout.v1",
+  "schema": "scci_rh.layout.v1",
   "board": "monitoring-cell",
   "pcb": "electronics/stage4/integrated-pcb/boards/monitoring-cell/monitoring_cell.kicad_pcb",
   "system_sha256_lf": "65a4c922fe65dfba8c73429f5286ba6424440a2f1c13690459f75b8f42c5f420",

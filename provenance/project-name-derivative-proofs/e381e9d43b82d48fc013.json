@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "results/stage3/expert-validation/legacy_voluntary_nominal_performance1.json.gz",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "5d8f9e8c32252a0529c131fca21a8adde642183bdd50b99563d4477bd4317977",
+  "current_sha256": "2369d6321ab018101b7c8f3a2cd05bfc9a817b4c417905d8a90212dd91679a4f",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

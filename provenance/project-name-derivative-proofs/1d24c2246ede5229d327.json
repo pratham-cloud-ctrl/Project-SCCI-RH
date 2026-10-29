@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "scripts/verify_viewer_navigation.py",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "ccdcf6a2155d0096dfdd824219d0ec783893b81c3c12c5609b899e2d5e30e197",
+  "current_sha256": "c31d9beaabf059eda43e840c9ea769d28ff5733b97201b6ba8f836fd58796e4c",
+  "method": "reviewed_branding_verifier_adaptation",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "Original source inventory and link/anchor checks retained; explicit branding-equivalence comparison and current audit date added.",
+  "independent_evidence": []
+}

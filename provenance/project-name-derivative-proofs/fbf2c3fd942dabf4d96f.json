@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "docs/review-v2.0.1/mechanics-native-review.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "3cca9d697704f24f956716dfaeb8f1f6cb044b18073b96452a4d47789f28147f",
+  "current_sha256": "4eeee91cb77d212a9a706b7f5b0c2c81fb4b639decde79925595d7e24dfe3c15",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

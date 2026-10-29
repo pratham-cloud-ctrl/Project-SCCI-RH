@@ -106,7 +106,7 @@ def main():
         if Path(name).suffix in (".py", ".json", ".svg", ".md"):
             content = content.replace(b"\r\n", b"\n")
         hashes[name] = hashlib.sha256(content).hexdigest()
-    receipt = {"schema": "ato.stage4.recording-input-audit.v1", "independent_scalar_and_KCL_checks": checks,
+    receipt = {"schema": "scci_rh.stage4.recording-input-audit.v1", "independent_scalar_and_KCL_checks": checks,
                "max_normalized_saved_grid_KCL_residual": max_balance, "KCL_allowance": 0.01,
                "finite_transient_failures_retained": sorted(failures), "sha256_lf_text_exact_binary": hashes}
     path = HERE / "input-verification.json"

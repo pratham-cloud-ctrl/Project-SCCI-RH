@@ -1,4 +1,4 @@
-(pcb "E:\Project ATO\electronics\stage4\integrated-pcb\boards\contact-router\contact_router.dsn"
+(pcb "E:\Project SCCI RH\electronics\stage4\integrated-pcb\boards\contact-router\contact_router.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -43,7 +43,7 @@
     )
   )
   (placement
-    (component "ato_rte:SOT-23-5"
+    (component "scci_rh_rte:SOT-23-5"
       (place U40312 89855 -51555 front 0 (PN SN74LVC1G04DBVR))
       (place U40305 72375 -38545 front 0 (PN SN74LVC1G32DBVR))
       (place U40414 158015 -46055 front 0 (PN SN74LVC1G08DBVR))
@@ -75,7 +75,7 @@
       (place U40306 83655 -38545 front 0 (PN SN74LVC1G32DBVR))
       (place U40303 101135 -25535 front 0 (PN SN74LVC1G32DBVR))
     )
-    (component ato_rte:C_0805_2012Metric
+    (component scci_rh_rte:C_0805_2012Metric
       (place C40312 89105 -48025 front 0 (PN "100n X7R 10V"))
       (place C40404 157265 -22005 front 0 (PN "100n X7R 10V"))
       (place C40321 60725 -71295 front 0 (PN "100n X7R 10V"))
@@ -135,7 +135,7 @@
       (place C40101 93615 -97445 front 0 (PN "100n X7R 50V"))
       (place C40304 60725 -35015 front 0 (PN "100n X7R 10V"))
     )
-    (component ato_rte:R_0805_2012Metric
+    (component scci_rh_rte:R_0805_2012Metric
       (place R40203 139325 -97475 front 0 (PN 22k))
       (place R40011 19875 -31134.999 front 0 (PN 10k))
       (place R40103 98115 -97475 front 0 (PN 22k))
@@ -154,7 +154,7 @@
       (place R40314 84405 -42045 front 0 (PN 10k))
       (place R40305 64575 -55055 front 0 (PN 10k))
     )
-    (component ato_rte:C_0805_2012Metric::1
+    (component scci_rh_rte:C_0805_2012Metric::1
       (place C40203 129895 -101274.999 front 90 (PN "1u X7R 50V"))
       (place C40103 88685 -101274.999 front 90 (PN "1u X7R 50V"))
     )
@@ -164,7 +164,7 @@
       (place H3 4000 -151000 front 0 (PN MountingHole_3.2mm_M3))
       (place H2 171000 -4000 front 0 (PN MountingHole_3.2mm_M3))
     )
-    (component "ato_rte:VSSOP-8_2.3x2mm_P0.5mm"
+    (component "scci_rh_rte:VSSOP-8_2.3x2mm_P0.5mm"
       (place U40316 72605 -64115 front 0 (PN SN74LVC1G74DCUR))
       (place U40030 15475 -40195 front 0 (PN SN74LVC1G74DCUR))
       (place U40035 24255 -52305 front 0 (PN SN74LVC1G74DCUR))
@@ -177,7 +177,7 @@
       (place U40036 33035 -52305 front 0 (PN SN74LVC1G74DCUR))
       (place U40314 106955 -51105 front 0 (PN SN74LVC1G74DCUR))
     )
-    (component ato_rte:R_0805_2012Metric::1
+    (component scci_rh_rte:R_0805_2012Metric::1
       (place R40309 97285 -26285 front 90 (PN 10k))
       (place R40104 100015 -101274.999 front 90 (PN 22k))
       (place R40204 141225 -101274.999 front 90 (PN 22k))
@@ -192,11 +192,11 @@
       (place R40313 79805 -39295 front 90 (PN 10k))
       (place R40100 72755 -97634.999 front 90 (PN 22k))
     )
-    (component ato_rte:PinHeader_1x07_P2.54mm_Vertical
+    (component scci_rh_rte:PinHeader_1x07_P2.54mm_Vertical
       (place J40003 14805 -104935 front 90 (PN "SOURCE ROUTE INTENT / PHASE STATUS"))
       (place J40002 27475 -97345 front 90 (PN "CANDIDATE PRELOAD AND COMMIT"))
     )
-    (component "ato_rte:TSSOP-16_4.4x5mm_P0.65mm"
+    (component "scci_rh_rte:TSSOP-16_4.4x5mm_P0.65mm"
       (place U40100 78405 -99134.999 front 0 (PN TMUX6208PWR))
       (place U40010 16875 -26585 front 0 (PN SN74LVC595APWR))
       (place U40101 94365 -102024.999 front 0 (PN TMUX6208PWR))
@@ -204,13 +204,13 @@
       (place U40200 119615 -99134.999 front 0 (PN TMUX6208PWR))
       (place U40021 43125 -26585 front 0 (PN SN74LVC157APWR))
     )
-    (component ato_rte:PinHeader_1x18_P2.54mm_Vertical
+    (component scci_rh_rte:PinHeader_1x18_P2.54mm_Vertical
       (place J40007 14805 -135295 front 90 (PN "SIXTEEN CONTACTS / TWO MONITORED RETURNS"))
     )
-    (component ato_rte:PinHeader_1x09_P2.54mm_Vertical
+    (component scci_rh_rte:PinHeader_1x09_P2.54mm_Vertical
       (place J40006 14795 -127705 front 90 (PN "ACTIVE ADDRESS BIT READBACK"))
     )
-    (component "ato_rte:SOT-23-6"
+    (component "scci_rh_rte:SOT-23-6"
       (place U40313 98405 -51555 front 0 (PN SN74LVC1G11DBVR))
       (place U40319 98715 -64565 front 0 (PN SN74LVC1G11DBVR))
       (place U40300 65285 -25535 front 0 (PN SN74LVC1G11DBVR))
@@ -220,23 +220,23 @@
       (place U40317 81385 -64565 front 0 (PN SN74LVC1G11DBVR))
       (place U40310 72755 -51555 front 0 (PN SN74LVC1G11DBVR))
     )
-    (component ato_rte:PinHeader_1x12_P2.54mm_Vertical
+    (component scci_rh_rte:PinHeader_1x12_P2.54mm_Vertical
       (place J40005 14795 -120115 front 90 (PN "COMMAND STATUS / NOT MUX READBACK"))
     )
-    (component "ato_rte:TSSOP-16_4.4x5mm_P0.65mm::1"
+    (component "scci_rh_rte:TSSOP-16_4.4x5mm_P0.65mm::1"
       (place U40201 135575 -102024.999 front 0 (PN TMUX6208PWR))
     )
-    (component ato_rte:PinHeader_1x03_P2.54mm_Vertical
+    (component scci_rh_rte:PinHeader_1x03_P2.54mm_Vertical
       (place J40200 114785 -113405 front 90 (PN "DRIVER A / MONITORED RETURN"))
       (place J40001 14795 -97345 front 90 (PN "QUALIFIED EXTERNAL RAILS"))
       (place J40100 73575 -113405 front 90 (PN "DRIVER A / MONITORED RETURN"))
     )
-    (component ato_rte:PinHeader_1x10_P2.54mm_Vertical
+    (component scci_rh_rte:PinHeader_1x10_P2.54mm_Vertical
       (place J40004 14795 -112525 front 90 (PN "EXTERNAL OBSERVED HEALTH CONTRACTS"))
     )
   )
   (library
-    (image "ato_rte:SOT-23-5"
+    (image "scci_rh_rte:SOT-23-5"
       (outline (polygon signal 0  1045 1495  2045 1495  2045 395  1045 395  1045 -395  2045 -395
             2045 -1495  1045 -1495  1045 -1695  -1045 -1695  -1045 -1495
             -2045 -1495  -2045 1495  -1045 1495  -1045 1695  1045 1695))
@@ -253,7 +253,7 @@
       (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 4 1137.5 -950)
       (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 5 1137.5 950)
     )
-    (image ato_rte:C_0805_2012Metric
+    (image scci_rh_rte:C_0805_2012Metric
       (outline (polygon signal 0  1695 -975  -1695 -975  -1695 975  1695 975))
       (outline (path signal 120  -261.252 735  261.252 735))
       (outline (path signal 120  -261.252 -735  261.252 -735))
@@ -261,7 +261,7 @@
       (pin RoundRect[T]Pad_1000.000000x1450.000000_250.951000_um_0.000000_0 1 -950 0)
       (pin RoundRect[T]Pad_1000.000000x1450.000000_250.951000_um_0.000000_0 2 950 0)
     )
-    (image ato_rte:R_0805_2012Metric
+    (image scci_rh_rte:R_0805_2012Metric
       (outline (polygon signal 0  1675 -945  -1675 -945  -1675 945  1675 945))
       (outline (path signal 120  -227.064 735  227.064 735))
       (outline (path signal 120  -227.064 -735  227.064 -735))
@@ -269,7 +269,7 @@
       (pin RoundRect[T]Pad_1025.000000x1400.000000_250.951000_um_0.000000_0 1 -912.5 0)
       (pin RoundRect[T]Pad_1025.000000x1400.000000_250.951000_um_0.000000_0 2 912.5 0)
     )
-    (image ato_rte:C_0805_2012Metric::1
+    (image scci_rh_rte:C_0805_2012Metric::1
       (outline (polygon signal 0  -1695 -975  -1695 975  1695 975  1695 -975))
       (outline (path signal 120  -261.252 735  261.252 735))
       (outline (path signal 120  -261.252 -735  261.252 -735))
@@ -313,7 +313,7 @@
       (keepout "" (circle In2.Cu 3700))
       (keepout "" (circle B.Cu 3700))
     )
-    (image "ato_rte:VSSOP-8_2.3x2mm_P0.5mm"
+    (image "scci_rh_rte:VSSOP-8_2.3x2mm_P0.5mm"
       (outline (polygon signal 0  1395 1175  2275 1175  2275 -1175  1395 -1175  1395 -1245
             -1395 -1245  -1395 -1175  -2275 -1175  -2275 1175  -1395 1175
             -1395 1245  1395 1245))
@@ -328,7 +328,7 @@
       (pin RoundRect[T]Pad_1250.000000x350.000000_87.833000_um_0.000000_0 7 1400 250)
       (pin RoundRect[T]Pad_1250.000000x350.000000_87.833000_um_0.000000_0 8 1400 750)
     )
-    (image ato_rte:R_0805_2012Metric::1
+    (image scci_rh_rte:R_0805_2012Metric::1
       (outline (polygon signal 0  -1675 -945  -1675 945  1675 945  1675 -945))
       (outline (path signal 120  -227.064 735  227.064 735))
       (outline (path signal 120  -227.064 -735  227.064 -735))
@@ -336,7 +336,7 @@
       (pin RoundRect[T]Pad_1025.000000x1400.000000_250.951000_um_0.000000_0 1 -912.5 0)
       (pin RoundRect[T]Pad_1025.000000x1400.000000_250.951000_um_0.000000_0 2 912.5 0)
     )
-    (image ato_rte:PinHeader_1x07_P2.54mm_Vertical
+    (image scci_rh_rte:PinHeader_1x07_P2.54mm_Vertical
       (outline (polygon signal 0  -1765 -17015  -1765 1775  1765 1775  1765 -17015))
       (outline (path signal 120  -1380 1380  0 1380))
       (outline (path signal 120  -1380 0  -1380 1380))
@@ -357,7 +357,7 @@
       (pin Round[A]Pad_1700.000000_um 6 0 -12700)
       (pin Round[A]Pad_1700.000000_um 7 0 -15240)
     )
-    (image "ato_rte:TSSOP-16_4.4x5mm_P0.65mm"
+    (image "scci_rh_rte:TSSOP-16_4.4x5mm_P0.65mm"
       (outline (polygon signal 0  2445 2725  3845 2725  3845 -2725  2445 -2725  2445 -2745
             -2445 -2745  -2445 -2725  -3845 -2725  -3845 2725  -2445 2725
             -2445 2745  2445 2745))
@@ -380,7 +380,7 @@
       (pin RoundRect[T]Pad_1475.000000x400.000000_100.381000_um_0.000000_0 15 2862.5 1625)
       (pin RoundRect[T]Pad_1475.000000x400.000000_100.381000_um_0.000000_0 16 2862.5 2275)
     )
-    (image ato_rte:PinHeader_1x18_P2.54mm_Vertical
+    (image scci_rh_rte:PinHeader_1x18_P2.54mm_Vertical
       (outline (polygon signal 0  -1765 -44945  -1765 1775  1765 1775  1765 -44945))
       (outline (path signal 120  -1380 1380  0 1380))
       (outline (path signal 120  -1380 0  -1380 1380))
@@ -412,7 +412,7 @@
       (pin Round[A]Pad_1700.000000_um 17 0 -40640)
       (pin Round[A]Pad_1700.000000_um 18 0 -43180)
     )
-    (image ato_rte:PinHeader_1x09_P2.54mm_Vertical
+    (image scci_rh_rte:PinHeader_1x09_P2.54mm_Vertical
       (outline (polygon signal 0  -1765 -22085  -1765 1765  1765 1765  1765 -22085))
       (outline (path signal 120  -1380 1380  0 1380))
       (outline (path signal 120  -1380 0  -1380 1380))
@@ -435,7 +435,7 @@
       (pin Round[A]Pad_1700.000000_um 8 0 -17780)
       (pin Round[A]Pad_1700.000000_um 9 0 -20320)
     )
-    (image "ato_rte:SOT-23-6"
+    (image "scci_rh_rte:SOT-23-6"
       (outline (polygon signal 0  1045 1495  2045 1495  2045 -1495  1045 -1495  1045 -1695
             -1045 -1695  -1045 -1495  -2045 -1495  -2045 1495  -1045 1495
             -1045 1695  1045 1695))
@@ -452,7 +452,7 @@
       (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 5 1137.5 0)
       (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 6 1137.5 950)
     )
-    (image ato_rte:PinHeader_1x12_P2.54mm_Vertical
+    (image scci_rh_rte:PinHeader_1x12_P2.54mm_Vertical
       (outline (polygon signal 0  -1765 -29705  -1765 1765  1765 1765  1765 -29705))
       (outline (path signal 120  -1380 1380  0 1380))
       (outline (path signal 120  -1380 0  -1380 1380))
@@ -478,7 +478,7 @@
       (pin Round[A]Pad_1700.000000_um 11 0 -25400)
       (pin Round[A]Pad_1700.000000_um 12 0 -27940)
     )
-    (image "ato_rte:TSSOP-16_4.4x5mm_P0.65mm::1"
+    (image "scci_rh_rte:TSSOP-16_4.4x5mm_P0.65mm::1"
       (outline (polygon signal 0  2455 2724.98  2455 2744.93  3845 2725.07  3845 -2725
             2445 -2725  2445 -2745  -2445 -2745  -2445 -2725  -3845 -2725
             -3845 2725  -2445 2725  -2445 2744.98))
@@ -501,7 +501,7 @@
       (pin RoundRect[T]Pad_1475.000000x400.000000_100.381000_um_0.000000_0 15 2862.5 1625)
       (pin RoundRect[T]Pad_1475.000000x400.000000_100.381000_um_0.000000_0 16 2862.5 2275)
     )
-    (image ato_rte:PinHeader_1x03_P2.54mm_Vertical
+    (image scci_rh_rte:PinHeader_1x03_P2.54mm_Vertical
       (outline (polygon signal 0  -1765 -6845  -1765 1765  1765 1765  1765 -6845))
       (outline (path signal 120  -1380 1380  0 1380))
       (outline (path signal 120  -1380 0  -1380 1380))
@@ -518,7 +518,7 @@
       (pin Round[A]Pad_1700.000000_um 2 0 -2540)
       (pin Round[A]Pad_1700.000000_um 3 0 -5080)
     )
-    (image ato_rte:PinHeader_1x10_P2.54mm_Vertical
+    (image scci_rh_rte:PinHeader_1x10_P2.54mm_Vertical
       (outline (polygon signal 0  -1765 -24625  -1765 1765  1765 1765  1765 -24625))
       (outline (path signal 120  -1380 1380  0 1380))
       (outline (path signal 120  -1380 0  -1380 1380))

@@ -1,13 +1,13 @@
-# Project ATO 1.0.0 — digital engineering release
+# Project SCCI RH 1.0.0 — digital engineering release
 
 This release connects a proposed invasive spinal recording/stimulation architecture
 to a source-grounded paper, two reproducible synthetic application studies,
 host-tested pulse logic, a routed electrical reference, and editable mechanical
 and presentation assets.
 
-Start with the [20-page paper](../output/pdf/ATO_engineering_paper.pdf), then open
+Start with the [20-page paper](../output/pdf/SCCI_RH_engineering_paper.pdf), then open
 the [local interactive walkthrough](../site/index.html) and the
-[72-second captioned video](../media/ATO_walkthrough.mp4). Native KiCad, FreeCAD,
+[72-second captioned video](../media/SCCI_RH_walkthrough.mp4). Native KiCad, FreeCAD,
 Blender, STEP and STL files accompany the code and recorded results.
 
 The computational contribution separates stimulation-on assistance from assumed

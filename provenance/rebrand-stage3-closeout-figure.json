@@ -1,0 +1,16 @@
+{
+  "scope": "Actual existing figure builder rerun from frozen saved numeric summaries; title branding only",
+  "outputs": [
+    {
+      "path": "experiments/stage3/observed-state-observer/observer-confirmation.png",
+      "before_sha256": "3454c30b1981ae2ff7219eca3f3fcfaaf961efe2007c9e37544c1d4fe5088f98",
+      "after_sha256": "65eb06719b4aef0b8b5bd0d3eeb16c2cebe8f0609a829b5dccf6f370da72cc32"
+    }
+  ],
+  "source_path": "experiments/stage3/observed-state-observer/build_figure.py",
+  "source_sha256": "fd3ffaadf73cbbaefdd9b60f2ec104e69e9687b76ac82603cb07c68274e55fc0",
+  "inputs": {
+    "experiments/stage3/observed-state-observer/frozen/observer-development-summary-12oct.json": "f76da8ef3641d81cf514164e1f3f1dd475be4a560c2b96be9d54b2c63b4246bf",
+    "experiments/stage3/observed-state-observer/frozen/observer-confirmation-summary-12oct.json": "89d79c3d3eb3dafb62964ed4d15ae922c4a1b7e775ea612d8b9d7d1c0cb65a59"
+  }
+}

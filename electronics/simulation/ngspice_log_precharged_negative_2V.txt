@@ -5,7 +5,7 @@ stdout ** Creation Date: Apr 14 2026   05:15:29
 stdout ******
 Source Deck
 stdout Note: No compatibility mode selected!
-stdout Circuit: ato generic-device current-sink and switch test (not vendor macromodels)
+stdout Circuit: scci_rh generic-device current-sink and switch test (not vendor macromodels)
 Prepare Deck
 Parse
 stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
@@ -46,7 +46,7 @@ stdout vcurrent#branch                    2.01272e-09
 stdout vinhibit#branch                              0
 stdout vphase#branch                                0
 stdout vdd#branch                        -0.000198337
- Reference value :  0.00000e+00
+ Reference value :  0.00000e+00
 tran init
 tran
 tran: 60.5%

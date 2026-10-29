@@ -2,14 +2,14 @@
 from pathlib import Path
 import json,csv,math
 ROOT=Path(__file__).resolve().parents[1]
-required=['README.md','docs/ato-paper.md','docs/architecture.md','docs/model-methods.md',
+required=['README.md','docs/scci_rh-paper.md','docs/architecture.md','docs/model-methods.md',
  'docs/electronics.md','docs/learning-guide.md','docs/evidence-matrix.csv','docs/claim-register.csv',
- 'electronics/ato_reference.kicad_sch','electronics/ato_reference.kicad_pcb',
- 'electronics/bom.csv','electronics/exports/ato_reference.step',
- 'cad/build_ato.py','cad/ato-reference.FCStd','cad/ato-presentation.blend',
- 'cad/exports/ato-desktop-assembly.step','cad/exports/geometry-checks.json',
- 'media/ato-hero.png','media/ato-exploded.png','media/ATO_walkthrough.mp4',
- 'site/index.html','output/pdf/ATO_engineering_paper.pdf',
+ 'electronics/scci_rh_reference.kicad_sch','electronics/scci_rh_reference.kicad_pcb',
+ 'electronics/bom.csv','electronics/exports/scci_rh_reference.step',
+ 'cad/build_scci_rh.py','cad/scci_rh-reference.FCStd','cad/scci_rh-presentation.blend',
+ 'cad/exports/scci_rh-desktop-assembly.step','cad/exports/geometry-checks.json',
+ 'media/scci_rh-hero.png','media/scci_rh-exploded.png','media/SCCI_RH_walkthrough.mp4',
+ 'site/index.html','output/pdf/SCCI_RH_engineering_paper.pdf',
  'results/summary.json','results/study_metadata.json','results/firmware_validation.json',
  'results/adapter_validation.json',
  'provenance/CONTRIBUTIONS.md']
@@ -48,5 +48,5 @@ for p in (ROOT/'results').glob('*.csv'):
                 missing_observation=(field=='measurement_mmhg' and
                     (row.get('sensor_available')=='0' or row.get('sensor_stale')=='1'))
                 assert math.isfinite(n) or missing_observation,f'Unexpected nonfinite {field} in {p.name}'
-assert '__ATO_DATA__' not in (ROOT/'site/index.html').read_text(encoding='utf-8')
+assert '__SCCI_RH_DATA__' not in (ROOT/'site/index.html').read_text(encoding='utf-8')
 print('Release files, model guards, geometry, ERC/DRC and source data verified; flagged unavailable measurements are preserved.')

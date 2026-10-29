@@ -7,7 +7,7 @@ from build_integration import ROOT,HERE,source_dir,refmap
 SYSTEM=json.loads((HERE/'system.json').read_text(encoding='utf-8'))
 NAMESPACE=uuid.UUID('133ed52e-806c-5896-8d8a-a6138defc719')
 def uid(s): return str(uuid.uuid5(NAMESPACE,s))
-MASTER=uid('master'); PROJECT='ATO_integrated'
+MASTER=uid('master'); PROJECT='SCCI_RH_integrated'
 SHARE=Path('E:/project workspace assests/EDA/KiCAD/share/kicad')
 PAGE_MAP={};MODULE_PAGES={};BOARD_PAGE_COUNTS={};page_counter=2
 for package,board in SYSTEM['boards'].items():
@@ -30,7 +30,7 @@ def tap_sheet(pkg,mode):
     parts=[p for p in SYSTEM['added_tap_headers'] if p['board']==pkg]
     symbols=[];elements=[]
     for i,p in enumerate(parts):
-        ref=p['reference']; libid='ATO_INTEGRATION:'+ref; p['lib_id']=libid;p['source_sheet_uuid']=uid(pkg+'tap-document'); p['source_symbol_uuid']=uid(ref+'tap-instance')
+        ref=p['reference']; libid='SCCI_RH_INTEGRATION:'+ref; p['lib_id']=libid;p['source_sheet_uuid']=uid(pkg+'tap-document'); p['source_symbol_uuid']=uid(ref+'tap-instance')
         x=71.12+i*139.7;y=91.44;half=(len(p['pins'])-1)*1.27
         graphic=f'(rectangle (start -10.16 {half+2.54}) (end 10.16 {-half-2.54}) (stroke (width .2) (type default)) (fill (type background)))'
         pins=''.join(f'(pin passive line (at -12.7 {half-j*2.54} 0) (length 2.54) (name "{v["number"]}" (effects (font (size 1 1)))) (number "{v["number"]}" (effects (font (size 1 1)))))' for j,v in enumerate(p['pins']))
@@ -43,7 +43,7 @@ def tap_sheet(pkg,mode):
         elements.append(inst+f'(instances (project "{project}" (path "{path}" (reference "{ref}") (unit 1)))))')
     texts=[('INTEGRATED COMPONENT-TAP HARNESS / '+pkg,20,18,1.5),('Physical headers expose actual earlier component taps. Original connectors remain available.',20,26,1),('Only named electrical nets connect. AFE, HOST and companion grounds remain distinct.',20,34,1),('Artificial-load digital design. Added wiring capacitance and connector integrity require measurement.',20,150,1)]
     for i,(t,x,y,size) in enumerate(texts):elements.append(f'(text "{t}" (at {x} {y} 0) (effects (font (size {size} {size})) (justify left)) (uuid {uid(pkg+"taptext"+str(i))}))')
-    return f'(kicad_sch (version 20250114) (generator "ato_integrated") (uuid {uid(pkg+"tap-document")}) (paper "A3") (title_block (title "ATO / {pkg} integration taps") (date "2026-10-14") (rev "0.1") (company "Project ATO")) (lib_symbols {"".join(symbols)}) {"".join(elements)})\n'
+    return f'(kicad_sch (version 20250114) (generator "scci_rh_integrated") (uuid {uid(pkg+"tap-document")}) (paper "A3") (title_block (title "Project SCCI RH / {pkg} integration taps") (date "2026-10-14") (rev "0.1") (company "Project SCCI RH")) (lib_symbols {"".join(symbols)}) {"".join(elements)})\n'
 def append_tap(document,pkg,mode):
     project=SYSTEM['boards'][pkg]['source_main'] if mode=='boards' else PROJECT
     path='/'+sub(document,'uuid')[1] if mode=='boards' else '/'+MASTER+'/'+uid(pkg+'module')
@@ -105,7 +105,7 @@ def main():
                 # source is never patched. TI DRB0008A dimension 2.8 mm spans
                 # pad-row centres; +/-1.1 mm in the old snapshot was incorrect.
                 name='Texas_DRB0008A_VSON8_3x3_P0.65_EP1.5x1.75.kicad_mod'
-                fp=dst/'ato_sup.pretty'/name;footprint=loads(fp.read_text(encoding='utf-8'))
+                fp=dst/'scci_rh_sup.pretty'/name;footprint=loads(fp.read_text(encoding='utf-8'))
                 for pad in subs(footprint,'pad'):
                     if str(pad[1]) in list(map(str,range(1,9))):
                         at=sub(pad,'at');at[1]='-1.4' if float(at[1])<0 else '1.4'
@@ -119,9 +119,9 @@ def main():
                 external=[]
                 for symbol in tap_symbols:
                     symbol[1]=Q(str(symbol[1]).split(':',1)[1]);external.append(dumps(symbol))
-                (dst/'ATO_INTEGRATION.kicad_sym').write_text('(kicad_symbol_lib (version 20241209) (generator "ato_integrated") '+' '.join(external)+')\n',encoding='utf-8')
+                (dst/'SCCI_RH_INTEGRATION.kicad_sym').write_text('(kicad_symbol_lib (version 20241209) (generator "scci_rh_integrated") '+' '.join(external)+')\n',encoding='utf-8')
                 symt=dst/'sym-lib-table';symtext=symt.read_text(encoding='utf-8').rstrip()
-                symentry=' (lib (name "ATO_INTEGRATION") (type "KiCad") (uri "${KIPRJMOD}/ATO_INTEGRATION.kicad_sym") (options "") (descr "Actual component-tap connector symbols"))'
+                symentry=' (lib (name "SCCI_RH_INTEGRATION") (type "KiCad") (uri "${KIPRJMOD}/SCCI_RH_INTEGRATION.kicad_sym") (options "") (descr "Actual component-tap connector symbols"))'
                 symt.write_text(symtext[:-1]+symentry+')\n',encoding='utf-8')
                 fpt=dst/'fp-lib-table';text=fpt.read_text(encoding='utf-8').rstrip();entry=' (lib (name "Connector_PinHeader_2.54mm") (type "KiCad") (uri "${KIPRJMOD}/../../shared/Connector_PinHeader_2.54mm.pretty") (options "") (descr "Project-local native KiCad integration header snapshots"))'
                 fpt.write_text(text[:-1]+entry+')\n',encoding='utf-8')
@@ -132,10 +132,10 @@ def main():
     for i,(pkg,board) in enumerate(SYSTEM['boards'].items()):
         x=30+(i%2)*260;y=65+(i//2)*65
         sheets.append(f'(sheet (at {x} {y}) (size 230 30) (stroke (width .254) (type default)) (fill (color 0 0 0 0)) (uuid {uid(pkg+"module")}) (property "Sheetname" "{pkg}" (at {x} {y-2} 0) (effects (font (size 1.4 1.4)) (justify left bottom))) (property "Sheetfile" "{pkg}/{board["source_main"]}.kicad_sch" (at {x} {y+32} 0) (effects (font (size 1 1)) (justify left top))) (instances (project "{PROJECT}" (path "/{MASTER}" (page "{MODULE_PAGES[pkg]}")))))')
-    texts=['PROJECT ATO / INTEGRATED MODULAR CIRCUIT SYSTEM','Eight functional boards; actual mapped electrical connections and physical tap headers.','Reference namespaces preserve frozen source identities. Read integrated-pcb-wiring.csv for the harness.','Common driver rearm and independent supervisor phase rearm are deliberately separated.','Digital artificial-load concept. Geometry and ERC do not establish implantation or measured performance.']
+    texts=['PROJECT SCCI RH / INTEGRATED MODULAR CIRCUIT SYSTEM','Eight functional boards; actual mapped electrical connections and physical tap headers.','Reference namespaces preserve frozen source identities. Read integrated-pcb-wiring.csv for the harness.','Common driver rearm and independent supervisor phase rearm are deliberately separated.','Digital artificial-load concept. Geometry and ERC do not establish implantation or measured performance.']
     for i,t in enumerate(texts):sheets.append(f'(text "{t}" (at 25 {18+i*8} 0) (effects (font (size {1.7 if i==0 else 1.05} {1.7 if i==0 else 1.05})) (justify left)) (uuid {uid("mastertext"+str(i))}))')
     master=HERE/'master'/f'{PROJECT}.kicad_sch'
-    master.write_text(f'(kicad_sch (version 20250114) (generator "ato_integrated") (uuid {MASTER}) (paper "A2") (title_block (title "ATO / Integrated modular SCCI electrical system") (date "2026-10-14") (rev "0.1") (company "Project ATO")) (lib_symbols) {"".join(sheets)})\n',encoding='utf-8')
+    master.write_text(f'(kicad_sch (version 20250114) (generator "scci_rh_integrated") (uuid {MASTER}) (paper "A2") (title_block (title "Project SCCI RH / Integrated modular SCCI electrical system") (date "2026-10-14") (rev "0.1") (company "Project SCCI RH")) (lib_symbols) {"".join(sheets)})\n',encoding='utf-8')
     (master.with_suffix('.kicad_pro')).write_text(json.dumps({'meta':{'filename':PROJECT+'.kicad_pro','version':1}},indent=2)+'\n',encoding='utf-8')
     # KiCad resolves an entire hierarchy through the root project library tables.
     # Build explicit root tables for all native symbol and footprint snapshots.
@@ -148,8 +148,8 @@ def main():
             table=loads((folder/name).read_text(encoding='utf-8'))
             for library in subs(table,'lib'):
                 lname=str(sub(library,'name')[1])
-                if lname=='ATO_INTEGRATION':
-                    syms=loads((folder/'ATO_INTEGRATION.kicad_sym').read_text(encoding='utf-8'))
+                if lname=='SCCI_RH_INTEGRATION':
+                    syms=loads((folder/'SCCI_RH_INTEGRATION.kicad_sym').read_text(encoding='utf-8'))
                     integration_symbols+=subs(syms,'symbol')
                     continue
                 if lname in seen_library_names[name]:continue
@@ -159,8 +159,8 @@ def main():
                 elif old.startswith('${KIPRJMOD}/'):uri[1]=Q(old.replace('${KIPRJMOD}/','${KIPRJMOD}/'+pkg+'/'))
                 root_tables[name].append(library)
     if integration_symbols:
-        (master.parent/'ATO_INTEGRATION.kicad_sym').write_text(dumps(['kicad_symbol_lib',['version','20241209'],['generator',Q('ato_integrated')],*integration_symbols])+'\n',encoding='utf-8')
-        root_tables['sym-lib-table'].append(loads('(lib (name "ATO_INTEGRATION") (type "KiCad") (uri "${KIPRJMOD}/ATO_INTEGRATION.kicad_sym") (options "") (descr "Integrated component-tap headers"))'))
+        (master.parent/'SCCI_RH_INTEGRATION.kicad_sym').write_text(dumps(['kicad_symbol_lib',['version','20241209'],['generator',Q('scci_rh_integrated')],*integration_symbols])+'\n',encoding='utf-8')
+        root_tables['sym-lib-table'].append(loads('(lib (name "SCCI_RH_INTEGRATION") (type "KiCad") (uri "${KIPRJMOD}/SCCI_RH_INTEGRATION.kicad_sym") (options "") (descr "Integrated component-tap headers"))'))
     for name,table in root_tables.items():(master.parent/name).write_text(dumps(table)+'\n',encoding='utf-8')
     local=HERE/'shared/Connector_PinHeader_2.54mm.pretty';local.mkdir(parents=True,exist_ok=True)
     for component in SYSTEM['added_tap_headers']:

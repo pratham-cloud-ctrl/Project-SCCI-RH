@@ -19,7 +19,7 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
-from ato.stage3.electrical import Load, simulate_pulse  # noqa: E402
+from scci_rh.stage3.electrical import Load, simulate_pulse  # noqa: E402
 
 
 class VectorInfo(ct.Structure):
@@ -102,7 +102,7 @@ def pulse_netlist(max_step_s, passive_recovery):
     the discharge path is therefore Rseries + switch Ron, as in Load.
     """
     lines = [
-        "ATO linear pair load independent transient",
+        "SCCI_RH linear pair load independent transient",
         "Icommand 0 drive PWL(0 0 1p -3m 200u -3m 200.000001u 0 "
         "300u 0 300.000001u 3m 500u 3m 500.000001u 0 1.5m 0)",
         "Rseries drive pol 1000",
@@ -185,7 +185,7 @@ def crosscheck(simulator):
         "engine_version_messages": [m for m in simulator.messages if "ngspice-" in m],
         "warnings": sorted(set(m for m in simulator.messages if "Warning:" in m)),
         "api_source": "https://ngspice.sourceforge.io/shared.html",
-        "reference_model": "src/ato/stage3/electrical.py",
+        "reference_model": "src/scci_rh/stage3/electrical.py",
         "inputs": {"current_A": .003, "phase_s": .0002, "gap_s": .0001,
                    "recovery_s": .001, "series_ohm": 1000., "pair_capacitance_F": 2e-6,
                    "leakage_ohm": 100000., "passive_switch_ohm": 20.,

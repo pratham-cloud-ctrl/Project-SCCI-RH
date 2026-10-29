@@ -68,6 +68,6 @@
     "checker": "scripts/check_release.py",
     "artifact_hashes": "provenance/manifest.sha256; Git blob byte convention in provenance/environment.json",
     "original_synced_sources_modified": false,
-    "private_repository": "https://github.com/pratham-cloud-ctrl/Project-ATO"
+    "private_repository": "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH"
   }
 }

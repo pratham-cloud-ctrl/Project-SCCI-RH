@@ -1,0 +1,128 @@
+{
+  "scope": "Visible branding only; source scientific values and geometry paths preserved",
+  "source_svgs": [
+    {
+      "path": "electronics/stage4/driver-study/driver-waveforms.svg",
+      "before_sha256": "8dec5544cd19ca5c482f5d56b002863229e2e75d3562296f4aca95cd80a1de19",
+      "after_sha256": "e8b67d43ea69f2421be785477750cdfd276163e93c1a352e5b0f562f23994f98",
+      "labels": [
+        {
+          "group": "text_39",
+          "new_text": "SCCI RH driver study - behavioral model, not component validation",
+          "original_label_sha256": "9478ddb8a93caa2f6afa95877a58efb11ac6e066c051f14897f88b890d919b31",
+          "original_font": "DejaVuSans"
+        }
+      ],
+      "geometry_paths_sha256": "d2a7730160d7d02d710d2201f3d0a209c9c3e25ebede2fce483b04f4ff2b7c8e",
+      "all_original_geometry_paths_unchanged": true
+    },
+    {
+      "path": "electronics/stage4/monitoring-study/charge-witnesses.svg",
+      "before_sha256": "3ea1c1e106af98006c195ec918af1e612d4545013c6d44b35437980034a34288",
+      "after_sha256": "7b08cc1f381b707137f684e2bb35cbc6b10d39217351a5e56ccf18cca270e4ea",
+      "labels": [
+        {
+          "group": "text_32",
+          "new_text": "SCCI RH Stage 4 \u2022 Charge attribution counterexamples",
+          "original_label_sha256": "2b200f9ef7f446e467069d165923580c34bc89df874e421bbc2d14c2a95f437c",
+          "original_font": "DejaVuSans-Bold"
+        }
+      ],
+      "geometry_paths_sha256": "dad2887fae5760912b7856e8fba7ddf67a54967064437a3fd146190e175ba688",
+      "all_original_geometry_paths_unchanged": true
+    },
+    {
+      "path": "electronics/stage4/monitoring-study/waveforms.svg",
+      "before_sha256": "cab99e86247808922cd1f537a349360763503e9200862063e370e1a09d2bcc2b",
+      "after_sha256": "f8bc5e241207af7e41632c1626c9175de98cd725fdb3ee9b42ff7244dea53630",
+      "labels": [
+        {
+          "group": "text_73",
+          "new_text": "SCCI RH Stage 4 \u2022 Behavioral monitor transients",
+          "original_label_sha256": "b368f0640d857e1851308d715a0346eeeaee41e0a7b44899fae858dcf69cf203",
+          "original_font": "DejaVuSans-Bold"
+        }
+      ],
+      "geometry_paths_sha256": "77397a70822ca73498903266d5aa1bba9ca768d3715665e7607cc8d2b72a5809",
+      "all_original_geometry_paths_unchanged": true
+    },
+    {
+      "path": "electronics/stage4/recording-study/input-network.svg",
+      "before_sha256": "f836d3e92a78aa8c90bd9e49b59af8b75f148c494b2cd7908259ec2c60c47d4e",
+      "after_sha256": "b827799b72606ed9b804403d4ae8d956cc41c8850791d3a19a1891bb08785ced",
+      "labels": [
+        {
+          "group": "text_65",
+          "new_text": "SCCI RH recording input network - \ufb01nite passive model, not implant validation",
+          "original_label_sha256": "6fd76147f92a3c6df0f404e619f011fc343663b05a45f27f66ec7ef046554a79",
+          "original_font": "DejaVuSans"
+        }
+      ],
+      "geometry_paths_sha256": "66854a198e6c1c6bb7aca992eb9075e3825a785044367fb0f789f17470810dd2",
+      "all_original_geometry_paths_unchanged": true
+    },
+    {
+      "path": "electronics/stage4/routing-study/router-parasitics.svg",
+      "before_sha256": "2fc9aed881dc77d403d1bf7793f17bcc916d9d6587fb52fdb94b0790a9709a42",
+      "after_sha256": "cc91f8b307f56952fa558e7362cd9818b02faa33e32385d063739ef2670f5088",
+      "labels": [
+        {
+          "group": "text_38",
+          "new_text": "SCCI RH routing study - assumed mutual capacitance; no tissue or switch-fault validation",
+          "original_label_sha256": "6130954359d942ae5a679bffda7093b791123cc795a67de08dd7dbdd3aad4a3d",
+          "original_font": "DejaVuSans"
+        }
+      ],
+      "geometry_paths_sha256": "3a89661ed7eca7374eefb60dde580534ebc2b72d4eda536a3b3dda8a70df2e07",
+      "all_original_geometry_paths_unchanged": true
+    }
+  ],
+  "rendered_pngs": [
+    {
+      "path": "electronics/stage4/driver-study/driver-waveforms.png",
+      "width": 1800,
+      "height": 1188,
+      "before_sha256": "2d6bba885e7d6ead7f9a3eb762602c5f91ae08f3877871d7347958320d66f63a",
+      "after_sha256": "5a47037b82b1d4d19f7f1cbd12d5fb574c03df8a38793405ff46d9e2769f75c0",
+      "source_svg_sha256": "e8b67d43ea69f2421be785477750cdfd276163e93c1a352e5b0f562f23994f98",
+      "renderer": "Qt QSvgRenderer"
+    },
+    {
+      "path": "electronics/stage4/monitoring-study/charge-witnesses.png",
+      "width": 2160,
+      "height": 1026,
+      "before_sha256": "910f8b07885706b5255c7ca1813b54edcd53c343ce97add30a77f6a6c0105e34",
+      "after_sha256": "379c0d8a4fd64946b487d57fe729dc54f9553426c4778c73b874d1bb5ae83cbb",
+      "source_svg_sha256": "7b08cc1f381b707137f684e2bb35cbc6b10d39217351a5e56ccf18cca270e4ea",
+      "renderer": "Qt QSvgRenderer"
+    },
+    {
+      "path": "electronics/stage4/monitoring-study/waveforms.png",
+      "width": 2160,
+      "height": 1440,
+      "before_sha256": "08a0b2ca79d74463995dcfac173e09827474e88f4a9f52ac013d61d31dc8461a",
+      "after_sha256": "7d5eb5f9b038b548507d3be33de34593edfdda5f7799714d3b529efa0bbcbd8d",
+      "source_svg_sha256": "f8bc5e241207af7e41632c1626c9175de98cd725fdb3ee9b42ff7244dea53630",
+      "renderer": "Qt QSvgRenderer"
+    },
+    {
+      "path": "electronics/stage4/recording-study/input-network.png",
+      "width": 2052,
+      "height": 1350,
+      "before_sha256": "8973a04926515de1da0efc80896a1c93b3261875f7d754f0e605a54e962cd27e",
+      "after_sha256": "afd84b7a986c9664a309d451aba83769e8c24ae0e43d113cbfdee2dbb84a434c",
+      "source_svg_sha256": "b827799b72606ed9b804403d4ae8d956cc41c8850791d3a19a1891bb08785ced",
+      "renderer": "Qt QSvgRenderer"
+    },
+    {
+      "path": "electronics/stage4/routing-study/router-parasitics.png",
+      "width": 1980,
+      "height": 828,
+      "before_sha256": "1c3ce5d961e3757dade504e9ab7085dbe8244361b629c02a7d3818c3727c78c5",
+      "after_sha256": "4acaaffcc4a55d49042c334e8bafa45744cdb480329bf450f5b158d1cf1bb939",
+      "source_svg_sha256": "cc91f8b307f56952fa558e7362cd9818b02faa33e32385d063739ef2670f5088",
+      "renderer": "Qt QSvgRenderer"
+    }
+  ],
+  "requires_source_generator": []
+}

@@ -1,24 +1,24 @@
-# Explore Project ATO
+# Explore Project SCCI RH
 
 [Project home](../../README.md) · [Theory](theory.md) · [CAD](cad.md) · [Electronics](electronics.md) · [Firmware](firmware.md) · [Review](reviewer-guide.md)
 
-Project ATO asks what implanted spinal recording, interpretation and selective
+Project SCCI RH asks what implanted spinal recording, interpretation and selective
 stimulation could enable. This guide connects that future idea to the actual
 research, code, circuits and mechanical files you can inspect today.
 
-**[Open the interactive build inspector](https://pratham-cloud-ctrl.github.io/Project-ATO/)**
+**[Open the interactive build inspector](https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/)**
 for 3D assemblies, eight boards, all copper layers and 80 schematic sheets.
 No CAD installation or viewer account is required. Use its
-[download panel](https://pratham-cloud-ctrl.github.io/Project-ATO/?view=downloads)
+[download panel](https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/?view=downloads)
 for standard STEP solids and complete native FreeCAD/KiCad packages.
 
 ## Start with your interest
 
 | Guide | You will find | First thing to open |
 |---|---|---|
-| **[01 · Theory & mechanisms](theory.md)** | The two use cases, consumer journey, scientific precedents and explicit assumptions | [Integrated illustrated paper](../../output/pdf/Project_ATO_Integrated_Manuscript.pdf) |
-| **[02 · CAD & 3D](cad.md)** | Reference chassis, future implanted interface, exploded views and editable models | [Mechanical review sheets](../../cad/stage5/drawings/ATO_Stage5_Mechanical_Review.pdf) |
-| **[03 · Electronics & KiCad](electronics.md)** | Eight-board gallery, circuit roles, native schematics and PCB layouts | [Full schematic PDF](../../electronics/stage4/integrated-pcb/integration/master/ATO_integrated.pdf) |
+| **[01 · Theory & mechanisms](theory.md)** | The two use cases, consumer journey, scientific precedents and explicit assumptions | [Integrated illustrated paper](../../output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf) |
+| **[02 · CAD & 3D](cad.md)** | Reference chassis, future implanted interface, exploded views and editable models | [Mechanical review sheets](../../cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf) |
+| **[03 · Electronics & KiCad](electronics.md)** | Eight-board gallery, circuit roles, native schematics and PCB layouts | [Full schematic PDF](../../electronics/stage4/integrated-pcb/integration/master/SCCI_RH_integrated.pdf) |
 | **[04 · Firmware & software](firmware.md)** | Current target image, production control logic, companion interfaces and tests | [Current firmware package](../../firmware/nrf5340/uart-revision/README.md) |
 | **[05 · Evidence & reproduction](reviewer-guide.md)** | A short walkthrough, results, claim limits and exact reproduction routes | [Requirements and claims](../stage6/requirements-claims-trace.csv) |
 
@@ -45,7 +45,7 @@ native-file link on GitHub does not launch a local CAD application.
    inspect the claims and run the finite verification checks.
 
 Use the [repository map](repository-map.md) when you want the exact source path.
-The [engineering release](https://github.com/pratham-cloud-ctrl/Project-ATO/releases/tag/v2.0.1)
+The [engineering release](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/tag/v2.0.1)
 provides the manuscript, mechanical drawing set, source ZIP and checksums.
 
 ## Reading the claims
@@ -58,5 +58,5 @@ recruitment, favorable retained human learning and a qualified miniaturized impl
 The full-size reference and future implanted package are separate embodiments.
 
 AstroSam’s [Mind-Link](https://github.com/sam-astro/Mind-link) inspired the format.
-ATO’s spinal architecture and artifacts have their own documented provenance;
+SCCI_RH’s spinal architecture and artifacts have their own documented provenance;
 see [contributions](../stage6/contributions.md) and [current status](../../CURRENT_STATUS.md).

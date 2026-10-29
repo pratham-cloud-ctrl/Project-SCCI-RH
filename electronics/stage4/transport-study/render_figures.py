@@ -19,7 +19,7 @@ def save(fig,name):
 def main():
     OUT.mkdir(exist_ok=True)
     d=json.loads((HERE/'input-results.json').read_text());c=json.loads((HERE/'transport-results.json').read_text())
-    plt.rcParams.update({'font.size':10,'axes.spines.top':False,'axes.spines.right':False,'svg.hashsalt':'ATO-transport-v1'})
+    plt.rcParams.update({'font.size':10,'axes.spines.top':False,'axes.spines.right':False,'svg.hashsalt':'SCCI_RH-transport-v1'})
     with np.load(HERE/'input-traces.npz') as data:
         fig,ax=plt.subplots(1,2,figsize=(11.5,4.4),layout='constrained')
         key='fc15000_spike'

@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/monitoring-study/waveforms.png",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "08a0b2ca79d74463995dcfac173e09827474e88f4a9f52ac013d61d31dc8461a",
+  "current_sha256": "7d5eb5f9b038b548507d3be33de34593edfdda5f7799714d3b529efa0bbcbd8d",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-electrical-study-visuals.json",
+      "sha256_lf": "d5e2d523efd10df7f48e303628fa8a666e46feeecd1c34a2b6779971d01ab9da"
+    }
+  ]
+}

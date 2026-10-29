@@ -1,0 +1,625 @@
+{
+  "schema": "scci_rh.browser-electronics-regeneration.v1",
+  "date": "2026-10-29",
+  "scope": "Native KiCad vector exports regenerated during the name migration; final command regenerates iBOM and native download, reuses those unchanged native vector exports, and independently verifies every input/output hash. No engineering geometry or numerical performance claim.",
+  "native_export_command": "KiCad Python scripts/inspector/build_electronics_assets.py",
+  "native_export_log": "tmp/rebrand-inspector-metadata-refresh.log",
+  "final_command": "KiCad Python scripts/inspector/build_electronics_assets.py --reuse-native-exports",
+  "final_command_log": "tmp/rebrand-inspector-final-export.log",
+  "final_command_passed": true,
+  "counts": {
+    "electrical_positions": 1298,
+    "fitted_components": 1296,
+    "dnp": 2,
+    "mechanical_footprints": 32,
+    "schematic_sheets": 80,
+    "copper_views": 32
+  },
+  "files": [
+    {
+      "path": "inspector/assets/copper/contact-router/B_Cu.svg",
+      "current_sha256": "b3107feddc2d31254f3851aaf3a85f9df6a56deb6d8350dd17d74666f14b352c",
+      "bytes": 49002
+    },
+    {
+      "path": "inspector/assets/copper/contact-router/F_Cu.svg",
+      "current_sha256": "3238716420333523923fb20c64bd22dbdc3a8d9e4350fd8ed6249d4ea7828336",
+      "bytes": 432877
+    },
+    {
+      "path": "inspector/assets/copper/contact-router/In1_Cu.svg",
+      "current_sha256": "4bcefcf225b9cc375203dcdbdc48912bd70ac75b5da13538ca3fb44e3d8e6386",
+      "bytes": 82274
+    },
+    {
+      "path": "inspector/assets/copper/contact-router/In2_Cu.svg",
+      "current_sha256": "4bd97b2a2a502c6d27ed440abaabe14bec013e1439d9ace46d1a80131b652f70",
+      "bytes": 104960
+    },
+    {
+      "path": "inspector/assets/copper/controller-carrier/B_Cu.svg",
+      "current_sha256": "dbbfdda009b3ee160a0019e08c6aa57bc8d25cedf41c2d6097cc4a7a8f848423",
+      "bytes": 55680
+    },
+    {
+      "path": "inspector/assets/copper/controller-carrier/F_Cu.svg",
+      "current_sha256": "589804810fe942a60a68f827bb68da3e09ed2cdcd6bee56ef089d8c90b51221c",
+      "bytes": 168515
+    },
+    {
+      "path": "inspector/assets/copper/controller-carrier/In1_Cu.svg",
+      "current_sha256": "63343f51c432476c272bc1263a60f58aa7ee175697b38f23a6885ae1d3faefa9",
+      "bytes": 76646
+    },
+    {
+      "path": "inspector/assets/copper/controller-carrier/In2_Cu.svg",
+      "current_sha256": "bc2a919008a47aa1e92ef4ae4b95ebe648d4c83a7acac9ac5b3d9079d2952314",
+      "bytes": 86689
+    },
+    {
+      "path": "inspector/assets/copper/current-driver/B_Cu.svg",
+      "current_sha256": "6da5a126ca8f3caad90d39d28fe1e282b06a9a646ee54fe3ee3365931295e689",
+      "bytes": 35935
+    },
+    {
+      "path": "inspector/assets/copper/current-driver/F_Cu.svg",
+      "current_sha256": "03506c0d43b3c4e50f6830a576798f762e5b7d8f7dee40524ea61125bf79d584",
+      "bytes": 388144
+    },
+    {
+      "path": "inspector/assets/copper/current-driver/In1_Cu.svg",
+      "current_sha256": "0cdaf13340c54698b8b31deae0f8942dc0612df823650f839bceb2e3ff3eaabe",
+      "bytes": 49739
+    },
+    {
+      "path": "inspector/assets/copper/current-driver/In2_Cu.svg",
+      "current_sha256": "f19361c404d1d6c34e6cc943c04ea7f222bc6e1b0b3dffed1f1c0c341fe419c9",
+      "bytes": 61856
+    },
+    {
+      "path": "inspector/assets/copper/monitoring-cell/B_Cu.svg",
+      "current_sha256": "542ec346a5bb3b105fed65857feddf01a69239172c187bcdbb3252a5f18f2c4e",
+      "bytes": 18968
+    },
+    {
+      "path": "inspector/assets/copper/monitoring-cell/F_Cu.svg",
+      "current_sha256": "c3477e46700189e535577cec70dbee58523426b68309e41dd8da609c6bbc24b3",
+      "bytes": 149005
+    },
+    {
+      "path": "inspector/assets/copper/monitoring-cell/In1_Cu.svg",
+      "current_sha256": "9bc4b98e4f26f91f02f96e6514d66e6d285f27b3c5c4abe7346c39da0d86af5c",
+      "bytes": 27674
+    },
+    {
+      "path": "inspector/assets/copper/monitoring-cell/In2_Cu.svg",
+      "current_sha256": "f7a93c6170c32a9fabcb7d068167c03c5f18822bd44a186afd00db9b4fdd6e32",
+      "bytes": 31122
+    },
+    {
+      "path": "inspector/assets/copper/monitoring-transport/B_Cu.svg",
+      "current_sha256": "5c0881efd8f697ce55fc267230977a09a77db040d7306b20768d11b6c2cf244e",
+      "bytes": 24359
+    },
+    {
+      "path": "inspector/assets/copper/monitoring-transport/F_Cu.svg",
+      "current_sha256": "9f791e1160bb85c9fe5914cbd8b702b072512f833ca72037f4391ec4858d43c7",
+      "bytes": 110712
+    },
+    {
+      "path": "inspector/assets/copper/monitoring-transport/In1_Cu.svg",
+      "current_sha256": "cd1dcfc1c6ae533b51de10279b1f0b9a45beba2bb12a9759eecc53731e77c249",
+      "bytes": 37553
+    },
+    {
+      "path": "inspector/assets/copper/monitoring-transport/In2_Cu.svg",
+      "current_sha256": "23e7ac1d34db98ad1535e93a313c4384cf33014694e0f870949db00874bb78df",
+      "bytes": 38344
+    },
+    {
+      "path": "inspector/assets/copper/power/B_Cu.svg",
+      "current_sha256": "d9863677f0eff51108a810635a62947df94a17dfc61bfb24621b6bbcae53ef80",
+      "bytes": 25720
+    },
+    {
+      "path": "inspector/assets/copper/power/F_Cu.svg",
+      "current_sha256": "ae6fe19d4dfc90046962037fce02d4690da5e2357d3167ee75ab2a022f8c3c5a",
+      "bytes": 266176
+    },
+    {
+      "path": "inspector/assets/copper/power/In1_Cu.svg",
+      "current_sha256": "7b12cf99e5f719e6fbe532363ae654953fb235ede5b736290648bef3ed8d842e",
+      "bytes": 45410
+    },
+    {
+      "path": "inspector/assets/copper/power/In2_Cu.svg",
+      "current_sha256": "82fa45b82bca068f92d90ea1e0c699b9fcd626504ca29929ab2ae70b0989bc89",
+      "bytes": 34056
+    },
+    {
+      "path": "inspector/assets/copper/recording-front-end/B_Cu.svg",
+      "current_sha256": "2bfec73e92cdfd44d3063cc2131b6a79128a208a83e37bdfa1b9afe671c6534a",
+      "bytes": 47065
+    },
+    {
+      "path": "inspector/assets/copper/recording-front-end/F_Cu.svg",
+      "current_sha256": "453d8e17365a8d2d5657e9299d1ab390d40d0fa33cfcd8e982581d548547d59e",
+      "bytes": 396442
+    },
+    {
+      "path": "inspector/assets/copper/recording-front-end/In1_Cu.svg",
+      "current_sha256": "e2db55b129a3210625a8263815b96af93ad6a0db53c41db678ace69eeea09002",
+      "bytes": 81925
+    },
+    {
+      "path": "inspector/assets/copper/recording-front-end/In2_Cu.svg",
+      "current_sha256": "9cdbd72663b4a9054d22711e29012980c1ec7a60c37004a9d683022108f06932",
+      "bytes": 68309
+    },
+    {
+      "path": "inspector/assets/copper/supervision/B_Cu.svg",
+      "current_sha256": "5e8199e36ec3a6638529a720daee5150e2db20d8b9e6026f2abf0fe7492d9f14",
+      "bytes": 120389
+    },
+    {
+      "path": "inspector/assets/copper/supervision/F_Cu.svg",
+      "current_sha256": "305c8ac6fb8d1dad3050cc05840b32cafa7196a7351789150f8e066295f259c1",
+      "bytes": 1139986
+    },
+    {
+      "path": "inspector/assets/copper/supervision/In1_Cu.svg",
+      "current_sha256": "3a698eb77d8d3d12fa19a4e7f7d9b6db3970bda40369e6e26509c1edc2ad796c",
+      "bytes": 199127
+    },
+    {
+      "path": "inspector/assets/copper/supervision/In2_Cu.svg",
+      "current_sha256": "59d7a1441060824e6d3b816e344db631feab625b900549075c9b1f0cc9586bb6",
+      "bytes": 191213
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-contact-router-address.svg",
+      "current_sha256": "70a7c87b691d46a5325c5bcf57e333fae3c68af82400ba0c96ec6dcb4414ce3f",
+      "bytes": 2778431
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-contact-router-admission.svg",
+      "current_sha256": "ccd524cee0b01944da0954f3346a966db8525d8b7bb2be845a383ce7921885eb",
+      "bytes": 3603320
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-contact-router-collision.svg",
+      "current_sha256": "1318b2483ab3723bf2ee2367c5934692bf44a2da2f2211e2d8087d7438e0bbea",
+      "bytes": 2692720
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-contact-router-source0.svg",
+      "current_sha256": "00745aaa2aa8478feb5cebaa58bc93d473d843349b2a3b720162f86c863f51c7",
+      "bytes": 1389025
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-contact-router-source1.svg",
+      "current_sha256": "38dbb4222c809a25e22f1ec11c83d63b2b537bbb14fbca46102e3c83197e1f7d",
+      "bytes": 1365673
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-contact-router.svg",
+      "current_sha256": "e8ca360740439f8ceb7674b629ad1ca63d2dfca24c08674e52be7436950ecfb4",
+      "bytes": 1613019
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-controller-carrier-defaults.svg",
+      "current_sha256": "ec715fa4cbfe16da0a4043a57b2ba3595e58bac0c1d31a8a619f95d86e2d2887",
+      "bytes": 812256
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-controller-carrier-defaults_2.svg",
+      "current_sha256": "892ac1635a0a6c96f5ea7c164f760d5f54b824a5b44c027132d2f3513de70d3d",
+      "bytes": 810450
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-controller-carrier-defaults_3.svg",
+      "current_sha256": "74a57a513cb378161cdf4684dcafa49e5122d052c30b38b269491d9422f1c175",
+      "bytes": 743258
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-controller-carrier-handoff.svg",
+      "current_sha256": "0bf14918abc47ae33c0a783ecaf20837645f691f2d6f94350c47ed01aaf32eae",
+      "bytes": 767387
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-controller-carrier-handoff_2.svg",
+      "current_sha256": "7d3c3c08127ea888c251f350c9312599f9a7d1d1083ffaecaf8f8df133c14564",
+      "bytes": 834982
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-controller-carrier-handoff_3.svg",
+      "current_sha256": "7728431c982857d2d48bb1fc853cf9c383d650dcf6f19ef5081d8e47a0b24b40",
+      "bytes": 850420
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-controller-carrier-power.svg",
+      "current_sha256": "4b0bbaa16d35de8f817917e98b8f581df118bbe917bce3ace110d04423fe7fc3",
+      "bytes": 641104
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-controller-carrier-processor.svg",
+      "current_sha256": "bc587d202af0b96aeb8014e7f721bc95380a0e9855c79f3cfe9ee9b4526224e5",
+      "bytes": 1363414
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-controller-carrier-sideband.svg",
+      "current_sha256": "3128884df23246f18aa60498b9708ab44772b45b25cf1d41a3663b3b39f3b45e",
+      "bytes": 1445200
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-controller-carrier.svg",
+      "current_sha256": "3414e741f57d275f55ab7f319eb10ec70bf576eeac7fb91c82b8c69bbdba01bb",
+      "bytes": 427224
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-current-driver-Source0_analog.svg",
+      "current_sha256": "349d790b42dfd077a270cd53431de1408693dfc580f3ac8e4cf7073f9bc83ae5",
+      "bytes": 1431162
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-current-driver-Source0_permission.svg",
+      "current_sha256": "f79abd752eba62410c2a0ee43f1310d82eea6a7bb1e6b9dc3fd26c1acaae5902",
+      "bytes": 3393778
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-current-driver-Source1_analog.svg",
+      "current_sha256": "4bc9a8bdcc68549407b3745088bda1ff76992691126fb540fed9c4c072e2f83c",
+      "bytes": 1408862
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-current-driver-Source1_permission.svg",
+      "current_sha256": "51d4f76e71e9747836a5c94fb85f6c5bee7971dca5d73921071a3999c812ff0d",
+      "bytes": 3333009
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-current-driver.svg",
+      "current_sha256": "078ee368af796bc0fcedf3ea23e79e946a216c17fc11b7319c8fef4d42c2aca9",
+      "bytes": 1514271
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-monitoring-cell-Integrated_component_taps.svg",
+      "current_sha256": "4545880dc024d55ee80caf4c42ddf4097ffb98d328cd3e38e8a84ad560a29473",
+      "bytes": 316434
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-monitoring-cell-Source0_monitor.svg",
+      "current_sha256": "a157c464ed6d7fedc5d93edb6208cd353be6f5c0e9455e50955fd4fc72246f90",
+      "bytes": 1846258
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-monitoring-cell-Source1_monitor.svg",
+      "current_sha256": "f13d799c325b432950bc2abcd71b70832783ed82b7b145d0db7138a565c6c39e",
+      "bytes": 1830425
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-monitoring-cell.svg",
+      "current_sha256": "cfbbfbd71398254640680f2245ce9411afd960d686d8b23691fb84405366d44e",
+      "bytes": 1554796
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-monitoring-transport-adc.svg",
+      "current_sha256": "7a482b67bd7a1819f9931515a3f51148e5daded13ebee6606360f56980244fd9",
+      "bytes": 1128743
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-monitoring-transport-companion.svg",
+      "current_sha256": "426e8ccf441a43d71db17fc2e21b834655bef4250d8753ec91175646c0191f1b",
+      "bytes": 1044069
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-monitoring-transport-handoff.svg",
+      "current_sha256": "5094a36304a26fbeb0033be0ee144ecaf422f8727060959588e296b33a54cae6",
+      "bytes": 850262
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-monitoring-transport-health.svg",
+      "current_sha256": "3ec84bd6391e663dfcdd8808896f898502e6b3efa4888ffcc18c9147c8427492",
+      "bytes": 485453
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-monitoring-transport-inputs.svg",
+      "current_sha256": "6a44cc26cdb3cde9fa041099538ea699950440e9ca44a92943f43519809c0c22",
+      "bytes": 920908
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-monitoring-transport-reference.svg",
+      "current_sha256": "27a7f41c8fd9aedf6e28e75a9991e1a06f33f8cdd6f2a87e09275cb4c095c796",
+      "bytes": 660472
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-monitoring-transport-root_2.svg",
+      "current_sha256": "65838157097a7b0d313e72345839f95439def8075afe9ce610deaff4cff0f421",
+      "bytes": 698339
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-monitoring-transport.svg",
+      "current_sha256": "42ab70fade526d955ea443cab0b5ce537594fdbee7fc46036f9c29c4f6dc3986",
+      "bytes": 633999
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-power-afe3.svg",
+      "current_sha256": "aeefb214dc4ecaad8a019b8e1e86fca028e0a7525b3fda42ad936edc2c8b21bc",
+      "bytes": 700423
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-power-afen.svg",
+      "current_sha256": "cdd3cbe8570bdc2d24ec81168aa1904bdbd8bdba2f0e6f468a0d68e00d9a19ee",
+      "bytes": 678526
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-power-afep.svg",
+      "current_sha256": "6530c451ffb526494cc98f087dd8a81a36bce97914dc22d1808d46319bd44642",
+      "bytes": 693457
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-power-boost15.svg",
+      "current_sha256": "89274ba8ef1950830c1403f492d950a1a2acc6bff4e8942a8b71f05796f0f257",
+      "bytes": 761471
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-power-boost24.svg",
+      "current_sha256": "bab40f6b325c2401c6435cf82142f379fb3c6f8ae01698bd195592c9244c84ca",
+      "bytes": 746185
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-power-enable.svg",
+      "current_sha256": "1a6e7c2d3ae64f32d9b0c1a4748449d3334856d519031aa7824907c42914bcbf",
+      "bytes": 1119482
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-power-enable_2.svg",
+      "current_sha256": "224ff35dc69a3db7c2b7dfe6f3d083dacf277b5dafa210ef7ca704ba17edfec7",
+      "bytes": 1094967
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-power-enable_3.svg",
+      "current_sha256": "83cb84bb4a8f0ed6b562c61797940a002680601b13f232ff1accac250e0c513b",
+      "bytes": 1201953
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-power-host3.svg",
+      "current_sha256": "c4e2b78d5320f7cacad6cae2e87500fac072fe8f941915173468bb75f8a929ce",
+      "bytes": 694816
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-power-host5.svg",
+      "current_sha256": "85a9d6520a899806b5167caab71f515904aa8be283459177de7f85a8a96f1981",
+      "bytes": 873494
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-power-input.svg",
+      "current_sha256": "b74788a558946b3182880806a9d1373cc278ab7966c804ad3b6a92f86bab7baa",
+      "bytes": 527546
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-power-island.svg",
+      "current_sha256": "cb59e69b01b6496fac910ff9ad302907c7dd4e18cc1ca4d83222d34ece4a693b",
+      "bytes": 532390
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-power-sup3.svg",
+      "current_sha256": "108be62a5d8f477516ff43f5757f69ab41187e45e86f4aacf702688faf0f0abd",
+      "bytes": 697665
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-power-sup5.svg",
+      "current_sha256": "3caaace0ee46a5c5ff0937036967a2f12e65496d6c22b5095aa405f2d0cdea85",
+      "bytes": 693711
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-power.svg",
+      "current_sha256": "8497f90ae88bd2f4c3c702896962a02d5244c7c55dc8c0eedf81bf0a656991e4",
+      "bytes": 917614
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-recording-front-end-acquisition.svg",
+      "current_sha256": "2fe4c3b1c13dd693067c0adba12d30ad75ef68a33ac84edeac371bd03e2f9871",
+      "bytes": 1418117
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-recording-front-end-bank0.svg",
+      "current_sha256": "2172049490bff7abdcb8a36f90cbc3aa5d41478a707b318f2566298c95dd6fae",
+      "bytes": 2059196
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-recording-front-end-bank1.svg",
+      "current_sha256": "2a556bfce8525206179b0bf7648a1f56bddd946dac3b65b6e045ee12625212c3",
+      "bytes": 2044730
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-recording-front-end-bank2.svg",
+      "current_sha256": "d76be59f729b6e9cb2246ee81ac743205aa7269bbc2caa449240115bcead9851",
+      "bytes": 2051298
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-recording-front-end-bank3.svg",
+      "current_sha256": "93c39365820edf2b9e535444066a22c6533574ee3b9dafe0b90cce00f5d4b325",
+      "bytes": 2001410
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-recording-front-end-Integrated_component_taps.svg",
+      "current_sha256": "0e73b5eb3bcc31479a04bbb111b363aea43eaf84b58baa459c4fd3ce252f7962",
+      "bytes": 589428
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-recording-front-end-reference.svg",
+      "current_sha256": "c64fc68d4daf970ff8dfe450b39678dd07960c5979673552a4edbc72241ad2a0",
+      "bytes": 1076685
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-recording-front-end.svg",
+      "current_sha256": "5a8259447b09d6be7bb57fc0a8d934d216d4490775624679a8af9704503a6d39",
+      "bytes": 2389403
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-supervision-admission.svg",
+      "current_sha256": "e7d9038f22a559dc4de0a733a7b990a05f1e6fc605593bc1d6e81f7e46c7c6f7",
+      "bytes": 1896173
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-supervision-admission_2.svg",
+      "current_sha256": "bc957b0f961fe46966d60ed922a86e5af403e4d117fa7c1ddad178537fd2b0e5",
+      "bytes": 1875445
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-supervision-afe_bank0.svg",
+      "current_sha256": "87382532505ac593197d1208b1607312b8db63bb1d1aaae895b32196c3c83ab6",
+      "bytes": 1841500
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-supervision-afe_bank1.svg",
+      "current_sha256": "7512dbff4c561effa8c9904c8dd41375f4b3e09a5d8b123f551c22ba1a5d0628",
+      "bytes": 1832373
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-supervision-afe_bank2.svg",
+      "current_sha256": "e967beace9b8b9202598df17ee673664c79993ec9c3ccd0972fce735c10e014a",
+      "bytes": 1833442
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-supervision-afe_bank3.svg",
+      "current_sha256": "3bf4508ff58dad797f718002470ee6737e78600fcf436206d5a865b6a05093c7",
+      "bytes": 1778757
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-supervision-afe_bank4.svg",
+      "current_sha256": "9a69594769c29d150a5157fcac4b54a6659f8057f85fa9768d60a2859cfa3f2b",
+      "bytes": 693969
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-supervision-afe_logic.svg",
+      "current_sha256": "58deae99592c8110e8005fec214349352adcb461524eeba2ded12b385c880200",
+      "bytes": 1358320
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-supervision-afe_logic_2.svg",
+      "current_sha256": "326f31b71d3f238145d12e004f09551aa0c6d6fca067cc1c7a6ec91d586f75e3",
+      "bytes": 1609027
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-supervision-afe_rails.svg",
+      "current_sha256": "c65032931daebcd9a1da305d4e68902861c3ca8a0ea3f6453afc4ee8d470604f",
+      "bytes": 1020842
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-supervision-afe_rails_2.svg",
+      "current_sha256": "99216ca91d5c702a8031348f1b88e6db68a19976d0f26e3776d408fc69a56e09",
+      "bytes": 881834
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-supervision-defaults.svg",
+      "current_sha256": "45bb335208d3bbca66c730e46b7e44fd379fa30a9ba48aa2eb7a7c37a0860e96",
+      "bytes": 751870
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-supervision-duration.svg",
+      "current_sha256": "4878f58ab39227f73cd65bc9f7f4b9d2b608d6de0879aa9216ea63278e6cd6fa",
+      "bytes": 1550727
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-supervision-guards.svg",
+      "current_sha256": "6545dd0cf2aac58436dbc6d8ef48d27547c4e2aee3e81ba5bdd8578ae0a3c530",
+      "bytes": 2658842
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-supervision-host_rails.svg",
+      "current_sha256": "7e47b975eca918cc255c7b4813c77f9c236f0f656b03869cc55b6b16c43d53c3",
+      "bytes": 1229060
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-supervision-host_rails_2.svg",
+      "current_sha256": "587b311dcd7d49dfb97e7a3ebf150c3091b7956dfa2897de3065fe5cbca2719b",
+      "bytes": 1198678
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-supervision-Integrated_component_taps.svg",
+      "current_sha256": "4cbf08017fd98a5c3fdab7fd1f2ef124a07943d682704c6c9e41567745352077",
+      "bytes": 339571
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-supervision-phase0.svg",
+      "current_sha256": "fbaa487990c18208d4c6c2f2a055c4fc6728433f90b250b2801d915efe510c25",
+      "bytes": 2039253
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-supervision-phase1.svg",
+      "current_sha256": "7f239b32dcaea613359981f769266d66f4d1534037528e8c5288bb6d4b5fb6f7",
+      "bytes": 2031651
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-supervision-quiescence.svg",
+      "current_sha256": "1c67155ffd4bfd71d47bbee9d35b6761176a8991e1c13ce9209d1a572236e9cb",
+      "bytes": 1693671
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-supervision-voltage.svg",
+      "current_sha256": "bb4bef6b300bca108f8a3c195098e1e41c69f6f02f94834c710243044aa69912",
+      "bytes": 1594015
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-supervision-watchdog.svg",
+      "current_sha256": "86dbdf4955c9e2fec90cb9d2821ae6360b9db80ff90c77eccabcdf3654f7baf6",
+      "bytes": 1796237
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated-supervision.svg",
+      "current_sha256": "beecdb663f1142eb49d827bc5fddab2e79254dcbc3da1885a1eb2a4ff2e5abb9",
+      "bytes": 1456763
+    },
+    {
+      "path": "inspector/assets/schematics/SCCI_RH_integrated.svg",
+      "current_sha256": "6e187be56820e6563aeacbc43b13ba0c31468ad533c2558a64392bfb8a90612d",
+      "bytes": 500021
+    },
+    {
+      "path": "inspector/downloads/KiCad-SCCI_RH-native-projects.zip",
+      "current_sha256": "2e4f182751636dc142ea19bfa548b06ccee25a90287cc14249cf9dcf1f55aabc",
+      "bytes": 5339966
+    },
+    {
+      "path": "inspector/pcb/contact-router.html",
+      "current_sha256": "8aa5c8fa245c3a508d60d79f3d8cfd063bc8ae48afa933aa5942c9ab98c108a8",
+      "bytes": 1207169
+    },
+    {
+      "path": "inspector/pcb/controller-carrier.html",
+      "current_sha256": "6a37be2f2f702362fecb6552b43c3e7322b6f550f60bf32207585e66da431342",
+      "bytes": 745756
+    },
+    {
+      "path": "inspector/pcb/current-driver.html",
+      "current_sha256": "8f74c6ff5a40cffce9385be7419ebabd62b1df430ab7ae2c9ee6f17287353ab3",
+      "bytes": 1195033
+    },
+    {
+      "path": "inspector/pcb/monitoring-cell.html",
+      "current_sha256": "93ebbe695d7930aa817e5f4a87a06add1738f3e25d5245a43efdce3adaf32211",
+      "bytes": 623905
+    },
+    {
+      "path": "inspector/pcb/monitoring-transport.html",
+      "current_sha256": "0ec99c51e1c29b5d7a9fa9ad80c2d50363eaf17246115f2f4d9efabb7a1299c7",
+      "bytes": 552337
+    },
+    {
+      "path": "inspector/pcb/power.html",
+      "current_sha256": "b6c43719b66cbbabd4e94db741774903489d9be6dd702e3aa388ce68df199234",
+      "bytes": 1110892
+    },
+    {
+      "path": "inspector/pcb/recording-front-end.html",
+      "current_sha256": "8362102c73cf1c7329ad680f35f9b7478f3664963a6b85b6f40c11cad5fae317",
+      "bytes": 1258282
+    },
+    {
+      "path": "inspector/pcb/supervision.html",
+      "current_sha256": "087cecb0eda67cdc1a742f1c2cc24006deee90f8a4d8bcd9e662e5a5b36ad1e3",
+      "bytes": 3440699
+    }
+  ]
+}

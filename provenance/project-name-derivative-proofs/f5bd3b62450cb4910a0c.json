@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/monitoring-study/charge-witnesses.svg",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "439c13916bd3745fb23dd83bf8043a89b5aabcc6e15379946aa693c049fc078e",
+  "current_sha256": "7b08cc1f381b707137f684e2bb35cbc6b10d39217351a5e56ccf18cca270e4ea",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-electrical-study-visuals.json",
+      "sha256_lf": "d5e2d523efd10df7f48e303628fa8a666e46feeecd1c34a2b6779971d01ab9da"
+    }
+  ]
+}

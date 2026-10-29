@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-29",
+  "scope": "Explicit historical source filename resolution after branding migration",
+  "files": [
+    {
+      "path": "electronics/stage4/integrated-pcb/verify_exports.py",
+      "current_sha256": "8c6bec18a28f660efff3139ac47c7d992b98691f6f2d70d2dcf4f13cb0f893bb",
+      "method": "For a missing hash-named archived exporter snapshot only, require exactly one existing *.py.txt snapshot with an LF SHA256 equal to the receipt digest. Historical filenames are retained; never select a newer source revision. Existing export, pin, DRC, STEP and manufacturing-limit assertions are unaltered."
+    }
+  ]
+}

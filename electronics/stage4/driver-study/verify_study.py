@@ -58,7 +58,7 @@ def dc_oracle(polarization_V):
 
 def verify():
     result = json.loads((HERE / "results.json").read_text(encoding="utf-8"))
-    assert result["schema"] == "ato.stage4.driver-study.v1"
+    assert result["schema"] == "scci_rh.stage4.driver-study.v1"
     assert not result["native_circuit_modified"] and not result["full_charge_accuracy_earned"]
     assert result["source_sha256"] == study.sha(HERE / "study.py")
     assert result["helper_source_sha256"] == study.sha(HERE.parent/"monitoring-study/ngspice_shared.py")
@@ -133,7 +133,7 @@ def verify():
     assert 0.003 * 10000 > 24  # The forced load cannot support the requested current.
     included = sorted(p for p in HERE.rglob("*") if p.is_file() and p != RECEIPT
                       and "__pycache__" not in p.parts)
-    return dict(schema="ato.stage4.driver-study.verification.v1",date="2026-10-13",
+    return dict(schema="scci_rh.stage4.driver-study.verification.v1",date="2026-10-13",
                 scope="Saved surrogate-circuit math and ideal digital contracts; no vendor/native/physical/biological qualification",
                 attempted_transients=20,completed_transients=completed,retained_partial_transients=2,
                 phase_gap_profile_intervals=intervals,maximum_integrated_KCL_residual_C=max_kcl,

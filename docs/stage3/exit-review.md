@@ -71,7 +71,7 @@ routing and independent shutdown supervision, phase/tail monitoring, power,
 telemetry, target backends and PCB. The 70-component monitoring schematic and
 33-run behavioral study are partial evidence; their 4% charge target remains
 unearned. The restricted driver note is a reviewed proposal. The linked Nordic
-example establishes tool readiness only, not complete ATO firmware or deadlines.
+example establishes tool readiness only, not complete SCCI_RH firmware or deadlines.
 
 Stage 5 must populate real boards/components/package/feedthroughs/lead interfaces
 and check nominal fit. Stage 2's 80 solids remain allocation envelopes. Stage 6
@@ -93,6 +93,6 @@ binds the exact replay summary/audit, independent review and package manifest.
 Review the [complete replay](../../experiments/stage3/frozen-observer-pilot/README.md),
 [published independent audit](frozen-observer-pilot-independent-review.md),
 [integrated verdict](stage3-verdict.md) and
-[eight-page illustrated report](../../output/pdf/ATO_stage3_closeout.pdf).
+[eight-page illustrated report](../../output/pdf/SCCI_RH_stage3_closeout.pdf).
 The next implementation stage is detailed electronics/firmware, followed by
 populated engineering CAD and final project integration.

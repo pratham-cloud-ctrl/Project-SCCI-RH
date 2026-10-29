@@ -82,7 +82,7 @@ def main(write=False):
     expected_groups=defaultdict(set)
     for p in parent:expected_groups[root(p)].add(p)
     expected=set(map(frozenset,expected_groups.values()))
-    master=HERE/'master/ATO_integrated.xml'
+    master=HERE/'master/SCCI_RH_integrated.xml'
     x,actual_parts,groups,actual_lookup=xml_netlist(master)
     check(len(actual_parts)==1298,'actual master 1298 component positions')
     dnp_refs={ref for ref,c in actual_parts.items() if any(p.get('name')=='dnp' for p in c.findall('property'))}
@@ -144,7 +144,7 @@ def main(write=False):
     check(actual_lookup['J80016','9']==actual_lookup['J40002','7'],'router loom return uses actual GND pin 7')
     check(actual_lookup['J40002','6']!=actual_lookup['J40002','7'],'candidate shift tail is not grounded')
     check(len(x.findall('design/sheet'))==80,'80 actual native master sheets')
-    result={'schema':'ato.integrated-native-verification.v1','passed':True,'assertions':checks,'components':len(actual_parts),'fitted_components':len(actual_parts)-len(dnp_refs),'DNP_references':sorted(dnp_refs),'connected_and_NC_pins':len(actual_lookup),'sheets':len(x.findall('design/sheet')),'harness_rows':len(wires),'legacy_retained':166,'legacy_corrected':2,'carrier_wires':92,'firmware_GPIO':46,'firmware_endpoint_connections':gpio_endpoints,'added_physical_tap_headers':4,'master_erc_violations':0,'source_xml_sha256_lf':source_hashes,'master_xml_sha256_lf':sha(master),'boards':board_results,'limits':['Saved native electrical design and pin-group parity; no physical board measurements','Pin-header/loom fanouts require a fabricated harness and continuity testing','ERC does not establish analog accuracy, medical isolation, radio approval or stimulation efficacy']}
+    result={'schema':'scci_rh.integrated-native-verification.v1','passed':True,'assertions':checks,'components':len(actual_parts),'fitted_components':len(actual_parts)-len(dnp_refs),'DNP_references':sorted(dnp_refs),'connected_and_NC_pins':len(actual_lookup),'sheets':len(x.findall('design/sheet')),'harness_rows':len(wires),'legacy_retained':166,'legacy_corrected':2,'carrier_wires':92,'firmware_GPIO':46,'firmware_endpoint_connections':gpio_endpoints,'added_physical_tap_headers':4,'master_erc_violations':0,'source_xml_sha256_lf':source_hashes,'master_xml_sha256_lf':sha(master),'boards':board_results,'limits':['Saved native electrical design and pin-group parity; no physical board measurements','Pin-header/loom fanouts require a fabricated harness and continuity testing','ERC does not establish analog accuracy, medical isolation, radio approval or stimulation efficacy']}
     if write:(HERE/'verification.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(result,indent=2))
 if __name__=='__main__':

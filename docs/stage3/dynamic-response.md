@@ -188,8 +188,8 @@ retained-learning result, real neural recording or real consumer efficacy is est
 `python -X utf8 scripts/stage3_dynamic_response_study.py --check` reruns the actual
 per-frame electrical delivery, both integration grids, measured fits and all heldout
 domains, and compares saved receipts/report at relative tolerance 2e-8, absolute 1e-11.
-Schemas: `ato.stage3.dynamic-response-study.v1`, `ato.stage3.dynamic-response-model.v1`,
-and `ato.stage3.dynamic-response-recordings.v1`. All new files are separate from frozen
+Schemas: `scci_rh.stage3.dynamic-response-study.v1`, `scci_rh.stage3.dynamic-response-model.v1`,
+and `scci_rh.stage3.dynamic-response-recordings.v1`. All new files are separate from frozen
 Stage 3 studies. Model identities bind normalized sources, specification and declared
 recording/noise/schedule identities; numeric observations are compared separately with
 tolerance. ODE right-hand-side evaluation counts are platform-local diagnostics. The

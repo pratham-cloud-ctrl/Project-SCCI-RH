@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/exports/gerbers/scci_rh_reference-F_Silkscreen.gto",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "e1b7b4eb4a43e3c26aa1cd430b59847a72db551a42f789555b8b00f3bbaefa6a",
+  "current_sha256": "7992c5ba74a7222108ad27f0dc580f894d473fdfa2ee5829eddae6187fdfda44",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-legacy-fabrication.json",
+      "sha256_lf": "c5f1b63b457e7cd6354865e00ccb68299ecb0216aa6835f4bbf5a367eabefeb4"
+    }
+  ]
+}

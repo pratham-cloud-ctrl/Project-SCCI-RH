@@ -6,7 +6,7 @@ import sys
 import unittest
 import numpy as np
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]/'src'))
-from ato.stage3.dynamic_response import (ResponsePosition, CompletedDose, FutureResponseFrame,
+from scci_rh.stage3.dynamic_response import (ResponsePosition, CompletedDose, FutureResponseFrame,
     ProspectiveDose, DynamicResponseSpec, fit_response_kernel, predict_future_effect,
     validate_response_recording, observed_view, predict_observed_past_response, response_model_from_record)
 

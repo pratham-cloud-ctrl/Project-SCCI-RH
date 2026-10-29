@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "results/stage3/expert-validation/idealized_inverse_nominal_performance2.json.gz",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "8fcd9ccc55c4bbccdb461e66a91341dc1500313451de84ce4e5a374cf9094f3a",
+  "current_sha256": "e0c959c8e8aea2a7f2a7fbb033cdd2f2d5dcc794c43460f8dbd527c9f572f7e3",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

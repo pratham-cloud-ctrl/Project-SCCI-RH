@@ -45,7 +45,7 @@ biological control direction. Task directions require separately calibrated rout
 
 The reduced interface is motivated by [Krishnan and Kelly, 2012](https://pubmed.ncbi.nlm.nih.gov/23366780/),
 whose original work explains residual voltage with Faradaic impedance. This study
-does **not** adopt their load values as measurements of ATO's contacts. Real
+does **not** adopt their load values as measurements of SCCI_RH's contacts. Real
 electrochemical elements can be nonlinear and geometry-dependent; see the primary
 study by [Vatsyayan and Dayeh, 2022](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.972252/full).
 Neither the linear model nor Stage 2's charge caps establish chemical safety.
@@ -74,7 +74,7 @@ about the **complete analog waveform**, including between samples; non-saturatio
 alone does not establish it. Numerical witnesses cover bounded monotone/rectangular
 phases. An independent analog peak guard and its transient implementation remain
 Stage 4. ADC capacity alone is not independent shutdown. The conservative bound
-increases uncertainty substantially at ATO's low-current reference; calibration
+increases uncertainty substantially at SCCI_RH's low-current reference; calibration
 must propagate it rather than replace it with the favorable command witness.
 
 Shorted terminal voltage can hide interface polarization. The model releases

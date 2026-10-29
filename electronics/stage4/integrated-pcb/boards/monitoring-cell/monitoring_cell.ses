@@ -2,7 +2,7 @@
   (base_design "monitoring_cell")
   (placement
     (resolution um 10)
-    (component "ato_s4:C_0805_2012Metric"
+    (component "scci_rh_s4:C_0805_2012Metric"
       (place C10004 195850 -1010950 front 0)
       (place C10100 279250 -263850 front 0)
       (place C10205 830450 -342050 front 0)
@@ -30,22 +30,22 @@
       (place C10002 193550 -828150 front 90)
       (place C10101 140050 -370350 front 90)
     )
-    (component "ato_s4:PinHeader_1x02_P2.54mm_Vertical"
+    (component "scci_rh_s4:PinHeader_1x02_P2.54mm_Vertical"
       (place J10100 147950 -622350 front 90)
       (place J10200 586050 -622350 front 90)
       (place J19901 1024150 -247950 front 90)
     )
-    (component "ato_s4:SOT-23-6"
+    (component "scci_rh_s4:SOT-23-6"
       (place U10205 837950 -377350 front 0)
       (place U10001 154750 -835650 front 0)
       (place U10105 399850 -377350 front 0)
     )
-    (component "ato_s4:PinHeader_1x03_P2.54mm_Vertical"
+    (component "scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical"
       (place J10201 687450 -622350 front 90)
       (place J10101 249350 -622350 front 90)
       (place J10001 147950 -1087650 front 90)
     )
-    (component "ato_s4:R_0805_2012Metric"
+    (component "scci_rh_s4:R_0805_2012Metric"
       (place R10204 585150 -553550 front 0)
       (place R10003 162250 -870650 front 0)
       (place R10100 159750 -219750 front 0)
@@ -66,22 +66,22 @@
       (place R10101 254250 -227050 front 90)
       (place R10201 692350 -227050 front 90)
     )
-    (component "ato_s4:MSOP-10_3x3mm_P0.5mm"
+    (component "scci_rh_s4:MSOP-10_3x3mm_P0.5mm"
       (place U10103 189350 -377850 front 0)
       (place U10203 627450 -377850 front 0)
       (place U10003 203350 -975150 front 0)
     )
-    (component "ato_s4:PinHeader_1x12_P2.54mm_Vertical"
+    (component "scci_rh_s4:PinHeader_1x12_P2.54mm_Vertical"
       (place J10002 147950 -1163550 front 90)
     )
-    (component "ato_s4:SOT-353_SC-70-5"
+    (component "scci_rh_s4:SOT-353_SC-70-5"
       (place U10101 286750 -234550 front 0)
       (place U10202 804350 -249350 front 0)
       (place U10002 285850 -829050 front 0)
       (place U10201 724850 -234550 front 0)
       (place U10102 366250 -249350 front 0)
     )
-    (component "ato_s4:VSSOP-8_2.3x2mm_P0.5mm"
+    (component "scci_rh_s4:VSSOP-8_2.3x2mm_P0.5mm"
       (place U10206 633250 -523550 front 0)
       (place U10106 195150 -523550 front 0)
     )
@@ -91,16 +91,16 @@
       (place H3 40000 -1410000 front 0)
       (place H4 1160000 -1410000 front 0)
     )
-    (component "ato_s4:PinHeader_1x05_P2.54mm_Vertical"
+    (component "scci_rh_s4:PinHeader_1x05_P2.54mm_Vertical"
       (place J10003 147950 -1239450 front 90)
     )
-    (component "ato_s4:SOIC-8_3.9x4.9mm_P1.27mm"
+    (component "scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm"
       (place U10100 167250 -264750 front 0)
       (place U10200 605350 -264750 front 0)
       (place U10104 297850 -387350 front 0)
       (place U10204 735950 -387350 front 0)
     )
-    (component "ato_s4:PinHeader_1x04_P2.54mm_Vertical"
+    (component "scci_rh_s4:PinHeader_1x04_P2.54mm_Vertical"
       (place J10004 325450 -1239450 front 90)
     )
   )

@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "results/stage3/numerical/pressure-compression-audit.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "8056ad97eb4c100ee13ba88486ee1e0d4008fb8419bc27bf5ffd5ccda2b7918f",
+  "current_sha256": "dcc219660c1d7a2dd54559cce2df68ba9edafa739d42dc90b83d1171ef7a4445",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

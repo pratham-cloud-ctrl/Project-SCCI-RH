@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "provenance/stage5-reference-phases/reference-exploded-step.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "f799f88eb01c07f54d7ba2a09d75d9289ab05ef84c990f3a85d79ca09c9bc99d",
+  "current_sha256": "abab0222d7498acebc790e421a0faf2e87d44470e3e480840368e1d42561e69e",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

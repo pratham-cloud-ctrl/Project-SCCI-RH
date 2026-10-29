@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "results/stage3/numerical/motor-convergence-summary.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "5a06bd7525422cd6ce2baef7db9875aea33d3681c3fc44e0a51802da290b347a",
+  "current_sha256": "d396b62fa208f4559f12f5b71575b50c6eb467774ac15bb33e1a655f28b2b9eb",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

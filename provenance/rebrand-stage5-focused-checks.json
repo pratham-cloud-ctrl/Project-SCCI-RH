@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-29",
+  "passed": true,
+  "checks": 7219,
+  "scope": "Exact existing reference-phase and harness audits, called without historical baseline routine to isolate finite metadata drift; this is not the aggregate Stage5 pass. Aggregate baseline attestation remains pending.",
+  "verifier": "scripts/verify_stage5_mechanics.py",
+  "harness": {
+    "contract_canonical_sha256": "4f184ea9308c423583722ed01383d3f9aa7f193b30b5ae3065f8581619f678b3",
+    "native_receipt_canonical_sha256": "a87c123ec4472d97c6a0d02cc6c5725621ec8aeaf392066e36b580fdaf7b6ff7",
+    "inspector_source": "provenance/stage5-inspector-sources/09027f6659e8b585d2433e97415ddd64e32a4c770cccfb3c2f6853e32685307e.py.txt",
+    "inspector_sha256_lf": "a30a92b1c08706eb7cb5cf36222a65549e442f1683e71f7bd6e3838b1ffdf895",
+    "sockets": 83,
+    "internal_mates": 78,
+    "external_mates": 5,
+    "physical_rear_parts": 7,
+    "terminal_fanouts": 525,
+    "logical_rows": 258,
+    "branch_nodes": 47,
+    "body_ports": 36,
+    "native_sha256": "141e4301f41cfa303b594d66c324e2f881d0deaeacc05586cf95e11be8b29e48",
+    "STEP_sha256": "74ee88a5f80000ab4aa9f1767f909547ea43bbc93c4e991729bf8fc887a185c2",
+    "routing_native_sha256": "06ce0f35374abe431a95abc076d43b905026c9de607aadc6523f0da9d2ba6eae",
+    "packed_loom_qualified": false
+  }
+}

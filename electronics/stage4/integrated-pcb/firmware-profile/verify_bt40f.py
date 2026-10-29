@@ -119,7 +119,7 @@ def audit():
         if not value:
             raise AssertionError(message)
     receipt = json.loads((HERE / "build-receipt.json").read_text())
-    check(receipt["status"] == "ato_application_cross_compiled_and_linked", "successful saved build")
+    check(receipt["status"] == "scci_rh_application_cross_compiled_and_linked", "successful saved build")
     check(receipt["hardware_carrier"] == "Fanstel BT40F", "carrier identity")
     check(receipt["internal_HFXO_capacitance_pF"] == 11, "declared HFXO capacitance")
     check(receipt["board"] == "nrf5340dk/nrf5340/cpuapp", "application-core target")
@@ -137,7 +137,7 @@ def audit():
     expected_sources.update((HERE / name).relative_to(ROOT).as_posix()
                             for name in ("build_bt40f.py", "bt40f.conf"))
     check(set(bindings) == expected_sources, "complete application/core/variant source bindings")
-    expected_artifacts = {"ato.elf", "ato.hex", "ato.bin", "ato.map", "build.config",
+    expected_artifacts = {"scci_rh.elf", "scci_rh.hex", "scci_rh.bin", "scci_rh.map", "build.config",
                           "zephyr.dts", "compile-records.json", "symbols.txt", "sections.txt"}
     check({p.name for p in ART.iterdir() if p.is_file()} == expected_artifacts, "exact exported artifact set")
     check({Path(p).name for p in receipt["artifact_sha256"]} == expected_artifacts, "complete artifact bindings")
@@ -152,28 +152,28 @@ def audit():
         check(expected in (sha(ROOT / relative), sha(ROOT / relative, True)),
               "preserved original artifact: " + relative)
     helper_path = ROOT / "scripts/verify_nrf5340.py"
-    spec = importlib.util.spec_from_file_location("ato_original_elf_auditor", helper_path)
+    spec = importlib.util.spec_from_file_location("scci_rh_original_elf_auditor", helper_path)
     helper = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(helper)
-    image = helper.elf_image(ART / "ato.elf")
-    original = helper.elf_image(ROOT / "firmware/nrf5340/artifacts/ato.elf")
-    current_ato = {k for k in image["functions"] if k.startswith("ato_") or k == "main"}
-    previous_ato = {k for k in original["functions"] if k.startswith("ato_") or k == "main"}
-    check(current_ato == previous_ato and len(current_ato) >= 11, "all previously linked ATO functions retained")
-    loads, segments = elf_load_bytes(ART / "ato.elf")
-    hexbytes, entry, records = intel_hex((ART / "ato.hex").read_text())
+    image = helper.elf_image(ART / "scci_rh.elf")
+    original = helper.elf_image(ROOT / "firmware/nrf5340/artifacts/scci_rh.elf")
+    current_scci_rh = {k for k in image["functions"] if k.startswith("scci_rh_") or k == "main"}
+    previous_scci_rh = {k for k in original["functions"] if k.startswith("scci_rh_") or k == "main"}
+    check(current_scci_rh == previous_scci_rh and len(current_scci_rh) >= 11, "all previously linked SCCI_RH functions retained")
+    loads, segments = elf_load_bytes(ART / "scci_rh.elf")
+    hexbytes, entry, records = intel_hex((ART / "scci_rh.hex").read_text())
     check(loads == hexbytes, "ELF and Intel HEX exact physical load-byte parity")
     check(entry == image["entry"], "ELF and Intel HEX entry parity")
     first, last = min(loads), max(loads) + 1
     check(first == 0, "flash begins at zero")
-    binary = (ART / "ato.bin").read_bytes()
+    binary = (ART / "scci_rh.bin").read_bytes()
     check(binary == bytes(loads.get(address, 255) for address in range(first, last)),
           "BIN exact load image with erased-flash fill")
-    check(last == image["flash_LOAD_extent_bytes"] == 53648, "independent flash extent agreement")
+    check(last == image["flash_LOAD_extent_bytes"] == 54072, "independent rebranded-image flash extent agreement")
     initial_sp, reset = struct.unpack_from("<II", binary)
     check(0x20000000 < initial_sp <= 0x20080000 and initial_sp % 8 == 0, "aligned initial stack in application RAM")
     check(reset == image["entry"] and reset & 1, "Thumb reset vector equals ELF entry")
-    map_text = (ART / "ato.map").read_text()
+    map_text = (ART / "scci_rh.map").read_text()
     regions = {}
     for name in ("FLASH", "RAM"):
         match = re.search(r"^" + name + r"\s+(0x[0-9a-fA-F]+)\s+(0x[0-9a-fA-F]+)", map_text, re.MULTILINE)
@@ -198,12 +198,12 @@ def audit():
           "exact carrier configuration fragment")
     records_compiled = json.loads((ART / "compile-records.json").read_text())
     compiled = {Path(r["file"].replace("\\", "/")).name: r["command"] for r in records_compiled}
-    check(set(compiled) == {"main.c", "ato_backend.c", "ato_runtime.c", "system_nrf5340_application.c"},
+    check(set(compiled) == {"main.c", "scci_rh_backend.c", "scci_rh_runtime.c", "system_nrf5340_application.c"},
           "actual application/core/startup compile records")
     for name, command in compiled.items():
         check("-mcpu=cortex-m33" in command and "-mthumb" in command, "M33/Thumb compile: " + name)
     # Finite rejection check ensures checksum corruption cannot pass the HEX parser.
-    bad = (ART / "ato.hex").read_text().splitlines()
+    bad = (ART / "scci_rh.hex").read_text().splitlines()
     bad[0] = bad[0][:-2] + ("00" if bad[0][-2:] != "00" else "01")
     try:
         intel_hex("\n".join(bad))
@@ -215,15 +215,15 @@ def audit():
     review_paths = [HERE / "verify_bt40f.py", HERE / "README.md", HERE / "build-receipt.json",
                     ROOT / "provenance/stage4-nrf5340-build.json", helper_path]
     bindings.update({p.relative_to(ROOT).as_posix(): sha(p, True) for p in review_paths})
-    return dict(schema="ato.stage4.bt40f-independent-verification.v1", date="2026-10-15",
+    return dict(schema="scci_rh.stage4.bt40f-independent-verification.v1", date="2026-10-28", original_design_date="2026-10-15",
                 passed=True, checks=checks, hardware_carrier="Fanstel BT40F", internal_HFXO_capacitance_pF=11,
                 evidence="read-only source/artifact bindings, independent ELF and HEX parsers, BIN parity; no target execution",
-                elf_sha256=sha(ART / "ato.elf"), entry_hex=hex(image["entry"]),
+                elf_sha256=sha(ART / "scci_rh.elf"), entry_hex=hex(image["entry"]),
                 flash_LOAD_extent_bytes=last, flash_LOAD_data_bytes=len(loads), flash_gap_fill_bytes=len(binary)-len(loads),
                 flash_capacity_bytes=regions["FLASH"][1], RAM_extent_bytes=image["RAM_extent_bytes"],
                 RAM_allocated_section_bytes=image["RAM_allocated_section_bytes"], RAM_linker_capacity_bytes=regions["RAM"][1],
                 RAM_physical_capacity_bytes=524288, RAM_20percent_headroom_pass=True,
-                load_segments=segments, intel_hex_records=records, linked_ato_functions=sorted(current_ato),
+                load_segments=segments, intel_hex_records=records, linked_scci_rh_functions=sorted(current_scci_rh),
                 configuration_delta={k: delta[k] for k in sorted(delta)}, original_package_bindings_preserved=True,
                 flashed_or_executed=False, hardware_timing_verified=False, source_sha256_lf=dict(sorted(bindings.items())))
 

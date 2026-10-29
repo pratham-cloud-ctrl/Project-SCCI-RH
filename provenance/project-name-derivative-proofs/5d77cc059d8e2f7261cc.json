@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "cad/stage2/inspection-checks.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "00f592dbdba8cbaf6536350e627c5b5c57b10bd5b9bc0277d43f99e7ad58c5ed",
+  "current_sha256": "45c14db585c3b6a26db9a66e398c6589df5ef4a06048e6203a1e01c357c5980c",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

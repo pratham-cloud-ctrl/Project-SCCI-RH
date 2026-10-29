@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/monitoring-transport/mcp-inspection.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "8c7cbfed4c12835c857b192d17ba23f38cae4eed1986a3c972841ce50feb3304",
+  "current_sha256": "a3c33763d99df91e2f095dc6035038d2108bc07726142563a0574c430dd56b08",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

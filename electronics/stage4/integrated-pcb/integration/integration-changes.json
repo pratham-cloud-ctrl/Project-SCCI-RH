@@ -1,5 +1,5 @@
 {
-  "schema": "ato.integration-changes.v1",
+  "schema": "scci_rh.integration-changes.v1",
   "excluded_legacy_wires": [
     {
       "from_package": "current-driver",
@@ -32,7 +32,7 @@
       "source_package": "monitoring-cell",
       "source_ref": "J9901",
       "reference": "J19901",
-      "lib_id": "ATO_INTEGRATION:J9901",
+      "lib_id": "SCCI_RH_INTEGRATION:J9901",
       "value": "HOST TAP HARNESS",
       "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
       "pins": [
@@ -62,7 +62,7 @@
       "source_package": "recording-front-end",
       "source_ref": "J9901",
       "reference": "J39901",
-      "lib_id": "ATO_INTEGRATION:J9901",
+      "lib_id": "SCCI_RH_INTEGRATION:J9901",
       "value": "AFE TAP HARNESS",
       "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical",
       "pins": [
@@ -162,7 +162,7 @@
       "source_package": "recording-front-end",
       "source_ref": "J9902",
       "reference": "J39902",
-      "lib_id": "ATO_INTEGRATION:J9902",
+      "lib_id": "SCCI_RH_INTEGRATION:J9902",
       "value": "AFE TAP HARNESS",
       "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical",
       "pins": [
@@ -241,7 +241,7 @@
       "source_package": "supervision",
       "source_ref": "J9901",
       "reference": "J59901",
-      "lib_id": "ATO_INTEGRATION:J9901",
+      "lib_id": "SCCI_RH_INTEGRATION:J9901",
       "value": "HOST TAP HARNESS",
       "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
       "pins": [
@@ -293,7 +293,7 @@
       -1.4,
       1.4
     ],
-    "new_snapshot_sha256_lf": "f35d645d1bc619cf1a6dc5e5e59d61bb416709152be24716bbd59cb9083e3797",
+    "new_snapshot_sha256_lf": "24264834cc53d4c7a862af5669952ff37ec4db0969488fe7e33deb1e194b4500",
     "source": "https://www.ti.com/lit/ds/symlink/tps3431.pdf",
     "drawing": "DRB0008A 4218875/A 01/2018, PDF page29",
     "reduced_clearance_exception": false,

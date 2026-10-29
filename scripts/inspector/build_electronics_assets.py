@@ -23,7 +23,7 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "inspector"
 NATIVE = ROOT / "electronics/stage4/integrated-pcb"
-MASTER = NATIVE / "integration/master/ATO_integrated.kicad_sch"
+MASTER = NATIVE / "integration/master/SCCI_RH_integrated.kicad_sch"
 VENDOR = OUT / "vendor/ibom"
 PIN = "d1eb5b79a52a2ddc1ce270b63920346463c19b05"
 BOARD_INFO = [
@@ -105,7 +105,7 @@ def sheet_index():
         title_block = child(node, "title_block", [])
         title = child(title_block, "title", ["title", names[-1] if names else "Complete system"])[1]
         ident = f"sheet-{int(page):02d}"
-        filename = "ATO_integrated" + ("-" + "-".join(names) if names else "") + ".svg"
+        filename = "SCCI_RH_integrated" + ("-" + "-".join(names) if names else "") + ".svg"
         svg = OUT / "assets/schematics" / filename
         normalise_svg(svg)
         rendered = ET.parse(svg).getroot()
@@ -128,7 +128,7 @@ def sheet_index():
             props = {x[1]: x[2] for x in children(sheet, "property")}
             name = props["Sheetname"]
             instance = child(sheet, "instances")
-            project = next(x for x in children(instance, "project") if x[1] == "ATO_integrated")
+            project = next(x for x in children(instance, "project") if x[1] == "SCCI_RH_integrated")
             path = child(project, "path")
             childpage = child(path, "page")[1]
             entry["children"].append(f"sheet-{int(childpage):02d}")
@@ -159,7 +159,7 @@ def export_native(cli):
 def make_boards(sheets):
     import pcbnew
     script = VENDOR / "InteractiveHtmlBom/generate_interactive_bom.py"
-    # Upstream version.py runs git describe. Do not accidentally describe ATO's
+    # Upstream version.py runs git describe. Do not accidentally describe SCCI_RH's
     # ancestor repository instead of the pinned vendored project.
     env = dict(os.environ, INTERACTIVE_HTML_BOM_NO_DISPLAY="1", PYTHONDONTWRITEBYTECODE="1",
                GIT_CEILING_DIRECTORIES=str(VENDOR.parent))
@@ -230,9 +230,9 @@ def make_package():
             if path.is_file() and (path.suffix.lower() in allowed or path.name in {"fp-lib-table", "sym-lib-table"}):
                 paths.append(path)
     paths = sorted(set(paths))
-    target = OUT / "downloads/KiCad-ATO-native-projects.zip"
+    target = OUT / "downloads/KiCad-SCCI_RH-native-projects.zip"
     target.parent.mkdir(parents=True, exist_ok=True)
-    readme = """PROJECT ATO / COMPLETE CURRENT KICAD SOURCE\n\nInstall KiCad 10 with its standard footprint and 3D-model libraries.\nExtract the entire archive, preserving its folders.\nOpen electronics/stage4/integrated-pcb/integration/master/ATO_integrated.kicad_pro for all 80 schematic sheets.\nOpen electronics/stage4/integrated-pcb/boards/<board>/<board>.kicad_pro for a PCB.\n\nThe native files are byte-identical copies of the reviewed source. All local symbol/footprint libraries and custom package models are included. Standard models reference the normal ${KICAD10_3DMODEL_DIR} installation; install the standard KiCad 10 3D-model package for those. Native KiCad files preserve pads/nets/layers; STEP exports preserve geometry only.\n\nThese are digital artificial-signal/load reference designs. Fabrication, analog performance, implantation and clinical use are not qualified by these files.\n\nProject: https://github.com/pratham-cloud-ctrl/Project-ATO\nEngineering baseline: v2.0.1\n"""
+    readme = """PROJECT SCCI RH / COMPLETE CURRENT KICAD SOURCE\n\nInstall KiCad 10 with its standard footprint and 3D-model libraries.\nExtract the entire archive, preserving its folders.\nOpen electronics/stage4/integrated-pcb/integration/master/SCCI_RH_integrated.kicad_pro for all 80 schematic sheets.\nOpen electronics/stage4/integrated-pcb/boards/<board>/<board>.kicad_pro for a PCB.\n\nThe native files are byte-identical copies of the reviewed source. All local symbol/footprint libraries and custom package models are included. Standard models reference the normal ${KICAD10_3DMODEL_DIR} installation; install the standard KiCad 10 3D-model package for those. Native KiCad files preserve pads/nets/layers; STEP exports preserve geometry only.\n\nThese are digital artificial-signal/load reference designs. Fabrication, analog performance, implantation and clinical use are not qualified by these files.\n\nProject: https://github.com/pratham-cloud-ctrl/Project-SCCI-RH\nEngineering baseline: v2.1.0\n"""
     source_manifest = {relative(p): sha(p) for p in paths}
     with zipfile.ZipFile(target, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
         for path in paths:
@@ -311,7 +311,7 @@ def main():
     package = make_package()
     inputs = sorted({ROOT / x["source"] for x in sheets} | {ROOT / b["source"] for b in boards})
     outputs = sorted(list((OUT / "assets/schematics").glob("*.svg")) + list((OUT / "assets/copper").rglob("*.svg")) + list((OUT / "pcb").glob("*.html")) + [OUT / package["path"]])
-    manifest = {"schema": "ato-browser-electronics-v1", "engineering_baseline": "v2.0.1", "generated_date": "2026-10-21",
+    manifest = {"schema": "scci_rh-browser-electronics-v1", "engineering_baseline": "v2.1.0", "generated_date": "2026-10-28",
                 "renderer": {"kicad": run([args.cli, "version"]).strip(), "ibom_upstream": "https://github.com/openscopeproject/InteractiveHtmlBom", "ibom_commit": PIN, "ibom_license": "MIT"},
                 "counts": {"electrical_positions": 1298, "fitted_components": 1296, "dnp": 2, "mechanical_footprints": 32, "schematic_sheets": 80, "copper_views": 32},
                 "boards": boards, "sheets": sheets, "download": package,

@@ -1,9 +1,9 @@
 @echo off
 setlocal
-if not defined ATO_KICAD_BIN set "ATO_KICAD_BIN=E:\project workspace assests\EDA\KiCAD\bin"
-if not exist "%ATO_KICAD_BIN%\pcbnew.exe" (
-  echo Set ATO_KICAD_BIN to your KiCad 10 bin directory.
+if not defined SCCI_RH_KICAD_BIN set "SCCI_RH_KICAD_BIN=E:\project workspace assests\EDA\KiCAD\bin"
+if not exist "%SCCI_RH_KICAD_BIN%\pcbnew.exe" (
+  echo Set SCCI_RH_KICAD_BIN to your KiCad 10 bin directory.
   pause
   exit /b 1
 )
-start "" "%ATO_KICAD_BIN%\pcbnew.exe" "%~dp0boards\power\power.kicad_pcb"
+start "" "%SCCI_RH_KICAD_BIN%\pcbnew.exe" "%~dp0boards\power\power.kicad_pcb"

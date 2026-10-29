@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-29",
+  "passed": true,
+  "mechanical_checks": 10843,
+  "historical_baseline_files": 2153,
+  "delivery_artifacts": 261,
+  "files": [
+    {
+      "path": "provenance/stage5-mechanical-verification.json",
+      "current_sha256": "9db455eea7264082b8f86cf161866266e18a16dbbb6118d1559bf29ca7f60c77",
+      "method": "Full original baseline equivalence and all unchanged native mechanical/source/electrical/harness assertions passed.",
+      "verifier": "scripts/verify_stage5_mechanics.py",
+      "verifier_sha256": "bf95a3821c5a8870abc083fa5b1888ecb84c82c97a4cc55c0c0aeaa943e1ea1b",
+      "arguments": [
+        "scripts/verify_stage5_mechanics.py",
+        "--write-report"
+      ],
+      "returncode": 0
+    },
+    {
+      "path": "provenance/stage5-delivery-review.json",
+      "current_sha256": "97a343d0be430e39134c6d12c4934180adadc90c26a902d62037f5df213a9c83",
+      "method": "Actual delivery structure, PDF6pages36ports,4render dimensions, links and exact artifact source bindings checked. Current4raster fullviews and6pagecontactsheet also actually inspected; earlier nativeappview remains historical review.",
+      "verifier": "scripts/review_stage5_delivery.py",
+      "verifier_sha256": "c0f1190db62a43aa9059ab259bc074c306e361a88122e477fa995c6d95c06d6c",
+      "arguments": [
+        "scripts/review_stage5_delivery.py"
+      ],
+      "returncode": 0
+    }
+  ],
+  "physical_qualification": false
+}

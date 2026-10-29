@@ -5,7 +5,7 @@ one measured-data calibration prior. The independently predeclared confirmation
 passed its finite forecast arithmetic: **11.353736 mm maximum allocation within
 the unchanged 15 mm budget**, across all 16 fresh sensor-noise pairs and both
 body-integration grids. This package preserves the original frozen evidence;
-it does **not** replace Project ATO's authoritative predictor or isolated pilot.
+it does **not** replace Project SCCI RH's authoritative predictor or isolated pilot.
 
 | Evidence group | Complete captures meeting every horizon budget | Largest allocation |
 | --- | ---: | ---: |
@@ -71,7 +71,7 @@ python -m pip install -r experiments/stage3/observed-state-observer/requirements
 python experiments/stage3/observed-state-observer/verify_study.py
 ```
 
-The default verifies every package file and all 21 bound `src/ato` source hashes,
+The default verifies every package file and all 21 bound `src/scci_rh` source hashes,
 then constructs a disposable study root with the original `tmp/` filenames. It
 copies only the verified source text, runs the **exact frozen** independent
 equation/causality/noise check and both saved-data auditors, and compares their

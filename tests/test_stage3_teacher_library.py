@@ -8,8 +8,8 @@ import numpy as np
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'scripts'))
 from stage3_teacher_library_study import load_frozen_captures, consumer_witness
-from ato.stage3.motor import MotorConfig
-from ato.stage3.teacher_library import build_teacher_library, observed_capture_view
+from scci_rh.stage3.motor import MotorConfig
+from scci_rh.stage3.teacher_library import build_teacher_library, observed_capture_view
 
 
 class ForbiddenPrivateMapping(dict):

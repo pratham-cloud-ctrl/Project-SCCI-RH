@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "scripts/verify_nrf5340.py",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "d9062570646e31f74d361edb3d048729c09f40ce41123d1020490fb6c8da77c0",
+  "current_sha256": "8ae7aab3b754597114735df9e671de0e4f1874f5fe17c8427dbb074972fe4003",
+  "method": "reviewed_branding_verifier_adaptation",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "Existing independent ELF/source/GPIO/peripheral assertions retained; audit date updated and report regenerated from recompiled image.",
+  "independent_evidence": []
+}

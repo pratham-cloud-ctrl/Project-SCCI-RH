@@ -1,8 +1,8 @@
 {
-  "schema": "ato.stage4.power-budget-audit.v1",
+  "schema": "scci_rh.stage4.power-budget-audit.v1",
   "status": "passed",
   "independent_assertions": 3300,
-  "results_sha256_lf": "e104c792165eb3be423040a150ec40be7ada5268c43dff2df00a6bbe383e1f5c",
+  "results_sha256_lf": "441aa17d5a050180eefce0e1353abf4845451b0d9499964cb4c0d5800cb2f87b",
   "unearned_claims_preserved": [
     "untrimmedAFEstartup",
     "450kADCcapacity",

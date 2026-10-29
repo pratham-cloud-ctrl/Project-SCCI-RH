@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "experiments/stage3/observed-state-observer/frozen/observer-saved-data-audit-12oct.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "64ec92e89653dbe58c34525689ea196d4a5c30e9a3475801f9469518c2e4074c",
+  "current_sha256": "d51fc54768652c115752e7f1730f41ac7918f452bfc7e5556e39623d462e073c",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

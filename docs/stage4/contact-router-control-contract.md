@@ -8,7 +8,7 @@ to one of 16 shared stimulation contacts. Each source has its own fixed dedicate
 driver's previously external `ROUTE_LOCKED` requirement. It does not turn a command signal into
 measured confirmation of analogue switch position, terminal isolation or delivered phase charge.
 
-The native router and the finite study implement a bounded part of Project ATO's proposed
+The native router and the finite study implement a bounded part of Project SCCI RH's proposed
 record–interpret–stimulate–observe loop. They do not require the conditional motor-learning or
 selected physiological-response premises to be demonstrated before the digital concept can be designed.
 

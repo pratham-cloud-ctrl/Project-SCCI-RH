@@ -5,7 +5,7 @@
 This package connects independent request-duration limits and a heartbeat watchdog
 to rail/current/internal-terminal observations, recording-pin voltage windows,
 the existing driver and monitor permissions, and eighteen terminal guards.
-It advances Stage 4 of ATO's record–interpret–stimulate–observe architecture.
+It advances Stage 4 of SCCI_RH's record–interpret–stimulate–observe architecture.
 The proposed expert-informed motor learning and function-specific physiological
 responses remain the conditional Stage 3 research mechanisms. None of the finite
 checks below reports an implanted experiment or biological efficacy.

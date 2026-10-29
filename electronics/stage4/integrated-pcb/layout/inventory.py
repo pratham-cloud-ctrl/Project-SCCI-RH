@@ -28,7 +28,7 @@ def inventory():
             items[key]['models'].append({'reference':model, 'resolved':resolved, 'exists':Path(resolved).exists()})
     for c in system['components']:
         items[c['source_package']+'/'+c['footprint']]['references'].append(c['reference'])
-    result = {'schema':'ato.footprint-inventory.v1', 'scope':'Preserved source footprint dependency inventory, including missing original model references. Final populated board model assignments are audited separately in each board routing and export receipt.', 'components':len(system['components']), 'distinct_patterns':len(items), 'items':items}
+    result = {'schema':'scci_rh.footprint-inventory.v1', 'scope':'Preserved source footprint dependency inventory, including missing original model references. Final populated board model assignments are audited separately in each board routing and export receipt.', 'components':len(system['components']), 'distinct_patterns':len(items), 'items':items}
     (PKG/'layout/footprint-inventory.json').write_text(json.dumps(result, indent=2)+'\n', encoding='utf-8')
     print(json.dumps({'components':result['components'],'patterns':len(items),'missing_models':[(k,len(v['references'])) for k,v in items.items() if not v['models']],'unresolved_models':[(k,m['reference']) for k,v in items.items() for m in v['models'] if not m['exists']]},indent=2))
     return result

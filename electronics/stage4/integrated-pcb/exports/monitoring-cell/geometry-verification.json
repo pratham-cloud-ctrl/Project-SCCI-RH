@@ -1,5 +1,5 @@
 {
-  "schema": "ato.populated-step-geometry.v1",
+  "schema": "scci_rh.populated-step-geometry.v1",
   "board": "monitoring-cell",
   "STEP_sha256": "6b619d12130f320e515c1fea625d8bef4ea0f332f04700ac538a6309705c9c49",
   "FreeCAD_version": [

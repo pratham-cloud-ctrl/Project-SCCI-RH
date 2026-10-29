@@ -14,7 +14,7 @@ def main():
         run(['sch','export','netlist','--format','kicadxml','--output',schematic.with_suffix('.xml'),schematic])
         run(['sch','erc','--format','json','--severity-all','--output',schematic.parent/'erc.json',schematic])
         print('Exported '+pkg,flush=True)
-    master=HERE/'master/ATO_integrated.kicad_sch'
+    master=HERE/'master/SCCI_RH_integrated.kicad_sch'
     run(['sch','export','netlist','--format','kicadxml','--output',master.with_suffix('.xml'),master])
     run(['sch','erc','--format','json','--severity-all','--output',master.parent/'erc.json',master])
     run(['sch','export','pdf','--output',master.with_suffix('.pdf'),master])

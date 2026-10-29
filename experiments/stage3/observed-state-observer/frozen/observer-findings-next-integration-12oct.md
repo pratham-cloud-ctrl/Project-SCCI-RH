@@ -132,10 +132,10 @@ remain separate obligations. This development result does not close them.
 - `observer-saved-data-audit-12oct.py` and `.json`
 
 Protocol SHA256: `d4f541a7d0d2b38f5e438ce30df148d45b753699d3c1251f79fe89b6f4ad84b2`.
-Implementation: `cbb2d6aa5a466261e372d1071cccf908983c8dbe8eeb8001b1d20428ed2362af`.
-Method receipt: `73a26e74e91f738fbc2f90e30655eaa0987a1e0d1ab905feb3b7aea52622e07a`.
-Development summary: `02c7bcca076dd6b2739f9e31de715f3a961f69373d579f66d9d76abd36dee2ae`.
-Development raw: `cf3fec80ba5748ef714d73120a2f1acb742f318db0196789d85adad4e6bfcb05`.
+Implementation: `203a5bdd90ae20a67f1b6475b47c31a73880d96a5c4434957b51f28a2f767c44`.
+Method receipt: `1157a4490d4455faba6773fe447560b22c218db852efe65fc95c180f373dce7f`.
+Development summary: `f76da8ef3641d81cf514164e1f3f1dd475be4a560c2b96be9d54b2c63b4246bf`.
+Development raw: `5597eed3e622f2c7a87fb79ad229e1ae5cd6b0715eb72ce4907558db0a987357`.
 
 All work remains under tmp. Authoritative sources/results/receipts, the failed
 current pilot outcome, and Git state were not changed by this investigation.

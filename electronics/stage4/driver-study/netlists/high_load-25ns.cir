@@ -1,4 +1,4 @@
-ATO S4 restricted closed-loop current-driver surrogate
+SCCI_RH S4 restricted closed-loop current-driver surrogate
 Vhv hv 0 24
 Vset set 0 0.29998779296875
 .model BR SW(Ron=10 Roff=1e12 Vt=1.65 Vh=0)

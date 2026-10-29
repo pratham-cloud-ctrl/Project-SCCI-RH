@@ -1,7 +1,7 @@
 {
   "scope": "Read-only exact BRep solid-pair minimum; no receipt reconstruction or source mutation",
-  "native_sha256": "764a4e7a9ec8212fefb1c9c0deb7cab2ee76a5c9e72b2895f9199c98d0e5ae9a",
-  "contract_canonical_sha256": "6e02bb9182e470fa4b10212b1698e890d7a93990480bccb4ce6f098eeed32409",
+  "native_sha256": "eb720889c30de3c15015d1a4c765cc5791eeb8b4df733da222730497acd88dd3",
+  "contract_canonical_sha256": "03c3e48d2394b907d2337928ad9f8dda9af95786c0afabeeae7f5d4013e517c2",
   "rows": [
     {
       "a": "PCB_contact_router",

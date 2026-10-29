@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/recording-study/input-network.svg",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "985b0b8700595404e6e9781373106530834ecab5df8e29973af516fc4f3241cb",
+  "current_sha256": "b827799b72606ed9b804403d4ae8d956cc41c8850791d3a19a1891bb08785ced",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-electrical-study-visuals.json",
+      "sha256_lf": "d5e2d523efd10df7f48e303628fa8a666e46feeecd1c34a2b6779971d01ab9da"
+    }
+  ]
+}

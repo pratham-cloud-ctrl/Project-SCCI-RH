@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage3.pressure-convergence-summary.v1",
+  "schema": "scci_rh.stage3.pressure-convergence-summary.v1",
   "scope": "smoke",
   "claim_boundary": "Numerical accuracy of declared artificial pressure plant and averaged electrical adapter; no physiological efficacy, neural pressure decoder or continuous circuit integration is established.",
   "frozen_gates": {
@@ -91,9 +91,9 @@
     ]
   },
   "source_identity": {
-    "src/ato/stage3/pressure.py": "c4d4e980b7d3e45d778bb44beedfded34f9d53fdf3a81bcadd2eb342e681e0c0",
-    "src/ato/stage3/electrical.py": "8a7a20702be3f3f5893e1f859f675347fa35db01dadb20ab7e64635ca8913ff0",
-    "scripts/stage3_pressure_convergence.py": "9c93fbceec19c7dbb4df942eb89446d9827a3e350357ba1f7cc305a39dbec3bc"
+    "src/scci_rh/stage3/pressure.py": "2081be25d42cd05e7c346d6555003b7c9399e8e7e391f4f159cf72c0bb655316",
+    "src/scci_rh/stage3/electrical.py": "8a7a20702be3f3f5893e1f859f675347fa35db01dadb20ab7e64635ca8913ff0",
+    "scripts/stage3_pressure_convergence.py": "7308444a87b67583f0d429a19acdde9fb60db0c8f1da454854dc68b33be1f15e"
   },
   "reproduction": {
     "rtol": 2e-08,

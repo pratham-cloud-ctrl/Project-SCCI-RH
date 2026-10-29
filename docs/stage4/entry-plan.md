@@ -1,9 +1,9 @@
 # Stage 4 entry: native electronics with measured delivery
 
-**13 October 2026 · ATO-S4-ENTRY-01 · detailed design in progress.**
+**13 October 2026 · SCCI_RH-S4-ENTRY-01 · detailed design in progress.**
 
 **Latest, 14 October firmware checkpoint:** the
-[actual nRF5340 application](nrf5340-firmware-design.md) now builds from ATO
+[actual nRF5340 application](nrf5340-firmware-design.md) now builds from SCCI_RH
 production sources, with explicit peripherals, sample/endpoint records, route
 readback, companion admission and timer/DPPI cutoff. Its lower-rate implemented
 profile supersedes earlier proposed target-rate shorthand; known gaps and
@@ -32,7 +32,7 @@ electrical investigation, not an implant-ready implementation.
 
 ## First useful native circuit
 
-Build **ATO-S4-MON-01**, a two-source current/phase-charge monitoring cell, under
+Build **SCCI_RH-S4-MON-01**, a two-source current/phase-charge monitoring cell, under
 [the new electronics directory](../../electronics/stage4/monitoring-cell/README.md).
 Each source gets a separate output-path Kelvin shunt, bidirectional sense
 amplifier, continuously integrating charge channel, endpoint ADC and latched
@@ -270,7 +270,7 @@ stable supported installation when target firmware starts.
 
 The [target-tool setup](firmware-toolchain.md) records the signed Nordic
 installer, matching SDK/compiler and successfully linked unmodified nRF5340
-application-core example. The later [actual ATO firmware](nrf5340-firmware-design.md)
+application-core example. The later [actual SCCI_RH firmware](nrf5340-firmware-design.md)
 is a separately built target implementation with its own evidence and limits.
 
 Work in order: **native monitor slice → independent transient/error budget →

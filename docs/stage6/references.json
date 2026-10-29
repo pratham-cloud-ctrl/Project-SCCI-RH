@@ -1,5 +1,5 @@
 {
-  "schema_version": "ato.stage6.references.v1",
+  "schema_version": "scci_rh.stage6.references.v1",
   "verified_on": "2026-10-16",
   "scope": "Focused narrative primary-source audit, not a systematic review or meta-analysis; no claim of exhaustive coverage through verification date.",
   "original_paper": {
@@ -49,7 +49,7 @@
       "access_and_signal": "Intradural circumferential surface recording; external movement/stimulus labels.",
       "supported_claim": "Short-term recordings contained movement- and stimulus-related information; motor decoding used pooled bidirectional recurrent analysis.",
       "not_established": "Not a prospective chronic human decoder, expert-skill code, or demonstration of retained transfer.",
-      "ato_inference": "Useful causal features and chronic stability remain explicit ATO premises.",
+      "scci_rh_inference": "Useful causal features and chronic stability remain explicit SCCI_RH premises.",
       "verification_depth": "Full publisher text and author XML; Results Figs.1, 4, 5 and Methods.",
       "source_quality_note": "Figure 5 describes 21.29% as uniform chance across 8 classes; uniform chance is 12.5%. Its largest listed class is 215/1010=21.29%. Seek clarification; do not adopt that baseline."
     },
@@ -87,7 +87,7 @@
       "access_and_signal": "Penetrating ventral-horn electrodes; L1-L2 recording cohort and L3 decoding experiment.",
       "supported_claim": "Hyperflexible arrays enabled longitudinal intraspinal acquisition and wheel-running movement reconstruction.",
       "not_established": "Does not validate nonpenetrating human electrodes, indefinite stable channels, or fine expert finger information.",
-      "ato_inference": "Recording access and durability cannot be transferred across electrode types without an assumption.",
+      "scci_rh_inference": "Recording access and durability cannot be transferred across electrode types without an assumption.",
       "verification_depth": "Full publisher text and author XML; sections 2.2, 2.4.",
       "source_quality_note": null
     },
@@ -127,7 +127,7 @@
       "access_and_signal": "Circumferential rat epidural recording/stimulation; cadaver method includes durotomy and intradural passage.",
       "supported_claim": "Recorded spinal events triggered stimulation across acute complete transection; experimental cortical stimulation generated test input.",
       "not_established": "Passive six-week implants were not chronic active interfaces; cadaver placement was not functional human testing.",
-      "ato_inference": "Provides a spinal-recording-to-stimulation precedent; voluntary chronic control remains a further premise.",
+      "scci_rh_inference": "Provides a spinal-recording-to-stimulation precedent; voluntary chronic control remains a further premise.",
       "verification_depth": "Author full-text XML; Figs.5-7 and acute/cadaver Methods.",
       "source_quality_note": null
     },
@@ -165,7 +165,7 @@
       "access_and_signal": "Lumbosacral epidural electrical stimulation and motor/physiological observations.",
       "supported_claim": "In the studied setting, myelinated afferent recruitment engaged motor circuitry trans-synaptically.",
       "not_established": "Not universal direct motoneuron stimulation, arbitrary inhibition, or a contact-independent neural command.",
-      "ato_inference": "Specify a calibrated recruitment map and reachable directions.",
+      "scci_rh_inference": "Specify a calibrated recruitment map and reachable directions.",
       "verification_depth": "Author abstract via Europe PMC PMID24305828; detailed parameter tables not re-audited.",
       "source_quality_note": null
     },
@@ -264,7 +264,7 @@
       "access_and_signal": "Personalized lumbosacral epidural paddle and activity-specific stimulation; no spinal recording decoder.",
       "supported_claim": "Anatomy/recruitment-informed programs supported trunk and leg activities during stimulation and rehabilitation.",
       "not_established": "Clinical restoration does not demonstrate healthy athletic enhancement or expert-to-novice transfer.",
-      "ato_inference": "Individualize anatomy, spatial recruitment and timing rather than replaying expert voltages.",
+      "scci_rh_inference": "Individualize anatomy, spatial recruitment and timing rather than replaying expert voltages.",
       "verification_depth": "Primary abstract and author-hosted EPFL paper; study cohort stated in abstract.",
       "source_quality_note": null
     },
@@ -315,7 +315,7 @@
       "access_and_signal": "Two unilateral cervical epidural leads; external stimulator, EMG, movement and clinical assessments.",
       "supported_claim": "Immediate ON assistance and within-trial OFF changes were reported; maximum benefit required continued stimulation.",
       "not_established": "Not healthy novice acquisition, spinal-recording-based assistance, or proof that all ON benefit becomes retention.",
-      "ato_inference": "Score assistance, OFF retention and later follow-up separately.",
+      "scci_rh_inference": "Score assistance, OFF retention and later follow-up separately.",
       "verification_depth": "Full publisher text and author XML; abstract, assessments and Discussion.",
       "source_quality_note": null
     },
@@ -348,7 +348,7 @@
       "access_and_signal": "Forelimb EMG triggered intraspinal stimulation below cervical contusion.",
       "supported_claim": "Activity-linked treatment improved reaching recovery; benefit persisted 3 stimulation-free weeks with daily retraining.",
       "not_established": "Roughly doubled recovery endpoint is not a 2x healthy learning-speed multiplier or proof of the proposed STDP mechanism.",
-      "ato_inference": "Separate contingent practice, retained outcome, and the untested expert-information contribution.",
+      "scci_rh_inference": "Separate contingent practice, retained outcome, and the untested expert-information contribution.",
       "verification_depth": "Full primary PMC article; Results and Materials/Methods.",
       "source_quality_note": null
     },
@@ -382,7 +382,7 @@
       "access_and_signal": "Cortical spikes triggered cervical intraspinal stimulation: hybrid brain-spine access.",
       "supported_claim": "Conditioning modified corticospinal connection strength; timing mattered and many effects eventually reverted.",
       "not_established": "Not spinal-only recording, expert imitation, or demonstrated healthy human whole-skill transfer.",
-      "ato_inference": "Retain absent, reversible and adverse adaptation regimes.",
+      "scci_rh_inference": "Retain absent, reversible and adverse adaptation regimes.",
       "verification_depth": "Author-hosted full manuscript and author abstract; Results and Experimental Procedures.",
       "source_quality_note": null
     },
@@ -415,7 +415,7 @@
       "access_and_signal": "Surface tibial-nerve stimulation and soleus EMG, rather than implanted spinal access.",
       "supported_claim": "Thirty-session H-reflex down-conditioning produced persistent reflex and locomotor changes in responders.",
       "not_established": "Not invasive SCCI or direct expert-to-learner neural transfer.",
-      "ato_inference": "Supports plasticity and individual-response variation without relabelling peripheral access.",
+      "scci_rh_inference": "Supports plasticity and individual-response variation without relabelling peripheral access.",
       "verification_depth": "Author-hosted full manuscript; Subjects, protocol and Results.",
       "source_quality_note": null
     },
@@ -455,7 +455,7 @@
       "access_and_signal": "Epidural stimulation, proprioceptive assessment, peripheral responses and locomotion.",
       "supported_claim": "Continuous stimulation could disrupt proprioceptive information; temporal/spatial strategies sought to preserve it.",
       "not_established": "Does not imply every waveform abolishes perception or determine a healthy-consumer penalty.",
-      "ato_inference": "Model sensory cost and assistance dependence; preserve a no-benefit case.",
+      "scci_rh_inference": "Model sensory cost and assistance dependence; preserve a no-benefit case.",
       "verification_depth": "Author full-text XML; human sensory/locomotor Results and Methods.",
       "source_quality_note": null
     },
@@ -519,7 +519,7 @@
       "access_and_signal": "Implanted cortical recording controlled spinal epidural stimulation.",
       "supported_claim": "The digital bridge enabled mobility; rehabilitation-related unassisted improvement was also reported.",
       "not_established": "Not spinal-only intent recording or proof of expert-informed healthy skill acquisition.",
-      "ato_inference": "Label cortical-input variants hybrid; do not credit their decoder to spinal recording.",
+      "scci_rh_inference": "Label cortical-input variants hybrid; do not credit their decoder to spinal recording.",
       "verification_depth": "Author full-text XML and primary publisher PDF; abstract and Discussion.",
       "source_quality_note": null
     },
@@ -596,7 +596,7 @@
       "access_and_signal": "Lower-thoracic targeted EES and measured pressure feedback; human MSNA is peripheral nerve recording.",
       "supported_claim": "A neuroprosthetic baroreflex compensated haemodynamic deficits after SCI.",
       "not_established": "Not neural BP decoding, arbitrary pressure lowering, or healthy universal autonomic automation.",
-      "ato_inference": "Use external physiological feedback and a target-specific positive actuator.",
+      "scci_rh_inference": "Use external physiological feedback and a target-specific positive actuator.",
       "verification_depth": "Publisher abstract and accessible Extended Data 7-10; detailed main text subscription-limited.",
       "source_quality_note": null
     },
@@ -700,8 +700,8 @@
       "cohort": "14 implanted participants across 4 staged trials; analysis subsets differ; 1479 survey respondents are separate.",
       "access_and_signal": "Lower-thoracic epidural stimulation; external Finometer pressure feedback and PID adjustment.",
       "supported_claim": "Targeted EES supported pressure regulation; waveform sampling 200 Hz, extracted measures 1 Hz, command latency as low as 25 ms are distinct.",
-      "not_established": "Not a spinal pressure decoder, active pressure-lowering channel, healthy enhancement, or validation of ATO hardware.",
-      "ato_inference": "Keep sensor freshness separate from command rate, and identify anatomy-specific pressure recruitment.",
+      "not_established": "Not a spinal pressure decoder, active pressure-lowering channel, healthy enhancement, or validation of SCCI_RH hardware.",
+      "scci_rh_inference": "Keep sensor freshness separate from command rate, and identify anatomy-specific pressure recruitment.",
       "verification_depth": "Full publisher text and author XML; Figs.2-3 and hemodynamic/system Methods.",
       "source_quality_note": null
     },
@@ -753,7 +753,7 @@
       "access_and_signal": "Epidural evoked compound action potentials controlled stimulation amplitude.",
       "supported_claim": "ECAP-controlled stimulation regulated recruitment and improved the specified pain-response endpoint versus fixed output.",
       "not_established": "An ECAP is not direct pain, BP or intent measurement; comparator was active open-loop stimulation, not placebo.",
-      "ato_inference": "Treat evoked recruitment and desired physiological state as different feedback variables.",
+      "scci_rh_inference": "Treat evoked recruitment and desired physiological state as different feedback variables.",
       "verification_depth": "Primary author abstract via Europe PMC PMID31870766; full main text not re-audited.",
       "source_quality_note": null
     },
@@ -794,7 +794,7 @@
       "access_and_signal": "Lumbosacral epidural programs, cystometry and external physiological assessment; user-switched home modes.",
       "supported_claim": "Personalized storage/voiding programs and training supported selected bladder-management outcomes.",
       "not_established": "Not autonomous neural fullness decoding, universal emptying, or unlimited postponement; cystometry and uroflow differ.",
-      "ato_inference": "Broader body automation needs its own sensing, target, state transitions and failure model.",
+      "scci_rh_inference": "Broader body automation needs its own sensing, target, state transitions and failure model.",
       "verification_depth": "Author full-text XML; Methods 2.4, Results 3.1-3.2 and follow-up.",
       "source_quality_note": null
     },
@@ -827,7 +827,7 @@
       "access_and_signal": "Paired intraspinal stimulation sites and hindlimb endpoint-force measurement.",
       "supported_claim": "Combined activation approximately summed tested endpoint force fields.",
       "not_established": "Not a universal human primitive library, exact voluntary superposition, or a transferable electrode map.",
-      "ato_inference": "A small task-conditioned coordination space is a defensible proposal.",
+      "scci_rh_inference": "A small task-conditioned coordination space is a defensible proposal.",
       "verification_depth": "Primary author abstract via Europe PMC PMID8052615.",
       "source_quality_note": null
     },
@@ -883,7 +883,7 @@
       "access_and_signal": "Human EES/rehabilitation observations plus mouse molecular, circuit and causal perturbation studies.",
       "supported_claim": "A mouse excitatory spinal neuron population was important to recovery under the studied rehabilitation paradigm.",
       "not_established": "Does not locate all human expertise in one cell population or demonstrate expert-skill downloading.",
-      "ato_inference": "Use circuit plasticity as rationale, while leaving the specific ATO learning law assumed.",
+      "scci_rh_inference": "Use circuit plasticity as rationale, while leaving the specific SCCI_RH learning law assumed.",
       "verification_depth": "Author full-text XML; abstract, circuit prioritization and causal perturbation Results.",
       "source_quality_note": null
     },
@@ -912,7 +912,7 @@
       "access_and_signal": "Repository README/tree, firmware, PCB/Gerber, visualizer and print-file structure.",
       "supported_claim": "The public proof-of-concept repository gives an ambitious BCI concept inspectable engineering artifacts.",
       "not_established": "Repository presence is not validation of a functioning implanted biological interface.",
-      "ato_inference": "Credit the engineering progression while contributing original SCCI mechanisms and designs.",
+      "scci_rh_inference": "Credit the engineering progression while contributing original SCCI mechanisms and designs.",
       "verification_depth": "Official README/tree and commit reverified; fresh video/transcript retrieval throttled.",
       "source_quality_note": "The project introduction supplies the ideal-biological-interface account of the video; this audit does not claim a fresh complete viewing."
     }

@@ -1,16 +1,16 @@
 {
-  "schema": "ato.stage4.router-parasitic-audit.v1",
+  "schema": "scci_rh.stage4.router-parasitic-audit.v1",
   "scalar_charge_RC_checks": 10917,
   "cases": 36,
   "max_absolute_KCL_residual_C": 2.0679515313825692e-25,
   "sha256_lf_text_exact_binary": {
-    "parasitic_study.py": "47e7f5e07028f61bdc8085dfa646b697c947188b07822631fdac4f19a0d8fc87",
-    "verify_parasitics.py": "d6055aad771cd48453b12877978b912d64be417b4ac1df6190f0b26afa85d618",
-    "parasitic-results.json": "2894224d214deca76e49634ce9c487de3c0024f742d2831e09199547c8793eac",
+    "parasitic_study.py": "d09e2fd3953b5643bf1dcf81588e4aea4006777ee7849ae4d84646e83762570f",
+    "verify_parasitics.py": "666d716291603c522511a7ec1dde47a1f01bce4e15c93ce66bc9b9c00222d538",
+    "parasitic-results.json": "52b8652a2623c19b40bf39adfb9de905b15dfddac72b10e27b1a4935145940f3",
     "parasitic-traces.npz": "e6ac49232473d6def2f54cc953c5b0a52545f7a61c6f9deb05cd81e4a738f806",
-    "build_parasitic_figures.py": "9dcfb693d361191aa96a4c68c4ff3f3ccd279a9be2038552e6f59261f5f590df",
-    "router-parasitics.png": "1c3ce5d961e3757dade504e9ab7085dbe8244361b629c02a7d3818c3727c78c5",
-    "router-parasitics.svg": "f8501e6318f367689228c6cf33b5ad7446049a04710e34ed6ce5ac5f01f5cb49",
+    "build_parasitic_figures.py": "0cc51e4eab6f2d2044a3903263e7d1b4513c34d125f237671906f9dcdcfa6d3a",
+    "router-parasitics.png": "4acaaffcc4a55d49042c334e8bafa45744cdb480329bf450f5b158d1cf1bb939",
+    "router-parasitics.svg": "cc91f8b307f56952fa558e7362cd9818b02faa33e32385d063739ef2670f5088",
     "README.md": "926deace8ba1a6ce4ce74f09233ea5a886f5af7522b6942f061120bb7b8f9783"
   }
 }

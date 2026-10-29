@@ -1,12 +1,12 @@
 {
-  "schema": "ato.board-export.v1",
+  "schema": "scci_rh.board-export.v1",
   "board": "controller-carrier",
   "source_board": "electronics/stage4/integrated-pcb/boards/controller-carrier/controller_carrier.kicad_pcb",
-  "exporter_sha256_lf": "3bb0cad3cbf63fc3940d9a30e0a7fc31be818bc4b35b5eba81bff60a592aca76",
-  "source_sha256_lf": "ae600148f4efeadceaf92f42cf3e15e102d68e1beb5b34094e02d2593858e1f8",
+  "exporter_sha256_lf": "022a370fcb3e2c04d9ea166d6ad92ad1478333f4a73f8e68aef5d1f96d0ab18f",
+  "source_sha256_lf": "86880cccc4b28ab582e8aa62903fb25aeda830a7896317704110485c9246412e",
   "source_project_sha256_lf": "947f58af351789a2abce8ff56997dfb5eaa12ea86d17a61ca59abdfcb04f23ba",
-  "source_xml_sha256_lf": "9d5c478285e3f6f7e9de15997913e76a05e9a3144caa5fb407f8178e34d0b3c0",
-  "DRC_sha256_lf": "60d633b2cc4f691ef69e15a6746f1506d3243188b2cac67ddae9d0ad9a0cbcec",
+  "source_xml_sha256_lf": "3591061ed754cd2b2108b6d08227ad06bd3735673e20d44936986dfe6916ccab",
+  "DRC_sha256_lf": "fcb2384b5dda59067cfb57aff7ce05369bfb72b3aab2e61a6127dee057debf07",
   "component_count": 68,
   "fitted_component_count": 68,
   "DNP_references": [],
@@ -20,8 +20,8 @@
         "--force",
         "--no-dnp",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\controller-carrier\\populated.step",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\controller-carrier\\controller_carrier.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\controller-carrier\\populated.step",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\controller-carrier\\controller_carrier.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -40,8 +40,8 @@
         "--side",
         "top",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\controller-carrier\\top.png",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\controller-carrier\\controller_carrier.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\controller-carrier\\top.png",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\controller-carrier\\controller_carrier.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -60,8 +60,8 @@
         "--side",
         "bottom",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\controller-carrier\\bottom.png",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\controller-carrier\\controller_carrier.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\controller-carrier\\bottom.png",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\controller-carrier\\controller_carrier.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -82,8 +82,8 @@
         "--zoom",
         ".83",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\controller-carrier\\isometric.png",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\controller-carrier\\controller_carrier.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\controller-carrier\\isometric.png",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\controller-carrier\\controller_carrier.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -99,8 +99,8 @@
         "--exclude-drawing-sheet",
         "--mode-single",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\controller-carrier\\top-copper.svg",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\controller-carrier\\controller_carrier.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\controller-carrier\\top-copper.svg",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\controller-carrier\\controller_carrier.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -117,8 +117,8 @@
         "--mirror",
         "--mode-single",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\controller-carrier\\bottom-copper.svg",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\controller-carrier\\controller_carrier.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\controller-carrier\\bottom-copper.svg",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\controller-carrier\\controller_carrier.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -131,8 +131,8 @@
         "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts",
         "--subtract-soldermask",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\controller-carrier\\fabrication-reference\\",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\controller-carrier\\controller_carrier.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\controller-carrier\\fabrication-reference\\",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\controller-carrier\\controller_carrier.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -148,10 +148,10 @@
         "--excellon-separate-th",
         "--generate-report",
         "--report-path",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\controller-carrier\\fabrication-reference\\drill-report.txt",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\controller-carrier\\fabrication-reference\\drill-report.txt",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\controller-carrier\\fabrication-reference\\",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\controller-carrier\\controller_carrier.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\controller-carrier\\fabrication-reference\\",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\controller-carrier\\controller_carrier.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -168,8 +168,8 @@
         "both",
         "--exclude-dnp",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\controller-carrier\\fabrication-reference\\positions.csv",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\controller-carrier\\controller_carrier.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\controller-carrier\\fabrication-reference\\positions.csv",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\controller-carrier\\controller_carrier.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -183,26 +183,26 @@
   "populated_models_nominal_where_documented": true,
   "physical_qualification": false,
   "outputs": {
-    "bottom-copper.svg": "34cb4a94b187733bcd8ab7e65f00a076eac2b299679524e2c14c25e5b12732a9",
-    "bottom.png": "5080f2ec6c984d1c13df0a0ffbd727aa5ba0d48bd161aa8759e1d0604b1b933c",
-    "isometric.png": "dbc8d910c7e2aa9838250f898e67bb7067638c2bf3a6935691fe1f8954890953",
+    "bottom-copper.svg": "6ddaa43bc279c1d3cdb15e74009841fe7c9da27a5445e2e7b907e3da2e3d1e03",
+    "bottom.png": "e02be1498afa4965f9f84cf95f76b6a23c9332175acbbdf5fc8ffc9ebb93d7de",
+    "isometric.png": "34f7c5aa5f183be255f69235e080a091694264b342d24419bfe9452fa5a830a0",
     "populated.step": "45626fe2948522979ba715095dc42c84b8ec5419f2a43474908ec954be5d05f2",
-    "top-copper.svg": "4bf542963fd973dacb081e3120984b1f648ba7c8f4df1ff05f0311944316aecb",
-    "top.png": "601371f2a6a3bd3899a2bbe67915c200086638f315a15b91457b31f5ec777c3d",
-    "fabrication-reference/bom.csv": "7f9c19093e3f4896c1f3a536736e1ecfa426bdda020be770019661b942671948",
-    "fabrication-reference/controller_carrier-B_Cu.gbl": "e619663a760d3df14e8fa22d7b9e730e77acfe96b9b805b44907b98b91b79b23",
-    "fabrication-reference/controller_carrier-B_Mask.gbs": "7c2b82c70b4f711b805d729a7c8c6604e2ea8bc7feea78637a163527f9f7b97a",
-    "fabrication-reference/controller_carrier-B_Silkscreen.gbo": "eaeba699c7ed22389bf00a53b4cf2845da8cca12664bfe113bc55f327cc96f1d",
-    "fabrication-reference/controller_carrier-Edge_Cuts.gm1": "90bebfcd9d6aa9ea17afe2785dd99d068040f2c6d9629b78e3566d2f58b44cfe",
-    "fabrication-reference/controller_carrier-F_Cu.gtl": "dac2a4cf4c18999d69f9ed6e441f2ed415e9d0d2a3bc3a24ae5070edac1751bf",
-    "fabrication-reference/controller_carrier-F_Mask.gts": "0e8d17a0fa774581e14b6ce0cdc381292caa5635d3760233c11fbd8943cd07e4",
-    "fabrication-reference/controller_carrier-F_Silkscreen.gto": "7375b3abb309bec7f157e53bb190770e6f3e65e2b643af7f3585baae71f2c34c",
-    "fabrication-reference/controller_carrier-In1_Cu.g1": "04dcd42921aea4b2acf3a4029f2a7fb15569b70b4ee5a5502fdeeb9724909eb9",
-    "fabrication-reference/controller_carrier-In2_Cu.g2": "da5b23c7f7c6e9c9f329f3f524dcc8ffab088261defcaaf6e2f5d5ef7e8bbc83",
-    "fabrication-reference/controller_carrier-job.gbrjob": "1068b5d452df70aeb9e52a67b9d50d08afeec92eb5ed8468e522ab06f2fb1bf2",
-    "fabrication-reference/controller_carrier-NPTH.drl": "5551ec962c223fcba4551fbed16cd846528bbd843d7b85c872de491d89d8d7d8",
-    "fabrication-reference/controller_carrier-PTH.drl": "d9351cf11a85216a6f196b66287a333a5723b023d3e2079f3332d336850a3c62",
-    "fabrication-reference/drill-report.txt": "88b173e423656b175592f19c2a75f235d7ad98b259b0a5c7829f3d06eefde176",
+    "top-copper.svg": "bbbb4bec060fddc01076af02c6dcb9284b35b7bdf427b10d2f0684bd84f71722",
+    "top.png": "7a10dbe2845d8b7ec0dd52f5239553efc2467fd0a56ff0990586c65ca931277b",
+    "fabrication-reference/bom.csv": "d9b199ace601d0ac242a1c8f630d237c81d900f92bcd47570f095afe90962bea",
+    "fabrication-reference/controller_carrier-B_Cu.gbl": "3f9245ac822f4fd0d41fab6e8495f704569ff06f76c7b54a8b68d6bf2f8d8b3b",
+    "fabrication-reference/controller_carrier-B_Mask.gbs": "1703a1ece210d3dc944675d028e05854993bd4c4a7b92ff2f60e81ad38db41eb",
+    "fabrication-reference/controller_carrier-B_Silkscreen.gbo": "8ef6e75a6e4385f8cf04a0baf8d0b5a3f7d1f16bc6551de20bf8bea230948131",
+    "fabrication-reference/controller_carrier-Edge_Cuts.gm1": "a3e0fcf011f7e21fb6ac86eed1f1b53c881ec02d261df2f3386f003524e58339",
+    "fabrication-reference/controller_carrier-F_Cu.gtl": "05ac684f9611440e4cc9f915ac3edc15d55ec4a0bf40e9104720cd48b6ff8bbf",
+    "fabrication-reference/controller_carrier-F_Mask.gts": "d89154b22bc561107e3d1088d244d4d278dde8c25ff316101c63b108f7ec9ba8",
+    "fabrication-reference/controller_carrier-F_Silkscreen.gto": "cda8682e0f09833fb8d6db7343e5494dc306fa8bd446bccb7340f08acaba5838",
+    "fabrication-reference/controller_carrier-In1_Cu.g1": "e415dcbcf59b57794f4e15cbe764558dfcfaa906f63a3c32e4efcadc1162e7fc",
+    "fabrication-reference/controller_carrier-In2_Cu.g2": "c837e7cdc6c5afff3544228d9f8171e25e4cb947328d1ec6f048528b0ec20093",
+    "fabrication-reference/controller_carrier-job.gbrjob": "511e307f82002e7eefb5fea627a63953aead990797e66e4001a8939c453135db",
+    "fabrication-reference/controller_carrier-NPTH.drl": "0ff234e75baa26f9540d2d6e288f282f9c646ab72077a4f6f8530e0999b80942",
+    "fabrication-reference/controller_carrier-PTH.drl": "8cdcc44d2c686c37513bacba0fcc8589166f2c4a6144a96662a97e62ca5261fa",
+    "fabrication-reference/drill-report.txt": "49e942eafeb32ce9a8ba840be6d66a88ebdae3abd641a2a4f8d3033355192a59",
     "fabrication-reference/positions.csv": "9f0c5be2b4b687d3725a0b3baa92667d78bcdeb51c32f4a4de37301f6f241f43",
     "fabrication-reference/README.md": "118a7498542a8992e20d99363fd12818a8dacb65e4b57cefaea220f696f077b5"
   }

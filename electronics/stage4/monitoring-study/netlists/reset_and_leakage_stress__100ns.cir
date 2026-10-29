@@ -1,4 +1,4 @@
-ATO Stage4 behavioral monitor: reset_and_leakage_stress; NOT vendor model
+SCCI_RH Stage4 behavioral monitor: reset_and_leakage_stress; NOT vendor model
 * Two independent sources; no driver-loop, electrode chemistry or biological model
 * Positive Iload enters load-return; positive Ishunt flows load to driver
 .model Reset SW(Ron=2 Roff=1e12 Vt=0.5 Vh=0)

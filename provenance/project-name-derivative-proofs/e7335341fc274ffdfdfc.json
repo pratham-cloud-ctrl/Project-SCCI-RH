@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "manuscript/stage6/figures/04_conditional_learning.svg",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "c36581090da02f59d09879feca8c337e5dc1a8d7f76aba3bc3c795542ccc19a7",
+  "current_sha256": "7570b2dbd3ad92e5425b867291f3b79d93e24d0408d0ace1d97655e69c380913",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-manuscript-regeneration.json",
+      "sha256_lf": "e82e5ae3e9de1c5d04091a9b5f852f529320017753446324cb26c8cd0b19bafd"
+    }
+  ]
+}

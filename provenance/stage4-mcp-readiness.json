@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage4.mcp-readiness.v1",
+  "schema": "scci_rh.stage4.mcp-readiness.v1",
   "date": "2026-10-13",
   "skill": "C:/Users/Pratham/.codex/skills/cad-electronics-mcp/SKILL.md",
   "kicad": {
@@ -17,7 +17,7 @@
     "router_source0_resolved_symbol_bounds": 12,
     "ERC_coordinates": "Konnect identifies KiCad10.0.6 ERC JSON scaling and corrects coordinates; zero violations have no positions",
     "native_live_PCB_operations_tested": false,
-    "root_schematic_sha256_lf": "4b096078c6ddc3dbd2607e677c0a607f71d7e5079a4fdbb262a91ce59280ca55"
+    "root_schematic_sha256_lf": "41835cc515a11907ed4eafac4f04d5051d54e30c163f569490ef2d8942f91b9a"
   },
   "freecad": {
     "connected": true,
@@ -26,7 +26,7 @@
     "gui_available": true,
     "initial_connection": "FreeCAD was not running; root launched the installed application with its bridge",
     "read_source": "Actual loaded FreeCAD document/shape engine through native MCP execute_python",
-    "document": "ATO_stage2_allocation",
+    "document": "SCCI_RH_stage2_allocation",
     "document_objects": 90,
     "shaped_objects": 87,
     "solid_count": 80,
@@ -35,8 +35,8 @@
     "recomputed": false,
     "saved": false,
     "closed_with_save_changes": false,
-    "source_file": "cad/stage2/ATO_stage2_allocation.FCStd",
-    "source_sha256_exact": "93968c7d3c975ed00d8fb8e1670e5e9f02ab9c25882e7cf78b63bc150da8981a",
+    "source_file": "cad/stage2/SCCI_RH_stage2_allocation.FCStd",
+    "source_sha256_exact": "5d0e0ef9462120c5d42d6adf512983f453dd246023114b00e84a3d7fa43f3039",
     "scope": "Existing allocation geometry only; not populated CAD, assembly fit, thermal or mechanical validation"
   },
   "user_unsaved_design_overwritten": false,

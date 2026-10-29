@@ -71,8 +71,8 @@ def build():
     assert all(r['metal_can_overlap_mm3']<1e-6 for r in interface_checks)
     assert m['battery_bottom_z_mm']+m['battery_box_mm'][2] <= z-wall
     assert m['body_feedthrough_ports']==36
-    assembly=b.Compound(label='ATO_Stage2_Allocation',children=physical)
-    b.export_step(assembly,str(OUT/'ATO_stage2_allocation.step'))
+    assembly=b.Compound(label='SCCI_RH_Stage2_Allocation',children=physical)
+    b.export_step(assembly,str(OUT/'SCCI_RH_stage2_allocation.step'))
     b.export_step(populated,str(OUT/'populated_zone_reservation.step'))
     dimensions=[]
     for part in physical:

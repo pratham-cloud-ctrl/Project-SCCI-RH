@@ -14,7 +14,7 @@ queue through one complete envelope and applies normal priority between frames.
 The pin map, biological policy and circuits are unchanged. Physical timing
 remains unmeasured.
 
-The [revised backend](src/ato_backend.c) changes only the UART callback and two
+The [revised backend](src/scci_rh_backend.c) changes only the UART callback and two
 persistent ownership variables. The [application definition](CMakeLists.txt)
 reuses the original main entry, production policy core, headers, pin map,
 peripheral configuration and device-tree overlay. It also reuses the reviewed
@@ -22,8 +22,8 @@ BT40F 11 pF HFXO configuration. No original file is modified.
 
 ## Inspectable evidence
 
-- [Actual ARM ELF](artifacts/ato.elf), [HEX](artifacts/ato.hex),
-  [binary](artifacts/ato.bin), [link map](artifacts/ato.map),
+- [Actual ARM ELF](artifacts/scci_rh.elf), [HEX](artifacts/scci_rh.hex),
+  [binary](artifacts/scci_rh.bin), [link map](artifacts/scci_rh.map),
   [configuration](artifacts/build.config) and [compile records](artifacts/compile-records.json).
 - [Exact-source target build receipt](build-receipt.json) and
   [independent load-image audit](verification.json).

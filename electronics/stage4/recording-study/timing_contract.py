@@ -32,7 +32,7 @@ def source_hash() -> str:
 
 def spi_budget(clock_hz: int) -> dict[str, Any]:
     half = 1e9 / clock_hz / 2
-    # Manufacturer limits plus separately identified ATO design allocations.
+    # Manufacturer limits plus separately identified SCCI_RH design allocations.
     forward_max, reverse_max, slave_miso, master_setup = 18, 18, 12, 19
     board_allocation, source_edge_allocation = 5, 10
     return {
@@ -42,14 +42,14 @@ def spi_budget(clock_hz: int) -> dict[str, Any]:
         "miso_reverse_propagation_max_ns": reverse_max,
         "rhd_miso_valid_max_ns": slave_miso,
         "nrf_miso_setup_min_ns": master_setup,
-        "ato_board_uncertainty_allocation_ns": board_allocation,
-        "ato_source_clock_edge_allocation_ns": source_edge_allocation,
-        "miso_margin_without_ato_allocations_ns": half - forward_max - reverse_max - slave_miso - master_setup,
-        "miso_margin_with_ato_allocations_ns": half - forward_max - reverse_max - slave_miso - master_setup - board_allocation - source_edge_allocation,
+        "scci_rh_board_uncertainty_allocation_ns": board_allocation,
+        "scci_rh_source_clock_edge_allocation_ns": source_edge_allocation,
+        "miso_margin_without_scci_rh_allocations_ns": half - forward_max - reverse_max - slave_miso - master_setup,
+        "miso_margin_with_scci_rh_allocations_ns": half - forward_max - reverse_max - slave_miso - master_setup - board_allocation - source_edge_allocation,
         "mosi_master_valid_max_ns": 59,
         "same_direction_isolator_skew_max_ns": 6,
         "rhd_mosi_setup_min_ns": 10,
-        "mosi_margin_with_ato_allocations_ns": half - 59 - 6 - 10 - board_allocation - source_edge_allocation,
+        "mosi_margin_with_scci_rh_allocations_ns": half - 59 - 6 - 10 - board_allocation - source_edge_allocation,
         "timing_admitted_under_allocations": half - forward_max - reverse_max - slave_miso - master_setup - board_allocation - source_edge_allocation > 0 and half - 59 - 6 - 10 - board_allocation - source_edge_allocation > 0,
     }
 
@@ -263,7 +263,7 @@ def build_scenarios() -> list[dict[str, Any]]:
 
     fast, selected = spi_budget(8_000_000), spi_budget(4_000_000)
     add("T01", "Isolation requires an explicit Stage 2 SPI revision", {
-        "8MHz fails MISO setup even before board allowances": fast["miso_margin_without_ato_allocations_ns"] < 0,
+        "8MHz fails MISO setup even before board allowances": fast["miso_margin_without_scci_rh_allocations_ns"] < 0,
         "4MHz passes declared MISO and MOSI allocations": selected["timing_admitted_under_allocations"],
         "95us burst fits 250us frame": WORDS * SLOT_NS < FRAME_NS,
         "provisional_cs_lead_clears20ns_minimum": 125 - 18 - 10 - 10 - 5 >= 20,
@@ -419,7 +419,7 @@ def build_scenarios() -> list[dict[str, Any]]:
 def reproduce() -> dict[str, Any]:
     cases = build_scenarios()
     return {
-        "schema": "ato.stage4.recording-timing-contract.v1",
+        "schema": "scci_rh.stage4.recording-timing-contract.v1",
         "source_sha256_normalized_lf": source_hash(),
         "contract": "docs/stage4/recording-front-end-control-contract.md",
         "scope": "Finite external-controller/protocol model; no deployed firmware, actual circuit timing, analogue recovery or biological claim",
@@ -432,11 +432,11 @@ def reproduce() -> dict[str, Any]:
                             "pairwise_aperture_span_ns": 75_000,
                             "burst_occupancy_fraction": WORDS * SLOT_NS / FRAME_NS,
                             "CS_high_nominal_ns": 875,
-                            "CS_high_min_after_ato_edge_allocations_ns": 853,
+                            "CS_high_min_after_scci_rh_edge_allocations_ns": 853,
                             "CS_high_edge_allocation_ns": 22,
-                            "CS_inverter_delay_ato_allocation_ns": 10,
-                            "CS_lead_min_under_ato_allocations_ns": 82,
-                            "CS_hold_min_under_ato_allocations_ns": 92,
+                            "CS_inverter_delay_scci_rh_allocation_ns": 10,
+                            "CS_lead_min_under_scci_rh_allocations_ns": 82,
+                            "CS_hold_min_under_scci_rh_allocations_ns": 92,
                             "CS_high_datasheet_min_ns": 154,
                             "conversion_cycle_datasheet_min_ns": 950,
                             "external_mode_guard_allocation_ns": GUARD_NS,
@@ -457,7 +457,7 @@ def reproduce() -> dict[str, Any]:
         ],
         "assumptions": [
             "ISO6741F 3.3 V table: 18 ns maximum propagation each direction and 6 ns same-direction skew; stated datasheet operating/load conditions required.",
-            "5 ns trace/edge uncertainty and 10 ns source-clock pulse-shortening allocations are ATO assumptions, not measurements.",
+            "5 ns trace/edge uncertainty and 10 ns source-clock pulse-shortening allocations are SCCI_RH assumptions, not measurements.",
             "10 ns local CS inverter-delay allocation is provisional; 875 ns CS-high minus 7 ns isolator pulse-width distortion, 10 ns inverter and 5 ns board allocation leaves 853 ns.",
             "5 microsecond clamp/isolation/connect guards are provisional external-controller allocations, not manufacturer protection or recovery guarantees.",
             "Rails, protected-node voltage, current quiescence, quiet input range, analogue settle and causal-filter recovery are external qualified inputs.",

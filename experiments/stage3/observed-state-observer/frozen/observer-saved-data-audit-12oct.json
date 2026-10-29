@@ -1,9 +1,9 @@
 {
-  "schema": "ato.tmp.observer-saved-data-audit.v1",
+  "schema": "scci_rh.tmp.observer-saved-data-audit.v1",
   "passed": true,
-  "audit_source_sha256": "a073a3f6f903f3abfdbc7408bb7ebb0b020e106ccddaba34308930222de77b29",
-  "raw_sha256": "cf3fec80ba5748ef714d73120a2f1acb742f318db0196789d85adad4e6bfcb05",
-  "summary_sha256": "02c7bcca076dd6b2739f9e31de715f3a961f69373d579f66d9d76abd36dee2ae",
+  "audit_source_sha256": "4f2994a4e8146acfbbda7c24c854cb1363254bc876490f3cb2a9515f6bbf92ba",
+  "raw_sha256": "5597eed3e622f2c7a87fb79ad229e1ae5cd6b0715eb72ce4907558db0a987357",
+  "summary_sha256": "f76da8ef3641d81cf514164e1f3f1dd475be4a560c2b96be9d54b2c63b4246bf",
   "groups": {
     "already_inspected_drift": {
       "records": 16,

@@ -22,7 +22,7 @@ from pypdf import PdfReader
 
 ROOT=Path(__file__).resolve().parents[2]
 HERE=Path(__file__).resolve().parent
-PDF=ROOT/'output/pdf/Project_ATO_Integrated_Manuscript.pdf'
+PDF=ROOT/'output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf'
 SOURCE=HERE/'manuscript.md'
 REFS=ROOT/'docs/stage6/references.json'
 RELEASE=json.loads((ROOT/'docs/stage6/release-contract.json').read_text(encoding='utf-8'))
@@ -127,7 +127,7 @@ def footer(c,doc):
     c.saveState()
     c.setStrokeColor(colors.HexColor('#cbd8e0'));c.setLineWidth(.5);c.line(LEFT,39,W-RIGHT,39)
     c.setFillColor(MUTED);c.setFont('Sans',6.8)
-    c.drawString(LEFT,26,'PROJECT ATO  /  INTEGRATED DIGITAL RESEARCH AND ENGINEERING  /  '+RELEASE['tag'])
+    c.drawString(LEFT,26,'PROJECT SCCI RH  /  INTEGRATED DIGITAL RESEARCH AND ENGINEERING  /  '+RELEASE['tag'])
     c.drawRightString(W-RIGHT,26,str(doc.page));c.restoreState()
 
 class Document(BaseDocTemplate):
@@ -141,7 +141,7 @@ def main():
     references=json.loads(REFS.read_text(encoding='utf-8'))['references']
     assert len(references)==18
     PDF.parent.mkdir(parents=True,exist_ok=True)
-    story=[Spacer(1,24),Paragraph('PROJECT ATO',ParagraphStyle('CoverMark',fontName='SansBold',fontSize=32,leading=38,textColor=NAVY)),Spacer(1,15),
+    story=[Spacer(1,24),Paragraph('PROJECT SCCI RH',ParagraphStyle('CoverMark',fontName='SansBold',fontSize=32,leading=38,textColor=NAVY)),Spacer(1,15),
       Paragraph('A conditional spinal cord-computer interface',ParagraphStyle('CoverTitle',fontName='SansBold',fontSize=24,leading=31,textColor=TEAL)),Spacer(1,11),
       Paragraph('Expert-informed practice and function-specific physiological feedback',ParagraphStyle('CoverSub',fontName='Serif',fontSize=14,leading=21,textColor=NAVY)),Spacer(1,15)]
     cover=ROOT/'cad/stage5/renders/future_assembled.png'
@@ -165,12 +165,12 @@ def main():
         story.append(Paragraph(text,styles['ref']))
     story.extend([Spacer(1,10),Paragraph('Primary-source verification: 16 October 2026. The original hypothesis paper states a 30 September 2026 evidence cutoff; this focused audit is not a claim of exhaustive coverage. Complete author metadata, access depth, populations, supported claims and inference limits are in docs/stage6/references.json and evidence-review.md.',styles['small'])])
     doc=Document(str(PDF),pagesize=(W,H),leftMargin=LEFT,rightMargin=RIGHT,topMargin=TOP,bottomMargin=BOTTOM,
-       title='Project ATO: integrated SCCI research and engineering',author='Pratham Varma',subject='Conditional spinal interface; digital design and finite evidence',pageCompression=1,
+       title='Project SCCI RH: integrated SCCI research and engineering',author='Pratham Varma',subject='Conditional spinal interface; digital design and finite evidence',pageCompression=1,
        invariant=1)  # BaseDocTemplate forwards its own value to every canvas.
     doc.addPageTemplates(PageTemplate(id='main',frames=[Frame(LEFT,BOTTOM,WIDTH,H-TOP-BOTTOM,id='normal',leftPadding=0,rightPadding=0,topPadding=0,bottomPadding=0)],onPage=footer))
     doc.multiBuild(story,canvasmaker=Canvas)
     reader=PdfReader(str(PDF))
-    report={'schema':'ato.stage6.manuscript-build.v1','version':RELEASE['version'],'date':RELEASE['date'],
+    report={'schema':'scci_rh.stage6.manuscript-build.v1','version':RELEASE['version'],'date':RELEASE['date'],
       'release_contract_sha256_lf':sha(ROOT/'docs/stage6/release-contract.json',True),
       'source_path':SOURCE.relative_to(ROOT).as_posix(),'source_sha256_lf':sha(SOURCE,True),
       'builder_path':Path(__file__).relative_to(ROOT).as_posix(),'builder_sha256_lf':sha(Path(__file__),True),

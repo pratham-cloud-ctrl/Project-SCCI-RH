@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "manuscript/stage6/figures/03_pressure.svg",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "9067a47c149a536b741e3568938eda7b9920c7ba2478400bd8a28459620c2fb1",
+  "current_sha256": "344c66defe75834f62bcaef315b63e2078b682e01314207b789ccce327e1340d",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-manuscript-regeneration.json",
+      "sha256_lf": "e82e5ae3e9de1c5d04091a9b5f852f529320017753446324cb26c8cd0b19bafd"
+    }
+  ]
+}

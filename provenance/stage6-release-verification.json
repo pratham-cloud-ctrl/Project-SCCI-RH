@@ -1,13 +1,13 @@
 {
-  "schema": "ato.stage6.release-verification.v1",
+  "schema": "scci_rh.stage6.release-verification.v1",
   "passed": true,
-  "version": "2.0.1",
-  "date": "2026-10-17",
+  "version": "2.1.0",
+  "date": "2026-10-28",
   "scope": "Entirely digital integrated SCCI research and engineering concept; native modular reference and separate conditional future implanted interface",
-  "checks": 7380,
+  "checks": 1907,
   "baseline": {
     "commit": "736015848cf581df66488bf53aa6360152eb767b",
-    "preserved_files": 2733,
+    "historical_source_files": 2733,
     "path_and_blob_sha256": "b7b38512cffb0a5712a77a3b40e4a3af3fa37e451d8160b3a79a165aa818d3ea",
     "mutable_entries": [
       ".gitattributes",
@@ -17,11 +17,29 @@
       "README.md",
       "docs/engineering-roadmap.md",
       "provenance/manifest.sha256"
-    ]
+    ],
+    "authorized_brand_migration": {
+      "baseline_commit": "736015848cf581df66488bf53aa6360152eb767b",
+      "files_compared": 2733,
+      "comparison_manifest_sha256": "da76b0029a11ab19762436cca19c5b38bf88d46e2590a3e27cfcd5b66f240100",
+      "scope": "Explicit brand migration; original immutable Git identities remain available",
+      "rules": [
+        "archive_member_brand_equivalence",
+        "attested_regeneration:branding_and_fixed_length_digest_metadata_only",
+        "attested_regeneration:branding_and_solver_log_line_endings_only",
+        "attested_regeneration:branding_digest_metadata_and_json_order_only",
+        "attested_regeneration:explicit_digest_bound_regeneration_or_review_evidence",
+        "attested_regeneration:reviewed_branding_verifier_adaptation",
+        "attested_regeneration:unchanged_drc_findings_with_actual_native_reexecution_and_source_bindings",
+        "exact_bytes",
+        "gzip_uncompressed_text_brand_equivalence",
+        "normalized_authored_text_brand_equivalence"
+      ]
+    }
   },
   "manuscript": {
     "pages": 28,
-    "pdf_sha256": "794abbd003d620ac901e1ccfdca49adf4ea04e7d060533a2b620718144935ed9",
+    "pdf_sha256": "66a77d7f84566c6f1e875849dbaa742595a4fae96d718aec8fdc1ea3fb60f3b4",
     "all_pages_visually_reviewed": true,
     "primary_and_inspiration_references": 18,
     "figure_stems": [
@@ -36,7 +54,7 @@
       "09_runtime"
     ]
   },
-  "local_entry_links": 373,
+  "local_entry_links": 371,
   "external_links_recorded_not_live_revalidated_here": [
     "https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github",
     "https://docs.github.com/en/repositories/working-with-files/using-files/working-with-non-code-files#3d-file-viewer",
@@ -57,33 +75,34 @@
     "https://doi.org/10.1523/JNEUROSCI.1688-13.2013",
     "https://doi.org/10.1523/JNEUROSCI.3968-12.2013",
     "https://doi.org/10.3390/jcm15166287",
-    "https://github.com/pratham-cloud-ctrl/Project-ATO/blob/v2.0.1/START_HERE.md",
-    "https://github.com/pratham-cloud-ctrl/Project-ATO/blob/v2.0.1/cad/stage5/drawings/ATO_Stage5_Mechanical_Review.pdf",
-    "https://github.com/pratham-cloud-ctrl/Project-ATO/blob/v2.0.1/docs/review-v2.0.1/README.md",
-    "https://github.com/pratham-cloud-ctrl/Project-ATO/blob/v2.0.1/docs/stage6/contributions.md",
-    "https://github.com/pratham-cloud-ctrl/Project-ATO/blob/v2.0.1/docs/stage6/defence-guide.md",
-    "https://github.com/pratham-cloud-ctrl/Project-ATO/blob/v2.0.1/firmware/nrf5340/uart-revision/README.md",
-    "https://github.com/pratham-cloud-ctrl/Project-ATO/releases/latest",
-    "https://github.com/pratham-cloud-ctrl/Project-ATO/releases/tag/v1.0.0",
-    "https://github.com/pratham-cloud-ctrl/Project-ATO/releases/tag/v2.0.1",
+    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/START_HERE.md",
+    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf",
+    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/docs/review-v2.0.1/README.md",
+    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/docs/stage6/contributions.md",
+    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/docs/stage6/defence-guide.md",
+    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/firmware/nrf5340/uart-revision/README.md",
+    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/latest",
+    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/tag/v1.0.0",
+    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/tag/v2.0.1",
+    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/tag/v2.1.0",
     "https://github.com/sam-astro/Mind-link",
     "https://pmc.ncbi.nlm.nih.gov/articles/PMC12443590/",
     "https://pmc.ncbi.nlm.nih.gov/articles/PMC9668750/",
-    "https://pratham-cloud-ctrl.github.io/Project-ATO/",
-    "https://pratham-cloud-ctrl.github.io/Project-ATO/?design=future&view=model",
-    "https://pratham-cloud-ctrl.github.io/Project-ATO/?design=recording-front-end&view=copper",
-    "https://pratham-cloud-ctrl.github.io/Project-ATO/?design=recording-front-end&view=pcb",
-    "https://pratham-cloud-ctrl.github.io/Project-ATO/?design=reference&view=model",
-    "https://pratham-cloud-ctrl.github.io/Project-ATO/?view=downloads",
-    "https://pratham-cloud-ctrl.github.io/Project-ATO/?view=schematic",
-    "https://pratham-cloud-ctrl.github.io/Project-ATO/downloads/ATO_CAD_Native.zip",
-    "https://pratham-cloud-ctrl.github.io/Project-ATO/downloads/ATO_Future_Interface.step",
-    "https://pratham-cloud-ctrl.github.io/Project-ATO/downloads/ATO_Reference_Complete_STEP.zip",
-    "https://pratham-cloud-ctrl.github.io/Project-ATO/downloads/KiCad-ATO-native-projects.zip",
-    "https://raw.githubusercontent.com/pratham-cloud-ctrl/Project-ATO/main/cad/stage5/renders/future_assembled.png",
-    "https://raw.githubusercontent.com/pratham-cloud-ctrl/Project-ATO/main/cad/stage5/renders/future_exploded.png",
-    "https://raw.githubusercontent.com/pratham-cloud-ctrl/Project-ATO/main/cad/stage5/renders/reference_assembled.png",
-    "https://raw.githubusercontent.com/pratham-cloud-ctrl/Project-ATO/main/cad/stage5/renders/reference_exploded.png",
+    "https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/",
+    "https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/?design=future&view=model",
+    "https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/?design=recording-front-end&view=copper",
+    "https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/?design=recording-front-end&view=pcb",
+    "https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/?design=reference&view=model",
+    "https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/?view=downloads",
+    "https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/?view=schematic",
+    "https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/downloads/KiCad-SCCI_RH-native-projects.zip",
+    "https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/downloads/SCCI_RH_CAD_Native.zip",
+    "https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/downloads/SCCI_RH_Future_Interface.step",
+    "https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/downloads/SCCI_RH_Reference_Complete_STEP.zip",
+    "https://raw.githubusercontent.com/pratham-cloud-ctrl/Project-SCCI-RH/main/cad/stage5/renders/future_assembled.png",
+    "https://raw.githubusercontent.com/pratham-cloud-ctrl/Project-SCCI-RH/main/cad/stage5/renders/future_exploded.png",
+    "https://raw.githubusercontent.com/pratham-cloud-ctrl/Project-SCCI-RH/main/cad/stage5/renders/reference_assembled.png",
+    "https://raw.githubusercontent.com/pratham-cloud-ctrl/Project-SCCI-RH/main/cad/stage5/renders/reference_exploded.png",
     "https://www.nature.com/articles/s41586-022-05385-7",
     "https://www.youtube.com/watch?v=5YxrpcqkTYA"
   ],
@@ -91,7 +110,7 @@
     "conditional_scenarios": 128,
     "fitted_components": 1296,
     "master_sheets": 80,
-    "mechanical_checks": 12996
+    "mechanical_checks": 10843
   },
   "new_conditional_software_integration": {
     "assertions": 114426,
@@ -102,11 +121,11 @@
   },
   "artifacts": {
     ".github/workflows/deploy-inspector.yml": {
-      "sha256": "24dbb9865edc7674bb223601062c1f1e68810d9400963de42eb23f0de871ed77",
+      "sha256": "e362b9f27a943341308c963967f0284cf264d5891df1b6f487086f13af23e096",
       "text_normalized": true
     },
     ".github/workflows/package-release.yml": {
-      "sha256": "fe35a838a0a37d4a6065ea44e0010e005adc0cf200942836f26c7c2a3bd40538",
+      "sha256": "7bfd65aedf98126672f79e2b6f84a6a54bb264d86089ea6681a9a1e7c83dac94",
       "text_normalized": true
     },
     ".github/workflows/verify-release.yml": {
@@ -114,43 +133,43 @@
       "text_normalized": true
     },
     "cad/CURRENT_CAD.md": {
-      "sha256": "c4aaa697545b1984bf7c4a58647347ba34f745f7ffea906e494c2ebe0a3237e1",
+      "sha256": "c1fca12048f8649763e587f51ecd1820f6974878de1b81d3f052ffc0578a2dc3",
       "text_normalized": true
     },
     "cad/open-current-cad.ps1": {
-      "sha256": "483a20b07172846f2a2bce662e16ef21cf20ea2a9cf44d0445a5b1b43737cc2f",
+      "sha256": "c5bcda1d3f5d531a048e161cdea99aaf4c4cd1ec0be7104b7af1377ee108983e",
       "text_normalized": true
     },
     "cad/OPEN_CURRENT_CAD.cmd": {
       "sha256": "717b93196a8e3cca6c696238fc5bddcdd7d30612ac53deb67d2513193687c989",
       "text_normalized": true
     },
-    "cad/stage5/ATO_stage5_reference_full.FCStd": {
-      "sha256": "b4323834775d269d458726106929aa30a197aebb93b7eb6c6f7e9e23f49f386b",
+    "cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf": {
+      "sha256": "f6bcd0781aa96807f7a8b05d1f8e0f3965a98f533ebe460122aa8ee6ae19e370",
       "text_normalized": false
     },
-    "cad/stage5/drawings/ATO_Stage5_Mechanical_Review.pdf": {
-      "sha256": "a4375223084c3debeb29b1dc566e067f169c7b941056b1e057b9ce91595e3d04",
-      "text_normalized": false
-    },
-    "cad/stage5/future-interface/ATO_future_interface.FCStd": {
-      "sha256": "b148467eac2c00497052cd0e4f5290d8ea1290199ef06559fb583aaac3b5499c",
+    "cad/stage5/future-interface/SCCI_RH_future_interface.FCStd": {
+      "sha256": "3a1cfb5a59855442214772e50dab670c403e6326e929de8362b37037723158ba",
       "text_normalized": false
     },
     "cad/stage5/README.md": {
-      "sha256": "5da5498ba6a62ac457a7af58056db6358baa3edb2532bfb21a2bc6c26f071d36",
+      "sha256": "aac9ad5d4fe57b7994aed35cb2375d2d7ed13ede79242d0d626d4b43438954b5",
       "text_normalized": true
     },
+    "cad/stage5/SCCI_RH_stage5_reference_full.FCStd": {
+      "sha256": "2b39d33d30866d3fa0e9cd9d0ad7f20405466cda20d8cbe907a66c2278f1d355",
+      "text_normalized": false
+    },
     "cad/test-current-cad.ps1": {
-      "sha256": "ecf10fbbd353de837ef925a422ea94c9c265498355774d3b3fa2fce4dc4955f4",
+      "sha256": "eb8eaa30edec914e0ca5023ab2ab54fa34972ed3a01066305107a34a03d2455e",
       "text_normalized": true
     },
     "CITATION.cff": {
-      "sha256": "5c5baf5f1854fe3751dc974990f6c38cc7d8f0d6cf88aa62ea2ca0d5da4e9c61",
+      "sha256": "59def6054fbe109dd811321b3bc13cf049b1316811669c962bea1ae6ecd58b00",
       "text_normalized": true
     },
     "CURRENT_STATUS.md": {
-      "sha256": "0269e4cc96c2b113cb3a2c5a2ab5bd53867e9020696db841738f95cdcfa1bbea",
+      "sha256": "2ed2be0ea60a94307816a83fdecf070ad789c7a464bf3cc8bd5586adbb62a23b",
       "text_normalized": true
     },
     "docs/explore/assets/cad-future-assembled.jpg": {
@@ -170,87 +189,79 @@
       "text_normalized": false
     },
     "docs/explore/assets/manifest.json": {
-      "sha256": "242d5bcd5b5f8fc2c717219b996d38ddca3ab5aa632bf15ffd55b2d3c57eb993",
+      "sha256": "fbfaa13a1a117a78fc87587b376bd51e883c5a08ef417dae16a8e7ab1d27607c",
       "text_normalized": true
     },
     "docs/explore/assets/pcb-contact-router.jpg": {
-      "sha256": "f44d42c6b9351c241e49f7821f216c000e52a449edf1550dd5cdbfe717b8e4ea",
+      "sha256": "33ce63ae7bd5e4294bb1900c69d46f81d9bddeafdcc11bc9fbe1053d969ec3eb",
       "text_normalized": false
     },
     "docs/explore/assets/pcb-controller-carrier.jpg": {
-      "sha256": "44670c9d5d8cb6dc4eca044f7e49ddf0dc210bb322c2578880ce7b552197b042",
+      "sha256": "e05f4057e66efc7774d776b58fe6c9cfa0945f849dc10bbacddb8361d1ed3e62",
       "text_normalized": false
     },
     "docs/explore/assets/pcb-current-driver.jpg": {
-      "sha256": "f2e15995e447dab041768b510ea6f33d15169991016d56c1b29ca94683fccf3a",
+      "sha256": "3c20cf8559407c3d87aa499f7b172504bc451d9d72dd6f66708492b393a8a8ed",
       "text_normalized": false
     },
     "docs/explore/assets/pcb-monitoring-cell.jpg": {
-      "sha256": "a754d4d96e3dc0c54cae0c60e8d29bd5f24cee4bd39afd98d6522ce7c9a2839d",
+      "sha256": "2f56c5908eff9d86b2913cf7e22d64df33d562eac72f34849c83619a83f7f964",
       "text_normalized": false
     },
     "docs/explore/assets/pcb-monitoring-transport.jpg": {
-      "sha256": "bec1ebaf61e2480a80c7034c3803a514dde783a0278fb58c268a5893ad0ea33a",
+      "sha256": "5beb35f3a82f82685572b83e0afb70b311a259dc1e108eb03381f9384f152658",
       "text_normalized": false
     },
     "docs/explore/assets/pcb-power.jpg": {
-      "sha256": "aedd69223f5982c7bd884c0b45df41182c59809e37d2aa8a5307f3d0f75c65d5",
+      "sha256": "efccf99e1df9577eb55bcd01f4ef0fbeb7c608559901fbcb18653a99e5f77e38",
       "text_normalized": false
     },
     "docs/explore/assets/pcb-recording-front-end.jpg": {
-      "sha256": "fc2f6e03d8a3a058acc997e44c51c5d8da48a6b42fd05db6e11e029bd12f115e",
+      "sha256": "1dedc4d51fd92bef5b909a6d4daa9af3e4a76834969af3d20382fa77ea048046",
       "text_normalized": false
     },
     "docs/explore/assets/pcb-supervision.jpg": {
-      "sha256": "1d67a23eef8360a7ea4e6d74a9104b8cfe675735dcb3b781fb10cda024612095",
+      "sha256": "33657f0c1fcb51b7d6ddb3b3c3bc4a880d542f867da5ab9d885529a48662b9af",
       "text_normalized": false
     },
     "docs/explore/cad.md": {
-      "sha256": "e062a7ff28d73b96935fa4de274b57ce2457467e3ed55d8988d9833617196662",
+      "sha256": "c2a8a46d8ed5d3f2701e8fef83d2e036b55ee15fa7256f011ddf68c810f30e23",
       "text_normalized": true
     },
     "docs/explore/electronics.md": {
-      "sha256": "a0a16204381f8a08f85373be11d761999e0ecc0238669dd0270b05bd5f03f35b",
+      "sha256": "67285ac8502de81df972758390cc0f5952db30c966f22f6cd5365307ce848fc2",
       "text_normalized": true
     },
     "docs/explore/firmware.md": {
-      "sha256": "d97bea72fb8bc34f48cc185a73f7af220a1bb766beb91c6c0deba884bd93716b",
+      "sha256": "cc6730047e42ca684745345a5e81451545fbb86303d360b052ff6c78cf8ab7ec",
       "text_normalized": true
     },
-    "docs/explore/inspector-review/pcb-component.jpg": {
-      "sha256": "4a440a9af58ef3f768fe57b24dc271922b6ce66e25130f4cb1d244aa82092de2",
-      "text_normalized": false
-    },
-    "docs/explore/inspector-review/reference-open.jpg": {
-      "sha256": "2534e2088916e85bdb23b36bc46323c21a5a20fe8c5f43068d0979909faaee7c",
-      "text_normalized": false
-    },
     "docs/explore/inspector-review.md": {
-      "sha256": "0cf0cf19a56f824294d7e39358733de85c0cdce524627d1a65f4230ec714802e",
+      "sha256": "a2f75dc4c4ecfbda7eb31a410a4b50cd9e0d367b9830bb920bfa2de2796f9797",
       "text_normalized": true
     },
     "docs/explore/README.md": {
-      "sha256": "e2f99efe95249d2e42f582e42f694a300ef7cfa033680f3406877501e0e12a9c",
+      "sha256": "65e4367ea73b76160fc078fbe18add4706950d6a03f7d5f43216670c16dbc92b",
       "text_normalized": true
     },
     "docs/explore/repository-map.md": {
-      "sha256": "ae205153b1e17d39d90f1549f020324a277d170037065d1706b3c4af65471bd9",
+      "sha256": "4ea79600c85eebabf499e724ac9b22c948504bdf694ade33bd852c179da89d3a",
       "text_normalized": true
     },
     "docs/explore/reviewer-guide.md": {
-      "sha256": "3d562101f3f863811df5220f475ef9d6a8b3f72082a6a9b6aeff89a71e585e08",
+      "sha256": "d11863d00b10d4d36165deb242e8f838c27207c0b82d1a33cf802c2cf6af509b",
       "text_normalized": true
     },
     "docs/explore/theory.md": {
-      "sha256": "94ccfab5bc070049c481e87572d13aba269c94ea667877d99a91872819e1589d",
+      "sha256": "3df396f8d70459fb0cb55af7cefad5df6d501d428a93b749c09f918e50bd0450",
       "text_normalized": true
     },
     "docs/README.md": {
-      "sha256": "4c48584e5c37fb1174c9dbf43ce1b54c1760ae0dde3335cacef21acb8cc50903",
+      "sha256": "13c0c121f013b0f135e45004b4237b0061c642ecad71fee3c1d15d61d1956219",
       "text_normalized": true
     },
     "docs/review-v2.0.1/electronics-review.md": {
-      "sha256": "6cbaa7a4356fd3a5235b24d81e2aaf85447e07154284d04b11e4e472d0e17b22",
+      "sha256": "c7580f7f044f9c7b646257d13a5d4c6d5fb3dfee974286c43a11f19960a926f3",
       "text_normalized": true
     },
     "docs/review-v2.0.1/mechanics-future-native.png": {
@@ -258,7 +269,7 @@
       "text_normalized": false
     },
     "docs/review-v2.0.1/mechanics-native-review.json": {
-      "sha256": "3cca9d697704f24f956716dfaeb8f1f6cb044b18073b96452a4d47789f28147f",
+      "sha256": "4eeee91cb77d212a9a706b7f5b0c2c81fb4b639decde79925595d7e24dfe3c15",
       "text_normalized": true
     },
     "docs/review-v2.0.1/mechanics-reference-native.png": {
@@ -266,15 +277,15 @@
       "text_normalized": false
     },
     "docs/review-v2.0.1/mechanics-review.md": {
-      "sha256": "500cb3bbd5e3d67dde7806cbddb2e8840e3660c105e01dfa26c91fd73918b9de",
+      "sha256": "e517eb012ec1424b90182e47e6f8572a48936ef017ecbefeb2970698552cfbc9",
       "text_normalized": true
     },
     "docs/review-v2.0.1/native-electronics-checks.json": {
-      "sha256": "47f647f345d3de5f4566f8e87623d760ed4c9ebbd3e4ee614f6dc17d0b65dace",
+      "sha256": "7cfa860c6cf4f537bcab49c6a31a3d8a1051dd470ee009198bc456ca1eb42473",
       "text_normalized": true
     },
     "docs/review-v2.0.1/README.md": {
-      "sha256": "007f92c7d712535df043580192fd2a7e25c7b0e873bf95933723cfe5b42d1feb",
+      "sha256": "878a79c13d4bb7892544fd0f4d3b9f659226e51ffc36f059e0fbb120734403c3",
       "text_normalized": true
     },
     "docs/review-v2.0.1/science-review.md": {
@@ -282,19 +293,19 @@
       "text_normalized": true
     },
     "docs/stage6/contributions.md": {
-      "sha256": "b2781b48874e42c809ede3ab062356ffe5472bfebbaf965913d03fac7864bf05",
+      "sha256": "268e16424ee2bb6ba687139c7081dd1019b0b35a0e8c9a36838c1df7e1829740",
       "text_normalized": true
     },
     "docs/stage6/defence-guide.md": {
-      "sha256": "f4c7d091bb1553d0363c81cbef3276c2b402ecebbe89d29c8a47b6d5095d6ec8",
+      "sha256": "b3f88b7b99e166969a0ceb30a2a0bcc5e3629d3f8317819e875b742e478c2d7d",
       "text_normalized": true
     },
     "docs/stage6/evidence-claims.csv": {
-      "sha256": "17502ea3235ab65c7e200455842dfd4461d0a809f58ac80ddda0371d965ef004",
+      "sha256": "464dc0c49ad3f908432bf4b225e4f6ec4cbdc1965616e4e3adf81c98a58113ed",
       "text_normalized": true
     },
     "docs/stage6/evidence-review.md": {
-      "sha256": "b9e05c2031b3b0d10a62043b42d920377fcbff494871af287482603f579e956c",
+      "sha256": "954d06e4b70780ab56b3bbbb2aeb0b2b058242abdc2a411f2d455335d47227c0",
       "text_normalized": true
     },
     "docs/stage6/exit-review.md": {
@@ -302,11 +313,11 @@
       "text_normalized": true
     },
     "docs/stage6/integration-verification.md": {
-      "sha256": "9dd543e3a49a216ee249a76bb1a38ad0470c165242ed615bbc7e570ae75cbbbc",
+      "sha256": "a41e5c66fb5cc4da5e6e48960cb3e9a0040962ebb00024128da95db9281772b0",
       "text_normalized": true
     },
     "docs/stage6/original-hypothesis/README.md": {
-      "sha256": "a7ea9f4f0d7571e34889b2febdc7f5e2d8542477d591f0763776b866a0e2e41b",
+      "sha256": "e0b7895d8d1eb8b8221fcdbb77a4e72a0ed4ac5f50ec1212eb401bba97a3a279",
       "text_normalized": true
     },
     "docs/stage6/original-hypothesis/SCCI_research_hypothesis_paper.pdf": {
@@ -314,107 +325,107 @@
       "text_normalized": false
     },
     "docs/stage6/README.md": {
-      "sha256": "d3c1c28e100b4af435e5ae40796067c0fa0184e8772f4723acf84965dac07285",
+      "sha256": "d7c970ca96c90f8c9dff0a38eac21c983f7b5cbde9c19e997688a118b91498a8",
       "text_normalized": true
     },
     "docs/stage6/references.json": {
-      "sha256": "e8efacedd176a40bcb3262da185c5e891a94df9485c09ee6588e238fdb59f789",
+      "sha256": "54e161a8a487d2e61de449637a89f2f65dbb5ab77bc79cd1dfe32d7252fb04b9",
       "text_normalized": true
     },
     "docs/stage6/release-contract.json": {
-      "sha256": "6adb943caedf99b9cf100e98cf0fca3226dfd8b9fda44e057d733274bbea2a51",
+      "sha256": "f3b66cba41cc99ef23f080d737ca6d63cca8d85ad948c801652310b6d680c0d3",
       "text_normalized": true
     },
     "docs/stage6/release-notes.md": {
-      "sha256": "876cd75c59d9e1ba6017da62337c144c8aea198f4683bae674141dcb9b811d91",
+      "sha256": "b520487113a19f70c3c4eca935dea22fa2120459b22b57b4a5ec3484a872d2df",
       "text_normalized": true
     },
     "docs/stage6/release-plan.md": {
-      "sha256": "fec20dca8081884fee5a7686c3346e268f9ec24e8eafe9211d43331c9698232a",
+      "sha256": "b4b1cc5447d458542effbeddd9647b434713bcf5fa38e1f4a989c9850886e7a2",
       "text_normalized": true
     },
     "docs/stage6/requirements-claims-trace.csv": {
-      "sha256": "9a1bf23b9c43ab28dfecc278b117f013125e381ea5bf012d9bb942b390b36973",
+      "sha256": "6d6a20066268d2c9f799f23812094478073ae2c879a107e6eb8d2802029babe6",
       "text_normalized": true
     },
     "electronics/stage4/integrated-pcb/BOARD_INDEX.md": {
-      "sha256": "7e01730b65d2e3cab4b667c2f892c2beb770b54154447b60dde82ef024e9c214",
+      "sha256": "3ed6a14210ff5ef8ed96b37735f34c8b262fc07a7d4d1ced567c8ae95cb8e3a7",
       "text_normalized": true
     },
     "experiments/stage6/README.md": {
       "sha256": "6e5162e0cff65e95d94ee4939b21c8b284949fc5397c9aeb15f0a4ddc8a1aa62",
       "text_normalized": true
     },
-    "firmware/nrf5340/uart-revision/artifacts/ato.bin": {
-      "sha256": "f5c658884399dcdc2e1ae4eb37e02835f52cacf4e85e525d872189a189b6ffb4",
-      "text_normalized": false
-    },
-    "firmware/nrf5340/uart-revision/artifacts/ato.elf": {
-      "sha256": "ab441a6d4905c140bc9377635945a31cdd3c478dc47b4e6a6ee4176a3ae6d77c",
-      "text_normalized": false
-    },
-    "firmware/nrf5340/uart-revision/artifacts/ato.hex": {
-      "sha256": "aa8d505974801f9fe0e24e39a60c659826ffa6c3beab9aff7154745aa3b1bc6d",
-      "text_normalized": true
-    },
-    "firmware/nrf5340/uart-revision/artifacts/ato.map": {
-      "sha256": "7eb9c3f7dc987b576aaad4f7dc361e35306055fc5b31a2a4d1a1110fae2b9de0",
-      "text_normalized": true
-    },
     "firmware/nrf5340/uart-revision/artifacts/build.config": {
-      "sha256": "8e0585321b1c97edaf5c3d90e137b9fb3d52b757734682075ad2dde5691b3036",
+      "sha256": "94f2f1bff151a836112fd1dd7f871d9f1f3a34536f350906fba051e6d1aa33fb",
       "text_normalized": true
     },
     "firmware/nrf5340/uart-revision/artifacts/compile-records.json": {
-      "sha256": "47cbe9171b6972910a747201400101e0677c4089dd9fd64e5801172556b2d8fa",
+      "sha256": "232526fc5247caea4b58f49e0798e8762f98c438a8421a46b11a6ed173204e27",
+      "text_normalized": true
+    },
+    "firmware/nrf5340/uart-revision/artifacts/scci_rh.bin": {
+      "sha256": "a99c2e30f9ef9f62e84ccd447e536a76bc4a73cb7b34541ae922839db7c552ac",
+      "text_normalized": false
+    },
+    "firmware/nrf5340/uart-revision/artifacts/scci_rh.elf": {
+      "sha256": "813a611ae4b2e9746038f1beb3147338f9dae343ab523f0b4145332038b78b67",
+      "text_normalized": false
+    },
+    "firmware/nrf5340/uart-revision/artifacts/scci_rh.hex": {
+      "sha256": "e884bbb03b88ff31d2dea0bbe9ebc45343dd3f6390c80ab5cba6e1ac57090e42",
+      "text_normalized": true
+    },
+    "firmware/nrf5340/uart-revision/artifacts/scci_rh.map": {
+      "sha256": "9544fb77f176bf38506ec9f6f1f1292db2289857fce0efa11a55fd339735cf1d",
       "text_normalized": true
     },
     "firmware/nrf5340/uart-revision/artifacts/sections.txt": {
-      "sha256": "043d38fadb59787bcfc75ee059a6a0252c09a206d4eb3de3a09ac05725eb1aba",
+      "sha256": "1ead6b70e4806198bc3d22725faf52a6bb5913609db067ed77f02a9ceb984030",
       "text_normalized": true
     },
     "firmware/nrf5340/uart-revision/artifacts/symbols.txt": {
-      "sha256": "fbd29e0b8dc9f5d7c3d4b79ea182715d151d656ae962fed104220204fa3c2ba4",
+      "sha256": "e966b103accdf124029a3ae959f590a7163f9af955252006d786b019ba9c3daa",
       "text_normalized": true
     },
     "firmware/nrf5340/uart-revision/artifacts/zephyr.dts": {
-      "sha256": "36d53f51636a8a39a9e56c5e96da8704ce9bdfb5e18ef63d8e0f066867e7efd8",
+      "sha256": "f9b7525e8ed82af5c9dccd211b007b6177f636e5d6291f3af7cebe068352b6d9",
       "text_normalized": true
     },
     "firmware/nrf5340/uart-revision/build-receipt.json": {
-      "sha256": "ebab0d2412e684a4d9f30f586d62c3588762d9e984bec4952ed8d5280e4dca92",
+      "sha256": "f57b328a9fec504660708b7baa0ea6b502682c04e58155a03014f5f221d97477",
       "text_normalized": true
     },
     "firmware/nrf5340/uart-revision/build_revision.py": {
-      "sha256": "c5313b67a11a7610ec17ba2a049da93cc516901c7e45881fd2cfff24fae84b77",
+      "sha256": "aba422d476b84b53fae258a2bdbf0c828d224020ddf0401ba7c63724e2191cf9",
       "text_normalized": true
     },
     "firmware/nrf5340/uart-revision/CMakeLists.txt": {
-      "sha256": "5eafe21182c126a5dd80083060a2b70ba89bdcae6fea6502ace68a63d206bfd4",
+      "sha256": "ec76d7240ca5f84c466caeb96169cefe29eb127fd1019865e4e044f0507f2bae",
       "text_normalized": true
     },
     "firmware/nrf5340/uart-revision/README.md": {
-      "sha256": "361c0f4000cded36199abcd1a39861e8070cdfae47bc23af11d1c851faacc5d7",
+      "sha256": "8c7497e80751c49ed81d2c63dd4fe2340bdc3950dd3c1cf6e80e9d7fe7bbc70f",
       "text_normalized": true
     },
-    "firmware/nrf5340/uart-revision/src/ato_backend.c": {
-      "sha256": "88b5d4c5063fb1affadde97394b2edbd725cd48d8451b8387697559cb4e8621c",
+    "firmware/nrf5340/uart-revision/src/scci_rh_backend.c": {
+      "sha256": "274028a02481e0ae4b2bd56263d1fa7979daded7617d764799f5dcbda021f07c",
       "text_normalized": true
     },
     "firmware/nrf5340/uart-revision/tests/check_uart_framing.py": {
-      "sha256": "c05d4896fcceaa81cbe6dc460f157f6387798173e74112d9e737454cb1fa1d36",
+      "sha256": "e23d19d863a8084a301cd0a64ee28a806a88720f30a566d56cc265ae691a3265",
       "text_normalized": true
     },
     "firmware/nrf5340/uart-revision/uart-framing-tests.json": {
-      "sha256": "09ecc8e6a51db13817e414ba97f882d91574ee5040ded8bee1dfd1e2104ea3ec",
+      "sha256": "5be3d1518c3e8bc47a286de3d84534bde80c163da91a7c19b43db4d209b03eb6",
       "text_normalized": true
     },
     "firmware/nrf5340/uart-revision/verification.json": {
-      "sha256": "4d4e5eba940ad98d754b7340d72a451efe1963c3c0bd454ec712759bd9e7523c",
+      "sha256": "d8b0765210171cc163756f7f340c4752c6313bab31c09cdf55323b34ce79cb1c",
       "text_normalized": true
     },
     "firmware/nrf5340/uart-revision/verify_revision.py": {
-      "sha256": "4508333d6fa1c75b590f23292c42131fe79f86ddcd6e447812f414370da4f48a",
+      "sha256": "8de48e1d5ace0799fc2306cfaba063c52eab7fa04248a431d35e8aadeff7ba8d",
       "text_normalized": true
     },
     "inspector/.gitattributes": {
@@ -426,15 +437,15 @@
       "text_normalized": true
     },
     "inspector/app.js": {
-      "sha256": "b8d30af629bcc77532fe185782805328cfe2cc6a16a838711bebb87fdad35ffb",
+      "sha256": "7ca57db8c20afd952684874d3c62ae8557397e3b2fa4ac881e1e43e0c4117d52",
       "text_normalized": true
     },
     "inspector/assets/cad-manifest.json": {
-      "sha256": "c9bd4da99ab4b7d6ed4f60cd0b4d29b5025b1d0b32a2ebdb17d0fca242562090",
+      "sha256": "afa81ecf217fce3baad2431a8b4e524735c6b96c573b211c76a9717396f18334",
       "text_normalized": true
     },
     "inspector/assets/catalog.json": {
-      "sha256": "e5e7fe9286fba700b02e1c49a555ba41bb8d271c6047cd97e0105ef3621a19c8",
+      "sha256": "84654677682c7f6e9ddf4e20fb9b13ed7b84a18101c6494094fc0755171ae33e",
       "text_normalized": true
     },
     "inspector/assets/copper/contact-router/B_Cu.svg": {
@@ -566,63 +577,63 @@
       "text_normalized": true
     },
     "inspector/assets/downloads-manifest.json": {
-      "sha256": "8c4a02f27e44e2d4eafd341feb5258315b5c6dcf90674639ba7a5405db6f3ea4",
+      "sha256": "06cadd1cb8f079cca123c013b04784d2264bab4311a31405bd3435246db9eea6",
       "text_normalized": true
     },
     "inspector/assets/electronics-geometry-audit.json": {
-      "sha256": "d41acfd187b18cd111700aa6ed4bb1bada68d31f1584e4a43c70a479f0fd7fae",
+      "sha256": "34a89d501303f4b17110c5b9d446329a82178e54042516cb77f7e319430a3961",
       "text_normalized": true
     },
     "inspector/assets/electronics-manifest.json": {
-      "sha256": "efb32f29eec13741514eb780ed626acd7c6eaa6a952da4d4106824773cb1ba3c",
+      "sha256": "4a40fefdae593a6bfb4da9244d476ea98f02c6dc14a1f0f921edd070c198fcbe",
       "text_normalized": true
     },
     "inspector/assets/electronics-native-export-evidence.json": {
-      "sha256": "aa21e360457e4303a7bae33eaab0ae86572eb3fd9482b66b4952eac7d6d15d46",
+      "sha256": "ab2a24e6c12202e3a9f26a2d36b3c670a137759f2b2c31f6bc60b9a5e4483e7c",
       "text_normalized": true
     },
     "inspector/assets/inspection-manifest.json": {
-      "sha256": "489d7b19a5fd46083bb6481b6252fcd06dccbd968c2930aa2414bce2ec49d020",
+      "sha256": "8a147fdb0aac8d0c6ead4fbc0c45a2d9fa45859fd7522aa6ed258c1cbf36657d",
       "text_normalized": true
     },
     "inspector/assets/models/contact-router.glb": {
-      "sha256": "b85108665184053ded98e8c6da4ce36e95a8421045e247538415455e08857ec5",
+      "sha256": "b186f29b4db61e55a443f0e82c2b8c31c6fd9cc354ad7f6c9add9f7307b976cb",
       "text_normalized": false
     },
     "inspector/assets/models/controller-carrier.glb": {
-      "sha256": "74790414b30194d590a07d84aa55d06de557f2f67bf6ccf24be29cf4abc9d70f",
+      "sha256": "9670548d47e4b3966bd60f56ab04ef31392ea21d98ca74e53d9775b8a9c67d21",
       "text_normalized": false
     },
     "inspector/assets/models/current-driver.glb": {
-      "sha256": "3e650c72862470c7b717c1221fc248f0528ee2bc8957ca09eed55b6a40132d92",
+      "sha256": "a148bd6974342856d5e9814303c5275eedbf9326e10370795d5b7b9ac524eb7f",
       "text_normalized": false
     },
     "inspector/assets/models/future.glb": {
-      "sha256": "c9c5c9663b7756440ffbb9359a41019a95a8527803e64d870002a7129d690031",
+      "sha256": "079b90887b06ccb685143d66806178451982d2205232144ad488150c97d97da7",
       "text_normalized": false
     },
     "inspector/assets/models/monitoring-cell.glb": {
-      "sha256": "06c04769eb3189de43079e7895f27f4056744e10315418cedbdf70a9522004a2",
+      "sha256": "1fd2afabe7f4dc3b01cb8f92c1afd667ac7fa7bcd7f83847b8be145ca28a080c",
       "text_normalized": false
     },
     "inspector/assets/models/monitoring-transport.glb": {
-      "sha256": "74bde5ef5a07ff9957d122f40b4fef72d5adb862e1d25ab8377cf31bfe5bbc88",
+      "sha256": "ab05b7ab4a9df616aea70c9d6f217fc8633ed71b8ac850b8c3cf8cc069326388",
       "text_normalized": false
     },
     "inspector/assets/models/power.glb": {
-      "sha256": "e6349844e65e364173723dad48c98a7f3da60a7360c2350ede62d20711a71328",
+      "sha256": "42eac9522fef4bb95d4ad3adeeb1e86bfe04a7bb57f5078a8548f231e816d41b",
       "text_normalized": false
     },
     "inspector/assets/models/recording-front-end.glb": {
-      "sha256": "a9a419c38c6c076c912c7db0d3ded235122a6cb5a273df091c1367fd7a4a4b7c",
+      "sha256": "922c4a6280e6915f2725c78e31f5d528c75eb1a77c3c7ad1dbedde0ab07ea88d",
       "text_normalized": false
     },
     "inspector/assets/models/reference.glb": {
-      "sha256": "35c2c66c515dab19a8bc6047b242d20088006d24834996a2254952cccc6593b9",
+      "sha256": "b29a05450b246b71c4bfe13c3d8d0ba9f6b9bcb6e1bd1cb88460ee8d0627dad3",
       "text_normalized": false
     },
     "inspector/assets/models/supervision.glb": {
-      "sha256": "c0b5a412ff232c1923f728ba33fc927828abbfbdb30ebb906390fedbdddeb322",
+      "sha256": "6749b03f02b9973c70495d6ca28ba411ab4473de387788dc82d3f40727e704f2",
       "text_normalized": false
     },
     "inspector/assets/previews/future.jpg": {
@@ -634,435 +645,435 @@
       "text_normalized": false
     },
     "inspector/assets/schematic-hierarchy-mcp.json": {
-      "sha256": "9a1e91c8f8bbd68c21d73e73e620919555649272519ede0eff1b270bf91591ef",
+      "sha256": "fa9d321d0bbd9f0fd142b718dce8418f5ae84077d4a877682a6a6964efe85e4b",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-contact-router-address.svg": {
-      "sha256": "08c8cebfd490aae60d4784d8f3853d2932d312ebb42bf48a14688960f0ef9f55",
+    "inspector/assets/schematics/SCCI_RH_integrated-contact-router-address.svg": {
+      "sha256": "70a7c87b691d46a5325c5bcf57e333fae3c68af82400ba0c96ec6dcb4414ce3f",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-contact-router-admission.svg": {
-      "sha256": "7b84a67cf1b758854c0f80d9de0ebb09c4d3fb1415381744bec4bf1634e525e7",
+    "inspector/assets/schematics/SCCI_RH_integrated-contact-router-admission.svg": {
+      "sha256": "ccd524cee0b01944da0954f3346a966db8525d8b7bb2be845a383ce7921885eb",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-contact-router-collision.svg": {
-      "sha256": "0424af8a95af38afde1eac011188a974d97b51c010d17f41665ed2fdde8f6d6b",
+    "inspector/assets/schematics/SCCI_RH_integrated-contact-router-collision.svg": {
+      "sha256": "1318b2483ab3723bf2ee2367c5934692bf44a2da2f2211e2d8087d7438e0bbea",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-contact-router-source0.svg": {
-      "sha256": "3777828b999eb8b12e9d86940863721d6a31a14720c2e8dc83731456ae3424a3",
+    "inspector/assets/schematics/SCCI_RH_integrated-contact-router-source0.svg": {
+      "sha256": "00745aaa2aa8478feb5cebaa58bc93d473d843349b2a3b720162f86c863f51c7",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-contact-router-source1.svg": {
-      "sha256": "2378b7d17f179c4bbc90341514e9b26d3a96430bdf8d7ea993ffa110a7d34588",
+    "inspector/assets/schematics/SCCI_RH_integrated-contact-router-source1.svg": {
+      "sha256": "38dbb4222c809a25e22f1ec11c83d63b2b537bbb14fbca46102e3c83197e1f7d",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-contact-router.svg": {
-      "sha256": "19c4db4a9eca5df8050d61f723b927bd429889375205f557e3c7a5bd6e400124",
+    "inspector/assets/schematics/SCCI_RH_integrated-contact-router.svg": {
+      "sha256": "e8ca360740439f8ceb7674b629ad1ca63d2dfca24c08674e52be7436950ecfb4",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-controller-carrier-defaults.svg": {
-      "sha256": "d8fc83bda0ddf1360fad6fe20e3e07dc7c6636eeef56aec945d7d5eec0f58045",
+    "inspector/assets/schematics/SCCI_RH_integrated-controller-carrier-defaults.svg": {
+      "sha256": "ec715fa4cbfe16da0a4043a57b2ba3595e58bac0c1d31a8a619f95d86e2d2887",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-controller-carrier-defaults_2.svg": {
-      "sha256": "a422b926e9d451ca69ecdecf56c6445d9ee586f20b1fbcb25a00c7d238a119b1",
+    "inspector/assets/schematics/SCCI_RH_integrated-controller-carrier-defaults_2.svg": {
+      "sha256": "892ac1635a0a6c96f5ea7c164f760d5f54b824a5b44c027132d2f3513de70d3d",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-controller-carrier-defaults_3.svg": {
-      "sha256": "58b441479b97323553e40e3e988ff8c04f2ca1611612e16f764fd67663e7ea63",
+    "inspector/assets/schematics/SCCI_RH_integrated-controller-carrier-defaults_3.svg": {
+      "sha256": "74a57a513cb378161cdf4684dcafa49e5122d052c30b38b269491d9422f1c175",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-controller-carrier-handoff.svg": {
-      "sha256": "f98472563bd082806cb894b68f4d09d33a0bd9f037294aa2bc43690c1fc87ae3",
+    "inspector/assets/schematics/SCCI_RH_integrated-controller-carrier-handoff.svg": {
+      "sha256": "0bf14918abc47ae33c0a783ecaf20837645f691f2d6f94350c47ed01aaf32eae",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-controller-carrier-handoff_2.svg": {
-      "sha256": "350eb07754bbadcaee03f685d6a006885d9f19a7a6fff693540d1126a5f4bfc4",
+    "inspector/assets/schematics/SCCI_RH_integrated-controller-carrier-handoff_2.svg": {
+      "sha256": "7d3c3c08127ea888c251f350c9312599f9a7d1d1083ffaecaf8f8df133c14564",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-controller-carrier-handoff_3.svg": {
-      "sha256": "2f564cc4a54dad6c83d84343d7e052b69ae8b30c2eb7bddbbcacc8f6f1181f33",
+    "inspector/assets/schematics/SCCI_RH_integrated-controller-carrier-handoff_3.svg": {
+      "sha256": "7728431c982857d2d48bb1fc853cf9c383d650dcf6f19ef5081d8e47a0b24b40",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-controller-carrier-power.svg": {
-      "sha256": "2d4d27bb77f15553bbb6bb44b388970fbf37fb3e2f1c4579edd2f92f5897c1d1",
+    "inspector/assets/schematics/SCCI_RH_integrated-controller-carrier-power.svg": {
+      "sha256": "4b0bbaa16d35de8f817917e98b8f581df118bbe917bce3ace110d04423fe7fc3",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-controller-carrier-processor.svg": {
-      "sha256": "905bc4d5e35c2c3e86fc003427abbfa9195203a54d378abbfee22346ee0ac99a",
+    "inspector/assets/schematics/SCCI_RH_integrated-controller-carrier-processor.svg": {
+      "sha256": "bc587d202af0b96aeb8014e7f721bc95380a0e9855c79f3cfe9ee9b4526224e5",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-controller-carrier-sideband.svg": {
-      "sha256": "831cb09bff5fcedcaaef7601afe23611ac9d9c51bdca36e39053c9add56bab54",
+    "inspector/assets/schematics/SCCI_RH_integrated-controller-carrier-sideband.svg": {
+      "sha256": "3128884df23246f18aa60498b9708ab44772b45b25cf1d41a3663b3b39f3b45e",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-controller-carrier.svg": {
-      "sha256": "035e5f6b97249d45d2eb20c797c046ab5646e5a550726b8ad67480e52e19f316",
+    "inspector/assets/schematics/SCCI_RH_integrated-controller-carrier.svg": {
+      "sha256": "3414e741f57d275f55ab7f319eb10ec70bf576eeac7fb91c82b8c69bbdba01bb",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-current-driver-Source0_analog.svg": {
-      "sha256": "c6f3f1bfd0548536420a77f02d051563b242ccae4cda02bd546d9f9c42cb0f5c",
+    "inspector/assets/schematics/SCCI_RH_integrated-current-driver-Source0_analog.svg": {
+      "sha256": "349d790b42dfd077a270cd53431de1408693dfc580f3ac8e4cf7073f9bc83ae5",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-current-driver-Source0_permission.svg": {
-      "sha256": "e93a39d06fa4c1f47518ac576046178cd1fba3587242c8fd66fc86df5a18246a",
+    "inspector/assets/schematics/SCCI_RH_integrated-current-driver-Source0_permission.svg": {
+      "sha256": "f79abd752eba62410c2a0ee43f1310d82eea6a7bb1e6b9dc3fd26c1acaae5902",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-current-driver-Source1_analog.svg": {
-      "sha256": "3812b043bb2d5f9767fbc9de3e12984d6cf579de04e785ba5ba469bde4f55bfb",
+    "inspector/assets/schematics/SCCI_RH_integrated-current-driver-Source1_analog.svg": {
+      "sha256": "4bc9a8bdcc68549407b3745088bda1ff76992691126fb540fed9c4c072e2f83c",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-current-driver-Source1_permission.svg": {
-      "sha256": "a779d6780813bfc300bc3c06a91fdb14ee8fd62a7c22050920223968f84511a8",
+    "inspector/assets/schematics/SCCI_RH_integrated-current-driver-Source1_permission.svg": {
+      "sha256": "51d4f76e71e9747836a5c94fb85f6c5bee7971dca5d73921071a3999c812ff0d",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-current-driver.svg": {
-      "sha256": "bab1eada99677c498d0d1139e97ffc0b1db323cc55e0973f7e849d2d9145ec80",
+    "inspector/assets/schematics/SCCI_RH_integrated-current-driver.svg": {
+      "sha256": "078ee368af796bc0fcedf3ea23e79e946a216c17fc11b7319c8fef4d42c2aca9",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-monitoring-cell-Integrated_component_taps.svg": {
-      "sha256": "e60983f0ebc9afded129bc6bb77424aca2fd6b3d1f384ba2129b582eefd32f4b",
+    "inspector/assets/schematics/SCCI_RH_integrated-monitoring-cell-Integrated_component_taps.svg": {
+      "sha256": "4545880dc024d55ee80caf4c42ddf4097ffb98d328cd3e38e8a84ad560a29473",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-monitoring-cell-Source0_monitor.svg": {
-      "sha256": "cd8dfa0c6b7ef84b5006ac5716506644572b6e6b62ec120686e004747af6d103",
+    "inspector/assets/schematics/SCCI_RH_integrated-monitoring-cell-Source0_monitor.svg": {
+      "sha256": "a157c464ed6d7fedc5d93edb6208cd353be6f5c0e9455e50955fd4fc72246f90",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-monitoring-cell-Source1_monitor.svg": {
-      "sha256": "6c4fbf15c09e87308294d835b40524080c09d34564b9f5377fdc30a6c06a6a8e",
+    "inspector/assets/schematics/SCCI_RH_integrated-monitoring-cell-Source1_monitor.svg": {
+      "sha256": "f13d799c325b432950bc2abcd71b70832783ed82b7b145d0db7138a565c6c39e",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-monitoring-cell.svg": {
-      "sha256": "ad4a999170ea8d3594347fe23cc5b60499d4d0cecd974389181461988c606e08",
+    "inspector/assets/schematics/SCCI_RH_integrated-monitoring-cell.svg": {
+      "sha256": "cfbbfbd71398254640680f2245ce9411afd960d686d8b23691fb84405366d44e",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-monitoring-transport-adc.svg": {
-      "sha256": "2adaaf21540682459a9ed75de50788a9ae2afc74699a6c7d88b09932fae44f94",
+    "inspector/assets/schematics/SCCI_RH_integrated-monitoring-transport-adc.svg": {
+      "sha256": "7a482b67bd7a1819f9931515a3f51148e5daded13ebee6606360f56980244fd9",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-monitoring-transport-companion.svg": {
-      "sha256": "fd7dea431cf11264417a0ca129b3b8c15eb1f3ea0b71e67542f6796491796fc0",
+    "inspector/assets/schematics/SCCI_RH_integrated-monitoring-transport-companion.svg": {
+      "sha256": "426e8ccf441a43d71db17fc2e21b834655bef4250d8753ec91175646c0191f1b",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-monitoring-transport-handoff.svg": {
-      "sha256": "9ade58a3dd70ff62c5c44e8007e8f4d7a517475fcbcf904b46261fb4839c042d",
+    "inspector/assets/schematics/SCCI_RH_integrated-monitoring-transport-handoff.svg": {
+      "sha256": "5094a36304a26fbeb0033be0ee144ecaf422f8727060959588e296b33a54cae6",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-monitoring-transport-health.svg": {
-      "sha256": "d4e9d2392013bccbcdad5d981ad901862e749a8e20fee80d9f4e87d8220a299a",
+    "inspector/assets/schematics/SCCI_RH_integrated-monitoring-transport-health.svg": {
+      "sha256": "3ec84bd6391e663dfcdd8808896f898502e6b3efa4888ffcc18c9147c8427492",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-monitoring-transport-inputs.svg": {
-      "sha256": "767c626b878cd5102ef9816fe96363945318b8a8c50de9b6899254ac55f8ea1e",
+    "inspector/assets/schematics/SCCI_RH_integrated-monitoring-transport-inputs.svg": {
+      "sha256": "6a44cc26cdb3cde9fa041099538ea699950440e9ca44a92943f43519809c0c22",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-monitoring-transport-reference.svg": {
-      "sha256": "a1f2cb8e5bceef2acf21111d290aa7a5bd75830d5bbae0aff9f907c7454d62f1",
+    "inspector/assets/schematics/SCCI_RH_integrated-monitoring-transport-reference.svg": {
+      "sha256": "27a7f41c8fd9aedf6e28e75a9991e1a06f33f8cdd6f2a87e09275cb4c095c796",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-monitoring-transport-root_2.svg": {
-      "sha256": "20b74b25f82e5da87e063b956c066721e5d11a4771f67039737ab341407ffa9e",
+    "inspector/assets/schematics/SCCI_RH_integrated-monitoring-transport-root_2.svg": {
+      "sha256": "65838157097a7b0d313e72345839f95439def8075afe9ce610deaff4cff0f421",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-monitoring-transport.svg": {
-      "sha256": "5a5702b290191092cc7e3bf83504003b03a2544f1f743d4bc59320bf71e7cb5e",
+    "inspector/assets/schematics/SCCI_RH_integrated-monitoring-transport.svg": {
+      "sha256": "42ab70fade526d955ea443cab0b5ce537594fdbee7fc46036f9c29c4f6dc3986",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-power-afe3.svg": {
-      "sha256": "762cbc7b49f92a6fbdd9fc2074b5703fae8bcf4feedac05467b67640d6752346",
+    "inspector/assets/schematics/SCCI_RH_integrated-power-afe3.svg": {
+      "sha256": "aeefb214dc4ecaad8a019b8e1e86fca028e0a7525b3fda42ad936edc2c8b21bc",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-power-afen.svg": {
-      "sha256": "949795143943e7c5b73bd49a327f9e3918c8ec3d918a3be05fa10bb48737a008",
+    "inspector/assets/schematics/SCCI_RH_integrated-power-afen.svg": {
+      "sha256": "cdd3cbe8570bdc2d24ec81168aa1904bdbd8bdba2f0e6f468a0d68e00d9a19ee",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-power-afep.svg": {
-      "sha256": "fd7925622977096865eeaa02187ee1dc3d50d3618470041e633c614c995cb1e6",
+    "inspector/assets/schematics/SCCI_RH_integrated-power-afep.svg": {
+      "sha256": "6530c451ffb526494cc98f087dd8a81a36bce97914dc22d1808d46319bd44642",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-power-boost15.svg": {
-      "sha256": "8652611f3928d4e3ff02c873794dce910baa7dadf3cd1f681940834172bac65d",
+    "inspector/assets/schematics/SCCI_RH_integrated-power-boost15.svg": {
+      "sha256": "89274ba8ef1950830c1403f492d950a1a2acc6bff4e8942a8b71f05796f0f257",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-power-boost24.svg": {
-      "sha256": "e9cdfe7b0101c7cc6da8066b81f858b254eef76c4b0a738cc3035333c20e3ed9",
+    "inspector/assets/schematics/SCCI_RH_integrated-power-boost24.svg": {
+      "sha256": "bab40f6b325c2401c6435cf82142f379fb3c6f8ae01698bd195592c9244c84ca",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-power-enable.svg": {
-      "sha256": "32787798dba1ff8e9b8246fe009fe813243c70842cd08bc16bbb960be4ac4b0f",
+    "inspector/assets/schematics/SCCI_RH_integrated-power-enable.svg": {
+      "sha256": "1a6e7c2d3ae64f32d9b0c1a4748449d3334856d519031aa7824907c42914bcbf",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-power-enable_2.svg": {
-      "sha256": "6dc2441b7c4528773be60cfbe1772116012a3302f77db88f7bae31af92cc172d",
+    "inspector/assets/schematics/SCCI_RH_integrated-power-enable_2.svg": {
+      "sha256": "224ff35dc69a3db7c2b7dfe6f3d083dacf277b5dafa210ef7ca704ba17edfec7",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-power-enable_3.svg": {
-      "sha256": "7e89abf15e30141d24398a794694b233b6adf4b9106418bcc974b22180fbd318",
+    "inspector/assets/schematics/SCCI_RH_integrated-power-enable_3.svg": {
+      "sha256": "83cb84bb4a8f0ed6b562c61797940a002680601b13f232ff1accac250e0c513b",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-power-host3.svg": {
-      "sha256": "4244b498ab7a4cb3e648188ff91ce89b42ae4bcba171da8033cd594f46ef4eb7",
+    "inspector/assets/schematics/SCCI_RH_integrated-power-host3.svg": {
+      "sha256": "c4e2b78d5320f7cacad6cae2e87500fac072fe8f941915173468bb75f8a929ce",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-power-host5.svg": {
-      "sha256": "f0a1c37007bbfa20d2d4c98231817f125e033bb771eac9c29cb99f7e931d57e4",
+    "inspector/assets/schematics/SCCI_RH_integrated-power-host5.svg": {
+      "sha256": "85a9d6520a899806b5167caab71f515904aa8be283459177de7f85a8a96f1981",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-power-input.svg": {
-      "sha256": "b3ed43a2139f15ee67a2f08afd2d6378a0cc79782ffa23e1791628ab63cf0440",
+    "inspector/assets/schematics/SCCI_RH_integrated-power-input.svg": {
+      "sha256": "b74788a558946b3182880806a9d1373cc278ab7966c804ad3b6a92f86bab7baa",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-power-island.svg": {
-      "sha256": "3b10a485dad6808eb924ee0a86deb848be97490ded8fbbc8c4b59d765637b7ce",
+    "inspector/assets/schematics/SCCI_RH_integrated-power-island.svg": {
+      "sha256": "cb59e69b01b6496fac910ff9ad302907c7dd4e18cc1ca4d83222d34ece4a693b",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-power-sup3.svg": {
-      "sha256": "c3a15cf6336ae6c211bc224185471ef3b1062a43c485c7eba710b3a08522b869",
+    "inspector/assets/schematics/SCCI_RH_integrated-power-sup3.svg": {
+      "sha256": "108be62a5d8f477516ff43f5757f69ab41187e45e86f4aacf702688faf0f0abd",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-power-sup5.svg": {
-      "sha256": "d6ad00498f3a29598efe2eff5d2768498386469563c6136707622ac8ee79fc1a",
+    "inspector/assets/schematics/SCCI_RH_integrated-power-sup5.svg": {
+      "sha256": "3caaace0ee46a5c5ff0937036967a2f12e65496d6c22b5095aa405f2d0cdea85",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-power.svg": {
-      "sha256": "6d073f2e4316caa6b01635f0f2b5f5e7ef874dcd09d7e35182ac3123e439420f",
+    "inspector/assets/schematics/SCCI_RH_integrated-power.svg": {
+      "sha256": "8497f90ae88bd2f4c3c702896962a02d5244c7c55dc8c0eedf81bf0a656991e4",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-recording-front-end-acquisition.svg": {
-      "sha256": "b98abaa280725e29908faf8fceb00dc97a6bc9f9848437ced04033f0a5c9baa4",
+    "inspector/assets/schematics/SCCI_RH_integrated-recording-front-end-acquisition.svg": {
+      "sha256": "2fe4c3b1c13dd693067c0adba12d30ad75ef68a33ac84edeac371bd03e2f9871",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-recording-front-end-bank0.svg": {
-      "sha256": "8bf025995b9de4aa43c22e3deaefd6d831fd2fbb9a36857e5ba90a4219c91453",
+    "inspector/assets/schematics/SCCI_RH_integrated-recording-front-end-bank0.svg": {
+      "sha256": "2172049490bff7abdcb8a36f90cbc3aa5d41478a707b318f2566298c95dd6fae",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-recording-front-end-bank1.svg": {
-      "sha256": "6b97898253074a566e17f023ef1f0f33d851bb49a7bb9af8ebfc0fd254791246",
+    "inspector/assets/schematics/SCCI_RH_integrated-recording-front-end-bank1.svg": {
+      "sha256": "2a556bfce8525206179b0bf7648a1f56bddd946dac3b65b6e045ee12625212c3",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-recording-front-end-bank2.svg": {
-      "sha256": "6d194852e1f0cdae8f06aaa62c9a2b110fd4ed5d2982300277d807c6398a94f5",
+    "inspector/assets/schematics/SCCI_RH_integrated-recording-front-end-bank2.svg": {
+      "sha256": "d76be59f729b6e9cb2246ee81ac743205aa7269bbc2caa449240115bcead9851",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-recording-front-end-bank3.svg": {
-      "sha256": "49b135911e9bf73317b193bf7e24d061624b999f139f57b5e7418a7bddb2f0d3",
+    "inspector/assets/schematics/SCCI_RH_integrated-recording-front-end-bank3.svg": {
+      "sha256": "93c39365820edf2b9e535444066a22c6533574ee3b9dafe0b90cce00f5d4b325",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-recording-front-end-Integrated_component_taps.svg": {
-      "sha256": "e3fa2d6470f6b4ebe5b39161ef12e311c5a082a01baedf8ceff3e4c96a717ff4",
+    "inspector/assets/schematics/SCCI_RH_integrated-recording-front-end-Integrated_component_taps.svg": {
+      "sha256": "0e73b5eb3bcc31479a04bbb111b363aea43eaf84b58baa459c4fd3ce252f7962",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-recording-front-end-reference.svg": {
-      "sha256": "26a4a4c3ee22ebaef20b1bf41e8d2d07690689c098b5575511d970d4f4dd486f",
+    "inspector/assets/schematics/SCCI_RH_integrated-recording-front-end-reference.svg": {
+      "sha256": "c64fc68d4daf970ff8dfe450b39678dd07960c5979673552a4edbc72241ad2a0",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-recording-front-end.svg": {
-      "sha256": "9882db64f37b643140ff2beb0c0b9f14c48ec215818e42c037e6a36ffae4ee05",
+    "inspector/assets/schematics/SCCI_RH_integrated-recording-front-end.svg": {
+      "sha256": "5a8259447b09d6be7bb57fc0a8d934d216d4490775624679a8af9704503a6d39",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-supervision-admission.svg": {
-      "sha256": "2835ada2f7f48b316d7ab3aa3a169f3c2a536ba531147f30a31ecb56e0ae6b9c",
+    "inspector/assets/schematics/SCCI_RH_integrated-supervision-admission.svg": {
+      "sha256": "e7d9038f22a559dc4de0a733a7b990a05f1e6fc605593bc1d6e81f7e46c7c6f7",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-supervision-admission_2.svg": {
-      "sha256": "8ef4b3039f1d96614eee67273af1e1823b58a3b6a7dde292bdbab6e3a33cdc7f",
+    "inspector/assets/schematics/SCCI_RH_integrated-supervision-admission_2.svg": {
+      "sha256": "bc957b0f961fe46966d60ed922a86e5af403e4d117fa7c1ddad178537fd2b0e5",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-supervision-afe_bank0.svg": {
-      "sha256": "ce9c24a55c07b2146f107cffb19fddecb00a769d2564011a6b9951dab2b42ddb",
+    "inspector/assets/schematics/SCCI_RH_integrated-supervision-afe_bank0.svg": {
+      "sha256": "87382532505ac593197d1208b1607312b8db63bb1d1aaae895b32196c3c83ab6",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-supervision-afe_bank1.svg": {
-      "sha256": "245e6c72cd840a2c6405b91cc2905c58e79b9f7f64e271534dc79a726ac554cd",
+    "inspector/assets/schematics/SCCI_RH_integrated-supervision-afe_bank1.svg": {
+      "sha256": "7512dbff4c561effa8c9904c8dd41375f4b3e09a5d8b123f551c22ba1a5d0628",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-supervision-afe_bank2.svg": {
-      "sha256": "13859898dacf92b11ea4ec1e35c1dd8769853a99e9c8aa92c126a62dee93079e",
+    "inspector/assets/schematics/SCCI_RH_integrated-supervision-afe_bank2.svg": {
+      "sha256": "e967beace9b8b9202598df17ee673664c79993ec9c3ccd0972fce735c10e014a",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-supervision-afe_bank3.svg": {
-      "sha256": "c5485aba931060cc385e2c72a03df01878ca961145d95c074ee9e40df35aee71",
+    "inspector/assets/schematics/SCCI_RH_integrated-supervision-afe_bank3.svg": {
+      "sha256": "3bf4508ff58dad797f718002470ee6737e78600fcf436206d5a865b6a05093c7",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-supervision-afe_bank4.svg": {
-      "sha256": "cb88fd5df948363ab7f59587b8bd4ad001a4d5744ea1d65f31919dbddb0d1674",
+    "inspector/assets/schematics/SCCI_RH_integrated-supervision-afe_bank4.svg": {
+      "sha256": "9a69594769c29d150a5157fcac4b54a6659f8057f85fa9768d60a2859cfa3f2b",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-supervision-afe_logic.svg": {
-      "sha256": "afbe18202303d1f001341b7583c50be05236ff5b386cbddef05eaa57b59187f6",
+    "inspector/assets/schematics/SCCI_RH_integrated-supervision-afe_logic.svg": {
+      "sha256": "58deae99592c8110e8005fec214349352adcb461524eeba2ded12b385c880200",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-supervision-afe_logic_2.svg": {
-      "sha256": "76a08f86bcaa6246c748a9194a6bf2450dff17c79a592cb3fa80589db010003f",
+    "inspector/assets/schematics/SCCI_RH_integrated-supervision-afe_logic_2.svg": {
+      "sha256": "326f31b71d3f238145d12e004f09551aa0c6d6fca067cc1c7a6ec91d586f75e3",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-supervision-afe_rails.svg": {
-      "sha256": "1feb3c67b2abb7e0ad48dd4a052df15a34100fd3a104c5361df8207c6217e2ef",
+    "inspector/assets/schematics/SCCI_RH_integrated-supervision-afe_rails.svg": {
+      "sha256": "c65032931daebcd9a1da305d4e68902861c3ca8a0ea3f6453afc4ee8d470604f",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-supervision-afe_rails_2.svg": {
-      "sha256": "166aeabc28251a4814cd3013bf1747e089617722415f10d77f005f0865d21dea",
+    "inspector/assets/schematics/SCCI_RH_integrated-supervision-afe_rails_2.svg": {
+      "sha256": "99216ca91d5c702a8031348f1b88e6db68a19976d0f26e3776d408fc69a56e09",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-supervision-defaults.svg": {
-      "sha256": "4f2d98077eff5d3191486a7e0e8de0164289c4e6c5b5b341db7d4afbf53a741b",
+    "inspector/assets/schematics/SCCI_RH_integrated-supervision-defaults.svg": {
+      "sha256": "45bb335208d3bbca66c730e46b7e44fd379fa30a9ba48aa2eb7a7c37a0860e96",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-supervision-duration.svg": {
-      "sha256": "8f771f99d7d3313cf07c0705d5d04999be8e449aaadb635543a6dbfe9ba23b3c",
+    "inspector/assets/schematics/SCCI_RH_integrated-supervision-duration.svg": {
+      "sha256": "4878f58ab39227f73cd65bc9f7f4b9d2b608d6de0879aa9216ea63278e6cd6fa",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-supervision-guards.svg": {
-      "sha256": "bf1a72bfbca2954d799fe2d391a3c3923eae89822006c5e24e55e1250010d2e0",
+    "inspector/assets/schematics/SCCI_RH_integrated-supervision-guards.svg": {
+      "sha256": "6545dd0cf2aac58436dbc6d8ef48d27547c4e2aee3e81ba5bdd8578ae0a3c530",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-supervision-host_rails.svg": {
-      "sha256": "9152e1b8634b072bb5efe86dc3132e826493731be8f02847a39838685ae83912",
+    "inspector/assets/schematics/SCCI_RH_integrated-supervision-host_rails.svg": {
+      "sha256": "7e47b975eca918cc255c7b4813c77f9c236f0f656b03869cc55b6b16c43d53c3",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-supervision-host_rails_2.svg": {
-      "sha256": "dc39b3e6da6a549c8216aef3efcb7dcafb77696bdcc8d253270e4d1f6076b2ea",
+    "inspector/assets/schematics/SCCI_RH_integrated-supervision-host_rails_2.svg": {
+      "sha256": "587b311dcd7d49dfb97e7a3ebf150c3091b7956dfa2897de3065fe5cbca2719b",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-supervision-Integrated_component_taps.svg": {
-      "sha256": "eac8bbde4f24741ac6b755acaed6e955143e3bd16c0c6a46f4d2be06bdcde75b",
+    "inspector/assets/schematics/SCCI_RH_integrated-supervision-Integrated_component_taps.svg": {
+      "sha256": "4cbf08017fd98a5c3fdab7fd1f2ef124a07943d682704c6c9e41567745352077",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-supervision-phase0.svg": {
-      "sha256": "d152cbf6920c787060a6c3b130578931b7615f5cf71df19c97f164139cc93a6a",
+    "inspector/assets/schematics/SCCI_RH_integrated-supervision-phase0.svg": {
+      "sha256": "fbaa487990c18208d4c6c2f2a055c4fc6728433f90b250b2801d915efe510c25",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-supervision-phase1.svg": {
-      "sha256": "5c19771a7ffec6da3f6e0fdae5a6a55596d454c783b8a834b9a3989983015a5f",
+    "inspector/assets/schematics/SCCI_RH_integrated-supervision-phase1.svg": {
+      "sha256": "7f239b32dcaea613359981f769266d66f4d1534037528e8c5288bb6d4b5fb6f7",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-supervision-quiescence.svg": {
-      "sha256": "617b447f6dedeb1bbfc395cbf8cbd2056bcb07af7c6b9cb16c8f7a3d9a45c012",
+    "inspector/assets/schematics/SCCI_RH_integrated-supervision-quiescence.svg": {
+      "sha256": "1c67155ffd4bfd71d47bbee9d35b6761176a8991e1c13ce9209d1a572236e9cb",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-supervision-voltage.svg": {
-      "sha256": "7df184445e03a6327693732085e7ba7685eaf3dd734714260987d0dc84fa2ce8",
+    "inspector/assets/schematics/SCCI_RH_integrated-supervision-voltage.svg": {
+      "sha256": "bb4bef6b300bca108f8a3c195098e1e41c69f6f02f94834c710243044aa69912",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-supervision-watchdog.svg": {
-      "sha256": "6e6bcb0057cb777bbe0a83d5aa3e7ee3129076ce0f966c89f8b261429a0cb891",
+    "inspector/assets/schematics/SCCI_RH_integrated-supervision-watchdog.svg": {
+      "sha256": "86dbdf4955c9e2fec90cb9d2821ae6360b9db80ff90c77eccabcdf3654f7baf6",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated-supervision.svg": {
-      "sha256": "b609efae349d6b9957b9344c9e0760daab1831a83d089226795c26087796c152",
+    "inspector/assets/schematics/SCCI_RH_integrated-supervision.svg": {
+      "sha256": "beecdb663f1142eb49d827bc5fddab2e79254dcbc3da1885a1eb2a4ff2e5abb9",
       "text_normalized": true
     },
-    "inspector/assets/schematics/ATO_integrated.svg": {
-      "sha256": "924fc3baa9d64aea957bcf06f31ddda30ce8b52519392e99acf51577b2f757e1",
+    "inspector/assets/schematics/SCCI_RH_integrated.svg": {
+      "sha256": "6e187be56820e6563aeacbc43b13ba0c31468ad533c2558a64392bfb8a90612d",
       "text_normalized": true
     },
     "inspector/credits.html": {
-      "sha256": "093bcffdbbb2482d1794f84102d6d7a7ce495118efde0ba2bef7317f485d4d00",
+      "sha256": "804b5f6877d43dd1f5ea83c80dfe5d5ce1a4c295a56fc10ddb8e6cc4d6f48237",
       "text_normalized": true
     },
-    "inspector/downloads/ATO_CAD_Native.zip": {
-      "sha256": "fd575865614ddb3a7636b0522fb249438447a80d085d447da063f7f0e6dd0766",
+    "inspector/downloads/KiCad-SCCI_RH-native-projects.zip": {
+      "sha256": "2e4f182751636dc142ea19bfa548b06ccee25a90287cc14249cf9dcf1f55aabc",
       "text_normalized": false
     },
-    "inspector/downloads/ATO_contact-router.step": {
+    "inspector/downloads/SCCI_RH_CAD_Native.zip": {
+      "sha256": "c6833e78e0c762416e0e7e8307ae210cf1d93f5a47fcded46a6208af6f32a244",
+      "text_normalized": false
+    },
+    "inspector/downloads/SCCI_RH_contact-router.step": {
       "sha256": "e7693ec304c93162fffdcfe8ea65f06528c5ac9eb483f30d89f690eccab45982",
       "text_normalized": false
     },
-    "inspector/downloads/ATO_controller-carrier.step": {
+    "inspector/downloads/SCCI_RH_controller-carrier.step": {
       "sha256": "45626fe2948522979ba715095dc42c84b8ec5419f2a43474908ec954be5d05f2",
       "text_normalized": false
     },
-    "inspector/downloads/ATO_current-driver.step": {
+    "inspector/downloads/SCCI_RH_current-driver.step": {
       "sha256": "5f6d3b11f88a4778a733e75142d26aae26efaebebddc4dd22f601a94b9d29225",
       "text_normalized": false
     },
-    "inspector/downloads/ATO_Future_Interface.step": {
+    "inspector/downloads/SCCI_RH_Future_Interface.step": {
       "sha256": "5ab3f5dc211af366afbfa668ae5d59eb0be75a1bd99327b2e90f09323a4ae7f1",
       "text_normalized": false
     },
-    "inspector/downloads/ATO_Integrated_Schematics.pdf": {
-      "sha256": "51576a6f031ea4a4a6da7bb6bc97c55865deb3551bc3f63747450121ef482fe3",
+    "inspector/downloads/SCCI_RH_Integrated_Schematics.pdf": {
+      "sha256": "0d3b9ce151b87fcb9c94fc9286ac51f049bfd79a50a7442e6790863d7ff06560",
       "text_normalized": false
     },
-    "inspector/downloads/ATO_Mechanical_Review.pdf": {
-      "sha256": "a4375223084c3debeb29b1dc566e067f169c7b941056b1e057b9ce91595e3d04",
+    "inspector/downloads/SCCI_RH_Mechanical_Review.pdf": {
+      "sha256": "f6bcd0781aa96807f7a8b05d1f8e0f3965a98f533ebe460122aa8ee6ae19e370",
       "text_normalized": false
     },
-    "inspector/downloads/ATO_monitoring-cell.step": {
+    "inspector/downloads/SCCI_RH_monitoring-cell.step": {
       "sha256": "6b619d12130f320e515c1fea625d8bef4ea0f332f04700ac538a6309705c9c49",
       "text_normalized": false
     },
-    "inspector/downloads/ATO_monitoring-transport.step": {
+    "inspector/downloads/SCCI_RH_monitoring-transport.step": {
       "sha256": "576a653f0ec784a6ad53c70117b10b0ae27c062a1bb314520b1fe2ec049b28ab",
       "text_normalized": false
     },
-    "inspector/downloads/ATO_power.step": {
+    "inspector/downloads/SCCI_RH_power.step": {
       "sha256": "599cf8072a973fb3b5d8fe22dd7e22243dcb98f762ddb69658814c0e0aa44dc7",
       "text_normalized": false
     },
-    "inspector/downloads/ATO_recording-front-end.step": {
+    "inspector/downloads/SCCI_RH_recording-front-end.step": {
       "sha256": "fbc5878132fde732e141ec2146dca31b9b2bf8581af18ab782bb5430c3975685",
       "text_normalized": false
     },
-    "inspector/downloads/ATO_Reference_Complete_STEP.zip": {
-      "sha256": "e21691f2578cebda36624e962d301fabbaac7e1b93ebb0d135f8049876fdb07f",
+    "inspector/downloads/SCCI_RH_Reference_Complete_STEP.zip": {
+      "sha256": "531498854dcdfe8a55146fb5b090038c95e8c4df3a90666ecb56db60fd606882",
       "text_normalized": false
     },
-    "inspector/downloads/ATO_supervision.step": {
+    "inspector/downloads/SCCI_RH_supervision.step": {
       "sha256": "d29140bdda3f57c6dd43d621d389aae04ed2edef23fda52a071b5965062a39ad",
       "text_normalized": false
     },
-    "inspector/downloads/KiCad-ATO-native-projects.zip": {
-      "sha256": "c5c415c6bae0d1381df844d89d5751c5c324f44a938063e996be608385eb1a7e",
-      "text_normalized": false
-    },
     "inspector/downloads/SHA256SUMS.txt": {
-      "sha256": "c3342f53e972837761021ceb87585f5f054c5c946ab1405baf7196b502227865",
+      "sha256": "5463bdae32070968fe8fb1746ed651583512aa3005b0147a1fb23a6a6ce85e2d",
       "text_normalized": true
     },
     "inspector/fallback.html": {
-      "sha256": "4382d707bf7803a47c666d62198276b4f4feac97085043427380b283e4a24689",
+      "sha256": "87763f6af79b7f62af23e66c9004c23d320fda3b22e106d6287d072ee18775c9",
       "text_normalized": true
     },
     "inspector/index.html": {
-      "sha256": "ccdb14beaa795ef71ec8c547191adf9bdef115e39d314fa289473ff14c3c33f9",
+      "sha256": "fc3f13a66e0d11bfd8798d67c8fc5d247d221906badf20529c5e6dcc5cbcb498",
       "text_normalized": true
     },
     "inspector/pcb/contact-router.html": {
-      "sha256": "5277f84bec4ec2bad983e33982c1a6881f9b6fd80ac82e0da531c7836a50a844",
+      "sha256": "1334b510c178904ec642f2128fcf49305e21f5e2ecb6fdcd9f4f1641fad93991",
       "text_normalized": true
     },
     "inspector/pcb/controller-carrier.html": {
-      "sha256": "92443d89d67183c6b4ec2982d0a0635a7fa6385e29e10aa97ac421ab185878c5",
+      "sha256": "e486b6168a79b963c735454c40eb6a70ee669add2e936824e703fb5073fab9ba",
       "text_normalized": true
     },
     "inspector/pcb/current-driver.html": {
-      "sha256": "9a7a68d315971c5372cac4f7fd7d75766adef1ad261e933ae2f75a845bab4352",
+      "sha256": "425b8ada28f7c225918f8e5f1900987502735409ca15046b3d3b2ab32741fac8",
       "text_normalized": true
     },
     "inspector/pcb/monitoring-cell.html": {
-      "sha256": "85f90393be6ce718ca7be50c3277900157415eb8f0f148068255f35108a30c75",
+      "sha256": "e2829c5b010ef5ad6fac7d56e58bcd4a1d4370f2d1c0af369e0c32bbeb7a52f0",
       "text_normalized": true
     },
     "inspector/pcb/monitoring-transport.html": {
-      "sha256": "7693adb42c97c261ddf8f4e38b3d354294795a5db360bcac92e037189ba2f8dc",
+      "sha256": "02f481ab9721e130c8270e19f9aafafcf17a5bf5b6ed625fc346546ee8c85081",
       "text_normalized": true
     },
     "inspector/pcb/power.html": {
-      "sha256": "04b08b9957f82ae62bce178fbc4fae9d2e5363967c87dc9bfdf5a8f16db16c03",
+      "sha256": "8772a7bee2eadfaaf7748b8c0fe1c9c5ead2fa0e63f4acd35c9cca66d13c33c0",
       "text_normalized": true
     },
     "inspector/pcb/recording-front-end.html": {
-      "sha256": "f6cbab4abb320b58a5d7ffe09b27921d42b544667ea931b5db7a50e08625f4c9",
+      "sha256": "8fc0c67b2d2735cb0d82d6b3eb38284246ec3f02432d88293a35b1a8171cb027",
       "text_normalized": true
     },
     "inspector/pcb/supervision.html": {
-      "sha256": "f720d4ecfd3988307d9261a9c7f11a08fa6fac275f6010a6b549053ae0b3eab4",
+      "sha256": "7f95b709f271132e5a0b1d5443d2743c98fb762dd1b1bdd8de4294ee5fe7acdd",
       "text_normalized": true
     },
     "inspector/README.md": {
-      "sha256": "9fd20e3d4ec70cb36aeb5c65b40df383a30ad923a3be8f46f76cdf96ddcb6664",
+      "sha256": "bef54f0d89976fe0bcc21c827d604642220891cda3864da26a73c61df97c7470",
       "text_normalized": true
     },
     "inspector/vendor/ibom/InteractiveHtmlBom/.gitattributes": {
@@ -1318,19 +1329,19 @@
       "text_normalized": true
     },
     "LICENSE": {
-      "sha256": "bf57184149c97e390ba754e0b5751d4d7ba9115fe6b3b9adac18367c90d6b739",
+      "sha256": "1379d8d91044bd532cd6931888cf25afa8501e6595d3001eafbcd9d16196a2d7",
       "text_normalized": true
     },
     "manuscript/stage6/build-manifest.json": {
-      "sha256": "2c909ad83a1e77e4497f3f22536e1fbf48727e8f526ffb1efaabbdc57e48d312",
+      "sha256": "764fd24c82b9247ba4a5bb484a84a97b6c2f3694a3839f34b6e6c749e5a7b28b",
       "text_normalized": true
     },
     "manuscript/stage6/build_figures.py": {
-      "sha256": "2dcb60a50b033258bcd4467530f35843c62a6f540d074cf03a630c7461a7ff15",
+      "sha256": "b4871d6616200de32018386e71577d6e757b885218556b220b2812fc18ee92a9",
       "text_normalized": true
     },
     "manuscript/stage6/build_manuscript.py": {
-      "sha256": "eea07d24090f3315a82d5f802582fd3241a5c208720a23904af13b2f84fc4f63",
+      "sha256": "2aff392cd840b6d2d52c91fbc510c14c64551f5aa7f1c619a998a3dd402d4523",
       "text_normalized": true
     },
     "manuscript/stage6/figures/01_system.png": {
@@ -1338,7 +1349,7 @@
       "text_normalized": false
     },
     "manuscript/stage6/figures/01_system.svg": {
-      "sha256": "6b108e8e7ef9474acceeece836aff612ce547928b00fce8f082e762a263963ad",
+      "sha256": "51c58b889ecc112b242d91ccfa5f37e0ecbbc5d128b80086003368bdc1894729",
       "text_normalized": true
     },
     "manuscript/stage6/figures/02_learning.png": {
@@ -1346,7 +1357,7 @@
       "text_normalized": false
     },
     "manuscript/stage6/figures/02_learning.svg": {
-      "sha256": "3af05c37de0b48e3e79d7e17bf912d02f89b59b9779413c0d954ca79775a01c9",
+      "sha256": "c5e40ba8d55e245be5fd12ec2dc459d1aff7c774e10ca465adb09c03e3d53533",
       "text_normalized": true
     },
     "manuscript/stage6/figures/03_pressure.png": {
@@ -1354,7 +1365,7 @@
       "text_normalized": false
     },
     "manuscript/stage6/figures/03_pressure.svg": {
-      "sha256": "9067a47c149a536b741e3568938eda7b9920c7ba2478400bd8a28459620c2fb1",
+      "sha256": "ca8e7d46fc31cbd76a827343569b9d400dab29125bee9435616d397ada648e63",
       "text_normalized": true
     },
     "manuscript/stage6/figures/04_conditional_learning.png": {
@@ -1362,7 +1373,7 @@
       "text_normalized": false
     },
     "manuscript/stage6/figures/04_conditional_learning.svg": {
-      "sha256": "c36581090da02f59d09879feca8c337e5dc1a8d7f76aba3bc3c795542ccc19a7",
+      "sha256": "3eaae8f819686012f82bb27506e6121ce7f2b611f4cfb013dc8b26a673e2cc8a",
       "text_normalized": true
     },
     "manuscript/stage6/figures/05_exposure.png": {
@@ -1370,7 +1381,7 @@
       "text_normalized": false
     },
     "manuscript/stage6/figures/05_exposure.svg": {
-      "sha256": "43ac3510e09f7359356e7eed8bbf83c16990e1871100ef629ea9437d32cf5e3a",
+      "sha256": "768674322d1f8daf38b6e8b6827e90f4896232d1eb7159e41b7784750c75c141",
       "text_normalized": true
     },
     "manuscript/stage6/figures/06_pressure_tradeoff.png": {
@@ -1378,7 +1389,7 @@
       "text_normalized": false
     },
     "manuscript/stage6/figures/06_pressure_tradeoff.svg": {
-      "sha256": "e3aa156432a0ead56336365557b595e9e5bac4b1d9ab0f797827ab46fb14015c",
+      "sha256": "c60ec2ae8f7658276af93fccce7769f4764ba3c15666dcd91fb14a6aad356b7e",
       "text_normalized": true
     },
     "manuscript/stage6/figures/07_integration.png": {
@@ -1386,15 +1397,15 @@
       "text_normalized": false
     },
     "manuscript/stage6/figures/07_integration.svg": {
-      "sha256": "59df5835eeab484fc310a93767dfdbacf97ec6bac129097ef759c7c25b8e74b0",
+      "sha256": "010f80a2f3ee8a9422db3e6f08e324ad3424b5774cbf382ece6ac5f4a516ad10",
       "text_normalized": true
     },
     "manuscript/stage6/figures/08_evidence.png": {
-      "sha256": "7a1ad0164f7183aebd771814fb8b43efc32f1059a01daec7f52b8737ba586d9d",
+      "sha256": "23537e91b5728a7b84559bbeab35bbc47cc7a746f48c0577fceeb1ffb28f045c",
       "text_normalized": false
     },
     "manuscript/stage6/figures/08_evidence.svg": {
-      "sha256": "ebc6f21a3413c9fc2508897bf72a54ed32f378abb5031f3c6640f0d22d5e9aa5",
+      "sha256": "afc329fa2e8e976834800918e4e9dd7bca08d5892191c42720bcea587a24bfef",
       "text_normalized": true
     },
     "manuscript/stage6/figures/09_runtime.png": {
@@ -1402,63 +1413,63 @@
       "text_normalized": false
     },
     "manuscript/stage6/figures/09_runtime.svg": {
-      "sha256": "15653227944f0d9e3e0682718d9c89ac2a3904ed83840d8177035a31c80b2ec7",
+      "sha256": "2f7a4f79c847b29fe0615d0bc3e115387ed971d05d3b64fe23adf28faaeb145c",
       "text_normalized": true
     },
     "manuscript/stage6/figures/figure-manifest.json": {
-      "sha256": "a413d1aaac925227804a9c9cd97957b28c90f5b897a14ae635682700a328a204",
+      "sha256": "2ae1fe0437ed7bbe839b604129cfe63105368895ba5a09f489ddf3e0f586258e",
       "text_normalized": true
     },
     "manuscript/stage6/manuscript.md": {
-      "sha256": "805d9c5138ade770c13d5af177ee6e3de113dbb5a9a9ecc5b36faca8af5424b9",
+      "sha256": "f16f2f75af22c8a598665e7b9b7b8d64eae3e3e0d3657b6c5a18ed3a998e7085",
       "text_normalized": true
     },
-    "output/pdf/Project_ATO_Integrated_Manuscript.pdf": {
-      "sha256": "794abbd003d620ac901e1ccfdca49adf4ea04e7d060533a2b620718144935ed9",
+    "output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf": {
+      "sha256": "66a77d7f84566c6f1e875849dbaa742595a4fae96d718aec8fdc1ea3fb60f3b4",
       "text_normalized": false
     },
     "provenance/browser-inspector-verification.json": {
-      "sha256": "2d979c653f702ad9501f82270344223ce6a7e750accb1b3e286ba73d000611b6",
+      "sha256": "d661d333a5000365e1adc5c08fc5c9eab09ca7f75ee25867b28b4d3fd79ed263",
       "text_normalized": true
     },
     "provenance/stage3-conditional-concept-review.json": {
-      "sha256": "93c89dddb9ecf6304f198bbe95b6fe9ce6ab6e3a8a7278a2b7529d88cc984c11",
+      "sha256": "a773002e5168ead32f7532d427e134f3d547acd38b4a1cc87a4d7726ad3be99f",
       "text_normalized": true
     },
     "provenance/stage4-integrated-pcb-verification.json": {
-      "sha256": "9bb78e27f09a2f59094672e96155bdd673299f9577b463cdd108b848b494ca5a",
+      "sha256": "5d87dd5603822446580659b73b7fcaef7b37d19a6206c23407f5801dc7bbb33a",
       "text_normalized": true
     },
     "provenance/stage5-delivery-review.json": {
-      "sha256": "59651cb641b0bf9a462ab772e97e5cf2e80c57dbb29305589a71dd0586af1c13",
+      "sha256": "a38480374e4d9c1feed8c5b58ce4e85eb5e828028cf114b9751220c1836c3172",
       "text_normalized": true
     },
     "provenance/stage5-mechanical-verification.json": {
-      "sha256": "74499c4f9fdd3d17e6a109aee0f8d8af2af3ce56e002b55117381abdd2c6a4e2",
+      "sha256": "58e4c53a484249fb15ae2aec2608b320ff976c6f53cdc8bfbe3b37568f6d3b34",
       "text_normalized": true
     },
     "provenance/stage6-document-review.json": {
-      "sha256": "4463e12ca64af2197d44eb5e212c8279b8341b350914978a0baa3e5d569e8cc0",
+      "sha256": "0174b66255a56088a5f318a71fec881b6e9e280957d56a6876db878edbfc4dca",
       "text_normalized": true
     },
     "provenance/viewer-navigation-verification.json": {
-      "sha256": "874b17c502f22b7d735af597b0ce59a19aceb5a6a6c69f4cb413c7b6692ced5d",
+      "sha256": "4ec80ebea602858feaaeae7d5c780f5a477ffcc577ff243aba7a657edb966034",
       "text_normalized": true
     },
     "README.md": {
-      "sha256": "cd77ead36194f335ee0dd8e957d2054288a3fe1fdb5f339f75d270809c77fdb5",
+      "sha256": "2cbd6db14a946556a0a2c325f0f65de59f5ccf062bab5dc6286350c62b4358ed",
       "text_normalized": true
     },
     "results/stage6/digital-path-verification.json": {
-      "sha256": "6f4effd8f773700925caf5d826f4568d34f3c8728c7c8177b32782a2a7f32fc6",
+      "sha256": "813fc9a27a6f616a67f5cf3e6162eecb359c0986d95f9db0b113dad18f49ca5e",
       "text_normalized": true
     },
     "results/stage6/integration-summary.json": {
-      "sha256": "c5e329cd5b6b1e314096572487f3e37f1d030ad055000dfa3e364ac19805bfdf",
+      "sha256": "6846e11e3f17c220356800640811f8c6b95c06b59a76ba72c5f5915671e6858d",
       "text_normalized": true
     },
     "scripts/build_reader_previews.py": {
-      "sha256": "98ea3fcd3c8f93d6fbb90cbfb6e45e6c6fb679a694d8c3dd58aada7e246ff9ac",
+      "sha256": "1ac3ec568486c9bd671daa5a62a7811a66537bb5cc3eeb574403337c2b6f919b",
       "text_normalized": true
     },
     "scripts/inspector/audit_electronics_geometry.py": {
@@ -1466,15 +1477,15 @@
       "text_normalized": true
     },
     "scripts/inspector/build_cad_assets.py": {
-      "sha256": "7015a156cccf8451a3b76e5a636bad6ddff4a4c13128bae03d0e4a95ee51e18c",
+      "sha256": "0fcbb9a18d8a89d12eff74abbcb0709e6311ad50fb5909726617868eaad26c60",
       "text_normalized": true
     },
     "scripts/inspector/build_catalog.py": {
-      "sha256": "c8f060666a1c19a311ad2bad874f90978af60b79fa174af46d5fb253f2b09800",
+      "sha256": "ccfb1d6b313b1311d3856cae5dd265ee659b2f556ed8c0824ecdd06247788ede",
       "text_normalized": true
     },
     "scripts/inspector/build_electronics_assets.py": {
-      "sha256": "9369d42ac5e209432a7ace04d8f818ae2c03a5d2a7f5e7af1b5e45521fc7707c",
+      "sha256": "fdfa44585133f8557acae874778e3877dfeefb3952d4e7dde0f91dae00c39e26",
       "text_normalized": true
     },
     "scripts/inspector/check_three_loader.mjs": {
@@ -1482,7 +1493,7 @@
       "text_normalized": true
     },
     "scripts/inspector/serve_inspector.py": {
-      "sha256": "bbea6c2008eef8743041e081c26deb71d3234eea6b893ac67500049cc48e0c0c",
+      "sha256": "94ebb84cb6520286a0ab38e1d30f367b5071230658f5490f1988478ad5886a0e",
       "text_normalized": true
     },
     "scripts/inspector/vendor_three.py": {
@@ -1490,27 +1501,31 @@
       "text_normalized": true
     },
     "scripts/inspector/verify_inspector.py": {
-      "sha256": "6e41eb7c699595a5be5a783e9fd459c9609195b37a37b0ef03484f0b844e2ec4",
+      "sha256": "5240f26faf07ae25f9a0f0ad003e31983f29538b4b6c2a8b7b5471a39e75ad87",
+      "text_normalized": true
+    },
+    "scripts/project_branding.py": {
+      "sha256": "cb1f8cb5f1d3f362bea6e483b03c69493d2851024168b53d1ec221079d39bdd9",
       "text_normalized": true
     },
     "scripts/stage6/runtime_bridge.c": {
-      "sha256": "3bf4d7b6f6a479070bf07980eba977583d7957788faf6b7700c6a2e180f56a0c",
+      "sha256": "abb104b7132e8dd72cfe50c975c6ece00f6f846f64b39d0d848ef153a1f82327",
       "text_normalized": true
     },
     "scripts/stage6/verify_digital_path.py": {
-      "sha256": "ea401016bdd765e11bfe55d0df4dca7725efb0bf4fc60bc811ecc25189eb4f73",
+      "sha256": "c5e91de0c37296c7e66e89cdd3ef7a431c8f89fbb246cb37618487e5135e4b5e",
       "text_normalized": true
     },
     "scripts/verify_stage6_release.py": {
-      "sha256": "81d8f4a0378e3a6427ef44dca2b2ca78c1bef34a9c71880ac6703400e6659288",
+      "sha256": "86d789b0c7864932f46c166b0c3754820ad62f5a94312f8b757e647afe0d8d22",
       "text_normalized": true
     },
     "scripts/verify_viewer_navigation.py": {
-      "sha256": "ccdcf6a2155d0096dfdd824219d0ec783893b81c3c12c5609b899e2d5e30e197",
+      "sha256": "c31d9beaabf059eda43e840c9ea769d28ff5733b97201b6ba8f836fd58796e4c",
       "text_normalized": true
     },
     "START_HERE.md": {
-      "sha256": "ec4c59d1bf69901f9badf174a77f78f7589b1a018162fe66f677a8457ee62e3e",
+      "sha256": "2e58cbe3b0b56f0be4ba7f46ec1c2a48c4491a79df3310e55a793ca7ac2f372f",
       "text_normalized": true
     }
   },

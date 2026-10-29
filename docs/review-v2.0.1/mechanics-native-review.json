@@ -1,5 +1,5 @@
 {
-  "schema": "ato.current-mechanical-review.v1",
+  "schema": "scci_rh.current-mechanical-review.v1",
   "date": "2026-10-17",
   "application": "FreeCAD 1.1.4",
   "method": "Fresh saved documents opened and inspected through the installed genuine FreeCAD MCP bridge; no source saved or modified",
@@ -7,8 +7,8 @@
   "reference": {
     "scope": "Fresh saved native application review; source-bound prior clearance receipts replayed separately",
     "document": {
-      "name": "ATO_stage5_reference_full",
-      "file": "cad/stage5/ATO_stage5_reference_full.FCStd",
+      "name": "SCCI_RH_stage5_reference_full",
+      "file": "cad/stage5/SCCI_RH_stage5_reference_full.FCStd",
       "objects": 825
     },
     "physical_count": 260,
@@ -27,7 +27,7 @@
           185.0,
           188.155
         ],
-        "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+        "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
         "source_object": "PCB_contact_router"
       },
       {
@@ -41,7 +41,7 @@
           180.0,
           188.155
         ],
-        "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+        "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
         "source_object": "PCB_controller_carrier"
       },
       {
@@ -55,7 +55,7 @@
           185.0,
           138.155
         ],
-        "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+        "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
         "source_object": "PCB_current_driver"
       },
       {
@@ -69,7 +69,7 @@
           175.0,
           88.155
         ],
-        "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+        "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
         "source_object": "PCB_monitoring_cell"
       },
       {
@@ -83,7 +83,7 @@
           170.0,
           138.155
         ],
-        "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+        "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
         "source_object": "PCB_monitoring_transport"
       },
       {
@@ -97,7 +97,7 @@
           215.0,
           91.21499999999999
         ],
-        "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+        "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
         "source_object": "PCB_power"
       },
       {
@@ -111,7 +111,7 @@
           220.0,
           38.155
         ],
-        "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+        "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
         "source_object": "PCB_recording_front_end"
       },
       {
@@ -125,7 +125,7 @@
           280.0,
           38.155
         ],
-        "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+        "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
         "source_object": "PCB_supervision"
       }
     ],
@@ -219,14 +219,14 @@
         ]
       }
     ],
-    "source_sha256": "b4323834775d269d458726106929aa30a197aebb93b7eb6c6f7e9e23f49f386b"
+    "source_sha256": "2b39d33d30866d3fa0e9cd9d0ad7f20405466cda20d8cbe907a66c2278f1d355"
   },
   "future": {
     "scope": "Fresh read-only native application review, not mechanical qualification",
     "before": [],
     "document": {
-      "name": "ATO_future_interface",
-      "file": "cad/stage5/future-interface/ATO_future_interface.FCStd",
+      "name": "SCCI_RH_future_interface",
+      "file": "cad/stage5/future-interface/SCCI_RH_future_interface.FCStd",
       "objects": 251
     },
     "physical_count": 230,
@@ -288,7 +288,7 @@
       "construction": 4,
       "allocation": 6
     },
-    "source_sha256": "b148467eac2c00497052cd0e4f5290d8ea1290199ef06559fb583aaac3b5499c"
+    "source_sha256": "3a1cfb5a59855442214772e50dab670c403e6326e929de8362b37037723158ba"
   },
   "screenshots": {
     "mechanics-reference-native.png": {

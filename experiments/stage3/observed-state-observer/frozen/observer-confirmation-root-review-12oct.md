@@ -10,9 +10,9 @@ Root review message:
 > runtime observations, fixed coverage/horizons, fullsrc byte manifest, immutable
 > preflight, original observer/method bindings, unchanged gates and no-dose-only
 > interpretation. Approved producer
-> e177eb4837bbb437b8150a1a8a4daf9ee172719b6e3a2d407642771ac18d7c3d;
-> protocol53658e9566216ab0358918cd2dc131dcb9aa6757987052001fd4d73319c4babf;
-> receipt57c00950e44aee7c674f34a1335fd79f816f8ca09ce64ae66ce9916cf9bd3916.
+> 7c7729caa49cac204c2edc8be81bc9ba11e3ae6b4ec2bd26ac129c18b087978d;
+> protocol32cbc703e850983dc0032a1b1000fac6d68e323b503917f03c2bddd6cac3f608;
+> receipt6e4725e801f3e7e9eb88d0c9e40520c6ea0b462f9776cf4adb5831d6d6dcbac0.
 > Save exact review record in tmp/observer-confirmation-root-review-12oct.md
 > BEFORE running, then execute one --run-after-root-review referencing that file.
 > No refit or revisions after outcomes. Report full coverage/failures and preserve

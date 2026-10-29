@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/boards/supervision/supervision-repair.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "e88b4784b966266b51273ba9c2c2a055a58f25c63b05cd03a8bbc4410d10928d",
+  "current_sha256": "b92141c985f4159bc49f00bca516dff2a885bc7fdea0999fd86ade4b4dcbbc7d",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

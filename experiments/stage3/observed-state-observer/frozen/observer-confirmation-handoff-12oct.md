@@ -51,7 +51,7 @@ before the single generation command. There was one confirmation run, no refit,
 no additional variant and no post-outcome source/settings/gate revision.
 
 The independent saved-data auditor regenerated no body or noise. It verified all
-21 `src/ato/**/*.py` source byte hashes, original observer/method/calibration
+21 `src/scci_rh/**/*.py` source byte hashes, original observer/method/calibration
 bindings, all raw segment hashes, exact future measured labels, all915,200
 residuals, maxima/allocations/witnesses, complete coverage and the conservative
 cohort aggregate. It checked the saved shared noise's float64 hash and its
@@ -70,9 +70,9 @@ the optional producer `--check-after-root-review` exists but was not run here.
 
 ## Exact dependencies and portable layout
 
-All paths below are relative to `E:/Project ATO/`; files actually remain in tmp.
+All paths below are relative to `E:/Project SCCI RH/`; files actually remain in tmp.
 The frozen observer expects its original filenames under study-root/tmp. The
-producer expects the full verified `src/ato` tree under study-root/src. A later
+producer expects the full verified `src/scci_rh` tree under study-root/src. A later
 portable driver can construct this scratch layout without changing the frozen
 algorithm. Since its full source manifest is immutable, a later changed source
 tree must not silently be used; preserve/recover the pinned source bytes.
@@ -126,14 +126,14 @@ The desktop cache's maximum1,638,400-byte float64 payload exceeds the proposed
 
 | Artifact | SHA256 |
 | --- | --- |
-| Observer source | `cbb2d6aa5a466261e372d1071cccf908983c8dbe8eeb8001b1d20428ed2362af` |
-| Method receipt | `73a26e74e91f738fbc2f90e30655eaa0987a1e0d1ab905feb3b7aea52622e07a` |
-| Confirmation producer/evaluator | `e177eb4837bbb437b8150a1a8a4daf9ee172719b6e3a2d407642771ac18d7c3d` |
-| Confirmation protocol | `53658e9566216ab0358918cd2dc131dcb9aa6757987052001fd4d73319c4babf` |
-| Immutable confirmation preflight | `57c00950e44aee7c674f34a1335fd79f816f8ca09ce64ae66ce9916cf9bd3916` |
-| Confirmation summary | `35b8ce93e700afc2670a6a4fc11f65aadd2c01f49e7bf3ae9414469d5bfb0330` |
-| Saved-data auditor source | `805183489435c3bed33608956de77c6816acdacd5eb169a3fa80dc1a1dc95ef8` |
-| Saved-data audit result | `fd9bcf1f54538fc788dfacf9a9aecd8931ebc51403414f99d1c86cfdffb8e3b2` |
+| Observer source | `203a5bdd90ae20a67f1b6475b47c31a73880d96a5c4434957b51f28a2f767c44` |
+| Method receipt | `1157a4490d4455faba6773fe447560b22c218db852efe65fc95c180f373dce7f` |
+| Confirmation producer/evaluator | `7c7729caa49cac204c2edc8be81bc9ba11e3ae6b4ec2bd26ac129c18b087978d` |
+| Confirmation protocol | `32cbc703e850983dc0032a1b1000fac6d68e323b503917f03c2bddd6cac3f608` |
+| Immutable confirmation preflight | `6e4725e801f3e7e9eb88d0c9e40520c6ea0b462f9776cf4adb5831d6d6dcbac0` |
+| Confirmation summary | `89d79c3d3eb3dafb62964ed4d15ae922c4a1b7e775ea612d8b9d7d1c0cb65a59` |
+| Saved-data auditor source | `6653be722ec0a68f6abd9336f55eee3e02bb449c7f1961cc466e320f6310fb10` |
+| Saved-data audit result | `7445513077279442f4132166adaadd6467f21bba4a24a9ea819db7b67960989e` |
 
 Per-pair raw hashes are in the confirmation summary and saved-data audit.
 

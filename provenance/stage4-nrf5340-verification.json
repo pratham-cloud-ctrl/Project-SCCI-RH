@@ -1,17 +1,18 @@
 {
-  "schema": "ato.stage4.nrf5340-independent-verification.v1",
-  "date": "2026-10-14",
+  "schema": "scci_rh.stage4.nrf5340-independent-verification.v1",
+  "date": "2026-10-28",
+  "original_design_date": "2026-10-14",
   "passed": true,
   "checks": 128,
   "evidence": "independent ELF32 parser, source/export bindings, GPIO/native/XML and peripheral ownership checks; no target execution",
-  "elf_sha256": "35a692538a86174bfa080b2f0682f7982bc57d16d815fceacf25cbcd3d4806e5",
+  "elf_sha256": "a77b7da7ecf12d0b00cbb22fc6c0ba5383ebd12e27b8fc022dd7d3343dd16ecd",
   "entry_hex": "0x33e9",
   "RAM_allocated_section_bytes": 97991,
   "RAM_extent_bytes": 98000,
   "RAM_physical_capacity_bytes": 524288,
   "RAM_linker_capacity_bytes": 458752,
   "RAM_20percent_headroom_pass": true,
-  "flash_LOAD_extent_bytes": 53616,
+  "flash_LOAD_extent_bytes": 54040,
   "compiled_core_tests": {
     "scenarios": 75,
     "assertions": 713,
@@ -334,132 +335,132 @@
     "physical_WCET_or_jitter_measured": false,
     "policy": "actual aperture brackets and missed-slot/gap counters required; never reconstruct a missed measurement as valid"
   },
-  "linked_ato_functions": {
-    "ato_backend_init": {
-      "address": 3589,
-      "size": 1264
-    },
-    "ato_backend_now_us": {
-      "address": 2241,
-      "size": 100
-    },
-    "ato_backend_service": {
-      "address": 4853,
-      "size": 3308
-    },
-    "ato_backend_stop": {
-      "address": 2133,
-      "size": 108
-    },
-    "ato_runtime_command": {
-      "address": 9161,
-      "size": 244
-    },
-    "ato_runtime_configure": {
-      "address": 38197,
-      "size": 122
-    },
-    "ato_runtime_crc32": {
-      "address": 8405,
-      "size": 56
-    },
-    "ato_runtime_event": {
-      "address": 38959,
-      "size": 350
-    },
-    "ato_runtime_extend_ticks": {
-      "address": 40273,
-      "size": 46
-    },
-    "ato_runtime_health": {
-      "address": 38319,
-      "size": 104
-    },
-    "ato_runtime_init": {
-      "address": 38155,
-      "size": 42
-    },
-    "ato_runtime_phase_end": {
-      "address": 39527,
-      "size": 128
-    },
-    "ato_runtime_phase_ready": {
-      "address": 39309,
-      "size": 82
-    },
-    "ato_runtime_phase_start": {
-      "address": 39391,
-      "size": 136
-    },
-    "ato_runtime_queue_drain": {
-      "address": 40205,
-      "size": 32
-    },
-    "ato_runtime_queue_push": {
-      "address": 40085,
-      "size": 120
-    },
-    "ato_runtime_raw_identity": {
-      "address": 39929,
-      "size": 156
-    },
-    "ato_runtime_rearm": {
-      "address": 38541,
-      "size": 152
-    },
-    "ato_runtime_recovery_begin": {
-      "address": 38423,
-      "size": 118
-    },
-    "ato_runtime_route_prepare": {
-      "address": 38693,
-      "size": 140
-    },
-    "ato_runtime_route_readback": {
-      "address": 38833,
-      "size": 126
-    },
-    "ato_runtime_sbp": {
-      "address": 8461,
-      "size": 700
-    },
-    "ato_runtime_session": {
-      "address": 8213,
-      "size": 192
-    },
-    "ato_runtime_take_actions": {
-      "address": 40237,
-      "size": 36
-    },
-    "ato_runtime_tick": {
-      "address": 39655,
-      "size": 274
-    },
-    "ato_runtime_trip": {
-      "address": 37923,
-      "size": 166
-    },
+  "linked_scci_rh_functions": {
     "main": {
       "address": 1093,
       "size": 80
+    },
+    "scci_rh_backend_init": {
+      "address": 3589,
+      "size": 1264
+    },
+    "scci_rh_backend_now_us": {
+      "address": 2241,
+      "size": 100
+    },
+    "scci_rh_backend_service": {
+      "address": 4853,
+      "size": 3308
+    },
+    "scci_rh_backend_stop": {
+      "address": 2133,
+      "size": 108
+    },
+    "scci_rh_runtime_command": {
+      "address": 9161,
+      "size": 244
+    },
+    "scci_rh_runtime_configure": {
+      "address": 38197,
+      "size": 122
+    },
+    "scci_rh_runtime_crc32": {
+      "address": 8405,
+      "size": 56
+    },
+    "scci_rh_runtime_event": {
+      "address": 38959,
+      "size": 350
+    },
+    "scci_rh_runtime_extend_ticks": {
+      "address": 40273,
+      "size": 46
+    },
+    "scci_rh_runtime_health": {
+      "address": 38319,
+      "size": 104
+    },
+    "scci_rh_runtime_init": {
+      "address": 38155,
+      "size": 42
+    },
+    "scci_rh_runtime_phase_end": {
+      "address": 39527,
+      "size": 128
+    },
+    "scci_rh_runtime_phase_ready": {
+      "address": 39309,
+      "size": 82
+    },
+    "scci_rh_runtime_phase_start": {
+      "address": 39391,
+      "size": 136
+    },
+    "scci_rh_runtime_queue_drain": {
+      "address": 40205,
+      "size": 32
+    },
+    "scci_rh_runtime_queue_push": {
+      "address": 40085,
+      "size": 120
+    },
+    "scci_rh_runtime_raw_identity": {
+      "address": 39929,
+      "size": 156
+    },
+    "scci_rh_runtime_rearm": {
+      "address": 38541,
+      "size": 152
+    },
+    "scci_rh_runtime_recovery_begin": {
+      "address": 38423,
+      "size": 118
+    },
+    "scci_rh_runtime_route_prepare": {
+      "address": 38693,
+      "size": 140
+    },
+    "scci_rh_runtime_route_readback": {
+      "address": 38833,
+      "size": 126
+    },
+    "scci_rh_runtime_sbp": {
+      "address": 8461,
+      "size": 700
+    },
+    "scci_rh_runtime_session": {
+      "address": 8213,
+      "size": 192
+    },
+    "scci_rh_runtime_take_actions": {
+      "address": 40237,
+      "size": 36
+    },
+    "scci_rh_runtime_tick": {
+      "address": 39655,
+      "size": 274
+    },
+    "scci_rh_runtime_trip": {
+      "address": 37923,
+      "size": 166
     }
   },
   "source_sha256_lf": {
-    "firmware/nrf5340/app/app.overlay": "60d735c9ffb6858c9cb8cbd9fac5ae3351b11f9ea48ab84dc9efa2b45ac441b9",
-    "firmware/nrf5340/app/CMakeLists.txt": "ed2e9d21874abe141791a4de8c149dc928dc68d35c56c08c97acc614f725b439",
+    "firmware/nrf5340/app/app.overlay": "67c5904eebe29cb66ff63c0c271cc15779577482bdcbfd058e60530155634418",
+    "firmware/nrf5340/app/CMakeLists.txt": "16afbed0e5a1921008bce14aa48bb6398737b69faa827f840a2f25a7cbb2e4f2",
     "firmware/nrf5340/app/prj.conf": "b10a365341c2781d3b8fee77d559feb4b2e8b51b31923219ef390c992997dfeb",
-    "firmware/nrf5340/app/README.md": "a738da556a87dc7dfed8eaf0b15bf8bc35ede55b94fc5fa6db891e7282ac3f9c",
-    "firmware/nrf5340/app/src/ato_backend.c": "74d32a85412ba735350d1fd0b1d470d0f4e8e2fb334dc448ec9c626e1cab3a90",
-    "firmware/nrf5340/app/src/ato_backend.h": "0b8f455d25b21b4b8056116615df434cffb22a96b3cde6cfe7e169e8af64ef0d",
-    "firmware/nrf5340/app/src/ato_pins.h": "bbbf274ed50d928fca8282eba663249a09365435d8a0ca100d4a847202acbb5f",
-    "firmware/nrf5340/app/src/main.c": "96bbf4534da48960a8992d710abf76919a5c76a5f023a2fefeb4b5e3dfdab523",
-    "firmware/nrf5340/core/ato_runtime.c": "ff0fe7daeb09e910d6be91840e94f717c425c30f74cc7a8fd87dab9d00be48f0",
-    "firmware/nrf5340/core/ato_runtime.h": "4717188ee12f39f4cc3d71a276dcfd654d99993b12b507399dbc6514d168e39f",
-    "firmware/nrf5340/core/README.md": "f3dd2d7ce8971bf352a2dd32710873ead8175cc6bb8d4b0e122c2333b49394d1",
-    "scripts/build_nrf5340.py": "8a3a5da3e18cf692f2b5010bef4b033d623011276187bcb01f9038171a85057d",
+    "firmware/nrf5340/app/README.md": "62215f46b9a439e0b73d82cec790003f62be68d3bf76f9adccd5cb48992c6e4f",
+    "firmware/nrf5340/app/src/main.c": "a91bef9c8f45d742dccdbb825c37e42b626405d9645cbfb2599c01484e1fe74f",
+    "firmware/nrf5340/app/src/scci_rh_backend.c": "72cc56f3ef19404e539ed100e0a5ef37bce00cd218c40342ceef7d421dc660d8",
+    "firmware/nrf5340/app/src/scci_rh_backend.h": "b01a4852fb0b04effbf235a0a65e471556a3be162f10cbd2c351b7708dcc9292",
+    "firmware/nrf5340/app/src/scci_rh_pins.h": "2a8645c0f39947b45c999e8307bb9eb8626879e73f60ce92bbb12796da9abd9e",
+    "firmware/nrf5340/core/README.md": "c094ee64ed5967bb1b4fac757c82003a1849919f683fdbcd6ffa6e1e7c9725f6",
+    "firmware/nrf5340/core/scci_rh_runtime.c": "7a180e154b71ca51f3a60d4696f4d17a857880e745cf1b0027e2221282373216",
+    "firmware/nrf5340/core/scci_rh_runtime.h": "0852f505a5fac6001607ce908203b3661cb212c9989dcc48de4c1612fc5ada64",
+    "scripts/build_nrf5340.py": "241ff11f34dfb18fc798c7ea7c6a5174f6fab3b47c889bc59866fa88f2e2c89c",
     "docs/stage4/nrf5340-pin-map.csv": "8b686ffd13fa9b95776cc7d34b1bfc67e5f650be1b2d5a2ec49bcf41e6d8bbf7",
-    "docs/stage4/nrf5340-component-and-peripheral-review.md": "baa3e0594092c19da4b39aa84bc649182332edb1a4a0b2945f302f23a2cbcfd5",
-    "scripts/verify_nrf5340.py": "d9062570646e31f74d361edb3d048729c09f40ce41123d1020490fb6c8da77c0",
-    "firmware/nrf5340/runtime-tests.json": "0066f97832750e4c9515dcd35013e44cd2c781a0dbfbed57803ec8a6fbe86f69"
+    "docs/stage4/nrf5340-component-and-peripheral-review.md": "45bff90ae0238dc85c17d51bc8861e719b2bae0cd6260da98de4ae4844b1bf58",
+    "scripts/verify_nrf5340.py": "8ae7aab3b754597114735df9e671de0e4f1874f5fe17c8427dbb074972fe4003",
+    "firmware/nrf5340/runtime-tests.json": "9037ce0ac4dee5b73860d999b7ace91b7907703049a45bd7384590b9ab3ac77f"
   }
 }

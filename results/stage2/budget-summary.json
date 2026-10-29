@@ -1,5 +1,5 @@
 {
-  "schema": "ATO-S2-budget-1",
+  "schema": "SCCI_RH-S2-budget-1",
   "date": "2026-10-08",
   "evidence_type": "Deterministic analytical allocations with declared assumptions; no hardware or biological measurements",
   "compute_and_transport": {

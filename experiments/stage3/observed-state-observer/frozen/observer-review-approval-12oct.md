@@ -5,10 +5,10 @@ receipt and independent propagation/causality/noise check outputs before this
 agent loaded or scored the sixteen development drift targets.
 
 Frozen implementation SHA256:
-`cbb2d6aa5a466261e372d1071cccf908983c8dbe8eeb8001b1d20428ed2362af`
+`203a5bdd90ae20a67f1b6475b47c31a73880d96a5c4434957b51f28a2f767c44`
 
 Frozen method receipt SHA256:
-`73a26e74e91f738fbc2f90e30655eaa0987a1e0d1ab905feb3b7aea52622e07a`
+`1157a4490d4455faba6773fe447560b22c218db852efe65fc95c180f373dce7f`
 
 Root review message, 12 October 2026:
 

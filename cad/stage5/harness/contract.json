@@ -1,17 +1,17 @@
 {
-  "schema": "ato.stage5.harness-contract.v1",
+  "schema": "scci_rh.stage5.harness-contract.v1",
   "units": "mm",
   "baseline_commit": "7a4371b7ff891248a5ab4f12e3149268485d828f",
-  "native": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
-  "step": "cad/stage5/harness/ATO_mating_interfaces.step",
-  "routing_native": "cad/stage5/harness/ATO_harness_routes.FCStd",
+  "native": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
+  "step": "cad/stage5/harness/SCCI_RH_mating_interfaces.step",
+  "routing_native": "cad/stage5/harness/SCCI_RH_harness_routes.FCStd",
   "sources": {
-    "cad/stage5/reference/contract.json": "fac7dbf1b86d415f4ed852c87a726de262618e160e37c1b25dba29fb41264c56",
-    "cad/stage5/reference/board-datums.json": "6e981c69fde085b569da233188d7a82f2c8e6da0d49f8d4f7f3f7a9ba859bcce",
-    "electronics/stage4/integrated-pcb/integration/harness.json": "52fec4a9f80d3031bb97c108015367730ab73875caa38c353bbb688627047ac1",
-    "electronics/stage4/integrated-pcb/integration/system.json": "e9196b94b4e409ca3c32d081e6546300d9d78ca87a68072ab40e431a556c36f4",
+    "cad/stage5/reference/contract.json": "036c7043e2f8545f05dec28b7376ef1b51577fd959b55e1254797889f450d1a5",
+    "cad/stage5/reference/board-datums.json": "ed3497bf87ac3a61e0c164a76c7fc8dce24469afdfdffcd34bdd3de1a90d2d96",
+    "electronics/stage4/integrated-pcb/integration/harness.json": "b304efcff9c553b181904ce7460bb2716f8c5dadb4f0d5f99ca4934147392bda",
+    "electronics/stage4/integrated-pcb/integration/system.json": "be93d2ff702b203d53b24f35bf94275039d9271d3356ed5cc77d8b570d2409bd",
     "docs/stage2/functional-port-map.csv": "b7f98d085a9f37a1d2b0047cde472e9b08b5f5fa42b40ef2e28155c215c4a806",
-    "cad/stage5/harness/plan_harness.py": "e01257173c5bbc357b675819aed9394c0a29a1c661168dffa7f588d012d3414a"
+    "cad/stage5/harness/plan_harness.py": "abfc245ed64cdb1c43129c37c22d205c4f4144d7a8b868ac44aea8ec8987d358"
   },
   "mates": [
     {

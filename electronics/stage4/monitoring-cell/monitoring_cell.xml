@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>E:\Project ATO\electronics\stage4\monitoring-cell\monitoring_cell.kicad_sch</source>
+    <source>E:\Project SCCI RH\electronics\stage4\monitoring-cell\monitoring_cell.kicad_sch</source>
     <date>2026-10-12T12:07:06</date>
     <tool>Eeschema 10.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>ATO S4 / Shared reference and interfaces</title>
-        <company>Project ATO</company>
+        <title>SCCI_RH S4 / Shared reference and interfaces</title>
+        <company>Project SCCI RH</company>
         <rev>0.2 DCK</rev>
         <date>2026-10-12</date>
         <source>monitoring_cell.kicad_sch</source>
@@ -24,8 +24,8 @@
     </sheet>
     <sheet number="2" name="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/">
       <title_block>
-        <title>ATO S4 / Source 0: current and phase charge</title>
-        <company>Project ATO</company>
+        <title>SCCI_RH S4 / Source 0: current and phase charge</title>
+        <company>Project SCCI RH</company>
         <rev>0.2 DCK</rev>
         <date>2026-10-12</date>
         <source>channel0.kicad_sch</source>
@@ -42,8 +42,8 @@
     </sheet>
     <sheet number="3" name="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/">
       <title_block>
-        <title>ATO S4 / Source 1: current and phase charge</title>
-        <company>Project ATO</company>
+        <title>SCCI_RH S4 / Source 1: current and phase charge</title>
+        <company>Project SCCI RH</company>
         <rev>0.2 DCK</rev>
         <date>2026-10-12</date>
         <source>channel1.kicad_sch</source>
@@ -62,13 +62,13 @@
   <components>
     <comp ref="C1">
       <value>1u 10V</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C1" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C1" description=""/>
       <property name="Sheetname" value="monitoring_cell"/>
       <property name="Sheetfile" value="monitoring_cell.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -84,13 +84,13 @@
     </comp>
     <comp ref="C2">
       <value>1u 10V</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C2" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C2" description=""/>
       <property name="Sheetname" value="monitoring_cell"/>
       <property name="Sheetfile" value="monitoring_cell.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -106,13 +106,13 @@
     </comp>
     <comp ref="C3">
       <value>100n 10V</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C3" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C3" description=""/>
       <property name="Sheetname" value="monitoring_cell"/>
       <property name="Sheetfile" value="monitoring_cell.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -128,13 +128,13 @@
     </comp>
     <comp ref="C4">
       <value>100n 10V</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C4" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C4" description=""/>
       <property name="Sheetname" value="monitoring_cell"/>
       <property name="Sheetfile" value="monitoring_cell.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -150,13 +150,13 @@
     </comp>
     <comp ref="J1">
       <value>LAB RAILS ONLY</value>
-      <footprint>ato_s4:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_s4:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="J1" description=""/>
+      <libsource lib="SCCI_RH_S4" part="J1" description=""/>
       <property name="Sheetname" value="monitoring_cell"/>
       <property name="Sheetfile" value="monitoring_cell.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -173,13 +173,13 @@
     </comp>
     <comp ref="J2">
       <value>MCU ENDPOINT/CONTROL</value>
-      <footprint>ato_s4:PinHeader_1x12_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_s4:PinHeader_1x12_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_s4:PinHeader_1x12_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_s4:PinHeader_1x12_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="J2" description=""/>
+      <libsource lib="SCCI_RH_S4" part="J2" description=""/>
       <property name="Sheetname" value="monitoring_cell"/>
       <property name="Sheetfile" value="monitoring_cell.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -205,13 +205,13 @@
     </comp>
     <comp ref="J3">
       <value>EXTERNAL SUPERVISION</value>
-      <footprint>ato_s4:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_s4:PinHeader_1x05_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_s4:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_s4:PinHeader_1x05_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="J3" description=""/>
+      <libsource lib="SCCI_RH_S4" part="J3" description=""/>
       <property name="Sheetname" value="monitoring_cell"/>
       <property name="Sheetfile" value="monitoring_cell.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -230,13 +230,13 @@
     </comp>
     <comp ref="J4">
       <value>CURRENT ADC INTERFACE</value>
-      <footprint>ato_s4:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_s4:PinHeader_1x04_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_s4:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_s4:PinHeader_1x04_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="J4" description=""/>
+      <libsource lib="SCCI_RH_S4" part="J4" description=""/>
       <property name="Sheetname" value="monitoring_cell"/>
       <property name="Sheetfile" value="monitoring_cell.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -254,13 +254,13 @@
     </comp>
     <comp ref="R1">
       <value>10k 0.1%</value>
-      <footprint>ato_s4:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="R1" description=""/>
+      <libsource lib="SCCI_RH_S4" part="R1" description=""/>
       <property name="Sheetname" value="monitoring_cell"/>
       <property name="Sheetfile" value="monitoring_cell.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -276,13 +276,13 @@
     </comp>
     <comp ref="R2">
       <value>10k 0.1%</value>
-      <footprint>ato_s4:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="R2" description=""/>
+      <libsource lib="SCCI_RH_S4" part="R2" description=""/>
       <property name="Sheetname" value="monitoring_cell"/>
       <property name="Sheetfile" value="monitoring_cell.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -298,13 +298,13 @@
     </comp>
     <comp ref="R3">
       <value>10k 0.1%</value>
-      <footprint>ato_s4:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="R3" description=""/>
+      <libsource lib="SCCI_RH_S4" part="R3" description=""/>
       <property name="Sheetname" value="monitoring_cell"/>
       <property name="Sheetfile" value="monitoring_cell.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -320,13 +320,13 @@
     </comp>
     <comp ref="R4">
       <value>19.1k 0.1%</value>
-      <footprint>ato_s4:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="R4" description=""/>
+      <libsource lib="SCCI_RH_S4" part="R4" description=""/>
       <property name="Sheetname" value="monitoring_cell"/>
       <property name="Sheetfile" value="monitoring_cell.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -342,13 +342,13 @@
     </comp>
     <comp ref="R5">
       <value>10k 0.1%</value>
-      <footprint>ato_s4:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="R5" description=""/>
+      <libsource lib="SCCI_RH_S4" part="R5" description=""/>
       <property name="Sheetname" value="monitoring_cell"/>
       <property name="Sheetfile" value="monitoring_cell.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -364,13 +364,13 @@
     </comp>
     <comp ref="R6">
       <value>100k</value>
-      <footprint>ato_s4:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="R6" description=""/>
+      <libsource lib="SCCI_RH_S4" part="R6" description=""/>
       <property name="Sheetname" value="monitoring_cell"/>
       <property name="Sheetfile" value="monitoring_cell.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -386,13 +386,13 @@
     </comp>
     <comp ref="R7">
       <value>100k</value>
-      <footprint>ato_s4:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="R7" description=""/>
+      <libsource lib="SCCI_RH_S4" part="R7" description=""/>
       <property name="Sheetname" value="monitoring_cell"/>
       <property name="Sheetfile" value="monitoring_cell.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -408,14 +408,14 @@
     </comp>
     <comp ref="U1">
       <value>REF3440DBVR</value>
-      <footprint>ato_s4:SOT-23-6</footprint>
+      <footprint>scci_rh_s4:SOT-23-6</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/ref34.pdf</datasheet>
       <fields>
-        <field name="Footprint">ato_s4:SOT-23-6</field>
+        <field name="Footprint">scci_rh_s4:SOT-23-6</field>
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ref34.pdf</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="U1" description=""/>
+      <libsource lib="SCCI_RH_S4" part="U1" description=""/>
       <property name="Sheetname" value="monitoring_cell"/>
       <property name="Sheetfile" value="monitoring_cell.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -435,14 +435,14 @@
     </comp>
     <comp ref="U2">
       <value>OPA391DCKR</value>
-      <footprint>ato_s4:SOT-353_SC-70-5</footprint>
+      <footprint>scci_rh_s4:SOT-353_SC-70-5</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/opa391.pdf</datasheet>
       <fields>
-        <field name="Footprint">ato_s4:SOT-353_SC-70-5</field>
+        <field name="Footprint">scci_rh_s4:SOT-353_SC-70-5</field>
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/opa391.pdf</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="U2" description=""/>
+      <libsource lib="SCCI_RH_S4" part="U2" description=""/>
       <property name="Sheetname" value="monitoring_cell"/>
       <property name="Sheetfile" value="monitoring_cell.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -461,14 +461,14 @@
     </comp>
     <comp ref="U3">
       <value>TMUX1136DGSR</value>
-      <footprint>ato_s4:MSOP-10_3x3mm_P0.5mm</footprint>
+      <footprint>scci_rh_s4:MSOP-10_3x3mm_P0.5mm</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/tmux1136.pdf</datasheet>
       <fields>
-        <field name="Footprint">ato_s4:MSOP-10_3x3mm_P0.5mm</field>
+        <field name="Footprint">scci_rh_s4:MSOP-10_3x3mm_P0.5mm</field>
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tmux1136.pdf</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="U3" description=""/>
+      <libsource lib="SCCI_RH_S4" part="U3" description=""/>
       <property name="Sheetname" value="monitoring_cell"/>
       <property name="Sheetfile" value="monitoring_cell.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -492,13 +492,13 @@
     </comp>
     <comp ref="C100">
       <value>22n 0.5% C0G</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C100" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C100" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -514,13 +514,13 @@
     </comp>
     <comp ref="C101">
       <value>1n C0G</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C101" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C101" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -536,13 +536,13 @@
     </comp>
     <comp ref="C102">
       <value>100n 10V</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C102" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C102" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -558,13 +558,13 @@
     </comp>
     <comp ref="C103">
       <value>100n 10V</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C103" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C103" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -580,13 +580,13 @@
     </comp>
     <comp ref="C104">
       <value>100n 10V</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C104" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C104" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -602,13 +602,13 @@
     </comp>
     <comp ref="C105">
       <value>1u 10V</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C105" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C105" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -624,13 +624,13 @@
     </comp>
     <comp ref="C106">
       <value>1u 10V</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C106" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C106" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -646,13 +646,13 @@
     </comp>
     <comp ref="C107">
       <value>22u 10V</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C107" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C107" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -668,13 +668,13 @@
     </comp>
     <comp ref="C108">
       <value>100n 10V</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C108" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C108" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -690,13 +690,13 @@
     </comp>
     <comp ref="C109">
       <value>100n 10V</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C109" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C109" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -712,13 +712,13 @@
     </comp>
     <comp ref="C110">
       <value>100n 10V</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C110" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C110" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -734,13 +734,13 @@
     </comp>
     <comp ref="J100">
       <value>SOURCE 0 RETURN SHUNT</value>
-      <footprint>ato_s4:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_s4:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_s4:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_s4:PinHeader_1x02_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="J100" description=""/>
+      <libsource lib="SCCI_RH_S4" part="J100" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -756,13 +756,13 @@
     </comp>
     <comp ref="J101">
       <value>SOURCE 0 DRIVER PERMISSION</value>
-      <footprint>ato_s4:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_s4:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="J101" description=""/>
+      <libsource lib="SCCI_RH_S4" part="J101" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -779,13 +779,13 @@
     </comp>
     <comp ref="R100">
       <value>2R 0.1% KELVIN</value>
-      <footprint>ato_s4:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="R100" description=""/>
+      <libsource lib="SCCI_RH_S4" part="R100" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -801,13 +801,13 @@
     </comp>
     <comp ref="R101">
       <value>10k 0.1%</value>
-      <footprint>ato_s4:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="R101" description=""/>
+      <libsource lib="SCCI_RH_S4" part="R101" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -823,13 +823,13 @@
     </comp>
     <comp ref="R102">
       <value>33R</value>
-      <footprint>ato_s4:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="R102" description=""/>
+      <libsource lib="SCCI_RH_S4" part="R102" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -845,13 +845,13 @@
     </comp>
     <comp ref="R103">
       <value>100k</value>
-      <footprint>ato_s4:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="R103" description=""/>
+      <libsource lib="SCCI_RH_S4" part="R103" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -867,13 +867,13 @@
     </comp>
     <comp ref="R104">
       <value>100k</value>
-      <footprint>ato_s4:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="R104" description=""/>
+      <libsource lib="SCCI_RH_S4" part="R104" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -889,13 +889,13 @@
     </comp>
     <comp ref="R105">
       <value>100k</value>
-      <footprint>ato_s4:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="R105" description=""/>
+      <libsource lib="SCCI_RH_S4" part="R105" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -911,14 +911,14 @@
     </comp>
     <comp ref="U100">
       <value>INA241A2IDR</value>
-      <footprint>ato_s4:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <footprint>scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/ina241a.pdf</datasheet>
       <fields>
-        <field name="Footprint">ato_s4:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Footprint">scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm</field>
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ina241a.pdf</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="U100" description=""/>
+      <libsource lib="SCCI_RH_S4" part="U100" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -940,14 +940,14 @@
     </comp>
     <comp ref="U101">
       <value>OPA391DCKR</value>
-      <footprint>ato_s4:SOT-353_SC-70-5</footprint>
+      <footprint>scci_rh_s4:SOT-353_SC-70-5</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/opa391.pdf</datasheet>
       <fields>
-        <field name="Footprint">ato_s4:SOT-353_SC-70-5</field>
+        <field name="Footprint">scci_rh_s4:SOT-353_SC-70-5</field>
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/opa391.pdf</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="U101" description=""/>
+      <libsource lib="SCCI_RH_S4" part="U101" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -966,14 +966,14 @@
     </comp>
     <comp ref="U102">
       <value>OPA391DCKR</value>
-      <footprint>ato_s4:SOT-353_SC-70-5</footprint>
+      <footprint>scci_rh_s4:SOT-353_SC-70-5</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/opa391.pdf</datasheet>
       <fields>
-        <field name="Footprint">ato_s4:SOT-353_SC-70-5</field>
+        <field name="Footprint">scci_rh_s4:SOT-353_SC-70-5</field>
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/opa391.pdf</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="U102" description=""/>
+      <libsource lib="SCCI_RH_S4" part="U102" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -992,14 +992,14 @@
     </comp>
     <comp ref="U103">
       <value>ADS8866IDGSR</value>
-      <footprint>ato_s4:MSOP-10_3x3mm_P0.5mm</footprint>
+      <footprint>scci_rh_s4:MSOP-10_3x3mm_P0.5mm</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/ads8866.pdf</datasheet>
       <fields>
-        <field name="Footprint">ato_s4:MSOP-10_3x3mm_P0.5mm</field>
+        <field name="Footprint">scci_rh_s4:MSOP-10_3x3mm_P0.5mm</field>
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ads8866.pdf</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="U103" description=""/>
+      <libsource lib="SCCI_RH_S4" part="U103" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -1023,14 +1023,14 @@
     </comp>
     <comp ref="U104">
       <value>TLV3202IDR</value>
-      <footprint>ato_s4:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <footprint>scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/tlv3202.pdf</datasheet>
       <fields>
-        <field name="Footprint">ato_s4:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Footprint">scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm</field>
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tlv3202.pdf</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="U104" description=""/>
+      <libsource lib="SCCI_RH_S4" part="U104" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -1052,14 +1052,14 @@
     </comp>
     <comp ref="U105">
       <value>SN74LVC1G11DBVR</value>
-      <footprint>ato_s4:SOT-23-6</footprint>
+      <footprint>scci_rh_s4:SOT-23-6</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf</datasheet>
       <fields>
-        <field name="Footprint">ato_s4:SOT-23-6</field>
+        <field name="Footprint">scci_rh_s4:SOT-23-6</field>
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="U105" description=""/>
+      <libsource lib="SCCI_RH_S4" part="U105" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -1079,14 +1079,14 @@
     </comp>
     <comp ref="U106">
       <value>SN74LVC1G74DCUR</value>
-      <footprint>ato_s4:VSSOP-8_2.3x2mm_P0.5mm</footprint>
+      <footprint>scci_rh_s4:VSSOP-8_2.3x2mm_P0.5mm</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf</datasheet>
       <fields>
-        <field name="Footprint">ato_s4:VSSOP-8_2.3x2mm_P0.5mm</field>
+        <field name="Footprint">scci_rh_s4:VSSOP-8_2.3x2mm_P0.5mm</field>
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="U106" description=""/>
+      <libsource lib="SCCI_RH_S4" part="U106" description=""/>
       <property name="Sheetname" value="Source0_monitor"/>
       <property name="Sheetfile" value="channel0.kicad_sch"/>
       <sheetpath names="/Source0_monitor/" tstamps="/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/"/>
@@ -1108,13 +1108,13 @@
     </comp>
     <comp ref="C200">
       <value>22n 0.5% C0G</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C200" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C200" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1130,13 +1130,13 @@
     </comp>
     <comp ref="C201">
       <value>1n C0G</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C201" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C201" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1152,13 +1152,13 @@
     </comp>
     <comp ref="C202">
       <value>100n 10V</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C202" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C202" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1174,13 +1174,13 @@
     </comp>
     <comp ref="C203">
       <value>100n 10V</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C203" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C203" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1196,13 +1196,13 @@
     </comp>
     <comp ref="C204">
       <value>100n 10V</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C204" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C204" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1218,13 +1218,13 @@
     </comp>
     <comp ref="C205">
       <value>1u 10V</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C205" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C205" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1240,13 +1240,13 @@
     </comp>
     <comp ref="C206">
       <value>1u 10V</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C206" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C206" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1262,13 +1262,13 @@
     </comp>
     <comp ref="C207">
       <value>22u 10V</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C207" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C207" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1284,13 +1284,13 @@
     </comp>
     <comp ref="C208">
       <value>100n 10V</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C208" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C208" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1306,13 +1306,13 @@
     </comp>
     <comp ref="C209">
       <value>100n 10V</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C209" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C209" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1328,13 +1328,13 @@
     </comp>
     <comp ref="C210">
       <value>100n 10V</value>
-      <footprint>ato_s4:C_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:C_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="C210" description=""/>
+      <libsource lib="SCCI_RH_S4" part="C210" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1350,13 +1350,13 @@
     </comp>
     <comp ref="J200">
       <value>SOURCE 1 RETURN SHUNT</value>
-      <footprint>ato_s4:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_s4:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_s4:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_s4:PinHeader_1x02_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="J200" description=""/>
+      <libsource lib="SCCI_RH_S4" part="J200" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1372,13 +1372,13 @@
     </comp>
     <comp ref="J201">
       <value>SOURCE 1 DRIVER PERMISSION</value>
-      <footprint>ato_s4:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_s4:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="J201" description=""/>
+      <libsource lib="SCCI_RH_S4" part="J201" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1395,13 +1395,13 @@
     </comp>
     <comp ref="R200">
       <value>2R 0.1% KELVIN</value>
-      <footprint>ato_s4:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="R200" description=""/>
+      <libsource lib="SCCI_RH_S4" part="R200" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1417,13 +1417,13 @@
     </comp>
     <comp ref="R201">
       <value>10k 0.1%</value>
-      <footprint>ato_s4:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="R201" description=""/>
+      <libsource lib="SCCI_RH_S4" part="R201" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1439,13 +1439,13 @@
     </comp>
     <comp ref="R202">
       <value>33R</value>
-      <footprint>ato_s4:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="R202" description=""/>
+      <libsource lib="SCCI_RH_S4" part="R202" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1461,13 +1461,13 @@
     </comp>
     <comp ref="R203">
       <value>100k</value>
-      <footprint>ato_s4:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="R203" description=""/>
+      <libsource lib="SCCI_RH_S4" part="R203" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1483,13 +1483,13 @@
     </comp>
     <comp ref="R204">
       <value>100k</value>
-      <footprint>ato_s4:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="R204" description=""/>
+      <libsource lib="SCCI_RH_S4" part="R204" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1505,13 +1505,13 @@
     </comp>
     <comp ref="R205">
       <value>100k</value>
-      <footprint>ato_s4:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_s4:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="R205" description=""/>
+      <libsource lib="SCCI_RH_S4" part="R205" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1527,14 +1527,14 @@
     </comp>
     <comp ref="U200">
       <value>INA241A2IDR</value>
-      <footprint>ato_s4:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <footprint>scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/ina241a.pdf</datasheet>
       <fields>
-        <field name="Footprint">ato_s4:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Footprint">scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm</field>
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ina241a.pdf</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="U200" description=""/>
+      <libsource lib="SCCI_RH_S4" part="U200" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1556,14 +1556,14 @@
     </comp>
     <comp ref="U201">
       <value>OPA391DCKR</value>
-      <footprint>ato_s4:SOT-353_SC-70-5</footprint>
+      <footprint>scci_rh_s4:SOT-353_SC-70-5</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/opa391.pdf</datasheet>
       <fields>
-        <field name="Footprint">ato_s4:SOT-353_SC-70-5</field>
+        <field name="Footprint">scci_rh_s4:SOT-353_SC-70-5</field>
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/opa391.pdf</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="U201" description=""/>
+      <libsource lib="SCCI_RH_S4" part="U201" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1582,14 +1582,14 @@
     </comp>
     <comp ref="U202">
       <value>OPA391DCKR</value>
-      <footprint>ato_s4:SOT-353_SC-70-5</footprint>
+      <footprint>scci_rh_s4:SOT-353_SC-70-5</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/opa391.pdf</datasheet>
       <fields>
-        <field name="Footprint">ato_s4:SOT-353_SC-70-5</field>
+        <field name="Footprint">scci_rh_s4:SOT-353_SC-70-5</field>
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/opa391.pdf</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="U202" description=""/>
+      <libsource lib="SCCI_RH_S4" part="U202" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1608,14 +1608,14 @@
     </comp>
     <comp ref="U203">
       <value>ADS8866IDGSR</value>
-      <footprint>ato_s4:MSOP-10_3x3mm_P0.5mm</footprint>
+      <footprint>scci_rh_s4:MSOP-10_3x3mm_P0.5mm</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/ads8866.pdf</datasheet>
       <fields>
-        <field name="Footprint">ato_s4:MSOP-10_3x3mm_P0.5mm</field>
+        <field name="Footprint">scci_rh_s4:MSOP-10_3x3mm_P0.5mm</field>
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ads8866.pdf</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="U203" description=""/>
+      <libsource lib="SCCI_RH_S4" part="U203" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1639,14 +1639,14 @@
     </comp>
     <comp ref="U204">
       <value>TLV3202IDR</value>
-      <footprint>ato_s4:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <footprint>scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/tlv3202.pdf</datasheet>
       <fields>
-        <field name="Footprint">ato_s4:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Footprint">scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm</field>
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tlv3202.pdf</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="U204" description=""/>
+      <libsource lib="SCCI_RH_S4" part="U204" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1668,14 +1668,14 @@
     </comp>
     <comp ref="U205">
       <value>SN74LVC1G11DBVR</value>
-      <footprint>ato_s4:SOT-23-6</footprint>
+      <footprint>scci_rh_s4:SOT-23-6</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf</datasheet>
       <fields>
-        <field name="Footprint">ato_s4:SOT-23-6</field>
+        <field name="Footprint">scci_rh_s4:SOT-23-6</field>
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="U205" description=""/>
+      <libsource lib="SCCI_RH_S4" part="U205" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1695,14 +1695,14 @@
     </comp>
     <comp ref="U206">
       <value>SN74LVC1G74DCUR</value>
-      <footprint>ato_s4:VSSOP-8_2.3x2mm_P0.5mm</footprint>
+      <footprint>scci_rh_s4:VSSOP-8_2.3x2mm_P0.5mm</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf</datasheet>
       <fields>
-        <field name="Footprint">ato_s4:VSSOP-8_2.3x2mm_P0.5mm</field>
+        <field name="Footprint">scci_rh_s4:VSSOP-8_2.3x2mm_P0.5mm</field>
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_S4" part="U206" description=""/>
+      <libsource lib="SCCI_RH_S4" part="U206" description=""/>
       <property name="Sheetname" value="Source1_monitor"/>
       <property name="Sheetfile" value="channel1.kicad_sch"/>
       <sheetpath names="/Source1_monitor/" tstamps="/5c1578f7-3033-55ae-a5cb-02c82db8c119/"/>
@@ -1724,11 +1724,11 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="ATO_S4" part="C1">
+    <libpart lib="SCCI_RH_S4" part="C1">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">1u 10V</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1737,11 +1737,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C100">
+    <libpart lib="SCCI_RH_S4" part="C100">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">22n 0.5% C0G</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1750,11 +1750,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C101">
+    <libpart lib="SCCI_RH_S4" part="C101">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">1n C0G</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1763,11 +1763,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C102">
+    <libpart lib="SCCI_RH_S4" part="C102">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">100n 10V</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1776,11 +1776,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C103">
+    <libpart lib="SCCI_RH_S4" part="C103">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">100n 10V</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1789,11 +1789,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C104">
+    <libpart lib="SCCI_RH_S4" part="C104">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">100n 10V</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1802,11 +1802,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C105">
+    <libpart lib="SCCI_RH_S4" part="C105">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">1u 10V</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1815,11 +1815,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C106">
+    <libpart lib="SCCI_RH_S4" part="C106">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">1u 10V</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1828,11 +1828,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C107">
+    <libpart lib="SCCI_RH_S4" part="C107">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">22u 10V</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1841,11 +1841,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C108">
+    <libpart lib="SCCI_RH_S4" part="C108">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">100n 10V</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1854,11 +1854,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C109">
+    <libpart lib="SCCI_RH_S4" part="C109">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">100n 10V</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1867,11 +1867,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C110">
+    <libpart lib="SCCI_RH_S4" part="C110">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">100n 10V</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1880,11 +1880,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C2">
+    <libpart lib="SCCI_RH_S4" part="C2">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">1u 10V</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1893,11 +1893,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C200">
+    <libpart lib="SCCI_RH_S4" part="C200">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">22n 0.5% C0G</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1906,11 +1906,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C201">
+    <libpart lib="SCCI_RH_S4" part="C201">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">1n C0G</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1919,11 +1919,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C202">
+    <libpart lib="SCCI_RH_S4" part="C202">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">100n 10V</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1932,11 +1932,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C203">
+    <libpart lib="SCCI_RH_S4" part="C203">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">100n 10V</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1945,11 +1945,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C204">
+    <libpart lib="SCCI_RH_S4" part="C204">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">100n 10V</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1958,11 +1958,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C205">
+    <libpart lib="SCCI_RH_S4" part="C205">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">1u 10V</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1971,11 +1971,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C206">
+    <libpart lib="SCCI_RH_S4" part="C206">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">1u 10V</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1984,11 +1984,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C207">
+    <libpart lib="SCCI_RH_S4" part="C207">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">22u 10V</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1997,11 +1997,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C208">
+    <libpart lib="SCCI_RH_S4" part="C208">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">100n 10V</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2010,11 +2010,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C209">
+    <libpart lib="SCCI_RH_S4" part="C209">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">100n 10V</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2023,11 +2023,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C210">
+    <libpart lib="SCCI_RH_S4" part="C210">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">100n 10V</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2036,11 +2036,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C3">
+    <libpart lib="SCCI_RH_S4" part="C3">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">100n 10V</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2049,11 +2049,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="C4">
+    <libpart lib="SCCI_RH_S4" part="C4">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">100n 10V</field>
-        <field name="Footprint">ato_s4:C_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:C_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2062,11 +2062,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="J1">
+    <libpart lib="SCCI_RH_S4" part="J1">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">LAB RAILS ONLY</field>
-        <field name="Footprint">ato_s4:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2076,11 +2076,11 @@
         <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="J100">
+    <libpart lib="SCCI_RH_S4" part="J100">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">SOURCE 0 RETURN SHUNT</field>
-        <field name="Footprint">ato_s4:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_s4:PinHeader_1x02_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2089,11 +2089,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="J101">
+    <libpart lib="SCCI_RH_S4" part="J101">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">SOURCE 0 DRIVER PERMISSION</field>
-        <field name="Footprint">ato_s4:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2103,11 +2103,11 @@
         <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="J2">
+    <libpart lib="SCCI_RH_S4" part="J2">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">MCU ENDPOINT/CONTROL</field>
-        <field name="Footprint">ato_s4:PinHeader_1x12_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_s4:PinHeader_1x12_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2126,11 +2126,11 @@
         <pin num="12" name="12" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="J200">
+    <libpart lib="SCCI_RH_S4" part="J200">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">SOURCE 1 RETURN SHUNT</field>
-        <field name="Footprint">ato_s4:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_s4:PinHeader_1x02_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2139,11 +2139,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="J201">
+    <libpart lib="SCCI_RH_S4" part="J201">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">SOURCE 1 DRIVER PERMISSION</field>
-        <field name="Footprint">ato_s4:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2153,11 +2153,11 @@
         <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="J3">
+    <libpart lib="SCCI_RH_S4" part="J3">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">EXTERNAL SUPERVISION</field>
-        <field name="Footprint">ato_s4:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_s4:PinHeader_1x05_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2169,11 +2169,11 @@
         <pin num="5" name="5" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="J4">
+    <libpart lib="SCCI_RH_S4" part="J4">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">CURRENT ADC INTERFACE</field>
-        <field name="Footprint">ato_s4:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_s4:PinHeader_1x04_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2184,11 +2184,11 @@
         <pin num="4" name="4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="R1">
+    <libpart lib="SCCI_RH_S4" part="R1">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k 0.1%</field>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2197,11 +2197,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="R100">
+    <libpart lib="SCCI_RH_S4" part="R100">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">2R 0.1% KELVIN</field>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2210,11 +2210,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="R101">
+    <libpart lib="SCCI_RH_S4" part="R101">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k 0.1%</field>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2223,11 +2223,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="R102">
+    <libpart lib="SCCI_RH_S4" part="R102">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">33R</field>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2236,11 +2236,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="R103">
+    <libpart lib="SCCI_RH_S4" part="R103">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">100k</field>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2249,11 +2249,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="R104">
+    <libpart lib="SCCI_RH_S4" part="R104">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">100k</field>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2262,11 +2262,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="R105">
+    <libpart lib="SCCI_RH_S4" part="R105">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">100k</field>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2275,11 +2275,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="R2">
+    <libpart lib="SCCI_RH_S4" part="R2">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k 0.1%</field>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2288,11 +2288,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="R200">
+    <libpart lib="SCCI_RH_S4" part="R200">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">2R 0.1% KELVIN</field>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2301,11 +2301,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="R201">
+    <libpart lib="SCCI_RH_S4" part="R201">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k 0.1%</field>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2314,11 +2314,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="R202">
+    <libpart lib="SCCI_RH_S4" part="R202">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">33R</field>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2327,11 +2327,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="R203">
+    <libpart lib="SCCI_RH_S4" part="R203">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">100k</field>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2340,11 +2340,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="R204">
+    <libpart lib="SCCI_RH_S4" part="R204">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">100k</field>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2353,11 +2353,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="R205">
+    <libpart lib="SCCI_RH_S4" part="R205">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">100k</field>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2366,11 +2366,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="R3">
+    <libpart lib="SCCI_RH_S4" part="R3">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k 0.1%</field>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2379,11 +2379,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="R4">
+    <libpart lib="SCCI_RH_S4" part="R4">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">19.1k 0.1%</field>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2392,11 +2392,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="R5">
+    <libpart lib="SCCI_RH_S4" part="R5">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k 0.1%</field>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2405,11 +2405,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="R6">
+    <libpart lib="SCCI_RH_S4" part="R6">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">100k</field>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2418,11 +2418,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="R7">
+    <libpart lib="SCCI_RH_S4" part="R7">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">100k</field>
-        <field name="Footprint">ato_s4:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_s4:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2431,11 +2431,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="U1">
+    <libpart lib="SCCI_RH_S4" part="U1">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">REF3440DBVR</field>
-        <field name="Footprint">ato_s4:SOT-23-6</field>
+        <field name="Footprint">scci_rh_s4:SOT-23-6</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2448,11 +2448,11 @@
         <pin num="6" name="OUT_F" type="power_out"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="U100">
+    <libpart lib="SCCI_RH_S4" part="U100">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">INA241A2IDR</field>
-        <field name="Footprint">ato_s4:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Footprint">scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2467,11 +2467,11 @@
         <pin num="8" name="IN+" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="U101">
+    <libpart lib="SCCI_RH_S4" part="U101">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">OPA391DCKR</field>
-        <field name="Footprint">ato_s4:SOT-353_SC-70-5</field>
+        <field name="Footprint">scci_rh_s4:SOT-353_SC-70-5</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2483,11 +2483,11 @@
         <pin num="5" name="V+" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="U102">
+    <libpart lib="SCCI_RH_S4" part="U102">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">OPA391DCKR</field>
-        <field name="Footprint">ato_s4:SOT-353_SC-70-5</field>
+        <field name="Footprint">scci_rh_s4:SOT-353_SC-70-5</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2499,11 +2499,11 @@
         <pin num="5" name="V+" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="U103">
+    <libpart lib="SCCI_RH_S4" part="U103">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">ADS8866IDGSR</field>
-        <field name="Footprint">ato_s4:MSOP-10_3x3mm_P0.5mm</field>
+        <field name="Footprint">scci_rh_s4:MSOP-10_3x3mm_P0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2520,11 +2520,11 @@
         <pin num="10" name="DVDD" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="U104">
+    <libpart lib="SCCI_RH_S4" part="U104">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">TLV3202IDR</field>
-        <field name="Footprint">ato_s4:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Footprint">scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2539,11 +2539,11 @@
         <pin num="8" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="U105">
+    <libpart lib="SCCI_RH_S4" part="U105">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">SN74LVC1G11DBVR</field>
-        <field name="Footprint">ato_s4:SOT-23-6</field>
+        <field name="Footprint">scci_rh_s4:SOT-23-6</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2556,11 +2556,11 @@
         <pin num="6" name="C_EXT_SUP_OK" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="U106">
+    <libpart lib="SCCI_RH_S4" part="U106">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">SN74LVC1G74DCUR</field>
-        <field name="Footprint">ato_s4:VSSOP-8_2.3x2mm_P0.5mm</field>
+        <field name="Footprint">scci_rh_s4:VSSOP-8_2.3x2mm_P0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2575,11 +2575,11 @@
         <pin num="8" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="U2">
+    <libpart lib="SCCI_RH_S4" part="U2">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">OPA391DCKR</field>
-        <field name="Footprint">ato_s4:SOT-353_SC-70-5</field>
+        <field name="Footprint">scci_rh_s4:SOT-353_SC-70-5</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2591,11 +2591,11 @@
         <pin num="5" name="V+" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="U200">
+    <libpart lib="SCCI_RH_S4" part="U200">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">INA241A2IDR</field>
-        <field name="Footprint">ato_s4:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Footprint">scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2610,11 +2610,11 @@
         <pin num="8" name="IN+" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="U201">
+    <libpart lib="SCCI_RH_S4" part="U201">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">OPA391DCKR</field>
-        <field name="Footprint">ato_s4:SOT-353_SC-70-5</field>
+        <field name="Footprint">scci_rh_s4:SOT-353_SC-70-5</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2626,11 +2626,11 @@
         <pin num="5" name="V+" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="U202">
+    <libpart lib="SCCI_RH_S4" part="U202">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">OPA391DCKR</field>
-        <field name="Footprint">ato_s4:SOT-353_SC-70-5</field>
+        <field name="Footprint">scci_rh_s4:SOT-353_SC-70-5</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2642,11 +2642,11 @@
         <pin num="5" name="V+" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="U203">
+    <libpart lib="SCCI_RH_S4" part="U203">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">ADS8866IDGSR</field>
-        <field name="Footprint">ato_s4:MSOP-10_3x3mm_P0.5mm</field>
+        <field name="Footprint">scci_rh_s4:MSOP-10_3x3mm_P0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2663,11 +2663,11 @@
         <pin num="10" name="DVDD" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="U204">
+    <libpart lib="SCCI_RH_S4" part="U204">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">TLV3202IDR</field>
-        <field name="Footprint">ato_s4:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Footprint">scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2682,11 +2682,11 @@
         <pin num="8" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="U205">
+    <libpart lib="SCCI_RH_S4" part="U205">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">SN74LVC1G11DBVR</field>
-        <field name="Footprint">ato_s4:SOT-23-6</field>
+        <field name="Footprint">scci_rh_s4:SOT-23-6</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2699,11 +2699,11 @@
         <pin num="6" name="C_EXT_SUP_OK" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="U206">
+    <libpart lib="SCCI_RH_S4" part="U206">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">SN74LVC1G74DCUR</field>
-        <field name="Footprint">ato_s4:VSSOP-8_2.3x2mm_P0.5mm</field>
+        <field name="Footprint">scci_rh_s4:VSSOP-8_2.3x2mm_P0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2718,11 +2718,11 @@
         <pin num="8" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_S4" part="U3">
+    <libpart lib="SCCI_RH_S4" part="U3">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">TMUX1136DGSR</field>
-        <field name="Footprint">ato_s4:MSOP-10_3x3mm_P0.5mm</field>
+        <field name="Footprint">scci_rh_s4:MSOP-10_3x3mm_P0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2741,8 +2741,8 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="ATO_S4">
-      <uri>${KIPRJMOD}/ATO_S4.kicad_sym</uri>
+    <library logical="SCCI_RH_S4">
+      <uri>${KIPRJMOD}/SCCI_RH_S4.kicad_sym</uri>
     </library>
   </libraries>
   <nets>

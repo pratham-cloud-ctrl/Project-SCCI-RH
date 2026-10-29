@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "E:\\Project ATO\\electronics\\stage4\\monitoring-cell\\monitoring_cell.kicad_sch")
+		(source "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-cell\\monitoring_cell.kicad_sch")
 		(date "2026-10-12T12:07:08")
 		(tool "Eeschema 10.0.6")
 		(sheet
@@ -9,8 +9,8 @@
 			(name "/")
 			(tstamps "/")
 			(title_block
-				(title "ATO S4 / Shared reference and interfaces")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Shared reference and interfaces")
+				(company "Project SCCI RH")
 				(rev "0.2 DCK")
 				(date "2026-10-12")
 				(source "monitoring_cell.kicad_sch")
@@ -57,8 +57,8 @@
 			(name "/Source0_monitor/")
 			(tstamps "/6d0b58d6-5a3d-5f49-a77e-f3b81a8a2bdd/")
 			(title_block
-				(title "ATO S4 / Source 0: current and phase charge")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Source 0: current and phase charge")
+				(company "Project SCCI RH")
 				(rev "0.2 DCK")
 				(date "2026-10-12")
 				(source "channel0.kicad_sch")
@@ -105,8 +105,8 @@
 			(name "/Source1_monitor/")
 			(tstamps "/5c1578f7-3033-55ae-a5cb-02c82db8c119/")
 			(title_block
-				(title "ATO S4 / Source 1: current and phase charge")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Source 1: current and phase charge")
+				(company "Project SCCI RH")
 				(rev "0.2 DCK")
 				(date "2026-10-12")
 				(source "channel1.kicad_sch")
@@ -153,10 +153,10 @@
 		(comp
 			(ref "C1")
 			(value "1u 10V")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -165,7 +165,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C1")
 				(description "")
 			)
@@ -199,10 +199,10 @@
 		(comp
 			(ref "C2")
 			(value "1u 10V")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -211,7 +211,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C2")
 				(description "")
 			)
@@ -245,10 +245,10 @@
 		(comp
 			(ref "C3")
 			(value "100n 10V")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -257,7 +257,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C3")
 				(description "")
 			)
@@ -291,10 +291,10 @@
 		(comp
 			(ref "C4")
 			(value "100n 10V")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -303,7 +303,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C4")
 				(description "")
 			)
@@ -337,10 +337,10 @@
 		(comp
 			(ref "J1")
 			(value "LAB RAILS ONLY")
-			(footprint "ato_s4:PinHeader_1x03_P2.54mm_Vertical")
+			(footprint "scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:PinHeader_1x03_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -349,7 +349,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "J1")
 				(description "")
 			)
@@ -386,10 +386,10 @@
 		(comp
 			(ref "J2")
 			(value "MCU ENDPOINT/CONTROL")
-			(footprint "ato_s4:PinHeader_1x12_P2.54mm_Vertical")
+			(footprint "scci_rh_s4:PinHeader_1x12_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:PinHeader_1x12_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_s4:PinHeader_1x12_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -398,7 +398,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "J2")
 				(description "")
 			)
@@ -462,10 +462,10 @@
 		(comp
 			(ref "J3")
 			(value "EXTERNAL SUPERVISION")
-			(footprint "ato_s4:PinHeader_1x05_P2.54mm_Vertical")
+			(footprint "scci_rh_s4:PinHeader_1x05_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:PinHeader_1x05_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_s4:PinHeader_1x05_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -474,7 +474,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "J3")
 				(description "")
 			)
@@ -517,10 +517,10 @@
 		(comp
 			(ref "J4")
 			(value "CURRENT ADC INTERFACE")
-			(footprint "ato_s4:PinHeader_1x04_P2.54mm_Vertical")
+			(footprint "scci_rh_s4:PinHeader_1x04_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:PinHeader_1x04_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_s4:PinHeader_1x04_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -529,7 +529,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "J4")
 				(description "")
 			)
@@ -569,10 +569,10 @@
 		(comp
 			(ref "R1")
 			(value "10k 0.1%")
-			(footprint "ato_s4:R_0805_2012Metric")
+			(footprint "scci_rh_s4:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -581,7 +581,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "R1")
 				(description "")
 			)
@@ -615,10 +615,10 @@
 		(comp
 			(ref "R2")
 			(value "10k 0.1%")
-			(footprint "ato_s4:R_0805_2012Metric")
+			(footprint "scci_rh_s4:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -627,7 +627,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "R2")
 				(description "")
 			)
@@ -661,10 +661,10 @@
 		(comp
 			(ref "R3")
 			(value "10k 0.1%")
-			(footprint "ato_s4:R_0805_2012Metric")
+			(footprint "scci_rh_s4:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -673,7 +673,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "R3")
 				(description "")
 			)
@@ -707,10 +707,10 @@
 		(comp
 			(ref "R4")
 			(value "19.1k 0.1%")
-			(footprint "ato_s4:R_0805_2012Metric")
+			(footprint "scci_rh_s4:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -719,7 +719,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "R4")
 				(description "")
 			)
@@ -753,10 +753,10 @@
 		(comp
 			(ref "R5")
 			(value "10k 0.1%")
-			(footprint "ato_s4:R_0805_2012Metric")
+			(footprint "scci_rh_s4:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -765,7 +765,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "R5")
 				(description "")
 			)
@@ -799,10 +799,10 @@
 		(comp
 			(ref "R6")
 			(value "100k")
-			(footprint "ato_s4:R_0805_2012Metric")
+			(footprint "scci_rh_s4:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -811,7 +811,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "R6")
 				(description "")
 			)
@@ -845,10 +845,10 @@
 		(comp
 			(ref "R7")
 			(value "100k")
-			(footprint "ato_s4:R_0805_2012Metric")
+			(footprint "scci_rh_s4:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -857,7 +857,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "R7")
 				(description "")
 			)
@@ -891,11 +891,11 @@
 		(comp
 			(ref "U1")
 			(value "REF3440DBVR")
-			(footprint "ato_s4:SOT-23-6")
+			(footprint "scci_rh_s4:SOT-23-6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/ref34.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:SOT-23-6")
+					(name "Footprint") "scci_rh_s4:SOT-23-6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/ref34.pdf")
 				(field
@@ -903,7 +903,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "U1")
 				(description "")
 			)
@@ -949,11 +949,11 @@
 		(comp
 			(ref "U2")
 			(value "OPA391DCKR")
-			(footprint "ato_s4:SOT-353_SC-70-5")
+			(footprint "scci_rh_s4:SOT-353_SC-70-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/opa391.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:SOT-353_SC-70-5")
+					(name "Footprint") "scci_rh_s4:SOT-353_SC-70-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/opa391.pdf")
 				(field
@@ -961,7 +961,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "U2")
 				(description "")
 			)
@@ -1004,11 +1004,11 @@
 		(comp
 			(ref "U3")
 			(value "TMUX1136DGSR")
-			(footprint "ato_s4:MSOP-10_3x3mm_P0.5mm")
+			(footprint "scci_rh_s4:MSOP-10_3x3mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux1136.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:MSOP-10_3x3mm_P0.5mm")
+					(name "Footprint") "scci_rh_s4:MSOP-10_3x3mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux1136.pdf")
 				(field
@@ -1016,7 +1016,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "U3")
 				(description "")
 			)
@@ -1074,10 +1074,10 @@
 		(comp
 			(ref "C100")
 			(value "22n 0.5% C0G")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1086,7 +1086,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C100")
 				(description "")
 			)
@@ -1120,10 +1120,10 @@
 		(comp
 			(ref "C101")
 			(value "1n C0G")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1132,7 +1132,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C101")
 				(description "")
 			)
@@ -1166,10 +1166,10 @@
 		(comp
 			(ref "C102")
 			(value "100n 10V")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1178,7 +1178,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C102")
 				(description "")
 			)
@@ -1212,10 +1212,10 @@
 		(comp
 			(ref "C103")
 			(value "100n 10V")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1224,7 +1224,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C103")
 				(description "")
 			)
@@ -1258,10 +1258,10 @@
 		(comp
 			(ref "C104")
 			(value "100n 10V")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1270,7 +1270,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C104")
 				(description "")
 			)
@@ -1304,10 +1304,10 @@
 		(comp
 			(ref "C105")
 			(value "1u 10V")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1316,7 +1316,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C105")
 				(description "")
 			)
@@ -1350,10 +1350,10 @@
 		(comp
 			(ref "C106")
 			(value "1u 10V")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1362,7 +1362,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C106")
 				(description "")
 			)
@@ -1396,10 +1396,10 @@
 		(comp
 			(ref "C107")
 			(value "22u 10V")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1408,7 +1408,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C107")
 				(description "")
 			)
@@ -1442,10 +1442,10 @@
 		(comp
 			(ref "C108")
 			(value "100n 10V")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1454,7 +1454,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C108")
 				(description "")
 			)
@@ -1488,10 +1488,10 @@
 		(comp
 			(ref "C109")
 			(value "100n 10V")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1500,7 +1500,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C109")
 				(description "")
 			)
@@ -1534,10 +1534,10 @@
 		(comp
 			(ref "C110")
 			(value "100n 10V")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1546,7 +1546,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C110")
 				(description "")
 			)
@@ -1580,10 +1580,10 @@
 		(comp
 			(ref "J100")
 			(value "SOURCE 0 RETURN SHUNT")
-			(footprint "ato_s4:PinHeader_1x02_P2.54mm_Vertical")
+			(footprint "scci_rh_s4:PinHeader_1x02_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:PinHeader_1x02_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_s4:PinHeader_1x02_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -1592,7 +1592,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "J100")
 				(description "")
 			)
@@ -1626,10 +1626,10 @@
 		(comp
 			(ref "J101")
 			(value "SOURCE 0 DRIVER PERMISSION")
-			(footprint "ato_s4:PinHeader_1x03_P2.54mm_Vertical")
+			(footprint "scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:PinHeader_1x03_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -1638,7 +1638,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "J101")
 				(description "")
 			)
@@ -1675,10 +1675,10 @@
 		(comp
 			(ref "R100")
 			(value "2R 0.1% KELVIN")
-			(footprint "ato_s4:R_0805_2012Metric")
+			(footprint "scci_rh_s4:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1687,7 +1687,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "R100")
 				(description "")
 			)
@@ -1721,10 +1721,10 @@
 		(comp
 			(ref "R101")
 			(value "10k 0.1%")
-			(footprint "ato_s4:R_0805_2012Metric")
+			(footprint "scci_rh_s4:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1733,7 +1733,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "R101")
 				(description "")
 			)
@@ -1767,10 +1767,10 @@
 		(comp
 			(ref "R102")
 			(value "33R")
-			(footprint "ato_s4:R_0805_2012Metric")
+			(footprint "scci_rh_s4:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1779,7 +1779,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "R102")
 				(description "")
 			)
@@ -1813,10 +1813,10 @@
 		(comp
 			(ref "R103")
 			(value "100k")
-			(footprint "ato_s4:R_0805_2012Metric")
+			(footprint "scci_rh_s4:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1825,7 +1825,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "R103")
 				(description "")
 			)
@@ -1859,10 +1859,10 @@
 		(comp
 			(ref "R104")
 			(value "100k")
-			(footprint "ato_s4:R_0805_2012Metric")
+			(footprint "scci_rh_s4:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1871,7 +1871,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "R104")
 				(description "")
 			)
@@ -1905,10 +1905,10 @@
 		(comp
 			(ref "R105")
 			(value "100k")
-			(footprint "ato_s4:R_0805_2012Metric")
+			(footprint "scci_rh_s4:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1917,7 +1917,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "R105")
 				(description "")
 			)
@@ -1951,11 +1951,11 @@
 		(comp
 			(ref "U100")
 			(value "INA241A2IDR")
-			(footprint "ato_s4:SOIC-8_3.9x4.9mm_P1.27mm")
+			(footprint "scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/ina241a.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/ina241a.pdf")
 				(field
@@ -1963,7 +1963,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "U100")
 				(description "")
 			)
@@ -2015,11 +2015,11 @@
 		(comp
 			(ref "U101")
 			(value "OPA391DCKR")
-			(footprint "ato_s4:SOT-353_SC-70-5")
+			(footprint "scci_rh_s4:SOT-353_SC-70-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/opa391.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:SOT-353_SC-70-5")
+					(name "Footprint") "scci_rh_s4:SOT-353_SC-70-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/opa391.pdf")
 				(field
@@ -2027,7 +2027,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "U101")
 				(description "")
 			)
@@ -2070,11 +2070,11 @@
 		(comp
 			(ref "U102")
 			(value "OPA391DCKR")
-			(footprint "ato_s4:SOT-353_SC-70-5")
+			(footprint "scci_rh_s4:SOT-353_SC-70-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/opa391.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:SOT-353_SC-70-5")
+					(name "Footprint") "scci_rh_s4:SOT-353_SC-70-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/opa391.pdf")
 				(field
@@ -2082,7 +2082,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "U102")
 				(description "")
 			)
@@ -2125,11 +2125,11 @@
 		(comp
 			(ref "U103")
 			(value "ADS8866IDGSR")
-			(footprint "ato_s4:MSOP-10_3x3mm_P0.5mm")
+			(footprint "scci_rh_s4:MSOP-10_3x3mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/ads8866.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:MSOP-10_3x3mm_P0.5mm")
+					(name "Footprint") "scci_rh_s4:MSOP-10_3x3mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/ads8866.pdf")
 				(field
@@ -2137,7 +2137,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "U103")
 				(description "")
 			)
@@ -2195,11 +2195,11 @@
 		(comp
 			(ref "U104")
 			(value "TLV3202IDR")
-			(footprint "ato_s4:SOIC-8_3.9x4.9mm_P1.27mm")
+			(footprint "scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tlv3202.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tlv3202.pdf")
 				(field
@@ -2207,7 +2207,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "U104")
 				(description "")
 			)
@@ -2259,11 +2259,11 @@
 		(comp
 			(ref "U105")
 			(value "SN74LVC1G11DBVR")
-			(footprint "ato_s4:SOT-23-6")
+			(footprint "scci_rh_s4:SOT-23-6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:SOT-23-6")
+					(name "Footprint") "scci_rh_s4:SOT-23-6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 				(field
@@ -2271,7 +2271,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "U105")
 				(description "")
 			)
@@ -2317,11 +2317,11 @@
 		(comp
 			(ref "U106")
 			(value "SN74LVC1G74DCUR")
-			(footprint "ato_s4:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_s4:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_s4:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf")
 				(field
@@ -2329,7 +2329,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "U106")
 				(description "")
 			)
@@ -2381,10 +2381,10 @@
 		(comp
 			(ref "C200")
 			(value "22n 0.5% C0G")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2393,7 +2393,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C200")
 				(description "")
 			)
@@ -2427,10 +2427,10 @@
 		(comp
 			(ref "C201")
 			(value "1n C0G")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2439,7 +2439,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C201")
 				(description "")
 			)
@@ -2473,10 +2473,10 @@
 		(comp
 			(ref "C202")
 			(value "100n 10V")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2485,7 +2485,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C202")
 				(description "")
 			)
@@ -2519,10 +2519,10 @@
 		(comp
 			(ref "C203")
 			(value "100n 10V")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2531,7 +2531,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C203")
 				(description "")
 			)
@@ -2565,10 +2565,10 @@
 		(comp
 			(ref "C204")
 			(value "100n 10V")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2577,7 +2577,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C204")
 				(description "")
 			)
@@ -2611,10 +2611,10 @@
 		(comp
 			(ref "C205")
 			(value "1u 10V")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2623,7 +2623,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C205")
 				(description "")
 			)
@@ -2657,10 +2657,10 @@
 		(comp
 			(ref "C206")
 			(value "1u 10V")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2669,7 +2669,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C206")
 				(description "")
 			)
@@ -2703,10 +2703,10 @@
 		(comp
 			(ref "C207")
 			(value "22u 10V")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2715,7 +2715,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C207")
 				(description "")
 			)
@@ -2749,10 +2749,10 @@
 		(comp
 			(ref "C208")
 			(value "100n 10V")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2761,7 +2761,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C208")
 				(description "")
 			)
@@ -2795,10 +2795,10 @@
 		(comp
 			(ref "C209")
 			(value "100n 10V")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2807,7 +2807,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C209")
 				(description "")
 			)
@@ -2841,10 +2841,10 @@
 		(comp
 			(ref "C210")
 			(value "100n 10V")
-			(footprint "ato_s4:C_0805_2012Metric")
+			(footprint "scci_rh_s4:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2853,7 +2853,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "C210")
 				(description "")
 			)
@@ -2887,10 +2887,10 @@
 		(comp
 			(ref "J200")
 			(value "SOURCE 1 RETURN SHUNT")
-			(footprint "ato_s4:PinHeader_1x02_P2.54mm_Vertical")
+			(footprint "scci_rh_s4:PinHeader_1x02_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:PinHeader_1x02_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_s4:PinHeader_1x02_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -2899,7 +2899,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "J200")
 				(description "")
 			)
@@ -2933,10 +2933,10 @@
 		(comp
 			(ref "J201")
 			(value "SOURCE 1 DRIVER PERMISSION")
-			(footprint "ato_s4:PinHeader_1x03_P2.54mm_Vertical")
+			(footprint "scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:PinHeader_1x03_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -2945,7 +2945,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "J201")
 				(description "")
 			)
@@ -2982,10 +2982,10 @@
 		(comp
 			(ref "R200")
 			(value "2R 0.1% KELVIN")
-			(footprint "ato_s4:R_0805_2012Metric")
+			(footprint "scci_rh_s4:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2994,7 +2994,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "R200")
 				(description "")
 			)
@@ -3028,10 +3028,10 @@
 		(comp
 			(ref "R201")
 			(value "10k 0.1%")
-			(footprint "ato_s4:R_0805_2012Metric")
+			(footprint "scci_rh_s4:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3040,7 +3040,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "R201")
 				(description "")
 			)
@@ -3074,10 +3074,10 @@
 		(comp
 			(ref "R202")
 			(value "33R")
-			(footprint "ato_s4:R_0805_2012Metric")
+			(footprint "scci_rh_s4:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3086,7 +3086,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "R202")
 				(description "")
 			)
@@ -3120,10 +3120,10 @@
 		(comp
 			(ref "R203")
 			(value "100k")
-			(footprint "ato_s4:R_0805_2012Metric")
+			(footprint "scci_rh_s4:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3132,7 +3132,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "R203")
 				(description "")
 			)
@@ -3166,10 +3166,10 @@
 		(comp
 			(ref "R204")
 			(value "100k")
-			(footprint "ato_s4:R_0805_2012Metric")
+			(footprint "scci_rh_s4:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3178,7 +3178,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "R204")
 				(description "")
 			)
@@ -3212,10 +3212,10 @@
 		(comp
 			(ref "R205")
 			(value "100k")
-			(footprint "ato_s4:R_0805_2012Metric")
+			(footprint "scci_rh_s4:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3224,7 +3224,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "R205")
 				(description "")
 			)
@@ -3258,11 +3258,11 @@
 		(comp
 			(ref "U200")
 			(value "INA241A2IDR")
-			(footprint "ato_s4:SOIC-8_3.9x4.9mm_P1.27mm")
+			(footprint "scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/ina241a.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/ina241a.pdf")
 				(field
@@ -3270,7 +3270,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "U200")
 				(description "")
 			)
@@ -3322,11 +3322,11 @@
 		(comp
 			(ref "U201")
 			(value "OPA391DCKR")
-			(footprint "ato_s4:SOT-353_SC-70-5")
+			(footprint "scci_rh_s4:SOT-353_SC-70-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/opa391.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:SOT-353_SC-70-5")
+					(name "Footprint") "scci_rh_s4:SOT-353_SC-70-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/opa391.pdf")
 				(field
@@ -3334,7 +3334,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "U201")
 				(description "")
 			)
@@ -3377,11 +3377,11 @@
 		(comp
 			(ref "U202")
 			(value "OPA391DCKR")
-			(footprint "ato_s4:SOT-353_SC-70-5")
+			(footprint "scci_rh_s4:SOT-353_SC-70-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/opa391.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:SOT-353_SC-70-5")
+					(name "Footprint") "scci_rh_s4:SOT-353_SC-70-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/opa391.pdf")
 				(field
@@ -3389,7 +3389,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "U202")
 				(description "")
 			)
@@ -3432,11 +3432,11 @@
 		(comp
 			(ref "U203")
 			(value "ADS8866IDGSR")
-			(footprint "ato_s4:MSOP-10_3x3mm_P0.5mm")
+			(footprint "scci_rh_s4:MSOP-10_3x3mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/ads8866.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:MSOP-10_3x3mm_P0.5mm")
+					(name "Footprint") "scci_rh_s4:MSOP-10_3x3mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/ads8866.pdf")
 				(field
@@ -3444,7 +3444,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "U203")
 				(description "")
 			)
@@ -3502,11 +3502,11 @@
 		(comp
 			(ref "U204")
 			(value "TLV3202IDR")
-			(footprint "ato_s4:SOIC-8_3.9x4.9mm_P1.27mm")
+			(footprint "scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tlv3202.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tlv3202.pdf")
 				(field
@@ -3514,7 +3514,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "U204")
 				(description "")
 			)
@@ -3566,11 +3566,11 @@
 		(comp
 			(ref "U205")
 			(value "SN74LVC1G11DBVR")
-			(footprint "ato_s4:SOT-23-6")
+			(footprint "scci_rh_s4:SOT-23-6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:SOT-23-6")
+					(name "Footprint") "scci_rh_s4:SOT-23-6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 				(field
@@ -3578,7 +3578,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "U205")
 				(description "")
 			)
@@ -3624,11 +3624,11 @@
 		(comp
 			(ref "U206")
 			(value "SN74LVC1G74DCUR")
-			(footprint "ato_s4:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_s4:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_s4:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_s4:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf")
 				(field
@@ -3636,7 +3636,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_S4")
+				(lib "SCCI_RH_S4")
 				(part "U206")
 				(description "")
 			)
@@ -3690,7 +3690,7 @@
 	(variants)
 	(libparts
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C1")
 			(fields
 				(field
@@ -3698,7 +3698,7 @@
 				(field
 					(name "Value") "1u 10V")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3720,7 +3720,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C100")
 			(fields
 				(field
@@ -3728,7 +3728,7 @@
 				(field
 					(name "Value") "22n 0.5% C0G")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3750,7 +3750,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C101")
 			(fields
 				(field
@@ -3758,7 +3758,7 @@
 				(field
 					(name "Value") "1n C0G")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3780,7 +3780,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C102")
 			(fields
 				(field
@@ -3788,7 +3788,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3810,7 +3810,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C103")
 			(fields
 				(field
@@ -3818,7 +3818,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3840,7 +3840,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C104")
 			(fields
 				(field
@@ -3848,7 +3848,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3870,7 +3870,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C105")
 			(fields
 				(field
@@ -3878,7 +3878,7 @@
 				(field
 					(name "Value") "1u 10V")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3900,7 +3900,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C106")
 			(fields
 				(field
@@ -3908,7 +3908,7 @@
 				(field
 					(name "Value") "1u 10V")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3930,7 +3930,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C107")
 			(fields
 				(field
@@ -3938,7 +3938,7 @@
 				(field
 					(name "Value") "22u 10V")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3960,7 +3960,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C108")
 			(fields
 				(field
@@ -3968,7 +3968,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3990,7 +3990,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C109")
 			(fields
 				(field
@@ -3998,7 +3998,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4020,7 +4020,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C110")
 			(fields
 				(field
@@ -4028,7 +4028,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4050,7 +4050,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C2")
 			(fields
 				(field
@@ -4058,7 +4058,7 @@
 				(field
 					(name "Value") "1u 10V")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4080,7 +4080,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C200")
 			(fields
 				(field
@@ -4088,7 +4088,7 @@
 				(field
 					(name "Value") "22n 0.5% C0G")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4110,7 +4110,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C201")
 			(fields
 				(field
@@ -4118,7 +4118,7 @@
 				(field
 					(name "Value") "1n C0G")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4140,7 +4140,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C202")
 			(fields
 				(field
@@ -4148,7 +4148,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4170,7 +4170,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C203")
 			(fields
 				(field
@@ -4178,7 +4178,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4200,7 +4200,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C204")
 			(fields
 				(field
@@ -4208,7 +4208,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4230,7 +4230,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C205")
 			(fields
 				(field
@@ -4238,7 +4238,7 @@
 				(field
 					(name "Value") "1u 10V")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4260,7 +4260,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C206")
 			(fields
 				(field
@@ -4268,7 +4268,7 @@
 				(field
 					(name "Value") "1u 10V")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4290,7 +4290,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C207")
 			(fields
 				(field
@@ -4298,7 +4298,7 @@
 				(field
 					(name "Value") "22u 10V")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4320,7 +4320,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C208")
 			(fields
 				(field
@@ -4328,7 +4328,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4350,7 +4350,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C209")
 			(fields
 				(field
@@ -4358,7 +4358,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4380,7 +4380,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C210")
 			(fields
 				(field
@@ -4388,7 +4388,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4410,7 +4410,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C3")
 			(fields
 				(field
@@ -4418,7 +4418,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4440,7 +4440,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "C4")
 			(fields
 				(field
@@ -4448,7 +4448,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_s4:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4470,7 +4470,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "J1")
 			(fields
 				(field
@@ -4478,7 +4478,7 @@
 				(field
 					(name "Value") "LAB RAILS ONLY")
 				(field
-					(name "Footprint") "ato_s4:PinHeader_1x03_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -4505,7 +4505,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "J100")
 			(fields
 				(field
@@ -4513,7 +4513,7 @@
 				(field
 					(name "Value") "SOURCE 0 RETURN SHUNT")
 				(field
-					(name "Footprint") "ato_s4:PinHeader_1x02_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_s4:PinHeader_1x02_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -4535,7 +4535,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "J101")
 			(fields
 				(field
@@ -4543,7 +4543,7 @@
 				(field
 					(name "Value") "SOURCE 0 DRIVER PERMISSION")
 				(field
-					(name "Footprint") "ato_s4:PinHeader_1x03_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -4570,7 +4570,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "J2")
 			(fields
 				(field
@@ -4578,7 +4578,7 @@
 				(field
 					(name "Value") "MCU ENDPOINT/CONTROL")
 				(field
-					(name "Footprint") "ato_s4:PinHeader_1x12_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_s4:PinHeader_1x12_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -4650,7 +4650,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "J200")
 			(fields
 				(field
@@ -4658,7 +4658,7 @@
 				(field
 					(name "Value") "SOURCE 1 RETURN SHUNT")
 				(field
-					(name "Footprint") "ato_s4:PinHeader_1x02_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_s4:PinHeader_1x02_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -4680,7 +4680,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "J201")
 			(fields
 				(field
@@ -4688,7 +4688,7 @@
 				(field
 					(name "Value") "SOURCE 1 DRIVER PERMISSION")
 				(field
-					(name "Footprint") "ato_s4:PinHeader_1x03_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -4715,7 +4715,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "J3")
 			(fields
 				(field
@@ -4723,7 +4723,7 @@
 				(field
 					(name "Value") "EXTERNAL SUPERVISION")
 				(field
-					(name "Footprint") "ato_s4:PinHeader_1x05_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_s4:PinHeader_1x05_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -4760,7 +4760,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "J4")
 			(fields
 				(field
@@ -4768,7 +4768,7 @@
 				(field
 					(name "Value") "CURRENT ADC INTERFACE")
 				(field
-					(name "Footprint") "ato_s4:PinHeader_1x04_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_s4:PinHeader_1x04_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -4800,7 +4800,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "R1")
 			(fields
 				(field
@@ -4808,7 +4808,7 @@
 				(field
 					(name "Value") "10k 0.1%")
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4830,7 +4830,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "R100")
 			(fields
 				(field
@@ -4838,7 +4838,7 @@
 				(field
 					(name "Value") "2R 0.1% KELVIN")
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4860,7 +4860,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "R101")
 			(fields
 				(field
@@ -4868,7 +4868,7 @@
 				(field
 					(name "Value") "10k 0.1%")
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4890,7 +4890,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "R102")
 			(fields
 				(field
@@ -4898,7 +4898,7 @@
 				(field
 					(name "Value") "33R")
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4920,7 +4920,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "R103")
 			(fields
 				(field
@@ -4928,7 +4928,7 @@
 				(field
 					(name "Value") "100k")
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4950,7 +4950,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "R104")
 			(fields
 				(field
@@ -4958,7 +4958,7 @@
 				(field
 					(name "Value") "100k")
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4980,7 +4980,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "R105")
 			(fields
 				(field
@@ -4988,7 +4988,7 @@
 				(field
 					(name "Value") "100k")
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5010,7 +5010,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "R2")
 			(fields
 				(field
@@ -5018,7 +5018,7 @@
 				(field
 					(name "Value") "10k 0.1%")
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5040,7 +5040,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "R200")
 			(fields
 				(field
@@ -5048,7 +5048,7 @@
 				(field
 					(name "Value") "2R 0.1% KELVIN")
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5070,7 +5070,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "R201")
 			(fields
 				(field
@@ -5078,7 +5078,7 @@
 				(field
 					(name "Value") "10k 0.1%")
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5100,7 +5100,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "R202")
 			(fields
 				(field
@@ -5108,7 +5108,7 @@
 				(field
 					(name "Value") "33R")
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5130,7 +5130,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "R203")
 			(fields
 				(field
@@ -5138,7 +5138,7 @@
 				(field
 					(name "Value") "100k")
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5160,7 +5160,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "R204")
 			(fields
 				(field
@@ -5168,7 +5168,7 @@
 				(field
 					(name "Value") "100k")
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5190,7 +5190,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "R205")
 			(fields
 				(field
@@ -5198,7 +5198,7 @@
 				(field
 					(name "Value") "100k")
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5220,7 +5220,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "R3")
 			(fields
 				(field
@@ -5228,7 +5228,7 @@
 				(field
 					(name "Value") "10k 0.1%")
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5250,7 +5250,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "R4")
 			(fields
 				(field
@@ -5258,7 +5258,7 @@
 				(field
 					(name "Value") "19.1k 0.1%")
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5280,7 +5280,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "R5")
 			(fields
 				(field
@@ -5288,7 +5288,7 @@
 				(field
 					(name "Value") "10k 0.1%")
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5310,7 +5310,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "R6")
 			(fields
 				(field
@@ -5318,7 +5318,7 @@
 				(field
 					(name "Value") "100k")
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5340,7 +5340,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "R7")
 			(fields
 				(field
@@ -5348,7 +5348,7 @@
 				(field
 					(name "Value") "100k")
 				(field
-					(name "Footprint") "ato_s4:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_s4:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5370,7 +5370,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "U1")
 			(fields
 				(field
@@ -5378,7 +5378,7 @@
 				(field
 					(name "Value") "REF3440DBVR")
 				(field
-					(name "Footprint") "ato_s4:SOT-23-6")
+					(name "Footprint") "scci_rh_s4:SOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -5420,7 +5420,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "U100")
 			(fields
 				(field
@@ -5428,7 +5428,7 @@
 				(field
 					(name "Value") "INA241A2IDR")
 				(field
-					(name "Footprint") "ato_s4:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm")
 				(field
 					(name "Datasheet")
 				)
@@ -5480,7 +5480,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "U101")
 			(fields
 				(field
@@ -5488,7 +5488,7 @@
 				(field
 					(name "Value") "OPA391DCKR")
 				(field
-					(name "Footprint") "ato_s4:SOT-353_SC-70-5")
+					(name "Footprint") "scci_rh_s4:SOT-353_SC-70-5")
 				(field
 					(name "Datasheet")
 				)
@@ -5525,7 +5525,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "U102")
 			(fields
 				(field
@@ -5533,7 +5533,7 @@
 				(field
 					(name "Value") "OPA391DCKR")
 				(field
-					(name "Footprint") "ato_s4:SOT-353_SC-70-5")
+					(name "Footprint") "scci_rh_s4:SOT-353_SC-70-5")
 				(field
 					(name "Datasheet")
 				)
@@ -5570,7 +5570,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "U103")
 			(fields
 				(field
@@ -5578,7 +5578,7 @@
 				(field
 					(name "Value") "ADS8866IDGSR")
 				(field
-					(name "Footprint") "ato_s4:MSOP-10_3x3mm_P0.5mm")
+					(name "Footprint") "scci_rh_s4:MSOP-10_3x3mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -5640,7 +5640,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "U104")
 			(fields
 				(field
@@ -5648,7 +5648,7 @@
 				(field
 					(name "Value") "TLV3202IDR")
 				(field
-					(name "Footprint") "ato_s4:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm")
 				(field
 					(name "Datasheet")
 				)
@@ -5700,7 +5700,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "U105")
 			(fields
 				(field
@@ -5708,7 +5708,7 @@
 				(field
 					(name "Value") "SN74LVC1G11DBVR")
 				(field
-					(name "Footprint") "ato_s4:SOT-23-6")
+					(name "Footprint") "scci_rh_s4:SOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -5750,7 +5750,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "U106")
 			(fields
 				(field
@@ -5758,7 +5758,7 @@
 				(field
 					(name "Value") "SN74LVC1G74DCUR")
 				(field
-					(name "Footprint") "ato_s4:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_s4:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -5810,7 +5810,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "U2")
 			(fields
 				(field
@@ -5818,7 +5818,7 @@
 				(field
 					(name "Value") "OPA391DCKR")
 				(field
-					(name "Footprint") "ato_s4:SOT-353_SC-70-5")
+					(name "Footprint") "scci_rh_s4:SOT-353_SC-70-5")
 				(field
 					(name "Datasheet")
 				)
@@ -5855,7 +5855,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "U200")
 			(fields
 				(field
@@ -5863,7 +5863,7 @@
 				(field
 					(name "Value") "INA241A2IDR")
 				(field
-					(name "Footprint") "ato_s4:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm")
 				(field
 					(name "Datasheet")
 				)
@@ -5915,7 +5915,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "U201")
 			(fields
 				(field
@@ -5923,7 +5923,7 @@
 				(field
 					(name "Value") "OPA391DCKR")
 				(field
-					(name "Footprint") "ato_s4:SOT-353_SC-70-5")
+					(name "Footprint") "scci_rh_s4:SOT-353_SC-70-5")
 				(field
 					(name "Datasheet")
 				)
@@ -5960,7 +5960,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "U202")
 			(fields
 				(field
@@ -5968,7 +5968,7 @@
 				(field
 					(name "Value") "OPA391DCKR")
 				(field
-					(name "Footprint") "ato_s4:SOT-353_SC-70-5")
+					(name "Footprint") "scci_rh_s4:SOT-353_SC-70-5")
 				(field
 					(name "Datasheet")
 				)
@@ -6005,7 +6005,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "U203")
 			(fields
 				(field
@@ -6013,7 +6013,7 @@
 				(field
 					(name "Value") "ADS8866IDGSR")
 				(field
-					(name "Footprint") "ato_s4:MSOP-10_3x3mm_P0.5mm")
+					(name "Footprint") "scci_rh_s4:MSOP-10_3x3mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -6075,7 +6075,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "U204")
 			(fields
 				(field
@@ -6083,7 +6083,7 @@
 				(field
 					(name "Value") "TLV3202IDR")
 				(field
-					(name "Footprint") "ato_s4:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm")
 				(field
 					(name "Datasheet")
 				)
@@ -6135,7 +6135,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "U205")
 			(fields
 				(field
@@ -6143,7 +6143,7 @@
 				(field
 					(name "Value") "SN74LVC1G11DBVR")
 				(field
-					(name "Footprint") "ato_s4:SOT-23-6")
+					(name "Footprint") "scci_rh_s4:SOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -6185,7 +6185,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "U206")
 			(fields
 				(field
@@ -6193,7 +6193,7 @@
 				(field
 					(name "Value") "SN74LVC1G74DCUR")
 				(field
-					(name "Footprint") "ato_s4:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_s4:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -6245,7 +6245,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_S4")
+			(lib "SCCI_RH_S4")
 			(part "U3")
 			(fields
 				(field
@@ -6253,7 +6253,7 @@
 				(field
 					(name "Value") "TMUX1136DGSR")
 				(field
-					(name "Footprint") "ato_s4:MSOP-10_3x3mm_P0.5mm")
+					(name "Footprint") "scci_rh_s4:MSOP-10_3x3mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -6317,8 +6317,8 @@
 	)
 	(libraries
 		(library
-			(logical "ATO_S4")
-			(uri "${KIPRJMOD}/ATO_S4.kicad_sym")
+			(logical "SCCI_RH_S4")
+			(uri "${KIPRJMOD}/SCCI_RH_S4.kicad_sym")
 		)
 	)
 	(nets

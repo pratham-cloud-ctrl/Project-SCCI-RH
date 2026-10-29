@@ -4,11 +4,11 @@ from unittest.mock import patch
 import unittest
 import numpy as np
 
-from ato.stage3.dynamic_response import (DynamicResponseModel, DynamicResponseSpec, ProspectiveDose,
+from scci_rh.stage3.dynamic_response import (DynamicResponseModel, DynamicResponseSpec, ProspectiveDose,
                                         ResponsePosition, CompletedDose)
-from ato.stage3.sparse_baseline import ZeroFutureInput
-from ato.stage3 import motor
-from ato.stage3.isolated_pilot import (ARMS, ACTION_DOMAINS, PILOT_CONTEXT_ID, IsolatedPilotSpec, PilotReference,
+from scci_rh.stage3.sparse_baseline import ZeroFutureInput
+from scci_rh.stage3 import motor
+from scci_rh.stage3.isolated_pilot import (ARMS, ACTION_DOMAINS, PILOT_CONTEXT_ID, IsolatedPilotSpec, PilotReference,
     reference_from_library, choose_action, aggregate_context, run_trial)
 
 
@@ -176,7 +176,7 @@ class TrialCoupling(unittest.TestCase):
             return {'true_phase_charge_C': nominal*true_fraction,
                     'delivered_phase_charge_C': nominal*1.012, 'charge_uncertainty_C': nominal*uncertainty,
                     'quality': 'VALID', 'inhibit_next': False}
-        with patch('ato.stage3.isolated_pilot.predict_zero_future', side_effect=observed_forecast):
+        with patch('scci_rh.stage3.isolated_pilot.predict_zero_future', side_effect=observed_forecast):
             return run_trial(theta=np.zeros((2, 4)), family='favorable', arm=arm, noise_seed=101,
                 baseline_model={}, dynamic_model=dynamic(), context_id=PILOT_CONTEXT_ID, independent_domains=domains(),
                 reference=reference(), prospective_dose=ProspectiveDose(), learning=learning,
@@ -211,7 +211,7 @@ class TrialCoupling(unittest.TestCase):
             self.assertEqual(value['baseline_only_forecasts_committed'], 0)
 
     def test_prewarmup_observed_rejection_cancels_pending_launch(self):
-        with patch('ato.stage3.isolated_pilot.predict_zero_future', side_effect=ValueError('INDEPENDENT_CONTEXT_FAILED')):
+        with patch('scci_rh.stage3.isolated_pilot.predict_zero_future', side_effect=ValueError('INDEPENDENT_CONTEXT_FAILED')):
             value = run_trial(theta=np.zeros((2, 4)), family='favorable', arm='expert_external', noise_seed=1,
                 baseline_model={}, dynamic_model=dynamic(), context_id=PILOT_CONTEXT_ID, independent_domains=domains(),
                 reference=reference(), prospective_dose=ProspectiveDose(), learning=True)[0]

@@ -646,7 +646,7 @@ def reproduce() -> dict[str, Any]:
     native = native_export_checks()
     histories = scenarios()
     return {
-        "schema": "ato.stage4.contact-router-control-contract.v1",
+        "schema": "scci_rh.stage4.contact-router-control-contract.v1",
         "scope": "Finite stable ideal-Boolean/address/ownership study; digital concept only",
         "source_sha256_normalized_lf": hashlib.sha256(Path(__file__).read_bytes().replace(b"\r\n", b"\n")).hexdigest(),
         "contract": "docs/stage4/contact-router-control-contract.md",

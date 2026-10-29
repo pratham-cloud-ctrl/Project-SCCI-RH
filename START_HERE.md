@@ -1,7 +1,7 @@
-# Start here: Project ATO
+# Start here: Project SCCI RH
 
-**[Inspect the actual build in your browser](https://pratham-cloud-ctrl.github.io/Project-ATO/)**
-or use its [standard/native downloads](https://pratham-cloud-ctrl.github.io/Project-ATO/?view=downloads).
+**[Inspect the actual build in your browser](https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/)**
+or use its [standard/native downloads](https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/?view=downloads).
 The browser view requires no CAD installation; the downloads support local
 engineering inspection and editing.
 
@@ -14,15 +14,15 @@ locates the current source files.
 
 The detailed engineering reading order follows below.
 
-Project ATO is an entirely digital research and engineering concept for invasive
+Project SCCI RH is an entirely digital research and engineering concept for invasive
 spinal recording, interpretation, selective stimulation and feedback. Both
 expert-informed retained motor learning and function-specific physiological
 regulation are central. AstroSam's Mind-Link inspired the progression from a
-future idea to inspectable engineering; ATO contributes its own spinal design.
+future idea to inspectable engineering; SCCI_RH contributes its own spinal design.
 
 ## 1. Read the integrated account
 
-- [Integrated illustrated manuscript](output/pdf/Project_ATO_Integrated_Manuscript.pdf): 28 pages connecting scientific premises, mathematical models, actual engineering and verification.
+- [Integrated illustrated manuscript](output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf): 28 pages connecting scientific premises, mathematical models, actual engineering and verification.
 - [Editable manuscript and builder](manuscript/stage6/manuscript.md): complete source, figures and reproducible typesetting alongside it.
 - [Current scope and completed stages](CURRENT_STATUS.md): what exists and which capabilities remain conditional.
 - [Primary-source evidence audit](docs/stage6/evidence-review.md): 18 references, populations, access methods and limits.
@@ -60,7 +60,7 @@ or to select your installed FreeCAD executable.
 
 - [Complete reference launcher](cad/stage5/OPEN_REFERENCE_ASSEMBLY.cmd): actual eight-board assembly, 260 physical objects, session-only cutaway.
 - [Future implanted-interface source](cad/stage5/future-interface/README.md): 230 physical parts, 36 mapped ports, separate leads and six allocations.
-- [Six mechanical review sheets](cad/stage5/drawings/ATO_Stage5_Mechanical_Review.pdf): dimensions, service, interfaces and evidence boundaries.
+- [Six mechanical review sheets](cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf): dimensions, service, interfaces and evidence boundaries.
 - [Mating and wiring source](cad/stage5/harness/README.md): actual terminal identities, nominal housings and planning annotations.
 
 The 600 x 310 x 240 mm reference keeps all boards at 1:1 scale. The separate
@@ -70,7 +70,7 @@ existing boards fit inside it.
 
 ## 5. Reproduce and check
 
-Use a full Git clone at tag `v2.0.1` for history/blob verification. Install the
+Use a full Git clone at tag `v2.1.0` for history/blob verification. Install the
 dependencies in [requirements-lock.txt](requirements-lock.txt) in a Python 3.12
 environment. Read the experiment entry for a C11 compiler, then run:
 

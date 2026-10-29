@@ -115,10 +115,10 @@ def finalize(name,system,import_ses=False):
             widened.append({'uuid':item.m_Uuid.AsString(),'old_width_mm':pcb.ToMM(item.GetWidth())})
             item.SetWidth(mm(.15))
     title=board.GetTitleBlock()
-    title.SetTitle('Project ATO / '+name.replace('-',' ').title())
+    title.SetTitle('Project SCCI RH / '+name.replace('-',' ').title())
     title.SetRevision('A / Digital modular reference')
     title.SetDate('2026-10-15')
-    title.SetCompany('Project ATO / Pratham')
+    title.SetCompany('Project SCCI RH / Pratham')
     title.SetComment(0,'Artificial electrical loads only; physical and biological qualification remain open')
     # Semantic silkscreen headings come from the actual saved board text; never
     # regenerate placements or routes merely to polish the review entry points.
@@ -148,7 +148,7 @@ def finalize(name,system,import_ses=False):
     (directory/'fp-lib-table').write_text('(fp_lib_table (version 7)\n'+entries+')\n')
     board=pcb.LoadBoard(str(path));board.BuildConnectivity();conn=board.GetConnectivity();conn.RecalculateRatsnest()
     tracks=list(board.GetTracks());vias=[t for t in tracks if isinstance(t,pcb.PCB_VIA)]
-    result={'schema':'ato.routed-board.v1','board':name,'pcb_sha256_lf':digest(path),'system_sha256_lf':digest(PKG/'integration/system.json'),'electrical_components':len(components),'mounting_holes':4,'pads':sum(len(list(f.Pads())) for f in board.GetFootprints()),'track_segments':len(tracks)-len(vias),'vias':len(vias),'unconnected':conn.GetUnconnectedCount(False),'net_renames':{k:v for k,v in renames.items() if k!=v},'widened_stubs':widened,'models':models,'stackup':'Four copper layers / 1.6 mm nominal FR4 / ENIG; impedance and fabrication tolerances unqualified'}
+    result={'schema':'scci_rh.routed-board.v1','board':name,'pcb_sha256_lf':digest(path),'system_sha256_lf':digest(PKG/'integration/system.json'),'electrical_components':len(components),'mounting_holes':4,'pads':sum(len(list(f.Pads())) for f in board.GetFootprints()),'track_segments':len(tracks)-len(vias),'vias':len(vias),'unconnected':conn.GetUnconnectedCount(False),'net_renames':{k:v for k,v in renames.items() if k!=v},'widened_stubs':widened,'models':models,'stackup':'Four copper layers / 1.6 mm nominal FR4 / ENIG; impedance and fabrication tolerances unqualified'}
     (directory/'routing.json').write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps({k:result[k] for k in ['board','electrical_components','track_segments','vias','unconnected']}),flush=True)
     return result

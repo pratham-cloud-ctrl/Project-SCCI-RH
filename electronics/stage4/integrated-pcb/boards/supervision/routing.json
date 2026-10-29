@@ -1,8 +1,8 @@
 {
-  "schema": "ato.routed-board.v1",
+  "schema": "scci_rh.routed-board.v1",
   "board": "supervision",
-  "pcb_sha256_lf": "877e2d5643182aa68e16e77dbdd7821ee55f36b763745bb6aba7ea7a8afc3440",
-  "system_sha256_lf": "e9196b94b4e409ca3c32d081e6546300d9d78ca87a68072ab40e431a556c36f4",
+  "pcb_sha256_lf": "409919d0b44359008860d473d92eb6ac4944572a33c2ee322e8c331214563958",
+  "system_sha256_lf": "be93d2ff702b203d53b24f35bf94275039d9271d3356ed5cc77d8b570d2409bd",
   "electrical_components": 479,
   "mounting_holes": 4,
   "pads": 1752,

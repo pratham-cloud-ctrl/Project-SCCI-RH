@@ -4,7 +4,7 @@
 
 ## Review before generation
 
-The reviewer inspected the [protocol and implementation](../../experiments/stage3/frozen-observer-pilot/README.md), verifier and preflight receipt before outcome generation. No producer was executed by this reviewer. The final approved preflight SHA256 was `09a3420045af0eb80c77d7a388dd43e3229c9d133647291d874984f7f5623dc8`. Root approval was saved before generation, SHA256 `ef6495bef21aaf94e133d75754c118b9b1d778ee40d75b2f6fca41093d54c47f`.
+The reviewer inspected the [protocol and implementation](../../experiments/stage3/frozen-observer-pilot/README.md), verifier and preflight receipt before outcome generation. No producer was executed by this reviewer. The final approved preflight SHA256 was `0b87b58914551109bb4f9ef9282430ab74902d00f4cdbbe77269144d2e9dca2f`. Root approval was saved before generation, SHA256 `ba1480d063d18084f26b252ddac3a01b027981244cb0a43ec570930ed2888ee3`.
 
 The 0.975 s decision consumes only arrived positions through physical support 0.950 s and seals one complete 26-target baseline vector. The physical target at 0.975 s is checked separately before the 1.000 s permit resolution; the remaining 25 strict-future targets use the inherited delayed-residual guard. Whole-prefix state, calibration and the synthetic 60 ms structural prior are identical across arms and explicitly disclosed. The wrapper preserves the frozen observer and all 21 bound historical source files.
 

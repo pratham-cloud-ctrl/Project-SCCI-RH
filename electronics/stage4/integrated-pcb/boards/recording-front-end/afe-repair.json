@@ -1,5 +1,5 @@
 {
-  "schema": "ato.afe-native-copper-repair.v1",
+  "schema": "scci_rh.afe-native-copper-repair.v1",
   "source_before_sha256_lf": "633fb239103bf2380a16bf9c0e591166a60aa5cb1e76c5fb8c374cc887272602",
   "source_after_sha256_lf": "72d1ec17f09d755df3804f81526bb8b377ca39996c0b86c8c87937cdb16a9ee0",
   "grid_mm": 0.05,

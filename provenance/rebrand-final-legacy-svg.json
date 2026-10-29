@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-29",
+  "scope": "Actual nativeKiCadSVG re-export of current saved legacy onepage schematic; no native design save, routing or connectivity edits.",
+  "command": [
+    "kicad-cli",
+    "sch",
+    "export",
+    "svg",
+    "--output",
+    "electronics/exports/",
+    "electronics/scci_rh_reference.kicad_sch"
+  ],
+  "returncode": 0,
+  "files": [
+    {
+      "path": "electronics/exports/scci_rh_reference.svg",
+      "current_sha256": "75b72fbee23c5e6f71a1b2045d66fba8b5dcc4e129b51bafe59243ec3c6e7bfa",
+      "source": "electronics/scci_rh_reference.kicad_sch",
+      "source_sha256": "dd6c3b690fd7c85b31df929a76d3e226e7311073a288407608601c5d1f19d692",
+      "method": "actual_native_export"
+    }
+  ]
+}

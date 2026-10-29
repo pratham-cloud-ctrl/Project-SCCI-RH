@@ -84,7 +84,7 @@ for group, records, raw_key, summary_key, first, count in (
             'maximum_observed_component_error_m':float(np.max(abs(np.array(e)))),
             'maximum_error_plus_3mm_m':float(np.max(abs(np.array(e))))+.003,
             'observed_rmse_m':float(np.sqrt(np.mean(np.array(e)**2)))} for key,e in categories.items()}}
-result = {'schema':'ato.tmp.observer-saved-data-audit.v1','passed':True,
+result = {'schema':'scci_rh.tmp.observer-saved-data-audit.v1','passed':True,
     'audit_source_sha256':digest(Path(__file__)), 'raw_sha256':digest(raw_path),
     'summary_sha256':digest(summary_path),'groups':groups,
     'covariance_note':'Conditional Gaussian covariance is not an empirical bound. These standardized residual diagnostics do not tune settings or replace maximum-error gates.'}

@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "provenance/stage4-nrf5340-checkpoint-review.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "79866c88333291ef68480e338bf0d658143a4b06d02a6eed900d744454ef41db",
+  "current_sha256": "356f12279443f7cf406fd7b5b3f7d5cef1c4bb7c0256db7afdb95890e8272028",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

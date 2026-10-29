@@ -1,11 +1,11 @@
 {
-  "schema": "ato.stage3.acquisition-qualification-summary.v1",
+  "schema": "scci_rh.stage3.acquisition-qualification-summary.v1",
   "scope": "bounded digital missing-input contamination and independent analytic synthetic aperture-source diagnostic; not physical AFE recovery or full body-source convergence",
   "reference_definition": "same initialized filter driven by unknown range-clipped artifact-free digital samples at masked apertures; input magnitudes <=5mV",
   "numerical_scope": "engineering floating-point enclosure tested against independent SOS output, not formal interval proof",
   "sources": {
-    "src/ato/stage3/acquisition.py": "bd681adefc5e82c58b449490ad14917fff307be9947de647e92aeb6c38b22f03",
-    "src/ato/stage3/filter_residual.py": "0404915b1f891ef8e1da8fbc7549888110b90a0100877f361154ce39154dca47"
+    "src/scci_rh/stage3/acquisition.py": "bd681adefc5e82c58b449490ad14917fff307be9947de647e92aeb6c38b22f03",
+    "src/scci_rh/stage3/filter_residual.py": "0404915b1f891ef8e1da8fbc7549888110b90a0100877f361154ce39154dca47"
   },
   "comparisons": [
     {
@@ -469,6 +469,6 @@
   },
   "raw_witness": {
     "file": "acquisition-qualification.json.gz",
-    "sha256": "c641f450c904afc4cf1f99753cc092f80b9395a1ebdd6e4dd64aaef25608a316"
+    "sha256": "65911faab6359d24e9398513ff8669039967c559be3281ba3b12530b26efddd7"
   }
 }

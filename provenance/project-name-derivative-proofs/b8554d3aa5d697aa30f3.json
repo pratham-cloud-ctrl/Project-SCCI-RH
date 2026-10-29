@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/verify_exports.py",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "b7e5fa551f8b5abce04e67cdfd127429581f4c9727faab23593e677514a76fad",
+  "current_sha256": "8c6bec18a28f660efff3139ac47c7d992b98691f6f2d70d2dcf4f13cb0f893bb",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-electrical-export-verifier.json",
+      "sha256_lf": "372121b4fe18db067397e9d918d996b1ab61b0a2e40ff93192fe50f23ca7aa95"
+    }
+  ]
+}

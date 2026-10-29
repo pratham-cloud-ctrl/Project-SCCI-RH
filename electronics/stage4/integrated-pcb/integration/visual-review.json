@@ -1,6 +1,6 @@
 {
-  "schema": "ato.integrated-schematic-visual-review.v1",
-  "pdf_sha256": "51576a6f031ea4a4a6da7bb6bc97c55865deb3551bc3f63747450121ef482fe3",
+  "schema": "scci_rh.integrated-schematic-visual-review.v1",
+  "pdf_sha256": "0d3b9ce151b87fcb9c94fc9286ac51f049bfd79a50a7442e6790863d7ff06560",
   "pages": 80,
   "render_method": "Poppler pdftoppm at1900px longedge; seven12-pagecontact sheets + fullpage3and72 detail",
   "reviewed_all_pages": true,

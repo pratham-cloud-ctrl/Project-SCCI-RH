@@ -1,12 +1,12 @@
 {
-  "schema": "ato.board-export.v1",
+  "schema": "scci_rh.board-export.v1",
   "board": "recording-front-end",
   "source_board": "electronics/stage4/integrated-pcb/boards/recording-front-end/recording_front_end.kicad_pcb",
-  "exporter_sha256_lf": "dfa6a5e1231d47695e3e671721d8966221ff346c0e31dd8ca3ac45a510454b95",
-  "source_sha256_lf": "584360f1b286a1b02f8adfa971225be66456e0109c77c9f2d8ab2f57f17c21a9",
+  "exporter_sha256_lf": "833c8eee50c653e3df5e3a3000ac960d551dd69689296971903de5fe6ffe6961",
+  "source_sha256_lf": "5cd64396fc8a0f562a2deb5d02d0556e189533b5a653dcac482aa238b09c664c",
   "source_project_sha256_lf": "d61b9e676484ceceae410379e22260fc957579f79fe3cf75fdb7390214a1450c",
-  "source_xml_sha256_lf": "da584f9d1b6a5859e5ed3428f52c2579cd476873ca48246974879466aaddf418",
-  "DRC_sha256_lf": "719bf5b5249113bb73293d579d9ba8b07282a7c64119a70c702f068e6da0e9b3",
+  "source_xml_sha256_lf": "6bdd9dcd9843b8fdf968227b532094bf931626081c7061ccb212d4fac429ab7d",
+  "DRC_sha256_lf": "b4d088f0f14629da3c2748fe9e5a5df5e1bf3c85d77779f63babe7a9bc948870",
   "component_count": 153,
   "fitted_component_count": 153,
   "DNP_references": [],
@@ -20,8 +20,8 @@
         "--force",
         "--no-dnp",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\recording-front-end\\populated.step",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\recording-front-end\\recording_front_end.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\recording-front-end\\populated.step",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\recording-front-end\\recording_front_end.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -40,8 +40,8 @@
         "--side",
         "top",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\recording-front-end\\top.png",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\recording-front-end\\recording_front_end.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\recording-front-end\\top.png",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\recording-front-end\\recording_front_end.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -60,8 +60,8 @@
         "--side",
         "bottom",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\recording-front-end\\bottom.png",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\recording-front-end\\recording_front_end.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\recording-front-end\\bottom.png",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\recording-front-end\\recording_front_end.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -82,8 +82,8 @@
         "--zoom",
         ".83",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\recording-front-end\\isometric.png",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\recording-front-end\\recording_front_end.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\recording-front-end\\isometric.png",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\recording-front-end\\recording_front_end.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -99,8 +99,8 @@
         "--exclude-drawing-sheet",
         "--mode-single",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\recording-front-end\\top-copper.svg",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\recording-front-end\\recording_front_end.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\recording-front-end\\top-copper.svg",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\recording-front-end\\recording_front_end.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -117,8 +117,8 @@
         "--mirror",
         "--mode-single",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\recording-front-end\\bottom-copper.svg",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\recording-front-end\\recording_front_end.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\recording-front-end\\bottom-copper.svg",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\recording-front-end\\recording_front_end.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -131,8 +131,8 @@
         "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts",
         "--subtract-soldermask",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\recording-front-end\\fabrication-reference\\",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\recording-front-end\\recording_front_end.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\recording-front-end\\fabrication-reference\\",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\recording-front-end\\recording_front_end.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -148,10 +148,10 @@
         "--excellon-separate-th",
         "--generate-report",
         "--report-path",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\recording-front-end\\fabrication-reference\\drill-report.txt",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\recording-front-end\\fabrication-reference\\drill-report.txt",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\recording-front-end\\fabrication-reference\\",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\recording-front-end\\recording_front_end.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\recording-front-end\\fabrication-reference\\",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\recording-front-end\\recording_front_end.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -168,8 +168,8 @@
         "both",
         "--exclude-dnp",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\recording-front-end\\fabrication-reference\\positions.csv",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\recording-front-end\\recording_front_end.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\recording-front-end\\fabrication-reference\\positions.csv",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\recording-front-end\\recording_front_end.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -183,27 +183,27 @@
   "populated_models_nominal_where_documented": true,
   "physical_qualification": false,
   "outputs": {
-    "bottom-copper.svg": "2c01abe62e187c819d0679c9c54a753077e7ff75fd6b4cdb60d635afb96dfb41",
-    "bottom.png": "1f98098c98f6fd432b3e120f8794865c29ab3bb06d99c496905ee4f0dafaf337",
-    "isometric.png": "d44be0e86e848e436673005bfa550c224e060668ebd8798d4b72bbfa86d5e45f",
+    "bottom-copper.svg": "05e3624ffcd8c83417eab2fff8f030bbabbd2dd8d0293ce3694138762f7f0311",
+    "bottom.png": "21b3d18633744e1446b690e23c0390185b7fe5e10fac53e645e9e7dfa6af6372",
+    "isometric.png": "6b3527f0f0f0d1b2476833611379dfbe660664a3946d25a8101124e62ab9a058",
     "populated.step": "fbc5878132fde732e141ec2146dca31b9b2bf8581af18ab782bb5430c3975685",
-    "top-copper.svg": "bdc8a88b2d1d7b47011664d8e2f709f940c48c4ae2ff27577b22873eb322644c",
-    "top.png": "391771ae3843b55cd9744c1307586f850082ec26a6e9b79f1cb9766e42184522",
-    "fabrication-reference/bom.csv": "c6b752173edeb7e3ebb5eb5659b78cea1850faff8410210f8d901dc621a0b110",
-    "fabrication-reference/drill-report.txt": "5ceae575b81a78bc4c0e1fcc736a2eb4d7b52bd7280e92d8748afcff235bc2b1",
+    "top-copper.svg": "8246604a0c1cf4309feaa42a700ba7cff26e7af7b2c30e9627a497fed1208447",
+    "top.png": "78cd1e5106056c1ea4494bad7e43f2a7f33af6362c4dd9c5044121d0f9fc4a7a",
+    "fabrication-reference/bom.csv": "fc69a8ba4cdc25797d4261e76a4c5ce1c60998d990fcf861f7ebd24852178435",
+    "fabrication-reference/drill-report.txt": "463c71a62e2c4e7fef0b77075094769900085e5600bef9a8a3f1887fea51055a",
     "fabrication-reference/positions.csv": "3ba5f687a8396616a7f466faeea869205d1142037c73708e9a6502bde99dbc06",
     "fabrication-reference/README.md": "118a7498542a8992e20d99363fd12818a8dacb65e4b57cefaea220f696f077b5",
-    "fabrication-reference/recording_front_end-B_Cu.gbl": "2bb946115543e0477a6797250abd0bb0b153a05ab516eb62b26b1eace8048290",
-    "fabrication-reference/recording_front_end-B_Mask.gbs": "cfd7fcba823f6feb467aa4c211a67faa9508103a7aa8f9e40dd207d268409de9",
-    "fabrication-reference/recording_front_end-B_Silkscreen.gbo": "9a23e4b772437b7fd3694f3d536ec221280ada69d6b95cbe6cbc7eab24d57f3b",
-    "fabrication-reference/recording_front_end-Edge_Cuts.gm1": "d562b45b6fe57e7f0ea77bfc0987d7684daf13b4edc18ccb448e18abed92028d",
-    "fabrication-reference/recording_front_end-F_Cu.gtl": "9ea97a7ff75d2420857b43f7ceb1f1276877b73c90e66427b6d58494aa52ed95",
-    "fabrication-reference/recording_front_end-F_Mask.gts": "4ff879a38f77fee39706b58018caacf5c3518b3aa5659eb332644268b1e6547e",
-    "fabrication-reference/recording_front_end-F_Silkscreen.gto": "a40fcd54dbd4f81be217d2053bc2c810b1f937b5747e7870376b916ede1a6338",
-    "fabrication-reference/recording_front_end-In1_Cu.g1": "9f4b51137797c85c0e5951cd40b972928169c5d217371073cebad0fe3cd90c8a",
-    "fabrication-reference/recording_front_end-In2_Cu.g2": "34471da6410e1b207800d5f67b5cbac4899345be3e5bbfd2d3319b308124120a",
-    "fabrication-reference/recording_front_end-job.gbrjob": "a548aaf10c57bdec35bfab78a17a01d0ec088471bce06f0611eb742704278881",
-    "fabrication-reference/recording_front_end-NPTH.drl": "798ee1d52bae7f8be679e490928f1ac5fcb4a0e1510f0b8ee9a0826143b817fc",
-    "fabrication-reference/recording_front_end-PTH.drl": "31a44ccff3e787378d93fa9a34c2457d1e7adfd07ca1c5e151241d39f670a42f"
+    "fabrication-reference/recording_front_end-B_Cu.gbl": "0aa76c1d09ae9f65d633abe166dfe37745c4944f8e6901407ce1733fdb087930",
+    "fabrication-reference/recording_front_end-B_Mask.gbs": "ec04e18ff797f97f336c9b815ff47f2f5654178ddc67afbbb3489a46fcb788ff",
+    "fabrication-reference/recording_front_end-B_Silkscreen.gbo": "990ec99854f71a5ef0bac1bf5a52d121683c8b8c578ccffd8874aec51bc9c758",
+    "fabrication-reference/recording_front_end-Edge_Cuts.gm1": "beff6f08c400757bbe2e8e62c484e0199c058b334e101a1fb655f2c89906abeb",
+    "fabrication-reference/recording_front_end-F_Cu.gtl": "43d1b10bd551583c7ab7cd0c0dc272b1f501e053e96003a99b2ec185870f69b9",
+    "fabrication-reference/recording_front_end-F_Mask.gts": "fcc83702360c5852540731ad9ae9ddc64828e059ed6acac50792a363d7526d53",
+    "fabrication-reference/recording_front_end-F_Silkscreen.gto": "653463b40ad52ec8de745edc009a8019d7ffcf587dfa4a8a2ab57fed94ddeebf",
+    "fabrication-reference/recording_front_end-In1_Cu.g1": "2d2d8ba540b3d5c281b43b81255bfefa2bce40b5b0f8bdb06c090f24d40b58d1",
+    "fabrication-reference/recording_front_end-In2_Cu.g2": "146aff2c073142c24ec3f4316d3fea0ea1a504018adc473c36cd693d47d60a87",
+    "fabrication-reference/recording_front_end-job.gbrjob": "34c91037bf9d008200712f0d218865df136a9bf289dd057661702b996241c034",
+    "fabrication-reference/recording_front_end-NPTH.drl": "40fbae24ac985b51ce2e1e8da78e8cbbee93a416ee446b737f87ad08d5903009",
+    "fabrication-reference/recording_front_end-PTH.drl": "2741e0c8eddea005aa903d2c03ff5d05844774650b6ab5ea94fa5dd049b95027"
   }
 }

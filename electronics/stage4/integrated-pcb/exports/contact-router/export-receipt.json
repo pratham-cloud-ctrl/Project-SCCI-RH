@@ -1,12 +1,12 @@
 {
-  "schema": "ato.board-export.v1",
+  "schema": "scci_rh.board-export.v1",
   "board": "contact-router",
   "source_board": "electronics/stage4/integrated-pcb/boards/contact-router/contact_router.kicad_pcb",
-  "exporter_sha256_lf": "3bb0cad3cbf63fc3940d9a30e0a7fc31be818bc4b35b5eba81bff60a592aca76",
-  "source_sha256_lf": "2bf7bf8b049e4b7e27dca0bed9db88f4efab5a3944f183a16246432411ea137f",
+  "exporter_sha256_lf": "022a370fcb3e2c04d9ea166d6ad92ad1478333f4a73f8e68aef5d1f96d0ab18f",
+  "source_sha256_lf": "040fdffc12fc0de29bdbf233bf44f12246ffb3d582307ac55b75330cbbec0346",
   "source_project_sha256_lf": "f54b2d27a08263f09206cbcfc5530e6699dda9a342a489bbf9c31de3ad4c9c71",
-  "source_xml_sha256_lf": "bd61df9b6cf19995e592f44e05da289459213c0cf368e06a8b4083eaece1c08b",
-  "DRC_sha256_lf": "4f5b7829727c245bf81dd8c23cfcfbdfa5db42f7685583054130bc738da210a2",
+  "source_xml_sha256_lf": "97626a021e11a0f0d7b13a7c388866c9c087f5feda973a6c85fe9d62fb471d46",
+  "DRC_sha256_lf": "0f250e6d99f59f7c0dc45ce33f4e73b0c5e68755bcd18675069efca1216960e2",
   "component_count": 155,
   "fitted_component_count": 155,
   "DNP_references": [],
@@ -20,8 +20,8 @@
         "--force",
         "--no-dnp",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\contact-router\\populated.step",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\contact-router\\contact_router.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\contact-router\\populated.step",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\contact-router\\contact_router.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -40,8 +40,8 @@
         "--side",
         "top",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\contact-router\\top.png",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\contact-router\\contact_router.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\contact-router\\top.png",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\contact-router\\contact_router.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -60,8 +60,8 @@
         "--side",
         "bottom",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\contact-router\\bottom.png",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\contact-router\\contact_router.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\contact-router\\bottom.png",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\contact-router\\contact_router.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -82,8 +82,8 @@
         "--zoom",
         ".83",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\contact-router\\isometric.png",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\contact-router\\contact_router.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\contact-router\\isometric.png",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\contact-router\\contact_router.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -99,8 +99,8 @@
         "--exclude-drawing-sheet",
         "--mode-single",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\contact-router\\top-copper.svg",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\contact-router\\contact_router.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\contact-router\\top-copper.svg",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\contact-router\\contact_router.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -117,8 +117,8 @@
         "--mirror",
         "--mode-single",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\contact-router\\bottom-copper.svg",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\contact-router\\contact_router.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\contact-router\\bottom-copper.svg",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\contact-router\\contact_router.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -131,8 +131,8 @@
         "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts",
         "--subtract-soldermask",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\contact-router\\fabrication-reference\\",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\contact-router\\contact_router.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\contact-router\\fabrication-reference\\",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\contact-router\\contact_router.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -148,10 +148,10 @@
         "--excellon-separate-th",
         "--generate-report",
         "--report-path",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\contact-router\\fabrication-reference\\drill-report.txt",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\contact-router\\fabrication-reference\\drill-report.txt",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\contact-router\\fabrication-reference\\",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\contact-router\\contact_router.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\contact-router\\fabrication-reference\\",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\contact-router\\contact_router.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -168,8 +168,8 @@
         "both",
         "--exclude-dnp",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\contact-router\\fabrication-reference\\positions.csv",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\contact-router\\contact_router.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\contact-router\\fabrication-reference\\positions.csv",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\contact-router\\contact_router.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -183,26 +183,26 @@
   "populated_models_nominal_where_documented": true,
   "physical_qualification": false,
   "outputs": {
-    "bottom-copper.svg": "fdfb421553824cc71c4e7e60b21ab05fa5899b5f3927c45dc66d99f51e562a5b",
-    "bottom.png": "66c12a928257e904867bcdbc293a0aad05256af6e0e95ac59f905b208512e07b",
-    "isometric.png": "3a0150bbd04452fe84fb3b7c96bd1f83a7e696f0a57da4c2fb1ed11ebf47dc48",
+    "bottom-copper.svg": "f27fbab0fdd92d39deff5a7bc163255625042d4ba6d3af04a7d166c1c00f149d",
+    "bottom.png": "090acafb49555fb8ee52f12e3b52da907e6b0265260f76c34548731a2a739aeb",
+    "isometric.png": "a2159ea61cd9e05eb71cbbd21d9f125e47c0985143179032b34c9bf16ed19965",
     "populated.step": "e7693ec304c93162fffdcfe8ea65f06528c5ac9eb483f30d89f690eccab45982",
-    "top-copper.svg": "d1bf41b176eb2af1777cd53e7cc52cd7186411cfa209a35bc13d7bf320fbabe7",
-    "top.png": "ad1a03d004ba2c8fb7a4ee605ba06cbd8a9598172082196b25051a7a5e5c556c",
-    "fabrication-reference/bom.csv": "5bc26d8c3bd66bedd6ff86fa055abb24af7f21db30207312c757f990d0c55595",
-    "fabrication-reference/contact_router-B_Cu.gbl": "fd90384a54cb097768232edb9033fef56bb4337f8654f810a39c7ba3ab50b95d",
-    "fabrication-reference/contact_router-B_Mask.gbs": "febe87ed1fd98ebe6b7bae8e1dfe24cdb3a86a0185412c739f6395e1b9dd98ba",
-    "fabrication-reference/contact_router-B_Silkscreen.gbo": "03eeead4d672885e34cb33b5b20f87af8c79a10fd21e90fb0ce1afd07f73af78",
-    "fabrication-reference/contact_router-Edge_Cuts.gm1": "37cfd752f45959ad702e7b7b340c1b0d2f549875928a4585d3b2bc49db5afe29",
-    "fabrication-reference/contact_router-F_Cu.gtl": "fc25ea4a964dfd125449f2fc214666b4044c8cb13646a4ffde1a48faf5ce0412",
-    "fabrication-reference/contact_router-F_Mask.gts": "0b67648b5a7d1177947607e6fc38666806f6c3e187f670e8219b3484f570532d",
-    "fabrication-reference/contact_router-F_Silkscreen.gto": "965ef84442262733d112815bf8d6314346db357e8e449baf5377cc5d36f4a931",
-    "fabrication-reference/contact_router-In1_Cu.g1": "4e90c3e3ce458a5b41ca55b8b4ab0ebbfb1d2885aaf8e60e2d77f4804e618170",
-    "fabrication-reference/contact_router-In2_Cu.g2": "c4431bd713cf0cdde2e9a9fa2769165c2195aaba1c1367a09f33e6560dc499cb",
-    "fabrication-reference/contact_router-job.gbrjob": "239fae1ec0001ee7941f91d340e9c6c286d66f639adcb5bf0a079877f4f81aae",
-    "fabrication-reference/contact_router-NPTH.drl": "1132a08c8d2215934d590cfec323091d5767751059e8b1eae7eec3bd42678e3a",
-    "fabrication-reference/contact_router-PTH.drl": "944da8c29f06677ca0c7340d92a6a152d852f597237deb0f4e524f1e4eda70c0",
-    "fabrication-reference/drill-report.txt": "a90c42131fd8dba8af576a68ac57a958ed85536bd777ce3a4e04f9ebb3ddd441",
+    "top-copper.svg": "e6b3034e05ba5ff67bb57b825ef163c90d89ab669d226332e1e10cdbb7c7d5e4",
+    "top.png": "5beb611a18b5234f11f81117d76444a1a2e4513c2228909de01a8bb9cdba3518",
+    "fabrication-reference/bom.csv": "fd064f1caa306f501a733c43b2d08fd51916badee13fd97fb27cf56350bbcbd2",
+    "fabrication-reference/contact_router-B_Cu.gbl": "a71fa4924fe65910bebd5df5ed137debc1f4ac5aca5d7c9bed4987f8d185d16c",
+    "fabrication-reference/contact_router-B_Mask.gbs": "ddc68fb5f4b3e8e52dc15da4db422d58593c649833ca8c0fc01cc46d27e67129",
+    "fabrication-reference/contact_router-B_Silkscreen.gbo": "2413f4399fb090b5470f0fd35f3d3401b2e8d89f264761e27542653885ed5e9f",
+    "fabrication-reference/contact_router-Edge_Cuts.gm1": "7972c432fb41381c9f03a4985004a1ba181656e8b885ef6dc272b686d5996e9f",
+    "fabrication-reference/contact_router-F_Cu.gtl": "dfd45fdcea912e0a2c86e319d6ea1886e1b5d4d068fe09998e29a71848683377",
+    "fabrication-reference/contact_router-F_Mask.gts": "070a3770bba74920c3d35f2d07d998ca206eb2400e5d8e833cf3994227f00bd7",
+    "fabrication-reference/contact_router-F_Silkscreen.gto": "10137fb280efba3e3c8be42fe68d1665b330d00033aa0be03b8dcc663283d1c0",
+    "fabrication-reference/contact_router-In1_Cu.g1": "5a44a07d52f863881a5aec09fcfcdb1aa5767d113f33e4bfb1bfc6a880ee3420",
+    "fabrication-reference/contact_router-In2_Cu.g2": "dbba1bd307e1d6651a73c3770b6a793261cba452cf66bef58ef3f95c5320522e",
+    "fabrication-reference/contact_router-job.gbrjob": "c6e8c08bb589f1361231ad87540e343a9af97fa769467032dc04d9602ef62757",
+    "fabrication-reference/contact_router-NPTH.drl": "dcbcd3f077ea2252eb01675d4186bc8833488451bc8bb7be5b98a008ab1019fc",
+    "fabrication-reference/contact_router-PTH.drl": "e888e9f0937263ceaf7c72abb3935cdeba77a495922eaa6b966556092dedbcbb",
+    "fabrication-reference/drill-report.txt": "71a1e46e0a64da6df5259f704b17060325c550034f2b9ae37ba3d7e170e66a54",
     "fabrication-reference/positions.csv": "51ea166d2c5cc5629e338b48f911222ece1a33556f3ef0573bec1eae8a7b256c",
     "fabrication-reference/README.md": "118a7498542a8992e20d99363fd12818a8dacb65e4b57cefaea220f696f077b5"
   }

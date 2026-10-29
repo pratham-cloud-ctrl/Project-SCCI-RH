@@ -17,11 +17,11 @@ read = lambda p: json.loads(p.read_text(encoding='utf-8'))
 sha = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
 freeze = read(P/'preflight.json')
 review = read(P/'root-review.json')
-assert sha(P/'preflight.json') == '09a3420045af0eb80c77d7a388dd43e3229c9d133647291d874984f7f5623dc8'
+assert sha(P/'preflight.json') == 'fe4cb8297a2b8c63b876ad6eacf1fce56b3e9e057b7cbdd739c8e725f9dc4d92'
 assert review['authorized'] and review['preflight_sha256'] == sha(P/'preflight.json')
 for rel,h in freeze['code_bytes_sha256'].items(): assert sha(P/rel) == h
 for rel,h in freeze['bindings']['inputs_bytes_sha256'].items(): assert sha(ROOT/rel) == h
-for rel,h in freeze['bindings']['bound_ato_source_bytes_sha256'].items(): assert sha(ROOT/rel) == h
+for rel,h in freeze['bindings']['bound_scci_rh_source_bytes_sha256'].items(): assert sha(ROOT/rel) == h
 
 files = sorted((P/'raw').glob('*.json.gz'))
 assert len(files) == 8
@@ -171,7 +171,7 @@ for family in families:
                 assert a['private_evaluator_only'] == b['private_evaluator_only']
                 assert a['metrics'] == b['metrics']
 
-result = {'schema':'ato.stage3.frozen-observer-pilot-independent-audit.v1','date':'2026-10-12',
+result = {'schema':'scci_rh.stage3.frozen-observer-pilot-independent-audit.v1','date':'2026-10-12',
     'preflight_sha256':sha(P/'preflight.json'),'review_sha256':sha(P/'root-review.json'),
     'independent_raw_recomputation_passed':True,**counts,
     'distinct_new_noise_arrays':len(noise),'maximum_frozen_coordinate_residual_m':maximum_frozen_residual,

@@ -1,0 +1,269 @@
+{
+  "schema": "scci_rh.brand-migration-pdf-review.v1",
+  "date": "2026-10-28",
+  "project_name": "Project SCCI RH",
+  "review_complete": true,
+  "pending": [],
+  "scope": "Brand and presentation migration only; historical scientific values, findings and dates retained. Original hypothesis PDF had no old project name and is unchanged.",
+  "pdfs": [
+    {
+      "path": "cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf",
+      "sha256": "f6bcd0781aa96807f7a8b05d1f8e0f3965a98f533ebe460122aa8ee6ae19e370",
+      "pages": 6,
+      "old_brand_mentions": 0,
+      "new_brand_mentions": 13,
+      "title": "Project SCCI RH - Stage5 mechanical assembly and packaging"
+    },
+    {
+      "path": "docs/stage6/original-hypothesis/SCCI_research_hypothesis_paper.pdf",
+      "sha256": "a1784965d63060e3b0c11fd3c01c9f0b4fe0b007cc65c605c76164ee1d4bf103",
+      "pages": 28,
+      "old_brand_mentions": 0,
+      "new_brand_mentions": 0,
+      "title": null
+    },
+    {
+      "path": "electronics/exports/scci_rh_reference_schematic.pdf",
+      "sha256": "3f777ff8bdcdd9278e4527bf2bfa60c2c3ecf39d08a292cd1b0b6bd1199cf26d",
+      "pages": 1,
+      "old_brand_mentions": 0,
+      "new_brand_mentions": 4,
+      "title": "Project SCCI RH | Artificial-signal analog reference"
+    },
+    {
+      "path": "electronics/stage4/contact-router/contact_router.pdf",
+      "sha256": "7916b2e28d28e8ca5906a61be258458e77de29aa0d0462355069c522afdf42a6",
+      "pages": 6,
+      "old_brand_mentions": 0,
+      "new_brand_mentions": 12,
+      "title": "Project SCCI RH S4 / Route interfaces and monitored returns"
+    },
+    {
+      "path": "electronics/stage4/controller-carrier/controller_carrier.pdf",
+      "sha256": "3cd9bf1e10a55a3029d5a362aa08174f582caf4deefa7014f5d44b7185101569",
+      "pages": 10,
+      "old_brand_mentions": 0,
+      "new_brand_mentions": 20,
+      "title": "Project SCCI RH S4 / Controller carrier / interface index"
+    },
+    {
+      "path": "electronics/stage4/current-driver/current_driver.pdf",
+      "sha256": "5f27f519b85c1f18d173aad116588da4c245af287386655553e4b8a29ee58990",
+      "pages": 5,
+      "old_brand_mentions": 0,
+      "new_brand_mentions": 10,
+      "title": "Project SCCI RH S4 / Dual setpoint and external contracts"
+    },
+    {
+      "path": "electronics/stage4/integrated-pcb/integration/master/SCCI_RH_integrated.pdf",
+      "sha256": "0d3b9ce151b87fcb9c94fc9286ac51f049bfd79a50a7442e6790863d7ff06560",
+      "pages": 80,
+      "old_brand_mentions": 0,
+      "new_brand_mentions": 162,
+      "title": "Project SCCI RH / Integrated modular SCCI electrical system"
+    },
+    {
+      "path": "electronics/stage4/monitoring-cell/monitoring_cell.pdf",
+      "sha256": "d64e6d52874f9e95e5624b580eb900ec38b69246173feba1306d7d6a39f48df0",
+      "pages": 3,
+      "old_brand_mentions": 0,
+      "new_brand_mentions": 6,
+      "title": "Project SCCI RH S4 / Shared reference and interfaces"
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/monitoring_transport.pdf",
+      "sha256": "ae659e247ca9cd8701ecf358067c66cfb4d18d8ebc4b53e6633b81165e33e0e5",
+      "pages": 8,
+      "old_brand_mentions": 0,
+      "new_brand_mentions": 16,
+      "title": "Project SCCI RH S4 / Existing package and host endpoints"
+    },
+    {
+      "path": "electronics/stage4/power/power.pdf",
+      "sha256": "05c44983f73257c63928ec0570d4aa78bc9e7cd06417f3281e78f868d7be126d",
+      "pages": 15,
+      "old_brand_mentions": 0,
+      "new_brand_mentions": 30,
+      "title": "Project SCCI RH S4 / Interfaces and rail handoff"
+    },
+    {
+      "path": "electronics/stage4/recording-front-end/recording_front_end.pdf",
+      "sha256": "d1253dc5329a48a4b53dcccab0bdb076f708d307e0e6706c1ee21cc7ab718f5e",
+      "pages": 7,
+      "old_brand_mentions": 0,
+      "new_brand_mentions": 14,
+      "title": "Project SCCI RH S4 / Isolated SPI, control and supplied power"
+    },
+    {
+      "path": "electronics/stage4/supervision/supervision.pdf",
+      "sha256": "3adf04b4174a811545b8851e12f6a01eff2c14a64989d0bc62a8937a44fcb563",
+      "pages": 22,
+      "old_brand_mentions": 0,
+      "new_brand_mentions": 44,
+      "title": "Project SCCI RH S4 / Interfaces and handoff"
+    },
+    {
+      "path": "inspector/downloads/SCCI_RH_Integrated_Schematics.pdf",
+      "sha256": "0d3b9ce151b87fcb9c94fc9286ac51f049bfd79a50a7442e6790863d7ff06560",
+      "pages": 80,
+      "old_brand_mentions": 0,
+      "new_brand_mentions": 162,
+      "title": "Project SCCI RH / Integrated modular SCCI electrical system"
+    },
+    {
+      "path": "inspector/downloads/SCCI_RH_Mechanical_Review.pdf",
+      "sha256": "f6bcd0781aa96807f7a8b05d1f8e0f3965a98f533ebe460122aa8ee6ae19e370",
+      "pages": 6,
+      "old_brand_mentions": 0,
+      "new_brand_mentions": 13,
+      "title": "Project SCCI RH - Stage5 mechanical assembly and packaging"
+    },
+    {
+      "path": "output/pdf/SCCI_RH_engineering_paper.pdf",
+      "sha256": "e0f8cd80341e47e780945d6239482a13692bbcda4e185801411fb378155d426d",
+      "pages": 20,
+      "old_brand_mentions": 0,
+      "new_brand_mentions": 43,
+      "title": "Project SCCI RH: digital engineering study"
+    },
+    {
+      "path": "output/pdf/SCCI_RH_stage1_system_specification.pdf",
+      "sha256": "bd2b3ea2e6971d9a10014f607bbc1486d2b9e1192605c0086e1c4e3b27432f5d",
+      "pages": 9,
+      "old_brand_mentions": 0,
+      "new_brand_mentions": 16,
+      "title": "Project SCCI RH - Stage 1 Mechanism and Requirements"
+    },
+    {
+      "path": "output/pdf/SCCI_RH_stage2_architecture_budgets.pdf",
+      "sha256": "88d9c98b3741aa84e00075d8c79b2ea9dd64a27bb2291358c79224c1091428c1",
+      "pages": 8,
+      "old_brand_mentions": 0,
+      "new_brand_mentions": 12,
+      "title": "Project SCCI RH - Stage2 quantitative architecture"
+    },
+    {
+      "path": "output/pdf/SCCI_RH_stage3_mechanism_revision.pdf",
+      "sha256": "66fb5a1f515af5ae8bf8d5b243147ea068bae985e90aec285df70c9d8457355d",
+      "pages": 8,
+      "old_brand_mentions": 0,
+      "new_brand_mentions": 11,
+      "title": "Project SCCI RH - Stage 3 mechanism revision"
+    },
+    {
+      "path": "output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf",
+      "sha256": "66a77d7f84566c6f1e875849dbaa742595a4fae96d718aec8fdc1ea3fb60f3b4",
+      "pages": 28,
+      "old_brand_mentions": 0,
+      "new_brand_mentions": 40,
+      "title": "Project SCCI RH: integrated SCCI research and engineering"
+    },
+    {
+      "path": "output/pdf/SCCI_RH_stage3_closeout.pdf",
+      "sha256": "7f240140f18ef2b98718ce1b7f9b3a0e81633615af9a5318ae1d103a9df9f2d8",
+      "pages": 8,
+      "old_brand_mentions": 0,
+      "new_brand_mentions": 11,
+      "title": "Project SCCI RH - conservative Stage 3 qualification verdict"
+    }
+  ],
+  "builders_sha256_lf": {
+    "scripts/build_paper.py": "d2e6d9c654a393f08021846b35b55d11276681ced07d04a366312e1abdd85eac",
+    "scripts/build_stage1_brief.py": "75959659c5fbe8edeca3cfa99617bacefc6bf3c983834eba1fc28cf55801ab64",
+    "scripts/build_stage2_brief.py": "1cc23d19d328edba21802d97b51df93cc24acb8a64b9fc0c116e143d2b7c4fef",
+    "scripts/build_stage3_revision_brief.py": "e30d84401a448efa3c08ba273990aab9ce3e717545300aff3ba501b35c164c0a",
+    "scripts/build_stage3_closeout_report.py": "9ac4961d3464dd7cba89de5967ea81820b59cc463f9700eb544af9e4a5817861",
+    "cad/stage5/build_drawing_set.py": "cc171413b18b6a292dab6b1fd89f57badfd6e10e64fe849d7104c7d6369e8581",
+    "manuscript/stage6/build_manuscript.py": "2aff392cd840b6d2d52c91fbc510c14c64551f5aa7f1c619a998a3dd402d4523"
+  },
+  "native_circuit_exports": {
+    "cli_version": "10.0.6",
+    "exports": [
+      {
+        "source": "electronics/scci_rh_reference.kicad_sch",
+        "source_sha256_lf": "dd6c3b690fd7c85b31df929a76d3e226e7311073a288407608601c5d1f19d692",
+        "pdf": "electronics/exports/scci_rh_reference_schematic.pdf",
+        "pdf_sha256": "3f777ff8bdcdd9278e4527bf2bfa60c2c3ecf39d08a292cd1b0b6bd1199cf26d",
+        "backend": "KiCad native CLI schematic PDF exporter"
+      },
+      {
+        "source": "electronics/stage4/contact-router/contact_router.kicad_sch",
+        "source_sha256_lf": "41835cc515a11907ed4eafac4f04d5051d54e30c163f569490ef2d8942f91b9a",
+        "pdf": "electronics/stage4/contact-router/contact_router.pdf",
+        "pdf_sha256": "7916b2e28d28e8ca5906a61be258458e77de29aa0d0462355069c522afdf42a6",
+        "backend": "KiCad native CLI schematic PDF exporter"
+      },
+      {
+        "source": "electronics/stage4/controller-carrier/controller_carrier.kicad_sch",
+        "source_sha256_lf": "b224e051142c4cf0a168ab05c282813a34ff59f16678d86b9e3176598f7573d8",
+        "pdf": "electronics/stage4/controller-carrier/controller_carrier.pdf",
+        "pdf_sha256": "3cd9bf1e10a55a3029d5a362aa08174f582caf4deefa7014f5d44b7185101569",
+        "backend": "KiCad native CLI schematic PDF exporter"
+      },
+      {
+        "source": "electronics/stage4/current-driver/current_driver.kicad_sch",
+        "source_sha256_lf": "16ae592328467da46bf3ee39816dbe9011b5f78db2faa1354397153f552254cf",
+        "pdf": "electronics/stage4/current-driver/current_driver.pdf",
+        "pdf_sha256": "5f27f519b85c1f18d173aad116588da4c245af287386655553e4b8a29ee58990",
+        "backend": "KiCad native CLI schematic PDF exporter"
+      },
+      {
+        "source": "electronics/stage4/monitoring-cell/monitoring_cell.kicad_sch",
+        "source_sha256_lf": "446291741fb8e037f8405ea9fdb543558ec8e37299280c4db53d2ff9c6668bdd",
+        "pdf": "electronics/stage4/monitoring-cell/monitoring_cell.pdf",
+        "pdf_sha256": "d64e6d52874f9e95e5624b580eb900ec38b69246173feba1306d7d6a39f48df0",
+        "backend": "KiCad native CLI schematic PDF exporter"
+      },
+      {
+        "source": "electronics/stage4/monitoring-transport/monitoring_transport.kicad_sch",
+        "source_sha256_lf": "f588c869f4258edf5c8b6350f654524f5a81dd3b3fc1832a794797fcb0e398c6",
+        "pdf": "electronics/stage4/monitoring-transport/monitoring_transport.pdf",
+        "pdf_sha256": "ae659e247ca9cd8701ecf358067c66cfb4d18d8ebc4b53e6633b81165e33e0e5",
+        "backend": "KiCad native CLI schematic PDF exporter"
+      },
+      {
+        "source": "electronics/stage4/power/power.kicad_sch",
+        "source_sha256_lf": "19d668d818b6d04ae616be1f0ae452a802832183e30ccb2657d09342cfbc1d15",
+        "pdf": "electronics/stage4/power/power.pdf",
+        "pdf_sha256": "05c44983f73257c63928ec0570d4aa78bc9e7cd06417f3281e78f868d7be126d",
+        "backend": "KiCad native CLI schematic PDF exporter"
+      },
+      {
+        "source": "electronics/stage4/recording-front-end/recording_front_end.kicad_sch",
+        "source_sha256_lf": "be681fbd86cfd7e292c92d6fc117016b852b416f593f31bf49ff6c6ea641973d",
+        "pdf": "electronics/stage4/recording-front-end/recording_front_end.pdf",
+        "pdf_sha256": "d1253dc5329a48a4b53dcccab0bdb076f708d307e0e6706c1ee21cc7ab718f5e",
+        "backend": "KiCad native CLI schematic PDF exporter"
+      },
+      {
+        "source": "electronics/stage4/supervision/supervision.kicad_sch",
+        "source_sha256_lf": "b583f276e4f2d7bb1463503a4ff852976c3008165ce50ac8b2801a486e2adc10",
+        "pdf": "electronics/stage4/supervision/supervision.pdf",
+        "pdf_sha256": "3adf04b4174a811545b8851e12f6a01eff2c14a64989d0bc62a8937a44fcb563",
+        "backend": "KiCad native CLI schematic PDF exporter"
+      },
+      {
+        "source": "electronics/stage4/integrated-pcb/integration/master/SCCI_RH_integrated.kicad_sch",
+        "source_sha256_lf": "d3517d973235d3d0785341de9437d7b49d8a4fa767ff64c29adadc2614454724",
+        "pdf": "electronics/stage4/integrated-pcb/integration/master/SCCI_RH_integrated.pdf",
+        "pdf_sha256": "0d3b9ce151b87fcb9c94fc9286ac51f049bfd79a50a7442e6790863d7ff06560",
+        "backend": "KiCad native CLI schematic PDF exporter"
+      }
+    ]
+  },
+  "visual_review": {
+    "integrated_manuscript": "All28pages rendered with Poppler and reviewed in fourcontact sheets; cover, TOC, headings, figures, references and footers fit without newname clipping.",
+    "mechanical_drawing_set": "All6sheets rendered and visually reviewed.",
+    "historical_report_covers": "Covers of engineeringpaper, Stage1, Stage2 and Stage3revision rendered and reviewed; embedded legacy brand images replaced from genuine updated source assets.",
+    "native_schematic_samples": "Integratedroot and controllercarrierroot rendered and reviewed; human-readable newtitle fits existingdrawing frame.",
+    "limits": "AllPDFs received text/metadata oldbrand scan; native80sheet hierarchy wasnot individually visually re-reviewed duringbrandingonlyre-export.",
+    "stage3_closeout": "All8pages rendered and inspected in final contact sheet; page3updated frozen-data observer chart and page8source identity section opened individually. Newname, labels, tables and footers fit. Qualified completed digital-study status preserved."
+  },
+  "original_hypothesis_sha256": "a1784965d63060e3b0c11fd3c01c9f0b4fe0b007cc65c605c76164ee1d4bf103",
+  "completion_date": "2026-10-29",
+  "stage3_evidence": {
+    "metadata": "provenance/rebrand-stage3-package-metadata.json",
+    "numeric_equivalence": "provenance/rebrand-stage3-data-equivalence.json",
+    "portable_full_saved_controller_and_independent_raw_audit_passed": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-29",
+  "files": [
+    {
+      "path": "provenance/stage4-integrated-pcb-verification.json",
+      "current_sha256": "6133ae2eaaef0c1656cbcc7294c099cfb2c9ad73fa89322c0c7dae230ba624f5",
+      "method": "Actual scripts/verify_integrated_pcb.py --write-report completed successfully:1375checkpointassertions,9540integrationassertions,14273populatedboardassertions,83BT40Fassertions. Existing assertions and scientific limits retained.",
+      "verifier": "scripts/verify_integrated_pcb.py",
+      "verifier_sha256": "84704f82b069e375ca7dbf9cb6fa2ad529ff26d6f0da0d9f3d074ca0c910153c",
+      "arguments": [
+        "scripts/verify_integrated_pcb.py",
+        "--write-report"
+      ],
+      "returncode": 0
+    }
+  ]
+}

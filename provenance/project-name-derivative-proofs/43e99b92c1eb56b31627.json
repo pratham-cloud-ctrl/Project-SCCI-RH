@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/driver-study/driver-waveforms.svg",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "d899611f8c91b54253e845b44cd388faf6c7d2585eb1a82fc2592c2102aab817",
+  "current_sha256": "e8b67d43ea69f2421be785477750cdfd276163e93c1a352e5b0f562f23994f98",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-electrical-study-visuals.json",
+      "sha256_lf": "d5e2d523efd10df7f48e303628fa8a666e46feeecd1c34a2b6779971d01ab9da"
+    }
+  ]
+}

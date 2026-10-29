@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "cad/stage5/renders/SCCI_RH_engineering_assemblies.blend",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "2514bca974431bdf3fb82676a69691194fbcb5e0bd3987df577490f27dbfe751",
+  "current_sha256": "0eb4b057aaaf600e832b2cf50a42d2ae9399dd4587b61abb56eb4608dea29012",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-blender-native.json",
+      "sha256_lf": "b563432e4af5b61b75023d8d3e4988125d74377f7ed896b2154f720abbec21fd"
+    }
+  ]
+}

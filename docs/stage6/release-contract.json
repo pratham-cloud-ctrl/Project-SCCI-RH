@@ -1,9 +1,9 @@
 {
-  "schema": "ato.stage6.release-contract.v1",
-  "version": "2.0.1",
-  "tag": "v2.0.1",
-  "date": "2026-10-17",
-  "release_title": "Project ATO 2.0.1 — Whole-project review and corrections",
+  "schema": "scci_rh.stage6.release-contract.v1",
+  "version": "2.1.0",
+  "tag": "v2.1.0",
+  "date": "2026-10-28",
+  "release_title": "Project SCCI RH 2.1.0 - Complete project rebrand",
   "scope": "Entirely digital integrated SCCI research and engineering concept; native modular reference and separate conditional future implanted interface",
   "baseline_commit": "736015848cf581df66488bf53aa6360152eb767b",
   "baseline_tracked_files": 2740,
@@ -20,7 +20,7 @@
     "source": "manuscript/stage6/manuscript.md",
     "builder": "manuscript/stage6/build_manuscript.py",
     "build_manifest": "manuscript/stage6/build-manifest.json",
-    "pdf": "output/pdf/Project_ATO_Integrated_Manuscript.pdf",
+    "pdf": "output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf",
     "document_review": "provenance/stage6-document-review.json"
   },
   "required_files": [
@@ -51,9 +51,9 @@
     ".github/workflows/verify-release.yml",
     "electronics/stage4/integrated-pcb/BOARD_INDEX.md",
     "cad/stage5/README.md",
-    "cad/stage5/ATO_stage5_reference_full.FCStd",
-    "cad/stage5/future-interface/ATO_future_interface.FCStd",
-    "cad/stage5/drawings/ATO_Stage5_Mechanical_Review.pdf",
+    "cad/stage5/SCCI_RH_stage5_reference_full.FCStd",
+    "cad/stage5/future-interface/SCCI_RH_future_interface.FCStd",
+    "cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf",
     "provenance/stage3-conditional-concept-review.json",
     "provenance/stage4-integrated-pcb-verification.json",
     "provenance/stage5-mechanical-verification.json",
@@ -85,9 +85,9 @@
     "video_and_website_revision_in_scope": false
   },
   "release_assets": [
-    "Project_ATO_Integrated_Manuscript.pdf",
-    "ATO_Stage5_Mechanical_Review.pdf",
-    "Project_ATO_v2.0.1_source.zip",
+    "Project_SCCI_RH_Integrated_Manuscript.pdf",
+    "SCCI_RH_Stage5_Mechanical_Review.pdf",
+    "Project_SCCI_RH_v2.1.0_source.zip",
     "SHA256SUMS.txt"
   ],
   "checksum_policy": "Tracked Git-blob manifest excludes itself; external release checksum list excludes itself; archives generated outside tracked source tree"

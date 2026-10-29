@@ -1,12 +1,12 @@
 {
-  "schema": "ato.board-export.v1",
+  "schema": "scci_rh.board-export.v1",
   "board": "monitoring-cell",
   "source_board": "electronics/stage4/integrated-pcb/boards/monitoring-cell/monitoring_cell.kicad_pcb",
-  "exporter_sha256_lf": "3bb0cad3cbf63fc3940d9a30e0a7fc31be818bc4b35b5eba81bff60a592aca76",
-  "source_sha256_lf": "9cc889e8f67ac0ce60b20f97a3bb0d1fa00452d4ea1f4629b78585c73eb8f242",
+  "exporter_sha256_lf": "022a370fcb3e2c04d9ea166d6ad92ad1478333f4a73f8e68aef5d1f96d0ab18f",
+  "source_sha256_lf": "ca25226e48d4c896df76f7db9dcff2ba95e9f2687a6bbecaa85266162637b60d",
   "source_project_sha256_lf": "349ab93d491f71d4dd583e3230ac70ba826311cb6562980dfb07472fe1876110",
-  "source_xml_sha256_lf": "a10e4ce0980f093a23222306c94cd98fc676c83a5cc11168e6ef6b43464156b7",
-  "DRC_sha256_lf": "35b9ee7490af574171817136c43b774fdf04adf10e6ef3ed5d5d1244dace3e55",
+  "source_xml_sha256_lf": "7326cbe7a7126703865ee5359ef271c524bd461317a3fab97cb9913e8d8c21ad",
+  "DRC_sha256_lf": "2e49f0c513ac883337a8e5a2dd858ce3495c918c598e12dd2b5d7fd7e06e2649",
   "component_count": 71,
   "fitted_component_count": 71,
   "DNP_references": [],
@@ -20,8 +20,8 @@
         "--force",
         "--no-dnp",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\monitoring-cell\\populated.step",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\monitoring-cell\\monitoring_cell.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\monitoring-cell\\populated.step",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\monitoring-cell\\monitoring_cell.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -40,8 +40,8 @@
         "--side",
         "top",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\monitoring-cell\\top.png",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\monitoring-cell\\monitoring_cell.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\monitoring-cell\\top.png",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\monitoring-cell\\monitoring_cell.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -60,8 +60,8 @@
         "--side",
         "bottom",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\monitoring-cell\\bottom.png",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\monitoring-cell\\monitoring_cell.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\monitoring-cell\\bottom.png",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\monitoring-cell\\monitoring_cell.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -82,8 +82,8 @@
         "--zoom",
         ".83",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\monitoring-cell\\isometric.png",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\monitoring-cell\\monitoring_cell.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\monitoring-cell\\isometric.png",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\monitoring-cell\\monitoring_cell.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -99,8 +99,8 @@
         "--exclude-drawing-sheet",
         "--mode-single",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\monitoring-cell\\top-copper.svg",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\monitoring-cell\\monitoring_cell.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\monitoring-cell\\top-copper.svg",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\monitoring-cell\\monitoring_cell.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -117,8 +117,8 @@
         "--mirror",
         "--mode-single",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\monitoring-cell\\bottom-copper.svg",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\monitoring-cell\\monitoring_cell.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\monitoring-cell\\bottom-copper.svg",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\monitoring-cell\\monitoring_cell.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -131,8 +131,8 @@
         "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts",
         "--subtract-soldermask",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\monitoring-cell\\fabrication-reference\\",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\monitoring-cell\\monitoring_cell.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\monitoring-cell\\fabrication-reference\\",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\monitoring-cell\\monitoring_cell.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -148,10 +148,10 @@
         "--excellon-separate-th",
         "--generate-report",
         "--report-path",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\monitoring-cell\\fabrication-reference\\drill-report.txt",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\monitoring-cell\\fabrication-reference\\drill-report.txt",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\monitoring-cell\\fabrication-reference\\",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\monitoring-cell\\monitoring_cell.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\monitoring-cell\\fabrication-reference\\",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\monitoring-cell\\monitoring_cell.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -168,8 +168,8 @@
         "both",
         "--exclude-dnp",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\monitoring-cell\\fabrication-reference\\positions.csv",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\monitoring-cell\\monitoring_cell.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\monitoring-cell\\fabrication-reference\\positions.csv",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\monitoring-cell\\monitoring_cell.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -183,26 +183,26 @@
   "populated_models_nominal_where_documented": true,
   "physical_qualification": false,
   "outputs": {
-    "bottom-copper.svg": "15ad62f3d9e3545068cbaf5e0b6bbdc1c38b172b8b2fb0a3de7a1829743042d7",
-    "bottom.png": "0586da08b7c6e803d2fde17b737ccb49a4098a08d386b359b655636ba9f17b3a",
-    "isometric.png": "63fc319128fd96f43b091fd1da984154e96e929309cf335f281a940fb123112b",
+    "bottom-copper.svg": "555f7b11795356b7d2d5ce065671766d8d0b20ddc9dc4a9b6491c49e5add596f",
+    "bottom.png": "0e1869572fe6e81fb56a761dfb41dd78a508918c7d0c79f2223a83ca056abbdf",
+    "isometric.png": "225d1e045ff0c1ae1fe15d8d5f50a02130ddf0059c9e37395e96f860a537c699",
     "populated.step": "6b619d12130f320e515c1fea625d8bef4ea0f332f04700ac538a6309705c9c49",
-    "top-copper.svg": "d31667b0052d6b7173e748c4e442c81ae371f57e1d78fab162381ad01bb4873d",
-    "top.png": "cca5b173e264b00dff21f0f6acb322f7c54279676aa3d9b9d0553ec30cc9b2a0",
-    "fabrication-reference/bom.csv": "a70e63db985ae1ced9a9a0e843452c1a57d0de12d3a4d64fe09526fd49f8c676",
-    "fabrication-reference/drill-report.txt": "72bb91d49c5c2e03d3581979d517c5a4990bc4eed657d45f4c321bee6a3c3fb0",
-    "fabrication-reference/monitoring_cell-B_Cu.gbl": "4ee9b3a0354af4dc940d5d1e34bee7304a97d593b8eea61f56fe30915ee3198e",
-    "fabrication-reference/monitoring_cell-B_Mask.gbs": "3f78f3f4c03f72955ba0fd5e15457827290343cf8fdf43e599883cd155dde70a",
-    "fabrication-reference/monitoring_cell-B_Silkscreen.gbo": "996ee8bdd3934e26d8d154108fa6940adbb6626d7f7709eb6fa0bc0bd24e53be",
-    "fabrication-reference/monitoring_cell-Edge_Cuts.gm1": "14bf5256dc5ea1bf87288d4fb1920e14d6d0b4aee2fe11433a9f513bd60eb61a",
-    "fabrication-reference/monitoring_cell-F_Cu.gtl": "fd15dad9e18a5297fa02b8fbb553abf56dfafdcd3e29d55afdb3a049a0e9c260",
-    "fabrication-reference/monitoring_cell-F_Mask.gts": "9131b9b6a636758e5315baa60fedd02f95afed466d1ba298d8805836ce4c5deb",
-    "fabrication-reference/monitoring_cell-F_Silkscreen.gto": "70a5cdbfb1951232dc56149c09d9c138a4b6c242c004302bc3f358b6a845c878",
-    "fabrication-reference/monitoring_cell-In1_Cu.g1": "709381fbeaaff6052865bd52463a1de5d64e9b78b6982b501106dc867fab3e59",
-    "fabrication-reference/monitoring_cell-In2_Cu.g2": "7c521dcd304b00feeb2002d85f7afbbe24df08a56f5883595eeeb48af778b87f",
-    "fabrication-reference/monitoring_cell-job.gbrjob": "34410104077d37d02385e5de80b78d68c0bf4d21b9c1cc262d54cebf26b7e03c",
-    "fabrication-reference/monitoring_cell-NPTH.drl": "00733e02a7a7b5e29f142c817e55c57974029f644418293e80e05815b4eb94cb",
-    "fabrication-reference/monitoring_cell-PTH.drl": "d8e31721e783a3e410935c7075fb506af4514f7f93dc6e0eb8ee6c1bb2e7ee11",
+    "top-copper.svg": "84133f09093ed42fca1d4692faec46713c6f065b63258649396584e6ed044bc0",
+    "top.png": "3c9dc8710896ffa35ea62991cd319646bfe56c89aac65a1ebac65fade78ae7c4",
+    "fabrication-reference/bom.csv": "3ba1e258d48990075ae8813e84c127017c99277c3b29ab84330c5981451c33ba",
+    "fabrication-reference/drill-report.txt": "c41a5b2263cc1515384fe57d277a41d8e73fccf000ab1812453c79cf41d1ad01",
+    "fabrication-reference/monitoring_cell-B_Cu.gbl": "0d1f831c476cc82b838cc57cfc2c25e1d6d17a82119a0116ec275ae91c48f113",
+    "fabrication-reference/monitoring_cell-B_Mask.gbs": "796dae311d74fb916a09e743a5473964e5d5d744b886614597ce5b8c659b1d51",
+    "fabrication-reference/monitoring_cell-B_Silkscreen.gbo": "ad007d3bac02782e4849a14bd5a4bd917cbda75854d954bf0fb76354c135bb31",
+    "fabrication-reference/monitoring_cell-Edge_Cuts.gm1": "2cb9937bc8aa6b92816740026996c91288c4de94b38064c382d8197605b557f2",
+    "fabrication-reference/monitoring_cell-F_Cu.gtl": "7f4c1ba031890cb36a49dd614d9367b4c9a9055bf56f7149bf5eb9b470976056",
+    "fabrication-reference/monitoring_cell-F_Mask.gts": "c676ec3768237969531f83cab57ab0505f6cca243d837128b88381cf90d2df19",
+    "fabrication-reference/monitoring_cell-F_Silkscreen.gto": "baa40796561c8fdba46cc690cb8826f30dd5390823f09f9424a6d6d42a2be396",
+    "fabrication-reference/monitoring_cell-In1_Cu.g1": "b6ee602b138875e0c9bcc7f7581df2877989bbc72437ba520bffa37b70859d1c",
+    "fabrication-reference/monitoring_cell-In2_Cu.g2": "0ef27a4589f5d525414858e8e7aada6090667f14631dd0564fc2fdc079ba126f",
+    "fabrication-reference/monitoring_cell-job.gbrjob": "9348d8959d70a28cf524c3f2f0d1f18f0db3aa52035c8c90f42b9feb4ed9ec2d",
+    "fabrication-reference/monitoring_cell-NPTH.drl": "65bccd17acb33c566a04dfd2b3763d3af3f7ac04e1c09cabb944f0fe45c173b7",
+    "fabrication-reference/monitoring_cell-PTH.drl": "3b1b6382f2fe066a0d05355ff700957bb090ab3509ec34658810c9784de4cd1a",
     "fabrication-reference/positions.csv": "3db841e2e24fd642e1d3db9b6edf9880d8b2503f1b8c99600e351419298263ef",
     "fabrication-reference/README.md": "118a7498542a8992e20d99363fd12818a8dacb65e4b57cefaea220f696f077b5"
   }

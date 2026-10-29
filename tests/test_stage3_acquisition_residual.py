@@ -2,8 +2,8 @@
 import unittest
 import numpy as np
 from scipy.signal import butter, sosfilt
-from ato.stage3.filter_residual import FilterResidualBound
-from ato.stage3.acquisition import AcquisitionConfig, ContactAcquisition
+from scci_rh.stage3.filter_residual import FilterResidualBound
+from scci_rh.stage3.acquisition import AcquisitionConfig, ContactAcquisition
 
 
 class ResidualBoundTests(unittest.TestCase):

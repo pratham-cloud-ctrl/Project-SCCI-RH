@@ -1,156 +1,156 @@
 reference,value,footprint,sheet,dnp,description,primary_source
-J1,QUALIFIED EXTERNAL RAILS,ato_rte:PinHeader_1x03_P2.54mm_Vertical,root,False,"External qualified supplies; no converter, independent watchdog or rail supervisor is fabricated",
-J2,CANDIDATE PRELOAD AND COMMIT,ato_rte:PinHeader_1x07_P2.54mm_Vertical,root,False,Shift candidate then latch preload; unconditional COMMIT captures only if quiet; separate deliberate REARM after active-bit verification,
-J3,SOURCE ROUTE INTENT / PHASE STATUS,ato_rte:PinHeader_1x07_P2.54mm_Vertical,root,False,"Keep WANT_ROUTE asserted across both phases, interphase gap and recovery; phase-low alone never authorizes reroute",
-J4,EXTERNAL OBSERVED HEALTH CONTRACTS,ato_rte:PinHeader_1x10_P2.54mm_Vertical,root,False,"All inputs default low; active-bit verification is a fresh acknowledgement rising edge after external readback, not a permanently high permission",
-J5,COMMAND STATUS / NOT MUX READBACK,ato_rte:PinHeader_1x12_P2.54mm_Vertical,root,False,"Digital command status only; not observed continuity, isolation, current, selected switch or rail-off safety evidence",
-J6,ACTIVE ADDRESS BIT READBACK,ato_rte:PinHeader_1x09_P2.54mm_Vertical,root,False,Actual active flip-flop Q outputs for host verification; not analog multiplexer-state or contact-continuity readback,
-J7,SIXTEEN CONTACTS / TWO MONITORED RETURNS,ato_rte:PinHeader_1x18_P2.54mm_Vertical,root,False,One provisional18pin contact-side bench header: sixteen shared selectable contacts and two distinct monitored dedicated returns; not an implant lead connector,
-J100,DRIVER A / MONITORED RETURN,ato_rte:PinHeader_1x03_P2.54mm_Vertical,source0,False,"A_ROUTER joins driver A_BR only through required external terminal guard; RETURN_LOAD joins existing monitor load-side return, never B_BR directly",
-U100,TMUX6208PWR,ato_rte:TSSOP-16_4.4x5mm_P0.65mm,source0,False,"24V single-supply 8:1 path; ENhigh selects one channel, ENlow commands all channels off; internal break-before-make is not terminal isolation",https://www.ti.com/lit/ds/symlink/tmux6208.pdf
-C100,100n X7R 50V,ato_rte:C_0805_2012Metric,source0,False,"Local 24V switch bypass; effective capacitance, voltage transient and dielectric qualification remain",
-C102,1u X7R 50V,ato_rte:C_0805_2012Metric,source0,False,"Local switch reservoir; exact capacitor MPN, bias derating and return coupling unqualified",
-R100,22k,ato_rte:R_0805_2012Metric,source0,False,Bank enable pull-down; supplies and stuck switches can defeat command-only inhibit,
-U101,TMUX6208PWR,ato_rte:TSSOP-16_4.4x5mm_P0.65mm,source0,False,"24V single-supply 8:1 path; ENhigh selects one channel, ENlow commands all channels off; internal break-before-make is not terminal isolation",https://www.ti.com/lit/ds/symlink/tmux6208.pdf
-C101,100n X7R 50V,ato_rte:C_0805_2012Metric,source0,False,"Local 24V switch bypass; effective capacitance, voltage transient and dielectric qualification remain",
-C103,1u X7R 50V,ato_rte:C_0805_2012Metric,source0,False,"Local switch reservoir; exact capacitor MPN, bias derating and return coupling unqualified",
-R101,22k,ato_rte:R_0805_2012Metric,source0,False,Bank enable pull-down; supplies and stuck switches can defeat command-only inhibit,
-R102,22k,ato_rte:R_0805_2012Metric,source0,False,Active address default loading on loss of logic power; not an unpowered-contact safety guarantee,
-R103,22k,ato_rte:R_0805_2012Metric,source0,False,Active address default loading on loss of logic power; not an unpowered-contact safety guarantee,
-R104,22k,ato_rte:R_0805_2012Metric,source0,False,Active address default loading on loss of logic power; not an unpowered-contact safety guarantee,
-J200,DRIVER A / MONITORED RETURN,ato_rte:PinHeader_1x03_P2.54mm_Vertical,source1,False,"A_ROUTER joins driver A_BR only through required external terminal guard; RETURN_LOAD joins existing monitor load-side return, never B_BR directly",
-U200,TMUX6208PWR,ato_rte:TSSOP-16_4.4x5mm_P0.65mm,source1,False,"24V single-supply 8:1 path; ENhigh selects one channel, ENlow commands all channels off; internal break-before-make is not terminal isolation",https://www.ti.com/lit/ds/symlink/tmux6208.pdf
-C200,100n X7R 50V,ato_rte:C_0805_2012Metric,source1,False,"Local 24V switch bypass; effective capacitance, voltage transient and dielectric qualification remain",
-C202,1u X7R 50V,ato_rte:C_0805_2012Metric,source1,False,"Local switch reservoir; exact capacitor MPN, bias derating and return coupling unqualified",
-R200,22k,ato_rte:R_0805_2012Metric,source1,False,Bank enable pull-down; supplies and stuck switches can defeat command-only inhibit,
-U201,TMUX6208PWR,ato_rte:TSSOP-16_4.4x5mm_P0.65mm,source1,False,"24V single-supply 8:1 path; ENhigh selects one channel, ENlow commands all channels off; internal break-before-make is not terminal isolation",https://www.ti.com/lit/ds/symlink/tmux6208.pdf
-C201,100n X7R 50V,ato_rte:C_0805_2012Metric,source1,False,"Local 24V switch bypass; effective capacitance, voltage transient and dielectric qualification remain",
-C203,1u X7R 50V,ato_rte:C_0805_2012Metric,source1,False,"Local switch reservoir; exact capacitor MPN, bias derating and return coupling unqualified",
-R201,22k,ato_rte:R_0805_2012Metric,source1,False,Bank enable pull-down; supplies and stuck switches can defeat command-only inhibit,
-R202,22k,ato_rte:R_0805_2012Metric,source1,False,Active address default loading on loss of logic power; not an unpowered-contact safety guarantee,
-R203,22k,ato_rte:R_0805_2012Metric,source1,False,Active address default loading on loss of logic power; not an unpowered-contact safety guarantee,
-R204,22k,ato_rte:R_0805_2012Metric,source1,False,Active address default loading on loss of logic power; not an unpowered-contact safety guarantee,
-U10,SN74LVC595APWR,ato_rte:TSSOP-16_4.4x5mm_P0.65mm,address,False,"Candidate storage only; SRCLR clears shift stage, not output-storage latch; candidate values never directly drive contact addresses",https://www.ti.com/lit/ds/symlink/sn74lvc595a.pdf
-C10,100n X7R 10V,ato_rte:C_0805_2012Metric,address,False,Local candidate-shift register bypass,
-U20,SN74LVC157APWR,ato_rte:TSSOP-16_4.4x5mm_P0.65mm,address,False,QUIET_SAFE selects pending data; otherwise feedback holds current active Q. COMMIT clock is unconditional and cannot be manufactured by health recovery,https://www.ti.com/lit/ds/symlink/sn74lvc157a.pdf
-C20,100n X7R 10V,ato_rte:C_0805_2012Metric,address,False,Local data-mux supply bypass,
-U30,SN74LVC1G74DCUR,ato_rte:VSSOP-8_2.3x2mm_P0.5mm,address,False,Active address captures only via protected D mux; asynchronous reset forces address zero but cannot admit output,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-C30,100n X7R 10V,ato_rte:C_0805_2012Metric,address,False,Local active-address flip-flop U30 bypass,
-U31,SN74LVC1G74DCUR,ato_rte:VSSOP-8_2.3x2mm_P0.5mm,address,False,Active address captures only via protected D mux; asynchronous reset forces address zero but cannot admit output,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-C31,100n X7R 10V,ato_rte:C_0805_2012Metric,address,False,Local active-address flip-flop U31 bypass,
-U32,SN74LVC1G74DCUR,ato_rte:VSSOP-8_2.3x2mm_P0.5mm,address,False,Active address captures only via protected D mux; asynchronous reset forces address zero but cannot admit output,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-C32,100n X7R 10V,ato_rte:C_0805_2012Metric,address,False,Local active-address flip-flop U32 bypass,
-U33,SN74LVC1G74DCUR,ato_rte:VSSOP-8_2.3x2mm_P0.5mm,address,False,Active address captures only via protected D mux; asynchronous reset forces address zero but cannot admit output,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-C33,100n X7R 10V,ato_rte:C_0805_2012Metric,address,False,Local active-address flip-flop U33 bypass,
-U21,SN74LVC157APWR,ato_rte:TSSOP-16_4.4x5mm_P0.65mm,address,False,QUIET_SAFE selects pending data; otherwise feedback holds current active Q. COMMIT clock is unconditional and cannot be manufactured by health recovery,https://www.ti.com/lit/ds/symlink/sn74lvc157a.pdf
-C21,100n X7R 10V,ato_rte:C_0805_2012Metric,address,False,Local data-mux supply bypass,
-U34,SN74LVC1G74DCUR,ato_rte:VSSOP-8_2.3x2mm_P0.5mm,address,False,Active address captures only via protected D mux; asynchronous reset forces address zero but cannot admit output,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-C34,100n X7R 10V,ato_rte:C_0805_2012Metric,address,False,Local active-address flip-flop U34 bypass,
-U35,SN74LVC1G74DCUR,ato_rte:VSSOP-8_2.3x2mm_P0.5mm,address,False,Active address captures only via protected D mux; asynchronous reset forces address zero but cannot admit output,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-C35,100n X7R 10V,ato_rte:C_0805_2012Metric,address,False,Local active-address flip-flop U35 bypass,
-U36,SN74LVC1G74DCUR,ato_rte:VSSOP-8_2.3x2mm_P0.5mm,address,False,Active address captures only via protected D mux; asynchronous reset forces address zero but cannot admit output,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-C36,100n X7R 10V,ato_rte:C_0805_2012Metric,address,False,Local active-address flip-flop U36 bypass,
-U37,SN74LVC1G74DCUR,ato_rte:VSSOP-8_2.3x2mm_P0.5mm,address,False,Active address captures only via protected D mux; asynchronous reset forces address zero but cannot admit output,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-C37,100n X7R 10V,ato_rte:C_0805_2012Metric,address,False,Local active-address flip-flop U37 bypass,
-R10,10k,ato_rte:R_0805_2012Metric,address,False,"External clock/control default low; required setup, hold, quiet and release sequencing remains explicit",
-R11,10k,ato_rte:R_0805_2012Metric,address,False,"External clock/control default low; required setup, hold, quiet and release sequencing remains explicit",
-R12,10k,ato_rte:R_0805_2012Metric,address,False,"External clock/control default low; required setup, hold, quiet and release sequencing remains explicit",
-R13,10k,ato_rte:R_0805_2012Metric,address,False,"External clock/control default low; required setup, hold, quiet and release sequencing remains explicit",
-R14,10k,ato_rte:R_0805_2012Metric,address,False,"External clock/control default low; required setup, hold, quiet and release sequencing remains explicit",
-U300,SN74LVC1G11DBVR,ato_rte:SOT-23-6,admission,False,"Qualified startup, rails and externally independent watchdog",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-U301,SN74LVC1G11DBVR,ato_rte:SOT-23-6,admission,False,Observed recording isolation and both independent signed-current monitor permits,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-U302,SN74LVC1G08DBVR,ato_rte:SOT-23-5,admission,False,All health flags must be independently qualified; commands are not observations,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-U303,SN74LVC1G32DBVR,ato_rte:SOT-23-5,admission,False,"Route intent stays high across phases, gap and recovery",https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
-U304,SN74LVC1G04DBVR,ato_rte:SOT-23-5,admission,False,A low phase request alone cannot admit address capture,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-U305,SN74LVC1G32DBVR,ato_rte:SOT-23-5,admission,False,Both raw phase requests must be low before route change,https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
-U306,SN74LVC1G32DBVR,ato_rte:SOT-23-5,admission,False,Both native driver run statuses must be low before route change,https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
-U307,SN74LVC1G32DBVR,ato_rte:SOT-23-5,admission,False,Request or actual digital RUN excludes route update,https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
-U308,SN74LVC1G04DBVR,ato_rte:SOT-23-5,admission,False,No clock gating; this affects only D-input selection,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-U309,SN74LVC1G11DBVR,ato_rte:SOT-23-6,admission,False,"External observed quiescence, valid supply/monitor/isolation/watchdog evidence",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-U310,SN74LVC1G11DBVR,ato_rte:SOT-23-6,admission,False,Must be stable before COMMIT; COMMIT itself never manufactures quiet,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-U311,SN74LVC1G04DBVR,ato_rte:SOT-23-5,admission,False,Raw COMMIT inhibits route output and resets route validation,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-U312,SN74LVC1G04DBVR,ato_rte:SOT-23-5,admission,False,A same-contact dual intent clears validation and inhibits both sources,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-U313,SN74LVC1G11DBVR,ato_rte:SOT-23-6,admission,False,"Asynchronous loss of health, any commit or collision consumes route validation",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-U314,SN74LVC1G74DCUR,ato_rte:VSSOP-8_2.3x2mm_P0.5mm,admission,False,Unconditional raw clock captures whether commit was legal; health loss clears prior acceptance,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-U315,SN74LVC1G08DBVR,ato_rte:SOT-23-5,admission,False,Every COMMIT and health loss consumes the prior readback acknowledgement,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-U316,SN74LVC1G74DCUR,ato_rte:VSSOP-8_2.3x2mm_P0.5mm,admission,False,Unconditional raw acknowledgement clock records fresh post-commit verification event; stale high flag cannot acknowledge new address,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-U317,SN74LVC1G11DBVR,ato_rte:SOT-23-6,admission,False,"Separate rearm requires accepted commit, observed quiet and a fresh external active-Q readback acknowledgement",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-U318,SN74LVC1G74DCUR,ato_rte:VSSOP-8_2.3x2mm_P0.5mm,admission,False,Unconditional external rearm clock; illegal rearm captures zero; no readiness-generated edge,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-U319,SN74LVC1G11DBVR,ato_rte:SOT-23-6,admission,False,Validated digital route command; not observed physical switch state,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-U320,SN74LVC1G08DBVR,ato_rte:SOT-23-5,admission,False,Collision removal cannot restore validation without deliberate rearm,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-U321,SN74LVC1G04DBVR,ato_rte:SOT-23-5,admission,False,Inverse route-validation state only; command-level sticky consumed permission,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-U400,SN74LVC1G86DBVR,ato_rte:SOT-23-5,collision,False,"Actual active Q bits feed contact equality, not pending shift payload",https://www.ti.com/lit/ds/symlink/sn74lvc1g86.pdf
-U401,SN74LVC1G86DBVR,ato_rte:SOT-23-5,collision,False,"Actual active Q bits feed contact equality, not pending shift payload",https://www.ti.com/lit/ds/symlink/sn74lvc1g86.pdf
-U402,SN74LVC1G86DBVR,ato_rte:SOT-23-5,collision,False,"Actual active Q bits feed contact equality, not pending shift payload",https://www.ti.com/lit/ds/symlink/sn74lvc1g86.pdf
-U403,SN74LVC1G86DBVR,ato_rte:SOT-23-5,collision,False,"Actual active Q bits feed contact equality, not pending shift payload",https://www.ti.com/lit/ds/symlink/sn74lvc1g86.pdf
-U404,SN74LVC1G32DBVR,ato_rte:SOT-23-5,collision,False,Low two active address differences,https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
-U405,SN74LVC1G32DBVR,ato_rte:SOT-23-5,collision,False,"High two active address differences, including bank bit",https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
-U406,SN74LVC1G32DBVR,ato_rte:SOT-23-5,collision,False,Any of four bits differing means different selected contact,https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
-U407,SN74LVC1G04DBVR,ato_rte:SOT-23-5,collision,False,Full sixteen-contact equality,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-U408,SN74LVC1G11DBVR,ato_rte:SOT-23-6,collision,False,Same active contact with both source intents inhibits BOTH sources; no priority arbitration,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-U409,SN74LVC1G08DBVR,ato_rte:SOT-23-5,collision,False,Per-source digital route enable; actual isolation/continuity remains external,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-U410,SN74LVC1G04DBVR,ato_rte:SOT-23-5,collision,False,Active bank bit zero selects contacts 0 through 7,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-U411,SN74LVC1G08DBVR,ato_rte:SOT-23-5,collision,False,Low bank cannot be commanded on with high bank,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-U412,SN74LVC1G08DBVR,ato_rte:SOT-23-5,collision,False,High bank cannot be commanded on with low bank,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-U413,SN74LVC1G08DBVR,ato_rte:SOT-23-5,collision,False,Command permission connection to driver ROUTE_LOCKED; name does not certify switch position,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-U414,SN74LVC1G08DBVR,ato_rte:SOT-23-5,collision,False,Per-source digital route enable; actual isolation/continuity remains external,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-U415,SN74LVC1G04DBVR,ato_rte:SOT-23-5,collision,False,Active bank bit zero selects contacts 0 through 7,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
-U416,SN74LVC1G08DBVR,ato_rte:SOT-23-5,collision,False,Low bank cannot be commanded on with high bank,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-U417,SN74LVC1G08DBVR,ato_rte:SOT-23-5,collision,False,High bank cannot be commanded on with low bank,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-U418,SN74LVC1G08DBVR,ato_rte:SOT-23-5,collision,False,Command permission connection to driver ROUTE_LOCKED; name does not certify switch position,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
-C300,100n X7R 10V,ato_rte:C_0805_2012Metric,admission,False,Local bypass for U300,
-C301,100n X7R 10V,ato_rte:C_0805_2012Metric,admission,False,Local bypass for U301,
-C302,100n X7R 10V,ato_rte:C_0805_2012Metric,admission,False,Local bypass for U302,
-C303,100n X7R 10V,ato_rte:C_0805_2012Metric,admission,False,Local bypass for U303,
-C304,100n X7R 10V,ato_rte:C_0805_2012Metric,admission,False,Local bypass for U304,
-C305,100n X7R 10V,ato_rte:C_0805_2012Metric,admission,False,Local bypass for U305,
-C306,100n X7R 10V,ato_rte:C_0805_2012Metric,admission,False,Local bypass for U306,
-C307,100n X7R 10V,ato_rte:C_0805_2012Metric,admission,False,Local bypass for U307,
-C308,100n X7R 10V,ato_rte:C_0805_2012Metric,admission,False,Local bypass for U308,
-C309,100n X7R 10V,ato_rte:C_0805_2012Metric,admission,False,Local bypass for U309,
-C310,100n X7R 10V,ato_rte:C_0805_2012Metric,admission,False,Local bypass for U310,
-C311,100n X7R 10V,ato_rte:C_0805_2012Metric,admission,False,Local bypass for U311,
-C312,100n X7R 10V,ato_rte:C_0805_2012Metric,admission,False,Local bypass for U312,
-C313,100n X7R 10V,ato_rte:C_0805_2012Metric,admission,False,Local bypass for U313,
-C314,100n X7R 10V,ato_rte:C_0805_2012Metric,admission,False,Local bypass for U314,
-C315,100n X7R 10V,ato_rte:C_0805_2012Metric,admission,False,Local bypass for U315,
-C316,100n X7R 10V,ato_rte:C_0805_2012Metric,admission,False,Local bypass for U316,
-C317,100n X7R 10V,ato_rte:C_0805_2012Metric,admission,False,Local bypass for U317,
-C318,100n X7R 10V,ato_rte:C_0805_2012Metric,admission,False,Local bypass for U318,
-C319,100n X7R 10V,ato_rte:C_0805_2012Metric,admission,False,Local bypass for U319,
-C320,100n X7R 10V,ato_rte:C_0805_2012Metric,admission,False,Local bypass for U320,
-C321,100n X7R 10V,ato_rte:C_0805_2012Metric,admission,False,Local bypass for U321,
-C400,100n X7R 10V,ato_rte:C_0805_2012Metric,collision,False,Local bypass for U400,
-C401,100n X7R 10V,ato_rte:C_0805_2012Metric,collision,False,Local bypass for U401,
-C402,100n X7R 10V,ato_rte:C_0805_2012Metric,collision,False,Local bypass for U402,
-C403,100n X7R 10V,ato_rte:C_0805_2012Metric,collision,False,Local bypass for U403,
-C404,100n X7R 10V,ato_rte:C_0805_2012Metric,collision,False,Local bypass for U404,
-C405,100n X7R 10V,ato_rte:C_0805_2012Metric,collision,False,Local bypass for U405,
-C406,100n X7R 10V,ato_rte:C_0805_2012Metric,collision,False,Local bypass for U406,
-C407,100n X7R 10V,ato_rte:C_0805_2012Metric,collision,False,Local bypass for U407,
-C408,100n X7R 10V,ato_rte:C_0805_2012Metric,collision,False,Local bypass for U408,
-C409,100n X7R 10V,ato_rte:C_0805_2012Metric,collision,False,Local bypass for U409,
-C410,100n X7R 10V,ato_rte:C_0805_2012Metric,collision,False,Local bypass for U410,
-C411,100n X7R 10V,ato_rte:C_0805_2012Metric,collision,False,Local bypass for U411,
-C412,100n X7R 10V,ato_rte:C_0805_2012Metric,collision,False,Local bypass for U412,
-C413,100n X7R 10V,ato_rte:C_0805_2012Metric,collision,False,Local bypass for U413,
-C414,100n X7R 10V,ato_rte:C_0805_2012Metric,collision,False,Local bypass for U414,
-C415,100n X7R 10V,ato_rte:C_0805_2012Metric,collision,False,Local bypass for U415,
-C416,100n X7R 10V,ato_rte:C_0805_2012Metric,collision,False,Local bypass for U416,
-C417,100n X7R 10V,ato_rte:C_0805_2012Metric,collision,False,Local bypass for U417,
-C418,100n X7R 10V,ato_rte:C_0805_2012Metric,collision,False,Local bypass for U418,
-R300,10k,ato_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
-R301,10k,ato_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
-R302,10k,ato_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
-R303,10k,ato_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
-R304,10k,ato_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
-R305,10k,ato_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
-R306,10k,ato_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
-R307,10k,ato_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
-R308,10k,ato_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
-R309,10k,ato_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
-R310,10k,ato_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
-R311,10k,ato_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
-R312,10k,ato_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
-R313,10k,ato_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
-R314,10k,ato_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
+J1,QUALIFIED EXTERNAL RAILS,scci_rh_rte:PinHeader_1x03_P2.54mm_Vertical,root,False,"External qualified supplies; no converter, independent watchdog or rail supervisor is fabricated",
+J2,CANDIDATE PRELOAD AND COMMIT,scci_rh_rte:PinHeader_1x07_P2.54mm_Vertical,root,False,Shift candidate then latch preload; unconditional COMMIT captures only if quiet; separate deliberate REARM after active-bit verification,
+J3,SOURCE ROUTE INTENT / PHASE STATUS,scci_rh_rte:PinHeader_1x07_P2.54mm_Vertical,root,False,"Keep WANT_ROUTE asserted across both phases, interphase gap and recovery; phase-low alone never authorizes reroute",
+J4,EXTERNAL OBSERVED HEALTH CONTRACTS,scci_rh_rte:PinHeader_1x10_P2.54mm_Vertical,root,False,"All inputs default low; active-bit verification is a fresh acknowledgement rising edge after external readback, not a permanently high permission",
+J5,COMMAND STATUS / NOT MUX READBACK,scci_rh_rte:PinHeader_1x12_P2.54mm_Vertical,root,False,"Digital command status only; not observed continuity, isolation, current, selected switch or rail-off safety evidence",
+J6,ACTIVE ADDRESS BIT READBACK,scci_rh_rte:PinHeader_1x09_P2.54mm_Vertical,root,False,Actual active flip-flop Q outputs for host verification; not analog multiplexer-state or contact-continuity readback,
+J7,SIXTEEN CONTACTS / TWO MONITORED RETURNS,scci_rh_rte:PinHeader_1x18_P2.54mm_Vertical,root,False,One provisional18pin contact-side bench header: sixteen shared selectable contacts and two distinct monitored dedicated returns; not an implant lead connector,
+J100,DRIVER A / MONITORED RETURN,scci_rh_rte:PinHeader_1x03_P2.54mm_Vertical,source0,False,"A_ROUTER joins driver A_BR only through required external terminal guard; RETURN_LOAD joins existing monitor load-side return, never B_BR directly",
+U100,TMUX6208PWR,scci_rh_rte:TSSOP-16_4.4x5mm_P0.65mm,source0,False,"24V single-supply 8:1 path; ENhigh selects one channel, ENlow commands all channels off; internal break-before-make is not terminal isolation",https://www.ti.com/lit/ds/symlink/tmux6208.pdf
+C100,100n X7R 50V,scci_rh_rte:C_0805_2012Metric,source0,False,"Local 24V switch bypass; effective capacitance, voltage transient and dielectric qualification remain",
+C102,1u X7R 50V,scci_rh_rte:C_0805_2012Metric,source0,False,"Local switch reservoir; exact capacitor MPN, bias derating and return coupling unqualified",
+R100,22k,scci_rh_rte:R_0805_2012Metric,source0,False,Bank enable pull-down; supplies and stuck switches can defeat command-only inhibit,
+U101,TMUX6208PWR,scci_rh_rte:TSSOP-16_4.4x5mm_P0.65mm,source0,False,"24V single-supply 8:1 path; ENhigh selects one channel, ENlow commands all channels off; internal break-before-make is not terminal isolation",https://www.ti.com/lit/ds/symlink/tmux6208.pdf
+C101,100n X7R 50V,scci_rh_rte:C_0805_2012Metric,source0,False,"Local 24V switch bypass; effective capacitance, voltage transient and dielectric qualification remain",
+C103,1u X7R 50V,scci_rh_rte:C_0805_2012Metric,source0,False,"Local switch reservoir; exact capacitor MPN, bias derating and return coupling unqualified",
+R101,22k,scci_rh_rte:R_0805_2012Metric,source0,False,Bank enable pull-down; supplies and stuck switches can defeat command-only inhibit,
+R102,22k,scci_rh_rte:R_0805_2012Metric,source0,False,Active address default loading on loss of logic power; not an unpowered-contact safety guarantee,
+R103,22k,scci_rh_rte:R_0805_2012Metric,source0,False,Active address default loading on loss of logic power; not an unpowered-contact safety guarantee,
+R104,22k,scci_rh_rte:R_0805_2012Metric,source0,False,Active address default loading on loss of logic power; not an unpowered-contact safety guarantee,
+J200,DRIVER A / MONITORED RETURN,scci_rh_rte:PinHeader_1x03_P2.54mm_Vertical,source1,False,"A_ROUTER joins driver A_BR only through required external terminal guard; RETURN_LOAD joins existing monitor load-side return, never B_BR directly",
+U200,TMUX6208PWR,scci_rh_rte:TSSOP-16_4.4x5mm_P0.65mm,source1,False,"24V single-supply 8:1 path; ENhigh selects one channel, ENlow commands all channels off; internal break-before-make is not terminal isolation",https://www.ti.com/lit/ds/symlink/tmux6208.pdf
+C200,100n X7R 50V,scci_rh_rte:C_0805_2012Metric,source1,False,"Local 24V switch bypass; effective capacitance, voltage transient and dielectric qualification remain",
+C202,1u X7R 50V,scci_rh_rte:C_0805_2012Metric,source1,False,"Local switch reservoir; exact capacitor MPN, bias derating and return coupling unqualified",
+R200,22k,scci_rh_rte:R_0805_2012Metric,source1,False,Bank enable pull-down; supplies and stuck switches can defeat command-only inhibit,
+U201,TMUX6208PWR,scci_rh_rte:TSSOP-16_4.4x5mm_P0.65mm,source1,False,"24V single-supply 8:1 path; ENhigh selects one channel, ENlow commands all channels off; internal break-before-make is not terminal isolation",https://www.ti.com/lit/ds/symlink/tmux6208.pdf
+C201,100n X7R 50V,scci_rh_rte:C_0805_2012Metric,source1,False,"Local 24V switch bypass; effective capacitance, voltage transient and dielectric qualification remain",
+C203,1u X7R 50V,scci_rh_rte:C_0805_2012Metric,source1,False,"Local switch reservoir; exact capacitor MPN, bias derating and return coupling unqualified",
+R201,22k,scci_rh_rte:R_0805_2012Metric,source1,False,Bank enable pull-down; supplies and stuck switches can defeat command-only inhibit,
+R202,22k,scci_rh_rte:R_0805_2012Metric,source1,False,Active address default loading on loss of logic power; not an unpowered-contact safety guarantee,
+R203,22k,scci_rh_rte:R_0805_2012Metric,source1,False,Active address default loading on loss of logic power; not an unpowered-contact safety guarantee,
+R204,22k,scci_rh_rte:R_0805_2012Metric,source1,False,Active address default loading on loss of logic power; not an unpowered-contact safety guarantee,
+U10,SN74LVC595APWR,scci_rh_rte:TSSOP-16_4.4x5mm_P0.65mm,address,False,"Candidate storage only; SRCLR clears shift stage, not output-storage latch; candidate values never directly drive contact addresses",https://www.ti.com/lit/ds/symlink/sn74lvc595a.pdf
+C10,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,address,False,Local candidate-shift register bypass,
+U20,SN74LVC157APWR,scci_rh_rte:TSSOP-16_4.4x5mm_P0.65mm,address,False,QUIET_SAFE selects pending data; otherwise feedback holds current active Q. COMMIT clock is unconditional and cannot be manufactured by health recovery,https://www.ti.com/lit/ds/symlink/sn74lvc157a.pdf
+C20,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,address,False,Local data-mux supply bypass,
+U30,SN74LVC1G74DCUR,scci_rh_rte:VSSOP-8_2.3x2mm_P0.5mm,address,False,Active address captures only via protected D mux; asynchronous reset forces address zero but cannot admit output,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+C30,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,address,False,Local active-address flip-flop U30 bypass,
+U31,SN74LVC1G74DCUR,scci_rh_rte:VSSOP-8_2.3x2mm_P0.5mm,address,False,Active address captures only via protected D mux; asynchronous reset forces address zero but cannot admit output,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+C31,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,address,False,Local active-address flip-flop U31 bypass,
+U32,SN74LVC1G74DCUR,scci_rh_rte:VSSOP-8_2.3x2mm_P0.5mm,address,False,Active address captures only via protected D mux; asynchronous reset forces address zero but cannot admit output,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+C32,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,address,False,Local active-address flip-flop U32 bypass,
+U33,SN74LVC1G74DCUR,scci_rh_rte:VSSOP-8_2.3x2mm_P0.5mm,address,False,Active address captures only via protected D mux; asynchronous reset forces address zero but cannot admit output,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+C33,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,address,False,Local active-address flip-flop U33 bypass,
+U21,SN74LVC157APWR,scci_rh_rte:TSSOP-16_4.4x5mm_P0.65mm,address,False,QUIET_SAFE selects pending data; otherwise feedback holds current active Q. COMMIT clock is unconditional and cannot be manufactured by health recovery,https://www.ti.com/lit/ds/symlink/sn74lvc157a.pdf
+C21,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,address,False,Local data-mux supply bypass,
+U34,SN74LVC1G74DCUR,scci_rh_rte:VSSOP-8_2.3x2mm_P0.5mm,address,False,Active address captures only via protected D mux; asynchronous reset forces address zero but cannot admit output,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+C34,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,address,False,Local active-address flip-flop U34 bypass,
+U35,SN74LVC1G74DCUR,scci_rh_rte:VSSOP-8_2.3x2mm_P0.5mm,address,False,Active address captures only via protected D mux; asynchronous reset forces address zero but cannot admit output,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+C35,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,address,False,Local active-address flip-flop U35 bypass,
+U36,SN74LVC1G74DCUR,scci_rh_rte:VSSOP-8_2.3x2mm_P0.5mm,address,False,Active address captures only via protected D mux; asynchronous reset forces address zero but cannot admit output,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+C36,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,address,False,Local active-address flip-flop U36 bypass,
+U37,SN74LVC1G74DCUR,scci_rh_rte:VSSOP-8_2.3x2mm_P0.5mm,address,False,Active address captures only via protected D mux; asynchronous reset forces address zero but cannot admit output,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+C37,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,address,False,Local active-address flip-flop U37 bypass,
+R10,10k,scci_rh_rte:R_0805_2012Metric,address,False,"External clock/control default low; required setup, hold, quiet and release sequencing remains explicit",
+R11,10k,scci_rh_rte:R_0805_2012Metric,address,False,"External clock/control default low; required setup, hold, quiet and release sequencing remains explicit",
+R12,10k,scci_rh_rte:R_0805_2012Metric,address,False,"External clock/control default low; required setup, hold, quiet and release sequencing remains explicit",
+R13,10k,scci_rh_rte:R_0805_2012Metric,address,False,"External clock/control default low; required setup, hold, quiet and release sequencing remains explicit",
+R14,10k,scci_rh_rte:R_0805_2012Metric,address,False,"External clock/control default low; required setup, hold, quiet and release sequencing remains explicit",
+U300,SN74LVC1G11DBVR,scci_rh_rte:SOT-23-6,admission,False,"Qualified startup, rails and externally independent watchdog",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+U301,SN74LVC1G11DBVR,scci_rh_rte:SOT-23-6,admission,False,Observed recording isolation and both independent signed-current monitor permits,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+U302,SN74LVC1G08DBVR,scci_rh_rte:SOT-23-5,admission,False,All health flags must be independently qualified; commands are not observations,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+U303,SN74LVC1G32DBVR,scci_rh_rte:SOT-23-5,admission,False,"Route intent stays high across phases, gap and recovery",https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
+U304,SN74LVC1G04DBVR,scci_rh_rte:SOT-23-5,admission,False,A low phase request alone cannot admit address capture,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+U305,SN74LVC1G32DBVR,scci_rh_rte:SOT-23-5,admission,False,Both raw phase requests must be low before route change,https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
+U306,SN74LVC1G32DBVR,scci_rh_rte:SOT-23-5,admission,False,Both native driver run statuses must be low before route change,https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
+U307,SN74LVC1G32DBVR,scci_rh_rte:SOT-23-5,admission,False,Request or actual digital RUN excludes route update,https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
+U308,SN74LVC1G04DBVR,scci_rh_rte:SOT-23-5,admission,False,No clock gating; this affects only D-input selection,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+U309,SN74LVC1G11DBVR,scci_rh_rte:SOT-23-6,admission,False,"External observed quiescence, valid supply/monitor/isolation/watchdog evidence",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+U310,SN74LVC1G11DBVR,scci_rh_rte:SOT-23-6,admission,False,Must be stable before COMMIT; COMMIT itself never manufactures quiet,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+U311,SN74LVC1G04DBVR,scci_rh_rte:SOT-23-5,admission,False,Raw COMMIT inhibits route output and resets route validation,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+U312,SN74LVC1G04DBVR,scci_rh_rte:SOT-23-5,admission,False,A same-contact dual intent clears validation and inhibits both sources,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+U313,SN74LVC1G11DBVR,scci_rh_rte:SOT-23-6,admission,False,"Asynchronous loss of health, any commit or collision consumes route validation",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+U314,SN74LVC1G74DCUR,scci_rh_rte:VSSOP-8_2.3x2mm_P0.5mm,admission,False,Unconditional raw clock captures whether commit was legal; health loss clears prior acceptance,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+U315,SN74LVC1G08DBVR,scci_rh_rte:SOT-23-5,admission,False,Every COMMIT and health loss consumes the prior readback acknowledgement,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+U316,SN74LVC1G74DCUR,scci_rh_rte:VSSOP-8_2.3x2mm_P0.5mm,admission,False,Unconditional raw acknowledgement clock records fresh post-commit verification event; stale high flag cannot acknowledge new address,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+U317,SN74LVC1G11DBVR,scci_rh_rte:SOT-23-6,admission,False,"Separate rearm requires accepted commit, observed quiet and a fresh external active-Q readback acknowledgement",https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+U318,SN74LVC1G74DCUR,scci_rh_rte:VSSOP-8_2.3x2mm_P0.5mm,admission,False,Unconditional external rearm clock; illegal rearm captures zero; no readiness-generated edge,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+U319,SN74LVC1G11DBVR,scci_rh_rte:SOT-23-6,admission,False,Validated digital route command; not observed physical switch state,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+U320,SN74LVC1G08DBVR,scci_rh_rte:SOT-23-5,admission,False,Collision removal cannot restore validation without deliberate rearm,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+U321,SN74LVC1G04DBVR,scci_rh_rte:SOT-23-5,admission,False,Inverse route-validation state only; command-level sticky consumed permission,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+U400,SN74LVC1G86DBVR,scci_rh_rte:SOT-23-5,collision,False,"Actual active Q bits feed contact equality, not pending shift payload",https://www.ti.com/lit/ds/symlink/sn74lvc1g86.pdf
+U401,SN74LVC1G86DBVR,scci_rh_rte:SOT-23-5,collision,False,"Actual active Q bits feed contact equality, not pending shift payload",https://www.ti.com/lit/ds/symlink/sn74lvc1g86.pdf
+U402,SN74LVC1G86DBVR,scci_rh_rte:SOT-23-5,collision,False,"Actual active Q bits feed contact equality, not pending shift payload",https://www.ti.com/lit/ds/symlink/sn74lvc1g86.pdf
+U403,SN74LVC1G86DBVR,scci_rh_rte:SOT-23-5,collision,False,"Actual active Q bits feed contact equality, not pending shift payload",https://www.ti.com/lit/ds/symlink/sn74lvc1g86.pdf
+U404,SN74LVC1G32DBVR,scci_rh_rte:SOT-23-5,collision,False,Low two active address differences,https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
+U405,SN74LVC1G32DBVR,scci_rh_rte:SOT-23-5,collision,False,"High two active address differences, including bank bit",https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
+U406,SN74LVC1G32DBVR,scci_rh_rte:SOT-23-5,collision,False,Any of four bits differing means different selected contact,https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf
+U407,SN74LVC1G04DBVR,scci_rh_rte:SOT-23-5,collision,False,Full sixteen-contact equality,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+U408,SN74LVC1G11DBVR,scci_rh_rte:SOT-23-6,collision,False,Same active contact with both source intents inhibits BOTH sources; no priority arbitration,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+U409,SN74LVC1G08DBVR,scci_rh_rte:SOT-23-5,collision,False,Per-source digital route enable; actual isolation/continuity remains external,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+U410,SN74LVC1G04DBVR,scci_rh_rte:SOT-23-5,collision,False,Active bank bit zero selects contacts 0 through 7,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+U411,SN74LVC1G08DBVR,scci_rh_rte:SOT-23-5,collision,False,Low bank cannot be commanded on with high bank,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+U412,SN74LVC1G08DBVR,scci_rh_rte:SOT-23-5,collision,False,High bank cannot be commanded on with low bank,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+U413,SN74LVC1G08DBVR,scci_rh_rte:SOT-23-5,collision,False,Command permission connection to driver ROUTE_LOCKED; name does not certify switch position,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+U414,SN74LVC1G08DBVR,scci_rh_rte:SOT-23-5,collision,False,Per-source digital route enable; actual isolation/continuity remains external,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+U415,SN74LVC1G04DBVR,scci_rh_rte:SOT-23-5,collision,False,Active bank bit zero selects contacts 0 through 7,https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf
+U416,SN74LVC1G08DBVR,scci_rh_rte:SOT-23-5,collision,False,Low bank cannot be commanded on with high bank,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+U417,SN74LVC1G08DBVR,scci_rh_rte:SOT-23-5,collision,False,High bank cannot be commanded on with low bank,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+U418,SN74LVC1G08DBVR,scci_rh_rte:SOT-23-5,collision,False,Command permission connection to driver ROUTE_LOCKED; name does not certify switch position,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+C300,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,admission,False,Local bypass for U300,
+C301,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,admission,False,Local bypass for U301,
+C302,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,admission,False,Local bypass for U302,
+C303,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,admission,False,Local bypass for U303,
+C304,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,admission,False,Local bypass for U304,
+C305,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,admission,False,Local bypass for U305,
+C306,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,admission,False,Local bypass for U306,
+C307,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,admission,False,Local bypass for U307,
+C308,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,admission,False,Local bypass for U308,
+C309,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,admission,False,Local bypass for U309,
+C310,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,admission,False,Local bypass for U310,
+C311,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,admission,False,Local bypass for U311,
+C312,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,admission,False,Local bypass for U312,
+C313,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,admission,False,Local bypass for U313,
+C314,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,admission,False,Local bypass for U314,
+C315,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,admission,False,Local bypass for U315,
+C316,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,admission,False,Local bypass for U316,
+C317,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,admission,False,Local bypass for U317,
+C318,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,admission,False,Local bypass for U318,
+C319,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,admission,False,Local bypass for U319,
+C320,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,admission,False,Local bypass for U320,
+C321,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,admission,False,Local bypass for U321,
+C400,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,collision,False,Local bypass for U400,
+C401,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,collision,False,Local bypass for U401,
+C402,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,collision,False,Local bypass for U402,
+C403,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,collision,False,Local bypass for U403,
+C404,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,collision,False,Local bypass for U404,
+C405,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,collision,False,Local bypass for U405,
+C406,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,collision,False,Local bypass for U406,
+C407,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,collision,False,Local bypass for U407,
+C408,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,collision,False,Local bypass for U408,
+C409,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,collision,False,Local bypass for U409,
+C410,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,collision,False,Local bypass for U410,
+C411,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,collision,False,Local bypass for U411,
+C412,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,collision,False,Local bypass for U412,
+C413,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,collision,False,Local bypass for U413,
+C414,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,collision,False,Local bypass for U414,
+C415,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,collision,False,Local bypass for U415,
+C416,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,collision,False,Local bypass for U416,
+C417,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,collision,False,Local bypass for U417,
+C418,100n X7R 10V,scci_rh_rte:C_0805_2012Metric,collision,False,Local bypass for U418,
+R300,10k,scci_rh_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
+R301,10k,scci_rh_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
+R302,10k,scci_rh_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
+R303,10k,scci_rh_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
+R304,10k,scci_rh_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
+R305,10k,scci_rh_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
+R306,10k,scci_rh_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
+R307,10k,scci_rh_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
+R308,10k,scci_rh_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
+R309,10k,scci_rh_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
+R310,10k,scci_rh_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
+R311,10k,scci_rh_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
+R312,10k,scci_rh_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
+R313,10k,scci_rh_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",
+R314,10k,scci_rh_rte:R_0805_2012Metric,admission,False,"Disconnected health, observation or intent input defaults low; not an analog supply-sequencing proof",

@@ -1,6 +1,6 @@
-# Project ATO integrated digital release plan
+# Project SCCI RH integrated digital release plan
 
-**Release target: v2.0.1, 17 October 2026.** This is the full-system digital
+**Release target: v2.1.0, 28 October 2026.** This is the full-system digital
 research and engineering release. The existing `v1.0.0` remains a historical
 single-channel desktop subsystem and is not silently replaced or retagged.
 
@@ -13,7 +13,7 @@ firmware and editable mechanical assemblies. It includes an integrated
 illustrated manuscript and an inspectable public repository. AstroSam's
 [Mind-Link](https://github.com/sam-astro/Mind-link) inspired the progression from
 future concept to tangible engineering; its source and geometry are not copied
-into ATO.
+into SCCI_RH.
 
 Completion is the stated **digital research and engineering scope**. Useful
 chronic spinal recording, selective biological recruitment, retained consumer
@@ -25,14 +25,14 @@ while those scientific questions remain open.
 
 | Purpose | Authoritative entry |
 |---|---|
-| Integrated account | [Final manuscript](../../output/pdf/Project_ATO_Integrated_Manuscript.pdf) and its editable source under `manuscript/stage6/` |
+| Integrated account | [Final manuscript](../../output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf) and its editable source under `manuscript/stage6/` |
 | Current project navigation | [Root README](../../README.md) and [current status](../../CURRENT_STATUS.md) |
 | Both conditional consumer mechanisms | [Conditional concept](../stage3/conditional-concept.md) and its [assumption ledger](../stage3/conditional-concept/assumption-ledger.csv) |
 | Preserved conservative conclusion | [Historical qualification verdict](../stage3/stage3-verdict.md) |
 | Current electrical engineering | [Eight-board index](../../electronics/stage4/integrated-pcb/BOARD_INDEX.md) and [Stage 4 exit review](../stage4/exit-review.md) |
-| Current mechanical engineering | [Stage 5 CAD index](../../cad/stage5/README.md), [drawing sheets](../../cad/stage5/drawings/ATO_Stage5_Mechanical_Review.pdf) and [exit review](../stage5/exit-review.md) |
+| Current mechanical engineering | [Stage 5 CAD index](../../cad/stage5/README.md), [drawing sheets](../../cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf) and [exit review](../stage5/exit-review.md) |
 | Ownership and defence | [Contributions](contributions.md) and [defence guide](defence-guide.md) |
-| Historical v1 material | [v1 release notes](../release-notes.md), [v1 learning guide](../learning-guide.md), `docs/ato-paper.md`, `output/pdf/ATO_engineering_paper.pdf`, `site/` and `media/` |
+| Historical v1 material | [v1 release notes](../release-notes.md), [v1 learning guide](../learning-guide.md), `docs/scci_rh-paper.md`, `output/pdf/SCCI_RH_engineering_paper.pdf`, `site/` and `media/` |
 
 Older stage documents are dated development snapshots. Statements such as
 "CAD remains unfinished" in an early handoff describe that checkpoint; the
@@ -63,7 +63,7 @@ and video revision are outside this release task.
    then independently fetch/check out the exact pushed commit. Run the manifest,
    Stage 6 and preserved electrical/mechanical checks from that clean copy.
    Verify remote branch identity and GitHub workflow conclusions.
-6. Create the new `v2.0.1` tag at the reviewed commit and a public GitHub digital
+6. Create the new `v2.1.0` tag at the reviewed commit and a public GitHub digital
    engineering release. Upload the manuscript, mechanical drawing set, a full
    source archive, and an external SHA-256 checksum list. Verify that the remote
    tag resolves to the intended commit and that downloaded asset bytes or GitHub

@@ -84,7 +84,7 @@ The proposed controller uses the task goal, decoded state distribution, external
 
 ## 5. Assistance, adaptation, retention and transfer
 
-Online task performance with assistance and assistance-free learning outcomes require separate trials and metrics. The surrogate learner's own policy/adaptation state may be modeled, but the ATO controller cannot read that internal state directly.
+Online task performance with assistance and assistance-free learning outcomes require separate trials and metrics. The surrogate learner's own policy/adaptation state may be modeled, but the SCCI_RH controller cannot read that internal state directly.
 
 A candidate artificial adaptation family is
 

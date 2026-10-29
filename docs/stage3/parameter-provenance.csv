@@ -8,9 +8,9 @@ S3-P-006,readiness_adc_gain_bound,0.02,fraction,new chosen monitoring allocation
 S3-P-007,readiness_adc_offset_bound,0.005,V,new chosen monitoring allocation,mathematical-specification.md,Input-referred total circuit allowance
 S3-P-008,readiness_sample_after_short_release,0.000025,s,new chosen monitoring allocation,mathematical-specification.md,20kHz aperture delay within250us rearm
 S3-P-009,illustrative_residual_gate,0.02,V,chosen engineering gate,../stage2/stimulation-budget-inputs.json,Not an electrochemical safety threshold
-S3-P-010,current_monitor_gain_in_trace,0.012,fraction,chosen realization inside bound,../../src/ato/stage3/electrical.py,Separate observation differs from true delivery
-S3-P-011,current_monitor_offset_in_trace,0.000002,A,chosen realization inside bound,../../src/ato/stage3/electrical.py,Bias retained in observed current
-S3-P-012,current_monitor_aperture_offset,0.0000013,s,chosen realization inside bound,../../src/ato/stage3/electrical.py,Not aligned to every pulse edge
+S3-P-010,current_monitor_gain_in_trace,0.012,fraction,chosen realization inside bound,../../src/scci_rh/stage3/electrical.py,Separate observation differs from true delivery
+S3-P-011,current_monitor_offset_in_trace,0.000002,A,chosen realization inside bound,../../src/scci_rh/stage3/electrical.py,Bias retained in observed current
+S3-P-012,current_monitor_aperture_offset,0.0000013,s,chosen realization inside bound,../../src/scci_rh/stage3/electrical.py,Not aligned to every pulse edge
 S3-P-013,complete_analog_waveform_peak_assumption,0.025,A,chosen conditional bound not established by sampling,mathematical-specification.md,Stage4 independent analog guard must qualify intersample peak
 S3-P-014,bounded_digital_feature_error_limit,2.4e-06,V,chosen engineering allocation,acquisition-qualification.md,Range-clipped digital counterfactual only; not measured AFE recovery
 S3-P-015,missing_digital_input_range,0.005,V,declared digital clipping domain,acquisition-qualification.md,Stationary unknown-history radius after discontinuity; not unlimited analog artifact

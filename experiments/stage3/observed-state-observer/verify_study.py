@@ -20,12 +20,12 @@ PACKAGE = Path(__file__).resolve().parent
 REPOSITORY = PACKAGE.parents[2]
 MANIFEST_NAME = 'artifact-manifest.json'
 EXPECTED_FROZEN = {
-    'observed_state_observer_12oct.py':'cbb2d6aa5a466261e372d1071cccf908983c8dbe8eeb8001b1d20428ed2362af',
-    'observer-method-freeze-12oct.json':'73a26e74e91f738fbc2f90e30655eaa0987a1e0d1ab905feb3b7aea52622e07a',
-    'observer-confirmation-12oct.py':'e177eb4837bbb437b8150a1a8a4daf9ee172719b6e3a2d407642771ac18d7c3d',
-    'observer-confirmation-protocol-12oct.md':'53658e9566216ab0358918cd2dc131dcb9aa6757987052001fd4d73319c4babf',
-    'observer-confirmation-freeze-12oct.json':'57c00950e44aee7c674f34a1335fd79f816f8ca09ce64ae66ce9916cf9bd3916',
-    'observer-confirmation-summary-12oct.json':'35b8ce93e700afc2670a6a4fc11f65aadd2c01f49e7bf3ae9414469d5bfb0330',
+    'observed_state_observer_12oct.py':'203a5bdd90ae20a67f1b6475b47c31a73880d96a5c4434957b51f28a2f767c44',
+    'observer-method-freeze-12oct.json':'1157a4490d4455faba6773fe447560b22c218db852efe65fc95c180f373dce7f',
+    'observer-confirmation-12oct.py':'7c7729caa49cac204c2edc8be81bc9ba11e3ae6b4ec2bd26ac129c18b087978d',
+    'observer-confirmation-protocol-12oct.md':'32cbc703e850983dc0032a1b1000fac6d68e323b503917f03c2bddd6cac3f608',
+    'observer-confirmation-freeze-12oct.json':'6e4725e801f3e7e9eb88d0c9e40520c6ea0b462f9776cf4adb5831d6d6dcbac0',
+    'observer-confirmation-summary-12oct.json':'89d79c3d3eb3dafb62964ed4d15ae922c4a1b7e775ea612d8b9d7d1c0cb65a59',
 }
 PINS = {'numpy':'2.3.5','scipy':'1.18.1'}
 PYTHON_PIN = (3,12,14)
@@ -101,15 +101,15 @@ def verify_environment():
 
 def verified_sources(source_root: Path):
     freeze = read_json(PACKAGE/'frozen/observer-confirmation-freeze-12oct.json')
-    expected = freeze['full_ato_source_bytes_sha256']
+    expected = freeze['full_scci_rh_source_bytes_sha256']
     source_root = source_root.resolve()
     actual = {p:digest(source_root/p) for p in expected if (source_root/p).is_file()}
     if actual != expected:
         differences = sorted(set(actual)^set(expected) |
             {p for p in set(actual)&set(expected) if actual[p] != expected[p]})
-        raise AssertionError('frozen src/ato bytes differ: '+', '.join(differences))
+        raise AssertionError('frozen src/scci_rh bytes differ: '+', '.join(differences))
     extras = {p.relative_to(source_root).as_posix()
-              for p in (source_root/'src/ato').rglob('*.py')} - set(expected)
+              for p in (source_root/'src/scci_rh').rglob('*.py')} - set(expected)
     if extras:
         print(f'Excluded {len(extras)} later unbound source files from scratch.')
     return expected
@@ -131,7 +131,7 @@ def verify(source_root=REPOSITORY, *, reproduce=False):
     verify_environment()
     sources = verified_sources(Path(source_root))
     originals = {record['path']:record['sha256'] for record in manifest['files']}
-    with tempfile.TemporaryDirectory(prefix='ato-observed-state-') as name:
+    with tempfile.TemporaryDirectory(prefix='scci_rh-observed-state-') as name:
         scratch = Path(name).resolve()
         (scratch/'tmp').mkdir()
         for path in sorted((PACKAGE/'frozen').iterdir()):
@@ -166,7 +166,7 @@ def verify(source_root=REPOSITORY, *, reproduce=False):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--source-root',type=Path,default=REPOSITORY,
-        help='Checkout containing the exact src/ato byte manifest; defaults to this repository')
+        help='Checkout containing the exact src/scci_rh byte manifest; defaults to this repository')
     parser.add_argument('--reproduce',action='store_true',
         help='Additionally regenerate the same frozen confirmation pairs in scratch; no new independent-noise experiment')
     args = parser.parse_args()

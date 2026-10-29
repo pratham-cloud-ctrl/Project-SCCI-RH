@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage4.nordic-toolchain-smoke.v1",
+  "schema": "scci_rh.stage4.nordic-toolchain-smoke.v1",
   "date": "2026-10-12",
   "status": "unmodified_example_cross_compilation_passed",
   "scope": "Installed tools and linked Nordic/Zephyr hello_world application-core example only",
@@ -15,41 +15,41 @@
   "nrfutil_sha256": "22cb1bd03fc29016670c1fc8408a78bd213286ecc1156c70712485d77b097c75",
   "example_main_normalized_sha256": "441f01eaf3bb6fb71614fad7264c5aaab135078ce3a73ae8c9d6889de5271d6b",
   "build_command": [
-    "E:\\ATO-Nordic\\ncs\\toolchains\\4f5b6ad6dd\\opt\\bin\\python.exe",
+    "E:\\SCCI_RH-Nordic\\ncs\\toolchains\\4f5b6ad6dd\\opt\\bin\\python.exe",
     "-m",
     "west",
     "build",
     "--no-sysbuild",
     "-b",
     "nrf5340dk/nrf5340/cpuapp",
-    "E:\\ATO-Nordic\\ncs\\v3.4.1\\zephyr\\samples\\hello_world",
+    "E:\\SCCI_RH-Nordic\\ncs\\v3.4.1\\zephyr\\samples\\hello_world",
     "-d",
-    "E:\\ATO\\build\\stage4\\nordic-toolchain-smoke",
+    "E:\\SCCI_RH\\build\\stage4\\nordic-toolchain-smoke",
     "--pristine=always",
     "--",
-    "-DPYTHON_EXECUTABLE=E:/ATO-Nordic/ncs/toolchains/4f5b6ad6dd/opt/bin/python.exe",
-    "-DPython3_EXECUTABLE=E:/ATO-Nordic/ncs/toolchains/4f5b6ad6dd/opt/bin/python.exe"
+    "-DPYTHON_EXECUTABLE=E:/SCCI_RH-Nordic/ncs/toolchains/4f5b6ad6dd/opt/bin/python.exe",
+    "-DPython3_EXECUTABLE=E:/SCCI_RH-Nordic/ncs/toolchains/4f5b6ad6dd/opt/bin/python.exe"
   ],
   "build_elapsed_s": 353.553,
   "elf_sha256": "eab599f80678145c3e4a93202e0674958bc73e19abb22eb97f495e765ddf7ead",
   "elf_bytes": 806504,
-  "gnu_size_output": "text\t   data\t    bss\t    dec\t    hex\tfilename\n  24408\t    440\t   5607\t  30455\t   76f7\tE:\\ATO\\build\\stage4\\nordic-toolchain-smoke\\zephyr\\zephyr.elf",
+  "gnu_size_output": "text\t   data\t    bss\t    dec\t    hex\tfilename\n  24408\t    440\t   5607\t  30455\t   76f7\tE:\\SCCI_RH\\build\\stage4\\nordic-toolchain-smoke\\zephyr\\zephyr.elf",
   "physical_tool_directory": "E:\\project workspace assests\\Firmware\\Nordic",
-  "tool_alias": "E:\\ATO-Tools",
+  "tool_alias": "E:\\SCCI_RH-Tools",
   "toolchain_bundle_id": "4f5b6ad6dd",
-  "physical_sdk_install_root": "E:\\ATO-Nordic\\ncs",
+  "physical_sdk_install_root": "E:\\SCCI_RH-Nordic\\ncs",
   "original_asset_installation_preserved": true,
   "child_environment_path_rebase": {
     "from": "E:\\project workspace assests\\Firmware\\Nordic\\ncs",
-    "to": "E:\\ATO-Nordic\\ncs"
+    "to": "E:\\SCCI_RH-Nordic\\ncs"
   },
-  "project_alias": "E:\\ATO",
-  "ato_firmware_integrated": false,
+  "project_alias": "E:\\SCCI_RH",
+  "scci_rh_firmware_integrated": false,
   "flashed_or_executed": false,
   "target_timing_verified": false,
-  "ato_memory_budget_closed": false,
+  "scci_rh_memory_budget_closed": false,
   "limitations": [
-    "No output driver, ADC/DMA/timer backend, network image or ATO controller compiled here",
+    "No output driver, ADC/DMA/timer backend, network image or SCCI_RH controller compiled here",
     "Example section sizes are not full-system linked RAM/flash evidence",
     "Compilation does not measure hardware behavior, deadlines or current consumption"
   ]

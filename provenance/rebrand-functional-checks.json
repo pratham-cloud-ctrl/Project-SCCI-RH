@@ -1,0 +1,120 @@
+{
+  "schema": "scci_rh.rename-functional-checks.v1",
+  "date": "2026-10-29",
+  "scope": "Actual local functional verification; no hardware or biological execution",
+  "full_unit_run": {
+    "tests_run": 212,
+    "passed": 212,
+    "setup_errors": 1,
+    "reason": "Teacher-library class setup rejected stale renamed capture digest; metadata was corrected before targeted rerun",
+    "log_sha256": "3af34fb51ebee49a537df998ef3b59a4a6c33b1f826dc35ed9ffe6a79e8ed9c0"
+  },
+  "targeted_recovery": {
+    "tests_run": 12,
+    "passed": 12,
+    "setup_errors": 0,
+    "log_sha256": "d4852e84dc278fb7d6b453682c4189227705ad18933edde7d51055f4bfd1df13"
+  },
+  "combined_unique_executed_tests": 224,
+  "digital_path": {
+    "schema": "scci_rh-stage6-integration-summary-v1",
+    "date": "2026-10-16",
+    "passed": true,
+    "source_report": "results/stage6/digital-path-verification.json",
+    "source_report_sha256_lf": "813fc9a27a6f616a67f5cf3e6162eecb359c0986d95f9db0b113dad18f49ca5e",
+    "assertions": 114426,
+    "scenario_groups": 28,
+    "motor_arms": [
+      {
+        "arm": "off",
+        "rho": 1.0,
+        "first_on_rmse_m": 0.0314144382,
+        "initial_off_rmse_m": 0.0314144382,
+        "final_off_rmse_m": 0.0056049529,
+        "admitted_events": 0,
+        "maximum_current_ua": 0,
+        "maximum_post_washout_activation": 0.0,
+        "practice_blocks": 24,
+        "practice_seconds": 48,
+        "common_probe_seconds": 24,
+        "common_washout_seconds": 48
+      },
+      {
+        "arm": "neutral",
+        "rho": 1.0,
+        "first_on_rmse_m": 0.0166680958,
+        "initial_off_rmse_m": 0.0314144382,
+        "final_off_rmse_m": 0.0056049529,
+        "admitted_events": 1728,
+        "maximum_current_ua": 1566,
+        "maximum_post_washout_activation": 0.0,
+        "practice_blocks": 24,
+        "practice_seconds": 48,
+        "common_probe_seconds": 24,
+        "common_washout_seconds": 48
+      },
+      {
+        "arm": "favorable",
+        "rho": 2.0,
+        "first_on_rmse_m": 0.0166680958,
+        "initial_off_rmse_m": 0.0314144382,
+        "final_off_rmse_m": 0.0028969599,
+        "admitted_events": 1728,
+        "maximum_current_ua": 1566,
+        "maximum_post_washout_activation": 0.0,
+        "practice_blocks": 24,
+        "practice_seconds": 48,
+        "common_probe_seconds": 24,
+        "common_washout_seconds": 48
+      },
+      {
+        "arm": "adverse",
+        "rho": -1.0,
+        "first_on_rmse_m": 0.0166680958,
+        "initial_off_rmse_m": 0.0314144382,
+        "final_off_rmse_m": 0.0348451323,
+        "admitted_events": 1728,
+        "maximum_current_ua": 1925,
+        "maximum_post_washout_activation": 0.0,
+        "practice_blocks": 24,
+        "practice_seconds": 48,
+        "common_probe_seconds": 24,
+        "common_washout_seconds": 48
+      }
+    ],
+    "motor_completed_events": 5184,
+    "physiology": {
+      "config": {
+        "duration_s": 60,
+        "policy_period_s": 0.25,
+        "packet_period_s": 1,
+        "event_rate_hz": 40,
+        "assumed_gain_mmHg": 30,
+        "activation_tau_s": 1.5,
+        "response_tau_s": 6,
+        "deficit_mmHg": 20,
+        "deficit_interval_s": [
+          10,
+          40
+        ],
+        "feedback": "External causal SBP packets, not decoded spinal BP",
+        "policy": "Illustrative companion P control, not a clinical prescription"
+      },
+      "disturbed_rmse_mmHg": 11.8710708094,
+      "unassisted_disturbed_rmse_mmHg": 20.0,
+      "maximum_recovery_sbp_mmHg": 129.9989812897,
+      "completed_events": 1200
+    },
+    "compiled_core_fault_cases": 13,
+    "separate_independent_supervision_cases": 4,
+    "conditional_companion_fault_cases": 6,
+    "protected_body_ports": 36,
+    "live_rhd_feedback_while_motor_implemented": false,
+    "target_peripheral_execution": false,
+    "physical_integrated_execution": false,
+    "biological_efficacy_demonstrated": false,
+    "interpretation": "Compiled production C admission/phase state machine plus declared companion/recruitment/body adapters; no measured current or biological benefit",
+    "model_to_current_relation": "An illustrative unmeasured calibration premise, not a validated conversion or waveform prescription"
+  },
+  "portable_c_host_assertions": 23
+}

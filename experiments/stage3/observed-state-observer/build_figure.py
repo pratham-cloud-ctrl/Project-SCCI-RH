@@ -39,7 +39,7 @@ def main():
     axes[1].set(ylabel='Max paired-grid difference (µm)',
                 title='2.5 ms versus 1.25 ms body grid', ylim=(0, 6.5))
     axes[1].grid(axis='y', alpha=.15)
-    fig.suptitle('Project ATO | Observed-state observer, no dose', x=.06, ha='left', fontsize=14, fontweight='bold')
+    fig.suptitle('Project SCCI RH | Observed-state observer, no dose', x=.06, ha='left', fontsize=14, fontweight='bold')
     fig.text(.06, .015, 'Same synthetic subject/domain; 16 new noise pairs, 32 captures. No active pilot or retained-learning claim.', fontsize=9, color='#526681')
     fig.tight_layout(rect=(.015, .06, .99, .92))
     fig.savefig(ROOT/'observer-confirmation.png', dpi=220)

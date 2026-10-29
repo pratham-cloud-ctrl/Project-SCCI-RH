@@ -18,18 +18,18 @@ def main():
         parser.error("No C compiler found. Install gcc/clang/Zig or pass --cc. Python tests remain separate.")
     out=ROOT/"build"/"firmware"
     out.mkdir(parents=True,exist_ok=True)
-    executable=out/("ato_host.exe" if sys.platform=="win32" else "ato_host")
+    executable=out/("scci_rh_host.exe" if sys.platform=="win32" else "scci_rh_host")
     command=[compiler]
     if Path(compiler).stem.lower()=="zig": command.append("cc")
     command += ["-std=c11","-Wall","-Wextra","-Werror","-pedantic","-O2","-UNDEBUG",
-                str(ROOT/"firmware"/"ato_pulse.c"),str(ROOT/"firmware"/"host_validation.c"),"-o",str(executable)]
+                str(ROOT/"firmware"/"scci_rh_pulse.c"),str(ROOT/"firmware"/"host_validation.c"),"-o",str(executable)]
     subprocess.run(command,check=True,cwd=ROOT)
-    library=out/("ato_pulse.dll" if sys.platform=="win32" else ("libato_pulse.dylib" if sys.platform=="darwin" else "libato_pulse.so"))
+    library=out/("scci_rh_pulse.dll" if sys.platform=="win32" else ("libscci_rh_pulse.dylib" if sys.platform=="darwin" else "libscci_rh_pulse.so"))
     shared=[compiler]
     if Path(compiler).stem.lower()=="zig": shared.append("cc")
-    shared += ["-std=c11","-Wall","-Wextra","-Werror","-pedantic","-O2","-shared","-DATO_SHARED"]
+    shared += ["-std=c11","-Wall","-Wextra","-Werror","-pedantic","-O2","-shared","-DSCCI_RH_SHARED"]
     if sys.platform!="win32": shared.append("-fPIC")
-    shared += [str(ROOT/"firmware"/"ato_pulse.c"),"-o",str(library)]
+    shared += [str(ROOT/"firmware"/"scci_rh_pulse.c"),"-o",str(library)]
     subprocess.run(shared,check=True,cwd=ROOT)
     run=subprocess.run([str(executable)],check=True,text=True,capture_output=True)
     version_command=[compiler,"version" if Path(compiler).stem.lower()=="zig" else "--version"]

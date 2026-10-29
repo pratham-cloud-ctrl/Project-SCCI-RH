@@ -1,7 +1,7 @@
 # Integrated native electrical hierarchy
 
-Open [the actual master project](master/ATO_integrated.kicad_pro) in KiCad or
-[the rendered schematic PDF](master/ATO_integrated.pdf). The master contains eight
+Open [the actual master project](master/SCCI_RH_integrated.kicad_pro) in KiCad or
+[the rendered schematic PDF](master/SCCI_RH_integrated.pdf). The master contains eight
 functional modules, 1,298 component positions (1,296 fitted, two DNP) and 80 sheets. This is a digital
 artificial-load engineering assembly; it is not a physically qualified implant.
 
@@ -12,7 +12,7 @@ artificial-load engineering assembly; it is not a physically qualified implant.
 - [Physical connector mates, wire plan and branch nodes](harness.json).
 - [Two intentional legacy rearm corrections and four added tap headers](integration-changes.json).
 - [Saved native export and independent verification](verification.json).
-- [Actual master netlist](master/ATO_integrated.xml) and [native ERC report](master/erc.json).
+- [Actual master netlist](master/SCCI_RH_integrated.xml) and [native ERC report](master/erc.json).
 
 The separate [per-board schematic projects](boards/) provide the layout/netlist
 source for each physical board. Original component symbol UUIDs are retained;

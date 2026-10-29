@@ -15,8 +15,8 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / 'inspector'
-DATE = (2026, 10, 21, 0, 0, 0)
-REPO = 'https://github.com/pratham-cloud-ctrl/Project-ATO/blob/main/'
+DATE = (2026, 10, 28, 0, 0, 0)
+REPO = 'https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/main/'
 
 
 def sha(path):
@@ -33,27 +33,27 @@ def tracked():
 
 
 def canonical(name):
-    return subprocess.check_output(['git', 'show', 'HEAD:' + name], cwd=ROOT)
+    return (ROOT/name).read_bytes()
 
 
 def package_native():
     names = [name for name in tracked() if name.startswith('cad/') and
              (Path(name).suffix.lower() in {'.fcstd', '.fcmacro', '.py', '.cmd', '.ps1', '.csv', '.json', '.md'} or
-              name == 'cad/stage5/drawings/ATO_Stage5_Mechanical_Review.pdf')]
+              name == 'cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf')]
     # Stage2 is an intentionally preserved historical allocation, not the current CAD.
     names = [name for name in names if not name.startswith('cad/stage2/')]
-    readme = '''PROJECT ATO / COMPLETE CURRENT FREECAD PACKAGE
+    readme = '''PROJECT SCCI RH / COMPLETE CURRENT FREECAD PACKAGE
 
-Extract this ZIP, preserving its Project-ATO/cad/ folder structure.
+Extract this ZIP, preserving its Project-SCCI-RH/cad/ folder structure.
 Requires FreeCAD 1.1 or later. On Windows, run cad/OPEN_CURRENT_CAD.cmd.
-For a different installation set ATO_FREECAD_EXE to FreeCAD.exe.
+For a different installation set SCCI_RH_FREECAD_EXE to FreeCAD.exe.
 
-Current full reference: cad/stage5/ATO_stage5_reference_full.FCStd
-Future concept: cad/stage5/future-interface/ATO_future_interface.FCStd
+Current full reference: cad/stage5/SCCI_RH_stage5_reference_full.FCStd
+Future concept: cad/stage5/future-interface/SCCI_RH_future_interface.FCStd
 Before opening the future FCStd in FreeCAD's Python console:
   import sys
-  sys.path.insert(0, r"<your extraction>/Project-ATO/cad/stage5/future-interface")
-  import ato_future_features
+  sys.path.insert(0, r"<your extraction>/Project-SCCI-RH/cad/stage5/future-interface")
+  import scci_rh_future_features
 Then open the FCStd. The Windows launcher does this automatically.
 
 The package contains editable native assemblies, feature definitions, opening
@@ -70,9 +70,9 @@ Reference: 600 x 310 x 240 mm incl feet, 260 physical objects.
 Separate future can/header: 60 x 58 x 14 mm before leads; 230 physical parts
 plus 6 nonphysical allocation volumes. The reference boards do not fit it.
 Digital engineering, no manufactured/implanted performance claimed.
-All native members retain their published Git bytes. Browser meshes are separate.
+All native members match the current rebranded repository bytes; original identities are recorded by the migration. Browser meshes are separate.
 '''
-    destination = OUT / 'downloads/ATO_CAD_Native.zip'
+    destination = OUT / 'downloads/SCCI_RH_CAD_Native.zip'
     destination.parent.mkdir(parents=True, exist_ok=True)
     members = {}
     with zipfile.ZipFile(destination, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
@@ -80,9 +80,9 @@ All native members retain their published Git bytes. Browser meshes are separate
         archive.writestr(info, readme)
         for name in sorted(names):
             data = canonical(name)
-            info = zipfile.ZipInfo('Project-ATO/' + name, DATE); info.compress_type = zipfile.ZIP_DEFLATED
+            info = zipfile.ZipInfo('Project-SCCI-RH/' + name, DATE); info.compress_type = zipfile.ZIP_DEFLATED
             archive.writestr(info, data)
-            members['Project-ATO/' + name] = {'source': name, 'sha256': hashlib.sha256(data).hexdigest(), 'bytes': len(data)}
+            members['Project-SCCI-RH/' + name] = {'source': name, 'sha256': hashlib.sha256(data).hexdigest(), 'bytes': len(data)}
     return destination, members
 
 
@@ -112,27 +112,27 @@ def main():
 
     add(native, 'Editable FreeCAD assemblies', 'NATIVE ZIP',
         'Complete current native CAD, feature module, opening launchers and drawings. Extract first; FreeCAD 1.1+. See the included instructions for the future feature module.', members=members)
-    reference = OUT / 'downloads/ATO_Reference_Complete_STEP.zip'
+    reference = OUT / 'downloads/SCCI_RH_Reference_Complete_STEP.zip'
     if reference.exists():
         add(reference, 'Complete reference assembly', 'STEP ZIP',
             'All 260 physical objects, including populated boards, mating interfaces and harness parts. Extract the STEP to inspect solid geometry in compatible CAD software.', ['reference'])
-    future_source = 'cad/stage5/future-interface/ATO_future_interface.step'
-    add(copy(future_source, 'ATO_Future_Interface.step'), 'Future interface solid geometry', 'STEP',
+    future_source = 'cad/stage5/future-interface/SCCI_RH_future_interface.step'
+    add(copy(future_source, 'SCCI_RH_Future_Interface.step'), 'Future interface solid geometry', 'STEP',
         'The fitted 230-part future interface in millimetres. Standard CAD interchange; parametric editing remains in the native package. Internal allocation boxes are not physical parts.', ['future'], future_source)
-    mechanical_pdf = 'cad/stage5/drawings/ATO_Stage5_Mechanical_Review.pdf'
-    add(copy(mechanical_pdf, 'ATO_Mechanical_Review.pdf'), 'Mechanical review drawings', 'PDF',
+    mechanical_pdf = 'cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf'
+    add(copy(mechanical_pdf, 'SCCI_RH_Mechanical_Review.pdf'), 'Mechanical review drawings', 'PDF',
         'Six dimensioned assembly and interface review sheets, including the distinction between the full reference and future package.', ['future', 'reference'], mechanical_pdf)
     package = electrical['download']
     add(OUT / package['path'], 'All eight editable KiCad projects', 'KICAD ZIP',
         'Complete current schematics, PCBs, hierarchy, local libraries and custom package models. Requires KiCad 10 and its standard 3D-model libraries. Extract and preserve folders.', source_files=package['source_files'])
-    schematic_source = 'electronics/stage4/integrated-pcb/integration/master/ATO_integrated.pdf'
-    add(copy(schematic_source, 'ATO_Integrated_Schematics.pdf'), 'Complete integrated schematics', 'PDF',
+    schematic_source = 'electronics/stage4/integrated-pcb/integration/master/SCCI_RH_integrated.pdf'
+    add(copy(schematic_source, 'SCCI_RH_Integrated_Schematics.pdf'), 'Complete integrated schematics', 'PDF',
         'All 80 current circuit sheets, with integrated global references. A dependable reader independent of the interactive viewers.', source=schematic_source)
     for item in electrical['boards']:
         source = f'electronics/stage4/integrated-pcb/exports/{item["id"]}/populated.step'
-        add(copy(source, f'ATO_{item["id"]}.step'), item['title'] + ' populated solids', 'STEP',
+        add(copy(source, f'SCCI_RH_{item["id"]}.step'), item['title'] + ' populated solids', 'STEP',
             'Actual populated board exchange geometry, in millimetres. Open in CAD software without KiCad; the KiCad ZIP contains the editable circuit and layout.', [item['id']], source)
-    write_json(OUT / 'assets/downloads-manifest.json', {'schema': 'ato.inspector-downloads.v1', 'downloads': downloads})
+    write_json(OUT / 'assets/downloads-manifest.json', {'schema': 'scci_rh.inspector-downloads.v1', 'downloads': downloads})
     (OUT / 'downloads/SHA256SUMS.txt').write_text(''.join(f'{item["sha256"]}  {Path(item["file"]).name}\n' for item in downloads), encoding='utf-8')
     boards = [{**item, 'layers': [{'name': layer['id'], 'file': layer['svg']} for layer in item['copper']]} for item in electrical['boards']]
     board_map = {item['id']: item for item in boards}
@@ -146,20 +146,20 @@ def main():
         dimensions, note = description if description else (
             f'{round(b["width_mm"])} × {round(b["height_mm"])} mm · {b["fitted"]} fitted components',
             'Actual STEP solids; categorical display colours. PCB substrate is a separate object; unfitted parts are omitted.')
-        preview = (f'https://raw.githubusercontent.com/pratham-cloud-ctrl/Project-ATO/main/cad/stage5/renders/{item["id"]}_assembled.png' if not b else
-                   f'https://raw.githubusercontent.com/pratham-cloud-ctrl/Project-ATO/main/electronics/stage4/integrated-pcb/exports/{item["id"]}/isometric.png')
+        preview = (f'https://raw.githubusercontent.com/pratham-cloud-ctrl/Project-SCCI-RH/main/cad/stage5/renders/{item["id"]}_assembled.png' if not b else
+                   f'https://raw.githubusercontent.com/pratham-cloud-ctrl/Project-SCCI-RH/main/electronics/stage4/integrated-pcb/exports/{item["id"]}/isometric.png')
         designs.append({**item, 'model': item['file'], 'modelBytes': item['bytes'], 'dimensions': dimensions, 'note': note, 'preview': preview})
     sheets = [{**{key: value for key, value in item.items() if key not in ('texts', 'text')}, 'file': item['svg'],
                'search': item['text'], 'boardTitle': board_map.get(item['board'], {}).get('title', 'Complete system')} for item in electrical['sheets']]
-    catalog = {'schema': 'ato.inspector-catalog.v1', 'date': '2026-10-21', 'designs': designs, 'boards': boards, 'sheets': sheets, 'downloads': downloads}
+    catalog = {'schema': 'scci_rh.inspector-catalog.v1', 'date': '2026-10-28', 'designs': designs, 'boards': boards, 'sheets': sheets, 'downloads': downloads}
     # Download member/source records belong in provenance, not the initial UI payload.
     catalog['downloads'] = [{key: value for key, value in item.items() if key not in ('members', 'source_files')} for item in downloads]
     write_json(OUT / 'assets/catalog.json', catalog)
-    manifest = {'schema': 'ato.inspection-provenance.v1', 'engineering_release': 'v2.0.1', 'viewer_date': '2026-10-21',
+    manifest = {'schema': 'scci_rh.inspection-provenance.v1', 'engineering_release': 'v2.1.0', 'viewer_date': '2026-10-28',
                 'sources': [{'file': 'assets/cad-manifest.json', 'sha256': sha(OUT / 'assets/cad-manifest.json')},
                             {'file': 'assets/electronics-manifest.json', 'sha256': sha(OUT / 'assets/electronics-manifest.json')},
                             {'file': 'assets/downloads-manifest.json', 'sha256': sha(OUT / 'assets/downloads-manifest.json')}],
-                'catalog_sha256': sha(OUT / 'assets/catalog.json'), 'engineering_sources_changed': False,
+                'catalog_sha256': sha(OUT / 'assets/catalog.json'), 'engineering_sources_changed': True, 'change_scope': 'Project name and metadata only; engineering geometry and behavior checked against the prior release',
                 'reading': 'All meshes and drawings are visualization derivatives. Open linked manifests for native engine versions, input/output SHA-256, units, part identities and finite export checks.'}
     write_json(OUT / 'assets/inspection-manifest.json', manifest)
     static_index(catalog)
@@ -169,10 +169,10 @@ def main():
 def static_index(catalog):
     e = html.escape
     def link(path, label): return f'<a href="{e(path, quote=True)}">{e(label)}</a>'
-    output = ['<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ATO · Static inspection index</title><link rel="stylesheet" href="app.css"><body><main class="static-content"><p>' + link('./', '← Interactive inspector') + '</p><h1>Inspect without an interactive viewer.</h1><p>Direct vector sheets, original previews, complete downloads and engineering source. No JavaScript or WebGL required.</p>']
+    output = ['<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Project SCCI RH · Static inspection index</title><link rel="stylesheet" href="app.css"><body><main class="static-content"><p>' + link('./', '← Interactive inspector') + '</p><h1>Inspect without an interactive viewer.</h1><p>Direct vector sheets, original previews, complete downloads and engineering source. No JavaScript or WebGL required.</p>']
     output.append('<section><h2>Mechanical assemblies</h2><div class="gallery">')
     for key, title in [('future', 'Future implanted-interface concept'), ('reference', 'Full reference assembly')]:
-        source = f'https://raw.githubusercontent.com/pratham-cloud-ctrl/Project-ATO/main/cad/stage5/renders/{key}_assembled.png'
+        source = f'https://raw.githubusercontent.com/pratham-cloud-ctrl/Project-SCCI-RH/main/cad/stage5/renders/{key}_assembled.png'
         output.append(f'<article><h3>{e(title)}</h3><a href="{source}"><img src="assets/previews/{key}.jpg" alt="{e(title)} from saved native geometry"></a></article>')
     output.append('</div></section><section><h2>Editable and standard downloads</h2><ul>')
     for item in catalog['downloads']:

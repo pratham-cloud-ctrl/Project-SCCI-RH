@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "scripts/verify_stage6_release.py",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "81d8f4a0378e3a6427ef44dca2b2ca78c1bef34a9c71880ac6703400e6659288",
+  "current_sha256": "86d789b0c7864932f46c166b0c3754820ad62f5a94312f8b757e647afe0d8d22",
+  "method": "reviewed_branding_verifier_adaptation",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "Original completed baseline identities retained; explicit branding migration, 2.1 release recognition and adapter binding added; no biological claims expanded.",
+  "independent_evidence": []
+}

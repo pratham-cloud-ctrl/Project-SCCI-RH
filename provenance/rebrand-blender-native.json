@@ -1,0 +1,13 @@
+{
+  "native_engine": "5.2.2 LTS",
+  "files": [
+    {
+      "path": "cad/stage5/renders/SCCI_RH_engineering_assemblies.blend",
+      "before_sha256": "2514bca974431bdf3fb82676a69691194fbcb5e0bd3987df577490f27dbfe751",
+      "after_sha256": "0eb4b057aaaf600e832b2cf50a42d2ae9399dd4587b61abb56eb4608dea29012",
+      "all_mesh_vertices_and_polygons_unchanged": true,
+      "mesh_data_sha256": "1ed3979d333dfb6bb436f6e80702d0bb70fc2dde4cdb38782a407c39f5426397",
+      "changes": []
+    }
+  ]
+}

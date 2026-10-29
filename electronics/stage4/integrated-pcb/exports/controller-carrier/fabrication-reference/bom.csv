@@ -1,69 +1,69 @@
 Reference,Value,Footprint,Quantity,DNP
-C80001,47u X7R 10V,ato_controller:C_1206_3216Metric,1,0
-C80002,1u X7R 10V,ato_controller:C_1206_3216Metric,1,0
-C80003,100n X7R 10V,ato_controller:C_1206_3216Metric,1,0
-C80010,100n X7R 10V,ato_controller:C_1206_3216Metric,1,0
-C80011,100n X7R 10V,ato_controller:C_1206_3216Metric,1,0
-C80012,100n X7R 10V,ato_controller:C_1206_3216Metric,1,0
-C80013,100n X7R 10V,ato_controller:C_1206_3216Metric,1,0
-J80001,HOST POWER,ato_controller:PinHeader_1x02_P2.54mm_Vertical,1,0
-J80002,SWD / TARGET VREF,ato_controller:PinHeader_1x06_P2.54mm_Vertical,1,0
-J80003,RESET SHORTING HEADER,ato_controller:PinHeader_1x02_P2.54mm_Vertical,1,0
-J80010,RAW MONITOR,ato_controller:PinHeader_1x06_P2.54mm_Vertical,1,0
-J80011,ISOLATED RECORDING HOST,ato_controller:PinHeader_1x10_P2.54mm_Vertical,1,0
-J80012,SHARED CHARGE ENDPOINT SPI,ato_controller:PinHeader_1x07_P2.54mm_Vertical,1,0
-J80013,DOSE / MONITOR REARM,ato_controller:PinHeader_1x05_P2.54mm_Vertical,1,0
-J80014,DAC SERIAL,ato_controller:PinHeader_1x04_P2.54mm_Vertical,1,0
-J80015,DRIVER REQUEST / POLARITY,ato_controller:PinHeader_1x09_P2.54mm_Vertical,1,0
-J80016,ROUTE CANDIDATE / COMMIT,ato_controller:PinHeader_1x09_P2.54mm_Vertical,1,0
-J80017,ACTIVE ROUTE READBACK,ato_controller:PinHeader_1x09_P2.54mm_Vertical,1,0
-J80018,SUPERVISION CONTROL,ato_controller:PinHeader_1x08_P2.54mm_Vertical,1,0
-J80019,NATIVE HEALTH OBSERVATIONS,ato_controller:PinHeader_1x19_P2.54mm_Vertical,1,0
-J80020,ISOLATED COMPANION HOST UART,ato_controller:PinHeader_1x04_P2.54mm_Vertical,1,0
-R80001,0R,ato_controller:R_0805_2012Metric,1,0
-R80002,10k,ato_controller:R_0805_2012Metric,1,0
-R80100,10k,ato_controller:R_0805_2012Metric,1,0
-R80101,10k,ato_controller:R_0805_2012Metric,1,0
-R80102,10k,ato_controller:R_0805_2012Metric,1,0
-R80103,10k,ato_controller:R_0805_2012Metric,1,0
-R80104,10k,ato_controller:R_0805_2012Metric,1,0
-R80105,10k,ato_controller:R_0805_2012Metric,1,0
-R80106,10k,ato_controller:R_0805_2012Metric,1,0
-R80107,10k,ato_controller:R_0805_2012Metric,1,0
-R80108,10k,ato_controller:R_0805_2012Metric,1,0
-R80109,10k,ato_controller:R_0805_2012Metric,1,0
-R80110,10k,ato_controller:R_0805_2012Metric,1,0
-R80111,10k,ato_controller:R_0805_2012Metric,1,0
-R80112,10k,ato_controller:R_0805_2012Metric,1,0
-R80113,10k,ato_controller:R_0805_2012Metric,1,0
-R80114,10k,ato_controller:R_0805_2012Metric,1,0
-R80115,10k,ato_controller:R_0805_2012Metric,1,0
-R80116,10k,ato_controller:R_0805_2012Metric,1,0
-R80117,10k,ato_controller:R_0805_2012Metric,1,0
-R80118,10k,ato_controller:R_0805_2012Metric,1,0
-R80119,10k,ato_controller:R_0805_2012Metric,1,0
-R80120,10k,ato_controller:R_0805_2012Metric,1,0
-R80121,10k,ato_controller:R_0805_2012Metric,1,0
-R80122,10k,ato_controller:R_0805_2012Metric,1,0
-R80123,10k,ato_controller:R_0805_2012Metric,1,0
-R80124,10k,ato_controller:R_0805_2012Metric,1,0
-R80125,10k,ato_controller:R_0805_2012Metric,1,0
-R80126,10k,ato_controller:R_0805_2012Metric,1,0
-R80127,10k,ato_controller:R_0805_2012Metric,1,0
-R80128,10k,ato_controller:R_0805_2012Metric,1,0
-R80129,10k,ato_controller:R_0805_2012Metric,1,0
-R80130,10k,ato_controller:R_0805_2012Metric,1,0
-R80131,10k,ato_controller:R_0805_2012Metric,1,0
-R80132,10k,ato_controller:R_0805_2012Metric,1,0
-R80133,10k,ato_controller:R_0805_2012Metric,1,0
-R80134,10k,ato_controller:R_0805_2012Metric,1,0
-R80135,10k,ato_controller:R_0805_2012Metric,1,0
-R80136,10k,ato_controller:R_0805_2012Metric,1,0
-R80137,10k,ato_controller:R_0805_2012Metric,1,0
-R80138,10k,ato_controller:R_0805_2012Metric,1,0
-R80139,10k,ato_controller:R_0805_2012Metric,1,0
-U80001,FANSTEL BT40F / nRF5340,ato_controller:BT40F_Manufacturer_66Pad,1,0
-U80010,SN74LVC165APWR,ato_controller:TSSOP-16_4.4x5mm_P0.65mm,1,0
-U80011,SN74LVC165APWR,ato_controller:TSSOP-16_4.4x5mm_P0.65mm,1,0
-U80012,SN74LVC165APWR,ato_controller:TSSOP-16_4.4x5mm_P0.65mm,1,0
-U80013,SN74LVC165APWR,ato_controller:TSSOP-16_4.4x5mm_P0.65mm,1,0
+C80001,47u X7R 10V,scci_rh_controller:C_1206_3216Metric,1,0
+C80002,1u X7R 10V,scci_rh_controller:C_1206_3216Metric,1,0
+C80003,100n X7R 10V,scci_rh_controller:C_1206_3216Metric,1,0
+C80010,100n X7R 10V,scci_rh_controller:C_1206_3216Metric,1,0
+C80011,100n X7R 10V,scci_rh_controller:C_1206_3216Metric,1,0
+C80012,100n X7R 10V,scci_rh_controller:C_1206_3216Metric,1,0
+C80013,100n X7R 10V,scci_rh_controller:C_1206_3216Metric,1,0
+J80001,HOST POWER,scci_rh_controller:PinHeader_1x02_P2.54mm_Vertical,1,0
+J80002,SWD / TARGET VREF,scci_rh_controller:PinHeader_1x06_P2.54mm_Vertical,1,0
+J80003,RESET SHORTING HEADER,scci_rh_controller:PinHeader_1x02_P2.54mm_Vertical,1,0
+J80010,RAW MONITOR,scci_rh_controller:PinHeader_1x06_P2.54mm_Vertical,1,0
+J80011,ISOLATED RECORDING HOST,scci_rh_controller:PinHeader_1x10_P2.54mm_Vertical,1,0
+J80012,SHARED CHARGE ENDPOINT SPI,scci_rh_controller:PinHeader_1x07_P2.54mm_Vertical,1,0
+J80013,DOSE / MONITOR REARM,scci_rh_controller:PinHeader_1x05_P2.54mm_Vertical,1,0
+J80014,DAC SERIAL,scci_rh_controller:PinHeader_1x04_P2.54mm_Vertical,1,0
+J80015,DRIVER REQUEST / POLARITY,scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical,1,0
+J80016,ROUTE CANDIDATE / COMMIT,scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical,1,0
+J80017,ACTIVE ROUTE READBACK,scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical,1,0
+J80018,SUPERVISION CONTROL,scci_rh_controller:PinHeader_1x08_P2.54mm_Vertical,1,0
+J80019,NATIVE HEALTH OBSERVATIONS,scci_rh_controller:PinHeader_1x19_P2.54mm_Vertical,1,0
+J80020,ISOLATED COMPANION HOST UART,scci_rh_controller:PinHeader_1x04_P2.54mm_Vertical,1,0
+R80001,0R,scci_rh_controller:R_0805_2012Metric,1,0
+R80002,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80100,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80101,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80102,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80103,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80104,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80105,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80106,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80107,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80108,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80109,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80110,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80111,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80112,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80113,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80114,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80115,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80116,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80117,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80118,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80119,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80120,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80121,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80122,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80123,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80124,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80125,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80126,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80127,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80128,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80129,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80130,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80131,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80132,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80133,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80134,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80135,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80136,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80137,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80138,10k,scci_rh_controller:R_0805_2012Metric,1,0
+R80139,10k,scci_rh_controller:R_0805_2012Metric,1,0
+U80001,FANSTEL BT40F / nRF5340,scci_rh_controller:BT40F_Manufacturer_66Pad,1,0
+U80010,SN74LVC165APWR,scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm,1,0
+U80011,SN74LVC165APWR,scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm,1,0
+U80012,SN74LVC165APWR,scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm,1,0
+U80013,SN74LVC165APWR,scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm,1,0

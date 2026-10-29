@@ -1,4 +1,4 @@
-"""Cross-compile the ATO application without flashing or modifying SDK sources.
+"""Cross-compile the SCCI_RH application without flashing or modifying SDK sources.
 
 Uses the verified short Windows SDK copy. --incremental keeps the build tree;
 the default pristine build is the reproducible publication operation.
@@ -25,9 +25,9 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--incremental", action="store_true")
     args = parser.parse_args()
-    tools = Path("E:/ATO-Tools")
-    sdk_root = Path("E:/ATO-Nordic/ncs")
-    project = Path("E:/ATO")
+    tools = Path("E:/SCCI_RH-Tools")
+    sdk_root = Path("E:/SCCI_RH-Nordic/ncs")
+    project = Path("E:/SCCI_RH")
     assert project.resolve() == ROOT
     sdk = sdk_root / VERSION
     toolchain = sdk_root / "toolchains/4f5b6ad6dd"
@@ -57,7 +57,7 @@ def main():
         env[v["key"]] = v["value"].replace(physical, str(sdk_root)).replace(
             physical.replace("\\", "/"), sdk_root.as_posix())
     env["ZEPHYR_BASE"] = (sdk / "zephyr").as_posix()
-    build = project / "build/stage4/nrf5340-ato"
+    build = project / "build/stage4/nrf5340-scci_rh"
     assert build.resolve().is_relative_to(ROOT / "build")
     command = [str(sdk_python), "-m", "west", "build", "--no-sysbuild", "-b", BOARD,
                str(project / "firmware/nrf5340/app"), "-d", str(build)]
@@ -70,20 +70,20 @@ def main():
     print(output[-2000:])
     artifacts = ROOT / "firmware/nrf5340/artifacts"
     artifacts.mkdir(parents=True, exist_ok=True)
-    for source, target in {"zephyr.elf": "ato.elf", "zephyr.hex": "ato.hex",
-                            "zephyr.bin": "ato.bin", "zephyr.map": "ato.map",
+    for source, target in {"zephyr.elf": "scci_rh.elf", "zephyr.hex": "scci_rh.hex",
+                            "zephyr.bin": "scci_rh.bin", "zephyr.map": "scci_rh.map",
                             ".config": "build.config", "zephyr.dts": "zephyr.dts"}.items():
         shutil.copyfile(build / "zephyr" / source, artifacts / target)
-    size_output = execute("size", [str(compiler / "arm-zephyr-eabi-size.exe"), "-A", str(artifacts / "ato.elf")])
+    size_output = execute("size", [str(compiler / "arm-zephyr-eabi-size.exe"), "-A", str(artifacts / "scci_rh.elf")])
     symbols = execute("symbols", [str(compiler / "arm-zephyr-eabi-nm.exe"), "--print-size", "--size-sort",
-                                   str(artifacts / "ato.elf")])
+                                   str(artifacts / "scci_rh.elf")])
     (artifacts / "symbols.txt").write_text(symbols + "\n", encoding="utf-8")
     (artifacts / "sections.txt").write_text(size_output + "\n", encoding="utf-8")
     commands = json.loads((build / "compile_commands.json").read_text(encoding="utf-8"))
     selected = [record for record in commands if Path(record["file"]).name in {
-        "system_nrf5340_application.c", "ato_backend.c", "ato_runtime.c", "main.c"}]
+        "system_nrf5340_application.c", "scci_rh_backend.c", "scci_rh_runtime.c", "main.c"}]
     assert {Path(record["file"]).name for record in selected} == {
-        "system_nrf5340_application.c", "ato_backend.c", "ato_runtime.c", "main.c"}
+        "system_nrf5340_application.c", "scci_rh_backend.c", "scci_rh_runtime.c", "main.c"}
     (artifacts / "compile-records.json").write_text(json.dumps(selected, indent=2) + "\n", encoding="utf-8")
     versions = {
         "compiler": execute("compiler", [str(compiler / "arm-zephyr-eabi-gcc.exe"), "--version"]),
@@ -95,8 +95,8 @@ def main():
     for directory in ["app", "core"]:
         sources += [p for p in (ROOT / "firmware/nrf5340" / directory).rglob("*") if p.is_file()]
     receipt = {
-        "schema": "ato.stage4.nrf5340-target-build.v1", "date": "2026-10-14",
-        "status": "ato_application_cross_compiled_and_linked", "sdk_version": VERSION,
+        "schema": "scci_rh.stage4.nrf5340-target-build.v1", "date": "2026-10-28", "original_design_date": "2026-10-14",
+        "status": "scci_rh_application_cross_compiled_and_linked", "sdk_version": VERSION,
         "board": BOARD, "toolchain_bundle_id": "4f5b6ad6dd", "versions": versions,
         "source_sha256_lf": {p.relative_to(ROOT).as_posix(): hashlib.sha256(
             p.read_text(encoding="utf-8").replace("\r\n", "\n").encode()).hexdigest() for p in sorted(sources)},
@@ -127,7 +127,7 @@ def main():
         ]
     }
     (ROOT / "provenance/stage4-nrf5340-build.json").write_text(json.dumps(receipt, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({"status": receipt["status"], "elf_sha256": sha(artifacts / "ato.elf"),
+    print(json.dumps({"status": receipt["status"], "elf_sha256": sha(artifacts / "scci_rh.elf"),
                       "flashed_or_executed": False}, indent=2))
 
 if __name__ == "__main__":

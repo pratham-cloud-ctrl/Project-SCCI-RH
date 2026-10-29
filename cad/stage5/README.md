@@ -1,11 +1,11 @@
 # Stage 5 - mechanical assembly and packaging
 
-Project ATO now has two deliberately linked mechanical embodiments: a real-size
+Project SCCI RH now has two deliberately linked mechanical embodiments: a real-size
 reference chassis containing the eight populated electronic boards, and a
 separate conditional future implanted spinal interface with its own leads.
 AstroSam's [Mind-Link](https://github.com/sam-astro/Mind-link) inspired the
 progression from a future interface idea to an inspectable engineered object.
-The spinal architecture, models, circuits and mechanical design here are ATO's
+The spinal architecture, models, circuits and mechanical design here are SCCI_RH's
 own documented contribution.
 
 ## Open the engineering package
@@ -13,7 +13,7 @@ own documented contribution.
 | Entry | Contents |
 |---|---|
 | [OPEN_REFERENCE_ASSEMBLY.cmd](OPEN_REFERENCE_ASSEMBLY.cmd) | One complete native FreeCAD assembly, opened as a session-only cutaway so all populated tiers can be inspected; hidden covers remain in the tree |
-| [Mechanical review drawing set](drawings/ATO_Stage5_Mechanical_Review.pdf) | Six illustrated sheets: dimensions, service, conditional package, port bridge and engineering boundaries |
+| [Mechanical review drawing set](drawings/SCCI_RH_Stage5_Mechanical_Review.pdf) | Six illustrated sheets: dimensions, service, conditional package, port bridge and engineering boundaries |
 | [Reference native source](reference/README.md) | Editable enclosure/trays/mounts, all actual board compounds, exploded view, BOM, lossless STEP archives and mechanical STLs |
 | [Future implanted-interface native source](future-interface/README.md) | Conditional can/header/feedthroughs, keyed recording and stimulation leads, distal contacts and internal reservations |
 | [Mating and cable interface source](harness/README.md) | 83 mating housing envelopes, passive rear inserts, all electrical endpoint identities and explicitly nonphysical route plans |

@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/drill-report.txt",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "a90c42131fd8dba8af576a68ac57a958ed85536bd777ce3a4e04f9ebb3ddd441",
+  "current_sha256": "71a1e46e0a64da6df5259f704b17060325c550034f2b9ae37ba3d7e170e66a54",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-native-electrical-checks.json",
+      "sha256_lf": "a7efadd0ea0f6936019232177ee29bd40278de894bf0b5113a6dd26d205040e3"
+    }
+  ]
+}

@@ -3,7 +3,7 @@ import FreeCAD as App
 import FreeCADGui as Gui
 from pathlib import Path
 import json
-path=Path(r'E:\Project ATO\cad\stage5\reference\ATO_reference_assembly.FCStd')
+path=Path(r'E:\Project SCCI RH\cad\stage5\reference\SCCI_RH_reference_assembly.FCStd')
 doc=next((d for d in App.listDocuments().values() if Path(d.FileName)==path),None)
 if doc is None:doc=App.openDocument(str(path))
 App.setActiveDocument(doc.Name)

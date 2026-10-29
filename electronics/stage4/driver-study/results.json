@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage4.driver-study.v1",
+  "schema": "scci_rh.stage4.driver-study.v1",
   "date": "2026-10-13",
   "scope": "Restricted behavioral artificial-load servo/bridge model, not vendor or complete native-circuit simulation",
   "native_circuit_modified": false,
@@ -202,7 +202,7 @@
     "stdout ******"
   ],
   "helper_source_sha256": "136fed2c0d652e8e5893284fcd2c997cd2682ee02bd0a1e88d664e7ea87c260c",
-  "source_sha256": "b40abbdfc1f021302d4053669bb11bbcc6fbeab4d1318b876dd4461f48654911",
+  "source_sha256": "e49d3c537c053b432c3991714f9d6a7e37cbd97f7d7e2230db71015003253b29",
   "runs": [
     {
       "case": "nominal",

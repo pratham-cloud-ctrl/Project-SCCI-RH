@@ -1,4 +1,4 @@
-# Understanding and defending the integrated Project ATO
+# Understanding and defending the integrated Project SCCI RH
 
 This guide supports learning after the digital release. Read the manuscript and
 open the native designs, then explain them in your own words. A polished file set
@@ -7,14 +7,14 @@ in the [contribution record](contributions.md).
 
 ## The project in one minute
 
-ATO proposes an implanted spinal recording and stimulation platform. It asks
+SCCI_RH proposes an implanted spinal recording and stimulation platform. It asks
 whether task-relevant spinal information and individualized stimulation could
 help practice produce better later unassisted movement, and whether a selected
 physiological response could be maintained using feedback. It builds a digital
 engineering account of those mechanisms: evidence, explicit future assumptions,
 models, electronics, executable target firmware and CAD. AstroSam's Mind-Link
 inspired the progression from an ambitious vision to an inspectable engineering
-body. ATO has no human recordings, fabricated implant or proven consumer benefit.
+body. SCCI_RH has no human recordings, fabricated implant or proven consumer benefit.
 
 ## Explain a theoretical user session
 
@@ -146,7 +146,7 @@ remains preserved. Find one correction and explain how its check detected it.
    reference tray gap from source dimensions. State which tolerances and
    physical effects that arithmetic omits.
 4. **Challenge one scientific premise.** Choose a named assumption, find its
-   primary evidence, distinguish population/access/task from ATO's proposal,
+   primary evidence, distinguish population/access/task from SCCI_RH's proposal,
    and write a feasible future test with a result that would reject the premise.
 
 Record a prediction before each run or change, preserve the release outputs,

@@ -1,8 +1,8 @@
 {
   "date": "2026-10-08",
   "scope": "Read-only native/STEP validity, dimensions and all nominal pair inspections; no populated/anatomical/hermetic claim",
-  "native_sha256": "93968c7d3c975ed00d8fb8e1670e5e9f02ab9c25882e7cf78b63bc150da8981a",
-  "step_sha256": "e178c38187a48e985a44baa57340705dffdefd9305d34ac6a54bbc3a5c3a0aa3",
+  "native_sha256": "5d0e0ef9462120c5d42d6adf512983f453dd246023114b00e84a3d7fa43f3039",
+  "step_sha256": "8809bbeed87090004e06750087b49139baa35f9786e4b995cd087a5fa213563b",
   "allocation_receipt_canonical_json_sha256": "576db243b022af67da523a45bd8fde065d8e6057fb0e0e6f000c38f8d9b4a94c",
   "text_receipt_hash_convention": "Parsed JSON; sorted object keys; preserved array order; compact ASCII serialization; finite numbers. Git manifest separately binds exact committed bytes.",
   "FreeCAD_version": [

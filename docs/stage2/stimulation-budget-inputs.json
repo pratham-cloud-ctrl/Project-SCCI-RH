@@ -1,5 +1,5 @@
 {
-  "schema_version": "ato.stage2.stimulation-budget.v1",
+  "schema_version": "scci_rh.stage2.stimulation-budget.v1",
   "document_id": "S2-STIM-001",
   "generated_on": "2026-10-08",
   "scope": "Entirely digital proposal. Electrical parameter envelope, not a clinical prescription or electrochemical safety approval.",
@@ -27,7 +27,7 @@
     },
     "S2-BIO-005": {
       "url": "https://www.bostonscientific.com/content/dam/elabeling/nm/92395591-04_Rev_A_BionicNav_Program_Manual_multi-OUS_s.pdf",
-      "provenance": "official manufacturer programming manual; not ATO approval",
+      "provenance": "official manufacturer programming manual; not SCCI_RH approval",
       "printed_pages": [
         25,
         26,
@@ -45,7 +45,7 @@
     "independent_current_sources": {
       "value": 2,
       "unit": "sources",
-      "status": "selected ATO architecture"
+      "status": "selected SCCI_RH architecture"
     },
     "maximum_concurrent_sources": {
       "value": 2,
@@ -55,31 +55,31 @@
     "routable_stimulation_contacts": {
       "value": 16,
       "unit": "contacts",
-      "status": "ATO choice"
+      "status": "SCCI_RH choice"
     },
     "dedicated_return_contacts": {
       "value": 2,
       "unit": "contacts",
-      "status": "ATO choice; distinct from recording references"
+      "status": "SCCI_RH choice; distinct from recording references"
     },
     "active_current_magnitude": {
       "min": 0.0001,
       "max": 0.02,
       "unit": "A",
-      "status": "ATO design range; zero disables output"
+      "status": "SCCI_RH design range; zero disables output"
     },
     "phase_duration": {
       "min": 5e-05,
       "max": 0.0005,
       "nominal": 0.0003,
       "unit": "s",
-      "status": "ATO design range; published pulse width is not proof of active symmetric phases"
+      "status": "SCCI_RH design range; published pulse width is not proof of active symmetric phases"
     },
     "profile_repetition": {
       "min": 1,
       "max": 150,
       "unit": "Hz",
-      "status": "ATO range subject to admission"
+      "status": "SCCI_RH range subject to admission"
     },
     "charge_ceiling_per_phase": {
       "value": 1e-05,
@@ -89,7 +89,7 @@
     "nominal_interphase_gap": {
       "value": 0.0001,
       "unit": "s",
-      "status": "ATO choice"
+      "status": "SCCI_RH choice"
     },
     "nominal_recording_recovery_allocation": {
       "value": 0.001,
@@ -114,7 +114,7 @@
     "converter_efficiency": {
       "value": 0.8,
       "unit": "fraction",
-      "status": "unverified ATO assumption; no regeneration"
+      "status": "unverified SCCI_RH assumption; no regeneration"
     },
     "bulk_path_resistance_sweep": {
       "values": [
@@ -154,12 +154,12 @@
     "contact_area_sensitivity": {
       "value": 1.2e-05,
       "unit": "m^2",
-      "status": "ATO alternative; selectivity changes"
+      "status": "SCCI_RH alternative; selectivity changes"
     },
     "dedicated_return_area": {
       "value": 2.4e-05,
       "unit": "m^2",
-      "status": "ATO hypothesis; no equal-sharing assumption"
+      "status": "SCCI_RH hypothesis; no equal-sharing assumption"
     },
     "adverse_initial_pair_polarization": {
       "value": 4,
@@ -174,7 +174,7 @@
     "candidate_contact_material": {
       "value": "Pt-Ir nominal90/10",
       "unit": "composition candidate",
-      "status": "ATO material hypothesis; surface finish/coating and chronic chemistry unqualified"
+      "status": "SCCI_RH material hypothesis; surface finish/coating and chronic chemistry unqualified"
     },
     "command_charge_ceiling_per_phase": {
       "value": 9e-06,
@@ -325,9 +325,9 @@
       0.002,
       0.004
     ],
-    "ATO_phase_duration_s": 0.0003,
-    "ATO_interphase_gap_s": 0.0001,
-    "ATO_postpulse_recording_recovery_s": 0.001,
+    "SCCI_RH_phase_duration_s": 0.0003,
+    "SCCI_RH_interphase_gap_s": 0.0001,
+    "SCCI_RH_postpulse_recording_recovery_s": 0.001,
     "electrical_duration_s": 0.0007,
     "blanked_duration_per_profile_s": 0.0017,
     "reference_nonoverlap_union_blank_fraction": 0.612,
@@ -395,7 +395,7 @@
     "phase2_current_multiplier": 1,
     "equal_phase_durations": true,
     "nominal_interphase_gap_s": 0.0001,
-    "order_status": "ATO template; reverse-order response is not presumed biological inversion",
+    "order_status": "SCCI_RH template; reverse-order response is not presumed biological inversion",
     "original_pressure_study_exact_recharge_waveform_verified": false
   }
 }

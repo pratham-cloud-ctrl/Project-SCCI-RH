@@ -17,14 +17,14 @@ NAVY='#0b1424';TEAL='#24c4c7';IVORY='#f3f5f7';MUTED='#acbacb'
 summary=json.loads((ROOT/'results'/'summary.json').read_text())
 reduction=summary['motor']['paired_retained_error_reduction_percent']['mean']
 scenes=[
- (8,'PROJECT ATO','A future spinal interface,\nexpressed as digital engineering.','media/ato-hero.png',['Primary literature','Two conditional computational studies','Editable electronics and CAD']),
+ (8,'PROJECT SCCI RH','A future spinal interface,\nexpressed as digital engineering.','media/scci_rh-hero.png',['Primary literature','Two conditional computational studies','Editable electronics and CAD']),
  (9,'THE MECHANISM','Observe a state.\nCalibrate an intervention.','figures/architecture.png',['Recording and stimulation have distinct placements.','External pressure and movement sensing are explicit.','No brain recording or biological experiments.']),
  (11,'MOTOR PRACTICE','Assistance and retained\nlearning are different outcomes.','figures/motor_study.png',[f'{reduction:.1f}% lower retained model RMSE at assumed beta = 0.8.','Zero learning-benefit control: no retained advantage.','This conditional result is not human learning evidence.']),
  (10,'TIMING MATTERS','A wrong latency model\ncan make assistance harmful.','figures/motor_study.png',['40 paired synthetic learners; published seeds.','A 1 Hz rhythm and 80 ms delay imply 28.8 degrees.','Raw trials, sensitivity sweeps and controls are included.']),
  (11,'PHYSIOLOGICAL FEEDBACK','Reject a pressure disturbance\nwith a bounded controller.','figures/pressure_study.png',['Reduced-order synthetic mean arterial pressure plant.','Low gain and limited actuation expose failures.','Stale sensors inhibit new pulse requests.']),
  (8,'REFERENCE ELECTRONICS','An inspectable signal path\nand dummy-load output.','figures/electronics_stimulation.png',['Artificial input conditioning; one channel.','Nominal 100 uA, 200 us per phase; 20 nC per phase.','Digital timing is host-tested; no hardware was fabricated.']),
- (9,'MECHANICAL IDENTITY','Editable geometry.\nA coherent physical form.','media/ato-exploded.png',['100 x 70 x 32 mm desktop enclosure.','80 x 50 mm reference PCB; matching mounting pattern.','STEP, STL, FreeCAD and Blender sources.']),
- (6,'THE CONTRIBUTION','A traceable engineering argument.','media/ato-hero.png',['Created for Pratham Varma with AI assistance.','Inspired by AstroSam; original spinal architecture.','Digital validation is separate from biological validation.'])]
+ (9,'MECHANICAL IDENTITY','Editable geometry.\nA coherent physical form.','media/scci_rh-exploded.png',['100 x 70 x 32 mm desktop enclosure.','80 x 50 mm reference PCB; matching mounting pattern.','STEP, STL, FreeCAD and Blender sources.']),
+ (6,'THE CONTRIBUTION','A traceable engineering argument.','media/scci_rh-hero.png',['Created for Pratham Varma with AI assistance.','Inspired by AstroSam; original spinal architecture.','Digital validation is separate from biological validation.'])]
 def wrap(draw,text,x,y,width=400,fill=IVORY,ft=F_BODY,line=34):
     words=text.split();rows=[];row=''
     for word in words:
@@ -35,15 +35,15 @@ def wrap(draw,text,x,y,width=400,fill=IVORY,ft=F_BODY,line=34):
     for row in rows:draw.text((x,y),row,font=ft,fill=fill);y+=line
     return y
 frames=[]
-encoder=imageio_ffmpeg.write_frames(str(ROOT/'media'/'ATO_walkthrough.mp4'),(W,H),fps=FPS,codec='libx264',pix_fmt_in='rgb24',pix_fmt_out='yuv420p',quality=8,output_params=['-movflags','+faststart'])
+encoder=imageio_ffmpeg.write_frames(str(ROOT/'media'/'SCCI_RH_walkthrough.mp4'),(W,H),fps=FPS,codec='libx264',pix_fmt_in='rgb24',pix_fmt_out='yuv420p',quality=8,output_params=['-movflags','+faststart'])
 encoder.send(None)
 total=sum(s[0] for s in scenes)*FPS;frame_index=0
 for index,(seconds,eyebrow,title,imagefile,bullets) in enumerate(scenes):
     path=ROOT/imagefile
-    if not path.exists():path=ROOT/'media'/'ato-exploded.png'
+    if not path.exists():path=ROOT/'media'/'scci_rh-exploded.png'
     art=Image.open(path).convert('RGB')
     base=Image.new('RGB',(W,H),NAVY);d=ImageDraw.Draw(base)
-    d.text((55,35),'ATO / DIGITAL ENGINEERING STUDY',font=F_SMALL,fill=TEAL)
+    d.text((55,35),'SCCI_RH / DIGITAL ENGINEERING STUDY',font=F_SMALL,fill=TEAL)
     d.text((55,105),eyebrow,font=F_SMALL,fill=MUTED)
     y=154
     for line in title.split('\n'):y=wrap(d,line,55,y,430,IVORY,F_TITLE,43)

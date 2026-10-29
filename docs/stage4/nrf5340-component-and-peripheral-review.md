@@ -11,7 +11,7 @@ physiological control remain conditional biological applications.
 
 The selected production witness is **nRF5340-QKAA**, application core. The build
 board `nrf5340dk/nrf5340/cpuapp` supplies a supported startup/linker target; it
-is **not** the ATO carrier schematic. The network core and radio are not needed
+is **not** the SCCI_RH carrier schematic. The network core and radio are not needed
 for the isolated UART companion implementation. The [pin map](nrf5340-pin-map.csv)
 assigns **46 distinct GPIO** and reserves P0.00/P0.01 for the low-frequency
 crystal. P0.02/P0.03 require the actual SDK devicetree property
@@ -27,7 +27,7 @@ UICR register has not been checked because this project has not been flashed.
 Disabling the NFCT node alone does not establish GPIO ownership. The physical DK attaches
 buttons, LEDs, external flash and debugger communication to several selected
 pins, including buttons on P0.08/P0.09. A successful DK-target build does not
-make those connections suitable for an attached ATO circuit. [Nordic pin
+make those connections suitable for an attached SCCI_RH circuit. [Nordic pin
 assignments](https://docs.nordicsemi.com/r/bundle/ps_nrf5340/page/chapters/pin.html),
 [DK buttons and LEDs](https://docs.nordicsemi.com/r/bundle/ug_nrf5340_dk/page/ug/dk/hw_buttons_leds.html).
 
@@ -217,7 +217,7 @@ pulls, clock fanout and power must enter the consolidated PCB budget.
 
 ## Reviewed installed identities
 
-The SDK copy is `E:/ATO-Nordic/ncs/v3.4.1`; no vendor file was edited. Its
+The SDK copy is `E:/SCCI_RH-Nordic/ncs/v3.4.1`; no vendor file was edited. Its
 `nrf` commit is `b20f8619ba9a5530f8c34b0a130d829947cfe55d`, and the
 `modules/hal/nordic` commit is `69865c20dc4afbdd27060ad1e81af1b62d31f7af`.
 The following SHA-256 values identify the reviewed local primary sources

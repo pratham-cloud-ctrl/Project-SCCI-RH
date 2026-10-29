@@ -1,0 +1,21 @@
+{
+  "schema": "scci_rh.rebrand-stage3-current-checks.v1",
+  "date": "2026-10-29",
+  "passed": true,
+  "checks": [
+    "verify_stage3_revision --write-receipt:10checks",
+    "verify_frozen_pilot_portable:32practice+64OFFsessions,0launches,15contractprobes; independent raw audit; originals unchanged",
+    "independent original Git comparison:15JSON/gzip artifacts,700812exact numeric values",
+    "qualified8pagecloseout PDF rerender and finalpage visual review"
+  ],
+  "inputs": {
+    "experiments/stage3/frozen-observer-pilot/preflight.json": "fe4cb8297a2b8c63b876ad6eacf1fce56b3e9e057b7cbdd739c8e725f9dc4d92",
+    "experiments/stage3/frozen-observer-pilot/root-review.json": "b1863d6787fd640d23bfe7026ec6e623da049dcaab4239db8e61756b45f12af6",
+    "experiments/stage3/frozen-observer-pilot/summary.json": "edc5720c7bfb68e269f32605a3cdaf7c0e23501cbb8ca82f59c83fca025744dd",
+    "experiments/stage3/frozen-observer-pilot/artifact-manifest.json": "b420d2668a70f607feac0e0dc54bec626724d5d5e7ea1cf552f42cde2c322a94",
+    "scripts/audit_frozen_observer_pilot.py": "793310697149a62075d0caf3351e0bf528d6edb2f750f6b49e88f012c802374f",
+    "provenance/stage3-frozen-pilot-independent-audit.json": "e09971ac7def6476765bf21d77d63e0b70437a98fa9cf422519b94f00b979f08",
+    "provenance/stage3-closeout-review.json": "b98ab7e80b74ee1ba6d44d734bffca848e03ea3652befb58715177cfc8de26a8",
+    "provenance/stage3-revision-verification.json": "6b51c4a83bfe2008732c6552ae14e4b6b61693c098acb27718f3b09c3359875f"
+  }
+}

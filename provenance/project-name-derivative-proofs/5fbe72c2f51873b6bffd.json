@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/transport-study/input-verification.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "616fe8f7c8c7f3fb3dbca15d9f98c28b59c326db89c8c8caf4ef65865c65b8a3",
+  "current_sha256": "717313c0b205bac50c45b21efd47a3cfbc5126b42dd662d55041b819380f28d4",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

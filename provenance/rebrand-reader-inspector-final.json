@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-29",
+  "passed": true,
+  "commands": [
+    "python scripts/build_reader_previews.py",
+    "python scripts/verify_viewer_navigation.py --write-report",
+    "python scripts/inspector/verify_inspector.py --write-report"
+  ],
+  "scope": "Actual12thumbnails and current complete reader/inspector reviews:10models,8boards,80sheets,32copperviews,3nativearchives;2812historicalidentitiescompared. Browserinteractionnotexecuted.",
+  "files": [
+    {
+      "path": "docs/explore/assets/manifest.json",
+      "current_sha256": "fbfaa13a1a117a78fc87587b376bd51e883c5a08ef417dae16a8e7ab1d27607c"
+    },
+    {
+      "path": "provenance/browser-inspector-verification.json",
+      "current_sha256": "a341e3f1063591be823c7be0587a34e17f991dac0dc2330e5750b2e631bab02d"
+    },
+    {
+      "path": "provenance/viewer-navigation-verification.json",
+      "current_sha256": "bc9a2bcb77ebdf13425a9e3f8e2ea046bc144ea651af525fc1ae8b08bbee50cf"
+    }
+  ]
+}

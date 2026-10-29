@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-29",
+  "passed": true,
+  "command": "python scripts/verify_stage6_release.py --write-report",
+  "verifier": "scripts/verify_stage6_release.py",
+  "verifier_sha256": "86d789b0c7864932f46c166b0c3754820ad62f5a94312f8b757e647afe0d8d22",
+  "checks": 1907,
+  "historical_files_compared": 2733,
+  "scope": "Actual current integrated release verification; no new physical or biological claim",
+  "files": [
+    {
+      "path": "provenance/stage6-release-verification.json",
+      "current_sha256": "86e9e55bf6ef444ab2f20ea31261c58d65559f90b163dbf61eb900858c837f3e"
+    }
+  ]
+}

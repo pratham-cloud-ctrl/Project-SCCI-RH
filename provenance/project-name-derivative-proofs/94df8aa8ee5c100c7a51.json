@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/driver-study/verification.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "36075113410c4cb10587453a4730c6f6524ad20f47ac244301a9dc72266db371",
+  "current_sha256": "fd53e01b93e4bbf1b00dec4cc13170f1653cf8f7b2df1eba08e297a87fc5bdbe",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage4.controller-carrier.connectivity.v1",
+  "schema": "scci_rh.stage4.controller-carrier.connectivity.v1",
   "date": "2026-10-14",
   "scope": "PhysicalBT40FnRF5340modulecarrierwith46GPIOandfourSN74LVC165;digitalbenchonly,radioOFF",
   "parts": [
@@ -7,7 +7,7 @@
       "ref": "U1",
       "value": "FANSTEL BT40F / nRF5340",
       "kind": "module",
-      "footprint": "ato_controller:BT40F_Manufacturer_66Pad",
+      "footprint": "scci_rh_controller:BT40F_Manufacturer_66Pad",
       "nets": {
         "1": "PLUS0",
         "2": "MINUS0",
@@ -486,7 +486,7 @@
       "ref": "J1",
       "value": "HOST POWER",
       "kind": "J",
-      "footprint": "ato_controller:PinHeader_1x02_P2.54mm_Vertical",
+      "footprint": "scci_rh_controller:PinHeader_1x02_P2.54mm_Vertical",
       "nets": {
         "1": "HOST_3V3",
         "2": "GND"
@@ -517,7 +517,7 @@
       "ref": "R1",
       "value": "0R",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "HOST_3V3",
         "2": "MCU_3V3"
@@ -548,7 +548,7 @@
       "ref": "C1",
       "value": "47u X7R 10V",
       "kind": "C",
-      "footprint": "ato_controller:C_1206_3216Metric",
+      "footprint": "scci_rh_controller:C_1206_3216Metric",
       "nets": {
         "1": "MCU_3V3",
         "2": "GND"
@@ -579,7 +579,7 @@
       "ref": "C2",
       "value": "1u X7R 10V",
       "kind": "C",
-      "footprint": "ato_controller:C_1206_3216Metric",
+      "footprint": "scci_rh_controller:C_1206_3216Metric",
       "nets": {
         "1": "MCU_3V3",
         "2": "GND"
@@ -610,7 +610,7 @@
       "ref": "C3",
       "value": "100n X7R 10V",
       "kind": "C",
-      "footprint": "ato_controller:C_1206_3216Metric",
+      "footprint": "scci_rh_controller:C_1206_3216Metric",
       "nets": {
         "1": "MCU_3V3",
         "2": "GND"
@@ -641,7 +641,7 @@
       "ref": "R2",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "MCU_3V3",
         "2": "MCU_RESET_N"
@@ -672,7 +672,7 @@
       "ref": "J2",
       "value": "SWD / TARGET VREF",
       "kind": "J",
-      "footprint": "ato_controller:PinHeader_1x06_P2.54mm_Vertical",
+      "footprint": "scci_rh_controller:PinHeader_1x06_P2.54mm_Vertical",
       "nets": {
         "1": "MCU_3V3",
         "2": "SWDIO",
@@ -731,7 +731,7 @@
       "ref": "J3",
       "value": "RESET SHORTING HEADER",
       "kind": "J",
-      "footprint": "ato_controller:PinHeader_1x02_P2.54mm_Vertical",
+      "footprint": "scci_rh_controller:PinHeader_1x02_P2.54mm_Vertical",
       "nets": {
         "1": "MCU_RESET_N",
         "2": "GND"
@@ -762,7 +762,7 @@
       "ref": "U10",
       "value": "SN74LVC165APWR",
       "kind": "sideband",
-      "footprint": "ato_controller:TSSOP-16_4.4x5mm_P0.65mm",
+      "footprint": "scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm",
       "nets": {
         "1": "SIDEBAND_LOAD_N",
         "2": "CTRL_SCLK",
@@ -891,7 +891,7 @@
       "ref": "C10",
       "value": "100n X7R 10V",
       "kind": "C",
-      "footprint": "ato_controller:C_1206_3216Metric",
+      "footprint": "scci_rh_controller:C_1206_3216Metric",
       "nets": {
         "1": "HOST_3V3",
         "2": "GND"
@@ -922,7 +922,7 @@
       "ref": "U11",
       "value": "SN74LVC165APWR",
       "kind": "sideband",
-      "footprint": "ato_controller:TSSOP-16_4.4x5mm_P0.65mm",
+      "footprint": "scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm",
       "nets": {
         "1": "SIDEBAND_LOAD_N",
         "2": "CTRL_SCLK",
@@ -1051,7 +1051,7 @@
       "ref": "C11",
       "value": "100n X7R 10V",
       "kind": "C",
-      "footprint": "ato_controller:C_1206_3216Metric",
+      "footprint": "scci_rh_controller:C_1206_3216Metric",
       "nets": {
         "1": "HOST_3V3",
         "2": "GND"
@@ -1082,7 +1082,7 @@
       "ref": "U12",
       "value": "SN74LVC165APWR",
       "kind": "sideband",
-      "footprint": "ato_controller:TSSOP-16_4.4x5mm_P0.65mm",
+      "footprint": "scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm",
       "nets": {
         "1": "SIDEBAND_LOAD_N",
         "2": "CTRL_SCLK",
@@ -1211,7 +1211,7 @@
       "ref": "C12",
       "value": "100n X7R 10V",
       "kind": "C",
-      "footprint": "ato_controller:C_1206_3216Metric",
+      "footprint": "scci_rh_controller:C_1206_3216Metric",
       "nets": {
         "1": "HOST_3V3",
         "2": "GND"
@@ -1242,7 +1242,7 @@
       "ref": "U13",
       "value": "SN74LVC165APWR",
       "kind": "sideband",
-      "footprint": "ato_controller:TSSOP-16_4.4x5mm_P0.65mm",
+      "footprint": "scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm",
       "nets": {
         "1": "SIDEBAND_LOAD_N",
         "2": "CTRL_SCLK",
@@ -1371,7 +1371,7 @@
       "ref": "C13",
       "value": "100n X7R 10V",
       "kind": "C",
-      "footprint": "ato_controller:C_1206_3216Metric",
+      "footprint": "scci_rh_controller:C_1206_3216Metric",
       "nets": {
         "1": "HOST_3V3",
         "2": "GND"
@@ -1402,7 +1402,7 @@
       "ref": "J10",
       "value": "RAW MONITOR",
       "kind": "J",
-      "footprint": "ato_controller:PinHeader_1x06_P2.54mm_Vertical",
+      "footprint": "scci_rh_controller:PinHeader_1x06_P2.54mm_Vertical",
       "nets": {
         "1": "RAW_SCLK",
         "2": "RAW_SDI",
@@ -1461,7 +1461,7 @@
       "ref": "J11",
       "value": "ISOLATED RECORDING HOST",
       "kind": "J",
-      "footprint": "ato_controller:PinHeader_1x10_P2.54mm_Vertical",
+      "footprint": "scci_rh_controller:PinHeader_1x10_P2.54mm_Vertical",
       "nets": {
         "1": "HOST_3V3",
         "2": "GND",
@@ -1548,7 +1548,7 @@
       "ref": "J12",
       "value": "SHARED CHARGE ENDPOINT SPI",
       "kind": "J",
-      "footprint": "ato_controller:PinHeader_1x07_P2.54mm_Vertical",
+      "footprint": "scci_rh_controller:PinHeader_1x07_P2.54mm_Vertical",
       "nets": {
         "1": "MON_SCLK",
         "2": "MON_MISO",
@@ -1614,7 +1614,7 @@
       "ref": "J13",
       "value": "DOSE / MONITOR REARM",
       "kind": "J",
-      "footprint": "ato_controller:PinHeader_1x05_P2.54mm_Vertical",
+      "footprint": "scci_rh_controller:PinHeader_1x05_P2.54mm_Vertical",
       "nets": {
         "1": "INT_RUN0",
         "2": "INT_RUN1",
@@ -1666,7 +1666,7 @@
       "ref": "J14",
       "value": "DAC SERIAL",
       "kind": "J",
-      "footprint": "ato_controller:PinHeader_1x04_P2.54mm_Vertical",
+      "footprint": "scci_rh_controller:PinHeader_1x04_P2.54mm_Vertical",
       "nets": {
         "1": "CTRL_SCLK",
         "2": "DAC_SYNC_N",
@@ -1711,7 +1711,7 @@
       "ref": "J15",
       "value": "DRIVER REQUEST / POLARITY",
       "kind": "J",
-      "footprint": "ato_controller:PinHeader_1x09_P2.54mm_Vertical",
+      "footprint": "scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical",
       "nets": {
         "1": "REQ0",
         "2": "PLUS0",
@@ -1791,7 +1791,7 @@
       "ref": "J16",
       "value": "ROUTE CANDIDATE / COMMIT",
       "kind": "J",
-      "footprint": "ato_controller:PinHeader_1x09_P2.54mm_Vertical",
+      "footprint": "scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical",
       "nets": {
         "1": "CTRL_MOSI",
         "2": "CTRL_SCLK",
@@ -1871,7 +1871,7 @@
       "ref": "J17",
       "value": "ACTIVE ROUTE READBACK",
       "kind": "J",
-      "footprint": "ato_controller:PinHeader_1x09_P2.54mm_Vertical",
+      "footprint": "scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical",
       "nets": {
         "1": "CH0_ADDR0",
         "2": "CH0_ADDR1",
@@ -1951,7 +1951,7 @@
       "ref": "J18",
       "value": "SUPERVISION CONTROL",
       "kind": "J",
-      "footprint": "ato_controller:PinHeader_1x08_P2.54mm_Vertical",
+      "footprint": "scci_rh_controller:PinHeader_1x08_P2.54mm_Vertical",
       "nets": {
         "1": "SUP_REARM",
         "2": "FAULT_RESET",
@@ -2024,7 +2024,7 @@
       "ref": "J19",
       "value": "NATIVE HEALTH OBSERVATIONS",
       "kind": "J",
-      "footprint": "ato_controller:PinHeader_1x19_P2.54mm_Vertical",
+      "footprint": "scci_rh_controller:PinHeader_1x19_P2.54mm_Vertical",
       "nets": {
         "1": "RESET_READY",
         "2": "RAILS_QUALIFIED",
@@ -2174,7 +2174,7 @@
       "ref": "J20",
       "value": "ISOLATED COMPANION HOST UART",
       "kind": "J",
-      "footprint": "ato_controller:PinHeader_1x04_P2.54mm_Vertical",
+      "footprint": "scci_rh_controller:PinHeader_1x04_P2.54mm_Vertical",
       "nets": {
         "1": "HOST_UART_TX",
         "2": "HOST_UART_RX",
@@ -2219,7 +2219,7 @@
       "ref": "R100",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "ROUTE_PRELOAD",
         "2": "GND"
@@ -2250,7 +2250,7 @@
       "ref": "R101",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "ROUTE_COMMIT",
         "2": "GND"
@@ -2281,7 +2281,7 @@
       "ref": "R102",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "ROUTE_REARM",
         "2": "GND"
@@ -2312,7 +2312,7 @@
       "ref": "R103",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "ACTIVE_ACK",
         "2": "GND"
@@ -2343,7 +2343,7 @@
       "ref": "R104",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "WANT0",
         "2": "GND"
@@ -2374,7 +2374,7 @@
       "ref": "R105",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "WANT1",
         "2": "GND"
@@ -2405,7 +2405,7 @@
       "ref": "R106",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "RAW_SCLK",
         "2": "GND"
@@ -2436,7 +2436,7 @@
       "ref": "R107",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "RAW_SDI",
         "2": "GND"
@@ -2467,7 +2467,7 @@
       "ref": "R108",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "HOST_3V3",
         "2": "RAW_CS_N"
@@ -2498,7 +2498,7 @@
       "ref": "R109",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "RAW_RST_N",
         "2": "GND"
@@ -2529,7 +2529,7 @@
       "ref": "R110",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "AFE_SCLK",
         "2": "GND"
@@ -2560,7 +2560,7 @@
       "ref": "R111",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "AFE_MOSI",
         "2": "GND"
@@ -2591,7 +2591,7 @@
       "ref": "R112",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "AFE_CS_ASSERT",
         "2": "GND"
@@ -2622,7 +2622,7 @@
       "ref": "R113",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "AFE_CONNECT",
         "2": "GND"
@@ -2653,7 +2653,7 @@
       "ref": "R114",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "AFE_RECORD",
         "2": "GND"
@@ -2684,7 +2684,7 @@
       "ref": "R115",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "MON_SCLK",
         "2": "GND"
@@ -2715,7 +2715,7 @@
       "ref": "R116",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "BOTH_CNV",
         "2": "GND"
@@ -2746,7 +2746,7 @@
       "ref": "R117",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "HOST_3V3",
         "2": "CS0"
@@ -2777,7 +2777,7 @@
       "ref": "R118",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "HOST_3V3",
         "2": "CS1"
@@ -2808,7 +2808,7 @@
       "ref": "R119",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "HOST_3V3",
         "2": "INT_RUN0"
@@ -2839,7 +2839,7 @@
       "ref": "R120",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "HOST_3V3",
         "2": "INT_RUN1"
@@ -2870,7 +2870,7 @@
       "ref": "R121",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "MON_REARM0",
         "2": "GND"
@@ -2901,7 +2901,7 @@
       "ref": "R122",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "MON_REARM1",
         "2": "GND"
@@ -2932,7 +2932,7 @@
       "ref": "R123",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "CTRL_SCLK",
         "2": "GND"
@@ -2963,7 +2963,7 @@
       "ref": "R124",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "CTRL_MOSI",
         "2": "GND"
@@ -2994,7 +2994,7 @@
       "ref": "R125",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "HOST_3V3",
         "2": "DAC_SYNC_N"
@@ -3025,7 +3025,7 @@
       "ref": "R126",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "REQ0",
         "2": "GND"
@@ -3056,7 +3056,7 @@
       "ref": "R127",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "REQ1",
         "2": "GND"
@@ -3087,7 +3087,7 @@
       "ref": "R128",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "PLUS0",
         "2": "GND"
@@ -3118,7 +3118,7 @@
       "ref": "R129",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "MINUS0",
         "2": "GND"
@@ -3149,7 +3149,7 @@
       "ref": "R130",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "PLUS1",
         "2": "GND"
@@ -3180,7 +3180,7 @@
       "ref": "R131",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "MINUS1",
         "2": "GND"
@@ -3211,7 +3211,7 @@
       "ref": "R132",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "BOTH_DRV_REARM",
         "2": "GND"
@@ -3242,7 +3242,7 @@
       "ref": "R133",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "SUP_REARM",
         "2": "GND"
@@ -3273,7 +3273,7 @@
       "ref": "R134",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "FAULT_RESET",
         "2": "GND"
@@ -3304,7 +3304,7 @@
       "ref": "R135",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "WDI",
         "2": "GND"
@@ -3335,7 +3335,7 @@
       "ref": "R136",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "PHASE_REARM0",
         "2": "GND"
@@ -3366,7 +3366,7 @@
       "ref": "R137",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "PHASE_REARM1",
         "2": "GND"
@@ -3397,7 +3397,7 @@
       "ref": "R138",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "HOST_3V3",
         "2": "HOST_UART_TX"
@@ -3428,7 +3428,7 @@
       "ref": "R139",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_controller:R_0805_2012Metric",
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
       "nets": {
         "1": "HOST_3V3",
         "2": "SIDEBAND_LOAD_N"

@@ -1,10 +1,10 @@
 {
-  "schema": "ato.stage3.pressure-convergence-probe.v1",
+  "schema": "scci_rh.stage3.pressure-convergence-probe.v1",
   "status": "bounded_diagnostic_only",
   "scope": "Seed17, nominal/no-response feedback, chosen reference delivery surrogate; not integrated electrical verification or general convergence qualification.",
   "source_identity": {
-    "path": "src/ato/stage3/pressure.py",
-    "normalized_lf_sha256": "c4d4e980b7d3e45d778bb44beedfded34f9d53fdf3a81bcadd2eb342e681e0c0",
+    "path": "src/scci_rh/stage3/pressure.py",
+    "normalized_lf_sha256": "2081be25d42cd05e7c346d6555003b7c9399e8e7e391f4f159cf72c0bb655316",
     "source_model": "SBP = chosen baseline - prescribed disturbance + hidden two-state added pressure; synthetic1Hz cardiac waveform; independent200Hz sensor noise",
     "scenario_identity": "Same declared scenario parameters at all three grids; no-response changes gain to0 only, retaining the nominal baseline/disturbance/sensor parameters."
   },

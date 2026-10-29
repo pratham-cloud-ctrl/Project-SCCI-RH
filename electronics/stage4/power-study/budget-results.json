@@ -1,8 +1,8 @@
 {
-  "schema": "ato.stage4.power-budget.v1",
+  "schema": "scci_rh.stage4.power-budget.v1",
   "date": "2026-10-14",
   "scope": "digitalreference; DCandenergyequations with explicitconditionalcomponent/load/efficiency assumptions",
-  "producer_sha256_lf": "245c3e7f454689b4b09e3233723b865db9718f1701a9230a21d56f9bc1cab020",
+  "producer_sha256_lf": "d2a897719c16322a5623b866ae4c23f5caeed56729ccadad96fecafe31ba64a6",
   "sources": {
     "tlv3202": "https://www.ti.com/lit/ds/symlink/tlv3202.pdf",
     "iso674x": "https://www.ti.com/lit/ds/symlink/iso6741.pdf",
@@ -106,12 +106,12 @@
     },
     "power_control_active_packages": 13,
     "source_sha256_lf": {
-      "electronics/stage4/monitoring-cell/connectivity.json": "b79aab80ed2c366c1ad22b98d2fb911a195f20b02d08a40babfee1c13a284015",
-      "electronics/stage4/current-driver/connectivity.json": "6de38e485762d6e5f4b2b72360e1ecb415eb0f5dff40a5a4770188ee141baa6f",
-      "electronics/stage4/recording-front-end/connectivity.json": "633c3386bf602e2544722abae2742a722775969cc53a3b2f1a26524325ccbf05",
-      "electronics/stage4/contact-router/connectivity.json": "cd14e9e2c6e9e61cd615a5aa75c5a41e7fbfb899895ad4ebd1c09d4e1973f41c",
-      "electronics/stage4/supervision/connectivity.json": "e8cdd380cb2448dac547cc290cd29ee0f4faf68b3ff4796a48bbf257565fb4db",
-      "electronics/stage4/power/connectivity.json": "787f5b5d14508b8e90058d14c593b8b4b5b96ccf2252766e721ab9e0e58703a8"
+      "electronics/stage4/monitoring-cell/connectivity.json": "32f88af05d2b2e892d0059ac95984d54c513cd3e5575a2edc52f4c0ed68df1c6",
+      "electronics/stage4/current-driver/connectivity.json": "fffcc6b5e23ef1b9e67f1e029924bc6d509be060ebbe5c31f13893474895c8e3",
+      "electronics/stage4/recording-front-end/connectivity.json": "adb009feeb48c04145c5be61b97747da1b26cd38dbf38916442b4fcf7b329fd2",
+      "electronics/stage4/contact-router/connectivity.json": "d6c60149961011eae9256fa37a39b93ec3384bdef3fb6785fec433b7c623a9ab",
+      "electronics/stage4/supervision/connectivity.json": "e7347b34cbb0a75baddb4fa7db3138cedb965090711112768681c1182c242e90",
+      "electronics/stage4/power/connectivity.json": "8e09d19bcab498a826910319cb90a40363cef62c0710dc8db0945fc68938096f"
     },
     "active_load_rows": [
       {
@@ -4566,7 +4566,7 @@
   ],
   "required_lumped_Rth_for2Krise_K_per_W": 0.7649956937650428,
   "resources": {
-    "stage2_source_sha256_lf": "fd5388e07d1cd81de4e78bff59c0816faeb441224c02d0f4202fef3bba638f84",
+    "stage2_source_sha256_lf": "07fff5d298c6b4b5275f4f8ba5be68315e037a0b8f96521614c729df947bf714",
     "streams": 16,
     "neural_frames_per_s": 4000,
     "neural_SPI_Hz": 4000000,
@@ -4633,7 +4633,7 @@
     "unearned": "CSgaps/arbitration/CPUWCET/linkpacketoverhead/actualfirmwareRAMandenergy remain laterpackage obligations"
   },
   "startup": {
-    "source_sha256_lf": "c916d4181e0b2f30408d12d56738efebbb5516de01c5626fb1608902e5ff6bcc",
+    "source_sha256_lf": "c7d4509d95505d3bde22b48233cea695012f0376c4e7dd27e092fc4fa4cc199e",
     "rail_qualification": [
       {
         "rail": "SUP_3V3",
@@ -4870,7 +4870,7 @@
         "nominal_OV_recovery_guaranteed": true
       }
     ],
-    "power_native_source_sha256_lf": "787f5b5d14508b8e90058d14c593b8b4b5b96ccf2252766e721ab9e0e58703a8",
+    "power_native_source_sha256_lf": "8e09d19bcab498a826910319cb90a40363cef62c0710dc8db0945fc68938096f",
     "native_power_components": 156,
     "native_power_IC_values": {
       "LT8330ES6#TRPBF": 2,

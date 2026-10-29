@@ -13,7 +13,7 @@
     "pressure": 5704,
     "motor": 10
   },
-  "source": "ctypes calls into the compiled ato_pulse.c shared library",
+  "source": "ctypes calls into the compiled scci_rh_pulse.c shared library",
   "pressure_mapping": "requested frequency = 50 * normalized command Hz with piecewise-held application commands and integer-us scheduling",
   "motor_mapping": "one pulse request per increasing surrogate phase crossing after warm-up; signed correction is logged only",
   "scope": "ideal digital protocol; no fitted stimulation-to-physiology or stimulation-to-learning conversion",

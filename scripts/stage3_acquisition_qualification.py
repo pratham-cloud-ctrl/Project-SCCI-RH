@@ -10,7 +10,7 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'src'))
-from ato.stage3.acquisition import AcquisitionConfig, ContactAcquisition
+from scci_rh.stage3.acquisition import AcquisitionConfig, ContactAcquisition
 
 
 class ObservedNoise:
@@ -90,12 +90,12 @@ def generate():
     resolved = capture('clean', 'bounded_residual', aperture_resolved=True, seconds=1.)
     assert held['noise'] == resolved['noise']
     difference = np.array([r['features_uv'] for r in held['rows']])-np.array([r['features_uv'] for r in resolved['rows']])
-    return {'schema': 'ato.stage3.acquisition-qualification.v1',
+    return {'schema': 'scci_rh.stage3.acquisition-qualification.v1',
             'scope': 'bounded digital missing-input contamination and independent analytic synthetic aperture-source diagnostic; not physical AFE recovery or full body-source convergence',
             'reference_definition': 'same initialized filter driven by unknown range-clipped artifact-free digital samples at masked apertures; input magnitudes <=5mV',
             'numerical_scope': 'engineering floating-point enclosure tested against independent SOS output, not formal interval proof',
             'sources': {name: hashlib.sha256((ROOT/name).read_text(encoding='utf-8').replace('\r\n', '\n').encode()).hexdigest()
-                        for name in ('src/ato/stage3/acquisition.py', 'src/ato/stage3/filter_residual.py')},
+                        for name in ('src/scci_rh/stage3/acquisition.py', 'src/scci_rh/stage3/filter_residual.py')},
             'runs': runs, 'comparisons': comparisons,
             'source_approximation': {'definition': '1Hz analytic private source evaluated at identical 4kHz per-contact skewed apertures versus block-start hold',
                                      'identical_noise': True, 'packet_count_each': len(held['rows']),
@@ -136,7 +136,7 @@ def main():
             contents = buffer.getvalue()
         args.output.write_bytes(contents)
         summary = {k: result[k] for k in ('schema', 'scope', 'reference_definition', 'numerical_scope', 'sources', 'comparisons')}
-        summary['schema'] = 'ato.stage3.acquisition-qualification-summary.v1'
+        summary['schema'] = 'scci_rh.stage3.acquisition-qualification-summary.v1'
         summary['runs'] = [{k: v for k, v in run.items() if k != 'rows'} for run in result['runs']]
         summary['source_approximation'] = {k: v for k, v in result['source_approximation'].items() if k not in ('held', 'aperture_resolved')}
         summary['raw_witness'] = {'file': args.output.name, 'sha256': hashlib.sha256(contents).hexdigest()}

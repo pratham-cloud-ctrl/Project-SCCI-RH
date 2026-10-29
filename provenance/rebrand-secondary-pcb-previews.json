@@ -1,0 +1,47 @@
+{
+  "files": [
+    {
+      "path": "electronics/exports/scci_rh_reference_board.svg",
+      "source": "electronics/scci_rh_reference.kicad_pcb",
+      "before_sha256": "0a9c0efd6604d290f07ff4836c43852a9960a31c067c847dee002ab76df22644",
+      "after_sha256": "96a3073687e4a74155c3dcc028ce0e166de7062e30df53f74088ef9ba53a95d4",
+      "source_sha256": "a90533033fa18ed88a02dbfda9880f17eb6b6946363879090677f3292464fb81",
+      "arguments": [
+        "pcb",
+        "export",
+        "svg",
+        "--layers",
+        "F.Cu,B.Cu,F.SilkS,Edge.Cuts",
+        "--page-size-mode",
+        "2",
+        "--exclude-drawing-sheet",
+        "--mode-single",
+        "--output",
+        "electronics/exports/scci_rh_reference_board.svg",
+        "electronics/scci_rh_reference.kicad_pcb"
+      ]
+    },
+    {
+      "path": "electronics/stage4/integrated-pcb/boards/monitoring-cell/preview.svg",
+      "source": "electronics/stage4/integrated-pcb/boards/monitoring-cell/monitoring_cell.kicad_pcb",
+      "before_sha256": "d691e7b2835b21fdc25e272c198c4521bf4b698f46d22d2211d6d2fdb002422f",
+      "after_sha256": "6be286a6a8e34e9593fa86309406d8b39ffc83db569f02fed1b57eb04fc01501",
+      "source_sha256": "ca25226e48d4c896df76f7db9dcff2ba95e9f2687a6bbecaa85266162637b60d",
+      "arguments": [
+        "pcb",
+        "export",
+        "svg",
+        "--layers",
+        "F.Cu,B.Cu,F.SilkS,Edge.Cuts",
+        "--page-size-mode",
+        "2",
+        "--exclude-drawing-sheet",
+        "--mode-single",
+        "--output",
+        "electronics/stage4/integrated-pcb/boards/monitoring-cell/preview.svg",
+        "electronics/stage4/integrated-pcb/boards/monitoring-cell/monitoring_cell.kicad_pcb"
+      ]
+    }
+  ],
+  "renderer": "KiCad CLI saved native PCB"
+}

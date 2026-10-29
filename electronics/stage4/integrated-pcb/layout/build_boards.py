@@ -43,7 +43,7 @@ def source_metadata(system):
 
 def fp_path(comp):
     lib,name=comp['footprint'].split(':',1)
-    candidates=[ROOT/'electronics/stage4'/comp['source_package']/(lib+'.pretty')/(name+'.kicad_mod'),PKG/'controller-carrier'/(lib+'.pretty')/(name+'.kicad_mod'),PKG/'integration/ato_integrated.pretty'/(name+'.kicad_mod')]
+    candidates=[ROOT/'electronics/stage4'/comp['source_package']/(lib+'.pretty')/(name+'.kicad_mod'),PKG/'controller-carrier'/(lib+'.pretty')/(name+'.kicad_mod'),PKG/'integration/scci_rh_integrated.pretty'/(name+'.kicad_mod')]
     for path in candidates:
         if path.exists(): return path
     if (LIB/'footprints'/(lib+'.pretty')/(name+'.kicad_mod')).exists(): return LIB/'footprints'/(lib+'.pretty')/(name+'.kicad_mod')
@@ -210,7 +210,7 @@ def build(name,system,replace_generated=False):
     rect(board,0,0,width,height,pcb.Edge_Cuts,.05)
     for index,(x,y) in enumerate(((4,4),(width-4,4),(4,height-4),(width-4,height-4))):
         fp=pcb.FootprintLoad(str(LIB/'footprints/MountingHole.pretty'),'MountingHole_3.2mm_M3');fp.SetReference('H'+str(index+1));fp.SetPosition(v(x,y));fp.Reference().SetVisible(False);fp.Value().SetVisible(False);fp.SetUuid(pcb.KIID(str(uuid.uuid5(NS,name+'/mount/'+str(index)))));board.Add(fp)
-    text(board,'ATO / '+name.upper().replace('-',' '),9,5,1.2)
+    text(board,'SCCI_RH / '+name.upper().replace('-',' '),9,5,1.2)
     text(board,'DIGITAL REFERENCE  |  ARTIFICIAL LOADS ONLY  |  REV A',9,height-5,.8)
     board.SetFileName(str(path));pcb.SaveBoard(str(path),board)
     pro=path.with_suffix('.kicad_pro');pro.write_text(json.dumps(project(path.stem),indent=2)+'\n')
@@ -223,7 +223,7 @@ def build(name,system,replace_generated=False):
     board=pcb.LoadBoard(str(path));dsn=path.with_suffix('.dsn')
     result=pcb.ExportSpecctraDSN(board,str(dsn))
     if not result:raise RuntimeError('DSN export failed '+name)
-    info={'schema':'ato.layout.v1','board':name,'pcb':path.relative_to(ROOT).as_posix(),'system_sha256_lf':digest(PKG/'integration/system.json'),'source_components':len(components),'mounting_holes':4,'copper_layers':4,'outline_mm':[width,height],'nets':len(nets),'pads':sum(len(list(fp.Pads())) for fp in board.GetFootprints()),'tracks':len(list(board.GetTracks())),'functional_groups':{s:len(groups[s]) for s in groups},'missing_models':missingmodels,'dsn_export':result,'placements':{r:{'x_mm':pcb.ToMM(fp.GetPosition().x),'y_mm':pcb.ToMM(fp.GetPosition().y),'angle_deg':fp.GetOrientationDegrees()} for r,fp in objects.items()}}
+    info={'schema':'scci_rh.layout.v1','board':name,'pcb':path.relative_to(ROOT).as_posix(),'system_sha256_lf':digest(PKG/'integration/system.json'),'source_components':len(components),'mounting_holes':4,'copper_layers':4,'outline_mm':[width,height],'nets':len(nets),'pads':sum(len(list(fp.Pads())) for fp in board.GetFootprints()),'tracks':len(list(board.GetTracks())),'functional_groups':{s:len(groups[s]) for s in groups},'missing_models':missingmodels,'dsn_export':result,'placements':{r:{'x_mm':pcb.ToMM(fp.GetPosition().x),'y_mm':pcb.ToMM(fp.GetPosition().y),'angle_deg':fp.GetOrientationDegrees()} for r,fp in objects.items()}}
     (boarddir/'placement.json').write_text(json.dumps(info,indent=2)+'\n')
     print(json.dumps({k:info[k] for k in ['board','source_components','outline_mm','nets','pads','copper_layers','dsn_export']}),flush=True)
     return info

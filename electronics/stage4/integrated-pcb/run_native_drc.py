@@ -21,7 +21,7 @@ def main():
     parser.add_argument('--write',action='store_true',help='refresh bound saved reports; otherwise fresh checks live only in a temporary directory')
     parser.add_argument('--kicad-cli',default=shutil.which('kicad-cli') or r'E:\project workspace assests\EDA\KiCAD\bin\kicad-cli.exe')
     args=parser.parse_args();system=json.loads((HERE/'integration/system.json').read_text())
-    with tempfile.TemporaryDirectory(prefix='ato-native-drc-') as temporary:
+    with tempfile.TemporaryDirectory(prefix='scci_rh-native-drc-') as temporary:
         config=Path(temporary)/'config';config.mkdir()
         (config/'fp-lib-table').write_text('(fp_lib_table (version 7))\n')
         env=os.environ.copy();env['KICAD_CONFIG_HOME']=str(config)

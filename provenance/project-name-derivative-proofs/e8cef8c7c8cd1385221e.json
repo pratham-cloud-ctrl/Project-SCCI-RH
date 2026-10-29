@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "scripts/verify_stage5_mechanics.py",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "dc6b37d48063570023b5a0cb61264cb22146fead2ebd1de80fffdddfad6c51da",
+  "current_sha256": "bf95a3821c5a8870abc083fa5b1888ecb84c82c97a4cc55c0c0aeaa943e1ea1b",
+  "method": "reviewed_branding_verifier_adaptation",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "Original historical scope, topology/geometry/electrical checks retained; explicit branding adapter and unique exact-digest archive source resolution added.",
+  "independent_evidence": []
+}

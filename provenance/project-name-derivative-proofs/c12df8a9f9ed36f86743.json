@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "cad/stage5/renders/reference_exploded.png",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "93b60c6dcb89f456bd139c5013f0c2033d82deb3bf538114e5419d6283965cc6",
+  "current_sha256": "48dca660333a71649f4e546656311757c88a0c5be6cf9d355641427bceb1c038",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-raster-metadata.json",
+      "sha256_lf": "080581affa607d0673615780371f14215ee4f2cbe31ad5ad8ee9447228fdd9fa"
+    }
+  ]
+}

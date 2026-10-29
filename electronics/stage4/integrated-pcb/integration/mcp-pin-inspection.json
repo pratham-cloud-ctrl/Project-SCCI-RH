@@ -1,10 +1,10 @@
 {
-  "schema": "ato.integrated-mcp-pin-inspection.v1",
+  "schema": "scci_rh.integrated-mcp-pin-inspection.v1",
   "source": "Actual saved native schematics after final visual margin polish; independently exported master netlist checked separately.",
   "observations": [
     {
       "key": "phase0",
-      "schematic": "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\integration\\master\\controller-carrier\\processor.kicad_sch",
+      "schematic": "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\integration\\master\\controller-carrier\\processor.kicad_sch",
       "reference": "U80001",
       "pin_number": "Z1",
       "result": {
@@ -19,7 +19,7 @@
     },
     {
       "key": "phase1",
-      "schematic": "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\integration\\master\\controller-carrier\\processor.kicad_sch",
+      "schematic": "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\integration\\master\\controller-carrier\\processor.kicad_sch",
       "reference": "U80001",
       "pin_number": "Z2",
       "result": {
@@ -34,7 +34,7 @@
     },
     {
       "key": "driver_rearm",
-      "schematic": "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\integration\\master\\current-driver\\current_driver.kicad_sch",
+      "schematic": "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\integration\\master\\current-driver\\current_driver.kicad_sch",
       "reference": "J20003",
       "pin_number": "4",
       "result": {
@@ -49,7 +49,7 @@
     },
     {
       "key": "reference_tap",
-      "schematic": "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\integration\\master\\monitoring-cell\\integration_taps.kicad_sch",
+      "schematic": "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\integration\\master\\monitoring-cell\\integration_taps.kicad_sch",
       "reference": "J19901",
       "pin_number": "1",
       "result": {

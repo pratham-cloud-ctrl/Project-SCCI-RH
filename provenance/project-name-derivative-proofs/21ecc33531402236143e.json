@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "results/stage3/numerical/acquisition-qualification-summary.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "bed56c872e18d86cc4f5af25a62c4de1d0cf0d04492ae4a82a33d7da9d866c6a",
+  "current_sha256": "7f4e303873d1c9e17f5adee4cc6b9f63b1b17e8f278a0d7bf81ef73cf126a516",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

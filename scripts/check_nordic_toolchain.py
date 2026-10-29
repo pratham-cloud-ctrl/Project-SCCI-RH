@@ -1,6 +1,6 @@
 """Compile an unmodified Nordic/Zephyr example for the proposed application core.
 
-This is a local Windows installation smoke check, not ATO target firmware,
+This is a local Windows installation smoke check, not SCCI_RH target firmware,
 flashing, execution timing, peripheral integration or memory-budget closure.
 Use the documented short physical SDK copy and project junction.
 """
@@ -25,9 +25,9 @@ def sha(path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--tools", type=Path, default=Path("E:/ATO-Tools"))
-    parser.add_argument("--project-alias", type=Path, default=Path("E:/ATO"))
-    parser.add_argument("--sdk-install-root", type=Path, default=Path("E:/ATO-Nordic/ncs"))
+    parser.add_argument("--tools", type=Path, default=Path("E:/SCCI_RH-Tools"))
+    parser.add_argument("--project-alias", type=Path, default=Path("E:/SCCI_RH"))
+    parser.add_argument("--sdk-install-root", type=Path, default=Path("E:/SCCI_RH-Nordic/ncs"))
     args = parser.parse_args()
     tools = args.tools.absolute()  # Original installer and manager metadata.
     project = args.project_alias.absolute()
@@ -93,7 +93,7 @@ def main():
     section_sizes = execute("elf-size", [str(compiler_bin / "arm-zephyr-eabi-size.exe"), str(elf)])
     example_text = (example / "src/main.c").read_text(encoding="utf-8").replace("\r\n", "\n")
     receipt = {
-        "schema": "ato.stage4.nordic-toolchain-smoke.v1", "date": "2026-10-12",
+        "schema": "scci_rh.stage4.nordic-toolchain-smoke.v1", "date": "2026-10-12",
         "status": "unmodified_example_cross_compilation_passed",
         "scope": "Installed tools and linked Nordic/Zephyr hello_world application-core example only",
         "sdk_version": VERSION, "board": BOARD, "versions": versions,
@@ -107,16 +107,16 @@ def main():
         "original_asset_installation_preserved": True,
         "child_environment_path_rebase": {"from": physical, "to": str(sdk_root)},
         "project_alias": str(project),
-        "ato_firmware_integrated": False, "flashed_or_executed": False,
-        "target_timing_verified": False, "ato_memory_budget_closed": False,
-        "limitations": ["No output driver, ADC/DMA/timer backend, network image or ATO controller compiled here",
+        "scci_rh_firmware_integrated": False, "flashed_or_executed": False,
+        "target_timing_verified": False, "scci_rh_memory_budget_closed": False,
+        "limitations": ["No output driver, ADC/DMA/timer backend, network image or SCCI_RH controller compiled here",
                         "Example section sizes are not full-system linked RAM/flash evidence",
                         "Compilation does not measure hardware behavior, deadlines or current consumption"],
     }
     target = ROOT / "provenance/stage4-nordic-toolchain-smoke.json"
     target.write_text(json.dumps(receipt, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"status": receipt["status"], "board": BOARD,
-                      "sdk_version": VERSION, "ato_firmware_integrated": False}, indent=2))
+                      "sdk_version": VERSION, "scci_rh_firmware_integrated": False}, indent=2))
 
 
 if __name__ == "__main__":

@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/firmware-profile/verify_bt40f.py",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "154024c2c57a3b93ddb616e37d7f3d62ab13b0b1d49b92a31f4fab7433b3da0b",
+  "current_sha256": "9f761c415da4089e775b86858eac2be3b4d12f60afa9bb09afb2a82fef359689",
+  "method": "reviewed_branding_verifier_adaptation",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "Actual recompiled ELF flash extent reviewed at54072; ELF/HEX/BIN parity, configurations and hardware limits retained; audit date updated.",
+  "independent_evidence": []
+}

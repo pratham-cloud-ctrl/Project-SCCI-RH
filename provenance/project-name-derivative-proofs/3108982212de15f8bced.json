@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/firmware-profile/build-receipt.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "a399e4cd6976671670739db8269cdee51542f26b2cfed4a2109303423ca576f2",
+  "current_sha256": "a861101217b87e2635059fd70cfbe36d08dace06f25d29b7ddf2569b58bd525a",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-target-checks-final.json",
+      "sha256_lf": "dfd58f29b22e68a430cd6c5ffd8cbd5f26bc23273556b09ba7077fa527437a61"
+    }
+  ]
+}

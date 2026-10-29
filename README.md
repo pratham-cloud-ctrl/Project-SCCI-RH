@@ -1,4 +1,4 @@
-# Project ATO
+# Project SCCI RH
 
 ### A spinal interface concept, from scientific question to inspectable engineering
 
@@ -9,15 +9,15 @@ select an individualized intervention, and observe the response.
 **Two ambitions:** expert-informed practice that could improve retained motor
 learning, and feedback over a selected physiological function.
 
-**[Inspect the build in your browser](https://pratham-cloud-ctrl.github.io/Project-ATO/)** ·
+**[Inspect the build in your browser](https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/)** ·
 [Explore the project](docs/explore/README.md) ·
-[Read the paper](output/pdf/Project_ATO_Integrated_Manuscript.pdf) ·
-[Download the engineering release](https://github.com/pratham-cloud-ctrl/Project-ATO/releases/tag/v2.0.1)
+[Read the paper](output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf) ·
+[Download the engineering release](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/tag/v2.1.0)
 
 **No CAD software needed to inspect:** the browser inspector provides selectable
 3D assemblies, all eight populated boards, interactive component/net lookup,
 all four copper layers and 80 searchable schematic sheets. The
-[download panel](https://pratham-cloud-ctrl.github.io/Project-ATO/?view=downloads)
+[download panel](https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/?view=downloads)
 also supplies standard **STEP solids**, complete **FreeCAD** files and complete
 **KiCad** projects for local inspection and editing.
 
@@ -59,8 +59,8 @@ not a universal body-control mechanism.
 
 | Research | Electrical & software | Mechanical |
 |---|---|---|
-| [28-page illustrated paper](output/pdf/Project_ATO_Integrated_Manuscript.pdf) | [Eight routed, populated KiCad boards](docs/explore/electronics.md) | [Editable reference and future-interface CAD](docs/explore/cad.md) |
-| [18 primary/inspiration references](docs/stage6/evidence-review.md) | [Target-linked nRF5340 firmware](firmware/nrf5340/uart-revision/README.md) | [Six mechanical review sheets](cad/stage5/drawings/ATO_Stage5_Mechanical_Review.pdf) |
+| [28-page illustrated paper](output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf) | [Eight routed, populated KiCad boards](docs/explore/electronics.md) | [Editable reference and future-interface CAD](docs/explore/cad.md) |
+| [18 primary/inspiration references](docs/stage6/evidence-review.md) | [Target-linked nRF5340 firmware](firmware/nrf5340/uart-revision/README.md) | [Six mechanical review sheets](cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf) |
 | [Conditional studies and retained negative findings](docs/explore/theory.md) | [Executed production-core digital replay](docs/stage6/integration-verification.md) | [Mapped interfaces, parts and exchange files](docs/explore/cad.md) |
 
 The integrated replay passes **114,426 finite software assertions** and includes
@@ -82,13 +82,13 @@ the future can.
 - **Check the engineering:** use [verification and reproduction](docs/explore/reviewer-guide.md#reproduce-the-current-engineering).
 - **Understand authorship:** read the [contributions](docs/stage6/contributions.md), [defence guide](docs/stage6/defence-guide.md) and [LICENSE](LICENSE).
 
-Pratham Varma conceived and steered Project ATO. AstroSam’s
+Pratham Varma conceived and steered Project SCCI RH. AstroSam’s
 [Mind-Link](https://github.com/sam-astro/Mind-link) inspired the progression from
-future vision to inspectable engineering; ATO develops its own spinal architecture
+future vision to inspectable engineering; SCCI_RH develops its own spinal architecture
 and artifacts. Substantial AI assistance is documented in the contribution record.
 
-**Engineering release:** [v2.0.1](https://github.com/pratham-cloud-ctrl/Project-ATO/releases/tag/v2.0.1).
+**Engineering release:** [v2.1.0](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/tag/v2.1.0).
 **Browser inspection and guide refresh:** 21 October 2026. The paper and verified engineering
-files retain their release identities. Historical stage records remain available;
+geometry and circuit behavior are preserved through the recorded name migration. Historical stage records remain available;
 use the guides above for the current reading order. The technical inspector
 supports engineering review; presentation website and video work remain parked.

@@ -1,6 +1,6 @@
 # Integrated populated PCB layout review
 
-Project ATO now has an inspectable modular **digital electrical reference**: eight actual populated KiCad boards representing the monitoring, stimulation, recording, routing, independent supervision, power, transport, and nRF5340 carrier circuits. They use the audited physical pin graph and genuine component land patterns. The reference is deliberately large enough to expose each functional circuit; these boards are not a compact implant layout.
+Project SCCI RH now has an inspectable modular **digital electrical reference**: eight actual populated KiCad boards representing the monitoring, stimulation, recording, routing, independent supervision, power, transport, and nRF5340 carrier circuits. They use the audited physical pin graph and genuine component land patterns. The reference is deliberately large enough to expose each functional circuit; these boards are not a compact implant layout.
 
 ## Board organization
 

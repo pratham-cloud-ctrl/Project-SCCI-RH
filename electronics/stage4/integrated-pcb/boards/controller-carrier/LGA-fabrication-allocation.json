@@ -1,5 +1,5 @@
 {
-  "schema": "ato.carrier-lga-fabrication.v1",
+  "schema": "scci_rh.carrier-lga-fabrication.v1",
   "geometry_check": "Via drill circle intersects axis-aligned actual BT40F copper-pad rectangle; no fabricated-board evidence",
   "minimum_via_diameter_mm": 0.5,
   "minimum_drill_mm": 0.2,

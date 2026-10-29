@@ -1,12 +1,12 @@
 {
-  "schema": "ato.stage4.transport-input.v1",
+  "schema": "scci_rh.stage4.transport-input.v1",
   "date": "2026-10-14",
   "scope": "finite illustrative artificial-input model and conditional incremental power; not clinical or physical qualification",
   "source_sha256_lf": {
-    "electronics/stage4/monitoring-transport/connectivity.json": "308e0e6e18e76570ba7703a7488132f0a4078365016163e007fa2b8f216cbea0",
-    "electronics/stage4/power-study/budget-results.json": "e104c792165eb3be423040a150ec40be7ada5268c43dff2df00a6bbe383e1f5c",
-    "electronics/stage4/transport-study/transport-results.json": "e857ce86e2bd43dac020e291ca54c778c5e634aaf15ae7b0ad1509c09cdf2035",
-    "electronics/stage4/transport-study/input_study.py": "25e06a2c483af84b456b029d90efba507c3fc201c4f59b4340eeb08e78c42454"
+    "electronics/stage4/monitoring-transport/connectivity.json": "7d57cb9fa135ef0e2d9a5ad253ea12d82c3ab74b408ffa8ecffd0d50dd6aaae9",
+    "electronics/stage4/power-study/budget-results.json": "441aa17d5a050180eefce0e1353abf4845451b0d9499964cb4c0d5800cb2f87b",
+    "electronics/stage4/transport-study/transport-results.json": "c6e0d2bef0e0c101d2b1ca06634a89a87e05f92dc7a7ccbbd16b8438216969e7",
+    "electronics/stage4/transport-study/input_study.py": "d26a63880980da412a4af7f86758f31dbb89ef7af8cfa98ae7c9602e4322660b"
   },
   "source_documents": [
     "https://www.ti.com/lit/ds/symlink/ads8688.pdf",

@@ -13,7 +13,7 @@ CLI=Path(r'E:\project workspace assests\EDA\KiCAD\bin\kicad-cli.exe')
 if __name__=='__main__':
     grid.NX=1551;grid.NY=1501;grid.GRID=.1;grid.VIA=.5
     report=PATH.parent/'drc.json';log=[]
-    env=dict(os.environ,KICAD_CONFIG_HOME=r'E:\Project ATO\tmp\pcb-cli-config')
+    env=dict(os.environ,KICAD_CONFIG_HOME=r'E:\Project SCCI RH\tmp\pcb-cli-config')
     for iteration in range(8):
         d=json.loads(report.read_text());missing=d['unconnected_items']
         if not missing:break
@@ -34,4 +34,4 @@ if __name__=='__main__':
         log.append({'iteration':iteration,'net':a.GetNetname(),'start':start,'end':end,'expanded':expanded,'tracks':tracks,'vias':vias})
         print(json.dumps(log[-1]),flush=True)
         subprocess.run([str(CLI),'pcb','drc','--format','json','--schematic-parity','--output',str(report),str(PATH)],env=env,check=True)
-    (PATH.parent/'grid-escape-repair.json').write_text(json.dumps({'schema':'ato.carrier-grid-escape.v1','scope':'Actual 0.15 mm traces / 0.6 mm diameter / 0.3 mm drill vias; digital native DRC required. Via filling/capping under LGA pads remains fabrication dependent.','steps':log},indent=2)+'\n')
+    (PATH.parent/'grid-escape-repair.json').write_text(json.dumps({'schema':'scci_rh.carrier-grid-escape.v1','scope':'Actual 0.15 mm traces / 0.6 mm diameter / 0.3 mm drill vias; digital native DRC required. Via filling/capping under LGA pads remains fabrication dependent.','steps':log},indent=2)+'\n')

@@ -39,7 +39,7 @@ bands extending to 3 kHz, bidirectional filters and overlapping 500 ms motor
 feature windows. Its representative 300–2000 Hz traces had RMS amplitudes of
 20.9–22.1 µV at rest and 44.2–52.1 µV during walking. Those rat measurements do
 not establish human 1–300 Hz amplitudes or a causal fast decoder for foot
-placement. ATO's reduced band and compact causal decoder are new hypotheses.
+placement. SCCI_RH's reduced band and compact causal decoder are new hypotheses.
 [El Hadwe et al., methods and Fig. 2](https://www.nature.com/articles/s41467-026-75128-z)
 
 | Acquisition witness | Useful property | Cost or limitation for this reference |
@@ -115,7 +115,7 @@ The external protection/bias power and parasitic allowance below is provisional.
 
 Use a declared quiet-state signal family of **10–500 µV RMS** for the digital
 forward model; a 5:1 crest factor at its upper end gives 2.5 mV peak. These are
-ATO test assumptions, not a measured human signal range. At 4 mV peak issue a
+SCCI_RH test assumptions, not a measured human signal range. At 4 mV peak issue a
 range warning/invalidate the channel; at or beyond 5 mV the model cannot claim
 linear acquisition. The nominal quantization contribution is
 `0.195 / sqrt(12) = 0.0563 µV RMS`. Sixteen output bits do not mean sixteen

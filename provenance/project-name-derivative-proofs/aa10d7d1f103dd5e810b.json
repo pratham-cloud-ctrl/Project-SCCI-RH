@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "cad/stage5/future-interface/geometry-receipt.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "0db59500d83a032f803604f4084ca611618710ecd3f3e5a30c04017de01a75b2",
+  "current_sha256": "4cf676fb602da11344adc54b0d5a3556218ce2e5765908c56f950978d90abf8b",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

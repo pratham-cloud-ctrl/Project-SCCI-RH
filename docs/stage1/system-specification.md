@@ -1,4 +1,4 @@
-# Project ATO: full-system mechanism specification
+# Project SCCI RH: full-system mechanism specification
 
 Stage 1 / revision 1 / 8 October 2026 / design proposal.
 
@@ -10,14 +10,14 @@ demonstration of accelerated human learning.
 
 ## Purpose and scope
 
-ATO proposes an invasive SCCI with target-specific spinal interfaces, an implanted
+SCCI_RH proposes an invasive SCCI with target-specific spinal interfaces, an implanted
 acquisition and stimulation core, a companion controller and an offline research
 environment. It has two application families: expert-informed motor practice and
 selected physiological automation. Its eventual digital embodiment includes
 native KiCad electronics, embedded logic, engineering CAD, computational
 experiments and a supported manuscript in the private repository. AstroSam's
 [Mind-Link](https://github.com/sam-astro/Mind-link) inspires that progression from
-future idea to inspectable design; it is not biological evidence for ATO.
+future idea to inspectable design; it is not biological evidence for SCCI_RH.
 
 The original paper's hypothesis is preserved: useful expert spinal information
 could inform interventions that help a different learner during active practice.
@@ -46,22 +46,22 @@ for this full-system design.
 
 ## System identity and responsibilities
 
-The working names **ATO Core**, **ATO Hub** and **ATO Studio** identify system
+The working names **SCCI_RH Core**, **SCCI_RH Hub** and **SCCI_RH Studio** identify system
 responsibilities; they are provisional design labels.
 
 ![Full proposed architecture](figures/full-system.svg)
 
-- **ATO Core:** implanted contact interfaces; differential acquisition/protection;
+- **SCCI_RH Core:** implanted contact interfaces; differential acquisition/protection;
   conversion and timestamps; buffering and local estimation where feasible;
   the default causal application policy; bounded scheduling, output routing and monitored electrical stimulation;
   independent supervision; power regulation/storage and communication. It owns
   final command admission, timing and fault enforcement.
-- **ATO Hub:** companion sensing and task context; personalized application
+- **SCCI_RH Hub:** companion sensing and task context; personalized application
   services and any heavier policy computation only where budgets justify them;
   session supervision; operator state and data exchange. External
   sensing can include motion, EMG, force or a physiological variable. A wireless
   link cannot be assumed to supply instantaneous timing or uninterrupted service.
-- **ATO Studio:** offline expert dataset processing, representation learning,
+- **SCCI_RH Studio:** offline expert dataset processing, representation learning,
   learner calibration analysis, model studies, versioned policies and audit.
   Heavy training computation must not silently become a prerequisite for a
   timing-critical pulse.
@@ -127,7 +127,7 @@ an explicitly labelled oracle. Assess assistance-on behavior, assistance-off
 retention and transfer to a related task separately.
 
 For a predeclared unassisted criterion, define `T` as practice exposure to reach
-and retain it. A conditional acquisition ratio is `T_comparator / T_ATO`; censored
+and retain it. A conditional acquisition ratio is `T_comparator / T_SCCI_RH`; censored
 trials and calibration exposure must be reported. Targets such as 1.5x or 2x remain
 hypothetical ambitions. Piano coordination and football footwork remain motivating
 consumer scenarios; neither implies transfer of musical understanding, tactical
@@ -178,7 +178,7 @@ Neither the old MAP surrogate nor a matching anatomical number supplies that map
 
 ## The biological interface is conditional, not magical
 
-ATO permits an idealized future access technology, but its contract must state:
+SCCI_RH permits an idealized future access technology, but its contract must state:
 
 1. Which signal mixture is available, at what location/reference and with what
    noise, drift, artifacts and information loss.

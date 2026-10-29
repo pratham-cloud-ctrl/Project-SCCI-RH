@@ -2,7 +2,7 @@
 
 **16 October 2026 — complete within the bounded digital reference scope.**
 
-Project ATO now connects native recording/protection, two-source stimulation,
+Project SCCI RH now connects native recording/protection, two-source stimulation,
 contact routing, independent supervision, power, monitoring/companion transport
 and an actual nRF5340 carrier in one inspectable electrical system. The result
 is an eight-board modular reference with genuine copper routes and populated

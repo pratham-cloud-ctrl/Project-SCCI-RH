@@ -121,6 +121,6 @@ is a prerequisite for revised coupled studies, not proof of their outcome.
 `python -X utf8 scripts/stage3_teacher_library_study.py --check` verifies all 16 frozen
 gzip input identities, refits and independently validates the two libraries, and compares
 the resulting receipts and this report (relative tolerance 2e-8, absolute 1e-11).
-Result schema: `ato.stage3.teacher-library-study.v1`; each library is
-`ato.stage3.teacher-library.v1`. Raw benchmark recordings remain under
+Result schema: `scci_rh.stage3.teacher-library-study.v1`; each library is
+`scci_rh.stage3.teacher-library.v1`. Raw benchmark recordings remain under
 `results/stage3/expert-validation/`; no new recordings or historical replacements occur.

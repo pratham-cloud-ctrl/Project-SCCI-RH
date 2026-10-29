@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage3.revision-figure-review.v1",
+  "schema": "scci_rh.stage3.revision-figure-review.v1",
   "date": "2026-10-09",
   "method": "Rendered PNG inspected in Codex; companion SVG generated from the same Matplotlib figure.",
   "scope": "Visual legibility and displayed evidence scope; not biological validation.",
@@ -11,11 +11,11 @@
   ],
   "files": {
     "docs/stage3/figures/mechanism-revision.png": {
-      "sha256": "25607c094000a7d1e2cada87a6beb77d2020086684d334ffcbc3095e77da6299",
+      "sha256": "d20e6a391e323d15f034ae813a9667b1ff49a149de2f38d832fdb8c7d5a81108",
       "hash_scope": "exact PNG bytes"
     },
     "docs/stage3/figures/mechanism-revision.svg": {
-      "sha256": "cade2fc235499e9e296939f5c2af646d79f62ef838d6df81b3138ef3aa4f6011",
+      "sha256": "3e12e6b778e9d6013a99917099c5266b13a0a792576273fbc1cbaeccf96659ac",
       "hash_scope": "normalized UTF-8 LF text"
     }
   }

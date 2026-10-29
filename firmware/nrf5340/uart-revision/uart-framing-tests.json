@@ -1,6 +1,7 @@
 {
-  "schema": "ato.uart-frame-regression.v1",
-  "date": "2026-10-17",
+  "schema": "scci_rh.uart-frame-regression.v1",
+  "date": "2026-10-28",
+  "original_design_date": "2026-10-17",
   "passed": true,
   "scope": "Actual C callbacks with FIFO/interrupt stubs; no target execution or physical UART proof",
   "historical": {
@@ -24,8 +25,8 @@
     "temporarily full FIFO"
   ],
   "source_sha256_lf": {
-    "firmware/nrf5340/app/src/ato_backend.c": "74d32a85412ba735350d1fd0b1d470d0f4e8e2fb334dc448ec9c626e1cab3a90",
-    "firmware/nrf5340/uart-revision/src/ato_backend.c": "88b5d4c5063fb1affadde97394b2edbd725cd48d8451b8387697559cb4e8621c",
-    "firmware/nrf5340/uart-revision/tests/check_uart_framing.py": "c05d4896fcceaa81cbe6dc460f157f6387798173e74112d9e737454cb1fa1d36"
+    "firmware/nrf5340/app/src/scci_rh_backend.c": "72cc56f3ef19404e539ed100e0a5ef37bce00cd218c40342ceef7d421dc660d8",
+    "firmware/nrf5340/uart-revision/src/scci_rh_backend.c": "274028a02481e0ae4b2bd56263d1fa7979daded7617d764799f5dcbda021f07c",
+    "firmware/nrf5340/uart-revision/tests/check_uart_framing.py": "e23d19d863a8084a301cd0a64ee28a806a88720f30a566d56cc265ae691a3265"
   }
 }

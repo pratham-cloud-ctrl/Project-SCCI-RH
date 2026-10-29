@@ -1,4 +1,4 @@
-# Integrated populated electronics — Project ATO
+# Integrated populated electronics — Project SCCI RH
 
 **Complete within the bounded digital reference scope — 16 October 2026.**
 All eight genuinely routed native boards pass DRC with zero violations,
@@ -34,7 +34,7 @@ the fitted STEP assembly and assembly placement file exclude their bodies.
 
 ## Open the design
 
-- [Native master schematic](integration/master/ATO_integrated.kicad_sch):
+- [Native master schematic](integration/master/SCCI_RH_integrated.kicad_sch):
   80 sheets, 4,781 connected/NC pin identities, all actual circuit symbols.
 - [Electrical integration review](../../../docs/stage4/integrated-pcb-design.md),
   [component BOM](integration/populated-bom.csv),

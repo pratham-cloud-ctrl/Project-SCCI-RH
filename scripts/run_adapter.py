@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/"src"))
-from ato.pulse_binding import PulseBackend
+from scci_rh.pulse_binding import PulseBackend
 
 
 def read_csv(name):
@@ -27,7 +27,7 @@ def main():
     parser=argparse.ArgumentParser()
     parser.add_argument("--library")
     args=parser.parse_args()
-    candidates=list((ROOT/"build"/"firmware").glob("*ato_pulse.*"))
+    candidates=list((ROOT/"build"/"firmware").glob("*scci_rh_pulse.*"))
     candidates=[p for p in candidates if p.suffix in [".dll",".so",".dylib"]]
     library=args.library or (str(candidates[0]) if candidates else None)
     if not library: parser.error("Build the C library with scripts/build_firmware.py first.")
@@ -115,7 +115,7 @@ def main():
         with (ROOT/"results"/filename).open("w",newline="",encoding="utf-8") as f:
             writer=csv.DictWriter(f,fieldnames=list(data[0]));writer.writeheader();writer.writerows(data)
     result={"status":"passed","checks":checks,"accepted_pulses":accepted_counts,
-            "source":"ctypes calls into the compiled ato_pulse.c shared library",
+            "source":"ctypes calls into the compiled scci_rh_pulse.c shared library",
             "pressure_mapping":"requested frequency = 50 * normalized command Hz with piecewise-held application commands and integer-us scheduling",
             "motor_mapping":"one pulse request per increasing surrogate phase crossing after warm-up; signed correction is logged only",
             "scope":"ideal digital protocol; no fitted stimulation-to-physiology or stimulation-to-learning conversion",
@@ -136,7 +136,7 @@ def main():
         ax.spines["top"].set_visible(False);ax.spines["right"].set_visible(False)
         ax.grid(alpha=.15)
         ax.axvspan(200,250,color="#60768d",alpha=.10)
-    fig.suptitle("ATO application-to-pulse adapter | ideal C timing and digital routing",fontsize=14)
+    fig.suptitle("SCCI_RH application-to-pulse adapter | ideal C timing and digital routing",fontsize=14)
     fig.text(.05,.012,"100 µA × 200 µs = 20 nC per phase; nominal repetition ≤50 Hz. No measured analog/tissue charge or biological dose mapping.",fontsize=9)
     fig.tight_layout(rect=[0,.035,1,.965])
     (ROOT/"figures").mkdir(exist_ok=True)

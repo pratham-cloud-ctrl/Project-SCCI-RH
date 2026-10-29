@@ -144,7 +144,7 @@ def study():
                    capacitors=caps, host_added_capacitor_energy_J=sum(c["energy_J"] for c in caps if not c["external_peer"]),
                    host_added_capacitor_energy_plus20percent_J=1.2*sum(c["energy_J"] for c in caps if not c["external_peer"]),
                    compact_thermal_2K_earned=False, installed_converter_capacity_is_measured=False)
-    result = dict(schema="ato.stage4.transport-input.v1",date="2026-10-14",
+    result = dict(schema="scci_rh.stage4.transport-input.v1",date="2026-10-14",
                   scope="finite illustrative artificial-input model and conditional incremental power; not clinical or physical qualification",
                   source_sha256_lf={str(native_path.relative_to(ROOT)).replace('\\','/'):sha(native_path),
                                    str(power_path.relative_to(ROOT)).replace('\\','/'):sha(power_path),

@@ -1,124 +1,84 @@
 {
-  "schema": "ato.stage5.delivery-review.v1",
+  "schema": "scci_rh.stage5.delivery-review.v1",
   "passed": true,
   "date": "2026-10-16",
   "source_geometry": "Saved native/STEP files validated by the independent Stage5 mechanical checkpoint",
-  "independent_mechanical_report_sha256": "74499c4f9fdd3d17e6a109aee0f8d8af2af3ce56e002b55117381abdd2c6a4e2",
+  "independent_mechanical_report_sha256": "58e4c53a484249fb15ae2aec2608b320ff976c6f53cdc8bfbe3b37568f6d3b34",
   "artifacts": {
     "cad/stage5/assemble_reference_full.py": {
-      "sha256": "89fcf44a8c5ca7ab51058d6bfc8a91bfd11f63268f1aefa2f163ff8789c53cb7",
+      "sha256": "399515c485e469cc687d1aae87c3aed0d2f8e45a3d466bddeffc7a7b6c5c40b7",
       "text_normalized": true,
-      "bytes": 4181
+      "bytes": 4201
     },
     "cad/stage5/assembly-contract.json": {
-      "sha256": "4012b3e3a70aa7f122526f9c60bd27522947b17eeb6f0410a730518e685ec945",
+      "sha256": "8de09194f0d23f2604a2d2f3b705be56f390795aff2e414dd5df9716141970cf",
       "text_normalized": true,
-      "bytes": 1370
-    },
-    "cad/stage5/ATO_reference_inspection.stl": {
-      "sha256": "5b59fe1ed7f342b4edde75bca61b152e5a4d9744d376881793865f84b954c637",
-      "text_normalized": false,
-      "bytes": 36837484
-    },
-    "cad/stage5/ATO_stage5_reference_full.FCStd": {
-      "sha256": "b4323834775d269d458726106929aa30a197aebb93b7eb6c6f7e9e23f49f386b",
-      "text_normalized": false,
-      "bytes": 3594357
+      "bytes": 1378
     },
     "cad/stage5/build_combined_bom.py": {
-      "sha256": "c4a9497e61bc45bac6104653b21806d419b201699b1fd81a6d1a90a8fbb8b61e",
+      "sha256": "557ce0754d4153cebecc35831564ddf15438ed55bccf26c98ce6c1a1e1c4fdfa",
       "text_normalized": true,
-      "bytes": 1942
+      "bytes": 1946
     },
     "cad/stage5/build_drawing_set.py": {
-      "sha256": "324a8b96ea0321b55e7a0b8db9e0b878fd7d601834cf42d746c6c8277c026424",
+      "sha256": "cc171413b18b6a292dab6b1fd89f57badfd6e10e64fe849d7104c7d6369e8581",
       "text_normalized": true,
-      "bytes": 16056
+      "bytes": 16080
     },
     "cad/stage5/combined-assembly-receipt.json": {
-      "sha256": "d6a962e793847ef48d5279967c3d6318c0eb1b99b1766bf342b0bd0f1f06c977",
+      "sha256": "db5619d91ef23867d7de1d5e3371485e077fd2cf55aeba7af310074fa080b67e",
       "text_normalized": true,
-      "bytes": 92230
+      "bytes": 90672
     },
     "cad/stage5/combined-display-verification.json": {
-      "sha256": "d464e9b7430526ea38ca47a8d06ea08de001dfcc814fa9561fb3426773ed94b5",
+      "sha256": "7db1be644ad849f44cfdf4d4e0863872746ff55cead0520d359d60ea58bae861",
       "text_normalized": true,
-      "bytes": 220
+      "bytes": 225
     },
-    "cad/stage5/drawings/ATO_Stage5_Mechanical_Review.pdf": {
-      "sha256": "a4375223084c3debeb29b1dc566e067f169c7b941056b1e057b9ce91595e3d04",
+    "cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf": {
+      "sha256": "f6bcd0781aa96807f7a8b05d1f8e0f3965a98f533ebe460122aa8ee6ae19e370",
       "text_normalized": false,
-      "bytes": 6086212
+      "bytes": 6086267
     },
     "cad/stage5/export_render_meshes.py": {
       "sha256": "70beff2f4fd0a66b50a221ebce35a3b35786dde3e114ccbb86d3b96c669d78a1",
       "text_normalized": true,
       "bytes": 3801
     },
-    "cad/stage5/future-interface/ato_future_features.py": {
-      "sha256": "43275e3cfcb78db56bf197f0b94d2430ff5c173e19836b7aadf24e118051eba6",
-      "text_normalized": true,
-      "bytes": 4852
-    },
-    "cad/stage5/future-interface/ATO_future_interface.FCStd": {
-      "sha256": "b148467eac2c00497052cd0e4f5290d8ea1290199ef06559fb583aaac3b5499c",
-      "text_normalized": false,
-      "bytes": 888294
-    },
-    "cad/stage5/future-interface/ATO_future_interface.step": {
-      "sha256": "5ab3f5dc211af366afbfa668ae5d59eb0be75a1bd99327b2e90f09323a4ae7f1",
-      "text_normalized": false,
-      "bytes": 2557303
-    },
-    "cad/stage5/future-interface/ATO_future_interface.stl": {
-      "sha256": "56433d7debf3bafb41604cb7c971a2f45e7495ba252c1fff6bc47a709c15c930",
-      "text_normalized": false,
-      "bytes": 4834384
-    },
-    "cad/stage5/future-interface/ATO_future_interface_exploded.FCStd": {
-      "sha256": "eccccf3683eec9eaab0f149cb405657eec075e783727dfc563c5234a5b51f1f9",
-      "text_normalized": false,
-      "bytes": 804885
-    },
-    "cad/stage5/future-interface/ATO_future_interface_exploded.step": {
-      "sha256": "99e97143019bd55eae8c23ac588fa5f54ec9eedece6b05d8d2882d557db74f0a",
-      "text_normalized": false,
-      "bytes": 2613953
-    },
     "cad/stage5/future-interface/build_future_interface.py": {
-      "sha256": "2fc5f46a8fad2482fb0003af08edaca9fcfb47b9f4320bc64b3d7d28eba1ebff",
+      "sha256": "3943c3820886adca0665c78186be4abbd9f66b7cfc71e42c211b78583c0e827d",
       "text_normalized": true,
-      "bytes": 29296
+      "bytes": 29380
     },
     "cad/stage5/future-interface/contract.json": {
-      "sha256": "0db59500d83a032f803604f4084ca611618710ecd3f3e5a30c04017de01a75b2",
+      "sha256": "4cf676fb602da11344adc54b0d5a3556218ce2e5765908c56f950978d90abf8b",
       "text_normalized": true,
-      "bytes": 256560
+      "bytes": 246198
     },
     "cad/stage5/future-interface/finalize_presentation.py": {
-      "sha256": "a45ad44b6f1cbd3d710f2edf63be9589ffe5572662bccf8e06c9f814df87b0e8",
+      "sha256": "21c1b5af17f48c12df8cfce412a18dc5d38c304dd88e2fa8f831dffe9f415eae",
       "text_normalized": true,
-      "bytes": 2482
+      "bytes": 2486
     },
     "cad/stage5/future-interface/future-exploded-native.png": {
-      "sha256": "62287b478270cad3a311ceedccb4aa2cda964053c441429462efd791d35461de",
+      "sha256": "15e16dde74192f3933e2987fe07923ff8f05f559e0f78551cedf572f6ec73df7",
       "text_normalized": false,
-      "bytes": 29913
+      "bytes": 29898
     },
     "cad/stage5/future-interface/future-fitted-native.png": {
-      "sha256": "81c4e821a509ab9d0fb1659bd60b4950a9ad537ed3edc3c39c8035d8e99ebbf6",
+      "sha256": "43f3d4ebea9f97b6aa2556265b4e527d1bb82432e79e1a0a7cd0c620ea437bd4",
       "text_normalized": false,
-      "bytes": 23336
+      "bytes": 23321
     },
     "cad/stage5/future-interface/geometry-receipt.json": {
-      "sha256": "0db59500d83a032f803604f4084ca611618710ecd3f3e5a30c04017de01a75b2",
+      "sha256": "4cf676fb602da11344adc54b0d5a3556218ce2e5765908c56f950978d90abf8b",
       "text_normalized": true,
-      "bytes": 256560
+      "bytes": 246198
     },
     "cad/stage5/future-interface/native-visual-receipt.json": {
-      "sha256": "8b0f63328f6e997aa6975a4308a645b55dc6de87f6c2e0cfc13f9a837b7cb992",
+      "sha256": "0efb6e4ebdd26d33fffffff7d84ebe9ecaea86e89ee949f7eef53b446c37a362",
       "text_normalized": true,
-      "bytes": 11506
+      "bytes": 11026
     },
     "cad/stage5/future-interface/OPEN_FUTURE_INTERFACE.cmd": {
       "sha256": "c5aa502d73445fb7ac11d1579144d62bec8fde28e305484fdc6bd226b603e921",
@@ -126,9 +86,9 @@
       "bytes": 160
     },
     "cad/stage5/future-interface/open_future_interface.FCMacro": {
-      "sha256": "9fc2edfc19fd97b22a0792abcb838a36e4b1207eed27c719f5525f058b9b460a",
+      "sha256": "435b0f76abd378bdea79ac7c0967cfef28d460b49fda84bb98a63f680283fba9",
       "text_normalized": true,
-      "bytes": 748
+      "bytes": 756
     },
     "cad/stage5/future-interface/OPEN_FUTURE_INTERFACE_EXPLODED.cmd": {
       "sha256": "7b03aebd8041cfc081f5fd3429335f0395bfb4788a5a9bd8d5fc0a79b71e4127",
@@ -136,319 +96,349 @@
       "bytes": 169
     },
     "cad/stage5/future-interface/open_future_interface_exploded.FCMacro": {
-      "sha256": "5602e54a5763519258e5d0668f2ad88f5a572095aa75368fd3a1f4cd032c926b",
+      "sha256": "559f10825616fc5b88af3cc0727d42a3159640c94c4c4b3ee9741cfeab0c2fc0",
       "text_normalized": true,
-      "bytes": 487
+      "bytes": 491
     },
     "cad/stage5/future-interface/parts.csv": {
       "sha256": "a9fae855e2637c375ae3d6333cb9b6136b8ae67b1e48835b5c68c8401ddad46e",
       "text_normalized": true,
-      "bytes": 38446
+      "bytes": 38209
     },
     "cad/stage5/future-interface/port-map.csv": {
       "sha256": "c549f9942be4957636a4979877f0cbceed2aa6e2411c943cdbbd9f0b3d475bfb",
       "text_normalized": true,
-      "bytes": 10983
+      "bytes": 10946
     },
     "cad/stage5/future-interface/README.md": {
-      "sha256": "78c9d924c8b80432d95382b3c1e506bf8626c0a2a5c84dcfa0bb2aad24dd858f",
+      "sha256": "0b3a4c7ebf894a47deb98aa8e7c77c766952ce0540d5b4e64d8f40cb79784f81",
       "text_normalized": true,
-      "bytes": 3661
+      "bytes": 3685
     },
     "cad/stage5/future-interface/render-meshes.json": {
       "sha256": "e06d0d25b3aa745849c7d91aa65913cf1e322775e8cef6dc289d3014431649fc",
       "text_normalized": true,
-      "bytes": 3656848
+      "bytes": 3656847
+    },
+    "cad/stage5/future-interface/scci_rh_future_features.py": {
+      "sha256": "5e11e1656e067db9eb74fcc25d9553a3bb6a4996ac54f09fb3c69bd1d19106a7",
+      "text_normalized": true,
+      "bytes": 4876
+    },
+    "cad/stage5/future-interface/SCCI_RH_future_interface.FCStd": {
+      "sha256": "3a1cfb5a59855442214772e50dab670c403e6326e929de8362b37037723158ba",
+      "text_normalized": false,
+      "bytes": 900312
+    },
+    "cad/stage5/future-interface/SCCI_RH_future_interface.step": {
+      "sha256": "5ab3f5dc211af366afbfa668ae5d59eb0be75a1bd99327b2e90f09323a4ae7f1",
+      "text_normalized": false,
+      "bytes": 2557303
+    },
+    "cad/stage5/future-interface/SCCI_RH_future_interface.stl": {
+      "sha256": "56433d7debf3bafb41604cb7c971a2f45e7495ba252c1fff6bc47a709c15c930",
+      "text_normalized": false,
+      "bytes": 4834384
+    },
+    "cad/stage5/future-interface/SCCI_RH_future_interface_exploded.FCStd": {
+      "sha256": "5d4c904e9e6c3e4cc1e2cf55a5172b451d5b09b5f9ed0445bdca9eb506830afc",
+      "text_normalized": false,
+      "bytes": 813945
+    },
+    "cad/stage5/future-interface/SCCI_RH_future_interface_exploded.step": {
+      "sha256": "99e97143019bd55eae8c23ac588fa5f54ec9eedece6b05d8d2882d557db74f0a",
+      "text_normalized": false,
+      "bytes": 2613953
     },
     "cad/stage5/future-interface/style_future_interface.py": {
-      "sha256": "77e8ab5b170821d9408dfab94d5d2e619e0afcbf4e699ba15b9bc352af8753c8",
+      "sha256": "3b6a5aaffdc3c0f9ca5cdfc39170a03cea133aa31f9e9073a2372bec4c04dc6f",
       "text_normalized": true,
-      "bytes": 3043
-    },
-    "cad/stage5/harness/ATO_harness_routes.FCStd": {
-      "sha256": "23e3e6b6744c901e051962248e7b4ae7ec8cb48e778db850d7182a1995b6dd8b",
-      "text_normalized": false,
-      "bytes": 153532
-    },
-    "cad/stage5/harness/ATO_mating_interfaces.FCStd": {
-      "sha256": "6079242db047b70f21114a3eac33c0a8cce77260a189033362feb2b3bacbacf9",
-      "text_normalized": false,
-      "bytes": 1104695
-    },
-    "cad/stage5/harness/ATO_mating_interfaces.step": {
-      "sha256": "8c37241e686e1efe3e807e29c9da885384a7aee5128b75821ea81ae897890c2f",
-      "text_normalized": false,
-      "bytes": 3657977
+      "bytes": 3055
     },
     "cad/stage5/harness/body-port-bridge.csv": {
       "sha256": "c4af04c73e13ec586e6e4af6000dc52bb734e97db2d8107e8e2deecf7b53a359",
       "text_normalized": true,
-      "bytes": 7757
+      "bytes": 7720
     },
     "cad/stage5/harness/build_mating_interfaces.py": {
-      "sha256": "b0f886b412680815749f504cf88479d6ea1d20b3df6aba2449c21e295a89e647",
+      "sha256": "e50bf57559ccccef9555e22351d7ba48bf2d56be87c17a28bb3bc80d630cdccc",
       "text_normalized": true,
-      "bytes": 5599
+      "bytes": 5611
     },
     "cad/stage5/harness/contract.json": {
-      "sha256": "c8dc7e3de1dff2462cc8972d2081dc99c28a95fdec9441250e3735f80b4deba1",
+      "sha256": "12fc6e33886a70f8a1ffaf7d0cb7700751df92736623596c33df8aa66f8165c9",
       "text_normalized": true,
-      "bytes": 1360910
+      "bytes": 1301470
     },
     "cad/stage5/harness/geometry-receipt.json": {
-      "sha256": "093274b2a4d4e2998d73c5effa1a83dbc1a0828c9778091035792afb0d322895",
+      "sha256": "cbebf43e9f47ffd32027620312502b4df86660bca7a8354087569e0a01d75ef9",
       "text_normalized": true,
-      "bytes": 30080
+      "bytes": 28632
     },
     "cad/stage5/harness/plan_harness.py": {
-      "sha256": "e01257173c5bbc357b675819aed9394c0a29a1c661168dffa7f588d012d3414a",
+      "sha256": "abfc245ed64cdb1c43129c37c22d205c4f4144d7a8b868ac44aea8ec8987d358",
       "text_normalized": true,
-      "bytes": 10625
+      "bytes": 10641
     },
     "cad/stage5/harness/README.md": {
-      "sha256": "91d14818b81a317e08b88353f3fe9a75161a2ca5383d68185219c14be2558a4d",
+      "sha256": "2b8066e3266ea5a8b711598cceeb6cc6b35891caac0d879bfeb65f78e0d71f3d",
       "text_normalized": true,
-      "bytes": 2567
+      "bytes": 2575
+    },
+    "cad/stage5/harness/SCCI_RH_harness_routes.FCStd": {
+      "sha256": "06ce0f35374abe431a95abc076d43b905026c9de607aadc6523f0da9d2ba6eae",
+      "text_normalized": false,
+      "bytes": 154294
+    },
+    "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd": {
+      "sha256": "141e4301f41cfa303b594d66c324e2f881d0deaeacc05586cf95e11be8b29e48",
+      "text_normalized": false,
+      "bytes": 1124090
+    },
+    "cad/stage5/harness/SCCI_RH_mating_interfaces.step": {
+      "sha256": "74ee88a5f80000ab4aa9f1767f909547ea43bbc93c4e991729bf8fc887a185c2",
+      "text_normalized": false,
+      "bytes": 3657985
     },
     "cad/stage5/harness/wire-length-planning.csv": {
       "sha256": "e0f97afdb3e7e93d5f69d2261209708ef1062c311e812e44cf97d65f977dcdf8",
       "text_normalized": true,
-      "bytes": 42262
+      "bytes": 42003
     },
     "cad/stage5/MECHANICAL_BOM.csv": {
-      "sha256": "f81bcf5ca61d01c4c37a9a4b81cc9c83b878c9a7e45d5f6dffe5d8cc722deecf",
+      "sha256": "29b1a0f7582a53e4bf517e0d180ac3d7e7a23469d5cfa078c96591c4a40721d5",
       "text_normalized": true,
-      "bytes": 53764
+      "bytes": 54543
     },
     "cad/stage5/OPEN_REFERENCE_ASSEMBLY.cmd": {
-      "sha256": "3d436429b4a0083bd6e09e6ac428f47365c6952fb04a3359f4129664060c3dc7",
+      "sha256": "8884d5ed5bcbc10296f4b2df8ffe692b88727436ac0a35170bdbb22e8f08ff4a",
       "text_normalized": true,
-      "bytes": 335
+      "bytes": 351
     },
     "cad/stage5/OPEN_REFERENCE_CLOSED.cmd": {
-      "sha256": "d386966e2d34ced5ecb8baea5cc4bbedb9f0538be6e6e94a2a63d13029d24129",
+      "sha256": "a3c05271ae8d10a0a702b5a29ad6f2b5605625529e35f3d8c9f4ddff316c5600",
       "text_normalized": true,
-      "bytes": 117
+      "bytes": 121
     },
     "cad/stage5/open_reference_inspection.FCMacro": {
-      "sha256": "057b3563696bb4aad042f8f107f5d007d24ee8b9ffab58ced4cfcadcf88cbdb7",
+      "sha256": "948e0c226c17c6de9fef5fe3ca238ec25b1f627e8c1bb651e40c3a2231e76ec8",
       "text_normalized": true,
-      "bytes": 901
+      "bytes": 905
     },
     "cad/stage5/README.md": {
-      "sha256": "5da5498ba6a62ac457a7af58056db6358baa3edb2532bfb21a2bc6c26f071d36",
+      "sha256": "aac9ad5d4fe57b7994aed35cb2375d2d7ed13ede79242d0d626d4b43438954b5",
       "text_normalized": true,
-      "bytes": 6156
-    },
-    "cad/stage5/reference/ATO_reference_assembly.FCStd": {
-      "sha256": "764a4e7a9ec8212fefb1c9c0deb7cab2ee76a5c9e72b2895f9199c98d0e5ae9a",
-      "text_normalized": false,
-      "bytes": 2529209
-    },
-    "cad/stage5/reference/ATO_reference_assembly.step.zip": {
-      "sha256": "74b924bd9544f1361c5aab83804da2bd12cfff4b6a9ec1a919b1d46a8fae02a1",
-      "text_normalized": false,
-      "bytes": 18951745
-    },
-    "cad/stage5/reference/ATO_reference_exploded.step.zip": {
-      "sha256": "3375c3cdafde31a9d93d10ab872d0ba778f9725dc68cdf11fd361e5b33e6dea4",
-      "text_normalized": false,
-      "bytes": 18951641
-    },
-    "cad/stage5/reference/ATO_reference_mechanical.step": {
-      "sha256": "adfab80b3b1e7e1b84c08fa17353a9cfe5a83f42942923498357927cf39c909c",
-      "text_normalized": false,
-      "bytes": 1036339
+      "bytes": 6168
     },
     "cad/stage5/reference/board-datums.json": {
-      "sha256": "6e981c69fde085b569da233188d7a82f2c8e6da0d49f8d4f7f3f7a9ba859bcce",
+      "sha256": "ed3497bf87ac3a61e0c164a76c7fc8dce24469afdfdffcd34bdd3de1a90d2d96",
       "text_normalized": true,
-      "bytes": 187978
+      "bytes": 179961
     },
     "cad/stage5/reference/build_reference.py": {
-      "sha256": "3429829b5680a41a477e2d99748b42050f74e26e12951cd77e355be51a75c7ad",
+      "sha256": "beda15297f35053fb15aa81657e48db487c68eedb9be7d578c7a74201927ce6d",
       "text_normalized": true,
-      "bytes": 13577
+      "bytes": 13600
     },
     "cad/stage5/reference/contract.json": {
-      "sha256": "fac7dbf1b86d415f4ed852c87a726de262618e160e37c1b25dba29fb41264c56",
+      "sha256": "036c7043e2f8545f05dec28b7376ef1b51577fd959b55e1254797889f450d1a5",
       "text_normalized": true,
-      "bytes": 71127
+      "bytes": 68364
     },
     "cad/stage5/reference/drawings/contact-router-tray.png": {
-      "sha256": "9b14eb6a29c5748d4938395ff00674b5563db8ab60d46f094ffbc0370d7cffa2",
+      "sha256": "f9aa939358bfac8869af39d3d0e507b30ebc453921c344595c4c1a24ee9d9325",
       "text_normalized": false,
-      "bytes": 96378
+      "bytes": 96937
     },
     "cad/stage5/reference/drawings/contact-router-tray.svg": {
-      "sha256": "5a9e11e460699e3675ba52f90606c81741b0fccd9a473408b7d6ffa475b4fb98",
+      "sha256": "f8be1342c1a1d209c9b7708b91a30a5b63f1586de52783bec5c747253ba99c32",
       "text_normalized": true,
-      "bytes": 6064
+      "bytes": 6068
     },
     "cad/stage5/reference/drawings/controller-carrier-tray.png": {
-      "sha256": "7983f584c251ffef35a808112ca9d7f824ae40b22cd2380d4d323c279bab0239",
+      "sha256": "e89558ac80b09cb0ff87b379705dc522059426c72a70e4084a33282544fe3e21",
       "text_normalized": false,
-      "bytes": 97357
+      "bytes": 97847
     },
     "cad/stage5/reference/drawings/controller-carrier-tray.svg": {
-      "sha256": "7a66c159272f57d14abbd69286ecb332bdce84bb5e6302f04ab26f8551a56d33",
-      "text_normalized": true,
-      "bytes": 6077
-    },
-    "cad/stage5/reference/drawings/current-driver-tray.png": {
-      "sha256": "31e673ba4c101ae04886e4c569727744af838666e4116615b5226ceed7dae81a",
-      "text_normalized": false,
-      "bytes": 95985
-    },
-    "cad/stage5/reference/drawings/current-driver-tray.svg": {
-      "sha256": "cdf7f150c6f99d2886316fb32ff1d69352bec9fcef52fd8baf09d68ce376916c",
-      "text_normalized": true,
-      "bytes": 6064
-    },
-    "cad/stage5/reference/drawings/monitoring-cell-tray.png": {
-      "sha256": "0b3510073598540786faf816f28c5c0c068a5a4bb77f4ab59751c9939e043e02",
-      "text_normalized": false,
-      "bytes": 96483
-    },
-    "cad/stage5/reference/drawings/monitoring-cell-tray.svg": {
-      "sha256": "36a275205e9e186e38d7b4c931e74a9d4f564233194da25bcf6514df83e903a1",
-      "text_normalized": true,
-      "bytes": 6070
-    },
-    "cad/stage5/reference/drawings/monitoring-transport-tray.png": {
-      "sha256": "7cce65793b6afe8ef8af9b8d5227f63c23ff00f2e17b75038e26d8c0dba35588",
-      "text_normalized": false,
-      "bytes": 98393
-    },
-    "cad/stage5/reference/drawings/monitoring-transport-tray.svg": {
-      "sha256": "5cb22b68e3c6b7b0d49b9ded83187476a7241a0ef6c7f99795d25fa2b318fad1",
+      "sha256": "395ff846ee5f6145bd379629850631f14e0b76907bfde949a62cf12a0d155a73",
       "text_normalized": true,
       "bytes": 6081
+    },
+    "cad/stage5/reference/drawings/current-driver-tray.png": {
+      "sha256": "dcc7007bb5433fe969b0b5d3db3132261544556ec1d12fe43a418c213d94af2b",
+      "text_normalized": false,
+      "bytes": 96558
+    },
+    "cad/stage5/reference/drawings/current-driver-tray.svg": {
+      "sha256": "086f7eb292a2b223298c8a293b271a4ab85707d3e419c78d80e5922e13c47d56",
+      "text_normalized": true,
+      "bytes": 6068
+    },
+    "cad/stage5/reference/drawings/monitoring-cell-tray.png": {
+      "sha256": "64be01d42a181f860daf39350878acc55843b1779a9010fda0d7c04b9229af4a",
+      "text_normalized": false,
+      "bytes": 97014
+    },
+    "cad/stage5/reference/drawings/monitoring-cell-tray.svg": {
+      "sha256": "0f21ed01fe191e66c001267bb72b4806081b5f5ba482a79286a4b0cb1a5d52e6",
+      "text_normalized": true,
+      "bytes": 6074
+    },
+    "cad/stage5/reference/drawings/monitoring-transport-tray.png": {
+      "sha256": "5a8b43a5b9775c2ad668a478c23e9c7f4d51bb1b0c14554883fb2f8fa45de531",
+      "text_normalized": false,
+      "bytes": 98907
+    },
+    "cad/stage5/reference/drawings/monitoring-transport-tray.svg": {
+      "sha256": "8091f1ae181ca219c8f689206c31637cd66b2f7f48d047739da877c8b2d2078b",
+      "text_normalized": true,
+      "bytes": 6085
     },
     "cad/stage5/reference/drawings/mounting-hole-table.csv": {
       "sha256": "e57605db81e4f4df01b600914adc8a9b4f6f9e1491be07ef6faab6953204af53",
       "text_normalized": true,
-      "bytes": 1827
+      "bytes": 1794
     },
     "cad/stage5/reference/drawings/power-tray.png": {
-      "sha256": "fe65d7ee4be0a8dd793d99d735f720cbbe9463acf2227aeb6c15da2e4f81052e",
+      "sha256": "23e186845ec5893b4e1a6ac603cee29afc43ebddf2d5d3e0ffce5e2ad2f82181",
       "text_normalized": false,
-      "bytes": 94606
+      "bytes": 95032
     },
     "cad/stage5/reference/drawings/power-tray.svg": {
-      "sha256": "c622db129f66b613e33605b159ac8a5dab138efdd57c1339d1727b28a395edc4",
+      "sha256": "a9fd745fc2d0d32cdfdfa481e02b5202c89ed57d7d1b2578d89a21903fa153df",
       "text_normalized": true,
-      "bytes": 6045
+      "bytes": 6049
     },
     "cad/stage5/reference/drawings/recording-front-end-tray.png": {
-      "sha256": "03b9cac703a42cf01f7456d20ed73ae55c063ccd8102f194e73175d0fa967eae",
+      "sha256": "0bf72dbe813d63ad1cabf59c23ac57a15c24bcc5c333190e155979bc0601cb92",
       "text_normalized": false,
-      "bytes": 98055
+      "bytes": 98567
     },
     "cad/stage5/reference/drawings/recording-front-end-tray.svg": {
-      "sha256": "49972daadee7a2349fd4a56f719d45db672e2eb01b453f075a5a9b3fc4aa7818",
+      "sha256": "1bb9c2f4f7963a581819b9f42ee1a398e7f8a374ddaaa7fe2d5ba445b77fbbc2",
       "text_normalized": true,
-      "bytes": 6078
+      "bytes": 6082
     },
     "cad/stage5/reference/drawings/reference-layout.png": {
-      "sha256": "204fb4eadd1521b4e1e4f7380189c2ba0ecca124e4f9fc27ddf05ecc6fa7cb25",
+      "sha256": "850689037ae86881f973649e6fbeebaf4fbaf7dc25e2aa71af15612c0ec96f90",
       "text_normalized": false,
-      "bytes": 155483
+      "bytes": 155969
     },
     "cad/stage5/reference/drawings/reference-layout.svg": {
-      "sha256": "f51122ed90941feb0dd43922a235605f31b9851edf51b9510b04eada0e852cb9",
+      "sha256": "7c1c5f0cc1744398f010d92a5017c7ecce74cd47dc499feb37ec209b9577a47d",
       "text_normalized": true,
-      "bytes": 9436
+      "bytes": 9440
     },
     "cad/stage5/reference/drawings/supervision-tray.png": {
-      "sha256": "41ffad0a06f3ab94426e1fa877e77ce2764abba376c482b33b7969faba73015e",
+      "sha256": "5efd9257c9b66799c2dc9573c924354eeb6dd0ca222d4001ffefff2ef6ef6370",
       "text_normalized": false,
-      "bytes": 98256
+      "bytes": 98847
     },
     "cad/stage5/reference/drawings/supervision-tray.svg": {
-      "sha256": "97d0c84765c43579afdd105e9112db00f5648aef9181e2a79e3ed9a90b64a664",
+      "sha256": "4070aae794894a02d3ea7be646c1eabb9ab86c30c580661a6f5372fedf4af5e4",
       "text_normalized": true,
-      "bytes": 6035
+      "bytes": 6039
     },
     "cad/stage5/reference/extract_board_datums.py": {
-      "sha256": "52243ede11758fe5d7af7be137f9d2bb41c0193d65cd797d80a6933dbd6458c4",
+      "sha256": "073393186cac6ac21d6853fc5dd7a9540e600598a06f76c10484a1320b72832a",
       "text_normalized": true,
-      "bytes": 2131
+      "bytes": 2133
     },
     "cad/stage5/reference/EXTRACT_STEP.cmd": {
       "sha256": "66f961828d3096b2cecaf833b085eadaed5d1c259bb6e0f39328357776a1bb95",
       "text_normalized": true,
-      "bytes": 119
+      "bytes": 118
     },
     "cad/stage5/reference/extract_steps.ps1": {
-      "sha256": "0a9d77ab8c220cddba3d8df0907e5a9db37f62106689589483f25c63da481637",
+      "sha256": "463df3a54d10de26e65a45c1c82a515d6c25bb841112a1837bbf1f995eddc6c0",
       "text_normalized": false,
-      "bytes": 1658
+      "bytes": 1665
     },
     "cad/stage5/reference/finalize_receipts.py": {
-      "sha256": "51ef8500a06f596f7b847ad827da25e603535cb2a103f237a767319083c5ea04",
+      "sha256": "62d6e8d380b0155d95a6052f666c9bdf42b34f74dd5f57e42c4a43ce1c290859",
       "text_normalized": true,
-      "bytes": 3697
+      "bytes": 3728
     },
     "cad/stage5/reference/make_contract.py": {
-      "sha256": "cb135a27aeee57fd3e2c346102829b5e9b71fcac989bdbd129aa5da3f7d24bdc",
+      "sha256": "4d50d9f1d9b02a634f5615ce646a4b3b92eb412efe447ef204b73d91e4cd91f9",
       "text_normalized": true,
-      "bytes": 5838
+      "bytes": 5857
     },
     "cad/stage5/reference/make_drawings.py": {
-      "sha256": "44271e54d7eb39a8d0a83157bfba1eb6a9b0f16c6cd37938754cdf623f880f6d",
+      "sha256": "7f8c06570e8f2be02cfcc917dd50654c809bda560d9cd4e6707d4989fdb95b26",
       "text_normalized": true,
-      "bytes": 6844
+      "bytes": 6847
     },
     "cad/stage5/reference/mcp-inspect-request.json": {
-      "sha256": "3b4de27e3bff5e736b2f09e63c30d1574c47899ae6b566dd60eefead8962c602",
+      "sha256": "c11ce7621dd5fd19f3ada1448f3e4f40ce0b8a32b89a5b71b80584b2cddf8597",
       "text_normalized": true,
-      "bytes": 567
+      "bytes": 570
     },
     "cad/stage5/reference/mcp-inspection.json": {
-      "sha256": "8423eeacfd2382aca6f8f9b2c5b56e29228bacb053822b70fcc519f1d27e9f1b",
+      "sha256": "de8b1b5007666b2ba5316cddadd1f4ede578b4e02e1dde04965549bde3fc4143",
       "text_normalized": true,
-      "bytes": 989
+      "bytes": 967
     },
     "cad/stage5/reference/mcp-open.json": {
-      "sha256": "2b6e678c30228dd0e73c0cff0728f0e18ad3464d26a43011d546505960a07fc7",
+      "sha256": "782a45cb7c5c2e22aa9370ac362cbaacc42d896bb1bf64be9c911789ac690e10",
       "text_normalized": true,
-      "bytes": 77
+      "bytes": 84
     },
     "cad/stage5/reference/mcp-style.json": {
-      "sha256": "0f8657b65f888d9d4ba669b7f94d6c927052e44b7fd8a2f9fa33b58bcd7f9faf",
+      "sha256": "620e9991c2a94d848464285616598b9f1fbc9739f6b3d7272af70785715ccbb2",
       "text_normalized": true,
-      "bytes": 2211
+      "bytes": 2219
     },
     "cad/stage5/reference/mechanical-bom.csv": {
       "sha256": "98895d496f1031d7fe6eaf5746868abbd95e87cadb2667fcf6d004426ecba8da",
       "text_normalized": true,
-      "bytes": 16619
+      "bytes": 16448
     },
     "cad/stage5/reference/OPEN_EXPLODED.cmd": {
-      "sha256": "49cb00747e06e5ab9c0ba43441126cf4c46a8edec2c04a8917d37b0267f5eb4d",
+      "sha256": "64de431a974eaf5a840ab0b1191d92a69f5b659dd1cc197b0c37403be79e8a5a",
       "text_normalized": true,
-      "bytes": 428
+      "bytes": 451
     },
     "cad/stage5/reference/OPEN_REFERENCE.cmd": {
-      "sha256": "52583571c695d0fff86124a3975a4b3ff6d71bc85197b3c45f352c24415d7ed4",
+      "sha256": "fbae1ca8b11fa066e3369bebbf9bbc531744a38e65b6c69918e896ab7d12a062",
       "text_normalized": true,
-      "bytes": 304
+      "bytes": 327
     },
     "cad/stage5/reference/producer-geometry.json": {
-      "sha256": "c1b638876998d2f944a3b1226aed83e65a77479ee633589faf409502d32c5bd7",
+      "sha256": "e4bd42244689176cd31d9efe02cc15927835d23eb710c28a0e04b94660b38870",
       "text_normalized": true,
-      "bytes": 94961
+      "bytes": 91363
     },
     "cad/stage5/reference/README.md": {
-      "sha256": "983e912167a24143376b8977a74deec0a557b4e3e44d74fe40032046532b2917",
+      "sha256": "d10b6e35a34f7387d9469caab52b84d809e672757c237307821b45cebda76cf2",
       "text_normalized": true,
-      "bytes": 3614
+      "bytes": 3611
     },
     "cad/stage5/reference/render_drawings.py": {
       "sha256": "ed9309f52f97ea129f26f0a2bd4547b5d33de8bce423d20c3269d1ef75deb0bb",
       "text_normalized": true,
-      "bytes": 769
+      "bytes": 768
+    },
+    "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd": {
+      "sha256": "eb720889c30de3c15015d1a4c765cc5791eeb8b4df733da222730497acd88dd3",
+      "text_normalized": false,
+      "bytes": 2596734
+    },
+    "cad/stage5/reference/SCCI_RH_reference_assembly.step.zip": {
+      "sha256": "0c9e237ff15075d53adbe09f3feb32706e56adc8e96b9e058c383789fcfa5e27",
+      "text_normalized": false,
+      "bytes": 20028009
+    },
+    "cad/stage5/reference/SCCI_RH_reference_exploded.step.zip": {
+      "sha256": "7abca768ce2ce2689bf4901455a9768d3678037a931a46ac5d3bcbdce8aeb405",
+      "text_normalized": false,
+      "bytes": 20028921
+    },
+    "cad/stage5/reference/SCCI_RH_reference_mechanical.step": {
+      "sha256": "adfab80b3b1e7e1b84c08fa17353a9cfe5a83f42942923498357927cf39c909c",
+      "text_normalized": false,
+      "bytes": 1036339
     },
     "cad/stage5/reference/stl/Base.stl": {
       "sha256": "c1ba3ebf31577d74ab7ac9a9d1a07ef2c0ee0be6f64207fa6bf4748a42c27b55",
@@ -1261,39 +1251,34 @@
       "bytes": 14284
     },
     "cad/stage5/reference/style_gui.py": {
-      "sha256": "33cdc7e9fc8202c22a47b9c5a2998f8eeae3a148b5dd2cd60e75c018a116cb03",
+      "sha256": "14a314a8e66dbe62432b497bc0bc285698f62290bdc571017d710e4056495a32",
       "text_normalized": true,
-      "bytes": 2131
+      "bytes": 2138
     },
     "cad/stage5/reference-full-native.png": {
-      "sha256": "a4cf06e77a5cd5cb4da6d92874a43ca2dccfe9e4fdcedbf3e7e4b39585a02b62",
+      "sha256": "1ad3f647c4b506d5c5702abcb36c511c48aa4aa8d6131f43ef1807253949d812",
       "text_normalized": false,
-      "bytes": 42872
+      "bytes": 42857
     },
     "cad/stage5/reference-inspection-native.png": {
-      "sha256": "9bf737a970e5b27fbdb05eadec871d4bf5fa0cf33c439ce8125ebe3ec440b89d",
+      "sha256": "bcea85cfc696780ee2fed9e0b208c1e39bb3aa2c82fb68141f9204020d64d559",
       "text_normalized": false,
-      "bytes": 66546
+      "bytes": 66532
     },
     "cad/stage5/render_assemblies.py": {
-      "sha256": "fc44a2e88ecc46d01ccc9c5be2787f732fdf9d6c0c833e9fd90293659f2f2520",
+      "sha256": "7efa67a75495da598d3288513570a498c186175dbe4b4b48f37c9bf02debe038",
       "text_normalized": true,
-      "bytes": 6591
-    },
-    "cad/stage5/renders/ATO_engineering_assemblies.blend": {
-      "sha256": "2514bca974431bdf3fb82676a69691194fbcb5e0bd3987df577490f27dbfe751",
-      "text_normalized": false,
-      "bytes": 10066369
+      "bytes": 6599
     },
     "cad/stage5/renders/future_assembled.png": {
-      "sha256": "560e4aeb86e7da100118a57085c97d11f4ea89354ab3058bcbee3ca8be3de95f",
+      "sha256": "23537dcfc1c6c2269b28e9d8b1e7ecf002eca77f6cdf67cef590e12d7f59e5e6",
       "text_normalized": false,
-      "bytes": 2491017
+      "bytes": 2491025
     },
     "cad/stage5/renders/future_exploded.png": {
-      "sha256": "0b900b3027a9c391703304e992a6e66e99856d360922a55c96c7d6a49790bb1d",
+      "sha256": "7720956d7b52e6958f7f63181ed40b32c8ff1512a14ec7968e1794730f9ad783",
       "text_normalized": false,
-      "bytes": 2522253
+      "bytes": 2522261
     },
     "cad/stage5/renders/reference_assembled.png": {
       "sha256": "9005fbef213d4e590561e7c9fe4f134931ff8692c30fc34b329e9ef3e733375f",
@@ -1301,14 +1286,29 @@
       "bytes": 2954942
     },
     "cad/stage5/renders/reference_exploded.png": {
-      "sha256": "93b60c6dcb89f456bd139c5013f0c2033d82deb3bf538114e5419d6283965cc6",
+      "sha256": "48dca660333a71649f4e546656311757c88a0c5be6cf9d355641427bceb1c038",
       "text_normalized": false,
-      "bytes": 2628174
+      "bytes": 2628182
+    },
+    "cad/stage5/renders/SCCI_RH_engineering_assemblies.blend": {
+      "sha256": "0eb4b057aaaf600e832b2cf50a42d2ae9399dd4587b61abb56eb4608dea29012",
+      "text_normalized": false,
+      "bytes": 9694715
+    },
+    "cad/stage5/SCCI_RH_reference_inspection.stl": {
+      "sha256": "5b59fe1ed7f342b4edde75bca61b152e5a4d9744d376881793865f84b954c637",
+      "text_normalized": false,
+      "bytes": 36837484
+    },
+    "cad/stage5/SCCI_RH_stage5_reference_full.FCStd": {
+      "sha256": "2b39d33d30866d3fa0e9cd9d0ad7f20405466cda20d8cbe907a66c2278f1d355",
+      "text_normalized": false,
+      "bytes": 3678508
     },
     "cad/stage5/style_reference_full.py": {
-      "sha256": "e67a69682986b51f3386e1e2c2fd77c3a8ad8798b202668ed2c9c3e6667bf8b8",
+      "sha256": "f06df7835c2a7e2f7849e6f9d1d6a34fe9269854866bba97269b229d94d0a457",
       "text_normalized": true,
-      "bytes": 3441
+      "bytes": 3445
     }
   },
   "illustrated_pdf_pages": 6,
@@ -1322,17 +1322,17 @@
     "reference_exploded": {
       "width": 1900,
       "height": 1350,
-      "sha256": "93b60c6dcb89f456bd139c5013f0c2033d82deb3bf538114e5419d6283965cc6"
+      "sha256": "48dca660333a71649f4e546656311757c88a0c5be6cf9d355641427bceb1c038"
     },
     "future_assembled": {
       "width": 1900,
       "height": 1350,
-      "sha256": "560e4aeb86e7da100118a57085c97d11f4ea89354ab3058bcbee3ca8be3de95f"
+      "sha256": "23537dcfc1c6c2269b28e9d8b1e7ecf002eca77f6cdf67cef590e12d7f59e5e6"
     },
     "future_exploded": {
       "width": 1900,
       "height": 1350,
-      "sha256": "0b900b3027a9c391703304e992a6e66e99856d360922a55c96c7d6a49790bb1d"
+      "sha256": "7720956d7b52e6958f7f63181ed40b32c8ff1512a14ec7968e1794730f9ad783"
     }
   },
   "local_markdown_links_checked": 30,

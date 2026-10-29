@@ -8,10 +8,10 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "Project ATO / Controller Carrier")
+		(title "Project SCCI RH / Controller Carrier")
 		(date "2026-10-15")
 		(rev "A / Digital modular reference")
-		(company "Project ATO / Pratham")
+		(company "Project SCCI RH / Pratham")
 		(comment 1 "Artificial electrical loads only; physical and biological qualification remain open")
 	)
 	(layers
@@ -161,7 +161,7 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "ato_controller:C_1206_3216Metric"
+	(footprint "scci_rh_controller:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "016b4c96-5d78-54d4-add6-60084c850c00")
 		(at 44.175 108.895)
@@ -309,7 +309,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:PinHeader_1x09_P2.54mm_Vertical"
+	(footprint "scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "01b4296d-4705-53d1-9740-ab9c1492a5c6")
 		(at 14.795 90.925 90)
@@ -601,7 +601,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:PinHeader_1x07_P2.54mm_Vertical"
+	(footprint "scci_rh_controller:PinHeader_1x07_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "02003683-f309-5a33-93ac-b1f49626ab86")
 		(at 112.735 39.975 90)
@@ -875,7 +875,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "033c6176-0494-5098-95aa-50fb0fced10c")
 		(at 35.115 25.245 90)
@@ -1023,7 +1023,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:C_1206_3216Metric"
+	(footprint "scci_rh_controller:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "0568c315-4cd2-5441-b1e3-79c76d5808e5")
 		(at 44.175 121.595)
@@ -1171,7 +1171,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "0a181d4b-bf63-5ed1-93ce-059d4c929923")
 		(at 59.565 32.205 90)
@@ -1319,7 +1319,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "1a8a9e7f-3743-51e8-a70b-ef958a414020")
 		(at 62.565 32.205 90)
@@ -1467,7 +1467,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:TSSOP-16_4.4x5mm_P0.65mm"
+	(footprint "scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "1e0a4be3-4ea8-54d2-914a-e15860207dd0")
 		(at 44.925 126.345)
@@ -1849,7 +1849,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:PinHeader_1x08_P2.54mm_Vertical"
+	(footprint "scci_rh_controller:PinHeader_1x08_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "1f171182-80f0-545d-b339-59cd27aa7bb1")
 		(at 50.705 68.155 90)
@@ -2132,7 +2132,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "2637b8c1-22ee-55ad-8597-37c904a3640c")
 		(at 42.615 32.205 90)
@@ -2280,7 +2280,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "2702c2b2-98eb-5347-acf4-205dd7991fd3")
 		(at 91.205 31.475)
@@ -2428,7 +2428,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:PinHeader_1x09_P2.54mm_Vertical"
+	(footprint "scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "2807652b-edbc-5495-aedf-f23c5ff52b8e")
 		(at 14.795 83.335 90)
@@ -2720,7 +2720,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:PinHeader_1x04_P2.54mm_Vertical"
+	(footprint "scci_rh_controller:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "37a83ace-7bc5-53ce-b2f6-099eec35e896")
 		(at 14.795 68.155 90)
@@ -2967,7 +2967,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:PinHeader_1x06_P2.54mm_Vertical"
+	(footprint "scci_rh_controller:PinHeader_1x06_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "399b4588-2c1f-5d3f-8ef7-93d1e00ab387")
 		(at 112.025 79.935 90)
@@ -3232,7 +3232,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:PinHeader_1x09_P2.54mm_Vertical"
+	(footprint "scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "428e0e0a-331e-50c2-8767-8f2d34fea6a7")
 		(at 14.795 75.745 90)
@@ -3524,7 +3524,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:PinHeader_1x04_P2.54mm_Vertical"
+	(footprint "scci_rh_controller:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "43cee161-222d-571e-a593-7b212b6b7843")
 		(at 50.705 83.335 90)
@@ -3771,7 +3771,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "45296572-75c3-5178-a02e-d46d3aa3a34a")
 		(at 43.825 35.475)
@@ -3919,7 +3919,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "465e3247-0dbe-5def-9007-11f4b0b3d5da")
 		(at 97.955 32.205 90)
@@ -4067,7 +4067,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "474c1512-050f-5df0-9e3a-ebae49b7641f")
 		(at 67.065 28.725)
@@ -4215,7 +4215,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:PinHeader_1x02_P2.54mm_Vertical"
+	(footprint "scci_rh_controller:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "4af32b32-ec30-593d-a29d-26bdce6a74ca")
 		(at 132.315 79.935 90)
@@ -4444,7 +4444,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "50292a21-8a2f-51f2-ba91-34116e7221ea")
 		(at 35.405 21.975)
@@ -4592,7 +4592,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:PinHeader_1x05_P2.54mm_Vertical"
+	(footprint "scci_rh_controller:PinHeader_1x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "5a37fbea-8788-54e4-9ae8-9884fd6cbee4")
 		(at 112.725 47.565 90)
@@ -4848,7 +4848,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "5c9e09b3-577d-5239-a6db-0b5552672f73")
 		(at 39.615 28.725)
@@ -4996,7 +4996,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:C_1206_3216Metric"
+	(footprint "scci_rh_controller:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "5f51937d-25ee-5365-8823-113946e3bbfe")
 		(at 111.405 67.935 90)
@@ -5252,7 +5252,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "691ead1c-01eb-5edd-9f0a-22a2cc4ef566")
 		(at 94.955 32.205 90)
@@ -5400,7 +5400,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "6a18f742-575b-533c-9905-e16afbda5d3f")
 		(at 96.165 24.225)
@@ -5656,7 +5656,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "ato_controller:C_1206_3216Metric"
+	(footprint "scci_rh_controller:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "6be1565e-de4e-5d00-9a94-9f63c64906fc")
 		(at 116.455 65.535)
@@ -5804,7 +5804,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:C_1206_3216Metric"
+	(footprint "scci_rh_controller:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "6e88a957-3fd0-54ff-b9d2-646b578d07c3")
 		(at 55.925 108.895)
@@ -5952,7 +5952,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:C_1206_3216Metric"
+	(footprint "scci_rh_controller:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "763810f6-a8eb-52bc-9371-2dcebea50163")
 		(at 67.675 108.895)
@@ -6100,7 +6100,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "7befa92c-3d42-5ce7-86e8-80aa3dcb3340")
 		(at 71.275 24.225)
@@ -6356,7 +6356,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "7f3207d6-5a9a-55cb-87fa-ec4ed573722c")
 		(at 45.615 32.205 90)
@@ -6504,7 +6504,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "89edb795-1b94-53fc-b941-85fb5cf477c8")
 		(at 114.955 71.635)
@@ -6652,7 +6652,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "8c8ab626-6558-5a4d-b642-2086eec6aa53")
 		(at 66.315 31.475)
@@ -6800,7 +6800,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "8ce1e6d3-ae72-5534-a462-4f8cb9df02ba")
 		(at 38.865 25.975)
@@ -6948,7 +6948,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "92046710-9f67-5a4f-b67e-43c5171dea83")
 		(at 32.115 25.245 90)
@@ -7096,7 +7096,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "989ee232-73ca-5a65-b794-ecb61c5e4ca0")
 		(at 96.165 35.475)
@@ -7244,7 +7244,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "9b8f3f4c-6f89-5540-aa5b-0b9b194e7e1c")
 		(at 62.855 35.475)
@@ -7500,7 +7500,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "ato_controller:TSSOP-16_4.4x5mm_P0.65mm"
+	(footprint "scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "a6c8d546-cacd-5955-883c-c4d5cbb3dacd")
 		(at 56.675 113.645)
@@ -7882,7 +7882,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "a99782aa-0109-592c-af0e-de906e186574")
 		(at 70.065 32.205 90)
@@ -8030,7 +8030,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "aa648d2b-6a3e-518e-990a-b8413b6ceb2d")
 		(at 87.455 32.205 90)
@@ -8178,7 +8178,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "aa727bff-f64f-5394-b06c-8e12948d65b1")
 		(at 111.605 72.435 90)
@@ -8326,7 +8326,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "aa9e783a-c15d-571a-9dba-a85bdb3c6e40")
 		(at 32.115 32.205 90)
@@ -8474,7 +8474,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "af312c5f-31a4-539f-836c-8a94aa0acd15")
 		(at 38.865 31.475)
@@ -8622,7 +8622,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:PinHeader_1x19_P2.54mm_Vertical"
+	(footprint "scci_rh_controller:PinHeader_1x19_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "af83d5e0-3c92-523f-8ffa-e32fce39b5ae")
 		(at 50.715 75.745 90)
@@ -9004,7 +9004,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:TSSOP-16_4.4x5mm_P0.65mm"
+	(footprint "scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "b1c69f1e-dc5a-57ce-b860-36ee70a311e2")
 		(at 68.425 113.645)
@@ -9386,7 +9386,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "b24595b5-d6d3-5888-a4bb-186fa913cdd3")
 		(at 95.435 27.975 90)
@@ -9534,7 +9534,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "b2f5eee0-c0fe-50d7-ac2a-726cfb8cfd14")
 		(at 66.315 25.975)
@@ -9682,7 +9682,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:PinHeader_1x02_P2.54mm_Vertical"
+	(footprint "scci_rh_controller:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b95024a2-3602-5a5e-8ded-7d965ddac456")
 		(at 14.795 24.795 90)
@@ -9911,7 +9911,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:PinHeader_1x10_P2.54mm_Vertical"
+	(footprint "scci_rh_controller:PinHeader_1x10_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "be419702-54e3-5ee8-b22a-a185e748eb99")
 		(at 112.725 32.385 90)
@@ -10212,7 +10212,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:BT40F_Manufacturer_66Pad"
+	(footprint "scci_rh_controller:BT40F_Manufacturer_66Pad"
 		(layer "F.Cu")
 		(uuid "be515097-3c08-5074-8039-be5c0ca5634f")
 		(at 21.525 118.745)
@@ -10832,7 +10832,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "beff4c54-3eb1-5135-9e03-5fb9981f97a1")
 		(at 73.065 32.205 90)
@@ -10980,7 +10980,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "bf30a0e0-3332-5bc7-9c66-3d5be201f00b")
 		(at 62.565 25.245 90)
@@ -11128,7 +11128,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "c45c9a79-5e3a-56ac-9a92-8700a33e13a8")
 		(at 62.855 21.975)
@@ -11276,7 +11276,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "c5adc888-e861-53b2-865c-74b494d260ec")
 		(at 91.205 25.975)
@@ -11424,7 +11424,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "c8701163-09ec-50da-bc24-7670b79893dc")
 		(at 91.955 28.725)
@@ -11572,7 +11572,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "c89f3a32-0083-53c7-8319-1449560beb3f")
 		(at 70.545 27.975 90)
@@ -11720,7 +11720,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "cf0f16b2-a8f1-5875-a0a9-0337c502c562")
 		(at 43.825 24.225)
@@ -11868,7 +11868,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "d069314b-8d19-5355-a404-740618081be8")
 		(at 71.275 35.475)
@@ -12016,7 +12016,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "d2b1803a-8dd8-596a-b62a-42faa010e1a4")
 		(at 59.565 25.245 90)
@@ -12164,7 +12164,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "d3b59581-41e6-5b71-a6ec-5d5e5516366f")
 		(at 87.745 35.475)
@@ -12312,7 +12312,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "d3d3cb9e-62d4-5414-9970-85ebe7c0b835")
 		(at 43.095 27.975 90)
@@ -12460,7 +12460,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:PinHeader_1x06_P2.54mm_Vertical"
+	(footprint "scci_rh_controller:PinHeader_1x06_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "decc55ab-c3a2-587b-bcd3-7b419bf7a864")
 		(at 112.725 24.795 90)
@@ -12725,7 +12725,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "ef60ef54-cb0b-5bf4-b0e6-aaf8ff7b503b")
 		(at 87.455 25.245 90)
@@ -12873,7 +12873,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "f3bd0b98-4a2d-5d35-9c1e-a3ede286797e")
 		(at 35.405 35.475)
@@ -13021,7 +13021,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "f5135322-1307-57ed-b148-747d9d0fc42f")
 		(at 87.745 21.975)
@@ -13169,7 +13169,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:R_0805_2012Metric"
+	(footprint "scci_rh_controller:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "f8486c85-2720-50c5-bded-984db0eaedb5")
 		(at 35.115 32.205 90)
@@ -13317,7 +13317,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:TSSOP-16_4.4x5mm_P0.65mm"
+	(footprint "scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "f95a9fe5-9990-5923-b715-cf1901fa1e77")
 		(at 44.925 113.645)
@@ -13699,7 +13699,7 @@
 			)
 		)
 	)
-	(footprint "ato_controller:C_1206_3216Metric"
+	(footprint "scci_rh_controller:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "fb31d706-93e7-549f-98f3-ca9f8b1eed37")
 		(at 115.705 68.685)
@@ -14419,7 +14419,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "ATO / CONTROLLER CARRIER"
+	(gr_text "SCCI_RH / CONTROLLER CARRIER"
 		(at 9 5 0)
 		(layer "F.SilkS")
 		(uuid "70e90aa6-6ddb-4070-b1b6-a829e03a3786")

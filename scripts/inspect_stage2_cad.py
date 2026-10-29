@@ -25,10 +25,10 @@ def features(doc):
 
 
 def inspect():
-    native=App.openDocument(str(CAD/'ATO_stage2_allocation.FCStd'))
-    step=App.newDocument('ATO_Stage2_Inspection')
+    native=App.openDocument(str(CAD/'SCCI_RH_stage2_allocation.FCStd'))
+    step=App.newDocument('SCCI_RH_Stage2_Inspection')
     try:
-        Import.insert(str(CAD/'ATO_stage2_allocation.step'),step.Name)
+        Import.insert(str(CAD/'SCCI_RH_stage2_allocation.step'),step.Name)
         native_parts=features(native);step_parts=features(step)
         by_name={o.Label:o for o in native_parts}
         expected=json.loads((CAD/'allocation-checks.json').read_text())
@@ -57,8 +57,8 @@ def inspect():
                 assert a.Shape.common(b.Shape).Volume<1e-6,(a.Label,b.Label)
         assert checked==3088 and skipped==72
         return {'date':'2026-10-08','scope':'Read-only native/STEP validity, dimensions and all nominal pair inspections; no populated/anatomical/hermetic claim',
-            'native_sha256':digest(CAD/'ATO_stage2_allocation.FCStd'),
-            'step_sha256':digest(CAD/'ATO_stage2_allocation.step'),
+            'native_sha256':digest(CAD/'SCCI_RH_stage2_allocation.FCStd'),
+            'step_sha256':digest(CAD/'SCCI_RH_stage2_allocation.step'),
             'allocation_receipt_canonical_json_sha256':canonical_json_digest(CAD/'allocation-checks.json'),
             'text_receipt_hash_convention':'Parsed JSON; sorted object keys; preserved array order; compact ASCII serialization; finite numbers. Git manifest separately binds exact committed bytes.',
             'FreeCAD_version':list(App.Version()),'native_parts':80,'STEP_parts':80,

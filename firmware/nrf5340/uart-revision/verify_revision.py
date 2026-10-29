@@ -45,23 +45,23 @@ def audit() -> dict:
             raise AssertionError(reason)
 
     receipt = json.loads((HERE / "build-receipt.json").read_text(encoding="utf-8"))
-    check(receipt["schema"] == "ato.uart-revision.target-build.v1", "dedicated revision build")
-    check(receipt["date"] == "2026-10-17", "actual review build date")
-    check(receipt["status"] == "ato_application_cross_compiled_and_linked", "completed target build")
+    check(receipt["schema"] == "scci_rh.uart-revision.target-build.v1", "dedicated revision build")
+    check(receipt["date"] == "2026-10-28" and receipt["original_design_date"] == "2026-10-17", "actual migration rebuild date and original implementation date")
+    check(receipt["status"] == "scci_rh_application_cross_compiled_and_linked", "completed target build")
     check(receipt["hardware_carrier"] == "Fanstel BT40F" and receipt["sdk_version"] == "v3.4.1", "reviewed hardware/SDK")
     check(receipt["board"] == "nrf5340dk/nrf5340/cpuapp", "application-core startup/linker")
     for key in ("incremental", "flashed_or_executed", "hardware_timing_verified",
             "physical_peripheral_behavior_verified", "network_core_image_built", "full_450k_monitor_profile_implemented"):
         check(receipt[key] is False, "bounded target evidence: " + key)
     expected_sources = {"firmware/nrf5340/uart-revision/" + p for p in
-        ("build_revision.py", "CMakeLists.txt", "src/ato_backend.c")}
-    expected_sources.update("firmware/nrf5340/" + p for p in ("app/src/main.c", "app/src/ato_backend.h",
-        "app/src/ato_pins.h", "app/prj.conf", "app/app.overlay", "core/ato_runtime.c", "core/ato_runtime.h"))
+        ("build_revision.py", "CMakeLists.txt", "src/scci_rh_backend.c")}
+    expected_sources.update("firmware/nrf5340/" + p for p in ("app/src/main.c", "app/src/scci_rh_backend.h",
+        "app/src/scci_rh_pins.h", "app/prj.conf", "app/app.overlay", "core/scci_rh_runtime.c", "core/scci_rh_runtime.h"))
     expected_sources.add("electronics/stage4/integrated-pcb/firmware-profile/bt40f.conf")
     check(set(receipt["source_sha256_lf"]) == expected_sources, "complete actual source set")
     for path, digest in receipt["source_sha256_lf"].items():
         check(sha(ROOT / path, True) == digest, "built source: " + path)
-    expected_artifacts = {"ato.elf", "ato.hex", "ato.bin", "ato.map", "build.config", "zephyr.dts",
+    expected_artifacts = {"scci_rh.elf", "scci_rh.hex", "scci_rh.bin", "scci_rh.map", "build.config", "zephyr.dts",
         "compile-records.json", "symbols.txt", "sections.txt"}
     artifacts = HERE / "artifacts"
     check({p.name for p in artifacts.iterdir() if p.is_file()} == expected_artifacts, "exact artifact set")
@@ -70,14 +70,14 @@ def audit() -> dict:
         check(sha(ROOT / path, Path(path).suffix not in (".elf", ".bin")) == digest, "target artifact: " + path)
     # Preserve the original source/image record. These are historical checks,
     # not claims that its known UART defect disappeared retrospectively.
-    old_audit = load("ato_historical_independent", ROOT / "scripts/verify_nrf5340.py")
+    old_audit = load("scci_rh_historical_independent", ROOT / "scripts/verify_nrf5340.py")
     carrier_path = ROOT / "electronics/stage4/integrated-pcb/firmware-profile/verify_bt40f.py"
-    carrier_audit = load("ato_carrier_independent", carrier_path)
+    carrier_audit = load("scci_rh_carrier_independent", carrier_path)
     old = old_audit.audit()
     carrier = carrier_audit.audit()
     check(old["passed"] and carrier["passed"], "immutable historical source/artifact evidence preserved")
-    original = (ROOT / "firmware/nrf5340/app/src/ato_backend.c").read_text(encoding="utf-8")
-    current = (HERE / "src/ato_backend.c").read_text(encoding="utf-8")
+    original = (ROOT / "firmware/nrf5340/app/src/scci_rh_backend.c").read_text(encoding="utf-8")
+    current = (HERE / "src/scci_rh_backend.c").read_text(encoding="utf-8")
     state = ("/* An interrupt/FIFO boundary is not a wire-frame boundary. Keep ownership\n"
         " * through the whole selected frame; only then may normal traffic preempt raw. */\n"
         "static uint16_t tx_frame_remaining;\nstatic bool tx_frame_raw;\n")
@@ -88,12 +88,12 @@ def audit() -> dict:
         return text[:start], text[end:]
     check(regions(current.replace(state, "")) == regions(original), "only UART callback/state changed in target backend")
     cmake = (HERE / "CMakeLists.txt").read_text(encoding="utf-8")
-    for expected in ("../app/src/main.c", "src/ato_backend.c", "../core/ato_runtime.c",
+    for expected in ("../app/src/main.c", "src/scci_rh_backend.c", "../core/scci_rh_runtime.c",
             "../app/prj.conf", "../app/app.overlay"):
         check(expected in cmake, "unchanged reviewed input reused: " + expected)
     compiled = json.loads((artifacts / "compile-records.json").read_text(encoding="utf-8"))
     compiled_by_name = {Path(r["file"].replace("\\", "/")).name: r for r in compiled}
-    check(set(compiled_by_name) == {"main.c", "ato_backend.c", "ato_runtime.c", "system_nrf5340_application.c"}, "actual compile records")
+    check(set(compiled_by_name) == {"main.c", "scci_rh_backend.c", "scci_rh_runtime.c", "system_nrf5340_application.c"}, "actual compile records")
     for name, record in compiled_by_name.items():
         check("-mcpu=cortex-m33" in record["command"] and "-mthumb" in record["command"], "M33/Thumb compile: " + name)
     # These are retained Windows build records, even when audited on Ubuntu.
@@ -101,26 +101,26 @@ def audit() -> dict:
     # source identity instead of resolving an E: path on the current OS.
     def project_compile_path(raw: str) -> str:
         windows = PureWindowsPath(raw)
-        relative = windows.relative_to(PureWindowsPath("E:/ATO"))
+        relative = windows.relative_to(PureWindowsPath("E:/SCCI_RH"))
         normalized = posixpath.normpath(relative.as_posix())
         if normalized == ".." or normalized.startswith("../"):
             raise AssertionError("compiled application path escaped project prefix")
         return normalized
     for name, relative in {
-            "ato_backend.c": "firmware/nrf5340/uart-revision/src/ato_backend.c",
+            "scci_rh_backend.c": "firmware/nrf5340/uart-revision/src/scci_rh_backend.c",
             "main.c": "firmware/nrf5340/app/src/main.c",
-            "ato_runtime.c": "firmware/nrf5340/core/ato_runtime.c"}.items():
+            "scci_rh_runtime.c": "firmware/nrf5340/core/scci_rh_runtime.c"}.items():
         check(project_compile_path(compiled_by_name[name]["file"]) == relative,
             "actual compiled repository source: " + name)
         check(relative in receipt["source_sha256_lf"], "compiled input is source-bound: " + name)
-    image = old_audit.elf_image(artifacts / "ato.elf")
-    loads, segments = carrier_audit.elf_load_bytes(artifacts / "ato.elf")
-    hexbytes, entry, records = carrier_audit.intel_hex((artifacts / "ato.hex").read_text(encoding="utf-8"))
+    image = old_audit.elf_image(artifacts / "scci_rh.elf")
+    loads, segments = carrier_audit.elf_load_bytes(artifacts / "scci_rh.elf")
+    hexbytes, entry, records = carrier_audit.intel_hex((artifacts / "scci_rh.hex").read_text(encoding="utf-8"))
     check(loads == hexbytes, "exact ELF/HEX physical load bytes")
     check(entry == image["entry"], "ELF/HEX entry parity")
     first, last = min(loads), max(loads) + 1
     check(first == 0 and last == image["flash_LOAD_extent_bytes"], "flash address extent")
-    binary = (artifacts / "ato.bin").read_bytes()
+    binary = (artifacts / "scci_rh.bin").read_bytes()
     check(binary == bytes(loads.get(address, 255) for address in range(first, last)), "BIN exact load bytes with erased gap fill")
     stack, reset = struct.unpack_from("<II", binary)
     check(0x20000000 < stack <= 0x20080000 and stack % 8 == 0, "aligned application RAM stack")
@@ -128,7 +128,7 @@ def audit() -> dict:
     regions_map = {}
     for name in ("FLASH", "RAM"):
         match = re.search(r"^" + name + r"\s+(0x[0-9a-fA-F]+)\s+(0x[0-9a-fA-F]+)",
-            (artifacts / "ato.map").read_text(encoding="utf-8"), re.MULTILINE)
+            (artifacts / "scci_rh.map").read_text(encoding="utf-8"), re.MULTILINE)
         check(match is not None, "actual linker region: " + name)
         regions_map[name] = [int(v, 16) for v in match.groups()]
     check(regions_map["FLASH"] == [0, 1048576] and last <= 1048576, "1 MiB application flash")
@@ -139,18 +139,18 @@ def audit() -> dict:
     check(configuration == prior_configuration, "unchanged BT40F hardware/peripheral Kconfig")
     check(configuration["CONFIG_SOC_HFXO_CAP_INT_VALUE_X2"] == "22", "manufacturer 11 pF HFXO")
     check(configuration.get("CONFIG_BT", "n") == "n", "radio remains disabled")
-    ato_functions = {name for name in image["functions"] if name == "main" or name.startswith("ato_")}
-    check(ato_functions == set(carrier["linked_ato_functions"]), "all policy/backend ATO functions retained")
+    scci_rh_functions = {name for name in image["functions"] if name == "main" or name.startswith("scci_rh_")}
+    check(scci_rh_functions == set(carrier["linked_scci_rh_functions"]), "all policy/backend SCCI_RH functions retained")
     subprocess.run([sys.executable, str(HERE / "tests/check_uart_framing.py")], check=True, capture_output=True, text=True)
     regression = json.loads((HERE / "uart-framing-tests.json").read_text(encoding="utf-8"))
     check(regression["passed"] and regression["historical"]["failed"] > 0, "historical defect reproduced by actual C callback")
     check(regression["current"]["failed"] == 0 and regression["current"]["scenarios"] == 1172, "current finite frame regression passed")
-    return {"schema": "ato.uart-revision.independent-verification.v1", "date": "2026-10-17",
+    return {"schema": "scci_rh.uart-revision.independent-verification.v1", "date": "2026-10-28", "original_design_date": "2026-10-17",
         "passed": True, "checks": checks, "hardware_carrier": "Fanstel BT40F",
         "flash_LOAD_extent_bytes": last, "RAM_extent_bytes": image["RAM_extent_bytes"],
         "RAM_linker_capacity_bytes": regions_map["RAM"][1], "flash_capacity_bytes": 1048576,
-        "elf_sha256": sha(artifacts / "ato.elf"), "intel_hex_records": records,
-        "load_segments": segments, "linked_ato_functions": sorted(ato_functions),
+        "elf_sha256": sha(artifacts / "scci_rh.elf"), "intel_hex_records": records,
+        "load_segments": segments, "linked_scci_rh_functions": sorted(scci_rh_functions),
         "hardware_configuration_unchanged": True, "historical_bindings_preserved": True,
         "historical_failing_host_scenarios": regression["historical"]["failed"],
         "current_passing_host_scenarios": regression["current"]["passed"],

@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage4.current-driver.connectivity.v1",
+  "schema": "scci_rh.stage4.current-driver.connectivity.v1",
   "date": "2026-10-13",
   "scope": "Native artificial-load24V3mA200us two-source driver/control slice; not PCB/analog qualification/implant",
   "parts": [
@@ -7,7 +7,7 @@
       "ref": "J1",
       "value": "QUALIFIED EXTERNAL RAILS",
       "kind": "J",
-      "footprint": "ato_drv:PinHeader_1x05_P2.54mm_Vertical",
+      "footprint": "scci_rh_drv:PinHeader_1x05_P2.54mm_Vertical",
       "nets": {
         "1": "VH_24",
         "2": "VA_15",
@@ -60,7 +60,7 @@
       "ref": "J2",
       "value": "MCU SPI / PRELOAD INHIBITED",
       "kind": "J",
-      "footprint": "ato_drv:PinHeader_1x04_P2.54mm_Vertical",
+      "footprint": "scci_rh_drv:PinHeader_1x04_P2.54mm_Vertical",
       "nets": {
         "1": "DAC_SCLK",
         "2": "DAC_SYNC_N",
@@ -106,7 +106,7 @@
       "ref": "J3",
       "value": "MCU PHASE / EXPLICIT REARM",
       "kind": "J",
-      "footprint": "ato_drv:PinHeader_1x09_P2.54mm_Vertical",
+      "footprint": "scci_rh_drv:PinHeader_1x09_P2.54mm_Vertical",
       "nets": {
         "1": "CH0_REQUEST",
         "2": "CH0_PLUS_RAW",
@@ -187,7 +187,7 @@
       "ref": "J4",
       "value": "EXTERNAL HEALTH CONTRACTS",
       "kind": "J",
-      "footprint": "ato_drv:PinHeader_1x11_P2.54mm_Vertical",
+      "footprint": "scci_rh_drv:PinHeader_1x11_P2.54mm_Vertical",
       "nets": {
         "1": "RESET_READY",
         "2": "RAILS_QUALIFIED",
@@ -282,7 +282,7 @@
       "ref": "J5",
       "value": "STATUS ONLY / NOT DELIVERY EVIDENCE",
       "kind": "J",
-      "footprint": "ato_drv:PinHeader_1x09_P2.54mm_Vertical",
+      "footprint": "scci_rh_drv:PinHeader_1x09_P2.54mm_Vertical",
       "nets": {
         "1": "CH0_RUN",
         "2": "CH0_BLOCK",
@@ -363,7 +363,7 @@
       "ref": "U1",
       "value": "DAC80502DRXR",
       "kind": "dac",
-      "footprint": "ato_drv:Texas_DRX_WSON-10_2.5x2.5mm_P0.5mm",
+      "footprint": "scci_rh_drv:Texas_DRX_WSON-10_2.5x2.5mm_P0.5mm",
       "nets": {
         "1": "VDD_5",
         "2": "CH0_VSET",
@@ -451,7 +451,7 @@
       "ref": "C1",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_5",
         "2": "GND"
@@ -483,7 +483,7 @@
       "ref": "C2",
       "value": "4.7u 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_5",
         "2": "GND"
@@ -515,7 +515,7 @@
       "ref": "C3",
       "value": "220n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "DAC_VREF",
         "2": "GND"
@@ -547,7 +547,7 @@
       "ref": "R1",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "DAC_SCLK",
         "2": "GND"
@@ -579,7 +579,7 @@
       "ref": "R2",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "DAC_SDIN",
         "2": "GND"
@@ -611,7 +611,7 @@
       "ref": "R3",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "DAC_SYNC_N",
         "2": "VDD_3V3"
@@ -643,7 +643,7 @@
       "ref": "R4",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "RESET_READY",
         "2": "GND"
@@ -675,7 +675,7 @@
       "ref": "R5",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "RAILS_QUALIFIED",
         "2": "GND"
@@ -707,7 +707,7 @@
       "ref": "U100",
       "value": "OPA192IDBVR",
       "kind": "opa",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": "CH0_SERVO",
         "2": "GND",
@@ -760,7 +760,7 @@
       "ref": "Q100",
       "value": "BSP89H6327XTSA1",
       "kind": "sink",
-      "footprint": "ato_drv:BSP89_PG-SOT223-4_DrainTab",
+      "footprint": "scci_rh_drv:BSP89_PG-SOT223-4_DrainTab",
       "nets": {
         "1": "CH0_GATE",
         "2": "CH0_SINK_D",
@@ -806,7 +806,7 @@
       "ref": "U101",
       "value": "TMUX7212PWR",
       "kind": "bridge",
-      "footprint": "ato_drv:TSSOP-16_4.4x5mm_P0.65mm",
+      "footprint": "scci_rh_drv:TSSOP-16_4.4x5mm_P0.65mm",
       "nets": {
         "1": "CH0_DIAG_P",
         "2": "CH0_A_BR",
@@ -936,7 +936,7 @@
       "ref": "U102",
       "value": "TMUX6219DGKR",
       "kind": "mux",
-      "footprint": "ato_drv:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm",
       "nets": {
         "1": "CH0_GATE_SW",
         "2": "GND",
@@ -1010,7 +1010,7 @@
       "ref": "U103",
       "value": "TMUX6219DGKR",
       "kind": "mux",
-      "footprint": "ato_drv:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm",
       "nets": {
         "1": "CH0_FB",
         "2": "CH0_SERVO",
@@ -1084,7 +1084,7 @@
       "ref": "J100",
       "value": "EXTERNAL ROUTER / MONITOR",
       "kind": "J",
-      "footprint": "ato_drv:PinHeader_1x04_P2.54mm_Vertical",
+      "footprint": "scci_rh_drv:PinHeader_1x04_P2.54mm_Vertical",
       "nets": {
         "1": "CH0_A_BR",
         "2": "CH0_B_BR",
@@ -1130,7 +1130,7 @@
       "ref": "R100",
       "value": "100R 0.1% LOW TCR",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH0_SENSE_K",
         "2": "GND"
@@ -1162,7 +1162,7 @@
       "ref": "R101",
       "value": "330R",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH0_GATE_SW",
         "2": "CH0_GATE"
@@ -1194,7 +1194,7 @@
       "ref": "R102",
       "value": "100k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH0_GATE",
         "2": "GND"
@@ -1226,7 +1226,7 @@
       "ref": "C100",
       "value": "DNP 10p C0G",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "CH0_SERVO",
         "2": "CH0_FB"
@@ -1258,7 +1258,7 @@
       "ref": "C101",
       "value": "100n 25V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VA_15",
         "2": "GND"
@@ -1290,7 +1290,7 @@
       "ref": "C102",
       "value": "100n 25V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VA_15",
         "2": "GND"
@@ -1322,7 +1322,7 @@
       "ref": "C103",
       "value": "100n 25V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VA_15",
         "2": "GND"
@@ -1354,7 +1354,7 @@
       "ref": "C104",
       "value": "100n 50V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VH_24",
         "2": "GND"
@@ -1386,7 +1386,7 @@
       "ref": "C105",
       "value": "1u 50V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VH_24",
         "2": "GND"
@@ -1418,7 +1418,7 @@
       "ref": "R103",
       "value": "22k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH0_DIAG_P",
         "2": "GND"
@@ -1450,7 +1450,7 @@
       "ref": "R104",
       "value": "22k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH0_DIAG_M",
         "2": "GND"
@@ -1482,7 +1482,7 @@
       "ref": "R105",
       "value": "22k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH0_RUN",
         "2": "GND"
@@ -1514,7 +1514,7 @@
       "ref": "U300",
       "value": "LTC6993HS6-1#TRPBF",
       "kind": "timer",
-      "footprint": "ato_drv:TSOT-23-6",
+      "footprint": "scci_rh_drv:TSOT-23-6",
       "nets": {
         "1": "CH0_REQUEST",
         "2": "GND",
@@ -1574,7 +1574,7 @@
       "ref": "U301",
       "value": "SN74LVC1G86DBVR",
       "kind": "xor",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": "CH0_PLUS_RAW",
         "2": "CH0_MINUS_RAW",
@@ -1627,7 +1627,7 @@
       "ref": "U302",
       "value": "SN74LVC1G11DBVR",
       "kind": "and3",
-      "footprint": "ato_drv:SOT-23-6",
+      "footprint": "scci_rh_drv:SOT-23-6",
       "nets": {
         "1": "CH0_MON_PERMIT",
         "2": "GND",
@@ -1687,7 +1687,7 @@
       "ref": "U303",
       "value": "SN74LVC1G11DBVR",
       "kind": "and3",
-      "footprint": "ato_drv:SOT-23-6",
+      "footprint": "scci_rh_drv:SOT-23-6",
       "nets": {
         "1": "RESET_READY",
         "2": "GND",
@@ -1747,7 +1747,7 @@
       "ref": "U304",
       "value": "SN74LVC1G08DBVR",
       "kind": "and2",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": "CH0_HEALTH_A",
         "2": "CH0_HEALTH_B",
@@ -1800,7 +1800,7 @@
       "ref": "U305",
       "value": "SN74LVC1G04DBVR",
       "kind": "inv",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": null,
         "2": "CH0_REQUEST",
@@ -1853,7 +1853,7 @@
       "ref": "U306",
       "value": "SN74LVC1G04DBVR",
       "kind": "inv",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": null,
         "2": "CH0_TIMER",
@@ -1906,7 +1906,7 @@
       "ref": "U307",
       "value": "SN74LVC1G08DBVR",
       "kind": "and2",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": "CH0_TIMER",
         "2": "CH0_REQ_N",
@@ -1959,7 +1959,7 @@
       "ref": "U308",
       "value": "SN74LVC1G04DBVR",
       "kind": "inv",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": null,
         "2": "CH0_STOP_CONSUME",
@@ -2012,7 +2012,7 @@
       "ref": "U309",
       "value": "SN74LVC1G08DBVR",
       "kind": "and2",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": "CH0_BASE_GOOD",
         "2": "CH0_STOP_N",
@@ -2065,7 +2065,7 @@
       "ref": "U310",
       "value": "SN74LVC1G11DBVR",
       "kind": "and3",
-      "footprint": "ato_drv:SOT-23-6",
+      "footprint": "scci_rh_drv:SOT-23-6",
       "nets": {
         "1": "CH0_REARM",
         "2": "GND",
@@ -2125,7 +2125,7 @@
       "ref": "U311",
       "value": "SN74LVC1G11DBVR",
       "kind": "and3",
-      "footprint": "ato_drv:SOT-23-6",
+      "footprint": "scci_rh_drv:SOT-23-6",
       "nets": {
         "1": "CH0_REARM_A",
         "2": "GND",
@@ -2185,7 +2185,7 @@
       "ref": "U312",
       "value": "SN74LVC1G04DBVR",
       "kind": "inv",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": null,
         "2": "CH0_SAFE_REARM",
@@ -2238,7 +2238,7 @@
       "ref": "U313",
       "value": "SN74LVC1G74DCUR",
       "kind": "ff",
-      "footprint": "ato_drv:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm",
       "nets": {
         "1": "GND",
         "2": "GND",
@@ -2312,7 +2312,7 @@
       "ref": "U314",
       "value": "SN74LVC1G32DBVR",
       "kind": "or",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": "CH0_TIMEOUT",
         "2": "CH0_REQUEST",
@@ -2365,7 +2365,7 @@
       "ref": "U315",
       "value": "SN74LVC1G74DCUR",
       "kind": "ff",
-      "footprint": "ato_drv:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm",
       "nets": {
         "1": "CH0_TIMER_N",
         "2": "CH0_TIMEOUT_D",
@@ -2439,7 +2439,7 @@
       "ref": "U316",
       "value": "SN74LVC1G74DCUR",
       "kind": "ff",
-      "footprint": "ato_drv:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm",
       "nets": {
         "1": "CH0_SAFE_REARM",
         "2": "CH0_PLUS_RAW",
@@ -2513,7 +2513,7 @@
       "ref": "U317",
       "value": "SN74LVC1G11DBVR",
       "kind": "and3",
-      "footprint": "ato_drv:SOT-23-6",
+      "footprint": "scci_rh_drv:SOT-23-6",
       "nets": {
         "1": "CH0_BASE_GOOD",
         "2": "GND",
@@ -2573,7 +2573,7 @@
       "ref": "U318",
       "value": "SN74LVC1G11DBVR",
       "kind": "and3",
-      "footprint": "ato_drv:SOT-23-6",
+      "footprint": "scci_rh_drv:SOT-23-6",
       "nets": {
         "1": "CH0_REQUEST",
         "2": "GND",
@@ -2633,7 +2633,7 @@
       "ref": "U319",
       "value": "SN74LVC1G08DBVR",
       "kind": "and2",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": "CH0_RUN",
         "2": "CH0_PLUS_LATCHED",
@@ -2686,7 +2686,7 @@
       "ref": "U320",
       "value": "SN74LVC1G08DBVR",
       "kind": "and2",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": "CH0_RUN",
         "2": "CH0_MINUS_LATCHED",
@@ -2739,7 +2739,7 @@
       "ref": "C300",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -2771,7 +2771,7 @@
       "ref": "C301",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -2803,7 +2803,7 @@
       "ref": "C302",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -2835,7 +2835,7 @@
       "ref": "C303",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -2867,7 +2867,7 @@
       "ref": "C304",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -2899,7 +2899,7 @@
       "ref": "C305",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -2931,7 +2931,7 @@
       "ref": "C306",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -2963,7 +2963,7 @@
       "ref": "C307",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -2995,7 +2995,7 @@
       "ref": "C308",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -3027,7 +3027,7 @@
       "ref": "C309",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -3059,7 +3059,7 @@
       "ref": "C310",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -3091,7 +3091,7 @@
       "ref": "C311",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -3123,7 +3123,7 @@
       "ref": "C312",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -3155,7 +3155,7 @@
       "ref": "C313",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -3187,7 +3187,7 @@
       "ref": "C314",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -3219,7 +3219,7 @@
       "ref": "C315",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -3251,7 +3251,7 @@
       "ref": "C316",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -3283,7 +3283,7 @@
       "ref": "C317",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -3315,7 +3315,7 @@
       "ref": "C318",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -3347,7 +3347,7 @@
       "ref": "C319",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -3379,7 +3379,7 @@
       "ref": "C320",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -3411,7 +3411,7 @@
       "ref": "R300",
       "value": "175.8k 0.1%",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH0_T_SET",
         "2": "GND"
@@ -3443,7 +3443,7 @@
       "ref": "R301",
       "value": "976k 0.1%",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "CH0_T_DIV"
@@ -3475,7 +3475,7 @@
       "ref": "R302",
       "value": "182k 0.1%",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH0_T_DIV",
         "2": "GND"
@@ -3507,7 +3507,7 @@
       "ref": "R303",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH0_REQUEST",
         "2": "GND"
@@ -3539,7 +3539,7 @@
       "ref": "R304",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH0_PLUS_RAW",
         "2": "GND"
@@ -3571,7 +3571,7 @@
       "ref": "R305",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH0_MINUS_RAW",
         "2": "GND"
@@ -3603,7 +3603,7 @@
       "ref": "R306",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH0_REARM",
         "2": "GND"
@@ -3635,7 +3635,7 @@
       "ref": "R307",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH0_MON_PERMIT",
         "2": "GND"
@@ -3667,7 +3667,7 @@
       "ref": "R308",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH0_EXT_SUP_OK",
         "2": "GND"
@@ -3699,7 +3699,7 @@
       "ref": "R309",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH0_ROUTE_LOCKED",
         "2": "GND"
@@ -3731,7 +3731,7 @@
       "ref": "R310",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH0_QUIESCENT_OK",
         "2": "GND"
@@ -3763,7 +3763,7 @@
       "ref": "U200",
       "value": "OPA192IDBVR",
       "kind": "opa",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": "CH1_SERVO",
         "2": "GND",
@@ -3816,7 +3816,7 @@
       "ref": "Q200",
       "value": "BSP89H6327XTSA1",
       "kind": "sink",
-      "footprint": "ato_drv:BSP89_PG-SOT223-4_DrainTab",
+      "footprint": "scci_rh_drv:BSP89_PG-SOT223-4_DrainTab",
       "nets": {
         "1": "CH1_GATE",
         "2": "CH1_SINK_D",
@@ -3862,7 +3862,7 @@
       "ref": "U201",
       "value": "TMUX7212PWR",
       "kind": "bridge",
-      "footprint": "ato_drv:TSSOP-16_4.4x5mm_P0.65mm",
+      "footprint": "scci_rh_drv:TSSOP-16_4.4x5mm_P0.65mm",
       "nets": {
         "1": "CH1_DIAG_P",
         "2": "CH1_A_BR",
@@ -3992,7 +3992,7 @@
       "ref": "U202",
       "value": "TMUX6219DGKR",
       "kind": "mux",
-      "footprint": "ato_drv:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm",
       "nets": {
         "1": "CH1_GATE_SW",
         "2": "GND",
@@ -4066,7 +4066,7 @@
       "ref": "U203",
       "value": "TMUX6219DGKR",
       "kind": "mux",
-      "footprint": "ato_drv:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm",
       "nets": {
         "1": "CH1_FB",
         "2": "CH1_SERVO",
@@ -4140,7 +4140,7 @@
       "ref": "J200",
       "value": "EXTERNAL ROUTER / MONITOR",
       "kind": "J",
-      "footprint": "ato_drv:PinHeader_1x04_P2.54mm_Vertical",
+      "footprint": "scci_rh_drv:PinHeader_1x04_P2.54mm_Vertical",
       "nets": {
         "1": "CH1_A_BR",
         "2": "CH1_B_BR",
@@ -4186,7 +4186,7 @@
       "ref": "R200",
       "value": "100R 0.1% LOW TCR",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH1_SENSE_K",
         "2": "GND"
@@ -4218,7 +4218,7 @@
       "ref": "R201",
       "value": "330R",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH1_GATE_SW",
         "2": "CH1_GATE"
@@ -4250,7 +4250,7 @@
       "ref": "R202",
       "value": "100k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH1_GATE",
         "2": "GND"
@@ -4282,7 +4282,7 @@
       "ref": "C200",
       "value": "DNP 10p C0G",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "CH1_SERVO",
         "2": "CH1_FB"
@@ -4314,7 +4314,7 @@
       "ref": "C201",
       "value": "100n 25V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VA_15",
         "2": "GND"
@@ -4346,7 +4346,7 @@
       "ref": "C202",
       "value": "100n 25V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VA_15",
         "2": "GND"
@@ -4378,7 +4378,7 @@
       "ref": "C203",
       "value": "100n 25V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VA_15",
         "2": "GND"
@@ -4410,7 +4410,7 @@
       "ref": "C204",
       "value": "100n 50V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VH_24",
         "2": "GND"
@@ -4442,7 +4442,7 @@
       "ref": "C205",
       "value": "1u 50V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VH_24",
         "2": "GND"
@@ -4474,7 +4474,7 @@
       "ref": "R203",
       "value": "22k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH1_DIAG_P",
         "2": "GND"
@@ -4506,7 +4506,7 @@
       "ref": "R204",
       "value": "22k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH1_DIAG_M",
         "2": "GND"
@@ -4538,7 +4538,7 @@
       "ref": "R205",
       "value": "22k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH1_RUN",
         "2": "GND"
@@ -4570,7 +4570,7 @@
       "ref": "U400",
       "value": "LTC6993HS6-1#TRPBF",
       "kind": "timer",
-      "footprint": "ato_drv:TSOT-23-6",
+      "footprint": "scci_rh_drv:TSOT-23-6",
       "nets": {
         "1": "CH1_REQUEST",
         "2": "GND",
@@ -4630,7 +4630,7 @@
       "ref": "U401",
       "value": "SN74LVC1G86DBVR",
       "kind": "xor",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": "CH1_PLUS_RAW",
         "2": "CH1_MINUS_RAW",
@@ -4683,7 +4683,7 @@
       "ref": "U402",
       "value": "SN74LVC1G11DBVR",
       "kind": "and3",
-      "footprint": "ato_drv:SOT-23-6",
+      "footprint": "scci_rh_drv:SOT-23-6",
       "nets": {
         "1": "CH1_MON_PERMIT",
         "2": "GND",
@@ -4743,7 +4743,7 @@
       "ref": "U403",
       "value": "SN74LVC1G11DBVR",
       "kind": "and3",
-      "footprint": "ato_drv:SOT-23-6",
+      "footprint": "scci_rh_drv:SOT-23-6",
       "nets": {
         "1": "RESET_READY",
         "2": "GND",
@@ -4803,7 +4803,7 @@
       "ref": "U404",
       "value": "SN74LVC1G08DBVR",
       "kind": "and2",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": "CH1_HEALTH_A",
         "2": "CH1_HEALTH_B",
@@ -4856,7 +4856,7 @@
       "ref": "U405",
       "value": "SN74LVC1G04DBVR",
       "kind": "inv",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": null,
         "2": "CH1_REQUEST",
@@ -4909,7 +4909,7 @@
       "ref": "U406",
       "value": "SN74LVC1G04DBVR",
       "kind": "inv",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": null,
         "2": "CH1_TIMER",
@@ -4962,7 +4962,7 @@
       "ref": "U407",
       "value": "SN74LVC1G08DBVR",
       "kind": "and2",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": "CH1_TIMER",
         "2": "CH1_REQ_N",
@@ -5015,7 +5015,7 @@
       "ref": "U408",
       "value": "SN74LVC1G04DBVR",
       "kind": "inv",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": null,
         "2": "CH1_STOP_CONSUME",
@@ -5068,7 +5068,7 @@
       "ref": "U409",
       "value": "SN74LVC1G08DBVR",
       "kind": "and2",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": "CH1_BASE_GOOD",
         "2": "CH1_STOP_N",
@@ -5121,7 +5121,7 @@
       "ref": "U410",
       "value": "SN74LVC1G11DBVR",
       "kind": "and3",
-      "footprint": "ato_drv:SOT-23-6",
+      "footprint": "scci_rh_drv:SOT-23-6",
       "nets": {
         "1": "CH1_REARM",
         "2": "GND",
@@ -5181,7 +5181,7 @@
       "ref": "U411",
       "value": "SN74LVC1G11DBVR",
       "kind": "and3",
-      "footprint": "ato_drv:SOT-23-6",
+      "footprint": "scci_rh_drv:SOT-23-6",
       "nets": {
         "1": "CH1_REARM_A",
         "2": "GND",
@@ -5241,7 +5241,7 @@
       "ref": "U412",
       "value": "SN74LVC1G04DBVR",
       "kind": "inv",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": null,
         "2": "CH1_SAFE_REARM",
@@ -5294,7 +5294,7 @@
       "ref": "U413",
       "value": "SN74LVC1G74DCUR",
       "kind": "ff",
-      "footprint": "ato_drv:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm",
       "nets": {
         "1": "GND",
         "2": "GND",
@@ -5368,7 +5368,7 @@
       "ref": "U414",
       "value": "SN74LVC1G32DBVR",
       "kind": "or",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": "CH1_TIMEOUT",
         "2": "CH1_REQUEST",
@@ -5421,7 +5421,7 @@
       "ref": "U415",
       "value": "SN74LVC1G74DCUR",
       "kind": "ff",
-      "footprint": "ato_drv:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm",
       "nets": {
         "1": "CH1_TIMER_N",
         "2": "CH1_TIMEOUT_D",
@@ -5495,7 +5495,7 @@
       "ref": "U416",
       "value": "SN74LVC1G74DCUR",
       "kind": "ff",
-      "footprint": "ato_drv:VSSOP-8_2.3x2mm_P0.5mm",
+      "footprint": "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm",
       "nets": {
         "1": "CH1_SAFE_REARM",
         "2": "CH1_PLUS_RAW",
@@ -5569,7 +5569,7 @@
       "ref": "U417",
       "value": "SN74LVC1G11DBVR",
       "kind": "and3",
-      "footprint": "ato_drv:SOT-23-6",
+      "footprint": "scci_rh_drv:SOT-23-6",
       "nets": {
         "1": "CH1_BASE_GOOD",
         "2": "GND",
@@ -5629,7 +5629,7 @@
       "ref": "U418",
       "value": "SN74LVC1G11DBVR",
       "kind": "and3",
-      "footprint": "ato_drv:SOT-23-6",
+      "footprint": "scci_rh_drv:SOT-23-6",
       "nets": {
         "1": "CH1_REQUEST",
         "2": "GND",
@@ -5689,7 +5689,7 @@
       "ref": "U419",
       "value": "SN74LVC1G08DBVR",
       "kind": "and2",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": "CH1_RUN",
         "2": "CH1_PLUS_LATCHED",
@@ -5742,7 +5742,7 @@
       "ref": "U420",
       "value": "SN74LVC1G08DBVR",
       "kind": "and2",
-      "footprint": "ato_drv:SOT-23-5",
+      "footprint": "scci_rh_drv:SOT-23-5",
       "nets": {
         "1": "CH1_RUN",
         "2": "CH1_MINUS_LATCHED",
@@ -5795,7 +5795,7 @@
       "ref": "C400",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -5827,7 +5827,7 @@
       "ref": "C401",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -5859,7 +5859,7 @@
       "ref": "C402",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -5891,7 +5891,7 @@
       "ref": "C403",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -5923,7 +5923,7 @@
       "ref": "C404",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -5955,7 +5955,7 @@
       "ref": "C405",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -5987,7 +5987,7 @@
       "ref": "C406",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -6019,7 +6019,7 @@
       "ref": "C407",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -6051,7 +6051,7 @@
       "ref": "C408",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -6083,7 +6083,7 @@
       "ref": "C409",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -6115,7 +6115,7 @@
       "ref": "C410",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -6147,7 +6147,7 @@
       "ref": "C411",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -6179,7 +6179,7 @@
       "ref": "C412",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -6211,7 +6211,7 @@
       "ref": "C413",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -6243,7 +6243,7 @@
       "ref": "C414",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -6275,7 +6275,7 @@
       "ref": "C415",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -6307,7 +6307,7 @@
       "ref": "C416",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -6339,7 +6339,7 @@
       "ref": "C417",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -6371,7 +6371,7 @@
       "ref": "C418",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -6403,7 +6403,7 @@
       "ref": "C419",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -6435,7 +6435,7 @@
       "ref": "C420",
       "value": "100n 10V",
       "kind": "C",
-      "footprint": "ato_drv:C_0805_2012Metric",
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "GND"
@@ -6467,7 +6467,7 @@
       "ref": "R400",
       "value": "175.8k 0.1%",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH1_T_SET",
         "2": "GND"
@@ -6499,7 +6499,7 @@
       "ref": "R401",
       "value": "976k 0.1%",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "VDD_3V3",
         "2": "CH1_T_DIV"
@@ -6531,7 +6531,7 @@
       "ref": "R402",
       "value": "182k 0.1%",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH1_T_DIV",
         "2": "GND"
@@ -6563,7 +6563,7 @@
       "ref": "R403",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH1_REQUEST",
         "2": "GND"
@@ -6595,7 +6595,7 @@
       "ref": "R404",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH1_PLUS_RAW",
         "2": "GND"
@@ -6627,7 +6627,7 @@
       "ref": "R405",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH1_MINUS_RAW",
         "2": "GND"
@@ -6659,7 +6659,7 @@
       "ref": "R406",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH1_REARM",
         "2": "GND"
@@ -6691,7 +6691,7 @@
       "ref": "R407",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH1_MON_PERMIT",
         "2": "GND"
@@ -6723,7 +6723,7 @@
       "ref": "R408",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH1_EXT_SUP_OK",
         "2": "GND"
@@ -6755,7 +6755,7 @@
       "ref": "R409",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH1_ROUTE_LOCKED",
         "2": "GND"
@@ -6787,7 +6787,7 @@
       "ref": "R410",
       "value": "10k",
       "kind": "R",
-      "footprint": "ato_drv:R_0805_2012Metric",
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
       "nets": {
         "1": "CH1_QUIESCENT_OK",
         "2": "GND"

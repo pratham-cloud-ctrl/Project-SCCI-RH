@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-Edge_Cuts.gm1",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "90bebfcd9d6aa9ea17afe2785dd99d068040f2c6d9629b78e3566d2f58b44cfe",
+  "current_sha256": "9c5cd21f2b1e6aa87fb73f0b0079119201a8e6d849ad25be2e3ff60948e2c921",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-electrical-export-bindings.json",
+      "sha256_lf": "dd59d6e765731daa7a1762469b7f3d713087851bcc6ccb6e043b8e09b86ef27e"
+    }
+  ]
+}

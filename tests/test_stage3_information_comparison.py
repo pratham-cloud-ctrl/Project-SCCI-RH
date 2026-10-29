@@ -2,7 +2,7 @@
 import unittest
 from dataclasses import fields
 import numpy as np
-from ato.stage3.motor import (MotorConfig, Observation, run_study,
+from scci_rh.stage3.motor import (MotorConfig, Observation, run_study,
                               CONDITIONS, EXTERNAL_HISTORY_CONDITIONS)
 
 

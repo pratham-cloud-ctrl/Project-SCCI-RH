@@ -13,9 +13,12 @@ import json
 from pathlib import Path
 import re
 import subprocess
+import sys
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT/'scripts'))
+from project_branding import assert_baseline_equivalence
 REPORT = ROOT / 'provenance/viewer-navigation-verification.json'
 BASELINE = '9f6cf0a4403a00549a858ae9f0cecdd9dce0c5bb'
 MUTABLE = {
@@ -121,7 +124,7 @@ def inspect():
 
     preview_path = ROOT / 'docs/explore/assets/manifest.json'
     previews = json.loads(preview_path.read_text(encoding='utf-8-sig'))
-    assert previews['schema'] == 'ato.reader-previews.v1'
+    assert previews['schema'] == 'scci_rh.reader-previews.v1'
     builder = ROOT / previews['generator']
     assert builder == ROOT / 'scripts/build_reader_previews.py'
     assert digest(builder) == previews['generator_sha256_lf']
@@ -161,11 +164,11 @@ def inspect():
         assert f'exports/{name}/isometric.png' in gallery, 'Board absent from gallery: ' + name
         assert board.name in gallery, 'Gallery lacks native layout: ' + name
         assert board.with_suffix('.kicad_sch').name in gallery, 'Gallery lacks native circuit: ' + name
-    mesh = ROOT / 'cad/stage5/future-interface/ATO_future_interface.stl'
+    mesh = ROOT / 'cad/stage5/future-interface/SCCI_RH_future_interface.stl'
     assert mesh.stat().st_size < 10_000_000, 'Future mesh exceeds documented GitHub viewer limit'
 
-    # Every old artifact remains at the same path with identical Git content. Only current reader
-    # entries and their verification metadata are permitted to change.
+    # Keep original Git identities and compare the current authorized rename;
+    # rendered/recompiled/rebound derivatives require their own exact attestation.
     baseline = []
     for row in git('ls-tree', '-r', '-z', BASELINE).split(b'\0'):
         if not row:
@@ -175,27 +178,26 @@ def inspect():
         name = name.decode('utf-8')
         assert kind == 'blob'
         if name not in MUTABLE:
-            assert (ROOT / name).is_file(), 'Released artifact missing: ' + name
             baseline.append((name, blob, mode))
-    hashes = git('hash-object', '--stdin-paths',
-                 data=('\n'.join(name for name, _, _ in baseline) + '\n').encode()).decode().splitlines()
-    assert len(hashes) == len(baseline)
-    assert all(blob == actual for (_, blob, _), actual in zip(baseline, hashes)), (
-        'Released engineering or historical source changed')
+    migration = assert_baseline_equivalence(ROOT, BASELINE, [(name, blob) for name, blob, _ in baseline])
+    assert migration['files_compared'] == len(baseline), 'Every released identity compared after brand migration'
     inventory = ''.join(f'{mode} {blob} {name}\n' for name, blob, mode in baseline)
     file_bindings['scripts/verify_viewer_navigation.py'] = digest(Path(__file__))
+    file_bindings['scripts/project_branding.py'] = digest(ROOT/'scripts/project_branding.py')
     file_bindings['.github/workflows/verify-release.yml'] = digest(ROOT / '.github/workflows/verify-release.yml')
     return {
-        'schema': 'ato.reader-navigation.v1', 'date': '2026-10-21', 'passed': True,
+        'schema': 'scci_rh.reader-navigation.v1', 'date': '2026-10-28', 'passed': True,
+        'original_reader_review_date': '2026-10-21',
         'scope': 'GitHub documentation, local links, section anchors and existing preview assets; no redesigned engineering',
         'documents': len(documents), 'local_links': local_links,
         'local_markdown_fragments': fragment_links, 'external_links_recorded': external_links,
         'unique_image_previews': len(image_paths), 'board_gallery_entries': len(board_paths),
         'reader_preview_derivatives': len(outputs),
         'reader_preview_source_bytes': source_bytes, 'reader_preview_bytes': output_bytes,
-        'git_blob_baseline': BASELINE, 'unchanged_released_files': len(baseline),
+        'git_blob_baseline': BASELINE, 'historical_released_files_compared': len(baseline),
+        'authorized_brand_migration': migration,
         'baseline_allowed_reader_and_verification_updates': sorted(MUTABLE),
-        'unchanged_inventory_sha256': hashlib.sha256(inventory.encode()).hexdigest(),
+        'original_historical_inventory_sha256': hashlib.sha256(inventory.encode()).hexdigest(),
         'future_mesh_bytes': mesh.stat().st_size, 'source_sha256_lf': file_bindings,
         'external_urls_live_checked_by_this_script': False,
         'native_geometry_or_electrical_design_changed': False,

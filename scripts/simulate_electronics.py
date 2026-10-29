@@ -1,4 +1,4 @@
-"""Reproduce ATO's electrical models, not a biological or safety validation.
+"""Reproduce SCCI_RH's electrical models, not a biological or safety validation.
 
 Requires numpy/matplotlib. Optional NGSPICE_DLL runs the included generic-device
 SPICE circuit using ngspice's shared-library API. No vendor transistor/op-amp
@@ -130,7 +130,7 @@ metrics={'model_type':'deterministic analytical circuit abstraction; not measure
                                     'not_universal':'Stored RC polarization adds to driving voltage; no universal analog current cap is claimed'},
          'load_cases':cases,'spice':{'executed':False}}
 
-SPICE='''ATO generic-device current-sink and switch test (NOT vendor macromodels)
+SPICE='''SCCI_RH generic-device current-sink and switch test (NOT vendor macromodels)
 * Matches R8/R9/R10/R11/R14/R15/Q1/Q2 and U3 A/B pin routing.
 * OPA2333 buffer/servo represented by ideal behavioral voltage sources.
 * 2N7002 is a generic level-1 NMOS; 74HC4053 is ideal Ron=70 ohm switch.
@@ -273,6 +273,6 @@ for p in manifest['parts']:
     color='#29313c' if ref.startswith(('U','Q')) else '#d2b886' if ref.startswith('J') else '#aab3bb'
     ax.add_patch(Rectangle((x-w/2,yc-h/2),w,h,facecolor=color,edgecolor='#d7dce2',lw=.6))
     ax.text(x,yc-h/2-1.1,ref,color='white',fontsize=6,ha='center',va='top')
-ax.text(40,46.5,'ATO / ANALOG REFERENCE',color='#24c4c7',fontsize=13,ha='center')
+ax.text(40,46.5,'SCCI_RH / ANALOG REFERENCE',color='#24c4c7',fontsize=13,ha='center')
 ax.text(40,2.5,'DIGITAL DESIGN / ELECTRICAL TEST LOADS ONLY',color='#eab66a',fontsize=8,ha='center')
 ax.set(xlim=(-2,82),ylim=(-2,52),aspect='equal');ax.axis('off');fig.tight_layout();save(fig,'electronics_board_overview')

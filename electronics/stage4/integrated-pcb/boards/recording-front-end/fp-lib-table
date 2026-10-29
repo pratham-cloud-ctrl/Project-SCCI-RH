@@ -1,5 +1,5 @@
 (fp_lib_table (version 7)
   (lib (name "Connector_PinHeader_2.54mm") (type "KiCad") (uri "${KIPRJMOD}/../libraries/Connector_PinHeader_2.54mm.pretty") (options "") (descr "Layout-owned exact source copper; nominal package models separately declared"))
   (lib (name "MountingHole") (type "KiCad") (uri "${KIPRJMOD}/../libraries/MountingHole.pretty") (options "") (descr "Layout-owned exact source copper; nominal package models separately declared"))
-  (lib (name "ato_afe") (type "KiCad") (uri "${KIPRJMOD}/../libraries/ato_afe.pretty") (options "") (descr "Layout-owned exact source copper; nominal package models separately declared"))
+  (lib (name "scci_rh_afe") (type "KiCad") (uri "${KIPRJMOD}/../libraries/scci_rh_afe.pretty") (options "") (descr "Layout-owned exact source copper; nominal package models separately declared"))
 )

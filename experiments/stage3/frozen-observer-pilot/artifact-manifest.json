@@ -1,16 +1,16 @@
 {
-  "schema": "ato.stage3.frozen-observer-pilot.artifact-manifest.v1",
+  "schema": "scci_rh.stage3.frozen-observer-pilot.artifact-manifest.v1",
   "hash_scope": "exact bytes; all package files except this manifest and Python bytecode caches",
   "files": [
     {
       "path": "audit.json",
-      "bytes": 1575,
-      "sha256": "3bbc4454eac2c72b669416157a3000c87fb1d33f274230e92a9b46dc70214b6b"
+      "bytes": 1579,
+      "sha256": "6caf5714fff9e8a8617596b36aa16270c46843537235e7ae2d97b68ff0065dee"
     },
     {
       "path": "preflight.json",
-      "bytes": 10747,
-      "sha256": "09a3420045af0eb80c77d7a388dd43e3229c9d133647291d874984f7f5623dc8"
+      "bytes": 10851,
+      "sha256": "fe4cb8297a2b8c63b876ad6eacf1fce56b3e9e057b7cbdd739c8e725f9dc4d92"
     },
     {
       "path": "protocol.md",
@@ -19,43 +19,43 @@
     },
     {
       "path": "raw/dependent-1250us.json.gz",
-      "bytes": 584501,
-      "sha256": "60191ac2cc3a5d26d5903ea31bd59692a103cd9f907f9f66abab4bf1f65e5630"
+      "bytes": 584681,
+      "sha256": "420cd4353b7ec062ed878e8f8e8cb14307233a8b28bd1a5b76f7cb76ee003624"
     },
     {
       "path": "raw/dependent-2500us.json.gz",
-      "bytes": 584373,
-      "sha256": "585ec9997561074ccc563ae4ad560b79b5fbe4d211412fc4301f4b66dd103aa3"
+      "bytes": 584478,
+      "sha256": "2e5a92641febca66ca25795e287996e8e8d25f8f4a2736d019c54f4432041ce9"
     },
     {
       "path": "raw/favorable-1250us.json.gz",
-      "bytes": 583879,
-      "sha256": "ab4db83be06944d5096c5a70048a34039a26f72dbdb6484d0b9ce3a511c04cc8"
+      "bytes": 584045,
+      "sha256": "813f945c44dd4f1886a987656171dc20b9d5fadff433e9ae21c57f346e7e9265"
     },
     {
       "path": "raw/favorable-2500us.json.gz",
-      "bytes": 584016,
-      "sha256": "9477f7ae7579f3428e0a0f7dc8e5cab2f6a91f3a16c0aba9221e8bde7ad8eba4"
+      "bytes": 584189,
+      "sha256": "9ead6e15da9e97cad5a165750275a1149ba192b7f5e9381b497448ee8bec4e8f"
     },
     {
       "path": "raw/harmful-1250us.json.gz",
-      "bytes": 584030,
-      "sha256": "93c06a2dae03ee4aa47b182a06b3eb76dae929bb15fa034571ef3e42891b0e72"
+      "bytes": 584208,
+      "sha256": "20c55c9e9217984ddc12ce93de6f9a0fc184979b33e09d49f2ee2c57d293a9f5"
     },
     {
       "path": "raw/harmful-2500us.json.gz",
-      "bytes": 583873,
-      "sha256": "c9be76c7036fe3f4930a9081c377db609e14f3a093dce9a5a8f13e836c7eebd4"
+      "bytes": 584049,
+      "sha256": "307c189f5a2f13d134328ad94eedd962264fce5f43eabe1f28af7c13da6ec384"
     },
     {
       "path": "raw/zero-1250us.json.gz",
-      "bytes": 583791,
-      "sha256": "55fe69392e46eb6beb9e6ec2ea074c5d9af10a68fb7cb5e63a24f65b6a2403ef"
+      "bytes": 583931,
+      "sha256": "b2c4ffbf4afb50229f80654119efa1cb388521a2498770c572afc432389f2ab1"
     },
     {
       "path": "raw/zero-2500us.json.gz",
-      "bytes": 583874,
-      "sha256": "7f736ac1dc8e86be30066864451d14dca17e6130743e04603127a9087032d749"
+      "bytes": 584086,
+      "sha256": "96369b0627dce0c01fc35ffa71336a53245c3139ddd739cbb77640ff69849ae5"
     },
     {
       "path": "README.md",
@@ -69,23 +69,23 @@
     },
     {
       "path": "root-review.json",
-      "bytes": 1482,
-      "sha256": "ef6495bef21aaf94e133d75754c118b9b1d778ee40d75b2f6fca41093d54c47f"
+      "bytes": 1486,
+      "sha256": "b1863d6787fd640d23bfe7026ec6e623da049dcaab4239db8e61756b45f12af6"
     },
     {
       "path": "study.py",
-      "bytes": 31350,
-      "sha256": "c2ec905f81057ed46286b2599b19117a280ad458306e79a2ffb137d32624e57f"
+      "bytes": 31398,
+      "sha256": "ba639be26c47ae2b5448c6feb782125ddc01db62996a71de5ec73ef616c0820a"
     },
     {
       "path": "summary.json",
-      "bytes": 48193,
-      "sha256": "ee4f989847e3eacb35e491431f9f3bac07bb4fb5baf6931781a1bd203e56d941"
+      "bytes": 48201,
+      "sha256": "edc5720c7bfb68e269f32605a3cdaf7c0e23501cbb8ca82f59c83fca025744dd"
     },
     {
       "path": "verify_study.py",
-      "bytes": 24875,
-      "sha256": "01e9567c34ab31653e749e5b9a78efedf4c12ea906fb6efbb8256312c6071f9c"
+      "bytes": 24887,
+      "sha256": "865e3eb1a0e6653df7cbcb53a1b119d3aa6691a632c0343f31f32f124a256fbe"
     }
   ]
 }

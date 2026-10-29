@@ -106,7 +106,7 @@ def main():
         assert native[ref]['nets']['5']=='AFE_P5';checks+=1
     for f in (HERE/'analog-results.json',Path(__file__)):
         hashes[f.relative_to(ROOT).as_posix()]=sha(f)
-    receipt={'schema':'ato.stage4.supervision-integration.v1','date':'2026-10-14',
+    receipt={'schema':'scci_rh.stage4.supervision-integration.v1','date':'2026-10-14',
              'wires_checked':len(rows),'pin_net_value_checks':checks,'guarded_body_terminals':18,'RHD_pin_taps':17,
              'monitor_and_driver_supervision_aliases_distinct':True,'host_to_AFE_passive_ground_bridge':False,
              'consolidated_hierarchy_or_PCB_implemented':False,'normalized_lf_sha256':hashes}

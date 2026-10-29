@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "results/stage3/cue-policy/summary.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "f4410b6221242540a1adfcf610348ee361c7dd01893521a5f2637c77970cf280",
+  "current_sha256": "cc87faa2e128ab1ec5fd92f58b23b6c2a13fd1e4c8e97afe9bb31fc99aea5169",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

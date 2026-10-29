@@ -2,8 +2,8 @@
 from dataclasses import asdict, fields, replace
 import unittest
 import numpy as np
-from ato.stage3.dynamic_response import DynamicResponseModel, DynamicResponseSpec, ResponsePosition, CompletedDose, FutureResponseFrame
-from ato.stage3.sparse_baseline import (ZeroFutureInput, SparseBaselineSpec, predict_zero_future,
+from scci_rh.stage3.dynamic_response import DynamicResponseModel, DynamicResponseSpec, ResponsePosition, CompletedDose, FutureResponseFrame
+from scci_rh.stage3.sparse_baseline import (ZeroFutureInput, SparseBaselineSpec, predict_zero_future,
                                        validate_zero_future_recording, intersect_empty_action_domains)
 
 

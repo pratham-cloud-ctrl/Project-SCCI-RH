@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "cad/stage5/harness/contract.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "c8dc7e3de1dff2462cc8972d2081dc99c28a95fdec9441250e3735f80b4deba1",
+  "current_sha256": "12fc6e33886a70f8a1ffaf7d0cb7700751df92736623596c33df8aa66f8165c9",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

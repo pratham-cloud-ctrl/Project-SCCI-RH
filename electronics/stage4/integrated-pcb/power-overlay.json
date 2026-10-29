@@ -1,13 +1,13 @@
 {
-  "schema": "ato.integrated-controller-power.v1",
+  "schema": "scci_rh.integrated-controller-power.v1",
   "date": "2026-10-15",
   "scope": "Conditional declared-load digital budget; not measured peak, runtime or thermal performance",
   "source_sha256_lf": {
-    "electronics/stage4/power-study/budget-results.json": "e104c792165eb3be423040a150ec40be7ada5268c43dff2df00a6bbe383e1f5c",
-    "electronics/stage4/transport-study/input-results.json": "01fd0a4c319e2c26f6cba746ddbed62d9af6ae53c6c0bfa2887dec3686212457",
-    "electronics/stage4/controller-carrier/connectivity.json": "95c4c7a6d2bdddc1bdd460c17c46ae8773297052adb34c1c54698af4bd33a824",
-    "electronics/stage4/integrated-pcb/firmware-profile/build-receipt.json": "a399e4cd6976671670739db8269cdee51542f26b2cfed4a2109303423ca576f2",
-    "electronics/stage4/integrated-pcb/power_overlay.py": "27c8099db47e9490abec52c82412e0bacd582558100e864e28e0181deecefb0c"
+    "electronics/stage4/power-study/budget-results.json": "441aa17d5a050180eefce0e1353abf4845451b0d9499964cb4c0d5800cb2f87b",
+    "electronics/stage4/transport-study/input-results.json": "a79a3720e0afd03c369025c2edec227b2fe43579cc64756ff78de60225ccb367",
+    "electronics/stage4/controller-carrier/connectivity.json": "02a22b65e3cd9693359a6bf48561b8945d50c59818321d8e1e548c04be9b6f76",
+    "electronics/stage4/integrated-pcb/firmware-profile/build-receipt.json": "a861101217b87e2635059fd70cfbe36d08dace06f25d29b7ddf2569b58bd525a",
+    "electronics/stage4/integrated-pcb/power_overlay.py": "ed2c15ca5a2367579aaca022553003b36bd57ddbd845215ecbd1ec79123c8c56"
   },
   "preserved_previous_results": true,
   "HOST_3V3_previous_cap_A": 0.08,

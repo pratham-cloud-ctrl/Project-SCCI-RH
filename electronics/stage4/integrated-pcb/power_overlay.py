@@ -64,7 +64,7 @@ def calculate():
                                 active_W=prev['active_W']+extra,
                                 runtime_h=battery['usable_Wh']/(prev['active_W']+extra)))
     return dict(
-        schema='ato.integrated-controller-power.v1', date='2026-10-15',
+        schema='scci_rh.integrated-controller-power.v1', date='2026-10-15',
         scope='Conditional declared-load digital budget; not measured peak, runtime or thermal performance',
         source_sha256_lf={p.relative_to(ROOT).as_posix():sha(p) for p in files},
         preserved_previous_results=True,

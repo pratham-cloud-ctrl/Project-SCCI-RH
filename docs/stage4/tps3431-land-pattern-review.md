@@ -19,7 +19,7 @@ mechanical drawing; package terminal dimensions must not be substituted for the
 board lands.
 
 The saved original source footprint is
-`electronics/stage4/supervision/ato_sup.pretty/Texas_DRB0008A_VSON8_3x3_P0.65_EP1.5x1.75.kicad_mod`.
+`electronics/stage4/supervision/scci_rh_sup.pretty/Texas_DRB0008A_VSON8_3x3_P0.65_EP1.5x1.75.kicad_mod`.
 Its pad rows were explicitly read as +/-1.1 mm, its lead-pad size as
 0.6 x 0.31 mm and its exposed pad as 1.5 x 1.75 mm. Its body outline is 3 x 3 mm.
 That original file remains frozen as historical evidence; the corrected native

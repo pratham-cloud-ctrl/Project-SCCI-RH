@@ -1,8 +1,8 @@
 {
-  "schema": "ato.stage5.independent-native-inspection.v1",
+  "schema": "scci_rh.stage5.independent-native-inspection.v1",
   "scope": "Nominal digital geometry; no fabrication, anatomy, hermetic or thermal qualification",
   "inspector": "scripts/inspect_stage5_reference.py",
-  "inspector_sha256_lf": "fda660ace613cf4d87f3accd3410815f2e1e44942d3aa9147f0407b2d18ae3dd",
+  "inspector_sha256_lf": "7ac807f7306807d9570ffde6492f723476ab092dd25c450731cdabf2ba3bf7e6",
   "FreeCAD_version": [
     "1",
     "1",
@@ -16,11 +16,11 @@
   "packages": {
     "reference": {
       "contract": "cad/stage5/reference/contract.json",
-      "contract_canonical_sha256": "6e02bb9182e470fa4b10212b1698e890d7a93990480bccb4ce6f098eeed32409",
-      "native": "cad/stage5/reference/ATO_reference_assembly.FCStd",
-      "native_sha256": "764a4e7a9ec8212fefb1c9c0deb7cab2ee76a5c9e72b2895f9199c98d0e5ae9a",
-      "step": "cad/stage5/reference/ATO_reference_assembly.step.zip",
-      "step_sha256": "74b924bd9544f1361c5aab83804da2bd12cfff4b6a9ec1a919b1d46a8fae02a1",
+      "contract_canonical_sha256": "03c3e48d2394b907d2337928ad9f8dda9af95786c0afabeeae7f5d4013e517c2",
+      "native": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
+      "native_sha256": "eb720889c30de3c15015d1a4c765cc5791eeb8b4df733da222730497acd88dd3",
+      "step": "cad/stage5/reference/SCCI_RH_reference_assembly.step.zip",
+      "step_sha256": "0c9e237ff15075d53adbe09f3feb32706e56adc8e96b9e058c383789fcfa5e27",
       "parts": [
         {
           "label": "Base",
@@ -3267,8 +3267,8 @@
         "method": "Per-solid volume, bounds, centre, full vertex geometry, face surface class/area/centre/bounds and all edge quarter samples"
       },
       "step_evidence": {
-        "sha256": "74b924bd9544f1361c5aab83804da2bd12cfff4b6a9ec1a919b1d46a8fae02a1",
-        "member": "ATO_reference_assembly.step",
+        "sha256": "0c9e237ff15075d53adbe09f3feb32706e56adc8e96b9e058c383789fcfa5e27",
+        "member": "SCCI_RH_reference_assembly.step",
         "uncompressed_sha256": "57b7729a8f73e807369791934ee8e94463ab574ed1e52c6e51e5649adfa5c54d"
       },
       "extra_exports": {
@@ -3285,8 +3285,8 @@
           "method": "Per-solid volume, bounds, centre, full vertex geometry, face surface class/area/centre/bounds and all edge quarter samples"
         },
         "exploded_step": {
-          "sha256": "3375c3cdafde31a9d93d10ab872d0ba778f9725dc68cdf11fd361e5b33e6dea4",
-          "member": "ATO_reference_exploded.step",
+          "sha256": "7abca768ce2ce2689bf4901455a9768d3678037a931a46ac5d3bcbdce8aeb405",
+          "member": "SCCI_RH_reference_exploded.step",
           "uncompressed_sha256": "5c685747a4524cf102aa36647e72396a404b974e1029fdf9557b992e57ede5e1",
           "compared_solids": 1830,
           "max_volume_error_mm3": 4.94765117764473e-10,
@@ -3552,7 +3552,7 @@
           "source_step": "electronics/stage4/integrated-pcb/exports/contact-router/populated.step",
           "source_sha256": "e7693ec304c93162fffdcfe8ea65f06528c5ac9eb483f30d89f690eccab45982",
           "source_pcb": "electronics/stage4/integrated-pcb/boards/contact-router/contact_router.kicad_pcb",
-          "source_pcb_sha256_lf": "2bf7bf8b049e4b7e27dca0bed9db88f4efab5a3944f183a16246432411ea137f",
+          "source_pcb_sha256_lf": "040fdffc12fc0de29bdbf233bf44f12246ffb3d582307ac55b75330cbbec0346",
           "translation_mm": [
             24,
             185.0,
@@ -3573,7 +3573,7 @@
           "source_step": "electronics/stage4/integrated-pcb/exports/controller-carrier/populated.step",
           "source_sha256": "45626fe2948522979ba715095dc42c84b8ec5419f2a43474908ec954be5d05f2",
           "source_pcb": "electronics/stage4/integrated-pcb/boards/controller-carrier/controller_carrier.kicad_pcb",
-          "source_pcb_sha256_lf": "ae600148f4efeadceaf92f42cf3e15e102d68e1beb5b34094e02d2593858e1f8",
+          "source_pcb_sha256_lf": "86880cccc4b28ab582e8aa62903fb25aeda830a7896317704110485c9246412e",
           "translation_mm": [
             390,
             180.0,
@@ -3594,7 +3594,7 @@
           "source_step": "electronics/stage4/integrated-pcb/exports/current-driver/populated.step",
           "source_sha256": "5f6d3b11f88a4778a733e75142d26aae26efaebebddc4dd22f601a94b9d29225",
           "source_pcb": "electronics/stage4/integrated-pcb/boards/current-driver/current_driver.kicad_pcb",
-          "source_pcb_sha256_lf": "03f6d4c71fbb8e683788def698db68f5642ea1a43801e5ed6a282f132385b63b",
+          "source_pcb_sha256_lf": "3017e903630d4de7ad98567914e51fdbd73766bab8be487a46bbf27d81e7f4ec",
           "translation_mm": [
             24,
             185.0,
@@ -3615,7 +3615,7 @@
           "source_step": "electronics/stage4/integrated-pcb/exports/monitoring-cell/populated.step",
           "source_sha256": "6b619d12130f320e515c1fea625d8bef4ea0f332f04700ac538a6309705c9c49",
           "source_pcb": "electronics/stage4/integrated-pcb/boards/monitoring-cell/monitoring_cell.kicad_pcb",
-          "source_pcb_sha256_lf": "9cc889e8f67ac0ce60b20f97a3bb0d1fa00452d4ea1f4629b78585c73eb8f242",
+          "source_pcb_sha256_lf": "ca25226e48d4c896df76f7db9dcff2ba95e9f2687a6bbecaa85266162637b60d",
           "translation_mm": [
             390,
             175.0,
@@ -3636,7 +3636,7 @@
           "source_step": "electronics/stage4/integrated-pcb/exports/monitoring-transport/populated.step",
           "source_sha256": "576a653f0ec784a6ad53c70117b10b0ae27c062a1bb314520b1fe2ec049b28ab",
           "source_pcb": "electronics/stage4/integrated-pcb/boards/monitoring-transport/monitoring_transport.kicad_pcb",
-          "source_pcb_sha256_lf": "16268c67fa59ad4475e8ada615db5697f6856f6b12ff3882aee91782becfa768",
+          "source_pcb_sha256_lf": "f2108b0a497d907e0e97e0c79b97d76968a957076fc2ffeddb2f3cfbd50e6822",
           "translation_mm": [
             390,
             170.0,
@@ -3657,7 +3657,7 @@
           "source_step": "electronics/stage4/integrated-pcb/exports/power/populated.step",
           "source_sha256": "599cf8072a973fb3b5d8fe22dd7e22243dcb98f762ddb69658814c0e0aa44dc7",
           "source_pcb": "electronics/stage4/integrated-pcb/boards/power/power.kicad_pcb",
-          "source_pcb_sha256_lf": "a91073998ec0cd46c84c4332f69324e9e428571a9307c212443e697c2a7696a5",
+          "source_pcb_sha256_lf": "8f4345ae281f760bf0ba71ccaaa1dae4c78149dfb00735ff292df8a3c270b675",
           "translation_mm": [
             24,
             215.0,
@@ -3678,7 +3678,7 @@
           "source_step": "electronics/stage4/integrated-pcb/exports/recording-front-end/populated.step",
           "source_sha256": "fbc5878132fde732e141ec2146dca31b9b2bf8581af18ab782bb5430c3975685",
           "source_pcb": "electronics/stage4/integrated-pcb/boards/recording-front-end/recording_front_end.kicad_pcb",
-          "source_pcb_sha256_lf": "584360f1b286a1b02f8adfa971225be66456e0109c77c9f2d8ab2f57f17c21a9",
+          "source_pcb_sha256_lf": "5cd64396fc8a0f562a2deb5d02d0556e189533b5a653dcac482aa238b09c664c",
           "translation_mm": [
             390,
             220.0,
@@ -3699,7 +3699,7 @@
           "source_step": "electronics/stage4/integrated-pcb/exports/supervision/populated.step",
           "source_sha256": "d29140bdda3f57c6dd43d621d389aae04ed2edef23fda52a071b5965062a39ad",
           "source_pcb": "electronics/stage4/integrated-pcb/boards/supervision/supervision.kicad_pcb",
-          "source_pcb_sha256_lf": "877e2d5643182aa68e16e77dbdd7821ee55f36b763745bb6aba7ea7a8afc3440",
+          "source_pcb_sha256_lf": "409919d0b44359008860d473d92eb6ac4944572a33c2ee322e8c331214563958",
           "translation_mm": [
             24,
             280.0,
@@ -4082,36 +4082,36 @@
     "method": "Four actual successful independent source/export phases plus separately completed exact solid-pair clearance inspection; fresh native validity, full solid coverage, each nearest-pair witness and all material pairs",
     "backend": {
       "path": "scripts/inspect_stage5_native.py",
-      "sha256_lf": "2bf92060c1df3039f024cf7c70a0ca62a7ffcd455739eccbf28504ab763f8a49",
+      "sha256_lf": "8705686a8a2efde080c1ad67868afe926c82e8c95bdec127a1ed659d4b06f75b",
       "archived_source": "provenance/stage5-inspector-sources/2bf92060c1df3039f024cf7c70a0ca62a7ffcd455739eccbf28504ab763f8a49.py.txt"
     },
     "completed_phases": [
       {
         "phase": "native-specific",
         "receipt": "provenance/stage5-reference-phases/reference-native-specific.json",
-        "sha256": "1576dd9ec56b98b14110fd2204aa94b0cc5c9474844d8ad5b0eee10aa9d85066"
+        "sha256": "711035b71125609d3b187dc62de76ca31b7bf07c2255d337f56b3b138ae76414"
       },
       {
         "phase": "nominal-step",
         "receipt": "provenance/stage5-reference-phases/reference-nominal-step.json",
-        "sha256": "c73395f5d84581ea0bc38e66f6f67d5ae590928330e86dcd9b8483b5307b6866"
+        "sha256": "e01c1b0a50881075ec3acf043431b4f7c5ad16d3bf6adac5d4a69615d8db39b0"
       },
       {
         "phase": "mechanical-step",
         "receipt": "provenance/stage5-reference-phases/reference-mechanical-step.json",
-        "sha256": "d1d016181fce873108d597ba4eda2f6df0a88350d8548e16ed05e20ae2ad26e4"
+        "sha256": "0e343df0ab8e9f572b73b538c2510b0c6b5cf845ca7eedee82d67ed8268041d5"
       },
       {
         "phase": "exploded-step",
         "receipt": "provenance/stage5-reference-phases/reference-exploded-step.json",
-        "sha256": "f799f88eb01c07f54d7ba2a09d75d9289ab05ef84c990f3a85d79ca09c9bc99d"
+        "sha256": "abab0222d7498acebc790e421a0faf2e87d44470e3e480840368e1d42561e69e"
       }
     ],
     "clearance": {
       "manifest": "provenance/stage5-reference-clearance/manifest.json",
-      "manifest_sha256": "026a72f04c9ec5a530ca20190409c20b085b3070d50852d3afab1a065a8bc2cb",
+      "manifest_sha256": "dac6b18b4f2f2aec5bf5bb75d6b87b167b71f9133d8b3e33050961904c3e311a",
       "result_path": "provenance/stage5-reference-clearance/raw-results.json",
-      "result_sha256": "e2eed1c565eb3420c04c8a28ed02d814996668c32b6f31b19ba53ed181674005"
+      "result_sha256": "32a0d1e9cf516983e75ef2a87e1c807d0d165cf55e98c631dab0dd80115cbea3"
     }
   }
 }

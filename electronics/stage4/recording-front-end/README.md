@@ -1,4 +1,4 @@
-# ATO-S4-REC-01 - protected, isolated 16-stream recording slice
+# SCCI_RH-S4-REC-01 - protected, isolated 16-stream recording slice
 
 **13 October 2026 - editable digital research design - artificial signals only**
 
@@ -12,7 +12,7 @@ seven sheets**, with local symbols and footprint snapshots, a
 [page renders](review/). Interface and four input-bank sheets use A2; the
 acquisition and reference sheets use A3 for readable printing and inspection.
 
-This supplies the recording side of ATO's spinal
+This supplies the recording side of SCCI_RH's spinal
 recording-interpretation-stimulation-feedback concept. It is a concrete
 component-and-net design, with deliberately external power and supervision
 contracts. It does not establish that the proposed electrode arrangement
@@ -69,7 +69,7 @@ board and selected capacitor contributions. That shared loading can convert
 common-mode interference into differential error.
 
 The 4.99 kohm series resistors, 10 Mohm bleeders, and added 470 pF / 2.2 nF
-capacitors are ATO design choices. Capacitors are specified provisionally as
+capacitors are SCCI_RH design choices. Capacitors are specified provisionally as
 C0G, 50 V. Exact passive manufacturer part numbers and voltage/pulse/assembly
 qualification remain open. The bleed defines a floating internal node but
 does not guarantee low DC voltage: for example, 25 nA through 10 Mohm is 0.25 V.

@@ -24,7 +24,7 @@ def finalize():
                                'exploded_native_png': 'future-exploded-native.png',
                                'native_visual_receipt': 'native-visual-receipt.json'})
     value['artifact_sha256'] = {v: digest(HERE/v) for v in value['artifacts'].values()}
-    sources = [HERE/'ato_future_features.py', HERE/'build_future_interface.py',
+    sources = [HERE/'scci_rh_future_features.py', HERE/'build_future_interface.py',
                HERE/'style_future_interface.py', HERE/'finalize_presentation.py',
                HERE/'open_future_interface.FCMacro', HERE/'open_future_interface_exploded.FCMacro',
                HERE/'OPEN_FUTURE_INTERFACE.cmd', HERE/'OPEN_FUTURE_INTERFACE_EXPLODED.cmd',

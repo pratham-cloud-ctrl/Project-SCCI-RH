@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "cad/scci_rh-presentation.blend",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "b980c5648027565e1cc142592ef4679b4c8fc9071a7733836096d01a574aa104",
+  "current_sha256": "b4fe628969a6671517a024311d8b539c035a093a14c0ec79a87f83111d7cdf5d",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-media-build.json",
+      "sha256_lf": "086216f000806c7a67bacd2250a888dee9e39b0c9fc0229a00d7f63d490a0109"
+    }
+  ]
+}

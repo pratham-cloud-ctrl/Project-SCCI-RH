@@ -2,7 +2,7 @@
   (base_design "current_driver")
   (placement
     (resolution um 10)
-    (component "ato_drv:VSSOP-8_2.3x2mm_P0.5mm"
+    (component "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm"
       (place U20103 154750 -1241750 front 0)
       (place U20202 681950 -1076650 front 0)
       (place U20203 502250 -1241750 front 0)
@@ -14,7 +14,7 @@
       (place U20415 1247750 -610750 front 0)
       (place U20316 737950 -610750 front 0)
     )
-    (component "ato_drv:SOT-23-5"
+    (component "scci_rh_drv:SOT-23-5"
       (place U20304 564650 -395450 front 0)
       (place U20409 1162250 -505350 front 0)
       (place U20306 759150 -395450 front 0)
@@ -40,7 +40,7 @@
       (place U20401 1313350 -255350 front 0)
       (place U20414 1162250 -615250 front 0)
     )
-    (component "ato_drv:C_0805_2012Metric"
+    (component "scci_rh_drv:C_0805_2012Metric"
       (place C20306 751650 -360150 front 0)
       (place C20411 1376750 -470050 front 0)
       (place C20406 1349250 -360150 front 0)
@@ -99,7 +99,7 @@
       (place C20204 581350 -1098150 front 90)
       (place C20002 154050 -274850 front 90)
     )
-    (component "ato_drv:R_0805_2012Metric"
+    (component "scci_rh_drv:R_0805_2012Metric"
       (place R20410 1309750 -497850 front 90)
       (place R20409 1464650 -247850 front 90)
       (place R20306 635150 -512850 front 90)
@@ -140,7 +140,7 @@
       (place R20003 235250 -222350 front 0)
       (place R20305 723250 -290350 front 0)
     )
-    (component "ato_drv:SOT-23-6"
+    (component "scci_rh_drv:SOT-23-6"
       (place U20311 786650 -505350 front 0)
       (place U20302 828550 -255350 front 0)
       (place U20418 1508850 -615250 front 0)
@@ -162,30 +162,30 @@
       (place H4 1710000 -1510000 front 0)
       (place H1 40000 -40000 front 0)
     )
-    (component "ato_drv:PinHeader_1x11_P2.54mm_Vertical"
+    (component "scci_rh_drv:PinHeader_1x11_P2.54mm_Vertical"
       (place J20004 147950 -534450 front 90)
     )
-    (component "ato_drv:TSSOP-16_4.4x5mm_P0.65mm"
+    (component "scci_rh_drv:TSSOP-16_4.4x5mm_P0.65mm"
       (place U20101 177050 -1105650 front 0)
       (place U20201 524550 -1105650 front 0)
     )
-    (component "ato_drv:PinHeader_1x05_P2.54mm_Vertical"
+    (component "scci_rh_drv:PinHeader_1x05_P2.54mm_Vertical"
       (place J20001 147950 -382650 front 90)
     )
-    (component "ato_drv:BSP89_PG-SOT223-4_DrainTab"
+    (component "scci_rh_drv:BSP89_PG-SOT223-4_DrainTab"
       (place Q20200 549250 -944650 front 0)
       (place Q20100 201750 -944650 front 0)
     )
-    (component "ato_drv:PinHeader_1x04_P2.54mm_Vertical"
+    (component "scci_rh_drv:PinHeader_1x04_P2.54mm_Vertical"
       (place J20200 495450 -1339950 front 90)
       (place J20100 147950 -1339950 front 90)
       (place J20002 325450 -382650 front 90)
     )
-    (component "ato_drv:PinHeader_1x09_P2.54mm_Vertical"
+    (component "scci_rh_drv:PinHeader_1x09_P2.54mm_Vertical"
       (place J20003 147950 -458550 front 90)
       (place J20005 147950 -610350 front 90)
     )
-    (component "ato_drv:Texas_DRX_WSON-10_2.5x2.5mm_P0.5mm"
+    (component "scci_rh_drv:Texas_DRX_WSON-10_2.5x2.5mm_P0.5mm"
       (place U20001 191150 -267350 front 0)
     )
   )

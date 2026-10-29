@@ -1,13 +1,13 @@
 {
-  "schema": "ato.stage3.response-domain-summary.v1",
+  "schema": "scci_rh.stage3.response-domain-summary.v1",
   "scope": "full",
   "source_identity": {
-    "src/ato/stage3/response_validation.py": "7a814113b2ebc27e55cf96ae5288eceffae39d4cbfb1fd9defaeb0b82fd780a1",
-    "src/ato/stage3/motor.py": "d86b4d091baf226475ce9f6d6e2390b65bb63752e5f50e73d42c5c3408b2323c",
-    "src/ato/stage3/acquisition.py": "bd681adefc5e82c58b449490ad14917fff307be9947de647e92aeb6c38b22f03",
-    "src/ato/stage3/electrical.py": "8a7a20702be3f3f5893e1f859f675347fa35db01dadb20ab7e64635ca8913ff0",
-    "src/ato/stage3/external_history.py": "2ec8bb81bd96066fe8f80696a0351d4407b68baabd6526e6211922abb8a4f97d",
-    "scripts/stage3_response_validation.py": "e65421b99a45e373c650fd5f594672e5d91e817798099f95174c89edbbbb4b45"
+    "src/scci_rh/stage3/response_validation.py": "ceac907a60821d1fcba2b70b62c164453fc8f0dc318f62a3c242df7b33d352b4",
+    "src/scci_rh/stage3/motor.py": "fdc83232adcd15759319a05af2204c7d3481f5da3ecf4538f152b569760c05fe",
+    "src/scci_rh/stage3/acquisition.py": "bd681adefc5e82c58b449490ad14917fff307be9947de647e92aeb6c38b22f03",
+    "src/scci_rh/stage3/electrical.py": "8a7a20702be3f3f5893e1f859f675347fa35db01dadb20ab7e64635ca8913ff0",
+    "src/scci_rh/stage3/external_history.py": "2ec8bb81bd96066fe8f80696a0351d4407b68baabd6526e6211922abb8a4f97d",
+    "scripts/stage3_response_validation.py": "219257ac1f1d26d56d32b485fbed77e8f71578d417891c3c39e52ca78f68e608"
   },
   "specification": {
     "fixed_profile": "3mA,200us/phase,24V,40Hz; whole-frame density selection",
@@ -104,7 +104,7 @@
         "heldout_response_rmse_m": 0.00026702724232980697
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             0.05847940008376249,
@@ -1243,7 +1243,7 @@
         "heldout_response_rmse_m": 0.00046430012771804877
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             0.04807475103741128,
@@ -2371,7 +2371,7 @@
         "heldout_response_rmse_m": 0.0005658674504073355
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             0.05426124621169344,
@@ -3504,7 +3504,7 @@
         "heldout_response_rmse_m": 0.0002882242795091983
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             0.042806144485293574,
@@ -4635,7 +4635,7 @@
         "heldout_response_rmse_m": 0.0002654481556862981
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             0.00017541417473724433,
@@ -5820,7 +5820,7 @@
         "heldout_response_rmse_m": 0.0004655865154233494
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             3.80504942963056e-05,
@@ -7005,7 +7005,7 @@
         "heldout_response_rmse_m": 0.0005667134949843373
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             0.0002496359988964371,
@@ -8190,7 +8190,7 @@
         "heldout_response_rmse_m": 0.00028857812110611103
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             -0.0006172225452943741,
@@ -9373,7 +9373,7 @@
         "heldout_response_rmse_m": 0.07058968052909584
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             0.0591183965038942,
@@ -10577,7 +10577,7 @@
         "heldout_response_rmse_m": 0.06021555198178443
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             0.04808390059707547,
@@ -11773,7 +11773,7 @@
         "heldout_response_rmse_m": 0.06195575769735314
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             0.054278167892092916,
@@ -12968,7 +12968,7 @@
         "heldout_response_rmse_m": 0.05486296177070493
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             0.04378220808331291,
@@ -14160,7 +14160,7 @@
         "heldout_response_rmse_m": 0.00026807809511312017
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             0.05843404311527952,
@@ -15379,7 +15379,7 @@
         "heldout_response_rmse_m": 0.00046348116604666737
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             0.048296231024302784,
@@ -16594,7 +16594,7 @@
         "heldout_response_rmse_m": 0.0005653331862145075
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             0.05418217573364148,
@@ -17809,7 +17809,7 @@
         "heldout_response_rmse_m": 0.00028801470386809457
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             0.043378962596135454,
@@ -19027,7 +19027,7 @@
         "heldout_response_rmse_m": 0.0002654481556862981
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             0.0004353465898268618,
@@ -20224,7 +20224,7 @@
         "heldout_response_rmse_m": 0.00046558651542334933
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             -0.0003764452353680013,
@@ -21421,7 +21421,7 @@
         "heldout_response_rmse_m": 0.0005667134949843373
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             0.00013289652755602463,
@@ -22618,7 +22618,7 @@
         "heldout_response_rmse_m": 0.00028857812110611103
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             -0.00031805513239998624,
@@ -23813,7 +23813,7 @@
         "heldout_response_rmse_m": 0.07058854602686027
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             0.058873749407355146,
@@ -25035,7 +25035,7 @@
         "heldout_response_rmse_m": 0.060214599153565924
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             0.04821444533497003,
@@ -26254,7 +26254,7 @@
         "heldout_response_rmse_m": 0.061954772524339466
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             0.05404627079845423,
@@ -27471,7 +27471,7 @@
         "heldout_response_rmse_m": 0.05486215992676673
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             0.04376270306169041,

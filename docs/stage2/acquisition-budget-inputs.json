@@ -1,5 +1,5 @@
 {
-  "schema_version": "ato.stage2.acquisition.inputs.v1",
+  "schema_version": "scci_rh.stage2.acquisition.inputs.v1",
   "checked_on": "2026-10-08",
   "status": "provisional_architecture_inputs_not_certified_results",
   "scope": "Digital full-system reference; no built PCB, deployed firmware, human data or implant qualification",
@@ -52,7 +52,7 @@
       -0.3,
       0.3
     ],
-    "normal_DC_and_qualification_envelopes_status": "ATO choices inside manufacturer-stated pin range; not guarantees of chronic interface stability",
+    "normal_DC_and_qualification_envelopes_status": "SCCI_RH choices inside manufacturer-stated pin range; not guarantees of chronic interface stability",
     "input_capacitance_F": 1.2e-11,
     "input_capacitance_bound_type": "manufacturer value, no min/max supplied",
     "input_noise_typical_V_rms": 2.4e-06,
@@ -412,7 +412,7 @@
     "MCU_typical_CoreMark_current_64MHz_A_at3V": 0.0036,
     "MCU_typical_CoreMark_current_128MHz_A_at3V": 0.008,
     "MCU_current_test_temperature_K": 298.15,
-    "MCU_current_test_is_actual_ATO_firmware": false,
+    "MCU_current_test_is_actual_SCCI_RH_firmware": false,
     "compute_peripherals_feature_radio_allocated_W": 0.035,
     "compute_allocation_is_guaranteed_maximum": false,
     "continuous_raw_radio_included": false,

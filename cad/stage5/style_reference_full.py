@@ -53,7 +53,7 @@ def main():
     (HERE/'harness/geometry-receipt.json').write_text(json.dumps(receipt,indent=2)+'\n')
     # The combined document copied source shapes before this presentation-only
     # operation; shape fidelity is independently rechecked after this save.
-    combined=HERE/'ATO_stage5_reference_full.FCStd'
+    combined=HERE/'SCCI_RH_stage5_reference_full.FCStd'
     doc=App.openDocument(str(combined));App.setActiveDocument(doc.Name)
     labels=[r['native_name'] for r in json.loads((HERE/'combined-assembly-receipt.json').read_text())['parts']]
     display(doc,labels)

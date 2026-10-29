@@ -1,12 +1,12 @@
 {
-  "schema": "ato.footprint-inventory.v1",
+  "schema": "scci_rh.footprint-inventory.v1",
   "scope": "Preserved source footprint dependency inventory, including missing original model references. Final populated board model assignments are audited separately in each board routing and export receipt.",
   "components": 1298,
   "distinct_patterns": 115,
   "items": {
-    "monitoring-cell/ato_s4:C_0805_2012Metric": {
-      "footprint": "ato_s4:C_0805_2012Metric",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-cell\\ato_s4.pretty\\C_0805_2012Metric.kicad_mod",
+    "monitoring-cell/scci_rh_s4:C_0805_2012Metric": {
+      "footprint": "scci_rh_s4:C_0805_2012Metric",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-cell\\scci_rh_s4.pretty\\C_0805_2012Metric.kicad_mod",
       "references": [
         "C10001",
         "C10002",
@@ -43,9 +43,9 @@
         }
       ]
     },
-    "monitoring-cell/ato_s4:PinHeader_1x03_P2.54mm_Vertical": {
-      "footprint": "ato_s4:PinHeader_1x03_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-cell\\ato_s4.pretty\\PinHeader_1x03_P2.54mm_Vertical.kicad_mod",
+    "monitoring-cell/scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical": {
+      "footprint": "scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-cell\\scci_rh_s4.pretty\\PinHeader_1x03_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J10001",
         "J10101",
@@ -59,9 +59,9 @@
         }
       ]
     },
-    "monitoring-cell/ato_s4:PinHeader_1x12_P2.54mm_Vertical": {
-      "footprint": "ato_s4:PinHeader_1x12_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-cell\\ato_s4.pretty\\PinHeader_1x12_P2.54mm_Vertical.kicad_mod",
+    "monitoring-cell/scci_rh_s4:PinHeader_1x12_P2.54mm_Vertical": {
+      "footprint": "scci_rh_s4:PinHeader_1x12_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-cell\\scci_rh_s4.pretty\\PinHeader_1x12_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J10002"
       ],
@@ -73,9 +73,9 @@
         }
       ]
     },
-    "monitoring-cell/ato_s4:PinHeader_1x05_P2.54mm_Vertical": {
-      "footprint": "ato_s4:PinHeader_1x05_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-cell\\ato_s4.pretty\\PinHeader_1x05_P2.54mm_Vertical.kicad_mod",
+    "monitoring-cell/scci_rh_s4:PinHeader_1x05_P2.54mm_Vertical": {
+      "footprint": "scci_rh_s4:PinHeader_1x05_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-cell\\scci_rh_s4.pretty\\PinHeader_1x05_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J10003"
       ],
@@ -87,9 +87,9 @@
         }
       ]
     },
-    "monitoring-cell/ato_s4:PinHeader_1x04_P2.54mm_Vertical": {
-      "footprint": "ato_s4:PinHeader_1x04_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-cell\\ato_s4.pretty\\PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
+    "monitoring-cell/scci_rh_s4:PinHeader_1x04_P2.54mm_Vertical": {
+      "footprint": "scci_rh_s4:PinHeader_1x04_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-cell\\scci_rh_s4.pretty\\PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J10004"
       ],
@@ -101,9 +101,9 @@
         }
       ]
     },
-    "monitoring-cell/ato_s4:R_0805_2012Metric": {
-      "footprint": "ato_s4:R_0805_2012Metric",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-cell\\ato_s4.pretty\\R_0805_2012Metric.kicad_mod",
+    "monitoring-cell/scci_rh_s4:R_0805_2012Metric": {
+      "footprint": "scci_rh_s4:R_0805_2012Metric",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-cell\\scci_rh_s4.pretty\\R_0805_2012Metric.kicad_mod",
       "references": [
         "R10001",
         "R10002",
@@ -133,9 +133,9 @@
         }
       ]
     },
-    "monitoring-cell/ato_s4:SOT-23-6": {
-      "footprint": "ato_s4:SOT-23-6",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-cell\\ato_s4.pretty\\SOT-23-6.kicad_mod",
+    "monitoring-cell/scci_rh_s4:SOT-23-6": {
+      "footprint": "scci_rh_s4:SOT-23-6",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-cell\\scci_rh_s4.pretty\\SOT-23-6.kicad_mod",
       "references": [
         "U10001",
         "U10105",
@@ -149,9 +149,9 @@
         }
       ]
     },
-    "monitoring-cell/ato_s4:SOT-353_SC-70-5": {
-      "footprint": "ato_s4:SOT-353_SC-70-5",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-cell\\ato_s4.pretty\\SOT-353_SC-70-5.kicad_mod",
+    "monitoring-cell/scci_rh_s4:SOT-353_SC-70-5": {
+      "footprint": "scci_rh_s4:SOT-353_SC-70-5",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-cell\\scci_rh_s4.pretty\\SOT-353_SC-70-5.kicad_mod",
       "references": [
         "U10002",
         "U10101",
@@ -167,9 +167,9 @@
         }
       ]
     },
-    "monitoring-cell/ato_s4:MSOP-10_3x3mm_P0.5mm": {
-      "footprint": "ato_s4:MSOP-10_3x3mm_P0.5mm",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-cell\\ato_s4.pretty\\MSOP-10_3x3mm_P0.5mm.kicad_mod",
+    "monitoring-cell/scci_rh_s4:MSOP-10_3x3mm_P0.5mm": {
+      "footprint": "scci_rh_s4:MSOP-10_3x3mm_P0.5mm",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-cell\\scci_rh_s4.pretty\\MSOP-10_3x3mm_P0.5mm.kicad_mod",
       "references": [
         "U10003",
         "U10103",
@@ -183,9 +183,9 @@
         }
       ]
     },
-    "monitoring-cell/ato_s4:PinHeader_1x02_P2.54mm_Vertical": {
-      "footprint": "ato_s4:PinHeader_1x02_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-cell\\ato_s4.pretty\\PinHeader_1x02_P2.54mm_Vertical.kicad_mod",
+    "monitoring-cell/scci_rh_s4:PinHeader_1x02_P2.54mm_Vertical": {
+      "footprint": "scci_rh_s4:PinHeader_1x02_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-cell\\scci_rh_s4.pretty\\PinHeader_1x02_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J10100",
         "J10200"
@@ -198,9 +198,9 @@
         }
       ]
     },
-    "monitoring-cell/ato_s4:SOIC-8_3.9x4.9mm_P1.27mm": {
-      "footprint": "ato_s4:SOIC-8_3.9x4.9mm_P1.27mm",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-cell\\ato_s4.pretty\\SOIC-8_3.9x4.9mm_P1.27mm.kicad_mod",
+    "monitoring-cell/scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm": {
+      "footprint": "scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-cell\\scci_rh_s4.pretty\\SOIC-8_3.9x4.9mm_P1.27mm.kicad_mod",
       "references": [
         "U10100",
         "U10104",
@@ -215,9 +215,9 @@
         }
       ]
     },
-    "monitoring-cell/ato_s4:VSSOP-8_2.3x2mm_P0.5mm": {
-      "footprint": "ato_s4:VSSOP-8_2.3x2mm_P0.5mm",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-cell\\ato_s4.pretty\\VSSOP-8_2.3x2mm_P0.5mm.kicad_mod",
+    "monitoring-cell/scci_rh_s4:VSSOP-8_2.3x2mm_P0.5mm": {
+      "footprint": "scci_rh_s4:VSSOP-8_2.3x2mm_P0.5mm",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-cell\\scci_rh_s4.pretty\\VSSOP-8_2.3x2mm_P0.5mm.kicad_mod",
       "references": [
         "U10106",
         "U10206"
@@ -230,9 +230,9 @@
         }
       ]
     },
-    "current-driver/ato_drv:C_0805_2012Metric": {
-      "footprint": "ato_drv:C_0805_2012Metric",
-      "source": "E:\\Project ATO\\electronics\\stage4\\current-driver\\ato_drv.pretty\\C_0805_2012Metric.kicad_mod",
+    "current-driver/scci_rh_drv:C_0805_2012Metric": {
+      "footprint": "scci_rh_drv:C_0805_2012Metric",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\current-driver\\scci_rh_drv.pretty\\C_0805_2012Metric.kicad_mod",
       "references": [
         "C20001",
         "C20002",
@@ -300,9 +300,9 @@
         }
       ]
     },
-    "current-driver/ato_drv:PinHeader_1x05_P2.54mm_Vertical": {
-      "footprint": "ato_drv:PinHeader_1x05_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\current-driver\\ato_drv.pretty\\PinHeader_1x05_P2.54mm_Vertical.kicad_mod",
+    "current-driver/scci_rh_drv:PinHeader_1x05_P2.54mm_Vertical": {
+      "footprint": "scci_rh_drv:PinHeader_1x05_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\current-driver\\scci_rh_drv.pretty\\PinHeader_1x05_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J20001"
       ],
@@ -314,9 +314,9 @@
         }
       ]
     },
-    "current-driver/ato_drv:PinHeader_1x04_P2.54mm_Vertical": {
-      "footprint": "ato_drv:PinHeader_1x04_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\current-driver\\ato_drv.pretty\\PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
+    "current-driver/scci_rh_drv:PinHeader_1x04_P2.54mm_Vertical": {
+      "footprint": "scci_rh_drv:PinHeader_1x04_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\current-driver\\scci_rh_drv.pretty\\PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J20002",
         "J20100",
@@ -330,9 +330,9 @@
         }
       ]
     },
-    "current-driver/ato_drv:PinHeader_1x09_P2.54mm_Vertical": {
-      "footprint": "ato_drv:PinHeader_1x09_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\current-driver\\ato_drv.pretty\\PinHeader_1x09_P2.54mm_Vertical.kicad_mod",
+    "current-driver/scci_rh_drv:PinHeader_1x09_P2.54mm_Vertical": {
+      "footprint": "scci_rh_drv:PinHeader_1x09_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\current-driver\\scci_rh_drv.pretty\\PinHeader_1x09_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J20003",
         "J20005"
@@ -345,9 +345,9 @@
         }
       ]
     },
-    "current-driver/ato_drv:PinHeader_1x11_P2.54mm_Vertical": {
-      "footprint": "ato_drv:PinHeader_1x11_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\current-driver\\ato_drv.pretty\\PinHeader_1x11_P2.54mm_Vertical.kicad_mod",
+    "current-driver/scci_rh_drv:PinHeader_1x11_P2.54mm_Vertical": {
+      "footprint": "scci_rh_drv:PinHeader_1x11_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\current-driver\\scci_rh_drv.pretty\\PinHeader_1x11_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J20004"
       ],
@@ -359,9 +359,9 @@
         }
       ]
     },
-    "current-driver/ato_drv:R_0805_2012Metric": {
-      "footprint": "ato_drv:R_0805_2012Metric",
-      "source": "E:\\Project ATO\\electronics\\stage4\\current-driver\\ato_drv.pretty\\R_0805_2012Metric.kicad_mod",
+    "current-driver/scci_rh_drv:R_0805_2012Metric": {
+      "footprint": "scci_rh_drv:R_0805_2012Metric",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\current-driver\\scci_rh_drv.pretty\\R_0805_2012Metric.kicad_mod",
       "references": [
         "R20001",
         "R20002",
@@ -411,9 +411,9 @@
         }
       ]
     },
-    "current-driver/ato_drv:Texas_DRX_WSON-10_2.5x2.5mm_P0.5mm": {
-      "footprint": "ato_drv:Texas_DRX_WSON-10_2.5x2.5mm_P0.5mm",
-      "source": "E:\\Project ATO\\electronics\\stage4\\current-driver\\ato_drv.pretty\\Texas_DRX_WSON-10_2.5x2.5mm_P0.5mm.kicad_mod",
+    "current-driver/scci_rh_drv:Texas_DRX_WSON-10_2.5x2.5mm_P0.5mm": {
+      "footprint": "scci_rh_drv:Texas_DRX_WSON-10_2.5x2.5mm_P0.5mm",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\current-driver\\scci_rh_drv.pretty\\Texas_DRX_WSON-10_2.5x2.5mm_P0.5mm.kicad_mod",
       "references": [
         "U20001"
       ],
@@ -425,9 +425,9 @@
         }
       ]
     },
-    "current-driver/ato_drv:BSP89_PG-SOT223-4_DrainTab": {
-      "footprint": "ato_drv:BSP89_PG-SOT223-4_DrainTab",
-      "source": "E:\\Project ATO\\electronics\\stage4\\current-driver\\ato_drv.pretty\\BSP89_PG-SOT223-4_DrainTab.kicad_mod",
+    "current-driver/scci_rh_drv:BSP89_PG-SOT223-4_DrainTab": {
+      "footprint": "scci_rh_drv:BSP89_PG-SOT223-4_DrainTab",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\current-driver\\scci_rh_drv.pretty\\BSP89_PG-SOT223-4_DrainTab.kicad_mod",
       "references": [
         "Q20100",
         "Q20200"
@@ -440,9 +440,9 @@
         }
       ]
     },
-    "current-driver/ato_drv:SOT-23-5": {
-      "footprint": "ato_drv:SOT-23-5",
-      "source": "E:\\Project ATO\\electronics\\stage4\\current-driver\\ato_drv.pretty\\SOT-23-5.kicad_mod",
+    "current-driver/scci_rh_drv:SOT-23-5": {
+      "footprint": "scci_rh_drv:SOT-23-5",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\current-driver\\scci_rh_drv.pretty\\SOT-23-5.kicad_mod",
       "references": [
         "U20100",
         "U20301",
@@ -477,9 +477,9 @@
         }
       ]
     },
-    "current-driver/ato_drv:TSSOP-16_4.4x5mm_P0.65mm": {
-      "footprint": "ato_drv:TSSOP-16_4.4x5mm_P0.65mm",
-      "source": "E:\\Project ATO\\electronics\\stage4\\current-driver\\ato_drv.pretty\\TSSOP-16_4.4x5mm_P0.65mm.kicad_mod",
+    "current-driver/scci_rh_drv:TSSOP-16_4.4x5mm_P0.65mm": {
+      "footprint": "scci_rh_drv:TSSOP-16_4.4x5mm_P0.65mm",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\current-driver\\scci_rh_drv.pretty\\TSSOP-16_4.4x5mm_P0.65mm.kicad_mod",
       "references": [
         "U20101",
         "U20201"
@@ -492,9 +492,9 @@
         }
       ]
     },
-    "current-driver/ato_drv:VSSOP-8_2.3x2mm_P0.5mm": {
-      "footprint": "ato_drv:VSSOP-8_2.3x2mm_P0.5mm",
-      "source": "E:\\Project ATO\\electronics\\stage4\\current-driver\\ato_drv.pretty\\VSSOP-8_2.3x2mm_P0.5mm.kicad_mod",
+    "current-driver/scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm": {
+      "footprint": "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\current-driver\\scci_rh_drv.pretty\\VSSOP-8_2.3x2mm_P0.5mm.kicad_mod",
       "references": [
         "U20102",
         "U20103",
@@ -515,9 +515,9 @@
         }
       ]
     },
-    "current-driver/ato_drv:TSOT-23-6": {
-      "footprint": "ato_drv:TSOT-23-6",
-      "source": "E:\\Project ATO\\electronics\\stage4\\current-driver\\ato_drv.pretty\\TSOT-23-6.kicad_mod",
+    "current-driver/scci_rh_drv:TSOT-23-6": {
+      "footprint": "scci_rh_drv:TSOT-23-6",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\current-driver\\scci_rh_drv.pretty\\TSOT-23-6.kicad_mod",
       "references": [
         "U20300",
         "U20400"
@@ -530,9 +530,9 @@
         }
       ]
     },
-    "current-driver/ato_drv:SOT-23-6": {
-      "footprint": "ato_drv:SOT-23-6",
-      "source": "E:\\Project ATO\\electronics\\stage4\\current-driver\\ato_drv.pretty\\SOT-23-6.kicad_mod",
+    "current-driver/scci_rh_drv:SOT-23-6": {
+      "footprint": "scci_rh_drv:SOT-23-6",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\current-driver\\scci_rh_drv.pretty\\SOT-23-6.kicad_mod",
       "references": [
         "U20302",
         "U20303",
@@ -555,9 +555,9 @@
         }
       ]
     },
-    "recording-front-end/ato_afe:C_0805_2012Metric": {
-      "footprint": "ato_afe:C_0805_2012Metric",
-      "source": "E:\\Project ATO\\electronics\\stage4\\recording-front-end\\ato_afe.pretty\\C_0805_2012Metric.kicad_mod",
+    "recording-front-end/scci_rh_afe:C_0805_2012Metric": {
+      "footprint": "scci_rh_afe:C_0805_2012Metric",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\recording-front-end\\scci_rh_afe.pretty\\C_0805_2012Metric.kicad_mod",
       "references": [
         "C30001",
         "C30002",
@@ -639,9 +639,9 @@
         }
       ]
     },
-    "recording-front-end/ato_afe:PinHeader_1x04_P2.54mm_Vertical": {
-      "footprint": "ato_afe:PinHeader_1x04_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\recording-front-end\\ato_afe.pretty\\PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
+    "recording-front-end/scci_rh_afe:PinHeader_1x04_P2.54mm_Vertical": {
+      "footprint": "scci_rh_afe:PinHeader_1x04_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\recording-front-end\\scci_rh_afe.pretty\\PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J30001"
       ],
@@ -653,9 +653,9 @@
         }
       ]
     },
-    "recording-front-end/ato_afe:PinHeader_1x10_P2.54mm_Vertical": {
-      "footprint": "ato_afe:PinHeader_1x10_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\recording-front-end\\ato_afe.pretty\\PinHeader_1x10_P2.54mm_Vertical.kicad_mod",
+    "recording-front-end/scci_rh_afe:PinHeader_1x10_P2.54mm_Vertical": {
+      "footprint": "scci_rh_afe:PinHeader_1x10_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\recording-front-end\\scci_rh_afe.pretty\\PinHeader_1x10_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J30002"
       ],
@@ -667,9 +667,9 @@
         }
       ]
     },
-    "recording-front-end/ato_afe:PinHeader_1x18_P2.54mm_Vertical": {
-      "footprint": "ato_afe:PinHeader_1x18_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\recording-front-end\\ato_afe.pretty\\PinHeader_1x18_P2.54mm_Vertical.kicad_mod",
+    "recording-front-end/scci_rh_afe:PinHeader_1x18_P2.54mm_Vertical": {
+      "footprint": "scci_rh_afe:PinHeader_1x18_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\recording-front-end\\scci_rh_afe.pretty\\PinHeader_1x18_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J30003"
       ],
@@ -681,9 +681,9 @@
         }
       ]
     },
-    "recording-front-end/ato_afe:R_0805_2012Metric": {
-      "footprint": "ato_afe:R_0805_2012Metric",
-      "source": "E:\\Project ATO\\electronics\\stage4\\recording-front-end\\ato_afe.pretty\\R_0805_2012Metric.kicad_mod",
+    "recording-front-end/scci_rh_afe:R_0805_2012Metric": {
+      "footprint": "scci_rh_afe:R_0805_2012Metric",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\recording-front-end\\scci_rh_afe.pretty\\R_0805_2012Metric.kicad_mod",
       "references": [
         "R30001",
         "R30002",
@@ -744,9 +744,9 @@
         }
       ]
     },
-    "recording-front-end/ato_afe:SOIC-16W_7.5x10.3mm_P1.27mm": {
-      "footprint": "ato_afe:SOIC-16W_7.5x10.3mm_P1.27mm",
-      "source": "E:\\Project ATO\\electronics\\stage4\\recording-front-end\\ato_afe.pretty\\SOIC-16W_7.5x10.3mm_P1.27mm.kicad_mod",
+    "recording-front-end/scci_rh_afe:SOIC-16W_7.5x10.3mm_P1.27mm": {
+      "footprint": "scci_rh_afe:SOIC-16W_7.5x10.3mm_P1.27mm",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\recording-front-end\\scci_rh_afe.pretty\\SOIC-16W_7.5x10.3mm_P1.27mm.kicad_mod",
       "references": [
         "U30001",
         "U30002"
@@ -759,9 +759,9 @@
         }
       ]
     },
-    "recording-front-end/ato_afe:SOT-23-5": {
-      "footprint": "ato_afe:SOT-23-5",
-      "source": "E:\\Project ATO\\electronics\\stage4\\recording-front-end\\ato_afe.pretty\\SOT-23-5.kicad_mod",
+    "recording-front-end/scci_rh_afe:SOT-23-5": {
+      "footprint": "scci_rh_afe:SOT-23-5",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\recording-front-end\\scci_rh_afe.pretty\\SOT-23-5.kicad_mod",
       "references": [
         "U30003",
         "U30004"
@@ -774,17 +774,17 @@
         }
       ]
     },
-    "recording-front-end/ato_afe:RHD2216_QFN56_8x8_P0.5_EP6.1": {
-      "footprint": "ato_afe:RHD2216_QFN56_8x8_P0.5_EP6.1",
-      "source": "E:\\Project ATO\\electronics\\stage4\\recording-front-end\\ato_afe.pretty\\RHD2216_QFN56_8x8_P0.5_EP6.1.kicad_mod",
+    "recording-front-end/scci_rh_afe:RHD2216_QFN56_8x8_P0.5_EP6.1": {
+      "footprint": "scci_rh_afe:RHD2216_QFN56_8x8_P0.5_EP6.1",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\recording-front-end\\scci_rh_afe.pretty\\RHD2216_QFN56_8x8_P0.5_EP6.1.kicad_mod",
       "references": [
         "U30010"
       ],
       "models": []
     },
-    "recording-front-end/ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6": {
-      "footprint": "ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6",
-      "source": "E:\\Project ATO\\electronics\\stage4\\recording-front-end\\ato_afe.pretty\\Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6.kicad_mod",
+    "recording-front-end/scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6": {
+      "footprint": "scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\recording-front-end\\scci_rh_afe.pretty\\Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6.kicad_mod",
       "references": [
         "U30020",
         "U30021",
@@ -794,9 +794,9 @@
       ],
       "models": []
     },
-    "recording-front-end/ato_afe:VSSOP-8_2.3x2mm_P0.5mm": {
-      "footprint": "ato_afe:VSSOP-8_2.3x2mm_P0.5mm",
-      "source": "E:\\Project ATO\\electronics\\stage4\\recording-front-end\\ato_afe.pretty\\VSSOP-8_2.3x2mm_P0.5mm.kicad_mod",
+    "recording-front-end/scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm": {
+      "footprint": "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\recording-front-end\\scci_rh_afe.pretty\\VSSOP-8_2.3x2mm_P0.5mm.kicad_mod",
       "references": [
         "U30100",
         "U30101",
@@ -824,9 +824,9 @@
         }
       ]
     },
-    "contact-router/ato_rte:PinHeader_1x03_P2.54mm_Vertical": {
-      "footprint": "ato_rte:PinHeader_1x03_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\contact-router\\ato_rte.pretty\\PinHeader_1x03_P2.54mm_Vertical.kicad_mod",
+    "contact-router/scci_rh_rte:PinHeader_1x03_P2.54mm_Vertical": {
+      "footprint": "scci_rh_rte:PinHeader_1x03_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\contact-router\\scci_rh_rte.pretty\\PinHeader_1x03_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J40001",
         "J40100",
@@ -840,9 +840,9 @@
         }
       ]
     },
-    "contact-router/ato_rte:PinHeader_1x07_P2.54mm_Vertical": {
-      "footprint": "ato_rte:PinHeader_1x07_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\contact-router\\ato_rte.pretty\\PinHeader_1x07_P2.54mm_Vertical.kicad_mod",
+    "contact-router/scci_rh_rte:PinHeader_1x07_P2.54mm_Vertical": {
+      "footprint": "scci_rh_rte:PinHeader_1x07_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\contact-router\\scci_rh_rte.pretty\\PinHeader_1x07_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J40002",
         "J40003"
@@ -855,9 +855,9 @@
         }
       ]
     },
-    "contact-router/ato_rte:PinHeader_1x10_P2.54mm_Vertical": {
-      "footprint": "ato_rte:PinHeader_1x10_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\contact-router\\ato_rte.pretty\\PinHeader_1x10_P2.54mm_Vertical.kicad_mod",
+    "contact-router/scci_rh_rte:PinHeader_1x10_P2.54mm_Vertical": {
+      "footprint": "scci_rh_rte:PinHeader_1x10_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\contact-router\\scci_rh_rte.pretty\\PinHeader_1x10_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J40004"
       ],
@@ -869,9 +869,9 @@
         }
       ]
     },
-    "contact-router/ato_rte:PinHeader_1x12_P2.54mm_Vertical": {
-      "footprint": "ato_rte:PinHeader_1x12_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\contact-router\\ato_rte.pretty\\PinHeader_1x12_P2.54mm_Vertical.kicad_mod",
+    "contact-router/scci_rh_rte:PinHeader_1x12_P2.54mm_Vertical": {
+      "footprint": "scci_rh_rte:PinHeader_1x12_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\contact-router\\scci_rh_rte.pretty\\PinHeader_1x12_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J40005"
       ],
@@ -883,9 +883,9 @@
         }
       ]
     },
-    "contact-router/ato_rte:PinHeader_1x09_P2.54mm_Vertical": {
-      "footprint": "ato_rte:PinHeader_1x09_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\contact-router\\ato_rte.pretty\\PinHeader_1x09_P2.54mm_Vertical.kicad_mod",
+    "contact-router/scci_rh_rte:PinHeader_1x09_P2.54mm_Vertical": {
+      "footprint": "scci_rh_rte:PinHeader_1x09_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\contact-router\\scci_rh_rte.pretty\\PinHeader_1x09_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J40006"
       ],
@@ -897,9 +897,9 @@
         }
       ]
     },
-    "contact-router/ato_rte:PinHeader_1x18_P2.54mm_Vertical": {
-      "footprint": "ato_rte:PinHeader_1x18_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\contact-router\\ato_rte.pretty\\PinHeader_1x18_P2.54mm_Vertical.kicad_mod",
+    "contact-router/scci_rh_rte:PinHeader_1x18_P2.54mm_Vertical": {
+      "footprint": "scci_rh_rte:PinHeader_1x18_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\contact-router\\scci_rh_rte.pretty\\PinHeader_1x18_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J40007"
       ],
@@ -911,9 +911,9 @@
         }
       ]
     },
-    "contact-router/ato_rte:C_0805_2012Metric": {
-      "footprint": "ato_rte:C_0805_2012Metric",
-      "source": "E:\\Project ATO\\electronics\\stage4\\contact-router\\ato_rte.pretty\\C_0805_2012Metric.kicad_mod",
+    "contact-router/scci_rh_rte:C_0805_2012Metric": {
+      "footprint": "scci_rh_rte:C_0805_2012Metric",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\contact-router\\scci_rh_rte.pretty\\C_0805_2012Metric.kicad_mod",
       "references": [
         "C40100",
         "C40101",
@@ -984,9 +984,9 @@
         }
       ]
     },
-    "contact-router/ato_rte:R_0805_2012Metric": {
-      "footprint": "ato_rte:R_0805_2012Metric",
-      "source": "E:\\Project ATO\\electronics\\stage4\\contact-router\\ato_rte.pretty\\R_0805_2012Metric.kicad_mod",
+    "contact-router/scci_rh_rte:R_0805_2012Metric": {
+      "footprint": "scci_rh_rte:R_0805_2012Metric",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\contact-router\\scci_rh_rte.pretty\\R_0805_2012Metric.kicad_mod",
       "references": [
         "R40100",
         "R40101",
@@ -1027,9 +1027,9 @@
         }
       ]
     },
-    "contact-router/ato_rte:TSSOP-16_4.4x5mm_P0.65mm": {
-      "footprint": "ato_rte:TSSOP-16_4.4x5mm_P0.65mm",
-      "source": "E:\\Project ATO\\electronics\\stage4\\contact-router\\ato_rte.pretty\\TSSOP-16_4.4x5mm_P0.65mm.kicad_mod",
+    "contact-router/scci_rh_rte:TSSOP-16_4.4x5mm_P0.65mm": {
+      "footprint": "scci_rh_rte:TSSOP-16_4.4x5mm_P0.65mm",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\contact-router\\scci_rh_rte.pretty\\TSSOP-16_4.4x5mm_P0.65mm.kicad_mod",
       "references": [
         "U40100",
         "U40101",
@@ -1047,9 +1047,9 @@
         }
       ]
     },
-    "contact-router/ato_rte:VSSOP-8_2.3x2mm_P0.5mm": {
-      "footprint": "ato_rte:VSSOP-8_2.3x2mm_P0.5mm",
-      "source": "E:\\Project ATO\\electronics\\stage4\\contact-router\\ato_rte.pretty\\VSSOP-8_2.3x2mm_P0.5mm.kicad_mod",
+    "contact-router/scci_rh_rte:VSSOP-8_2.3x2mm_P0.5mm": {
+      "footprint": "scci_rh_rte:VSSOP-8_2.3x2mm_P0.5mm",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\contact-router\\scci_rh_rte.pretty\\VSSOP-8_2.3x2mm_P0.5mm.kicad_mod",
       "references": [
         "U40030",
         "U40031",
@@ -1071,9 +1071,9 @@
         }
       ]
     },
-    "contact-router/ato_rte:SOT-23-6": {
-      "footprint": "ato_rte:SOT-23-6",
-      "source": "E:\\Project ATO\\electronics\\stage4\\contact-router\\ato_rte.pretty\\SOT-23-6.kicad_mod",
+    "contact-router/scci_rh_rte:SOT-23-6": {
+      "footprint": "scci_rh_rte:SOT-23-6",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\contact-router\\scci_rh_rte.pretty\\SOT-23-6.kicad_mod",
       "references": [
         "U40300",
         "U40301",
@@ -1092,9 +1092,9 @@
         }
       ]
     },
-    "contact-router/ato_rte:SOT-23-5": {
-      "footprint": "ato_rte:SOT-23-5",
-      "source": "E:\\Project ATO\\electronics\\stage4\\contact-router\\ato_rte.pretty\\SOT-23-5.kicad_mod",
+    "contact-router/scci_rh_rte:SOT-23-5": {
+      "footprint": "scci_rh_rte:SOT-23-5",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\contact-router\\scci_rh_rte.pretty\\SOT-23-5.kicad_mod",
       "references": [
         "U40302",
         "U40303",
@@ -1135,9 +1135,9 @@
         }
       ]
     },
-    "supervision/ato_sup:PinHeader_1x07_P2.54mm_Vertical": {
-      "footprint": "ato_sup:PinHeader_1x07_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\supervision\\ato_sup.pretty\\PinHeader_1x07_P2.54mm_Vertical.kicad_mod",
+    "supervision/scci_rh_sup:PinHeader_1x07_P2.54mm_Vertical": {
+      "footprint": "scci_rh_sup:PinHeader_1x07_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\supervision\\scci_rh_sup.pretty\\PinHeader_1x07_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J50001"
       ],
@@ -1149,9 +1149,9 @@
         }
       ]
     },
-    "supervision/ato_sup:PinHeader_1x06_P2.54mm_Vertical": {
-      "footprint": "ato_sup:PinHeader_1x06_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\supervision\\ato_sup.pretty\\PinHeader_1x06_P2.54mm_Vertical.kicad_mod",
+    "supervision/scci_rh_sup:PinHeader_1x06_P2.54mm_Vertical": {
+      "footprint": "scci_rh_sup:PinHeader_1x06_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\supervision\\scci_rh_sup.pretty\\PinHeader_1x06_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J50002"
       ],
@@ -1163,9 +1163,9 @@
         }
       ]
     },
-    "supervision/ato_sup:PinHeader_1x12_P2.54mm_Vertical": {
-      "footprint": "ato_sup:PinHeader_1x12_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\supervision\\ato_sup.pretty\\PinHeader_1x12_P2.54mm_Vertical.kicad_mod",
+    "supervision/scci_rh_sup:PinHeader_1x12_P2.54mm_Vertical": {
+      "footprint": "scci_rh_sup:PinHeader_1x12_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\supervision\\scci_rh_sup.pretty\\PinHeader_1x12_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J50003"
       ],
@@ -1177,9 +1177,9 @@
         }
       ]
     },
-    "supervision/ato_sup:PinHeader_1x09_P2.54mm_Vertical": {
-      "footprint": "ato_sup:PinHeader_1x09_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\supervision\\ato_sup.pretty\\PinHeader_1x09_P2.54mm_Vertical.kicad_mod",
+    "supervision/scci_rh_sup:PinHeader_1x09_P2.54mm_Vertical": {
+      "footprint": "scci_rh_sup:PinHeader_1x09_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\supervision\\scci_rh_sup.pretty\\PinHeader_1x09_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J50004"
       ],
@@ -1191,9 +1191,9 @@
         }
       ]
     },
-    "supervision/ato_sup:PinHeader_1x13_P2.54mm_Vertical": {
-      "footprint": "ato_sup:PinHeader_1x13_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\supervision\\ato_sup.pretty\\PinHeader_1x13_P2.54mm_Vertical.kicad_mod",
+    "supervision/scci_rh_sup:PinHeader_1x13_P2.54mm_Vertical": {
+      "footprint": "scci_rh_sup:PinHeader_1x13_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\supervision\\scci_rh_sup.pretty\\PinHeader_1x13_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J50005"
       ],
@@ -1205,9 +1205,9 @@
         }
       ]
     },
-    "supervision/ato_sup:PinHeader_1x05_P2.54mm_Vertical": {
-      "footprint": "ato_sup:PinHeader_1x05_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\supervision\\ato_sup.pretty\\PinHeader_1x05_P2.54mm_Vertical.kicad_mod",
+    "supervision/scci_rh_sup:PinHeader_1x05_P2.54mm_Vertical": {
+      "footprint": "scci_rh_sup:PinHeader_1x05_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\supervision\\scci_rh_sup.pretty\\PinHeader_1x05_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J50006"
       ],
@@ -1219,9 +1219,9 @@
         }
       ]
     },
-    "supervision/ato_sup:C_0805_2012Metric": {
-      "footprint": "ato_sup:C_0805_2012Metric",
-      "source": "E:\\Project ATO\\electronics\\stage4\\supervision\\ato_sup.pretty\\C_0805_2012Metric.kicad_mod",
+    "supervision/scci_rh_sup:C_0805_2012Metric": {
+      "footprint": "scci_rh_sup:C_0805_2012Metric",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\supervision\\scci_rh_sup.pretty\\C_0805_2012Metric.kicad_mod",
       "references": [
         "C50100",
         "C50101",
@@ -1392,9 +1392,9 @@
         }
       ]
     },
-    "supervision/ato_sup:PinHeader_1x18_P2.54mm_Vertical": {
-      "footprint": "ato_sup:PinHeader_1x18_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\supervision\\ato_sup.pretty\\PinHeader_1x18_P2.54mm_Vertical.kicad_mod",
+    "supervision/scci_rh_sup:PinHeader_1x18_P2.54mm_Vertical": {
+      "footprint": "scci_rh_sup:PinHeader_1x18_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\supervision\\scci_rh_sup.pretty\\PinHeader_1x18_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J50100",
         "J50101"
@@ -1407,9 +1407,9 @@
         }
       ]
     },
-    "supervision/ato_sup:R_0805_2012Metric": {
-      "footprint": "ato_sup:R_0805_2012Metric",
-      "source": "E:\\Project ATO\\electronics\\stage4\\supervision\\ato_sup.pretty\\R_0805_2012Metric.kicad_mod",
+    "supervision/scci_rh_sup:R_0805_2012Metric": {
+      "footprint": "scci_rh_sup:R_0805_2012Metric",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\supervision\\scci_rh_sup.pretty\\R_0805_2012Metric.kicad_mod",
       "references": [
         "R50100",
         "R50101",
@@ -1554,9 +1554,9 @@
         }
       ]
     },
-    "supervision/ato_sup:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6": {
-      "footprint": "ato_sup:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6",
-      "source": "E:\\Project ATO\\electronics\\stage4\\supervision\\ato_sup.pretty\\Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6.kicad_mod",
+    "supervision/scci_rh_sup:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6": {
+      "footprint": "scci_rh_sup:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\supervision\\scci_rh_sup.pretty\\Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6.kicad_mod",
       "references": [
         "U50100",
         "U50101",
@@ -1566,9 +1566,9 @@
       ],
       "models": []
     },
-    "supervision/ato_sup:SOT-23-6": {
-      "footprint": "ato_sup:SOT-23-6",
-      "source": "E:\\Project ATO\\electronics\\stage4\\supervision\\ato_sup.pretty\\SOT-23-6.kicad_mod",
+    "supervision/scci_rh_sup:SOT-23-6": {
+      "footprint": "scci_rh_sup:SOT-23-6",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\supervision\\scci_rh_sup.pretty\\SOT-23-6.kicad_mod",
       "references": [
         "U50200",
         "U50201",
@@ -1624,9 +1624,9 @@
         }
       ]
     },
-    "supervision/ato_sup:D_SOD-323": {
-      "footprint": "ato_sup:D_SOD-323",
-      "source": "E:\\Project ATO\\electronics\\stage4\\supervision\\ato_sup.pretty\\D_SOD-323.kicad_mod",
+    "supervision/scci_rh_sup:D_SOD-323": {
+      "footprint": "scci_rh_sup:D_SOD-323",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\supervision\\scci_rh_sup.pretty\\D_SOD-323.kicad_mod",
       "references": [
         "D50260",
         "D50250",
@@ -1641,9 +1641,9 @@
         }
       ]
     },
-    "supervision/ato_sup:SOT-353_SC-70-5": {
-      "footprint": "ato_sup:SOT-353_SC-70-5",
-      "source": "E:\\Project ATO\\electronics\\stage4\\supervision\\ato_sup.pretty\\SOT-353_SC-70-5.kicad_mod",
+    "supervision/scci_rh_sup:SOT-353_SC-70-5": {
+      "footprint": "scci_rh_sup:SOT-353_SC-70-5",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\supervision\\scci_rh_sup.pretty\\SOT-353_SC-70-5.kicad_mod",
       "references": [
         "U50220",
         "U50400",
@@ -1661,9 +1661,9 @@
         }
       ]
     },
-    "supervision/ato_sup:SOT-23-5": {
-      "footprint": "ato_sup:SOT-23-5",
-      "source": "E:\\Project ATO\\electronics\\stage4\\supervision\\ato_sup.pretty\\SOT-23-5.kicad_mod",
+    "supervision/scci_rh_sup:SOT-23-5": {
+      "footprint": "scci_rh_sup:SOT-23-5",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\supervision\\scci_rh_sup.pretty\\SOT-23-5.kicad_mod",
       "references": [
         "U50260",
         "U50250",
@@ -1740,17 +1740,17 @@
         }
       ]
     },
-    "supervision/ato_sup:Texas_DRB0008A_VSON8_3x3_P0.65_EP1.5x1.75": {
-      "footprint": "ato_sup:Texas_DRB0008A_VSON8_3x3_P0.65_EP1.5x1.75",
-      "source": "E:\\Project ATO\\electronics\\stage4\\supervision\\ato_sup.pretty\\Texas_DRB0008A_VSON8_3x3_P0.65_EP1.5x1.75.kicad_mod",
+    "supervision/scci_rh_sup:Texas_DRB0008A_VSON8_3x3_P0.65_EP1.5x1.75": {
+      "footprint": "scci_rh_sup:Texas_DRB0008A_VSON8_3x3_P0.65_EP1.5x1.75",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\supervision\\scci_rh_sup.pretty\\Texas_DRB0008A_VSON8_3x3_P0.65_EP1.5x1.75.kicad_mod",
       "references": [
         "U50300"
       ],
       "models": []
     },
-    "supervision/ato_sup:VSSOP-8_2.3x2mm_P0.5mm": {
-      "footprint": "ato_sup:VSSOP-8_2.3x2mm_P0.5mm",
-      "source": "E:\\Project ATO\\electronics\\stage4\\supervision\\ato_sup.pretty\\VSSOP-8_2.3x2mm_P0.5mm.kicad_mod",
+    "supervision/scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm": {
+      "footprint": "scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\supervision\\scci_rh_sup.pretty\\VSSOP-8_2.3x2mm_P0.5mm.kicad_mod",
       "references": [
         "U50301",
         "U50410",
@@ -1789,9 +1789,9 @@
         }
       ]
     },
-    "supervision/ato_sup:TSOT-23-6": {
-      "footprint": "ato_sup:TSOT-23-6",
-      "source": "E:\\Project ATO\\electronics\\stage4\\supervision\\ato_sup.pretty\\TSOT-23-6.kicad_mod",
+    "supervision/scci_rh_sup:TSOT-23-6": {
+      "footprint": "scci_rh_sup:TSOT-23-6",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\supervision\\scci_rh_sup.pretty\\TSOT-23-6.kicad_mod",
       "references": [
         "U50800",
         "U50801"
@@ -1804,9 +1804,9 @@
         }
       ]
     },
-    "supervision/ato_sup:PinHeader_1x02_P2.54mm_Vertical": {
-      "footprint": "ato_sup:PinHeader_1x02_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\supervision\\ato_sup.pretty\\PinHeader_1x02_P2.54mm_Vertical.kicad_mod",
+    "supervision/scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical": {
+      "footprint": "scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\supervision\\scci_rh_sup.pretty\\PinHeader_1x02_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J50600",
         "J50601",
@@ -1834,9 +1834,9 @@
         }
       ]
     },
-    "supervision/ato_sup:SOIC-16W_7.5x10.3mm_P1.27mm": {
-      "footprint": "ato_sup:SOIC-16W_7.5x10.3mm_P1.27mm",
-      "source": "E:\\Project ATO\\electronics\\stage4\\supervision\\ato_sup.pretty\\SOIC-16W_7.5x10.3mm_P1.27mm.kicad_mod",
+    "supervision/scci_rh_sup:SOIC-16W_7.5x10.3mm_P1.27mm": {
+      "footprint": "scci_rh_sup:SOIC-16W_7.5x10.3mm_P1.27mm",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\supervision\\scci_rh_sup.pretty\\SOIC-16W_7.5x10.3mm_P1.27mm.kicad_mod",
       "references": [
         "U50710"
       ],
@@ -1848,9 +1848,9 @@
         }
       ]
     },
-    "power/ato_power:PinHeader_1x02_P2.54mm_Vertical": {
-      "footprint": "ato_power:PinHeader_1x02_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\power\\ato_power.pretty\\PinHeader_1x02_P2.54mm_Vertical.kicad_mod",
+    "power/scci_rh_power:PinHeader_1x02_P2.54mm_Vertical": {
+      "footprint": "scci_rh_power:PinHeader_1x02_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\power\\scci_rh_power.pretty\\PinHeader_1x02_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J60001",
         "SW60001"
@@ -1863,9 +1863,9 @@
         }
       ]
     },
-    "power/ato_power:PinHeader_1x12_P2.54mm_Vertical": {
-      "footprint": "ato_power:PinHeader_1x12_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\power\\ato_power.pretty\\PinHeader_1x12_P2.54mm_Vertical.kicad_mod",
+    "power/scci_rh_power:PinHeader_1x12_P2.54mm_Vertical": {
+      "footprint": "scci_rh_power:PinHeader_1x12_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\power\\scci_rh_power.pretty\\PinHeader_1x12_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J60002"
       ],
@@ -1877,9 +1877,9 @@
         }
       ]
     },
-    "power/ato_power:PinHeader_1x07_P2.54mm_Vertical": {
-      "footprint": "ato_power:PinHeader_1x07_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\power\\ato_power.pretty\\PinHeader_1x07_P2.54mm_Vertical.kicad_mod",
+    "power/scci_rh_power:PinHeader_1x07_P2.54mm_Vertical": {
+      "footprint": "scci_rh_power:PinHeader_1x07_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\power\\scci_rh_power.pretty\\PinHeader_1x07_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J60003"
       ],
@@ -1891,9 +1891,9 @@
         }
       ]
     },
-    "power/ato_power:PinHeader_1x04_P2.54mm_Vertical": {
-      "footprint": "ato_power:PinHeader_1x04_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\power\\ato_power.pretty\\PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
+    "power/scci_rh_power:PinHeader_1x04_P2.54mm_Vertical": {
+      "footprint": "scci_rh_power:PinHeader_1x04_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\power\\scci_rh_power.pretty\\PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J60004"
       ],
@@ -1905,9 +1905,9 @@
         }
       ]
     },
-    "power/ato_power:PinHeader_1x05_P2.54mm_Vertical": {
-      "footprint": "ato_power:PinHeader_1x05_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\power\\ato_power.pretty\\PinHeader_1x05_P2.54mm_Vertical.kicad_mod",
+    "power/scci_rh_power:PinHeader_1x05_P2.54mm_Vertical": {
+      "footprint": "scci_rh_power:PinHeader_1x05_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\power\\scci_rh_power.pretty\\PinHeader_1x05_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J60005"
       ],
@@ -1919,9 +1919,9 @@
         }
       ]
     },
-    "power/ato_power:PinHeader_1x03_P2.54mm_Vertical": {
-      "footprint": "ato_power:PinHeader_1x03_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\power\\ato_power.pretty\\PinHeader_1x03_P2.54mm_Vertical.kicad_mod",
+    "power/scci_rh_power:PinHeader_1x03_P2.54mm_Vertical": {
+      "footprint": "scci_rh_power:PinHeader_1x03_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\power\\scci_rh_power.pretty\\PinHeader_1x03_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J60006",
         "J60410",
@@ -1936,9 +1936,9 @@
         }
       ]
     },
-    "power/ato_power:C_1206_3216Metric": {
-      "footprint": "ato_power:C_1206_3216Metric",
-      "source": "E:\\Project ATO\\electronics\\stage4\\power\\ato_power.pretty\\C_1206_3216Metric.kicad_mod",
+    "power/scci_rh_power:C_1206_3216Metric": {
+      "footprint": "scci_rh_power:C_1206_3216Metric",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\power\\scci_rh_power.pretty\\C_1206_3216Metric.kicad_mod",
       "references": [
         "C60001",
         "C60002",
@@ -2000,9 +2000,9 @@
         }
       ]
     },
-    "power/ato_power:D_SMC": {
-      "footprint": "ato_power:D_SMC",
-      "source": "E:\\Project ATO\\electronics\\stage4\\power\\ato_power.pretty\\D_SMC.kicad_mod",
+    "power/scci_rh_power:D_SMC": {
+      "footprint": "scci_rh_power:D_SMC",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\power\\scci_rh_power.pretty\\D_SMC.kicad_mod",
       "references": [
         "D60001"
       ],
@@ -2014,9 +2014,9 @@
         }
       ]
     },
-    "power/ato_power:Fuse_1206_3216Metric": {
-      "footprint": "ato_power:Fuse_1206_3216Metric",
-      "source": "E:\\Project ATO\\electronics\\stage4\\power\\ato_power.pretty\\Fuse_1206_3216Metric.kicad_mod",
+    "power/scci_rh_power:Fuse_1206_3216Metric": {
+      "footprint": "scci_rh_power:Fuse_1206_3216Metric",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\power\\scci_rh_power.pretty\\Fuse_1206_3216Metric.kicad_mod",
       "references": [
         "F60001"
       ],
@@ -2028,9 +2028,9 @@
         }
       ]
     },
-    "power/ato_power:L_Bourns_SRP5030T": {
-      "footprint": "ato_power:L_Bourns_SRP5030T",
-      "source": "E:\\Project ATO\\electronics\\stage4\\power\\ato_power.pretty\\L_Bourns_SRP5030T.kicad_mod",
+    "power/scci_rh_power:L_Bourns_SRP5030T": {
+      "footprint": "scci_rh_power:L_Bourns_SRP5030T",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\power\\scci_rh_power.pretty\\L_Bourns_SRP5030T.kicad_mod",
       "references": [
         "L60100",
         "L60101",
@@ -2047,9 +2047,9 @@
         }
       ]
     },
-    "power/ato_power:R_0805_2012Metric": {
-      "footprint": "ato_power:R_0805_2012Metric",
-      "source": "E:\\Project ATO\\electronics\\stage4\\power\\ato_power.pretty\\R_0805_2012Metric.kicad_mod",
+    "power/scci_rh_power:R_0805_2012Metric": {
+      "footprint": "scci_rh_power:R_0805_2012Metric",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\power\\scci_rh_power.pretty\\R_0805_2012Metric.kicad_mod",
       "references": [
         "R61000",
         "R61001",
@@ -2121,9 +2121,9 @@
         }
       ]
     },
-    "power/ato_power:VSSOP-8_3x3mm_P0.65mm": {
-      "footprint": "ato_power:VSSOP-8_3x3mm_P0.65mm",
-      "source": "E:\\Project ATO\\electronics\\stage4\\power\\ato_power.pretty\\VSSOP-8_3x3mm_P0.65mm.kicad_mod",
+    "power/scci_rh_power:VSSOP-8_3x3mm_P0.65mm": {
+      "footprint": "scci_rh_power:VSSOP-8_3x3mm_P0.65mm",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\power\\scci_rh_power.pretty\\VSSOP-8_3x3mm_P0.65mm.kicad_mod",
       "references": [
         "U60100",
         "U60101",
@@ -2137,9 +2137,9 @@
         }
       ]
     },
-    "power/ato_power:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm": {
-      "footprint": "ato_power:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm",
-      "source": "E:\\Project ATO\\electronics\\stage4\\power\\ato_power.pretty\\VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm.kicad_mod",
+    "power/scci_rh_power:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm": {
+      "footprint": "scci_rh_power:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\power\\scci_rh_power.pretty\\VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm.kicad_mod",
       "references": [
         "U60110"
       ],
@@ -2151,9 +2151,9 @@
         }
       ]
     },
-    "power/ato_power:SOT-23-6": {
-      "footprint": "ato_power:SOT-23-6",
-      "source": "E:\\Project ATO\\electronics\\stage4\\power\\ato_power.pretty\\SOT-23-6.kicad_mod",
+    "power/scci_rh_power:SOT-23-6": {
+      "footprint": "scci_rh_power:SOT-23-6",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\power\\scci_rh_power.pretty\\SOT-23-6.kicad_mod",
       "references": [
         "U60200",
         "U60201",
@@ -2171,9 +2171,9 @@
         }
       ]
     },
-    "power/ato_power:D_SOD-323": {
-      "footprint": "ato_power:D_SOD-323",
-      "source": "E:\\Project ATO\\electronics\\stage4\\power\\ato_power.pretty\\D_SOD-323.kicad_mod",
+    "power/scci_rh_power:D_SOD-323": {
+      "footprint": "scci_rh_power:D_SOD-323",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\power\\scci_rh_power.pretty\\D_SOD-323.kicad_mod",
       "references": [
         "D60230"
       ],
@@ -2185,9 +2185,9 @@
         }
       ]
     },
-    "power/ato_power:SOT-23-5": {
-      "footprint": "ato_power:SOT-23-5",
-      "source": "E:\\Project ATO\\electronics\\stage4\\power\\ato_power.pretty\\SOT-23-5.kicad_mod",
+    "power/scci_rh_power:SOT-23-5": {
+      "footprint": "scci_rh_power:SOT-23-5",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\power\\scci_rh_power.pretty\\SOT-23-5.kicad_mod",
       "references": [
         "U60230",
         "U60232",
@@ -2204,9 +2204,9 @@
         }
       ]
     },
-    "power/ato_power:D_SOD-323F": {
-      "footprint": "ato_power:D_SOD-323F",
-      "source": "E:\\Project ATO\\electronics\\stage4\\power\\ato_power.pretty\\D_SOD-323F.kicad_mod",
+    "power/scci_rh_power:D_SOD-323F": {
+      "footprint": "scci_rh_power:D_SOD-323F",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\power\\scci_rh_power.pretty\\D_SOD-323F.kicad_mod",
       "references": [
         "D60300",
         "D60301"
@@ -2219,9 +2219,9 @@
         }
       ]
     },
-    "power/ato_power:TSOT-23-6": {
-      "footprint": "ato_power:TSOT-23-6",
-      "source": "E:\\Project ATO\\electronics\\stage4\\power\\ato_power.pretty\\TSOT-23-6.kicad_mod",
+    "power/scci_rh_power:TSOT-23-6": {
+      "footprint": "scci_rh_power:TSOT-23-6",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\power\\scci_rh_power.pretty\\TSOT-23-6.kicad_mod",
       "references": [
         "U60300",
         "U60301"
@@ -2234,17 +2234,17 @@
         }
       ]
     },
-    "power/ato_power:TRACO_TMR3_SIP8_21.8x9.1_P2.54": {
-      "footprint": "ato_power:TRACO_TMR3_SIP8_21.8x9.1_P2.54",
-      "source": "E:\\Project ATO\\electronics\\stage4\\power\\ato_power.pretty\\TRACO_TMR3_SIP8_21.8x9.1_P2.54.kicad_mod",
+    "power/scci_rh_power:TRACO_TMR3_SIP8_21.8x9.1_P2.54": {
+      "footprint": "scci_rh_power:TRACO_TMR3_SIP8_21.8x9.1_P2.54",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\power\\scci_rh_power.pretty\\TRACO_TMR3_SIP8_21.8x9.1_P2.54.kicad_mod",
       "references": [
         "U60400"
       ],
       "models": []
     },
-    "power/ato_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm": {
-      "footprint": "ato_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm",
-      "source": "E:\\Project ATO\\electronics\\stage4\\power\\ato_power.pretty\\Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm.kicad_mod",
+    "power/scci_rh_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm": {
+      "footprint": "scci_rh_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\power\\scci_rh_power.pretty\\Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm.kicad_mod",
       "references": [
         "U60410",
         "U60411",
@@ -2258,9 +2258,9 @@
         }
       ]
     },
-    "monitoring-transport/ato_transport:PinHeader_1x03_P2.54mm_Vertical": {
-      "footprint": "ato_transport:PinHeader_1x03_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-transport\\ato_transport.pretty\\PinHeader_1x03_P2.54mm_Vertical.kicad_mod",
+    "monitoring-transport/scci_rh_transport:PinHeader_1x03_P2.54mm_Vertical": {
+      "footprint": "scci_rh_transport:PinHeader_1x03_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-transport\\scci_rh_transport.pretty\\PinHeader_1x03_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J70001"
       ],
@@ -2272,9 +2272,9 @@
         }
       ]
     },
-    "monitoring-transport/ato_transport:PinHeader_1x08_P2.54mm_Vertical": {
-      "footprint": "ato_transport:PinHeader_1x08_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-transport\\ato_transport.pretty\\PinHeader_1x08_P2.54mm_Vertical.kicad_mod",
+    "monitoring-transport/scci_rh_transport:PinHeader_1x08_P2.54mm_Vertical": {
+      "footprint": "scci_rh_transport:PinHeader_1x08_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-transport\\scci_rh_transport.pretty\\PinHeader_1x08_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J70002",
         "J70004"
@@ -2287,9 +2287,9 @@
         }
       ]
     },
-    "monitoring-transport/ato_transport:PinHeader_1x06_P2.54mm_Vertical": {
-      "footprint": "ato_transport:PinHeader_1x06_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-transport\\ato_transport.pretty\\PinHeader_1x06_P2.54mm_Vertical.kicad_mod",
+    "monitoring-transport/scci_rh_transport:PinHeader_1x06_P2.54mm_Vertical": {
+      "footprint": "scci_rh_transport:PinHeader_1x06_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-transport\\scci_rh_transport.pretty\\PinHeader_1x06_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J70003"
       ],
@@ -2301,9 +2301,9 @@
         }
       ]
     },
-    "monitoring-transport/ato_transport:PinHeader_1x05_P2.54mm_Vertical": {
-      "footprint": "ato_transport:PinHeader_1x05_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-transport\\ato_transport.pretty\\PinHeader_1x05_P2.54mm_Vertical.kicad_mod",
+    "monitoring-transport/scci_rh_transport:PinHeader_1x05_P2.54mm_Vertical": {
+      "footprint": "scci_rh_transport:PinHeader_1x05_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-transport\\scci_rh_transport.pretty\\PinHeader_1x05_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J70005"
       ],
@@ -2315,9 +2315,9 @@
         }
       ]
     },
-    "monitoring-transport/ato_transport:PinHeader_1x10_P2.54mm_Vertical": {
-      "footprint": "ato_transport:PinHeader_1x10_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-transport\\ato_transport.pretty\\PinHeader_1x10_P2.54mm_Vertical.kicad_mod",
+    "monitoring-transport/scci_rh_transport:PinHeader_1x10_P2.54mm_Vertical": {
+      "footprint": "scci_rh_transport:PinHeader_1x10_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-transport\\scci_rh_transport.pretty\\PinHeader_1x10_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J70006",
         "J70021"
@@ -2330,9 +2330,9 @@
         }
       ]
     },
-    "monitoring-transport/ato_transport:R_0805_2012Metric": {
-      "footprint": "ato_transport:R_0805_2012Metric",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-transport\\ato_transport.pretty\\R_0805_2012Metric.kicad_mod",
+    "monitoring-transport/scci_rh_transport:R_0805_2012Metric": {
+      "footprint": "scci_rh_transport:R_0805_2012Metric",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-transport\\scci_rh_transport.pretty\\R_0805_2012Metric.kicad_mod",
       "references": [
         "R70001",
         "R70002",
@@ -2369,9 +2369,9 @@
         }
       ]
     },
-    "monitoring-transport/ato_transport:TSSOP-38_4.4x9.7mm_P0.5mm": {
-      "footprint": "ato_transport:TSSOP-38_4.4x9.7mm_P0.5mm",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-transport\\ato_transport.pretty\\TSSOP-38_4.4x9.7mm_P0.5mm.kicad_mod",
+    "monitoring-transport/scci_rh_transport:TSSOP-38_4.4x9.7mm_P0.5mm": {
+      "footprint": "scci_rh_transport:TSSOP-38_4.4x9.7mm_P0.5mm",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-transport\\scci_rh_transport.pretty\\TSSOP-38_4.4x9.7mm_P0.5mm.kicad_mod",
       "references": [
         "U70001"
       ],
@@ -2383,9 +2383,9 @@
         }
       ]
     },
-    "monitoring-transport/ato_transport:C_1206_3216Metric": {
-      "footprint": "ato_transport:C_1206_3216Metric",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-transport\\ato_transport.pretty\\C_1206_3216Metric.kicad_mod",
+    "monitoring-transport/scci_rh_transport:C_1206_3216Metric": {
+      "footprint": "scci_rh_transport:C_1206_3216Metric",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-transport\\scci_rh_transport.pretty\\C_1206_3216Metric.kicad_mod",
       "references": [
         "C70001",
         "C70002",
@@ -2417,9 +2417,9 @@
         }
       ]
     },
-    "monitoring-transport/ato_transport:PinHeader_1x04_P2.54mm_Vertical": {
-      "footprint": "ato_transport:PinHeader_1x04_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-transport\\ato_transport.pretty\\PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
+    "monitoring-transport/scci_rh_transport:PinHeader_1x04_P2.54mm_Vertical": {
+      "footprint": "scci_rh_transport:PinHeader_1x04_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-transport\\scci_rh_transport.pretty\\PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J70007",
         "J70008"
@@ -2432,9 +2432,9 @@
         }
       ]
     },
-    "monitoring-transport/ato_transport:SOIC-8_3.9x4.9mm_P1.27mm": {
-      "footprint": "ato_transport:SOIC-8_3.9x4.9mm_P1.27mm",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-transport\\ato_transport.pretty\\SOIC-8_3.9x4.9mm_P1.27mm.kicad_mod",
+    "monitoring-transport/scci_rh_transport:SOIC-8_3.9x4.9mm_P1.27mm": {
+      "footprint": "scci_rh_transport:SOIC-8_3.9x4.9mm_P1.27mm",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-transport\\scci_rh_transport.pretty\\SOIC-8_3.9x4.9mm_P1.27mm.kicad_mod",
       "references": [
         "U70020"
       ],
@@ -2446,9 +2446,9 @@
         }
       ]
     },
-    "monitoring-transport/ato_transport:PinHeader_1x12_P2.54mm_Vertical": {
-      "footprint": "ato_transport:PinHeader_1x12_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-transport\\ato_transport.pretty\\PinHeader_1x12_P2.54mm_Vertical.kicad_mod",
+    "monitoring-transport/scci_rh_transport:PinHeader_1x12_P2.54mm_Vertical": {
+      "footprint": "scci_rh_transport:PinHeader_1x12_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-transport\\scci_rh_transport.pretty\\PinHeader_1x12_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J70020"
       ],
@@ -2460,9 +2460,9 @@
         }
       ]
     },
-    "monitoring-transport/ato_transport:PinHeader_1x07_P2.54mm_Vertical": {
-      "footprint": "ato_transport:PinHeader_1x07_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\monitoring-transport\\ato_transport.pretty\\PinHeader_1x07_P2.54mm_Vertical.kicad_mod",
+    "monitoring-transport/scci_rh_transport:PinHeader_1x07_P2.54mm_Vertical": {
+      "footprint": "scci_rh_transport:PinHeader_1x07_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\monitoring-transport\\scci_rh_transport.pretty\\PinHeader_1x07_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J70022"
       ],
@@ -2474,9 +2474,9 @@
         }
       ]
     },
-    "controller-carrier/ato_controller:PinHeader_1x02_P2.54mm_Vertical": {
-      "footprint": "ato_controller:PinHeader_1x02_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\controller-carrier\\ato_controller.pretty\\PinHeader_1x02_P2.54mm_Vertical.kicad_mod",
+    "controller-carrier/scci_rh_controller:PinHeader_1x02_P2.54mm_Vertical": {
+      "footprint": "scci_rh_controller:PinHeader_1x02_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\controller-carrier\\scci_rh_controller.pretty\\PinHeader_1x02_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J80001",
         "J80003"
@@ -2489,17 +2489,17 @@
         }
       ]
     },
-    "controller-carrier/ato_controller:BT40F_Manufacturer_66Pad": {
-      "footprint": "ato_controller:BT40F_Manufacturer_66Pad",
-      "source": "E:\\Project ATO\\electronics\\stage4\\controller-carrier\\ato_controller.pretty\\BT40F_Manufacturer_66Pad.kicad_mod",
+    "controller-carrier/scci_rh_controller:BT40F_Manufacturer_66Pad": {
+      "footprint": "scci_rh_controller:BT40F_Manufacturer_66Pad",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\controller-carrier\\scci_rh_controller.pretty\\BT40F_Manufacturer_66Pad.kicad_mod",
       "references": [
         "U80001"
       ],
       "models": []
     },
-    "controller-carrier/ato_controller:C_1206_3216Metric": {
-      "footprint": "ato_controller:C_1206_3216Metric",
-      "source": "E:\\Project ATO\\electronics\\stage4\\controller-carrier\\ato_controller.pretty\\C_1206_3216Metric.kicad_mod",
+    "controller-carrier/scci_rh_controller:C_1206_3216Metric": {
+      "footprint": "scci_rh_controller:C_1206_3216Metric",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\controller-carrier\\scci_rh_controller.pretty\\C_1206_3216Metric.kicad_mod",
       "references": [
         "C80001",
         "C80002",
@@ -2517,9 +2517,9 @@
         }
       ]
     },
-    "controller-carrier/ato_controller:PinHeader_1x06_P2.54mm_Vertical": {
-      "footprint": "ato_controller:PinHeader_1x06_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\controller-carrier\\ato_controller.pretty\\PinHeader_1x06_P2.54mm_Vertical.kicad_mod",
+    "controller-carrier/scci_rh_controller:PinHeader_1x06_P2.54mm_Vertical": {
+      "footprint": "scci_rh_controller:PinHeader_1x06_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\controller-carrier\\scci_rh_controller.pretty\\PinHeader_1x06_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J80002",
         "J80010"
@@ -2532,9 +2532,9 @@
         }
       ]
     },
-    "controller-carrier/ato_controller:R_0805_2012Metric": {
-      "footprint": "ato_controller:R_0805_2012Metric",
-      "source": "E:\\Project ATO\\electronics\\stage4\\controller-carrier\\ato_controller.pretty\\R_0805_2012Metric.kicad_mod",
+    "controller-carrier/scci_rh_controller:R_0805_2012Metric": {
+      "footprint": "scci_rh_controller:R_0805_2012Metric",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\controller-carrier\\scci_rh_controller.pretty\\R_0805_2012Metric.kicad_mod",
       "references": [
         "R80001",
         "R80002",
@@ -2587,9 +2587,9 @@
         }
       ]
     },
-    "controller-carrier/ato_controller:TSSOP-16_4.4x5mm_P0.65mm": {
-      "footprint": "ato_controller:TSSOP-16_4.4x5mm_P0.65mm",
-      "source": "E:\\Project ATO\\electronics\\stage4\\controller-carrier\\ato_controller.pretty\\TSSOP-16_4.4x5mm_P0.65mm.kicad_mod",
+    "controller-carrier/scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm": {
+      "footprint": "scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\controller-carrier\\scci_rh_controller.pretty\\TSSOP-16_4.4x5mm_P0.65mm.kicad_mod",
       "references": [
         "U80010",
         "U80011",
@@ -2604,9 +2604,9 @@
         }
       ]
     },
-    "controller-carrier/ato_controller:PinHeader_1x10_P2.54mm_Vertical": {
-      "footprint": "ato_controller:PinHeader_1x10_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\controller-carrier\\ato_controller.pretty\\PinHeader_1x10_P2.54mm_Vertical.kicad_mod",
+    "controller-carrier/scci_rh_controller:PinHeader_1x10_P2.54mm_Vertical": {
+      "footprint": "scci_rh_controller:PinHeader_1x10_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\controller-carrier\\scci_rh_controller.pretty\\PinHeader_1x10_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J80011"
       ],
@@ -2618,9 +2618,9 @@
         }
       ]
     },
-    "controller-carrier/ato_controller:PinHeader_1x07_P2.54mm_Vertical": {
-      "footprint": "ato_controller:PinHeader_1x07_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\controller-carrier\\ato_controller.pretty\\PinHeader_1x07_P2.54mm_Vertical.kicad_mod",
+    "controller-carrier/scci_rh_controller:PinHeader_1x07_P2.54mm_Vertical": {
+      "footprint": "scci_rh_controller:PinHeader_1x07_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\controller-carrier\\scci_rh_controller.pretty\\PinHeader_1x07_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J80012"
       ],
@@ -2632,9 +2632,9 @@
         }
       ]
     },
-    "controller-carrier/ato_controller:PinHeader_1x05_P2.54mm_Vertical": {
-      "footprint": "ato_controller:PinHeader_1x05_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\controller-carrier\\ato_controller.pretty\\PinHeader_1x05_P2.54mm_Vertical.kicad_mod",
+    "controller-carrier/scci_rh_controller:PinHeader_1x05_P2.54mm_Vertical": {
+      "footprint": "scci_rh_controller:PinHeader_1x05_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\controller-carrier\\scci_rh_controller.pretty\\PinHeader_1x05_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J80013"
       ],
@@ -2646,9 +2646,9 @@
         }
       ]
     },
-    "controller-carrier/ato_controller:PinHeader_1x04_P2.54mm_Vertical": {
-      "footprint": "ato_controller:PinHeader_1x04_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\controller-carrier\\ato_controller.pretty\\PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
+    "controller-carrier/scci_rh_controller:PinHeader_1x04_P2.54mm_Vertical": {
+      "footprint": "scci_rh_controller:PinHeader_1x04_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\controller-carrier\\scci_rh_controller.pretty\\PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J80014",
         "J80020"
@@ -2661,9 +2661,9 @@
         }
       ]
     },
-    "controller-carrier/ato_controller:PinHeader_1x09_P2.54mm_Vertical": {
-      "footprint": "ato_controller:PinHeader_1x09_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\controller-carrier\\ato_controller.pretty\\PinHeader_1x09_P2.54mm_Vertical.kicad_mod",
+    "controller-carrier/scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical": {
+      "footprint": "scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\controller-carrier\\scci_rh_controller.pretty\\PinHeader_1x09_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J80015",
         "J80016",
@@ -2677,9 +2677,9 @@
         }
       ]
     },
-    "controller-carrier/ato_controller:PinHeader_1x08_P2.54mm_Vertical": {
-      "footprint": "ato_controller:PinHeader_1x08_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\controller-carrier\\ato_controller.pretty\\PinHeader_1x08_P2.54mm_Vertical.kicad_mod",
+    "controller-carrier/scci_rh_controller:PinHeader_1x08_P2.54mm_Vertical": {
+      "footprint": "scci_rh_controller:PinHeader_1x08_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\controller-carrier\\scci_rh_controller.pretty\\PinHeader_1x08_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J80018"
       ],
@@ -2691,9 +2691,9 @@
         }
       ]
     },
-    "controller-carrier/ato_controller:PinHeader_1x19_P2.54mm_Vertical": {
-      "footprint": "ato_controller:PinHeader_1x19_P2.54mm_Vertical",
-      "source": "E:\\Project ATO\\electronics\\stage4\\controller-carrier\\ato_controller.pretty\\PinHeader_1x19_P2.54mm_Vertical.kicad_mod",
+    "controller-carrier/scci_rh_controller:PinHeader_1x19_P2.54mm_Vertical": {
+      "footprint": "scci_rh_controller:PinHeader_1x19_P2.54mm_Vertical",
+      "source": "E:\\Project SCCI RH\\electronics\\stage4\\controller-carrier\\scci_rh_controller.pretty\\PinHeader_1x19_P2.54mm_Vertical.kicad_mod",
       "references": [
         "J80019"
       ],

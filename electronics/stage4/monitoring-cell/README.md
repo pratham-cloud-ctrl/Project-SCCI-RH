@@ -1,4 +1,4 @@
-# ATO-S4-MON-01 — dual-source monitoring cell
+# SCCI_RH-S4-MON-01 — dual-source monitoring cell
 
 **12 October 2026 · first native Stage 4 circuit slice · artificial electrical loads only**
 

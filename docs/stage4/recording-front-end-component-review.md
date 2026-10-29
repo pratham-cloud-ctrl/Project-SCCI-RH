@@ -10,7 +10,7 @@ where extraction omitted pin numbers or land dimensions.
 
 | Device | Selected package | Result |
 |---|---|---|
-| Intan RHD2216 | 8 × 8 mm, 56-pin QFN, 0.5 mm pitch | Sixteen differential amplifiers, one multiplexed ADC. Sixteen positives and one shared negative contact produce sixteen streams; tying negatives together is an ATO montage decision. |
+| Intan RHD2216 | 8 × 8 mm, 56-pin QFN, 0.5 mm pitch | Sixteen differential amplifiers, one multiplexed ADC. Sixteen positives and one shared negative contact produce sixteen streams; tying negatives together is an SCCI_RH montage decision. |
 | TI TMUX7412FRRPR | RRP WQFN-16, 4 × 4 mm | Active-high switch; protected **S** faces the contact, unprotected **D** faces the circuit. Five devices provide seventeen used paths and three grounded unused paths. |
 | TI TMUX6219DGKR | DGK VSSOP-8 | Bipolar SPDT ground/record selection on qualified ±5 V rails; EN high enables, SEL low selects S1, SEL high selects S2. |
 | TI ISO6741FDWR | DW wide SOIC-16 | Three forward channels and one reverse; suffix F defaults low. Requires separate isolated power, local CS inversion and explicit startup qualification. |
@@ -31,11 +31,11 @@ limits. [Intan RHD2000, pp. 5–7, 13, 27–28, 35](https://intantech.com/files/
 
 The 0.1/300 Hz register choices are supported. Fast settle uses register 0 bit 5;
 the recommended pulse duration at 300 Hz is `2.5/300 = 8.333 ms`. This is a
-manufacturer recommendation, not an ATO measured recovery bound. ADC buffer/MUX
+manufacturer recommendation, not an SCCI_RH measured recovery bound. ADC buffer/MUX
 bias must respect **intraburst** conversion spacing, not only the frame average.
 [Intan, pp. 19, 24–27](https://intantech.com/files/Intan_RHD2000_series_datasheet.pdf)
 
-Verified top-view pin map (EP number 57 is ATO's footprint convention):
+Verified top-view pin map (EP number 57 is SCCI_RH's footprint convention):
 
 ```text
  1 in4+     2 in3-     3 in3+     4 in2-     5 in2+     6 in1-     7 in1+
@@ -87,7 +87,7 @@ as **typical**. Across −40…125 °C, listed maxima include 240 ns transition,
 240 ns enable-on and 270 ns enable-off under its stated 35 pF/300 Ω fixture.
 The electrical/leakage table uses +5/−8 V conditions despite the switching table's
 ±5 V conditions. Neither table guarantees injection, leakage or response into
-ATO's high-impedance electrode network. Its internal pull-up on EN and pull-down
+SCCI_RH's high-impedance electrode network. Its internal pull-up on EN and pull-down
 on SEL do not replace the drawn external defaults. [TI TMUX6219, pp. 3, 12–13, §7](https://www.ti.com/lit/ds/symlink/tmux6219.pdf)
 
 ## Digital isolation, timing and power
@@ -109,14 +109,14 @@ Power is a real architecture revision: at 3.3 V and all-channel 10 Mbit/s test
 conditions one ISO6741 has 8.2 mA typical / 11.3 mA maximum **combined** current.
 The F-variant static-high table reaches 12.2 mA maximum combined; 50 Mbit/s
 reaches 20.1 mA maximum. These are particular loads and signal conditions,
-not an unconditional ATO power ceiling. Count both devices and both supply
+not an unconditional SCCI_RH power ceiling. Count both devices and both supply
 domains; do not retain the earlier small generic protection allowance.
 [TI ISO6741, p. 15](https://www.ti.com/lit/ds/symlink/iso6741.pdf)
 
-## ATO conditions kept explicit
+## SCCI_RH conditions kept explicit
 
 The proposed 470 pF positive-input and 2.2 nF shared-reference capacitors,
-10 MΩ bleeders, split body-bias resistance and 4.99 kΩ series impedances are ATO
+10 MΩ bleeders, split body-bias resistance and 4.99 kΩ series impedances are SCCI_RH
 design choices. They change common-mode conversion, signal response and recovery.
 Switch charge injection and mutual capacitance are swept assumptions unless
 the precise assembly is characterized. RHD voltage limits, analog recovery,

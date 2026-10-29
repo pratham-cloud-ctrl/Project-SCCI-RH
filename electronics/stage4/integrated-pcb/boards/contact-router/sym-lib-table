@@ -1,1 +1,1 @@
-(sym_lib_table (version 7) (lib (name "ATO_RTE") (type "KiCad") (uri "${KIPRJMOD}/ATO_RTE.kicad_sym") (options "") (descr "Package-specific original route circuit pin symbols; primary PDFs in connectivity.json")))
+(sym_lib_table (version 7) (lib (name "SCCI_RH_RTE") (type "KiCad") (uri "${KIPRJMOD}/SCCI_RH_RTE.kicad_sym") (options "") (descr "Package-specific original route circuit pin symbols; primary PDFs in connectivity.json")))

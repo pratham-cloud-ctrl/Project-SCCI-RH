@@ -1,4 +1,4 @@
-"""Export real saved ATO geometry to selectable browser glTF, without saving sources.
+"""Export real saved SCCI_RH geometry to selectable browser glTF, without saving sources.
 
 Run with the Python distributed with FreeCAD (FreeCAD, Part, MeshPart and Import).
 Example on this checkout:
@@ -109,7 +109,7 @@ def smooth_mesh(shape):
 class GLB:
     def __init__(self):
         self.binary = bytearray()
-        self.doc = dict(asset=dict(version='2.0', generator='ATO native FreeCAD inspection exporter'),
+        self.doc = dict(asset=dict(version='2.0', generator='SCCI_RH native FreeCAD inspection exporter'),
                         scene=0, scenes=[dict(nodes=[])], nodes=[], meshes=[], materials=[],
                         buffers=[dict(byteLength=0)], bufferViews=[], accessors=[],
                         extensionsUsed=['KHR_mesh_quantization'], extensionsRequired=['KHR_mesh_quantization'])
@@ -221,10 +221,10 @@ def future_model():
     contract_path = 'cad/stage5/future-interface/contract.json'
     contract = read(contract_path)
     source = 'cad/stage5/future-interface/'+contract['artifacts']['native']
-    module = ROOT/'cad/stage5/future-interface/ato_future_features.py'
+    module = ROOT/'cad/stage5/future-interface/scci_rh_future_features.py'
     inputs = {p:sha(ROOT/p) for p in (contract_path, source, module.relative_to(ROOT).as_posix())}
     sys.path.insert(0, str(module.parent))
-    import ato_future_features  # noqa: F401 -- binds saved editable features before loading.
+    import scci_rh_future_features  # noqa: F401 -- binds saved editable features before loading.
     doc = App.openDocument(str(ROOT/source))
     parts, glb = [], GLB()
     try:
@@ -232,7 +232,7 @@ def future_model():
             obj = doc.getObject(row['name'])
             assert obj and obj.Shape.isValid() and obj.Shape.Volume > 0, row['name']
             if obj.TypeId == 'Part::FeaturePython':
-                assert obj.Proxy.__class__.__module__ == 'ato_future_features', row['name']
+                assert obj.Proxy.__class__.__module__ == 'scci_rh_future_features', row['name']
             allocation = row['category'] == 'allocation'
             name = obj.Name
             group = ('Internal allocations' if allocation else 'Recording interface' if name.startswith('Rec_') or row.get('port_id','') in {'P%02d'%i for i in range(1,19)}
@@ -304,10 +304,10 @@ def reference_model(export_step=False):
 
 
 def export_complete_reference_step(doc, features, parts, inputs):
-    destination = OUT/'downloads/ATO_Reference_Complete_STEP.zip'
+    destination = OUT/'downloads/SCCI_RH_Reference_Complete_STEP.zip'
     destination.parent.mkdir(parents=True, exist_ok=True)
-    with tempfile.TemporaryDirectory(prefix='ato-inspector-step-') as td:
-        step = Path(td)/'ATO_Reference_Complete.step'
+    with tempfile.TemporaryDirectory(prefix='scci_rh-inspector-step-') as td:
+        step = Path(td)/'SCCI_RH_Reference_Complete.step'
         Import.export(features, str(step))
         # An independent native reopen proves the neutral file contains the exact
         # material count, volume and bounds of the selected 260 final features.
@@ -316,13 +316,13 @@ def export_complete_reference_step(doc, features, parts, inputs):
         assert actual.isValid() and len(actual.Solids)==len(expected.Solids)
         assert abs(actual.Volume-expected.Volume) < .05
         assert max(abs(a-b) for a,b in zip(bbox(actual),bbox(expected))) < .01
-        proof = dict(schema='ato.complete-reference-step.v1', source='cad/stage5/ATO_stage5_reference_full.FCStd',
-                     source_sha256=inputs['cad/stage5/ATO_stage5_reference_full.FCStd'],
+        proof = dict(schema='scci_rh.complete-reference-step.v1', source='cad/stage5/SCCI_RH_stage5_reference_full.FCStd',
+                     source_sha256=inputs['cad/stage5/SCCI_RH_stage5_reference_full.FCStd'],
                      physical_objects=len(features), solids=len(actual.Solids), volume_mm3=actual.Volume,
                      bounds_mm=bbox(actual), step_sha256=sha(step), step_bytes=step.stat().st_size,
                      step_native_reopen_valid=True, parts=parts)
-        text = ('PROJECT ATO - COMPLETE REFERENCE ASSEMBLY\n\n'
-                'Open ATO_Reference_Complete.step in FreeCAD, Fusion or another STEP-capable CAD application.\n'
+        text = ('PROJECT SCCI RH - COMPLETE REFERENCE ASSEMBLY\n\n'
+                'Open SCCI_RH_Reference_Complete.step in FreeCAD, Fusion or another STEP-capable CAD application.\n'
                 'This neutral CAD exchange contains the same 260 final physical objects as the browser reference viewer: 170 enclosure/board objects and 90 mating-interface objects.\n'
                 'Dimensions are millimetres. It is a mechanical digital reference; not an implant or tested fabricated assembly.\n'
                 'The existing historical 170-object reference STEP remains unchanged in the repository.\n'
@@ -363,7 +363,7 @@ def board_model(board):
     pcb=receipt['source_board']
     inputs={p:sha(ROOT/p) for p in (source,receipt_path,pcb)}
     fps=footprint_rows(ROOT/pcb,set(receipt['DNP_references']))
-    doc=App.newDocument('ATO_Inspect_'+board.replace('-','_'))
+    doc=App.newDocument('SCCI_RH_Inspect_'+board.replace('-','_'))
     parts,glb=[],GLB()
     try:
         Import.insert(str(ROOT/source),doc.Name)
@@ -413,7 +413,7 @@ def main():
     for model_id in args.models:
         model=future_model() if model_id=='future' else reference_model(args.complete_reference_step) if model_id=='reference' else board_model(model_id)
         models[model_id]=model
-        manifest=dict(schema='ato.browser-cad-inspection.v1',units='metres',native_units='millimetres',
+        manifest=dict(schema='scci_rh.browser-cad-inspection.v1',units='metres',native_units='millimetres',
             coordinate_mapping='[x_mm,y_mm,z_mm] -> [x_mm/1000,z_mm/1000,-y_mm/1000]',
             source_files_unchanged=True,native_engine='FreeCAD '+'.'.join(App.Version()[:3]),
             derivation='Native saved BReps tessellated through FreeCAD MeshPart; no invented or reconstructed geometry.',

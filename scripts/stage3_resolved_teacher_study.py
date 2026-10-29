@@ -17,15 +17,15 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path[:0] = [str(ROOT/'src'), str(ROOT/'scripts')]
-from ato.stage3.motor import MotorConfig
-from ato.stage3.expert_validation import qualify_observed_expert
-from ato.stage3.source_sensitivity import MovingBodyReference, capture
-from ato.stage3.teacher_library import build_teacher_library
+from scci_rh.stage3.motor import MotorConfig
+from scci_rh.stage3.expert_validation import qualify_observed_expert
+from scci_rh.stage3.source_sensitivity import MovingBodyReference, capture
+from scci_rh.stage3.teacher_library import build_teacher_library
 from run_stage3_studies import close_nested
 
-SOURCE_PATHS = ('src/ato/stage3/source_sensitivity.py', 'src/ato/stage3/teacher_library.py',
-                'src/ato/stage3/expert_validation.py', 'src/ato/stage3/motor.py',
-                'src/ato/stage3/acquisition.py', 'src/ato/stage3/filter_residual.py',
+SOURCE_PATHS = ('src/scci_rh/stage3/source_sensitivity.py', 'src/scci_rh/stage3/teacher_library.py',
+                'src/scci_rh/stage3/expert_validation.py', 'src/scci_rh/stage3/motor.py',
+                'src/scci_rh/stage3/acquisition.py', 'src/scci_rh/stage3/filter_residual.py',
                 'scripts/stage3_resolved_teacher_study.py')
 
 
@@ -102,7 +102,7 @@ def experiment():
         identity = {'sources': before, 'config': asdict(config), 'generator': generator,
                     'captures': [c['generation_metadata'] for c in captures
                                  if c['generation_metadata']['generator'] == generator]}
-        stable_id = 'ATO-S3-RESOLVED-TEACHER-1:'+generator+':'+hashlib.sha256(
+        stable_id = 'SCCI_RH-S3-RESOLVED-TEACHER-1:'+generator+':'+hashlib.sha256(
             json.dumps(identity, sort_keys=True, separators=(',', ':')).encode()).hexdigest()[:20]
         qualification = json.loads(json.dumps(library.qualification, default=plain))
         for domain in qualification['domains'].values():
@@ -117,7 +117,7 @@ def experiment():
             'aperture_reference_refinement_scope': 'one nominal inverse teacher recording plus source-sensitivity reference study; no universal error proof'})
         libraries[generator] = library.to_record()
     assert source_identity() == before, 'Source changed during resolved teacher experiment'
-    return {'schema': 'ato.stage3.resolved-teacher.v1', 'result_id': 'ATO-S3-RESOLVED-TEACHER-1',
+    return {'schema': 'scci_rh.stage3.resolved-teacher.v1', 'result_id': 'SCCI_RH-S3-RESOLVED-TEACHER-1',
             'date': '2026-10-09', 'source_identity': before, 'config': asdict(config),
             'capture_count': len(captures), 'libraries': libraries, 'reference_refinements': refinements,
             'captures': [{**c, 'observations': [asdict(o) for o in c['observations']]} for c in captures],

@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/simulation/ngspice_log_high_supply_small_C_min_resistors.txt",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "a9ff20665acab8b55e7ae7072775e5e03efbfd3db1d6b1f216da0f45294658f1",
+  "current_sha256": "ccccde16d6fbfb41873be6a2caa55e1d123552ddb523a1c02e7d4c85562b1cd3",
+  "method": "branding_and_solver_log_line_endings_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

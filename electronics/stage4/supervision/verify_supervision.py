@@ -42,7 +42,7 @@ checked = 0
 for ref, p in parts.items():
     assert exported[ref].findtext('value') == p['value'], ref
     assert exported[ref].findtext('footprint') == p['footprint'], ref
-    path = HERE / 'ato_sup.pretty' / (p['footprint'].split(':')[1] + '.kicad_mod')
+    path = HERE / 'scci_rh_sup.pretty' / (p['footprint'].split(':')[1] + '.kicad_mod')
     pads = set(re.findall(r'\(pad "([^"]+)"', path.read_text(encoding='utf-8')))
     assert pads == set(p['nets']), (ref, pads, set(p['nets']))
     contract(ref, p['nets'])
@@ -69,7 +69,7 @@ for ref, prefix in (('J100', 'ROUTED_'), ('J101', 'BODY_')):
 assert parts['R110']['value'] == '1k'
 contract('R110', {1: 'SUP_3V3', 2: 'GUARD_FAULT_N'})
 # Explicit DRB identity and thermal pad; not a generic longer exposed pad.
-wd_fp = HERE / 'ato_sup.pretty' / (parts['U300']['footprint'].split(':')[1] + '.kicad_mod')
+wd_fp = HERE / 'scci_rh_sup.pretty' / (parts['U300']['footprint'].split(':')[1] + '.kicad_mod')
 assert 'EP1.5x1.75' in wd_fp.name
 assert '(pad "9" smd rect (at 0 0) (size 1.5 1.75)' in wd_fp.read_text(encoding='utf-8')
 contract('U300', {1: 'SUP_3V3', 2: 'WD_CWD', 3: 'HOST_RAILS_OK', 4: 'GND',
@@ -157,7 +157,7 @@ assert all(r['overlap_count'] == 0 and not r['bounds_unresolved'] for r in mcp['
 assert set(mcp['schematic_sha256']) == {p.name for p in HERE.glob('*.kicad_sch')}
 assert all(digest(HERE / name) == sha for name, sha in mcp['schematic_sha256'].items()), 'MCP revision must match saved native schematics'
 files = sorted(p for p in HERE.rglob('*') if p.is_file() and p.name not in ('verification.json', 'supervision.kicad_prl') and not p.name.endswith('.lck') and '__pycache__' not in p.parts)
-receipt = {'schema': 'ato.stage4.supervision.verification.v1', 'date': '2026-10-14',
+receipt = {'schema': 'scci_rh.stage4.supervision.verification.v1', 'date': '2026-10-14',
            'scope': 'Saved native pin/pad/circuit, exports and actual MCP-revision verification; finite analog/control studies are separate',
            'components': 478, 'pin_contracts_compared': checked, 'sheets': 22, 'pdf_pages': 22,
            'erc_violations': 0, 'ignored_erc_checks': [], 'kicad_version': erc['kicad_version'],

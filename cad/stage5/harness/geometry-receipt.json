@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage5.mating-geometry.v1",
+  "schema": "scci_rh.stage5.mating-geometry.v1",
   "FreeCAD_version": [
     "1",
     "1",
@@ -10,7 +10,7 @@
     "(HEAD detached at 4fd3bf320)",
     "4fd3bf320d9566a27e60069fc8387448aaa3a094"
   ],
-  "contract_sha256_lf": "c8dc7e3de1dff2462cc8972d2081dc99c28a95fdec9441250e3735f80b4deba1",
+  "contract_sha256_lf": "12fc6e33886a70f8a1ffaf7d0cb7700751df92736623596c33df8aa66f8165c9",
   "parts": [
     {
       "label": "Mate_contact_router_J40001",
@@ -1457,8 +1457,8 @@
   "mating_housings": 83,
   "route_annotation_count": 258,
   "sources": {
-    "cad/stage5/harness/ATO_mating_interfaces.FCStd": "6079242db047b70f21114a3eac33c0a8cce77260a189033362feb2b3bacbacf9",
-    "cad/stage5/harness/ATO_mating_interfaces.step": "8c37241e686e1efe3e807e29c9da885384a7aee5128b75821ea81ae897890c2f",
-    "cad/stage5/harness/ATO_harness_routes.FCStd": "23e3e6b6744c901e051962248e7b4ae7ec8cb48e778db850d7182a1995b6dd8b"
+    "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd": "141e4301f41cfa303b594d66c324e2f881d0deaeacc05586cf95e11be8b29e48",
+    "cad/stage5/harness/SCCI_RH_mating_interfaces.step": "74ee88a5f80000ab4aa9f1767f909547ea43bbc93c4e991729bf8fc887a185c2",
+    "cad/stage5/harness/SCCI_RH_harness_routes.FCStd": "23e3e6b6744c901e051962248e7b4ae7ec8cb48e778db850d7182a1995b6dd8b"
   }
 }

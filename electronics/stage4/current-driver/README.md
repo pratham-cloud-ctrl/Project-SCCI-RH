@@ -1,4 +1,4 @@
-# ATO-S4-DRV-01 - two-source current driver and admission circuit
+# SCCI_RH-S4-DRV-01 - two-source current driver and admission circuit
 
 **13 October 2026 - native editable digital design - artificial electrical loads only**
 
@@ -16,7 +16,7 @@ On this laptop, [OPEN_IN_KICAD.cmd](OPEN_IN_KICAD.cmd) launches the verified
 installed KiCad explicitly, avoiding Windows file-association ambiguity. Other
 machines can open the project from their KiCad installation.
 
-This is a concrete circuit slice of Project ATO's future spinal
+This is a concrete circuit slice of Project SCCI RH's future spinal
 recording-interpretation-stimulation-feedback system. Its selected operating
 study is **24 V, approximately 3 mA, 200 microseconds per commanded phase**.
 It does not implement the full architecture's 48 V/20 mA envelope, a 16-contact

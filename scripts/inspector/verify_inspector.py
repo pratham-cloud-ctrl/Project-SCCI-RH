@@ -15,11 +15,14 @@ from pathlib import Path, PurePosixPath
 import re
 import struct
 import subprocess
+import sys
 import xml.etree.ElementTree as ET
 from urllib.parse import unquote, urlsplit
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0,str(ROOT/'scripts'))
+from project_branding import assert_baseline_equivalence
 SITE = ROOT / 'inspector'
 REPORT = ROOT / 'provenance/browser-inspector-verification.json'
 BASELINE = '9f6cf0a4403a00549a858ae9f0cecdd9dce0c5bb'
@@ -352,7 +355,7 @@ def inspect_schematics(sheets):
             walk(destination, row['id'], names+[values['Sheetname']])
         require(set(links) == set(row['children']), 'Wrong indexed children')
 
-    walk(ROOT/'electronics/stage4/integrated-pcb/integration/master/ATO_integrated.kicad_sch', None, [])
+    walk(ROOT/'electronics/stage4/integrated-pcb/integration/master/SCCI_RH_integrated.kicad_sch', None, [])
     require(seen == set(by_source), 'Unreachable circuit sheets')
     return {'native_hierarchy_pages': len(seen), 'source_references_in_vector_search': len(visible_refs)}
 
@@ -568,7 +571,7 @@ def inspect_archives():
                         'Complete STEP entity inventory differs from native reopening receipt')
             details[path.name] = {'members': len(names), 'unchanged_source_members': source_members,
                                   'sha256': sha(path.read_bytes()), 'bytes': path.stat().st_size}
-    require(len(details) >= 3 and 'KiCad-ATO-native-projects.zip' in details,
+    require(len(details) >= 3 and 'KiCad-SCCI_RH-native-projects.zip' in details,
             'Complete CAD/standard/KiCad downloads missing')
     return details
 
@@ -583,14 +586,12 @@ def preserved():
         name = raw_name.decode('utf-8')
         if name in MUTABLE:
             continue
-        require((ROOT/name).is_file(), 'Released engineering file missing: '+name)
         files.append(name)
         expected.append(metadata.split()[2].decode())
-    # --path-aware clean filtering respects committed text/binary attributes.
-    result = subprocess.run(['git', 'hash-object', '--stdin-paths'], input=('\n'.join(files)+'\n').encode(),
-                            capture_output=True, cwd=ROOT, check=True).stdout.decode().splitlines()
-    require(result == expected, 'Released source changed: '+str([name for name, a, b in zip(files, result, expected) if a != b]))
-    return {'baseline': BASELINE, 'unchanged_released_files': len(files),
+    migration = assert_baseline_equivalence(ROOT, BASELINE, list(zip(files, expected)))
+    require(migration['files_compared'] == len(files), 'All historical released identities compared after brand migration')
+    return {'baseline': BASELINE, 'historical_released_files_compared': len(files),
+            'authorized_brand_migration': migration,
             'allowed_reader_metadata_updates': sorted(MUTABLE), 'inventory_sha256': sha('\n'.join(files).encode())}
 
 
@@ -600,6 +601,7 @@ def published_files():
     candidates += [p for p in (ROOT/'scripts/inspector').glob('*')
                    if p.is_file() and p.suffix.lower() in {'.py', '.mjs'}]
     workflow = ROOT/'.github/workflows/deploy-inspector.yml'
+    candidates.append(ROOT/'scripts/project_branding.py')
     if workflow.exists():
         candidates.append(workflow)
     names = sorted({p.relative_to(ROOT).as_posix() for p in candidates})
@@ -628,7 +630,8 @@ def main():
     output_files = published_files()
     bindings = {p.relative_to(ROOT).as_posix(): sha(p.read_bytes().replace(b'\r\n', b'\n'))
                 if p.suffix.lower() in TEXT_SUFFIXES else sha(p.read_bytes()) for p in output_files}
-    report = {'schema': 'ato.browser-inspector-review.v1', 'date': '2026-10-21', 'passed': True,
+    report = {'schema': 'scci_rh.browser-inspector-review.v1', 'date': '2026-10-28', 'passed': True,
+              'original_inspector_review_date': '2026-10-21',
               'scope': 'Independent derivative inspection and source preservation; browser interaction is reviewed separately.',
               'geometry': geometry, 'electronics': circuit, 'navigation': navigation,
               'download_packages': packages, 'protected_engineering': preservation,
@@ -643,7 +646,7 @@ def main():
         require(read(REPORT) == report,
                 'Saved inspector review differs from the current sources/outputs; review changes before --write-report')
     print(json.dumps({'passed': True, 'models': len(geometry), **circuit,
-                      'archives': len(packages), 'protected_files': preservation.get('unchanged_released_files')}, indent=2))
+                      'archives': len(packages), 'historical_files_compared': preservation.get('historical_released_files_compared')}, indent=2))
 
 
 if __name__ == '__main__':

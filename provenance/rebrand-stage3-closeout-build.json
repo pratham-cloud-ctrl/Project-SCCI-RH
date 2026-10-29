@@ -1,0 +1,24 @@
+{
+  "schema": "scci_rh.rebrand-stage3-closeout-build.v1",
+  "date": "2026-10-29",
+  "scope": "Qualified historical report rerender from renamed exact bound saved data; no numerical experiment rerun",
+  "artifacts": [
+    {
+      "path": "output/pdf/SCCI_RH_stage3_closeout.pdf",
+      "sha256": "7f240140f18ef2b98718ce1b7f9b3a0e81633615af9a5318ae1d103a9df9f2d8",
+      "pages": 8,
+      "old_brand_mentions": 0,
+      "new_brand_mentions": 11,
+      "title": "Project SCCI RH - conservative Stage 3 qualification verdict"
+    }
+  ],
+  "builder_path": "scripts/build_stage3_closeout_report.py",
+  "builder_sha256": "9ac4961d3464dd7cba89de5967ea81820b59cc463f9700eb544af9e4a5817861",
+  "inputs": {
+    "experiments/stage3/frozen-observer-pilot/summary.json": "edc5720c7bfb68e269f32605a3cdaf7c0e23501cbb8ca82f59c83fca025744dd",
+    "experiments/stage3/frozen-observer-pilot/audit.json": "6caf5714fff9e8a8617596b36aa16270c46843537235e7ae2d97b68ff0065dee",
+    "provenance/stage3-closeout-review.json": "b98ab7e80b74ee1ba6d44d734bffca848e03ea3652befb58715177cfc8de26a8"
+  },
+  "portable_full_saved_controller_and_independent_raw_audit_passed": true,
+  "source_graph_closed": true
+}

@@ -108,7 +108,7 @@ their validity is not established simply by the arrival of a fresh raw sample.
 The primary pressure study digitizes an external waveform at 200 Hz, extracts
 SBP/DBP/MAP at 1 Hz, and can change its stimulation program as rapidly as 25 ms.
 These are different rates. They do not prove 25 ms physical SBP freshness.
-The ATO local policy tick is a chosen 250 ms. A completed beat, extraction wait,
+The SCCI_RH local policy tick is a chosen 250 ms. A completed beat, extraction wait,
 transport and clock uncertainty all contribute to observation age. The declared
 stress permits 3.0005 s age before a next beat record and fails a selected 2 s
 freshness gate. An apparently recent packet must therefore trigger the stated

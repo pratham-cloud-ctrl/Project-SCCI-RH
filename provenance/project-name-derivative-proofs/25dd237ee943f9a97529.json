@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "firmware/nrf5340/uart-revision/tests/check_uart_framing.py",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "c05d4896fcceaa81cbe6dc460f157f6387798173e74112d9e737454cb1fa1d36",
+  "current_sha256": "e23d19d863a8084a301cd0a64ee28a806a88720f30a566d56cc265ae691a3265",
+  "method": "reviewed_branding_verifier_adaptation",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "Only branding and actual rerun/original design date metadata changed;1172 current scenarios passed and334 historical corruption failures reproduced.",
+  "independent_evidence": []
+}

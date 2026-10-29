@@ -7,11 +7,11 @@ param(
 $ErrorActionPreference = 'Stop'
 
 function Resolve-FreeCAD {
-    if ($env:ATO_FREECAD_EXE) {
-        if (-not (Test-Path -LiteralPath $env:ATO_FREECAD_EXE -PathType Leaf)) {
-            throw 'ATO_FREECAD_EXE does not name an existing executable. Set it to the full path of FreeCAD.exe, without extra quotation marks.'
+    if ($env:SCCI_RH_FREECAD_EXE) {
+        if (-not (Test-Path -LiteralPath $env:SCCI_RH_FREECAD_EXE -PathType Leaf)) {
+            throw 'SCCI_RH_FREECAD_EXE does not name an existing executable. Set it to the full path of FreeCAD.exe, without extra quotation marks.'
         }
-        return (Resolve-Path -LiteralPath $env:ATO_FREECAD_EXE).ProviderPath
+        return (Resolve-Path -LiteralPath $env:SCCI_RH_FREECAD_EXE).ProviderPath
     }
 
     $command = Get-Command FreeCAD.exe -CommandType Application -ErrorAction SilentlyContinue | Select-Object -First 1
@@ -34,14 +34,14 @@ function Resolve-FreeCAD {
             return (Resolve-Path -LiteralPath $candidate).ProviderPath
         }
     }
-    throw 'FreeCAD was not found. Install FreeCAD 1.1 or later, then set ATO_FREECAD_EXE to the full path of FreeCAD.exe. See cad\CURRENT_CAD.md.'
+    throw 'FreeCAD was not found. Install FreeCAD 1.1 or later, then set SCCI_RH_FREECAD_EXE to the full path of FreeCAD.exe. See cad\CURRENT_CAD.md.'
 }
 
 try {
     if ($Mode -eq 'menu') {
         if ($Probe) { $Mode = 'reference' }
         else {
-            Write-Host 'Project ATO - native CAD'
+            Write-Host 'Project SCCI RH - native CAD'
             Write-Host '1. Complete eight-board reference assembly (inspection cutaway)'
             Write-Host '2. Complete reference assembly (saved closed view)'
             Write-Host '3. Conditional future implanted interface'
@@ -60,7 +60,7 @@ try {
 
     $target = switch ($Mode) {
         'reference' { Join-Path $PSScriptRoot 'stage5\open_reference_inspection.FCMacro' }
-        'reference-closed' { Join-Path $PSScriptRoot 'stage5\ATO_stage5_reference_full.FCStd' }
+        'reference-closed' { Join-Path $PSScriptRoot 'stage5\SCCI_RH_stage5_reference_full.FCStd' }
         'future' { Join-Path $PSScriptRoot 'stage5\future-interface\open_future_interface.FCMacro' }
         'future-exploded' { Join-Path $PSScriptRoot 'stage5\future-interface\open_future_interface_exploded.FCMacro' }
     }

@@ -1,4 +1,4 @@
-"""Portable final checkpoint for ATO's populated digital PCB assembly.
+"""Portable final checkpoint for SCCI_RH's populated digital PCB assembly.
 
 Runs existing independent audits and binds their current native/source/export
 evidence. Does not regenerate CAD, execute target firmware or require KiCad or
@@ -15,6 +15,8 @@ import sys
 import zipfile
 
 ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT/'scripts'))
+from project_branding import assert_baseline_equivalence
 PACKAGE=ROOT/'electronics/stage4/integrated-pcb'
 REPORT=ROOT/'provenance/stage4-integrated-pcb-verification.json'
 BASELINE='bf0bdf8dbf138481a492a7a50c65034b43bbdf99'
@@ -73,8 +75,8 @@ def audit():
         saved['mechanical_footprints']=sorted(saved['mechanical_footprints']);current['mechanical_footprints']=sorted(current['mechanical_footprints'])
         check(saved==current,'saved actual board receipt matches current native data '+name)
 
-    # Historical source circuits, studies and original application/image remain
-    # the exact Git-filtered blobs of the pre-PCB revision, on Windows and Linux.
+    # Historical Git objects remain immutable. Current renamed artifacts must
+    # match their exact branding transform or a hash-bound validated derivative.
     native=['monitoring-cell','current-driver','recording-front-end','contact-router','supervision','power','monitoring-transport']
     studies=['monitoring-study','driver-study','recording-study','routing-study','supervision-study','power-study','transport-study']
     historical_paths=['electronics/stage4/'+p for p in native+studies]+['firmware/nrf5340',
@@ -87,13 +89,9 @@ def audit():
         header,path=record.split(b'\t');mode,kind,blob=header.decode().split()
         check(kind=='blob','historical object is a file')
         entries.append((path.decode('utf-8'),blob))
-    check(len(entries)==667,'667 preserved historical source and firmware files')
-    result=subprocess.run(['git','hash-object','--stdin-paths'],cwd=ROOT,
-                          input=('\n'.join(path for path,blob in entries)+'\n').encode('utf-8'),
-                          stdout=subprocess.PIPE,stderr=subprocess.PIPE,check=True)
-    actual=result.stdout.decode().splitlines()
-    check(len(actual)==len(entries),'every historical file hashed')
-    for (path,expected_blob),current_blob in zip(entries,actual):check(current_blob==expected_blob,'historical source unchanged '+path)
+    check(len(entries)==667,'667 historical source and firmware identities retained')
+    migration=assert_baseline_equivalence(ROOT,BASELINE,entries)
+    check(migration['files_compared']==len(entries),'every historical identity checked after authorized branding migration')
     historic_digest=hashlib.sha256(''.join(path+' '+blob+'\n' for path,blob in entries).encode()).hexdigest()
 
     inputs=json.loads((PACKAGE/'package-models/package-inputs.json').read_text(encoding='utf-8'))
@@ -140,7 +138,7 @@ def audit():
     # Bind authored inputs and saved native evidence, including all child
     # schematic files. Export receipts themselves bind every PNG/SVG/Gerber;
     # checking those separately above avoids a duplicate bulky artifact list.
-    bound={Path(__file__),ROOT/'.github/workflows/verify.yml',PACKAGE/'power-overlay.json',
+    bound={Path(__file__),ROOT/'scripts/project_branding.py',ROOT/'.github/workflows/verify.yml',PACKAGE/'power-overlay.json',
            PACKAGE/'power_overlay.py',PACKAGE/'verify_power.py',PACKAGE/'verify_exports.py',
            PACKAGE/'export_boards.py',PACKAGE/'verify_step_geometry.py',
            PACKAGE/'integration/system.json',PACKAGE/'integration/harness.json',
@@ -160,14 +158,16 @@ def audit():
         bound.update(PACKAGE/'exports'/name/f for f in ['export-receipt.json','geometry-verification.json'])
     hashes={path.relative_to(ROOT).as_posix():sha(path,True) for path in sorted(bound)}
     power=json.loads((PACKAGE/'power-overlay.json').read_text(encoding='utf-8'))
-    return {'schema':'ato.stage4.integrated-pcb-final-verification.v1','review_date':'2026-10-16',
+    return {'schema':'scci_rh.stage4.integrated-pcb-final-verification.v1','review_date':'2026-10-28',
+            'original_design_review_date':'2026-10-16',
             'passed':True,'scope':'Digital modular artificial-load reference; no fabrication, measured hardware or biological qualification',
             'checkpoint_assertions':checks,'native_integration_assertions':integration['assertions'],
             'populated_board_assertions':populated['assertions'],'BT40F_firmware_assertions':firmware['checks'],
             'power_audit':power_stdout,'power_reproduction':reproduction_stdout,'export_audit':export_stdout,
             'totals':totals,'master_sheets':80,'harness_rows':258,'boards':boards,'nominal_package_models':models,
-            'historical_sources':{'baseline_commit':BASELINE,'files_compared':len(entries),'changed_files':[],
-                                  'path_and_blob_manifest_sha256':historic_digest},
+            'historical_sources':{'baseline_commit':BASELINE,'files_compared':len(entries),
+                                  'path_and_blob_manifest_sha256':historic_digest,
+                                  'authorized_brand_migration':migration},
             'conditional_power':{'HOST_3V3_cap_mA':power['HOST_3V3_new_cap_A']*1000,
                                  'HOST_3V3_allocated_mA':power['allocated_A']*1000,
                                  'active_W':power['active_W'],'runtime_h':power['runtime_h'],

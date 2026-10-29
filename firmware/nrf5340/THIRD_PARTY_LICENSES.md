@@ -1,8 +1,8 @@
 # Target image attribution
 
-ATO's original application and policy code use the repository's license. The
+SCCI_RH's original application and policy code use the repository's license. The
 linked firmware also includes code from nRF Connect SDK v3.4.1 and its selected
-modules; it is not wholly original ATO code. The complete SDK is installed
+modules; it is not wholly original SCCI_RH code. The complete SDK is installed
 separately and is not redistributed in this repository.
 
 | Linked source family | Notice retained here |

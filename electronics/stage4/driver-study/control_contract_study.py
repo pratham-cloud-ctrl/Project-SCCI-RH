@@ -487,7 +487,7 @@ def reproduce() -> dict[str, Any]:
         })
     scenarios = build_scenarios()
     return {
-        "schema": "ato.stage4.driver-control-contract-study.v1",
+        "schema": "scci_rh.stage4.driver-control-contract-study.v1",
         "scope": "Finite ideal-Boolean/event model; digital artificial-load concept only",
         "source_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
         "contract": "docs/stage4/current-driver-control-contract.md",

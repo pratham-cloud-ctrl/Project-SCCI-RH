@@ -18,7 +18,7 @@ COLORS = ["#235789", "#b85b22"]
 def save(fig, name):
     fig.savefig(HERE / (name + ".png"), dpi=180)
     # Stable SVG IDs and no creation timestamp: source-driven export.
-    with matplotlib.rc_context({"svg.hashsalt": "ato-monitoring-study-v1"}):
+    with matplotlib.rc_context({"svg.hashsalt": "scci_rh-monitoring-study-v1"}):
         fig.savefig(HERE / (name + ".svg"), metadata={"Date": None})
     plt.close(fig)
 
@@ -60,7 +60,7 @@ axes[1, 0].legend(frameon=False, fontsize=8, loc="center right")
 axes[1, 1].legend(frameon=False, fontsize=8, loc="center right")
 for ax in axes.flat:
     ax.set_xlabel("Time (µs)")
-fig.suptitle("ATO Stage 4 • Behavioral monitor transients", fontsize=17, weight="bold")
+fig.suptitle("SCCI_RH Stage 4 • Behavioral monitor transients", fontsize=17, weight="bold")
 fig.supxlabel("Assumed models on artificial loads; clipping continuation does not predict device survival or shutdown actuation.", fontsize=9)
 save(fig, "waveforms")
 
@@ -91,6 +91,6 @@ axes[1].set(xticks=[0, 1, 2], xticklabels=["First observed", "Second + gap", "Fi
 for bar, value in zip(bars, values):
     axes[1].text(bar.get_x()+bar.get_width()/2, value+(55 if value>=0 else -80), f"{value:+.2f}", ha="center", fontsize=10)
 axes[1].legend(frameon=False, fontsize=8, loc="upper left")
-fig.suptitle("ATO Stage 4 • Charge attribution counterexamples", fontsize=17, weight="bold")
+fig.suptitle("SCCI_RH Stage 4 • Charge attribution counterexamples", fontsize=17, weight="bold")
 fig.supxlabel("Finest grid: 25 ns. Raw analog endpoints before quantization. Numerical agreement does not earn the proposed 4% bound.", fontsize=9)
 save(fig, "charge-witnesses")

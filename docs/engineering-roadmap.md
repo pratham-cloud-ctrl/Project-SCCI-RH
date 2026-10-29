@@ -1,4 +1,4 @@
-# Project ATO: engineering roadmap and digital completion
+# Project SCCI RH: engineering roadmap and digital completion
 
 16 October 2026. Stages 1-6 are complete within their stated digital scopes:
 mechanisms, quantitative architecture, preserved computational investigations,
@@ -11,7 +11,7 @@ below preserves the scientific questions and explicit negative findings.
 
 ## Intended result
 
-Project ATO develops a proposed invasive spinal cord–computer interface through
+Project SCCI RH develops a proposed invasive spinal cord–computer interface through
 supported theory, mathematical mechanisms, editable electronics, target software,
 populated parametric CAD and an illustrated research paper in a private GitHub
 repository. AstroSam's Mind-Link is credited as the inspiration for translating a
@@ -176,7 +176,7 @@ source-bound native checks. Its compact future package explicitly requires
 redesigned miniaturized electronics; the eight reference boards retain 1:1 scale.
 
 Stage 6 now joins the mechanisms, circuit/firmware evidence and CAD in the
-[integrated illustrated manuscript](../output/pdf/Project_ATO_Integrated_Manuscript.pdf)
+[integrated illustrated manuscript](../output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf)
 and reproducible private v2.0.0 release. Each digital result retains its limits
 and contribution record.
 

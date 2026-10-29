@@ -6,11 +6,11 @@ The decisions below define the completed digital proof of concept. They are engi
 |---|---|---|---|
 | D01 | Entirely digital | User's explicit scope | No fabricated hardware, patient testing or measured biological result is claimed |
 | D02 | Two applications on one conceptual platform | Preserve both original research interests | Motor practice and blood pressure use distinct models, targets and success criteria |
-| D03 | Spinal-only neural access | ATO's central identity | No cortical signal can be silently introduced; adding it creates a hybrid architecture |
+| D03 | Spinal-only neural access | SCCI_RH's central identity | No cortical signal can be silently introduced; adding it creates a hybrid architecture |
 | D04 | Proposed intradural surface recording and separate epidural stimulation | Avoid equating a read interface with a write interface | Chronic compatibility and human signal quality remain open; anatomy must be assessed independently |
 | D05 | Illustrative 8-recording/8-stimulation contacts in future concept | Make scaling visible without claiming neuron resolution | Contact count is a design hypothesis; digital electronics exercises one representative channel of each function |
 | D06 | External kinematics/calibration permitted | Neural correlation does not identify causal influence | Synthetic learner response is explicitly calibrated; claims of superior neural sensing would need an external-sensor-only comparator |
-| D07 | External pressure feedback | Directly specify the physiological observation | ATO does not claim to decode arterial pressure from spinal potentials |
+| D07 | External pressure feedback | Directly specify the physiological observation | SCCI_RH does not claim to decode arterial pressure from spinal potentials |
 | D08 | Rhythmic phase as first motor state | A small state permits interpretable delay/noise studies | This task is a surrogate for a component of skill, not a model of every sport or instrument |
 | D09 | Retention separate from assistance | Performance during intervention can be misleading | Outcomes are sampled with assistance off; a zero-benefit learning control is mandatory |
 | D10 | Reduced-order pressure plant with uncertainty | An inspectable model supports falsifiable control experiments | Gains and time constants are synthetic; successful control does not validate patient dynamics |
@@ -28,9 +28,9 @@ The decisions below define the completed digital proof of concept. They are engi
 
 **A universal autonomic controller** was rejected as too underspecified to test. Mean arterial pressure is selected because it offers a clear observable output and bounded control question. This decision does not imply access to every involuntary function.
 
-**A single fully implanted recording/stimulation arrangement** was not assumed. The surface recording evidence motivating ATO and the stimulation evidence used for its application cases involve different placements. The future platform presents these as separate modules.
+**A single fully implanted recording/stimulation arrangement** was not assumed. The surface recording evidence motivating SCCI_RH and the stimulation evidence used for its application cases involve different placements. The future platform presents these as separate modules.
 
-**An electronics-only demonstration** would reproduce the visible build progression but leave ATO's central mechanisms unevaluated. The release therefore includes independent application models and electrical fault studies, with separate claims at each layer.
+**An electronics-only demonstration** would reproduce the visible build progression but leave SCCI_RH's central mechanisms unevaluated. The release therefore includes independent application models and electrical fault studies, with separate claims at each layer.
 
 **A simulation-only submission** would leave the proposed device's interface, packaging and data flow hard to inspect. Native CAD, circuit files and a demonstration interface give the theory an engineering body while preserving the scope boundary.
 

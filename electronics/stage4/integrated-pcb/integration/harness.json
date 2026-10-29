@@ -1,5 +1,5 @@
 {
-  "schema": "ato.integrated-harness.v1",
+  "schema": "scci_rh.integrated-harness.v1",
   "wire_plan_rows": 258,
   "PCB_connector_mates_required": 78,
   "branch_nodes": 47,
@@ -8,7 +8,7 @@
       "board": "contact-router",
       "pcb_reference": "J40007",
       "value": "SIXTEEN CONTACTS / TWO MONITORED RETURNS",
-      "PCB_header_footprint": "ato_rte:PinHeader_1x18_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_rte:PinHeader_1x18_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_82867ca5__STIM00_CONTACT",
@@ -125,7 +125,7 @@
       "board": "supervision",
       "pcb_reference": "J50100",
       "value": "CANONICAL ROUTER J7 / BEFORE GUARDS",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x18_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x18_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_82867ca5__STIM00_CONTACT",
@@ -317,7 +317,7 @@
       "board": "supervision",
       "pcb_reference": "J50600",
       "value": "REC00 ACTUAL RHD-SIDE TAP",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x02_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_05097029__AFE_IN00_P",
@@ -332,7 +332,7 @@
       "board": "supervision",
       "pcb_reference": "J50601",
       "value": "REC01 ACTUAL RHD-SIDE TAP",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x02_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_3232ae4c__AFE_IN01_P",
@@ -347,7 +347,7 @@
       "board": "supervision",
       "pcb_reference": "J50602",
       "value": "REC02 ACTUAL RHD-SIDE TAP",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x02_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_8c3f25bb__AFE_IN02_P",
@@ -362,7 +362,7 @@
       "board": "supervision",
       "pcb_reference": "J50603",
       "value": "REC03 ACTUAL RHD-SIDE TAP",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x02_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_f208be39__AFE_IN03_P",
@@ -377,7 +377,7 @@
       "board": "supervision",
       "pcb_reference": "J50604",
       "value": "REC04 ACTUAL RHD-SIDE TAP",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x02_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_7e367734__AFE_IN04_P",
@@ -392,7 +392,7 @@
       "board": "supervision",
       "pcb_reference": "J50605",
       "value": "REC05 ACTUAL RHD-SIDE TAP",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x02_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_59100ef9__AFE_IN05_P",
@@ -407,7 +407,7 @@
       "board": "supervision",
       "pcb_reference": "J50606",
       "value": "REC06 ACTUAL RHD-SIDE TAP",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x02_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_380216f6__AFE_IN06_P",
@@ -422,7 +422,7 @@
       "board": "supervision",
       "pcb_reference": "J50607",
       "value": "REC07 ACTUAL RHD-SIDE TAP",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x02_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_325713b8__AFE_IN07_P",
@@ -437,7 +437,7 @@
       "board": "supervision",
       "pcb_reference": "J50608",
       "value": "REC08 ACTUAL RHD-SIDE TAP",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x02_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_1dc2a435__AFE_IN08_P",
@@ -509,7 +509,7 @@
       "board": "supervision",
       "pcb_reference": "J50609",
       "value": "REC09 ACTUAL RHD-SIDE TAP",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x02_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_ee730a89__AFE_IN09_P",
@@ -524,7 +524,7 @@
       "board": "supervision",
       "pcb_reference": "J50610",
       "value": "REC10 ACTUAL RHD-SIDE TAP",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x02_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_96d7c46a__AFE_IN10_P",
@@ -539,7 +539,7 @@
       "board": "supervision",
       "pcb_reference": "J50611",
       "value": "REC11 ACTUAL RHD-SIDE TAP",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x02_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_b6a4cd67__AFE_IN11_P",
@@ -554,7 +554,7 @@
       "board": "supervision",
       "pcb_reference": "J50612",
       "value": "REC12 ACTUAL RHD-SIDE TAP",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x02_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_4fabccc5__AFE_IN12_P",
@@ -569,7 +569,7 @@
       "board": "supervision",
       "pcb_reference": "J50613",
       "value": "REC13 ACTUAL RHD-SIDE TAP",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x02_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_32c4c1cc__AFE_IN13_P",
@@ -584,7 +584,7 @@
       "board": "supervision",
       "pcb_reference": "J50614",
       "value": "REC14 ACTUAL RHD-SIDE TAP",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x02_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_4f7d5988__AFE_IN14_P",
@@ -599,7 +599,7 @@
       "board": "supervision",
       "pcb_reference": "J50615",
       "value": "REC15 ACTUAL RHD-SIDE TAP",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x02_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_53213f89__AFE_IN15_P",
@@ -614,7 +614,7 @@
       "board": "supervision",
       "pcb_reference": "J50616",
       "value": "REF ACTUAL RHD-SIDE TAP",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x02_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_86b728f8__AFE_REF",
@@ -629,7 +629,7 @@
       "board": "current-driver",
       "pcb_reference": "J20001",
       "value": "QUALIFIED EXTERNAL RAILS",
-      "PCB_header_footprint": "ato_drv:PinHeader_1x05_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_drv:PinHeader_1x05_P2.54mm_Vertical",
       "pins_used": {
         "5": {
           "net": "SYS_56562df4__GND",
@@ -673,7 +673,7 @@
       "board": "supervision",
       "pcb_reference": "J50001",
       "value": "EXTERNAL SUPERVISOR AND HOST RAILS",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x07_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x07_P2.54mm_Vertical",
       "pins_used": {
         "7": {
           "net": "SYS_56562df4__GND",
@@ -738,7 +738,7 @@
       "board": "monitoring-cell",
       "pcb_reference": "J10001",
       "value": "LAB RAILS ONLY",
-      "PCB_header_footprint": "ato_s4:PinHeader_1x03_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical",
       "pins_used": {
         "3": {
           "net": "SYS_56562df4__GND",
@@ -768,7 +768,7 @@
       "board": "contact-router",
       "pcb_reference": "J40001",
       "value": "QUALIFIED EXTERNAL RAILS",
-      "PCB_header_footprint": "ato_rte:PinHeader_1x03_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_rte:PinHeader_1x03_P2.54mm_Vertical",
       "pins_used": {
         "3": {
           "net": "SYS_56562df4__GND",
@@ -798,7 +798,7 @@
       "board": "recording-front-end",
       "pcb_reference": "J30002",
       "value": "HOST SPI / SUPERVISOR",
-      "PCB_header_footprint": "ato_afe:PinHeader_1x10_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_afe:PinHeader_1x10_P2.54mm_Vertical",
       "pins_used": {
         "2": {
           "net": "SYS_56562df4__GND",
@@ -871,7 +871,7 @@
       "board": "recording-front-end",
       "pcb_reference": "J30001",
       "value": "EXTERNAL ISOLATED AFE RAILS",
-      "PCB_header_footprint": "ato_afe:PinHeader_1x04_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_afe:PinHeader_1x04_P2.54mm_Vertical",
       "pins_used": {
         "4": {
           "net": "SYS_fca1c340__AFEAGND",
@@ -908,7 +908,7 @@
       "board": "supervision",
       "pcb_reference": "J50002",
       "value": "FLOATING AFE RAILS AND OBSERVED CONTROLS",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x06_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x06_P2.54mm_Vertical",
       "pins_used": {
         "4": {
           "net": "SYS_fca1c340__AFEAGND",
@@ -957,7 +957,7 @@
       "board": "current-driver",
       "pcb_reference": "J20100",
       "value": "EXTERNAL ROUTER / MONITOR",
-      "PCB_header_footprint": "ato_drv:PinHeader_1x04_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_drv:PinHeader_1x04_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_917b1360__CH0_A_ROUTER",
@@ -980,7 +980,7 @@
       "board": "contact-router",
       "pcb_reference": "J40100",
       "value": "DRIVER A / MONITORED RETURN",
-      "PCB_header_footprint": "ato_rte:PinHeader_1x03_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_rte:PinHeader_1x03_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_917b1360__CH0_A_ROUTER",
@@ -1001,7 +1001,7 @@
       "board": "monitoring-cell",
       "pcb_reference": "J10100",
       "value": "SOURCE 0 RETURN SHUNT",
-      "PCB_header_footprint": "ato_s4:PinHeader_1x02_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_s4:PinHeader_1x02_P2.54mm_Vertical",
       "pins_used": {
         "2": {
           "net": "SYS_ee476f53__CH0_B_BR",
@@ -1022,7 +1022,7 @@
       "board": "monitoring-cell",
       "pcb_reference": "J10004",
       "value": "CURRENT ADC INTERFACE",
-      "PCB_header_footprint": "ato_s4:PinHeader_1x04_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_s4:PinHeader_1x04_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_f8e43b73__CH0_I_MON",
@@ -1052,7 +1052,7 @@
       "board": "supervision",
       "pcb_reference": "J50004",
       "value": "EXISTING MONITOR OBSERVATIONS",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x09_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x09_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_f8e43b73__CH0_I_MON",
@@ -1113,7 +1113,7 @@
       "board": "monitoring-cell",
       "pcb_reference": "J10003",
       "value": "EXTERNAL SUPERVISION",
-      "PCB_header_footprint": "ato_s4:PinHeader_1x05_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_s4:PinHeader_1x05_P2.54mm_Vertical",
       "pins_used": {
         "3": {
           "net": "SYS_56ebc071__CH0_MON_PERMIT",
@@ -1150,7 +1150,7 @@
       "board": "supervision",
       "pcb_reference": "J50005",
       "value": "EXPORTED NATIVE HEALTH / PERMISSION",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x13_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x13_P2.54mm_Vertical",
       "pins_used": {
         "7": {
           "net": "SYS_e26747fb__CH0_EXT_SUP_OK",
@@ -1244,7 +1244,7 @@
       "board": "current-driver",
       "pcb_reference": "J20004",
       "value": "EXTERNAL HEALTH CONTRACTS",
-      "PCB_header_footprint": "ato_drv:PinHeader_1x11_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_drv:PinHeader_1x11_P2.54mm_Vertical",
       "pins_used": {
         "4": {
           "net": "SYS_e26747fb__CH0_EXT_SUP_OK",
@@ -1313,7 +1313,7 @@
       "board": "contact-router",
       "pcb_reference": "J40004",
       "value": "EXTERNAL OBSERVED HEALTH CONTRACTS",
-      "PCB_header_footprint": "ato_rte:PinHeader_1x10_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_rte:PinHeader_1x10_P2.54mm_Vertical",
       "pins_used": {
         "8": {
           "net": "SYS_56ebc071__CH0_MON_PERMIT",
@@ -1376,7 +1376,7 @@
       "board": "current-driver",
       "pcb_reference": "J20003",
       "value": "MCU PHASE / EXPLICIT REARM",
-      "PCB_header_footprint": "ato_drv:PinHeader_1x09_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_drv:PinHeader_1x09_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_46ea5f03__CH0_REQUEST",
@@ -1443,7 +1443,7 @@
       "board": "supervision",
       "pcb_reference": "J50003",
       "value": "RAW CONTROL / STATUS",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x12_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x12_P2.54mm_Vertical",
       "pins_used": {
         "4": {
           "net": "SYS_46ea5f03__CH0_REQUEST",
@@ -1526,7 +1526,7 @@
       "board": "contact-router",
       "pcb_reference": "J40003",
       "value": "SOURCE ROUTE INTENT / PHASE STATUS",
-      "PCB_header_footprint": "ato_rte:PinHeader_1x07_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_rte:PinHeader_1x07_P2.54mm_Vertical",
       "pins_used": {
         "3": {
           "net": "SYS_46ea5f03__CH0_REQUEST",
@@ -1571,7 +1571,7 @@
       "board": "current-driver",
       "pcb_reference": "J20005",
       "value": "STATUS ONLY / NOT DELIVERY EVIDENCE",
-      "PCB_header_footprint": "ato_drv:PinHeader_1x09_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_drv:PinHeader_1x09_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_695f3a7c__CH0_RUN",
@@ -1620,7 +1620,7 @@
       "board": "contact-router",
       "pcb_reference": "J40005",
       "value": "COMMAND STATUS / NOT MUX READBACK",
-      "PCB_header_footprint": "ato_rte:PinHeader_1x12_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_rte:PinHeader_1x12_P2.54mm_Vertical",
       "pins_used": {
         "7": {
           "net": "SYS_1954027d__CH0_ROUTE_LOCKED",
@@ -1649,7 +1649,7 @@
       "board": "supervision",
       "pcb_reference": "J50006",
       "value": "DRIVER INTERNAL DIFFERENTIAL VOLTAGES",
-      "PCB_header_footprint": "ato_sup:PinHeader_1x05_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_sup:PinHeader_1x05_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_917b1360__CH0_A_ROUTER",
@@ -1682,7 +1682,7 @@
       "board": "current-driver",
       "pcb_reference": "J20200",
       "value": "EXTERNAL ROUTER / MONITOR",
-      "PCB_header_footprint": "ato_drv:PinHeader_1x04_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_drv:PinHeader_1x04_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_401be33b__CH1_A_ROUTER",
@@ -1705,7 +1705,7 @@
       "board": "contact-router",
       "pcb_reference": "J40200",
       "value": "DRIVER A / MONITORED RETURN",
-      "PCB_header_footprint": "ato_rte:PinHeader_1x03_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_rte:PinHeader_1x03_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_401be33b__CH1_A_ROUTER",
@@ -1726,7 +1726,7 @@
       "board": "monitoring-cell",
       "pcb_reference": "J10200",
       "value": "SOURCE 1 RETURN SHUNT",
-      "PCB_header_footprint": "ato_s4:PinHeader_1x02_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_s4:PinHeader_1x02_P2.54mm_Vertical",
       "pins_used": {
         "2": {
           "net": "SYS_c73180be__CH1_B_BR",
@@ -1763,7 +1763,7 @@
       "board": "power",
       "pcb_reference": "J60003",
       "value": "HOST AND SUPERVISOR RAILS",
-      "PCB_header_footprint": "ato_power:PinHeader_1x07_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_power:PinHeader_1x07_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_ab932142__SUP_3V3",
@@ -1832,7 +1832,7 @@
       "board": "power",
       "pcb_reference": "J60004",
       "value": "FLOATING RECORDING RAILS",
-      "PCB_header_footprint": "ato_power:PinHeader_1x04_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_power:PinHeader_1x04_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_65aafbb6__AFE_3V3",
@@ -1869,7 +1869,7 @@
       "board": "power",
       "pcb_reference": "J60002",
       "value": "POWER REQUEST / STATUS",
-      "PCB_header_footprint": "ato_power:PinHeader_1x12_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_power:PinHeader_1x12_P2.54mm_Vertical",
       "pins_used": {
         "11": {
           "net": "SYS_ee59c76b__PWR_FAULT_N",
@@ -1913,7 +1913,7 @@
       "board": "power",
       "pcb_reference": "J60006",
       "value": "EXISTING MONITOR REFERENCES",
-      "PCB_header_footprint": "ato_power:PinHeader_1x03_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_power:PinHeader_1x03_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_4f66f129__MON_VREF",
@@ -1940,7 +1940,7 @@
       "board": "monitoring-transport",
       "pcb_reference": "J70001",
       "value": "HOST RAILS / RAW ADC",
-      "PCB_header_footprint": "ato_transport:PinHeader_1x03_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_transport:PinHeader_1x03_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_ce166826__HOST_5",
@@ -1967,7 +1967,7 @@
       "board": "monitoring-transport",
       "pcb_reference": "J70002",
       "value": "EXISTING ANALOG TAPS",
-      "PCB_header_footprint": "ato_transport:PinHeader_1x08_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_transport:PinHeader_1x08_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_f8e43b73__CH0_I_MON",
@@ -2024,7 +2024,7 @@
       "board": "power",
       "pcb_reference": "J60005",
       "value": "CONVERTER TEST POINTS",
-      "PCB_header_footprint": "ato_power:PinHeader_1x05_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_power:PinHeader_1x05_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_f199d834__PACK_BUS",
@@ -2045,7 +2045,7 @@
       "board": "monitoring-cell",
       "pcb_reference": "J10002",
       "value": "MCU ENDPOINT/CONTROL",
-      "PCB_header_footprint": "ato_s4:PinHeader_1x12_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_s4:PinHeader_1x12_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_ce0a4f53__BOTH_CNV",
@@ -2127,7 +2127,7 @@
       "board": "monitoring-transport",
       "pcb_reference": "J70004",
       "value": "TWO EXISTING CHARGE ADCs",
-      "PCB_header_footprint": "ato_transport:PinHeader_1x08_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_transport:PinHeader_1x08_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_ce0a4f53__BOTH_CNV",
@@ -2184,7 +2184,7 @@
       "board": "monitoring-transport",
       "pcb_reference": "J70005",
       "value": "CHARGE CONTROL HANDOFF",
-      "PCB_header_footprint": "ato_transport:PinHeader_1x05_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_transport:PinHeader_1x05_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_37737e7c__INT_RUN0",
@@ -2223,7 +2223,7 @@
       "board": "monitoring-transport",
       "pcb_reference": "J70006",
       "value": "READ-ONLY NATIVE HEALTH",
-      "PCB_header_footprint": "ato_transport:PinHeader_1x10_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_transport:PinHeader_1x10_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_ff7fdc58__RESET_READY",
@@ -2292,7 +2292,7 @@
       "board": "controller-carrier",
       "pcb_reference": "J80016",
       "value": "ROUTE CANDIDATE / COMMIT",
-      "PCB_header_footprint": "ato_controller:PinHeader_1x09_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical",
       "pins_used": {
         "3": {
           "net": "SYS_fd131f77__ROUTE_PRELOAD_LATCH",
@@ -2355,7 +2355,7 @@
       "board": "contact-router",
       "pcb_reference": "J40002",
       "value": "CANDIDATE PRELOAD AND COMMIT",
-      "PCB_header_footprint": "ato_rte:PinHeader_1x07_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_rte:PinHeader_1x07_P2.54mm_Vertical",
       "pins_used": {
         "3": {
           "net": "SYS_fd131f77__ROUTE_PRELOAD_LATCH",
@@ -2400,7 +2400,7 @@
       "board": "controller-carrier",
       "pcb_reference": "J80010",
       "value": "RAW MONITOR",
-      "PCB_header_footprint": "ato_controller:PinHeader_1x06_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_controller:PinHeader_1x06_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_95016e07__RAW_SCLK",
@@ -2445,7 +2445,7 @@
       "board": "monitoring-transport",
       "pcb_reference": "J70003",
       "value": "DEDICATED RAW ADC BUS",
-      "PCB_header_footprint": "ato_transport:PinHeader_1x06_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_transport:PinHeader_1x06_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_95016e07__RAW_SCLK",
@@ -2490,7 +2490,7 @@
       "board": "controller-carrier",
       "pcb_reference": "J80011",
       "value": "ISOLATED RECORDING HOST",
-      "PCB_header_footprint": "ato_controller:PinHeader_1x10_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_controller:PinHeader_1x10_P2.54mm_Vertical",
       "pins_used": {
         "3": {
           "net": "SYS_f30c60de__AFE_SCLK",
@@ -2559,7 +2559,7 @@
       "board": "controller-carrier",
       "pcb_reference": "J80012",
       "value": "SHARED CHARGE ENDPOINT SPI",
-      "PCB_header_footprint": "ato_controller:PinHeader_1x07_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_controller:PinHeader_1x07_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_7cf9dad5__MON_SCLK",
@@ -2610,7 +2610,7 @@
       "board": "monitoring-transport",
       "pcb_reference": "J70022",
       "value": "HOST SHARED ENDPOINT SPI",
-      "PCB_header_footprint": "ato_transport:PinHeader_1x07_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_transport:PinHeader_1x07_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_7cf9dad5__MON_SCLK",
@@ -2661,7 +2661,7 @@
       "board": "controller-carrier",
       "pcb_reference": "J80013",
       "value": "DOSE / MONITOR REARM",
-      "PCB_header_footprint": "ato_controller:PinHeader_1x05_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_controller:PinHeader_1x05_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_37737e7c__INT_RUN0",
@@ -2700,7 +2700,7 @@
       "board": "monitoring-transport",
       "pcb_reference": "J70020",
       "value": "HOST CHARGE ADC BUS",
-      "PCB_header_footprint": "ato_transport:PinHeader_1x12_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_transport:PinHeader_1x12_P2.54mm_Vertical",
       "pins_used": {
         "8": {
           "net": "SYS_37737e7c__INT_RUN0",
@@ -2739,7 +2739,7 @@
       "board": "controller-carrier",
       "pcb_reference": "J80014",
       "value": "DAC SERIAL",
-      "PCB_header_footprint": "ato_controller:PinHeader_1x04_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_controller:PinHeader_1x04_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_d5e1f64a__ROUTE_SRCLK",
@@ -2772,7 +2772,7 @@
       "board": "current-driver",
       "pcb_reference": "J20002",
       "value": "MCU SPI / PRELOAD INHIBITED",
-      "PCB_header_footprint": "ato_drv:PinHeader_1x04_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_drv:PinHeader_1x04_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_d5e1f64a__ROUTE_SRCLK",
@@ -2805,7 +2805,7 @@
       "board": "controller-carrier",
       "pcb_reference": "J80015",
       "value": "DRIVER REQUEST / POLARITY",
-      "PCB_header_footprint": "ato_controller:PinHeader_1x09_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_46ea5f03__CH0_REQUEST",
@@ -2868,7 +2868,7 @@
       "board": "controller-carrier",
       "pcb_reference": "J80018",
       "value": "SUPERVISION CONTROL",
-      "PCB_header_footprint": "ato_controller:PinHeader_1x08_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_controller:PinHeader_1x08_P2.54mm_Vertical",
       "pins_used": {
         "4": {
           "net": "SYS_46ea5f03__CH0_REQUEST",
@@ -2925,7 +2925,7 @@
       "board": "controller-carrier",
       "pcb_reference": "J80020",
       "value": "ISOLATED COMPANION HOST UART",
-      "PCB_header_footprint": "ato_controller:PinHeader_1x04_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_controller:PinHeader_1x04_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_6e45b638__HOST_UART_TX",
@@ -2958,7 +2958,7 @@
       "board": "monitoring-transport",
       "pcb_reference": "J70007",
       "value": "HOST PROCESSED UART",
-      "PCB_header_footprint": "ato_transport:PinHeader_1x04_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_transport:PinHeader_1x04_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_6e45b638__HOST_UART_TX",
@@ -2991,7 +2991,7 @@
       "board": "controller-carrier",
       "pcb_reference": "J80001",
       "value": "HOST POWER",
-      "PCB_header_footprint": "ato_controller:PinHeader_1x02_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_controller:PinHeader_1x02_P2.54mm_Vertical",
       "pins_used": {
         "1": {
           "net": "SYS_08572049__HOST_3V3",
@@ -3012,7 +3012,7 @@
       "board": "controller-carrier",
       "pcb_reference": "J80017",
       "value": "ACTIVE ROUTE READBACK",
-      "PCB_header_footprint": "ato_controller:PinHeader_1x09_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical",
       "pins_used": {
         "9": {
           "net": "SYS_56562df4__GND",
@@ -3075,7 +3075,7 @@
       "board": "contact-router",
       "pcb_reference": "J40006",
       "value": "ACTIVE ADDRESS BIT READBACK",
-      "PCB_header_footprint": "ato_rte:PinHeader_1x09_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_rte:PinHeader_1x09_P2.54mm_Vertical",
       "pins_used": {
         "9": {
           "net": "SYS_56562df4__GND",
@@ -3138,7 +3138,7 @@
       "board": "controller-carrier",
       "pcb_reference": "J80019",
       "value": "NATIVE HEALTH OBSERVATIONS",
-      "PCB_header_footprint": "ato_controller:PinHeader_1x19_P2.54mm_Vertical",
+      "PCB_header_footprint": "scci_rh_controller:PinHeader_1x19_P2.54mm_Vertical",
       "pins_used": {
         "19": {
           "net": "SYS_56562df4__GND",

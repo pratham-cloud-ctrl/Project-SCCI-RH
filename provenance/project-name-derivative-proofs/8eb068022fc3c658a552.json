@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "inspector/downloads/SCCI_RH_CAD_Native.zip",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "fd575865614ddb3a7636b0522fb249438447a80d085d447da063f7f0e6dd0766",
+  "current_sha256": "c6833e78e0c762416e0e7e8307ae210cf1d93f5a47fcded46a6208af6f32a244",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-browser-catalog-final.json",
+      "sha256_lf": "eea7003c4c5f9ecffcef97f816b01bb4fe09a9d55c69c991bbf8912993484d94"
+    }
+  ]
+}

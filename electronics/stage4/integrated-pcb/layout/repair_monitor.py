@@ -88,7 +88,7 @@ def main():
         trace.SetWidth(pcb.FromMM(.2));trace.SetLayer(layer);trace.SetNetCode(net);board.Add(trace)
     pcb.SaveBoard(str(PATH),board)
     board.BuildConnectivity();c=board.GetConnectivity();c.RecalculateRatsnest()
-    result=dict(schema='ato.monitor-cnv-join.v1',purpose='Actual copper join of common-CNV branches previously routed separately',
+    result=dict(schema='scci_rh.monitor-cnv-join.v1',purpose='Actual copper join of common-CNV branches previously routed separately',
                 source_before_sha256_lf=before,source_after_sha256_lf=hashlib.sha256(PATH.read_bytes().replace(b'\r\n',b'\n')).hexdigest(),
                 added_trace_layer='In1.Cu',added_trace_width_mm=.2,endpoints_mm=starts,vertices_mm=simplified,
                 native_unconnected_count=c.GetUnconnectedCount(False),native_DRC_required=True)

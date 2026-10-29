@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "experiments/stage3/conditional-concept/summary.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "90b18551e01b71700605d0feab9b8748566355616a806ed1ed01d86e1b3ed83e",
+  "current_sha256": "b8eaae400f7cffb8459da09a36034a0839e8359b1eeb5f9e8ea3fb40ddec3981",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

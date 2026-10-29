@@ -1,12 +1,12 @@
 {
-  "schema": "ato.board-export.v1",
+  "schema": "scci_rh.board-export.v1",
   "board": "power",
   "source_board": "electronics/stage4/integrated-pcb/boards/power/power.kicad_pcb",
-  "exporter_sha256_lf": "3bb0cad3cbf63fc3940d9a30e0a7fc31be818bc4b35b5eba81bff60a592aca76",
-  "source_sha256_lf": "a91073998ec0cd46c84c4332f69324e9e428571a9307c212443e697c2a7696a5",
+  "exporter_sha256_lf": "022a370fcb3e2c04d9ea166d6ad92ad1478333f4a73f8e68aef5d1f96d0ab18f",
+  "source_sha256_lf": "8f4345ae281f760bf0ba71ccaaa1dae4c78149dfb00735ff292df8a3c270b675",
   "source_project_sha256_lf": "8887efae4b23a17ec3dbccb90af0933279f2480c860b56d58e0a57020458792b",
-  "source_xml_sha256_lf": "a9a6dfbdfb7f8f5e34fa271d7e36960c804bc91be03ed24b34d50e6efd5aefaa",
-  "DRC_sha256_lf": "afb2d669246bfb1e6435c0dc25a9b7e5d4c5e7cf3fdda916927d29a6fb087cec",
+  "source_xml_sha256_lf": "66c7f2fbdb03008f09c3df483d6756a595fc40251e39b8914af479d7956b0acd",
+  "DRC_sha256_lf": "484624a19cf2633d30fb9f24de15449e98ed6a41a423de143de697246baef21b",
   "component_count": 156,
   "fitted_component_count": 156,
   "DNP_references": [],
@@ -20,8 +20,8 @@
         "--force",
         "--no-dnp",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\power\\populated.step",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\power\\power.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\power\\populated.step",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\power\\power.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -40,8 +40,8 @@
         "--side",
         "top",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\power\\top.png",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\power\\power.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\power\\top.png",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\power\\power.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -60,8 +60,8 @@
         "--side",
         "bottom",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\power\\bottom.png",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\power\\power.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\power\\bottom.png",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\power\\power.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -82,8 +82,8 @@
         "--zoom",
         ".83",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\power\\isometric.png",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\power\\power.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\power\\isometric.png",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\power\\power.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -99,8 +99,8 @@
         "--exclude-drawing-sheet",
         "--mode-single",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\power\\top-copper.svg",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\power\\power.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\power\\top-copper.svg",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\power\\power.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -117,8 +117,8 @@
         "--mirror",
         "--mode-single",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\power\\bottom-copper.svg",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\power\\power.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\power\\bottom-copper.svg",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\power\\power.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -131,8 +131,8 @@
         "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts",
         "--subtract-soldermask",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\power\\fabrication-reference\\",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\power\\power.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\power\\fabrication-reference\\",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\power\\power.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -148,10 +148,10 @@
         "--excellon-separate-th",
         "--generate-report",
         "--report-path",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\power\\fabrication-reference\\drill-report.txt",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\power\\fabrication-reference\\drill-report.txt",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\power\\fabrication-reference\\",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\power\\power.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\power\\fabrication-reference\\",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\power\\power.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -168,8 +168,8 @@
         "both",
         "--exclude-dnp",
         "--output",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\exports\\power\\fabrication-reference\\positions.csv",
-        "E:\\Project ATO\\electronics\\stage4\\integrated-pcb\\boards\\power\\power.kicad_pcb"
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\exports\\power\\fabrication-reference\\positions.csv",
+        "E:\\Project SCCI RH\\electronics\\stage4\\integrated-pcb\\boards\\power\\power.kicad_pcb"
       ],
       "returncode": 0
     },
@@ -183,27 +183,27 @@
   "populated_models_nominal_where_documented": true,
   "physical_qualification": false,
   "outputs": {
-    "bottom-copper.svg": "eaf1c6f1ed3cba138a858f54895fcf318f4788777fb10859eab9cdafb5fd91da",
-    "bottom.png": "9ee483be547fa262973317c222fbbe378d33500af3902032021f5b7f72b2a4b0",
-    "isometric.png": "1d6331cff168bf172c965b0a2fabfa7f7912d0247e6b07665792d74e98720897",
+    "bottom-copper.svg": "2a74dbae6babada3adecb8bf54cb62904d2c1291a18cbc9d56a3d67026cd90f8",
+    "bottom.png": "4b6e0e06a11d85464527be7285b7d0f83737a704c4f7b14f7509d3e071e05d74",
+    "isometric.png": "56caa7222a256faef11b75a56684a3f0f9ad4adc99768bd7b0b4d98829276615",
     "populated.step": "599cf8072a973fb3b5d8fe22dd7e22243dcb98f762ddb69658814c0e0aa44dc7",
-    "top-copper.svg": "17b8f5a7e7b94d7eaf02aae9368e7affde913a4f4f862272962adaa9cd48d375",
-    "top.png": "4669ccf672318f3ba96a206a01aa48edaac1639cc553d388c6285f015f98264f",
-    "fabrication-reference/bom.csv": "3da88eb92823c90b95bb0f9d2dcc66c31be94eea2e9d8c9e7da28fe466dee2d5",
-    "fabrication-reference/drill-report.txt": "846e1003f6f72d21aed038c26af7b057131ef4903c0214dbc839411b716dca5f",
+    "top-copper.svg": "4927e1100ea75c2c6cb3eb11c34701dd43ec90505bec12a25248e9d806d0786d",
+    "top.png": "fb4dcba8ae908ee1419ec2e428a188e8c6cb5034908b078e3a5561a101ea7459",
+    "fabrication-reference/bom.csv": "e41d320502af1a11a84629903a44bc06dc3b1911b28a085b2fb143217f4b631e",
+    "fabrication-reference/drill-report.txt": "3da74a843c76be3a3818239a91594b93717bbd4814653b1f2ca743c18326e88f",
     "fabrication-reference/positions.csv": "ac4296d5ad5139cf72fdee8e60fe7686ac5781dad19b474a16d1bf0bc1dd7a96",
-    "fabrication-reference/power-B_Cu.gbl": "d0f42b2f0ed7dce8b6d00aef7027bb179e6fc4caf6fb4d020374fcd08f0f4f2f",
-    "fabrication-reference/power-B_Mask.gbs": "207a0d09b0dd3339340db8cdc2399b3b94517e859f327e47c12bb3de5d2cfdfe",
-    "fabrication-reference/power-B_Silkscreen.gbo": "a5afdcf6a3bc8ac51cf416d74ba54ef86394af159605c1bbdcf7d5e9b6dbe1da",
-    "fabrication-reference/power-Edge_Cuts.gm1": "ac81c5b0220fc004a715aceafde3c27058a7e399ebd965ac4ba0fdb6045b80e6",
-    "fabrication-reference/power-F_Cu.gtl": "ba2a7ce7e00eefc2d6e61a8bd9a024f12c24068529596d4c9311e9b848e88ec5",
-    "fabrication-reference/power-F_Mask.gts": "a86ced8ae2d82a1e111dbab2dcca7649ebf10f78852dcec84105d29f4e9cd1f7",
-    "fabrication-reference/power-F_Silkscreen.gto": "3577a2d8777759a67544161bf050ccbfe66f65746a2afd17be9b2b460399c0f5",
-    "fabrication-reference/power-In1_Cu.g1": "2b6b36eaf3b891dcab4b8380b2984069e40e7997c0211f6ea242e76d3b3e3258",
-    "fabrication-reference/power-In2_Cu.g2": "c2f1873a8afdb0fdfeb6febd11c1d2571af1bb76b23136ff4eb4ec2b6f72ba63",
-    "fabrication-reference/power-job.gbrjob": "0973b74707dc0ce0f868f0ef3b335ab97d6f66680ad278f756300d3a2fd4350d",
-    "fabrication-reference/power-NPTH.drl": "be0fb2bbfb6f541e345f90476c25b9f06369dc8ac42d3b18cc5c157761f747b5",
-    "fabrication-reference/power-PTH.drl": "deadfaece92aee04218a6247e516237f23be165931cfa06bf7141b07a5707a89",
+    "fabrication-reference/power-B_Cu.gbl": "105651304ef5fb7f9e1073e7a846700d0072497fc9b706ccb5d3a26ed4382a60",
+    "fabrication-reference/power-B_Mask.gbs": "3fe795e4ed11ec12d3fa48ed744f7039b6cfc341cd74645a271f1624fa5f6fab",
+    "fabrication-reference/power-B_Silkscreen.gbo": "9cca431f108f6bd76944c55a25f91fab9948aa66cec6952bd1b73214aa2fbefa",
+    "fabrication-reference/power-Edge_Cuts.gm1": "7e777712f25a68f6ac53cf0ada80b75447e7584bd767eef765e682a7d0e76f64",
+    "fabrication-reference/power-F_Cu.gtl": "9d779bf8d3839eb4196cb35fc9aeb822e5ff293b864aa65345df8c4babf2d7cd",
+    "fabrication-reference/power-F_Mask.gts": "e4f8737533f3408e23180050ee2df672a83169d329d95873dd8667deda77baf0",
+    "fabrication-reference/power-F_Silkscreen.gto": "b261fbd0c4ce886ce01bfd4cfe199d1978091307a4f29d3d8bb0f20c46a3eef1",
+    "fabrication-reference/power-In1_Cu.g1": "8ab4dac27638b27236e00b029e1be89a3f83f84a3d57ff8cb074c8b29a642d50",
+    "fabrication-reference/power-In2_Cu.g2": "978331aad668870bad0a89d13435254800515fc774e08d4e9e8c3f21f0c0456c",
+    "fabrication-reference/power-job.gbrjob": "2b4673a9c23dd9757ea59de43e103946036b52cf2399fdeb2da8221dcaed2c35",
+    "fabrication-reference/power-NPTH.drl": "bee80d39168e5c56d043600ad3ff5d1d4410abe45da8f8f82ab6e50ed1bac384",
+    "fabrication-reference/power-PTH.drl": "e211dd9fec52f887acb96036ff60554d526c0cca89e77aca7dd45a58dcf1be83",
     "fabrication-reference/README.md": "118a7498542a8992e20d99363fd12818a8dacb65e4b57cefaea220f696f077b5"
   }
 }

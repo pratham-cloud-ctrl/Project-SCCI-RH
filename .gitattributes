@@ -50,14 +50,14 @@ experiments/stage3/conditional-concept/*.svg whitespace=-blank-at-eol,cr-at-eol
 # Target binary bytes, compiler-map spacing and upstream notices are preserved.
 firmware/nrf5340/artifacts/*.elf binary
 firmware/nrf5340/artifacts/*.bin binary
-firmware/nrf5340/artifacts/ato.map text eol=lf whitespace=-blank-at-eol
+firmware/nrf5340/artifacts/scci_rh.map text eol=lf whitespace=-blank-at-eol
 firmware/nrf5340/licenses/* text eol=lf -whitespace
 # New native exports retain their reviewed generated spacing and image bytes.
 electronics/stage4/controller-carrier/svg/*.svg whitespace=-blank-at-eol
 electronics/stage4/integrated-pcb/**/*.svg whitespace=-blank-at-eol
 electronics/stage4/integrated-pcb/firmware-profile/artifacts/*.elf binary
 electronics/stage4/integrated-pcb/firmware-profile/artifacts/*.bin binary
-electronics/stage4/integrated-pcb/firmware-profile/artifacts/ato.map text eol=lf whitespace=-blank-at-eol
+electronics/stage4/integrated-pcb/firmware-profile/artifacts/scci_rh.map text eol=lf whitespace=-blank-at-eol
 electronics/stage4/integrated-pcb/**/*.step binary
 electronics/stage4/integrated-pcb/**/*.ses whitespace=-blank-at-eol
 # Native Stage5 exchange derivatives are reviewed through CAD and drawings.
@@ -70,4 +70,4 @@ docs/stage5/future-package-design.md whitespace=-blank-at-eof
 manuscript/stage6/figures/*.svg whitespace=-blank-at-eol
 firmware/nrf5340/uart-revision/artifacts/*.elf binary
 firmware/nrf5340/uart-revision/artifacts/*.bin binary
-firmware/nrf5340/uart-revision/artifacts/ato.map text eol=lf whitespace=-blank-at-eol
+firmware/nrf5340/uart-revision/artifacts/scci_rh.map text eol=lf whitespace=-blank-at-eol

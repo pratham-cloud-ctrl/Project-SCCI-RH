@@ -2,17 +2,17 @@
 
 # Firmware: what the current processor image actually does
 
-ATO includes a real, cross-compiled **nRF5340 application-core image for the BT40F carrier**. Its source handles commissioning, requests, observations, routing and faults. The current entry is the [v2.0.1 UART correction](../../firmware/nrf5340/uart-revision/README.md), with a **53,776-byte flash LOAD extent** and **98,000-byte RAM address extent**. The image has been compiled and linked; it has not been flashed or physically executed.
+SCCI_RH includes a real, cross-compiled **nRF5340 application-core image for the BT40F carrier**. Its source handles commissioning, requests, observations, routing and faults. The current entry is the [v2.0.1 UART correction](../../firmware/nrf5340/uart-revision/README.md), with a **53,776-byte flash LOAD extent** and **98,000-byte RAM address extent**. The image has been compiled and linked; it has not been flashed or physically executed.
 
 ## Follow the implementation
 
 | Layer | Inspect | Responsibility |
 |---|---|---|
 | Application entry | [main.c](../../firmware/nrf5340/app/src/main.c) | Service peripherals, dispatch companion commands and advance policy |
-| Current hardware backend | [revised ato_backend.c](../../firmware/nrf5340/uart-revision/src/ato_backend.c) | Actual SPI/UART/GPIO/timer operations, observations and frame transmission |
-| Shared production policy | [ato_runtime.c](../../firmware/nrf5340/core/ato_runtime.c) · [explanation](../../firmware/nrf5340/core/README.md) | Inhibition, leases, routing admission, recovery, OFF trials and faults |
+| Current hardware backend | [revised scci_rh_backend.c](../../firmware/nrf5340/uart-revision/src/scci_rh_backend.c) | Actual SPI/UART/GPIO/timer operations, observations and frame transmission |
+| Shared production policy | [scci_rh_runtime.c](../../firmware/nrf5340/core/scci_rh_runtime.c) · [explanation](../../firmware/nrf5340/core/README.md) | Inhibition, leases, routing admission, recovery, OFF trials and faults |
 | Target configuration | [revision CMake definition](../../firmware/nrf5340/uart-revision/CMakeLists.txt) · [pin map](../../docs/stage4/nrf5340-pin-map.csv) | Select the current backend and retained carrier/peripheral configuration |
-| Target outputs | [ELF](../../firmware/nrf5340/uart-revision/artifacts/ato.elf) · [HEX](../../firmware/nrf5340/uart-revision/artifacts/ato.hex) · [BIN](../../firmware/nrf5340/uart-revision/artifacts/ato.bin) · [link map](../../firmware/nrf5340/uart-revision/artifacts/ato.map) | Inspectable compiled application and its linked allocation |
+| Target outputs | [ELF](../../firmware/nrf5340/uart-revision/artifacts/scci_rh.elf) · [HEX](../../firmware/nrf5340/uart-revision/artifacts/scci_rh.hex) · [BIN](../../firmware/nrf5340/uart-revision/artifacts/scci_rh.bin) · [link map](../../firmware/nrf5340/uart-revision/artifacts/scci_rh.map) | Inspectable compiled application and its linked allocation |
 
 The revision reuses the original main entry and production core. Older `firmware/nrf5340/artifacts/` and carrier-profile images remain historical checkpoints; use **`uart-revision/artifacts/`** for the current image.
 

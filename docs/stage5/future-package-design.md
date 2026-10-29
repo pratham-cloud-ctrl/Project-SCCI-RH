@@ -1,6 +1,6 @@
 # Conditional future interface: mechanical design basis
 
-The Stage 5 future interface gives Project ATO a specific physical identity:
+The Stage 5 future interface gives Project SCCI RH a specific physical identity:
 rounded metal can, separate lid and weld seam, dielectric header, independently
 insulated feedthroughs, keyed recording/stimulation connectors, tapered lead
 boots, separate recording and stimulation paddles, and an explicit future RF
@@ -74,13 +74,13 @@ individually identified contacts.
 ceramic-insulated multi-pin feedthroughs are established component families.
 [IJ Research's medical-feedthrough description](https://www.ijresearch.com/medical-feed-through/)
 describes this material combination. That supports the material family and
-construction logic; it does not qualify ATO's dimensions, joints or hermetic seal.
+construction logic; it does not qualify SCCI_RH's dimensions, joints or hermetic seal.
 
 **Published manufacturer precedent:** the Boston Scientific Precision system's
 technical specifications list silicone/polyurethane insulation, platinum or
 platinum/iridium contacts and a 16-contact surgical paddle. These are useful
 mechanical/material comparisons, and they are separate from an 18-contact
-recording/stimulation ATO lead. ATO's wider connector, shortened display length,
+recording/stimulation SCCI_RH lead. SCCI_RH's wider connector, shortened display length,
 conductor routing, contact areas and signal roles are our proposals.
 [Manufacturer clinician manual, technical specifications, printed pp.61–64](https://www.accessdata.fda.gov/cdrh_docs/pdf3/P030017S363D.pdf)
 
@@ -89,11 +89,11 @@ not itself give an internal antenna an RF path. The model therefore adds a
 distinct glass window in the lid, with an explicit seal region and an antenna
 reservation underneath. SCHOTT describes glass as an RF-transmissive electrical
 insulator for implant packaging. This supports a plausible material approach,
-not a tested antenna/window combination, charging solution or ATO radio link.
+not a tested antenna/window combination, charging solution or SCCI_RH radio link.
 [SCHOTT implant packaging](https://www.schott.com/en-us/products/customized-enclosures-and-feedthroughs-for-implantable-medical-devices-p1001211)
 
 All three sources were checked on 16 October 2026. No manufacturer's shape or
-medical instructions are reproduced as an ATO manufacturing or implantation
+medical instructions are reproduced as an SCCI_RH manufacturing or implantation
 procedure. The proposal is a digital concept, with no human/animal connection.
 
 ## Internal allocations and acceptance limits

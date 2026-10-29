@@ -45,7 +45,7 @@ typical 2.4 microvolt RHD contribution, a conservative series-resistance thermal
 allocation, nominal quantization and an assumed alias allowance. Both RSS and
 coherent common-mode results are saved; the latter controls the quiet gate.
 The signal family
-and impedances are ATO hypotheses, not measurements from implanted human spines.
+and impedances are SCCI_RH hypotheses, not measurements from implanted human spines.
 
 Seven transient cases remain inside the sampled +/-0.4 V pin envelope; the
 300 pC injection and unblanked 600 mV fault fail and remain in the results. These

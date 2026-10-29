@@ -2,7 +2,7 @@
   (base_design "recording_front_end")
   (placement
     (resolution um 10)
-    (component "ato_afe:C_0805_2012Metric"
+    (component "scci_rh_afe:C_0805_2012Metric"
       (place C30005 989250 -1197850 front 0)
       (place C30103 452250 -475050 front 0)
       (place C30004 989250 -1127250 front 0)
@@ -75,7 +75,7 @@
       (place C30023 154050 -778350 front 90)
       (place C30303 527250 -543850 front 90)
     )
-    (component "ato_afe:VSSOP-8_2.3x2mm_P0.5mm"
+    (component "scci_rh_afe:VSSOP-8_2.3x2mm_P0.5mm"
       (place U30500 312150 -1640450 front 0)
       (place U30114 285050 -918950 front 0)
       (place U30104 954950 -250850 front 0)
@@ -94,7 +94,7 @@
       (place U30108 1316850 -250850 front 0)
       (place U30115 195550 -1026950 front 0)
     )
-    (component "ato_afe:R_0805_2012Metric"
+    (component "scci_rh_afe:R_0805_2012Metric"
       (place R30100 418750 -219750 front 0)
       (place R30115 166850 -828350 front 0)
       (place R30106 845450 -307250 front 0)
@@ -146,13 +146,13 @@
       (place R30208 1357650 -243350 front 90)
       (place R30207 911650 -468050 front 90)
     )
-    (component "ato_afe:PinHeader_1x04_P2.54mm_Vertical"
+    (component "scci_rh_afe:PinHeader_1x04_P2.54mm_Vertical"
       (place J30001 945150 -1265850 front 90)
     )
     (component "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical"
       (place J39901 509850 -769050 front 90)
     )
-    (component "ato_afe:PinHeader_1x10_P2.54mm_Vertical"
+    (component "scci_rh_afe:PinHeader_1x10_P2.54mm_Vertical"
       (place J30002 945150 -1341750 front 90)
     )
     (component "MountingHole_3.2mm_M3"
@@ -161,28 +161,28 @@
       (place H3 40000 -1860000 front 0)
       (place H4 1510000 -1860000 front 0)
     )
-    (component "ato_afe:SOT-23-5"
+    (component "scci_rh_afe:SOT-23-5"
       (place U30003 1204150 -934650 front 0)
       (place U30004 996750 -1162550 front 0)
     )
     (component "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
       (place J39902 509850 -844950 front 90)
     )
-    (component "ato_afe:PinHeader_1x18_P2.54mm_Vertical"
+    (component "scci_rh_afe:PinHeader_1x18_P2.54mm_Vertical"
       (place J30003 945250 -1417650 front 90)
     )
-    (component "ato_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6"
+    (component "scci_rh_afe:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6"
       (place U30021 830450 -264750 front 0)
       (place U30024 182250 -1610350 front 0)
       (place U30022 1192350 -264750 front 0)
       (place U30020 468550 -264750 front 0)
       (place U30023 196850 -785850 front 0)
     )
-    (component "ato_afe:SOIC-16W_7.5x10.3mm_P1.27mm"
+    (component "scci_rh_afe:SOIC-16W_7.5x10.3mm_P1.27mm"
       (place U30002 1028850 -992450 front 0)
       (place U30001 1028850 -785350 front 0)
     )
-    (component "ato_afe:RHD2216_QFN56_8x8_P0.5_EP6.1"
+    (component "scci_rh_afe:RHD2216_QFN56_8x8_P0.5_EP6.1"
       (place U30010 205850 -285850 front 0)
     )
   )

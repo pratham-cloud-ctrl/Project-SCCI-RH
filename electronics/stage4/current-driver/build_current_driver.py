@@ -15,7 +15,7 @@ OUT = Path(__file__).resolve().parent
 SHARE = Path(os.environ.get("KICAD_SHARE", r"E:\project workspace assests\EDA\KiCAD\share\kicad"))
 PROJECT = "current_driver"
 def uid(key):
-    return str(uuid.uuid5(uuid.NAMESPACE_URL, "project-ato/stage4/current-driver/" + key))
+    return str(uuid.uuid5(uuid.NAMESPACE_URL, "project-scci-rh/stage4/current-driver/" + key))
 ROOT_ID = uid("root")
 SHEETS = ("root", "source0", "permission0", "source1", "permission1")
 TITLES = {"root": "Dual setpoint and external contracts"}
@@ -173,14 +173,14 @@ def lib_symbol(p):
         else:
             plate = lambda x: f'(polyline (pts (xy {x} -2.54) (xy {x} 2.54)) (stroke (width 0.3) (type default)) (fill (type none)))'
             graphic=plate(-1.27)+plate(1.27)+wire(-10.16,-1.27)+wire(1.27,10.16)
-    st=f'(symbol "ATO_DRV:{name}" (pin_names (offset 0.7)) (in_bom yes) (on_board yes) (property "Reference" "{name[0]}" (at 0 0 0) {FONT}) (property "Value" "{p["value"]}" (at 0 0 0) {FONT}) (property "Footprint" "{p["footprint"]}" (at 0 0 0) (effects (font (size 1 1)) hide)) (symbol "{name}_0_1" {graphic}) (symbol "{name}_1_1" '
+    st=f'(symbol "SCCI_RH_DRV:{name}" (pin_names (offset 0.7)) (in_bom yes) (on_board yes) (property "Reference" "{name[0]}" (at 0 0 0) {FONT}) (property "Value" "{p["value"]}" (at 0 0 0) {FONT}) (property "Footprint" "{p["footprint"]}" (at 0 0 0) (effects (font (size 1 1)) hide)) (symbol "{name}_0_1" {graphic}) (symbol "{name}_1_1" '
     for n,nm,kind,x,y,a in pins:
         st+=f'(pin {kind} line (at {fnum(x)} {fnum(y)} {a}) (length 2.54) (name "{nm}" (effects (font (size 0.85 0.85)))) (number "{n}" {FONT})) '
     return st+'))'
 def glabel(net,x,y,key,left=False):
     return f'(global_label "{net}" (shape bidirectional) (at {fnum(x)} {fnum(y)} {180 if left else 0}) (effects (font (size 0.85 0.85)) (justify {"right" if left else "left"})) (uuid {uid(key)}))'
 
-local=OUT/"ato_drv.pretty"; local.mkdir(exist_ok=True)
+local=OUT/"scci_rh_drv.pretty"; local.mkdir(exist_ok=True)
 for p in parts:
     lib,name=p["footprint"].split(":")
     src=SHARE/"footprints"/(lib+".pretty")/(name+".kicad_mod")
@@ -195,9 +195,9 @@ for p in parts:
         name="BSP89_PG-SOT223-4_DrainTab"
         text=text.replace('SOT-223-3_TabPin2',name)
     (local/(name+".kicad_mod")).write_text(text,encoding="utf-8")
-    p["footprint"]="ato_drv:"+name
+    p["footprint"]="scci_rh_drv:"+name
 
-flag_symbol='(symbol "ATO_DRV:SUPPLIED_RAIL" (pin_names (offset 0)) (in_bom no) (on_board no) (property "Reference" "#FLG" (at 0 0 0) (effects (font (size 1 1)) hide)) (property "Value" "EXTERNAL_QUALIFIED_RAIL" (at 0 0 0) (effects (font (size 1 1)) hide)) (symbol "SUPPLIED_RAIL_0_1" (polyline (pts (xy -1 1) (xy 0 2) (xy 1 1)) (stroke (width 0.2) (type default)) (fill (type none)))) (symbol "SUPPLIED_RAIL_1_1" (pin power_out line (at 0 0 90) (length 0) (name "SUPPLIED" (effects (font (size 1 1)))) (number "1" (effects (font (size 1 1)))))))'
+flag_symbol='(symbol "SCCI_RH_DRV:SUPPLIED_RAIL" (pin_names (offset 0)) (in_bom no) (on_board no) (property "Reference" "#FLG" (at 0 0 0) (effects (font (size 1 1)) hide)) (property "Value" "EXTERNAL_QUALIFIED_RAIL" (at 0 0 0) (effects (font (size 1 1)) hide)) (symbol "SUPPLIED_RAIL_0_1" (polyline (pts (xy -1 1) (xy 0 2) (xy 1 1)) (stroke (width 0.2) (type default)) (fill (type none)))) (symbol "SUPPLIED_RAIL_1_1" (pin power_out line (at 0 0 90) (length 0) (name "SUPPLIED" (effects (font (size 1 1)))) (number "1" (effects (font (size 1 1)))))))'
 for sheet in SHEETS:
     permission=sheet.startswith("permission")
     sid=ROOT_ID if sheet=="root" else uid(sheet+"-document")
@@ -206,7 +206,7 @@ for sheet in SHEETS:
     for p in [p for p in parts if p["sheet"]==sheet]:
         ref=p["ref"]; x,y=p["xy"]; pins=pin_positions(p)
         top=y-max(v[4] for v in pins)-5.08; bottom=y-min(v[4] for v in pins)+5.08
-        inst=f'(symbol (lib_id "ATO_DRV:{ref}") (at {fnum(x)} {fnum(y)} 0) (unit 1) (in_bom yes) (on_board yes) (dnp {"yes" if p["dnp"] else "no"}) (uuid {uid(ref)}) (property "Reference" "{ref}" (at {fnum(x)} {fnum(top)} 0) {FONT}) (property "Value" "{p["value"]}" (at {fnum(x)} {fnum(bottom)} 0) (effects (font (size 0.95 0.95)))) (property "Footprint" "{p["footprint"]}" (at {fnum(x)} {fnum(y)} 0) (effects (font (size 1 1)) hide)) (property "Datasheet" "{p["source_url"]}" (at {fnum(x)} {fnum(y)} 0) (effects (font (size 1 1)) hide)) '
+        inst=f'(symbol (lib_id "SCCI_RH_DRV:{ref}") (at {fnum(x)} {fnum(y)} 0) (unit 1) (in_bom yes) (on_board yes) (dnp {"yes" if p["dnp"] else "no"}) (uuid {uid(ref)}) (property "Reference" "{ref}" (at {fnum(x)} {fnum(top)} 0) {FONT}) (property "Value" "{p["value"]}" (at {fnum(x)} {fnum(bottom)} 0) (effects (font (size 0.95 0.95)))) (property "Footprint" "{p["footprint"]}" (at {fnum(x)} {fnum(y)} 0) (effects (font (size 1 1)) hide)) (property "Datasheet" "{p["source_url"]}" (at {fnum(x)} {fnum(y)} 0) (effects (font (size 1 1)) hide)) '
         for n,nm,kind,px,py,a in pins:
             xx,yy=x+px,y-py; net=p["nets"][n]
             inst+=f'(pin "{n}" (uuid {uid(ref+"-pin-"+n)})) '
@@ -223,7 +223,7 @@ for sheet in SHEETS:
     if sheet=="root":
         for i,net in enumerate(("VH_24","VA_15","VDD_5","VDD_3V3","GND")):
             x,y=35.56+i*66.04,226.06; ref=f"#FLG{i+1}"
-            elements.append(f'(symbol (lib_id "ATO_DRV:SUPPLIED_RAIL") (at {x} {y} 0) (unit 1) (in_bom no) (on_board no) (dnp no) (uuid {uid(ref)}) (property "Reference" "{ref}" (at {x} {y} 0) (effects (font (size 1 1)) hide)) (property "Value" "EXTERNAL_QUALIFIED_RAIL" (at {x} {y} 0) (effects (font (size 1 1)) hide)) (pin "1" (uuid {uid(ref+"-pin")})) (instances (project "{PROJECT}" (path "/{ROOT_ID}" (reference "{ref}") (unit 1)))))')
+            elements.append(f'(symbol (lib_id "SCCI_RH_DRV:SUPPLIED_RAIL") (at {x} {y} 0) (unit 1) (in_bom no) (on_board no) (dnp no) (uuid {uid(ref)}) (property "Reference" "{ref}" (at {x} {y} 0) (effects (font (size 1 1)) hide)) (property "Value" "EXTERNAL_QUALIFIED_RAIL" (at {x} {y} 0) (effects (font (size 1 1)) hide)) (pin "1" (uuid {uid(ref+"-pin")})) (instances (project "{PROJECT}" (path "/{ROOT_ID}" (reference "{ref}") (unit 1)))))')
             elements.append(glabel(net,x,y,ref+"-label"))
         for i,name in enumerate(SHEETS[1:]):
             x=20.32+i*96.52; y=85.09
@@ -243,13 +243,13 @@ for sheet in SHEETS:
     for i,(txt,x,y,sz) in enumerate(texts):
         elements.append(f'(text "{txt}" (at {fnum(x)} {fnum(y)} 0) (effects (font (size {sz} {sz})) (justify left)) (uuid {uid(sheet+"-text-"+str(i))}))')
     embedded="".join(lib_symbol(p) for p in parts if p["sheet"]==sheet)+(flag_symbol if sheet=="root" else "")
-    data=f'(kicad_sch (version 20250114) (generator "ato_stage4_driver") (uuid {sid}) (paper "{"A2" if permission else "A3"}") (title_block (title "ATO S4 / {TITLES[sheet]}") (date "2026-10-13") (rev "0.1") (company "Project ATO") (comment 1 "Native circuit slice; artificial loads only; no PCB or implant qualification")) (lib_symbols {embedded}) '+"".join(elements)+')\n'
+    data=f'(kicad_sch (version 20250114) (generator "scci_rh_stage4_driver") (uuid {sid}) (paper "{"A2" if permission else "A3"}") (title_block (title "Project SCCI RH S4 / {TITLES[sheet]}") (date "2026-10-13") (rev "0.1") (company "Project SCCI RH") (comment 1 "Native circuit slice; artificial loads only; no PCB or implant qualification")) (lib_symbols {embedded}) '+"".join(elements)+')\n'
     (OUT/(PROJECT if sheet=="root" else sheet)).with_suffix(".kicad_sch").write_text(data,encoding="utf-8")
-(OUT/"ATO_DRV.kicad_sym").write_text('(kicad_symbol_lib (version 20241209) (generator "ato_stage4_driver") '+("".join(lib_symbol(p) for p in parts)+flag_symbol).replace('(symbol "ATO_DRV:', '(symbol "')+')\n',encoding="utf-8")
-(OUT/"sym-lib-table").write_text('(sym_lib_table (version 7) (lib (name "ATO_DRV") (type "KiCad") (uri "${KIPRJMOD}/ATO_DRV.kicad_sym") (options "") (descr "Original package-specific pin symbols; primary sources in connectivity.json")))\n',encoding="utf-8")
-(OUT/"fp-lib-table").write_text('(fp_lib_table (version 7) (lib (name "ato_drv") (type "KiCad") (uri "${KIPRJMOD}/ato_drv.pretty") (options "") (descr "KiCad library snapshots; BSP89 tab explicitly renumbered4; landpattern assemblyreview pending")))\n',encoding="utf-8")
+(OUT/"SCCI_RH_DRV.kicad_sym").write_text('(kicad_symbol_lib (version 20241209) (generator "scci_rh_stage4_driver") '+("".join(lib_symbol(p) for p in parts)+flag_symbol).replace('(symbol "SCCI_RH_DRV:', '(symbol "')+')\n',encoding="utf-8")
+(OUT/"sym-lib-table").write_text('(sym_lib_table (version 7) (lib (name "SCCI_RH_DRV") (type "KiCad") (uri "${KIPRJMOD}/SCCI_RH_DRV.kicad_sym") (options "") (descr "Original package-specific pin symbols; primary sources in connectivity.json")))\n',encoding="utf-8")
+(OUT/"fp-lib-table").write_text('(fp_lib_table (version 7) (lib (name "scci_rh_drv") (type "KiCad") (uri "${KIPRJMOD}/scci_rh_drv.pretty") (options "") (descr "KiCad library snapshots; BSP89 tab explicitly renumbered4; landpattern assemblyreview pending")))\n',encoding="utf-8")
 (OUT/(PROJECT+".kicad_pro")).write_text(json.dumps({"meta":{"filename":PROJECT+".kicad_pro","version":1},"erc":{"rule_severities":{"single_global_label":"warning","four_way_junction":"warning","simulation_model_issue":"warning","footprint_filter":"warning"}}},indent=2)+"\n",encoding="utf-8")
-manifest={"schema":"ato.stage4.current-driver.connectivity.v1","date":"2026-10-13","scope":"Native artificial-load24V3mA200us two-source driver/control slice; not PCB/analog qualification/implant","parts":parts,"source_documents":SOURCES,"external_unimplemented":["qualified24V15V5V3.3V rails and powersequencing","independent monitored current/charge observation","16-contact router and dedicatedreturnmonitor2ohmshunts","terminal disconnect and biasreturn containment","differential compliance and independent chargeguard","watchdog, rail/reference health and startup supervision","observed zero-current quiescence and external routeownership","MCUfirmware/duty/profilecounter","spinal recording AFE","PCB/populatedCAD/chronicimplantqualification"],"nominal":{"rail_V":24,"servo_rail_V":15,"feedback_R_ohm":100,"DAC_FSR_V":2.5,"DAC_GAIN_register":259,"DAC_code":7864,"DAC_current_A":7864*2.5/65536/100,"command_phase_s":200e-6,"command_charge_C":7864*2.5/65536/100*200e-6,"timer_NDIV":64,"timer_RSET_ohm":175800,"timer_DIVCODE":2,"timer_nominal_s":64*175800/50000*1e-6,"timer_min_s":64*175800/50000*1e-6*(1-.044)*(1-.001),"timer_max_s":64*175800/50000*1e-6*(1+.044)*(1+.001)},"control_contract":{"timer_trigger":"rawREQUEST risingedge; never gatedbyreadiness","base_good":"MON_PERMIT&EXT_SUP_OK&ROUTE_LOCKED&RESET_READY&RAILS_QUALIFIED&(PLUS_RAW xor MINUS_RAW)","safe_rearm":"REARM&BASE_GOOD&QUIESCENT_OK&!REQUEST&!TIMER","block_async_pre_n":"BASE_GOOD&!(TIMER&!REQUEST)","block_async_clear_n":"!SAFE_REARM","timeout_D":"TIMEOUT|REQUEST","timeout_clock":"!TIMER risingedge","timeout_async_clear_n":"!SAFE_REARM","direction_D":"PLUS_RAW","direction_clock":"SAFE_REARM risingedge whileREQUEST=TIMER=0; releaseandsettlebeforefreshrequest","run":"REQUEST&TIMER&BASE_GOOD&!BLOCK&!TIMEOUT","positive":"RUN&PLUS_LATCHED","negative":"RUN&MINUS_LATCHED","startup":"RESET_READY heldLOW untilvalidsuppliesandtimerready; thenexplicitquiescentrearm; nohardwareguaranteeoutsidelogicsupplyvalidrange","rearm_input":"explicitstablepulse returnedLOW beforephaseedge; externalnonoverlapandsetupholdrequired; doesnotrearmmonitor"}}
+manifest={"schema":"scci_rh.stage4.current-driver.connectivity.v1","date":"2026-10-13","scope":"Native artificial-load24V3mA200us two-source driver/control slice; not PCB/analog qualification/implant","parts":parts,"source_documents":SOURCES,"external_unimplemented":["qualified24V15V5V3.3V rails and powersequencing","independent monitored current/charge observation","16-contact router and dedicatedreturnmonitor2ohmshunts","terminal disconnect and biasreturn containment","differential compliance and independent chargeguard","watchdog, rail/reference health and startup supervision","observed zero-current quiescence and external routeownership","MCUfirmware/duty/profilecounter","spinal recording AFE","PCB/populatedCAD/chronicimplantqualification"],"nominal":{"rail_V":24,"servo_rail_V":15,"feedback_R_ohm":100,"DAC_FSR_V":2.5,"DAC_GAIN_register":259,"DAC_code":7864,"DAC_current_A":7864*2.5/65536/100,"command_phase_s":200e-6,"command_charge_C":7864*2.5/65536/100*200e-6,"timer_NDIV":64,"timer_RSET_ohm":175800,"timer_DIVCODE":2,"timer_nominal_s":64*175800/50000*1e-6,"timer_min_s":64*175800/50000*1e-6*(1-.044)*(1-.001),"timer_max_s":64*175800/50000*1e-6*(1+.044)*(1+.001)},"control_contract":{"timer_trigger":"rawREQUEST risingedge; never gatedbyreadiness","base_good":"MON_PERMIT&EXT_SUP_OK&ROUTE_LOCKED&RESET_READY&RAILS_QUALIFIED&(PLUS_RAW xor MINUS_RAW)","safe_rearm":"REARM&BASE_GOOD&QUIESCENT_OK&!REQUEST&!TIMER","block_async_pre_n":"BASE_GOOD&!(TIMER&!REQUEST)","block_async_clear_n":"!SAFE_REARM","timeout_D":"TIMEOUT|REQUEST","timeout_clock":"!TIMER risingedge","timeout_async_clear_n":"!SAFE_REARM","direction_D":"PLUS_RAW","direction_clock":"SAFE_REARM risingedge whileREQUEST=TIMER=0; releaseandsettlebeforefreshrequest","run":"REQUEST&TIMER&BASE_GOOD&!BLOCK&!TIMEOUT","positive":"RUN&PLUS_LATCHED","negative":"RUN&MINUS_LATCHED","startup":"RESET_READY heldLOW untilvalidsuppliesandtimerready; thenexplicitquiescentrearm; nohardwareguaranteeoutsidelogicsupplyvalidrange","rearm_input":"explicitstablepulse returnedLOW beforephaseedge; externalnonoverlapandsetupholdrequired; doesnotrearmmonitor"}}
 (OUT/"connectivity.json").write_text(json.dumps(manifest,indent=2)+"\n",encoding="utf-8")
 with (OUT/"bom.csv").open("w",encoding="utf-8",newline="") as f:
     w=csv.writer(f);w.writerow(["reference","value","footprint","sheet","dnp","description","primary_source"])

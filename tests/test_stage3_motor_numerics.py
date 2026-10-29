@@ -4,7 +4,7 @@ import unittest
 import numpy as np
 from scipy.integrate import solve_ivp
 
-from ato.stage3.motor import MotorConfig, _World, _capture
+from scci_rh.stage3.motor import MotorConfig, _World, _capture
 
 
 class IndependentMotorClock(unittest.TestCase):

@@ -37,7 +37,7 @@ checked=0
 for ref,p in parts.items():
  assert exported[ref].findtext("value")==p["value"],ref
  assert exported[ref].findtext("footprint")==p["footprint"],ref
- fp=HERE/"ato_afe.pretty"/(p["footprint"].split(":")[1]+".kicad_mod")
+ fp=HERE/"scci_rh_afe.pretty"/(p["footprint"].split(":")[1]+".kicad_mod")
  pads={s for s in re.findall(r'\(pad "([^\"]*)"',fp.read_text(encoding="utf-8")) if s}
  assert pads==set(p["nets"]),(ref,pads,set(p["nets"]))
  for n,want in p["nets"].items():
@@ -102,7 +102,7 @@ contract("C10",{1:"AFE_3V3",2:"AFEAGND"});contract("C11",{1:"AFE_3V3",2:"AFEAGND
 assert parts["C12"]["value"]=="10n 16V"
 # Check land geometry and numbering actually saved in local footprints.
 def geometry(name):
- text=(HERE/"ato_afe.pretty"/(name+".kicad_mod")).read_text(encoding="utf-8")
+ text=(HERE/"scci_rh_afe.pretty"/(name+".kicad_mod")).read_text(encoding="utf-8")
  return {int(n):tuple(map(float,(x,y,sx,sy))) for n,x,y,sx,sy in re.findall(r'\(pad "(\d+)" smd rect \(at (-?[\d.]+) (-?[\d.]+)\) \(size ([\d.]+) ([\d.]+)\)',text)}
 rhd=geometry("RHD2216_QFN56_8x8_P0.5_EP6.1")
 assert len(rhd)==57 and rhd[57]==(0,0,6.1,6.1)
@@ -111,7 +111,7 @@ rrp=geometry("Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6")
 assert len(rrp)==17 and rrp[17]==(0,0,2.6,2.6)
 for n,v in {1:(-1.9,-.975,.6,.3),4:(-1.9,.975,.6,.3),5:(-.975,1.9,.3,.6),8:(.975,1.9,.3,.6),9:(1.9,.975,.6,.3),12:(1.9,-.975,.6,.3),13:(.975,-1.9,.3,.6),16:(-.975,-1.9,.3,.6)}.items():assert rrp[n]==v,(n,rrp[n],v)
 for name in ("RHD2216_QFN56_8x8_P0.5_EP6.1","Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6"):
- text=(HERE/"ato_afe.pretty"/(name+".kicad_mod")).read_text(encoding="utf-8")
+ text=(HERE/"scci_rh_afe.pretty"/(name+".kicad_mod")).read_text(encoding="utf-8")
  assert text.count('(pad "" smd rect')==9 and '(layers "F.Paste")' in text
 truth=[]
 for connect,record,cs_assert in itertools.product((0,1),repeat=3):
@@ -140,7 +140,7 @@ def digest(p):
  if p.suffix not in (".png",".pdf"):data=data.replace(b"\r\n",b"\n").replace(b"\r",b"\n")
  return hashlib.sha256(data).hexdigest()
 files=sorted(p for p in HERE.rglob("*") if p.is_file() and p.name not in ("verification.json","recording_front_end.kicad_prl") and not p.name.endswith(".lck") and "__pycache__" not in p.parts)
-receipt={"schema":"ato.stage4.recording-front-end.verification.v1","date":"2026-10-13","scope":"Saved native connectivity, actual land identity and ideal control defaults only; no analog/physical/biological qualification","kicad_version":erc["kicad_version"],"components":151,"pin_contracts_compared":checked,"sheets":7,"pdf_pages":7,"erc_violations":0,"ignored_erc_checks":[],"protected_signal_paths":17,"functional_recording_ports":18,"ideal_control_rows":truth,"checks":["all exported component pin/net/value/footprint assignments","manufacturer top-view RHD2216 positive/negative/CMOS/power/reference/EP contracts","all17 series/source-fault/internal-bleed/clamp/RHD paths","sixteen470pF and one2.2nF RHD-side capacitors","single shared reference and separate two-resistor bias","no hardwired host/AFE ground bridge","ISO6741F directions, domains, enables and default-aware CS inverter","actual AND gate retains clamp for invalid01 command","five open-drain fault flags with exactly one1k pullup","manufacturer custom RHD56/RRP16+EP copper pad dimensions, orientation and reduced paste windows","BOM, zero ERC, seven PDF/SVG pages and render-image integrity"],"hash_policy":"SHA256 exactPNG/PDF; other includedtextnormalizesCRLF/CRtoLF; excludesreceipt/localpreferences/Pythoncache","unqualified":["actual isolation and voltage qualification","fault/injection/leakage/parasitic worst-case bounds","rail generation/sequencing and supply transient behavior","SPI firmware and timestamp correctness on hardware","electrode/recorded signal quality or decoding","blanking/fast-settle/digital filter recovery","passive exact MPN, voltage/pulse and assembly ratings","PCB/CAD/implant/medical efficacy"],"sha256":{p.relative_to(HERE).as_posix():digest(p) for p in files}}
+receipt={"schema":"scci_rh.stage4.recording-front-end.verification.v1","date":"2026-10-13","scope":"Saved native connectivity, actual land identity and ideal control defaults only; no analog/physical/biological qualification","kicad_version":erc["kicad_version"],"components":151,"pin_contracts_compared":checked,"sheets":7,"pdf_pages":7,"erc_violations":0,"ignored_erc_checks":[],"protected_signal_paths":17,"functional_recording_ports":18,"ideal_control_rows":truth,"checks":["all exported component pin/net/value/footprint assignments","manufacturer top-view RHD2216 positive/negative/CMOS/power/reference/EP contracts","all17 series/source-fault/internal-bleed/clamp/RHD paths","sixteen470pF and one2.2nF RHD-side capacitors","single shared reference and separate two-resistor bias","no hardwired host/AFE ground bridge","ISO6741F directions, domains, enables and default-aware CS inverter","actual AND gate retains clamp for invalid01 command","five open-drain fault flags with exactly one1k pullup","manufacturer custom RHD56/RRP16+EP copper pad dimensions, orientation and reduced paste windows","BOM, zero ERC, seven PDF/SVG pages and render-image integrity"],"hash_policy":"SHA256 exactPNG/PDF; other includedtextnormalizesCRLF/CRtoLF; excludesreceipt/localpreferences/Pythoncache","unqualified":["actual isolation and voltage qualification","fault/injection/leakage/parasitic worst-case bounds","rail generation/sequencing and supply transient behavior","SPI firmware and timestamp correctness on hardware","electrode/recorded signal quality or decoding","blanking/fast-settle/digital filter recovery","passive exact MPN, voltage/pulse and assembly ratings","PCB/CAD/implant/medical efficacy"],"sha256":{p.relative_to(HERE).as_posix():digest(p) for p in files}}
 if args.write_receipt:(HERE/"verification.json").write_text(json.dumps(receipt,indent=2)+"\n",encoding="utf-8")
 else:assert json.loads((HERE/"verification.json").read_text(encoding="utf-8"))==receipt,"Frozen receipt differs; review intentional source/native/export changes before refresh"
 print(json.dumps({k:receipt[k] for k in ("components","pin_contracts_compared","sheets","pdf_pages","erc_violations","protected_signal_paths","functional_recording_ports")}))

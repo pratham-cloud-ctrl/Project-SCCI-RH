@@ -1,8 +1,8 @@
-# Project ATO: conditional SCCI mechanism and design baseline
+# Project SCCI RH: conditional SCCI mechanism and design baseline
 
 13 October 2026. **Conditional concept v1 specified and simulated; detailed
 electronics, target firmware and populated CAD remain unfinished.** This is the
-future-interface design requested for Project ATO. Its premises need to be
+future-interface design requested for Project SCCI RH. Its premises need to be
 defensible, not already demonstrated together in a human experiment.
 
 ## The intended system
@@ -13,7 +13,7 @@ observing delivered action and bodily response. The two proposed applications
 are expert-informed motor practice and feedback over a selected physiological
 function. AstroSam's [Mind-Link](https://github.com/sam-astro/Mind-link) is the
 inspiration for giving an ambitious concept an inspectable engineering body.
-The complete ATO deliverable is digital: theory, editable electronics/firmware,
+The complete SCCI_RH deliverable is digital: theory, editable electronics/firmware,
 populated CAD, an illustrated paper and a professional private repository.
 Video and website work remain parked.
 
@@ -199,4 +199,4 @@ reproducible results and explicit engineering interfaces. Those deliverables now
 exist. Positive human efficacy, a uniquely useful expert neural code and validated
 healthy learning speed remain hypotheses, not prerequisites for completing the
 digital concept design. Detailed electronics, firmware, populated CAD and the
-final integrated manuscript/release are still required to finish Project ATO.
+final integrated manuscript/release are still required to finish Project SCCI RH.

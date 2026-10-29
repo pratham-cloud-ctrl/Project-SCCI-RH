@@ -1,6 +1,6 @@
 # Independent shutdown: finite circuit and control studies
 
-**14 October 2026 — digital engineering package for Project ATO.**
+**14 October 2026 — digital engineering package for Project SCCI RH.**
 
 These studies connect the [native supervision circuit](../supervision/README.md)
 to the existing monitor, restricted driver, contact router and recording front

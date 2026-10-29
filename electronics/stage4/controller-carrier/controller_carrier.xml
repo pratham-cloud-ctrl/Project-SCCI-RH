@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>E:\Project ATO\electronics\stage4\controller-carrier\controller_carrier.kicad_sch</source>
+    <source>E:\Project SCCI RH\electronics\stage4\controller-carrier\controller_carrier.kicad_sch</source>
     <date>2026-10-14T19:43:06</date>
     <tool>Eeschema 10.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>ATO S4 / Controller carrier / interface index</title>
-        <company>Project ATO</company>
+        <title>SCCI_RH S4 / Controller carrier / interface index</title>
+        <company>Project SCCI RH</company>
         <rev>0.1</rev>
         <date>2026-10-14</date>
         <source>controller_carrier.kicad_sch</source>
@@ -24,8 +24,8 @@
     </sheet>
     <sheet number="2" name="/processor/" tstamps="/c3f0c12c-73b2-5497-919a-c7d5d31b305f/">
       <title_block>
-        <title>ATO S4 / BT40F / actual nRF5340 physical pads</title>
-        <company>Project ATO</company>
+        <title>SCCI_RH S4 / BT40F / actual nRF5340 physical pads</title>
+        <company>Project SCCI RH</company>
         <rev>0.1</rev>
         <date>2026-10-14</date>
         <source>processor.kicad_sch</source>
@@ -42,8 +42,8 @@
     </sheet>
     <sheet number="3" name="/power/" tstamps="/c0ef80d0-6d9c-5a9b-8dcb-3844017fe984/">
       <title_block>
-        <title>ATO S4 / Module normal-voltage supply and SWD</title>
-        <company>Project ATO</company>
+        <title>SCCI_RH S4 / Module normal-voltage supply and SWD</title>
+        <company>Project SCCI RH</company>
         <rev>0.1</rev>
         <date>2026-10-14</date>
         <source>power.kicad_sch</source>
@@ -60,8 +60,8 @@
     </sheet>
     <sheet number="4" name="/sideband/" tstamps="/6931257a-22a5-52cb-b29d-d20dcf362c23/">
       <title_block>
-        <title>ATO S4 / Four physical 165 devices / parallel observations</title>
-        <company>Project ATO</company>
+        <title>SCCI_RH S4 / Four physical 165 devices / parallel observations</title>
+        <company>Project SCCI RH</company>
         <rev>0.1</rev>
         <date>2026-10-14</date>
         <source>sideband.kicad_sch</source>
@@ -78,8 +78,8 @@
     </sheet>
     <sheet number="5" name="/handoff/" tstamps="/3ae20c75-89a0-5ae2-875a-910f64c6992a/">
       <title_block>
-        <title>ATO S4 / Matched peripheral handoff connectors</title>
-        <company>Project ATO</company>
+        <title>SCCI_RH S4 / Matched peripheral handoff connectors</title>
+        <company>Project SCCI RH</company>
         <rev>0.1</rev>
         <date>2026-10-14</date>
         <source>handoff.kicad_sch</source>
@@ -96,8 +96,8 @@
     </sheet>
     <sheet number="6" name="/handoff_2/" tstamps="/5f0b61b3-73e2-50bd-ac48-8ca1c028bfae/">
       <title_block>
-        <title>ATO S4 / Matched peripheral handoff connectors / 2</title>
-        <company>Project ATO</company>
+        <title>SCCI_RH S4 / Matched peripheral handoff connectors / 2</title>
+        <company>Project SCCI RH</company>
         <rev>0.1</rev>
         <date>2026-10-14</date>
         <source>handoff_2.kicad_sch</source>
@@ -114,8 +114,8 @@
     </sheet>
     <sheet number="7" name="/handoff_3/" tstamps="/aadb8c04-a359-511d-877d-f66a50b6d14e/">
       <title_block>
-        <title>ATO S4 / Matched peripheral handoff connectors / 3</title>
-        <company>Project ATO</company>
+        <title>SCCI_RH S4 / Matched peripheral handoff connectors / 3</title>
+        <company>Project SCCI RH</company>
         <rev>0.1</rev>
         <date>2026-10-14</date>
         <source>handoff_3.kicad_sch</source>
@@ -132,8 +132,8 @@
     </sheet>
     <sheet number="8" name="/defaults/" tstamps="/48aa9fce-09d3-5139-90ec-d0823db081a9/">
       <title_block>
-        <title>ATO S4 / Passive reset defaults / explicit recovery</title>
-        <company>Project ATO</company>
+        <title>SCCI_RH S4 / Passive reset defaults / explicit recovery</title>
+        <company>Project SCCI RH</company>
         <rev>0.1</rev>
         <date>2026-10-14</date>
         <source>defaults.kicad_sch</source>
@@ -150,8 +150,8 @@
     </sheet>
     <sheet number="9" name="/defaults_2/" tstamps="/ae65c1f2-63b9-5ad2-8cea-3c7be9d4e0ae/">
       <title_block>
-        <title>ATO S4 / Passive reset defaults / explicit recovery / 2</title>
-        <company>Project ATO</company>
+        <title>SCCI_RH S4 / Passive reset defaults / explicit recovery / 2</title>
+        <company>Project SCCI RH</company>
         <rev>0.1</rev>
         <date>2026-10-14</date>
         <source>defaults_2.kicad_sch</source>
@@ -168,8 +168,8 @@
     </sheet>
     <sheet number="10" name="/defaults_3/" tstamps="/0c803b5d-fb86-5e06-9ae9-dcb014921dfd/">
       <title_block>
-        <title>ATO S4 / Passive reset defaults / explicit recovery / 3</title>
-        <company>Project ATO</company>
+        <title>SCCI_RH S4 / Passive reset defaults / explicit recovery / 3</title>
+        <company>Project SCCI RH</company>
         <rev>0.1</rev>
         <date>2026-10-14</date>
         <source>defaults_3.kicad_sch</source>
@@ -188,13 +188,13 @@
   <components>
     <comp ref="J1">
       <value>HOST POWER</value>
-      <footprint>ato_controller:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_controller:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_controller:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x02_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="J1" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="J1" description=""/>
       <property name="Sheetname" value="controller_carrier"/>
       <property name="Sheetfile" value="controller_carrier.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -210,14 +210,14 @@
     </comp>
     <comp ref="U1">
       <value>FANSTEL BT40F / nRF5340</value>
-      <footprint>ato_controller:BT40F_Manufacturer_66Pad</footprint>
+      <footprint>scci_rh_controller:BT40F_Manufacturer_66Pad</footprint>
       <datasheet>https://www.fanstel.com/s/BT40F_BT40N-Product-Specifications.pdf</datasheet>
       <fields>
-        <field name="Footprint">ato_controller:BT40F_Manufacturer_66Pad</field>
+        <field name="Footprint">scci_rh_controller:BT40F_Manufacturer_66Pad</field>
         <field name="Datasheet">https://www.fanstel.com/s/BT40F_BT40N-Product-Specifications.pdf</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="U1" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="U1" description=""/>
       <property name="Sheetname" value="processor"/>
       <property name="Sheetfile" value="processor.kicad_sch"/>
       <sheetpath names="/processor/" tstamps="/c3f0c12c-73b2-5497-919a-c7d5d31b305f/"/>
@@ -297,13 +297,13 @@
     </comp>
     <comp ref="C1">
       <value>47u X7R 10V</value>
-      <footprint>ato_controller:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_controller:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_controller:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="C1" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="C1" description=""/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <sheetpath names="/power/" tstamps="/c0ef80d0-6d9c-5a9b-8dcb-3844017fe984/"/>
@@ -319,13 +319,13 @@
     </comp>
     <comp ref="C2">
       <value>1u X7R 10V</value>
-      <footprint>ato_controller:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_controller:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_controller:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="C2" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="C2" description=""/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <sheetpath names="/power/" tstamps="/c0ef80d0-6d9c-5a9b-8dcb-3844017fe984/"/>
@@ -341,13 +341,13 @@
     </comp>
     <comp ref="C3">
       <value>100n X7R 10V</value>
-      <footprint>ato_controller:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_controller:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_controller:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="C3" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="C3" description=""/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <sheetpath names="/power/" tstamps="/c0ef80d0-6d9c-5a9b-8dcb-3844017fe984/"/>
@@ -363,13 +363,13 @@
     </comp>
     <comp ref="J2">
       <value>SWD / TARGET VREF</value>
-      <footprint>ato_controller:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_controller:PinHeader_1x06_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_controller:PinHeader_1x06_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x06_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="J2" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="J2" description=""/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <sheetpath names="/power/" tstamps="/c0ef80d0-6d9c-5a9b-8dcb-3844017fe984/"/>
@@ -389,13 +389,13 @@
     </comp>
     <comp ref="J3">
       <value>RESET SHORTING HEADER</value>
-      <footprint>ato_controller:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_controller:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_controller:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x02_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="J3" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="J3" description=""/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <sheetpath names="/power/" tstamps="/c0ef80d0-6d9c-5a9b-8dcb-3844017fe984/"/>
@@ -411,13 +411,13 @@
     </comp>
     <comp ref="R1">
       <value>0R</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R1" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R1" description=""/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <sheetpath names="/power/" tstamps="/c0ef80d0-6d9c-5a9b-8dcb-3844017fe984/"/>
@@ -433,13 +433,13 @@
     </comp>
     <comp ref="R2">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R2" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R2" description=""/>
       <property name="Sheetname" value="power"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <sheetpath names="/power/" tstamps="/c0ef80d0-6d9c-5a9b-8dcb-3844017fe984/"/>
@@ -455,13 +455,13 @@
     </comp>
     <comp ref="C10">
       <value>100n X7R 10V</value>
-      <footprint>ato_controller:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_controller:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_controller:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="C10" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="C10" description=""/>
       <property name="Sheetname" value="sideband"/>
       <property name="Sheetfile" value="sideband.kicad_sch"/>
       <sheetpath names="/sideband/" tstamps="/6931257a-22a5-52cb-b29d-d20dcf362c23/"/>
@@ -477,13 +477,13 @@
     </comp>
     <comp ref="C11">
       <value>100n X7R 10V</value>
-      <footprint>ato_controller:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_controller:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_controller:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="C11" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="C11" description=""/>
       <property name="Sheetname" value="sideband"/>
       <property name="Sheetfile" value="sideband.kicad_sch"/>
       <sheetpath names="/sideband/" tstamps="/6931257a-22a5-52cb-b29d-d20dcf362c23/"/>
@@ -499,13 +499,13 @@
     </comp>
     <comp ref="C12">
       <value>100n X7R 10V</value>
-      <footprint>ato_controller:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_controller:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_controller:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="C12" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="C12" description=""/>
       <property name="Sheetname" value="sideband"/>
       <property name="Sheetfile" value="sideband.kicad_sch"/>
       <sheetpath names="/sideband/" tstamps="/6931257a-22a5-52cb-b29d-d20dcf362c23/"/>
@@ -521,13 +521,13 @@
     </comp>
     <comp ref="C13">
       <value>100n X7R 10V</value>
-      <footprint>ato_controller:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_controller:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_controller:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="C13" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="C13" description=""/>
       <property name="Sheetname" value="sideband"/>
       <property name="Sheetfile" value="sideband.kicad_sch"/>
       <sheetpath names="/sideband/" tstamps="/6931257a-22a5-52cb-b29d-d20dcf362c23/"/>
@@ -543,14 +543,14 @@
     </comp>
     <comp ref="U10">
       <value>SN74LVC165APWR</value>
-      <footprint>ato_controller:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <footprint>scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm</footprint>
       <datasheet>https://www.ti.com/lit/gpn/sn74lvc165a</datasheet>
       <fields>
-        <field name="Footprint">ato_controller:TSSOP-16_4.4x5mm_P0.65mm</field>
+        <field name="Footprint">scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm</field>
         <field name="Datasheet">https://www.ti.com/lit/gpn/sn74lvc165a</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="U10" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="U10" description=""/>
       <property name="Sheetname" value="sideband"/>
       <property name="Sheetfile" value="sideband.kicad_sch"/>
       <sheetpath names="/sideband/" tstamps="/6931257a-22a5-52cb-b29d-d20dcf362c23/"/>
@@ -580,14 +580,14 @@
     </comp>
     <comp ref="U11">
       <value>SN74LVC165APWR</value>
-      <footprint>ato_controller:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <footprint>scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm</footprint>
       <datasheet>https://www.ti.com/lit/gpn/sn74lvc165a</datasheet>
       <fields>
-        <field name="Footprint">ato_controller:TSSOP-16_4.4x5mm_P0.65mm</field>
+        <field name="Footprint">scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm</field>
         <field name="Datasheet">https://www.ti.com/lit/gpn/sn74lvc165a</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="U11" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="U11" description=""/>
       <property name="Sheetname" value="sideband"/>
       <property name="Sheetfile" value="sideband.kicad_sch"/>
       <sheetpath names="/sideband/" tstamps="/6931257a-22a5-52cb-b29d-d20dcf362c23/"/>
@@ -617,14 +617,14 @@
     </comp>
     <comp ref="U12">
       <value>SN74LVC165APWR</value>
-      <footprint>ato_controller:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <footprint>scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm</footprint>
       <datasheet>https://www.ti.com/lit/gpn/sn74lvc165a</datasheet>
       <fields>
-        <field name="Footprint">ato_controller:TSSOP-16_4.4x5mm_P0.65mm</field>
+        <field name="Footprint">scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm</field>
         <field name="Datasheet">https://www.ti.com/lit/gpn/sn74lvc165a</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="U12" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="U12" description=""/>
       <property name="Sheetname" value="sideband"/>
       <property name="Sheetfile" value="sideband.kicad_sch"/>
       <sheetpath names="/sideband/" tstamps="/6931257a-22a5-52cb-b29d-d20dcf362c23/"/>
@@ -654,14 +654,14 @@
     </comp>
     <comp ref="U13">
       <value>SN74LVC165APWR</value>
-      <footprint>ato_controller:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <footprint>scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm</footprint>
       <datasheet>https://www.ti.com/lit/gpn/sn74lvc165a</datasheet>
       <fields>
-        <field name="Footprint">ato_controller:TSSOP-16_4.4x5mm_P0.65mm</field>
+        <field name="Footprint">scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm</field>
         <field name="Datasheet">https://www.ti.com/lit/gpn/sn74lvc165a</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="U13" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="U13" description=""/>
       <property name="Sheetname" value="sideband"/>
       <property name="Sheetfile" value="sideband.kicad_sch"/>
       <sheetpath names="/sideband/" tstamps="/6931257a-22a5-52cb-b29d-d20dcf362c23/"/>
@@ -691,13 +691,13 @@
     </comp>
     <comp ref="J10">
       <value>RAW MONITOR</value>
-      <footprint>ato_controller:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_controller:PinHeader_1x06_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_controller:PinHeader_1x06_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x06_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="J10" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="J10" description=""/>
       <property name="Sheetname" value="handoff"/>
       <property name="Sheetfile" value="handoff.kicad_sch"/>
       <sheetpath names="/handoff/" tstamps="/3ae20c75-89a0-5ae2-875a-910f64c6992a/"/>
@@ -717,13 +717,13 @@
     </comp>
     <comp ref="J11">
       <value>ISOLATED RECORDING HOST</value>
-      <footprint>ato_controller:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_controller:PinHeader_1x10_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_controller:PinHeader_1x10_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x10_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="J11" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="J11" description=""/>
       <property name="Sheetname" value="handoff"/>
       <property name="Sheetfile" value="handoff.kicad_sch"/>
       <sheetpath names="/handoff/" tstamps="/3ae20c75-89a0-5ae2-875a-910f64c6992a/"/>
@@ -747,13 +747,13 @@
     </comp>
     <comp ref="J12">
       <value>SHARED CHARGE ENDPOINT SPI</value>
-      <footprint>ato_controller:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_controller:PinHeader_1x07_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_controller:PinHeader_1x07_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x07_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="J12" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="J12" description=""/>
       <property name="Sheetname" value="handoff"/>
       <property name="Sheetfile" value="handoff.kicad_sch"/>
       <sheetpath names="/handoff/" tstamps="/3ae20c75-89a0-5ae2-875a-910f64c6992a/"/>
@@ -774,13 +774,13 @@
     </comp>
     <comp ref="J13">
       <value>DOSE / MONITOR REARM</value>
-      <footprint>ato_controller:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_controller:PinHeader_1x05_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_controller:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x05_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="J13" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="J13" description=""/>
       <property name="Sheetname" value="handoff"/>
       <property name="Sheetfile" value="handoff.kicad_sch"/>
       <sheetpath names="/handoff/" tstamps="/3ae20c75-89a0-5ae2-875a-910f64c6992a/"/>
@@ -799,13 +799,13 @@
     </comp>
     <comp ref="J14">
       <value>DAC SERIAL</value>
-      <footprint>ato_controller:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_controller:PinHeader_1x04_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_controller:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x04_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="J14" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="J14" description=""/>
       <property name="Sheetname" value="handoff_2"/>
       <property name="Sheetfile" value="handoff_2.kicad_sch"/>
       <sheetpath names="/handoff_2/" tstamps="/5f0b61b3-73e2-50bd-ac48-8ca1c028bfae/"/>
@@ -823,13 +823,13 @@
     </comp>
     <comp ref="J15">
       <value>DRIVER REQUEST / POLARITY</value>
-      <footprint>ato_controller:PinHeader_1x09_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_controller:PinHeader_1x09_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="J15" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="J15" description=""/>
       <property name="Sheetname" value="handoff_2"/>
       <property name="Sheetfile" value="handoff_2.kicad_sch"/>
       <sheetpath names="/handoff_2/" tstamps="/5f0b61b3-73e2-50bd-ac48-8ca1c028bfae/"/>
@@ -852,13 +852,13 @@
     </comp>
     <comp ref="J16">
       <value>ROUTE CANDIDATE / COMMIT</value>
-      <footprint>ato_controller:PinHeader_1x09_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_controller:PinHeader_1x09_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="J16" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="J16" description=""/>
       <property name="Sheetname" value="handoff_2"/>
       <property name="Sheetfile" value="handoff_2.kicad_sch"/>
       <sheetpath names="/handoff_2/" tstamps="/5f0b61b3-73e2-50bd-ac48-8ca1c028bfae/"/>
@@ -881,13 +881,13 @@
     </comp>
     <comp ref="J17">
       <value>ACTIVE ROUTE READBACK</value>
-      <footprint>ato_controller:PinHeader_1x09_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_controller:PinHeader_1x09_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="J17" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="J17" description=""/>
       <property name="Sheetname" value="handoff_2"/>
       <property name="Sheetfile" value="handoff_2.kicad_sch"/>
       <sheetpath names="/handoff_2/" tstamps="/5f0b61b3-73e2-50bd-ac48-8ca1c028bfae/"/>
@@ -910,13 +910,13 @@
     </comp>
     <comp ref="J18">
       <value>SUPERVISION CONTROL</value>
-      <footprint>ato_controller:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_controller:PinHeader_1x08_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_controller:PinHeader_1x08_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x08_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="J18" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="J18" description=""/>
       <property name="Sheetname" value="handoff_3"/>
       <property name="Sheetfile" value="handoff_3.kicad_sch"/>
       <sheetpath names="/handoff_3/" tstamps="/aadb8c04-a359-511d-877d-f66a50b6d14e/"/>
@@ -938,13 +938,13 @@
     </comp>
     <comp ref="J19">
       <value>NATIVE HEALTH OBSERVATIONS</value>
-      <footprint>ato_controller:PinHeader_1x19_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_controller:PinHeader_1x19_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_controller:PinHeader_1x19_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x19_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="J19" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="J19" description=""/>
       <property name="Sheetname" value="handoff_3"/>
       <property name="Sheetfile" value="handoff_3.kicad_sch"/>
       <sheetpath names="/handoff_3/" tstamps="/aadb8c04-a359-511d-877d-f66a50b6d14e/"/>
@@ -977,13 +977,13 @@
     </comp>
     <comp ref="J20">
       <value>ISOLATED COMPANION HOST UART</value>
-      <footprint>ato_controller:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_controller:PinHeader_1x04_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_controller:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x04_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="J20" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="J20" description=""/>
       <property name="Sheetname" value="handoff_3"/>
       <property name="Sheetfile" value="handoff_3.kicad_sch"/>
       <sheetpath names="/handoff_3/" tstamps="/aadb8c04-a359-511d-877d-f66a50b6d14e/"/>
@@ -1001,13 +1001,13 @@
     </comp>
     <comp ref="R100">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R100" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R100" description=""/>
       <property name="Sheetname" value="defaults"/>
       <property name="Sheetfile" value="defaults.kicad_sch"/>
       <sheetpath names="/defaults/" tstamps="/48aa9fce-09d3-5139-90ec-d0823db081a9/"/>
@@ -1023,13 +1023,13 @@
     </comp>
     <comp ref="R101">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R101" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R101" description=""/>
       <property name="Sheetname" value="defaults"/>
       <property name="Sheetfile" value="defaults.kicad_sch"/>
       <sheetpath names="/defaults/" tstamps="/48aa9fce-09d3-5139-90ec-d0823db081a9/"/>
@@ -1045,13 +1045,13 @@
     </comp>
     <comp ref="R102">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R102" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R102" description=""/>
       <property name="Sheetname" value="defaults"/>
       <property name="Sheetfile" value="defaults.kicad_sch"/>
       <sheetpath names="/defaults/" tstamps="/48aa9fce-09d3-5139-90ec-d0823db081a9/"/>
@@ -1067,13 +1067,13 @@
     </comp>
     <comp ref="R103">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R103" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R103" description=""/>
       <property name="Sheetname" value="defaults"/>
       <property name="Sheetfile" value="defaults.kicad_sch"/>
       <sheetpath names="/defaults/" tstamps="/48aa9fce-09d3-5139-90ec-d0823db081a9/"/>
@@ -1089,13 +1089,13 @@
     </comp>
     <comp ref="R104">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R104" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R104" description=""/>
       <property name="Sheetname" value="defaults"/>
       <property name="Sheetfile" value="defaults.kicad_sch"/>
       <sheetpath names="/defaults/" tstamps="/48aa9fce-09d3-5139-90ec-d0823db081a9/"/>
@@ -1111,13 +1111,13 @@
     </comp>
     <comp ref="R105">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R105" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R105" description=""/>
       <property name="Sheetname" value="defaults"/>
       <property name="Sheetfile" value="defaults.kicad_sch"/>
       <sheetpath names="/defaults/" tstamps="/48aa9fce-09d3-5139-90ec-d0823db081a9/"/>
@@ -1133,13 +1133,13 @@
     </comp>
     <comp ref="R106">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R106" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R106" description=""/>
       <property name="Sheetname" value="defaults"/>
       <property name="Sheetfile" value="defaults.kicad_sch"/>
       <sheetpath names="/defaults/" tstamps="/48aa9fce-09d3-5139-90ec-d0823db081a9/"/>
@@ -1155,13 +1155,13 @@
     </comp>
     <comp ref="R107">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R107" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R107" description=""/>
       <property name="Sheetname" value="defaults"/>
       <property name="Sheetfile" value="defaults.kicad_sch"/>
       <sheetpath names="/defaults/" tstamps="/48aa9fce-09d3-5139-90ec-d0823db081a9/"/>
@@ -1177,13 +1177,13 @@
     </comp>
     <comp ref="R108">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R108" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R108" description=""/>
       <property name="Sheetname" value="defaults"/>
       <property name="Sheetfile" value="defaults.kicad_sch"/>
       <sheetpath names="/defaults/" tstamps="/48aa9fce-09d3-5139-90ec-d0823db081a9/"/>
@@ -1199,13 +1199,13 @@
     </comp>
     <comp ref="R109">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R109" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R109" description=""/>
       <property name="Sheetname" value="defaults"/>
       <property name="Sheetfile" value="defaults.kicad_sch"/>
       <sheetpath names="/defaults/" tstamps="/48aa9fce-09d3-5139-90ec-d0823db081a9/"/>
@@ -1221,13 +1221,13 @@
     </comp>
     <comp ref="R110">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R110" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R110" description=""/>
       <property name="Sheetname" value="defaults"/>
       <property name="Sheetfile" value="defaults.kicad_sch"/>
       <sheetpath names="/defaults/" tstamps="/48aa9fce-09d3-5139-90ec-d0823db081a9/"/>
@@ -1243,13 +1243,13 @@
     </comp>
     <comp ref="R111">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R111" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R111" description=""/>
       <property name="Sheetname" value="defaults"/>
       <property name="Sheetfile" value="defaults.kicad_sch"/>
       <sheetpath names="/defaults/" tstamps="/48aa9fce-09d3-5139-90ec-d0823db081a9/"/>
@@ -1265,13 +1265,13 @@
     </comp>
     <comp ref="R112">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R112" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R112" description=""/>
       <property name="Sheetname" value="defaults"/>
       <property name="Sheetfile" value="defaults.kicad_sch"/>
       <sheetpath names="/defaults/" tstamps="/48aa9fce-09d3-5139-90ec-d0823db081a9/"/>
@@ -1287,13 +1287,13 @@
     </comp>
     <comp ref="R113">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R113" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R113" description=""/>
       <property name="Sheetname" value="defaults"/>
       <property name="Sheetfile" value="defaults.kicad_sch"/>
       <sheetpath names="/defaults/" tstamps="/48aa9fce-09d3-5139-90ec-d0823db081a9/"/>
@@ -1309,13 +1309,13 @@
     </comp>
     <comp ref="R114">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R114" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R114" description=""/>
       <property name="Sheetname" value="defaults_2"/>
       <property name="Sheetfile" value="defaults_2.kicad_sch"/>
       <sheetpath names="/defaults_2/" tstamps="/ae65c1f2-63b9-5ad2-8cea-3c7be9d4e0ae/"/>
@@ -1331,13 +1331,13 @@
     </comp>
     <comp ref="R115">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R115" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R115" description=""/>
       <property name="Sheetname" value="defaults_2"/>
       <property name="Sheetfile" value="defaults_2.kicad_sch"/>
       <sheetpath names="/defaults_2/" tstamps="/ae65c1f2-63b9-5ad2-8cea-3c7be9d4e0ae/"/>
@@ -1353,13 +1353,13 @@
     </comp>
     <comp ref="R116">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R116" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R116" description=""/>
       <property name="Sheetname" value="defaults_2"/>
       <property name="Sheetfile" value="defaults_2.kicad_sch"/>
       <sheetpath names="/defaults_2/" tstamps="/ae65c1f2-63b9-5ad2-8cea-3c7be9d4e0ae/"/>
@@ -1375,13 +1375,13 @@
     </comp>
     <comp ref="R117">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R117" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R117" description=""/>
       <property name="Sheetname" value="defaults_2"/>
       <property name="Sheetfile" value="defaults_2.kicad_sch"/>
       <sheetpath names="/defaults_2/" tstamps="/ae65c1f2-63b9-5ad2-8cea-3c7be9d4e0ae/"/>
@@ -1397,13 +1397,13 @@
     </comp>
     <comp ref="R118">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R118" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R118" description=""/>
       <property name="Sheetname" value="defaults_2"/>
       <property name="Sheetfile" value="defaults_2.kicad_sch"/>
       <sheetpath names="/defaults_2/" tstamps="/ae65c1f2-63b9-5ad2-8cea-3c7be9d4e0ae/"/>
@@ -1419,13 +1419,13 @@
     </comp>
     <comp ref="R119">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R119" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R119" description=""/>
       <property name="Sheetname" value="defaults_2"/>
       <property name="Sheetfile" value="defaults_2.kicad_sch"/>
       <sheetpath names="/defaults_2/" tstamps="/ae65c1f2-63b9-5ad2-8cea-3c7be9d4e0ae/"/>
@@ -1441,13 +1441,13 @@
     </comp>
     <comp ref="R120">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R120" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R120" description=""/>
       <property name="Sheetname" value="defaults_2"/>
       <property name="Sheetfile" value="defaults_2.kicad_sch"/>
       <sheetpath names="/defaults_2/" tstamps="/ae65c1f2-63b9-5ad2-8cea-3c7be9d4e0ae/"/>
@@ -1463,13 +1463,13 @@
     </comp>
     <comp ref="R121">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R121" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R121" description=""/>
       <property name="Sheetname" value="defaults_2"/>
       <property name="Sheetfile" value="defaults_2.kicad_sch"/>
       <sheetpath names="/defaults_2/" tstamps="/ae65c1f2-63b9-5ad2-8cea-3c7be9d4e0ae/"/>
@@ -1485,13 +1485,13 @@
     </comp>
     <comp ref="R122">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R122" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R122" description=""/>
       <property name="Sheetname" value="defaults_2"/>
       <property name="Sheetfile" value="defaults_2.kicad_sch"/>
       <sheetpath names="/defaults_2/" tstamps="/ae65c1f2-63b9-5ad2-8cea-3c7be9d4e0ae/"/>
@@ -1507,13 +1507,13 @@
     </comp>
     <comp ref="R123">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R123" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R123" description=""/>
       <property name="Sheetname" value="defaults_2"/>
       <property name="Sheetfile" value="defaults_2.kicad_sch"/>
       <sheetpath names="/defaults_2/" tstamps="/ae65c1f2-63b9-5ad2-8cea-3c7be9d4e0ae/"/>
@@ -1529,13 +1529,13 @@
     </comp>
     <comp ref="R124">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R124" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R124" description=""/>
       <property name="Sheetname" value="defaults_2"/>
       <property name="Sheetfile" value="defaults_2.kicad_sch"/>
       <sheetpath names="/defaults_2/" tstamps="/ae65c1f2-63b9-5ad2-8cea-3c7be9d4e0ae/"/>
@@ -1551,13 +1551,13 @@
     </comp>
     <comp ref="R125">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R125" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R125" description=""/>
       <property name="Sheetname" value="defaults_2"/>
       <property name="Sheetfile" value="defaults_2.kicad_sch"/>
       <sheetpath names="/defaults_2/" tstamps="/ae65c1f2-63b9-5ad2-8cea-3c7be9d4e0ae/"/>
@@ -1573,13 +1573,13 @@
     </comp>
     <comp ref="R126">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R126" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R126" description=""/>
       <property name="Sheetname" value="defaults_2"/>
       <property name="Sheetfile" value="defaults_2.kicad_sch"/>
       <sheetpath names="/defaults_2/" tstamps="/ae65c1f2-63b9-5ad2-8cea-3c7be9d4e0ae/"/>
@@ -1595,13 +1595,13 @@
     </comp>
     <comp ref="R127">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R127" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R127" description=""/>
       <property name="Sheetname" value="defaults_2"/>
       <property name="Sheetfile" value="defaults_2.kicad_sch"/>
       <sheetpath names="/defaults_2/" tstamps="/ae65c1f2-63b9-5ad2-8cea-3c7be9d4e0ae/"/>
@@ -1617,13 +1617,13 @@
     </comp>
     <comp ref="R128">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R128" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R128" description=""/>
       <property name="Sheetname" value="defaults_3"/>
       <property name="Sheetfile" value="defaults_3.kicad_sch"/>
       <sheetpath names="/defaults_3/" tstamps="/0c803b5d-fb86-5e06-9ae9-dcb014921dfd/"/>
@@ -1639,13 +1639,13 @@
     </comp>
     <comp ref="R129">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R129" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R129" description=""/>
       <property name="Sheetname" value="defaults_3"/>
       <property name="Sheetfile" value="defaults_3.kicad_sch"/>
       <sheetpath names="/defaults_3/" tstamps="/0c803b5d-fb86-5e06-9ae9-dcb014921dfd/"/>
@@ -1661,13 +1661,13 @@
     </comp>
     <comp ref="R130">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R130" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R130" description=""/>
       <property name="Sheetname" value="defaults_3"/>
       <property name="Sheetfile" value="defaults_3.kicad_sch"/>
       <sheetpath names="/defaults_3/" tstamps="/0c803b5d-fb86-5e06-9ae9-dcb014921dfd/"/>
@@ -1683,13 +1683,13 @@
     </comp>
     <comp ref="R131">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R131" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R131" description=""/>
       <property name="Sheetname" value="defaults_3"/>
       <property name="Sheetfile" value="defaults_3.kicad_sch"/>
       <sheetpath names="/defaults_3/" tstamps="/0c803b5d-fb86-5e06-9ae9-dcb014921dfd/"/>
@@ -1705,13 +1705,13 @@
     </comp>
     <comp ref="R132">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R132" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R132" description=""/>
       <property name="Sheetname" value="defaults_3"/>
       <property name="Sheetfile" value="defaults_3.kicad_sch"/>
       <sheetpath names="/defaults_3/" tstamps="/0c803b5d-fb86-5e06-9ae9-dcb014921dfd/"/>
@@ -1727,13 +1727,13 @@
     </comp>
     <comp ref="R133">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R133" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R133" description=""/>
       <property name="Sheetname" value="defaults_3"/>
       <property name="Sheetfile" value="defaults_3.kicad_sch"/>
       <sheetpath names="/defaults_3/" tstamps="/0c803b5d-fb86-5e06-9ae9-dcb014921dfd/"/>
@@ -1749,13 +1749,13 @@
     </comp>
     <comp ref="R134">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R134" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R134" description=""/>
       <property name="Sheetname" value="defaults_3"/>
       <property name="Sheetfile" value="defaults_3.kicad_sch"/>
       <sheetpath names="/defaults_3/" tstamps="/0c803b5d-fb86-5e06-9ae9-dcb014921dfd/"/>
@@ -1771,13 +1771,13 @@
     </comp>
     <comp ref="R135">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R135" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R135" description=""/>
       <property name="Sheetname" value="defaults_3"/>
       <property name="Sheetfile" value="defaults_3.kicad_sch"/>
       <sheetpath names="/defaults_3/" tstamps="/0c803b5d-fb86-5e06-9ae9-dcb014921dfd/"/>
@@ -1793,13 +1793,13 @@
     </comp>
     <comp ref="R136">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R136" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R136" description=""/>
       <property name="Sheetname" value="defaults_3"/>
       <property name="Sheetfile" value="defaults_3.kicad_sch"/>
       <sheetpath names="/defaults_3/" tstamps="/0c803b5d-fb86-5e06-9ae9-dcb014921dfd/"/>
@@ -1815,13 +1815,13 @@
     </comp>
     <comp ref="R137">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R137" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R137" description=""/>
       <property name="Sheetname" value="defaults_3"/>
       <property name="Sheetfile" value="defaults_3.kicad_sch"/>
       <sheetpath names="/defaults_3/" tstamps="/0c803b5d-fb86-5e06-9ae9-dcb014921dfd/"/>
@@ -1837,13 +1837,13 @@
     </comp>
     <comp ref="R138">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R138" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R138" description=""/>
       <property name="Sheetname" value="defaults_3"/>
       <property name="Sheetfile" value="defaults_3.kicad_sch"/>
       <sheetpath names="/defaults_3/" tstamps="/0c803b5d-fb86-5e06-9ae9-dcb014921dfd/"/>
@@ -1859,13 +1859,13 @@
     </comp>
     <comp ref="R139">
       <value>10k</value>
-      <footprint>ato_controller:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_controller:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_CONTROLLER" part="R139" description=""/>
+      <libsource lib="SCCI_RH_CONTROLLER" part="R139" description=""/>
       <property name="Sheetname" value="defaults_3"/>
       <property name="Sheetfile" value="defaults_3.kicad_sch"/>
       <sheetpath names="/defaults_3/" tstamps="/0c803b5d-fb86-5e06-9ae9-dcb014921dfd/"/>
@@ -1881,11 +1881,11 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="ATO_CONTROLLER" part="C1">
+    <libpart lib="SCCI_RH_CONTROLLER" part="C1">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">47u X7R 10V</field>
-        <field name="Footprint">ato_controller:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_controller:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1894,11 +1894,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="C10">
+    <libpart lib="SCCI_RH_CONTROLLER" part="C10">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">100n X7R 10V</field>
-        <field name="Footprint">ato_controller:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_controller:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1907,11 +1907,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="C11">
+    <libpart lib="SCCI_RH_CONTROLLER" part="C11">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">100n X7R 10V</field>
-        <field name="Footprint">ato_controller:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_controller:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1920,11 +1920,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="C12">
+    <libpart lib="SCCI_RH_CONTROLLER" part="C12">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">100n X7R 10V</field>
-        <field name="Footprint">ato_controller:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_controller:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1933,11 +1933,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="C13">
+    <libpart lib="SCCI_RH_CONTROLLER" part="C13">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">100n X7R 10V</field>
-        <field name="Footprint">ato_controller:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_controller:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1946,11 +1946,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="C2">
+    <libpart lib="SCCI_RH_CONTROLLER" part="C2">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">1u X7R 10V</field>
-        <field name="Footprint">ato_controller:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_controller:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1959,11 +1959,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="C3">
+    <libpart lib="SCCI_RH_CONTROLLER" part="C3">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">100n X7R 10V</field>
-        <field name="Footprint">ato_controller:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_controller:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1972,11 +1972,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="J1">
+    <libpart lib="SCCI_RH_CONTROLLER" part="J1">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">HOST POWER</field>
-        <field name="Footprint">ato_controller:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x02_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1985,11 +1985,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="J10">
+    <libpart lib="SCCI_RH_CONTROLLER" part="J10">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">RAW MONITOR</field>
-        <field name="Footprint">ato_controller:PinHeader_1x06_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x06_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2002,11 +2002,11 @@
         <pin num="6" name="6" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="J11">
+    <libpart lib="SCCI_RH_CONTROLLER" part="J11">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">ISOLATED RECORDING HOST</field>
-        <field name="Footprint">ato_controller:PinHeader_1x10_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x10_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2023,11 +2023,11 @@
         <pin num="10" name="10" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="J12">
+    <libpart lib="SCCI_RH_CONTROLLER" part="J12">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">SHARED CHARGE ENDPOINT SPI</field>
-        <field name="Footprint">ato_controller:PinHeader_1x07_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x07_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2041,11 +2041,11 @@
         <pin num="7" name="7" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="J13">
+    <libpart lib="SCCI_RH_CONTROLLER" part="J13">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">DOSE / MONITOR REARM</field>
-        <field name="Footprint">ato_controller:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x05_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2057,11 +2057,11 @@
         <pin num="5" name="5" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="J14">
+    <libpart lib="SCCI_RH_CONTROLLER" part="J14">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">DAC SERIAL</field>
-        <field name="Footprint">ato_controller:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x04_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2072,11 +2072,11 @@
         <pin num="4" name="4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="J15">
+    <libpart lib="SCCI_RH_CONTROLLER" part="J15">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">DRIVER REQUEST / POLARITY</field>
-        <field name="Footprint">ato_controller:PinHeader_1x09_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2092,11 +2092,11 @@
         <pin num="9" name="9" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="J16">
+    <libpart lib="SCCI_RH_CONTROLLER" part="J16">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">ROUTE CANDIDATE / COMMIT</field>
-        <field name="Footprint">ato_controller:PinHeader_1x09_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2112,11 +2112,11 @@
         <pin num="9" name="9" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="J17">
+    <libpart lib="SCCI_RH_CONTROLLER" part="J17">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">ACTIVE ROUTE READBACK</field>
-        <field name="Footprint">ato_controller:PinHeader_1x09_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x09_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2132,11 +2132,11 @@
         <pin num="9" name="9" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="J18">
+    <libpart lib="SCCI_RH_CONTROLLER" part="J18">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">SUPERVISION CONTROL</field>
-        <field name="Footprint">ato_controller:PinHeader_1x08_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x08_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2151,11 +2151,11 @@
         <pin num="8" name="8" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="J19">
+    <libpart lib="SCCI_RH_CONTROLLER" part="J19">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">NATIVE HEALTH OBSERVATIONS</field>
-        <field name="Footprint">ato_controller:PinHeader_1x19_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x19_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2181,11 +2181,11 @@
         <pin num="19" name="19" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="J2">
+    <libpart lib="SCCI_RH_CONTROLLER" part="J2">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">SWD / TARGET VREF</field>
-        <field name="Footprint">ato_controller:PinHeader_1x06_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x06_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2198,11 +2198,11 @@
         <pin num="6" name="6" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="J20">
+    <libpart lib="SCCI_RH_CONTROLLER" part="J20">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">ISOLATED COMPANION HOST UART</field>
-        <field name="Footprint">ato_controller:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x04_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2213,11 +2213,11 @@
         <pin num="4" name="4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="J3">
+    <libpart lib="SCCI_RH_CONTROLLER" part="J3">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">RESET SHORTING HEADER</field>
-        <field name="Footprint">ato_controller:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_controller:PinHeader_1x02_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2226,11 +2226,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R1">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R1">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">0R</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2239,11 +2239,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R100">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R100">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2252,11 +2252,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R101">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R101">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2265,11 +2265,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R102">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R102">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2278,11 +2278,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R103">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R103">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2291,11 +2291,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R104">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R104">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2304,11 +2304,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R105">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R105">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2317,11 +2317,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R106">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R106">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2330,11 +2330,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R107">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R107">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2343,11 +2343,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R108">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R108">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2356,11 +2356,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R109">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R109">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2369,11 +2369,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R110">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R110">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2382,11 +2382,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R111">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R111">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2395,11 +2395,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R112">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R112">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2408,11 +2408,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R113">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R113">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2421,11 +2421,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R114">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R114">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2434,11 +2434,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R115">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R115">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2447,11 +2447,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R116">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R116">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2460,11 +2460,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R117">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R117">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2473,11 +2473,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R118">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R118">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2486,11 +2486,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R119">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R119">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2499,11 +2499,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R120">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R120">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2512,11 +2512,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R121">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R121">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2525,11 +2525,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R122">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R122">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2538,11 +2538,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R123">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R123">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2551,11 +2551,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R124">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R124">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2564,11 +2564,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R125">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R125">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2577,11 +2577,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R126">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R126">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2590,11 +2590,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R127">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R127">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2603,11 +2603,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R128">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R128">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2616,11 +2616,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R129">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R129">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2629,11 +2629,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R130">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R130">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2642,11 +2642,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R131">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R131">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2655,11 +2655,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R132">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R132">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2668,11 +2668,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R133">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R133">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2681,11 +2681,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R134">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R134">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2694,11 +2694,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R135">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R135">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2707,11 +2707,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R136">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R136">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2720,11 +2720,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R137">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R137">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2733,11 +2733,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R138">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R138">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2746,11 +2746,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R139">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R139">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2759,11 +2759,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="R2">
+    <libpart lib="SCCI_RH_CONTROLLER" part="R2">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_controller:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_controller:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2772,11 +2772,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="U1">
+    <libpart lib="SCCI_RH_CONTROLLER" part="U1">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">FANSTEL BT40F / nRF5340</field>
-        <field name="Footprint">ato_controller:BT40F_Manufacturer_66Pad</field>
+        <field name="Footprint">scci_rh_controller:BT40F_Manufacturer_66Pad</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2849,11 +2849,11 @@
         <pin num="Z6" name="P1.15" type="bidirectional"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="U10">
+    <libpart lib="SCCI_RH_CONTROLLER" part="U10">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">SN74LVC165APWR</field>
-        <field name="Footprint">ato_controller:TSSOP-16_4.4x5mm_P0.65mm</field>
+        <field name="Footprint">scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2876,11 +2876,11 @@
         <pin num="16" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="U11">
+    <libpart lib="SCCI_RH_CONTROLLER" part="U11">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">SN74LVC165APWR</field>
-        <field name="Footprint">ato_controller:TSSOP-16_4.4x5mm_P0.65mm</field>
+        <field name="Footprint">scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2903,11 +2903,11 @@
         <pin num="16" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="U12">
+    <libpart lib="SCCI_RH_CONTROLLER" part="U12">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">SN74LVC165APWR</field>
-        <field name="Footprint">ato_controller:TSSOP-16_4.4x5mm_P0.65mm</field>
+        <field name="Footprint">scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2930,11 +2930,11 @@
         <pin num="16" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_CONTROLLER" part="U13">
+    <libpart lib="SCCI_RH_CONTROLLER" part="U13">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">SN74LVC165APWR</field>
-        <field name="Footprint">ato_controller:TSSOP-16_4.4x5mm_P0.65mm</field>
+        <field name="Footprint">scci_rh_controller:TSSOP-16_4.4x5mm_P0.65mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2959,8 +2959,8 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="ATO_CONTROLLER">
-      <uri>${KIPRJMOD}/ATO_CONTROLLER.kicad_sym</uri>
+    <library logical="SCCI_RH_CONTROLLER">
+      <uri>${KIPRJMOD}/SCCI_RH_CONTROLLER.kicad_sym</uri>
     </library>
   </libraries>
   <nets>

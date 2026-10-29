@@ -1,0 +1,2625 @@
+{
+  "applied": true,
+  "assets": [
+    {
+      "path": "cad/exports/base.stl",
+      "changed": false,
+      "before_sha256": "795a9c0f90ad22cf3afd3fa2fa12fac12a9a0774c46bb3e5cd651f8e0b2bbbbd",
+      "after_sha256": "795a9c0f90ad22cf3afd3fa2fa12fac12a9a0774c46bb3e5cd651f8e0b2bbbbd",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "3f48fd1b605720d3a396feceab4a18bfe9b11b5fc91dcd20fc39bca8a9d3776c"
+      }
+    },
+    {
+      "path": "cad/exports/lead-contacts.stl",
+      "changed": false,
+      "before_sha256": "e4072fab0a74197fedec64e6ffda3163445995857e67e2ce874f18f6c94a625a",
+      "after_sha256": "e4072fab0a74197fedec64e6ffda3163445995857e67e2ce874f18f6c94a625a",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "f9280ec6dbf4648656f5cb276ab69b1b819fe3d4e3875452b5dd852577df8d42"
+      }
+    },
+    {
+      "path": "cad/exports/lead-paddle.stl",
+      "changed": false,
+      "before_sha256": "f5ba289be24639dbf1c5fb6dce21a7d5c91bdf008c2d91634d09f76b9c04d763",
+      "after_sha256": "f5ba289be24639dbf1c5fb6dce21a7d5c91bdf008c2d91634d09f76b9c04d763",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "fec6078dcd993142073ef098170ca99eaed7b823ef9bbd8e81344377886fad42"
+      }
+    },
+    {
+      "path": "cad/exports/lid.stl",
+      "changed": false,
+      "before_sha256": "cead44f918897c61543a5d5c81609333d008b41e71260b43b241475d382ee6e5",
+      "after_sha256": "cead44f918897c61543a5d5c81609333d008b41e71260b43b241475d382ee6e5",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "2d5f12fc7c0db2e5299e29169d6ea2f5c29a1da07302072f796c22eefacc83d7"
+      }
+    },
+    {
+      "path": "cad/exports/pcb-envelope.stl",
+      "changed": false,
+      "before_sha256": "c863dddb8eba9be5fe24cfc00b9e31a96fc70899d21881b5f75914f468ed6d33",
+      "after_sha256": "c863dddb8eba9be5fe24cfc00b9e31a96fc70899d21881b5f75914f468ed6d33",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "f3bf254e183cf8707ad54ad3daf6d8d4296fdbb9fd23ed4a89087dfca26d96cb"
+      }
+    },
+    {
+      "path": "cad/exports/recording-contacts.stl",
+      "changed": false,
+      "before_sha256": "0036fc981780c4d7b4aa102817a98e87e1eb8dadfa026e359990a27225fed095",
+      "after_sha256": "0036fc981780c4d7b4aa102817a98e87e1eb8dadfa026e359990a27225fed095",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "7bd2c0f85c5712f62beac4f11903446541aac629f915cc1a349a3282fa339db3"
+      }
+    },
+    {
+      "path": "cad/exports/recording-cuff.stl",
+      "changed": false,
+      "before_sha256": "c9f6ebd1aab283e8a1cf400519a809a99de242870506805d77a5dd6bc412f3bf",
+      "after_sha256": "c9f6ebd1aab283e8a1cf400519a809a99de242870506805d77a5dd6bc412f3bf",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "d07b2bb6d039154875d242a697908ba26df0e8bd05bcafba22aaf5d10e50e01a"
+      }
+    },
+    {
+      "path": "cad/exports/scci_rh-desktop-assembly.stl",
+      "changed": false,
+      "before_sha256": "30fa18694045febff796cceb4130be88d42648fc19848848e187bae1b9691e08",
+      "after_sha256": "30fa18694045febff796cceb4130be88d42648fc19848848e187bae1b9691e08",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "0e53f970f7858d7f9d05ff4e814d3bd276f6467c405a63ba0aa31e0bcc59a0cf"
+      }
+    },
+    {
+      "path": "cad/stage5/future-interface/SCCI_RH_future_interface.stl",
+      "changed": false,
+      "before_sha256": "56433d7debf3bafb41604cb7c971a2f45e7495ba252c1fff6bc47a709c15c930",
+      "after_sha256": "56433d7debf3bafb41604cb7c971a2f45e7495ba252c1fff6bc47a709c15c930",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "053c2324f76858d8c632660f027d10eebb343f51b12268ce95102b253a421df3"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Base.stl",
+      "changed": false,
+      "before_sha256": "c1ba3ebf31577d74ab7ac9a9d1a07ef2c0ee0be6f64207fa6bf4748a42c27b55",
+      "after_sha256": "c1ba3ebf31577d74ab7ac9a9d1a07ef2c0ee0be6f64207fa6bf4748a42c27b55",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "3f8aca997db81197bff0f90d5970ffe89a125629f6c9a63cf5f9823f9c15c98b"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Foot_0.stl",
+      "changed": false,
+      "before_sha256": "867834115e92f8d95578014aaf675ef51a336a1138f344616a4c698f6238ae37",
+      "after_sha256": "867834115e92f8d95578014aaf675ef51a336a1138f344616a4c698f6238ae37",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "e5babd661add33697ca1557f226db5bd53b806fbbe183c74f8a117932cd99db9"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Foot_1.stl",
+      "changed": false,
+      "before_sha256": "9ea67f988fdd15e95d36693d264a13328bfc0e71498628e5100505b6d7e9a103",
+      "after_sha256": "9ea67f988fdd15e95d36693d264a13328bfc0e71498628e5100505b6d7e9a103",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "f119d46648c1554a56ab74a31fb6a9b8fb346ad6624475044bd87749beb0813e"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Foot_2.stl",
+      "changed": false,
+      "before_sha256": "df7dfc187c40e4127a91f72ecef0c0216c37836ebccd073c2370c06014b9bd6b",
+      "after_sha256": "df7dfc187c40e4127a91f72ecef0c0216c37836ebccd073c2370c06014b9bd6b",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "469d6604f39569226494ec176bac7c28d75d0aea9f41e117b7de227b0dbbdce7"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Foot_3.stl",
+      "changed": false,
+      "before_sha256": "caf42fbb78f3ea2ea46aa5566b3a70982c9bc98fde2013943ce1bf42e2b51694",
+      "after_sha256": "caf42fbb78f3ea2ea46aa5566b3a70982c9bc98fde2013943ce1bf42e2b51694",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "4d857d2eadaf2126bdc50b4f999285fe59c25b5710747e1dc3a871dfe77af441"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/FrontBracket_0_0.stl",
+      "changed": false,
+      "before_sha256": "fb092ff5586c9262b1f675b1efdb628bea1a1ec4d0a5352c8315527c83920ae3",
+      "after_sha256": "fb092ff5586c9262b1f675b1efdb628bea1a1ec4d0a5352c8315527c83920ae3",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "7ef90b357eb82fb0fcb32974d116375581d28d5e76881d889c87bbc0fe668cae"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/FrontBracket_0_1.stl",
+      "changed": false,
+      "before_sha256": "419f127f3d4bd225f53ab84747899d17bc468ed0fcd860013850f162f7d8c489",
+      "after_sha256": "419f127f3d4bd225f53ab84747899d17bc468ed0fcd860013850f162f7d8c489",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "a0e8df5737a937efbc5e995a1f289010942835c83926223edffa65ad4123a58b"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/FrontBracket_1_0.stl",
+      "changed": false,
+      "before_sha256": "79ac416bb0c8931d9fef1117c2ff05ec687adc43733e5598479984fb0dc17d92",
+      "after_sha256": "79ac416bb0c8931d9fef1117c2ff05ec687adc43733e5598479984fb0dc17d92",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "913385789a3668abab384c7ddff5ff176c9c98061430645937c23c8c30384244"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/FrontBracket_1_1.stl",
+      "changed": false,
+      "before_sha256": "1064b12ca7cb11ca056d141bf1ccc5e0b9942e34a966586ae8d27a1e5f435f3b",
+      "after_sha256": "1064b12ca7cb11ca056d141bf1ccc5e0b9942e34a966586ae8d27a1e5f435f3b",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "aad3ae303202396a4e2259d942c47fdf5b203a7b53286d2be6c8ddd22c7e585c"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/FrontPanel.stl",
+      "changed": false,
+      "before_sha256": "9bfa8223718f27feb4b3acb88beca270bcfb4ccdf66191d3498d765a4209b109",
+      "after_sha256": "9bfa8223718f27feb4b3acb88beca270bcfb4ccdf66191d3498d765a4209b109",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "80bdaa36b451d9bd2cde3caf1a69deeb3e995610af4706a7dab2a5e006758732"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/FrontScrew_0_0.stl",
+      "changed": false,
+      "before_sha256": "b4e1069988d6954ba3d2ed78bc2679b6f35b29295011611f7a876498391c0d2d",
+      "after_sha256": "b4e1069988d6954ba3d2ed78bc2679b6f35b29295011611f7a876498391c0d2d",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "6c578f8bcd40c9eb4ce008fb72748df51bb86da63311803dbbe383132f03dfcd"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/FrontScrew_0_1.stl",
+      "changed": false,
+      "before_sha256": "7805e63067378292d606397a2fa0c1cdba5311b9abe8dcddee831d4fd36cad35",
+      "after_sha256": "7805e63067378292d606397a2fa0c1cdba5311b9abe8dcddee831d4fd36cad35",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "86a48ff7e825e6ef10106e72f9ff350111020ba490cd6235043b30d2074b038d"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/FrontScrew_1_0.stl",
+      "changed": false,
+      "before_sha256": "e2bab793e2fbc521fafc68d667b6a40044d73fc057dee8c8d4ca9e83c3480e46",
+      "after_sha256": "e2bab793e2fbc521fafc68d667b6a40044d73fc057dee8c8d4ca9e83c3480e46",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "ec703f341eb64a9d9b7eaa8e87b4f19fe6ee3c01b6b39d4afb607599c888a8f1"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/FrontScrew_1_1.stl",
+      "changed": false,
+      "before_sha256": "fee3d64cb60a625952bfa373bf761db0b55de759d039b3648ba869a85a9aed11",
+      "after_sha256": "fee3d64cb60a625952bfa373bf761db0b55de759d039b3648ba869a85a9aed11",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "ad914c529dd457313b2e43a256ceaa41008e11d7cac4e2c00e28c46dc9dfedfd"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Lid.stl",
+      "changed": false,
+      "before_sha256": "54441356cb305cff45a026715276e5faedd335b0811bf94bffba8e77a01808dc",
+      "after_sha256": "54441356cb305cff45a026715276e5faedd335b0811bf94bffba8e77a01808dc",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "6e562d1ab57f9ec233d59f95779d1125d7a484e052cd542474ccc4404a2889c5"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LidScrew_0_0.stl",
+      "changed": false,
+      "before_sha256": "76e9480ea284c586c36a71782cdcdf51bc4d604cc9f503dd86365a360e58ecab",
+      "after_sha256": "76e9480ea284c586c36a71782cdcdf51bc4d604cc9f503dd86365a360e58ecab",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "9723369aa78c77f0668ff9a24410eb80c49ad442085c1a79cf59e00a936ed365"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LidScrew_0_1.stl",
+      "changed": false,
+      "before_sha256": "54eed7bfae3a676ca1c7aacaf574ba5ee3a34239f269b7b7d2a19e7a49a4d737",
+      "after_sha256": "54eed7bfae3a676ca1c7aacaf574ba5ee3a34239f269b7b7d2a19e7a49a4d737",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "9d17956e2138cfa52469bab703599d03c0b7fc03c172acdbfd47f1b1ed2fc448"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LidScrew_1_0.stl",
+      "changed": false,
+      "before_sha256": "148fe9eb0ce024df5c660b22ac0d462bc4d80989afa5a865a1c7f6b0ce13d5d2",
+      "after_sha256": "148fe9eb0ce024df5c660b22ac0d462bc4d80989afa5a865a1c7f6b0ce13d5d2",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "1d9a930ec31f9b26e377411189c4d791b3f77e7fb45266e2fc9eb9f2eb99e645"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LidScrew_1_1.stl",
+      "changed": false,
+      "before_sha256": "f8812a3db7817abec36f5c81de63e19bad6346e1b0f6584468372e7d289df8f1",
+      "after_sha256": "f8812a3db7817abec36f5c81de63e19bad6346e1b0f6584468372e7d289df8f1",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "aacb0b6cbdfe269c90b0d2ca43b57bad00822a4618b0aa47786a999b11309a0c"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LidScrew_2_0.stl",
+      "changed": false,
+      "before_sha256": "9278e2afa6c5bae9d46cd12e2f6b72287b1180897b9b16e0a5759c84c7dbd3d4",
+      "after_sha256": "9278e2afa6c5bae9d46cd12e2f6b72287b1180897b9b16e0a5759c84c7dbd3d4",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "22258e3154fd86dcf86c266efab3c7d60e3ec4b8fc9abf0df97a5ccaf1ac18e6"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LidScrew_2_1.stl",
+      "changed": false,
+      "before_sha256": "3eaa41a0ea82e4f8ece179a1f03a9de77b2eb204772ae8b7494aee1f1cef669c",
+      "after_sha256": "3eaa41a0ea82e4f8ece179a1f03a9de77b2eb204772ae8b7494aee1f1cef669c",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "e07378028a09d741c1f80d78e75c89adaa0c54e2cb04f58f97515913e25768c6"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LidScrew_3_0.stl",
+      "changed": false,
+      "before_sha256": "59a181ec8f01ef17487ad3f1d083d4b813d52a0f9a2d97b6f4c91250a301407c",
+      "after_sha256": "59a181ec8f01ef17487ad3f1d083d4b813d52a0f9a2d97b6f4c91250a301407c",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "7a58f66b14520ff24bafb283e2b51b0d541fe95c05c1befc8add541df569087c"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LidScrew_3_1.stl",
+      "changed": false,
+      "before_sha256": "58eef720933bde52a172c1569896424e888186aa0490dae9e025d4df50bc91fd",
+      "after_sha256": "58eef720933bde52a172c1569896424e888186aa0490dae9e025d4df50bc91fd",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "2c61fbf2a86e7005f9124c1187976a28d94889831319e5a0907cbaa66b9c485c"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_contact_router_H1.stl",
+      "changed": false,
+      "before_sha256": "c265276da225841b09c2f1e386031ce93ffd5e2f38b686dc12680e1b072ec944",
+      "after_sha256": "c265276da225841b09c2f1e386031ce93ffd5e2f38b686dc12680e1b072ec944",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "954f860524cfdaee31e254e97987112fb74d055e56c56e4ae2e43e2fb7c649ec"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_contact_router_H2.stl",
+      "changed": false,
+      "before_sha256": "409dc3a0cbcfabd50f13a672a796ef462a2207b309db5edcc21f5eeb6ea8c3c4",
+      "after_sha256": "409dc3a0cbcfabd50f13a672a796ef462a2207b309db5edcc21f5eeb6ea8c3c4",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "7c8a65269f2a774aeee0c334024b7789696a5d0d6c16bfc0d37a99c2407003b3"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_contact_router_H3.stl",
+      "changed": false,
+      "before_sha256": "5556164deb45c03c033119b2199b99231d69fdd15d2d0f0139c3a5caaf600804",
+      "after_sha256": "5556164deb45c03c033119b2199b99231d69fdd15d2d0f0139c3a5caaf600804",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "06a24ff5ed985e3effc42b2561b377b289e172816f8d95416ee5b456e21c168e"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_contact_router_H4.stl",
+      "changed": false,
+      "before_sha256": "33b1096c20e335bb2d88414519c3797eb8ea2aa69957030517441f1268861210",
+      "after_sha256": "33b1096c20e335bb2d88414519c3797eb8ea2aa69957030517441f1268861210",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "421cc4a91338b1509791d82fb29d468ccdf0aa3de370c3b6be430c4904dde43e"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_controller_carrier_H1.stl",
+      "changed": false,
+      "before_sha256": "3174e859142534a2e258088c8b58b91614e138cb67e9f735a960ae665d1a217c",
+      "after_sha256": "3174e859142534a2e258088c8b58b91614e138cb67e9f735a960ae665d1a217c",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "bd15a30eddb1c641f2a2b212fe33f1c659709e7f46f128903f2b0bb65fbc2ead"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_controller_carrier_H2.stl",
+      "changed": false,
+      "before_sha256": "153d1d5c4bee3596942995bc38022935a3c8162c33762b02cbea7f2f9fd17428",
+      "after_sha256": "153d1d5c4bee3596942995bc38022935a3c8162c33762b02cbea7f2f9fd17428",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "207a68f4f9220911116e65ff8a508b18cf693a5e50ec898b025f2fd98d1cd90b"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_controller_carrier_H3.stl",
+      "changed": false,
+      "before_sha256": "54bba973d47b70a0ade5371871b1ac09652855924dc05b3f9501d3420ec5f3ec",
+      "after_sha256": "54bba973d47b70a0ade5371871b1ac09652855924dc05b3f9501d3420ec5f3ec",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "1819a18d8a207fa584d32275589a12b62604d950ad89a762713ca090bef14734"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_controller_carrier_H4.stl",
+      "changed": false,
+      "before_sha256": "ba78a949784a059480c9db481e7f6424e429aac7ac5206df6bcfb1b773c7b03f",
+      "after_sha256": "ba78a949784a059480c9db481e7f6424e429aac7ac5206df6bcfb1b773c7b03f",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "5031f5185dbbf43b7569fffff0049f3a4e38f92b3e09a115adcc1651041c7265"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_current_driver_H1.stl",
+      "changed": false,
+      "before_sha256": "38c0d4d656c79afefe3632201ab98199cd2043f2efa966d26978b1530b75e3d9",
+      "after_sha256": "38c0d4d656c79afefe3632201ab98199cd2043f2efa966d26978b1530b75e3d9",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "5645fd07a2366bae4d1da0227748d73ab3d1fb3337bced6527c8cea2cc4b19c8"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_current_driver_H2.stl",
+      "changed": false,
+      "before_sha256": "bcbe92cdea7cb5fb27f675327aa36bb628fd18b76c2e6a5765441aab1b4990f2",
+      "after_sha256": "bcbe92cdea7cb5fb27f675327aa36bb628fd18b76c2e6a5765441aab1b4990f2",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "7cd6c75fa26dfdd68b2d8c5044a4519c01e5ee7339d886a2614906d52226645a"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_current_driver_H3.stl",
+      "changed": false,
+      "before_sha256": "7a076ef06a6ce2ab95f6fbeea92d95bf6eba67115f18dcac5e1187ef1b99dc73",
+      "after_sha256": "7a076ef06a6ce2ab95f6fbeea92d95bf6eba67115f18dcac5e1187ef1b99dc73",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "47b4c2364b4f8491f36f09f78e3a61f21324e5a54487ebc4ea99f88f964c4c4f"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_current_driver_H4.stl",
+      "changed": false,
+      "before_sha256": "7453cb7027a21986982647dd58f724333fc5f8d53a9bbe805f0efc9f8a9fb99d",
+      "after_sha256": "7453cb7027a21986982647dd58f724333fc5f8d53a9bbe805f0efc9f8a9fb99d",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "46195a28e7955bc49852c82d02d0c813046a976f55cdfdbfac00968c82815fa2"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_monitoring_cell_H1.stl",
+      "changed": false,
+      "before_sha256": "4b0d3ca97e635e83ea70cbec0b802c31e414f47793141c499b3f1b03adf9b74a",
+      "after_sha256": "4b0d3ca97e635e83ea70cbec0b802c31e414f47793141c499b3f1b03adf9b74a",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "dd29975d97d4abfd08214c8e0e65ef656a442d4cfda1a252c081ef9d13c37294"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_monitoring_cell_H2.stl",
+      "changed": false,
+      "before_sha256": "53418ba4135251e63b368f75ef15e6f1030e274cc67b47fba47ae1a2545b5dc7",
+      "after_sha256": "53418ba4135251e63b368f75ef15e6f1030e274cc67b47fba47ae1a2545b5dc7",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "b99b666189fbf2739096fbbe59558805a4718d6c0aad556e999cf42bb6678fb0"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_monitoring_cell_H3.stl",
+      "changed": false,
+      "before_sha256": "d37cd74739ad110d19ea28bf12f8ab32235baee2179c25d10703e6b029f38126",
+      "after_sha256": "d37cd74739ad110d19ea28bf12f8ab32235baee2179c25d10703e6b029f38126",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "02ee89feae1892e7745c5f59dfe959ab7b41371c3c301340a7c8e24aceaa06fa"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_monitoring_cell_H4.stl",
+      "changed": false,
+      "before_sha256": "05eb45946a7f53b944a37a5f5f89c3bd005fe918d9f534b7a245129a39eb3f90",
+      "after_sha256": "05eb45946a7f53b944a37a5f5f89c3bd005fe918d9f534b7a245129a39eb3f90",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "aa3dc58bb11c7c9e1ca765f7c554639a68c2b33e314331c4fdd320f28e556f33"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_monitoring_transport_H1.stl",
+      "changed": false,
+      "before_sha256": "3f36dbd2b54af38525d272f530a98105ae346c83534e040c844a34c3e8e5869b",
+      "after_sha256": "3f36dbd2b54af38525d272f530a98105ae346c83534e040c844a34c3e8e5869b",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "ddfae4bec659166a0e8794a5d64623dc87f2f187ab36e388b76a0a8c66f1fa3f"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_monitoring_transport_H2.stl",
+      "changed": false,
+      "before_sha256": "abb30ccf845318ee0e4d1fdd82014d5a15b886ecf1df4292d42c7f9e2901045f",
+      "after_sha256": "abb30ccf845318ee0e4d1fdd82014d5a15b886ecf1df4292d42c7f9e2901045f",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "88aa45695990941d05c623d02aaeb4789092657fc5268f6a5ca5a5657d742e99"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_monitoring_transport_H3.stl",
+      "changed": false,
+      "before_sha256": "64d6610fd6940881e55be3e78d18670807e639940991083a95b362f45a7d0dfc",
+      "after_sha256": "64d6610fd6940881e55be3e78d18670807e639940991083a95b362f45a7d0dfc",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "bf675e4583d53b6f4b94925d421c9987864a2ae563bb0ba806fd5568a5676288"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_monitoring_transport_H4.stl",
+      "changed": false,
+      "before_sha256": "aa8d0bc63ef5042ed9b7979cea2e94b6b5c743e054dc26c9ac6c565036827c73",
+      "after_sha256": "aa8d0bc63ef5042ed9b7979cea2e94b6b5c743e054dc26c9ac6c565036827c73",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "114be73c37b8a869ef6751271cb15532f762e655aa0c1cc9d6cd6b4a03c4792b"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_power_H1.stl",
+      "changed": false,
+      "before_sha256": "9d57af3e82a11522f2291f2ab288b3ba18167f3358391227e402e087c5488c44",
+      "after_sha256": "9d57af3e82a11522f2291f2ab288b3ba18167f3358391227e402e087c5488c44",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "2238f1b3db30c5f7f964f3ab4d524458a4873823151d170c0c73370ee593c699"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_power_H2.stl",
+      "changed": false,
+      "before_sha256": "0d615cd24a0cf053b9823b6627a51953bcc5d6682d92afbd24df22a06aa6c12f",
+      "after_sha256": "0d615cd24a0cf053b9823b6627a51953bcc5d6682d92afbd24df22a06aa6c12f",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "f9d14bdbaea4b8ba5dd71638e710c0b77bc94c14c74ad3e9ca14f15888fbeebf"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_power_H3.stl",
+      "changed": false,
+      "before_sha256": "3770379ddec7df2766743a4af4768ecf467250730beb5f8533c307884d4e600d",
+      "after_sha256": "3770379ddec7df2766743a4af4768ecf467250730beb5f8533c307884d4e600d",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "743747923972a19986ea9992272a84e602e82deb8ea5138b06b4271cee0d08fe"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_power_H4.stl",
+      "changed": false,
+      "before_sha256": "c9a9c0f8f8f3df8af8731017a6187710261406187589a25036a4e6be6946d822",
+      "after_sha256": "c9a9c0f8f8f3df8af8731017a6187710261406187589a25036a4e6be6946d822",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "2ea99b04df4d894838eb78ac6807071cf5dfa881834f6003997a877c9935759d"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_recording_front_end_H1.stl",
+      "changed": false,
+      "before_sha256": "9f5e251c26666b892cec300495da235de7d017956ea216d70e93442692f3d73f",
+      "after_sha256": "9f5e251c26666b892cec300495da235de7d017956ea216d70e93442692f3d73f",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "a6cff84ed1b0c3d38c1f2fc53a91a4bbf7aa07a11a2f19a732c3470661d1d707"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_recording_front_end_H2.stl",
+      "changed": false,
+      "before_sha256": "980b85556f92a634ad53d5e680464267fe3ca20813d66f886cdb232f51d072a8",
+      "after_sha256": "980b85556f92a634ad53d5e680464267fe3ca20813d66f886cdb232f51d072a8",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "d832a6e913a21e0babdf82f9b07342d3adc63233452d0f8c9739437a60f28a5d"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_recording_front_end_H3.stl",
+      "changed": false,
+      "before_sha256": "3cd4d3fc36eed4294eadfacb0f6d37645eb88d055d2a22500f1bcd2de6d61774",
+      "after_sha256": "3cd4d3fc36eed4294eadfacb0f6d37645eb88d055d2a22500f1bcd2de6d61774",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "a5ca2168a69d6d39b92d0a4f0916efacb1d8cfc8cd31a95169e3ff31a8ca106a"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_recording_front_end_H4.stl",
+      "changed": false,
+      "before_sha256": "0983a9243e9ba578e59ea0b27453097e3e1983fdf9e15475f5e9027e752eeff8",
+      "after_sha256": "0983a9243e9ba578e59ea0b27453097e3e1983fdf9e15475f5e9027e752eeff8",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "b6cfa15c20fd522ab7c66c56bdefa2decd977f534512239f6d48dc847b03e6ac"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_supervision_H1.stl",
+      "changed": false,
+      "before_sha256": "294e456b892ba2c7d8b0c827973ae8d5a3023265a24a88f29ea3b893b6d2b201",
+      "after_sha256": "294e456b892ba2c7d8b0c827973ae8d5a3023265a24a88f29ea3b893b6d2b201",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "c07da1a706f41ae8aaa364e43699c2fbfb4986530cfc3a418d1963a4134added"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_supervision_H2.stl",
+      "changed": false,
+      "before_sha256": "0ec1095d990e044479a0aea3caff2ea50e2c82b27d3d80040ddf49818eb6ecea",
+      "after_sha256": "0ec1095d990e044479a0aea3caff2ea50e2c82b27d3d80040ddf49818eb6ecea",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "baa19610e6446c93f31ec86af06cc1285a03ca4d77283aaffb50f8f106acc40f"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_supervision_H3.stl",
+      "changed": false,
+      "before_sha256": "bbc05d53924b102342758f363de842249236d215bb7021eed8b89c4bb34ab437",
+      "after_sha256": "bbc05d53924b102342758f363de842249236d215bb7021eed8b89c4bb34ab437",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "19b8d915f4f4c2c1267fdfdf42fbd6cb6300f5018dbdfb7736180d6c7f87a910"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/LowerScrew_supervision_H4.stl",
+      "changed": false,
+      "before_sha256": "a0665e8cba1a9ca24a638ae452656e7a8bba0507da8e2f7f7af2d1df038df17c",
+      "after_sha256": "a0665e8cba1a9ca24a638ae452656e7a8bba0507da8e2f7f7af2d1df038df17c",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "65faad80266f15b25d835038fe669757a8e392922c27f536e70342f5e9332602"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Post_0_0.stl",
+      "changed": false,
+      "before_sha256": "7d5b6c3bbef425600e3a4b41c3ec1ae7fd20a20e5f81863e66d1611a3efa7b28",
+      "after_sha256": "7d5b6c3bbef425600e3a4b41c3ec1ae7fd20a20e5f81863e66d1611a3efa7b28",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "c023558a8028a64debe3935aee3b5a535731b7dba47d12cdf58d1bdd431c285e"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Post_0_1.stl",
+      "changed": false,
+      "before_sha256": "a0ea5f7cd7b352ffe7c33b73eab3bb1e50713c5aad98b3057f75846e57469d8b",
+      "after_sha256": "a0ea5f7cd7b352ffe7c33b73eab3bb1e50713c5aad98b3057f75846e57469d8b",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "6083a53d817cea4c19ed9e84551e602ff6fa28f5075c63300c2a2b5e7a4494c6"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Post_1_0.stl",
+      "changed": false,
+      "before_sha256": "d1dc3f4f803e0728b83953fa06694629038d99611a0917a7101ffc7a03223815",
+      "after_sha256": "d1dc3f4f803e0728b83953fa06694629038d99611a0917a7101ffc7a03223815",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "7bf8b4c7cd35d64b6334ff0d541b57536997af6cdf4f5afd369490f99488022c"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Post_1_1.stl",
+      "changed": false,
+      "before_sha256": "6955adf280bf9a50f7e2c5559c2a49854a5a425184a2a33d36f06c9e48016d1f",
+      "after_sha256": "6955adf280bf9a50f7e2c5559c2a49854a5a425184a2a33d36f06c9e48016d1f",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "b51ef08ac955e0a4e40b7e902ca6451b25649b32944f79efe30e7e070fa5627e"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Post_2_0.stl",
+      "changed": false,
+      "before_sha256": "1b47e9d6e76e7d0a2c78461b1eef1a87b0b33efe818600a64c6de2b0ba39887b",
+      "after_sha256": "1b47e9d6e76e7d0a2c78461b1eef1a87b0b33efe818600a64c6de2b0ba39887b",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "c768bfcbf0555b539d2e4e669511d115fd43941a8bd9eb75435ad23f25ca9d5f"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Post_2_1.stl",
+      "changed": false,
+      "before_sha256": "516c2374813316e0024ec3b95ad6ef78765ff958bcd29743a307d0b4f7c5ed92",
+      "after_sha256": "516c2374813316e0024ec3b95ad6ef78765ff958bcd29743a307d0b4f7c5ed92",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "37e71801986722e5d3b70918330123a42e6204f90e97ba256449639894d4ba06"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Post_3_0.stl",
+      "changed": false,
+      "before_sha256": "29cd9976ba7c25f597afc2b70d94ad9344e26c62b397d378e04b37cd6948bcee",
+      "after_sha256": "29cd9976ba7c25f597afc2b70d94ad9344e26c62b397d378e04b37cd6948bcee",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "768a4db5cf774b3ccdb146ac6b3cec71fd41d3a4f167b2856e00d7dc1df7bdc0"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Post_3_1.stl",
+      "changed": false,
+      "before_sha256": "307b03a8fe0e046ecdf7caa21048b9b96f09a3e64fa3828ec027daf4709fe6b3",
+      "after_sha256": "307b03a8fe0e046ecdf7caa21048b9b96f09a3e64fa3828ec027daf4709fe6b3",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "d9b3b75734eb9c3328e6ae8b34a89e9e7c3fea00208ffedaac7289cfe90f2ce4"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Pull_contact_router.stl",
+      "changed": false,
+      "before_sha256": "5ec2c49ddf8c9541593d45d8be0d89b48932fa4ed62e6a4cae9aeb5fb066c4ff",
+      "after_sha256": "5ec2c49ddf8c9541593d45d8be0d89b48932fa4ed62e6a4cae9aeb5fb066c4ff",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "45eda2e7c05276995f21bb894abd71c16fd13857d8fac252e897a615c2df5396"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Pull_controller_carrier.stl",
+      "changed": false,
+      "before_sha256": "711930749b7acde3ac7a32232e1773cd2b95665a1b8991eeac9fbbce011ba30f",
+      "after_sha256": "711930749b7acde3ac7a32232e1773cd2b95665a1b8991eeac9fbbce011ba30f",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "d0c852419e7e2dd38b2ae3eb96508872d9faef4f7705c2e6311bfe65c88e3fca"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Pull_current_driver.stl",
+      "changed": false,
+      "before_sha256": "98295d27cc3dfed436b826c828de80e7bbbdb794d49fcce76545422436ad49c1",
+      "after_sha256": "98295d27cc3dfed436b826c828de80e7bbbdb794d49fcce76545422436ad49c1",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "32886c14d040e25bd84316f68802452b5df5efa65bc4a86902bb483f7ae9a193"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Pull_monitoring_cell.stl",
+      "changed": false,
+      "before_sha256": "3c7914f74c9786d229a8c2bd849191701cb2e50eab7713c630d7c72f12f0ef8b",
+      "after_sha256": "3c7914f74c9786d229a8c2bd849191701cb2e50eab7713c630d7c72f12f0ef8b",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "8b2618e87376bbd6e2a8805e5e48085bb3ca50e7733df50850e8528be3dab457"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Pull_monitoring_transport.stl",
+      "changed": false,
+      "before_sha256": "3627e0301f87319036c4f458f376d8a9e74e4d515a844617d9c01d372de0d7f3",
+      "after_sha256": "3627e0301f87319036c4f458f376d8a9e74e4d515a844617d9c01d372de0d7f3",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "cecff282d7d16f9bbfa5a1b224ca52fb567b8cb1d1b1c08236f554b5302629d3"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Pull_power.stl",
+      "changed": false,
+      "before_sha256": "09c8e5034177ee5efb5d0937cd220274f6586332b7470c08bbcf5c9cce2020e1",
+      "after_sha256": "09c8e5034177ee5efb5d0937cd220274f6586332b7470c08bbcf5c9cce2020e1",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "b3f3cc967cf6a71330e8cf3c713e02f2fc2ae10e9869b79808e396ca2edaedf7"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Pull_recording_front_end.stl",
+      "changed": false,
+      "before_sha256": "2c66cfcce545c9e7e58e17359b33e4f01f5cf5672de6baa1fe68525c55743bf8",
+      "after_sha256": "2c66cfcce545c9e7e58e17359b33e4f01f5cf5672de6baa1fe68525c55743bf8",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "e7156008beedf986d584ffebd6e6f0471a8f462a285c79dda9d21b8f84338e0f"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Pull_supervision.stl",
+      "changed": false,
+      "before_sha256": "87c01516cd4d53508252fcee2488bae46d500c4e5022de522ff56576d180b028",
+      "after_sha256": "87c01516cd4d53508252fcee2488bae46d500c4e5022de522ff56576d180b028",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "d6d37f7de262c5e9e75906a5e5d2d9d1a90d21d846beca715f965667b95df823"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Rail_left_0_left.stl",
+      "changed": false,
+      "before_sha256": "894b10f7256061b56de35aec798450788fac6c8f4c1e9ee019da3c2e988de40e",
+      "after_sha256": "894b10f7256061b56de35aec798450788fac6c8f4c1e9ee019da3c2e988de40e",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "eb5ea819b1967df2fe92f708f2bab8d103796867ba58b195cfcb45105695566a"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Rail_left_0_right.stl",
+      "changed": false,
+      "before_sha256": "61f6fd14d77bb7d55b13ca294ec373d044ffdf16783fc73cfa873a216b3dc1cb",
+      "after_sha256": "61f6fd14d77bb7d55b13ca294ec373d044ffdf16783fc73cfa873a216b3dc1cb",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "7f3cfb03acb31e64a739a86ea984923baa2ba90ae468dc8d384c3bdf3bc54fd8"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Rail_left_1_left.stl",
+      "changed": false,
+      "before_sha256": "5fc46c9c98b8e9ac8a80b9f00eeb8158e019cf414b626c29cb1b45f392d42e2c",
+      "after_sha256": "5fc46c9c98b8e9ac8a80b9f00eeb8158e019cf414b626c29cb1b45f392d42e2c",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "71e4b58318c8d452a3968764a6aa5a0217a5a77b0e5cc733c1b3b8bb7b2c8064"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Rail_left_1_right.stl",
+      "changed": false,
+      "before_sha256": "6cab932c46ec1a6eb30ff25d3c9c40ef921ce8c6d6a68dc494db394f0615c79e",
+      "after_sha256": "6cab932c46ec1a6eb30ff25d3c9c40ef921ce8c6d6a68dc494db394f0615c79e",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "44f939ed7e8ea03f8593fa1bf43a981a606065fb927228be35a9b14b9ea2f025"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Rail_left_2_left.stl",
+      "changed": false,
+      "before_sha256": "440780288672c869849e15e2f6c86a933b1e1cde58d5a8e2e421c56dd2ee3d6b",
+      "after_sha256": "440780288672c869849e15e2f6c86a933b1e1cde58d5a8e2e421c56dd2ee3d6b",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "3df1297b3051b5eed1c306c0c2a5cf0ee4b6ffd8c9589b07d0a7583ddeb67685"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Rail_left_2_right.stl",
+      "changed": false,
+      "before_sha256": "6439aced623541a7462ed552b347f46c47ad70ca133a36027a15751c24beca25",
+      "after_sha256": "6439aced623541a7462ed552b347f46c47ad70ca133a36027a15751c24beca25",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "d129c565f66a2a39f944203f95aa52ba275d1c0153a8cebf50cbbe67591703f1"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Rail_left_3_left.stl",
+      "changed": false,
+      "before_sha256": "3fc079322a98efb35367fbcf04c76ef4c2b9adf16fd11c2a321f108c16be08dc",
+      "after_sha256": "3fc079322a98efb35367fbcf04c76ef4c2b9adf16fd11c2a321f108c16be08dc",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "a449d7168b0929c306d21a7d2ebb0dc3504e9026168e71a83da2de8b82ab8591"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Rail_left_3_right.stl",
+      "changed": false,
+      "before_sha256": "9ccaa1def9c5693275cbc8963149c8d33a3f8544f4479121aa5e25cfc879a015",
+      "after_sha256": "9ccaa1def9c5693275cbc8963149c8d33a3f8544f4479121aa5e25cfc879a015",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "c948efe02094f9b7976dc3436de1f2cf819a5c63c28893a86aff5b17bd76a1f5"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Rail_right_0_left.stl",
+      "changed": false,
+      "before_sha256": "95df44169a33ac44be3f6ee1a0d5fee7ff821dfce54805b84de34acbebf446d7",
+      "after_sha256": "95df44169a33ac44be3f6ee1a0d5fee7ff821dfce54805b84de34acbebf446d7",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "81a0021c382bbe41674aa34da114034cfd34428aebf294886da230809ef58dd2"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Rail_right_0_right.stl",
+      "changed": false,
+      "before_sha256": "5649708f4566befa5fab539c12c5266067adb564d51682e8d33f69f139d6a477",
+      "after_sha256": "5649708f4566befa5fab539c12c5266067adb564d51682e8d33f69f139d6a477",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "385f463cc92ed0eab803466ce5a77d429fce053fb8e250ac30c29799f43763c8"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Rail_right_1_left.stl",
+      "changed": false,
+      "before_sha256": "185153eab47b311af448dc6612ff0951c0cec6f5793bf7ef3b983fa48c208121",
+      "after_sha256": "185153eab47b311af448dc6612ff0951c0cec6f5793bf7ef3b983fa48c208121",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "cf37a4507534e856f173d9ee87a4e5b87bfc044c82cae43d5bf4d205036aa185"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Rail_right_1_right.stl",
+      "changed": false,
+      "before_sha256": "b9aa3a33fb8f60360e5a2832f0b61f8f7230373b9df1bf35e89b48c90ae53cf3",
+      "after_sha256": "b9aa3a33fb8f60360e5a2832f0b61f8f7230373b9df1bf35e89b48c90ae53cf3",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "d580ab0c73631a0f9984fa7a38c99a2001485c17e78646890740fa605d8a420f"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Rail_right_2_left.stl",
+      "changed": false,
+      "before_sha256": "b9479446c5ad35e4df9460dafceff81a8622760cfd7e532386d732ecf523c992",
+      "after_sha256": "b9479446c5ad35e4df9460dafceff81a8622760cfd7e532386d732ecf523c992",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "0484c192a6cdb1f0b9bd5d193decc55aa21e087a7d83fde7c0d09963b66c8f99"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Rail_right_2_right.stl",
+      "changed": false,
+      "before_sha256": "d439db4f5c2d1d345272fa74ecc93630a0beaa93c5c9f42fbb5f1962df3175ab",
+      "after_sha256": "d439db4f5c2d1d345272fa74ecc93630a0beaa93c5c9f42fbb5f1962df3175ab",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "42a9438d2130bef329ecd21a23f2c317c5234ad881de1303816cb7d07c3e1bd4"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Rail_right_3_left.stl",
+      "changed": false,
+      "before_sha256": "353180ed6eaf7269daaba6fcc5fe57452dd0e0d0c04a6b0649f59ee0f6570df7",
+      "after_sha256": "353180ed6eaf7269daaba6fcc5fe57452dd0e0d0c04a6b0649f59ee0f6570df7",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "7b5ddf9345d418f3e154ffc96e983dd55a5c67e6366a1274c9c37f1672a1050a"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Rail_right_3_right.stl",
+      "changed": false,
+      "before_sha256": "4175a3ed3539ad9973321164e85d6a41064ef7692c41d1685ee3c2c1a56642d0",
+      "after_sha256": "4175a3ed3539ad9973321164e85d6a41064ef7692c41d1685ee3c2c1a56642d0",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "c5cdb9630a512edc1712d7b3f24198c641e5d5f89ed86e7203dfafac455f1050"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/RearPanel.stl",
+      "changed": false,
+      "before_sha256": "a26aebcba43b2dd288b0d909a470cd9bd91f1aef6f297dbc52de97effaf99c41",
+      "after_sha256": "a26aebcba43b2dd288b0d909a470cd9bd91f1aef6f297dbc52de97effaf99c41",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "eac481704274eee47eacaa9620c6f8719af538a9251f7d4aca2bcc2473b554b5"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/SideLeft.stl",
+      "changed": false,
+      "before_sha256": "df53913a2c0d389464b2b152930d73d031afbb8b880acf99a511f3b1364c699b",
+      "after_sha256": "df53913a2c0d389464b2b152930d73d031afbb8b880acf99a511f3b1364c699b",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "8715f2678a4cb0a6c12e397ec0466290484085dbd80ba74ab07ee602b0161934"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/SideRight.stl",
+      "changed": false,
+      "before_sha256": "ec56c5a13906a9b3118e9bc035bb93c08516a9f103065552b7d4780b54e13450",
+      "after_sha256": "ec56c5a13906a9b3118e9bc035bb93c08516a9f103065552b7d4780b54e13450",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "57995bf340ee26ef82bdf2a4e1092d7464c2dd782ee7526ae7e2bd2b6f289bea"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_contact_router_H1.stl",
+      "changed": false,
+      "before_sha256": "c61b8a30119a8edb025808c0b2ee025966e3ba8301603f2f51fd7ac85613182c",
+      "after_sha256": "c61b8a30119a8edb025808c0b2ee025966e3ba8301603f2f51fd7ac85613182c",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "9dc6ffcf05a2d91b49e94dd0d0479481a9ed80bda63893461e9164de534d1bf0"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_contact_router_H2.stl",
+      "changed": false,
+      "before_sha256": "a422228264514928bc02c844623da0368146ee323c96e495975695deb639d444",
+      "after_sha256": "a422228264514928bc02c844623da0368146ee323c96e495975695deb639d444",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "510c58ff184b7c5bd4e129903131e9fdacc9504eaf98176fe90ab65cdb30653d"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_contact_router_H3.stl",
+      "changed": false,
+      "before_sha256": "c3673ede63f801df82b4ceee20cf352e30f90f7061fa9b4dea2667737a25f4d2",
+      "after_sha256": "c3673ede63f801df82b4ceee20cf352e30f90f7061fa9b4dea2667737a25f4d2",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "7cd756b9801258121e2de5fdd4dd396d9301c2462e8faf9e5908dac2116ea2a6"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_contact_router_H4.stl",
+      "changed": false,
+      "before_sha256": "5be82ea5ab73cb7f82e213eb215a2dd1313910812df94c7c57b61235699500b4",
+      "after_sha256": "5be82ea5ab73cb7f82e213eb215a2dd1313910812df94c7c57b61235699500b4",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "5c8afccda2bcffa823135d2e66cca9a13087e0371a44f8aaac4a5ec8581e4b80"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_controller_carrier_H1.stl",
+      "changed": false,
+      "before_sha256": "261b7f2ee08d017704886d947728c28b616eae469c04580feaca4f56e574e6b5",
+      "after_sha256": "261b7f2ee08d017704886d947728c28b616eae469c04580feaca4f56e574e6b5",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "c91e92d92fd4825c30d5608e82dd8ced99cb26c7d93e9fbe71adfaade93bb410"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_controller_carrier_H2.stl",
+      "changed": false,
+      "before_sha256": "0ac5ac11cf3d83bf09bf0184fc39e6fa43f3e94edac5412b865d4de126e9c8eb",
+      "after_sha256": "0ac5ac11cf3d83bf09bf0184fc39e6fa43f3e94edac5412b865d4de126e9c8eb",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "30e62971290afc8d313a5081d903ca7b5a6729353736692bc66b9429a3ecc20b"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_controller_carrier_H3.stl",
+      "changed": false,
+      "before_sha256": "10a1e76935156f68171d9ed4edfaa807361f8548a2ec34200bdd6c590f4c1ee3",
+      "after_sha256": "10a1e76935156f68171d9ed4edfaa807361f8548a2ec34200bdd6c590f4c1ee3",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "88c0ce2352553fce62903b935fd25d7c3e8fcea4716135c06f6e9cf63133b105"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_controller_carrier_H4.stl",
+      "changed": false,
+      "before_sha256": "976367a4ba7f27b4552cc44a4acc9929fff573c1624202163c09e6199eba8f4a",
+      "after_sha256": "976367a4ba7f27b4552cc44a4acc9929fff573c1624202163c09e6199eba8f4a",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "5bcab9ae6169638a13e3c1f6466d8e08ba3d7dd2abc06c8ec67be2f8fb1296a1"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_current_driver_H1.stl",
+      "changed": false,
+      "before_sha256": "09f2a4546e68a9f3b9fd90b99cd9effec310b178a528abad44fee36cb5d32584",
+      "after_sha256": "09f2a4546e68a9f3b9fd90b99cd9effec310b178a528abad44fee36cb5d32584",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "8b4089d1d71d19477ce6ce869e8adc10f062cd784e91312c4657770c4c0e4391"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_current_driver_H2.stl",
+      "changed": false,
+      "before_sha256": "3863046daff1b2b255c870341b2986c38529e6b2216647b6c78a96a5ff8964ca",
+      "after_sha256": "3863046daff1b2b255c870341b2986c38529e6b2216647b6c78a96a5ff8964ca",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "fe9a85f819a16227506424445b055885746061befdbe08f69f7311d00c3b5c84"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_current_driver_H3.stl",
+      "changed": false,
+      "before_sha256": "f7c508903af48d76339a12ac4b789a4458beb45492e66b5557ce200d31ec989a",
+      "after_sha256": "f7c508903af48d76339a12ac4b789a4458beb45492e66b5557ce200d31ec989a",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "ff351c8d5e6f93f9f7983f3f0362df34e42bd195a0d372cb08ff51cca089ad83"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_current_driver_H4.stl",
+      "changed": false,
+      "before_sha256": "769cd6eadf8995009c4d379ad2c856be7f3b2792243755d3598453fa2e81b3b9",
+      "after_sha256": "769cd6eadf8995009c4d379ad2c856be7f3b2792243755d3598453fa2e81b3b9",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "6033481bdddb49d7d409954d78447c15a3cb30fa438f0b085c87317304a8fb41"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_monitoring_cell_H1.stl",
+      "changed": false,
+      "before_sha256": "497875e6c6742049b4222d6d934681661bff731c64de6bcc547832e9b7ba5039",
+      "after_sha256": "497875e6c6742049b4222d6d934681661bff731c64de6bcc547832e9b7ba5039",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "2deb6f0260f8fe6f4076fa596c8fe9fefa9dfb35728578530545fa20453db661"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_monitoring_cell_H2.stl",
+      "changed": false,
+      "before_sha256": "5df81723634aba35b77c9718b830790858c5524da2c67bca472dfef7f32ea5be",
+      "after_sha256": "5df81723634aba35b77c9718b830790858c5524da2c67bca472dfef7f32ea5be",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "497258923503481caf23b50e70cf7639b98fe3acfad51dcc376a33c129b3d567"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_monitoring_cell_H3.stl",
+      "changed": false,
+      "before_sha256": "3acda91698039a2e3d066894b0551f79d03354ab5fcf36ad98342487635e512a",
+      "after_sha256": "3acda91698039a2e3d066894b0551f79d03354ab5fcf36ad98342487635e512a",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "be0f332ea031d363b53a90778de2f3a7e5543d6a1cc7a295b112f9b0445c8885"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_monitoring_cell_H4.stl",
+      "changed": false,
+      "before_sha256": "1ba60e5e45b2ae088bd5fc58e2bf80bfb0d32e6e60be8932e1661263f360e298",
+      "after_sha256": "1ba60e5e45b2ae088bd5fc58e2bf80bfb0d32e6e60be8932e1661263f360e298",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "3d3d652e9167ad4f1d52e67963d3749c0e77dcb03d2f97eacb27b47c9a9a7126"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_monitoring_transport_H1.stl",
+      "changed": false,
+      "before_sha256": "72a44017d209465052fad0b39f824e1dd4f076672c3152922318001bcd1eb9cc",
+      "after_sha256": "72a44017d209465052fad0b39f824e1dd4f076672c3152922318001bcd1eb9cc",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "232c445b55500a06353a51ec8e872997dd208ab3cd470d6f0b0f46243d8c6a92"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_monitoring_transport_H2.stl",
+      "changed": false,
+      "before_sha256": "a2c0097ebb8e427ef7ee61ad323eb467b653fd515b19c044c7fa9fe876475e11",
+      "after_sha256": "a2c0097ebb8e427ef7ee61ad323eb467b653fd515b19c044c7fa9fe876475e11",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "20812e874002e1ec6d6c52bcfe9beaf2354bd57606878273e63488644bc85efe"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_monitoring_transport_H3.stl",
+      "changed": false,
+      "before_sha256": "b0ca92ce79779722749f3bfc07909e932f1934817135291ea9996a2954b5a417",
+      "after_sha256": "b0ca92ce79779722749f3bfc07909e932f1934817135291ea9996a2954b5a417",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "a6cf333cd6bedc0aa095b3b1c22666997b233a26779334ea06877b0707dbc497"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_monitoring_transport_H4.stl",
+      "changed": false,
+      "before_sha256": "b32176d3fbc1df1950e785d7388275dfb2692f07a7e82e152c89ae45ae576fda",
+      "after_sha256": "b32176d3fbc1df1950e785d7388275dfb2692f07a7e82e152c89ae45ae576fda",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "eabf5ecaf7a196961fcc07a78905048e0e3bad28a638f310571e0309b9eee5e0"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_power_H1.stl",
+      "changed": false,
+      "before_sha256": "c92f29d411332e4a296ecb66f422f03bc6b388e057cc3fc03374cba060159e41",
+      "after_sha256": "c92f29d411332e4a296ecb66f422f03bc6b388e057cc3fc03374cba060159e41",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "cef0d2cf8ccc54b7b9be657fc23575722c871ff3c7fe95d0930c14f45ea93466"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_power_H2.stl",
+      "changed": false,
+      "before_sha256": "492fe4e9ff75876ec9814ab1543e81ff267b22f2dee2e551081589b9bce2a42c",
+      "after_sha256": "492fe4e9ff75876ec9814ab1543e81ff267b22f2dee2e551081589b9bce2a42c",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "d4bfcc0d299b9cb44d5bcbbaf812928b5c773e9677678e6e65d8202a37cf95e2"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_power_H3.stl",
+      "changed": false,
+      "before_sha256": "ff7682a3a279423eac1d9b7142b1b8f5714999e19781841b6d0b016681645f6d",
+      "after_sha256": "ff7682a3a279423eac1d9b7142b1b8f5714999e19781841b6d0b016681645f6d",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "6986f6a7564efd74643f60ecdec2acde1f3d58715de7bec650cef546c4b073b9"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_power_H4.stl",
+      "changed": false,
+      "before_sha256": "495bafbaab0e75f924138780a3dc0166f11aff7c287a348edab3764477978962",
+      "after_sha256": "495bafbaab0e75f924138780a3dc0166f11aff7c287a348edab3764477978962",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "680ffb1886bcc8b5652496bc5d6becd3afed0ac7af84504e4ebfd3c08bcde26c"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_recording_front_end_H1.stl",
+      "changed": false,
+      "before_sha256": "5b57e431cdc2eb109aeb4337242ffe71fc397dc43825d142d422526a1d8e6281",
+      "after_sha256": "5b57e431cdc2eb109aeb4337242ffe71fc397dc43825d142d422526a1d8e6281",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "c264ba6abf75d3347fc712416c46605187469c2f5aa20210de289a2f2934c407"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_recording_front_end_H2.stl",
+      "changed": false,
+      "before_sha256": "95920d7338cfb201bfbbc6a4cdc04c64b990181847075a5c39fe9f3e8b45e230",
+      "after_sha256": "95920d7338cfb201bfbbc6a4cdc04c64b990181847075a5c39fe9f3e8b45e230",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "672ace3d0a0743548e28cefead4c7fc41b826db8fcf9b8c240ebec8e77c7eb18"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_recording_front_end_H3.stl",
+      "changed": false,
+      "before_sha256": "c4b13d953532ec2fb40d5177f09b2248f8791063e9d67ad0f0565ba0015b9e4a",
+      "after_sha256": "c4b13d953532ec2fb40d5177f09b2248f8791063e9d67ad0f0565ba0015b9e4a",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "4dee2a1f3282c804adfed2c2169f59ba7c8c586154522319a5ba31f8705a87d8"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_recording_front_end_H4.stl",
+      "changed": false,
+      "before_sha256": "fd8238416b2a78cf3843d6c95e7573040a17bb28778e41ad097f80126bf50d3e",
+      "after_sha256": "fd8238416b2a78cf3843d6c95e7573040a17bb28778e41ad097f80126bf50d3e",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "4b9b41d211f9673cf559abbdd378359055b8bee27bf927bf774571b0bd619c5d"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_supervision_H1.stl",
+      "changed": false,
+      "before_sha256": "7ca3e5a102c86091bb23259d679c08014150bddf0458a0822896342fcf9fcd14",
+      "after_sha256": "7ca3e5a102c86091bb23259d679c08014150bddf0458a0822896342fcf9fcd14",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "476e3b012d581917b1fbdbfcbef282baffa98215c33b2eeadff2ea4b33e4b333"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_supervision_H2.stl",
+      "changed": false,
+      "before_sha256": "9c6419549ad9d0e28358421b1553302e0466e35a6758c1ffc681857aee659e73",
+      "after_sha256": "9c6419549ad9d0e28358421b1553302e0466e35a6758c1ffc681857aee659e73",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "fda9f12fd525507e919503f645528e38d2cf3e0982490ea201e80ed6b0cf4b86"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_supervision_H3.stl",
+      "changed": false,
+      "before_sha256": "3faba322a50bb7e0cf5bfc06dc37508434e8096265b0b63d31f56c188718424e",
+      "after_sha256": "3faba322a50bb7e0cf5bfc06dc37508434e8096265b0b63d31f56c188718424e",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "953bc47bad3ab6c2b17d8f85b5777f90bbea7818b17345dc2aa6d89141f6d982"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Standoff_supervision_H4.stl",
+      "changed": false,
+      "before_sha256": "985b0d0fc3c36c0f562825ede0454a887a331d39d11e2e5dd4f3737f33e3f270",
+      "after_sha256": "985b0d0fc3c36c0f562825ede0454a887a331d39d11e2e5dd4f3737f33e3f270",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "53b76221bf13a0f40ce0927a531822d14da7398a681e28e2ab127649337bea40"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Tray_contact_router.stl",
+      "changed": false,
+      "before_sha256": "5b28eac5ca35889b4c8c93a5150f3dc1063d6c042ff35c114e12d2303e81d1db",
+      "after_sha256": "5b28eac5ca35889b4c8c93a5150f3dc1063d6c042ff35c114e12d2303e81d1db",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "6020baa849aca8e7142a690aee36a64eb6721d2cb16ff78f3b088c62136e9b0b"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Tray_controller_carrier.stl",
+      "changed": false,
+      "before_sha256": "c350e5a491cc6568c4d782a4c8a0ace035c61a56084b9f99949436274d54d3dd",
+      "after_sha256": "c350e5a491cc6568c4d782a4c8a0ace035c61a56084b9f99949436274d54d3dd",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "7e5bdee5f29f51dd23b187590029b9398230cb0c00ff6358c1e7808799cbcc96"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Tray_current_driver.stl",
+      "changed": false,
+      "before_sha256": "7554cf7ff6622c9f43ef0014f555a961bacf242dd82614463b8876301c9d3a4f",
+      "after_sha256": "7554cf7ff6622c9f43ef0014f555a961bacf242dd82614463b8876301c9d3a4f",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "6bad77f600cffd275793ede736453af8b9b867aca2310d52de41843b8c47421d"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Tray_monitoring_cell.stl",
+      "changed": false,
+      "before_sha256": "6097966d80d4ba11d460b83291b6d469c95fff2b0ccfba201d6abcfbe4f27daf",
+      "after_sha256": "6097966d80d4ba11d460b83291b6d469c95fff2b0ccfba201d6abcfbe4f27daf",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "f40759ef849ef331dd485a07f02d5dff7b60ce416a72554afc584108a0572597"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Tray_monitoring_transport.stl",
+      "changed": false,
+      "before_sha256": "4adbebf5edadb588a1dbf1a4102a5e5985c4c2530107c725ffe8b4ca1f67d20d",
+      "after_sha256": "4adbebf5edadb588a1dbf1a4102a5e5985c4c2530107c725ffe8b4ca1f67d20d",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "6ebe46cabc139dc478d5cdff0e55c366aa24f238bb669dd31fe840f2b9a9b2e4"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Tray_power.stl",
+      "changed": false,
+      "before_sha256": "cd8e499a25dfca774ce7e78b16a4ecb8b6ce467909dd286b97fcc2bf1aba9018",
+      "after_sha256": "cd8e499a25dfca774ce7e78b16a4ecb8b6ce467909dd286b97fcc2bf1aba9018",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "9b865f61cfab222864d81c7a27bcbe79f0002abed107d6d9f7ade9f6b021eedd"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Tray_recording_front_end.stl",
+      "changed": false,
+      "before_sha256": "54848f4ece6836d9a70ae74cc733a0a317d49c44002265bf21c02c5c58669df1",
+      "after_sha256": "54848f4ece6836d9a70ae74cc733a0a317d49c44002265bf21c02c5c58669df1",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "f9e4cefb0269a551c461e4c1ce699c60af09da9605f3b87e20482fcec93f8463"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/Tray_supervision.stl",
+      "changed": false,
+      "before_sha256": "2d8a318a0d5efca4f578d219e6e16badf681f24e83406c3a6b7974bd399365a9",
+      "after_sha256": "2d8a318a0d5efca4f578d219e6e16badf681f24e83406c3a6b7974bd399365a9",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "39856d54781da30b694f4882022c08bcb35bcb3ac8104519fd2efe4bfb8339f4"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_contact_router_H1.stl",
+      "changed": false,
+      "before_sha256": "206639e38aa54b0d3fc94c09a0a9efc28e132ee95708cdd16faa9600209efc36",
+      "after_sha256": "206639e38aa54b0d3fc94c09a0a9efc28e132ee95708cdd16faa9600209efc36",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "ffd43bb91d62112dc2a0034d2391b2751a0940ab0c22e62443ad29dfb2a58934"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_contact_router_H2.stl",
+      "changed": false,
+      "before_sha256": "997f6d099a35377e5cccb49c0e9bdad3557999807b1cb8dc5ba055a4e11fec4e",
+      "after_sha256": "997f6d099a35377e5cccb49c0e9bdad3557999807b1cb8dc5ba055a4e11fec4e",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "6a59067756b4d5f900a0319881f282697b7cb49225c075b813d12fac96b48454"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_contact_router_H3.stl",
+      "changed": false,
+      "before_sha256": "4ad4ad45015fd464f1498cd04a691688482983b125204b4ff77a307d57ba025c",
+      "after_sha256": "4ad4ad45015fd464f1498cd04a691688482983b125204b4ff77a307d57ba025c",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "690eda2c1842f6a9db36b8ecc131b7d6ee8915ac97b8888e2d9d0342db777ece"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_contact_router_H4.stl",
+      "changed": false,
+      "before_sha256": "ebfc98d2d0b3f9bb0179754ca35243bff7a5eac3000ae3b8da1ec06a31673afd",
+      "after_sha256": "ebfc98d2d0b3f9bb0179754ca35243bff7a5eac3000ae3b8da1ec06a31673afd",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "9669677279734591196bb016e8ef1107a58da525f5f9ea10f615345a4f26535a"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_controller_carrier_H1.stl",
+      "changed": false,
+      "before_sha256": "a42bf44d43f511145620dda1f8bf4192519e61af10633b8039cb69cbe7956741",
+      "after_sha256": "a42bf44d43f511145620dda1f8bf4192519e61af10633b8039cb69cbe7956741",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "1cd67c39dcf3affdbb02009da712205c7a5c6441da70a159b8c8913c5647de55"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_controller_carrier_H2.stl",
+      "changed": false,
+      "before_sha256": "fe05dcd2f606f39bfde82c5d596d21bfc9260979acb34525af74153080ef8465",
+      "after_sha256": "fe05dcd2f606f39bfde82c5d596d21bfc9260979acb34525af74153080ef8465",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "fa51e11f78992699578f1e5063f0265d7b3a639ff55c9959c59509146def8e0f"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_controller_carrier_H3.stl",
+      "changed": false,
+      "before_sha256": "427a9d86e8fa06a58ccc87304cac7f54e0770c2611f39bf9c920563379cc8507",
+      "after_sha256": "427a9d86e8fa06a58ccc87304cac7f54e0770c2611f39bf9c920563379cc8507",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "4deb98c2d81fbba968f62946dc8c5bbb12a40e06e133c15ffed82a68a8f16a18"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_controller_carrier_H4.stl",
+      "changed": false,
+      "before_sha256": "d4c72c47b48557692da9be27576686ef385c114c704043715d15b1c09d502260",
+      "after_sha256": "d4c72c47b48557692da9be27576686ef385c114c704043715d15b1c09d502260",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "97e4454cd7e0fffd10bf5a6dc356480f140af6e55829b61ef3e2c5254140f517"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_current_driver_H1.stl",
+      "changed": false,
+      "before_sha256": "299e6d27fd287c39b5385ee787ac2c128d5459ac7b6f9cdf9ec985689589fb0e",
+      "after_sha256": "299e6d27fd287c39b5385ee787ac2c128d5459ac7b6f9cdf9ec985689589fb0e",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "21dc5f19b9f2a6464ea433a3366001c1e14a225a27445c0b2e3146e1433288fd"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_current_driver_H2.stl",
+      "changed": false,
+      "before_sha256": "c02eacb6558071e755ceee7606aafa7fb43d1e4d8b0e8afa73c3cac76d60a448",
+      "after_sha256": "c02eacb6558071e755ceee7606aafa7fb43d1e4d8b0e8afa73c3cac76d60a448",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "5bf5a48e6eee50f143525b9a0d6e6422aa66b4cf9bfaad6e7a0c41e8dd590e81"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_current_driver_H3.stl",
+      "changed": false,
+      "before_sha256": "5047f8223c194fc9c1968a7438bec448333029341682133c98eecb2af9e7efd1",
+      "after_sha256": "5047f8223c194fc9c1968a7438bec448333029341682133c98eecb2af9e7efd1",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "5d16390381cfe08a70cceaa79aee88987971dc1ae0de70281d4a95b08623cbfe"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_current_driver_H4.stl",
+      "changed": false,
+      "before_sha256": "84a21d050defee848af4fb2afd3b9fc03876b27ea0fd282fc51be4d798160a41",
+      "after_sha256": "84a21d050defee848af4fb2afd3b9fc03876b27ea0fd282fc51be4d798160a41",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "b89947a0463a63ab20ed92940b45ef83936addc5385b0067d0433bad18aa163c"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_monitoring_cell_H1.stl",
+      "changed": false,
+      "before_sha256": "4b31ef94156e873dfebfc38c79ed1254020077c39d2ce609e842294869e3d0d6",
+      "after_sha256": "4b31ef94156e873dfebfc38c79ed1254020077c39d2ce609e842294869e3d0d6",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "b27cef2708fa46d4925844c7b3cf70768ba349b2ae81dfeacf3c9e08f9ade8c4"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_monitoring_cell_H2.stl",
+      "changed": false,
+      "before_sha256": "ac935fbc2250491ccdf58cbc21460bacb77060bdf4dd3a0dcd1c8d7d5237ac69",
+      "after_sha256": "ac935fbc2250491ccdf58cbc21460bacb77060bdf4dd3a0dcd1c8d7d5237ac69",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "3196de4365dda0922435388c4a094b3bc9964cdf6ac6fe01b8c5338746c45586"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_monitoring_cell_H3.stl",
+      "changed": false,
+      "before_sha256": "e9b9e41c4ed0dea189b7279517bce695f4df611175367e1c03bb3dcdf3b1cb1e",
+      "after_sha256": "e9b9e41c4ed0dea189b7279517bce695f4df611175367e1c03bb3dcdf3b1cb1e",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "056f575f524db869b1195398634b9ae84f72cc47fc245dc09d49744f402c4b37"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_monitoring_cell_H4.stl",
+      "changed": false,
+      "before_sha256": "cb2e315305736949a6b25ce3ce91780c5bbf1b21097677dcbcbd441f088fa6e7",
+      "after_sha256": "cb2e315305736949a6b25ce3ce91780c5bbf1b21097677dcbcbd441f088fa6e7",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "af22e77d6c00d7771891a585a23eb0f8f47ed16d954e76688c501c471a4084d2"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_monitoring_transport_H1.stl",
+      "changed": false,
+      "before_sha256": "0d6f2a61b05bc5362df867da87d285851ca36837157747048d1a2c8838b0c540",
+      "after_sha256": "0d6f2a61b05bc5362df867da87d285851ca36837157747048d1a2c8838b0c540",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "51ba93d5fdba95626c173d7d3c01a440ce6eae6e2c0e7cfe1039d544c9c3d2a5"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_monitoring_transport_H2.stl",
+      "changed": false,
+      "before_sha256": "6f1d961283d6ef9b8ddc0a4a9d2428183ef685c2061f7beb79982c2795738db7",
+      "after_sha256": "6f1d961283d6ef9b8ddc0a4a9d2428183ef685c2061f7beb79982c2795738db7",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "9c9823915895e697033f0aeb456267f23cbc51b4769191b968a288fbf311549d"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_monitoring_transport_H3.stl",
+      "changed": false,
+      "before_sha256": "1a89baeb11e61ba615674402c470938be205e8aff0730b66f7884b521aebea4b",
+      "after_sha256": "1a89baeb11e61ba615674402c470938be205e8aff0730b66f7884b521aebea4b",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "da48ff4a0eaa6b0af57c7dfd41bcff4881800d1c47e756efefb29ad4e55ae884"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_monitoring_transport_H4.stl",
+      "changed": false,
+      "before_sha256": "78c89dfd49b9b76f33dc2d92b00ad2fba97abf89e297e8db5a2639977e8d5d88",
+      "after_sha256": "78c89dfd49b9b76f33dc2d92b00ad2fba97abf89e297e8db5a2639977e8d5d88",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "130dd254e4edc3d0db4175dd2fdf7959d554df36c6e16652d21a38e4ad23d33e"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_power_H1.stl",
+      "changed": false,
+      "before_sha256": "a1ee363adbd84f48eb048eeee744449de4593b025fb19ed361acffbeda90c9be",
+      "after_sha256": "a1ee363adbd84f48eb048eeee744449de4593b025fb19ed361acffbeda90c9be",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "f0145db4ac7b80ed064ef8a72633bded0c9cfdd3cdc24ab212c7e8278532a457"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_power_H2.stl",
+      "changed": false,
+      "before_sha256": "45738f0915ddaafe9cd172d1815ed64721a87f46bff1193f53258aacd09ce008",
+      "after_sha256": "45738f0915ddaafe9cd172d1815ed64721a87f46bff1193f53258aacd09ce008",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "e2e794a23212696575879b0493369df98feddb639f114eb6ad64020d7e3c008d"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_power_H3.stl",
+      "changed": false,
+      "before_sha256": "0f9a2f494845c609abe313665e96057904e9d573157866cb0ad3ac3ae42b5427",
+      "after_sha256": "0f9a2f494845c609abe313665e96057904e9d573157866cb0ad3ac3ae42b5427",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "07f9160c204e270c3e1ec52bdc67e26a2e318374dd5b99413ebcf97677a0acf6"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_power_H4.stl",
+      "changed": false,
+      "before_sha256": "db44bc403195cd8a1ac7e34da4af996d6d9f1d2dc3af4ab2983f33912b5ada1d",
+      "after_sha256": "db44bc403195cd8a1ac7e34da4af996d6d9f1d2dc3af4ab2983f33912b5ada1d",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "60817f6e05c2786f7f308f429bddf8834f5cbe7db4a6764a8966311279715769"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_recording_front_end_H1.stl",
+      "changed": false,
+      "before_sha256": "0e7fa3a3d95c1ab477db020fa03ae37be967e1b79467a35448877f61555302b5",
+      "after_sha256": "0e7fa3a3d95c1ab477db020fa03ae37be967e1b79467a35448877f61555302b5",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "30b4056a4d0a7e2441cd8c13285fd96cb9e4c8b2c8c08f56ce116fd7048e535e"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_recording_front_end_H2.stl",
+      "changed": false,
+      "before_sha256": "f2698e4a9454fc0c8f2bcb4f63598ca0c7456db0ab073a0201a9922c5d4f28b9",
+      "after_sha256": "f2698e4a9454fc0c8f2bcb4f63598ca0c7456db0ab073a0201a9922c5d4f28b9",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "ddbe423930c16c9fcabef74fcb35929a4d4c208bf717fbb5f06589b30e2ff03f"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_recording_front_end_H3.stl",
+      "changed": false,
+      "before_sha256": "f33d099500492d2f504fdd3b39f802e274d58e5b3424498689a595882b341c59",
+      "after_sha256": "f33d099500492d2f504fdd3b39f802e274d58e5b3424498689a595882b341c59",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "dda0a81de56d1390fd1db770e5b93bb6a633009daf3048a7b0ca837ccd765c57"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_recording_front_end_H4.stl",
+      "changed": false,
+      "before_sha256": "160ac8bebdf6c18b56a02e83300303acabd74829c96248681f1496d4ed41df8f",
+      "after_sha256": "160ac8bebdf6c18b56a02e83300303acabd74829c96248681f1496d4ed41df8f",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "3ae4b95864d0df5b915143e78a6ce59aaf147c0adff84af2a0e30bdd9cf84a2a"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_supervision_H1.stl",
+      "changed": false,
+      "before_sha256": "bb08a025d3c2347868753a2579105ee26afa9c4a83b9f0c60eba7ad27f91cda5",
+      "after_sha256": "bb08a025d3c2347868753a2579105ee26afa9c4a83b9f0c60eba7ad27f91cda5",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "63dd442959abd106fd73c23f2232456eaad8b450ddd3ee35c687ac6117749c5d"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_supervision_H2.stl",
+      "changed": false,
+      "before_sha256": "47bb5868e1f9e1c071b850e75ccc834dc58a47508aa392836bad9c4e0e7a8e46",
+      "after_sha256": "47bb5868e1f9e1c071b850e75ccc834dc58a47508aa392836bad9c4e0e7a8e46",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "9bd1d8a545409d94f6f4009831b1a144c38215cae32c1503073cccc377056ab9"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_supervision_H3.stl",
+      "changed": false,
+      "before_sha256": "bcebbb938f2d171ae7e819c3397827f76859246466149bfcc0a8a7ef9434f36d",
+      "after_sha256": "bcebbb938f2d171ae7e819c3397827f76859246466149bfcc0a8a7ef9434f36d",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "402d68eaa539cde3ef8622446586e851452e53223db8fa6d53e02e137428e566"
+      }
+    },
+    {
+      "path": "cad/stage5/reference/stl/UpperScrew_supervision_H4.stl",
+      "changed": false,
+      "before_sha256": "589abcf07c8ea4d0bf2f6839b413f881a7169d4200cb7948bbf1a647eda59986",
+      "after_sha256": "589abcf07c8ea4d0bf2f6839b413f881a7169d4200cb7948bbf1a647eda59986",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "77eda35a6ed1aea121e7632a93892a8efe486838f6acf0d43d07d03b256ba120"
+      }
+    },
+    {
+      "path": "cad/stage5/SCCI_RH_reference_inspection.stl",
+      "changed": false,
+      "before_sha256": "5b59fe1ed7f342b4edde75bca61b152e5a4d9744d376881793865f84b954c637",
+      "after_sha256": "5b59fe1ed7f342b4edde75bca61b152e5a4d9744d376881793865f84b954c637",
+      "evidence": {
+        "kind": "binary STL",
+        "geometry_sha256": "a0056531d74146554321a3741d03a0ebf6680f0008271123d25d6f3497fdabe1"
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+      "changed": true,
+      "before_sha256": "60191ac2cc3a5d26d5903ea31bd59692a103cd9f907f9f66abab4bf1f65e5630",
+      "after_sha256": "9b128ba7578e86f3179e789af82e59dc34204ea3b3d8efe638d6014cb9b08167",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "af0562ad3f8401d0af9fa2baf0666c07f489f88af792e42af0f09b8fc1ae14f8",
+        "uncompressed_after_sha256": "592d4c8969571556c58a8d1ff503da4e3d3e38692a93a2c93f666abb7ec5beeb"
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+      "changed": true,
+      "before_sha256": "585ec9997561074ccc563ae4ad560b79b5fbe4d211412fc4301f4b66dd103aa3",
+      "after_sha256": "a96d967671bccaf910aa94c6b570b789a1cc53324a1a8fc554863f5c7320e709",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "7a48455c5159417fb32d78b63d182b3f247acb956f4dd1e820ec135d1beadd0f",
+        "uncompressed_after_sha256": "60fe6d2f8365633897c10d69fdd0063fe1917998ce4d93fdc6c4c1819cc08dbc"
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+      "changed": true,
+      "before_sha256": "ab4db83be06944d5096c5a70048a34039a26f72dbdb6484d0b9ce3a511c04cc8",
+      "after_sha256": "0d61bb9ab1b275900fa65956fa16f74962819c11f287164ccb73c4b8924d403c",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "433a42c9e34dfa96c9ced2b7cc91e57a6a56cc128c18840d473136c8b0399ab1",
+        "uncompressed_after_sha256": "58ea0ab16a95ae885cbbd1cfae656eace6b6f8a181513ec9a4f7fe5b53a4c667"
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+      "changed": true,
+      "before_sha256": "9477f7ae7579f3428e0a0f7dc8e5cab2f6a91f3a16c0aba9221e8bde7ad8eba4",
+      "after_sha256": "76d9b816fd27641b53bcc4d2957521c0c70a1b83fb295ad1f33e4441eab3bc6d",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "094f176612ad6e054e80d47c7b53f1a26167bca6b38142815adaa4fe1a34d24a",
+        "uncompressed_after_sha256": "0e6d602ebbf4fa72ac9fa27aee55beb2346a189d14d8af7b63324521b10f82ff"
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+      "changed": true,
+      "before_sha256": "93c06a2dae03ee4aa47b182a06b3eb76dae929bb15fa034571ef3e42891b0e72",
+      "after_sha256": "57128b4984267e7a284ad1b14c9132180c4e3097a2c86b3e38374fbb2d6f75e3",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "1676b97e1bbbea322a0916400c85a66745d9a3ace9e067832c082b6ba5d3fcd0",
+        "uncompressed_after_sha256": "f99fd00814dde60d89dded2b1d108dba86984052431d1eb948be51477ebd951f"
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+      "changed": true,
+      "before_sha256": "c9be76c7036fe3f4930a9081c377db609e14f3a093dce9a5a8f13e836c7eebd4",
+      "after_sha256": "34273a785240eb57b432c96a2c59b5376383353a06f3726371b31afe0b941fca",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "1aa0cf9d64fe7ace9e6da0c2a09b991fd67ab40a5b060f17f6305d4086fcb97a",
+        "uncompressed_after_sha256": "70e99ebcf131ae98b0fc0419d90f5fea4c03dff180d75b015d79cfd36522c552"
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+      "changed": true,
+      "before_sha256": "55fe69392e46eb6beb9e6ec2ea074c5d9af10a68fb7cb5e63a24f65b6a2403ef",
+      "after_sha256": "ab8a9c070845a39c35910048b29beb5c53a4e7ac4f8d9531dfe4e59c5f13fc38",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "cd57696287e02f926f5e2001662969a00a54b3b7b77d5cb3210f054750487c13",
+        "uncompressed_after_sha256": "2af1409beaec088d9f6ac70516d09a89a15263826dc2cd8a73d6a5d1336529f0"
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+      "changed": true,
+      "before_sha256": "7f736ac1dc8e86be30066864451d14dca17e6130743e04603127a9087032d749",
+      "after_sha256": "db7b6d485d50ddb39d55485573b8eb1fd425ba3702884a2c9be6c1120e5c23b1",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "b4fc2d4816c177868c2cd9ac564c9a0d7c516eeb77adbdc066bf62efe3d3877f",
+        "uncompressed_after_sha256": "2647c5b038ca5664143248363d57c10681aa1326a8ad6bdfbddc16ef3b91edbe"
+      }
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/drift_forecast_exploratory_observations_12oct.json.gz",
+      "changed": false,
+      "before_sha256": "8b86e2980dbe9501a09587a3ea7669f5f0618cb2fceb8db67510810271687d4e",
+      "after_sha256": "8b86e2980dbe9501a09587a3ea7669f5f0618cb2fceb8db67510810271687d4e",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "08b04677ffa2672f282373435f0014ee1e9593d61a6ec6ac150bc9ff2ad1266a",
+        "uncompressed_after_sha256": "08b04677ffa2672f282373435f0014ee1e9593d61a6ec6ac150bc9ff2ad1266a"
+      }
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-00-12oct.json.gz",
+      "changed": true,
+      "before_sha256": "ba997c836578f1e472335bc448a0af22004e86e188dd781098d39c7dd4f45b44",
+      "after_sha256": "f1c16cdc8d13e763b24375c4e7cc8b3819980d1d7b94fd73b89a304e3dbf6070",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "13627d344e8728efdc46d3023dc89799a6c17e213a9d8aea571150c5a57bbe0d",
+        "uncompressed_after_sha256": "ed278d028e8f2800577f1e807d2346fe7d28ab9c43afdae74b09ea8f6cfc0643"
+      }
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-01-12oct.json.gz",
+      "changed": true,
+      "before_sha256": "dd69ae3d2914de5a34c32658e1a8574b1d741682f1a63b7f2827fa9649346378",
+      "after_sha256": "433ac2fdf5cd9989647fb71ae91dd6613f538e4c15217844170eb4af3a04e225",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "d2f312e48bef3622e3bc2c1538fed0304ae5fd3e872912f6bb2085df7eb7e424",
+        "uncompressed_after_sha256": "02bdcd380ba19bcfb6c7b368a4e5f236fbbd4f8031e8726aaec0d386a53ee8bf"
+      }
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-02-12oct.json.gz",
+      "changed": true,
+      "before_sha256": "1c280e9a7d1e5e655fc4051852ea32ae6375a59dde0dcc5d149a593beaef026c",
+      "after_sha256": "70707f153a078e9f2c70c27189bdbd2761cafbd3874cbcaefe48262ca3ba9db7",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "5f40cfc7c7ee9ba27fd3733fde9275c8194bcadfec712023530b1092e9d0035c",
+        "uncompressed_after_sha256": "6cc1ca3da7e8ddf1bc04c3b06202cf7708729e50a6b18422d14fe2999198163d"
+      }
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-03-12oct.json.gz",
+      "changed": true,
+      "before_sha256": "0e111881dd801371b99cdf7227ea1ffa58bac47fc7e0305f935e26b5a2cca1cb",
+      "after_sha256": "2d6153d953400c53adccf571de0d9d8b1405dde845bc2350ced21c4f53378bb6",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "c440d1626c559b38ea5a9c9978a6bc6656a892714629a877a2a5c9fedcf81626",
+        "uncompressed_after_sha256": "4219413c736c569a2beec175c1f4376c1f6593aefd62667dfed904c3ad27418d"
+      }
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-04-12oct.json.gz",
+      "changed": true,
+      "before_sha256": "fb6bec581ba5c994bb4b0cd9e780ec9c9548df5dbf2b6782a7794c8e68391c6b",
+      "after_sha256": "218b30d57e8fe8f36c5b5be715e62549b91d898e3e0f7befa779600dce6f0a15",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "dba8fcbdd80f3b6d085023ec04b5c0e147290e4953b13760ecde4c3452058dc0",
+        "uncompressed_after_sha256": "93cee2556f82f0755720d1d213afbb8186d21c339cb32e0137e0ea8658ea24c3"
+      }
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-05-12oct.json.gz",
+      "changed": true,
+      "before_sha256": "8669f004622039782f7a2f0ca8c81b0ac7da984c83992c9e06fc9b7fe41f9657",
+      "after_sha256": "3b906d29d62124d00b39948c51e22e69d42741cf72dcc528c74d61f057aef8ea",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "fdf293468d7e25d2f06c132daf64a351b3ae2ad38310f42c97007a0ca360ab52",
+        "uncompressed_after_sha256": "8eb92a9b899e19da858a5b0be0be760ceafe8b5173baf8f47cefd69c6595f55d"
+      }
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-06-12oct.json.gz",
+      "changed": true,
+      "before_sha256": "c7250ed80edfea07cbdf45f00c7daf002fad7266e466f783af9aa7aadad101ba",
+      "after_sha256": "3f7f9e79172061098520489f8c359998a8031bf8e311308b5352122bffbf0426",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "ed6a5115f9998d212f8d52c22f41f0d0656bc0685f99850ff45d25ceeca56fc0",
+        "uncompressed_after_sha256": "84e569d713effefd0637bc1617f48a5690f0314f70cb949f933b5a851d41436e"
+      }
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-07-12oct.json.gz",
+      "changed": true,
+      "before_sha256": "c2d4196a83967f38440ba49f164678d2c53811625ece882097b62efd50a1b9fd",
+      "after_sha256": "6841a4a4c17033f8b9adc290916bf82d8c3ec3d1df89a10a4bcfc3124efce4bf",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "32ec929c28f2d1aa1e8e85eeff03546b48ea915bbcb8a3ddef732bf75778a1f9",
+        "uncompressed_after_sha256": "448b3288f28a4fba354e8d1f0252875d03102a81bcb08e0ee0dcafd3a7ba688e"
+      }
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-08-12oct.json.gz",
+      "changed": true,
+      "before_sha256": "768db3868e8dabd5e6330f71bf85341cc25f30717f409a8a600326b978042fc4",
+      "after_sha256": "4798a151bf5f95f808ab047541538dd65513e7a6f637c591a1b086a2f411a296",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "ea17fdbd02a391a03464297d1f40011d54431fe41dedfa199fb6b6f8d0968d27",
+        "uncompressed_after_sha256": "c3c32230de20bf9cc52e364a150eddd3b195fca0aa6947b51f85c27a2d5fae4c"
+      }
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-09-12oct.json.gz",
+      "changed": true,
+      "before_sha256": "e0dfc975cb58abdd849ba46a5300fe3c945c04fd8a27775c73593cf15a6c7743",
+      "after_sha256": "f3401145d51f3026318db0863b59ad95bf2668d581f4702e6c03100040ca0efc",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "392679be82d0735288b1c537a19fd7252405aadadca6540c2d278ea9460d2a67",
+        "uncompressed_after_sha256": "b6b68745fc519b51525e3dc45fdccea3636a8553f7fb152589d8d26569b3d42d"
+      }
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-10-12oct.json.gz",
+      "changed": true,
+      "before_sha256": "59c9170e0a4669baf64498c668cd59ffd8a638d0391ae0a4f751c988903989b0",
+      "after_sha256": "295de097596c1b73d28f25d06b550eeb3c7f23f5a39b3791728fc8b8e3badfde",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "c3d8daa288b12e8e80910bc85d4a9baa453aa0686dde089441097caae262086f",
+        "uncompressed_after_sha256": "4ca6622b76d19fec8e359488abc069b920610c75acfaa801800f33fbd025244a"
+      }
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-11-12oct.json.gz",
+      "changed": true,
+      "before_sha256": "41a3337e132768f3378e957aafcf024ac5e16f17b2c6dfae9f5a283aa09b11bb",
+      "after_sha256": "31b71ae11a5b7b0cc23fb7a580dc5f7896653cd3ced3c263d3d5d299351553d5",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "b52e56b7a4aaa08ad9d70deb936f631db4c9b9a298128ed7b8efddd0ced837f0",
+        "uncompressed_after_sha256": "2aa170ee1ade125f502a818930355e2e07dd32e25b648558b3452ecf83385962"
+      }
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-12-12oct.json.gz",
+      "changed": true,
+      "before_sha256": "f267358d67983aedecc9b652a576fc229bb166e46bf88c96f42ea3788aa424e5",
+      "after_sha256": "c32c6382412eba06670b23de796713f314bd0938e9a655dbfdfb1075f0c56e29",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "c9e2e1b736b893ea2e2d97b5317f304dda8c5738b73976b6f03a968130ed3c91",
+        "uncompressed_after_sha256": "27672b2c2fc4e951c386bc89bf6cc35de6dc980eff528b331e8baa6ade551f31"
+      }
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-13-12oct.json.gz",
+      "changed": true,
+      "before_sha256": "d2e9a583ab1a0bbc49eea859fccd763b7a54bf15c904b4e11db09713f138312e",
+      "after_sha256": "ee43ba3f2b0fb0bd5c3a5dcfec1dba802aa4947edb4c0eea16dfcf74adea7e5a",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "d61022e1e7be47a20168afa0c63fb9ba1cca3a927331425a97337739286976b4",
+        "uncompressed_after_sha256": "7d93e748535624978208527f1b22aebc49211d8596d5d8060e140db03f7aff0f"
+      }
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-14-12oct.json.gz",
+      "changed": true,
+      "before_sha256": "bb4fde806b4847f62b347b8861092408bf5dfb677fc0ae287a7821831014763a",
+      "after_sha256": "85ea5b91c71929a4bd27932406cf3f6b64654627f8f33d611c0249c2e0924fd7",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "bddea450dc67172b342384a712d175019a28af7dfc10047f6225d0c5c2ae6c2c",
+        "uncompressed_after_sha256": "b2f15a38f1cade5d7d13b08d9b232b93d334dbd9cdfb3ef7ccbe2d75487c83ca"
+      }
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-15-12oct.json.gz",
+      "changed": true,
+      "before_sha256": "f7be463402be1067afada8a8ccd17a8fe347eeea283884a4c730b5a74aa902a3",
+      "after_sha256": "3894ca83a8e9d93cce926d989c09ea4416989c16c0edd2fe213ae340ee4553e1",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "1ceac918f099fde7b800735cbb1e3bfbdbe9e98220b4e596254b36fef663ece8",
+        "uncompressed_after_sha256": "e7cc7e1709d3e361f024b89c367a835de95cfe8d458792bfec5cb74a9535b876"
+      }
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-development-raw-12oct.json.gz",
+      "changed": true,
+      "before_sha256": "cf3fec80ba5748ef714d73120a2f1acb742f318db0196789d85adad4e6bfcb05",
+      "after_sha256": "e8cee6b8e385d20a69e2f6598a1fa65207d26c3e865f82f855bbd7364cb8e32a",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "b360a22b1e8f40d84067539e8168e3c8bf531097c0977f3a6ddeb5661ca879f5",
+        "uncompressed_after_sha256": "337751e4beeb4a2722938af5ca668347befffe927825e0d277595ba743dfc606"
+      }
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/phase_balanced_longcal_observations_12oct.json.gz",
+      "changed": false,
+      "before_sha256": "bf2feff549b8d984412fbf3f11aa5d4ff640dcb92f7dc4ee079cee492b201fcb",
+      "after_sha256": "bf2feff549b8d984412fbf3f11aa5d4ff640dcb92f7dc4ee079cee492b201fcb",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "f436a4b3f5058b44a7cb410f6536eaa09465f56a040a3286ac5a5f790e4c2268",
+        "uncompressed_after_sha256": "f436a4b3f5058b44a7cb410f6536eaa09465f56a040a3286ac5a5f790e4c2268"
+      }
+    },
+    {
+      "path": "inspector/assets/models/contact-router.glb",
+      "changed": true,
+      "before_sha256": "b85108665184053ded98e8c6da4ce36e95a8421045e247538415455e08857ec5",
+      "after_sha256": "b186f29b4db61e55a443f0e82c2b8c31c6fd9cc354ad7f6c9add9f7307b976cb",
+      "evidence": {
+        "kind": "GLB metadata",
+        "preserved_buffer_chunks": [
+          {
+            "kind": 5130562,
+            "sha256": "bfd8a671486572ff84c95a73866669fa42c76eb57b8e6d7d690e825624143cdb",
+            "bytes": 1663248
+          }
+        ]
+      }
+    },
+    {
+      "path": "inspector/assets/models/controller-carrier.glb",
+      "changed": true,
+      "before_sha256": "74790414b30194d590a07d84aa55d06de557f2f67bf6ccf24be29cf4abc9d70f",
+      "after_sha256": "9670548d47e4b3966bd60f56ab04ef31392ea21d98ca74e53d9775b8a9c67d21",
+      "evidence": {
+        "kind": "GLB metadata",
+        "preserved_buffer_chunks": [
+          {
+            "kind": 5130562,
+            "sha256": "bd13f24602b231c56003d0456f08815b687637eebb3bbd70ccd41e6530c00b87",
+            "bytes": 735360
+          }
+        ]
+      }
+    },
+    {
+      "path": "inspector/assets/models/current-driver.glb",
+      "changed": true,
+      "before_sha256": "3e650c72862470c7b717c1221fc248f0528ee2bc8957ca09eed55b6a40132d92",
+      "after_sha256": "a148bd6974342856d5e9814303c5275eedbf9326e10370795d5b7b9ac524eb7f",
+      "evidence": {
+        "kind": "GLB metadata",
+        "preserved_buffer_chunks": [
+          {
+            "kind": 5130562,
+            "sha256": "98cf8789de4c0c26711d10e8b48dde681270a8281a36566266498b0528dfa4cc",
+            "bytes": 1398360
+          }
+        ]
+      }
+    },
+    {
+      "path": "inspector/assets/models/future.glb",
+      "changed": true,
+      "before_sha256": "c9c5c9663b7756440ffbb9359a41019a95a8527803e64d870002a7129d690031",
+      "after_sha256": "079b90887b06ccb685143d66806178451982d2205232144ad488150c97d97da7",
+      "evidence": {
+        "kind": "GLB metadata",
+        "preserved_buffer_chunks": [
+          {
+            "kind": 5130562,
+            "sha256": "b97f8c10a4a2a1fbc0fed627946ef014b09ea217201028a36c3d32d8ea1cf3a6",
+            "bytes": 1117980
+          }
+        ]
+      }
+    },
+    {
+      "path": "inspector/assets/models/monitoring-cell.glb",
+      "changed": true,
+      "before_sha256": "06c04769eb3189de43079e7895f27f4056744e10315418cedbdf70a9522004a2",
+      "after_sha256": "1fd2afabe7f4dc3b01cb8f92c1afd667ac7fa7bcd7f83847b8be145ca28a080c",
+      "evidence": {
+        "kind": "GLB metadata",
+        "preserved_buffer_chunks": [
+          {
+            "kind": 5130562,
+            "sha256": "0ecd2f8d3718fd63881b8f82aa0c8024063a4ab587fc09efd9fc3dea76c1a647",
+            "bytes": 631704
+          }
+        ]
+      }
+    },
+    {
+      "path": "inspector/assets/models/monitoring-transport.glb",
+      "changed": true,
+      "before_sha256": "74bde5ef5a07ff9957d122f40b4fef72d5adb862e1d25ab8377cf31bfe5bbc88",
+      "after_sha256": "ab05b7ab4a9df616aea70c9d6f217fc8633ed71b8ac850b8c3cf8cc069326388",
+      "evidence": {
+        "kind": "GLB metadata",
+        "preserved_buffer_chunks": [
+          {
+            "kind": 5130562,
+            "sha256": "03aa64150a983d903dae7660a70a45ae380991a17807b7537a2996b1507d47a3",
+            "bytes": 573600
+          }
+        ]
+      }
+    },
+    {
+      "path": "inspector/assets/models/power.glb",
+      "changed": true,
+      "before_sha256": "e6349844e65e364173723dad48c98a7f3da60a7360c2350ede62d20711a71328",
+      "after_sha256": "42eac9522fef4bb95d4ad3adeeb1e86bfe04a7bb57f5078a8548f231e816d41b",
+      "evidence": {
+        "kind": "GLB metadata",
+        "preserved_buffer_chunks": [
+          {
+            "kind": 5130562,
+            "sha256": "3fb9f030e8aa90c2bc719e283d114dfa3a1debafd4fb7013aed4d9cbf2a7fe76",
+            "bytes": 969096
+          }
+        ]
+      }
+    },
+    {
+      "path": "inspector/assets/models/recording-front-end.glb",
+      "changed": true,
+      "before_sha256": "a9a419c38c6c076c912c7db0d3ded235122a6cb5a273df091c1367fd7a4a4b7c",
+      "after_sha256": "922c4a6280e6915f2725c78e31f5d528c75eb1a77c3c7ad1dbedde0ab07ea88d",
+      "evidence": {
+        "kind": "GLB metadata",
+        "preserved_buffer_chunks": [
+          {
+            "kind": 5130562,
+            "sha256": "0bc1855fbe153461118405a6483160cb05384c55370779c0db747ced1aff0b4d",
+            "bytes": 1132152
+          }
+        ]
+      }
+    },
+    {
+      "path": "inspector/assets/models/reference.glb",
+      "changed": true,
+      "before_sha256": "35c2c66c515dab19a8bc6047b242d20088006d24834996a2254952cccc6593b9",
+      "after_sha256": "b29a05450b246b71c4bfe13c3d8d0ba9f6b9bcb6e1bd1cb88460ee8d0627dad3",
+      "evidence": {
+        "kind": "GLB metadata",
+        "preserved_buffer_chunks": [
+          {
+            "kind": 5130562,
+            "sha256": "64320c1ac85cd74e74b22da5b72da5701dedc7d0fe367c53c5623594c118e0cd",
+            "bytes": 13359768
+          }
+        ]
+      }
+    },
+    {
+      "path": "inspector/assets/models/supervision.glb",
+      "changed": true,
+      "before_sha256": "c0b5a412ff232c1923f728ba33fc927828abbfbdb30ebb906390fedbdddeb322",
+      "after_sha256": "6749b03f02b9973c70495d6ca28ba411ab4473de387788dc82d3f40727e704f2",
+      "evidence": {
+        "kind": "GLB metadata",
+        "preserved_buffer_chunks": [
+          {
+            "kind": 5130562,
+            "sha256": "96ddfd021b19e8bcae95d558672cb6c0f54b730901ff12266b3067d0830b0fd7",
+            "bytes": 4022520
+          }
+        ]
+      }
+    },
+    {
+      "path": "results/stage3/assisted-prediction/raw.json.gz",
+      "changed": true,
+      "before_sha256": "51902630b2d89dcb9280e3a214841328874a2980f3f881b0d5deb6fb073020d4",
+      "after_sha256": "0e5e005e77276daf9f20d2f12ea3266f4bc94429f39a431837537043e2085117",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "1f3d2e82bacb834b5367f23e997cf4860810cf6832736341929ab2defa731b06",
+        "uncompressed_after_sha256": "a8493d4e4cca51d1816588cfef39632e093292b26c7163520965a948f4903443"
+      }
+    },
+    {
+      "path": "results/stage3/cue-policy/raw.json.gz",
+      "changed": true,
+      "before_sha256": "e6df858060848664019e3482889e52bfd55014f9802b2130422c60cff9f68476",
+      "after_sha256": "3f048d4db3eec505ce57d2d7cd6349d008eed1e1c63112ee1bbbd0306bdccad0",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "80719aae89b7ac5e03ce676367377d5438c42e52b253a36e8354763eba88ba5f",
+        "uncompressed_after_sha256": "7a5af02263db21756e16f647cb087bc58294b631daa64e0ce0e1cf6f684a9c84"
+      }
+    },
+    {
+      "path": "results/stage3/dynamic-response/2500us.json.gz",
+      "changed": true,
+      "before_sha256": "cfa0e0a18ec1873492e5db80e1511c80b0a5eaf74d32081d9fdc4a053131bbec",
+      "after_sha256": "87430e84fec68ff44e75f9a82098d788e3e2624b4b5d8dfbbf84cc0e0abcea72",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "0f6046aa0a4bc565c95e35d6ff23347f8a6acd5c7393e18c995e1583416ad7d7",
+        "uncompressed_after_sha256": "f4920397c2f891f16b8f25b15bb7c124c44d820c62cd7a14ce1d3cd4088cdf1b"
+      }
+    },
+    {
+      "path": "results/stage3/dynamic-response/625us.json.gz",
+      "changed": true,
+      "before_sha256": "0656750ddbb9afb1a90f9f5300b50916ea96764a82a342adfecb14caca35e938",
+      "after_sha256": "4cf73d8d18c4c1334b39963c03250572832a2aea7070cac49a439734ade2c9ec",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "b92b062d6820abe26481d70ed1dccb9d9ce673abc2b6a425e2f81e78963cb758",
+        "uncompressed_after_sha256": "14fa2ababd4e6c3d3735903d60a078f1d640c2d523dccfe472aaec25e711f885"
+      }
+    },
+    {
+      "path": "results/stage3/expert-validation/idealized_inverse_faster_performance0.json.gz",
+      "changed": true,
+      "before_sha256": "87aa0a4143381e7479e5d7861da74b40a15f6aacf0291098b091d39ae3d24cf0",
+      "after_sha256": "678598c97d282b2faac9453510a66ccf48b387d898624b1085d4926ee1b344ff",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "40aa42d9529430f867846678ee12ad43bb55ec1f236a58bceffa0cbaa0640d11",
+        "uncompressed_after_sha256": "e8de49a180fc86e744b46ce99fdd95e8f86ebb4e3c058beaa6be7a02c7a6956a"
+      }
+    },
+    {
+      "path": "results/stage3/expert-validation/idealized_inverse_faster_performance1.json.gz",
+      "changed": true,
+      "before_sha256": "86842caf74ac8aaf202cd8c95cc9c0f58d4a63db27a5a994a2eb9543f26635cd",
+      "after_sha256": "20c925a7be757daf188d6bce90b154747896dcd066c7905a2cb06c48a51dac14",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "396f4eca525f2958f39cdd69ca29b2360e1846dd6bfa02ce7fc62a1bf884b9f7",
+        "uncompressed_after_sha256": "f8895ea376fc05bb4fce33c7073e18119c95aa8f4ece5e98932ab59a1d18c9e9"
+      }
+    },
+    {
+      "path": "results/stage3/expert-validation/idealized_inverse_faster_performance2.json.gz",
+      "changed": true,
+      "before_sha256": "ab94ac7c1a6e4687bd5f7bd068c5a6ed93726243fad5f7b6a151292cda7ff31a",
+      "after_sha256": "c68871162c890b70423ffa9c4ed99d7e06b1b0a999fb1704c60eb0b6fa125071",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "43e52b377874ee6a8571bf9efb9be817c119f102ecf3513ce046e4a738a9dab8",
+        "uncompressed_after_sha256": "e786e0414f46b118d50afb00adcfbe21266e8e8baedba70fa1fe0e3b2b23b350"
+      }
+    },
+    {
+      "path": "results/stage3/expert-validation/idealized_inverse_faster_performance3.json.gz",
+      "changed": true,
+      "before_sha256": "07374f8455b311f4372c732d3ee30c43a19f2fb901e1e6a640efbaa5145ebfc9",
+      "after_sha256": "75340505149af789e5ad189fcccfac39e32b8ec98e9c6388e24d6d4ddc2ac5ee",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "0656f0fe61d72e508cad0f8bb3abeab60d6242f5dc89e826aa7610a58949dfd0",
+        "uncompressed_after_sha256": "5e9190ffcf1eb46fe4467dcdcad9c7c91bd494a59e8d20cabe93c2d4a1edc687"
+      }
+    },
+    {
+      "path": "results/stage3/expert-validation/idealized_inverse_nominal_performance0.json.gz",
+      "changed": true,
+      "before_sha256": "72f95efaf07d09e862e37a9668f90eecf063e27802c581e4b71b12a93403a3e0",
+      "after_sha256": "8c271fc79f638882ae424c4f399f66ac2cfe00c218ebf6fd608a7cba7f555b8a",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "f60c2155435b8578d23f33fe87290d2d14df53a32cf7d0ce0800cffc1a97cafb",
+        "uncompressed_after_sha256": "10207a990fc5ebc8739c8fc988568b1b4580aa3889bb0cd4d22a7c8e94dfb31a"
+      }
+    },
+    {
+      "path": "results/stage3/expert-validation/idealized_inverse_nominal_performance1.json.gz",
+      "changed": true,
+      "before_sha256": "708fcfc7c5109303c86a901fc90635a29af03c712c473edfcfbdef0e7c66e2fb",
+      "after_sha256": "4a29740da1c85bd7d49afab2fbb201c10276b0dad0838541110f253747be633e",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "ae16ac8b328eab9f27222099988436e19012be7546d505df354a3265c1c71f71",
+        "uncompressed_after_sha256": "60dbb4b1d3485faa26b451a3f1667aa72702e5b3c26eaf4f3bc05b1ce36ac452"
+      }
+    },
+    {
+      "path": "results/stage3/expert-validation/idealized_inverse_nominal_performance2.json.gz",
+      "changed": true,
+      "before_sha256": "8fcd9ccc55c4bbccdb461e66a91341dc1500313451de84ce4e5a374cf9094f3a",
+      "after_sha256": "7d2468e12d422a83560a62add99c10e220b8723b09fda08e6ebb77731dbd3843",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "6babd29ab7145f26a86d0b8a8d2b3a0c42dfefc98d7124f58471b28f8d621e46",
+        "uncompressed_after_sha256": "dd4f7a51a3696ae7468676efcc2019ae9590664786551d5600eecdd6cbe4a12c"
+      }
+    },
+    {
+      "path": "results/stage3/expert-validation/idealized_inverse_nominal_performance3.json.gz",
+      "changed": true,
+      "before_sha256": "886ad26fc9ebadd95f21fc9ffba1a0eae818ffb830219c18bda5830728237eaf",
+      "after_sha256": "622d1cb2596b17b7cf7574035b3bfcc5b8ff98c90fdfb755039e3a445951772a",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "c945a7f863b1a6ea7069c0c7443917eef78511088b63385086c5907baaac3228",
+        "uncompressed_after_sha256": "b50bb538dd60145c61c9c260900f3a5779919a49279f9fe729e2ff2db9831f34"
+      }
+    },
+    {
+      "path": "results/stage3/expert-validation/legacy_voluntary_faster_performance0.json.gz",
+      "changed": true,
+      "before_sha256": "a3b08412305003b7e2a9b2df05d818cb905ac2015dde80609f3968eb4e67772e",
+      "after_sha256": "ec5a257ef2dc364f0174c5665eb4bed8ff482e0391464c7151769921291c4712",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "c9efc521f2f02f9f304d47a56a53c5c23f0fd5e0b77c0668e7f045861f8e9112",
+        "uncompressed_after_sha256": "cda0567ffc2f275c21ce50c71b96117d122ac5ccc35ecc996bd5c0c936bb2f3e"
+      }
+    },
+    {
+      "path": "results/stage3/expert-validation/legacy_voluntary_faster_performance1.json.gz",
+      "changed": true,
+      "before_sha256": "e01183cb73e31abeb009ec2e94179350db9ceed6fddadde68eb438e315c809cc",
+      "after_sha256": "9ce8e46d6f0c37b33727d024dfcbf8b66bcfbd54285ec805198af4b55425c31a",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "b573e8a6fde125dc20f227bf4bf748a5fb5b953c29223d70c5b63104bc998f9f",
+        "uncompressed_after_sha256": "df68af5172b00fc9a143164274d6fa9d146627f98a6a715a5d2ffac2f5256170"
+      }
+    },
+    {
+      "path": "results/stage3/expert-validation/legacy_voluntary_faster_performance2.json.gz",
+      "changed": true,
+      "before_sha256": "d25e222968e1410864c18e4c69c28ebd76ff9b9786124509f7c507f69529262c",
+      "after_sha256": "64adfe339392ea4f92ce599573a421743fb4962d9d72821ab4175339404e0c3b",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "d4eb31d60b0d2ab3c4c293803a8d6d8b3d3a2846c3001247e47c86da838fe3bd",
+        "uncompressed_after_sha256": "8ef8b616f30d7336faf6c9d09ea6b8f0777cf0b2a9a5b0156b5f828ca48fd6d2"
+      }
+    },
+    {
+      "path": "results/stage3/expert-validation/legacy_voluntary_faster_performance3.json.gz",
+      "changed": true,
+      "before_sha256": "c5bc62f6aa5d08395dd7ea087a05755324dfbfdedacb577054fee7aeeb59a6d5",
+      "after_sha256": "9b6aa38906d1043a41b03e33f7109bfa2380a74ceed1f786310beb3385e6430b",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "fb9c9f483022e1545af0503156638022716a786a887f8bc5ea1e3dcba89f2979",
+        "uncompressed_after_sha256": "6a3ce987f2e4fce39a0ce4a254024052c5867949b9d4fe2ea586ce8c8901d472"
+      }
+    },
+    {
+      "path": "results/stage3/expert-validation/legacy_voluntary_nominal_performance0.json.gz",
+      "changed": true,
+      "before_sha256": "c287bc93105da257f81791f6a03b4d782d9a4ef83980243a1114e9d6567f36af",
+      "after_sha256": "f264d32210810c807281e065efa5283fc4a33234ef779bc1baac23590435021c",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "764cebe8cb7e507c6274ab914e7c4719e775e668668603e414dbac3163e3d1c8",
+        "uncompressed_after_sha256": "79a133f812fa97e13417415e188900d7dc3f69fb275ad19339e26bc298cdf819"
+      }
+    },
+    {
+      "path": "results/stage3/expert-validation/legacy_voluntary_nominal_performance1.json.gz",
+      "changed": true,
+      "before_sha256": "5d8f9e8c32252a0529c131fca21a8adde642183bdd50b99563d4477bd4317977",
+      "after_sha256": "e6394f16fdc9c0d67b55c46d9e0d1273a89b8e5befa9e66dd08dc73dc14bca5d",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "b8723a109b088ca47b2b45894fed68bbbf86134cc58367c6723ec5c0fd4315e3",
+        "uncompressed_after_sha256": "ca713dbb51c2c3403722984661696cca2a631d8cbe14227d021e9649ce0e9f1e"
+      }
+    },
+    {
+      "path": "results/stage3/expert-validation/legacy_voluntary_nominal_performance2.json.gz",
+      "changed": true,
+      "before_sha256": "63ec42e6ee1576881afb8197c54f87081c5c1ffe53404a31eba864913039708b",
+      "after_sha256": "ad8158b9dd8958e2c04efb37f8de9ebe42d18cb925f9a02e2d0edcc6e01560a0",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "bc0821f3bd19090f5786256d97099285970f39aa8d72df58adcd3b2c84dfcb8c",
+        "uncompressed_after_sha256": "fd7bad9de96cbd4927776421cdce7faab62ec0b424cb43c0d6d7b52688c7fd13"
+      }
+    },
+    {
+      "path": "results/stage3/expert-validation/legacy_voluntary_nominal_performance3.json.gz",
+      "changed": true,
+      "before_sha256": "682399207bbe4fea1e95baf8d338afdc7a679a7840f9c2e8a0743fad09f801ba",
+      "after_sha256": "6ee7e032fbb0a3a1b17b0818eb02a9ce499ac7b8f6ca64d8054de65d28445dfd",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "4a04fe66fc3e7e5ddab2989c0929c5504cec3848b145de43404e872e4d08ff70",
+        "uncompressed_after_sha256": "2f0aec840bcc044bd34edf4a53e8fa8b9ed7fe5a45f9a4b5b030d85cf4cbedf4"
+      }
+    },
+    {
+      "path": "results/stage3/information/actual_nominal_informative_seed0.json.gz",
+      "changed": true,
+      "before_sha256": "07684d7756164987926f8d6201d6a8720c67f29e7aa776fae3a87c38cacab20b",
+      "after_sha256": "afd6f37545500eff470c0436c0424d1df896a6b44e886b17f69d5501d1cde027",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "0eb2c0de8c321392e33f822a05103d5581956277c6d53dcdb17d64fd8833fdb8",
+        "uncompressed_after_sha256": "615220a2dab60a03014272bdb6ec64beb105a3032287feb5e905c3f4c4383f8f"
+      }
+    },
+    {
+      "path": "results/stage3/information/conditional_fast_absent_seed0.json.gz",
+      "changed": true,
+      "before_sha256": "058d4a6b0256c710fc9a8b30e8d1d06e96b6a9436d6f5b9e88081bb3a9891002",
+      "after_sha256": "af41ae79f580d90c90b624025e1748bff13bf369dc58432571f1fa71341f07eb",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "69602663f5307521640dfcc898fce414a53ffa6cd19adfd537ea494525f93426",
+        "uncompressed_after_sha256": "ece7f43818b7d953d9b4e8cd0754751da49b5ebd9c4e64860293b76194cdd310"
+      }
+    },
+    {
+      "path": "results/stage3/information/conditional_fast_absent_seed1.json.gz",
+      "changed": true,
+      "before_sha256": "1ea9023ad9693d7f699eb0721f38464ae685b369f02f58da2fe5013d73b88065",
+      "after_sha256": "4380aaf3ee962d29113763dcb73f2d29f3d9f59bb0d99bac317c2c2ce8b01132",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "5004b76214becf8dadbff957ead36410d776e96868599b851f151cc20a5df7e6",
+        "uncompressed_after_sha256": "9eea9ae3e34736f2d75a8fae69b75d0acafd7a7016e498c5573d619aa98b15ce"
+      }
+    },
+    {
+      "path": "results/stage3/information/conditional_fast_informative_seed0.json.gz",
+      "changed": true,
+      "before_sha256": "aeb8bba0e86718c98a35eed1af6d0bdb0b4d504dc756e5f37313eb27ec54427c",
+      "after_sha256": "ef4f12a618dad9f56c268660f34e28fe455db6d99d9cc05c96630c9589d4c3f5",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "96e7fbb4245007381a55f779022f573909697464fd4de93b0a68f96bb496c2b5",
+        "uncompressed_after_sha256": "5fb23d9bf07f3a4d17a0fd7c07fc91eb617a9233431848c98ed7d798dcc6b40d"
+      }
+    },
+    {
+      "path": "results/stage3/information/conditional_fast_informative_seed1.json.gz",
+      "changed": true,
+      "before_sha256": "3f682ad725d43377d2de6d36ee42dc94206d2ca9fc4847815cc8a49141faa7e1",
+      "after_sha256": "027d715311790f4a7b9941d6bde13caa20d0d4b9298ccf1aa99c22ebceef24aa",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "7b1aadd6b81d3798d8674e9897c49b294721eec6e72bca94594f799281431d1e",
+        "uncompressed_after_sha256": "8caed053f487256f8b0c06c7d1848746feee82e2340db27d8440c69eb49a5f77"
+      }
+    },
+    {
+      "path": "results/stage3/information/conditional_fast_redundant_seed0.json.gz",
+      "changed": true,
+      "before_sha256": "d86eeb9bc18556cc9f23f4fe1b5e5ea4e93fa0f0efe6c2fdf69ccf5f18d7a916",
+      "after_sha256": "06b06bfef654b6fba98e734d9e3b6ffb76ebb7f137e4b1cd2372700848ce7fac",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "5c553da497cb4bd3446b983a4f045c506ad5bc565e4116f5aac0e554f926ac71",
+        "uncompressed_after_sha256": "7fa599e2228ed33d35173699edc4f2ca3de1fc66f3715e13af51f0d18bf4a571"
+      }
+    },
+    {
+      "path": "results/stage3/information/conditional_fast_redundant_seed1.json.gz",
+      "changed": true,
+      "before_sha256": "161e3527b53f512dff949107553356c310cb12106dbd2fc4d0c7671f0dd5eaff",
+      "after_sha256": "5856937fe31b78a9614876835ce15c080f628ddbf462215ee12bdab0b04daf1e",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "5461fad0b94187947a3517eb59ac3746bba9c6feddedd4a212bc98291f00d97f",
+        "uncompressed_after_sha256": "6316604a2d39efc3b67820ec4b4a26baaa7fd4ee62064c1965dde54ca628e00e"
+      }
+    },
+    {
+      "path": "results/stage3/isolated-pilot/raw.json.gz",
+      "changed": true,
+      "before_sha256": "27d4b9f9a92e03cd67040669bceb9c5ef485c46baf09c4357ac5071d8504b9b9",
+      "after_sha256": "94fc46213e0509b49894cf1c1dd7a8d7e2f01716df97640b6800a50bacbdc97f",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "41344f196c97ebb8586e3670b4ab10995bdbc2a4ecebf022b327bca1073f7537",
+        "uncompressed_after_sha256": "6166a774827497cc6dde85cceeac05b469ac7de289dac105124252a1a6c19b8d"
+      }
+    },
+    {
+      "path": "results/stage3/motor-raw.json.gz",
+      "changed": true,
+      "before_sha256": "770763c7aca126d1fccde4f13135d660705b3718b6c3b559fe4b5f257d594497",
+      "after_sha256": "76586ecbe2d4e2c5e7e2b8fe739161e59797eb64315350f851745c40b93f0257",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "e9dc72f4f16bced01c948702b9f2424becc6497be3b00de813f6b8a0829b2a88",
+        "uncompressed_after_sha256": "1b2c17c064f8e127ba98c3e4670cab1408ffd17fba2824f87e17f6e8b6de3baa"
+      }
+    },
+    {
+      "path": "results/stage3/numerical/acquisition-qualification.json.gz",
+      "changed": true,
+      "before_sha256": "c641f450c904afc4cf1f99753cc092f80b9395a1ebdd6e4dd64aaef25608a316",
+      "after_sha256": "65911faab6359d24e9398513ff8669039967c559be3281ba3b12530b26efddd7",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "820690c59ddc921fc92170ca61da61544dc32b2097c10a5489c5e50f2ee18541",
+        "uncompressed_after_sha256": "af40765f136baed9e6c4d769a42db31da4d0fdc1eecacfb12ab86f96a59a081f"
+      }
+    },
+    {
+      "path": "results/stage3/numerical/motor-convergence.json.gz",
+      "changed": true,
+      "before_sha256": "e1dd5dc7bf58d097165cbc03f8d148b035f68960642fa93d27a268c6218b02a8",
+      "after_sha256": "f0d8acc79fbc8008d0b02ba3385d416e9c5f8bdfd308075fa51e4497690ba211",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "a906e222dbd8093533fe2adbe344d35336584a233b5c2c4db9720b709682916e",
+        "uncompressed_after_sha256": "db29e70f412f28119309391a822e9e0afa6601af4444e8207e8fd770b9b7b736"
+      }
+    },
+    {
+      "path": "results/stage3/numerical/pressure-convergence-smoke.json.gz",
+      "changed": true,
+      "before_sha256": "bb057203b1eadcbc5a60d083ea0257dee78dcb15040259a53916a3abe7fd2169",
+      "after_sha256": "702ea5c037a35cfdd2ba185f6e958d15efa7940432c890cf6c5f8c5f111fad02",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "9d0fc449d851af916e9d0ec5960441fb87e3506a80fb93eb0168980e9b26d2b9",
+        "uncompressed_after_sha256": "539f867dfe8a18cc5a998cb658e7738548cc58c3db7605eeb0b0ef8f8d7bca7a"
+      }
+    },
+    {
+      "path": "results/stage3/numerical/pressure-convergence.json.gz",
+      "changed": true,
+      "before_sha256": "096893cc9a626fc1fed67a017c8aa3caf7daa91667066fef2e87cf51cfea06a8",
+      "after_sha256": "19aaaa9a6b93f471f0b3c7ad661709420796052d9890a329e5f18563bc75e4b9",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "72346392550c5a1f96ca2275420caae3dcd0c3ef148769c61c5bed1e6aa6e4ca",
+        "uncompressed_after_sha256": "6a54fac24e1a9b6765e40d93079cbe096282f2efbd5ea37caf3df1fe0ca2826e"
+      }
+    },
+    {
+      "path": "results/stage3/pressure-fallbacks-raw.json.gz",
+      "changed": true,
+      "before_sha256": "a8b25fec3b74cc63eef0205c54b074597848ba00dc9a77b521ac210fb53001a2",
+      "after_sha256": "27299e4cb58834f5e5dc21833997f97b0f7585bfd81251e3187b083cfba736be",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "8842223c36909726fdefd8c96e086ffecf0893593c7c5dfac92063a5409ddce4",
+        "uncompressed_after_sha256": "d5fe2d4ff00e47fd8feaf3c11a7d2ebce617586fc537a50706a31a173b008de6"
+      }
+    },
+    {
+      "path": "results/stage3/pressure-raw.json.gz",
+      "changed": true,
+      "before_sha256": "66254ff36d28c0676a02e3ce45a750731e0f75d5598e5e742947bca464fe6f78",
+      "after_sha256": "9bbb4182249e3bd3741d13ee615e2d36edff51b5db7d7a724d5e434179298c6c",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "161d87f094bddc02d26019a19c95c562ca40965fa61a24b29a62ac501d0f8e46",
+        "uncompressed_after_sha256": "c5fbcde840b16d3fa718afe13aa644caf3d034d4e5c31d9801e2735253941d8b"
+      }
+    },
+    {
+      "path": "results/stage3/resolved-teacher/raw.json.gz",
+      "changed": true,
+      "before_sha256": "c4474461c5cf223ff5a935f4f645604e48b5f3b6a643e1cd1144d683315922ae",
+      "after_sha256": "c9951dfbe134e9e563f6aced121fb664a3752cd86a10e75692314e3b54352a07",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "08f9f07ff1c5a7b0d0790d02a0b62c8fad851ad1270d9b51fa3af17c1bcf0c7c",
+        "uncompressed_after_sha256": "44d30b5f407a792a3a0a6a03c1a09085b4dd43c02125d52c27dd80da4e5cae38"
+      }
+    },
+    {
+      "path": "results/stage3/response-validation/response-domain-raw.json.gz",
+      "changed": true,
+      "before_sha256": "6dc2b2299a23e1a64a5a36ad63895f18a7c31bcd74a1ae9dd0a12c45f533f15f",
+      "after_sha256": "05b884466955a60817757cdacd6b23a241c2c77d9194cc54072cef3049df6327",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "9e4d9cb106a99ad96e1f86e5803e2ce560666db4a1c4550750abf52f143d16c2",
+        "uncompressed_after_sha256": "ccc617943ae3db5e9d3353db247f1ce5acbd8bb2384c5bf2ca285b7be16676ee"
+      }
+    },
+    {
+      "path": "results/stage3/response-validation/response-domain-smoke-raw.json.gz",
+      "changed": true,
+      "before_sha256": "fe4448ed4305a5e253eef4dc7cafa17e4722cefb50fcca76b7befc919a5e3bc5",
+      "after_sha256": "d2887438f9a103b27d44827df9234501175899f2dd1491932ed28905a805c1b0",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "3bb28ff4e44de66d2766146257ff331ea23779b47b671f7e3161a487148c92ed",
+        "uncompressed_after_sha256": "cbce611a34b2cfcca6f37b1f63e842a769192465a1a1d6e5d3b3bc1e579e43bc"
+      }
+    },
+    {
+      "path": "results/stage3/source-sensitivity/raw.json.gz",
+      "changed": true,
+      "before_sha256": "9912b15993ef9b413ebb8e8fcb3cec43bb5e7d86d9d9c62cd36de50cc7384a00",
+      "after_sha256": "94252ff5f2c7e24bd1dedbc0af39ba8608bde827246c6590ed308320e04cbe0b",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "8acdb39855e4fe7b9dd6c8fcc215636801e1a3b06440a8d9ee381491e05c4b90",
+        "uncompressed_after_sha256": "5044b4883ee15a560f63927df8cdb8cbbe3e76d86c83c0e916961941a6e50c79"
+      }
+    },
+    {
+      "path": "results/stage3/sparse-baseline/raw.json.gz",
+      "changed": true,
+      "before_sha256": "265be515b0ca41dd734be6181b3f81de51e17884c7098196c2da4d6450bad0f1",
+      "after_sha256": "43238e0bfe41357a6ceb13b724cc05cbbedc5747c624907ac594bfbc2747fdb3",
+      "evidence": {
+        "kind": "gzip text",
+        "uncompressed_before_sha256": "fd80beee2db0a90cc9ca2764fb4204352ed2d89e78e8e8fa350581a6eaa7fbcc",
+        "uncompressed_after_sha256": "94a110d0e55114ccfb4a2f6fa14582abceb5d02fbf61e0cc24cdc63ba90eb829"
+      }
+    }
+  ],
+  "opaque_firmware_changed": false,
+  "migration_phase": "Exact brand transformation before subsequent central cryptographic-binding migration",
+  "final_rebound_dataset_hashes_are_recorded_separately": true
+}

@@ -2,7 +2,7 @@
 import unittest
 import numpy as np
 from scipy.integrate import solve_ivp
-from ato.stage3.electrical import (Load,simulate_pulse,observe_delivery,
+from scci_rh.stage3.electrical import (Load,simulate_pulse,observe_delivery,
                                   sample_waveform,characterize,MotorDelivery,PressureDelivery)
 
 

@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "docs/stage3/frozen-observer-pilot-independent-review.md",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "52f265261bf5ac5cb3b74fba2c59d602a2ad85517016ca64f4e775eb729e57cc",
+  "current_sha256": "691508edd6506a9845e21838e786473251e86c4b01218d0f4e50183a3afc8d1a",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

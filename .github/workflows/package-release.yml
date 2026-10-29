@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: ato-release-package
+  group: scci_rh-release-package
   cancel-in-progress: false
 
 jobs:
@@ -43,19 +43,19 @@ jobs:
           python - <<'PY'
           import json, os, re, subprocess
           tag = os.environ['RELEASE_TAG']
-          assert re.fullmatch(r'v2\.0\.\d+', tag)
+          assert re.fullmatch(r'v2\.[01]\.\d+', tag)
           contract = json.load(open('docs/stage6/release-contract.json'))
           assert tag == contract['tag']
           assert subprocess.check_output(['git','rev-parse','HEAD']).strip() == subprocess.check_output(['git','rev-parse',tag+'^{commit}']).strip()
           PY
-          release_dir="$RUNNER_TEMP/ato-release"
+          release_dir="$RUNNER_TEMP/scci_rh-release"
           mkdir -p "$release_dir"
-          archive="Project_ATO_${RELEASE_TAG}_source.zip"
+          archive="Project_SCCI_RH_${RELEASE_TAG}_source.zip"
           git -c core.autocrlf=false -c core.eol=lf archive --format=zip --output="$release_dir/$archive" HEAD
           python scripts/verify_stage6_release.py --archive "$release_dir/$archive" | tee "$release_dir/source-archive-verification.json"
-          cp output/pdf/Project_ATO_Integrated_Manuscript.pdf "$release_dir/"
-          cp cad/stage5/drawings/ATO_Stage5_Mechanical_Review.pdf "$release_dir/"
-          (cd "$release_dir" && sha256sum Project_ATO_Integrated_Manuscript.pdf ATO_Stage5_Mechanical_Review.pdf "$archive" > SHA256SUMS.txt)
+          cp output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf "$release_dir/"
+          cp cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf "$release_dir/"
+          (cd "$release_dir" && sha256sum Project_SCCI_RH_Integrated_Manuscript.pdf SCCI_RH_Stage5_Mechanical_Review.pdf "$archive" > SHA256SUMS.txt)
       - name: Upload to existing draft release
         env:
           GH_TOKEN: ${{ github.token }}
@@ -64,17 +64,17 @@ jobs:
         run: |
           set -euo pipefail
           test "$(gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --json isDraft --jq .isDraft)" = true
-          release_dir="$RUNNER_TEMP/ato-release"
-          gh release upload "$RELEASE_TAG" "$release_dir/Project_ATO_Integrated_Manuscript.pdf" "$release_dir/ATO_Stage5_Mechanical_Review.pdf" "$release_dir/Project_ATO_${RELEASE_TAG}_source.zip" "$release_dir/SHA256SUMS.txt" --repo "$GITHUB_REPOSITORY" --clobber
+          release_dir="$RUNNER_TEMP/scci_rh-release"
+          gh release upload "$RELEASE_TAG" "$release_dir/Project_SCCI_RH_Integrated_Manuscript.pdf" "$release_dir/SCCI_RH_Stage5_Mechanical_Review.pdf" "$release_dir/Project_SCCI_RH_${RELEASE_TAG}_source.zip" "$release_dir/SHA256SUMS.txt" --repo "$GITHUB_REPOSITORY" --clobber
           # The by-tag REST endpoint can return 404 for an unpublished draft.
           # Use the same draft-aware lookup that already passed the upload guard.
           gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --json tagName,isDraft,targetCommitish,assets > "$release_dir/github-release-assets.json"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: ato-correction-release-verification
+          name: scci_rh-correction-release-verification
           if-no-files-found: error
           path: |
-            ${{ runner.temp }}/ato-release/source-archive-verification.json
-            ${{ runner.temp }}/ato-release/SHA256SUMS.txt
-            ${{ runner.temp }}/ato-release/github-release-assets.json
+            ${{ runner.temp }}/scci_rh-release/source-archive-verification.json
+            ${{ runner.temp }}/scci_rh-release/SHA256SUMS.txt
+            ${{ runner.temp }}/scci_rh-release/github-release-assets.json

@@ -1,18 +1,18 @@
 {
-  "schema": "ato.stage5.combined-native.v1",
-  "native": "cad/stage5/ATO_stage5_reference_full.FCStd",
-  "sha256": "b4323834775d269d458726106929aa30a197aebb93b7eb6c6f7e9e23f49f386b",
+  "schema": "scci_rh.stage5.combined-native.v1",
+  "native": "cad/stage5/SCCI_RH_stage5_reference_full.FCStd",
+  "sha256": "2b39d33d30866d3fa0e9cd9d0ad7f20405466cda20d8cbe907a66c2278f1d355",
   "part_count": 260,
   "construction_feature_count": 562,
   "sources": {
-    "cad/stage5/reference/ATO_reference_assembly.FCStd": "764a4e7a9ec8212fefb1c9c0deb7cab2ee76a5c9e72b2895f9199c98d0e5ae9a",
-    "cad/stage5/harness/ATO_mating_interfaces.FCStd": "6079242db047b70f21114a3eac33c0a8cce77260a189033362feb2b3bacbacf9"
+    "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd": "eb720889c30de3c15015d1a4c765cc5791eeb8b4df733da222730497acd88dd3",
+    "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd": "141e4301f41cfa303b594d66c324e2f881d0deaeacc05586cf95e11be8b29e48"
   },
   "parts": [
     {
       "label": "Base",
       "native_name": "BaseBlank",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "BaseBlank",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -22,7 +22,7 @@
     {
       "label": "SideLeft",
       "native_name": "LeftWallBlank",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LeftWallBlank",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -32,7 +32,7 @@
     {
       "label": "SideRight",
       "native_name": "RightWallBlank",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RightWallBlank",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -42,7 +42,7 @@
     {
       "label": "FrontBracket_0_0",
       "native_name": "FrontBracketCut_0_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FrontBracketCut_0_0",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -52,7 +52,7 @@
     {
       "label": "FrontScrew_0_0",
       "native_name": "FrontScrew_0_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FrontScrew_0_0",
       "volume_error_mm3": 2.842170943040401e-14,
       "source_solids": 1,
@@ -62,7 +62,7 @@
     {
       "label": "FrontBracket_0_1",
       "native_name": "FrontBracketCut_0_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FrontBracketCut_0_1",
       "volume_error_mm3": 1.1368683772161603e-13,
       "source_solids": 1,
@@ -72,7 +72,7 @@
     {
       "label": "FrontScrew_0_1",
       "native_name": "FrontScrew_0_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FrontScrew_0_1",
       "volume_error_mm3": 5.684341886080802e-14,
       "source_solids": 1,
@@ -82,7 +82,7 @@
     {
       "label": "FrontBracket_1_0",
       "native_name": "FrontBracketCut_1_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FrontBracketCut_1_0",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -92,7 +92,7 @@
     {
       "label": "FrontScrew_1_0",
       "native_name": "FrontScrew_1_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FrontScrew_1_0",
       "volume_error_mm3": 4.263256414560601e-14,
       "source_solids": 1,
@@ -102,7 +102,7 @@
     {
       "label": "FrontBracket_1_1",
       "native_name": "FrontBracketCut_1_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FrontBracketCut_1_1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -112,7 +112,7 @@
     {
       "label": "FrontScrew_1_1",
       "native_name": "FrontScrew_1_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FrontScrew_1_1",
       "volume_error_mm3": 4.263256414560601e-14,
       "source_solids": 1,
@@ -122,7 +122,7 @@
     {
       "label": "FrontPanel",
       "native_name": "FrontPanelCut",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FrontPanelCut",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -132,7 +132,7 @@
     {
       "label": "RearPanel",
       "native_name": "RearPanelCut",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RearPanelCut",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -142,7 +142,7 @@
     {
       "label": "Post_0_0",
       "native_name": "FramePostCut_0_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FramePostCut_0_0",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -152,7 +152,7 @@
     {
       "label": "LidScrew_0_0",
       "native_name": "LidFastener_0_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LidFastener_0_0",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -162,7 +162,7 @@
     {
       "label": "Post_0_1",
       "native_name": "FramePostCut_0_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FramePostCut_0_1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -172,7 +172,7 @@
     {
       "label": "LidScrew_0_1",
       "native_name": "LidFastener_0_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LidFastener_0_1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -182,7 +182,7 @@
     {
       "label": "Post_1_0",
       "native_name": "FramePostCut_1_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FramePostCut_1_0",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -192,7 +192,7 @@
     {
       "label": "LidScrew_1_0",
       "native_name": "LidFastener_1_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LidFastener_1_0",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -202,7 +202,7 @@
     {
       "label": "Post_1_1",
       "native_name": "FramePostCut_1_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FramePostCut_1_1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -212,7 +212,7 @@
     {
       "label": "LidScrew_1_1",
       "native_name": "LidFastener_1_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LidFastener_1_1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -222,7 +222,7 @@
     {
       "label": "Post_2_0",
       "native_name": "FramePostCut_2_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FramePostCut_2_0",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -232,7 +232,7 @@
     {
       "label": "LidScrew_2_0",
       "native_name": "LidFastener_2_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LidFastener_2_0",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -242,7 +242,7 @@
     {
       "label": "Post_2_1",
       "native_name": "FramePostCut_2_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FramePostCut_2_1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -252,7 +252,7 @@
     {
       "label": "LidScrew_2_1",
       "native_name": "LidFastener_2_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LidFastener_2_1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -262,7 +262,7 @@
     {
       "label": "Post_3_0",
       "native_name": "FramePostCut_3_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FramePostCut_3_0",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -272,7 +272,7 @@
     {
       "label": "LidScrew_3_0",
       "native_name": "LidFastener_3_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LidFastener_3_0",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -282,7 +282,7 @@
     {
       "label": "Post_3_1",
       "native_name": "FramePostCut_3_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "FramePostCut_3_1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -292,7 +292,7 @@
     {
       "label": "LidScrew_3_1",
       "native_name": "LidFastener_3_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LidFastener_3_1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -302,7 +302,7 @@
     {
       "label": "Lid",
       "native_name": "LidCut",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LidCut",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -312,7 +312,7 @@
     {
       "label": "Foot_0",
       "native_name": "RubberFoot_0",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RubberFoot_0",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -322,7 +322,7 @@
     {
       "label": "Foot_1",
       "native_name": "RubberFoot_1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RubberFoot_1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -332,7 +332,7 @@
     {
       "label": "Foot_2",
       "native_name": "RubberFoot_2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RubberFoot_2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -342,7 +342,7 @@
     {
       "label": "Foot_3",
       "native_name": "RubberFoot_3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RubberFoot_3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -352,7 +352,7 @@
     {
       "label": "Rail_left_0_left",
       "native_name": "RailFuse_left_0_left",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_left_0_left",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -362,7 +362,7 @@
     {
       "label": "Rail_left_0_right",
       "native_name": "RailFuse_left_0_right",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_left_0_right",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -372,7 +372,7 @@
     {
       "label": "Rail_left_1_left",
       "native_name": "RailFuse_left_1_left",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_left_1_left",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -382,7 +382,7 @@
     {
       "label": "Rail_left_1_right",
       "native_name": "RailFuse_left_1_right",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_left_1_right",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -392,7 +392,7 @@
     {
       "label": "Rail_left_2_left",
       "native_name": "RailFuse_left_2_left",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_left_2_left",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -402,7 +402,7 @@
     {
       "label": "Rail_left_2_right",
       "native_name": "RailFuse_left_2_right",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_left_2_right",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -412,7 +412,7 @@
     {
       "label": "Rail_left_3_left",
       "native_name": "RailFuse_left_3_left",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_left_3_left",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -422,7 +422,7 @@
     {
       "label": "Rail_left_3_right",
       "native_name": "RailFuse_left_3_right",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_left_3_right",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -432,7 +432,7 @@
     {
       "label": "Rail_right_0_left",
       "native_name": "RailFuse_right_0_left",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_right_0_left",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -442,7 +442,7 @@
     {
       "label": "Rail_right_0_right",
       "native_name": "RailFuse_right_0_right",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_right_0_right",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -452,7 +452,7 @@
     {
       "label": "Rail_right_1_left",
       "native_name": "RailFuse_right_1_left",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_right_1_left",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -462,7 +462,7 @@
     {
       "label": "Rail_right_1_right",
       "native_name": "RailFuse_right_1_right",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_right_1_right",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -472,7 +472,7 @@
     {
       "label": "Rail_right_2_left",
       "native_name": "RailFuse_right_2_left",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_right_2_left",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -482,7 +482,7 @@
     {
       "label": "Rail_right_2_right",
       "native_name": "RailFuse_right_2_right",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_right_2_right",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -492,7 +492,7 @@
     {
       "label": "Rail_right_3_left",
       "native_name": "RailFuse_right_3_left",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_right_3_left",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -502,7 +502,7 @@
     {
       "label": "Rail_right_3_right",
       "native_name": "RailFuse_right_3_right",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "RailFuse_right_3_right",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -512,7 +512,7 @@
     {
       "label": "Standoff_contact_router_H1",
       "native_name": "StandoffCut_contact_router_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_contact_router_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -522,7 +522,7 @@
     {
       "label": "UpperScrew_contact_router_H1",
       "native_name": "UpperFastener_contact_router_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_contact_router_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -532,7 +532,7 @@
     {
       "label": "LowerScrew_contact_router_H1",
       "native_name": "LowerFastener_contact_router_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_contact_router_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -542,7 +542,7 @@
     {
       "label": "Standoff_contact_router_H2",
       "native_name": "StandoffCut_contact_router_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_contact_router_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -552,7 +552,7 @@
     {
       "label": "UpperScrew_contact_router_H2",
       "native_name": "UpperFastener_contact_router_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_contact_router_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -562,7 +562,7 @@
     {
       "label": "LowerScrew_contact_router_H2",
       "native_name": "LowerFastener_contact_router_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_contact_router_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -572,7 +572,7 @@
     {
       "label": "Standoff_contact_router_H3",
       "native_name": "StandoffCut_contact_router_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_contact_router_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -582,7 +582,7 @@
     {
       "label": "UpperScrew_contact_router_H3",
       "native_name": "UpperFastener_contact_router_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_contact_router_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -592,7 +592,7 @@
     {
       "label": "LowerScrew_contact_router_H3",
       "native_name": "LowerFastener_contact_router_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_contact_router_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -602,7 +602,7 @@
     {
       "label": "Standoff_contact_router_H4",
       "native_name": "StandoffCut_contact_router_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_contact_router_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -612,7 +612,7 @@
     {
       "label": "UpperScrew_contact_router_H4",
       "native_name": "UpperFastener_contact_router_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_contact_router_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -622,7 +622,7 @@
     {
       "label": "LowerScrew_contact_router_H4",
       "native_name": "LowerFastener_contact_router_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_contact_router_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -632,7 +632,7 @@
     {
       "label": "Tray_contact_router",
       "native_name": "TrayPocket_contact_router",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "TrayPocket_contact_router",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -642,7 +642,7 @@
     {
       "label": "Pull_contact_router",
       "native_name": "PullCut_contact_router",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PullCut_contact_router",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -652,7 +652,7 @@
     {
       "label": "Standoff_controller_carrier_H1",
       "native_name": "StandoffCut_controller_carrier_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_controller_carrier_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -662,7 +662,7 @@
     {
       "label": "UpperScrew_controller_carrier_H1",
       "native_name": "UpperFastener_controller_carrier_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_controller_carrier_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -672,7 +672,7 @@
     {
       "label": "LowerScrew_controller_carrier_H1",
       "native_name": "LowerFastener_controller_carrier_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_controller_carrier_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -682,7 +682,7 @@
     {
       "label": "Standoff_controller_carrier_H2",
       "native_name": "StandoffCut_controller_carrier_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_controller_carrier_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -692,7 +692,7 @@
     {
       "label": "UpperScrew_controller_carrier_H2",
       "native_name": "UpperFastener_controller_carrier_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_controller_carrier_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -702,7 +702,7 @@
     {
       "label": "LowerScrew_controller_carrier_H2",
       "native_name": "LowerFastener_controller_carrier_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_controller_carrier_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -712,7 +712,7 @@
     {
       "label": "Standoff_controller_carrier_H3",
       "native_name": "StandoffCut_controller_carrier_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_controller_carrier_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -722,7 +722,7 @@
     {
       "label": "UpperScrew_controller_carrier_H3",
       "native_name": "UpperFastener_controller_carrier_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_controller_carrier_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -732,7 +732,7 @@
     {
       "label": "LowerScrew_controller_carrier_H3",
       "native_name": "LowerFastener_controller_carrier_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_controller_carrier_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -742,7 +742,7 @@
     {
       "label": "Standoff_controller_carrier_H4",
       "native_name": "StandoffCut_controller_carrier_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_controller_carrier_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -752,7 +752,7 @@
     {
       "label": "UpperScrew_controller_carrier_H4",
       "native_name": "UpperFastener_controller_carrier_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_controller_carrier_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -762,7 +762,7 @@
     {
       "label": "LowerScrew_controller_carrier_H4",
       "native_name": "LowerFastener_controller_carrier_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_controller_carrier_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -772,7 +772,7 @@
     {
       "label": "Tray_controller_carrier",
       "native_name": "TrayPocket_controller_carrier",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "TrayPocket_controller_carrier",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -782,7 +782,7 @@
     {
       "label": "Pull_controller_carrier",
       "native_name": "PullCut_controller_carrier",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PullCut_controller_carrier",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -792,7 +792,7 @@
     {
       "label": "Standoff_current_driver_H1",
       "native_name": "StandoffCut_current_driver_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_current_driver_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -802,7 +802,7 @@
     {
       "label": "UpperScrew_current_driver_H1",
       "native_name": "UpperFastener_current_driver_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_current_driver_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -812,7 +812,7 @@
     {
       "label": "LowerScrew_current_driver_H1",
       "native_name": "LowerFastener_current_driver_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_current_driver_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -822,7 +822,7 @@
     {
       "label": "Standoff_current_driver_H2",
       "native_name": "StandoffCut_current_driver_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_current_driver_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -832,7 +832,7 @@
     {
       "label": "UpperScrew_current_driver_H2",
       "native_name": "UpperFastener_current_driver_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_current_driver_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -842,7 +842,7 @@
     {
       "label": "LowerScrew_current_driver_H2",
       "native_name": "LowerFastener_current_driver_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_current_driver_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -852,7 +852,7 @@
     {
       "label": "Standoff_current_driver_H3",
       "native_name": "StandoffCut_current_driver_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_current_driver_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -862,7 +862,7 @@
     {
       "label": "UpperScrew_current_driver_H3",
       "native_name": "UpperFastener_current_driver_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_current_driver_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -872,7 +872,7 @@
     {
       "label": "LowerScrew_current_driver_H3",
       "native_name": "LowerFastener_current_driver_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_current_driver_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -882,7 +882,7 @@
     {
       "label": "Standoff_current_driver_H4",
       "native_name": "StandoffCut_current_driver_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_current_driver_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -892,7 +892,7 @@
     {
       "label": "UpperScrew_current_driver_H4",
       "native_name": "UpperFastener_current_driver_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_current_driver_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -902,7 +902,7 @@
     {
       "label": "LowerScrew_current_driver_H4",
       "native_name": "LowerFastener_current_driver_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_current_driver_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -912,7 +912,7 @@
     {
       "label": "Tray_current_driver",
       "native_name": "TrayPocket_current_driver",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "TrayPocket_current_driver",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -922,7 +922,7 @@
     {
       "label": "Pull_current_driver",
       "native_name": "PullCut_current_driver",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PullCut_current_driver",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -932,7 +932,7 @@
     {
       "label": "Standoff_monitoring_cell_H1",
       "native_name": "StandoffCut_monitoring_cell_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_monitoring_cell_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -942,7 +942,7 @@
     {
       "label": "UpperScrew_monitoring_cell_H1",
       "native_name": "UpperFastener_monitoring_cell_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_monitoring_cell_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -952,7 +952,7 @@
     {
       "label": "LowerScrew_monitoring_cell_H1",
       "native_name": "LowerFastener_monitoring_cell_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_monitoring_cell_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -962,7 +962,7 @@
     {
       "label": "Standoff_monitoring_cell_H2",
       "native_name": "StandoffCut_monitoring_cell_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_monitoring_cell_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -972,7 +972,7 @@
     {
       "label": "UpperScrew_monitoring_cell_H2",
       "native_name": "UpperFastener_monitoring_cell_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_monitoring_cell_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -982,7 +982,7 @@
     {
       "label": "LowerScrew_monitoring_cell_H2",
       "native_name": "LowerFastener_monitoring_cell_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_monitoring_cell_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -992,7 +992,7 @@
     {
       "label": "Standoff_monitoring_cell_H3",
       "native_name": "StandoffCut_monitoring_cell_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_monitoring_cell_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1002,7 +1002,7 @@
     {
       "label": "UpperScrew_monitoring_cell_H3",
       "native_name": "UpperFastener_monitoring_cell_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_monitoring_cell_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1012,7 +1012,7 @@
     {
       "label": "LowerScrew_monitoring_cell_H3",
       "native_name": "LowerFastener_monitoring_cell_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_monitoring_cell_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1022,7 +1022,7 @@
     {
       "label": "Standoff_monitoring_cell_H4",
       "native_name": "StandoffCut_monitoring_cell_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_monitoring_cell_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1032,7 +1032,7 @@
     {
       "label": "UpperScrew_monitoring_cell_H4",
       "native_name": "UpperFastener_monitoring_cell_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_monitoring_cell_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1042,7 +1042,7 @@
     {
       "label": "LowerScrew_monitoring_cell_H4",
       "native_name": "LowerFastener_monitoring_cell_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_monitoring_cell_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1052,7 +1052,7 @@
     {
       "label": "Tray_monitoring_cell",
       "native_name": "TrayPocket_monitoring_cell",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "TrayPocket_monitoring_cell",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1062,7 +1062,7 @@
     {
       "label": "Pull_monitoring_cell",
       "native_name": "PullCut_monitoring_cell",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PullCut_monitoring_cell",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1072,7 +1072,7 @@
     {
       "label": "Standoff_monitoring_transport_H1",
       "native_name": "StandoffCut_monitoring_transport_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_monitoring_transport_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1082,7 +1082,7 @@
     {
       "label": "UpperScrew_monitoring_transport_H1",
       "native_name": "UpperFastener_monitoring_transport_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_monitoring_transport_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1092,7 +1092,7 @@
     {
       "label": "LowerScrew_monitoring_transport_H1",
       "native_name": "LowerFastener_monitoring_transport_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_monitoring_transport_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1102,7 +1102,7 @@
     {
       "label": "Standoff_monitoring_transport_H2",
       "native_name": "StandoffCut_monitoring_transport_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_monitoring_transport_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1112,7 +1112,7 @@
     {
       "label": "UpperScrew_monitoring_transport_H2",
       "native_name": "UpperFastener_monitoring_transport_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_monitoring_transport_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1122,7 +1122,7 @@
     {
       "label": "LowerScrew_monitoring_transport_H2",
       "native_name": "LowerFastener_monitoring_transport_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_monitoring_transport_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1132,7 +1132,7 @@
     {
       "label": "Standoff_monitoring_transport_H3",
       "native_name": "StandoffCut_monitoring_transport_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_monitoring_transport_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1142,7 +1142,7 @@
     {
       "label": "UpperScrew_monitoring_transport_H3",
       "native_name": "UpperFastener_monitoring_transport_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_monitoring_transport_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1152,7 +1152,7 @@
     {
       "label": "LowerScrew_monitoring_transport_H3",
       "native_name": "LowerFastener_monitoring_transport_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_monitoring_transport_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1162,7 +1162,7 @@
     {
       "label": "Standoff_monitoring_transport_H4",
       "native_name": "StandoffCut_monitoring_transport_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_monitoring_transport_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1172,7 +1172,7 @@
     {
       "label": "UpperScrew_monitoring_transport_H4",
       "native_name": "UpperFastener_monitoring_transport_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_monitoring_transport_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1182,7 +1182,7 @@
     {
       "label": "LowerScrew_monitoring_transport_H4",
       "native_name": "LowerFastener_monitoring_transport_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_monitoring_transport_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1192,7 +1192,7 @@
     {
       "label": "Tray_monitoring_transport",
       "native_name": "TrayPocket_monitoring_transport",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "TrayPocket_monitoring_transport",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1202,7 +1202,7 @@
     {
       "label": "Pull_monitoring_transport",
       "native_name": "PullCut_monitoring_transport",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PullCut_monitoring_transport",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1212,7 +1212,7 @@
     {
       "label": "Standoff_power_H1",
       "native_name": "StandoffCut_power_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_power_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1222,7 +1222,7 @@
     {
       "label": "UpperScrew_power_H1",
       "native_name": "UpperFastener_power_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_power_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1232,7 +1232,7 @@
     {
       "label": "LowerScrew_power_H1",
       "native_name": "LowerFastener_power_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_power_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1242,7 +1242,7 @@
     {
       "label": "Standoff_power_H2",
       "native_name": "StandoffCut_power_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_power_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1252,7 +1252,7 @@
     {
       "label": "UpperScrew_power_H2",
       "native_name": "UpperFastener_power_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_power_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1262,7 +1262,7 @@
     {
       "label": "LowerScrew_power_H2",
       "native_name": "LowerFastener_power_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_power_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1272,7 +1272,7 @@
     {
       "label": "Standoff_power_H3",
       "native_name": "StandoffCut_power_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_power_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1282,7 +1282,7 @@
     {
       "label": "UpperScrew_power_H3",
       "native_name": "UpperFastener_power_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_power_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1292,7 +1292,7 @@
     {
       "label": "LowerScrew_power_H3",
       "native_name": "LowerFastener_power_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_power_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1302,7 +1302,7 @@
     {
       "label": "Standoff_power_H4",
       "native_name": "StandoffCut_power_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_power_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1312,7 +1312,7 @@
     {
       "label": "UpperScrew_power_H4",
       "native_name": "UpperFastener_power_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_power_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1322,7 +1322,7 @@
     {
       "label": "LowerScrew_power_H4",
       "native_name": "LowerFastener_power_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_power_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1332,7 +1332,7 @@
     {
       "label": "Tray_power",
       "native_name": "TrayPocket_power",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "TrayPocket_power",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1342,7 +1342,7 @@
     {
       "label": "Pull_power",
       "native_name": "PullCut_power",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PullCut_power",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1352,7 +1352,7 @@
     {
       "label": "Standoff_recording_front_end_H1",
       "native_name": "StandoffCut_recording_front_end_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_recording_front_end_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1362,7 +1362,7 @@
     {
       "label": "UpperScrew_recording_front_end_H1",
       "native_name": "UpperFastener_recording_front_end_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_recording_front_end_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1372,7 +1372,7 @@
     {
       "label": "LowerScrew_recording_front_end_H1",
       "native_name": "LowerFastener_recording_front_end_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_recording_front_end_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1382,7 +1382,7 @@
     {
       "label": "Standoff_recording_front_end_H2",
       "native_name": "StandoffCut_recording_front_end_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_recording_front_end_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1392,7 +1392,7 @@
     {
       "label": "UpperScrew_recording_front_end_H2",
       "native_name": "UpperFastener_recording_front_end_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_recording_front_end_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1402,7 +1402,7 @@
     {
       "label": "LowerScrew_recording_front_end_H2",
       "native_name": "LowerFastener_recording_front_end_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_recording_front_end_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1412,7 +1412,7 @@
     {
       "label": "Standoff_recording_front_end_H3",
       "native_name": "StandoffCut_recording_front_end_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_recording_front_end_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1422,7 +1422,7 @@
     {
       "label": "UpperScrew_recording_front_end_H3",
       "native_name": "UpperFastener_recording_front_end_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_recording_front_end_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1432,7 +1432,7 @@
     {
       "label": "LowerScrew_recording_front_end_H3",
       "native_name": "LowerFastener_recording_front_end_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_recording_front_end_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1442,7 +1442,7 @@
     {
       "label": "Standoff_recording_front_end_H4",
       "native_name": "StandoffCut_recording_front_end_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_recording_front_end_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1452,7 +1452,7 @@
     {
       "label": "UpperScrew_recording_front_end_H4",
       "native_name": "UpperFastener_recording_front_end_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_recording_front_end_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1462,7 +1462,7 @@
     {
       "label": "LowerScrew_recording_front_end_H4",
       "native_name": "LowerFastener_recording_front_end_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_recording_front_end_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1472,7 +1472,7 @@
     {
       "label": "Tray_recording_front_end",
       "native_name": "TrayPocket_recording_front_end",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "TrayPocket_recording_front_end",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1482,7 +1482,7 @@
     {
       "label": "Pull_recording_front_end",
       "native_name": "PullCut_recording_front_end",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PullCut_recording_front_end",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1492,7 +1492,7 @@
     {
       "label": "Standoff_supervision_H1",
       "native_name": "StandoffCut_supervision_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_supervision_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1502,7 +1502,7 @@
     {
       "label": "UpperScrew_supervision_H1",
       "native_name": "UpperFastener_supervision_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_supervision_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1512,7 +1512,7 @@
     {
       "label": "LowerScrew_supervision_H1",
       "native_name": "LowerFastener_supervision_H1",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_supervision_H1",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1522,7 +1522,7 @@
     {
       "label": "Standoff_supervision_H2",
       "native_name": "StandoffCut_supervision_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_supervision_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1532,7 +1532,7 @@
     {
       "label": "UpperScrew_supervision_H2",
       "native_name": "UpperFastener_supervision_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_supervision_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1542,7 +1542,7 @@
     {
       "label": "LowerScrew_supervision_H2",
       "native_name": "LowerFastener_supervision_H2",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_supervision_H2",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1552,7 +1552,7 @@
     {
       "label": "Standoff_supervision_H3",
       "native_name": "StandoffCut_supervision_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_supervision_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1562,7 +1562,7 @@
     {
       "label": "UpperScrew_supervision_H3",
       "native_name": "UpperFastener_supervision_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_supervision_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1572,7 +1572,7 @@
     {
       "label": "LowerScrew_supervision_H3",
       "native_name": "LowerFastener_supervision_H3",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_supervision_H3",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1582,7 +1582,7 @@
     {
       "label": "Standoff_supervision_H4",
       "native_name": "StandoffCut_supervision_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "StandoffCut_supervision_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1592,7 +1592,7 @@
     {
       "label": "UpperScrew_supervision_H4",
       "native_name": "UpperFastener_supervision_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "UpperFastener_supervision_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1602,7 +1602,7 @@
     {
       "label": "LowerScrew_supervision_H4",
       "native_name": "LowerFastener_supervision_H4",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "LowerFastener_supervision_H4",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1612,7 +1612,7 @@
     {
       "label": "Tray_supervision",
       "native_name": "TrayPocket_supervision",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "TrayPocket_supervision",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1622,7 +1622,7 @@
     {
       "label": "Pull_supervision",
       "native_name": "PullCut_supervision",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PullCut_supervision",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1632,7 +1632,7 @@
     {
       "label": "PCB_contact_router",
       "native_name": "PCB_contact_router",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PCB_contact_router",
       "volume_error_mm3": 0.0,
       "source_solids": 156,
@@ -1642,7 +1642,7 @@
     {
       "label": "PCB_controller_carrier",
       "native_name": "PCB_controller_carrier",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PCB_controller_carrier",
       "volume_error_mm3": 0.0,
       "source_solids": 136,
@@ -1652,7 +1652,7 @@
     {
       "label": "PCB_current_driver",
       "native_name": "PCB_current_driver",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PCB_current_driver",
       "volume_error_mm3": 0.0,
       "source_solids": 165,
@@ -1662,7 +1662,7 @@
     {
       "label": "PCB_monitoring_cell",
       "native_name": "PCB_monitoring_cell",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PCB_monitoring_cell",
       "volume_error_mm3": 0.0,
       "source_solids": 72,
@@ -1672,7 +1672,7 @@
     {
       "label": "PCB_monitoring_transport",
       "native_name": "PCB_monitoring_transport",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PCB_monitoring_transport",
       "volume_error_mm3": 0.0,
       "source_solids": 61,
@@ -1682,7 +1682,7 @@
     {
       "label": "PCB_power",
       "native_name": "PCB_power",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PCB_power",
       "volume_error_mm3": 0.0,
       "source_solids": 208,
@@ -1692,7 +1692,7 @@
     {
       "label": "PCB_recording_front_end",
       "native_name": "PCB_recording_front_end",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PCB_recording_front_end",
       "volume_error_mm3": 0.0,
       "source_solids": 296,
@@ -1702,7 +1702,7 @@
     {
       "label": "PCB_supervision",
       "native_name": "PCB_supervision",
-      "source_document": "cad/stage5/reference/ATO_reference_assembly.FCStd",
+      "source_document": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
       "source_name": "PCB_supervision",
       "volume_error_mm3": 0.0,
       "source_solids": 574,
@@ -1712,7 +1712,7 @@
     {
       "label": "Mate_contact_router_J40001",
       "native_name": "Mate_contact_router_J40001",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_contact_router_J40001",
       "volume_error_mm3": 2.842170943040401e-14,
       "source_solids": 1,
@@ -1722,7 +1722,7 @@
     {
       "label": "Mate_contact_router_J40002",
       "native_name": "Mate_contact_router_J40002",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_contact_router_J40002",
       "volume_error_mm3": 1.1368683772161603e-13,
       "source_solids": 1,
@@ -1732,7 +1732,7 @@
     {
       "label": "Mate_contact_router_J40003",
       "native_name": "Mate_contact_router_J40003",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_contact_router_J40003",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1742,7 +1742,7 @@
     {
       "label": "Mate_contact_router_J40004",
       "native_name": "Mate_contact_router_J40004",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_contact_router_J40004",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1752,7 +1752,7 @@
     {
       "label": "Mate_contact_router_J40005",
       "native_name": "Mate_contact_router_J40005",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_contact_router_J40005",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1762,7 +1762,7 @@
     {
       "label": "Mate_contact_router_J40006",
       "native_name": "Mate_contact_router_J40006",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_contact_router_J40006",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1772,7 +1772,7 @@
     {
       "label": "Mate_contact_router_J40007",
       "native_name": "Mate_contact_router_J40007",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_contact_router_J40007",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1782,7 +1782,7 @@
     {
       "label": "Mate_contact_router_J40100",
       "native_name": "Mate_contact_router_J40100",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_contact_router_J40100",
       "volume_error_mm3": 2.842170943040401e-14,
       "source_solids": 1,
@@ -1792,7 +1792,7 @@
     {
       "label": "Mate_contact_router_J40200",
       "native_name": "Mate_contact_router_J40200",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_contact_router_J40200",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1802,7 +1802,7 @@
     {
       "label": "Mate_controller_carrier_J80001",
       "native_name": "Mate_controller_carrier_J80001",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80001",
       "volume_error_mm3": 2.842170943040401e-14,
       "source_solids": 1,
@@ -1812,7 +1812,7 @@
     {
       "label": "Mate_controller_carrier_J80002",
       "native_name": "Mate_controller_carrier_J80002",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80002",
       "volume_error_mm3": 5.684341886080802e-14,
       "source_solids": 1,
@@ -1822,7 +1822,7 @@
     {
       "label": "Mate_controller_carrier_J80010",
       "native_name": "Mate_controller_carrier_J80010",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80010",
       "volume_error_mm3": 1.1368683772161603e-13,
       "source_solids": 1,
@@ -1832,7 +1832,7 @@
     {
       "label": "Mate_controller_carrier_J80011",
       "native_name": "Mate_controller_carrier_J80011",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80011",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1842,7 +1842,7 @@
     {
       "label": "Mate_controller_carrier_J80012",
       "native_name": "Mate_controller_carrier_J80012",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80012",
       "volume_error_mm3": 1.1368683772161603e-13,
       "source_solids": 1,
@@ -1852,7 +1852,7 @@
     {
       "label": "Mate_controller_carrier_J80013",
       "native_name": "Mate_controller_carrier_J80013",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80013",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1862,7 +1862,7 @@
     {
       "label": "Mate_controller_carrier_J80014",
       "native_name": "Mate_controller_carrier_J80014",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80014",
       "volume_error_mm3": 1.1368683772161603e-13,
       "source_solids": 1,
@@ -1872,7 +1872,7 @@
     {
       "label": "Mate_controller_carrier_J80015",
       "native_name": "Mate_controller_carrier_J80015",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80015",
       "volume_error_mm3": 1.1368683772161603e-13,
       "source_solids": 1,
@@ -1882,7 +1882,7 @@
     {
       "label": "Mate_controller_carrier_J80016",
       "native_name": "Mate_controller_carrier_J80016",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80016",
       "volume_error_mm3": 1.1368683772161603e-13,
       "source_solids": 1,
@@ -1892,7 +1892,7 @@
     {
       "label": "Mate_controller_carrier_J80017",
       "native_name": "Mate_controller_carrier_J80017",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80017",
       "volume_error_mm3": 1.1368683772161603e-13,
       "source_solids": 1,
@@ -1902,7 +1902,7 @@
     {
       "label": "Mate_controller_carrier_J80018",
       "native_name": "Mate_controller_carrier_J80018",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80018",
       "volume_error_mm3": 1.1368683772161603e-13,
       "source_solids": 1,
@@ -1912,7 +1912,7 @@
     {
       "label": "Mate_controller_carrier_J80019",
       "native_name": "Mate_controller_carrier_J80019",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80019",
       "volume_error_mm3": 2.2737367544323206e-13,
       "source_solids": 1,
@@ -1922,7 +1922,7 @@
     {
       "label": "Mate_controller_carrier_J80020",
       "native_name": "Mate_controller_carrier_J80020",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_controller_carrier_J80020",
       "volume_error_mm3": 5.684341886080802e-14,
       "source_solids": 1,
@@ -1932,7 +1932,7 @@
     {
       "label": "Mate_current_driver_J20001",
       "native_name": "Mate_current_driver_J20001",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_current_driver_J20001",
       "volume_error_mm3": 1.1368683772161603e-13,
       "source_solids": 1,
@@ -1942,7 +1942,7 @@
     {
       "label": "Mate_current_driver_J20002",
       "native_name": "Mate_current_driver_J20002",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_current_driver_J20002",
       "volume_error_mm3": 5.684341886080802e-14,
       "source_solids": 1,
@@ -1952,7 +1952,7 @@
     {
       "label": "Mate_current_driver_J20003",
       "native_name": "Mate_current_driver_J20003",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_current_driver_J20003",
       "volume_error_mm3": 2.2737367544323206e-13,
       "source_solids": 1,
@@ -1962,7 +1962,7 @@
     {
       "label": "Mate_current_driver_J20004",
       "native_name": "Mate_current_driver_J20004",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_current_driver_J20004",
       "volume_error_mm3": 1.1368683772161603e-13,
       "source_solids": 1,
@@ -1972,7 +1972,7 @@
     {
       "label": "Mate_current_driver_J20005",
       "native_name": "Mate_current_driver_J20005",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_current_driver_J20005",
       "volume_error_mm3": 2.2737367544323206e-13,
       "source_solids": 1,
@@ -1982,7 +1982,7 @@
     {
       "label": "Mate_current_driver_J20100",
       "native_name": "Mate_current_driver_J20100",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_current_driver_J20100",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -1992,7 +1992,7 @@
     {
       "label": "Mate_current_driver_J20200",
       "native_name": "Mate_current_driver_J20200",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_current_driver_J20200",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2002,7 +2002,7 @@
     {
       "label": "Mate_monitoring_cell_J10001",
       "native_name": "Mate_monitoring_cell_J10001",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_cell_J10001",
       "volume_error_mm3": 5.684341886080802e-14,
       "source_solids": 1,
@@ -2012,7 +2012,7 @@
     {
       "label": "Mate_monitoring_cell_J10002",
       "native_name": "Mate_monitoring_cell_J10002",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_cell_J10002",
       "volume_error_mm3": 1.1368683772161603e-13,
       "source_solids": 1,
@@ -2022,7 +2022,7 @@
     {
       "label": "Mate_monitoring_cell_J10003",
       "native_name": "Mate_monitoring_cell_J10003",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_cell_J10003",
       "volume_error_mm3": 5.684341886080802e-14,
       "source_solids": 1,
@@ -2032,7 +2032,7 @@
     {
       "label": "Mate_monitoring_cell_J10004",
       "native_name": "Mate_monitoring_cell_J10004",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_cell_J10004",
       "volume_error_mm3": 5.684341886080802e-14,
       "source_solids": 1,
@@ -2042,7 +2042,7 @@
     {
       "label": "Mate_monitoring_cell_J10100",
       "native_name": "Mate_monitoring_cell_J10100",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_cell_J10100",
       "volume_error_mm3": 2.842170943040401e-14,
       "source_solids": 1,
@@ -2052,7 +2052,7 @@
     {
       "label": "Mate_monitoring_cell_J10200",
       "native_name": "Mate_monitoring_cell_J10200",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_cell_J10200",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2062,7 +2062,7 @@
     {
       "label": "Mate_monitoring_cell_J19901",
       "native_name": "Mate_monitoring_cell_J19901",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_cell_J19901",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2072,7 +2072,7 @@
     {
       "label": "Mate_monitoring_transport_J70001",
       "native_name": "Mate_monitoring_transport_J70001",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_transport_J70001",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2082,7 +2082,7 @@
     {
       "label": "Mate_monitoring_transport_J70002",
       "native_name": "Mate_monitoring_transport_J70002",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_transport_J70002",
       "volume_error_mm3": 1.1368683772161603e-13,
       "source_solids": 1,
@@ -2092,7 +2092,7 @@
     {
       "label": "Mate_monitoring_transport_J70003",
       "native_name": "Mate_monitoring_transport_J70003",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_transport_J70003",
       "volume_error_mm3": 5.684341886080802e-14,
       "source_solids": 1,
@@ -2102,7 +2102,7 @@
     {
       "label": "Mate_monitoring_transport_J70004",
       "native_name": "Mate_monitoring_transport_J70004",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_transport_J70004",
       "volume_error_mm3": 1.1368683772161603e-13,
       "source_solids": 1,
@@ -2112,7 +2112,7 @@
     {
       "label": "Mate_monitoring_transport_J70005",
       "native_name": "Mate_monitoring_transport_J70005",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_transport_J70005",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2122,7 +2122,7 @@
     {
       "label": "Mate_monitoring_transport_J70006",
       "native_name": "Mate_monitoring_transport_J70006",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_transport_J70006",
       "volume_error_mm3": 1.1368683772161603e-13,
       "source_solids": 1,
@@ -2132,7 +2132,7 @@
     {
       "label": "Mate_monitoring_transport_J70007",
       "native_name": "Mate_monitoring_transport_J70007",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_transport_J70007",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2142,7 +2142,7 @@
     {
       "label": "Mate_monitoring_transport_J70008",
       "native_name": "Mate_monitoring_transport_J70008",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_transport_J70008",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2152,7 +2152,7 @@
     {
       "label": "Mate_monitoring_transport_J70020",
       "native_name": "Mate_monitoring_transport_J70020",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_transport_J70020",
       "volume_error_mm3": 3.410605131648481e-13,
       "source_solids": 1,
@@ -2162,7 +2162,7 @@
     {
       "label": "Mate_monitoring_transport_J70022",
       "native_name": "Mate_monitoring_transport_J70022",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_monitoring_transport_J70022",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2172,7 +2172,7 @@
     {
       "label": "Mate_power_J60001",
       "native_name": "Mate_power_J60001",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_power_J60001",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2182,7 +2182,7 @@
     {
       "label": "Mate_power_J60002",
       "native_name": "Mate_power_J60002",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_power_J60002",
       "volume_error_mm3": 2.2737367544323206e-13,
       "source_solids": 1,
@@ -2192,7 +2192,7 @@
     {
       "label": "Mate_power_J60003",
       "native_name": "Mate_power_J60003",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_power_J60003",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2202,7 +2202,7 @@
     {
       "label": "Mate_power_J60004",
       "native_name": "Mate_power_J60004",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_power_J60004",
       "volume_error_mm3": 1.1368683772161603e-13,
       "source_solids": 1,
@@ -2212,7 +2212,7 @@
     {
       "label": "Mate_power_J60005",
       "native_name": "Mate_power_J60005",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_power_J60005",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2222,7 +2222,7 @@
     {
       "label": "Mate_power_J60006",
       "native_name": "Mate_power_J60006",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_power_J60006",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2232,7 +2232,7 @@
     {
       "label": "Mate_recording_front_end_J30001",
       "native_name": "Mate_recording_front_end_J30001",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_recording_front_end_J30001",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2242,7 +2242,7 @@
     {
       "label": "Mate_recording_front_end_J30002",
       "native_name": "Mate_recording_front_end_J30002",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_recording_front_end_J30002",
       "volume_error_mm3": 2.2737367544323206e-13,
       "source_solids": 1,
@@ -2252,7 +2252,7 @@
     {
       "label": "Mate_recording_front_end_J30003",
       "native_name": "Mate_recording_front_end_J30003",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_recording_front_end_J30003",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2262,7 +2262,7 @@
     {
       "label": "Mate_recording_front_end_J39901",
       "native_name": "Mate_recording_front_end_J39901",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_recording_front_end_J39901",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2272,7 +2272,7 @@
     {
       "label": "Mate_recording_front_end_J39902",
       "native_name": "Mate_recording_front_end_J39902",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_recording_front_end_J39902",
       "volume_error_mm3": 1.1368683772161603e-13,
       "source_solids": 1,
@@ -2282,7 +2282,7 @@
     {
       "label": "Mate_supervision_J50001",
       "native_name": "Mate_supervision_J50001",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50001",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2292,7 +2292,7 @@
     {
       "label": "Mate_supervision_J50002",
       "native_name": "Mate_supervision_J50002",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50002",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2302,7 +2302,7 @@
     {
       "label": "Mate_supervision_J50003",
       "native_name": "Mate_supervision_J50003",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50003",
       "volume_error_mm3": 2.2737367544323206e-13,
       "source_solids": 1,
@@ -2312,7 +2312,7 @@
     {
       "label": "Mate_supervision_J50004",
       "native_name": "Mate_supervision_J50004",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50004",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2322,7 +2322,7 @@
     {
       "label": "Mate_supervision_J50005",
       "native_name": "Mate_supervision_J50005",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50005",
       "volume_error_mm3": 3.410605131648481e-13,
       "source_solids": 1,
@@ -2332,7 +2332,7 @@
     {
       "label": "Mate_supervision_J50006",
       "native_name": "Mate_supervision_J50006",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50006",
       "volume_error_mm3": 1.1368683772161603e-13,
       "source_solids": 1,
@@ -2342,7 +2342,7 @@
     {
       "label": "Mate_supervision_J50100",
       "native_name": "Mate_supervision_J50100",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50100",
       "volume_error_mm3": 4.547473508864641e-13,
       "source_solids": 1,
@@ -2352,7 +2352,7 @@
     {
       "label": "Mate_supervision_J50101",
       "native_name": "Mate_supervision_J50101",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50101",
       "volume_error_mm3": 2.2737367544323206e-13,
       "source_solids": 1,
@@ -2362,7 +2362,7 @@
     {
       "label": "Mate_supervision_J50600",
       "native_name": "Mate_supervision_J50600",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50600",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2372,7 +2372,7 @@
     {
       "label": "Mate_supervision_J50601",
       "native_name": "Mate_supervision_J50601",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50601",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2382,7 +2382,7 @@
     {
       "label": "Mate_supervision_J50602",
       "native_name": "Mate_supervision_J50602",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50602",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2392,7 +2392,7 @@
     {
       "label": "Mate_supervision_J50603",
       "native_name": "Mate_supervision_J50603",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50603",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2402,7 +2402,7 @@
     {
       "label": "Mate_supervision_J50604",
       "native_name": "Mate_supervision_J50604",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50604",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2412,7 +2412,7 @@
     {
       "label": "Mate_supervision_J50605",
       "native_name": "Mate_supervision_J50605",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50605",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2422,7 +2422,7 @@
     {
       "label": "Mate_supervision_J50606",
       "native_name": "Mate_supervision_J50606",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50606",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2432,7 +2432,7 @@
     {
       "label": "Mate_supervision_J50607",
       "native_name": "Mate_supervision_J50607",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50607",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2442,7 +2442,7 @@
     {
       "label": "Mate_supervision_J50608",
       "native_name": "Mate_supervision_J50608",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50608",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2452,7 +2452,7 @@
     {
       "label": "Mate_supervision_J50609",
       "native_name": "Mate_supervision_J50609",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50609",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2462,7 +2462,7 @@
     {
       "label": "Mate_supervision_J50610",
       "native_name": "Mate_supervision_J50610",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50610",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2472,7 +2472,7 @@
     {
       "label": "Mate_supervision_J50611",
       "native_name": "Mate_supervision_J50611",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50611",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2482,7 +2482,7 @@
     {
       "label": "Mate_supervision_J50612",
       "native_name": "Mate_supervision_J50612",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50612",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2492,7 +2492,7 @@
     {
       "label": "Mate_supervision_J50613",
       "native_name": "Mate_supervision_J50613",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50613",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2502,7 +2502,7 @@
     {
       "label": "Mate_supervision_J50614",
       "native_name": "Mate_supervision_J50614",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50614",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2512,7 +2512,7 @@
     {
       "label": "Mate_supervision_J50615",
       "native_name": "Mate_supervision_J50615",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50615",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2522,7 +2522,7 @@
     {
       "label": "Mate_supervision_J50616",
       "native_name": "Mate_supervision_J50616",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J50616",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2532,7 +2532,7 @@
     {
       "label": "Mate_supervision_J59901",
       "native_name": "Mate_supervision_J59901",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Mate_supervision_J59901",
       "volume_error_mm3": 1.1368683772161603e-13,
       "source_solids": 1,
@@ -2542,7 +2542,7 @@
     {
       "label": "Grommet_ArtificialLoad_58",
       "native_name": "Grommet_ArtificialLoad_58",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Grommet_ArtificialLoad_58",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2552,7 +2552,7 @@
     {
       "label": "Grommet_ArtificialLoad_96",
       "native_name": "Grommet_ArtificialLoad_96",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Grommet_ArtificialLoad_96",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2562,7 +2562,7 @@
     {
       "label": "RearInsert_ArtificialLoad",
       "native_name": "RearInsert_ArtificialLoad",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "RearInsert_ArtificialLoad",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2572,7 +2572,7 @@
     {
       "label": "Grommet_CompanionPowerDebug_410",
       "native_name": "Grommet_CompanionPowerDebug_410",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Grommet_CompanionPowerDebug_410",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2582,7 +2582,7 @@
     {
       "label": "Grommet_CompanionPowerDebug_440",
       "native_name": "Grommet_CompanionPowerDebug_440",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Grommet_CompanionPowerDebug_440",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2592,7 +2592,7 @@
     {
       "label": "Grommet_CompanionPowerDebug_470",
       "native_name": "Grommet_CompanionPowerDebug_470",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "Grommet_CompanionPowerDebug_470",
       "volume_error_mm3": 0.0,
       "source_solids": 1,
@@ -2602,7 +2602,7 @@
     {
       "label": "RearInsert_CompanionPowerDebug",
       "native_name": "RearInsert_CompanionPowerDebug",
-      "source_document": "cad/stage5/harness/ATO_mating_interfaces.FCStd",
+      "source_document": "cad/stage5/harness/SCCI_RH_mating_interfaces.FCStd",
       "source_name": "RearInsert_CompanionPowerDebug",
       "volume_error_mm3": 0.0,
       "source_solids": 1,

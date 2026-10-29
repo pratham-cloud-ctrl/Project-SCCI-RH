@@ -1,82 +1,82 @@
 {
-  "schema": "ato.stage3.teacher-library-study.v1",
-  "result_id": "ATO-S3-QUALIFIED-TEACHER-LIBRARY-1",
+  "schema": "scci_rh.stage3.teacher-library-study.v1",
+  "result_id": "SCCI_RH-S3-QUALIFIED-TEACHER-LIBRARY-1",
   "source_sha256": {
-    "src/ato/stage3/teacher_library.py": "87364e3321d64be8f672bfa414d05ef0e904de8cdfd08745323d184324bd4503",
-    "scripts/stage3_teacher_library_study.py": "3b0ba4c1fa54161ee36637d5de3c4f7eaec0379f1b1d0da2a63b4aebe33eb30a",
-    "src/ato/stage3/expert_validation.py": "1029d235fa17820210b7830f133bd1b3a912f5268008d7ebb42ff65b5dc0c733",
-    "src/ato/stage3/motor.py": "d86b4d091baf226475ce9f6d6e2390b65bb63752e5f50e73d42c5c3408b2323c",
-    "src/ato/stage3/acquisition.py": "bd681adefc5e82c58b449490ad14917fff307be9947de647e92aeb6c38b22f03",
+    "src/scci_rh/stage3/teacher_library.py": "3fcb924d95d56c57a6407346f6e7e88425b1fe0eb23e504f47c34653e04dd497",
+    "scripts/stage3_teacher_library_study.py": "0dbe63251488cc2cbb710b8d5e543a13c55057c4abce9fb334a0fc36e26823f8",
+    "src/scci_rh/stage3/expert_validation.py": "1029d235fa17820210b7830f133bd1b3a912f5268008d7ebb42ff65b5dc0c733",
+    "src/scci_rh/stage3/motor.py": "fdc83232adcd15759319a05af2204c7d3481f5da3ecf4538f152b569760c05fe",
+    "src/scci_rh/stage3/acquisition.py": "bd681adefc5e82c58b449490ad14917fff307be9947de647e92aeb6c38b22f03",
     "scripts/artifact_hashes.py": "e73e016d1a817b1337bd4b777a14d3b0142838126a3dda1eae3e36339c6ad454"
   },
   "input_receipt": {
     "path": "results/stage3/expert-validation/expert-summary.json",
-    "sha256": "381a7595775a081e84630fc4f23c215c830d35b4007b01df6f0e791d43c656b4",
+    "sha256": "b377f9cc66e6aa896adf1185453a18304141f20b499765b907ed03e460633dc8",
     "summary_hash_scope": "canonical parsed JSON; raw gzip hashes exact",
     "raw_files": [
       {
         "path": "legacy_voluntary_nominal_performance0.json.gz",
-        "sha256": "c287bc93105da257f81791f6a03b4d782d9a4ef83980243a1114e9d6567f36af"
+        "sha256": "f6036437b4fe3d6c3c4717ac8810e06eb25f9008a108d9034b9eb761b0383803"
       },
       {
         "path": "legacy_voluntary_nominal_performance1.json.gz",
-        "sha256": "5d8f9e8c32252a0529c131fca21a8adde642183bdd50b99563d4477bd4317977"
+        "sha256": "2369d6321ab018101b7c8f3a2cd05bfc9a817b4c417905d8a90212dd91679a4f"
       },
       {
         "path": "legacy_voluntary_nominal_performance2.json.gz",
-        "sha256": "63ec42e6ee1576881afb8197c54f87081c5c1ffe53404a31eba864913039708b"
+        "sha256": "54f641026cabe38ccfa9c1b50b0b27a936be1497ea684c38cfd95d029c5051a9"
       },
       {
         "path": "legacy_voluntary_nominal_performance3.json.gz",
-        "sha256": "682399207bbe4fea1e95baf8d338afdc7a679a7840f9c2e8a0743fad09f801ba"
+        "sha256": "408d1b74b99dabb4e3e8433bac4e44effe29c35012273a25e6f674ff3070cd7f"
       },
       {
         "path": "legacy_voluntary_faster_performance0.json.gz",
-        "sha256": "a3b08412305003b7e2a9b2df05d818cb905ac2015dde80609f3968eb4e67772e"
+        "sha256": "9bb573e3eb3786a07ea22253ca5af88250b0a6055294443c0d674f00386e8ca0"
       },
       {
         "path": "legacy_voluntary_faster_performance1.json.gz",
-        "sha256": "e01183cb73e31abeb009ec2e94179350db9ceed6fddadde68eb438e315c809cc"
+        "sha256": "6a45ce4b814c78e5964505a60603b2c433031780efe0f25399932b0a7d2e470f"
       },
       {
         "path": "legacy_voluntary_faster_performance2.json.gz",
-        "sha256": "d25e222968e1410864c18e4c69c28ebd76ff9b9786124509f7c507f69529262c"
+        "sha256": "627abbc70d0b3134731b707fd65a71e6e1d4d77c492a87a2a3de35708f957d16"
       },
       {
         "path": "legacy_voluntary_faster_performance3.json.gz",
-        "sha256": "c5bc62f6aa5d08395dd7ea087a05755324dfbfdedacb577054fee7aeeb59a6d5"
+        "sha256": "176deba27cd1cea6dc92e860407ac18dd937f5518b73a06166c07d1b09e88e3c"
       },
       {
         "path": "idealized_inverse_nominal_performance0.json.gz",
-        "sha256": "72f95efaf07d09e862e37a9668f90eecf063e27802c581e4b71b12a93403a3e0"
+        "sha256": "36d60361564f18b86220e9fe42a78cc18b0ca084541edf1dce37b2d44311c149"
       },
       {
         "path": "idealized_inverse_nominal_performance1.json.gz",
-        "sha256": "708fcfc7c5109303c86a901fc90635a29af03c712c473edfcfbdef0e7c66e2fb"
+        "sha256": "9e5440ef62dbb0fd8fb97faf8f4af643dd900d556af968891cb87c639166d081"
       },
       {
         "path": "idealized_inverse_nominal_performance2.json.gz",
-        "sha256": "8fcd9ccc55c4bbccdb461e66a91341dc1500313451de84ce4e5a374cf9094f3a"
+        "sha256": "e0c959c8e8aea2a7f2a7fbb033cdd2f2d5dcc794c43460f8dbd527c9f572f7e3"
       },
       {
         "path": "idealized_inverse_nominal_performance3.json.gz",
-        "sha256": "886ad26fc9ebadd95f21fc9ffba1a0eae818ffb830219c18bda5830728237eaf"
+        "sha256": "8b1ace8e09aa41e09121a0fd9aeba3d1ae3ce5e19a5e29392a0203cd168faca5"
       },
       {
         "path": "idealized_inverse_faster_performance0.json.gz",
-        "sha256": "87aa0a4143381e7479e5d7861da74b40a15f6aacf0291098b091d39ae3d24cf0"
+        "sha256": "79241ce3f27caf49b276fb2f2eca23a5f68a22cd6ae93abf17005a3413d26377"
       },
       {
         "path": "idealized_inverse_faster_performance1.json.gz",
-        "sha256": "86842caf74ac8aaf202cd8c95cc9c0f58d4a63db27a5a994a2eb9543f26635cd"
+        "sha256": "0b8de64ec9fc3c30e78be29dee002e7c10137f6ad1da7a2e541917a71048a026"
       },
       {
         "path": "idealized_inverse_faster_performance2.json.gz",
-        "sha256": "ab94ac7c1a6e4687bd5f7bd068c5a6ed93726243fad5f7b6a151292cda7ff31a"
+        "sha256": "ada80f5a64d45b5bac752449601c0a873b3e4d92c82bc85666c9d4409e8d9d34"
       },
       {
         "path": "idealized_inverse_faster_performance3.json.gz",
-        "sha256": "07374f8455b311f4372c732d3ee30c43a19f2fb901e1e6a640efbaa5145ebfc9"
+        "sha256": "6db78b8e02edfa5fba2e90ab5caac2265edcd3fe9c808568db5896450a918fb2"
       }
     ]
   },
@@ -85,8 +85,8 @@
   "new_teacher_recordings_generated": false,
   "libraries": {
     "legacy_voluntary": {
-      "schema": "ato.stage3.teacher-library.v1",
-      "library_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922",
+      "schema": "scci_rh.stage3.teacher-library.v1",
+      "library_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922",
       "generator": "legacy_voluntary",
       "references_by_cadence": {
         "1": {
@@ -1241,7 +1241,7 @@
                   "OBSERVED_TEACHER_COMPETENCE_FAILED",
                   "INDEPENDENT_REPRESENTATION_ALLOCATION_FAILED"
                 ],
-                "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_external:1Hz"
+                "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_external:1Hz"
               },
               "expert_neural": {
                 "qualified": false,
@@ -1250,7 +1250,7 @@
                   "INDEPENDENT_REPRESENTATION_ALLOCATION_FAILED",
                   "INDEPENDENT_NEURAL_DECODER_QUALIFICATION_FAILED"
                 ],
-                "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_neural:1Hz"
+                "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_neural:1Hz"
               }
             }
           },
@@ -1265,7 +1265,7 @@
                   "OBSERVED_TEACHER_COMPETENCE_FAILED",
                   "INDEPENDENT_REPRESENTATION_ALLOCATION_FAILED"
                 ],
-                "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_external:1.15Hz"
+                "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_external:1.15Hz"
               },
               "expert_neural": {
                 "qualified": false,
@@ -1274,7 +1274,7 @@
                   "INDEPENDENT_REPRESENTATION_ALLOCATION_FAILED",
                   "INDEPENDENT_NEURAL_DECODER_QUALIFICATION_FAILED"
                 ],
-                "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_neural:1.15Hz"
+                "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_neural:1.15Hz"
               }
             }
           }
@@ -1607,7 +1607,7 @@
           {
             "cadence_hz": 1.0,
             "kind": "learner_only",
-            "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:learner_only:1Hz",
+            "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:learner_only:1Hz",
             "reference_qualified": true,
             "qualification_reason": "AVAILABLE_DECLARED_TASK_REFERENCE",
             "request_fraction": [
@@ -1619,7 +1619,7 @@
           {
             "cadence_hz": 1.0,
             "kind": "expert_external",
-            "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_external:1Hz",
+            "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_external:1Hz",
             "reference_qualified": false,
             "qualification_reason": "OBSERVED_TEACHER_COMPETENCE_FAILED+INDEPENDENT_REPRESENTATION_ALLOCATION_FAILED",
             "request_fraction": [
@@ -1631,7 +1631,7 @@
           {
             "cadence_hz": 1.0,
             "kind": "expert_neural",
-            "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_neural:1Hz",
+            "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_neural:1Hz",
             "reference_qualified": false,
             "qualification_reason": "OBSERVED_TEACHER_COMPETENCE_FAILED+INDEPENDENT_REPRESENTATION_ALLOCATION_FAILED+INDEPENDENT_NEURAL_DECODER_QUALIFICATION_FAILED",
             "request_fraction": [
@@ -1643,7 +1643,7 @@
           {
             "cadence_hz": 1.15,
             "kind": "learner_only",
-            "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:learner_only:1.15Hz",
+            "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:learner_only:1.15Hz",
             "reference_qualified": true,
             "qualification_reason": "AVAILABLE_DECLARED_TASK_REFERENCE",
             "request_fraction": [
@@ -1655,7 +1655,7 @@
           {
             "cadence_hz": 1.15,
             "kind": "expert_external",
-            "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_external:1.15Hz",
+            "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_external:1.15Hz",
             "reference_qualified": false,
             "qualification_reason": "OBSERVED_TEACHER_COMPETENCE_FAILED+INDEPENDENT_REPRESENTATION_ALLOCATION_FAILED",
             "request_fraction": [
@@ -1667,7 +1667,7 @@
           {
             "cadence_hz": 1.15,
             "kind": "expert_neural",
-            "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_neural:1.15Hz",
+            "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_neural:1.15Hz",
             "reference_qualified": false,
             "qualification_reason": "OBSERVED_TEACHER_COMPETENCE_FAILED+INDEPENDENT_REPRESENTATION_ALLOCATION_FAILED+INDEPENDENT_NEURAL_DECODER_QUALIFICATION_FAILED",
             "request_fraction": [
@@ -1679,7 +1679,7 @@
           {
             "cadence_hz": 1.3,
             "kind": "learner_only",
-            "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:learner_only:1.3Hz",
+            "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:learner_only:1.3Hz",
             "reference_qualified": false,
             "qualification_reason": "TEACHER_REFERENCE_OUTSIDE_VALIDATED_CADENCE",
             "request_fraction": [
@@ -1691,7 +1691,7 @@
           {
             "cadence_hz": 1.3,
             "kind": "expert_external",
-            "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_external:1.3Hz",
+            "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_external:1.3Hz",
             "reference_qualified": false,
             "qualification_reason": "TEACHER_REFERENCE_OUTSIDE_VALIDATED_CADENCE",
             "request_fraction": [
@@ -1703,7 +1703,7 @@
           {
             "cadence_hz": 1.3,
             "kind": "expert_neural",
-            "reference_id": "ATO-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_neural:1.3Hz",
+            "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922:expert_neural:1.3Hz",
             "reference_qualified": false,
             "qualification_reason": "TEACHER_REFERENCE_OUTSIDE_VALIDATED_CADENCE",
             "request_fraction": [
@@ -1716,8 +1716,8 @@
       }
     },
     "idealized_inverse": {
-      "schema": "ato.stage3.teacher-library.v1",
-      "library_id": "ATO-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc",
+      "schema": "scci_rh.stage3.teacher-library.v1",
+      "library_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc",
       "generator": "idealized_inverse",
       "references_by_cadence": {
         "1": {
@@ -2839,12 +2839,12 @@
               "expert_external": {
                 "qualified": true,
                 "reasons": [],
-                "reference_id": "ATO-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:expert_external:1Hz"
+                "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:expert_external:1Hz"
               },
               "expert_neural": {
                 "qualified": true,
                 "reasons": [],
-                "reference_id": "ATO-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:expert_neural:1Hz"
+                "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:expert_neural:1Hz"
               }
             }
           },
@@ -2858,7 +2858,7 @@
                 "reasons": [
                   "INDEPENDENT_REPRESENTATION_ALLOCATION_FAILED"
                 ],
-                "reference_id": "ATO-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:expert_external:1.15Hz"
+                "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:expert_external:1.15Hz"
               },
               "expert_neural": {
                 "qualified": false,
@@ -2866,7 +2866,7 @@
                   "INDEPENDENT_REPRESENTATION_ALLOCATION_FAILED",
                   "INDEPENDENT_NEURAL_DECODER_QUALIFICATION_FAILED"
                 ],
-                "reference_id": "ATO-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:expert_neural:1.15Hz"
+                "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:expert_neural:1.15Hz"
               }
             }
           }
@@ -3199,7 +3199,7 @@
           {
             "cadence_hz": 1.0,
             "kind": "learner_only",
-            "reference_id": "ATO-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:learner_only:1Hz",
+            "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:learner_only:1Hz",
             "reference_qualified": true,
             "qualification_reason": "AVAILABLE_DECLARED_TASK_REFERENCE",
             "request_fraction": [
@@ -3211,7 +3211,7 @@
           {
             "cadence_hz": 1.0,
             "kind": "expert_external",
-            "reference_id": "ATO-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:expert_external:1Hz",
+            "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:expert_external:1Hz",
             "reference_qualified": true,
             "qualification_reason": "QUALIFIED_OBSERVED_TEACHER_CAPTURE_DOMAIN",
             "request_fraction": [
@@ -3223,7 +3223,7 @@
           {
             "cadence_hz": 1.0,
             "kind": "expert_neural",
-            "reference_id": "ATO-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:expert_neural:1Hz",
+            "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:expert_neural:1Hz",
             "reference_qualified": true,
             "qualification_reason": "QUALIFIED_OBSERVED_TEACHER_CAPTURE_DOMAIN",
             "request_fraction": [
@@ -3235,7 +3235,7 @@
           {
             "cadence_hz": 1.15,
             "kind": "learner_only",
-            "reference_id": "ATO-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:learner_only:1.15Hz",
+            "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:learner_only:1.15Hz",
             "reference_qualified": true,
             "qualification_reason": "AVAILABLE_DECLARED_TASK_REFERENCE",
             "request_fraction": [
@@ -3247,7 +3247,7 @@
           {
             "cadence_hz": 1.15,
             "kind": "expert_external",
-            "reference_id": "ATO-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:expert_external:1.15Hz",
+            "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:expert_external:1.15Hz",
             "reference_qualified": false,
             "qualification_reason": "INDEPENDENT_REPRESENTATION_ALLOCATION_FAILED",
             "request_fraction": [
@@ -3259,7 +3259,7 @@
           {
             "cadence_hz": 1.15,
             "kind": "expert_neural",
-            "reference_id": "ATO-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:expert_neural:1.15Hz",
+            "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:expert_neural:1.15Hz",
             "reference_qualified": false,
             "qualification_reason": "INDEPENDENT_REPRESENTATION_ALLOCATION_FAILED+INDEPENDENT_NEURAL_DECODER_QUALIFICATION_FAILED",
             "request_fraction": [
@@ -3271,7 +3271,7 @@
           {
             "cadence_hz": 1.3,
             "kind": "learner_only",
-            "reference_id": "ATO-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:learner_only:1.3Hz",
+            "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:learner_only:1.3Hz",
             "reference_qualified": false,
             "qualification_reason": "TEACHER_REFERENCE_OUTSIDE_VALIDATED_CADENCE",
             "request_fraction": [
@@ -3283,7 +3283,7 @@
           {
             "cadence_hz": 1.3,
             "kind": "expert_external",
-            "reference_id": "ATO-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:expert_external:1.3Hz",
+            "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:expert_external:1.3Hz",
             "reference_qualified": false,
             "qualification_reason": "TEACHER_REFERENCE_OUTSIDE_VALIDATED_CADENCE",
             "request_fraction": [
@@ -3295,7 +3295,7 @@
           {
             "cadence_hz": 1.3,
             "kind": "expert_neural",
-            "reference_id": "ATO-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:expert_neural:1.3Hz",
+            "reference_id": "SCCI_RH-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc:expert_neural:1.3Hz",
             "reference_qualified": false,
             "qualification_reason": "TEACHER_REFERENCE_OUTSIDE_VALIDATED_CADENCE",
             "request_fraction": [

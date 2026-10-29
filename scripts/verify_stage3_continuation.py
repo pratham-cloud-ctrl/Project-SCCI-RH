@@ -50,8 +50,8 @@ def verify():
     raw = read(DATA/'numerical/motor-convergence.json.gz')
     brief = read(DATA/'numerical/motor-convergence-summary.json')
     source_identity(raw['source_identity'], {
-        'motor.py': 'src/ato/stage3/motor.py', 'acquisition.py': 'src/ato/stage3/acquisition.py',
-        'external_history.py': 'src/ato/stage3/external_history.py',
+        'motor.py': 'src/scci_rh/stage3/motor.py', 'acquisition.py': 'src/scci_rh/stage3/acquisition.py',
+        'external_history.py': 'src/scci_rh/stage3/external_history.py',
         'stage3_motor_convergence.py': 'scripts/stage3_motor_convergence.py'})
     assert brief == motor_check.summary(raw, 'motor-convergence.json.gz', sha(DATA/'numerical/motor-convergence.json.gz'))
     assert raw['coarse_baseline']['commit'] == '526b854ad90dda8320325635fb26fef2a9e120bf'
@@ -85,7 +85,7 @@ def verify():
     acquisition_summary = read(DATA/'numerical/acquisition-qualification-summary.json')
     source_identity(acquisition['sources'])
     expected = {k: acquisition[k] for k in ('schema', 'scope', 'reference_definition', 'numerical_scope', 'sources', 'comparisons')}
-    expected['schema'] = 'ato.stage3.acquisition-qualification-summary.v1'
+    expected['schema'] = 'scci_rh.stage3.acquisition-qualification-summary.v1'
     expected['runs'] = [{k: v for k, v in run.items() if k != 'rows'} for run in acquisition['runs']]
     expected['source_approximation'] = {k: v for k, v in acquisition['source_approximation'].items() if k not in ('held', 'aperture_resolved')}
     expected['raw_witness'] = {'file': 'acquisition-qualification.json.gz', 'sha256': sha(DATA/'numerical/acquisition-qualification.json.gz')}
@@ -188,7 +188,7 @@ def verify():
     assert tests['observed_result']['failures'] == tests['observed_result']['errors'] == 0
     source_identity(tests['input_normalized_hashes'])
     source_identity(tests['test_normalized_hashes'])
-    assert set(tests['input_normalized_hashes']) == {p.relative_to(ROOT).as_posix() for p in (ROOT/'src/ato').rglob('*.py')}
+    assert set(tests['input_normalized_hashes']) == {p.relative_to(ROOT).as_posix() for p in (ROOT/'src/scci_rh').rglob('*.py')}
     assert set(tests['test_normalized_hashes']) == {p.relative_to(ROOT).as_posix() for p in (ROOT/'tests').glob('test_*.py')}
     counts['observed_full_project_unit_tests'] = tests['observed_result']['tests_run']
     checks.append('Completed local full-suite result matches present source/test identities; CI independently repeats model studies and unit tests')
@@ -216,11 +216,11 @@ def verify():
         assert '**COMPLETE WITHIN SELECTED DIGITAL SCOPE**' in (ROOT/'docs/stage3/exit-review.md').read_text(encoding='utf-8')
     checks.append('Dossier links and requirement IDs resolve; current stage status and separate closeout ledger are explicit')
 
-    source_files = sorted((ROOT/'src/ato/stage3').glob('*.py'))
+    source_files = sorted((ROOT/'src/scci_rh/stage3').glob('*.py'))
     source_files += sorted((ROOT/'scripts').glob('stage3_*.py'))
     source_files += [Path(__file__), ROOT/'scripts/build_stage3_continuation_figures.py', ROOT/'scripts/record_stage3_tests.py']
     result_files = sorted(p for p in DATA.rglob('*') if p.is_file())
-    return {'schema': 'ato.stage3.continuation-verification.v1', 'date': '2026-10-12',
+    return {'schema': 'scci_rh.stage3.continuation-verification.v1', 'date': '2026-10-12',
             'scope': 'Saved model evidence and artifact audit; no biological, implant, complete circuit or populated CAD qualification.',
             'checks': checks, 'counts': counts,
             'input_normalized_hashes': {p.relative_to(ROOT).as_posix(): normalized_sha(p) for p in source_files},

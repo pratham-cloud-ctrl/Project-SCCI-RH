@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/drill-report.txt",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "6e680d66a36a06cb94c958e5f083f6e837e623d156d72774107b0636d469a8f8",
+  "current_sha256": "d50a9e2899f8a32baf7f8ca2969a8b9b18c92fd8e3b09c502f10094aed25a5d6",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-native-electrical-checks.json",
+      "sha256_lf": "a7efadd0ea0f6936019232177ee29bd40278de894bf0b5113a6dd26d205040e3"
+    }
+  ]
+}

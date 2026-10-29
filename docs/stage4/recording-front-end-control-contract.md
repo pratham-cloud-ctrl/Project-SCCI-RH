@@ -119,11 +119,11 @@ The isolated slice therefore selects **4 MHz, mode 0, 16 bits per transaction**.
 | First-to-last neural aperture spread | 45 microseconds | 75 microseconds |
 | Pairwise phase spread at 300 Hz without alignment | 4.86 degrees | 8.10 degrees |
 
-The 4 MHz return-path calculation leaves 58 ns before ATO allocations, or
+The 4 MHz return-path calculation leaves 58 ns before SCCI_RH allocations, or
 **43 ns** after allocating 5 ns to board uncertainty and 10 ns to source-clock
 edge/pulse shortening. The forward MOSI path allows **35 ns** after the Nordic
 59 ns maximum MOSI-valid delay, 6 ns same-direction isolator skew, Intan's 10 ns
-setup and the same ATO allocations. The 5 ns and 10 ns allocations are engineering
+setup and the same SCCI_RH allocations. The 5 ns and 10 ns allocations are engineering
 assumptions awaiting actual pin/load/layout timing, not measured guarantees.
 Manufacturer timing limits only apply under their stated supply, temperature and
 load conditions; the ISO propagation-table test condition is 100 kbit/s.

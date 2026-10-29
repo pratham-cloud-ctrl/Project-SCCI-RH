@@ -2,7 +2,7 @@
 
 [Explore](README.md) · [Theory](theory.md) · [CAD](cad.md) · [Electronics](electronics.md) · [Firmware](firmware.md)
 
-This page offers a short route through Project ATO and a separate route for
+This page offers a short route through Project SCCI RH and a separate route for
 reproducing its engineering checks. Reading and browsing need no software.
 
 ## Five-minute overview
@@ -20,7 +20,7 @@ reproducing its engineering checks. Reading and browsing need no software.
    and [claim register](../stage6/evidence-claims.csv) to find the evidence and
    limitation behind it.
 
-The [28-page integrated paper](../../output/pdf/Project_ATO_Integrated_Manuscript.pdf)
+The [28-page integrated paper](../../output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf)
 connects these views into one account. Its
 [editable source](../../manuscript/stage6/manuscript.md) has searchable headings,
 equations and links even when a PDF preview is inconvenient.
@@ -46,8 +46,8 @@ The downloadable source ZIP is useful for browsing and native editing, but
 contains no `.git` history.
 
 ```sh
-git clone https://github.com/pratham-cloud-ctrl/Project-ATO.git
-cd Project-ATO
+git clone https://github.com/pratham-cloud-ctrl/Project-SCCI-RH.git
+cd Project-SCCI-RH
 git checkout v2.0.1
 python -m venv .venv
 ```
@@ -93,7 +93,7 @@ No test here flashes or executes a physical board.
 - [Contribution record](../stage6/contributions.md): student conception/steering and substantial AI assistance.
 - [Defence guide](../stage6/defence-guide.md): questions and bounded exercises for understanding and extending the work.
 - [v2.0.1 review](../review-v2.0.1/README.md): concrete corrections and their evidence.
-- [Published release](https://github.com/pratham-cloud-ctrl/Project-ATO/releases/tag/v2.0.1): PDFs, source archive and external download checksums.
+- [Published release](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/tag/v2.0.1): PDFs, source archive and external download checksums.
 
 The remaining research questions concern useful spinal information, reachable
 learner-specific intervention, retained benefit, physical delivery and chronic

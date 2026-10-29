@@ -1,10 +1,10 @@
 {
-  "schema": "ato.native-board-drc-binding.v1",
+  "schema": "scci_rh.native-board-drc-binding.v1",
   "board": "contact-router",
-  "pcb_sha256_lf": "2bf7bf8b049e4b7e27dca0bed9db88f4efab5a3944f183a16246432411ea137f",
-  "drc_sha256_lf": "4f5b7829727c245bf81dd8c23cfcfbdfa5db42f7685583054130bc738da210a2",
+  "pcb_sha256_lf": "040fdffc12fc0de29bdbf233bf44f12246ffb3d582307ac55b75330cbbec0346",
+  "drc_sha256_lf": "0f250e6d99f59f7c0dc45ce33f4e73b0c5e68755bcd18675069efca1216960e2",
   "project_sha256_lf": "f54b2d27a08263f09206cbcfc5530e6699dda9a342a489bbf9c31de3ad4c9c71",
-  "schematic_sha256_lf": "f49155d812ce9876ffdb2eb2f06792406b1e5fb090ef813a6cfa46267e3a55e7",
+  "schematic_sha256_lf": "f4f3b736ecf98b9dbb8fe8cf505ce50d9749e82be96dcd723946b14fc8fbdee6",
   "schematic_parity_checked": true,
   "suppressed_checks": [],
   "counts": {
@@ -14,5 +14,6 @@
     "ignored_checks": 0
   },
   "command": "kicad-cli pcb drc --format json --schematic-parity",
-  "scope": "Saved native board digital geometry and electrical graph; no fabrication, impedance, thermal, EMI, isolation or biological qualification."
+  "scope": "Saved native board digital geometry and electrical graph; no fabrication, impedance, thermal, EMI, isolation or biological qualification.",
+  "actual_rebrand_revision_native_execution": true
 }

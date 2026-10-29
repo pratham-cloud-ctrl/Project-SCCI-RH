@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-29",
+  "scope": "Human netlist title strings only; XML/connectivity, native source schematics and boards unchanged.",
+  "files": [
+    {
+      "path": "electronics/exports/scci_rh_reference.net",
+      "before_sha256": "64ca1a62cd2e592a158c94979662ecc5d88e40452952ff0fec722de70b2cbc1f",
+      "after_sha256": "221d58e342c3a65a7d004cad3ff35bfeaea0a5461277c3be9a07ced4164d4525",
+      "changed_title_literals": 1
+    },
+    {
+      "path": "electronics/stage4/contact-router/contact_router.net",
+      "before_sha256": "cd06712dae91360f7e8e1caa32f37a361bccf1f19e95be817d3f45ee4d8623bb",
+      "after_sha256": "0411eacd26f2da582e2e072de60ff2786ee81533961573093fbe1fc3862e0a93",
+      "changed_title_literals": 6
+    },
+    {
+      "path": "electronics/stage4/current-driver/current_driver.net",
+      "before_sha256": "9ce420d725e41e93cc24daed171bc0c1dfd3b0fff5830f67d05a6368ed84d04d",
+      "after_sha256": "7d92c7a17aad87b0c204eb880a6aec0463f8a57d8d869e77115d66dd70c6c852",
+      "changed_title_literals": 5
+    },
+    {
+      "path": "electronics/stage4/monitoring-cell/monitoring_cell.net",
+      "before_sha256": "14d354ca58c46099687e06fbc52bb52dd768191ab111c927b8554ff4c5173eb2",
+      "after_sha256": "47c900aca1982c85bbf2e35e2acf3207c69d15a7d1193d377ac4df53b473ac60",
+      "changed_title_literals": 3
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/monitoring_transport.net",
+      "before_sha256": "2a6d5266e9a8c811031efb884f4fc86eceec39acce23e0c5e532f173ff49e789",
+      "after_sha256": "fe9ff0e4047f73559558a2631acb4995a428894e6c6f2f3864113d50afd780b2",
+      "changed_title_literals": 8
+    },
+    {
+      "path": "electronics/stage4/power/power.net",
+      "before_sha256": "891e4cb6e0ae9b32526b9448981a4d0e73c59185cff1ffbb1a89bef7014e1848",
+      "after_sha256": "c877d592400933cc26da00eb3eb15d90379ae365c0b2cc9cd77c39b6f9518543",
+      "changed_title_literals": 15
+    },
+    {
+      "path": "electronics/stage4/recording-front-end/recording_front_end.net",
+      "before_sha256": "4bf83247b983f54af8ed7da2df9b0e1672108bcb6155a51eef4c1af39c1fdb13",
+      "after_sha256": "b5fd381dada400c0b5dceba1823d9f5ac6e9313223fe340b714b37f99ea89124",
+      "changed_title_literals": 7
+    },
+    {
+      "path": "electronics/stage4/supervision/supervision.net",
+      "before_sha256": "c89041f643cc389b74ca0d80727d97935bff69955d16f486e2f21b151492f2b9",
+      "after_sha256": "dcbe948d8e52366f59e4d9b2c119340c780c65e1afb071ec3f2477b96c0d60ab",
+      "changed_title_literals": 22
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage4.monitoring-study.v1",
+  "schema": "scci_rh.stage4.monitoring-study.v1",
   "date": "2026-10-12",
   "engine": "ngspice shared library",
   "library": "E:\\project workspace assests\\EDA\\KiCAD\\bin\\ngspice.dll",
@@ -1905,7 +1905,7 @@
       "trace_file": "traces/nominal__500ns.npz",
       "netlist_file": "netlists/nominal__500ns.cir",
       "trace_sha256": "91d0655e8b5fd93edd94a9f3e9e705ee01a972266d286e6464176b77b26a610b",
-      "netlist_normalized_sha256": "d9f6e3cd92e3a514107c26cf7f80d67cf5783e122a697022220876e67b122c2a"
+      "netlist_normalized_sha256": "c8616800beff05a07645e7fc285d5171ec22620ec1378a6652fde810b356947b"
     },
     {
       "case": "nominal",
@@ -3530,7 +3530,7 @@
       "trace_file": "traces/nominal__100ns.npz",
       "netlist_file": "netlists/nominal__100ns.cir",
       "trace_sha256": "6efe6356263f442eedc64b8417c38e8b45694cbe8abe8f6762e98973157aef4d",
-      "netlist_normalized_sha256": "8aecfbeab61974b0770fa343e278ced8a5e8b05f13504c25cb5f3c4b8e3f5fab"
+      "netlist_normalized_sha256": "4f064d9883ab3db4e821fe6d9b5b67b479ed715d7f720416d7f6a7a1e01d9428"
     },
     {
       "case": "nominal",
@@ -5155,7 +5155,7 @@
       "trace_file": "traces/nominal__25ns.npz",
       "netlist_file": "netlists/nominal__25ns.cir",
       "trace_sha256": "5299841727c0525fb7ca5402d8abbea7137df0ab0fa2f69f6a4b05fb434d0c47",
-      "netlist_normalized_sha256": "43a5f4b76c4600df3f1507c8d0826bbf86741ba4d08b3cc96b44609df0f04848"
+      "netlist_normalized_sha256": "d59e3014e8e9d25fa1e67b8ac6f62a494bc71017ea174442bbc53aa299962899"
     },
     {
       "case": "load_side_bias_45uA",
@@ -6780,7 +6780,7 @@
       "trace_file": "traces/load_side_bias_45uA__500ns.npz",
       "netlist_file": "netlists/load_side_bias_45uA__500ns.cir",
       "trace_sha256": "10d1c4ef1afaf7e6ea7afc70b76ac8fd830163f0f091efdc8358bfc1c11c1964",
-      "netlist_normalized_sha256": "308b3659cbbef64700c3faf67ba8b14c26a10b12871ba37fd83e769f321f7368"
+      "netlist_normalized_sha256": "f85f2403d7021b77db786a10bdb9e97d3e737c76cca3c156e3c46084eae24d5f"
     },
     {
       "case": "load_side_bias_45uA",
@@ -8405,7 +8405,7 @@
       "trace_file": "traces/load_side_bias_45uA__100ns.npz",
       "netlist_file": "netlists/load_side_bias_45uA__100ns.cir",
       "trace_sha256": "4ffde40fb4effed34394e3ebbf9ff328509801a79a076fe718d753731ecca30b",
-      "netlist_normalized_sha256": "9597cb7d1fa9a8e5f810a8f23e90d6063a5b091d393119a09dc581f491639a22"
+      "netlist_normalized_sha256": "3ce1cac1031f9c6d29de4ecb73f074ddef7182125407304492dc190111a29c24"
     },
     {
       "case": "load_side_bias_45uA",
@@ -10030,7 +10030,7 @@
       "trace_file": "traces/load_side_bias_45uA__25ns.npz",
       "netlist_file": "netlists/load_side_bias_45uA__25ns.cir",
       "trace_sha256": "a90382a6fc1443962b59be013211594abe438bfacf85b174d90c6645940345ab",
-      "netlist_normalized_sha256": "ac4a848b282fc23664b6f6c5e566b9efdaca0c3d51d1f8dc655065e00739d5d8"
+      "netlist_normalized_sha256": "03b1877ce534f514227f8f7b0f0432338f1bfe5eb64fb5f47f2fa7c471484556"
     },
     {
       "case": "driver_side_bias_45uA",
@@ -11655,7 +11655,7 @@
       "trace_file": "traces/driver_side_bias_45uA__500ns.npz",
       "netlist_file": "netlists/driver_side_bias_45uA__500ns.cir",
       "trace_sha256": "a450426e31158c6256518b3e71ce5f7640f25f0df1f5c8084fc156e5b7f72251",
-      "netlist_normalized_sha256": "eb991d49ed553ad1b2029e4d1e5c6278d41e94bcb84050ada0c361219dde4a60"
+      "netlist_normalized_sha256": "83ddfc8b6ca06e3a49d8b48697fd2ca0146faf04eecfecf40c7ae488b4ab9679"
     },
     {
       "case": "driver_side_bias_45uA",
@@ -13280,7 +13280,7 @@
       "trace_file": "traces/driver_side_bias_45uA__100ns.npz",
       "netlist_file": "netlists/driver_side_bias_45uA__100ns.cir",
       "trace_sha256": "9c9b2c82b0ef87c79414f9e57d2263f35080fd3259133e9d8cb1ea6f5c2749b4",
-      "netlist_normalized_sha256": "8f73e3686a9b0dfd9c5791573fd129c87098df8096ef7075f78288b9c3f4cc04"
+      "netlist_normalized_sha256": "446416161b7ce1e199392fefd55e6bcea23d01ee4c31207d8a2d5bf97d4e21cd"
     },
     {
       "case": "driver_side_bias_45uA",
@@ -14905,7 +14905,7 @@
       "trace_file": "traces/driver_side_bias_45uA__25ns.npz",
       "netlist_file": "netlists/driver_side_bias_45uA__25ns.cir",
       "trace_sha256": "81b29223f2ec547b62be892b81fa93dc2ae1f996a3cf2a401d11c4b25e538a0c",
-      "netlist_normalized_sha256": "aaf0c0378019f27e7ae76f55de9ad83ff9a5f443e89ffa80a30d194b850e1a9f"
+      "netlist_normalized_sha256": "7ba3a0d5a71d656f54fc6a121a46ffc95d10f14f7a2e2d7abbc1494a60704895"
     },
     {
       "case": "both_input_bias_45uA",
@@ -16530,7 +16530,7 @@
       "trace_file": "traces/both_input_bias_45uA__500ns.npz",
       "netlist_file": "netlists/both_input_bias_45uA__500ns.cir",
       "trace_sha256": "b5bf0026358cff3d5aef95a62d6b70c3e9ab0af77b11262f40171513fe38875e",
-      "netlist_normalized_sha256": "e63e2fc77c57e9e510489d939a9e5cda8dcba53ebdb2d109a5f8d0cf1afa1599"
+      "netlist_normalized_sha256": "0775b43a0e00dab9d3ef12e6b298dc9d81c920edd5c3a94d2804864da2c4a26f"
     },
     {
       "case": "both_input_bias_45uA",
@@ -18155,7 +18155,7 @@
       "trace_file": "traces/both_input_bias_45uA__100ns.npz",
       "netlist_file": "netlists/both_input_bias_45uA__100ns.cir",
       "trace_sha256": "78bbd0ddeddb552fb29f1faa545a00df8e31b845da8fa7aab7c12e9476b2027e",
-      "netlist_normalized_sha256": "ef0ca57a1b8232a6cb9aa5116ea425785020f1b674572cb46bb33895ca775a42"
+      "netlist_normalized_sha256": "9cd906a3371956d72458ce6b562e4da26a6acde9b5615c22046d0af88447172b"
     },
     {
       "case": "both_input_bias_45uA",
@@ -19780,7 +19780,7 @@
       "trace_file": "traces/both_input_bias_45uA__25ns.npz",
       "netlist_file": "netlists/both_input_bias_45uA__25ns.cir",
       "trace_sha256": "efdf7e5bea3fdd8fef0c7e975786d85cdbb3a06aaa7a3675dc557f81b1c51f99",
-      "netlist_normalized_sha256": "f0a9d9615d750df8acc74758df80f340a62f406db32813f4b457472f6c5065a1"
+      "netlist_normalized_sha256": "372e069df888eee63da5fdbf1a7524224bda2a9c56d2db233086dc3f1b48168e"
     },
     {
       "case": "reset_open_6pC",
@@ -21405,7 +21405,7 @@
       "trace_file": "traces/reset_open_6pC__500ns.npz",
       "netlist_file": "netlists/reset_open_6pC__500ns.cir",
       "trace_sha256": "bb3e3bbc08b2bbdccf0264f6c9eb3172286aa500c39d8726ad4bee384a6d84bb",
-      "netlist_normalized_sha256": "2b5b852ea298051283e8bbd5e48f1404f59edc26009e3710d316e325d453f4af"
+      "netlist_normalized_sha256": "8086ee1d337179713f7288dce3a62a3b4938a5520d059b0e09de3d3b0b2d9bb0"
     },
     {
       "case": "reset_open_6pC",
@@ -23030,7 +23030,7 @@
       "trace_file": "traces/reset_open_6pC__100ns.npz",
       "netlist_file": "netlists/reset_open_6pC__100ns.cir",
       "trace_sha256": "126b7450fe80218062a218a5b9ebb89bcc8db3aa27f853cae55596f6cd6c810c",
-      "netlist_normalized_sha256": "ba6fc9c5183b501e3560918fb7414be7192e9f7b1112638c0f11d7c31c51ca9d"
+      "netlist_normalized_sha256": "cacbee4b6ea97190a25826367580c42bb203f5b590e609a6717215dd76a02688"
     },
     {
       "case": "reset_open_6pC",
@@ -24655,7 +24655,7 @@
       "trace_file": "traces/reset_open_6pC__25ns.npz",
       "netlist_file": "netlists/reset_open_6pC__25ns.cir",
       "trace_sha256": "4871ea78721729720c96ea31a353a8dcfb2db1a14ddc19766cca2947fbf239df",
-      "netlist_normalized_sha256": "f5d38adf6f49ce98a1c721ca95a93b3353d4300d1063e2f01c6b35e8df086ce2"
+      "netlist_normalized_sha256": "6faa533648209119580715194065454f04ab0e5989d7b89c41de2aee2b7432f4"
     },
     {
       "case": "differential_injection_6pC",
@@ -26280,7 +26280,7 @@
       "trace_file": "traces/differential_injection_6pC__500ns.npz",
       "netlist_file": "netlists/differential_injection_6pC__500ns.cir",
       "trace_sha256": "1bc4cffcacc0694c75d978d6b5b2c36d1a2f44304387ea67ce190c87d8a772c1",
-      "netlist_normalized_sha256": "87d236802996fab7a38127759a9f2f1bcaec3eb9d91fc15adc77d81dd2b1847b"
+      "netlist_normalized_sha256": "407a504ba797eb2138c5403d4c06d0aae706ff6cd01b9fe406b8dfd91c9cdadb"
     },
     {
       "case": "differential_injection_6pC",
@@ -27905,7 +27905,7 @@
       "trace_file": "traces/differential_injection_6pC__100ns.npz",
       "netlist_file": "netlists/differential_injection_6pC__100ns.cir",
       "trace_sha256": "f58cc984090c792550fb7c7b52307ea204483171c56a92d75c0dfaf511ad484e",
-      "netlist_normalized_sha256": "af407abb67c2ec6e4701e740363826f0d58dfe5671566ec41774cdaa824c1083"
+      "netlist_normalized_sha256": "6b551f8a16338eb60ddb0ab7391c30579b981499dd929cb472e2150d63d18c48"
     },
     {
       "case": "differential_injection_6pC",
@@ -29530,7 +29530,7 @@
       "trace_file": "traces/differential_injection_6pC__25ns.npz",
       "netlist_file": "netlists/differential_injection_6pC__25ns.cir",
       "trace_sha256": "75158eee96b9b4aec4fe7b393f3c19464ae8c39f00c7c0a098b631f515b287df",
-      "netlist_normalized_sha256": "0317d4a73c4cdb28d3287ab4a2542ecc453a75f7c9ffd898b6c276033cbf55f9"
+      "netlist_normalized_sha256": "4697c98087d5761d812136acaee3b280a5d5a94b0bf41a071416ddcb91d56588"
     },
     {
       "case": "slow_response",
@@ -31155,7 +31155,7 @@
       "trace_file": "traces/slow_response__500ns.npz",
       "netlist_file": "netlists/slow_response__500ns.cir",
       "trace_sha256": "3ffb20e6db93608d6518300aa6ad31ab22bcb616a252b2dc5892b76c45db0454",
-      "netlist_normalized_sha256": "3ee78f5460b38befd09df41a5b85e5a71ccf7080a30c5990052c00ef246d9038"
+      "netlist_normalized_sha256": "df38d96898747bcf6bfb64b2c6fb7fbd7cb9edd1470abe73e35ab01ff09c9fdb"
     },
     {
       "case": "slow_response",
@@ -32780,7 +32780,7 @@
       "trace_file": "traces/slow_response__100ns.npz",
       "netlist_file": "netlists/slow_response__100ns.cir",
       "trace_sha256": "b54f15ed4e2fede40a9ddf5398ce6cae94c09ddd2246d72db0fa85aaa2b6959b",
-      "netlist_normalized_sha256": "81b8cc955695ab75ddebeb831964648071c5f3728fa5d4cde7c841a18d27cc34"
+      "netlist_normalized_sha256": "5a18645c7837b13031864903ea5f79eba41b79d534908cbf0748f4df3fe63053"
     },
     {
       "case": "slow_response",
@@ -34405,7 +34405,7 @@
       "trace_file": "traces/slow_response__25ns.npz",
       "netlist_file": "netlists/slow_response__25ns.cir",
       "trace_sha256": "44b089c3cedd281d8e36698f970335dccb17d540fafd3eadfaa91dfd5b5ac29f",
-      "netlist_normalized_sha256": "c5ca45a2096d4b5c7e39c84fba4e7a372806dde6e092931023c604ea2c0dba55"
+      "netlist_normalized_sha256": "3cc1b20295e3a714f94fada5bfc9134f44e7c5e734518811a1d8ab4ef89d84f5"
     },
     {
       "case": "scale_offset_corner",
@@ -36030,7 +36030,7 @@
       "trace_file": "traces/scale_offset_corner__500ns.npz",
       "netlist_file": "netlists/scale_offset_corner__500ns.cir",
       "trace_sha256": "789448fd1a2cb4fdc45fb3d2f36ac84a634a25654328a0047468c85680803dfa",
-      "netlist_normalized_sha256": "a294801b48666b3f35f9118fef5854fb401d82d5a36f8db51fa94d1b324e5a2a"
+      "netlist_normalized_sha256": "38e0534521f281b654f858ec3c81d1420d222a048fc3b916bd791ff7ef212541"
     },
     {
       "case": "scale_offset_corner",
@@ -37655,7 +37655,7 @@
       "trace_file": "traces/scale_offset_corner__100ns.npz",
       "netlist_file": "netlists/scale_offset_corner__100ns.cir",
       "trace_sha256": "6ef339f6144e44bb2e165c868f6f5b01230607f8c80410565f469a799cca4e69",
-      "netlist_normalized_sha256": "f2cb8c938c3f84dac6f3021fb7bef39aa35b09cd7de32d9781df1a242f66178d"
+      "netlist_normalized_sha256": "9cc80bf9937bcec1fcd16b6e99e7ba1fe7d4c58d6c9e54fd0dbd8b1b481c76c4"
     },
     {
       "case": "scale_offset_corner",
@@ -39280,7 +39280,7 @@
       "trace_file": "traces/scale_offset_corner__25ns.npz",
       "netlist_file": "netlists/scale_offset_corner__25ns.cir",
       "trace_sha256": "e5cdb466b69d83def8f94f1fbf3c8255de81c2ff37a4c869ce7bee76a021bc3d",
-      "netlist_normalized_sha256": "c8ea2e6f8739cc4ddeb49986f0d918e8169fa312e8fa548f842377ebf556813c"
+      "netlist_normalized_sha256": "d4ca32d8241756c97820bb59f76e19fb879be405d5dbbad0d0684feb13455c02"
     },
     {
       "case": "unequal_cancellation",
@@ -40905,7 +40905,7 @@
       "trace_file": "traces/unequal_cancellation__500ns.npz",
       "netlist_file": "netlists/unequal_cancellation__500ns.cir",
       "trace_sha256": "eff478226ba560134e7adbb4f73e7c2392afea106b6a3850c4be12bcc87c9f8f",
-      "netlist_normalized_sha256": "87f1223ade2ca4ba17a7a4d0a88454542dd1c56e568103ca18b8ac549e52e9c5"
+      "netlist_normalized_sha256": "e5e6d62b073fa71e22cc9dce06cd667e49cdcb94ae1e461a79d4f1749128e026"
     },
     {
       "case": "unequal_cancellation",
@@ -42530,7 +42530,7 @@
       "trace_file": "traces/unequal_cancellation__100ns.npz",
       "netlist_file": "netlists/unequal_cancellation__100ns.cir",
       "trace_sha256": "4bf0b773f9c3d6ec34d271540b5a3bb51baca0e84f38491e9002586b4310e3a1",
-      "netlist_normalized_sha256": "da3740afd175d2a173b71331dc7c240f7b12a7e6200e670458f3738eee206ab0"
+      "netlist_normalized_sha256": "6270f3f5f8e9500c25536b5230ff01ca96503f9a5dbecd0a3a4fb1ef7cd8f68b"
     },
     {
       "case": "unequal_cancellation",
@@ -44155,7 +44155,7 @@
       "trace_file": "traces/unequal_cancellation__25ns.npz",
       "netlist_file": "netlists/unequal_cancellation__25ns.cir",
       "trace_sha256": "ce57450d3d162f4e68f9af5581b11d272236a305f86789ca7df260a60a2d3a87",
-      "netlist_normalized_sha256": "7bbea114d8175d5f3719e3f7ffb8b9a0892dd6b7977ba773d97f8b8c6a072778"
+      "netlist_normalized_sha256": "6e73d7265fa9832f9ca906043027fc4d929d32a2e574b0190377f25c2d986402"
     },
     {
       "case": "clipping_guard_bypassed",
@@ -45780,7 +45780,7 @@
       "trace_file": "traces/clipping_guard_bypassed__500ns.npz",
       "netlist_file": "netlists/clipping_guard_bypassed__500ns.cir",
       "trace_sha256": "cc30450e3908a45e671f1e056410baa23cad89a63bdbf95ff4bc76cb531a96f3",
-      "netlist_normalized_sha256": "b860ecf84e8c2395fcb51d543941793d7c7abe5cd6441477ccae3948414369d3"
+      "netlist_normalized_sha256": "e3ad1d5fd1fa90d8563244ffc461a5e0ff814d39ace22165138e5fb0cb6b5105"
     },
     {
       "case": "clipping_guard_bypassed",
@@ -47405,7 +47405,7 @@
       "trace_file": "traces/clipping_guard_bypassed__100ns.npz",
       "netlist_file": "netlists/clipping_guard_bypassed__100ns.cir",
       "trace_sha256": "58c9fdfee0c9c2fb0eaf0cbd86fbb48417e7b889508601df897dc4a269003ddb",
-      "netlist_normalized_sha256": "3eea5bea0f2ec3cb171a4cbb8bdc5ac41f5073ca0fd08e2ca5ac497949e3d916"
+      "netlist_normalized_sha256": "603df59d7aee206d05de2db94b840b212152c05a7d2fcc7751d28381fa16bbc6"
     },
     {
       "case": "clipping_guard_bypassed",
@@ -49030,7 +49030,7 @@
       "trace_file": "traces/clipping_guard_bypassed__25ns.npz",
       "netlist_file": "netlists/clipping_guard_bypassed__25ns.cir",
       "trace_sha256": "202189f01bf7d26602b61ddac87b527a73965fcbd6bf1546234f0081045e0413",
-      "netlist_normalized_sha256": "76021f76510bb0ac0ec77135237d3a16ea088c3aa76b2495e558c7b475fa641f"
+      "netlist_normalized_sha256": "a9d27d46feedef158a0bcceb89b6a408622130282cd593e376b4aebfbd5d0416"
     },
     {
       "case": "reset_and_leakage_stress",
@@ -50655,7 +50655,7 @@
       "trace_file": "traces/reset_and_leakage_stress__500ns.npz",
       "netlist_file": "netlists/reset_and_leakage_stress__500ns.cir",
       "trace_sha256": "7049a014ecbe17d0d8d489924709cb4e6b1e9c8686838fc96e7b927a7a42a0f0",
-      "netlist_normalized_sha256": "80966cb699790ee5190bb7cdecec1ecc36ed2f24c315487caae44ea1a2fddcc9"
+      "netlist_normalized_sha256": "41a5721dabaad64527b66a3b6a2210257adba337625cd73506a771dd89085dd4"
     },
     {
       "case": "reset_and_leakage_stress",
@@ -52280,7 +52280,7 @@
       "trace_file": "traces/reset_and_leakage_stress__100ns.npz",
       "netlist_file": "netlists/reset_and_leakage_stress__100ns.cir",
       "trace_sha256": "b8cacda3df3ff2d2796f59d62feb417f0498a798fd6097a09a6ca43786ef617b",
-      "netlist_normalized_sha256": "85c7f169568ce9da3e52521a84297ed0a447647d667d8f1ffced1065e855668c"
+      "netlist_normalized_sha256": "ed02ee9042971f12a94acb01eb57d6f6d3db85f83c6fcd385ebf2f7afbabb912"
     },
     {
       "case": "reset_and_leakage_stress",
@@ -53905,7 +53905,7 @@
       "trace_file": "traces/reset_and_leakage_stress__25ns.npz",
       "netlist_file": "netlists/reset_and_leakage_stress__25ns.cir",
       "trace_sha256": "1b73792b3e152de19662d85539d799480a485420403720bedc77b1ab19629211",
-      "netlist_normalized_sha256": "946f14d05eadc7fb88754a57f93495c182eaea8c50620e0b8dbd5a80d69d88af"
+      "netlist_normalized_sha256": "7b6504bfb80bf26f070c4d59933fc00025588d51eb6ad59ec9724640892122c4"
     }
   ],
   "refinement": [
@@ -54081,11 +54081,11 @@
   },
   "provenance": {
     "study_source_normalized_sha256": {
-      "study.py": "0f54e88b0f753bebc2acde963f2bba6a9028dfc207ffc5935ee9f3bf76e87743",
+      "study.py": "b6e2a4645da7607077b5e90b57c6434ea09ec2542dc7552d9dbd563c4d14a84e",
       "ngspice_shared.py": "136fed2c0d652e8e5893284fcd2c997cd2682ee02bd0a1e88d664e7ea87c260c"
     },
-    "native_manifest_normalized_sha256": "b79aab80ed2c366c1ad22b98d2fb911a195f20b02d08a40babfee1c13a284015",
-    "native_root_schematic_normalized_sha256": "fffbd1ec9deda36ef0f88cb0d0332882a8a27a651fbc5891c3101e0ae55cc495"
+    "native_manifest_normalized_sha256": "32f88af05d2b2e892d0059ac95984d54c513cd3e5575a2edc52f4c0ed68df1c6",
+    "native_root_schematic_normalized_sha256": "446291741fb8e037f8405ea9fdb543558ec8e37299280c4db53d2ff9c6668bdd"
   },
   "unmodeled": [
     "manufacturer macromodel/internal poles and PWM commonmode disturbance",

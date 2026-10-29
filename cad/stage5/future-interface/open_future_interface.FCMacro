@@ -5,8 +5,8 @@ import FreeCADGui as Gui
 
 folder = os.path.dirname(__file__)
 sys.path.insert(0, folder)
-import ato_future_features
-doc = App.openDocument(os.path.join(folder, 'ATO_future_interface.FCStd'))
+import scci_rh_future_features
+doc = App.openDocument(os.path.join(folder, 'SCCI_RH_future_interface.FCStd'))
 for obj in doc.Objects:
     if obj.TypeId == 'App::DocumentObjectGroup':
         obj.Visibility = True

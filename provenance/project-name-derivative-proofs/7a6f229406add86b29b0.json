@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/simulation/ngspice_log.txt",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "a47870b8169f1c818f2a1498fc9b11c6791e50fa103f75623dd8a62ed6764d67",
+  "current_sha256": "580f23279f2c172159d374bce4da0ab777120955db896ee4c5ec2ace398c7514",
+  "method": "branding_and_solver_log_line_endings_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

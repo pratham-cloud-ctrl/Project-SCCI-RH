@@ -1,14 +1,14 @@
 cff-version: 1.2.0
 message: "Please cite this AI-assisted digital engineering project and its primary scientific references separately."
-title: "Project ATO: integrated SCCI research and digital engineering"
+title: "Project SCCI RH: integrated SCCI research and digital engineering"
 type: software
 authors:
   - family-names: Varma
     given-names: Pratham
-version: 2.0.1
-date-released: 2026-10-17
-repository-code: "https://github.com/pratham-cloud-ctrl/Project-ATO"
-url: "https://github.com/pratham-cloud-ctrl/Project-ATO/releases/tag/v2.0.1"
+version: 2.1.0
+date-released: 2026-10-28
+repository-code: "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH"
+url: "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/tag/v2.1.0"
 abstract: >-
   An AI-assisted, entirely digital project connecting conditional spinal-interface
   mechanisms for expert-informed retained motor learning and selected physiological
@@ -18,10 +18,10 @@ abstract: >-
 license: LicenseRef-Proprietary
 preferred-citation:
   type: report
-  title: "Project ATO: a conditional spinal cord-computer interface for expert-informed practice and physiological feedback"
+  title: "Project SCCI RH: a conditional spinal cord-computer interface for expert-informed practice and physiological feedback"
   authors:
     - family-names: Varma
       given-names: Pratham
-  version: 2.0.1
-  date-released: 2026-10-17
-  url: "https://github.com/pratham-cloud-ctrl/Project-ATO/blob/v2.0.1/output/pdf/Project_ATO_Integrated_Manuscript.pdf"
+  version: 2.1.0
+  date-released: 2026-10-28
+  url: "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf"

@@ -1,4 +1,4 @@
-# ATO nRF5340 application-core commissioning backend
+# SCCI_RH nRF5340 application-core commissioning backend
 
 This is the target Zephyr/nrfx application, not the earlier desktop controller.
 The publication build is `python scripts/build_nrf5340.py` from the repository

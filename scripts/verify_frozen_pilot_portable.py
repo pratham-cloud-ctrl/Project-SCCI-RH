@@ -40,7 +40,7 @@ def main() -> None:
     preflight = json.loads((ROOT / PILOT / "preflight.json").read_text(encoding="utf-8"))
     bindings = preflight["bindings"]
     copies = dict(bindings["inputs_bytes_sha256"])
-    copies.update(bindings["bound_ato_source_bytes_sha256"])
+    copies.update(bindings["bound_scci_rh_source_bytes_sha256"])
     copies[bindings["dynamic_raw"]["path"]] = bindings["dynamic_raw"]["sha256"]
     # Inherited summaries also bind their producer scripts by normalized text.
     for name, key in (("results/stage3/dynamic-response/dynamic-response-summary.json", "source_sha256"),
@@ -61,7 +61,7 @@ def main() -> None:
                 originals[path.relative_to(ROOT).as_posix()] = digest(path.read_bytes())
     parent = ROOT / "tmp"
     parent.mkdir(exist_ok=True)
-    with tempfile.TemporaryDirectory(prefix="ato-pilot-portable-", dir=parent) as directory:
+    with tempfile.TemporaryDirectory(prefix="scci_rh-pilot-portable-", dir=parent) as directory:
         scratch = Path(directory).resolve()
         assert scratch.is_relative_to(parent.resolve())
         for rel in originals:

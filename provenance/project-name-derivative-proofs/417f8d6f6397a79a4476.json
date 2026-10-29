@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "provenance/stage4-driver-checkpoint-review.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "c84b906c1a6a450c2674772b7a2962dafc984ee2e3a3b5b1c0d4d1c5808bff27",
+  "current_sha256": "8f2c6906037786ab6b3dbee60010ebb01761f7ce8e02ffe4bb3eb4e90d759cb2",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

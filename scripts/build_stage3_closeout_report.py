@@ -26,7 +26,7 @@ from reportlab.platypus import Image, PageBreak, Paragraph, SimpleDocTemplate, S
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "output/pdf/ATO_stage3_closeout.pdf"
+OUT = ROOT / "output/pdf/SCCI_RH_stage3_closeout.pdf"
 INK, BLUE, TEAL, GRAY = "#15293D", "#225B86", "#12756D", "#627485"
 WIDTH = 475
 DATE = "12 October 2026"
@@ -91,10 +91,10 @@ def replay_inputs(args: argparse.Namespace, observer: dict, development: dict) -
     require(summary_path.name == "summary.json" and audit_path.name == "audit.json", "Use the frozen package summary.json/audit.json pair.")
     package = summary_path.parent
     summary, audit = load_json(summary_path), load_json(audit_path)
-    require(summary.get("schema") == "ato.stage3.frozen-observer-pilot.summary.v1", "Unreviewed replay summary schema.")
-    require(audit.get("schema") == "ato.stage3.frozen-observer-pilot.audit.v1", "Unreviewed replay audit schema.")
+    require(summary.get("schema") == "scci_rh.stage3.frozen-observer-pilot.summary.v1", "Unreviewed replay summary schema.")
+    require(audit.get("schema") == "scci_rh.stage3.frozen-observer-pilot.audit.v1", "Unreviewed replay audit schema.")
     manifest = load_json(package / "artifact-manifest.json")
-    require(manifest.get("schema") == "ato.stage3.frozen-observer-pilot.artifact-manifest.v1", "Unreviewed package manifest schema.")
+    require(manifest.get("schema") == "scci_rh.stage3.frozen-observer-pilot.artifact-manifest.v1", "Unreviewed package manifest schema.")
     listed = set()
     for item in manifest["files"]:
         name = item["path"]
@@ -158,7 +158,7 @@ def exit_review(args: argparse.Namespace, replay: dict | None) -> dict | None:
         return None
     require(replay is not None, "An exit review requires the explicit frozen replay summary/audit pair.")
     review = load_json(args.exit_review)
-    require(review.get("schema") == "ato.stage3.closeout-review.v1", "Unreviewed exit-review schema.")
+    require(review.get("schema") == "scci_rh.stage3.closeout-review.v1", "Unreviewed exit-review schema.")
     require(review.get("decision") == "COMPLETE_WITHIN_SELECTED_DIGITAL_SCOPE", "Exit review does not authorize finite completion.")
     require(review.get("date") == "2026-10-12" and bool(review.get("reviewer")), "Missing explicit exit reviewer/date.")
     for key, path in [("reviewed_replay_summary_sha256", args.pilot_summary),
@@ -195,15 +195,15 @@ def main() -> None:
               "CONSERVATIVE QUALIFICATION STUDY COMPLETE" if review else "EVIDENCE REPORT / ROOT EXIT REVIEW PENDING")
 
     font = Path(matplotlib.get_data_path()) / "fonts/ttf"
-    for name, file in [("ATO3C", "DejaVuSans.ttf"), ("ATO3CBold", "DejaVuSans-Bold.ttf")]:
+    for name, file in [("SCCIRH3C", "DejaVuSans.ttf"), ("SCCIRH3CBold", "DejaVuSans-Bold.ttf")]:
         pdfmetrics.registerFont(TTFont(name, str(font / file)))
-    pdfmetrics.registerFontFamily("ATO3C", normal="ATO3C", bold="ATO3CBold", italic="ATO3C", boldItalic="ATO3CBold")
-    body = ParagraphStyle("body", fontName="ATO3C", fontSize=9.3, leading=13.6,
+    pdfmetrics.registerFontFamily("SCCIRH3C", normal="SCCIRH3C", bold="SCCIRH3CBold", italic="SCCIRH3C", boldItalic="SCCIRH3CBold")
+    body = ParagraphStyle("body", fontName="SCCIRH3C", fontSize=9.3, leading=13.6,
                           textColor=colors.HexColor(INK), spaceAfter=8)
-    heading = ParagraphStyle("heading", parent=body, fontName="ATO3CBold", fontSize=22, leading=27, spaceAfter=15)
-    sub = ParagraphStyle("sub", parent=body, fontName="ATO3CBold", fontSize=11.3, leading=16, spaceBefore=7)
+    heading = ParagraphStyle("heading", parent=body, fontName="SCCIRH3CBold", fontSize=22, leading=27, spaceAfter=15)
+    sub = ParagraphStyle("sub", parent=body, fontName="SCCIRH3CBold", fontSize=11.3, leading=16, spaceBefore=7)
     small = ParagraphStyle("small", parent=body, fontSize=7.8, leading=11.1, spaceAfter=6)
-    label = ParagraphStyle("label", parent=small, fontName="ATO3CBold", textColor=colors.HexColor(TEAL))
+    label = ParagraphStyle("label", parent=small, fontName="SCCIRH3CBold", textColor=colors.HexColor(TEAL))
     story = []
 
     def p(text: str, style=body) -> None:
@@ -239,13 +239,13 @@ def main() -> None:
         story.append(Spacer(1, 9))
 
     # Page 1: full project and evidence level.
-    p("PROJECT ATO / CONSERVATIVE STAGE 3 QUALIFICATION VERDICT", label)
+    p("PROJECT SCCI RH / CONSERVATIVE STAGE 3 QUALIFICATION VERDICT", label)
     h("From a future spinal interface\nto a bounded design conclusion")
     p("Expert-informed motor practice and target-specific physiological feedback", sub)
-    p(f"Pratham / Project ATO / {DATE}", small)
+    p(f"Pratham / Project SCCI RH / {DATE}", small)
     p(status, label)
     image("docs/stage1/figures/full-system.png", max_height=260)
-    p("<b>Abstract.</b> Project ATO proposes implanted spinal recording, computational interpretation, "
+    p("<b>Abstract.</b> Project SCCI RH proposes implanted spinal recording, computational interpretation, "
       "learner-specific stimulation and independently observed feedback. Stage 3 tests the intervening "
       "digital mechanisms, information limits, numerical sensitivity and qualification rules. The historical "
       "motor pilot withholds every pulse. A separately frozen causal no-dose observer now passes a finite "
@@ -442,7 +442,7 @@ def main() -> None:
     p("The production OPA391DCKR pin mapping is corrected; its nominal SC-70 footprint still needs PCB "
       "process/land-pattern review. The restricted 24 V / 3 mA / 200 microsecond driver boundary is a "
       "reviewed proposal, with native implementation pending. A linked processor SDK example is "
-      "toolchain evidence; complete ATO firmware is pending.")
+      "toolchain evidence; complete SCCI_RH firmware is pending.")
     p("Stage 2 allocation solids and illustrative ports are not populated implant CAD. Stage 5 requires "
       "actual boards/components, parametric assemblies, dimensions, STEP/STL and nominal fit checks. "
       "The final integrated manuscript and reproducible private release remain later work.", small)
@@ -497,17 +497,17 @@ def main() -> None:
         canvas.saveState()
         canvas.setStrokeColor(colors.HexColor("#D9E3EB"))
         canvas.line(60, 43, 535, 43)
-        canvas.setFont("ATO3C", 7.2)
+        canvas.setFont("SCCIRH3C", 7.2)
         canvas.setFillColor(colors.HexColor(GRAY))
         footer_status = "DIGITAL STUDY COMPLETE" if review else "EXIT REVIEW PENDING"
-        canvas.drawString(60, 28, "PROJECT ATO / CONSERVATIVE QUALIFICATION / " + footer_status)
+        canvas.drawString(60, 28, "PROJECT SCCI RH / CONSERVATIVE QUALIFICATION / " + footer_status)
         canvas.drawRightString(535, 28, f"{doc.page} / 8")
         canvas.restoreState()
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     doc = SimpleDocTemplate(str(args.output), pagesize=(595.28, 841.89),
         leftMargin=60, rightMargin=60, topMargin=49, bottomMargin=58,
-        title="Project ATO - conservative Stage 3 qualification verdict" + ("" if review else " (exit review pending)"), author="Project ATO / Pratham",
+        title="Project SCCI RH - conservative Stage 3 qualification verdict" + ("" if review else " (exit review pending)"), author="Project SCCI RH / Pratham",
         invariant=1)
     doc.build(story, onFirstPage=footer, onLaterPages=footer, canvasmaker=partial(Canvas, invariant=1))
     print(json.dumps({"path": relative(args.output), "sha256": sha256(args.output),

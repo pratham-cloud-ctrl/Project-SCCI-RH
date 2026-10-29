@@ -1,4 +1,4 @@
-"""Reproduce all synthetic ATO studies and figures from the repository root."""
+"""Reproduce all synthetic SCCI_RH studies and figures from the repository root."""
 from pathlib import Path
 import sys
 import json
@@ -12,8 +12,8 @@ import matplotlib.pyplot as plt
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/"src"))
-from ato.motor import MotorConfig, simulate_motor
-from ato.pressure import PressureConfig, simulate_pressure
+from scci_rh.motor import MotorConfig, simulate_motor
+from scci_rh.pressure import PressureConfig, simulate_pressure
 
 RESULTS, FIGURES = ROOT/"results", ROOT/"figures"
 RESULTS.mkdir(exist_ok=True)
@@ -152,7 +152,7 @@ def main():
         for j in range(3):
             ax[1,1].text(j,i,f"{grid[i,j]:.3f}",ha="center",va="center",color="white" if grid[i,j] > .16 else "#0b1424")
     fig.colorbar(image,ax=ax[1,1],label="Phase RMSE (rad)",shrink=.8)
-    fig.suptitle("ATO motor study | synthetic signals and explicit learning assumptions", fontsize=14, y=.99)
+    fig.suptitle("SCCI_RH motor study | synthetic signals and explicit learning assumptions", fontsize=14, y=.99)
     fig.text(.03,.015,"40 paired synthetic learners; shading = 10–90% simulated learner range. Sensitivity = 12 paired seeds/cell. No biological validation.",fontsize=9)
     fig.tight_layout(rect=[0,.04,1,.96])
     save(fig,"motor_study")
@@ -219,7 +219,7 @@ def main():
     robmeans=[pressure_summary["robustness"][name]["mae_mmhg"]["mean"] for name in robnames]
     ax[1,1].barh(["low gain (×0.6)","high gain (×1.4)","slow/noisy sensor","actuator cap 0.65","sensor faults"],robmeans,color="#087f89")
     ax[1,1].set(xlabel="MAP mean absolute error (mmHg)",title="D   Gain, sensing and authority limits")
-    fig.suptitle("ATO physiological-control study | external MAP sensor and synthetic plant",fontsize=14,y=.99)
+    fig.suptitle("SCCI_RH physiological-control study | external MAP sensor and synthetic plant",fontsize=14,y=.99)
     fig.text(.03,.015,"40 paired seeds/case; error bars = bootstrap 95% intervals across synthetic plants. Normalized actuation is not a stimulation dose.",fontsize=9)
     fig.tight_layout(rect=[0,.04,1,.96])
     save(fig,"pressure_study")

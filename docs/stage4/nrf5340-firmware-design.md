@@ -1,11 +1,11 @@
 # Actual nRF5340 firmware
 
-**14 October 2026 · ATO-S4-FIRMWARE-01 · digital target implementation**
+**14 October 2026 · SCCI_RH-S4-FIRMWARE-01 · digital target implementation**
 
 This package turns the previously proposed processor role into a C/Zephyr
 application for the nRF5340 application core. It connects acquisition, observed
 health, route verification, explicit pulse plans and the isolated companion
-interface. It preserves ATO's ambitious SCCI concept while recording exactly
+interface. It preserves SCCI_RH's ambitious SCCI concept while recording exactly
 which parts are implemented and which remain conditional.
 
 The intended motor application is expert-informed, learner-specific assistance
@@ -176,11 +176,11 @@ every health bit is truthful or fresh.
 Those carrier additions are specified dependencies for the next consolidated
 PCB. They are not already present in the seven native circuit packages. The
 development kit's conflicting attached devices also prevent treating a linked
-DK-target image as a completed ATO board. The
+DK-target image as a completed SCCI_RH board. The
 [primary review](nrf5340-component-and-peripheral-review.md) records exact
 manufacturer and installed SDK evidence.
 The [image attribution](../../firmware/nrf5340/THIRD_PARTY_LICENSES.md) retains
-notices for linked SDK/runtime components alongside ATO's original source.
+notices for linked SDK/runtime components alongside SCCI_RH's original source.
 
 The [saved host tests](../../firmware/nrf5340/runtime-tests.json) currently report
 75 finite scenarios and 713 assertions against the compiled production core.
@@ -204,10 +204,10 @@ compiler, target and artifact identities. The
 and pin/resource evidence; its
 [receipt](../../provenance/stage4-nrf5340-verification.json) is distinct from
 the host-policy test report. The published
-[ELF](../../firmware/nrf5340/artifacts/ato.elf),
-[HEX](../../firmware/nrf5340/artifacts/ato.hex),
-[binary](../../firmware/nrf5340/artifacts/ato.bin) and
-[map](../../firmware/nrf5340/artifacts/ato.map) make the linked result inspectable.
+[ELF](../../firmware/nrf5340/artifacts/scci_rh.elf),
+[HEX](../../firmware/nrf5340/artifacts/scci_rh.hex),
+[binary](../../firmware/nrf5340/artifacts/scci_rh.bin) and
+[map](../../firmware/nrf5340/artifacts/scci_rh.map) make the linked result inspectable.
 
 Target linking, finite host execution and source-bound audits can close this
 digital firmware package. They do not establish physical peripheral throughput,

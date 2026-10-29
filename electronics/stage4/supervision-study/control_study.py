@@ -728,7 +728,7 @@ def reproduce() -> dict[str, Any]:
     scenarios = cases()
     native = native_bindings()
     return {
-        "schema": "ato.stage4.supervision-control.v1", "date": "2026-10-14",
+        "schema": "scci_rh.stage4.supervision-control.v1", "date": "2026-10-14",
         "scope": "Finite valid-supply ideal event model and independent actual native XML gate/pin audit; artificial signals and loads only",
         "source_sha256_lf": text_sha(Path(__file__)),
         "assumptions": {

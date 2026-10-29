@@ -27,9 +27,9 @@ def main():
  for value in inventory['items'].values():
   p=Path(value['source'])
   if p.stem in PARAMETERS:sources.setdefault(p.stem,p)
- sources['BT40F_Manufacturer_66Pad']=ROOT/'electronics/stage4/controller-carrier/ato_controller.pretty/BT40F_Manufacturer_66Pad.kicad_mod'
+ sources['BT40F_Manufacturer_66Pad']=ROOT/'electronics/stage4/controller-carrier/scci_rh_controller.pretty/BT40F_Manufacturer_66Pad.kicad_mod'
  # New integrated package corrects the preserved TPS3431 row-center error.
- corrected=HERE.parent/'integration/boards/supervision/ato_sup.pretty/Texas_DRB0008A_VSON8_3x3_P0.65_EP1.5x1.75.kicad_mod'
+ corrected=HERE.parent/'integration/boards/supervision/scci_rh_sup.pretty/Texas_DRB0008A_VSON8_3x3_P0.65_EP1.5x1.75.kicad_mod'
  assert corrected.exists(),'reviewed integrated TPS3431 land pattern'
  sources['Texas_DRB0008A_VSON8_3x3_P0.65_EP1.5x1.75']=corrected
  rows=[]
@@ -49,7 +49,7 @@ def main():
                    source_footprint=path.relative_to(ROOT).as_posix(),
                    source_sha256_lf=hashlib.sha256(path.read_bytes().replace(b'\r\n',b'\n')).hexdigest(),pads=pads))
  assert len(rows)==8,'all eight missing nominal package patterns'
- result=dict(schema='ato.nominal-package-input.v1',scope='Nominal package geometry; actual land-pattern pin coordinates; no vendor STEP or tolerance claim',
+ result=dict(schema='scci_rh.nominal-package-input.v1',scope='Nominal package geometry; actual land-pattern pin coordinates; no vendor STEP or tolerance claim',
              height_policy='Declared nominal visualization allocations for small ICs; TRACO and BT40F body dimensions from package descriptions. Not height/tolerance qualification.',
              local_model_axes='X=footprintX,Y=-footprintY,Z=aboveboard; origin remains exact footprint datum',models=rows)
  (HERE/'package-inputs.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8')

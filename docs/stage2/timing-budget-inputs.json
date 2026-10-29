@@ -1,5 +1,5 @@
 {
-  "schema_version": "ato.stage2.timing-budget.v1",
+  "schema_version": "scci_rh.stage2.timing-budget.v1",
   "document_id": "S2-TIME-001",
   "generated_on": "2026-10-08",
   "evidence_type": "analytical design proposal and periodic interval-union calculation",
@@ -18,7 +18,7 @@
         "SBP/DBP/MAP extraction1Hz",
         "new-IPG command updates as low as25ms, not a complete closed-loop latency"
       ],
-      "interpretation_caveat": "Biphasic 300 us per-phase interpretation and 100 us interphase gap are ATO modeling assumptions unless separately established from the published waveform; same numerical pulse width does not prove waveform equivalence. Biological equivalence of an aligned alternative is unestablished.",
+      "interpretation_caveat": "Biphasic 300 us per-phase interpretation and 100 us interphase gap are SCCI_RH modeling assumptions unless separately established from the published waveform; same numerical pulse width does not prove waveform equivalence. Biological equivalence of an aligned alternative is unestablished.",
       "fulltext_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12443590/fullTextXML",
       "method_sections": [
         "Electrical spinal cord stimulation",
@@ -290,7 +290,7 @@
       "value": 0.0001,
       "unit": "s",
       "status": "chosen engineering allocation; not measured",
-      "basis": "ATO waveform choice, not automatically the primary paper waveform."
+      "basis": "SCCI_RH waveform choice, not automatically the primary paper waveform."
     },
     "pulse_phase_edge_error_allocation": {
       "value": 2e-06,
@@ -326,8 +326,8 @@
     "sbp_waveform_reference_sample_rate": {
       "value": 200,
       "unit": "sample/s",
-      "status": "primary-methods precedent; not certified ATO sensor performance",
-      "basis": "Phillips2025 Hemodynamic monitoring: calibrated finger plethysmography, brachial pressure sampled200Hz; ATO external sensor remains unselected."
+      "status": "primary-methods precedent; not certified SCCI_RH sensor performance",
+      "basis": "Phillips2025 Hemodynamic monitoring: calibrated finger plethysmography, brachial pressure sampled200Hz; SCCI_RH external sensor remains unselected."
     },
     "sbp_beat_closure_max_delay": {
       "value": 0.25,

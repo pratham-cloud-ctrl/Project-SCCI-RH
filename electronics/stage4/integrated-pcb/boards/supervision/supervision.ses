@@ -2,7 +2,7 @@
   (base_design supervision)
   (placement
     (resolution um 10)
-    (component "ato_sup:VSSOP-8_2.3x2mm_P0.5mm"
+    (component "scci_rh_sup:VSSOP-8_2.3x2mm_P0.5mm"
       (place U50520 1030050 -2220350 front 0)
       (place U50614 2509350 -250850 front 0)
       (place U50616 2704650 -250850 front 0)
@@ -32,7 +32,7 @@
       (place U50811 2054050 -997550 front 0)
       (place U50603 1001050 -371950 front 0)
     )
-    (component "ato_sup:R_0805_2012Metric"
+    (component "scci_rh_sup:R_0805_2012Metric"
       (place R56141 2550150 -243350 front 90)
       (place R56051 1583050 -243350 front 90)
       (place R52200 1395150 -892250 front 90)
@@ -168,7 +168,7 @@
       (place R56070 1441950 -402450 front 0)
       (place R50523 1152950 -2100250 front 0)
     )
-    (component "ato_sup:C_0805_2012Metric"
+    (component "scci_rh_sup:C_0805_2012Metric"
       (place C51061 742550 -220050 front 0)
       (place C51052 318250 -322650 front 0)
       (place C50700 164750 -826650 front 0)
@@ -330,7 +330,7 @@
       (place C50100 140050 -1401250 front 90)
       (place C50103 140050 -1518250 front 90)
     )
-    (component "ato_sup:PinHeader_1x02_P2.54mm_Vertical"
+    (component "scci_rh_sup:PinHeader_1x02_P2.54mm_Vertical"
       (place J50603 994250 -648650 front 90)
       (place J50604 1420150 -572750 front 90)
       (place J50615 2271950 -648650 front 90)
@@ -349,7 +349,7 @@
       (place J50610 2048850 -572750 front 90)
       (place J50613 2373350 -572750 front 90)
     )
-    (component "ato_sup:SOT-23-5"
+    (component "scci_rh_sup:SOT-23-5"
       (place U51013 1116350 -376450 front 0)
       (place U51027 2278750 -497550 front 0)
       (place U51011 1117850 -2224850 front 0)
@@ -417,10 +417,10 @@
       (place U51095 2221750 -1709650 front 0)
       (place U51052 325750 -357950 front 0)
     )
-    (component "ato_sup:PinHeader_1x07_P2.54mm_Vertical"
+    (component "scci_rh_sup:PinHeader_1x07_P2.54mm_Vertical"
       (place J50001 562550 -1934850 front 90)
     )
-    (component "ato_sup:SOT-23-6"
+    (component "scci_rh_sup:SOT-23-6"
       (place U51070 833250 -488650 front 0)
       (place U51038 747750 -1066650 front 0)
       (place U51081 2053950 -1607050 front 0)
@@ -475,17 +475,17 @@
       (place H2 2960000 -40000 front 0)
       (place H3 40000 -2460000 front 0)
     )
-    (component "ato_sup:PinHeader_1x13_P2.54mm_Vertical"
+    (component "scci_rh_sup:PinHeader_1x13_P2.54mm_Vertical"
       (place J50005 562550 -2238450 front 90)
     )
-    (component "ato_sup:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6"
+    (component "scci_rh_sup:Texas_RRP0016A_WQFN16_4x4_P0.65_EP2.6"
       (place U50101 300450 -1408750 front 0)
       (place U50104 300450 -1525750 front 0)
       (place U50102 418050 -1408750 front 0)
       (place U50103 182850 -1525750 front 0)
       (place U50100 182850 -1408750 front 0)
     )
-    (component "ato_sup:SOT-353_SC-70-5"
+    (component "scci_rh_sup:SOT-353_SC-70-5"
       (place U50700 172250 -855950 front 0)
       (place U50701 279050 -855950 front 0)
       (place U50220 1440150 -855950 front 0)
@@ -494,35 +494,35 @@
       (place U50400 172250 -1936250 front 0)
       (place U50500 1047550 -1936250 front 0)
     )
-    (component "ato_sup:PinHeader_1x12_P2.54mm_Vertical"
+    (component "scci_rh_sup:PinHeader_1x12_P2.54mm_Vertical"
       (place J50003 562450 -2086650 front 90)
     )
-    (component "ato_sup:PinHeader_1x06_P2.54mm_Vertical"
+    (component "scci_rh_sup:PinHeader_1x06_P2.54mm_Vertical"
       (place J50002 562450 -2010750 front 90)
     )
     (component "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
       (place J59901 1558550 -1394450 front 90)
     )
-    (component "ato_sup:D_SOD-323"
+    (component "scci_rh_sup:D_SOD-323"
       (place D50260 1590050 -836350 front 0)
       (place D50250 1419150 -1906650 front 0)
       (place D50410 259150 -2024750 front 0)
       (place D50411 414750 -2067850 front 90)
     )
-    (component "ato_sup:PinHeader_1x18_P2.54mm_Vertical"
+    (component "scci_rh_sup:PinHeader_1x18_P2.54mm_Vertical"
       (place J50100 148050 -1608450 front 90)
       (place J50101 148050 -1684350 front 90)
     )
-    (component "ato_sup:SOIC-16W_7.5x10.3mm_P1.27mm"
+    (component "scci_rh_sup:SOIC-16W_7.5x10.3mm_P1.27mm"
       (place U50710 611550 -898950 front 0)
     )
-    (component "ato_sup:PinHeader_1x09_P2.54mm_Vertical"
+    (component "scci_rh_sup:PinHeader_1x09_P2.54mm_Vertical"
       (place J50004 562450 -2162550 front 90)
     )
-    (component "ato_sup:PinHeader_1x05_P2.54mm_Vertical"
+    (component "scci_rh_sup:PinHeader_1x05_P2.54mm_Vertical"
       (place J50006 562450 -2314350 front 90)
     )
-    (component "ato_sup:Texas_DRB0008A_VSON8_3x3_P0.65_EP1.5x1.75"
+    (component "scci_rh_sup:Texas_DRB0008A_VSON8_3x3_P0.65_EP1.5x1.75"
       (place U50300 1566550 -1941650 front 0)
     )
   )

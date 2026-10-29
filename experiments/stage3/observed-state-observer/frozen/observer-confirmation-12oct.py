@@ -12,19 +12,19 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'src'))
-from ato.stage3 import motor
-from ato.stage3.isolated_pilot import config as original_config
+from scci_rh.stage3 import motor
+from scci_rh.stage3.isolated_pilot import config as original_config
 import observed_state_observer_12oct as observer
 
 PROTOCOL = ROOT/'tmp/observer-confirmation-protocol-12oct.md'
 FREEZE = ROOT/'tmp/observer-confirmation-freeze-12oct.json'
 SUMMARY = ROOT/'tmp/observer-confirmation-summary-12oct.json'
-EXPECTED_OBSERVER_SHA = 'cbb2d6aa5a466261e372d1071cccf908983c8dbe8eeb8001b1d20428ed2362af'
-EXPECTED_METHOD_SHA = '73a26e74e91f738fbc2f90e30655eaa0987a1e0d1ab905feb3b7aea52622e07a'
+EXPECTED_OBSERVER_SHA = '203a5bdd90ae20a67f1b6475b47c31a73880d96a5c4434957b51f28a2f767c44'
+EXPECTED_METHOD_SHA = '1157a4490d4455faba6773fe447560b22c218db852efe65fc95c180f373dce7f'
 FAMILIES = ('favorable','zero','harmful','dependent')
 SCALES = (.9, 1., 1.15, 1.3)
 GRIDS = (.0025, .00125)
-BODY_SOURCE_PATHS = ('src/ato/stage3/motor.py','src/ato/stage3/isolated_pilot.py')
+BODY_SOURCE_PATHS = ('src/scci_rh/stage3/motor.py','src/scci_rh/stage3/isolated_pilot.py')
 ATOL, RTOL = 1e-11, 2e-8
 
 
@@ -55,8 +55,8 @@ def bindings():
         'calibration_input_sha256':digest(observer.CALIBRATION),
         'already_inspected_development_input_sha256':digest(observer.DEVELOPMENT),
         'body_source_bytes_sha256':{p:digest(ROOT/p) for p in BODY_SOURCE_PATHS},
-        'full_ato_source_bytes_sha256':{p.relative_to(ROOT).as_posix():digest(p)
-            for p in sorted((ROOT/'src/ato').rglob('*.py'))}}
+        'full_scci_rh_source_bytes_sha256':{p.relative_to(ROOT).as_posix():digest(p)
+            for p in sorted((ROOT/'src/scci_rh').rglob('*.py'))}}
 
 
 def preflight():
@@ -80,7 +80,7 @@ def preflight():
         expected = asdict(base); expected['body_integration_step_s'] = grid
         assert asdict(c) == expected
         configs.append(asdict(c))
-    result = {'schema':'ato.tmp.observer-confirmation-freeze.v1','date':'2026-10-12',
+    result = {'schema':'scci_rh.tmp.observer-confirmation-freeze.v1','date':'2026-10-12',
         'classification':'PREGENERATION_METHOD_COHORT_FREEZE_REQUIRES_ROOT_REVIEW',
         **identity,'cohort':cohort_manifest(),'excluded_prior_noise_ids':sorted(old_ids),
         'sensor_noise_independent_pairs':16,'grid_captures':32,
@@ -185,7 +185,7 @@ def evaluate_pair(model, condition, freeze, review_reference):
     for key in ('observed_positions','private_positions_evaluator_only'):
         i,foot = grid[key]['array_index']
         grid[key].update(support_s=i*.005,coordinate=foot)
-    result = {'schema':'ato.tmp.observer-confirmation-pair.v1','date':'2026-10-12',
+    result = {'schema':'scci_rh.tmp.observer-confirmation-pair.v1','date':'2026-10-12',
         'classification':'FRESH_SENSOR_NOISE_ONLY_NO_DOSE_FINITE_CONFIRMATION',
         'freeze_receipt_sha256':digest(FREEZE),'review_reference':review_reference,
         'frozen_bindings':{key:freeze[key] for key in bindings()},'condition_provenance':condition,
@@ -236,7 +236,7 @@ def execute(review_reference, check=False):
         grids.append({'pair_index':condition['pair_index'],**pair['paired_grid_diagnostics']})
     allocations = np.max(np.array([s['allocation_by_horizon_m'] for s in summaries]),axis=0)
     all_coverage = all(s['current_support_count'] == s['available_supports'] == 550 and s['horizon_count'] == 26 for s in summaries)
-    summary = {'schema':'ato.tmp.observer-confirmation-summary.v1','date':'2026-10-12',
+    summary = {'schema':'scci_rh.tmp.observer-confirmation-summary.v1','date':'2026-10-12',
         'classification':'FRESH_SENSOR_NOISE_ONLY_NO_DOSE_FINITE_CONFIRMATION',
         'freeze_receipt_sha256':digest(FREEZE),'frozen_bindings':{key:freeze[key] for key in bindings()},
         'review_reference':review_reference,'independence':'sensor_noise_only_same_subjectseed2_and_finite_domain',

@@ -19,10 +19,10 @@
     };
 };
 &pinctrl {
-    ato_uart_default: ato_uart_default {
+    scci_rh_uart_default: scci_rh_uart_default {
         group1 { psels = <NRF_PSEL(UART_TX, 1, 12)>, <NRF_PSEL(UART_RX, 1, 13)>; };
     };
-    ato_uart_sleep: ato_uart_sleep {
+    scci_rh_uart_sleep: scci_rh_uart_sleep {
         group1 {
             psels = <NRF_PSEL(UART_TX, 1, 12)>, <NRF_PSEL(UART_RX, 1, 13)>;
             low-power-enable;
@@ -32,8 +32,8 @@
 &uart0 {
     status = "okay";
     current-speed = <1000000>;
-    pinctrl-0 = <&ato_uart_default>;
-    pinctrl-1 = <&ato_uart_sleep>;
+    pinctrl-0 = <&scci_rh_uart_default>;
+    pinctrl-1 = <&scci_rh_uart_sleep>;
     pinctrl-names = "default", "sleep";
 };
 &uart1 { status = "disabled"; };

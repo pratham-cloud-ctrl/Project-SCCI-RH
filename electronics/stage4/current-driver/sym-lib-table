@@ -1,1 +1,1 @@
-(sym_lib_table (version 7) (lib (name "ATO_DRV") (type "KiCad") (uri "${KIPRJMOD}/ATO_DRV.kicad_sym") (options "") (descr "Original package-specific pin symbols; primary sources in connectivity.json")))
+(sym_lib_table (version 7) (lib (name "SCCI_RH_DRV") (type "KiCad") (uri "${KIPRJMOD}/SCCI_RH_DRV.kicad_sym") (options "") (descr "Original package-specific pin symbols; primary sources in connectivity.json")))

@@ -5,13 +5,13 @@ import ctypes
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/"src"))
-from ato.pulse_binding import PulseBackend
+from scci_rh.pulse_binding import PulseBackend
 
 
 class CompiledPulseTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        candidates=[p for p in (ROOT/"build"/"firmware").glob("*ato_pulse.*") if p.suffix in [".dll",".so",".dylib"]]
+        candidates=[p for p in (ROOT/"build"/"firmware").glob("*scci_rh_pulse.*") if p.suffix in [".dll",".so",".dylib"]]
         if not candidates:
             raise unittest.SkipTest("Compile the C library using scripts/build_firmware.py to run C binding tests")
         cls.library=candidates[0]
@@ -55,8 +55,8 @@ class CompiledPulseTests(unittest.TestCase):
     def test_invalid_configuration_stays_off(self):
         for field,value in [("current_ua",251),("phase_us",0),("period_us",10000)]:
             b=self.backend()
-            cfg=b.lib.ato_default_config();setattr(cfg,field,value)
-            self.assertFalse(b.lib.ato_init(ctypes.byref(b.controller),cfg))
+            cfg=b.lib.scci_rh_default_config();setattr(cfg,field,value)
+            self.assertFalse(b.lib.scci_rh_init(ctypes.byref(b.controller),cfg))
             b.sensor(0)
             self.assertFalse(b.rearm(0))
             self.assertFalse(b.start(0))

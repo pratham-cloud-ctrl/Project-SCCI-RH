@@ -1,0 +1,1703 @@
+{
+  "schema": "scci_rh.rebrand-stage3-metadata.v1",
+  "scope": "Explicit path-bound file hashes and byte lengths only; no numeric scientific values changed. Historical original Git evidence remains immutable.",
+  "changes": [
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-summary-12oct.json",
+      "before_sha256": "21baf56ef25a090edb49a14dcc922311ef849078d00cd4aad49583145bf37849",
+      "after_sha256": "89d79c3d3eb3dafb62964ed4d15ae922c4a1b7e775ea612d8b9d7d1c0cb65a59",
+      "kind": "path_bound_hash_or_file_length",
+      "fields": [
+        {
+          "field": "root.pair_files[0].bytes",
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-00-12oct.json.gz",
+          "old": 2253531,
+          "new": 2253530
+        },
+        {
+          "field": "root.pair_files[1].bytes",
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-01-12oct.json.gz",
+          "old": 2253868,
+          "new": 2253871
+        },
+        {
+          "field": "root.pair_files[2].bytes",
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-02-12oct.json.gz",
+          "old": 2250977,
+          "new": 2250988
+        },
+        {
+          "field": "root.pair_files[3].bytes",
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-03-12oct.json.gz",
+          "old": 2250571,
+          "new": 2250576
+        },
+        {
+          "field": "root.pair_files[4].bytes",
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-04-12oct.json.gz",
+          "old": 2255198,
+          "new": 2255218
+        },
+        {
+          "field": "root.pair_files[5].bytes",
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-05-12oct.json.gz",
+          "old": 2254022,
+          "new": 2254034
+        },
+        {
+          "field": "root.pair_files[6].bytes",
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-06-12oct.json.gz",
+          "old": 2251067,
+          "new": 2251078
+        },
+        {
+          "field": "root.pair_files[7].bytes",
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-07-12oct.json.gz",
+          "old": 2249870,
+          "new": 2249894
+        },
+        {
+          "field": "root.pair_files[8].bytes",
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-08-12oct.json.gz",
+          "old": 2254911,
+          "new": 2254904
+        },
+        {
+          "field": "root.pair_files[9].bytes",
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-09-12oct.json.gz",
+          "old": 2254436,
+          "new": 2254440
+        },
+        {
+          "field": "root.pair_files[10].bytes",
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-10-12oct.json.gz",
+          "old": 2251274,
+          "new": 2251290
+        },
+        {
+          "field": "root.pair_files[11].bytes",
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-11-12oct.json.gz",
+          "old": 2249571,
+          "new": 2249568
+        },
+        {
+          "field": "root.pair_files[12].bytes",
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-12-12oct.json.gz",
+          "old": 2254862,
+          "new": 2254865
+        },
+        {
+          "field": "root.pair_files[13].bytes",
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-13-12oct.json.gz",
+          "old": 2254814,
+          "new": 2254819
+        },
+        {
+          "field": "root.pair_files[14].bytes",
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-14-12oct.json.gz",
+          "old": 2251375,
+          "new": 2251383
+        }
+      ]
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/verify_study.py",
+      "before_sha256": "ec0e59862bba6ee2fe06a23565e35138fcedfacc7de5db51be6f907e701ce726",
+      "after_sha256": "72d2bf797e00a5d36fb08a1e491a42f0e7c04329158cda9ea50514f14c34f5bc",
+      "kind": "exact_source_bound_freeze_constants",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/artifact-manifest.json",
+      "before_sha256": "21bf71874b47eefce138a32fc32debf4aefff1d7609d3240a81e683aee1cc77c",
+      "after_sha256": "ebe3ef0c04e60e729b35343b66ff5bdcf71a41bdebf61828c22e72450e976859",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-handoff-12oct.md",
+      "before_sha256": "cf66819c8331415496aaa28f287573132e8a9ab3d8f514c5e6ae9d06d04545ac",
+      "after_sha256": "bb2a8d9b64c3eff905bc4c1d22fd56cd11b7fc9a0ecdf23257a5166e6d37ed7e",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-saved-audit-12oct.json",
+      "before_sha256": "c2fc522bf992ecc0dc2279bec4f485f9b0480d973a91eb86faad81cdea67a037",
+      "after_sha256": "7445513077279442f4132166adaadd6467f21bba4a24a9ea819db7b67960989e",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/preflight.json",
+      "before_sha256": "0b87b58914551109bb4f9ef9282430ab74902d00f4cdbbe77269144d2e9dca2f",
+      "after_sha256": "a6c17d870bf9b32185bdf034b799ec18a28b8c074500f6e79549b8be18f49026",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/root-review.json",
+      "before_sha256": "ba1480d063d18084f26b252ddac3a01b027981244cb0a43ec570930ed2888ee3",
+      "after_sha256": "d84160dc23a55b165abb81ce4b2693e315a34df6e2db6455908e7686e8b039d2",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/summary.json",
+      "before_sha256": "fc2c472eb2fd640d8678ca63cf49ff4f63d56e9e9437bda7c5783f2c296f5538",
+      "after_sha256": "7bc1ffbd156fd6eef3d394bd66c4ec6d25161a4df8344086464af30a2473cd90",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+      "before_sha256": "27178ddf8a73b020133c3f5c90a2c64be59f7d9cdda8b3694755e372a21a4c2f",
+      "after_sha256": "ad07167dee2ed7c25bf8fe0df8ae851cb108f136e39b3a700dcf8c41925aac26",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+      "before_sha256": "0939d4e5dbec581f9efecd07e034788408914aca7901945e2ee58009dc8a10b2",
+      "after_sha256": "ebc0f0993c03fdfaaff0d187cc7f1063e55a3ff5c8dd09b98a76236100c4f1b7",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+      "before_sha256": "4a21616e2b6015520ab1e200773a43adc2b7057aba38dc84672c103d830cd54a",
+      "after_sha256": "d76d5ab055d664f2e1df03f8fe7b4b3a6d03412dbb4961ea8df34544e98cc683",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+      "before_sha256": "f3d993c3aa42f53dcbdfa621a97a2062910e0979c5b07ae27e77731a7c2c0d56",
+      "after_sha256": "9c1720e6e71978c12f0db4c1aa8f5dbc9399e3849079f463961036bc8640bac3",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+      "before_sha256": "dfec31d57040d54c473f27a3c4d201c33a66a372996e9ed3dd06fb2193dbdb2f",
+      "after_sha256": "3704823e106babe0a3c33ac23269d6673e07c2cdc1c214b39308bf18cdbf2ad8",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+      "before_sha256": "22bf30fa2381e9275f60bc4abbc9faf2f3a5432edfc668977248c77d393e45aa",
+      "after_sha256": "ba00121f03f01965393776a660a32a3b849f2ffb7275882ec107fedda8d6e27b",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+      "before_sha256": "a97c189aa2d60cf0831282df8127ebd1daa37023f85b3a17451e1c6073e8cb82",
+      "after_sha256": "773dbd5852c39f7634674d17312656559b870c1470bf51d3c3140174f3f030dd",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+      "before_sha256": "fe3e676820a1e6db0a8f16cdb6fb5a66233124154517ef8618bd81e49ac0b743",
+      "after_sha256": "8e8d629e42571d31307128dfa8fdb487f71cbcb4d07b3c3d6ea63de4c57a2fad",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/preflight.json",
+      "before_sha256": "a6c17d870bf9b32185bdf034b799ec18a28b8c074500f6e79549b8be18f49026",
+      "after_sha256": "5505c12775f52a2858766cae69cfb23b34e740560406638d1399f66e2928e4c7",
+      "kind": "path_bound_hash_or_file_length",
+      "fields": [
+        "experiments/stage3/observed-state-observer/artifact-manifest.json",
+        "results/stage3/dynamic-response/dynamic-response-summary.json",
+        "results/stage3/resolved-teacher/summary.json"
+      ]
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/artifact-manifest.json",
+      "before_sha256": "ebe3ef0c04e60e729b35343b66ff5bdcf71a41bdebf61828c22e72450e976859",
+      "after_sha256": "d326f33a67da142a948304b7dbfc3443f3facd62cb298e1df4123c990b9463b5",
+      "kind": "path_bound_hash_or_file_length",
+      "fields": [
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/drift_forecast_exploratory_observations_12oct.json.gz",
+          "field": "frozen/drift_forecast_exploratory_observations_12oct.json.gz.bytes",
+          "old": 313984,
+          "new": 313980
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-12oct.py",
+          "field": "frozen/observer-confirmation-12oct.py.bytes",
+          "old": 16359,
+          "new": 16395
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-freeze-12oct.json",
+          "field": "frozen/observer-confirmation-freeze-12oct.json.bytes",
+          "old": 16123,
+          "new": 15732
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-handoff-12oct.md",
+          "field": "frozen/observer-confirmation-handoff-12oct.md.sha256",
+          "old": "cf66819c8331415496aaa28f287573132e8a9ab3d8f514c5e6ae9d06d04545ac",
+          "new": "bb2a8d9b64c3eff905bc4c1d22fd56cd11b7fc9a0ecdf23257a5166e6d37ed7e"
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-handoff-12oct.md",
+          "field": "frozen/observer-confirmation-handoff-12oct.md.bytes",
+          "old": 8488,
+          "new": 8500
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-00-12oct.json.gz",
+          "field": "frozen/observer-confirmation-pair-00-12oct.json.gz.bytes",
+          "old": 2253531,
+          "new": 2253530
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-01-12oct.json.gz",
+          "field": "frozen/observer-confirmation-pair-01-12oct.json.gz.bytes",
+          "old": 2253868,
+          "new": 2253871
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-02-12oct.json.gz",
+          "field": "frozen/observer-confirmation-pair-02-12oct.json.gz.bytes",
+          "old": 2250977,
+          "new": 2250988
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-03-12oct.json.gz",
+          "field": "frozen/observer-confirmation-pair-03-12oct.json.gz.bytes",
+          "old": 2250571,
+          "new": 2250576
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-04-12oct.json.gz",
+          "field": "frozen/observer-confirmation-pair-04-12oct.json.gz.bytes",
+          "old": 2255198,
+          "new": 2255218
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-05-12oct.json.gz",
+          "field": "frozen/observer-confirmation-pair-05-12oct.json.gz.bytes",
+          "old": 2254022,
+          "new": 2254034
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-06-12oct.json.gz",
+          "field": "frozen/observer-confirmation-pair-06-12oct.json.gz.bytes",
+          "old": 2251067,
+          "new": 2251078
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-07-12oct.json.gz",
+          "field": "frozen/observer-confirmation-pair-07-12oct.json.gz.bytes",
+          "old": 2249870,
+          "new": 2249894
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-08-12oct.json.gz",
+          "field": "frozen/observer-confirmation-pair-08-12oct.json.gz.bytes",
+          "old": 2254911,
+          "new": 2254904
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-09-12oct.json.gz",
+          "field": "frozen/observer-confirmation-pair-09-12oct.json.gz.bytes",
+          "old": 2254436,
+          "new": 2254440
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-10-12oct.json.gz",
+          "field": "frozen/observer-confirmation-pair-10-12oct.json.gz.bytes",
+          "old": 2251274,
+          "new": 2251290
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-11-12oct.json.gz",
+          "field": "frozen/observer-confirmation-pair-11-12oct.json.gz.bytes",
+          "old": 2249571,
+          "new": 2249568
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-12-12oct.json.gz",
+          "field": "frozen/observer-confirmation-pair-12-12oct.json.gz.bytes",
+          "old": 2254862,
+          "new": 2254865
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-13-12oct.json.gz",
+          "field": "frozen/observer-confirmation-pair-13-12oct.json.gz.bytes",
+          "old": 2254814,
+          "new": 2254819
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-pair-14-12oct.json.gz",
+          "field": "frozen/observer-confirmation-pair-14-12oct.json.gz.bytes",
+          "old": 2251375,
+          "new": 2251383
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-protocol-12oct.md",
+          "field": "frozen/observer-confirmation-protocol-12oct.md.bytes",
+          "old": 7544,
+          "new": 7548
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-saved-audit-12oct.json",
+          "field": "frozen/observer-confirmation-saved-audit-12oct.json.sha256",
+          "old": "c2fc522bf992ecc0dc2279bec4f485f9b0480d973a91eb86faad81cdea67a037",
+          "new": "7445513077279442f4132166adaadd6467f21bba4a24a9ea819db7b67960989e"
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-saved-audit-12oct.json",
+          "field": "frozen/observer-confirmation-saved-audit-12oct.json.bytes",
+          "old": 5006,
+          "new": 4881
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-saved-audit-12oct.py",
+          "field": "frozen/observer-confirmation-saved-audit-12oct.py.bytes",
+          "old": 11930,
+          "new": 11950
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-summary-12oct.json",
+          "field": "frozen/observer-confirmation-summary-12oct.json.bytes",
+          "old": 121528,
+          "new": 117859
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-development-raw-12oct.json.gz",
+          "field": "frozen/observer-development-raw-12oct.json.gz.bytes",
+          "old": 29340888,
+          "new": 29340859
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-development-summary-12oct.json",
+          "field": "frozen/observer-development-summary-12oct.json.bytes",
+          "old": 57262,
+          "new": 55722
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-independent-check-12oct.json",
+          "field": "frozen/observer-independent-check-12oct.json.bytes",
+          "old": 7224,
+          "new": 7058
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-saved-data-audit-12oct.json",
+          "field": "frozen/observer-saved-data-audit-12oct.json.bytes",
+          "old": 3359,
+          "new": 3291
+        },
+        {
+          "source": "experiments/stage3/observed-state-observer/verify_study.py",
+          "field": "verify_study.py.bytes",
+          "old": 9138,
+          "new": 9158
+        }
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/artifact-manifest.json",
+      "before_sha256": "bbce73c2ab8698db2f68fa2a20bff41977be7e600e2a934984e8aec63c056140",
+      "after_sha256": "3ca917a9f74b43028b4f8423fa2c226e245050fc361f8e530def392ede07f77a",
+      "kind": "path_bound_hash_or_file_length",
+      "fields": [
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/preflight.json",
+          "field": "preflight.json.sha256",
+          "old": "0b87b58914551109bb4f9ef9282430ab74902d00f4cdbbe77269144d2e9dca2f",
+          "new": "5505c12775f52a2858766cae69cfb23b34e740560406638d1399f66e2928e4c7"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/preflight.json",
+          "field": "preflight.json.bytes",
+          "old": 10747,
+          "new": 10851
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+          "field": "raw/dependent-1250us.json.gz.sha256",
+          "old": "27178ddf8a73b020133c3f5c90a2c64be59f7d9cdda8b3694755e372a21a4c2f",
+          "new": "ad07167dee2ed7c25bf8fe0df8ae851cb108f136e39b3a700dcf8c41925aac26"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+          "field": "raw/dependent-1250us.json.gz.bytes",
+          "old": 584501,
+          "new": 584657
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+          "field": "raw/dependent-2500us.json.gz.sha256",
+          "old": "0939d4e5dbec581f9efecd07e034788408914aca7901945e2ee58009dc8a10b2",
+          "new": "ebc0f0993c03fdfaaff0d187cc7f1063e55a3ff5c8dd09b98a76236100c4f1b7"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+          "field": "raw/dependent-2500us.json.gz.bytes",
+          "old": 584373,
+          "new": 584495
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+          "field": "raw/favorable-1250us.json.gz.sha256",
+          "old": "4a21616e2b6015520ab1e200773a43adc2b7057aba38dc84672c103d830cd54a",
+          "new": "d76d5ab055d664f2e1df03f8fe7b4b3a6d03412dbb4961ea8df34544e98cc683"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+          "field": "raw/favorable-1250us.json.gz.bytes",
+          "old": 583879,
+          "new": 584039
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+          "field": "raw/favorable-2500us.json.gz.sha256",
+          "old": "f3d993c3aa42f53dcbdfa621a97a2062910e0979c5b07ae27e77731a7c2c0d56",
+          "new": "9c1720e6e71978c12f0db4c1aa8f5dbc9399e3849079f463961036bc8640bac3"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+          "field": "raw/favorable-2500us.json.gz.bytes",
+          "old": 584016,
+          "new": 584154
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+          "field": "raw/harmful-1250us.json.gz.sha256",
+          "old": "dfec31d57040d54c473f27a3c4d201c33a66a372996e9ed3dd06fb2193dbdb2f",
+          "new": "3704823e106babe0a3c33ac23269d6673e07c2cdc1c214b39308bf18cdbf2ad8"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+          "field": "raw/harmful-1250us.json.gz.bytes",
+          "old": 584030,
+          "new": 584208
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+          "field": "raw/harmful-2500us.json.gz.sha256",
+          "old": "22bf30fa2381e9275f60bc4abbc9faf2f3a5432edfc668977248c77d393e45aa",
+          "new": "ba00121f03f01965393776a660a32a3b849f2ffb7275882ec107fedda8d6e27b"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+          "field": "raw/harmful-2500us.json.gz.bytes",
+          "old": 583873,
+          "new": 584031
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+          "field": "raw/zero-1250us.json.gz.sha256",
+          "old": "a97c189aa2d60cf0831282df8127ebd1daa37023f85b3a17451e1c6073e8cb82",
+          "new": "773dbd5852c39f7634674d17312656559b870c1470bf51d3c3140174f3f030dd"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+          "field": "raw/zero-1250us.json.gz.bytes",
+          "old": 583791,
+          "new": 583922
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+          "field": "raw/zero-2500us.json.gz.sha256",
+          "old": "fe3e676820a1e6db0a8f16cdb6fb5a66233124154517ef8618bd81e49ac0b743",
+          "new": "8e8d629e42571d31307128dfa8fdb487f71cbcb4d07b3c3d6ea63de4c57a2fad"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+          "field": "raw/zero-2500us.json.gz.bytes",
+          "old": 583874,
+          "new": 584056
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/root-review.json",
+          "field": "root-review.json.sha256",
+          "old": "ba1480d063d18084f26b252ddac3a01b027981244cb0a43ec570930ed2888ee3",
+          "new": "d84160dc23a55b165abb81ce4b2693e315a34df6e2db6455908e7686e8b039d2"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/root-review.json",
+          "field": "root-review.json.bytes",
+          "old": 1482,
+          "new": 1486
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/summary.json",
+          "field": "summary.json.sha256",
+          "old": "fc2c472eb2fd640d8678ca63cf49ff4f63d56e9e9437bda7c5783f2c296f5538",
+          "new": "7bc1ffbd156fd6eef3d394bd66c4ec6d25161a4df8344086464af30a2473cd90"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/summary.json",
+          "field": "summary.json.bytes",
+          "old": 48193,
+          "new": 48201
+        }
+      ]
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-handoff-12oct.md",
+      "before_sha256": "bb2a8d9b64c3eff905bc4c1d22fd56cd11b7fc9a0ecdf23257a5166e6d37ed7e",
+      "after_sha256": "851ef11605f5d7e6ff3f5d19e24e62b945b16f3065b3420ca8757bed28a8b31c",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/preflight.json",
+      "before_sha256": "5505c12775f52a2858766cae69cfb23b34e740560406638d1399f66e2928e4c7",
+      "after_sha256": "264bdb224fbcbc95157d813e62245d20fd65ca3e42e4b497c30914b6aead67c5",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/root-review.json",
+      "before_sha256": "d84160dc23a55b165abb81ce4b2693e315a34df6e2db6455908e7686e8b039d2",
+      "after_sha256": "fa0fe98182f511265a746eda11521aa3910b9b1295d0147ead1657a351f27bb2",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/summary.json",
+      "before_sha256": "7bc1ffbd156fd6eef3d394bd66c4ec6d25161a4df8344086464af30a2473cd90",
+      "after_sha256": "d306546aa8081a323c4abeb38c17913b51010607621be8310f4a2e32f151d52f",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+      "before_sha256": "ad07167dee2ed7c25bf8fe0df8ae851cb108f136e39b3a700dcf8c41925aac26",
+      "after_sha256": "4bd744b5506ce750dbd1a46076a5c52a57b651bfaaafd0f7374205726591212c",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+      "before_sha256": "ebc0f0993c03fdfaaff0d187cc7f1063e55a3ff5c8dd09b98a76236100c4f1b7",
+      "after_sha256": "5cc09786db664199fc844566b3592b6be7fa1b9ab1ba56493623289fe3b54934",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+      "before_sha256": "d76d5ab055d664f2e1df03f8fe7b4b3a6d03412dbb4961ea8df34544e98cc683",
+      "after_sha256": "e551bcf0bcafd095de378693bac884f39708cbf9a74083235c62343fd276b491",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+      "before_sha256": "9c1720e6e71978c12f0db4c1aa8f5dbc9399e3849079f463961036bc8640bac3",
+      "after_sha256": "ec06d2ba9354b5c2e0ab88e9adc93276fcf5b8079a74b21c24ce5bb55f0a6fa3",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+      "before_sha256": "3704823e106babe0a3c33ac23269d6673e07c2cdc1c214b39308bf18cdbf2ad8",
+      "after_sha256": "6f460df42c98845a3d9f580a560f21ea1fd7ca7b67c85d152d35291d86664468",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+      "before_sha256": "ba00121f03f01965393776a660a32a3b849f2ffb7275882ec107fedda8d6e27b",
+      "after_sha256": "02ce5fb800f3231bbca4962418ad611f0fbf1039489563bedf30113ee547df10",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+      "before_sha256": "773dbd5852c39f7634674d17312656559b870c1470bf51d3c3140174f3f030dd",
+      "after_sha256": "5db48e7f65a4ca651c4949285e9e05c592c707e3477b59b41d6184ad2ae8b0e2",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+      "before_sha256": "8e8d629e42571d31307128dfa8fdb487f71cbcb4d07b3c3d6ea63de4c57a2fad",
+      "after_sha256": "b9f3e5726b9f360a38ddadd68860933c7aff21da5718944f32028b32e2ab6e82",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/artifact-manifest.json",
+      "before_sha256": "d326f33a67da142a948304b7dbfc3443f3facd62cb298e1df4123c990b9463b5",
+      "after_sha256": "f41233bede69a50908c6d2e50f4acc02e161bde0726a66da1890e29de1361431",
+      "kind": "path_bound_hash_or_file_length",
+      "fields": [
+        {
+          "source": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-handoff-12oct.md",
+          "field": "frozen/observer-confirmation-handoff-12oct.md.sha256",
+          "old": "bb2a8d9b64c3eff905bc4c1d22fd56cd11b7fc9a0ecdf23257a5166e6d37ed7e",
+          "new": "851ef11605f5d7e6ff3f5d19e24e62b945b16f3065b3420ca8757bed28a8b31c"
+        }
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/artifact-manifest.json",
+      "before_sha256": "3ca917a9f74b43028b4f8423fa2c226e245050fc361f8e530def392ede07f77a",
+      "after_sha256": "fd049a96ec443364f48d8d8728d4584be69147c80c895d8ae9b42fe29c8cf9eb",
+      "kind": "path_bound_hash_or_file_length",
+      "fields": [
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/preflight.json",
+          "field": "preflight.json.sha256",
+          "old": "5505c12775f52a2858766cae69cfb23b34e740560406638d1399f66e2928e4c7",
+          "new": "264bdb224fbcbc95157d813e62245d20fd65ca3e42e4b497c30914b6aead67c5"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+          "field": "raw/dependent-1250us.json.gz.sha256",
+          "old": "ad07167dee2ed7c25bf8fe0df8ae851cb108f136e39b3a700dcf8c41925aac26",
+          "new": "4bd744b5506ce750dbd1a46076a5c52a57b651bfaaafd0f7374205726591212c"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+          "field": "raw/dependent-1250us.json.gz.bytes",
+          "old": 584657,
+          "new": 584661
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+          "field": "raw/dependent-2500us.json.gz.sha256",
+          "old": "ebc0f0993c03fdfaaff0d187cc7f1063e55a3ff5c8dd09b98a76236100c4f1b7",
+          "new": "5cc09786db664199fc844566b3592b6be7fa1b9ab1ba56493623289fe3b54934"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+          "field": "raw/dependent-2500us.json.gz.bytes",
+          "old": 584495,
+          "new": 584494
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+          "field": "raw/favorable-1250us.json.gz.sha256",
+          "old": "d76d5ab055d664f2e1df03f8fe7b4b3a6d03412dbb4961ea8df34544e98cc683",
+          "new": "e551bcf0bcafd095de378693bac884f39708cbf9a74083235c62343fd276b491"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+          "field": "raw/favorable-1250us.json.gz.bytes",
+          "old": 584039,
+          "new": 584035
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+          "field": "raw/favorable-2500us.json.gz.sha256",
+          "old": "9c1720e6e71978c12f0db4c1aa8f5dbc9399e3849079f463961036bc8640bac3",
+          "new": "ec06d2ba9354b5c2e0ab88e9adc93276fcf5b8079a74b21c24ce5bb55f0a6fa3"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+          "field": "raw/favorable-2500us.json.gz.bytes",
+          "old": 584154,
+          "new": 584148
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+          "field": "raw/harmful-1250us.json.gz.sha256",
+          "old": "3704823e106babe0a3c33ac23269d6673e07c2cdc1c214b39308bf18cdbf2ad8",
+          "new": "6f460df42c98845a3d9f580a560f21ea1fd7ca7b67c85d152d35291d86664468"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+          "field": "raw/harmful-1250us.json.gz.bytes",
+          "old": 584208,
+          "new": 584203
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+          "field": "raw/harmful-2500us.json.gz.sha256",
+          "old": "ba00121f03f01965393776a660a32a3b849f2ffb7275882ec107fedda8d6e27b",
+          "new": "02ce5fb800f3231bbca4962418ad611f0fbf1039489563bedf30113ee547df10"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+          "field": "raw/zero-1250us.json.gz.sha256",
+          "old": "773dbd5852c39f7634674d17312656559b870c1470bf51d3c3140174f3f030dd",
+          "new": "5db48e7f65a4ca651c4949285e9e05c592c707e3477b59b41d6184ad2ae8b0e2"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+          "field": "raw/zero-1250us.json.gz.bytes",
+          "old": 583922,
+          "new": 583920
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+          "field": "raw/zero-2500us.json.gz.sha256",
+          "old": "8e8d629e42571d31307128dfa8fdb487f71cbcb4d07b3c3d6ea63de4c57a2fad",
+          "new": "b9f3e5726b9f360a38ddadd68860933c7aff21da5718944f32028b32e2ab6e82"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+          "field": "raw/zero-2500us.json.gz.bytes",
+          "old": 584056,
+          "new": 584045
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/root-review.json",
+          "field": "root-review.json.sha256",
+          "old": "d84160dc23a55b165abb81ce4b2693e315a34df6e2db6455908e7686e8b039d2",
+          "new": "fa0fe98182f511265a746eda11521aa3910b9b1295d0147ead1657a351f27bb2"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/summary.json",
+          "field": "summary.json.sha256",
+          "old": "7bc1ffbd156fd6eef3d394bd66c4ec6d25161a4df8344086464af30a2473cd90",
+          "new": "d306546aa8081a323c4abeb38c17913b51010607621be8310f4a2e32f151d52f"
+        }
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/preflight.json",
+      "before_sha256": "264bdb224fbcbc95157d813e62245d20fd65ca3e42e4b497c30914b6aead67c5",
+      "after_sha256": "c88442938b74dfccd0c04e6316c923c10aba3f3a6bdd80b6b526c3b3ab11fa50",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/root-review.json",
+      "before_sha256": "fa0fe98182f511265a746eda11521aa3910b9b1295d0147ead1657a351f27bb2",
+      "after_sha256": "880cc7a76fbb07b1d8829848849e15896dec553a95c67dac8747c9aecf1487c5",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/summary.json",
+      "before_sha256": "d306546aa8081a323c4abeb38c17913b51010607621be8310f4a2e32f151d52f",
+      "after_sha256": "a51e5c8a473fc27143103eb945a851586e5a326e3cb7bd88fcc459f8572dd6af",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+      "before_sha256": "4bd744b5506ce750dbd1a46076a5c52a57b651bfaaafd0f7374205726591212c",
+      "after_sha256": "5c126df8333ae78487fb5b0b2a02b96d47e34fe2557f8ef2047b1d1e1b9418a8",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+      "before_sha256": "5cc09786db664199fc844566b3592b6be7fa1b9ab1ba56493623289fe3b54934",
+      "after_sha256": "017ceead3524cab0e16d00cb8cda8ae4037c902baced4a5c90718eab33a95dee",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+      "before_sha256": "e551bcf0bcafd095de378693bac884f39708cbf9a74083235c62343fd276b491",
+      "after_sha256": "066313bed66a903636586a76bd661d955cd4a2831bcd45052b832daa59b6c967",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+      "before_sha256": "ec06d2ba9354b5c2e0ab88e9adc93276fcf5b8079a74b21c24ce5bb55f0a6fa3",
+      "after_sha256": "cb75ea9d3b360c6820418287845dfbd0c3a24b5cee0e7d77da5372211075c095",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+      "before_sha256": "6f460df42c98845a3d9f580a560f21ea1fd7ca7b67c85d152d35291d86664468",
+      "after_sha256": "aa32e1eed25effb6dee0484034b9253f846155305b945d621b4d8523be9c91ca",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+      "before_sha256": "02ce5fb800f3231bbca4962418ad611f0fbf1039489563bedf30113ee547df10",
+      "after_sha256": "da443f194493b43905817137c50bd022858933807bfc760a4c4832e0bbc03019",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+      "before_sha256": "5db48e7f65a4ca651c4949285e9e05c592c707e3477b59b41d6184ad2ae8b0e2",
+      "after_sha256": "8f752f7d78d220a95cb9b27fd423594da32e7e8b8e4d4b8065dc7edbfd53f0c4",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+      "before_sha256": "b9f3e5726b9f360a38ddadd68860933c7aff21da5718944f32028b32e2ab6e82",
+      "after_sha256": "b7a3fed80c8424f42960b64d04aa14b32dd5ef5c2898a83e1187c7b82739b71e",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/artifact-manifest.json",
+      "before_sha256": "fd049a96ec443364f48d8d8728d4584be69147c80c895d8ae9b42fe29c8cf9eb",
+      "after_sha256": "626931e4d1fa6b49fe79dd9f4cb2955ccd73ad16e599646bedd4e18e6b63c606",
+      "kind": "path_bound_hash_or_file_length",
+      "fields": [
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/preflight.json",
+          "field": "preflight.json.sha256",
+          "old": "264bdb224fbcbc95157d813e62245d20fd65ca3e42e4b497c30914b6aead67c5",
+          "new": "c88442938b74dfccd0c04e6316c923c10aba3f3a6bdd80b6b526c3b3ab11fa50"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+          "field": "raw/dependent-1250us.json.gz.sha256",
+          "old": "4bd744b5506ce750dbd1a46076a5c52a57b651bfaaafd0f7374205726591212c",
+          "new": "5c126df8333ae78487fb5b0b2a02b96d47e34fe2557f8ef2047b1d1e1b9418a8"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+          "field": "raw/dependent-1250us.json.gz.bytes",
+          "old": 584661,
+          "new": 584671
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+          "field": "raw/dependent-2500us.json.gz.sha256",
+          "old": "5cc09786db664199fc844566b3592b6be7fa1b9ab1ba56493623289fe3b54934",
+          "new": "017ceead3524cab0e16d00cb8cda8ae4037c902baced4a5c90718eab33a95dee"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+          "field": "raw/dependent-2500us.json.gz.bytes",
+          "old": 584494,
+          "new": 584497
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+          "field": "raw/favorable-1250us.json.gz.sha256",
+          "old": "e551bcf0bcafd095de378693bac884f39708cbf9a74083235c62343fd276b491",
+          "new": "066313bed66a903636586a76bd661d955cd4a2831bcd45052b832daa59b6c967"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+          "field": "raw/favorable-1250us.json.gz.bytes",
+          "old": 584035,
+          "new": 584046
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+          "field": "raw/favorable-2500us.json.gz.sha256",
+          "old": "ec06d2ba9354b5c2e0ab88e9adc93276fcf5b8079a74b21c24ce5bb55f0a6fa3",
+          "new": "cb75ea9d3b360c6820418287845dfbd0c3a24b5cee0e7d77da5372211075c095"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+          "field": "raw/favorable-2500us.json.gz.bytes",
+          "old": 584148,
+          "new": 584156
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+          "field": "raw/harmful-1250us.json.gz.sha256",
+          "old": "6f460df42c98845a3d9f580a560f21ea1fd7ca7b67c85d152d35291d86664468",
+          "new": "aa32e1eed25effb6dee0484034b9253f846155305b945d621b4d8523be9c91ca"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+          "field": "raw/harmful-1250us.json.gz.bytes",
+          "old": 584203,
+          "new": 584210
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+          "field": "raw/harmful-2500us.json.gz.sha256",
+          "old": "02ce5fb800f3231bbca4962418ad611f0fbf1039489563bedf30113ee547df10",
+          "new": "da443f194493b43905817137c50bd022858933807bfc760a4c4832e0bbc03019"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+          "field": "raw/zero-1250us.json.gz.sha256",
+          "old": "5db48e7f65a4ca651c4949285e9e05c592c707e3477b59b41d6184ad2ae8b0e2",
+          "new": "8f752f7d78d220a95cb9b27fd423594da32e7e8b8e4d4b8065dc7edbfd53f0c4"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+          "field": "raw/zero-1250us.json.gz.bytes",
+          "old": 583920,
+          "new": 583926
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+          "field": "raw/zero-2500us.json.gz.sha256",
+          "old": "b9f3e5726b9f360a38ddadd68860933c7aff21da5718944f32028b32e2ab6e82",
+          "new": "b7a3fed80c8424f42960b64d04aa14b32dd5ef5c2898a83e1187c7b82739b71e"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+          "field": "raw/zero-2500us.json.gz.bytes",
+          "old": 584045,
+          "new": 584056
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/root-review.json",
+          "field": "root-review.json.sha256",
+          "old": "fa0fe98182f511265a746eda11521aa3910b9b1295d0147ead1657a351f27bb2",
+          "new": "880cc7a76fbb07b1d8829848849e15896dec553a95c67dac8747c9aecf1487c5"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/summary.json",
+          "field": "summary.json.sha256",
+          "old": "d306546aa8081a323c4abeb38c17913b51010607621be8310f4a2e32f151d52f",
+          "new": "a51e5c8a473fc27143103eb945a851586e5a326e3cb7bd88fcc459f8572dd6af"
+        }
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/summary.json",
+      "before_sha256": "a51e5c8a473fc27143103eb945a851586e5a326e3cb7bd88fcc459f8572dd6af",
+      "after_sha256": "8fa5132e827627becf3a56fcf1b3ee2d8fc814623448e5dcd1be9ebd9641001f",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/summary.json",
+      "before_sha256": "8fa5132e827627becf3a56fcf1b3ee2d8fc814623448e5dcd1be9ebd9641001f",
+      "after_sha256": "0714283db280745161d6c409cb822fae679d98c93469b3b77aba5d94c518b530",
+      "kind": "path_bound_hash_or_file_length",
+      "fields": [
+        {
+          "field": "root.raw_files[0].bytes",
+          "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+          "old": 584501,
+          "new": 584671
+        },
+        {
+          "field": "root.raw_files[1].bytes",
+          "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+          "old": 584373,
+          "new": 584497
+        },
+        {
+          "field": "root.raw_files[2].bytes",
+          "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+          "old": 583879,
+          "new": 584046
+        },
+        {
+          "field": "root.raw_files[3].bytes",
+          "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+          "old": 584016,
+          "new": 584156
+        },
+        {
+          "field": "root.raw_files[4].bytes",
+          "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+          "old": 584030,
+          "new": 584210
+        },
+        {
+          "field": "root.raw_files[5].bytes",
+          "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+          "old": 583873,
+          "new": 584031
+        },
+        {
+          "field": "root.raw_files[6].bytes",
+          "source": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+          "old": 583791,
+          "new": 583926
+        },
+        {
+          "field": "root.raw_files[7].bytes",
+          "source": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+          "old": 583874,
+          "new": 584056
+        }
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/artifact-manifest.json",
+      "before_sha256": "626931e4d1fa6b49fe79dd9f4cb2955ccd73ad16e599646bedd4e18e6b63c606",
+      "after_sha256": "bda69bbc76df3070164d21fe4c705db0fd0bf58a9717513f1862e3f60cce330f",
+      "kind": "path_bound_hash_or_file_length",
+      "fields": [
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/summary.json",
+          "field": "summary.json.sha256",
+          "old": "a51e5c8a473fc27143103eb945a851586e5a326e3cb7bd88fcc459f8572dd6af",
+          "new": "0714283db280745161d6c409cb822fae679d98c93469b3b77aba5d94c518b530"
+        }
+      ]
+    },
+    {
+      "path": "scripts/audit_frozen_observer_pilot.py",
+      "before_sha256": "e36fd8456fa0cd93735724f1e4da3e8280615f5faa49bf9b70cb3380d08279aa",
+      "after_sha256": "2aebac2ae7892f551b267bc8243b0e3fd76a0c40c196397d5dd6934a0a28f29b",
+      "kind": "exact_source_bound_preflight_constant",
+      "fields": []
+    },
+    {
+      "path": "provenance/stage3-closeout-review.json",
+      "before_sha256": "452943722811069a3553cf2b5b6c801d1782f28d8c69d4c67e9fe4db0f78bd25",
+      "after_sha256": "a3292d3de98678a8fdd3be8d4bb64fbffb10e95426a7c5bee575f36940ce2b6a",
+      "kind": "explicit_exit_review_source_digest_bindings",
+      "fields": [
+        {
+          "field": "reviewed_replay_summary_sha256",
+          "source": "experiments/stage3/frozen-observer-pilot/summary.json",
+          "old": "fc2c472eb2fd640d8678ca63cf49ff4f63d56e9e9437bda7c5783f2c296f5538",
+          "new": "0714283db280745161d6c409cb822fae679d98c93469b3b77aba5d94c518b530"
+        },
+        {
+          "field": "package_manifest_sha256",
+          "source": "experiments/stage3/frozen-observer-pilot/artifact-manifest.json",
+          "old": "501ee9399e765c747efad481d6c233dcde77e190da6f20060a3d5898fef9511a",
+          "new": "bda69bbc76df3070164d21fe4c705db0fd0bf58a9717513f1862e3f60cce330f"
+        },
+        {
+          "field": "independent_audit_receipt_sha256",
+          "source": "provenance/stage3-frozen-pilot-independent-audit.json",
+          "old": "5494dd1d2cb45bc2b19336a783c95f617b60f1f428615a959de5ac9f29aaef93",
+          "new": "6ac55fe620a039e67068dfe94a532360c741780656b2d3f950c560c0a242ecbd"
+        },
+        {
+          "field": "independent_auditor_sha256",
+          "source": "scripts/audit_frozen_observer_pilot.py",
+          "old": "e36fd8456fa0cd93735724f1e4da3e8280615f5faa49bf9b70cb3380d08279aa",
+          "new": "2aebac2ae7892f551b267bc8243b0e3fd76a0c40c196397d5dd6934a0a28f29b"
+        },
+        {
+          "field": "preflight_sha256",
+          "source": "experiments/stage3/frozen-observer-pilot/preflight.json",
+          "old": "0b87b58914551109bb4f9ef9282430ab74902d00f4cdbbe77269144d2e9dca2f",
+          "new": "c88442938b74dfccd0c04e6316c923c10aba3f3a6bdd80b6b526c3b3ab11fa50"
+        },
+        {
+          "field": "generation_root_review_sha256",
+          "source": "experiments/stage3/frozen-observer-pilot/root-review.json",
+          "old": "ba1480d063d18084f26b252ddac3a01b027981244cb0a43ec570930ed2888ee3",
+          "new": "880cc7a76fbb07b1d8829848849e15896dec553a95c67dac8747c9aecf1487c5"
+        }
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+      "before_sha256": "59fce84bc45b7479eb656445e5e47840fff3774574158323bd75f736b0d9efce",
+      "after_sha256": "7d35d00aa84fa7067031d863e535920d32d7e14773bc025c863b9e90ac1e1239",
+      "kind": "exact_canonical_frozen_forecast_object_digest",
+      "fields": [
+        [
+          "a1e00c4ed4cadc36b357d23623824cd798359aab413f65a331dcea96d789a25d",
+          "3f65d4ad7c0909c05b37c0ae63b3ab840dee09a9ce268ec5f122f35b77ea6906"
+        ]
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+      "before_sha256": "36b781908474752a15b3a4a1135bd3667bc2f4f2e9caad3d134c73deb2c55e69",
+      "after_sha256": "821b08dbc287c638787143f5b29506b89109b2d7b7c17733dc403228625afa86",
+      "kind": "exact_canonical_frozen_forecast_object_digest",
+      "fields": [
+        [
+          "1a4f7c9bb63d7873289384bab0ab78ae3d03ac886d5f88baae715dee8c1303c5",
+          "ff8809b7ad11148246c37e38eb5ced7bb7017529793e1381056e5df7f37b0665"
+        ]
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+      "before_sha256": "b14b8faf8e91bc28d23a925896e2d8bc5807cf4cd1c01564d64a8c72d951299e",
+      "after_sha256": "d0449fdd3edf8acfcc56165551bbfe6a238ffd0623cbb721d61eb176ecb2dd29",
+      "kind": "exact_canonical_frozen_forecast_object_digest",
+      "fields": [
+        [
+          "7e29739280160c602f7a15020b90dcce0ac5bbfddeee323e6ede7aaee95c2400",
+          "093baef6d1e51e45fc6fe46890cc1cb7aea155e193e6a0b56945295e705eb22b"
+        ]
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+      "before_sha256": "57bbf2cd8f9c3fe2c0b5aefa39d331113fe3c451cfd163ceba9e3bd91958aa36",
+      "after_sha256": "3ba4df19d7b8d7d74d4387585751c9f9ad4ef40df6f86623ce21982ab3f8bd4e",
+      "kind": "exact_canonical_frozen_forecast_object_digest",
+      "fields": [
+        [
+          "363492a35689e802928842d459102c0b0db920880b98d9163ccc0f7750a8ea1c",
+          "142231627fb22af3babd27fadfd059b76b1d6ebba8188ed71664bead531387ac"
+        ]
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+      "before_sha256": "4af284458a151ee2dfef83850a1a34f448f2a7d5eff479493ae3242430852be3",
+      "after_sha256": "9a0a63b95d7844be24a98839b4ee78acd62273adfd5552fc28f572a385ed735a",
+      "kind": "exact_canonical_frozen_forecast_object_digest",
+      "fields": [
+        [
+          "78559d9d81ca3e4df3091408e107a796730f97fa35e0016c213c90c371e3d821",
+          "ec1d37e4f44569960064e6db8529494dc6742191dd082f7e0084b8b214eab42e"
+        ]
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+      "before_sha256": "5b9e847b73cf6e06b30b6bf1110c353030dce9f0b89b13e8db7a00649d55290d",
+      "after_sha256": "0e3a3933727aeb62a6789890b84a38f652d36caa0aca88405ecae185b94fb779",
+      "kind": "exact_canonical_frozen_forecast_object_digest",
+      "fields": [
+        [
+          "e9db4800f282116a69ab6d5508189a0c7a692399e638a89a5d429258da09d510",
+          "e41d38760b1d9f54be2ece284057b99870c64db0bc1b1368b51415cf5f8a77b1"
+        ]
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+      "before_sha256": "ceba8f3eb5fa473ce4fe7edf014092024019ac3213dd0430cd54a0819ba35b38",
+      "after_sha256": "9c1dda203283bbd1eac4ef32c0063fe6650cde607e9743f4f49c2c912bbed218",
+      "kind": "exact_canonical_frozen_forecast_object_digest",
+      "fields": [
+        [
+          "0d2a2ea21f6f914d9a88b5dd327ea2759319c663fdefc3526359be14a9388be3",
+          "6c8d022188b1e480f9829d88dcf159d2eb5fda75c71b81fa3459e862d80b14b1"
+        ]
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+      "before_sha256": "625ccff5030df03def2b30fa3e3dae4653f338e495c6c5f3b59fa306a7a9ac2d",
+      "after_sha256": "7903f6843e01f7fc301cbed26bb7e1429c942e7ed1252b04272006f8e78c04ec",
+      "kind": "exact_canonical_frozen_forecast_object_digest",
+      "fields": [
+        [
+          "424ffba8f408e8328293d820458321779823bf1443d58a8b7700e13c33494d12",
+          "9a341a427ba363e5829e84e8844a58e2273fbeb08228d4693b2d5c4d43c4a0a0"
+        ]
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/artifact-manifest.json",
+      "before_sha256": "4a9f409465c4ec9297b642ac2fc271e5b853c0af234a5418a17d5b0f691f01e9",
+      "after_sha256": "0890f9cee404e54ce00382afd2850840e572a3130b243ff8ea1745ede7b57a76",
+      "kind": "exact_changed_file_digest_reference",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/artifact-manifest.json",
+      "before_sha256": "0890f9cee404e54ce00382afd2850840e572a3130b243ff8ea1745ede7b57a76",
+      "after_sha256": "066a402a06990872b0b33971a880ef0cfe72961e5a6edfed7c7bc8e90346add0",
+      "kind": "path_bound_hash_or_file_length",
+      "fields": [
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+          "field": "raw/dependent-1250us.json.gz.bytes",
+          "old": 584660,
+          "new": 584674
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+          "field": "raw/dependent-2500us.json.gz.bytes",
+          "old": 584498,
+          "new": 584476
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+          "field": "raw/favorable-1250us.json.gz.bytes",
+          "old": 584046,
+          "new": 584043
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+          "field": "raw/favorable-2500us.json.gz.bytes",
+          "old": 584149,
+          "new": 584183
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+          "field": "raw/harmful-1250us.json.gz.bytes",
+          "old": 584204,
+          "new": 584201
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+          "field": "raw/harmful-2500us.json.gz.bytes",
+          "old": 584031,
+          "new": 584045
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+          "field": "raw/zero-1250us.json.gz.bytes",
+          "old": 583921,
+          "new": 583927
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+          "field": "raw/zero-2500us.json.gz.bytes",
+          "old": 584050,
+          "new": 584077
+        }
+      ]
+    },
+    {
+      "path": "scripts/audit_frozen_observer_pilot.py",
+      "before_sha256": "2aebac2ae7892f551b267bc8243b0e3fd76a0c40c196397d5dd6934a0a28f29b",
+      "after_sha256": "bd1c9876a692bb9f39a99303d004956dc4cf5c03cfc833935e3fd18d8301c3d7",
+      "kind": "exact_source_bound_preflight_constant",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/summary.json",
+      "before_sha256": "5e4753266936ffd7eec4072ee7cc050da411c40f08cbd0f725d33b7dc2245b4f",
+      "after_sha256": "c756497d6d290eff5bbcdb429c434695dd501bb13a167155865c4a14a05c0477",
+      "kind": "explicit_package_member_hash_and_length",
+      "fields": [
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+          "field": "dependent-1250us.json.gz.sha256",
+          "old": "5c126df8333ae78487fb5b0b2a02b96d47e34fe2557f8ef2047b1d1e1b9418a8",
+          "new": "7d35d00aa84fa7067031d863e535920d32d7e14773bc025c863b9e90ac1e1239"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+          "field": "dependent-1250us.json.gz.bytes",
+          "old": 584671,
+          "new": 584674
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+          "field": "dependent-2500us.json.gz.sha256",
+          "old": "017ceead3524cab0e16d00cb8cda8ae4037c902baced4a5c90718eab33a95dee",
+          "new": "821b08dbc287c638787143f5b29506b89109b2d7b7c17733dc403228625afa86"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+          "field": "dependent-2500us.json.gz.bytes",
+          "old": 584497,
+          "new": 584476
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+          "field": "favorable-1250us.json.gz.sha256",
+          "old": "066313bed66a903636586a76bd661d955cd4a2831bcd45052b832daa59b6c967",
+          "new": "d0449fdd3edf8acfcc56165551bbfe6a238ffd0623cbb721d61eb176ecb2dd29"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+          "field": "favorable-1250us.json.gz.bytes",
+          "old": 584046,
+          "new": 584043
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+          "field": "favorable-2500us.json.gz.sha256",
+          "old": "cb75ea9d3b360c6820418287845dfbd0c3a24b5cee0e7d77da5372211075c095",
+          "new": "3ba4df19d7b8d7d74d4387585751c9f9ad4ef40df6f86623ce21982ab3f8bd4e"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+          "field": "favorable-2500us.json.gz.bytes",
+          "old": 584156,
+          "new": 584183
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+          "field": "harmful-1250us.json.gz.sha256",
+          "old": "aa32e1eed25effb6dee0484034b9253f846155305b945d621b4d8523be9c91ca",
+          "new": "9a0a63b95d7844be24a98839b4ee78acd62273adfd5552fc28f572a385ed735a"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+          "field": "harmful-1250us.json.gz.bytes",
+          "old": 584210,
+          "new": 584201
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+          "field": "harmful-2500us.json.gz.sha256",
+          "old": "da443f194493b43905817137c50bd022858933807bfc760a4c4832e0bbc03019",
+          "new": "0e3a3933727aeb62a6789890b84a38f652d36caa0aca88405ecae185b94fb779"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+          "field": "harmful-2500us.json.gz.bytes",
+          "old": 584031,
+          "new": 584045
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+          "field": "zero-1250us.json.gz.sha256",
+          "old": "8f752f7d78d220a95cb9b27fd423594da32e7e8b8e4d4b8065dc7edbfd53f0c4",
+          "new": "9c1dda203283bbd1eac4ef32c0063fe6650cde607e9743f4f49c2c912bbed218"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+          "field": "zero-1250us.json.gz.bytes",
+          "old": 583926,
+          "new": 583927
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+          "field": "zero-2500us.json.gz.sha256",
+          "old": "b7a3fed80c8424f42960b64d04aa14b32dd5ef5c2898a83e1187c7b82739b71e",
+          "new": "7903f6843e01f7fc301cbed26bb7e1429c942e7ed1252b04272006f8e78c04ec"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+          "field": "zero-2500us.json.gz.bytes",
+          "old": 584056,
+          "new": 584077
+        }
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/artifact-manifest.json",
+      "before_sha256": "066a402a06990872b0b33971a880ef0cfe72961e5a6edfed7c7bc8e90346add0",
+      "after_sha256": "35a889dbcdeefb26f3417ec98934f007ed1f043985d7a8808572a6ddea5b9e7e",
+      "kind": "explicit_package_member_hash_and_length",
+      "fields": [
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/summary.json",
+          "field": "summary.json.sha256",
+          "old": "5e4753266936ffd7eec4072ee7cc050da411c40f08cbd0f725d33b7dc2245b4f",
+          "new": "c756497d6d290eff5bbcdb429c434695dd501bb13a167155865c4a14a05c0477"
+        }
+      ]
+    },
+    {
+      "path": "provenance/stage3-closeout-review.json",
+      "before_sha256": "a3292d3de98678a8fdd3be8d4bb64fbffb10e95426a7c5bee575f36940ce2b6a",
+      "after_sha256": "cbf5aad0c9418dc0cba6e5196e57cab0f42b41b8543a5afe99bbcc90d3004602",
+      "kind": "explicit_exit_review_source_digest_bindings",
+      "fields": [
+        {
+          "field": "reviewed_replay_summary_sha256",
+          "source": "experiments/stage3/frozen-observer-pilot/summary.json",
+          "old": "0714283db280745161d6c409cb822fae679d98c93469b3b77aba5d94c518b530",
+          "new": "c756497d6d290eff5bbcdb429c434695dd501bb13a167155865c4a14a05c0477"
+        },
+        {
+          "field": "package_manifest_sha256",
+          "source": "experiments/stage3/frozen-observer-pilot/artifact-manifest.json",
+          "old": "bda69bbc76df3070164d21fe4c705db0fd0bf58a9717513f1862e3f60cce330f",
+          "new": "35a889dbcdeefb26f3417ec98934f007ed1f043985d7a8808572a6ddea5b9e7e"
+        },
+        {
+          "field": "independent_audit_receipt_sha256",
+          "source": "provenance/stage3-frozen-pilot-independent-audit.json",
+          "old": "6ac55fe620a039e67068dfe94a532360c741780656b2d3f950c560c0a242ecbd",
+          "new": "ed2cf6dc4b28da4ee35a31f6501d79df02fbbbd68789690452e8380f8030389c"
+        },
+        {
+          "field": "independent_auditor_sha256",
+          "source": "scripts/audit_frozen_observer_pilot.py",
+          "old": "2aebac2ae7892f551b267bc8243b0e3fd76a0c40c196397d5dd6934a0a28f29b",
+          "new": "bd1c9876a692bb9f39a99303d004956dc4cf5c03cfc833935e3fd18d8301c3d7"
+        },
+        {
+          "field": "preflight_sha256",
+          "source": "experiments/stage3/frozen-observer-pilot/preflight.json",
+          "old": "c88442938b74dfccd0c04e6316c923c10aba3f3a6bdd80b6b526c3b3ab11fa50",
+          "new": "14aaa31abfc2f33fdd79a112cd9008115d4da0262498c45d9149f99caa433f30"
+        },
+        {
+          "field": "generation_root_review_sha256",
+          "source": "experiments/stage3/frozen-observer-pilot/root-review.json",
+          "old": "880cc7a76fbb07b1d8829848849e15896dec553a95c67dac8747c9aecf1487c5",
+          "new": "ba09b7f3ab448e6d4f661d7462271dc52273bca9ac643de30d83d99c472c21f5"
+        }
+      ]
+    },
+    {
+      "path": "results/stage3/dynamic-response/dynamic-response-summary.json",
+      "before_sha256": "489920846e7b12f3d3f50764114bac4e675c99cc662d45f8135da2c280e869b8",
+      "after_sha256": "a007df20fd81cbd618b75b1ee24f10ba0f49d78f6c90e7e808bb7ce90f2e812c",
+      "kind": "explicit_canonical_json_source_binding",
+      "fields": [
+        {
+          "field": "inherited_actual_steady_map_rejection.sha256",
+          "source": "results/stage3/information/comparison-summary.json",
+          "algorithm": "canonical_json_digest",
+          "old": "e1ad9f1cbbaa177b59c74117a56114a19ab23d3debe26c91b412f9d2a119e84c",
+          "new": "50cad1e2a0181568c525ac3ae7865f097cae6d3c4d19f74df6ca4e1b15ec5265"
+        }
+      ]
+    },
+    {
+      "path": "results/stage3/sparse-baseline/raw.json.gz",
+      "before_sha256": "cd79c0e995793fadce6b0c0ab7b58e4e9661b333efea7ac9f9ebebbe649145db",
+      "after_sha256": "6667ddcf282d08bcc977193dbaa086a5beed9ff57f12107cdae45868c267610f",
+      "kind": "explicit_canonical_json_source_binding",
+      "fields": [
+        {
+          "field": "dynamic_receipt_binding.canonical_json_sha256",
+          "source": "results/stage3/dynamic-response/dynamic-response-summary.json",
+          "new": "6658a51b523baca04e1ceee604c7ab5b97d90bfdc5e1645530fb47a833efab82"
+        }
+      ]
+    },
+    {
+      "path": "results/stage3/sparse-baseline/summary.json",
+      "before_sha256": "8109b8fd17b79f867e66b7d5582f85bfed1ad310970e6c1f0ea0988d910d8ed1",
+      "after_sha256": "e50024befb372fe6568851676aa7c1d528839f915226886bc6854fec6aefcc33",
+      "kind": "existing_summary_function_metadata_refresh",
+      "fields": []
+    },
+    {
+      "path": "results/stage3/isolated-pilot/raw.json.gz",
+      "before_sha256": "4d14cd1bca88965a9976a80b31815b759f588b887d835c21c1e5397cb762ab23",
+      "after_sha256": "bbc9c06ebb44e67a0020331c9b1464ea375b4dd14d1733b53e54c1acd0dd96c4",
+      "kind": "explicit_canonical_json_source_binding",
+      "fields": [
+        {
+          "field": "inputs.canonical_json_sha256",
+          "source": "results/stage3/dynamic-response/dynamic-response-summary.json",
+          "old": "467f620b929afe6e0eafb0222b66957ce798a0ea004a878391965104233e7f33",
+          "new": "6658a51b523baca04e1ceee604c7ab5b97d90bfdc5e1645530fb47a833efab82"
+        }
+      ]
+    },
+    {
+      "path": "results/stage3/isolated-pilot/summary.json",
+      "before_sha256": "8fe3e2fb84eb992792f6060633b5c52fb744bb0a420da0481810ffcc4eac0caf",
+      "after_sha256": "f5f21ef8cedb47fcf882b19df99b687632c4e09f1d8ab358ddd7b62916b03031",
+      "kind": "existing_summary_function_metadata_refresh",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/preflight.json",
+      "before_sha256": "14aaa31abfc2f33fdd79a112cd9008115d4da0262498c45d9149f99caa433f30",
+      "after_sha256": "fe4cb8297a2b8c63b876ad6eacf1fce56b3e9e057b7cbdd739c8e725f9dc4d92",
+      "kind": "explicit_preflight_input_digest_fields",
+      "fields": [
+        {
+          "field": "inputs_bytes_sha256",
+          "source": "results/stage3/dynamic-response/dynamic-response-summary.json",
+          "old": "489920846e7b12f3d3f50764114bac4e675c99cc662d45f8135da2c280e869b8",
+          "new": "a007df20fd81cbd618b75b1ee24f10ba0f49d78f6c90e7e808bb7ce90f2e812c"
+        }
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/root-review.json",
+      "before_sha256": "ba09b7f3ab448e6d4f661d7462271dc52273bca9ac643de30d83d99c472c21f5",
+      "after_sha256": "b1863d6787fd640d23bfe7026ec6e623da049dcaab4239db8e61756b45f12af6",
+      "kind": "exact_preflight_digest_binding",
+      "fields": [
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/preflight.json",
+          "old": "14aaa31abfc2f33fdd79a112cd9008115d4da0262498c45d9149f99caa433f30",
+          "new": "fe4cb8297a2b8c63b876ad6eacf1fce56b3e9e057b7cbdd739c8e725f9dc4d92"
+        }
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+      "before_sha256": "7d35d00aa84fa7067031d863e535920d32d7e14773bc025c863b9e90ac1e1239",
+      "after_sha256": "420cd4353b7ec062ed878e8f8e8cb14307233a8b28bd1a5b76f7cb76ee003624",
+      "kind": "exact_preflight_and_review_digest_references",
+      "fields": [
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/preflight.json",
+          "old": "14aaa31abfc2f33fdd79a112cd9008115d4da0262498c45d9149f99caa433f30",
+          "new": "fe4cb8297a2b8c63b876ad6eacf1fce56b3e9e057b7cbdd739c8e725f9dc4d92"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/root-review.json",
+          "old": "ba09b7f3ab448e6d4f661d7462271dc52273bca9ac643de30d83d99c472c21f5",
+          "new": "b1863d6787fd640d23bfe7026ec6e623da049dcaab4239db8e61756b45f12af6"
+        }
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+      "before_sha256": "821b08dbc287c638787143f5b29506b89109b2d7b7c17733dc403228625afa86",
+      "after_sha256": "2e5a92641febca66ca25795e287996e8e8d25f8f4a2736d019c54f4432041ce9",
+      "kind": "exact_preflight_and_review_digest_references",
+      "fields": [
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/preflight.json",
+          "old": "14aaa31abfc2f33fdd79a112cd9008115d4da0262498c45d9149f99caa433f30",
+          "new": "fe4cb8297a2b8c63b876ad6eacf1fce56b3e9e057b7cbdd739c8e725f9dc4d92"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/root-review.json",
+          "old": "ba09b7f3ab448e6d4f661d7462271dc52273bca9ac643de30d83d99c472c21f5",
+          "new": "b1863d6787fd640d23bfe7026ec6e623da049dcaab4239db8e61756b45f12af6"
+        }
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+      "before_sha256": "d0449fdd3edf8acfcc56165551bbfe6a238ffd0623cbb721d61eb176ecb2dd29",
+      "after_sha256": "813f945c44dd4f1886a987656171dc20b9d5fadff433e9ae21c57f346e7e9265",
+      "kind": "exact_preflight_and_review_digest_references",
+      "fields": [
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/preflight.json",
+          "old": "14aaa31abfc2f33fdd79a112cd9008115d4da0262498c45d9149f99caa433f30",
+          "new": "fe4cb8297a2b8c63b876ad6eacf1fce56b3e9e057b7cbdd739c8e725f9dc4d92"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/root-review.json",
+          "old": "ba09b7f3ab448e6d4f661d7462271dc52273bca9ac643de30d83d99c472c21f5",
+          "new": "b1863d6787fd640d23bfe7026ec6e623da049dcaab4239db8e61756b45f12af6"
+        }
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+      "before_sha256": "3ba4df19d7b8d7d74d4387585751c9f9ad4ef40df6f86623ce21982ab3f8bd4e",
+      "after_sha256": "9ead6e15da9e97cad5a165750275a1149ba192b7f5e9381b497448ee8bec4e8f",
+      "kind": "exact_preflight_and_review_digest_references",
+      "fields": [
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/preflight.json",
+          "old": "14aaa31abfc2f33fdd79a112cd9008115d4da0262498c45d9149f99caa433f30",
+          "new": "fe4cb8297a2b8c63b876ad6eacf1fce56b3e9e057b7cbdd739c8e725f9dc4d92"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/root-review.json",
+          "old": "ba09b7f3ab448e6d4f661d7462271dc52273bca9ac643de30d83d99c472c21f5",
+          "new": "b1863d6787fd640d23bfe7026ec6e623da049dcaab4239db8e61756b45f12af6"
+        }
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+      "before_sha256": "9a0a63b95d7844be24a98839b4ee78acd62273adfd5552fc28f572a385ed735a",
+      "after_sha256": "20c55c9e9217984ddc12ce93de6f9a0fc184979b33e09d49f2ee2c57d293a9f5",
+      "kind": "exact_preflight_and_review_digest_references",
+      "fields": [
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/preflight.json",
+          "old": "14aaa31abfc2f33fdd79a112cd9008115d4da0262498c45d9149f99caa433f30",
+          "new": "fe4cb8297a2b8c63b876ad6eacf1fce56b3e9e057b7cbdd739c8e725f9dc4d92"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/root-review.json",
+          "old": "ba09b7f3ab448e6d4f661d7462271dc52273bca9ac643de30d83d99c472c21f5",
+          "new": "b1863d6787fd640d23bfe7026ec6e623da049dcaab4239db8e61756b45f12af6"
+        }
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+      "before_sha256": "0e3a3933727aeb62a6789890b84a38f652d36caa0aca88405ecae185b94fb779",
+      "after_sha256": "307c189f5a2f13d134328ad94eedd962264fce5f43eabe1f28af7c13da6ec384",
+      "kind": "exact_preflight_and_review_digest_references",
+      "fields": [
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/preflight.json",
+          "old": "14aaa31abfc2f33fdd79a112cd9008115d4da0262498c45d9149f99caa433f30",
+          "new": "fe4cb8297a2b8c63b876ad6eacf1fce56b3e9e057b7cbdd739c8e725f9dc4d92"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/root-review.json",
+          "old": "ba09b7f3ab448e6d4f661d7462271dc52273bca9ac643de30d83d99c472c21f5",
+          "new": "b1863d6787fd640d23bfe7026ec6e623da049dcaab4239db8e61756b45f12af6"
+        }
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+      "before_sha256": "9c1dda203283bbd1eac4ef32c0063fe6650cde607e9743f4f49c2c912bbed218",
+      "after_sha256": "b2c4ffbf4afb50229f80654119efa1cb388521a2498770c572afc432389f2ab1",
+      "kind": "exact_preflight_and_review_digest_references",
+      "fields": [
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/preflight.json",
+          "old": "14aaa31abfc2f33fdd79a112cd9008115d4da0262498c45d9149f99caa433f30",
+          "new": "fe4cb8297a2b8c63b876ad6eacf1fce56b3e9e057b7cbdd739c8e725f9dc4d92"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/root-review.json",
+          "old": "ba09b7f3ab448e6d4f661d7462271dc52273bca9ac643de30d83d99c472c21f5",
+          "new": "b1863d6787fd640d23bfe7026ec6e623da049dcaab4239db8e61756b45f12af6"
+        }
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+      "before_sha256": "7903f6843e01f7fc301cbed26bb7e1429c942e7ed1252b04272006f8e78c04ec",
+      "after_sha256": "96369b0627dce0c01fc35ffa71336a53245c3139ddd739cbb77640ff69849ae5",
+      "kind": "exact_preflight_and_review_digest_references",
+      "fields": [
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/preflight.json",
+          "old": "14aaa31abfc2f33fdd79a112cd9008115d4da0262498c45d9149f99caa433f30",
+          "new": "fe4cb8297a2b8c63b876ad6eacf1fce56b3e9e057b7cbdd739c8e725f9dc4d92"
+        },
+        {
+          "source": "experiments/stage3/frozen-observer-pilot/root-review.json",
+          "old": "ba09b7f3ab448e6d4f661d7462271dc52273bca9ac643de30d83d99c472c21f5",
+          "new": "b1863d6787fd640d23bfe7026ec6e623da049dcaab4239db8e61756b45f12af6"
+        }
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/summary.json",
+      "before_sha256": "c756497d6d290eff5bbcdb429c434695dd501bb13a167155865c4a14a05c0477",
+      "after_sha256": "edc5720c7bfb68e269f32605a3cdaf7c0e23501cbb8ca82f59c83fca025744dd",
+      "kind": "explicit_current_raw_member_identity_and_parent_digests",
+      "fields": []
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/artifact-manifest.json",
+      "before_sha256": "35a889dbcdeefb26f3417ec98934f007ed1f043985d7a8808572a6ddea5b9e7e",
+      "after_sha256": "b420d2668a70f607feac0e0dc54bec626724d5d5e7ea1cf552f42cde2c322a94",
+      "kind": "explicit_current_package_member_identity",
+      "fields": []
+    },
+    {
+      "path": "scripts/audit_frozen_observer_pilot.py",
+      "before_sha256": "bd1c9876a692bb9f39a99303d004956dc4cf5c03cfc833935e3fd18d8301c3d7",
+      "after_sha256": "793310697149a62075d0caf3351e0bf528d6edb2f750f6b49e88f012c802374f",
+      "kind": "exact_source_bound_preflight_constant",
+      "fields": []
+    },
+    {
+      "path": "provenance/stage3-closeout-review.json",
+      "before_sha256": "cbf5aad0c9418dc0cba6e5196e57cab0f42b41b8543a5afe99bbcc90d3004602",
+      "after_sha256": "b98ab7e80b74ee1ba6d44d734bffca848e03ea3652befb58715177cfc8de26a8",
+      "kind": "explicit_exit_review_source_digest_bindings",
+      "fields": [
+        {
+          "field": "reviewed_replay_summary_sha256",
+          "source": "experiments/stage3/frozen-observer-pilot/summary.json",
+          "old": "c756497d6d290eff5bbcdb429c434695dd501bb13a167155865c4a14a05c0477",
+          "new": "edc5720c7bfb68e269f32605a3cdaf7c0e23501cbb8ca82f59c83fca025744dd"
+        },
+        {
+          "field": "package_manifest_sha256",
+          "source": "experiments/stage3/frozen-observer-pilot/artifact-manifest.json",
+          "old": "35a889dbcdeefb26f3417ec98934f007ed1f043985d7a8808572a6ddea5b9e7e",
+          "new": "b420d2668a70f607feac0e0dc54bec626724d5d5e7ea1cf552f42cde2c322a94"
+        },
+        {
+          "field": "independent_audit_receipt_sha256",
+          "source": "provenance/stage3-frozen-pilot-independent-audit.json",
+          "old": "ed2cf6dc4b28da4ee35a31f6501d79df02fbbbd68789690452e8380f8030389c",
+          "new": "e09971ac7def6476765bf21d77d63e0b70437a98fa9cf422519b94f00b979f08"
+        },
+        {
+          "field": "independent_auditor_sha256",
+          "source": "scripts/audit_frozen_observer_pilot.py",
+          "old": "bd1c9876a692bb9f39a99303d004956dc4cf5c03cfc833935e3fd18d8301c3d7",
+          "new": "793310697149a62075d0caf3351e0bf528d6edb2f750f6b49e88f012c802374f"
+        },
+        {
+          "field": "preflight_sha256",
+          "source": "experiments/stage3/frozen-observer-pilot/preflight.json",
+          "old": "14aaa31abfc2f33fdd79a112cd9008115d4da0262498c45d9149f99caa433f30",
+          "new": "fe4cb8297a2b8c63b876ad6eacf1fce56b3e9e057b7cbdd739c8e725f9dc4d92"
+        },
+        {
+          "field": "generation_root_review_sha256",
+          "source": "experiments/stage3/frozen-observer-pilot/root-review.json",
+          "old": "ba09b7f3ab448e6d4f661d7462271dc52273bca9ac643de30d83d99c472c21f5",
+          "new": "b1863d6787fd640d23bfe7026ec6e623da049dcaab4239db8e61756b45f12af6"
+        }
+      ]
+    }
+  ]
+}

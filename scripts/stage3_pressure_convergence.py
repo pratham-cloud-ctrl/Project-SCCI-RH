@@ -23,8 +23,8 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
-from ato.stage3 import pressure  # noqa: E402
-from ato.stage3.electrical import PressureDelivery  # noqa: E402
+from scci_rh.stage3 import pressure  # noqa: E402
+from scci_rh.stage3.electrical import PressureDelivery  # noqa: E402
 
 STEPS = (0.005, 0.0025, 0.00125)
 SEEDS = (0, 1, 2, 3)
@@ -303,7 +303,7 @@ def run_matrix(jobs=1, scope="full"):
     if any(len(hashes) != 1 for hashes in noise_by_seed.values()):
         raise AssertionError("Scenario or mode changed the matched physical sensor noise")
     return {
-        "schema": "ato.stage3.pressure-convergence.v1", "scope": scope,
+        "schema": "scci_rh.stage3.pressure-convergence.v1", "scope": scope,
         "claim_boundary": "Numerical accuracy of declared artificial pressure plant and averaged electrical adapter; no physiological efficacy, neural pressure decoder or continuous circuit integration is established.",
         "frozen_gates": GATES,
         "experiment": {"steps_s": STEPS, "seeds": SEEDS, "modes": ("off", "feedback"),
@@ -314,7 +314,7 @@ def run_matrix(jobs=1, scope="full"):
                        "stress_event_mode": "exact_timestamped_onset_release_gain_events",
                        "stress_parameters_frozen_before_results": [asdict(x) for x in stresses()]},
         "source_identity": {path: source_hash(path) for path in (
-            "src/ato/stage3/pressure.py", "src/ato/stage3/electrical.py",
+            "src/scci_rh/stage3/pressure.py", "src/scci_rh/stage3/electrical.py",
             "scripts/stage3_pressure_convergence.py")},
         "reproduction": {"rtol": RTOL, "atol": ATOL,
                          "noise_hash_policy": "Exact within-host identity; cross-platform compare RNG states/counts and numeric moments, not noise byte hashes."},
@@ -413,7 +413,7 @@ def summary_receipt(receipt):
                                         for run in group["runs"]],
                 "comparisons": findings,
             })
-    return {"schema": "ato.stage3.pressure-convergence-summary.v1",
+    return {"schema": "scci_rh.stage3.pressure-convergence-summary.v1",
             **{key: receipt[key] for key in (
                 "scope", "claim_boundary", "frozen_gates", "experiment", "source_identity",
                 "reproduction", "summary", "fixed_input_independent_reference", "remaining")},

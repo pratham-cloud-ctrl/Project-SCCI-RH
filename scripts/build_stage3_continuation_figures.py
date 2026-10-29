@@ -13,7 +13,7 @@ DATA = ROOT/'results/stage3/numerical'
 OUT = ROOT/'docs/stage3/figures'
 plt.rcParams.update({'font.family': 'DejaVu Sans', 'font.size': 10,
                      'axes.spines.top': False, 'axes.spines.right': False,
-                     'svg.hashsalt': 'ato-stage3-continuation', 'savefig.facecolor': 'white'})
+                     'svg.hashsalt': 'scci_rh-stage3-continuation', 'savefig.facecolor': 'white'})
 COLORS = {'legacy_endpoint': '#b75532', 'midpoint_exact_cascade': '#126c84'}
 
 

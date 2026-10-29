@@ -96,11 +96,11 @@ def scene_for(kind,exploded=False):
 
 future_only='--future-only' in sys.argv
 if future_only:
-    bpy.ops.wm.open_mainfile(filepath=str(OUT/'ATO_engineering_assemblies.blend'))
+    bpy.ops.wm.open_mainfile(filepath=str(OUT/'SCCI_RH_engineering_assemblies.blend'))
     for old in [s for s in bpy.data.scenes if s.name.startswith('future_')]:bpy.data.scenes.remove(old)
 else:bpy.ops.wm.read_factory_settings(use_empty=True)
 for kind in (('future',) if future_only else ('reference','future')):
     for exploded in (False,True):scene_for(kind,exploded)
 for empty in [s for s in bpy.data.scenes if not s.objects]:bpy.data.scenes.remove(empty)
-bpy.ops.wm.save_as_mainfile(filepath=str(OUT/'ATO_engineering_assemblies.blend'),compress=True)
+bpy.ops.wm.save_as_mainfile(filepath=str(OUT/'SCCI_RH_engineering_assemblies.blend'),compress=True)
 print('Savedfourtechnicalrendersandfour-sceneBlenderderivative.')

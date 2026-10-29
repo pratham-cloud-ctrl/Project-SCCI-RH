@@ -11,7 +11,7 @@ data = json.loads((HERE / "input-results.json").read_text(encoding="utf-8"))
 rows = {r["case"]: r for r in data["transient"]}
 plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 10,
                      "axes.spines.top": False, "axes.spines.right": False,
-                     "svg.hashsalt": "ato-recording-network-20261013"})
+                     "svg.hashsalt": "scci_rh-recording-network-20261013"})
 fig, axes = plt.subplots(2, 2, figsize=(11.4, 7.5), layout="constrained")
 for case, label in (("nominal_positive", "Positive input"), ("nominal_reference", "Shared reference"), ("feedthrough_10pF", "10 pF transfer stress")):
     with np.load(HERE / rows[case]["trace"]) as tr:
@@ -40,7 +40,7 @@ axes[1, 1].set(xlabel="Time (seconds)", ylabel="Ideal high-pass step residual (m
 axes[1, 1].legend(fontsize=8)
 for ax in axes.flat:
     ax.grid(axis="y", alpha=.15)
-fig.suptitle("ATO recording input network - finite passive model, not implant validation", fontsize=13)
+fig.suptitle("SCCI_RH recording input network - finite passive model, not implant validation", fontsize=13)
 fig.savefig(HERE / "input-network.png", dpi=180)
 fig.savefig(HERE / "input-network.svg", metadata={"Date": None})
 svg = HERE / "input-network.svg"

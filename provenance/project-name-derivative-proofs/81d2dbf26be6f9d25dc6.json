@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "provenance/stage4-integrated-pcb-verification.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "9bb78e27f09a2f59094672e96155bdd673299f9577b463cdd108b848b494ca5a",
+  "current_sha256": "6133ae2eaaef0c1656cbcc7294c099cfb2c9ad73fa89322c0c7dae230ba624f5",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-aggregate-validation.json",
+      "sha256_lf": "041fb7ecc3ccf5c9d2a03f10b5a7f43fa0eb670afb84c539bd3ef50e6f3f29ac"
+    }
+  ]
+}

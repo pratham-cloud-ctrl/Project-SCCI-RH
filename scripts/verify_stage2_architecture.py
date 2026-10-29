@@ -124,8 +124,8 @@ def verify():
     assert abs(native['volume_error_mm3'])<1e-4
     checks.append('Recorded local CAD execution:80 valid solids,36 ports, nominal major/can-port checks and FreeCAD volume round-trip')
     inspection=json.loads((ROOT/'cad/stage2/inspection-checks.json').read_text(encoding='utf-8'))
-    assert inspection['native_sha256']==sha(ROOT/'cad/stage2/ATO_stage2_allocation.FCStd')
-    assert inspection['step_sha256']==sha(ROOT/'cad/stage2/ATO_stage2_allocation.step')
+    assert inspection['native_sha256']==sha(ROOT/'cad/stage2/SCCI_RH_stage2_allocation.FCStd')
+    assert inspection['step_sha256']==sha(ROOT/'cad/stage2/SCCI_RH_stage2_allocation.step')
     assert inspection['allocation_receipt_canonical_json_sha256']==canonical_json_digest(ROOT/'cad/stage2/allocation-checks.json')
     assert inspection['nominal_pairs_checked']==3088 and inspection['intentional_header_interface_reservation_pairs']==72
     assert inspection['unexpected_positive_volume_intersections']==0 and inspection['all_valid_and_positive']
@@ -139,7 +139,7 @@ def verify():
     assert all(f'S2-X-{i:02d}' in exit_text for i in range(1,13))
     assert 'Stage 3 has not started' in exit_text
     checks.append('Full native nominal pair-inspection receipt binds CAD; all36 functional ports and twelve bounded Stage2 exit criteria are explicit')
-    pdf=ROOT/'output/pdf/ATO_stage2_architecture_budgets.pdf'
+    pdf=ROOT/'output/pdf/SCCI_RH_stage2_architecture_budgets.pdf'
     pages=PdfReader(pdf).pages
     assert len(pages)==8
     for i,page in enumerate(pages,1):
@@ -150,7 +150,7 @@ def verify():
     review=json.loads((ROOT/'provenance/stage2-review.json').read_text(encoding='utf-8'))
     assert review['pdf_visual_review']['sha256']==sha(pdf)
     assert review['pdf_visual_review']['page_count']==8
-    for name in ['ATO_stage2_allocation.step','ATO_stage2_allocation.FCStd']:
+    for name in ['SCCI_RH_stage2_allocation.step','SCCI_RH_stage2_allocation.FCStd']:
         assert review['cad_artifacts_sha256'][name]==sha(ROOT/'cad/stage2'/name)
     for name in ['recording-compute','artifact-timing','compliance-monitor','power-envelope','thermal-envelope','mechanical-allocation']:
         assert (DOC/'figures'/f'{name}.png').stat().st_size>10000

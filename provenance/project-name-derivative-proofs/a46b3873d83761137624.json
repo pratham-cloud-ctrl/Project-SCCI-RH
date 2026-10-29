@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "provenance/stage5-reference-phases/reference-mechanical-step.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "d1d016181fce873108d597ba4eda2f6df0a88350d8548e16ed05e20ae2ad26e4",
+  "current_sha256": "0e343df0ab8e9f572b73b538c2510b0c6b5cf845ca7eedee82d67ed8268041d5",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

@@ -212,7 +212,7 @@ evidence, not a simulation timestamp.
 ## Minimal finite first experiment and stop rule
 
 First implement a **new replay/integration study**, without changing any of the
-21 bound `src/ato` files, old study scripts or saved outcomes. It should prove
+21 bound `src/scci_rh` files, old study scripts or saved outcomes. It should prove
 the clock, one-shot, domain, monitoring, residual and expiry contracts above,
 using the exact frozen baseline method. It may import the immutable generator,
 delivery, response and guard components, but new wrapper modules own the new
@@ -266,16 +266,16 @@ Stage 3 ends with an unfavorable or bounded verdict.
 
 ## Source evidence inspected
 
-- `src/ato/stage3/isolated_pilot.py`: pure chooser at 103; conservative context
+- `src/scci_rh/stage3/isolated_pilot.py`: pure chooser at 103; conservative context
   aggregation at 229; trial wrapper at 258; actual monitor handling at 292;
   pre-launch warmup at 310; frozen historical decision at 324; launch at 345;
   whole-frame body-drive completion at 356.
-- `src/ato/stage3/residual_guard.py`: age/expiry at 22 and 54; strictly future
+- `src/scci_rh/stage3/residual_guard.py`: age/expiry at 22 and 54; strictly future
   commit condition at 67; replay/age and missing-target rejection at 89 and 97.
-- `src/ato/stage3/dynamic_response.py`: observed isolated calibration at 153;
+- `src/scci_rh/stage3/dynamic_response.py`: observed isolated calibration at 153;
   full gain/dose product at 234; future response at 259; complete past-response
   history and unqualified tail-release boundary at 288.
-- `src/ato/stage3/sparse_baseline.py`: exact support/action-pattern domains,
+- `src/scci_rh/stage3/sparse_baseline.py`: exact support/action-pattern domains,
   intersection rather than union, strip/re-add live interval mechanism.
 - `scripts/stage3_dynamic_response_study.py`: explicit learning=False at 72
   and 94; exact inherited action-response receipt in the saved summary.

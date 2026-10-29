@@ -1,5 +1,5 @@
 {
-  "schema": "ato.carrier-grid-escape.v1",
+  "schema": "scci_rh.carrier-grid-escape.v1",
   "scope": "Actual 0.15 mm traces / 0.6 mm diameter / 0.3 mm drill vias; digital native DRC required. Via filling/capping under LGA pads remains fabrication dependent.",
   "steps": [
     {

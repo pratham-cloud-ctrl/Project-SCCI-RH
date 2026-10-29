@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/boards/controller-carrier/placement.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "3f44117376a95abdbb2a7a1cfba28ad7aec06688ff7f2b99b071616418d17bc8",
+  "current_sha256": "c28641d0003e8285a244c2d9dd19c1e3c74dc855ff233d5d8e2031d9947c70be",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

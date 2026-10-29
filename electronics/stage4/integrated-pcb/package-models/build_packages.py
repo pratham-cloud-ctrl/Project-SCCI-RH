@@ -62,7 +62,7 @@ def main(selected=None):
  d=json.loads((HERE/'package-inputs.json').read_text());rows=[]
  for row in d['models']:
   if selected and row['name'] not in selected:continue
-  doc=App.newDocument('ATO_'+row['name'][:28]);shapes=make(row)
+  doc=App.newDocument('SCCI_RH_'+row['name'][:28]);shapes=make(row)
   objects=[]
   for i,shape in enumerate(shapes):
    assert not shape.isNull() and shape.isValid() and shape.Volume>0,(row['name'],i)
@@ -87,7 +87,7 @@ def main(selected=None):
  if selected:
   prior=json.loads((HERE/'verification.json').read_text())
   rows=[r for r in prior['models'] if r['name'] not in selected]+rows
- result=dict(schema='ato.nominal-package-models.v1',scope=d['scope'],height_policy=d['height_policy'],
+ result=dict(schema='scci_rh.nominal-package-models.v1',scope=d['scope'],height_policy=d['height_policy'],
              axes=d['local_model_axes'],FreeCAD_version=App.Version()[:3],models=rows)
  (HERE/'verification.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8')
  print(f'{len(rows)} native FreeCAD/STEP packages exported and reimported; all solids valid')

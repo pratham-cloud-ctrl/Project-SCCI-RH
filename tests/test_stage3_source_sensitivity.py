@@ -2,7 +2,7 @@
 import unittest
 from copy import deepcopy
 import numpy as np
-from ato.stage3.source_sensitivity import (MovingBodyReference, capture, compare_sources,
+from scci_rh.stage3.source_sensitivity import (MovingBodyReference, capture, compare_sources,
                                            compare_reference_grids, ambiguous_witness)
 
 

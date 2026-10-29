@@ -11,7 +11,7 @@ data=json.loads((HERE/"results.json").read_text(encoding="utf-8"))
 fine={r["case"]:r for r in data["runs"] if r["maximum_step_s"]==min(data["grids_s"])}
 plt.rcParams.update({"font.family":"DejaVu Sans","font.size":10,
                     "axes.spines.top":False,"axes.spines.right":False,
-                    "svg.hashsalt":"ato-driver-20261013"})
+                    "svg.hashsalt":"scci_rh-driver-20261013"})
 
 fig,axes=plt.subplots(2,1,figsize=(10,6.6),layout="constrained")
 row=fine["nominal"]
@@ -37,7 +37,7 @@ axes[1].tick_params(axis="x",labelrotation=28)
 axes[1].set(ylabel="First-phase load charge (nC)",title="Selected model stresses; source 0, 25 ns maximum step")
 axes[1].legend(fontsize=8)
 for ax in axes:ax.grid(axis="y",alpha=.15)
-fig.suptitle("ATO driver study - behavioral model, not component validation",fontsize=13)
+fig.suptitle("SCCI_RH driver study - behavioral model, not component validation",fontsize=13)
 fig.savefig(HERE/"driver-waveforms.png",dpi=180)
 fig.savefig(HERE/"driver-waveforms.svg",metadata={"Date":None})
 plt.close(fig)

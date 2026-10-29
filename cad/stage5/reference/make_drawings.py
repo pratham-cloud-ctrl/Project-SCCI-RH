@@ -11,7 +11,7 @@ def line(x,y,xx,yy,stroke='#62768a',width=1,dash=''):
 def rect(x,y,w,h,fill='none',stroke='#53677b',width=1,dash=''):
     return f'<rect x="{x}" y="{y}" width="{w}" height="{h}" fill="{fill}" stroke="{stroke}" stroke-width="{width}"'+(f' stroke-dasharray="{dash}"' if dash else '')+'/>'
 def header(title,sub):
-    return '<svg xmlns="http://www.w3.org/2000/svg" width="1191" height="842" viewBox="0 0 1191 842"><rect width="1191" height="842" fill="#fff"/><g font-family="Arial, sans-serif">'+t(44,39,'PROJECT ATO / STAGE 5',16,'#087b86','bold')+t(44,69,title,24,'#182c43','bold')+t(44,91,sub,12)
+    return '<svg xmlns="http://www.w3.org/2000/svg" width="1191" height="842" viewBox="0 0 1191 842"><rect width="1191" height="842" fill="#fff"/><g font-family="Arial, sans-serif">'+t(44,39,'PROJECT SCCI RH / STAGE 5',16,'#087b86','bold')+t(44,69,title,24,'#182c43','bold')+t(44,91,sub,12)
 def footer(sheet):
     return rect(35,776,1120,40,'#f2f5f8','#a4b0bc')+t(47,794,'DIGITAL REFERENCE / dimensions in mm / nominal geometry / no manufacturing or physical qualification',12)+t(47,809,'Source: cad/stage5/reference/contract.json and native KiCad mounting datums | '+sheet,11)+'</g></svg>'
 def dimh(x1,x2,y,label):

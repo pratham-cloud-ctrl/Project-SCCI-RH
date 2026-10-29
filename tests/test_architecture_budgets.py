@@ -7,7 +7,7 @@ from pathlib import Path
 import unittest
 
 ROOT=Path(__file__).resolve().parents[1]
-spec=importlib.util.spec_from_file_location('ato_budgets',ROOT/'scripts/run_architecture_budgets.py')
+spec=importlib.util.spec_from_file_location('scci_rh_budgets',ROOT/'scripts/run_architecture_budgets.py')
 budgets=importlib.util.module_from_spec(spec)
 spec.loader.exec_module(budgets)
 

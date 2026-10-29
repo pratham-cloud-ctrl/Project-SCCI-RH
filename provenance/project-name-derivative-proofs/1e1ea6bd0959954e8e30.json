@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "provenance/stage5-reference-clearance/manifest.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "026a72f04c9ec5a530ca20190409c20b085b3070d50852d3afab1a065a8bc2cb",
+  "current_sha256": "dac6b18b4f2f2aec5bf5bb75d6b87b167b71f9133d8b3e33050961904c3e311a",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-stage5-path-bindings.json",
+      "sha256_lf": "6c90dcfa2f42bd6fd13192085d223cc436b26784cc0c1bf97270acb7b16c27a2"
+    }
+  ]
+}

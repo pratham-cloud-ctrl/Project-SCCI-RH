@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/monitoring-cell/verification.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "96e8a98998a6d1b9440a863579821cf5184299b36accf3f61b48cf521fc41380",
+  "current_sha256": "6b7ac08cf3a84cc2d25cc6eded5f606d57206a69fd2eb4d41edfd5217c85e973",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

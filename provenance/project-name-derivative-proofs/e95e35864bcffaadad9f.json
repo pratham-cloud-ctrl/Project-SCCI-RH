@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "provenance/stage4-mcp-readiness.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "06050c589c8cab0471ee3cec530d93ac9e073ea9858c53ad054a999f1be3fc3b",
+  "current_sha256": "16a5ff3c78c068800b8a2bfd533ce07858a0b133ea6d05e969201b37a8eef67f",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

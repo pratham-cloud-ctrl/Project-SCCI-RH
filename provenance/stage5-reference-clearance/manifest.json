@@ -1,46 +1,46 @@
 {
-  "schema": "ato.stage5.actual-clearance-probe.v1",
+  "schema": "scci_rh.stage5.actual-clearance-probe.v1",
   "date": "2026-10-16",
   "scope": "Byte-exact preservation of actual completed read-only clearance probe; no new run, no reconstructed completion receipt, no physical qualification",
   "files": {
     "executed_source": {
       "path": "provenance/stage5-reference-clearance/executed-probe.py.txt",
       "source_tmp": "tmp/stage5-clearance-probe-optimal.py",
-      "sha256": "e8548ec4b2bafb87c7f4e53ae9b3e455165bdfe600dd19853570a49a2627e0bc",
-      "bytes": 3460,
-      "sha256_lf": "6c3d892df0588309cdc2ad337606084b1a3398bfda9bfb5bc5bc1aac088b566d"
+      "sha256": "1736a1c289ed394ad42f6fb7ecaebf3997f07eef4e5bdd649fc8564475fd34c8",
+      "bytes": 3406,
+      "sha256_lf": "1736a1c289ed394ad42f6fb7ecaebf3997f07eef4e5bdd649fc8564475fd34c8"
     },
     "raw_results": {
       "path": "provenance/stage5-reference-clearance/raw-results.json",
       "source_tmp": "tmp/stage5-clearance-probe-optimal.json",
-      "sha256": "e2eed1c565eb3420c04c8a28ed02d814996668c32b6f31b19ba53ed181674005",
-      "bytes": 8600
+      "sha256": "32a0d1e9cf516983e75ef2a87e1c807d0d165cf55e98c631dab0dd80115cbea3",
+      "bytes": 8339
     },
     "raw_summary": {
       "path": "provenance/stage5-reference-clearance/raw-summary.json",
       "source_tmp": "tmp/stage5-clearance-probe-summary.json",
-      "sha256": "4b75eb0db7df664aa992b621e99741c22e3725ac8140dfa7be4a27a4e1529d73",
-      "bytes": 3064
+      "sha256": "40cc17778003cb852a40397643a54f39d442b6d99d5a13705af2821b61e0593b",
+      "bytes": 2954
     },
     "raw_topology": {
       "path": "provenance/stage5-reference-clearance/raw-topology.json",
       "source_tmp": "tmp/stage5-clearance-probe-topology.json",
-      "sha256": "158bddb09dc76e34930c51207ea9950eb6f20778731517691d28e22682f2426b",
-      "bytes": 2065
+      "sha256": "67ae3719ea25e9797ca0fcd7088193c1e10263d3effea733acca5146fdd1c923",
+      "bytes": 1967
     },
     "raw_log": {
       "path": "provenance/stage5-reference-clearance/raw-execution.log",
       "source_tmp": "tmp/stage5-clearance-probe-optimal.log",
-      "sha256": "c5fee0d225c0ee62a7795e7abb0d55247031a37fbae8cb3e11036f2ee1c36ad2",
-      "bytes": 16378
+      "sha256": "c574230e6ae2cee4e08c327df888bb70cc8b98600ccf7d40e1311013c2f6d3af",
+      "bytes": 16263
     }
   },
   "bindings": {
-    "native_path": "cad/stage5/reference/ATO_reference_assembly.FCStd",
-    "native_sha256": "764a4e7a9ec8212fefb1c9c0deb7cab2ee76a5c9e72b2895f9199c98d0e5ae9a",
+    "native_path": "cad/stage5/reference/SCCI_RH_reference_assembly.FCStd",
+    "native_sha256": "eb720889c30de3c15015d1a4c765cc5791eeb8b4df733da222730497acd88dd3",
     "contract_path": "cad/stage5/reference/contract.json",
-    "contract_canonical_sha256": "6e02bb9182e470fa4b10212b1698e890d7a93990480bccb4ce6f098eeed32409",
-    "contract_sha256_lf": "fac7dbf1b86d415f4ed852c87a726de262618e160e37c1b25dba29fb41264c56",
+    "contract_canonical_sha256": "03c3e48d2394b907d2337928ad9f8dda9af95786c0afabeeae7f5d4013e517c2",
+    "contract_sha256_lf": "036c7043e2f8545f05dec28b7376ef1b51577fd959b55e1254797889f450d1a5",
     "current_bindings_verified_unchanged_at_archive": true
   },
   "measurements": {

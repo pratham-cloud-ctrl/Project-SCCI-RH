@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/power/mcp-inspection.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "23a7518631d71a987484696084e247767e54526b299355ec25c5f5a7cd374ea1",
+  "current_sha256": "ebdedd4f68e3e2a7eeab0c1afb2d3201ccbf6c75f39f835beb7dd41a40c6bbc0",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

@@ -14,12 +14,15 @@ import json
 from pathlib import Path, PurePosixPath
 import re
 import subprocess
+import sys
 from urllib.parse import unquote
 import zipfile
 
 from pypdf import PdfReader
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT/'scripts'))
+from project_branding import assert_baseline_equivalence
 CONTRACT = ROOT / 'docs/stage6/release-contract.json'
 REPORT = ROOT / 'provenance/stage6-release-verification.json'
 TEXT_SUFFIXES = {'.py', '.c', '.h', '.md', '.json', '.yml', '.yaml', '.txt', '.csv',
@@ -109,8 +112,8 @@ def audit():
         assert condition, description
         checks += 1
 
-    check(contract['schema'] == 'ato.stage6.release-contract.v1', 'release schema')
-    check(re.fullmatch(r'2\.0\.\d+', contract['version']) and
+    check(contract['schema'] == 'scci_rh.stage6.release-contract.v1', 'release schema')
+    check(re.fullmatch(r'2\.(?:0|1)\.\d+', contract['version']) and
           contract['tag'] == 'v' + contract['version'],
           'new release leaves historical v1 tag distinct')
     check(contract['limitations']['assumptions_permitted_when_explicit_and_defensible'],
@@ -135,14 +138,8 @@ def audit():
                  if name not in mutable]
     check(len(preserved) == contract['baseline_tracked_files'] - len(mutable),
           'complete previous digital release retained')
-    for name, _ in preserved:
-        check((ROOT / name).is_file(), 'preserved baseline file exists: ' + name)
-    actual = git('hash-object', '--stdin-paths',
-                 input=('\n'.join(name for name, _ in preserved) + '\n').encode('utf-8'))
-    actual = actual.decode('ascii').splitlines()
-    check(len(actual) == len(preserved), 'all baseline files hashed with Git filters')
-    for (name, blob), current in zip(preserved, actual):
-        check(current == blob, 'Stage 1–5 file unchanged: ' + name)
+    migration = assert_baseline_equivalence(ROOT, baseline, preserved)
+    check(migration['files_compared'] == len(preserved), 'every Stage 1-5 historical identity checked after authorized branding migration')
     preserved_digest = hashlib.sha256(''.join(name + ' ' + blob + '\n'
                                              for name, blob in preserved).encode()).hexdigest()
 
@@ -205,7 +202,7 @@ def audit():
               'valid manuscript page dimensions ' + str(i + 1))
         texts.append(text)
     build = json.loads((ROOT / manuscript['build_manifest']).read_text(encoding='utf-8-sig'))
-    check(build['schema'] == 'ato.stage6.manuscript-build.v1' and
+    check(build['schema'] == 'scci_rh.stage6.manuscript-build.v1' and
           build['version'] == contract['version'] and build['date'] == contract['date'],
           'current manuscript build identity')
     check(build['release_contract_sha256_lf'] == sha(CONTRACT, True),
@@ -245,7 +242,7 @@ def audit():
     for row in rows:
         check(all(row.get(field) for field in ('title', 'url', 'cohort', 'access_and_signal',
                                                'supported_claim', 'not_established',
-                                               'ato_inference', 'verification_depth')),
+                                               'scci_rh_inference', 'verification_depth')),
               'evidence/inference/limitation fields: ' + row['id'])
         check(re.search(r'\b' + row['id'] + r'\b', pdf_text) is not None,
               'reference appears in final PDF: ' + row['id'])
@@ -339,6 +336,7 @@ def audit():
         bound.update(path for path in (ROOT / directory).rglob('*')
                      if path.is_file() and '__pycache__' not in path.parts)
     bound.add(Path(__file__))
+    bound.add(ROOT/'scripts/project_branding.py')
     bound.discard(REPORT)
     bound.discard(ROOT / 'provenance/manifest.sha256')
     artifacts = {}
@@ -349,12 +347,12 @@ def audit():
         artifacts[name] = {'sha256': sha(path, normalized),
                            'text_normalized': normalized}
     return {
-        'schema': 'ato.stage6.release-verification.v1', 'passed': True,
+        'schema': 'scci_rh.stage6.release-verification.v1', 'passed': True,
         'version': contract['version'], 'date': contract['date'],
         'scope': contract['scope'], 'checks': checks,
-        'baseline': {'commit': baseline, 'preserved_files': len(preserved),
+        'baseline': {'commit': baseline, 'historical_source_files': len(preserved),
                      'path_and_blob_sha256': preserved_digest,
-                     'mutable_entries': sorted(mutable)},
+                     'mutable_entries': sorted(mutable), 'authorized_brand_migration': migration},
         'manuscript': {'pages': len(reader.pages), 'pdf_sha256': sha(pdf),
                        'all_pages_visually_reviewed': True,
                        'primary_and_inspiration_references': len(rows),

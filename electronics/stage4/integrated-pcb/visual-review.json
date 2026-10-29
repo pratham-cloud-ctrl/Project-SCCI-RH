@@ -1,32 +1,32 @@
 {
-  "schema": "ato.populated-board-visual-review.v1",
+  "schema": "scci_rh.populated-board-visual-review.v1",
   "date": "2026-10-16",
   "method": "Direct inspection of actual native KiCad PNG exports; one or more views per board",
   "reviewed": {
     "monitoring-cell": {
-      "top.png": "cca5b173e264b00dff21f0f6acb322f7c54279676aa3d9b9d0553ec30cc9b2a0"
+      "top.png": "3c9dc8710896ffa35ea62991cd319646bfe56c89aac65a1ebac65fade78ae7c4"
     },
     "current-driver": {
-      "isometric.png": "53db4c11b9151c200758f854908e0674fc5773f73ed91d62b39200c9cb321663"
+      "isometric.png": "282110b05c2c97d8993a97ad80abcad9cc16b932e7fa7166dd52dcc9a668c120"
     },
     "recording-front-end": {
-      "isometric.png": "d44be0e86e848e436673005bfa550c224e060668ebd8798d4b72bbfa86d5e45f"
+      "isometric.png": "6b3527f0f0f0d1b2476833611379dfbe660664a3946d25a8101124e62ab9a058"
     },
     "contact-router": {
-      "top.png": "ad1a03d004ba2c8fb7a4ee605ba06cbd8a9598172082196b25051a7a5e5c556c"
+      "top.png": "3dbe9c2897d3a28b20a6cf3d78e56d9ac4bd2b0152ea5db1856abfd9ebb20b06"
     },
     "supervision": {
-      "top.png": "57cd9d01465393d4a23e16f8f0d91591d3acbeb7e661c95cff33bd8a6dc96d60"
+      "top.png": "23d968bd900d580d79f15ae071bd8de53be06fdf3f731229e99acdf5ee1c43c9"
     },
     "power": {
-      "top.png": "4669ccf672318f3ba96a206a01aa48edaac1639cc553d388c6285f015f98264f"
+      "top.png": "fb4dcba8ae908ee1419ec2e428a188e8c6cb5034908b078e3a5561a101ea7459"
     },
     "monitoring-transport": {
-      "top.png": "9c63ebe90b7bcb4cea254b8af2b555ed1f38a3dfe521b4fd778b975d6aea3dc4",
-      "isometric.png": "abc2ba2797c3b9968cb71815fa7e7436475961e61f02ac287c50ee7fb9519f2b"
+      "top.png": "576b99db4ae3a2f64645531032dc8491dfdee354a23187af4a41fb938bdd28d9",
+      "isometric.png": "3386ecc80941c2b43cbba6ea2c2661fc5e276d072e24190e7c462223216b0544"
     },
     "controller-carrier": {
-      "isometric.png": "dbc8d910c7e2aa9838250f898e67bb7067638c2bf3a6935691fe1f8954890953"
+      "isometric.png": "34f7c5aa5f183be255f69235e080a091694264b342d24419bfe9452fa5a830a0"
     }
   },
   "findings": "All eight board outlines and component groups visible; no gross missing packages or image-edge clipping in reviewed views. Clean functional labels and connector references present.",

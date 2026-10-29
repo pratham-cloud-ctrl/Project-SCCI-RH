@@ -3,9 +3,9 @@ import unittest
 from dataclasses import replace, fields
 import numpy as np
 
-from ato.stage3.acquisition import AcquisitionConfig, ContactAcquisition, NeuralFeatures, artifact_coverage
-from ato.stage3.electrical import MotorDelivery
-from ato.stage3.motor import (MotorConfig, Observation, StateEstimate, LearnerMap,
+from scci_rh.stage3.acquisition import AcquisitionConfig, ContactAcquisition, NeuralFeatures, artifact_coverage
+from scci_rh.stage3.electrical import MotorDelivery
+from scci_rh.stage3.motor import (MotorConfig, Observation, StateEstimate, LearnerMap,
                              ExpertRepresentation, CausalDecoder, _World, _pulse,
                              _capture, calibrate, control_request, run_study)
 

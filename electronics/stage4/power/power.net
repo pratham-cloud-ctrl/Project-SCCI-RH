@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "E:\\Project ATO\\electronics\\stage4\\power\\power.kicad_sch")
+		(source "E:\\Project SCCI RH\\electronics\\stage4\\power\\power.kicad_sch")
 		(date "2026-10-14T08:53:10")
 		(tool "Eeschema 10.0.6")
 		(sheet
@@ -9,8 +9,8 @@
 			(name "/")
 			(tstamps "/")
 			(title_block
-				(title "ATO S4 / Interfaces and rail handoff")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Interfaces and rail handoff")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-14")
 				(source "power.kicad_sch")
@@ -57,8 +57,8 @@
 			(name "/input/")
 			(tstamps "/9cf9d8f3-9afc-5ab4-86f9-69f764afcf96/")
 			(title_block
-				(title "ATO S4 / Protected pack and input disconnect")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Protected pack and input disconnect")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-14")
 				(source "input.kicad_sch")
@@ -105,8 +105,8 @@
 			(name "/sup3/")
 			(tstamps "/89ca6592-bf0d-59bc-8d56-4fd186ef9538/")
 			(title_block
-				(title "ATO S4 / Always-on supervisor 3.3 V")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Always-on supervisor 3.3 V")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-14")
 				(source "sup3.kicad_sch")
@@ -153,8 +153,8 @@
 			(name "/sup5/")
 			(tstamps "/46556590-4c8b-50c9-b0cc-ce7439bebd85/")
 			(title_block
-				(title "ATO S4 / Always-on supervisor 5 V")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Always-on supervisor 5 V")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-14")
 				(source "sup5.kicad_sch")
@@ -201,8 +201,8 @@
 			(name "/host3/")
 			(tstamps "/83342de3-57ea-55f1-847c-66d90cc12cba/")
 			(title_block
-				(title "ATO S4 / Host logic 3.3 V")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Host logic 3.3 V")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-14")
 				(source "host3.kicad_sch")
@@ -249,8 +249,8 @@
 			(name "/host5/")
 			(tstamps "/c89b1743-94f1-5f68-9831-4cb8d564524f/")
 			(title_block
-				(title "ATO S4 / Host and module input 5 V")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Host and module input 5 V")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-14")
 				(source "host5.kicad_sch")
@@ -297,8 +297,8 @@
 			(name "/enable/")
 			(tstamps "/8cda357d-bff1-5c46-93cf-62ab312f1ed8/")
 			(title_block
-				(title "ATO S4 / Native battery and startup qualification")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Native battery and startup qualification")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-14")
 				(source "enable.kicad_sch")
@@ -345,8 +345,8 @@
 			(name "/enable_2/")
 			(tstamps "/18174f0d-ecfc-5d7f-bdde-65738f018f18/")
 			(title_block
-				(title "ATO S4 / Native battery and startup qualification / 2")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Native battery and startup qualification / 2")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-14")
 				(source "enable_2.kicad_sch")
@@ -393,8 +393,8 @@
 			(name "/enable_3/")
 			(tstamps "/ea6916ee-24ac-5b90-ae69-08f0976595a8/")
 			(title_block
-				(title "ATO S4 / Native battery and startup qualification / 3")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Native battery and startup qualification / 3")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-14")
 				(source "enable_3.kicad_sch")
@@ -441,8 +441,8 @@
 			(name "/boost15/")
 			(tstamps "/bd31b7c1-2130-55f3-9970-1979734b4ef2/")
 			(title_block
-				(title "ATO S4 / Host 15 V boost")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Host 15 V boost")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-14")
 				(source "boost15.kicad_sch")
@@ -489,8 +489,8 @@
 			(name "/boost24/")
 			(tstamps "/eb08a0bc-7a5d-513c-b779-35124cc20e33/")
 			(title_block
-				(title "ATO S4 / Stimulation 24 V boost")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Stimulation 24 V boost")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-14")
 				(source "boost24.kicad_sch")
@@ -537,8 +537,8 @@
 			(name "/island/")
 			(tstamps "/4a283887-5855-55f7-9246-dd333eaf7f6c/")
 			(title_block
-				(title "ATO S4 / Floating recording power module")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Floating recording power module")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-14")
 				(source "island.kicad_sch")
@@ -585,8 +585,8 @@
 			(name "/afe3/")
 			(tstamps "/edbc1995-1b61-556f-a5ee-1edca4b55a3a/")
 			(title_block
-				(title "ATO S4 / Floating AFE 3.45 V regulator")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Floating AFE 3.45 V regulator")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-14")
 				(source "afe3.kicad_sch")
@@ -633,8 +633,8 @@
 			(name "/afep/")
 			(tstamps "/7c33edc9-b1e1-581c-8efa-f7dabfc59779/")
 			(title_block
-				(title "ATO S4 / Floating AFE +5.30 V regulator")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Floating AFE +5.30 V regulator")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-14")
 				(source "afep.kicad_sch")
@@ -681,8 +681,8 @@
 			(name "/afen/")
 			(tstamps "/a8505644-e510-5c7d-b795-5da370fc8522/")
 			(title_block
-				(title "ATO S4 / Floating AFE -5.10 V regulator")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Floating AFE -5.10 V regulator")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-14")
 				(source "afen.kicad_sch")
@@ -729,10 +729,10 @@
 		(comp
 			(ref "J1")
 			(value "AT31004 PROTECTED 2S PACK / 6.4 TO 8.4V")
-			(footprint "ato_power:PinHeader_1x02_P2.54mm_Vertical")
+			(footprint "scci_rh_power:PinHeader_1x02_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_power:PinHeader_1x02_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_power:PinHeader_1x02_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -741,7 +741,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "J1")
 				(description "")
 			)
@@ -775,10 +775,10 @@
 		(comp
 			(ref "J2")
 			(value "POWER REQUEST / STATUS")
-			(footprint "ato_power:PinHeader_1x12_P2.54mm_Vertical")
+			(footprint "scci_rh_power:PinHeader_1x12_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_power:PinHeader_1x12_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_power:PinHeader_1x12_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -787,7 +787,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "J2")
 				(description "")
 			)
@@ -851,10 +851,10 @@
 		(comp
 			(ref "J3")
 			(value "HOST AND SUPERVISOR RAILS")
-			(footprint "ato_power:PinHeader_1x07_P2.54mm_Vertical")
+			(footprint "scci_rh_power:PinHeader_1x07_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_power:PinHeader_1x07_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_power:PinHeader_1x07_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -863,7 +863,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "J3")
 				(description "")
 			)
@@ -912,10 +912,10 @@
 		(comp
 			(ref "J4")
 			(value "FLOATING RECORDING RAILS")
-			(footprint "ato_power:PinHeader_1x04_P2.54mm_Vertical")
+			(footprint "scci_rh_power:PinHeader_1x04_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_power:PinHeader_1x04_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_power:PinHeader_1x04_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -924,7 +924,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "J4")
 				(description "")
 			)
@@ -964,10 +964,10 @@
 		(comp
 			(ref "J5")
 			(value "CONVERTER TEST POINTS")
-			(footprint "ato_power:PinHeader_1x05_P2.54mm_Vertical")
+			(footprint "scci_rh_power:PinHeader_1x05_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_power:PinHeader_1x05_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_power:PinHeader_1x05_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -976,7 +976,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "J5")
 				(description "")
 			)
@@ -1019,10 +1019,10 @@
 		(comp
 			(ref "J6")
 			(value "EXISTING MONITOR REFERENCES")
-			(footprint "ato_power:PinHeader_1x03_P2.54mm_Vertical")
+			(footprint "scci_rh_power:PinHeader_1x03_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_power:PinHeader_1x03_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_power:PinHeader_1x03_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -1031,7 +1031,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "J6")
 				(description "")
 			)
@@ -1068,10 +1068,10 @@
 		(comp
 			(ref "C1")
 			(value "100u 16V LOW ESR")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1080,7 +1080,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C1")
 				(description "")
 			)
@@ -1114,10 +1114,10 @@
 		(comp
 			(ref "C2")
 			(value "100n X7R 25V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1126,7 +1126,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C2")
 				(description "")
 			)
@@ -1160,11 +1160,11 @@
 		(comp
 			(ref "D1")
 			(value "SS34-E3/57T")
-			(footprint "ato_power:D_SMC")
+			(footprint "scci_rh_power:D_SMC")
 			(datasheet "https://www.vishay.com/docs/88751/ss32.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:D_SMC")
+					(name "Footprint") "scci_rh_power:D_SMC")
 				(field
 					(name "Datasheet") "https://www.vishay.com/docs/88751/ss32.pdf")
 				(field
@@ -1172,7 +1172,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "D1")
 				(description "")
 			)
@@ -1206,10 +1206,10 @@
 		(comp
 			(ref "F1")
 			(value "2A FUSE 1206")
-			(footprint "ato_power:Fuse_1206_3216Metric")
+			(footprint "scci_rh_power:Fuse_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:Fuse_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:Fuse_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1218,7 +1218,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "F1")
 				(description "")
 			)
@@ -1252,10 +1252,10 @@
 		(comp
 			(ref "SW1")
 			(value "MASTER SPST / OFFBOARD")
-			(footprint "ato_power:PinHeader_1x02_P2.54mm_Vertical")
+			(footprint "scci_rh_power:PinHeader_1x02_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_power:PinHeader_1x02_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_power:PinHeader_1x02_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -1264,7 +1264,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "SW1")
 				(description "")
 			)
@@ -1298,10 +1298,10 @@
 		(comp
 			(ref "C1000")
 			(value "10u X7R 25V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1310,7 +1310,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C1000")
 				(description "")
 			)
@@ -1344,10 +1344,10 @@
 		(comp
 			(ref "C1001")
 			(value "22u X7R 16V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1356,7 +1356,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C1001")
 				(description "")
 			)
@@ -1390,10 +1390,10 @@
 		(comp
 			(ref "L100")
 			(value "2.2uH SRP5030T-2R2M")
-			(footprint "ato_power:L_Bourns_SRP5030T")
+			(footprint "scci_rh_power:L_Bourns_SRP5030T")
 			(fields
 				(field
-					(name "Footprint") "ato_power:L_Bourns_SRP5030T")
+					(name "Footprint") "scci_rh_power:L_Bourns_SRP5030T")
 				(field
 					(name "Datasheet")
 				)
@@ -1402,7 +1402,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "L100")
 				(description "")
 			)
@@ -1436,10 +1436,10 @@
 		(comp
 			(ref "R1000")
 			(value "31250R 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1448,7 +1448,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R1000")
 				(description "")
 			)
@@ -1482,10 +1482,10 @@
 		(comp
 			(ref "R1001")
 			(value "10000R 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1494,7 +1494,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R1001")
 				(description "")
 			)
@@ -1528,10 +1528,10 @@
 		(comp
 			(ref "R1002")
 			(value "100k")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1540,7 +1540,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R1002")
 				(description "")
 			)
@@ -1574,10 +1574,10 @@
 		(comp
 			(ref "R1003")
 			(value "47k")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1586,7 +1586,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R1003")
 				(description "")
 			)
@@ -1620,11 +1620,11 @@
 		(comp
 			(ref "U100")
 			(value "TPS62160DGKR")
-			(footprint "ato_power:VSSOP-8_3x3mm_P0.65mm")
+			(footprint "scci_rh_power:VSSOP-8_3x3mm_P0.65mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tps62160.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:VSSOP-8_3x3mm_P0.65mm")
+					(name "Footprint") "scci_rh_power:VSSOP-8_3x3mm_P0.65mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps62160.pdf")
 				(field
@@ -1632,7 +1632,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "U100")
 				(description "")
 			)
@@ -1684,10 +1684,10 @@
 		(comp
 			(ref "C1010")
 			(value "10u X7R 25V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1696,7 +1696,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C1010")
 				(description "")
 			)
@@ -1730,10 +1730,10 @@
 		(comp
 			(ref "C1011")
 			(value "22u X7R 16V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1742,7 +1742,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C1011")
 				(description "")
 			)
@@ -1776,10 +1776,10 @@
 		(comp
 			(ref "L101")
 			(value "2.2uH SRP5030T-2R2M")
-			(footprint "ato_power:L_Bourns_SRP5030T")
+			(footprint "scci_rh_power:L_Bourns_SRP5030T")
 			(fields
 				(field
-					(name "Footprint") "ato_power:L_Bourns_SRP5030T")
+					(name "Footprint") "scci_rh_power:L_Bourns_SRP5030T")
 				(field
 					(name "Datasheet")
 				)
@@ -1788,7 +1788,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "L101")
 				(description "")
 			)
@@ -1822,10 +1822,10 @@
 		(comp
 			(ref "R1010")
 			(value "52500R 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1834,7 +1834,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R1010")
 				(description "")
 			)
@@ -1868,10 +1868,10 @@
 		(comp
 			(ref "R1011")
 			(value "10000R 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1880,7 +1880,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R1011")
 				(description "")
 			)
@@ -1914,10 +1914,10 @@
 		(comp
 			(ref "R1012")
 			(value "100k")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1926,7 +1926,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R1012")
 				(description "")
 			)
@@ -1960,10 +1960,10 @@
 		(comp
 			(ref "R1013")
 			(value "47k")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1972,7 +1972,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R1013")
 				(description "")
 			)
@@ -2006,11 +2006,11 @@
 		(comp
 			(ref "U101")
 			(value "TPS62160DGKR")
-			(footprint "ato_power:VSSOP-8_3x3mm_P0.65mm")
+			(footprint "scci_rh_power:VSSOP-8_3x3mm_P0.65mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tps62160.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:VSSOP-8_3x3mm_P0.65mm")
+					(name "Footprint") "scci_rh_power:VSSOP-8_3x3mm_P0.65mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps62160.pdf")
 				(field
@@ -2018,7 +2018,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "U101")
 				(description "")
 			)
@@ -2070,10 +2070,10 @@
 		(comp
 			(ref "C1020")
 			(value "10u X7R 25V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2082,7 +2082,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C1020")
 				(description "")
 			)
@@ -2116,10 +2116,10 @@
 		(comp
 			(ref "C1021")
 			(value "22u X7R 16V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2128,7 +2128,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C1021")
 				(description "")
 			)
@@ -2162,10 +2162,10 @@
 		(comp
 			(ref "L102")
 			(value "2.2uH SRP5030T-2R2M")
-			(footprint "ato_power:L_Bourns_SRP5030T")
+			(footprint "scci_rh_power:L_Bourns_SRP5030T")
 			(fields
 				(field
-					(name "Footprint") "ato_power:L_Bourns_SRP5030T")
+					(name "Footprint") "scci_rh_power:L_Bourns_SRP5030T")
 				(field
 					(name "Datasheet")
 				)
@@ -2174,7 +2174,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "L102")
 				(description "")
 			)
@@ -2208,10 +2208,10 @@
 		(comp
 			(ref "R1020")
 			(value "31250R 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2220,7 +2220,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R1020")
 				(description "")
 			)
@@ -2254,10 +2254,10 @@
 		(comp
 			(ref "R1021")
 			(value "10000R 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2266,7 +2266,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R1021")
 				(description "")
 			)
@@ -2300,10 +2300,10 @@
 		(comp
 			(ref "R1022")
 			(value "100k")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2312,7 +2312,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R1022")
 				(description "")
 			)
@@ -2346,10 +2346,10 @@
 		(comp
 			(ref "R1023")
 			(value "47k")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2358,7 +2358,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R1023")
 				(description "")
 			)
@@ -2392,11 +2392,11 @@
 		(comp
 			(ref "U102")
 			(value "TPS62160DGKR")
-			(footprint "ato_power:VSSOP-8_3x3mm_P0.65mm")
+			(footprint "scci_rh_power:VSSOP-8_3x3mm_P0.65mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tps62160.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:VSSOP-8_3x3mm_P0.65mm")
+					(name "Footprint") "scci_rh_power:VSSOP-8_3x3mm_P0.65mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps62160.pdf")
 				(field
@@ -2404,7 +2404,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "U102")
 				(description "")
 			)
@@ -2456,10 +2456,10 @@
 		(comp
 			(ref "C1100")
 			(value "10u X7R 25V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2468,7 +2468,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C1100")
 				(description "")
 			)
@@ -2502,10 +2502,10 @@
 		(comp
 			(ref "C1101")
 			(value "22u X7R 16V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2514,7 +2514,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C1101")
 				(description "")
 			)
@@ -2548,10 +2548,10 @@
 		(comp
 			(ref "C1102")
 			(value "100n X7R 25V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2560,7 +2560,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C1102")
 				(description "")
 			)
@@ -2594,10 +2594,10 @@
 		(comp
 			(ref "C1103")
 			(value "3.3n C0G 50V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2606,7 +2606,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C1103")
 				(description "")
 			)
@@ -2640,10 +2640,10 @@
 		(comp
 			(ref "L110")
 			(value "2.2uH SRP5030T-2R2M")
-			(footprint "ato_power:L_Bourns_SRP5030T")
+			(footprint "scci_rh_power:L_Bourns_SRP5030T")
 			(fields
 				(field
-					(name "Footprint") "ato_power:L_Bourns_SRP5030T")
+					(name "Footprint") "scci_rh_power:L_Bourns_SRP5030T")
 				(field
 					(name "Datasheet")
 				)
@@ -2652,7 +2652,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "L110")
 				(description "")
 			)
@@ -2686,10 +2686,10 @@
 		(comp
 			(ref "R1100")
 			(value "52.5k 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2698,7 +2698,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R1100")
 				(description "")
 			)
@@ -2732,10 +2732,10 @@
 		(comp
 			(ref "R1101")
 			(value "10k 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2744,7 +2744,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R1101")
 				(description "")
 			)
@@ -2778,10 +2778,10 @@
 		(comp
 			(ref "R1102")
 			(value "100k")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2790,7 +2790,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R1102")
 				(description "")
 			)
@@ -2824,10 +2824,10 @@
 		(comp
 			(ref "R1103")
 			(value "47k")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2836,7 +2836,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R1103")
 				(description "")
 			)
@@ -2870,11 +2870,11 @@
 		(comp
 			(ref "U110")
 			(value "TPS62130ARGTR")
-			(footprint "ato_power:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm")
+			(footprint "scci_rh_power:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tps62130a.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm")
+					(name "Footprint") "scci_rh_power:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps62130a.pdf")
 				(field
@@ -2882,7 +2882,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "U110")
 				(description "")
 			)
@@ -2961,10 +2961,10 @@
 		(comp
 			(ref "C200")
 			(value "100n X7R 16V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2973,7 +2973,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C200")
 				(description "")
 			)
@@ -3007,10 +3007,10 @@
 		(comp
 			(ref "C201")
 			(value "100n X7R 16V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3019,7 +3019,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C201")
 				(description "")
 			)
@@ -3053,10 +3053,10 @@
 		(comp
 			(ref "R2000")
 			(value "155000R 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3065,7 +3065,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2000")
 				(description "")
 			)
@@ -3099,10 +3099,10 @@
 		(comp
 			(ref "R2001")
 			(value "10k 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3111,7 +3111,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2001")
 				(description "")
 			)
@@ -3145,10 +3145,10 @@
 		(comp
 			(ref "R2002")
 			(value "205000R 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3157,7 +3157,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2002")
 				(description "")
 			)
@@ -3191,10 +3191,10 @@
 		(comp
 			(ref "R2003")
 			(value "10k 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3203,7 +3203,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2003")
 				(description "")
 			)
@@ -3237,10 +3237,10 @@
 		(comp
 			(ref "R2004")
 			(value "10k")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3249,7 +3249,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2004")
 				(description "")
 			)
@@ -3283,10 +3283,10 @@
 		(comp
 			(ref "R2010")
 			(value "67500R 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3295,7 +3295,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2010")
 				(description "")
 			)
@@ -3329,10 +3329,10 @@
 		(comp
 			(ref "R2011")
 			(value "10k 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3341,7 +3341,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2011")
 				(description "")
 			)
@@ -3375,10 +3375,10 @@
 		(comp
 			(ref "R2012")
 			(value "77500R 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3387,7 +3387,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2012")
 				(description "")
 			)
@@ -3421,10 +3421,10 @@
 		(comp
 			(ref "R2013")
 			(value "10k 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3433,7 +3433,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2013")
 				(description "")
 			)
@@ -3467,10 +3467,10 @@
 		(comp
 			(ref "R2014")
 			(value "10k")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3479,7 +3479,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2014")
 				(description "")
 			)
@@ -3513,10 +3513,10 @@
 		(comp
 			(ref "R2020")
 			(value "108750R 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3525,7 +3525,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2020")
 				(description "")
 			)
@@ -3559,10 +3559,10 @@
 		(comp
 			(ref "R2021")
 			(value "10k 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3571,7 +3571,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2021")
 				(description "")
 			)
@@ -3605,10 +3605,10 @@
 		(comp
 			(ref "R2022")
 			(value "121250R 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3617,7 +3617,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2022")
 				(description "")
 			)
@@ -3651,10 +3651,10 @@
 		(comp
 			(ref "R2023")
 			(value "10k 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3663,7 +3663,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2023")
 				(description "")
 			)
@@ -3697,10 +3697,10 @@
 		(comp
 			(ref "R2024")
 			(value "10k")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3709,7 +3709,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2024")
 				(description "")
 			)
@@ -3743,11 +3743,11 @@
 		(comp
 			(ref "U200")
 			(value "TPS3700DDCR")
-			(footprint "ato_power:SOT-23-6")
+			(footprint "scci_rh_power:SOT-23-6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tps3700.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:SOT-23-6")
+					(name "Footprint") "scci_rh_power:SOT-23-6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps3700.pdf")
 				(field
@@ -3755,7 +3755,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "U200")
 				(description "")
 			)
@@ -3801,11 +3801,11 @@
 		(comp
 			(ref "U201")
 			(value "TPS3700DDCR")
-			(footprint "ato_power:SOT-23-6")
+			(footprint "scci_rh_power:SOT-23-6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tps3700.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:SOT-23-6")
+					(name "Footprint") "scci_rh_power:SOT-23-6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps3700.pdf")
 				(field
@@ -3813,7 +3813,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "U201")
 				(description "")
 			)
@@ -3859,11 +3859,11 @@
 		(comp
 			(ref "U202")
 			(value "TPS3700DDCR")
-			(footprint "ato_power:SOT-23-6")
+			(footprint "scci_rh_power:SOT-23-6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tps3700.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:SOT-23-6")
+					(name "Footprint") "scci_rh_power:SOT-23-6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps3700.pdf")
 				(field
@@ -3871,7 +3871,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "U202")
 				(description "")
 			)
@@ -3917,10 +3917,10 @@
 		(comp
 			(ref "C202")
 			(value "100n X7R 16V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3929,7 +3929,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C202")
 				(description "")
 			)
@@ -3963,10 +3963,10 @@
 		(comp
 			(ref "C203")
 			(value "100n X7R 16V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3975,7 +3975,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C203")
 				(description "")
 			)
@@ -4009,10 +4009,10 @@
 		(comp
 			(ref "C204")
 			(value "100n X7R 16V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4021,7 +4021,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C204")
 				(description "")
 			)
@@ -4055,10 +4055,10 @@
 		(comp
 			(ref "C230")
 			(value "47n X7R 10%")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4067,7 +4067,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C230")
 				(description "")
 			)
@@ -4101,11 +4101,11 @@
 		(comp
 			(ref "D230")
 			(value "BAT54WS-7-F")
-			(footprint "ato_power:D_SOD-323")
+			(footprint "scci_rh_power:D_SOD-323")
 			(datasheet "https://www.diodes.com/assets/Datasheets/BAT54WS.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:D_SOD-323")
+					(name "Footprint") "scci_rh_power:D_SOD-323")
 				(field
 					(name "Datasheet") "https://www.diodes.com/assets/Datasheets/BAT54WS.pdf")
 				(field
@@ -4113,7 +4113,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "D230")
 				(description "")
 			)
@@ -4147,10 +4147,10 @@
 		(comp
 			(ref "R230")
 			(value "100k 1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4159,7 +4159,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R230")
 				(description "")
 			)
@@ -4193,10 +4193,10 @@
 		(comp
 			(ref "R231")
 			(value "100R")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4205,7 +4205,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R231")
 				(description "")
 			)
@@ -4239,10 +4239,10 @@
 		(comp
 			(ref "R2030")
 			(value "89500R 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4251,7 +4251,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2030")
 				(description "")
 			)
@@ -4285,10 +4285,10 @@
 		(comp
 			(ref "R2031")
 			(value "10k 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4297,7 +4297,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2031")
 				(description "")
 			)
@@ -4331,10 +4331,10 @@
 		(comp
 			(ref "R2032")
 			(value "95500R 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4343,7 +4343,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2032")
 				(description "")
 			)
@@ -4377,10 +4377,10 @@
 		(comp
 			(ref "R2033")
 			(value "10k 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4389,7 +4389,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2033")
 				(description "")
 			)
@@ -4423,10 +4423,10 @@
 		(comp
 			(ref "R2034")
 			(value "10k")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4435,7 +4435,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2034")
 				(description "")
 			)
@@ -4469,10 +4469,10 @@
 		(comp
 			(ref "R2040")
 			(value "39500R 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4481,7 +4481,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2040")
 				(description "")
 			)
@@ -4515,10 +4515,10 @@
 		(comp
 			(ref "R2041")
 			(value "10k 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4527,7 +4527,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2041")
 				(description "")
 			)
@@ -4561,10 +4561,10 @@
 		(comp
 			(ref "R2042")
 			(value "43000R 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4573,7 +4573,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2042")
 				(description "")
 			)
@@ -4607,10 +4607,10 @@
 		(comp
 			(ref "R2043")
 			(value "10k 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4619,7 +4619,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2043")
 				(description "")
 			)
@@ -4653,10 +4653,10 @@
 		(comp
 			(ref "R2044")
 			(value "10k")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4665,7 +4665,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R2044")
 				(description "")
 			)
@@ -4699,11 +4699,11 @@
 		(comp
 			(ref "U203")
 			(value "TPS3700DDCR")
-			(footprint "ato_power:SOT-23-6")
+			(footprint "scci_rh_power:SOT-23-6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tps3700.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:SOT-23-6")
+					(name "Footprint") "scci_rh_power:SOT-23-6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps3700.pdf")
 				(field
@@ -4711,7 +4711,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "U203")
 				(description "")
 			)
@@ -4757,11 +4757,11 @@
 		(comp
 			(ref "U204")
 			(value "TPS3700DDCR")
-			(footprint "ato_power:SOT-23-6")
+			(footprint "scci_rh_power:SOT-23-6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tps3700.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:SOT-23-6")
+					(name "Footprint") "scci_rh_power:SOT-23-6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps3700.pdf")
 				(field
@@ -4769,7 +4769,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "U204")
 				(description "")
 			)
@@ -4815,11 +4815,11 @@
 		(comp
 			(ref "U230")
 			(value "SN74LVC1G17DBVR")
-			(footprint "ato_power:SOT-23-5")
+			(footprint "scci_rh_power:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:SOT-23-5")
+					(name "Footprint") "scci_rh_power:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf")
 				(field
@@ -4827,7 +4827,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "U230")
 				(description "")
 			)
@@ -4870,10 +4870,10 @@
 		(comp
 			(ref "C240")
 			(value "100n X7R 16V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4882,7 +4882,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C240")
 				(description "")
 			)
@@ -4916,10 +4916,10 @@
 		(comp
 			(ref "C241")
 			(value "100n X7R 16V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4928,7 +4928,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C241")
 				(description "")
 			)
@@ -4962,10 +4962,10 @@
 		(comp
 			(ref "C242")
 			(value "100n X7R 16V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4974,7 +4974,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C242")
 				(description "")
 			)
@@ -5008,10 +5008,10 @@
 		(comp
 			(ref "C243")
 			(value "100n X7R 16V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5020,7 +5020,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C243")
 				(description "")
 			)
@@ -5054,10 +5054,10 @@
 		(comp
 			(ref "C244")
 			(value "100n X7R 16V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5066,7 +5066,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C244")
 				(description "")
 			)
@@ -5100,10 +5100,10 @@
 		(comp
 			(ref "C245")
 			(value "100n X7R 16V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5112,7 +5112,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C245")
 				(description "")
 			)
@@ -5146,10 +5146,10 @@
 		(comp
 			(ref "C246")
 			(value "100n X7R 16V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5158,7 +5158,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C246")
 				(description "")
 			)
@@ -5192,10 +5192,10 @@
 		(comp
 			(ref "C247")
 			(value "100n X7R 16V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5204,7 +5204,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C247")
 				(description "")
 			)
@@ -5238,10 +5238,10 @@
 		(comp
 			(ref "R240")
 			(value "10k")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5250,7 +5250,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R240")
 				(description "")
 			)
@@ -5284,10 +5284,10 @@
 		(comp
 			(ref "R241")
 			(value "10k")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5296,7 +5296,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R241")
 				(description "")
 			)
@@ -5330,10 +5330,10 @@
 		(comp
 			(ref "R242")
 			(value "10k")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5342,7 +5342,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R242")
 				(description "")
 			)
@@ -5376,11 +5376,11 @@
 		(comp
 			(ref "U231")
 			(value "SN74LVC1G11DBVR")
-			(footprint "ato_power:SOT-23-6")
+			(footprint "scci_rh_power:SOT-23-6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:SOT-23-6")
+					(name "Footprint") "scci_rh_power:SOT-23-6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 				(field
@@ -5388,7 +5388,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "U231")
 				(description "")
 			)
@@ -5434,11 +5434,11 @@
 		(comp
 			(ref "U232")
 			(value "SN74LVC1G08DBVR")
-			(footprint "ato_power:SOT-23-5")
+			(footprint "scci_rh_power:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:SOT-23-5")
+					(name "Footprint") "scci_rh_power:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 				(field
@@ -5446,7 +5446,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "U232")
 				(description "")
 			)
@@ -5489,11 +5489,11 @@
 		(comp
 			(ref "U233")
 			(value "SN74LVC1G11DBVR")
-			(footprint "ato_power:SOT-23-6")
+			(footprint "scci_rh_power:SOT-23-6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:SOT-23-6")
+					(name "Footprint") "scci_rh_power:SOT-23-6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 				(field
@@ -5501,7 +5501,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "U233")
 				(description "")
 			)
@@ -5547,11 +5547,11 @@
 		(comp
 			(ref "U234")
 			(value "SN74LVC1G08DBVR")
-			(footprint "ato_power:SOT-23-5")
+			(footprint "scci_rh_power:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:SOT-23-5")
+					(name "Footprint") "scci_rh_power:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 				(field
@@ -5559,7 +5559,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "U234")
 				(description "")
 			)
@@ -5602,11 +5602,11 @@
 		(comp
 			(ref "U235")
 			(value "SN74LVC1G07DBVR")
-			(footprint "ato_power:SOT-23-5")
+			(footprint "scci_rh_power:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:SOT-23-5")
+					(name "Footprint") "scci_rh_power:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf")
 				(field
@@ -5614,7 +5614,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "U235")
 				(description "")
 			)
@@ -5657,11 +5657,11 @@
 		(comp
 			(ref "U236")
 			(value "SN74LVC1G08DBVR")
-			(footprint "ato_power:SOT-23-5")
+			(footprint "scci_rh_power:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:SOT-23-5")
+					(name "Footprint") "scci_rh_power:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 				(field
@@ -5669,7 +5669,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "U236")
 				(description "")
 			)
@@ -5712,11 +5712,11 @@
 		(comp
 			(ref "U237")
 			(value "SN74LVC1G08DBVR")
-			(footprint "ato_power:SOT-23-5")
+			(footprint "scci_rh_power:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:SOT-23-5")
+					(name "Footprint") "scci_rh_power:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 				(field
@@ -5724,7 +5724,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "U237")
 				(description "")
 			)
@@ -5767,10 +5767,10 @@
 		(comp
 			(ref "C3000")
 			(value "10u X7R 25V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5779,7 +5779,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C3000")
 				(description "")
 			)
@@ -5813,10 +5813,10 @@
 		(comp
 			(ref "C3001")
 			(value "22u X7R 50V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5825,7 +5825,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C3001")
 				(description "")
 			)
@@ -5859,10 +5859,10 @@
 		(comp
 			(ref "C3002")
 			(value "22u X7R 50V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5871,7 +5871,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C3002")
 				(description "")
 			)
@@ -5905,10 +5905,10 @@
 		(comp
 			(ref "C3003")
 			(value "1u X7R 10V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5917,7 +5917,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C3003")
 				(description "")
 			)
@@ -5951,10 +5951,10 @@
 		(comp
 			(ref "C3004")
 			(value "4.7p C0G 50V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5963,7 +5963,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C3004")
 				(description "")
 			)
@@ -5997,11 +5997,11 @@
 		(comp
 			(ref "D300")
 			(value "PMEG6010CEJ")
-			(footprint "ato_power:D_SOD-323F")
+			(footprint "scci_rh_power:D_SOD-323F")
 			(datasheet "https://assets.nexperia.com/documents/data-sheet/PMEG6010CEJ.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:D_SOD-323F")
+					(name "Footprint") "scci_rh_power:D_SOD-323F")
 				(field
 					(name "Datasheet") "https://assets.nexperia.com/documents/data-sheet/PMEG6010CEJ.pdf")
 				(field
@@ -6009,7 +6009,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "D300")
 				(description "")
 			)
@@ -6043,10 +6043,10 @@
 		(comp
 			(ref "L300")
 			(value "4.7uH SRP5030T-4R7M")
-			(footprint "ato_power:L_Bourns_SRP5030T")
+			(footprint "scci_rh_power:L_Bourns_SRP5030T")
 			(fields
 				(field
-					(name "Footprint") "ato_power:L_Bourns_SRP5030T")
+					(name "Footprint") "scci_rh_power:L_Bourns_SRP5030T")
 				(field
 					(name "Datasheet")
 				)
@@ -6055,7 +6055,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "L300")
 				(description "")
 			)
@@ -6089,10 +6089,10 @@
 		(comp
 			(ref "R3000")
 			(value "418750R 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6101,7 +6101,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R3000")
 				(description "")
 			)
@@ -6135,10 +6135,10 @@
 		(comp
 			(ref "R3001")
 			(value "50k 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6147,7 +6147,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R3001")
 				(description "")
 			)
@@ -6181,10 +6181,10 @@
 		(comp
 			(ref "R3002")
 			(value "100k")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6193,7 +6193,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R3002")
 				(description "")
 			)
@@ -6227,11 +6227,11 @@
 		(comp
 			(ref "U300")
 			(value "LT8330ES6#TRPBF")
-			(footprint "ato_power:TSOT-23-6")
+			(footprint "scci_rh_power:TSOT-23-6")
 			(datasheet "https://www.analog.com/media/en/technical-documentation/data-sheets/8330f.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:TSOT-23-6")
+					(name "Footprint") "scci_rh_power:TSOT-23-6")
 				(field
 					(name "Datasheet") "https://www.analog.com/media/en/technical-documentation/data-sheets/8330f.pdf")
 				(field
@@ -6239,7 +6239,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "U300")
 				(description "")
 			)
@@ -6285,10 +6285,10 @@
 		(comp
 			(ref "C3010")
 			(value "10u X7R 25V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6297,7 +6297,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C3010")
 				(description "")
 			)
@@ -6331,10 +6331,10 @@
 		(comp
 			(ref "C3011")
 			(value "22u X7R 50V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6343,7 +6343,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C3011")
 				(description "")
 			)
@@ -6377,10 +6377,10 @@
 		(comp
 			(ref "C3012")
 			(value "22u X7R 50V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6389,7 +6389,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C3012")
 				(description "")
 			)
@@ -6423,10 +6423,10 @@
 		(comp
 			(ref "C3013")
 			(value "1u X7R 10V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6435,7 +6435,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C3013")
 				(description "")
 			)
@@ -6469,10 +6469,10 @@
 		(comp
 			(ref "C3014")
 			(value "4.7p C0G 50V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6481,7 +6481,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C3014")
 				(description "")
 			)
@@ -6515,11 +6515,11 @@
 		(comp
 			(ref "D301")
 			(value "PMEG6010CEJ")
-			(footprint "ato_power:D_SOD-323F")
+			(footprint "scci_rh_power:D_SOD-323F")
 			(datasheet "https://assets.nexperia.com/documents/data-sheet/PMEG6010CEJ.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:D_SOD-323F")
+					(name "Footprint") "scci_rh_power:D_SOD-323F")
 				(field
 					(name "Datasheet") "https://assets.nexperia.com/documents/data-sheet/PMEG6010CEJ.pdf")
 				(field
@@ -6527,7 +6527,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "D301")
 				(description "")
 			)
@@ -6561,10 +6561,10 @@
 		(comp
 			(ref "L301")
 			(value "4.7uH SRP5030T-4R7M")
-			(footprint "ato_power:L_Bourns_SRP5030T")
+			(footprint "scci_rh_power:L_Bourns_SRP5030T")
 			(fields
 				(field
-					(name "Footprint") "ato_power:L_Bourns_SRP5030T")
+					(name "Footprint") "scci_rh_power:L_Bourns_SRP5030T")
 				(field
 					(name "Datasheet")
 				)
@@ -6573,7 +6573,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "L301")
 				(description "")
 			)
@@ -6607,10 +6607,10 @@
 		(comp
 			(ref "R3010")
 			(value "700000R 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6619,7 +6619,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R3010")
 				(description "")
 			)
@@ -6653,10 +6653,10 @@
 		(comp
 			(ref "R3011")
 			(value "50k 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6665,7 +6665,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R3011")
 				(description "")
 			)
@@ -6699,10 +6699,10 @@
 		(comp
 			(ref "R3012")
 			(value "100k")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6711,7 +6711,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R3012")
 				(description "")
 			)
@@ -6745,11 +6745,11 @@
 		(comp
 			(ref "U301")
 			(value "LT8330ES6#TRPBF")
-			(footprint "ato_power:TSOT-23-6")
+			(footprint "scci_rh_power:TSOT-23-6")
 			(datasheet "https://www.analog.com/media/en/technical-documentation/data-sheets/8330f.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:TSOT-23-6")
+					(name "Footprint") "scci_rh_power:TSOT-23-6")
 				(field
 					(name "Datasheet") "https://www.analog.com/media/en/technical-documentation/data-sheets/8330f.pdf")
 				(field
@@ -6757,7 +6757,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "U301")
 				(description "")
 			)
@@ -6803,10 +6803,10 @@
 		(comp
 			(ref "C400")
 			(value "22u X7R 16V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6815,7 +6815,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C400")
 				(description "")
 			)
@@ -6849,10 +6849,10 @@
 		(comp
 			(ref "C401")
 			(value "10u X7R 50V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6861,7 +6861,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C401")
 				(description "")
 			)
@@ -6895,10 +6895,10 @@
 		(comp
 			(ref "C402")
 			(value "10u X7R 50V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6907,7 +6907,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C402")
 				(description "")
 			)
@@ -6941,11 +6941,11 @@
 		(comp
 			(ref "U400")
 			(value "TMR3-0522")
-			(footprint "ato_power:TRACO_TMR3_SIP8_21.8x9.1_P2.54")
+			(footprint "scci_rh_power:TRACO_TMR3_SIP8_21.8x9.1_P2.54")
 			(datasheet "https://www.tracopower.com/products/tmr3.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:TRACO_TMR3_SIP8_21.8x9.1_P2.54")
+					(name "Footprint") "scci_rh_power:TRACO_TMR3_SIP8_21.8x9.1_P2.54")
 				(field
 					(name "Datasheet") "https://www.tracopower.com/products/tmr3.pdf")
 				(field
@@ -6953,7 +6953,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "U400")
 				(description "")
 			)
@@ -7002,10 +7002,10 @@
 		(comp
 			(ref "C4100")
 			(value "10u X7R 50V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7014,7 +7014,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C4100")
 				(description "")
 			)
@@ -7048,10 +7048,10 @@
 		(comp
 			(ref "C4101")
 			(value "10u X7R 16V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7060,7 +7060,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C4101")
 				(description "")
 			)
@@ -7094,10 +7094,10 @@
 		(comp
 			(ref "C4102")
 			(value "10n C0G 50V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7106,7 +7106,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C4102")
 				(description "")
 			)
@@ -7140,10 +7140,10 @@
 		(comp
 			(ref "C4103")
 			(value "10n C0G 50V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7152,7 +7152,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C4103")
 				(description "")
 			)
@@ -7186,10 +7186,10 @@
 		(comp
 			(ref "J410")
 			(value "QUIESCENT TRIM / TEST ONLY")
-			(footprint "ato_power:PinHeader_1x03_P2.54mm_Vertical")
+			(footprint "scci_rh_power:PinHeader_1x03_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_power:PinHeader_1x03_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_power:PinHeader_1x03_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -7198,7 +7198,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "J410")
 				(description "")
 			)
@@ -7235,10 +7235,10 @@
 		(comp
 			(ref "R4100")
 			(value "19113.924R 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7247,7 +7247,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R4100")
 				(description "")
 			)
@@ -7281,10 +7281,10 @@
 		(comp
 			(ref "R4101")
 			(value "10k 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7293,7 +7293,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R4101")
 				(description "")
 			)
@@ -7327,10 +7327,10 @@
 		(comp
 			(ref "R4102")
 			(value "47k")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7339,7 +7339,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R4102")
 				(description "")
 			)
@@ -7373,11 +7373,11 @@
 		(comp
 			(ref "U410")
 			(value "TPS7A4901DGNR")
-			(footprint "ato_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm")
+			(footprint "scci_rh_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tps7a49.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm")
+					(name "Footprint") "scci_rh_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps7a49.pdf")
 				(field
@@ -7385,7 +7385,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "U410")
 				(description "")
 			)
@@ -7440,10 +7440,10 @@
 		(comp
 			(ref "C4110")
 			(value "10u X7R 50V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7452,7 +7452,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C4110")
 				(description "")
 			)
@@ -7486,10 +7486,10 @@
 		(comp
 			(ref "C4111")
 			(value "10u X7R 16V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7498,7 +7498,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C4111")
 				(description "")
 			)
@@ -7532,10 +7532,10 @@
 		(comp
 			(ref "C4112")
 			(value "10n C0G 50V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7544,7 +7544,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C4112")
 				(description "")
 			)
@@ -7578,10 +7578,10 @@
 		(comp
 			(ref "C4113")
 			(value "10n C0G 50V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7590,7 +7590,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C4113")
 				(description "")
 			)
@@ -7624,10 +7624,10 @@
 		(comp
 			(ref "J411")
 			(value "QUIESCENT TRIM / TEST ONLY")
-			(footprint "ato_power:PinHeader_1x03_P2.54mm_Vertical")
+			(footprint "scci_rh_power:PinHeader_1x03_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_power:PinHeader_1x03_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_power:PinHeader_1x03_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -7636,7 +7636,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "J411")
 				(description "")
 			)
@@ -7673,10 +7673,10 @@
 		(comp
 			(ref "R4110")
 			(value "34725.738R 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7685,7 +7685,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R4110")
 				(description "")
 			)
@@ -7719,10 +7719,10 @@
 		(comp
 			(ref "R4111")
 			(value "10k 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7731,7 +7731,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R4111")
 				(description "")
 			)
@@ -7765,10 +7765,10 @@
 		(comp
 			(ref "R4112")
 			(value "47k")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7777,7 +7777,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R4112")
 				(description "")
 			)
@@ -7811,11 +7811,11 @@
 		(comp
 			(ref "U411")
 			(value "TPS7A4901DGNR")
-			(footprint "ato_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm")
+			(footprint "scci_rh_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tps7a49.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm")
+					(name "Footprint") "scci_rh_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps7a49.pdf")
 				(field
@@ -7823,7 +7823,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "U411")
 				(description "")
 			)
@@ -7878,10 +7878,10 @@
 		(comp
 			(ref "C4120")
 			(value "10u X7R 50V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7890,7 +7890,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C4120")
 				(description "")
 			)
@@ -7924,10 +7924,10 @@
 		(comp
 			(ref "C4121")
 			(value "10u X7R 16V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7936,7 +7936,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C4121")
 				(description "")
 			)
@@ -7970,10 +7970,10 @@
 		(comp
 			(ref "C4122")
 			(value "10n C0G 50V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -7982,7 +7982,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C4122")
 				(description "")
 			)
@@ -8016,10 +8016,10 @@
 		(comp
 			(ref "C4123")
 			(value "10n C0G 50V")
-			(footprint "ato_power:C_1206_3216Metric")
+			(footprint "scci_rh_power:C_1206_3216Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8028,7 +8028,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "C4123")
 				(description "")
 			)
@@ -8062,10 +8062,10 @@
 		(comp
 			(ref "J412")
 			(value "QUIESCENT TRIM / TEST ONLY")
-			(footprint "ato_power:PinHeader_1x03_P2.54mm_Vertical")
+			(footprint "scci_rh_power:PinHeader_1x03_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_power:PinHeader_1x03_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_power:PinHeader_1x03_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -8074,7 +8074,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "J412")
 				(description "")
 			)
@@ -8111,10 +8111,10 @@
 		(comp
 			(ref "R4120")
 			(value "33367.347R 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8123,7 +8123,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R4120")
 				(description "")
 			)
@@ -8157,10 +8157,10 @@
 		(comp
 			(ref "R4121")
 			(value "10k 0.1%")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8169,7 +8169,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R4121")
 				(description "")
 			)
@@ -8203,10 +8203,10 @@
 		(comp
 			(ref "R4122")
 			(value "47k")
-			(footprint "ato_power:R_0805_2012Metric")
+			(footprint "scci_rh_power:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8215,7 +8215,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "R4122")
 				(description "")
 			)
@@ -8249,11 +8249,11 @@
 		(comp
 			(ref "U412")
 			(value "TPS7A3001DGNR")
-			(footprint "ato_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm")
+			(footprint "scci_rh_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tps7a30.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm")
+					(name "Footprint") "scci_rh_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps7a30.pdf")
 				(field
@@ -8261,7 +8261,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_POWER")
+				(lib "SCCI_RH_POWER")
 				(part "U412")
 				(description "")
 			)
@@ -8318,7 +8318,7 @@
 	(variants)
 	(libparts
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C1")
 			(fields
 				(field
@@ -8326,7 +8326,7 @@
 				(field
 					(name "Value") "100u 16V LOW ESR")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8348,7 +8348,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C1000")
 			(fields
 				(field
@@ -8356,7 +8356,7 @@
 				(field
 					(name "Value") "10u X7R 25V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8378,7 +8378,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C1001")
 			(fields
 				(field
@@ -8386,7 +8386,7 @@
 				(field
 					(name "Value") "22u X7R 16V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8408,7 +8408,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C1010")
 			(fields
 				(field
@@ -8416,7 +8416,7 @@
 				(field
 					(name "Value") "10u X7R 25V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8438,7 +8438,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C1011")
 			(fields
 				(field
@@ -8446,7 +8446,7 @@
 				(field
 					(name "Value") "22u X7R 16V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8468,7 +8468,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C1020")
 			(fields
 				(field
@@ -8476,7 +8476,7 @@
 				(field
 					(name "Value") "10u X7R 25V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8498,7 +8498,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C1021")
 			(fields
 				(field
@@ -8506,7 +8506,7 @@
 				(field
 					(name "Value") "22u X7R 16V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8528,7 +8528,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C1100")
 			(fields
 				(field
@@ -8536,7 +8536,7 @@
 				(field
 					(name "Value") "10u X7R 25V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8558,7 +8558,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C1101")
 			(fields
 				(field
@@ -8566,7 +8566,7 @@
 				(field
 					(name "Value") "22u X7R 16V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8588,7 +8588,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C1102")
 			(fields
 				(field
@@ -8596,7 +8596,7 @@
 				(field
 					(name "Value") "100n X7R 25V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8618,7 +8618,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C1103")
 			(fields
 				(field
@@ -8626,7 +8626,7 @@
 				(field
 					(name "Value") "3.3n C0G 50V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8648,7 +8648,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C2")
 			(fields
 				(field
@@ -8656,7 +8656,7 @@
 				(field
 					(name "Value") "100n X7R 25V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8678,7 +8678,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C200")
 			(fields
 				(field
@@ -8686,7 +8686,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8708,7 +8708,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C201")
 			(fields
 				(field
@@ -8716,7 +8716,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8738,7 +8738,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C202")
 			(fields
 				(field
@@ -8746,7 +8746,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8768,7 +8768,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C203")
 			(fields
 				(field
@@ -8776,7 +8776,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8798,7 +8798,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C204")
 			(fields
 				(field
@@ -8806,7 +8806,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8828,7 +8828,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C230")
 			(fields
 				(field
@@ -8836,7 +8836,7 @@
 				(field
 					(name "Value") "47n X7R 10%")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8858,7 +8858,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C240")
 			(fields
 				(field
@@ -8866,7 +8866,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8888,7 +8888,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C241")
 			(fields
 				(field
@@ -8896,7 +8896,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8918,7 +8918,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C242")
 			(fields
 				(field
@@ -8926,7 +8926,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8948,7 +8948,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C243")
 			(fields
 				(field
@@ -8956,7 +8956,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8978,7 +8978,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C244")
 			(fields
 				(field
@@ -8986,7 +8986,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9008,7 +9008,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C245")
 			(fields
 				(field
@@ -9016,7 +9016,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9038,7 +9038,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C246")
 			(fields
 				(field
@@ -9046,7 +9046,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9068,7 +9068,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C247")
 			(fields
 				(field
@@ -9076,7 +9076,7 @@
 				(field
 					(name "Value") "100n X7R 16V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9098,7 +9098,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C3000")
 			(fields
 				(field
@@ -9106,7 +9106,7 @@
 				(field
 					(name "Value") "10u X7R 25V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9128,7 +9128,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C3001")
 			(fields
 				(field
@@ -9136,7 +9136,7 @@
 				(field
 					(name "Value") "22u X7R 50V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9158,7 +9158,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C3002")
 			(fields
 				(field
@@ -9166,7 +9166,7 @@
 				(field
 					(name "Value") "22u X7R 50V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9188,7 +9188,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C3003")
 			(fields
 				(field
@@ -9196,7 +9196,7 @@
 				(field
 					(name "Value") "1u X7R 10V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9218,7 +9218,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C3004")
 			(fields
 				(field
@@ -9226,7 +9226,7 @@
 				(field
 					(name "Value") "4.7p C0G 50V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9248,7 +9248,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C3010")
 			(fields
 				(field
@@ -9256,7 +9256,7 @@
 				(field
 					(name "Value") "10u X7R 25V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9278,7 +9278,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C3011")
 			(fields
 				(field
@@ -9286,7 +9286,7 @@
 				(field
 					(name "Value") "22u X7R 50V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9308,7 +9308,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C3012")
 			(fields
 				(field
@@ -9316,7 +9316,7 @@
 				(field
 					(name "Value") "22u X7R 50V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9338,7 +9338,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C3013")
 			(fields
 				(field
@@ -9346,7 +9346,7 @@
 				(field
 					(name "Value") "1u X7R 10V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9368,7 +9368,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C3014")
 			(fields
 				(field
@@ -9376,7 +9376,7 @@
 				(field
 					(name "Value") "4.7p C0G 50V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9398,7 +9398,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C400")
 			(fields
 				(field
@@ -9406,7 +9406,7 @@
 				(field
 					(name "Value") "22u X7R 16V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9428,7 +9428,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C401")
 			(fields
 				(field
@@ -9436,7 +9436,7 @@
 				(field
 					(name "Value") "10u X7R 50V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9458,7 +9458,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C402")
 			(fields
 				(field
@@ -9466,7 +9466,7 @@
 				(field
 					(name "Value") "10u X7R 50V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9488,7 +9488,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C4100")
 			(fields
 				(field
@@ -9496,7 +9496,7 @@
 				(field
 					(name "Value") "10u X7R 50V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9518,7 +9518,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C4101")
 			(fields
 				(field
@@ -9526,7 +9526,7 @@
 				(field
 					(name "Value") "10u X7R 16V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9548,7 +9548,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C4102")
 			(fields
 				(field
@@ -9556,7 +9556,7 @@
 				(field
 					(name "Value") "10n C0G 50V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9578,7 +9578,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C4103")
 			(fields
 				(field
@@ -9586,7 +9586,7 @@
 				(field
 					(name "Value") "10n C0G 50V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9608,7 +9608,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C4110")
 			(fields
 				(field
@@ -9616,7 +9616,7 @@
 				(field
 					(name "Value") "10u X7R 50V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9638,7 +9638,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C4111")
 			(fields
 				(field
@@ -9646,7 +9646,7 @@
 				(field
 					(name "Value") "10u X7R 16V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9668,7 +9668,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C4112")
 			(fields
 				(field
@@ -9676,7 +9676,7 @@
 				(field
 					(name "Value") "10n C0G 50V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9698,7 +9698,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C4113")
 			(fields
 				(field
@@ -9706,7 +9706,7 @@
 				(field
 					(name "Value") "10n C0G 50V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9728,7 +9728,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C4120")
 			(fields
 				(field
@@ -9736,7 +9736,7 @@
 				(field
 					(name "Value") "10u X7R 50V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9758,7 +9758,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C4121")
 			(fields
 				(field
@@ -9766,7 +9766,7 @@
 				(field
 					(name "Value") "10u X7R 16V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9788,7 +9788,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C4122")
 			(fields
 				(field
@@ -9796,7 +9796,7 @@
 				(field
 					(name "Value") "10n C0G 50V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9818,7 +9818,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "C4123")
 			(fields
 				(field
@@ -9826,7 +9826,7 @@
 				(field
 					(name "Value") "10n C0G 50V")
 				(field
-					(name "Footprint") "ato_power:C_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:C_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9848,7 +9848,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "D1")
 			(fields
 				(field
@@ -9856,7 +9856,7 @@
 				(field
 					(name "Value") "SS34-E3/57T")
 				(field
-					(name "Footprint") "ato_power:D_SMC")
+					(name "Footprint") "scci_rh_power:D_SMC")
 				(field
 					(name "Datasheet")
 				)
@@ -9878,7 +9878,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "D230")
 			(fields
 				(field
@@ -9886,7 +9886,7 @@
 				(field
 					(name "Value") "BAT54WS-7-F")
 				(field
-					(name "Footprint") "ato_power:D_SOD-323")
+					(name "Footprint") "scci_rh_power:D_SOD-323")
 				(field
 					(name "Datasheet")
 				)
@@ -9908,7 +9908,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "D300")
 			(fields
 				(field
@@ -9916,7 +9916,7 @@
 				(field
 					(name "Value") "PMEG6010CEJ")
 				(field
-					(name "Footprint") "ato_power:D_SOD-323F")
+					(name "Footprint") "scci_rh_power:D_SOD-323F")
 				(field
 					(name "Datasheet")
 				)
@@ -9938,7 +9938,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "D301")
 			(fields
 				(field
@@ -9946,7 +9946,7 @@
 				(field
 					(name "Value") "PMEG6010CEJ")
 				(field
-					(name "Footprint") "ato_power:D_SOD-323F")
+					(name "Footprint") "scci_rh_power:D_SOD-323F")
 				(field
 					(name "Datasheet")
 				)
@@ -9968,7 +9968,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "F1")
 			(fields
 				(field
@@ -9976,7 +9976,7 @@
 				(field
 					(name "Value") "2A FUSE 1206")
 				(field
-					(name "Footprint") "ato_power:Fuse_1206_3216Metric")
+					(name "Footprint") "scci_rh_power:Fuse_1206_3216Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9998,7 +9998,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "J1")
 			(fields
 				(field
@@ -10006,7 +10006,7 @@
 				(field
 					(name "Value") "AT31004 PROTECTED 2S PACK / 6.4 TO 8.4V")
 				(field
-					(name "Footprint") "ato_power:PinHeader_1x02_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_power:PinHeader_1x02_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -10028,7 +10028,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "J2")
 			(fields
 				(field
@@ -10036,7 +10036,7 @@
 				(field
 					(name "Value") "POWER REQUEST / STATUS")
 				(field
-					(name "Footprint") "ato_power:PinHeader_1x12_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_power:PinHeader_1x12_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -10108,7 +10108,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "J3")
 			(fields
 				(field
@@ -10116,7 +10116,7 @@
 				(field
 					(name "Value") "HOST AND SUPERVISOR RAILS")
 				(field
-					(name "Footprint") "ato_power:PinHeader_1x07_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_power:PinHeader_1x07_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -10163,7 +10163,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "J4")
 			(fields
 				(field
@@ -10171,7 +10171,7 @@
 				(field
 					(name "Value") "FLOATING RECORDING RAILS")
 				(field
-					(name "Footprint") "ato_power:PinHeader_1x04_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_power:PinHeader_1x04_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -10203,7 +10203,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "J410")
 			(fields
 				(field
@@ -10211,7 +10211,7 @@
 				(field
 					(name "Value") "QUIESCENT TRIM / TEST ONLY")
 				(field
-					(name "Footprint") "ato_power:PinHeader_1x03_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_power:PinHeader_1x03_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -10238,7 +10238,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "J411")
 			(fields
 				(field
@@ -10246,7 +10246,7 @@
 				(field
 					(name "Value") "QUIESCENT TRIM / TEST ONLY")
 				(field
-					(name "Footprint") "ato_power:PinHeader_1x03_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_power:PinHeader_1x03_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -10273,7 +10273,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "J412")
 			(fields
 				(field
@@ -10281,7 +10281,7 @@
 				(field
 					(name "Value") "QUIESCENT TRIM / TEST ONLY")
 				(field
-					(name "Footprint") "ato_power:PinHeader_1x03_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_power:PinHeader_1x03_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -10308,7 +10308,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "J5")
 			(fields
 				(field
@@ -10316,7 +10316,7 @@
 				(field
 					(name "Value") "CONVERTER TEST POINTS")
 				(field
-					(name "Footprint") "ato_power:PinHeader_1x05_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_power:PinHeader_1x05_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -10353,7 +10353,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "J6")
 			(fields
 				(field
@@ -10361,7 +10361,7 @@
 				(field
 					(name "Value") "EXISTING MONITOR REFERENCES")
 				(field
-					(name "Footprint") "ato_power:PinHeader_1x03_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_power:PinHeader_1x03_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -10388,7 +10388,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "L100")
 			(fields
 				(field
@@ -10396,7 +10396,7 @@
 				(field
 					(name "Value") "2.2uH SRP5030T-2R2M")
 				(field
-					(name "Footprint") "ato_power:L_Bourns_SRP5030T")
+					(name "Footprint") "scci_rh_power:L_Bourns_SRP5030T")
 				(field
 					(name "Datasheet")
 				)
@@ -10418,7 +10418,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "L101")
 			(fields
 				(field
@@ -10426,7 +10426,7 @@
 				(field
 					(name "Value") "2.2uH SRP5030T-2R2M")
 				(field
-					(name "Footprint") "ato_power:L_Bourns_SRP5030T")
+					(name "Footprint") "scci_rh_power:L_Bourns_SRP5030T")
 				(field
 					(name "Datasheet")
 				)
@@ -10448,7 +10448,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "L102")
 			(fields
 				(field
@@ -10456,7 +10456,7 @@
 				(field
 					(name "Value") "2.2uH SRP5030T-2R2M")
 				(field
-					(name "Footprint") "ato_power:L_Bourns_SRP5030T")
+					(name "Footprint") "scci_rh_power:L_Bourns_SRP5030T")
 				(field
 					(name "Datasheet")
 				)
@@ -10478,7 +10478,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "L110")
 			(fields
 				(field
@@ -10486,7 +10486,7 @@
 				(field
 					(name "Value") "2.2uH SRP5030T-2R2M")
 				(field
-					(name "Footprint") "ato_power:L_Bourns_SRP5030T")
+					(name "Footprint") "scci_rh_power:L_Bourns_SRP5030T")
 				(field
 					(name "Datasheet")
 				)
@@ -10508,7 +10508,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "L300")
 			(fields
 				(field
@@ -10516,7 +10516,7 @@
 				(field
 					(name "Value") "4.7uH SRP5030T-4R7M")
 				(field
-					(name "Footprint") "ato_power:L_Bourns_SRP5030T")
+					(name "Footprint") "scci_rh_power:L_Bourns_SRP5030T")
 				(field
 					(name "Datasheet")
 				)
@@ -10538,7 +10538,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "L301")
 			(fields
 				(field
@@ -10546,7 +10546,7 @@
 				(field
 					(name "Value") "4.7uH SRP5030T-4R7M")
 				(field
-					(name "Footprint") "ato_power:L_Bourns_SRP5030T")
+					(name "Footprint") "scci_rh_power:L_Bourns_SRP5030T")
 				(field
 					(name "Datasheet")
 				)
@@ -10568,7 +10568,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R1000")
 			(fields
 				(field
@@ -10576,7 +10576,7 @@
 				(field
 					(name "Value") "31250R 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10598,7 +10598,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R1001")
 			(fields
 				(field
@@ -10606,7 +10606,7 @@
 				(field
 					(name "Value") "10000R 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10628,7 +10628,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R1002")
 			(fields
 				(field
@@ -10636,7 +10636,7 @@
 				(field
 					(name "Value") "100k")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10658,7 +10658,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R1003")
 			(fields
 				(field
@@ -10666,7 +10666,7 @@
 				(field
 					(name "Value") "47k")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10688,7 +10688,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R1010")
 			(fields
 				(field
@@ -10696,7 +10696,7 @@
 				(field
 					(name "Value") "52500R 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10718,7 +10718,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R1011")
 			(fields
 				(field
@@ -10726,7 +10726,7 @@
 				(field
 					(name "Value") "10000R 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10748,7 +10748,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R1012")
 			(fields
 				(field
@@ -10756,7 +10756,7 @@
 				(field
 					(name "Value") "100k")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10778,7 +10778,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R1013")
 			(fields
 				(field
@@ -10786,7 +10786,7 @@
 				(field
 					(name "Value") "47k")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10808,7 +10808,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R1020")
 			(fields
 				(field
@@ -10816,7 +10816,7 @@
 				(field
 					(name "Value") "31250R 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10838,7 +10838,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R1021")
 			(fields
 				(field
@@ -10846,7 +10846,7 @@
 				(field
 					(name "Value") "10000R 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10868,7 +10868,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R1022")
 			(fields
 				(field
@@ -10876,7 +10876,7 @@
 				(field
 					(name "Value") "100k")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10898,7 +10898,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R1023")
 			(fields
 				(field
@@ -10906,7 +10906,7 @@
 				(field
 					(name "Value") "47k")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10928,7 +10928,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R1100")
 			(fields
 				(field
@@ -10936,7 +10936,7 @@
 				(field
 					(name "Value") "52.5k 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10958,7 +10958,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R1101")
 			(fields
 				(field
@@ -10966,7 +10966,7 @@
 				(field
 					(name "Value") "10k 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10988,7 +10988,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R1102")
 			(fields
 				(field
@@ -10996,7 +10996,7 @@
 				(field
 					(name "Value") "100k")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11018,7 +11018,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R1103")
 			(fields
 				(field
@@ -11026,7 +11026,7 @@
 				(field
 					(name "Value") "47k")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11048,7 +11048,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2000")
 			(fields
 				(field
@@ -11056,7 +11056,7 @@
 				(field
 					(name "Value") "155000R 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11078,7 +11078,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2001")
 			(fields
 				(field
@@ -11086,7 +11086,7 @@
 				(field
 					(name "Value") "10k 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11108,7 +11108,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2002")
 			(fields
 				(field
@@ -11116,7 +11116,7 @@
 				(field
 					(name "Value") "205000R 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11138,7 +11138,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2003")
 			(fields
 				(field
@@ -11146,7 +11146,7 @@
 				(field
 					(name "Value") "10k 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11168,7 +11168,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2004")
 			(fields
 				(field
@@ -11176,7 +11176,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11198,7 +11198,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2010")
 			(fields
 				(field
@@ -11206,7 +11206,7 @@
 				(field
 					(name "Value") "67500R 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11228,7 +11228,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2011")
 			(fields
 				(field
@@ -11236,7 +11236,7 @@
 				(field
 					(name "Value") "10k 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11258,7 +11258,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2012")
 			(fields
 				(field
@@ -11266,7 +11266,7 @@
 				(field
 					(name "Value") "77500R 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11288,7 +11288,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2013")
 			(fields
 				(field
@@ -11296,7 +11296,7 @@
 				(field
 					(name "Value") "10k 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11318,7 +11318,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2014")
 			(fields
 				(field
@@ -11326,7 +11326,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11348,7 +11348,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2020")
 			(fields
 				(field
@@ -11356,7 +11356,7 @@
 				(field
 					(name "Value") "108750R 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11378,7 +11378,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2021")
 			(fields
 				(field
@@ -11386,7 +11386,7 @@
 				(field
 					(name "Value") "10k 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11408,7 +11408,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2022")
 			(fields
 				(field
@@ -11416,7 +11416,7 @@
 				(field
 					(name "Value") "121250R 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11438,7 +11438,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2023")
 			(fields
 				(field
@@ -11446,7 +11446,7 @@
 				(field
 					(name "Value") "10k 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11468,7 +11468,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2024")
 			(fields
 				(field
@@ -11476,7 +11476,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11498,7 +11498,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2030")
 			(fields
 				(field
@@ -11506,7 +11506,7 @@
 				(field
 					(name "Value") "89500R 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11528,7 +11528,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2031")
 			(fields
 				(field
@@ -11536,7 +11536,7 @@
 				(field
 					(name "Value") "10k 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11558,7 +11558,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2032")
 			(fields
 				(field
@@ -11566,7 +11566,7 @@
 				(field
 					(name "Value") "95500R 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11588,7 +11588,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2033")
 			(fields
 				(field
@@ -11596,7 +11596,7 @@
 				(field
 					(name "Value") "10k 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11618,7 +11618,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2034")
 			(fields
 				(field
@@ -11626,7 +11626,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11648,7 +11648,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2040")
 			(fields
 				(field
@@ -11656,7 +11656,7 @@
 				(field
 					(name "Value") "39500R 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11678,7 +11678,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2041")
 			(fields
 				(field
@@ -11686,7 +11686,7 @@
 				(field
 					(name "Value") "10k 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11708,7 +11708,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2042")
 			(fields
 				(field
@@ -11716,7 +11716,7 @@
 				(field
 					(name "Value") "43000R 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11738,7 +11738,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2043")
 			(fields
 				(field
@@ -11746,7 +11746,7 @@
 				(field
 					(name "Value") "10k 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11768,7 +11768,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R2044")
 			(fields
 				(field
@@ -11776,7 +11776,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11798,7 +11798,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R230")
 			(fields
 				(field
@@ -11806,7 +11806,7 @@
 				(field
 					(name "Value") "100k 1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11828,7 +11828,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R231")
 			(fields
 				(field
@@ -11836,7 +11836,7 @@
 				(field
 					(name "Value") "100R")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11858,7 +11858,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R240")
 			(fields
 				(field
@@ -11866,7 +11866,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11888,7 +11888,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R241")
 			(fields
 				(field
@@ -11896,7 +11896,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11918,7 +11918,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R242")
 			(fields
 				(field
@@ -11926,7 +11926,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11948,7 +11948,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R3000")
 			(fields
 				(field
@@ -11956,7 +11956,7 @@
 				(field
 					(name "Value") "418750R 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11978,7 +11978,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R3001")
 			(fields
 				(field
@@ -11986,7 +11986,7 @@
 				(field
 					(name "Value") "50k 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -12008,7 +12008,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R3002")
 			(fields
 				(field
@@ -12016,7 +12016,7 @@
 				(field
 					(name "Value") "100k")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -12038,7 +12038,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R3010")
 			(fields
 				(field
@@ -12046,7 +12046,7 @@
 				(field
 					(name "Value") "700000R 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -12068,7 +12068,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R3011")
 			(fields
 				(field
@@ -12076,7 +12076,7 @@
 				(field
 					(name "Value") "50k 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -12098,7 +12098,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R3012")
 			(fields
 				(field
@@ -12106,7 +12106,7 @@
 				(field
 					(name "Value") "100k")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -12128,7 +12128,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R4100")
 			(fields
 				(field
@@ -12136,7 +12136,7 @@
 				(field
 					(name "Value") "19113.924R 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -12158,7 +12158,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R4101")
 			(fields
 				(field
@@ -12166,7 +12166,7 @@
 				(field
 					(name "Value") "10k 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -12188,7 +12188,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R4102")
 			(fields
 				(field
@@ -12196,7 +12196,7 @@
 				(field
 					(name "Value") "47k")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -12218,7 +12218,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R4110")
 			(fields
 				(field
@@ -12226,7 +12226,7 @@
 				(field
 					(name "Value") "34725.738R 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -12248,7 +12248,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R4111")
 			(fields
 				(field
@@ -12256,7 +12256,7 @@
 				(field
 					(name "Value") "10k 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -12278,7 +12278,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R4112")
 			(fields
 				(field
@@ -12286,7 +12286,7 @@
 				(field
 					(name "Value") "47k")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -12308,7 +12308,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R4120")
 			(fields
 				(field
@@ -12316,7 +12316,7 @@
 				(field
 					(name "Value") "33367.347R 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -12338,7 +12338,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R4121")
 			(fields
 				(field
@@ -12346,7 +12346,7 @@
 				(field
 					(name "Value") "10k 0.1%")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -12368,7 +12368,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "R4122")
 			(fields
 				(field
@@ -12376,7 +12376,7 @@
 				(field
 					(name "Value") "47k")
 				(field
-					(name "Footprint") "ato_power:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_power:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -12398,7 +12398,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "SW1")
 			(fields
 				(field
@@ -12406,7 +12406,7 @@
 				(field
 					(name "Value") "MASTER SPST / OFFBOARD")
 				(field
-					(name "Footprint") "ato_power:PinHeader_1x02_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_power:PinHeader_1x02_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -12428,7 +12428,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "U100")
 			(fields
 				(field
@@ -12436,7 +12436,7 @@
 				(field
 					(name "Value") "TPS62160DGKR")
 				(field
-					(name "Footprint") "ato_power:VSSOP-8_3x3mm_P0.65mm")
+					(name "Footprint") "scci_rh_power:VSSOP-8_3x3mm_P0.65mm")
 				(field
 					(name "Datasheet")
 				)
@@ -12488,7 +12488,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "U101")
 			(fields
 				(field
@@ -12496,7 +12496,7 @@
 				(field
 					(name "Value") "TPS62160DGKR")
 				(field
-					(name "Footprint") "ato_power:VSSOP-8_3x3mm_P0.65mm")
+					(name "Footprint") "scci_rh_power:VSSOP-8_3x3mm_P0.65mm")
 				(field
 					(name "Datasheet")
 				)
@@ -12548,7 +12548,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "U102")
 			(fields
 				(field
@@ -12556,7 +12556,7 @@
 				(field
 					(name "Value") "TPS62160DGKR")
 				(field
-					(name "Footprint") "ato_power:VSSOP-8_3x3mm_P0.65mm")
+					(name "Footprint") "scci_rh_power:VSSOP-8_3x3mm_P0.65mm")
 				(field
 					(name "Datasheet")
 				)
@@ -12608,7 +12608,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "U110")
 			(fields
 				(field
@@ -12616,7 +12616,7 @@
 				(field
 					(name "Value") "TPS62130ARGTR")
 				(field
-					(name "Footprint") "ato_power:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm")
+					(name "Footprint") "scci_rh_power:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm")
 				(field
 					(name "Datasheet")
 				)
@@ -12713,7 +12713,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "U200")
 			(fields
 				(field
@@ -12721,7 +12721,7 @@
 				(field
 					(name "Value") "TPS3700DDCR")
 				(field
-					(name "Footprint") "ato_power:SOT-23-6")
+					(name "Footprint") "scci_rh_power:SOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -12763,7 +12763,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "U201")
 			(fields
 				(field
@@ -12771,7 +12771,7 @@
 				(field
 					(name "Value") "TPS3700DDCR")
 				(field
-					(name "Footprint") "ato_power:SOT-23-6")
+					(name "Footprint") "scci_rh_power:SOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -12813,7 +12813,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "U202")
 			(fields
 				(field
@@ -12821,7 +12821,7 @@
 				(field
 					(name "Value") "TPS3700DDCR")
 				(field
-					(name "Footprint") "ato_power:SOT-23-6")
+					(name "Footprint") "scci_rh_power:SOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -12863,7 +12863,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "U203")
 			(fields
 				(field
@@ -12871,7 +12871,7 @@
 				(field
 					(name "Value") "TPS3700DDCR")
 				(field
-					(name "Footprint") "ato_power:SOT-23-6")
+					(name "Footprint") "scci_rh_power:SOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -12913,7 +12913,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "U204")
 			(fields
 				(field
@@ -12921,7 +12921,7 @@
 				(field
 					(name "Value") "TPS3700DDCR")
 				(field
-					(name "Footprint") "ato_power:SOT-23-6")
+					(name "Footprint") "scci_rh_power:SOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -12963,7 +12963,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "U230")
 			(fields
 				(field
@@ -12971,7 +12971,7 @@
 				(field
 					(name "Value") "SN74LVC1G17DBVR")
 				(field
-					(name "Footprint") "ato_power:SOT-23-5")
+					(name "Footprint") "scci_rh_power:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -13008,7 +13008,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "U231")
 			(fields
 				(field
@@ -13016,7 +13016,7 @@
 				(field
 					(name "Value") "SN74LVC1G11DBVR")
 				(field
-					(name "Footprint") "ato_power:SOT-23-6")
+					(name "Footprint") "scci_rh_power:SOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -13058,7 +13058,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "U232")
 			(fields
 				(field
@@ -13066,7 +13066,7 @@
 				(field
 					(name "Value") "SN74LVC1G08DBVR")
 				(field
-					(name "Footprint") "ato_power:SOT-23-5")
+					(name "Footprint") "scci_rh_power:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -13103,7 +13103,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "U233")
 			(fields
 				(field
@@ -13111,7 +13111,7 @@
 				(field
 					(name "Value") "SN74LVC1G11DBVR")
 				(field
-					(name "Footprint") "ato_power:SOT-23-6")
+					(name "Footprint") "scci_rh_power:SOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -13153,7 +13153,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "U234")
 			(fields
 				(field
@@ -13161,7 +13161,7 @@
 				(field
 					(name "Value") "SN74LVC1G08DBVR")
 				(field
-					(name "Footprint") "ato_power:SOT-23-5")
+					(name "Footprint") "scci_rh_power:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -13198,7 +13198,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "U235")
 			(fields
 				(field
@@ -13206,7 +13206,7 @@
 				(field
 					(name "Value") "SN74LVC1G07DBVR")
 				(field
-					(name "Footprint") "ato_power:SOT-23-5")
+					(name "Footprint") "scci_rh_power:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -13243,7 +13243,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "U236")
 			(fields
 				(field
@@ -13251,7 +13251,7 @@
 				(field
 					(name "Value") "SN74LVC1G08DBVR")
 				(field
-					(name "Footprint") "ato_power:SOT-23-5")
+					(name "Footprint") "scci_rh_power:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -13288,7 +13288,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "U237")
 			(fields
 				(field
@@ -13296,7 +13296,7 @@
 				(field
 					(name "Value") "SN74LVC1G08DBVR")
 				(field
-					(name "Footprint") "ato_power:SOT-23-5")
+					(name "Footprint") "scci_rh_power:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -13333,7 +13333,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "U300")
 			(fields
 				(field
@@ -13341,7 +13341,7 @@
 				(field
 					(name "Value") "LT8330ES6#TRPBF")
 				(field
-					(name "Footprint") "ato_power:TSOT-23-6")
+					(name "Footprint") "scci_rh_power:TSOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -13383,7 +13383,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "U301")
 			(fields
 				(field
@@ -13391,7 +13391,7 @@
 				(field
 					(name "Value") "LT8330ES6#TRPBF")
 				(field
-					(name "Footprint") "ato_power:TSOT-23-6")
+					(name "Footprint") "scci_rh_power:TSOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -13433,7 +13433,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "U400")
 			(fields
 				(field
@@ -13441,7 +13441,7 @@
 				(field
 					(name "Value") "TMR3-0522")
 				(field
-					(name "Footprint") "ato_power:TRACO_TMR3_SIP8_21.8x9.1_P2.54")
+					(name "Footprint") "scci_rh_power:TRACO_TMR3_SIP8_21.8x9.1_P2.54")
 				(field
 					(name "Datasheet")
 				)
@@ -13488,7 +13488,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "U410")
 			(fields
 				(field
@@ -13496,7 +13496,7 @@
 				(field
 					(name "Value") "TPS7A4901DGNR")
 				(field
-					(name "Footprint") "ato_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm")
+					(name "Footprint") "scci_rh_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm")
 				(field
 					(name "Datasheet")
 				)
@@ -13553,7 +13553,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "U411")
 			(fields
 				(field
@@ -13561,7 +13561,7 @@
 				(field
 					(name "Value") "TPS7A4901DGNR")
 				(field
-					(name "Footprint") "ato_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm")
+					(name "Footprint") "scci_rh_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm")
 				(field
 					(name "Datasheet")
 				)
@@ -13618,7 +13618,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_POWER")
+			(lib "SCCI_RH_POWER")
 			(part "U412")
 			(fields
 				(field
@@ -13626,7 +13626,7 @@
 				(field
 					(name "Value") "TPS7A3001DGNR")
 				(field
-					(name "Footprint") "ato_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm")
+					(name "Footprint") "scci_rh_power:Texas_DGN0008D_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x2.94mm_Mask1.57x1.89mm")
 				(field
 					(name "Datasheet")
 				)
@@ -13685,8 +13685,8 @@
 	)
 	(libraries
 		(library
-			(logical "ATO_POWER")
-			(uri "${KIPRJMOD}/ATO_POWER.kicad_sym")
+			(logical "SCCI_RH_POWER")
+			(uri "${KIPRJMOD}/SCCI_RH_POWER.kicad_sym")
 		)
 	)
 	(nets

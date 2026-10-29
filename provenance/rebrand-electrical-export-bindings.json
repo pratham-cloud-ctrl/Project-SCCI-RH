@@ -1,0 +1,855 @@
+{
+  "schema": "scci_rh.electrical-receipt-refresh.v1",
+  "date": "2026-10-29",
+  "scope": "Only explicit DRC and output paths independently hash-bound by freshly executed native KiCad evidence; no new execution claimed for old STEP geometry.",
+  "files": [
+    {
+      "path": "electronics/stage4/integrated-pcb/exports/contact-router/export-receipt.json",
+      "before_sha256": "6f90edcaa89e419f16c0617fe94d42550bceb89662cb1f9f2ff3f1fefc4da2e4",
+      "after_sha256": "73b3134d05a7168b13ae10ee4e655860fb54d497680246f2ad2a3f8248302016",
+      "bindings": [
+        {
+          "field": "DRC_sha256_lf",
+          "path": "electronics/stage4/integrated-pcb/boards/contact-router/drc.json",
+          "previous_digest": "4f5b7829727c245bf81dd8c23cfcfbdfa5db42f7685583054130bc738da210a2",
+          "sha256": "0f250e6d99f59f7c0dc45ce33f4e73b0c5e68755bcd18675069efca1216960e2",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/top-copper.svg",
+          "path": "electronics/stage4/integrated-pcb/exports/contact-router/top-copper.svg",
+          "previous_digest": "340f0d83773567315d8df28f8b91d92396ebeb061237ac57f908884cc8cf75b4",
+          "sha256": "e6b3034e05ba5ff67bb57b825ef163c90d89ab669d226332e1e10cdbb7c7d5e4",
+          "native_evidence": "provenance/rebrand-native-pcb-visuals.json"
+        },
+        {
+          "field": "outputs/top.png",
+          "path": "electronics/stage4/integrated-pcb/exports/contact-router/top.png",
+          "previous_digest": "3dbe9c2897d3a28b20a6cf3d78e56d9ac4bd2b0152ea5db1856abfd9ebb20b06",
+          "sha256": "5beb611a18b5234f11f81117d76444a1a2e4513c2228909de01a8bb9cdba3518",
+          "native_evidence": "provenance/rebrand-native-pcb-visuals.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/contact_router-B_Cu.gbl",
+          "path": "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-B_Cu.gbl",
+          "previous_digest": "fd90384a54cb097768232edb9033fef56bb4337f8654f810a39c7ba3ab50b95d",
+          "sha256": "a71fa4924fe65910bebd5df5ed137debc1f4ac5aca5d7c9bed4987f8d185d16c",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/contact_router-B_Mask.gbs",
+          "path": "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-B_Mask.gbs",
+          "previous_digest": "febe87ed1fd98ebe6b7bae8e1dfe24cdb3a86a0185412c739f6395e1b9dd98ba",
+          "sha256": "ddc68fb5f4b3e8e52dc15da4db422d58593c649833ca8c0fc01cc46d27e67129",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/contact_router-B_Silkscreen.gbo",
+          "path": "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-B_Silkscreen.gbo",
+          "previous_digest": "03eeead4d672885e34cb33b5b20f87af8c79a10fd21e90fb0ce1afd07f73af78",
+          "sha256": "2413f4399fb090b5470f0fd35f3d3401b2e8d89f264761e27542653885ed5e9f",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/contact_router-Edge_Cuts.gm1",
+          "path": "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-Edge_Cuts.gm1",
+          "previous_digest": "37cfd752f45959ad702e7b7b340c1b0d2f549875928a4585d3b2bc49db5afe29",
+          "sha256": "7972c432fb41381c9f03a4985004a1ba181656e8b885ef6dc272b686d5996e9f",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/contact_router-F_Cu.gtl",
+          "path": "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-F_Cu.gtl",
+          "previous_digest": "fc25ea4a964dfd125449f2fc214666b4044c8cb13646a4ffde1a48faf5ce0412",
+          "sha256": "dfd45fdcea912e0a2c86e319d6ea1886e1b5d4d068fe09998e29a71848683377",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/contact_router-F_Mask.gts",
+          "path": "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-F_Mask.gts",
+          "previous_digest": "0b67648b5a7d1177947607e6fc38666806f6c3e187f670e8219b3484f570532d",
+          "sha256": "070a3770bba74920c3d35f2d07d998ca206eb2400e5d8e833cf3994227f00bd7",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/contact_router-F_Silkscreen.gto",
+          "path": "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-F_Silkscreen.gto",
+          "previous_digest": "965ef84442262733d112815bf8d6314346db357e8e449baf5377cc5d36f4a931",
+          "sha256": "10137fb280efba3e3c8be42fe68d1665b330d00033aa0be03b8dcc663283d1c0",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/contact_router-In1_Cu.g1",
+          "path": "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-In1_Cu.g1",
+          "previous_digest": "4e90c3e3ce458a5b41ca55b8b4ab0ebbfb1d2885aaf8e60e2d77f4804e618170",
+          "sha256": "5a44a07d52f863881a5aec09fcfcdb1aa5767d113f33e4bfb1bfc6a880ee3420",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/contact_router-In2_Cu.g2",
+          "path": "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-In2_Cu.g2",
+          "previous_digest": "c4431bd713cf0cdde2e9a9fa2769165c2195aaba1c1367a09f33e6560dc499cb",
+          "sha256": "dbba1bd307e1d6651a73c3770b6a793261cba452cf66bef58ef3f95c5320522e",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/contact_router-job.gbrjob",
+          "path": "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-job.gbrjob",
+          "previous_digest": "239fae1ec0001ee7941f91d340e9c6c286d66f639adcb5bf0a079877f4f81aae",
+          "sha256": "c6e8c08bb589f1361231ad87540e343a9af97fa769467032dc04d9602ef62757",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/contact_router-NPTH.drl",
+          "path": "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-NPTH.drl",
+          "previous_digest": "1132a08c8d2215934d590cfec323091d5767751059e8b1eae7eec3bd42678e3a",
+          "sha256": "dcbcd3f077ea2252eb01675d4186bc8833488451bc8bb7be5b98a008ab1019fc",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/contact_router-PTH.drl",
+          "path": "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-PTH.drl",
+          "previous_digest": "944da8c29f06677ca0c7340d92a6a152d852f597237deb0f4e524f1e4eda70c0",
+          "sha256": "e888e9f0937263ceaf7c72abb3935cdeba77a495922eaa6b966556092dedbcbb",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        }
+      ]
+    },
+    {
+      "path": "electronics/stage4/integrated-pcb/exports/controller-carrier/export-receipt.json",
+      "before_sha256": "f8cb9a59404f76a19b9c35208c0b9be880a06bc05acb9f2cd722808ede17d343",
+      "after_sha256": "4cd7e0b0875040dc47a52e6141bbb70d655a19692be26fc9974d1c8e2362d9cf",
+      "bindings": [
+        {
+          "field": "DRC_sha256_lf",
+          "path": "electronics/stage4/integrated-pcb/boards/controller-carrier/drc.json",
+          "previous_digest": "60d633b2cc4f691ef69e15a6746f1506d3243188b2cac67ddae9d0ad9a0cbcec",
+          "sha256": "fcb2384b5dda59067cfb57aff7ce05369bfb72b3aab2e61a6127dee057debf07",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/top-copper.svg",
+          "path": "electronics/stage4/integrated-pcb/exports/controller-carrier/top-copper.svg",
+          "previous_digest": "a6a81511ec32b4770abb52d937b46eb615d4aaeaeab2d05263fca30f5f1ca656",
+          "sha256": "bbbb4bec060fddc01076af02c6dcb9284b35b7bdf427b10d2f0684bd84f71722",
+          "native_evidence": "provenance/rebrand-native-pcb-visuals.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/controller_carrier-B_Cu.gbl",
+          "path": "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-B_Cu.gbl",
+          "previous_digest": "e619663a760d3df14e8fa22d7b9e730e77acfe96b9b805b44907b98b91b79b23",
+          "sha256": "3f9245ac822f4fd0d41fab6e8495f704569ff06f76c7b54a8b68d6bf2f8d8b3b",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/controller_carrier-B_Mask.gbs",
+          "path": "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-B_Mask.gbs",
+          "previous_digest": "7c2b82c70b4f711b805d729a7c8c6604e2ea8bc7feea78637a163527f9f7b97a",
+          "sha256": "1703a1ece210d3dc944675d028e05854993bd4c4a7b92ff2f60e81ad38db41eb",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/controller_carrier-B_Silkscreen.gbo",
+          "path": "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-B_Silkscreen.gbo",
+          "previous_digest": "eaeba699c7ed22389bf00a53b4cf2845da8cca12664bfe113bc55f327cc96f1d",
+          "sha256": "8ef6e75a6e4385f8cf04a0baf8d0b5a3f7d1f16bc6551de20bf8bea230948131",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/controller_carrier-Edge_Cuts.gm1",
+          "path": "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-Edge_Cuts.gm1",
+          "previous_digest": "90bebfcd9d6aa9ea17afe2785dd99d068040f2c6d9629b78e3566d2f58b44cfe",
+          "sha256": "a3e0fcf011f7e21fb6ac86eed1f1b53c881ec02d261df2f3386f003524e58339",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/controller_carrier-F_Cu.gtl",
+          "path": "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-F_Cu.gtl",
+          "previous_digest": "dac2a4cf4c18999d69f9ed6e441f2ed415e9d0d2a3bc3a24ae5070edac1751bf",
+          "sha256": "05ac684f9611440e4cc9f915ac3edc15d55ec4a0bf40e9104720cd48b6ff8bbf",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/controller_carrier-F_Mask.gts",
+          "path": "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-F_Mask.gts",
+          "previous_digest": "0e8d17a0fa774581e14b6ce0cdc381292caa5635d3760233c11fbd8943cd07e4",
+          "sha256": "d89154b22bc561107e3d1088d244d4d278dde8c25ff316101c63b108f7ec9ba8",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/controller_carrier-F_Silkscreen.gto",
+          "path": "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-F_Silkscreen.gto",
+          "previous_digest": "7375b3abb309bec7f157e53bb190770e6f3e65e2b643af7f3585baae71f2c34c",
+          "sha256": "cda8682e0f09833fb8d6db7343e5494dc306fa8bd446bccb7340f08acaba5838",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/controller_carrier-In1_Cu.g1",
+          "path": "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-In1_Cu.g1",
+          "previous_digest": "04dcd42921aea4b2acf3a4029f2a7fb15569b70b4ee5a5502fdeeb9724909eb9",
+          "sha256": "e415dcbcf59b57794f4e15cbe764558dfcfaa906f63a3c32e4efcadc1162e7fc",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/controller_carrier-In2_Cu.g2",
+          "path": "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-In2_Cu.g2",
+          "previous_digest": "da5b23c7f7c6e9c9f329f3f524dcc8ffab088261defcaaf6e2f5d5ef7e8bbc83",
+          "sha256": "c837e7cdc6c5afff3544228d9f8171e25e4cb947328d1ec6f048528b0ec20093",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/controller_carrier-job.gbrjob",
+          "path": "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-job.gbrjob",
+          "previous_digest": "1068b5d452df70aeb9e52a67b9d50d08afeec92eb5ed8468e522ab06f2fb1bf2",
+          "sha256": "511e307f82002e7eefb5fea627a63953aead990797e66e4001a8939c453135db",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/controller_carrier-NPTH.drl",
+          "path": "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-NPTH.drl",
+          "previous_digest": "5551ec962c223fcba4551fbed16cd846528bbd843d7b85c872de491d89d8d7d8",
+          "sha256": "0ff234e75baa26f9540d2d6e288f282f9c646ab72077a4f6f8530e0999b80942",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/controller_carrier-PTH.drl",
+          "path": "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-PTH.drl",
+          "previous_digest": "d9351cf11a85216a6f196b66287a333a5723b023d3e2079f3332d336850a3c62",
+          "sha256": "8cdcc44d2c686c37513bacba0fcc8589166f2c4a6144a96662a97e62ca5261fa",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        }
+      ]
+    },
+    {
+      "path": "electronics/stage4/integrated-pcb/exports/current-driver/export-receipt.json",
+      "before_sha256": "8f1d0c0a44096604b0ac7f8f015578fe890eea1022fcbcef769e68d5ee5c459a",
+      "after_sha256": "025cb40d3de5ed4b0876877f7c0d049f9fab962768c30b01fda4c12baaff7864",
+      "bindings": [
+        {
+          "field": "DRC_sha256_lf",
+          "path": "electronics/stage4/integrated-pcb/boards/current-driver/drc.json",
+          "previous_digest": "315eeb9bcae4551d432b5bb791c8feb8229c1b18dc6ff1b0bb3e993b0992a65c",
+          "sha256": "37b2fb9f94536c64b936b57e21064fba2be877a9b0106b6e81a451b485275be4",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/top-copper.svg",
+          "path": "electronics/stage4/integrated-pcb/exports/current-driver/top-copper.svg",
+          "previous_digest": "94ea94dc8777a016e9f77539bf8567949a6814f1d77360c9d458db81d50d0dec",
+          "sha256": "260d52cc4850001be48f3fe8027471a5c22846e976ef8cab4546a7c32a508e2d",
+          "native_evidence": "provenance/rebrand-native-pcb-visuals.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/current_driver-B_Cu.gbl",
+          "path": "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-B_Cu.gbl",
+          "previous_digest": "b6db9f541797561a508bc0020a7433695c0376bcb4bb3b66513f22db4730bf94",
+          "sha256": "265e3468bc8060b3e3fc76c4f3a429c891c23cfa9085ccbf21aefda194cca6d8",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/current_driver-B_Mask.gbs",
+          "path": "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-B_Mask.gbs",
+          "previous_digest": "5174fb8041e64accec7d936c7bec00062b30b9279d0f8c8a817f858099a62679",
+          "sha256": "35ff4d22087d8e2054b56e876ae2a02e50d24ee2338e47c4b6d96f15702708b8",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/current_driver-B_Silkscreen.gbo",
+          "path": "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-B_Silkscreen.gbo",
+          "previous_digest": "07c090f062419983fdd2533602ce6269d93ac2111da3542372379e4691df8694",
+          "sha256": "d0d4f5ef1fee88e034403e2aea1bf176355e6f163bde65830bf1aacd19248fe7",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/current_driver-Edge_Cuts.gm1",
+          "path": "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-Edge_Cuts.gm1",
+          "previous_digest": "46f5cbfec370b52d06a11e0b90e970228cdeed5273bcd5f275035d752b4c8331",
+          "sha256": "5fda95b468d78cec751dba90a596deb16a4edba59ae1080103e85046e34a2559",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/current_driver-F_Cu.gtl",
+          "path": "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-F_Cu.gtl",
+          "previous_digest": "9ac33548537fef74b7158baa9e2c4abfa27184228660b4f1e9d801ae4edb3ea1",
+          "sha256": "b9ae3a5d1e7873442b2cd426f25c38634882199ecbb9cb1bf1fe10eb8a83e0b5",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/current_driver-F_Mask.gts",
+          "path": "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-F_Mask.gts",
+          "previous_digest": "e56bf9f241b8fa8debff367e3141080115105d2541181620b31411d2a2a0844c",
+          "sha256": "9c0a764d103523a3ef24cd5907a2f0a0e1ab6b697a5ed038ff3fbca16e7caca7",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/current_driver-F_Silkscreen.gto",
+          "path": "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-F_Silkscreen.gto",
+          "previous_digest": "20207089a7c89198081008dacb8fc38c8c70d4737f8e94fd022c33f97f13719a",
+          "sha256": "28ea7cc4c156947df8f9a9f1faed41e53e54581697ee55a802c87ac98a67f6e0",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/current_driver-In1_Cu.g1",
+          "path": "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-In1_Cu.g1",
+          "previous_digest": "3f3bba5d4b313653d2bd7bb808f6fd1a5a30ab51c4c95533ef00880110653ef6",
+          "sha256": "ec0c009071f4133569b387481ddc8a598e260b568d23e24d2c1c4dc3d172f2ec",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/current_driver-In2_Cu.g2",
+          "path": "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-In2_Cu.g2",
+          "previous_digest": "2bdf808245f4a71cf4e90575ceafba5f49ae5a2af6b7c13d0cfe9e9370ae8003",
+          "sha256": "1b97a98ba647bb59fdf96f757a2f91fff38160678f0dc290333e1ecf6694dd14",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/current_driver-job.gbrjob",
+          "path": "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-job.gbrjob",
+          "previous_digest": "487d9b1d162b83499009096f05dc155c4aacf34fda5a44f0d5b28618dabb4227",
+          "sha256": "b78055af704e06532a63d1395eabb63b393de78d4c35532eb735600c37fb2503",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/current_driver-NPTH.drl",
+          "path": "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-NPTH.drl",
+          "previous_digest": "44db71aa487346b5be63fa234f886d170f05b6198aa355e9fcfafd56636fd8f6",
+          "sha256": "065de378b962d6b851ad8a9e42d0cf1387669dcda99ae282561dadd0a73f819f",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/current_driver-PTH.drl",
+          "path": "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-PTH.drl",
+          "previous_digest": "252315373dd1dfacd21d8523a8fa78858eac27aa581124717a869e4957cfd464",
+          "sha256": "2d23d06bd80541d0fa07bb832222792ad59d3ae76b82f3e95c128086c61633ac",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        }
+      ]
+    },
+    {
+      "path": "electronics/stage4/integrated-pcb/exports/monitoring-cell/export-receipt.json",
+      "before_sha256": "a8f5d82609bc60f44f7cc28066cdacccc0e68db620e7969e4cefb53f824b4879",
+      "after_sha256": "b7ebb7c765c9b2a58c6c467ba2dd5ef0b67457a2121264cfd3226fbd0ac31d6b",
+      "bindings": [
+        {
+          "field": "DRC_sha256_lf",
+          "path": "electronics/stage4/integrated-pcb/boards/monitoring-cell/drc.json",
+          "previous_digest": "35b9ee7490af574171817136c43b774fdf04adf10e6ef3ed5d5d1244dace3e55",
+          "sha256": "2e49f0c513ac883337a8e5a2dd858ce3495c918c598e12dd2b5d7fd7e06e2649",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/top-copper.svg",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-cell/top-copper.svg",
+          "previous_digest": "eb03098e4c3255383b301558c57e81ff53388a2fe72f939727d9852f7603f93e",
+          "sha256": "84133f09093ed42fca1d4692faec46713c6f065b63258649396584e6ed044bc0",
+          "native_evidence": "provenance/rebrand-native-pcb-visuals.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_cell-B_Cu.gbl",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-B_Cu.gbl",
+          "previous_digest": "4ee9b3a0354af4dc940d5d1e34bee7304a97d593b8eea61f56fe30915ee3198e",
+          "sha256": "0d1f831c476cc82b838cc57cfc2c25e1d6d17a82119a0116ec275ae91c48f113",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_cell-B_Mask.gbs",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-B_Mask.gbs",
+          "previous_digest": "3f78f3f4c03f72955ba0fd5e15457827290343cf8fdf43e599883cd155dde70a",
+          "sha256": "796dae311d74fb916a09e743a5473964e5d5d744b886614597ce5b8c659b1d51",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_cell-B_Silkscreen.gbo",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-B_Silkscreen.gbo",
+          "previous_digest": "996ee8bdd3934e26d8d154108fa6940adbb6626d7f7709eb6fa0bc0bd24e53be",
+          "sha256": "ad007d3bac02782e4849a14bd5a4bd917cbda75854d954bf0fb76354c135bb31",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_cell-Edge_Cuts.gm1",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-Edge_Cuts.gm1",
+          "previous_digest": "14bf5256dc5ea1bf87288d4fb1920e14d6d0b4aee2fe11433a9f513bd60eb61a",
+          "sha256": "2cb9937bc8aa6b92816740026996c91288c4de94b38064c382d8197605b557f2",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_cell-F_Cu.gtl",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-F_Cu.gtl",
+          "previous_digest": "fd15dad9e18a5297fa02b8fbb553abf56dfafdcd3e29d55afdb3a049a0e9c260",
+          "sha256": "7f4c1ba031890cb36a49dd614d9367b4c9a9055bf56f7149bf5eb9b470976056",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_cell-F_Mask.gts",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-F_Mask.gts",
+          "previous_digest": "9131b9b6a636758e5315baa60fedd02f95afed466d1ba298d8805836ce4c5deb",
+          "sha256": "c676ec3768237969531f83cab57ab0505f6cca243d837128b88381cf90d2df19",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_cell-F_Silkscreen.gto",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-F_Silkscreen.gto",
+          "previous_digest": "70a5cdbfb1951232dc56149c09d9c138a4b6c242c004302bc3f358b6a845c878",
+          "sha256": "baa40796561c8fdba46cc690cb8826f30dd5390823f09f9424a6d6d42a2be396",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_cell-In1_Cu.g1",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-In1_Cu.g1",
+          "previous_digest": "709381fbeaaff6052865bd52463a1de5d64e9b78b6982b501106dc867fab3e59",
+          "sha256": "b6ee602b138875e0c9bcc7f7581df2877989bbc72437ba520bffa37b70859d1c",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_cell-In2_Cu.g2",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-In2_Cu.g2",
+          "previous_digest": "7c521dcd304b00feeb2002d85f7afbbe24df08a56f5883595eeeb48af778b87f",
+          "sha256": "0ef27a4589f5d525414858e8e7aada6090667f14631dd0564fc2fdc079ba126f",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_cell-job.gbrjob",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-job.gbrjob",
+          "previous_digest": "34410104077d37d02385e5de80b78d68c0bf4d21b9c1cc262d54cebf26b7e03c",
+          "sha256": "9348d8959d70a28cf524c3f2f0d1f18f0db3aa52035c8c90f42b9feb4ed9ec2d",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_cell-NPTH.drl",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-NPTH.drl",
+          "previous_digest": "00733e02a7a7b5e29f142c817e55c57974029f644418293e80e05815b4eb94cb",
+          "sha256": "65bccd17acb33c566a04dfd2b3763d3af3f7ac04e1c09cabb944f0fe45c173b7",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_cell-PTH.drl",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-PTH.drl",
+          "previous_digest": "d8e31721e783a3e410935c7075fb506af4514f7f93dc6e0eb8ee6c1bb2e7ee11",
+          "sha256": "3b1b6382f2fe066a0d05355ff700957bb090ab3509ec34658810c9784de4cd1a",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        }
+      ]
+    },
+    {
+      "path": "electronics/stage4/integrated-pcb/exports/monitoring-transport/export-receipt.json",
+      "before_sha256": "aa2a8a09e2bd5a33982b465d7ae504b5210e5e70759941e19d56a5dccfbd6b0c",
+      "after_sha256": "e0227196e40beb105899dcab416fea85ebdfb3f9c7f1dd342952c7880732571d",
+      "bindings": [
+        {
+          "field": "DRC_sha256_lf",
+          "path": "electronics/stage4/integrated-pcb/boards/monitoring-transport/drc.json",
+          "previous_digest": "80cb90d8e68265fd514b9a01ee4402aa51d6a2e3ced46474b96aaae9aea0a9b1",
+          "sha256": "73b4b48a6c70fa82e7ab177a86819962dbec4009f6f207d89348fdf4b0c921e7",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/top-copper.svg",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-transport/top-copper.svg",
+          "previous_digest": "242c6d85a6197f5b0b2a8e4e464318a6f411b1d651a0104607034f2a0834c0ca",
+          "sha256": "78f7d71fcd750f4008119709f3d7b9efedd0daced8628a72fe3d52bdc977f829",
+          "native_evidence": "provenance/rebrand-native-pcb-visuals.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_transport-B_Cu.gbl",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-B_Cu.gbl",
+          "previous_digest": "b81e74e383e89371efce5224a63f2da9cea7852a0d71cf4caac3145e0f1a7338",
+          "sha256": "8563c44db7cbb5a909586cc423ff1125617fefe701b29bdb48c65b10cd406d9b",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_transport-B_Mask.gbs",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-B_Mask.gbs",
+          "previous_digest": "69e86f052ecdc1249aac3161f2b67dc9876656ad3ca5b6a62e795943f6794e3b",
+          "sha256": "911c598d73d93fe9d717502ecb864f0bbfdfdb851978c95041a5a08bef4df1be",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_transport-B_Silkscreen.gbo",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-B_Silkscreen.gbo",
+          "previous_digest": "4ae86b8f06ec4c868376b289fdf97f40c85d9afcbc4b6d920874e7c655392c14",
+          "sha256": "541e1fb32e5bf72ba76a9b4614a958b139dd42d192c46e69bdedc3854204f2d3",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_transport-Edge_Cuts.gm1",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-Edge_Cuts.gm1",
+          "previous_digest": "6367b52da3094ed8a20c0e4eab2d0ed630293013db6eaee281ed3b58d0df5900",
+          "sha256": "9d8aec4929987ac1860ce242bc0858cee2f8159f5f9c5ae45164ab39d6a44fbf",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_transport-F_Cu.gtl",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-F_Cu.gtl",
+          "previous_digest": "2c9d66b96ea8dfd7135f5cd9fe2c08735e60f42763f2969820f67cae11616041",
+          "sha256": "e638af87eca90410ce6f3c056ae35301a225e64ccf94bbbfb3c67e497dfc059a",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_transport-F_Mask.gts",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-F_Mask.gts",
+          "previous_digest": "44ab06c5fc0beca8cd646c60df33072febc2f5a7d29b57fa2ec98ed6917d46fd",
+          "sha256": "3aa42975bfd641f6cb3672266c3570f717f26d914c2080e73e5fd6162b05f9f8",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_transport-F_Silkscreen.gto",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-F_Silkscreen.gto",
+          "previous_digest": "fe9e1597373f0c91f26efbfdc623d54fe0cd345088a1158b00aab08fd5edaed2",
+          "sha256": "f0605bce00fa19bcd402852d341ccd50ed91e81a719ec53af668fb73b848f8cc",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_transport-In1_Cu.g1",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-In1_Cu.g1",
+          "previous_digest": "b3a8749f503920d5ea121e0ad5a6edeb60f9b8da0ea53334b8c5b61e07076e7c",
+          "sha256": "f3c91cbdc67deebd2cc33c0fc03a9e7ebc97df063bcdfde49698051c823e6c08",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_transport-In2_Cu.g2",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-In2_Cu.g2",
+          "previous_digest": "5b2b020e0245a63abbb9c514d5cb8b6f0468f8b4d380267bca5ca9dbb51dbae7",
+          "sha256": "6e10f3f0fc602aeea7d90a5a19894e6e0e36c32fffb74b34b1aac05e28d0f4a0",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_transport-job.gbrjob",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-job.gbrjob",
+          "previous_digest": "f018f153928353c31ad70403f97023ba7fa829bcc20e9131375ad97a5c07b9be",
+          "sha256": "36e949d48349b2d872f6004bda4c03382fe604f97f2a2183063306f29fb59e97",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_transport-NPTH.drl",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-NPTH.drl",
+          "previous_digest": "fe38200bc39bd07768c21784311accbc35a67a9711072dbbac8fec4f0208cfaa",
+          "sha256": "3fb95aeb02243a553eeb4b0e82e827262dc70a690ffb1450970791bf1e02ce9a",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/monitoring_transport-PTH.drl",
+          "path": "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-PTH.drl",
+          "previous_digest": "8d0d383ba237a86de1c30f96f159a8b7e7f8f7ee1ccc86449e9d5c419ca6e164",
+          "sha256": "9de825be88330beca0709276fdddaeeea6cfb52f8438312f28125da93b8e038f",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        }
+      ]
+    },
+    {
+      "path": "electronics/stage4/integrated-pcb/exports/power/export-receipt.json",
+      "before_sha256": "7b4f2a215b38ec837612ed7deb9fde9823e2492e6a5455b0a84a5440ddbf05d8",
+      "after_sha256": "0097476a97eced97d330b1973d0c4546fddc0d5a954710474384b489ffb4aa89",
+      "bindings": [
+        {
+          "field": "DRC_sha256_lf",
+          "path": "electronics/stage4/integrated-pcb/boards/power/drc.json",
+          "previous_digest": "afb2d669246bfb1e6435c0dc25a9b7e5d4c5e7cf3fdda916927d29a6fb087cec",
+          "sha256": "484624a19cf2633d30fb9f24de15449e98ed6a41a423de143de697246baef21b",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/top-copper.svg",
+          "path": "electronics/stage4/integrated-pcb/exports/power/top-copper.svg",
+          "previous_digest": "e645b7d129161f5ea2e31d2d53a470305274098d1d70108c1d9d514798fa0367",
+          "sha256": "4927e1100ea75c2c6cb3eb11c34701dd43ec90505bec12a25248e9d806d0786d",
+          "native_evidence": "provenance/rebrand-native-pcb-visuals.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/power-B_Cu.gbl",
+          "path": "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-B_Cu.gbl",
+          "previous_digest": "d0f42b2f0ed7dce8b6d00aef7027bb179e6fc4caf6fb4d020374fcd08f0f4f2f",
+          "sha256": "105651304ef5fb7f9e1073e7a846700d0072497fc9b706ccb5d3a26ed4382a60",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/power-B_Mask.gbs",
+          "path": "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-B_Mask.gbs",
+          "previous_digest": "207a0d09b0dd3339340db8cdc2399b3b94517e859f327e47c12bb3de5d2cfdfe",
+          "sha256": "3fe795e4ed11ec12d3fa48ed744f7039b6cfc341cd74645a271f1624fa5f6fab",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/power-B_Silkscreen.gbo",
+          "path": "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-B_Silkscreen.gbo",
+          "previous_digest": "a5afdcf6a3bc8ac51cf416d74ba54ef86394af159605c1bbdcf7d5e9b6dbe1da",
+          "sha256": "9cca431f108f6bd76944c55a25f91fab9948aa66cec6952bd1b73214aa2fbefa",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/power-Edge_Cuts.gm1",
+          "path": "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-Edge_Cuts.gm1",
+          "previous_digest": "ac81c5b0220fc004a715aceafde3c27058a7e399ebd965ac4ba0fdb6045b80e6",
+          "sha256": "7e777712f25a68f6ac53cf0ada80b75447e7584bd767eef765e682a7d0e76f64",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/power-F_Cu.gtl",
+          "path": "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-F_Cu.gtl",
+          "previous_digest": "ba2a7ce7e00eefc2d6e61a8bd9a024f12c24068529596d4c9311e9b848e88ec5",
+          "sha256": "9d779bf8d3839eb4196cb35fc9aeb822e5ff293b864aa65345df8c4babf2d7cd",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/power-F_Mask.gts",
+          "path": "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-F_Mask.gts",
+          "previous_digest": "a86ced8ae2d82a1e111dbab2dcca7649ebf10f78852dcec84105d29f4e9cd1f7",
+          "sha256": "e4f8737533f3408e23180050ee2df672a83169d329d95873dd8667deda77baf0",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/power-F_Silkscreen.gto",
+          "path": "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-F_Silkscreen.gto",
+          "previous_digest": "3577a2d8777759a67544161bf050ccbfe66f65746a2afd17be9b2b460399c0f5",
+          "sha256": "b261fbd0c4ce886ce01bfd4cfe199d1978091307a4f29d3d8bb0f20c46a3eef1",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/power-In1_Cu.g1",
+          "path": "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-In1_Cu.g1",
+          "previous_digest": "2b6b36eaf3b891dcab4b8380b2984069e40e7997c0211f6ea242e76d3b3e3258",
+          "sha256": "8ab4dac27638b27236e00b029e1be89a3f83f84a3d57ff8cb074c8b29a642d50",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/power-In2_Cu.g2",
+          "path": "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-In2_Cu.g2",
+          "previous_digest": "c2f1873a8afdb0fdfeb6febd11c1d2571af1bb76b23136ff4eb4ec2b6f72ba63",
+          "sha256": "978331aad668870bad0a89d13435254800515fc774e08d4e9e8c3f21f0c0456c",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/power-job.gbrjob",
+          "path": "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-job.gbrjob",
+          "previous_digest": "0973b74707dc0ce0f868f0ef3b335ab97d6f66680ad278f756300d3a2fd4350d",
+          "sha256": "2b4673a9c23dd9757ea59de43e103946036b52cf2399fdeb2da8221dcaed2c35",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/power-NPTH.drl",
+          "path": "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-NPTH.drl",
+          "previous_digest": "be0fb2bbfb6f541e345f90476c25b9f06369dc8ac42d3b18cc5c157761f747b5",
+          "sha256": "bee80d39168e5c56d043600ad3ff5d1d4410abe45da8f8f82ab6e50ed1bac384",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/power-PTH.drl",
+          "path": "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-PTH.drl",
+          "previous_digest": "deadfaece92aee04218a6247e516237f23be165931cfa06bf7141b07a5707a89",
+          "sha256": "e211dd9fec52f887acb96036ff60554d526c0cca89e77aca7dd45a58dcf1be83",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        }
+      ]
+    },
+    {
+      "path": "electronics/stage4/integrated-pcb/exports/recording-front-end/export-receipt.json",
+      "before_sha256": "6a90f40632b17c98c87205b87e242973b4f1210d09ce2c45eb5e8a48c02c4915",
+      "after_sha256": "72c437ebdc7c4e2c9b5b3911292c6bbeaac85cba7f6668bbde14eeafa782efe4",
+      "bindings": [
+        {
+          "field": "DRC_sha256_lf",
+          "path": "electronics/stage4/integrated-pcb/boards/recording-front-end/drc.json",
+          "previous_digest": "719bf5b5249113bb73293d579d9ba8b07282a7c64119a70c702f068e6da0e9b3",
+          "sha256": "b4d088f0f14629da3c2748fe9e5a5df5e1bf3c85d77779f63babe7a9bc948870",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/top-copper.svg",
+          "path": "electronics/stage4/integrated-pcb/exports/recording-front-end/top-copper.svg",
+          "previous_digest": "e7a8dd38390ed1390446b94fd5f12d86e32dee200b0af34f8d3d274da7646090",
+          "sha256": "8246604a0c1cf4309feaa42a700ba7cff26e7af7b2c30e9627a497fed1208447",
+          "native_evidence": "provenance/rebrand-native-pcb-visuals.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/recording_front_end-B_Cu.gbl",
+          "path": "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-B_Cu.gbl",
+          "previous_digest": "2bb946115543e0477a6797250abd0bb0b153a05ab516eb62b26b1eace8048290",
+          "sha256": "0aa76c1d09ae9f65d633abe166dfe37745c4944f8e6901407ce1733fdb087930",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/recording_front_end-B_Mask.gbs",
+          "path": "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-B_Mask.gbs",
+          "previous_digest": "cfd7fcba823f6feb467aa4c211a67faa9508103a7aa8f9e40dd207d268409de9",
+          "sha256": "ec04e18ff797f97f336c9b815ff47f2f5654178ddc67afbbb3489a46fcb788ff",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/recording_front_end-B_Silkscreen.gbo",
+          "path": "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-B_Silkscreen.gbo",
+          "previous_digest": "9a23e4b772437b7fd3694f3d536ec221280ada69d6b95cbe6cbc7eab24d57f3b",
+          "sha256": "990ec99854f71a5ef0bac1bf5a52d121683c8b8c578ccffd8874aec51bc9c758",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/recording_front_end-Edge_Cuts.gm1",
+          "path": "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-Edge_Cuts.gm1",
+          "previous_digest": "d562b45b6fe57e7f0ea77bfc0987d7684daf13b4edc18ccb448e18abed92028d",
+          "sha256": "beff6f08c400757bbe2e8e62c484e0199c058b334e101a1fb655f2c89906abeb",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/recording_front_end-F_Cu.gtl",
+          "path": "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-F_Cu.gtl",
+          "previous_digest": "9ea97a7ff75d2420857b43f7ceb1f1276877b73c90e66427b6d58494aa52ed95",
+          "sha256": "43d1b10bd551583c7ab7cd0c0dc272b1f501e053e96003a99b2ec185870f69b9",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/recording_front_end-F_Mask.gts",
+          "path": "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-F_Mask.gts",
+          "previous_digest": "4ff879a38f77fee39706b58018caacf5c3518b3aa5659eb332644268b1e6547e",
+          "sha256": "fcc83702360c5852540731ad9ae9ddc64828e059ed6acac50792a363d7526d53",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/recording_front_end-F_Silkscreen.gto",
+          "path": "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-F_Silkscreen.gto",
+          "previous_digest": "a40fcd54dbd4f81be217d2053bc2c810b1f937b5747e7870376b916ede1a6338",
+          "sha256": "653463b40ad52ec8de745edc009a8019d7ffcf587dfa4a8a2ab57fed94ddeebf",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/recording_front_end-In1_Cu.g1",
+          "path": "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-In1_Cu.g1",
+          "previous_digest": "9f4b51137797c85c0e5951cd40b972928169c5d217371073cebad0fe3cd90c8a",
+          "sha256": "2d2d8ba540b3d5c281b43b81255bfefa2bce40b5b0f8bdb06c090f24d40b58d1",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/recording_front_end-In2_Cu.g2",
+          "path": "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-In2_Cu.g2",
+          "previous_digest": "34471da6410e1b207800d5f67b5cbac4899345be3e5bbfd2d3319b308124120a",
+          "sha256": "146aff2c073142c24ec3f4316d3fea0ea1a504018adc473c36cd693d47d60a87",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/recording_front_end-job.gbrjob",
+          "path": "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-job.gbrjob",
+          "previous_digest": "a548aaf10c57bdec35bfab78a17a01d0ec088471bce06f0611eb742704278881",
+          "sha256": "34c91037bf9d008200712f0d218865df136a9bf289dd057661702b996241c034",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/recording_front_end-NPTH.drl",
+          "path": "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-NPTH.drl",
+          "previous_digest": "798ee1d52bae7f8be679e490928f1ac5fcb4a0e1510f0b8ee9a0826143b817fc",
+          "sha256": "40fbae24ac985b51ce2e1e8da78e8cbbee93a416ee446b737f87ad08d5903009",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/recording_front_end-PTH.drl",
+          "path": "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-PTH.drl",
+          "previous_digest": "31a44ccff3e787378d93fa9a34c2457d1e7adfd07ca1c5e151241d39f670a42f",
+          "sha256": "2741e0c8eddea005aa903d2c03ff5d05844774650b6ab5ea94fa5dd049b95027",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        }
+      ]
+    },
+    {
+      "path": "electronics/stage4/integrated-pcb/exports/supervision/export-receipt.json",
+      "before_sha256": "7959c83f7d6629957f898f19400dcf10f48eb31153433e3e87f17e1cbea5c85c",
+      "after_sha256": "13510eb6ce14042805d2c17f9d4cbc8598c2b636d14e0ad7bc5f1bfba2397af5",
+      "bindings": [
+        {
+          "field": "DRC_sha256_lf",
+          "path": "electronics/stage4/integrated-pcb/boards/supervision/drc.json",
+          "previous_digest": "a4a907ee22dea5efd05a28e7ac0b354eaf078947d60f80a57a7bba24baa0c174",
+          "sha256": "f4e3a11eb1082ef37ccbc9437169333882d1f36696e0ef47026d65ab2a22d4b2",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/top-copper.svg",
+          "path": "electronics/stage4/integrated-pcb/exports/supervision/top-copper.svg",
+          "previous_digest": "8b3d39a3bc084a66528181cc4db8fe3fff7b2f52acf7b56cab408a699d727ffd",
+          "sha256": "feeab0ff09198b1761fa8b49d0814bd62c489287022bee34580a048988cdc824",
+          "native_evidence": "provenance/rebrand-native-pcb-visuals.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/supervision-B_Cu.gbl",
+          "path": "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-B_Cu.gbl",
+          "previous_digest": "841614b1184fd8a7ec547c17ce0508c729ad4b593d2cad4f82c292c34ff9e376",
+          "sha256": "33bcfe7c28ae9f352d0637bee7557310b8e6431e603fad2ee43bebb422c0e836",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/supervision-B_Mask.gbs",
+          "path": "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-B_Mask.gbs",
+          "previous_digest": "e1bfc36ecf13581d5f34b328f67eb9814218443ace94d1f856de91035a33737e",
+          "sha256": "3366b042d099d9dc765a7f9af0d3cd8a1692a151860f4e045ef6010158ca5aca",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/supervision-B_Silkscreen.gbo",
+          "path": "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-B_Silkscreen.gbo",
+          "previous_digest": "c10c866a25d18e45c8aef2eed1ab6df88cb0b27bbfd8a1109b790e8b2ff86cb8",
+          "sha256": "6b34a2319a48e7c14a068f252d4423caf92fc98cbb38ca8bd8cc168fe7780725",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/supervision-Edge_Cuts.gm1",
+          "path": "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-Edge_Cuts.gm1",
+          "previous_digest": "71ed2518ca4efef5a8b3e673577ebafe7e8d85a7ff080ecc56e4b8e6391d4c9d",
+          "sha256": "faca6bf52b12836d9decd899593654acc25b7b08f716a5c13a246faafc2f6296",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/supervision-F_Cu.gtl",
+          "path": "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-F_Cu.gtl",
+          "previous_digest": "1eb61f2bce30b8fb5cba39f00e66a516f5fa9c722de49e9eb26b99779fda56a4",
+          "sha256": "021efea3549abcfde6fb5bd1a1bc2967601af5e4e177e065f4410c71c044f561",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/supervision-F_Mask.gts",
+          "path": "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-F_Mask.gts",
+          "previous_digest": "e8d73d731d6b02df56817961d8ae97d9e56a3222a963843ffcba7cb28552abb4",
+          "sha256": "555db2919008cb4a85ae4d8dbb21bfa8a1375dcfb7da3f17655ae83cd8b058d4",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/supervision-F_Silkscreen.gto",
+          "path": "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-F_Silkscreen.gto",
+          "previous_digest": "34ec30e144d92dedd63e341b2c65ae3cf933a01b0a423e794bf431a9a1a4950d",
+          "sha256": "e2114ac36d801ba6254e94bbd6bb6307c1d279438806e82e588122df7ab11367",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/supervision-In1_Cu.g1",
+          "path": "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-In1_Cu.g1",
+          "previous_digest": "bc521ad8f9663a8387fc14db7e516950c3e395203efd2d5b67683244e725fdfb",
+          "sha256": "c9d6c81deef8927bfc1e9dceaa0cddc889a90c293d529173e48f8640578a5706",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/supervision-In2_Cu.g2",
+          "path": "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-In2_Cu.g2",
+          "previous_digest": "3bceebaf2ba738e283c5facd9f9e3ff80216972d7139548148f3cc8980f70377",
+          "sha256": "de8b98302f2e8f0544f7b8fe57587978e51fb8cc78988aae74cf0017b1b3af0d",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/supervision-job.gbrjob",
+          "path": "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-job.gbrjob",
+          "previous_digest": "1f96a464aa9c44613799d6817ff6ff8eb36fe2dad661fed7ad929e047d7881b9",
+          "sha256": "7d0d9da2f9df3ff21988e83fb753d9c8104c8176bc4d0d9b6997fa7213658a70",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/supervision-NPTH.drl",
+          "path": "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-NPTH.drl",
+          "previous_digest": "f4f2d79c16b723cf2dea713649bc5f8350eed7e9d2703b56da049a4f6f8a2cb9",
+          "sha256": "d388ac538f1b578c39f8d9185f6701a97c4e1059aef1d4f61b90aea271bab450",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        },
+        {
+          "field": "outputs/fabrication-reference/supervision-PTH.drl",
+          "path": "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-PTH.drl",
+          "previous_digest": "81eaea565633405f9400facb2eaad92885508ea624de4fa8b99caa4f06f0d97f",
+          "sha256": "e13077a9d70801b409f13357a558afe996e257cb1bfa9d7a9b8b3749bdc61f49",
+          "native_evidence": "provenance/rebrand-native-electrical-checks.json"
+        }
+      ]
+    }
+  ],
+  "changed_bindings": 113
+}

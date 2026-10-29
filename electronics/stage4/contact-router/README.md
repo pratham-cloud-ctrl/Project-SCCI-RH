@@ -1,4 +1,4 @@
-# ATO-S4-RTR-01 - two-source, sixteen-contact route command circuit
+# SCCI_RH-S4-RTR-01 - two-source, sixteen-contact route command circuit
 
 **13 October 2026 - editable native digital design - artificial loads only**
 
@@ -12,7 +12,7 @@ The [schematic PDF](contact_router.pdf), [individual SVG sheets](svg/),
 are included. Local symbols and footprint snapshots keep it editable without
 requiring the original workstation's global library configuration.
 
-This advances Project ATO's spinal recording, interpretation, learner-specific
+This advances Project SCCI RH's spinal recording, interpretation, learner-specific
 stimulation and feedback architecture. It gives the existing two restricted
 **24 V, approximately 3 mA, 200 microsecond** driver sources actual digital
 contact-selection circuitry. Biological decoding, retained motor learning and
@@ -156,8 +156,8 @@ physical fields.
 Run the default read-only verifier:
 
 ```powershell
-& 'E:\Project ATO\.venv\Scripts\python.exe' -X utf8 `
-  'E:\Project ATO\electronics\stage4\contact-router\verify_contact_router.py'
+& 'E:\Project SCCI RH\.venv\Scripts\python.exe' -X utf8 `
+  'E:\Project SCCI RH\electronics\stage4\contact-router\verify_contact_router.py'
 ```
 
 It checks all exported values, footprints and pin nets, actual package pad

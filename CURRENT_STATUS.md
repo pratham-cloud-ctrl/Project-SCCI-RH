@@ -1,19 +1,19 @@
-# Project ATO: integrated digital completion status
+# Project SCCI RH: integrated digital completion status
 
-Updated: **17 October 2026**. Current engineering release: **v2.0.1**.
+Updated: **28 October 2026**. Current engineering release: **v2.1.0**.
 
 **Reader navigation refreshed: 20 October 2026.** The new
 [Explore hub](docs/explore/README.md) provides visual guides to theory, CAD,
 KiCad electronics and current firmware. This is a documentation/navigation
 update on the default branch; the paper, native designs, firmware and published
-v2.0.1 engineering artifacts retain their verified bytes and release identities.
+v2.1.0 engineering artifacts are retained in immutable Git history; the current files carry the new project name.
 
 **Browser inspection added: 21 October 2026.** The
-[public build inspector](https://pratham-cloud-ctrl.github.io/Project-ATO/)
+[public build inspector](https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/)
 adds selectable source-derived 3D assemblies/boards, interactive PCB component
 lookup, all four copper layers, 80 searchable current schematic sheets and
 complete native/STEP downloads. This is an inspection layer; the original
-engineering sources and integrated paper retain their released identities.
+engineering sources and integrated paper now carry the new name, with original identities retained by the migration record.
 
 
 The [whole-project review](docs/review-v2.0.1/README.md) preserves the original
@@ -25,13 +25,13 @@ remain available at their immutable tag; source-preservation checks remain in fo
 
 The specified six-stage digital research and engineering project is complete
 within its stated scope. The authoritative entry is [START_HERE](START_HERE.md)
-and the [integrated manuscript](output/pdf/Project_ATO_Integrated_Manuscript.pdf).
+and the [integrated manuscript](output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf).
 This completion concerns the delivered research/design/software artifacts and
 finite verification, with no physical device or biological efficacy claim.
 
 ## Main idea retained
 
-ATO proposes implanted spinal recording, computational interpretation,
+SCCI_RH proposes implanted spinal recording, computational interpretation,
 learner-specific or function-specific stimulation, independently observed
 delivery and response, and feedback. Expert-informed **retained motor learning**
 and **selected physiological automation** remain central. Expert information is
@@ -113,5 +113,5 @@ transfer, a human learning multiplier or universal physiological control.
 [Contributions](docs/stage6/contributions.md) and
 [the defence guide](docs/stage6/defence-guide.md) support attribution and student
 understanding. Video and website revision remain parked. The historical
-[v1.0.0 release](https://github.com/pratham-cloud-ctrl/Project-ATO/releases/tag/v1.0.0)
+[v1.0.0 release](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/tag/v1.0.0)
 remains a separate subsystem reference.

@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage3.continuation-figure-review.v1",
+  "schema": "scci_rh.stage3.continuation-figure-review.v1",
   "date": "2026-10-09",
   "method": "Rendered PNGs inspected in Codex during the continuation; companion SVGs use the same Matplotlib figures.",
   "scope": "Legibility and displayed model scope, not numerical or biological validation.",

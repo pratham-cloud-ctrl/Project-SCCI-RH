@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>E:\Project ATO\electronics\stage4\monitoring-transport\monitoring_transport.kicad_sch</source>
+    <source>E:\Project SCCI RH\electronics\stage4\monitoring-transport\monitoring_transport.kicad_sch</source>
     <date>2026-10-14T14:00:02</date>
     <tool>Eeschema 10.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>ATO S4 / Existing package and host endpoints</title>
-        <company>Project ATO</company>
+        <title>SCCI_RH S4 / Existing package and host endpoints</title>
+        <company>Project SCCI RH</company>
         <rev>0.1</rev>
         <date>2026-10-14</date>
         <source>monitoring_transport.kicad_sch</source>
@@ -24,8 +24,8 @@
     </sheet>
     <sheet number="2" name="/root_2/" tstamps="/7880434a-48bf-506a-ac9d-6b78203ec772/">
       <title_block>
-        <title>ATO S4 / Existing package and host endpoints / 2</title>
-        <company>Project ATO</company>
+        <title>SCCI_RH S4 / Existing package and host endpoints / 2</title>
+        <company>Project SCCI RH</company>
         <rev>0.1</rev>
         <date>2026-10-14</date>
         <source>root_2.kicad_sch</source>
@@ -42,8 +42,8 @@
     </sheet>
     <sheet number="3" name="/adc/" tstamps="/5d3e8d94-df0e-5999-98b6-9cb57ec7e02a/">
       <title_block>
-        <title>ATO S4 / Dedicated eight-channel raw conversion</title>
-        <company>Project ATO</company>
+        <title>SCCI_RH S4 / Dedicated eight-channel raw conversion</title>
+        <company>Project SCCI RH</company>
         <rev>0.1</rev>
         <date>2026-10-14</date>
         <source>adc.kicad_sch</source>
@@ -60,8 +60,8 @@
     </sheet>
     <sheet number="4" name="/reference/" tstamps="/c90f0fe5-ccc0-529d-967b-355ee0d26c3a/">
       <title_block>
-        <title>ATO S4 / Independent ADC reference and bypass</title>
-        <company>Project ATO</company>
+        <title>SCCI_RH S4 / Independent ADC reference and bypass</title>
+        <company>Project SCCI RH</company>
         <rev>0.1</rev>
         <date>2026-10-14</date>
         <source>reference.kicad_sch</source>
@@ -78,8 +78,8 @@
     </sheet>
     <sheet number="5" name="/inputs/" tstamps="/0a9a2965-5f72-5f9c-b91c-5debe4602283/">
       <title_block>
-        <title>ATO S4 / Raw current and scaled voltage filtering</title>
-        <company>Project ATO</company>
+        <title>SCCI_RH S4 / Raw current and scaled voltage filtering</title>
+        <company>Project SCCI RH</company>
         <rev>0.1</rev>
         <date>2026-10-14</date>
         <source>inputs.kicad_sch</source>
@@ -96,8 +96,8 @@
     </sheet>
     <sheet number="6" name="/health/" tstamps="/74423b4b-11de-57d0-990e-540ff5f5e5f2/">
       <title_block>
-        <title>ATO S4 / Divided power observations</title>
-        <company>Project ATO</company>
+        <title>SCCI_RH S4 / Divided power observations</title>
+        <company>Project SCCI RH</company>
         <rev>0.1</rev>
         <date>2026-10-14</date>
         <source>health.kicad_sch</source>
@@ -114,8 +114,8 @@
     </sheet>
     <sheet number="7" name="/companion/" tstamps="/5098c9ca-7662-55f9-abf2-1cee41be6148/">
       <title_block>
-        <title>ATO S4 / Isolated wired processed-feature companion</title>
-        <company>Project ATO</company>
+        <title>SCCI_RH S4 / Isolated wired processed-feature companion</title>
+        <company>Project SCCI RH</company>
         <rev>0.1</rev>
         <date>2026-10-14</date>
         <source>companion.kicad_sch</source>
@@ -132,8 +132,8 @@
     </sheet>
     <sheet number="8" name="/handoff/" tstamps="/380c03ad-d9bb-5a11-a4b3-1c5d618b6562/">
       <title_block>
-        <title>ATO S4 / Charge ADC and health host handoff</title>
-        <company>Project ATO</company>
+        <title>SCCI_RH S4 / Charge ADC and health host handoff</title>
+        <company>Project SCCI RH</company>
         <rev>0.1</rev>
         <date>2026-10-14</date>
         <source>handoff.kicad_sch</source>
@@ -152,13 +152,13 @@
   <components>
     <comp ref="J1">
       <value>HOST RAILS / RAW ADC</value>
-      <footprint>ato_transport:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_transport:PinHeader_1x03_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_transport:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_transport:PinHeader_1x03_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="J1" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="J1" description=""/>
       <property name="Sheetname" value="monitoring_transport"/>
       <property name="Sheetfile" value="monitoring_transport.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -175,13 +175,13 @@
     </comp>
     <comp ref="J2">
       <value>EXISTING ANALOG TAPS</value>
-      <footprint>ato_transport:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_transport:PinHeader_1x08_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_transport:PinHeader_1x08_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_transport:PinHeader_1x08_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="J2" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="J2" description=""/>
       <property name="Sheetname" value="monitoring_transport"/>
       <property name="Sheetfile" value="monitoring_transport.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -203,13 +203,13 @@
     </comp>
     <comp ref="J3">
       <value>DEDICATED RAW ADC BUS</value>
-      <footprint>ato_transport:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_transport:PinHeader_1x06_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_transport:PinHeader_1x06_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_transport:PinHeader_1x06_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="J3" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="J3" description=""/>
       <property name="Sheetname" value="monitoring_transport"/>
       <property name="Sheetfile" value="monitoring_transport.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -229,13 +229,13 @@
     </comp>
     <comp ref="J4">
       <value>TWO EXISTING CHARGE ADCs</value>
-      <footprint>ato_transport:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_transport:PinHeader_1x08_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_transport:PinHeader_1x08_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_transport:PinHeader_1x08_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="J4" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="J4" description=""/>
       <property name="Sheetname" value="root_2"/>
       <property name="Sheetfile" value="root_2.kicad_sch"/>
       <sheetpath names="/root_2/" tstamps="/7880434a-48bf-506a-ac9d-6b78203ec772/"/>
@@ -257,13 +257,13 @@
     </comp>
     <comp ref="J5">
       <value>CHARGE CONTROL HANDOFF</value>
-      <footprint>ato_transport:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_transport:PinHeader_1x05_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_transport:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_transport:PinHeader_1x05_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="J5" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="J5" description=""/>
       <property name="Sheetname" value="root_2"/>
       <property name="Sheetfile" value="root_2.kicad_sch"/>
       <sheetpath names="/root_2/" tstamps="/7880434a-48bf-506a-ac9d-6b78203ec772/"/>
@@ -282,13 +282,13 @@
     </comp>
     <comp ref="J6">
       <value>READ-ONLY NATIVE HEALTH</value>
-      <footprint>ato_transport:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_transport:PinHeader_1x10_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_transport:PinHeader_1x10_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_transport:PinHeader_1x10_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="J6" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="J6" description=""/>
       <property name="Sheetname" value="root_2"/>
       <property name="Sheetfile" value="root_2.kicad_sch"/>
       <sheetpath names="/root_2/" tstamps="/7880434a-48bf-506a-ac9d-6b78203ec772/"/>
@@ -312,13 +312,13 @@
     </comp>
     <comp ref="R1">
       <value>33R</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R1" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R1" description=""/>
       <property name="Sheetname" value="adc"/>
       <property name="Sheetfile" value="adc.kicad_sch"/>
       <sheetpath names="/adc/" tstamps="/5d3e8d94-df0e-5999-98b6-9cb57ec7e02a/"/>
@@ -334,13 +334,13 @@
     </comp>
     <comp ref="R2">
       <value>33R</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R2" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R2" description=""/>
       <property name="Sheetname" value="adc"/>
       <property name="Sheetfile" value="adc.kicad_sch"/>
       <sheetpath names="/adc/" tstamps="/5d3e8d94-df0e-5999-98b6-9cb57ec7e02a/"/>
@@ -356,13 +356,13 @@
     </comp>
     <comp ref="R3">
       <value>100k</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R3" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R3" description=""/>
       <property name="Sheetname" value="adc"/>
       <property name="Sheetfile" value="adc.kicad_sch"/>
       <sheetpath names="/adc/" tstamps="/5d3e8d94-df0e-5999-98b6-9cb57ec7e02a/"/>
@@ -378,13 +378,13 @@
     </comp>
     <comp ref="R4">
       <value>100k</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R4" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R4" description=""/>
       <property name="Sheetname" value="adc"/>
       <property name="Sheetfile" value="adc.kicad_sch"/>
       <sheetpath names="/adc/" tstamps="/5d3e8d94-df0e-5999-98b6-9cb57ec7e02a/"/>
@@ -400,13 +400,13 @@
     </comp>
     <comp ref="R5">
       <value>100k</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R5" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R5" description=""/>
       <property name="Sheetname" value="adc"/>
       <property name="Sheetfile" value="adc.kicad_sch"/>
       <sheetpath names="/adc/" tstamps="/5d3e8d94-df0e-5999-98b6-9cb57ec7e02a/"/>
@@ -422,13 +422,13 @@
     </comp>
     <comp ref="R6">
       <value>100k</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R6" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R6" description=""/>
       <property name="Sheetname" value="adc"/>
       <property name="Sheetfile" value="adc.kicad_sch"/>
       <sheetpath names="/adc/" tstamps="/5d3e8d94-df0e-5999-98b6-9cb57ec7e02a/"/>
@@ -444,14 +444,14 @@
     </comp>
     <comp ref="U1">
       <value>ADS8688IDBTR</value>
-      <footprint>ato_transport:TSSOP-38_4.4x9.7mm_P0.5mm</footprint>
+      <footprint>scci_rh_transport:TSSOP-38_4.4x9.7mm_P0.5mm</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/ads8688.pdf</datasheet>
       <fields>
-        <field name="Footprint">ato_transport:TSSOP-38_4.4x9.7mm_P0.5mm</field>
+        <field name="Footprint">scci_rh_transport:TSSOP-38_4.4x9.7mm_P0.5mm</field>
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ads8688.pdf</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="U1" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="U1" description=""/>
       <property name="Sheetname" value="adc"/>
       <property name="Sheetfile" value="adc.kicad_sch"/>
       <sheetpath names="/adc/" tstamps="/5d3e8d94-df0e-5999-98b6-9cb57ec7e02a/"/>
@@ -503,13 +503,13 @@
     </comp>
     <comp ref="C1">
       <value>22u X7R 10V</value>
-      <footprint>ato_transport:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_transport:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="C1" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="C1" description=""/>
       <property name="Sheetname" value="reference"/>
       <property name="Sheetfile" value="reference.kicad_sch"/>
       <sheetpath names="/reference/" tstamps="/c90f0fe5-ccc0-529d-967b-355ee0d26c3a/"/>
@@ -525,13 +525,13 @@
     </comp>
     <comp ref="C2">
       <value>22u X7R 10V</value>
-      <footprint>ato_transport:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_transport:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="C2" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="C2" description=""/>
       <property name="Sheetname" value="reference"/>
       <property name="Sheetfile" value="reference.kicad_sch"/>
       <sheetpath names="/reference/" tstamps="/c90f0fe5-ccc0-529d-967b-355ee0d26c3a/"/>
@@ -547,13 +547,13 @@
     </comp>
     <comp ref="C3">
       <value>1u X7R 10V</value>
-      <footprint>ato_transport:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_transport:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="C3" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="C3" description=""/>
       <property name="Sheetname" value="reference"/>
       <property name="Sheetfile" value="reference.kicad_sch"/>
       <sheetpath names="/reference/" tstamps="/c90f0fe5-ccc0-529d-967b-355ee0d26c3a/"/>
@@ -569,13 +569,13 @@
     </comp>
     <comp ref="C4">
       <value>10u X7R 10V</value>
-      <footprint>ato_transport:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_transport:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="C4" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="C4" description=""/>
       <property name="Sheetname" value="reference"/>
       <property name="Sheetfile" value="reference.kicad_sch"/>
       <sheetpath names="/reference/" tstamps="/c90f0fe5-ccc0-529d-967b-355ee0d26c3a/"/>
@@ -591,13 +591,13 @@
     </comp>
     <comp ref="C5">
       <value>1u X7R 10V</value>
-      <footprint>ato_transport:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_transport:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="C5" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="C5" description=""/>
       <property name="Sheetname" value="reference"/>
       <property name="Sheetfile" value="reference.kicad_sch"/>
       <sheetpath names="/reference/" tstamps="/c90f0fe5-ccc0-529d-967b-355ee0d26c3a/"/>
@@ -613,13 +613,13 @@
     </comp>
     <comp ref="C6">
       <value>10u X7R 10V</value>
-      <footprint>ato_transport:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_transport:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="C6" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="C6" description=""/>
       <property name="Sheetname" value="reference"/>
       <property name="Sheetfile" value="reference.kicad_sch"/>
       <sheetpath names="/reference/" tstamps="/c90f0fe5-ccc0-529d-967b-355ee0d26c3a/"/>
@@ -635,13 +635,13 @@
     </comp>
     <comp ref="C7">
       <value>1u X7R 10V</value>
-      <footprint>ato_transport:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_transport:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="C7" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="C7" description=""/>
       <property name="Sheetname" value="reference"/>
       <property name="Sheetfile" value="reference.kicad_sch"/>
       <sheetpath names="/reference/" tstamps="/c90f0fe5-ccc0-529d-967b-355ee0d26c3a/"/>
@@ -657,13 +657,13 @@
     </comp>
     <comp ref="C8">
       <value>10u X7R 10V</value>
-      <footprint>ato_transport:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_transport:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="C8" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="C8" description=""/>
       <property name="Sheetname" value="reference"/>
       <property name="Sheetfile" value="reference.kicad_sch"/>
       <sheetpath names="/reference/" tstamps="/c90f0fe5-ccc0-529d-967b-355ee0d26c3a/"/>
@@ -679,13 +679,13 @@
     </comp>
     <comp ref="C9">
       <value>100n X7R 10V</value>
-      <footprint>ato_transport:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_transport:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="C9" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="C9" description=""/>
       <property name="Sheetname" value="reference"/>
       <property name="Sheetfile" value="reference.kicad_sch"/>
       <sheetpath names="/reference/" tstamps="/c90f0fe5-ccc0-529d-967b-355ee0d26c3a/"/>
@@ -701,13 +701,13 @@
     </comp>
     <comp ref="C100">
       <value>1n C0G 5%</value>
-      <footprint>ato_transport:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_transport:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="C100" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="C100" description=""/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="inputs.kicad_sch"/>
       <sheetpath names="/inputs/" tstamps="/0a9a2965-5f72-5f9c-b91c-5debe4602283/"/>
@@ -723,13 +723,13 @@
     </comp>
     <comp ref="C101">
       <value>1n C0G 5%</value>
-      <footprint>ato_transport:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_transport:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="C101" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="C101" description=""/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="inputs.kicad_sch"/>
       <sheetpath names="/inputs/" tstamps="/0a9a2965-5f72-5f9c-b91c-5debe4602283/"/>
@@ -745,13 +745,13 @@
     </comp>
     <comp ref="C102">
       <value>1n C0G 5%</value>
-      <footprint>ato_transport:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_transport:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="C102" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="C102" description=""/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="inputs.kicad_sch"/>
       <sheetpath names="/inputs/" tstamps="/0a9a2965-5f72-5f9c-b91c-5debe4602283/"/>
@@ -767,13 +767,13 @@
     </comp>
     <comp ref="C103">
       <value>1n C0G 5%</value>
-      <footprint>ato_transport:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_transport:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="C103" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="C103" description=""/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="inputs.kicad_sch"/>
       <sheetpath names="/inputs/" tstamps="/0a9a2965-5f72-5f9c-b91c-5debe4602283/"/>
@@ -789,13 +789,13 @@
     </comp>
     <comp ref="C104">
       <value>1n C0G 5%</value>
-      <footprint>ato_transport:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_transport:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="C104" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="C104" description=""/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="inputs.kicad_sch"/>
       <sheetpath names="/inputs/" tstamps="/0a9a2965-5f72-5f9c-b91c-5debe4602283/"/>
@@ -811,13 +811,13 @@
     </comp>
     <comp ref="C105">
       <value>1n C0G 5%</value>
-      <footprint>ato_transport:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_transport:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="C105" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="C105" description=""/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="inputs.kicad_sch"/>
       <sheetpath names="/inputs/" tstamps="/0a9a2965-5f72-5f9c-b91c-5debe4602283/"/>
@@ -833,13 +833,13 @@
     </comp>
     <comp ref="C106">
       <value>1n C0G 5%</value>
-      <footprint>ato_transport:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_transport:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="C106" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="C106" description=""/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="inputs.kicad_sch"/>
       <sheetpath names="/inputs/" tstamps="/0a9a2965-5f72-5f9c-b91c-5debe4602283/"/>
@@ -855,13 +855,13 @@
     </comp>
     <comp ref="C107">
       <value>1n C0G 5%</value>
-      <footprint>ato_transport:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_transport:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="C107" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="C107" description=""/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="inputs.kicad_sch"/>
       <sheetpath names="/inputs/" tstamps="/0a9a2965-5f72-5f9c-b91c-5debe4602283/"/>
@@ -877,13 +877,13 @@
     </comp>
     <comp ref="R100">
       <value>100R 0.1%</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R100" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R100" description=""/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="inputs.kicad_sch"/>
       <sheetpath names="/inputs/" tstamps="/0a9a2965-5f72-5f9c-b91c-5debe4602283/"/>
@@ -899,13 +899,13 @@
     </comp>
     <comp ref="R101">
       <value>100R 0.1%</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R101" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R101" description=""/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="inputs.kicad_sch"/>
       <sheetpath names="/inputs/" tstamps="/0a9a2965-5f72-5f9c-b91c-5debe4602283/"/>
@@ -921,13 +921,13 @@
     </comp>
     <comp ref="R102">
       <value>100R 0.1%</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R102" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R102" description=""/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="inputs.kicad_sch"/>
       <sheetpath names="/inputs/" tstamps="/0a9a2965-5f72-5f9c-b91c-5debe4602283/"/>
@@ -943,13 +943,13 @@
     </comp>
     <comp ref="R103">
       <value>100R 0.1%</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R103" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R103" description=""/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="inputs.kicad_sch"/>
       <sheetpath names="/inputs/" tstamps="/0a9a2965-5f72-5f9c-b91c-5debe4602283/"/>
@@ -965,13 +965,13 @@
     </comp>
     <comp ref="R104">
       <value>100R 0.1%</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R104" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R104" description=""/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="inputs.kicad_sch"/>
       <sheetpath names="/inputs/" tstamps="/0a9a2965-5f72-5f9c-b91c-5debe4602283/"/>
@@ -987,13 +987,13 @@
     </comp>
     <comp ref="R105">
       <value>100R 0.1%</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R105" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R105" description=""/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="inputs.kicad_sch"/>
       <sheetpath names="/inputs/" tstamps="/0a9a2965-5f72-5f9c-b91c-5debe4602283/"/>
@@ -1009,13 +1009,13 @@
     </comp>
     <comp ref="R106">
       <value>100R 0.1%</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R106" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R106" description=""/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="inputs.kicad_sch"/>
       <sheetpath names="/inputs/" tstamps="/0a9a2965-5f72-5f9c-b91c-5debe4602283/"/>
@@ -1031,13 +1031,13 @@
     </comp>
     <comp ref="R107">
       <value>100R 0.1%</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R107" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R107" description=""/>
       <property name="Sheetname" value="inputs"/>
       <property name="Sheetfile" value="inputs.kicad_sch"/>
       <sheetpath names="/inputs/" tstamps="/0a9a2965-5f72-5f9c-b91c-5debe4602283/"/>
@@ -1053,13 +1053,13 @@
     </comp>
     <comp ref="R120">
       <value>4.99k 0.1%</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R120" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R120" description=""/>
       <property name="Sheetname" value="health"/>
       <property name="Sheetfile" value="health.kicad_sch"/>
       <sheetpath names="/health/" tstamps="/74423b4b-11de-57d0-990e-540ff5f5e5f2/"/>
@@ -1075,13 +1075,13 @@
     </comp>
     <comp ref="R121">
       <value>2.49k 0.1%</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R121" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R121" description=""/>
       <property name="Sheetname" value="health"/>
       <property name="Sheetfile" value="health.kicad_sch"/>
       <sheetpath names="/health/" tstamps="/74423b4b-11de-57d0-990e-540ff5f5e5f2/"/>
@@ -1097,13 +1097,13 @@
     </comp>
     <comp ref="R122">
       <value>2.4k 0.1%</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R122" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R122" description=""/>
       <property name="Sheetname" value="health"/>
       <property name="Sheetfile" value="health.kicad_sch"/>
       <sheetpath names="/health/" tstamps="/74423b4b-11de-57d0-990e-540ff5f5e5f2/"/>
@@ -1119,13 +1119,13 @@
     </comp>
     <comp ref="R123">
       <value>2k 0.1%</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R123" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R123" description=""/>
       <property name="Sheetname" value="health"/>
       <property name="Sheetfile" value="health.kicad_sch"/>
       <sheetpath names="/health/" tstamps="/74423b4b-11de-57d0-990e-540ff5f5e5f2/"/>
@@ -1141,13 +1141,13 @@
     </comp>
     <comp ref="C20">
       <value>100n X7R 10V</value>
-      <footprint>ato_transport:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_transport:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="C20" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="C20" description=""/>
       <property name="Sheetname" value="companion"/>
       <property name="Sheetfile" value="companion.kicad_sch"/>
       <sheetpath names="/companion/" tstamps="/5098c9ca-7662-55f9-abf2-1cee41be6148/"/>
@@ -1163,13 +1163,13 @@
     </comp>
     <comp ref="C21">
       <value>100n X7R 10V</value>
-      <footprint>ato_transport:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_transport:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="C21" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="C21" description=""/>
       <property name="Sheetname" value="companion"/>
       <property name="Sheetfile" value="companion.kicad_sch"/>
       <sheetpath names="/companion/" tstamps="/5098c9ca-7662-55f9-abf2-1cee41be6148/"/>
@@ -1185,13 +1185,13 @@
     </comp>
     <comp ref="C22">
       <value>1u X7R 10V</value>
-      <footprint>ato_transport:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_transport:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="C22" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="C22" description=""/>
       <property name="Sheetname" value="companion"/>
       <property name="Sheetfile" value="companion.kicad_sch"/>
       <sheetpath names="/companion/" tstamps="/5098c9ca-7662-55f9-abf2-1cee41be6148/"/>
@@ -1207,13 +1207,13 @@
     </comp>
     <comp ref="C23">
       <value>1u X7R 10V</value>
-      <footprint>ato_transport:C_1206_3216Metric</footprint>
+      <footprint>scci_rh_transport:C_1206_3216Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="C23" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="C23" description=""/>
       <property name="Sheetname" value="companion"/>
       <property name="Sheetfile" value="companion.kicad_sch"/>
       <sheetpath names="/companion/" tstamps="/5098c9ca-7662-55f9-abf2-1cee41be6148/"/>
@@ -1229,13 +1229,13 @@
     </comp>
     <comp ref="J7">
       <value>HOST PROCESSED UART</value>
-      <footprint>ato_transport:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_transport:PinHeader_1x04_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_transport:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_transport:PinHeader_1x04_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="J7" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="J7" description=""/>
       <property name="Sheetname" value="companion"/>
       <property name="Sheetfile" value="companion.kicad_sch"/>
       <sheetpath names="/companion/" tstamps="/5098c9ca-7662-55f9-abf2-1cee41be6148/"/>
@@ -1253,13 +1253,13 @@
     </comp>
     <comp ref="J8">
       <value>EXTERNAL COMPANION UART</value>
-      <footprint>ato_transport:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_transport:PinHeader_1x04_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_transport:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_transport:PinHeader_1x04_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="J8" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="J8" description=""/>
       <property name="Sheetname" value="companion"/>
       <property name="Sheetfile" value="companion.kicad_sch"/>
       <sheetpath names="/companion/" tstamps="/5098c9ca-7662-55f9-abf2-1cee41be6148/"/>
@@ -1277,13 +1277,13 @@
     </comp>
     <comp ref="R20">
       <value>33R</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R20" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R20" description=""/>
       <property name="Sheetname" value="companion"/>
       <property name="Sheetfile" value="companion.kicad_sch"/>
       <sheetpath names="/companion/" tstamps="/5098c9ca-7662-55f9-abf2-1cee41be6148/"/>
@@ -1299,13 +1299,13 @@
     </comp>
     <comp ref="R21">
       <value>33R</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R21" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R21" description=""/>
       <property name="Sheetname" value="companion"/>
       <property name="Sheetfile" value="companion.kicad_sch"/>
       <sheetpath names="/companion/" tstamps="/5098c9ca-7662-55f9-abf2-1cee41be6148/"/>
@@ -1321,13 +1321,13 @@
     </comp>
     <comp ref="R22">
       <value>33R</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R22" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R22" description=""/>
       <property name="Sheetname" value="companion"/>
       <property name="Sheetfile" value="companion.kicad_sch"/>
       <sheetpath names="/companion/" tstamps="/5098c9ca-7662-55f9-abf2-1cee41be6148/"/>
@@ -1343,13 +1343,13 @@
     </comp>
     <comp ref="R23">
       <value>33R</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R23" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R23" description=""/>
       <property name="Sheetname" value="companion"/>
       <property name="Sheetfile" value="companion.kicad_sch"/>
       <sheetpath names="/companion/" tstamps="/5098c9ca-7662-55f9-abf2-1cee41be6148/"/>
@@ -1365,13 +1365,13 @@
     </comp>
     <comp ref="R24">
       <value>10k</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R24" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R24" description=""/>
       <property name="Sheetname" value="companion"/>
       <property name="Sheetfile" value="companion.kicad_sch"/>
       <sheetpath names="/companion/" tstamps="/5098c9ca-7662-55f9-abf2-1cee41be6148/"/>
@@ -1387,13 +1387,13 @@
     </comp>
     <comp ref="R25">
       <value>10k</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R25" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R25" description=""/>
       <property name="Sheetname" value="companion"/>
       <property name="Sheetfile" value="companion.kicad_sch"/>
       <sheetpath names="/companion/" tstamps="/5098c9ca-7662-55f9-abf2-1cee41be6148/"/>
@@ -1409,14 +1409,14 @@
     </comp>
     <comp ref="U20">
       <value>ISO6721BDR</value>
-      <footprint>ato_transport:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <footprint>scci_rh_transport:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/iso6721.pdf</datasheet>
       <fields>
-        <field name="Footprint">ato_transport:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Footprint">scci_rh_transport:SOIC-8_3.9x4.9mm_P1.27mm</field>
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/iso6721.pdf</field>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="U20" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="U20" description=""/>
       <property name="Sheetname" value="companion"/>
       <property name="Sheetfile" value="companion.kicad_sch"/>
       <sheetpath names="/companion/" tstamps="/5098c9ca-7662-55f9-abf2-1cee41be6148/"/>
@@ -1438,13 +1438,13 @@
     </comp>
     <comp ref="J20">
       <value>HOST CHARGE ADC BUS</value>
-      <footprint>ato_transport:PinHeader_1x12_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_transport:PinHeader_1x12_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_transport:PinHeader_1x12_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_transport:PinHeader_1x12_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="J20" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="J20" description=""/>
       <property name="Sheetname" value="handoff"/>
       <property name="Sheetfile" value="handoff.kicad_sch"/>
       <sheetpath names="/handoff/" tstamps="/380c03ad-d9bb-5a11-a4b3-1c5d618b6562/"/>
@@ -1470,13 +1470,13 @@
     </comp>
     <comp ref="J21">
       <value>HOST HEALTH INPUTS</value>
-      <footprint>ato_transport:PinHeader_1x10_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_transport:PinHeader_1x10_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_transport:PinHeader_1x10_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_transport:PinHeader_1x10_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="J21" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="J21" description=""/>
       <property name="Sheetname" value="handoff"/>
       <property name="Sheetfile" value="handoff.kicad_sch"/>
       <sheetpath names="/handoff/" tstamps="/380c03ad-d9bb-5a11-a4b3-1c5d618b6562/"/>
@@ -1500,13 +1500,13 @@
     </comp>
     <comp ref="J22">
       <value>HOST SHARED ENDPOINT SPI</value>
-      <footprint>ato_transport:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <footprint>scci_rh_transport:PinHeader_1x07_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Footprint">ato_transport:PinHeader_1x07_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_transport:PinHeader_1x07_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="J22" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="J22" description=""/>
       <property name="Sheetname" value="handoff"/>
       <property name="Sheetfile" value="handoff.kicad_sch"/>
       <sheetpath names="/handoff/" tstamps="/380c03ad-d9bb-5a11-a4b3-1c5d618b6562/"/>
@@ -1527,13 +1527,13 @@
     </comp>
     <comp ref="R30">
       <value>330R</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R30" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R30" description=""/>
       <property name="Sheetname" value="handoff"/>
       <property name="Sheetfile" value="handoff.kicad_sch"/>
       <sheetpath names="/handoff/" tstamps="/380c03ad-d9bb-5a11-a4b3-1c5d618b6562/"/>
@@ -1549,13 +1549,13 @@
     </comp>
     <comp ref="R31">
       <value>330R</value>
-      <footprint>ato_transport:R_0805_2012Metric</footprint>
+      <footprint>scci_rh_transport:R_0805_2012Metric</footprint>
       <fields>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="ATO_TRANSPORT" part="R31" description=""/>
+      <libsource lib="SCCI_RH_TRANSPORT" part="R31" description=""/>
       <property name="Sheetname" value="handoff"/>
       <property name="Sheetfile" value="handoff.kicad_sch"/>
       <sheetpath names="/handoff/" tstamps="/380c03ad-d9bb-5a11-a4b3-1c5d618b6562/"/>
@@ -1571,11 +1571,11 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="ATO_TRANSPORT" part="C1">
+    <libpart lib="SCCI_RH_TRANSPORT" part="C1">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">22u X7R 10V</field>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1584,11 +1584,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="C100">
+    <libpart lib="SCCI_RH_TRANSPORT" part="C100">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">1n C0G 5%</field>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1597,11 +1597,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="C101">
+    <libpart lib="SCCI_RH_TRANSPORT" part="C101">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">1n C0G 5%</field>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1610,11 +1610,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="C102">
+    <libpart lib="SCCI_RH_TRANSPORT" part="C102">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">1n C0G 5%</field>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1623,11 +1623,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="C103">
+    <libpart lib="SCCI_RH_TRANSPORT" part="C103">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">1n C0G 5%</field>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1636,11 +1636,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="C104">
+    <libpart lib="SCCI_RH_TRANSPORT" part="C104">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">1n C0G 5%</field>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1649,11 +1649,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="C105">
+    <libpart lib="SCCI_RH_TRANSPORT" part="C105">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">1n C0G 5%</field>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1662,11 +1662,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="C106">
+    <libpart lib="SCCI_RH_TRANSPORT" part="C106">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">1n C0G 5%</field>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1675,11 +1675,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="C107">
+    <libpart lib="SCCI_RH_TRANSPORT" part="C107">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">1n C0G 5%</field>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1688,11 +1688,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="C2">
+    <libpart lib="SCCI_RH_TRANSPORT" part="C2">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">22u X7R 10V</field>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1701,11 +1701,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="C20">
+    <libpart lib="SCCI_RH_TRANSPORT" part="C20">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">100n X7R 10V</field>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1714,11 +1714,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="C21">
+    <libpart lib="SCCI_RH_TRANSPORT" part="C21">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">100n X7R 10V</field>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1727,11 +1727,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="C22">
+    <libpart lib="SCCI_RH_TRANSPORT" part="C22">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">1u X7R 10V</field>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1740,11 +1740,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="C23">
+    <libpart lib="SCCI_RH_TRANSPORT" part="C23">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">1u X7R 10V</field>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1753,11 +1753,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="C3">
+    <libpart lib="SCCI_RH_TRANSPORT" part="C3">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">1u X7R 10V</field>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1766,11 +1766,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="C4">
+    <libpart lib="SCCI_RH_TRANSPORT" part="C4">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">10u X7R 10V</field>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1779,11 +1779,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="C5">
+    <libpart lib="SCCI_RH_TRANSPORT" part="C5">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">1u X7R 10V</field>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1792,11 +1792,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="C6">
+    <libpart lib="SCCI_RH_TRANSPORT" part="C6">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">10u X7R 10V</field>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1805,11 +1805,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="C7">
+    <libpart lib="SCCI_RH_TRANSPORT" part="C7">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">1u X7R 10V</field>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1818,11 +1818,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="C8">
+    <libpart lib="SCCI_RH_TRANSPORT" part="C8">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">10u X7R 10V</field>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1831,11 +1831,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="C9">
+    <libpart lib="SCCI_RH_TRANSPORT" part="C9">
       <fields>
         <field name="Reference">C</field>
         <field name="Value">100n X7R 10V</field>
-        <field name="Footprint">ato_transport:C_1206_3216Metric</field>
+        <field name="Footprint">scci_rh_transport:C_1206_3216Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1844,11 +1844,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="J1">
+    <libpart lib="SCCI_RH_TRANSPORT" part="J1">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">HOST RAILS / RAW ADC</field>
-        <field name="Footprint">ato_transport:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_transport:PinHeader_1x03_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1858,11 +1858,11 @@
         <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="J2">
+    <libpart lib="SCCI_RH_TRANSPORT" part="J2">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">EXISTING ANALOG TAPS</field>
-        <field name="Footprint">ato_transport:PinHeader_1x08_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_transport:PinHeader_1x08_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1877,11 +1877,11 @@
         <pin num="8" name="8" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="J20">
+    <libpart lib="SCCI_RH_TRANSPORT" part="J20">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">HOST CHARGE ADC BUS</field>
-        <field name="Footprint">ato_transport:PinHeader_1x12_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_transport:PinHeader_1x12_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1900,11 +1900,11 @@
         <pin num="12" name="12" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="J21">
+    <libpart lib="SCCI_RH_TRANSPORT" part="J21">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">HOST HEALTH INPUTS</field>
-        <field name="Footprint">ato_transport:PinHeader_1x10_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_transport:PinHeader_1x10_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1921,11 +1921,11 @@
         <pin num="10" name="10" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="J22">
+    <libpart lib="SCCI_RH_TRANSPORT" part="J22">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">HOST SHARED ENDPOINT SPI</field>
-        <field name="Footprint">ato_transport:PinHeader_1x07_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_transport:PinHeader_1x07_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1939,11 +1939,11 @@
         <pin num="7" name="7" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="J3">
+    <libpart lib="SCCI_RH_TRANSPORT" part="J3">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">DEDICATED RAW ADC BUS</field>
-        <field name="Footprint">ato_transport:PinHeader_1x06_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_transport:PinHeader_1x06_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1956,11 +1956,11 @@
         <pin num="6" name="6" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="J4">
+    <libpart lib="SCCI_RH_TRANSPORT" part="J4">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">TWO EXISTING CHARGE ADCs</field>
-        <field name="Footprint">ato_transport:PinHeader_1x08_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_transport:PinHeader_1x08_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1975,11 +1975,11 @@
         <pin num="8" name="8" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="J5">
+    <libpart lib="SCCI_RH_TRANSPORT" part="J5">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">CHARGE CONTROL HANDOFF</field>
-        <field name="Footprint">ato_transport:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_transport:PinHeader_1x05_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1991,11 +1991,11 @@
         <pin num="5" name="5" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="J6">
+    <libpart lib="SCCI_RH_TRANSPORT" part="J6">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">READ-ONLY NATIVE HEALTH</field>
-        <field name="Footprint">ato_transport:PinHeader_1x10_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_transport:PinHeader_1x10_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2012,11 +2012,11 @@
         <pin num="10" name="10" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="J7">
+    <libpart lib="SCCI_RH_TRANSPORT" part="J7">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">HOST PROCESSED UART</field>
-        <field name="Footprint">ato_transport:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_transport:PinHeader_1x04_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2027,11 +2027,11 @@
         <pin num="4" name="4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="J8">
+    <libpart lib="SCCI_RH_TRANSPORT" part="J8">
       <fields>
         <field name="Reference">J</field>
         <field name="Value">EXTERNAL COMPANION UART</field>
-        <field name="Footprint">ato_transport:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Footprint">scci_rh_transport:PinHeader_1x04_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2042,11 +2042,11 @@
         <pin num="4" name="4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R1">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R1">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">33R</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2055,11 +2055,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R100">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R100">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">100R 0.1%</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2068,11 +2068,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R101">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R101">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">100R 0.1%</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2081,11 +2081,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R102">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R102">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">100R 0.1%</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2094,11 +2094,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R103">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R103">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">100R 0.1%</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2107,11 +2107,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R104">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R104">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">100R 0.1%</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2120,11 +2120,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R105">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R105">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">100R 0.1%</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2133,11 +2133,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R106">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R106">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">100R 0.1%</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2146,11 +2146,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R107">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R107">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">100R 0.1%</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2159,11 +2159,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R120">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R120">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">4.99k 0.1%</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2172,11 +2172,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R121">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R121">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">2.49k 0.1%</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2185,11 +2185,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R122">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R122">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">2.4k 0.1%</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2198,11 +2198,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R123">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R123">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">2k 0.1%</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2211,11 +2211,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R2">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R2">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">33R</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2224,11 +2224,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R20">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R20">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">33R</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2237,11 +2237,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R21">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R21">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">33R</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2250,11 +2250,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R22">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R22">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">33R</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2263,11 +2263,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R23">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R23">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">33R</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2276,11 +2276,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R24">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R24">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2289,11 +2289,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R25">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R25">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">10k</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2302,11 +2302,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R3">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R3">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">100k</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2315,11 +2315,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R30">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R30">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">330R</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2328,11 +2328,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R31">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R31">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">330R</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2341,11 +2341,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R4">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R4">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">100k</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2354,11 +2354,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R5">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R5">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">100k</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2367,11 +2367,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="R6">
+    <libpart lib="SCCI_RH_TRANSPORT" part="R6">
       <fields>
         <field name="Reference">R</field>
         <field name="Value">100k</field>
-        <field name="Footprint">ato_transport:R_0805_2012Metric</field>
+        <field name="Footprint">scci_rh_transport:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2380,11 +2380,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="U1">
+    <libpart lib="SCCI_RH_TRANSPORT" part="U1">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">ADS8688IDBTR</field>
-        <field name="Footprint">ato_transport:TSSOP-38_4.4x9.7mm_P0.5mm</field>
+        <field name="Footprint">scci_rh_transport:TSSOP-38_4.4x9.7mm_P0.5mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2429,11 +2429,11 @@
         <pin num="38" name="CS_N" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="ATO_TRANSPORT" part="U20">
+    <libpart lib="SCCI_RH_TRANSPORT" part="U20">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">ISO6721BDR</field>
-        <field name="Footprint">ato_transport:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Footprint">scci_rh_transport:SOIC-8_3.9x4.9mm_P1.27mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -2450,8 +2450,8 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="ATO_TRANSPORT">
-      <uri>${KIPRJMOD}/ATO_TRANSPORT.kicad_sym</uri>
+    <library logical="SCCI_RH_TRANSPORT">
+      <uri>${KIPRJMOD}/SCCI_RH_TRANSPORT.kicad_sym</uri>
     </library>
   </libraries>
   <nets>

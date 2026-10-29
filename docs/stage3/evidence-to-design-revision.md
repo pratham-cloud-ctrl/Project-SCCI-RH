@@ -1,4 +1,4 @@
-# From the original paper's experiments to the next ATO mechanism
+# From the original paper's experiments to the next SCCI_RH mechanism
 
 9 October 2026. This review reconnects the current engineering revision to the
 28-page source paper. The original source remains read-only. Its SHA-256 and
@@ -18,11 +18,11 @@ The [primary-source audit](../stage1/source-audit.csv) contains broader access a
 cohort qualifications. The following selected primary reports were revisited
 for their concrete implications for this revision; they are not pooled trials.
 
-| Precedent in the source paper | Experimental contribution | Consequence for ATO | Boundary retained |
+| Precedent in the source paper | Experimental contribution | Consequence for SCCI_RH | Boundary retained |
 |---|---|---|---|
 | El Hadwe et al., source p.7, ref.7 | Short-term circumferential recordings in freely moving rats; the movement-decoding subset contains five rats. | Preserve a spatial contact forward model and compare neural features with measured kinematics. Test ambiguous fields and actual acquisition apertures. | Movement correlation is not proof of a causal expert command. Published bidirectional filtering/RNN analysis is not a ready-made causal online observer. |
 | McPherson et al., source p.12, ref.22 | EMG-linked intraspinal stimulation during injured-rat retraining improved reaching relative to open-loop and retraining comparators; gains persisted through a three-week stimulation-free follow-up. | Match practice resources; compare contingent, yoked and misaligned interventions; report assistance and OFF retention separately. | Muscle-triggered recovery is not spinal-recording expert transfer. A roughly doubled endpoint is not a doubled healthy learning speed. |
-| Nishimura et al., source p.12, ref.21 | In two monkeys, cortical-spike-triggered spinal stimulation changed corticospinal output; timing influenced the change. | Preserve processing/support/onset delay, phase controls and unfavorable plasticity families. | This is hybrid cortical recording plus spinal stimulation. Its timing intervals cannot be copied as an ATO learning law. |
+| Nishimura et al., source p.12, ref.21 | In two monkeys, cortical-spike-triggered spinal stimulation changed corticospinal output; timing influenced the change. | Preserve processing/support/onset delay, phase controls and unfavorable plasticity families. | This is hybrid cortical recording plus spinal stimulation. Its timing intervals cannot be copied as an SCCI_RH learning law. |
 | Phillips et al., source p.17, ref.13 | Targeted lower-thoracic EES with measured pressure feedback regulates blood pressure after SCI; fourteen intervention participants span four studies with smaller experimental subsets. | Retain the external-pressure loop, target-specific placement, positive pressor authority, disturbance tests and saturation handling. | It does not demonstrate neural pressure decoding, independent arbitrary pressure lowering or healthy-user enhancement. |
 | Formento et al., source pp.9/12, ref.24 | Human/preclinical/model work identifies interference with proprioceptive signaling during stimulation. | Evaluate sensory cost and acquisition loss alongside assistance; do not treat dense stimulation as free information or automatically beneficial practice. | A single constant sensory penalty is a structural hypothesis, not a fitted human dose-response law. |
 
@@ -32,7 +32,7 @@ Primary sources: [El Hadwe et al.](https://www.nature.com/articles/s41467-026-75
 [Phillips et al.](https://www.nature.com/articles/s41591-025-03614-w),
 [Formento et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC6268129/).
 These sources motivate the listed design decisions; they do not supply fitted
-parameters for ATO's synthetic learner or certify an electrode arrangement.
+parameters for SCCI_RH's synthetic learner or certify an electrode arrangement.
 
 ## The conjunction that the digital project investigates
 

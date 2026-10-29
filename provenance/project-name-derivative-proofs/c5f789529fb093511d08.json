@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/boards/contact-router/routing.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "384bf7771630779319b0799186738be31d698762ce6e2a6036fca87d839a2256",
+  "current_sha256": "e3d86cac7aff83275c769e5b22e4dd7673fd8cc9fa632624daee458d8a4ee8ed",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

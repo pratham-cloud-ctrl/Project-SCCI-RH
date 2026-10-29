@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "cad/stage5/combined-assembly-receipt.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "d6a962e793847ef48d5279967c3d6318c0eb1b99b1766bf342b0bd0f1f06c977",
+  "current_sha256": "db5619d91ef23867d7de1d5e3371485e077fd2cf55aeba7af310074fa080b67e",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

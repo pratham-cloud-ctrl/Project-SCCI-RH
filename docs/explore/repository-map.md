@@ -9,7 +9,7 @@ This map separates the current reading path from the project's preserved develop
 | What you want | Where to go |
 |---|---|
 | Understand the project in a few minutes | [Explore hub](README.md), then [theory](theory.md) |
-| Read the complete illustrated account | [Integrated 28-page manuscript](../../output/pdf/Project_ATO_Integrated_Manuscript.pdf) |
+| Read the complete illustrated account | [Integrated 28-page manuscript](../../output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf) |
 | Inspect mechanical assemblies without software | [CAD gallery and downloads](cad.md) |
 | Open current KiCad boards and schematics | [Electronics guide](electronics.md), then the [eight-board index](../../electronics/stage4/integrated-pcb/BOARD_INDEX.md) |
 | Find the corrected target firmware | [Firmware guide](firmware.md), then the [UART revision](../../firmware/nrf5340/uart-revision/README.md) |
@@ -18,7 +18,7 @@ This map separates the current reading path from the project's preserved develop
 | Understand the student's and AI's contributions | [Contribution record](../../docs/stage6/contributions.md) |
 
 ```text
-Project-ATO/
+Project-SCCI-RH/
 ├── docs/explore/                  Viewer guides and this map
 ├── manuscript/stage6/             Editable paper, figures and builders
 ├── output/pdf/                    Integrated manuscript PDF
@@ -47,6 +47,6 @@ Project-ATO/
 
 The [original 28-page hypothesis paper](../../docs/stage6/original-hypothesis/README.md) is an unchanged research input. It is distinct from the updated integrated manuscript. The [v2.0.1 review](../../docs/review-v2.0.1/README.md) records subsequent corrections; old image checkpoints are preserved alongside the corrected firmware.
 
-[v1.0.0](https://github.com/pratham-cloud-ctrl/Project-ATO/releases/tag/v1.0.0) is a historical subsystem release. Current whole-project release downloads are on the [release page](https://github.com/pratham-cloud-ctrl/Project-ATO/releases/latest). A source ZIP provides files; a full Git clone also provides the history needed for Git-blob verification.
+[v1.0.0](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/tag/v1.0.0) is a historical subsystem release. Current whole-project release downloads are on the [release page](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/latest). A source ZIP provides files; a full Git clone also provides the history needed for Git-blob verification.
 
 `site/` and `media/` retain earlier presentation material. Website/video revision was parked; these directories are not the current project entry. Local `tmp/`, build environments and recovery backups are working material, not published deliverables.

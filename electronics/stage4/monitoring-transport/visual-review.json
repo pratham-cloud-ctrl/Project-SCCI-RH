@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage4.monitoring-transport.visual.v1",
+  "schema": "scci_rh.stage4.monitoring-transport.visual.v1",
   "date": "2026-10-14",
   "pages_reviewed": [
     1,
@@ -18,15 +18,15 @@
     "R30/R31 and seven-pin J22 shared endpoint bus appear on the handoff sheet with readable labels",
     "Wide native A2 sheets preserve electrical label separation; these are schematic exports, not PCB layout"
   ],
-  "pdf_sha256": "526c9f8094aba5d9270ca99fcab830cfdd37210e47295f85b6dcaa03f335c519",
+  "pdf_sha256": "ae659e247ca9cd8701ecf358067c66cfb4d18d8ebc4b53e6633b81165e33e0e5",
   "png_sha256": {
-    "page-1.png": "4e7d4321394b0a04bb1a061d77e92cba4dc848203875532585d4f2fccf665073",
-    "page-2.png": "016c4e594d657e0fd2c87b3384bfedf3f6f19499c5549aab55b059c2a2eb5843",
-    "page-3.png": "d05b663050e7da73ea84cb835ce814ca9556a30ea301452edf70ab77d32b9712",
-    "page-4.png": "8bebdbfb156294b042ed36c92b8dc88cc38c8ac4bbdad5a7628b164939deefdf",
-    "page-5.png": "e1ce9dffe182b4bbaece679a0556e91753defc41cae061e255544fc90f32a4b4",
-    "page-6.png": "16af31b2497fac682ad629bae3aea778fe15212b5f777e9e65a4649c9093630f",
-    "page-7.png": "c8b38298db515d897ee6abaad42440d9714bc22c47e7f0077f0e704df9d291ac",
-    "page-8.png": "9a339a5038b307de78e3833bccbed83eb4fc502bfbf91cd29a13ba118041c405"
+    "page-1.png": "9ae94480ad9d10f8a5fb7e26b4c1ac2ff991a8e5dd6c87ea1987117a61457754",
+    "page-2.png": "ec0a68c01fae95001d790015042eecf562e6909e05c9226ce3e5bb2857a37ce7",
+    "page-3.png": "4e3d0301308f0cf771e0c9a105c8dbc8c99f8046d02920f178f8a6493a47c845",
+    "page-4.png": "65cb47293fc0bcfd59655064767673017678167a46568531f7362490e4a661ab",
+    "page-5.png": "a24567ce388582d917076f2ecf5a3bbdf3041e1293b8793cfc5919e517a0fa5e",
+    "page-6.png": "19e601223bf70d02ada28503b0a802be2724a533e493ad3eac6de9f136cc18ba",
+    "page-7.png": "6efa2fa74a81bc4ccb8c1ce5fed9ad22dc2b8a3ac2572e130a103065ab654751",
+    "page-8.png": "3bc5fd21bbb15d9d945f7ee46106c3bbb69314e7b2ec8d82882dd19332b239aa"
   }
 }

@@ -17,7 +17,7 @@ from reportlab.platypus import (
 ROOT = Path(__file__).resolve().parents[1]
 DOSSIER = ROOT / 'docs' / 'stage1'
 FIG = DOSSIER / 'figures'
-OUT = ROOT / 'output' / 'pdf' / 'ATO_stage1_system_specification.pdf'
+OUT = ROOT / 'output' / 'pdf' / 'SCCI_RH_stage1_system_specification.pdf'
 INK = '#15293D'
 BLUE = '#225B86'
 TEAL = '#12756D'
@@ -62,9 +62,9 @@ def figure(name, draw):
 
 
 def full_system(ax):
-    node(ax, .3, 6.1, 4.0, 1.5, 'ATO Studio / offline',
+    node(ax, .3, 6.1, 4.0, 1.5, 'SCCI_RH Studio / offline',
          ['Expert representation', 'Calibration and policy versions'], PURPLE)
-    node(ax, 5.0, 6.1, 4.0, 1.5, 'ATO Hub / companion',
+    node(ax, 5.0, 6.1, 4.0, 1.5, 'SCCI_RH Hub / companion',
          ['Task context and application', 'External sensing and records'], TEAL)
     node(ax, 9.7, 6.1, 4.0, 1.5, 'Selected task / endpoint',
          ['Motion, force or pressure', 'Measured functional outcome'], TEAL)
@@ -73,7 +73,7 @@ def full_system(ax):
     ax.add_patch(FancyBboxPatch((.15, 2.15), 13.7, 3.45,
                  boxstyle='round,pad=0.03', facecolor='#F0F5FA',
                  edgecolor='#B9CCDC', linewidth=1))
-    ax.text(.4, 5.30, 'ATO CORE / IMPLANTED ENGINEERING PROPOSAL',
+    ax.text(.4, 5.30, 'SCCI_RH CORE / IMPLANTED ENGINEERING PROPOSAL',
             fontsize=16, fontweight='bold', color=BLUE)
     node(ax, .4, 3.0, 4.0, 1.75, 'Recording and conversion',
          ['Protection / differential AFE', 'ADC / timestamps / validity'], BLUE)
@@ -170,26 +170,26 @@ def physiological_control(ax):
 def setup_fonts():
     # Bundled matplotlib fonts make the build portable; embedded TTF avoids system assumptions.
     font_root = Path(matplotlib.get_data_path()) / 'fonts' / 'ttf'
-    pdfmetrics.registerFont(TTFont('ATO', str(font_root / 'DejaVuSans.ttf')))
-    pdfmetrics.registerFont(TTFont('ATO-Bold', str(font_root / 'DejaVuSans-Bold.ttf')))
-    pdfmetrics.registerFontFamily('ATO', normal='ATO', bold='ATO-Bold',
-                                  italic='ATO', boldItalic='ATO-Bold')
+    pdfmetrics.registerFont(TTFont('SCCI_RH', str(font_root / 'DejaVuSans.ttf')))
+    pdfmetrics.registerFont(TTFont('SCCI_RH-Bold', str(font_root / 'DejaVuSans-Bold.ttf')))
+    pdfmetrics.registerFontFamily('SCCI_RH', normal='SCCI_RH', bold='SCCI_RH-Bold',
+                                  italic='SCCI_RH', boldItalic='SCCI_RH-Bold')
 
 
 def build_pdf():
     setup_fonts()
     style = {
-        'title': ParagraphStyle('title', fontName='ATO-Bold', fontSize=32,
+        'title': ParagraphStyle('title', fontName='SCCI_RH-Bold', fontSize=32,
                                 leading=39, textColor=colors.HexColor(INK), spaceAfter=13),
-        'head': ParagraphStyle('head', fontName='ATO-Bold', fontSize=21,
+        'head': ParagraphStyle('head', fontName='SCCI_RH-Bold', fontSize=21,
                                leading=28, textColor=colors.HexColor(INK), spaceAfter=13),
-        'sub': ParagraphStyle('sub', fontName='ATO-Bold', fontSize=12,
+        'sub': ParagraphStyle('sub', fontName='SCCI_RH-Bold', fontSize=12,
                               leading=17, textColor=colors.HexColor(BLUE), spaceBefore=10, spaceAfter=5),
-        'body': ParagraphStyle('body', fontName='ATO', fontSize=10.2,
+        'body': ParagraphStyle('body', fontName='SCCI_RH', fontSize=10.2,
                                leading=15.4, textColor=colors.HexColor(INK), spaceAfter=10),
-        'small': ParagraphStyle('small', fontName='ATO', fontSize=8.3,
+        'small': ParagraphStyle('small', fontName='SCCI_RH', fontSize=8.3,
                                 leading=12.4, textColor=colors.HexColor(GRAY), spaceAfter=7),
-        'cell': ParagraphStyle('cell', fontName='ATO', fontSize=8.5,
+        'cell': ParagraphStyle('cell', fontName='SCCI_RH', fontSize=8.5,
                                leading=12.6, textColor=colors.HexColor(INK)),
     }
     story = []
@@ -224,7 +224,7 @@ def build_pdf():
         p(section.upper(), 'small')
         p(title, 'head')
 
-    p('PROJECT ATO / STAGE 1 / 8 OCTOBER 2026', 'small')
+    p('PROJECT SCCI RH / STAGE 1 / 8 OCTOBER 2026', 'small')
     p('A spinal interface with<br/>a complete system concept', 'title')
     p('Mechanism and requirements dossier', 'sub')
     p('An entirely digital proposal for invasive spinal recording, computational interpretation, '
@@ -237,19 +237,19 @@ def build_pdf():
     p('<b>Design status:</b> mechanism and requirements for review. Numerical budgets, native '
       'electronics, embedded implementation and implant/companion CAD follow in later stages.')
     p('AstroSam\'s Mind-Link inspires the progression from future vision to inspectable design. '
-      'The SCCI application, mechanism, uncertainty analysis and engineering work are ATO\'s contribution.', 'small')
+      'The SCCI application, mechanism, uncertainty analysis and engineering work are SCCI_RH\'s contribution.', 'small')
 
     page('What the proposed device would do', '01 / Purpose and boundaries')
-    p('ATO would collect target-specific spinal signals, combine them with useful external '
+    p('SCCI_RH would collect target-specific spinal signals, combine them with useful external '
       'measurements, estimate a limited task or bodily state, select a personalized intervention '
       'and monitor the delivered electrical output and functional response.')
     table(['Part', 'Responsibility'], [
-        ('ATO Core / implant', 'Acquire and digitize neural voltages; synchronize and buffer data; '
+        ('SCCI_RH Core / implant', 'Acquire and digitize neural voltages; synchronize and buffer data; '
          'admit bounded commands; schedule and route programmable outputs; monitor current, charge '
          'and compliance; enforce supervision; manage power and telemetry.'),
-        ('ATO Hub / companion', 'Provide task context and external measurements; run session '
+        ('SCCI_RH Hub / companion', 'Provide task context and external measurements; run session '
          'management and budgeted application services; manage records and operator interaction.'),
-        ('ATO Studio / offline', 'Process expert recordings, learn task representations, analyze '
+        ('SCCI_RH Studio / offline', 'Process expert recordings, learn task representations, analyze '
          'learner calibration, evaluate models and version the resulting policies.'),
         ('Target configuration', 'Supply recording reference/montage and stimulation geometry for '
          'the selected anatomical pathway. Cervical, lumbosacral and thoracic variants differ.'),
@@ -282,7 +282,7 @@ def build_pdf():
     page('Make the two information claims testable', '03 / Motor comparisons')
     table(['Policy family', 'External measurements only', 'Neural + external measurements'], [
         ('Learner-only adaptation', 'Personalized learner baseline', 'Tests added neural information'),
-        ('Expert-informed adaptation', 'Tests expert task/context information', 'Full proposed ATO mechanism'),
+        ('Expert-informed adaptation', 'Tests expert task/context information', 'Full proposed SCCI_RH mechanism'),
     ], [138, 186, 186])
     p('The crossed comparison separates expert information from spinal information. It prevents '
       'a favorable expert trajectory or extra calibration exposure from being mistaken for an '
@@ -447,16 +447,16 @@ def build_pdf():
         canvas.saveState()
         canvas.setStrokeColor(colors.HexColor('#D5E0E9'))
         canvas.line(42, 42, 552, 42)
-        canvas.setFont('ATO', 8)
+        canvas.setFont('SCCI_RH', 8)
         canvas.setFillColor(colors.HexColor(GRAY))
-        canvas.drawString(42, 27, 'PROJECT ATO  |  STAGE 1 PROPOSAL  |  8 OCT 2026')
+        canvas.drawString(42, 27, 'PROJECT SCCI RH  |  STAGE 1 PROPOSAL  |  8 OCT 2026')
         canvas.drawRightString(552, 27, f'{doc.page} / 9')
         canvas.restoreState()
 
     doc = SimpleDocTemplate(str(OUT), pagesize=(594, 842), leftMargin=42,
                             rightMargin=42, topMargin=40, bottomMargin=58,
-                            title='Project ATO - Stage 1 Mechanism and Requirements',
-                            author='Project ATO', subject='Full proposed SCCI design specification')
+                            title='Project SCCI RH - Stage 1 Mechanism and Requirements',
+                            author='Project SCCI RH', subject='Full proposed SCCI design specification')
     doc.build(story, onFirstPage=decorate, onLaterPages=decorate)
 
 

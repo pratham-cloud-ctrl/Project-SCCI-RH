@@ -1,8 +1,8 @@
 {
-  "schema": "ato.routed-board.v1",
+  "schema": "scci_rh.routed-board.v1",
   "board": "recording-front-end",
-  "pcb_sha256_lf": "584360f1b286a1b02f8adfa971225be66456e0109c77c9f2d8ab2f57f17c21a9",
-  "system_sha256_lf": "e9196b94b4e409ca3c32d081e6546300d9d78ca87a68072ab40e431a556c36f4",
+  "pcb_sha256_lf": "5cd64396fc8a0f562a2deb5d02d0556e189533b5a653dcac482aa238b09c664c",
+  "system_sha256_lf": "be93d2ff702b203d53b24f35bf94275039d9271d3356ed5cc77d8b570d2409bd",
   "electrical_components": 153,
   "mounting_holes": 4,
   "pads": 673,
@@ -789,7 +789,7 @@
   "stackup": "Four copper layers / 1.6 mm nominal FR4 / ENIG; impedance and fabrication tolerances unqualified",
   "project_sha256_lf": "d61b9e676484ceceae410379e22260fc957579f79fe3cf75fdb7390214a1450c",
   "drc_sha256_lf": "719bf5b5249113bb73293d579d9ba8b07282a7c64119a70c702f068e6da0e9b3",
-  "schematic_sha256_lf": "859a97bf1c802d73a990fc777ffeba472cdb6776c214a115ddfdcb8ceed386c1",
+  "schematic_sha256_lf": "58b8aa48b997b15876334fa679bb2ddaa98b5cb96e4d5d63140d377fe38b4964",
   "native_drc_counts": {
     "violations": 0,
     "unconnected_items": 0,

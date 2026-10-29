@@ -1,8 +1,8 @@
 # Stimulation, spinal access and the biological envelope
 
-Document **S2-STIM-001** · Project ATO · 8 October 2026. This is a numerical
+Document **S2-STIM-001** · Project SCCI RH · 8 October 2026. This is a numerical
 design proposal for an entirely digital system. Values describing published
-experiments, ATO engineering choices and unresolved biological properties are
+experiments, SCCI_RH engineering choices and unresolved biological properties are
 kept separate. It specifies electrical tests, not a treatment protocol.
 
 The machine-readable companion is [stimulation-budget-inputs.json](stimulation-budget-inputs.json).
@@ -49,10 +49,10 @@ hypotheses, not a surgical placement plan.
 
 | Anchor | Directly supported electrical observation | What it does not establish |
 |---|---|---|
-| Phillips et al., 2025; 14 participants across four SCI trials | Pressor programs: 120 Hz, 0.3 ms width, up to 20 mA; three configurations, successive pulses separated by 2 ms. Earlier width mapping covered 100–500 µs. | The ATO symmetric recovery waveform, healthy consumer benefit, inhibitory authority or a universal chronic load. |
-| Rowald et al., 2022; three participants with SCI | An illustrated program contrasts 20 Hz extensor/weight-acceptance and 100 Hz flexor bursts. Its control system supported up to four concomitant waveforms. | Four independent biological control directions, novice foot-placement learning, or all ATO amplitude/width settings. |
-| Boston Scientific manufacturer documentation | A commercial current-programmed system exposes 0–25.5 mA, 20–1000 µs and 2–1200 Hz. Its programming manual imposes amplitude×width and shared-area scheduling restrictions. | Simultaneous operation at all extrema, applicability of its clinical approval to ATO, or a 40 V ATO compliance guarantee. |
-| Medtronic manufacturer geometry | Listed 16-contact paddle examples use rectangular 1.5×4.0 mm contacts, 6.0 mm² each. | Anatomical fit or electrochemical qualification of an ATO lead. |
+| Phillips et al., 2025; 14 participants across four SCI trials | Pressor programs: 120 Hz, 0.3 ms width, up to 20 mA; three configurations, successive pulses separated by 2 ms. Earlier width mapping covered 100–500 µs. | The SCCI_RH symmetric recovery waveform, healthy consumer benefit, inhibitory authority or a universal chronic load. |
+| Rowald et al., 2022; three participants with SCI | An illustrated program contrasts 20 Hz extensor/weight-acceptance and 100 Hz flexor bursts. Its control system supported up to four concomitant waveforms. | Four independent biological control directions, novice foot-placement learning, or all SCCI_RH amplitude/width settings. |
+| Boston Scientific manufacturer documentation | A commercial current-programmed system exposes 0–25.5 mA, 20–1000 µs and 2–1200 Hz. Its programming manual imposes amplitude×width and shared-area scheduling restrictions. | Simultaneous operation at all extrema, applicability of its clinical approval to SCCI_RH, or a 40 V SCCI_RH compliance guarantee. |
+| Medtronic manufacturer geometry | Listed 16-contact paddle examples use rectangular 1.5×4.0 mm contacts, 6.0 mm² each. | Anatomical fit or electrochemical qualification of an SCCI_RH lead. |
 
 Sources: [S2-BIO-001](https://doi.org/10.1038/s41591-025-03614-w),
 [S2-BIO-002](https://doi.org/10.1038/s41591-021-01663-5),
@@ -60,7 +60,7 @@ Sources: [S2-BIO-001](https://doi.org/10.1038/s41591-025-03614-w),
 [S2-BIO-005](https://www.bostonscientific.com/content/dam/elabeling/nm/92395591-04_Rev_A_BionicNav_Program_Manual_multi-OUS_s.pdf),
 [S2-BIO-006](https://www.medtronic.com/content/dam/medtronic-wide/public/united-states/products/neurological/2023-product-performance-report-neuromodulation.pdf).
 
-Published **pulse width** is retained as that term. ATO additionally assumes two
+Published **pulse width** is retained as that term. SCCI_RH additionally assumes two
 actively driven, equal-duration phases. Matching a study's pulse-width number
 does not prove equivalence of phase order, return shape, interphase interval,
 field or recruited circuitry. Commercial active and passive recharge choices
@@ -68,7 +68,7 @@ demonstrate possible engineering approaches, not this system's biological effect
 
 ## 3. Selected digital actuator contract
 
-| Quantity | ATO reference choice | Status/meaning |
+| Quantity | SCCI_RH reference choice | Status/meaning |
 |---|---|---|
 | Independently regulated drivers | **2**, maximum **2** concurrent | Selected architecture; four-driver scaling requires new budgets. |
 | Routable stimulation contacts | **16**, plus **2** dedicated returns | Contact count is not driver count. Selected contacts may form bipolar pairs; dedicated returns are separately monitored. |
@@ -76,11 +76,11 @@ demonstrate possible engineering approaches, not this system's biological effect
 | Active phase duration | 50–500 µs | Engineering range spanning the pressure width anchor. |
 | Pulse repetition per profile | 1–150 Hz | Engineering range; profile count, duration and routing constrain admitted schedules. |
 | Command / delivery ceilings | 9 µC planned; 10 µC including delivery uncertainty | Selected software margin inside the electrical maximum; neither is a tissue-safety threshold. |
-| Interphase gap | 100 µs nominal | ATO choice; both outputs high impedance during the gap. |
+| Interphase gap | 100 µs nominal | SCCI_RH choice; both outputs high impedance during the gap. |
 | Terminal compliance | 40 V usable differential | After driver/routing headroom; distinct from a 48 V boost rail. |
 | Boost rail | Proposed16/24/36/48 V choices;48 V maximum | Fixed48 V stress examples below differ from the selected24 V low-current references; supply implementation remains pending. |
 | Contact example | 6 mm²; 12 mm² sensitivity case | Manufacturer-sized illustration versus deliberate larger-contact alternative. |
-| Dedicated return example | 24 mm² each | ATO area hypothesis; no assumed equal sharing or proven selectivity. |
+| Dedicated return example | 24 mm² each | SCCI_RH area hypothesis; no assumed equal sharing or proven selectivity. |
 | Contact material candidate | Pt-Ir, nominal 90/10 composition | Declared material hypothesis; surface finish/coating and chronic chemistry are unqualified. |
 
 During an active phase, signed current is defined relative to the selected
@@ -135,7 +135,7 @@ large case electrode without revising the current paths.
 Primary platinum-macroelectrode experiments found lower and site-dependent
 charge-injection capacity in vivo than in saline. A separate large Pt-Ir
 experiment linked prolonged imbalance/residual potential to platinum dissolution;
-its much larger electrodes and longer waveform differ from ATO. These results
+its much larger electrodes and longer waveform differ from SCCI_RH. These results
 support measuring the actual interface, rather than borrowing a universal metal
 limit. [S2-BIO-007](https://doi.org/10.1109/TBME.2014.2366514),
 [S2-BIO-008](https://doi.org/10.1371/journal.pone.0315779).
@@ -189,7 +189,7 @@ be passed by assuming the load will become smaller.
 ## 6. Pulse scheduling, power and recovery
 
 The pressure reference uses three **profiles**, not three simultaneously active
-sources: offsets 0/2/4 ms inside an 8.333 ms frame (120 Hz). The assumed ATO
+sources: offsets 0/2/4 ms inside an 8.333 ms frame (120 Hz). The assumed SCCI_RH
 waveform occupies 0.7 ms electrically: 0.3 ms phase, 0.1 ms gap, 0.3 ms phase.
 A separate **1 ms recording recovery allocation** gives a 1.7 ms blanked
 interval per pattern. Global blanking totals **61.2%** for the nonoverlapping
@@ -296,6 +296,6 @@ Pt-Ir study's full primary text was verified through Europe PMC XML.
 
 Evidence grades in the CSV are **H**: human primary experiment; **A**: animal
 primary experiment; **B**: primary material/bench experiment; **M**: official
-manufacturer documentation; **D**: declared ATO design assumption/calculation.
+manufacturer documentation; **D**: declared SCCI_RH design assumption/calculation.
 These identify provenance, not certainty rankings. A clinical setting is not
 automatically a safe setting for a different electrode, material or target.

@@ -1,8 +1,8 @@
 @echo off
-set "ATO_STAGE2_FREECAD=E:\project workspace assests\CAD\FreeCAD\bin\FreeCAD.exe"
-if not exist "%ATO_STAGE2_FREECAD%" (
-  echo Set ATO_STAGE2_FREECAD in this launcher to your FreeCAD executable.
+set "SCCI_RH_STAGE2_FREECAD=E:\project workspace assests\CAD\FreeCAD\bin\FreeCAD.exe"
+if not exist "%SCCI_RH_STAGE2_FREECAD%" (
+  echo Set SCCI_RH_STAGE2_FREECAD in this launcher to your FreeCAD executable.
   pause
   exit /b 1
 )
-start "" "%ATO_STAGE2_FREECAD%" "%~dp0ATO_stage2_allocation.FCStd"
+start "" "%SCCI_RH_STAGE2_FREECAD%" "%~dp0SCCI_RH_stage2_allocation.FCStd"

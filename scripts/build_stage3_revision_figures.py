@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT/'docs/stage3/figures'
 plt.rcParams.update({'font.family': 'DejaVu Sans', 'font.size': 10,
     'axes.spines.top': False, 'axes.spines.right': False,
-    'svg.hashsalt': 'ato-stage3-mechanism-revision', 'savefig.facecolor': 'white'})
+    'svg.hashsalt': 'scci_rh-stage3-mechanism-revision', 'savefig.facecolor': 'white'})
 PASS, FAIL, INK = '#167c80', '#b35436', '#263f50'
 
 
@@ -88,7 +88,7 @@ def main():
             'Dynamic response and circuit implementation are separate gates.', transform=ax.transAxes,
             fontsize=8, color=INK)
 
-    fig.suptitle('Project ATO | Mechanism revision and design consequences', fontsize=17,
+    fig.suptitle('Project SCCI RH | Mechanism revision and design consequences', fontsize=17,
                  weight='bold', color=INK, y=.98)
     fig.text(.5, .025, 'Finite synthetic evidence. Teacher, forecast and precision gates are distinct; no body-coupled learning or implant readiness is inferred.',
              ha='center', fontsize=10, color=INK)

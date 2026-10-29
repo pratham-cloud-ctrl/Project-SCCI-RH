@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "inspector/assets/cad-manifest.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "ec263a8aaa7f478e48f5e5a3ecca3a609d52b33d40aac07b2ac684d65c9a02df",
+  "current_sha256": "a54e61a1689a232a899b5f97a11f3cccc34556763aeea711bbe1cf8e07ecd634",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-browser-catalog-final.json",
+      "sha256_lf": "eea7003c4c5f9ecffcef97f816b01bb4fe09a9d55c69c991bbf8912993484d94"
+    }
+  ]
+}

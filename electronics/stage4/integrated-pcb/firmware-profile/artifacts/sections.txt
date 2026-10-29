@@ -1,4 +1,4 @@
-E:\Project ATO\electronics\stage4\integrated-pcb\firmware-profile\artifacts\ato.elf  :
+E:\Project ATO\electronics\stage4\integrated-pcb\firmware-profile\artifacts\scci_rh.elf  :
 section                            size        addr
 rom_start                           340           0
 text                              44204         340
@@ -9,7 +9,7 @@ sw_isr_table                        552       44696
 clock_control_driver_api_area        28       45248
 uart_driver_api_area                 68       45276
 tbss                                  4       45344
-rodata                             7816       45344
+rodata                             8240       45344
 _RTT_SECTION_NAME                  1208   536870912
 .ramfunc                              8   536872120
 datas                               392   536872128
@@ -19,13 +19,13 @@ k_mutex_area                         80   536872524
 .debug_aranges                     6440           0
 .debug_info                      369250           0
 .debug_abbrev                     57818           0
-.debug_line                      178140           0
+.debug_line                      178254           0
 .debug_frame                      15732           0
-.debug_str                        56524           0
+.debug_str                        56800           0
 .debug_loc                       159736           0
 .debug_ranges                     26872           0
 .ARM.attributes                      62           0
-.last_section                         4       53644
+.last_section                         4       54068
 bss                               87787   536872608
 noinit                             8512   536960400
-Total                           1021796
+Total                           1022610

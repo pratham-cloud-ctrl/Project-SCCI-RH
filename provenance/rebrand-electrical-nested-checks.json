@@ -1,0 +1,106 @@
+{
+  "schema": "scci_rh.nested-electrical-rebrand-checks.v1",
+  "date": "2026-10-29",
+  "checks": [
+    {
+      "check": "integration",
+      "arguments": [
+        "electronics/stage4/integrated-pcb/integration/verify_integration.py",
+        "--write"
+      ],
+      "returncode": 0,
+      "script_sha256": "4356342b2d465d224748f7ff4392dc1233f983e9fcb4f1dbde4663dcbacc863b",
+      "assertions": 9540,
+      "passed": true
+    },
+    {
+      "check": "population",
+      "arguments": [
+        "electronics/stage4/integrated-pcb/integration/verify_populated_boards.py",
+        "--write"
+      ],
+      "returncode": 0,
+      "script_sha256": "89c3f0f46b1554e1086ca6eadbe382a084abf11bc8a22eca0b44756c10f93ecc",
+      "assertions": 14273,
+      "passed": true
+    },
+    {
+      "check": "power",
+      "arguments": [
+        "electronics/stage4/integrated-pcb/verify_power.py"
+      ],
+      "returncode": 0,
+      "script_sha256": "bf8b942251a4cee56ded5fcee3b4468af8c7b8bd6094b1e43343ca531c1e8aab",
+      "summary": "Integrated independent power audit: 23 checks passed",
+      "passed": true
+    },
+    {
+      "check": "exports",
+      "arguments": [
+        "electronics/stage4/integrated-pcb/verify_exports.py"
+      ],
+      "returncode": 0,
+      "script_sha256": "8c6bec18a28f660efff3139ac47c7d992b98691f6f2d70d2dcf4f13cb0f893bb",
+      "summary": "Populated export audit: 4501 checks passed across 8 board(s)",
+      "passed": true
+    }
+  ],
+  "source_evidence": "provenance/rebrand-native-electrical-checks.json",
+  "binding_refresh": "provenance/rebrand-electrical-export-bindings.json",
+  "limits": [
+    "Saved digital design audits; no physical device performance established.",
+    "Current native DRC/ERC execution is recorded separately; no new renderer/exchange execution claimed by these read-only audits."
+  ],
+  "files": [
+    {
+      "path": "electronics/stage4/integrated-pcb/integration/verification.json",
+      "current_sha256": "0fd101d6c839dbb4f0660adc804797f40e939caa8506d56179a24133a3ae996f",
+      "method": "Output of the exact current independently executed passing native-bound audit recorded above; source-design values and assertions checked, not assumed."
+    },
+    {
+      "path": "electronics/stage4/integrated-pcb/integration/populated-verification.json",
+      "current_sha256": "01e69b23797bae282e1414318309e5c857694b71e40b7dc8c0c71df828d07b59",
+      "method": "Output of the exact current independently executed passing native-bound audit recorded above; source-design values and assertions checked, not assumed."
+    },
+    {
+      "path": "electronics/stage4/integrated-pcb/boards/contact-router/drc-binding.json",
+      "current_sha256": "e33c23710d2dd9f00d1ec2fc5f032aab367150088ec72b70cc66c6d7536ede06",
+      "method": "Current PCB, schematic, project and DRC LF hashes, enabled schematic parity and unsuppressed rules all independently checked by the successful14273-assertion populated-board audit above; actual native DRC execution recorded separately in rebrand-native-electrical-checks.json."
+    },
+    {
+      "path": "electronics/stage4/integrated-pcb/boards/controller-carrier/drc-binding.json",
+      "current_sha256": "59295b4aa43ef7fb144e829731575b277938f358c42322166ba6c4f138348b2b",
+      "method": "Current PCB, schematic, project and DRC LF hashes, enabled schematic parity and unsuppressed rules all independently checked by the successful14273-assertion populated-board audit above; actual native DRC execution recorded separately in rebrand-native-electrical-checks.json."
+    },
+    {
+      "path": "electronics/stage4/integrated-pcb/boards/current-driver/drc-binding.json",
+      "current_sha256": "20923c9aa9e4e87114f31bcf04b0fab9f8de5a389c6e84da277d34ddb16d6c95",
+      "method": "Current PCB, schematic, project and DRC LF hashes, enabled schematic parity and unsuppressed rules all independently checked by the successful14273-assertion populated-board audit above; actual native DRC execution recorded separately in rebrand-native-electrical-checks.json."
+    },
+    {
+      "path": "electronics/stage4/integrated-pcb/boards/monitoring-cell/drc-binding.json",
+      "current_sha256": "fc90b4d61128c9f899060b9ebde890b9efe3e2453580faf51684ce2742a3eda3",
+      "method": "Current PCB, schematic, project and DRC LF hashes, enabled schematic parity and unsuppressed rules all independently checked by the successful14273-assertion populated-board audit above; actual native DRC execution recorded separately in rebrand-native-electrical-checks.json."
+    },
+    {
+      "path": "electronics/stage4/integrated-pcb/boards/monitoring-transport/drc-binding.json",
+      "current_sha256": "268feef5a3d019d3e27410acf3b241b8f3ba0c6d27221df063bd4d005d0caac2",
+      "method": "Current PCB, schematic, project and DRC LF hashes, enabled schematic parity and unsuppressed rules all independently checked by the successful14273-assertion populated-board audit above; actual native DRC execution recorded separately in rebrand-native-electrical-checks.json."
+    },
+    {
+      "path": "electronics/stage4/integrated-pcb/boards/power/drc-binding.json",
+      "current_sha256": "72e3cc0e4ba1d48acd53717681e74a64ff2cf8031e3d735a31143d79a973c20e",
+      "method": "Current PCB, schematic, project and DRC LF hashes, enabled schematic parity and unsuppressed rules all independently checked by the successful14273-assertion populated-board audit above; actual native DRC execution recorded separately in rebrand-native-electrical-checks.json."
+    },
+    {
+      "path": "electronics/stage4/integrated-pcb/boards/recording-front-end/drc-binding.json",
+      "current_sha256": "f8cb5df1c9c4a14e3e4ac5b0a0ced4531249fdaea4d9e1f839c409025973939d",
+      "method": "Current PCB, schematic, project and DRC LF hashes, enabled schematic parity and unsuppressed rules all independently checked by the successful14273-assertion populated-board audit above; actual native DRC execution recorded separately in rebrand-native-electrical-checks.json."
+    },
+    {
+      "path": "electronics/stage4/integrated-pcb/boards/supervision/drc-binding.json",
+      "current_sha256": "501962cf4c3dff3e227e65f4146e761025fe1c573b897aa7119da71b14ba401e",
+      "method": "Current PCB, schematic, project and DRC LF hashes, enabled schematic parity and unsuppressed rules all independently checked by the successful14273-assertion populated-board audit above; actual native DRC execution recorded separately in rebrand-native-electrical-checks.json."
+    }
+  ]
+}

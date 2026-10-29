@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "results/stage3/isolated-pilot/summary.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "307322f927a083f5a733b58f5ccaed5b9b83acd09aa43414866fea1b8081056a",
+  "current_sha256": "f5f21ef8cedb47fcf882b19df99b687632c4e09f1d8ab358ddd7b62916b03031",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-stage3-package-metadata.json",
+      "sha256_lf": "bd7ba41022765618f95134a0d7b79b42544df4b6002f2518c7a0af91ad21fee3"
+    }
+  ]
+}

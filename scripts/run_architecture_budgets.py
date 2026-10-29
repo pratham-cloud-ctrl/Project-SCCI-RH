@@ -1,4 +1,4 @@
-"""Reproduce ATO Stage 2 analytical allocations, not device measurements.
+"""Reproduce SCCI_RH Stage 2 analytical allocations, not device measurements.
 
 SI internally. Reads audited input files without fitting their assumptions to
 desired results. --check compares committed results without modifying them.
@@ -351,7 +351,7 @@ def calculate():
     s = d['stimulation']
     reservoir_charge = s['max_simultaneous_sources']*s['max_current_A']*2*s['max_phase_s']
     return {
-        'schema':'ATO-S2-budget-1', 'date':d['date'],
+        'schema':'SCCI_RH-S2-budget-1', 'date':d['date'],
         'evidence_type':'Deterministic analytical allocations with declared assumptions; no hardware or biological measurements',
         'compute_and_transport':compute, 'quiet_noise':noise,'filters':filters,'channel_scaling':scaling,
         'companion_power': {

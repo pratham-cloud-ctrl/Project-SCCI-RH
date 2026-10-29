@@ -18,7 +18,7 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
-from ato.stage3 import pressure  # noqa: E402
+from scci_rh.stage3 import pressure  # noqa: E402
 
 SEED = 17
 STEPS = (0.005, 0.0025, 0.00125)
@@ -166,11 +166,11 @@ def run_probe():
     if len(set(all_hashes)) != 1:
         raise AssertionError("Paired six-run diagnostic changed the actual noise realization")
     return {
-        "schema": "ato.stage3.pressure-convergence-probe.v1",
+        "schema": "scci_rh.stage3.pressure-convergence-probe.v1",
         "status": "bounded_diagnostic_only",
         "scope": "Seed17, nominal/no-response feedback, chosen reference delivery surrogate; not integrated electrical verification or general convergence qualification.",
         "source_identity": {
-            "path": "src/ato/stage3/pressure.py", "normalized_lf_sha256": normalized_source_hash(ROOT / "src/ato/stage3/pressure.py"),
+            "path": "src/scci_rh/stage3/pressure.py", "normalized_lf_sha256": normalized_source_hash(ROOT / "src/scci_rh/stage3/pressure.py"),
             "source_model": "SBP = chosen baseline - prescribed disturbance + hidden two-state added pressure; synthetic1Hz cardiac waveform; independent200Hz sensor noise",
             "scenario_identity": "Same declared scenario parameters at all three grids; no-response changes gain to0 only, retaining the nominal baseline/disturbance/sensor parameters.",
         },

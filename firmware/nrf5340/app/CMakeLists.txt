@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20.0)
 find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
-project(ato_nrf5340)
-target_sources(app PRIVATE src/main.c src/ato_backend.c ../core/ato_runtime.c)
+project(scci_rh_nrf5340)
+target_sources(app PRIVATE src/main.c src/scci_rh_backend.c ../core/scci_rh_runtime.c)
 target_include_directories(app PRIVATE ../core src)
 target_compile_options(app PRIVATE -Wall -Wextra -Werror -Wno-unused-parameter)

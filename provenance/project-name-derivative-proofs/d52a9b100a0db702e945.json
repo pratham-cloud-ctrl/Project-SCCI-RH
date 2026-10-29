@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/boards/monitoring-cell/preview.svg",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "5b762f8a9198ae2f388ab20e2136dfe1bc8af4602c08c9880f5b7cbe53aff6d1",
+  "current_sha256": "6be286a6a8e34e9593fa86309406d8b39ffc83db569f02fed1b57eb04fc01501",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-secondary-pcb-previews.json",
+      "sha256_lf": "1d550a791dfd37b5e1e07c7566a1e11a2ba4d16e78f5a709a5bfd31bab0f2b84"
+    }
+  ]
+}

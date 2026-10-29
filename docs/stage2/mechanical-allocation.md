@@ -44,8 +44,8 @@ receipt's JSON values with a documented canonical serialization so Windows and
 Linux text line endings do not change its identity; the repository manifest
 separately verifies the exact committed text bytes.
 
-Inspect [the STEP assembly](../../cad/stage2/ATO_stage2_allocation.step),
-[the native FreeCAD assembly](../../cad/stage2/ATO_stage2_allocation.FCStd),
+Inspect [the STEP assembly](../../cad/stage2/SCCI_RH_stage2_allocation.step),
+[the native FreeCAD assembly](../../cad/stage2/SCCI_RH_stage2_allocation.FCStd),
 [the fit/dimension receipt](../../cad/stage2/allocation-checks.json) and
 [the parametric generator](../../cad/stage2/build_envelope.py). The
 [explicit FreeCAD launcher](../../cad/stage2/OPEN_STAGE2_CAD.cmd) uses the installed

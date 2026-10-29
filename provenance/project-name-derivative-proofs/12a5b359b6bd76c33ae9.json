@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/exports/scci_rh_reference_board.svg",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "2115131cb1ad357138c9a742e7e59f2880c3822424923ecfd4d188468ff6c150",
+  "current_sha256": "96a3073687e4a74155c3dcc028ce0e166de7062e30df53f74088ef9ba53a95d4",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-secondary-pcb-previews.json",
+      "sha256_lf": "1d550a791dfd37b5e1e07c7566a1e11a2ba4d16e78f5a709a5bfd31bab0f2b84"
+    }
+  ]
+}

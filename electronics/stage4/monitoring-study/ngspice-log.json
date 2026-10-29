@@ -3,7 +3,7 @@
     "run": "nominal__500ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: nominal; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: nominal; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -17,7 +17,7 @@
     "run": "nominal__100ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: nominal; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: nominal; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -45,7 +45,7 @@
     "run": "nominal__25ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: nominal; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: nominal; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -138,7 +138,7 @@
     "run": "load_side_bias_45uA__500ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: load_side_bias_45ua; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: load_side_bias_45ua; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -158,7 +158,7 @@
     "run": "load_side_bias_45uA__100ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: load_side_bias_45ua; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: load_side_bias_45ua; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -185,7 +185,7 @@
     "run": "load_side_bias_45uA__25ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: load_side_bias_45ua; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: load_side_bias_45ua; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -237,7 +237,7 @@
     "run": "driver_side_bias_45uA__500ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: driver_side_bias_45ua; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: driver_side_bias_45ua; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -260,7 +260,7 @@
     "run": "driver_side_bias_45uA__100ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: driver_side_bias_45ua; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: driver_side_bias_45ua; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -280,7 +280,7 @@
     "run": "driver_side_bias_45uA__25ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: driver_side_bias_45ua; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: driver_side_bias_45ua; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -358,7 +358,7 @@
     "run": "both_input_bias_45uA__500ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: both_input_bias_45ua; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: both_input_bias_45ua; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -378,7 +378,7 @@
     "run": "both_input_bias_45uA__100ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: both_input_bias_45ua; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: both_input_bias_45ua; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -402,7 +402,7 @@
     "run": "both_input_bias_45uA__25ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: both_input_bias_45ua; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: both_input_bias_45ua; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -429,7 +429,7 @@
     "run": "reset_open_6pC__500ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: reset_open_6pc; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: reset_open_6pc; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -445,7 +445,7 @@
     "run": "reset_open_6pC__100ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: reset_open_6pc; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: reset_open_6pc; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -463,7 +463,7 @@
     "run": "reset_open_6pC__25ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: reset_open_6pc; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: reset_open_6pc; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -496,7 +496,7 @@
     "run": "differential_injection_6pC__500ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: differential_injection_6pc; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: differential_injection_6pc; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -512,7 +512,7 @@
     "run": "differential_injection_6pC__100ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: differential_injection_6pc; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: differential_injection_6pc; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -530,7 +530,7 @@
     "run": "differential_injection_6pC__25ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: differential_injection_6pc; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: differential_injection_6pc; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -562,7 +562,7 @@
     "run": "slow_response__500ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: slow_response; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: slow_response; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -576,7 +576,7 @@
     "run": "slow_response__100ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: slow_response; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: slow_response; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -591,7 +591,7 @@
     "run": "slow_response__25ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: slow_response; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: slow_response; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -612,7 +612,7 @@
     "run": "scale_offset_corner__500ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: scale_offset_corner; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: scale_offset_corner; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -627,7 +627,7 @@
     "run": "scale_offset_corner__100ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: scale_offset_corner; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: scale_offset_corner; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -644,7 +644,7 @@
     "run": "scale_offset_corner__25ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: scale_offset_corner; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: scale_offset_corner; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -666,7 +666,7 @@
     "run": "unequal_cancellation__500ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: unequal_cancellation; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: unequal_cancellation; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -682,7 +682,7 @@
     "run": "unequal_cancellation__100ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: unequal_cancellation; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: unequal_cancellation; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -699,7 +699,7 @@
     "run": "unequal_cancellation__25ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: unequal_cancellation; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: unequal_cancellation; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -731,7 +731,7 @@
     "run": "clipping_guard_bypassed__500ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: clipping_guard_bypassed; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: clipping_guard_bypassed; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -747,7 +747,7 @@
     "run": "clipping_guard_bypassed__100ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: clipping_guard_bypassed; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: clipping_guard_bypassed; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -765,7 +765,7 @@
     "run": "clipping_guard_bypassed__25ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: clipping_guard_bypassed; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: clipping_guard_bypassed; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -792,7 +792,7 @@
     "run": "reset_and_leakage_stress__500ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: reset_and_leakage_stress; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: reset_and_leakage_stress; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -807,7 +807,7 @@
     "run": "reset_and_leakage_stress__100ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: reset_and_leakage_stress; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: reset_and_leakage_stress; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",
@@ -825,7 +825,7 @@
     "run": "reset_and_leakage_stress__25ns",
     "messages": [
       "stdout Note: No compatibility mode selected!",
-      "stdout Circuit: ato stage4 behavioral monitor: reset_and_leakage_stress; not vendor model",
+      "stdout Circuit: scci_rh stage4 behavioral monitor: reset_and_leakage_stress; not vendor model",
       "stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000",
       "stdout Using SPARSE 1.3 as Direct Linear Solver",
       "stdout Operating point simulation skipped by 'uic',",

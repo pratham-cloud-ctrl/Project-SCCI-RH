@@ -1,32 +1,32 @@
 Reference,Value,Footprint,MPN or specification,Function
-J1,5V INPUT,ato:PinHeader_1x02_P2.54mm_Vertical,,External regulated 5 V only; no isolation or regulator
-J2,ARTIFICIAL IN,ato:PinHeader_1x03_P2.54mm_Vertical,,Function-generator input and midpoint monitor
-J3,ANALOG OUT,ato:PinHeader_1x03_P2.54mm_Vertical,,"High-impedance external ADC/scope, not populated"
-U1,OPA2333AID,ato:SOIC-8_3.9x4.9mm_P1.27mm,OPA2333AID,A: AC-coupled gain 21; B: midpoint follower
-R1,10k,ato:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",Input series impedance; not patient protection
-C1,1u,ato:C_0805_2012Metric,"0805 ceramic, X7R, >=10 V, 10%","Input AC coupling, 0.158 Hz corner with R1+R2"
-R2,1M,ato:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",Amplifier input bias return
-R3,1k,ato:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",Gain denominator
-R4,20k,ato:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",Gain numerator
-R5,1k,ato:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",Output RC and capacitive-load isolation
-C2,47n,ato:C_0805_2012Metric,"0805 ceramic, X7R, >=10 V, 10%",Output low-pass capacitor
-R6,10k,ato:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",Midpoint divider upper
-R7,10k,ato:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",Midpoint divider lower
-C3,10u,ato:C_0805_2012Metric,"0805 ceramic, X7R, >=10 V, 10%",Midpoint bulk bypass
-C5,100n,ato:C_0805_2012Metric,"0805 ceramic, X7R, >=10 V, 10%",U1 local supply bypass
-C8,10u,ato:C_0805_2012Metric,"0805 ceramic, X7R, >=10 V, 10%",Input supply bulk bypass
-U2,OPA2333AID,ato:SOIC-8_3.9x4.9mm_P1.27mm,OPA2333AID,A: reference follower; B: current servo
-R8,49.9k,ato:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",Current-reference divider upper
-R9,1.02k,ato:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",Current-reference divider lower
-C4,100n,ato:C_0805_2012Metric,"0805 ceramic, X7R, >=10 V, 10%",Reference low-pass
-R10,1k,ato:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W","Current sense, I = Vref / R10"
-R11,1k,ato:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",MOSFET gate isolation
-Q1,2N7002,ato:SOT-23,2N7002,N-MOSFET current sink; stability not hardware-validated
-Q2,2N7002,ato:SOT-23,2N7002,Idle source-follower bypass keeps sink servo supplied while INHIBIT=1
-C6,100n,ato:C_0805_2012Metric,"0805 ceramic, X7R, >=10 V, 10%",U2 local supply bypass
-U3,74HC4053D,ato:SOIC-16_3.9x9.9mm_P1.27mm,74HC4053D,A/B SPDT sections reverse one regulated sink; C grounded unused
-R12,100k,ato:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",Default-off pull-up; externally driven low to enable
-R13,100k,ato:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",Defined polarity while logic is disconnected
-C7,100n,ato:C_0805_2012Metric,"0805 ceramic, X7R, >=10 V, 10%",U3 local supply bypass
-J4,5V LOGIC,ato:PinHeader_1x04_P2.54mm_Vertical,,External phase/inhibit sequencer; 5 V CMOS logic required
-J5,DUMMY LOAD,ato:PinHeader_1x02_P2.54mm_Vertical,,External electrical test load only
+J1,5V INPUT,scci_rh:PinHeader_1x02_P2.54mm_Vertical,,External regulated 5 V only; no isolation or regulator
+J2,ARTIFICIAL IN,scci_rh:PinHeader_1x03_P2.54mm_Vertical,,Function-generator input and midpoint monitor
+J3,ANALOG OUT,scci_rh:PinHeader_1x03_P2.54mm_Vertical,,"High-impedance external ADC/scope, not populated"
+U1,OPA2333AID,scci_rh:SOIC-8_3.9x4.9mm_P1.27mm,OPA2333AID,A: AC-coupled gain 21; B: midpoint follower
+R1,10k,scci_rh:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",Input series impedance; not patient protection
+C1,1u,scci_rh:C_0805_2012Metric,"0805 ceramic, X7R, >=10 V, 10%","Input AC coupling, 0.158 Hz corner with R1+R2"
+R2,1M,scci_rh:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",Amplifier input bias return
+R3,1k,scci_rh:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",Gain denominator
+R4,20k,scci_rh:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",Gain numerator
+R5,1k,scci_rh:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",Output RC and capacitive-load isolation
+C2,47n,scci_rh:C_0805_2012Metric,"0805 ceramic, X7R, >=10 V, 10%",Output low-pass capacitor
+R6,10k,scci_rh:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",Midpoint divider upper
+R7,10k,scci_rh:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",Midpoint divider lower
+C3,10u,scci_rh:C_0805_2012Metric,"0805 ceramic, X7R, >=10 V, 10%",Midpoint bulk bypass
+C5,100n,scci_rh:C_0805_2012Metric,"0805 ceramic, X7R, >=10 V, 10%",U1 local supply bypass
+C8,10u,scci_rh:C_0805_2012Metric,"0805 ceramic, X7R, >=10 V, 10%",Input supply bulk bypass
+U2,OPA2333AID,scci_rh:SOIC-8_3.9x4.9mm_P1.27mm,OPA2333AID,A: reference follower; B: current servo
+R8,49.9k,scci_rh:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",Current-reference divider upper
+R9,1.02k,scci_rh:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",Current-reference divider lower
+C4,100n,scci_rh:C_0805_2012Metric,"0805 ceramic, X7R, >=10 V, 10%",Reference low-pass
+R10,1k,scci_rh:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W","Current sense, I = Vref / R10"
+R11,1k,scci_rh:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",MOSFET gate isolation
+Q1,2N7002,scci_rh:SOT-23,2N7002,N-MOSFET current sink; stability not hardware-validated
+Q2,2N7002,scci_rh:SOT-23,2N7002,Idle source-follower bypass keeps sink servo supplied while INHIBIT=1
+C6,100n,scci_rh:C_0805_2012Metric,"0805 ceramic, X7R, >=10 V, 10%",U2 local supply bypass
+U3,74HC4053D,scci_rh:SOIC-16_3.9x9.9mm_P1.27mm,74HC4053D,A/B SPDT sections reverse one regulated sink; C grounded unused
+R12,100k,scci_rh:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",Default-off pull-up; externally driven low to enable
+R13,100k,scci_rh:R_0805_2012Metric,"0805 thin-film, 0.1%, >=0.125 W",Defined polarity while logic is disconnected
+C7,100n,scci_rh:C_0805_2012Metric,"0805 ceramic, X7R, >=10 V, 10%",U3 local supply bypass
+J4,5V LOGIC,scci_rh:PinHeader_1x04_P2.54mm_Vertical,,External phase/inhibit sequencer; 5 V CMOS logic required
+J5,DUMMY LOAD,scci_rh:PinHeader_1x02_P2.54mm_Vertical,,External electrical test load only

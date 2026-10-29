@@ -14,7 +14,7 @@ def box(x,y,w,h,title,detail,color='#0b1424'):
     ax.text(x+w/2,y+h*.32,detail,ha='center',va='center',color='#dce9ef',fontsize=8,linespacing=1.5)
 def arrow(a,b,color='#24a0a7',dash=False):
     ax.add_patch(FancyArrowPatch(a,b,arrowstyle='-|>',mutation_scale=12,color=color,lw=1.7,linestyle='--' if dash else '-'))
-ax.text(.2,6.15,'ATO / proposed spinal interface',fontsize=18,fontweight='bold',color='#0b1424')
+ax.text(.2,6.15,'SCCI_RH / proposed spinal interface',fontsize=18,fontweight='bold',color='#0b1424')
 ax.text(.2,5.75,'Future concept and digital implementation have distinct evidence boundaries.',fontsize=10,color='#536275')
 box(.2,3.9,2.1,1,'Spinal recording','Intradural surface concept\nChronic access unverified')
 box(3,3.9,2.1,1,'State estimation','Synthetic features\nLearner-specific calibration')

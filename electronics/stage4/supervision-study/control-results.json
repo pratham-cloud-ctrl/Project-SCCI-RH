@@ -1,8 +1,8 @@
 {
-  "schema": "ato.stage4.supervision-control.v1",
+  "schema": "scci_rh.stage4.supervision-control.v1",
   "date": "2026-10-14",
   "scope": "Finite valid-supply ideal event model and independent actual native XML gate/pin audit; artificial signals and loads only",
-  "source_sha256_lf": "51807786af83c2bd3f3d0bf2b18a49621229e0b8400be34464d8446dc39248a3",
+  "source_sha256_lf": "9a1724ccf4e07c0c9b2a20ac25a582a0c4c33df3c11e10c6f5273f60fb70ba72",
   "assumptions": {
     "secondary_nominal_ns": 250112,
     "secondary_conservative_max_ns_analogue_allocation": 264000,
@@ -26,10 +26,10 @@
   },
   "upstream_bindings": {
     "normalized_lf_manifest_sha256": {
-      "electronics/stage4/current-driver/connectivity.json": "6de38e485762d6e5f4b2b72360e1ecb415eb0f5dff40a5a4770188ee141baa6f",
-      "electronics/stage4/monitoring-cell/connectivity.json": "b79aab80ed2c366c1ad22b98d2fb911a195f20b02d08a40babfee1c13a284015",
-      "electronics/stage4/contact-router/connectivity.json": "cd14e9e2c6e9e61cd615a5aa75c5a41e7fbfb899895ad4ebd1c09d4e1973f41c",
-      "electronics/stage4/recording-front-end/connectivity.json": "633c3386bf602e2544722abae2742a722775969cc53a3b2f1a26524325ccbf05"
+      "electronics/stage4/current-driver/connectivity.json": "fffcc6b5e23ef1b9e67f1e029924bc6d509be060ebbe5c31f13893474895c8e3",
+      "electronics/stage4/monitoring-cell/connectivity.json": "32f88af05d2b2e892d0059ac95984d54c513cd3e5575a2edc52f4c0ed68df1c6",
+      "electronics/stage4/contact-router/connectivity.json": "d6c60149961011eae9256fa37a39b93ec3384bdef3fb6785fec433b7c623a9ab",
+      "electronics/stage4/recording-front-end/connectivity.json": "adb009feeb48c04145c5be61b97747da1b26cd38dbf38916442b4fcf7b329fd2"
     },
     "checked_pin_bindings": [
       {
@@ -383,8 +383,8 @@
     ]
   },
   "native_audit": {
-    "xml_sha256_lf": "5e9c2e3b2c71b2ed5badc4c29247f4ef59e418febd523ba4f97585e651a59e2c",
-    "manifest_sha256_lf": "e8cdd380cb2448dac547cc290cd29ee0f4faf68b3ff4796a48bbf257565fb4db",
+    "xml_sha256_lf": "3dc352be7c756993eac03119f9eb4f2be119feb3f20df6ecefdc34ff2c996882",
+    "manifest_sha256_lf": "e7347b34cbb0a75baddb4fa7db3138cedb965090711112768681c1182c242e90",
     "components": 478,
     "compared_actual_XML_pin_nets": 1667,
     "functional_audit": {

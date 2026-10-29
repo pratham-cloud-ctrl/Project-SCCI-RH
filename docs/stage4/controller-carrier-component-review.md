@@ -80,7 +80,7 @@ SWCLK pad 15 and SWDIO pad 16 reach a six-pin programming header. Its VREF
 pin is a **target-voltage sense**, not permission to back-power the carrier.
 The external probe is outside the populated BOM. The existing binary uses
 application core only and disables the network-core/radio backend. The module's
-integrated antenna does not establish an ATO wireless link.
+integrated antenna does not establish an SCCI_RH wireless link.
 
 ## Four real sideband devices
 

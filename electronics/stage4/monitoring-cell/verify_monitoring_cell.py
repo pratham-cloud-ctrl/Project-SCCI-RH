@@ -27,7 +27,7 @@ assert len(parts) == 70
 for ref, p in parts.items():
     assert actual_parts[ref].findtext("value") == p["value"], ref
     assert actual_parts[ref].findtext("footprint") == p["footprint"], ref
-    fp = HERE / "ato_s4.pretty" / (p["footprint"].split(":")[1] + ".kicad_mod")
+    fp = HERE / "scci_rh_s4.pretty" / (p["footprint"].split(":")[1] + ".kicad_mod")
     assert fp.is_file() and fp.stat().st_size > 0, ref
 
 actual_nets = {}
@@ -61,7 +61,7 @@ for ch in (0, 1):
 assert {ref for ref, p in parts.items() if p["kind"] == "opa"} == set(opamp_contracts)
 for ref, nets in opamp_contracts.items():
     assert parts[ref]["value"] == "OPA391DCKR", ref
-    assert parts[ref]["footprint"] == "ato_s4:SOT-353_SC-70-5", ref
+    assert parts[ref]["footprint"] == "scci_rh_s4:SOT-353_SC-70-5", ref
     assert {str(p[0]): p[1] for p in parts[ref]["pins"]} == {
         "1": "IN+", "2": "V-", "3": "IN-", "4": "OUT", "5": "V+"}, ref
     for pin, net in nets.items():
@@ -143,7 +143,7 @@ def artifact_hash(path):
         data = data.replace(b"\r\n", b"\n").replace(b"\r", b"\n")
     return hashlib.sha256(data).hexdigest()
 receipt = {
-    "schema": "ato.stage4.monitoring-cell.verification.v1",
+    "schema": "scci_rh.stage4.monitoring-cell.verification.v1",
     "date": "2026-10-12",
     "scope": "Native schematic connectivity and export integrity only; not analog or biological validation",
     "kicad_version": erc["kicad_version"],

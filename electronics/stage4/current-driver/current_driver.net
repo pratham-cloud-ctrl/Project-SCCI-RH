@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "E:\\Project ATO\\electronics\\stage4\\current-driver\\current_driver.kicad_sch")
+		(source "E:\\Project SCCI RH\\electronics\\stage4\\current-driver\\current_driver.kicad_sch")
 		(date "2026-10-13T09:05:07")
 		(tool "Eeschema 10.0.6")
 		(sheet
@@ -9,8 +9,8 @@
 			(name "/")
 			(tstamps "/")
 			(title_block
-				(title "ATO S4 / Dual setpoint and external contracts")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Dual setpoint and external contracts")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-13")
 				(source "current_driver.kicad_sch")
@@ -57,8 +57,8 @@
 			(name "/Source0_analog/")
 			(tstamps "/b412ce82-1105-5b7b-8c7d-d84cf7742fae/")
 			(title_block
-				(title "ATO S4 / Source 0: regulated sink and polarity bridge")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Source 0: regulated sink and polarity bridge")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-13")
 				(source "source0.kicad_sch")
@@ -105,8 +105,8 @@
 			(name "/Source0_permission/")
 			(tstamps "/4d7f74e3-c5c0-5e78-b702-2b48d668f182/")
 			(title_block
-				(title "ATO S4 / Source 0: independent duration and sticky admission")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Source 0: independent duration and sticky admission")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-13")
 				(source "permission0.kicad_sch")
@@ -153,8 +153,8 @@
 			(name "/Source1_analog/")
 			(tstamps "/bbd81c72-8085-5a3b-bc8e-484b3bb8ec2c/")
 			(title_block
-				(title "ATO S4 / Source 1: regulated sink and polarity bridge")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Source 1: regulated sink and polarity bridge")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-13")
 				(source "source1.kicad_sch")
@@ -201,8 +201,8 @@
 			(name "/Source1_permission/")
 			(tstamps "/a033ede6-4321-5bbd-8ff5-958a04bad3a1/")
 			(title_block
-				(title "ATO S4 / Source 1: independent duration and sticky admission")
-				(company "Project ATO")
+				(title "Project SCCI RH S4 / Source 1: independent duration and sticky admission")
+				(company "Project SCCI RH")
 				(rev "0.1")
 				(date "2026-10-13")
 				(source "permission1.kicad_sch")
@@ -249,10 +249,10 @@
 		(comp
 			(ref "C1")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -261,7 +261,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C1")
 				(description "")
 			)
@@ -295,10 +295,10 @@
 		(comp
 			(ref "C2")
 			(value "4.7u 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -307,7 +307,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C2")
 				(description "")
 			)
@@ -341,10 +341,10 @@
 		(comp
 			(ref "C3")
 			(value "220n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -353,7 +353,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C3")
 				(description "")
 			)
@@ -387,10 +387,10 @@
 		(comp
 			(ref "J1")
 			(value "QUALIFIED EXTERNAL RAILS")
-			(footprint "ato_drv:PinHeader_1x05_P2.54mm_Vertical")
+			(footprint "scci_rh_drv:PinHeader_1x05_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:PinHeader_1x05_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_drv:PinHeader_1x05_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -399,7 +399,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "J1")
 				(description "")
 			)
@@ -442,10 +442,10 @@
 		(comp
 			(ref "J2")
 			(value "MCU SPI / PRELOAD INHIBITED")
-			(footprint "ato_drv:PinHeader_1x04_P2.54mm_Vertical")
+			(footprint "scci_rh_drv:PinHeader_1x04_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:PinHeader_1x04_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_drv:PinHeader_1x04_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -454,7 +454,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "J2")
 				(description "")
 			)
@@ -494,10 +494,10 @@
 		(comp
 			(ref "J3")
 			(value "MCU PHASE / EXPLICIT REARM")
-			(footprint "ato_drv:PinHeader_1x09_P2.54mm_Vertical")
+			(footprint "scci_rh_drv:PinHeader_1x09_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:PinHeader_1x09_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_drv:PinHeader_1x09_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -506,7 +506,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "J3")
 				(description "")
 			)
@@ -561,10 +561,10 @@
 		(comp
 			(ref "J4")
 			(value "EXTERNAL HEALTH CONTRACTS")
-			(footprint "ato_drv:PinHeader_1x11_P2.54mm_Vertical")
+			(footprint "scci_rh_drv:PinHeader_1x11_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:PinHeader_1x11_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_drv:PinHeader_1x11_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -573,7 +573,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "J4")
 				(description "")
 			)
@@ -634,10 +634,10 @@
 		(comp
 			(ref "J5")
 			(value "STATUS ONLY / NOT DELIVERY EVIDENCE")
-			(footprint "ato_drv:PinHeader_1x09_P2.54mm_Vertical")
+			(footprint "scci_rh_drv:PinHeader_1x09_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:PinHeader_1x09_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_drv:PinHeader_1x09_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -646,7 +646,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "J5")
 				(description "")
 			)
@@ -701,10 +701,10 @@
 		(comp
 			(ref "R1")
 			(value "10k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -713,7 +713,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R1")
 				(description "")
 			)
@@ -747,10 +747,10 @@
 		(comp
 			(ref "R2")
 			(value "10k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -759,7 +759,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R2")
 				(description "")
 			)
@@ -793,10 +793,10 @@
 		(comp
 			(ref "R3")
 			(value "10k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -805,7 +805,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R3")
 				(description "")
 			)
@@ -839,10 +839,10 @@
 		(comp
 			(ref "R4")
 			(value "10k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -851,7 +851,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R4")
 				(description "")
 			)
@@ -885,10 +885,10 @@
 		(comp
 			(ref "R5")
 			(value "10k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -897,7 +897,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R5")
 				(description "")
 			)
@@ -931,11 +931,11 @@
 		(comp
 			(ref "U1")
 			(value "DAC80502DRXR")
-			(footprint "ato_drv:Texas_DRX_WSON-10_2.5x2.5mm_P0.5mm")
+			(footprint "scci_rh_drv:Texas_DRX_WSON-10_2.5x2.5mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/dac80502.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:Texas_DRX_WSON-10_2.5x2.5mm_P0.5mm")
+					(name "Footprint") "scci_rh_drv:Texas_DRX_WSON-10_2.5x2.5mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/dac80502.pdf")
 				(field
@@ -943,7 +943,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U1")
 				(description "")
 			)
@@ -1001,10 +1001,10 @@
 		(comp
 			(ref "C100")
 			(value "DNP 10p C0G")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1013,7 +1013,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C100")
 				(description "")
 			)
@@ -1050,10 +1050,10 @@
 		(comp
 			(ref "C101")
 			(value "100n 25V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1062,7 +1062,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C101")
 				(description "")
 			)
@@ -1096,10 +1096,10 @@
 		(comp
 			(ref "C102")
 			(value "100n 25V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1108,7 +1108,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C102")
 				(description "")
 			)
@@ -1142,10 +1142,10 @@
 		(comp
 			(ref "C103")
 			(value "100n 25V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1154,7 +1154,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C103")
 				(description "")
 			)
@@ -1188,10 +1188,10 @@
 		(comp
 			(ref "C104")
 			(value "100n 50V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1200,7 +1200,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C104")
 				(description "")
 			)
@@ -1234,10 +1234,10 @@
 		(comp
 			(ref "C105")
 			(value "1u 50V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1246,7 +1246,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C105")
 				(description "")
 			)
@@ -1280,10 +1280,10 @@
 		(comp
 			(ref "J100")
 			(value "EXTERNAL ROUTER / MONITOR")
-			(footprint "ato_drv:PinHeader_1x04_P2.54mm_Vertical")
+			(footprint "scci_rh_drv:PinHeader_1x04_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:PinHeader_1x04_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_drv:PinHeader_1x04_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -1292,7 +1292,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "J100")
 				(description "")
 			)
@@ -1332,11 +1332,11 @@
 		(comp
 			(ref "Q100")
 			(value "BSP89H6327XTSA1")
-			(footprint "ato_drv:BSP89_PG-SOT223-4_DrainTab")
+			(footprint "scci_rh_drv:BSP89_PG-SOT223-4_DrainTab")
 			(datasheet "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsp89-datasheet-en.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:BSP89_PG-SOT223-4_DrainTab")
+					(name "Footprint") "scci_rh_drv:BSP89_PG-SOT223-4_DrainTab")
 				(field
 					(name "Datasheet") "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsp89-datasheet-en.pdf")
 				(field
@@ -1344,7 +1344,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "Q100")
 				(description "")
 			)
@@ -1384,10 +1384,10 @@
 		(comp
 			(ref "R100")
 			(value "100R 0.1% LOW TCR")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1396,7 +1396,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R100")
 				(description "")
 			)
@@ -1430,10 +1430,10 @@
 		(comp
 			(ref "R101")
 			(value "330R")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1442,7 +1442,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R101")
 				(description "")
 			)
@@ -1476,10 +1476,10 @@
 		(comp
 			(ref "R102")
 			(value "100k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1488,7 +1488,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R102")
 				(description "")
 			)
@@ -1522,10 +1522,10 @@
 		(comp
 			(ref "R103")
 			(value "22k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1534,7 +1534,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R103")
 				(description "")
 			)
@@ -1568,10 +1568,10 @@
 		(comp
 			(ref "R104")
 			(value "22k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1580,7 +1580,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R104")
 				(description "")
 			)
@@ -1614,10 +1614,10 @@
 		(comp
 			(ref "R105")
 			(value "22k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1626,7 +1626,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R105")
 				(description "")
 			)
@@ -1660,11 +1660,11 @@
 		(comp
 			(ref "U100")
 			(value "OPA192IDBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/opa192.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/opa192.pdf")
 				(field
@@ -1672,7 +1672,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U100")
 				(description "")
 			)
@@ -1715,11 +1715,11 @@
 		(comp
 			(ref "U101")
 			(value "TMUX7212PWR")
-			(footprint "ato_drv:TSSOP-16_4.4x5mm_P0.65mm")
+			(footprint "scci_rh_drv:TSSOP-16_4.4x5mm_P0.65mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux7212.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:TSSOP-16_4.4x5mm_P0.65mm")
+					(name "Footprint") "scci_rh_drv:TSSOP-16_4.4x5mm_P0.65mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux7212.pdf")
 				(field
@@ -1727,7 +1727,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U101")
 				(description "")
 			)
@@ -1803,11 +1803,11 @@
 		(comp
 			(ref "U102")
 			(value "TMUX6219DGKR")
-			(footprint "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 				(field
@@ -1815,7 +1815,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U102")
 				(description "")
 			)
@@ -1867,11 +1867,11 @@
 		(comp
 			(ref "U103")
 			(value "TMUX6219DGKR")
-			(footprint "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 				(field
@@ -1879,7 +1879,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U103")
 				(description "")
 			)
@@ -1931,10 +1931,10 @@
 		(comp
 			(ref "C300")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1943,7 +1943,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C300")
 				(description "")
 			)
@@ -1977,10 +1977,10 @@
 		(comp
 			(ref "C301")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -1989,7 +1989,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C301")
 				(description "")
 			)
@@ -2023,10 +2023,10 @@
 		(comp
 			(ref "C302")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2035,7 +2035,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C302")
 				(description "")
 			)
@@ -2069,10 +2069,10 @@
 		(comp
 			(ref "C303")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2081,7 +2081,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C303")
 				(description "")
 			)
@@ -2115,10 +2115,10 @@
 		(comp
 			(ref "C304")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2127,7 +2127,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C304")
 				(description "")
 			)
@@ -2161,10 +2161,10 @@
 		(comp
 			(ref "C305")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2173,7 +2173,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C305")
 				(description "")
 			)
@@ -2207,10 +2207,10 @@
 		(comp
 			(ref "C306")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2219,7 +2219,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C306")
 				(description "")
 			)
@@ -2253,10 +2253,10 @@
 		(comp
 			(ref "C307")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2265,7 +2265,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C307")
 				(description "")
 			)
@@ -2299,10 +2299,10 @@
 		(comp
 			(ref "C308")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2311,7 +2311,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C308")
 				(description "")
 			)
@@ -2345,10 +2345,10 @@
 		(comp
 			(ref "C309")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2357,7 +2357,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C309")
 				(description "")
 			)
@@ -2391,10 +2391,10 @@
 		(comp
 			(ref "C310")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2403,7 +2403,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C310")
 				(description "")
 			)
@@ -2437,10 +2437,10 @@
 		(comp
 			(ref "C311")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2449,7 +2449,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C311")
 				(description "")
 			)
@@ -2483,10 +2483,10 @@
 		(comp
 			(ref "C312")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2495,7 +2495,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C312")
 				(description "")
 			)
@@ -2529,10 +2529,10 @@
 		(comp
 			(ref "C313")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2541,7 +2541,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C313")
 				(description "")
 			)
@@ -2575,10 +2575,10 @@
 		(comp
 			(ref "C314")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2587,7 +2587,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C314")
 				(description "")
 			)
@@ -2621,10 +2621,10 @@
 		(comp
 			(ref "C315")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2633,7 +2633,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C315")
 				(description "")
 			)
@@ -2667,10 +2667,10 @@
 		(comp
 			(ref "C316")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2679,7 +2679,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C316")
 				(description "")
 			)
@@ -2713,10 +2713,10 @@
 		(comp
 			(ref "C317")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2725,7 +2725,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C317")
 				(description "")
 			)
@@ -2759,10 +2759,10 @@
 		(comp
 			(ref "C318")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2771,7 +2771,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C318")
 				(description "")
 			)
@@ -2805,10 +2805,10 @@
 		(comp
 			(ref "C319")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2817,7 +2817,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C319")
 				(description "")
 			)
@@ -2851,10 +2851,10 @@
 		(comp
 			(ref "C320")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2863,7 +2863,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C320")
 				(description "")
 			)
@@ -2897,10 +2897,10 @@
 		(comp
 			(ref "R300")
 			(value "175.8k 0.1%")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2909,7 +2909,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R300")
 				(description "")
 			)
@@ -2943,10 +2943,10 @@
 		(comp
 			(ref "R301")
 			(value "976k 0.1%")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -2955,7 +2955,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R301")
 				(description "")
 			)
@@ -2989,10 +2989,10 @@
 		(comp
 			(ref "R302")
 			(value "182k 0.1%")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3001,7 +3001,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R302")
 				(description "")
 			)
@@ -3035,10 +3035,10 @@
 		(comp
 			(ref "R303")
 			(value "10k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3047,7 +3047,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R303")
 				(description "")
 			)
@@ -3081,10 +3081,10 @@
 		(comp
 			(ref "R304")
 			(value "10k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3093,7 +3093,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R304")
 				(description "")
 			)
@@ -3127,10 +3127,10 @@
 		(comp
 			(ref "R305")
 			(value "10k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3139,7 +3139,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R305")
 				(description "")
 			)
@@ -3173,10 +3173,10 @@
 		(comp
 			(ref "R306")
 			(value "10k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3185,7 +3185,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R306")
 				(description "")
 			)
@@ -3219,10 +3219,10 @@
 		(comp
 			(ref "R307")
 			(value "10k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3231,7 +3231,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R307")
 				(description "")
 			)
@@ -3265,10 +3265,10 @@
 		(comp
 			(ref "R308")
 			(value "10k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3277,7 +3277,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R308")
 				(description "")
 			)
@@ -3311,10 +3311,10 @@
 		(comp
 			(ref "R309")
 			(value "10k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3323,7 +3323,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R309")
 				(description "")
 			)
@@ -3357,10 +3357,10 @@
 		(comp
 			(ref "R310")
 			(value "10k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -3369,7 +3369,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R310")
 				(description "")
 			)
@@ -3403,11 +3403,11 @@
 		(comp
 			(ref "U300")
 			(value "LTC6993HS6-1#TRPBF")
-			(footprint "ato_drv:TSOT-23-6")
+			(footprint "scci_rh_drv:TSOT-23-6")
 			(datasheet "https://www.analog.com/media/en/technical-documentation/data-sheets/ltc6993-6993-1-6993-2-6993-4.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:TSOT-23-6")
+					(name "Footprint") "scci_rh_drv:TSOT-23-6")
 				(field
 					(name "Datasheet") "https://www.analog.com/media/en/technical-documentation/data-sheets/ltc6993-6993-1-6993-2-6993-4.pdf")
 				(field
@@ -3415,7 +3415,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U300")
 				(description "")
 			)
@@ -3461,11 +3461,11 @@
 		(comp
 			(ref "U301")
 			(value "SN74LVC1G86DBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g86.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g86.pdf")
 				(field
@@ -3473,7 +3473,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U301")
 				(description "")
 			)
@@ -3516,11 +3516,11 @@
 		(comp
 			(ref "U302")
 			(value "SN74LVC1G11DBVR")
-			(footprint "ato_drv:SOT-23-6")
+			(footprint "scci_rh_drv:SOT-23-6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 				(field
@@ -3528,7 +3528,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U302")
 				(description "")
 			)
@@ -3574,11 +3574,11 @@
 		(comp
 			(ref "U303")
 			(value "SN74LVC1G11DBVR")
-			(footprint "ato_drv:SOT-23-6")
+			(footprint "scci_rh_drv:SOT-23-6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 				(field
@@ -3586,7 +3586,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U303")
 				(description "")
 			)
@@ -3632,11 +3632,11 @@
 		(comp
 			(ref "U304")
 			(value "SN74LVC1G08DBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 				(field
@@ -3644,7 +3644,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U304")
 				(description "")
 			)
@@ -3687,11 +3687,11 @@
 		(comp
 			(ref "U305")
 			(value "SN74LVC1G04DBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf")
 				(field
@@ -3699,7 +3699,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U305")
 				(description "")
 			)
@@ -3742,11 +3742,11 @@
 		(comp
 			(ref "U306")
 			(value "SN74LVC1G04DBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf")
 				(field
@@ -3754,7 +3754,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U306")
 				(description "")
 			)
@@ -3797,11 +3797,11 @@
 		(comp
 			(ref "U307")
 			(value "SN74LVC1G08DBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 				(field
@@ -3809,7 +3809,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U307")
 				(description "")
 			)
@@ -3852,11 +3852,11 @@
 		(comp
 			(ref "U308")
 			(value "SN74LVC1G04DBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf")
 				(field
@@ -3864,7 +3864,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U308")
 				(description "")
 			)
@@ -3907,11 +3907,11 @@
 		(comp
 			(ref "U309")
 			(value "SN74LVC1G08DBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 				(field
@@ -3919,7 +3919,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U309")
 				(description "")
 			)
@@ -3962,11 +3962,11 @@
 		(comp
 			(ref "U310")
 			(value "SN74LVC1G11DBVR")
-			(footprint "ato_drv:SOT-23-6")
+			(footprint "scci_rh_drv:SOT-23-6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 				(field
@@ -3974,7 +3974,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U310")
 				(description "")
 			)
@@ -4020,11 +4020,11 @@
 		(comp
 			(ref "U311")
 			(value "SN74LVC1G11DBVR")
-			(footprint "ato_drv:SOT-23-6")
+			(footprint "scci_rh_drv:SOT-23-6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 				(field
@@ -4032,7 +4032,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U311")
 				(description "")
 			)
@@ -4078,11 +4078,11 @@
 		(comp
 			(ref "U312")
 			(value "SN74LVC1G04DBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf")
 				(field
@@ -4090,7 +4090,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U312")
 				(description "")
 			)
@@ -4133,11 +4133,11 @@
 		(comp
 			(ref "U313")
 			(value "SN74LVC1G74DCUR")
-			(footprint "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf")
 				(field
@@ -4145,7 +4145,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U313")
 				(description "")
 			)
@@ -4197,11 +4197,11 @@
 		(comp
 			(ref "U314")
 			(value "SN74LVC1G32DBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf")
 				(field
@@ -4209,7 +4209,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U314")
 				(description "")
 			)
@@ -4252,11 +4252,11 @@
 		(comp
 			(ref "U315")
 			(value "SN74LVC1G74DCUR")
-			(footprint "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf")
 				(field
@@ -4264,7 +4264,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U315")
 				(description "")
 			)
@@ -4316,11 +4316,11 @@
 		(comp
 			(ref "U316")
 			(value "SN74LVC1G74DCUR")
-			(footprint "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf")
 				(field
@@ -4328,7 +4328,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U316")
 				(description "")
 			)
@@ -4380,11 +4380,11 @@
 		(comp
 			(ref "U317")
 			(value "SN74LVC1G11DBVR")
-			(footprint "ato_drv:SOT-23-6")
+			(footprint "scci_rh_drv:SOT-23-6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 				(field
@@ -4392,7 +4392,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U317")
 				(description "")
 			)
@@ -4438,11 +4438,11 @@
 		(comp
 			(ref "U318")
 			(value "SN74LVC1G11DBVR")
-			(footprint "ato_drv:SOT-23-6")
+			(footprint "scci_rh_drv:SOT-23-6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 				(field
@@ -4450,7 +4450,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U318")
 				(description "")
 			)
@@ -4496,11 +4496,11 @@
 		(comp
 			(ref "U319")
 			(value "SN74LVC1G08DBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 				(field
@@ -4508,7 +4508,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U319")
 				(description "")
 			)
@@ -4551,11 +4551,11 @@
 		(comp
 			(ref "U320")
 			(value "SN74LVC1G08DBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 				(field
@@ -4563,7 +4563,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U320")
 				(description "")
 			)
@@ -4606,10 +4606,10 @@
 		(comp
 			(ref "C200")
 			(value "DNP 10p C0G")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4618,7 +4618,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C200")
 				(description "")
 			)
@@ -4655,10 +4655,10 @@
 		(comp
 			(ref "C201")
 			(value "100n 25V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4667,7 +4667,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C201")
 				(description "")
 			)
@@ -4701,10 +4701,10 @@
 		(comp
 			(ref "C202")
 			(value "100n 25V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4713,7 +4713,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C202")
 				(description "")
 			)
@@ -4747,10 +4747,10 @@
 		(comp
 			(ref "C203")
 			(value "100n 25V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4759,7 +4759,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C203")
 				(description "")
 			)
@@ -4793,10 +4793,10 @@
 		(comp
 			(ref "C204")
 			(value "100n 50V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4805,7 +4805,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C204")
 				(description "")
 			)
@@ -4839,10 +4839,10 @@
 		(comp
 			(ref "C205")
 			(value "1u 50V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -4851,7 +4851,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C205")
 				(description "")
 			)
@@ -4885,10 +4885,10 @@
 		(comp
 			(ref "J200")
 			(value "EXTERNAL ROUTER / MONITOR")
-			(footprint "ato_drv:PinHeader_1x04_P2.54mm_Vertical")
+			(footprint "scci_rh_drv:PinHeader_1x04_P2.54mm_Vertical")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:PinHeader_1x04_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_drv:PinHeader_1x04_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -4897,7 +4897,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "J200")
 				(description "")
 			)
@@ -4937,11 +4937,11 @@
 		(comp
 			(ref "Q200")
 			(value "BSP89H6327XTSA1")
-			(footprint "ato_drv:BSP89_PG-SOT223-4_DrainTab")
+			(footprint "scci_rh_drv:BSP89_PG-SOT223-4_DrainTab")
 			(datasheet "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsp89-datasheet-en.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:BSP89_PG-SOT223-4_DrainTab")
+					(name "Footprint") "scci_rh_drv:BSP89_PG-SOT223-4_DrainTab")
 				(field
 					(name "Datasheet") "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsp89-datasheet-en.pdf")
 				(field
@@ -4949,7 +4949,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "Q200")
 				(description "")
 			)
@@ -4989,10 +4989,10 @@
 		(comp
 			(ref "R200")
 			(value "100R 0.1% LOW TCR")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5001,7 +5001,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R200")
 				(description "")
 			)
@@ -5035,10 +5035,10 @@
 		(comp
 			(ref "R201")
 			(value "330R")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5047,7 +5047,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R201")
 				(description "")
 			)
@@ -5081,10 +5081,10 @@
 		(comp
 			(ref "R202")
 			(value "100k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5093,7 +5093,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R202")
 				(description "")
 			)
@@ -5127,10 +5127,10 @@
 		(comp
 			(ref "R203")
 			(value "22k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5139,7 +5139,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R203")
 				(description "")
 			)
@@ -5173,10 +5173,10 @@
 		(comp
 			(ref "R204")
 			(value "22k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5185,7 +5185,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R204")
 				(description "")
 			)
@@ -5219,10 +5219,10 @@
 		(comp
 			(ref "R205")
 			(value "22k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5231,7 +5231,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R205")
 				(description "")
 			)
@@ -5265,11 +5265,11 @@
 		(comp
 			(ref "U200")
 			(value "OPA192IDBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/opa192.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/opa192.pdf")
 				(field
@@ -5277,7 +5277,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U200")
 				(description "")
 			)
@@ -5320,11 +5320,11 @@
 		(comp
 			(ref "U201")
 			(value "TMUX7212PWR")
-			(footprint "ato_drv:TSSOP-16_4.4x5mm_P0.65mm")
+			(footprint "scci_rh_drv:TSSOP-16_4.4x5mm_P0.65mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux7212.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:TSSOP-16_4.4x5mm_P0.65mm")
+					(name "Footprint") "scci_rh_drv:TSSOP-16_4.4x5mm_P0.65mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux7212.pdf")
 				(field
@@ -5332,7 +5332,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U201")
 				(description "")
 			)
@@ -5408,11 +5408,11 @@
 		(comp
 			(ref "U202")
 			(value "TMUX6219DGKR")
-			(footprint "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 				(field
@@ -5420,7 +5420,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U202")
 				(description "")
 			)
@@ -5472,11 +5472,11 @@
 		(comp
 			(ref "U203")
 			(value "TMUX6219DGKR")
-			(footprint "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tmux6219.pdf")
 				(field
@@ -5484,7 +5484,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U203")
 				(description "")
 			)
@@ -5536,10 +5536,10 @@
 		(comp
 			(ref "C400")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5548,7 +5548,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C400")
 				(description "")
 			)
@@ -5582,10 +5582,10 @@
 		(comp
 			(ref "C401")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5594,7 +5594,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C401")
 				(description "")
 			)
@@ -5628,10 +5628,10 @@
 		(comp
 			(ref "C402")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5640,7 +5640,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C402")
 				(description "")
 			)
@@ -5674,10 +5674,10 @@
 		(comp
 			(ref "C403")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5686,7 +5686,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C403")
 				(description "")
 			)
@@ -5720,10 +5720,10 @@
 		(comp
 			(ref "C404")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5732,7 +5732,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C404")
 				(description "")
 			)
@@ -5766,10 +5766,10 @@
 		(comp
 			(ref "C405")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5778,7 +5778,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C405")
 				(description "")
 			)
@@ -5812,10 +5812,10 @@
 		(comp
 			(ref "C406")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5824,7 +5824,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C406")
 				(description "")
 			)
@@ -5858,10 +5858,10 @@
 		(comp
 			(ref "C407")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5870,7 +5870,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C407")
 				(description "")
 			)
@@ -5904,10 +5904,10 @@
 		(comp
 			(ref "C408")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5916,7 +5916,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C408")
 				(description "")
 			)
@@ -5950,10 +5950,10 @@
 		(comp
 			(ref "C409")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -5962,7 +5962,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C409")
 				(description "")
 			)
@@ -5996,10 +5996,10 @@
 		(comp
 			(ref "C410")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6008,7 +6008,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C410")
 				(description "")
 			)
@@ -6042,10 +6042,10 @@
 		(comp
 			(ref "C411")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6054,7 +6054,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C411")
 				(description "")
 			)
@@ -6088,10 +6088,10 @@
 		(comp
 			(ref "C412")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6100,7 +6100,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C412")
 				(description "")
 			)
@@ -6134,10 +6134,10 @@
 		(comp
 			(ref "C413")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6146,7 +6146,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C413")
 				(description "")
 			)
@@ -6180,10 +6180,10 @@
 		(comp
 			(ref "C414")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6192,7 +6192,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C414")
 				(description "")
 			)
@@ -6226,10 +6226,10 @@
 		(comp
 			(ref "C415")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6238,7 +6238,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C415")
 				(description "")
 			)
@@ -6272,10 +6272,10 @@
 		(comp
 			(ref "C416")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6284,7 +6284,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C416")
 				(description "")
 			)
@@ -6318,10 +6318,10 @@
 		(comp
 			(ref "C417")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6330,7 +6330,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C417")
 				(description "")
 			)
@@ -6364,10 +6364,10 @@
 		(comp
 			(ref "C418")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6376,7 +6376,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C418")
 				(description "")
 			)
@@ -6410,10 +6410,10 @@
 		(comp
 			(ref "C419")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6422,7 +6422,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C419")
 				(description "")
 			)
@@ -6456,10 +6456,10 @@
 		(comp
 			(ref "C420")
 			(value "100n 10V")
-			(footprint "ato_drv:C_0805_2012Metric")
+			(footprint "scci_rh_drv:C_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6468,7 +6468,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "C420")
 				(description "")
 			)
@@ -6502,10 +6502,10 @@
 		(comp
 			(ref "R400")
 			(value "175.8k 0.1%")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6514,7 +6514,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R400")
 				(description "")
 			)
@@ -6548,10 +6548,10 @@
 		(comp
 			(ref "R401")
 			(value "976k 0.1%")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6560,7 +6560,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R401")
 				(description "")
 			)
@@ -6594,10 +6594,10 @@
 		(comp
 			(ref "R402")
 			(value "182k 0.1%")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6606,7 +6606,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R402")
 				(description "")
 			)
@@ -6640,10 +6640,10 @@
 		(comp
 			(ref "R403")
 			(value "10k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6652,7 +6652,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R403")
 				(description "")
 			)
@@ -6686,10 +6686,10 @@
 		(comp
 			(ref "R404")
 			(value "10k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6698,7 +6698,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R404")
 				(description "")
 			)
@@ -6732,10 +6732,10 @@
 		(comp
 			(ref "R405")
 			(value "10k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6744,7 +6744,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R405")
 				(description "")
 			)
@@ -6778,10 +6778,10 @@
 		(comp
 			(ref "R406")
 			(value "10k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6790,7 +6790,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R406")
 				(description "")
 			)
@@ -6824,10 +6824,10 @@
 		(comp
 			(ref "R407")
 			(value "10k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6836,7 +6836,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R407")
 				(description "")
 			)
@@ -6870,10 +6870,10 @@
 		(comp
 			(ref "R408")
 			(value "10k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6882,7 +6882,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R408")
 				(description "")
 			)
@@ -6916,10 +6916,10 @@
 		(comp
 			(ref "R409")
 			(value "10k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6928,7 +6928,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R409")
 				(description "")
 			)
@@ -6962,10 +6962,10 @@
 		(comp
 			(ref "R410")
 			(value "10k")
-			(footprint "ato_drv:R_0805_2012Metric")
+			(footprint "scci_rh_drv:R_0805_2012Metric")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -6974,7 +6974,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "R410")
 				(description "")
 			)
@@ -7008,11 +7008,11 @@
 		(comp
 			(ref "U400")
 			(value "LTC6993HS6-1#TRPBF")
-			(footprint "ato_drv:TSOT-23-6")
+			(footprint "scci_rh_drv:TSOT-23-6")
 			(datasheet "https://www.analog.com/media/en/technical-documentation/data-sheets/ltc6993-6993-1-6993-2-6993-4.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:TSOT-23-6")
+					(name "Footprint") "scci_rh_drv:TSOT-23-6")
 				(field
 					(name "Datasheet") "https://www.analog.com/media/en/technical-documentation/data-sheets/ltc6993-6993-1-6993-2-6993-4.pdf")
 				(field
@@ -7020,7 +7020,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U400")
 				(description "")
 			)
@@ -7066,11 +7066,11 @@
 		(comp
 			(ref "U401")
 			(value "SN74LVC1G86DBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g86.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g86.pdf")
 				(field
@@ -7078,7 +7078,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U401")
 				(description "")
 			)
@@ -7121,11 +7121,11 @@
 		(comp
 			(ref "U402")
 			(value "SN74LVC1G11DBVR")
-			(footprint "ato_drv:SOT-23-6")
+			(footprint "scci_rh_drv:SOT-23-6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 				(field
@@ -7133,7 +7133,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U402")
 				(description "")
 			)
@@ -7179,11 +7179,11 @@
 		(comp
 			(ref "U403")
 			(value "SN74LVC1G11DBVR")
-			(footprint "ato_drv:SOT-23-6")
+			(footprint "scci_rh_drv:SOT-23-6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 				(field
@@ -7191,7 +7191,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U403")
 				(description "")
 			)
@@ -7237,11 +7237,11 @@
 		(comp
 			(ref "U404")
 			(value "SN74LVC1G08DBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 				(field
@@ -7249,7 +7249,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U404")
 				(description "")
 			)
@@ -7292,11 +7292,11 @@
 		(comp
 			(ref "U405")
 			(value "SN74LVC1G04DBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf")
 				(field
@@ -7304,7 +7304,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U405")
 				(description "")
 			)
@@ -7347,11 +7347,11 @@
 		(comp
 			(ref "U406")
 			(value "SN74LVC1G04DBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf")
 				(field
@@ -7359,7 +7359,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U406")
 				(description "")
 			)
@@ -7402,11 +7402,11 @@
 		(comp
 			(ref "U407")
 			(value "SN74LVC1G08DBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 				(field
@@ -7414,7 +7414,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U407")
 				(description "")
 			)
@@ -7457,11 +7457,11 @@
 		(comp
 			(ref "U408")
 			(value "SN74LVC1G04DBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf")
 				(field
@@ -7469,7 +7469,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U408")
 				(description "")
 			)
@@ -7512,11 +7512,11 @@
 		(comp
 			(ref "U409")
 			(value "SN74LVC1G08DBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 				(field
@@ -7524,7 +7524,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U409")
 				(description "")
 			)
@@ -7567,11 +7567,11 @@
 		(comp
 			(ref "U410")
 			(value "SN74LVC1G11DBVR")
-			(footprint "ato_drv:SOT-23-6")
+			(footprint "scci_rh_drv:SOT-23-6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 				(field
@@ -7579,7 +7579,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U410")
 				(description "")
 			)
@@ -7625,11 +7625,11 @@
 		(comp
 			(ref "U411")
 			(value "SN74LVC1G11DBVR")
-			(footprint "ato_drv:SOT-23-6")
+			(footprint "scci_rh_drv:SOT-23-6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 				(field
@@ -7637,7 +7637,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U411")
 				(description "")
 			)
@@ -7683,11 +7683,11 @@
 		(comp
 			(ref "U412")
 			(value "SN74LVC1G04DBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf")
 				(field
@@ -7695,7 +7695,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U412")
 				(description "")
 			)
@@ -7738,11 +7738,11 @@
 		(comp
 			(ref "U413")
 			(value "SN74LVC1G74DCUR")
-			(footprint "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf")
 				(field
@@ -7750,7 +7750,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U413")
 				(description "")
 			)
@@ -7802,11 +7802,11 @@
 		(comp
 			(ref "U414")
 			(value "SN74LVC1G32DBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf")
 				(field
@@ -7814,7 +7814,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U414")
 				(description "")
 			)
@@ -7857,11 +7857,11 @@
 		(comp
 			(ref "U415")
 			(value "SN74LVC1G74DCUR")
-			(footprint "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf")
 				(field
@@ -7869,7 +7869,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U415")
 				(description "")
 			)
@@ -7921,11 +7921,11 @@
 		(comp
 			(ref "U416")
 			(value "SN74LVC1G74DCUR")
-			(footprint "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+			(footprint "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf")
 				(field
@@ -7933,7 +7933,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U416")
 				(description "")
 			)
@@ -7985,11 +7985,11 @@
 		(comp
 			(ref "U417")
 			(value "SN74LVC1G11DBVR")
-			(footprint "ato_drv:SOT-23-6")
+			(footprint "scci_rh_drv:SOT-23-6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 				(field
@@ -7997,7 +7997,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U417")
 				(description "")
 			)
@@ -8043,11 +8043,11 @@
 		(comp
 			(ref "U418")
 			(value "SN74LVC1G11DBVR")
-			(footprint "ato_drv:SOT-23-6")
+			(footprint "scci_rh_drv:SOT-23-6")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf")
 				(field
@@ -8055,7 +8055,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U418")
 				(description "")
 			)
@@ -8101,11 +8101,11 @@
 		(comp
 			(ref "U419")
 			(value "SN74LVC1G08DBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 				(field
@@ -8113,7 +8113,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U419")
 				(description "")
 			)
@@ -8156,11 +8156,11 @@
 		(comp
 			(ref "U420")
 			(value "SN74LVC1G08DBVR")
-			(footprint "ato_drv:SOT-23-5")
+			(footprint "scci_rh_drv:SOT-23-5")
 			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 			(fields
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf")
 				(field
@@ -8168,7 +8168,7 @@
 				)
 			)
 			(libsource
-				(lib "ATO_DRV")
+				(lib "SCCI_RH_DRV")
 				(part "U420")
 				(description "")
 			)
@@ -8213,7 +8213,7 @@
 	(variants)
 	(libparts
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C1")
 			(fields
 				(field
@@ -8221,7 +8221,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8243,7 +8243,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C100")
 			(fields
 				(field
@@ -8251,7 +8251,7 @@
 				(field
 					(name "Value") "DNP 10p C0G")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8273,7 +8273,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C101")
 			(fields
 				(field
@@ -8281,7 +8281,7 @@
 				(field
 					(name "Value") "100n 25V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8303,7 +8303,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C102")
 			(fields
 				(field
@@ -8311,7 +8311,7 @@
 				(field
 					(name "Value") "100n 25V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8333,7 +8333,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C103")
 			(fields
 				(field
@@ -8341,7 +8341,7 @@
 				(field
 					(name "Value") "100n 25V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8363,7 +8363,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C104")
 			(fields
 				(field
@@ -8371,7 +8371,7 @@
 				(field
 					(name "Value") "100n 50V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8393,7 +8393,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C105")
 			(fields
 				(field
@@ -8401,7 +8401,7 @@
 				(field
 					(name "Value") "1u 50V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8423,7 +8423,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C2")
 			(fields
 				(field
@@ -8431,7 +8431,7 @@
 				(field
 					(name "Value") "4.7u 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8453,7 +8453,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C200")
 			(fields
 				(field
@@ -8461,7 +8461,7 @@
 				(field
 					(name "Value") "DNP 10p C0G")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8483,7 +8483,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C201")
 			(fields
 				(field
@@ -8491,7 +8491,7 @@
 				(field
 					(name "Value") "100n 25V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8513,7 +8513,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C202")
 			(fields
 				(field
@@ -8521,7 +8521,7 @@
 				(field
 					(name "Value") "100n 25V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8543,7 +8543,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C203")
 			(fields
 				(field
@@ -8551,7 +8551,7 @@
 				(field
 					(name "Value") "100n 25V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8573,7 +8573,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C204")
 			(fields
 				(field
@@ -8581,7 +8581,7 @@
 				(field
 					(name "Value") "100n 50V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8603,7 +8603,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C205")
 			(fields
 				(field
@@ -8611,7 +8611,7 @@
 				(field
 					(name "Value") "1u 50V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8633,7 +8633,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C3")
 			(fields
 				(field
@@ -8641,7 +8641,7 @@
 				(field
 					(name "Value") "220n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8663,7 +8663,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C300")
 			(fields
 				(field
@@ -8671,7 +8671,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8693,7 +8693,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C301")
 			(fields
 				(field
@@ -8701,7 +8701,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8723,7 +8723,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C302")
 			(fields
 				(field
@@ -8731,7 +8731,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8753,7 +8753,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C303")
 			(fields
 				(field
@@ -8761,7 +8761,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8783,7 +8783,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C304")
 			(fields
 				(field
@@ -8791,7 +8791,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8813,7 +8813,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C305")
 			(fields
 				(field
@@ -8821,7 +8821,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8843,7 +8843,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C306")
 			(fields
 				(field
@@ -8851,7 +8851,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8873,7 +8873,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C307")
 			(fields
 				(field
@@ -8881,7 +8881,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8903,7 +8903,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C308")
 			(fields
 				(field
@@ -8911,7 +8911,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8933,7 +8933,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C309")
 			(fields
 				(field
@@ -8941,7 +8941,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8963,7 +8963,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C310")
 			(fields
 				(field
@@ -8971,7 +8971,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -8993,7 +8993,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C311")
 			(fields
 				(field
@@ -9001,7 +9001,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9023,7 +9023,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C312")
 			(fields
 				(field
@@ -9031,7 +9031,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9053,7 +9053,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C313")
 			(fields
 				(field
@@ -9061,7 +9061,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9083,7 +9083,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C314")
 			(fields
 				(field
@@ -9091,7 +9091,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9113,7 +9113,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C315")
 			(fields
 				(field
@@ -9121,7 +9121,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9143,7 +9143,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C316")
 			(fields
 				(field
@@ -9151,7 +9151,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9173,7 +9173,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C317")
 			(fields
 				(field
@@ -9181,7 +9181,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9203,7 +9203,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C318")
 			(fields
 				(field
@@ -9211,7 +9211,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9233,7 +9233,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C319")
 			(fields
 				(field
@@ -9241,7 +9241,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9263,7 +9263,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C320")
 			(fields
 				(field
@@ -9271,7 +9271,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9293,7 +9293,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C400")
 			(fields
 				(field
@@ -9301,7 +9301,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9323,7 +9323,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C401")
 			(fields
 				(field
@@ -9331,7 +9331,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9353,7 +9353,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C402")
 			(fields
 				(field
@@ -9361,7 +9361,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9383,7 +9383,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C403")
 			(fields
 				(field
@@ -9391,7 +9391,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9413,7 +9413,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C404")
 			(fields
 				(field
@@ -9421,7 +9421,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9443,7 +9443,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C405")
 			(fields
 				(field
@@ -9451,7 +9451,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9473,7 +9473,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C406")
 			(fields
 				(field
@@ -9481,7 +9481,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9503,7 +9503,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C407")
 			(fields
 				(field
@@ -9511,7 +9511,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9533,7 +9533,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C408")
 			(fields
 				(field
@@ -9541,7 +9541,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9563,7 +9563,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C409")
 			(fields
 				(field
@@ -9571,7 +9571,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9593,7 +9593,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C410")
 			(fields
 				(field
@@ -9601,7 +9601,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9623,7 +9623,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C411")
 			(fields
 				(field
@@ -9631,7 +9631,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9653,7 +9653,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C412")
 			(fields
 				(field
@@ -9661,7 +9661,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9683,7 +9683,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C413")
 			(fields
 				(field
@@ -9691,7 +9691,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9713,7 +9713,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C414")
 			(fields
 				(field
@@ -9721,7 +9721,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9743,7 +9743,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C415")
 			(fields
 				(field
@@ -9751,7 +9751,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9773,7 +9773,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C416")
 			(fields
 				(field
@@ -9781,7 +9781,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9803,7 +9803,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C417")
 			(fields
 				(field
@@ -9811,7 +9811,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9833,7 +9833,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C418")
 			(fields
 				(field
@@ -9841,7 +9841,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9863,7 +9863,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C419")
 			(fields
 				(field
@@ -9871,7 +9871,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9893,7 +9893,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "C420")
 			(fields
 				(field
@@ -9901,7 +9901,7 @@
 				(field
 					(name "Value") "100n 10V")
 				(field
-					(name "Footprint") "ato_drv:C_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:C_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -9923,7 +9923,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "J1")
 			(fields
 				(field
@@ -9931,7 +9931,7 @@
 				(field
 					(name "Value") "QUALIFIED EXTERNAL RAILS")
 				(field
-					(name "Footprint") "ato_drv:PinHeader_1x05_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_drv:PinHeader_1x05_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -9968,7 +9968,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "J100")
 			(fields
 				(field
@@ -9976,7 +9976,7 @@
 				(field
 					(name "Value") "EXTERNAL ROUTER / MONITOR")
 				(field
-					(name "Footprint") "ato_drv:PinHeader_1x04_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_drv:PinHeader_1x04_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -10008,7 +10008,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "J2")
 			(fields
 				(field
@@ -10016,7 +10016,7 @@
 				(field
 					(name "Value") "MCU SPI / PRELOAD INHIBITED")
 				(field
-					(name "Footprint") "ato_drv:PinHeader_1x04_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_drv:PinHeader_1x04_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -10048,7 +10048,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "J200")
 			(fields
 				(field
@@ -10056,7 +10056,7 @@
 				(field
 					(name "Value") "EXTERNAL ROUTER / MONITOR")
 				(field
-					(name "Footprint") "ato_drv:PinHeader_1x04_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_drv:PinHeader_1x04_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -10088,7 +10088,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "J3")
 			(fields
 				(field
@@ -10096,7 +10096,7 @@
 				(field
 					(name "Value") "MCU PHASE / EXPLICIT REARM")
 				(field
-					(name "Footprint") "ato_drv:PinHeader_1x09_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_drv:PinHeader_1x09_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -10153,7 +10153,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "J4")
 			(fields
 				(field
@@ -10161,7 +10161,7 @@
 				(field
 					(name "Value") "EXTERNAL HEALTH CONTRACTS")
 				(field
-					(name "Footprint") "ato_drv:PinHeader_1x11_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_drv:PinHeader_1x11_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -10228,7 +10228,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "J5")
 			(fields
 				(field
@@ -10236,7 +10236,7 @@
 				(field
 					(name "Value") "STATUS ONLY / NOT DELIVERY EVIDENCE")
 				(field
-					(name "Footprint") "ato_drv:PinHeader_1x09_P2.54mm_Vertical")
+					(name "Footprint") "scci_rh_drv:PinHeader_1x09_P2.54mm_Vertical")
 				(field
 					(name "Datasheet")
 				)
@@ -10293,7 +10293,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "Q100")
 			(fields
 				(field
@@ -10301,7 +10301,7 @@
 				(field
 					(name "Value") "BSP89H6327XTSA1")
 				(field
-					(name "Footprint") "ato_drv:BSP89_PG-SOT223-4_DrainTab")
+					(name "Footprint") "scci_rh_drv:BSP89_PG-SOT223-4_DrainTab")
 				(field
 					(name "Datasheet")
 				)
@@ -10333,7 +10333,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "Q200")
 			(fields
 				(field
@@ -10341,7 +10341,7 @@
 				(field
 					(name "Value") "BSP89H6327XTSA1")
 				(field
-					(name "Footprint") "ato_drv:BSP89_PG-SOT223-4_DrainTab")
+					(name "Footprint") "scci_rh_drv:BSP89_PG-SOT223-4_DrainTab")
 				(field
 					(name "Datasheet")
 				)
@@ -10373,7 +10373,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R1")
 			(fields
 				(field
@@ -10381,7 +10381,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10403,7 +10403,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R100")
 			(fields
 				(field
@@ -10411,7 +10411,7 @@
 				(field
 					(name "Value") "100R 0.1% LOW TCR")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10433,7 +10433,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R101")
 			(fields
 				(field
@@ -10441,7 +10441,7 @@
 				(field
 					(name "Value") "330R")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10463,7 +10463,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R102")
 			(fields
 				(field
@@ -10471,7 +10471,7 @@
 				(field
 					(name "Value") "100k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10493,7 +10493,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R103")
 			(fields
 				(field
@@ -10501,7 +10501,7 @@
 				(field
 					(name "Value") "22k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10523,7 +10523,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R104")
 			(fields
 				(field
@@ -10531,7 +10531,7 @@
 				(field
 					(name "Value") "22k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10553,7 +10553,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R105")
 			(fields
 				(field
@@ -10561,7 +10561,7 @@
 				(field
 					(name "Value") "22k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10583,7 +10583,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R2")
 			(fields
 				(field
@@ -10591,7 +10591,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10613,7 +10613,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R200")
 			(fields
 				(field
@@ -10621,7 +10621,7 @@
 				(field
 					(name "Value") "100R 0.1% LOW TCR")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10643,7 +10643,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R201")
 			(fields
 				(field
@@ -10651,7 +10651,7 @@
 				(field
 					(name "Value") "330R")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10673,7 +10673,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R202")
 			(fields
 				(field
@@ -10681,7 +10681,7 @@
 				(field
 					(name "Value") "100k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10703,7 +10703,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R203")
 			(fields
 				(field
@@ -10711,7 +10711,7 @@
 				(field
 					(name "Value") "22k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10733,7 +10733,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R204")
 			(fields
 				(field
@@ -10741,7 +10741,7 @@
 				(field
 					(name "Value") "22k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10763,7 +10763,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R205")
 			(fields
 				(field
@@ -10771,7 +10771,7 @@
 				(field
 					(name "Value") "22k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10793,7 +10793,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R3")
 			(fields
 				(field
@@ -10801,7 +10801,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10823,7 +10823,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R300")
 			(fields
 				(field
@@ -10831,7 +10831,7 @@
 				(field
 					(name "Value") "175.8k 0.1%")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10853,7 +10853,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R301")
 			(fields
 				(field
@@ -10861,7 +10861,7 @@
 				(field
 					(name "Value") "976k 0.1%")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10883,7 +10883,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R302")
 			(fields
 				(field
@@ -10891,7 +10891,7 @@
 				(field
 					(name "Value") "182k 0.1%")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10913,7 +10913,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R303")
 			(fields
 				(field
@@ -10921,7 +10921,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10943,7 +10943,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R304")
 			(fields
 				(field
@@ -10951,7 +10951,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -10973,7 +10973,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R305")
 			(fields
 				(field
@@ -10981,7 +10981,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11003,7 +11003,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R306")
 			(fields
 				(field
@@ -11011,7 +11011,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11033,7 +11033,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R307")
 			(fields
 				(field
@@ -11041,7 +11041,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11063,7 +11063,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R308")
 			(fields
 				(field
@@ -11071,7 +11071,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11093,7 +11093,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R309")
 			(fields
 				(field
@@ -11101,7 +11101,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11123,7 +11123,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R310")
 			(fields
 				(field
@@ -11131,7 +11131,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11153,7 +11153,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R4")
 			(fields
 				(field
@@ -11161,7 +11161,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11183,7 +11183,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R400")
 			(fields
 				(field
@@ -11191,7 +11191,7 @@
 				(field
 					(name "Value") "175.8k 0.1%")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11213,7 +11213,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R401")
 			(fields
 				(field
@@ -11221,7 +11221,7 @@
 				(field
 					(name "Value") "976k 0.1%")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11243,7 +11243,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R402")
 			(fields
 				(field
@@ -11251,7 +11251,7 @@
 				(field
 					(name "Value") "182k 0.1%")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11273,7 +11273,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R403")
 			(fields
 				(field
@@ -11281,7 +11281,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11303,7 +11303,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R404")
 			(fields
 				(field
@@ -11311,7 +11311,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11333,7 +11333,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R405")
 			(fields
 				(field
@@ -11341,7 +11341,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11363,7 +11363,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R406")
 			(fields
 				(field
@@ -11371,7 +11371,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11393,7 +11393,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R407")
 			(fields
 				(field
@@ -11401,7 +11401,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11423,7 +11423,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R408")
 			(fields
 				(field
@@ -11431,7 +11431,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11453,7 +11453,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R409")
 			(fields
 				(field
@@ -11461,7 +11461,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11483,7 +11483,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R410")
 			(fields
 				(field
@@ -11491,7 +11491,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11513,7 +11513,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "R5")
 			(fields
 				(field
@@ -11521,7 +11521,7 @@
 				(field
 					(name "Value") "10k")
 				(field
-					(name "Footprint") "ato_drv:R_0805_2012Metric")
+					(name "Footprint") "scci_rh_drv:R_0805_2012Metric")
 				(field
 					(name "Datasheet")
 				)
@@ -11543,7 +11543,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U1")
 			(fields
 				(field
@@ -11551,7 +11551,7 @@
 				(field
 					(name "Value") "DAC80502DRXR")
 				(field
-					(name "Footprint") "ato_drv:Texas_DRX_WSON-10_2.5x2.5mm_P0.5mm")
+					(name "Footprint") "scci_rh_drv:Texas_DRX_WSON-10_2.5x2.5mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -11613,7 +11613,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U100")
 			(fields
 				(field
@@ -11621,7 +11621,7 @@
 				(field
 					(name "Value") "OPA192IDBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -11658,7 +11658,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U101")
 			(fields
 				(field
@@ -11666,7 +11666,7 @@
 				(field
 					(name "Value") "TMUX7212PWR")
 				(field
-					(name "Footprint") "ato_drv:TSSOP-16_4.4x5mm_P0.65mm")
+					(name "Footprint") "scci_rh_drv:TSSOP-16_4.4x5mm_P0.65mm")
 				(field
 					(name "Datasheet")
 				)
@@ -11758,7 +11758,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U102")
 			(fields
 				(field
@@ -11766,7 +11766,7 @@
 				(field
 					(name "Value") "TMUX6219DGKR")
 				(field
-					(name "Footprint") "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -11818,7 +11818,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U103")
 			(fields
 				(field
@@ -11826,7 +11826,7 @@
 				(field
 					(name "Value") "TMUX6219DGKR")
 				(field
-					(name "Footprint") "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -11878,7 +11878,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U200")
 			(fields
 				(field
@@ -11886,7 +11886,7 @@
 				(field
 					(name "Value") "OPA192IDBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -11923,7 +11923,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U201")
 			(fields
 				(field
@@ -11931,7 +11931,7 @@
 				(field
 					(name "Value") "TMUX7212PWR")
 				(field
-					(name "Footprint") "ato_drv:TSSOP-16_4.4x5mm_P0.65mm")
+					(name "Footprint") "scci_rh_drv:TSSOP-16_4.4x5mm_P0.65mm")
 				(field
 					(name "Datasheet")
 				)
@@ -12023,7 +12023,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U202")
 			(fields
 				(field
@@ -12031,7 +12031,7 @@
 				(field
 					(name "Value") "TMUX6219DGKR")
 				(field
-					(name "Footprint") "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -12083,7 +12083,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U203")
 			(fields
 				(field
@@ -12091,7 +12091,7 @@
 				(field
 					(name "Value") "TMUX6219DGKR")
 				(field
-					(name "Footprint") "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -12143,7 +12143,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U300")
 			(fields
 				(field
@@ -12151,7 +12151,7 @@
 				(field
 					(name "Value") "LTC6993HS6-1#TRPBF")
 				(field
-					(name "Footprint") "ato_drv:TSOT-23-6")
+					(name "Footprint") "scci_rh_drv:TSOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -12193,7 +12193,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U301")
 			(fields
 				(field
@@ -12201,7 +12201,7 @@
 				(field
 					(name "Value") "SN74LVC1G86DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -12238,7 +12238,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U302")
 			(fields
 				(field
@@ -12246,7 +12246,7 @@
 				(field
 					(name "Value") "SN74LVC1G11DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -12288,7 +12288,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U303")
 			(fields
 				(field
@@ -12296,7 +12296,7 @@
 				(field
 					(name "Value") "SN74LVC1G11DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -12338,7 +12338,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U304")
 			(fields
 				(field
@@ -12346,7 +12346,7 @@
 				(field
 					(name "Value") "SN74LVC1G08DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -12383,7 +12383,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U305")
 			(fields
 				(field
@@ -12391,7 +12391,7 @@
 				(field
 					(name "Value") "SN74LVC1G04DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -12428,7 +12428,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U306")
 			(fields
 				(field
@@ -12436,7 +12436,7 @@
 				(field
 					(name "Value") "SN74LVC1G04DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -12473,7 +12473,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U307")
 			(fields
 				(field
@@ -12481,7 +12481,7 @@
 				(field
 					(name "Value") "SN74LVC1G08DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -12518,7 +12518,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U308")
 			(fields
 				(field
@@ -12526,7 +12526,7 @@
 				(field
 					(name "Value") "SN74LVC1G04DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -12563,7 +12563,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U309")
 			(fields
 				(field
@@ -12571,7 +12571,7 @@
 				(field
 					(name "Value") "SN74LVC1G08DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -12608,7 +12608,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U310")
 			(fields
 				(field
@@ -12616,7 +12616,7 @@
 				(field
 					(name "Value") "SN74LVC1G11DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -12658,7 +12658,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U311")
 			(fields
 				(field
@@ -12666,7 +12666,7 @@
 				(field
 					(name "Value") "SN74LVC1G11DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -12708,7 +12708,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U312")
 			(fields
 				(field
@@ -12716,7 +12716,7 @@
 				(field
 					(name "Value") "SN74LVC1G04DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -12753,7 +12753,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U313")
 			(fields
 				(field
@@ -12761,7 +12761,7 @@
 				(field
 					(name "Value") "SN74LVC1G74DCUR")
 				(field
-					(name "Footprint") "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -12813,7 +12813,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U314")
 			(fields
 				(field
@@ -12821,7 +12821,7 @@
 				(field
 					(name "Value") "SN74LVC1G32DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -12858,7 +12858,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U315")
 			(fields
 				(field
@@ -12866,7 +12866,7 @@
 				(field
 					(name "Value") "SN74LVC1G74DCUR")
 				(field
-					(name "Footprint") "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -12918,7 +12918,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U316")
 			(fields
 				(field
@@ -12926,7 +12926,7 @@
 				(field
 					(name "Value") "SN74LVC1G74DCUR")
 				(field
-					(name "Footprint") "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -12978,7 +12978,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U317")
 			(fields
 				(field
@@ -12986,7 +12986,7 @@
 				(field
 					(name "Value") "SN74LVC1G11DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -13028,7 +13028,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U318")
 			(fields
 				(field
@@ -13036,7 +13036,7 @@
 				(field
 					(name "Value") "SN74LVC1G11DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -13078,7 +13078,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U319")
 			(fields
 				(field
@@ -13086,7 +13086,7 @@
 				(field
 					(name "Value") "SN74LVC1G08DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -13123,7 +13123,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U320")
 			(fields
 				(field
@@ -13131,7 +13131,7 @@
 				(field
 					(name "Value") "SN74LVC1G08DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -13168,7 +13168,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U400")
 			(fields
 				(field
@@ -13176,7 +13176,7 @@
 				(field
 					(name "Value") "LTC6993HS6-1#TRPBF")
 				(field
-					(name "Footprint") "ato_drv:TSOT-23-6")
+					(name "Footprint") "scci_rh_drv:TSOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -13218,7 +13218,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U401")
 			(fields
 				(field
@@ -13226,7 +13226,7 @@
 				(field
 					(name "Value") "SN74LVC1G86DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -13263,7 +13263,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U402")
 			(fields
 				(field
@@ -13271,7 +13271,7 @@
 				(field
 					(name "Value") "SN74LVC1G11DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -13313,7 +13313,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U403")
 			(fields
 				(field
@@ -13321,7 +13321,7 @@
 				(field
 					(name "Value") "SN74LVC1G11DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -13363,7 +13363,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U404")
 			(fields
 				(field
@@ -13371,7 +13371,7 @@
 				(field
 					(name "Value") "SN74LVC1G08DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -13408,7 +13408,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U405")
 			(fields
 				(field
@@ -13416,7 +13416,7 @@
 				(field
 					(name "Value") "SN74LVC1G04DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -13453,7 +13453,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U406")
 			(fields
 				(field
@@ -13461,7 +13461,7 @@
 				(field
 					(name "Value") "SN74LVC1G04DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -13498,7 +13498,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U407")
 			(fields
 				(field
@@ -13506,7 +13506,7 @@
 				(field
 					(name "Value") "SN74LVC1G08DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -13543,7 +13543,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U408")
 			(fields
 				(field
@@ -13551,7 +13551,7 @@
 				(field
 					(name "Value") "SN74LVC1G04DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -13588,7 +13588,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U409")
 			(fields
 				(field
@@ -13596,7 +13596,7 @@
 				(field
 					(name "Value") "SN74LVC1G08DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -13633,7 +13633,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U410")
 			(fields
 				(field
@@ -13641,7 +13641,7 @@
 				(field
 					(name "Value") "SN74LVC1G11DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -13683,7 +13683,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U411")
 			(fields
 				(field
@@ -13691,7 +13691,7 @@
 				(field
 					(name "Value") "SN74LVC1G11DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -13733,7 +13733,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U412")
 			(fields
 				(field
@@ -13741,7 +13741,7 @@
 				(field
 					(name "Value") "SN74LVC1G04DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -13778,7 +13778,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U413")
 			(fields
 				(field
@@ -13786,7 +13786,7 @@
 				(field
 					(name "Value") "SN74LVC1G74DCUR")
 				(field
-					(name "Footprint") "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -13838,7 +13838,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U414")
 			(fields
 				(field
@@ -13846,7 +13846,7 @@
 				(field
 					(name "Value") "SN74LVC1G32DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -13883,7 +13883,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U415")
 			(fields
 				(field
@@ -13891,7 +13891,7 @@
 				(field
 					(name "Value") "SN74LVC1G74DCUR")
 				(field
-					(name "Footprint") "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -13943,7 +13943,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U416")
 			(fields
 				(field
@@ -13951,7 +13951,7 @@
 				(field
 					(name "Value") "SN74LVC1G74DCUR")
 				(field
-					(name "Footprint") "ato_drv:VSSOP-8_2.3x2mm_P0.5mm")
+					(name "Footprint") "scci_rh_drv:VSSOP-8_2.3x2mm_P0.5mm")
 				(field
 					(name "Datasheet")
 				)
@@ -14003,7 +14003,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U417")
 			(fields
 				(field
@@ -14011,7 +14011,7 @@
 				(field
 					(name "Value") "SN74LVC1G11DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -14053,7 +14053,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U418")
 			(fields
 				(field
@@ -14061,7 +14061,7 @@
 				(field
 					(name "Value") "SN74LVC1G11DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-6")
+					(name "Footprint") "scci_rh_drv:SOT-23-6")
 				(field
 					(name "Datasheet")
 				)
@@ -14103,7 +14103,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U419")
 			(fields
 				(field
@@ -14111,7 +14111,7 @@
 				(field
 					(name "Value") "SN74LVC1G08DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -14148,7 +14148,7 @@
 			)
 		)
 		(libpart
-			(lib "ATO_DRV")
+			(lib "SCCI_RH_DRV")
 			(part "U420")
 			(fields
 				(field
@@ -14156,7 +14156,7 @@
 				(field
 					(name "Value") "SN74LVC1G08DBVR")
 				(field
-					(name "Footprint") "ato_drv:SOT-23-5")
+					(name "Footprint") "scci_rh_drv:SOT-23-5")
 				(field
 					(name "Datasheet")
 				)
@@ -14195,8 +14195,8 @@
 	)
 	(libraries
 		(library
-			(logical "ATO_DRV")
-			(uri "${KIPRJMOD}/ATO_DRV.kicad_sym")
+			(logical "SCCI_RH_DRV")
+			(uri "${KIPRJMOD}/SCCI_RH_DRV.kicad_sym")
 		)
 	)
 	(nets

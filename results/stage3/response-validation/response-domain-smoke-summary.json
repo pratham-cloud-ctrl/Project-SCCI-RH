@@ -1,13 +1,13 @@
 {
-  "schema": "ato.stage3.response-domain-summary.v1",
+  "schema": "scci_rh.stage3.response-domain-summary.v1",
   "scope": "smoke",
   "source_identity": {
-    "src/ato/stage3/response_validation.py": "7a814113b2ebc27e55cf96ae5288eceffae39d4cbfb1fd9defaeb0b82fd780a1",
-    "src/ato/stage3/motor.py": "d86b4d091baf226475ce9f6d6e2390b65bb63752e5f50e73d42c5c3408b2323c",
-    "src/ato/stage3/acquisition.py": "bd681adefc5e82c58b449490ad14917fff307be9947de647e92aeb6c38b22f03",
-    "src/ato/stage3/electrical.py": "8a7a20702be3f3f5893e1f859f675347fa35db01dadb20ab7e64635ca8913ff0",
-    "src/ato/stage3/external_history.py": "2ec8bb81bd96066fe8f80696a0351d4407b68baabd6526e6211922abb8a4f97d",
-    "scripts/stage3_response_validation.py": "e65421b99a45e373c650fd5f594672e5d91e817798099f95174c89edbbbb4b45"
+    "src/scci_rh/stage3/response_validation.py": "ceac907a60821d1fcba2b70b62c164453fc8f0dc318f62a3c242df7b33d352b4",
+    "src/scci_rh/stage3/motor.py": "fdc83232adcd15759319a05af2204c7d3481f5da3ecf4538f152b569760c05fe",
+    "src/scci_rh/stage3/acquisition.py": "bd681adefc5e82c58b449490ad14917fff307be9947de647e92aeb6c38b22f03",
+    "src/scci_rh/stage3/electrical.py": "8a7a20702be3f3f5893e1f859f675347fa35db01dadb20ab7e64635ca8913ff0",
+    "src/scci_rh/stage3/external_history.py": "2ec8bb81bd96066fe8f80696a0351d4407b68baabd6526e6211922abb8a4f97d",
+    "scripts/stage3_response_validation.py": "219257ac1f1d26d56d32b485fbed77e8f71578d417891c3c39e52ca78f68e608"
   },
   "specification": {
     "fixed_profile": "3mA,200us/phase,24V,40Hz; whole-frame density selection",
@@ -101,7 +101,7 @@
         "heldout_response_rmse_m": 0.00026702724232980697
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             0.05847940008376249,
@@ -1240,7 +1240,7 @@
         "heldout_response_rmse_m": 0.00026807809511312017
       },
       "observed_four_route_map": {
-        "schema": "ato.stage3.observed-four-route-map.v1",
+        "schema": "scci_rh.stage3.observed-four-route-map.v1",
         "gain_m_per_reference_dose": [
           [
             0.05843404311527952,

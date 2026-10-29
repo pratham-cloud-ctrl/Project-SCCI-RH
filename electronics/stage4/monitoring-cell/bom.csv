@@ -1,71 +1,71 @@
 reference,value,footprint,sheet,description,primary_source
-J1,LAB RAILS ONLY,ato_s4:PinHeader_1x03_P2.54mm_Vertical,root,"Regulated external power, not a populated battery/converter/charger",
-J2,MCU ENDPOINT/CONTROL,ato_s4:PinHeader_1x12_P2.54mm_Vertical,root,3.3V MCU interface; external clocks/CS/rearm are unimplemented,
-J3,EXTERNAL SUPERVISION,ato_s4:PinHeader_1x05_P2.54mm_Vertical,root,"EXT_SUP_OK must AND independent compliance, duration, watchdog, rails and reference health; not populated here",
-J4,CURRENT ADC INTERFACE,ato_s4:PinHeader_1x04_P2.54mm_Vertical,root,Separate current/health ADC and compliance front-end remain external,
-U1,REF3440DBVR,ato_s4:SOT-23-6,root,4.096V reference; sense tied locally to force in slice,https://www.ti.com/lit/ds/symlink/ref34.pdf
-U2,OPA391DCKR,ato_s4:SOT-353_SC-70-5,root,Buffered midpoint from reference; ADC reference remains separately bypassed,https://www.ti.com/lit/ds/symlink/opa391.pdf
-U3,TMUX1136DGSR,ato_s4:MSOP-10_3x3mm_P0.5mm,root,Low select closes B feedback reset; high select opens into unconnected A,https://www.ti.com/lit/ds/symlink/tmux1136.pdf
-R1,10k 0.1%,ato_s4:R_0805_2012Metric,root,Midpoint divider upper,
-R2,10k 0.1%,ato_s4:R_0805_2012Metric,root,Midpoint divider lower,
-R3,10k 0.1%,ato_s4:R_0805_2012Metric,root,Upper guard divider; no hard peak bound implied,
-R4,19.1k 0.1%,ato_s4:R_0805_2012Metric,root,Guard divider center,
-R5,10k 0.1%,ato_s4:R_0805_2012Metric,root,Lower guard divider,
-C1,1u 10V,ato_s4:C_0805_2012Metric,root,Reference input local bypass,
-C2,1u 10V,ato_s4:C_0805_2012Metric,root,Reference output bypass; ADC pins each have22uF,
-C3,100n 10V,ato_s4:C_0805_2012Metric,root,Midpoint buffer supply bypass,
-C4,100n 10V,ato_s4:C_0805_2012Metric,root,Reset mux supply bypass,
-R6,100k,ato_s4:R_0805_2012Metric,root,"Default reset, not an output safety gate",
-R7,100k,ato_s4:R_0805_2012Metric,root,"Default reset, not an output safety gate",
-J100,SOURCE 0 RETURN SHUNT,ato_s4:PinHeader_1x02_P2.54mm_Vertical,channel0,Series dedicated return of an ARTIFICIAL load; no implicit body-ground isolation,
-R100,2R 0.1% KELVIN,ato_s4:R_0805_2012Metric,channel0,"Separate monitor shunt, not driver-servo resistor; qualify TCR/power and Kelvin layout",
-U100,INA241A2IDR,ato_s4:SOIC-8_3.9x4.9mm_P1.27mm,channel0,20V/V; A2 max15uV offset; NC pin4 explicitly ground; bias paths unqualified,https://www.ti.com/lit/ds/symlink/ina241a.pdf
-U101,OPA391DCKR,ato_s4:SOT-353_SC-70-5,channel0,Continuous signed integrator around2.048V,https://www.ti.com/lit/ds/symlink/opa391.pdf
-R101,10k 0.1%,ato_s4:R_0805_2012Metric,channel0,Integrator input resistor; continuous current integral,
-C100,22n 0.5% C0G,ato_s4:C_0805_2012Metric,channel0,Precision low-absorption feedback capacitor; tolerance/temperature require evidence,
-U102,OPA391DCKR,ato_s4:SOT-353_SC-70-5,channel0,Endpoint buffer; capacitive drive/settling must be modeled,https://www.ti.com/lit/ds/symlink/opa391.pdf
-U103,ADS8866IDGSR,ato_s4:MSOP-10_3x3mm_P0.5mm,channel0,"Separate endpoint SAR; four-wire CS mode; AVDD/DVDD3.3V, reference4.096V",https://www.ti.com/lit/ds/symlink/ads8866.pdf
-R102,33R,ato_s4:R_0805_2012Metric,channel0,ADC charge-kickback isolation; provisional settling network,
-C101,1n C0G,ato_s4:C_0805_2012Metric,channel0,"Provisional ADC local reservoir, not verified settling",
-U104,TLV3202IDR,ato_s4:SOIC-8_3.9x4.9mm_P1.27mm,channel0,Both outputs high only inside nominal current window; shared INA path is a common failure,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
-U105,SN74LVC1G11DBVR,ato_s4:SOT-23-6,channel0,5V-tolerant inputs; output3.3V to asynchronous latch clear,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-U106,SN74LVC1G74DCUR,ato_s4:VSSOP-8_2.3x2mm_P0.5mm,channel0,Q cleared by fault; manual qualifying rearm rising edge; external power-up supervision required,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-J101,SOURCE 0 DRIVER PERMISSION,ato_s4:PinHeader_1x03_P2.54mm_Vertical,channel0,Driver must inhibit independently and remain off with no permit; driver absent,
-R103,100k,ato_s4:R_0805_2012Metric,channel0,Disconnected external supervisor means no permission,
-R104,100k,ato_s4:R_0805_2012Metric,channel0,Disconnected rearm clock low,
-R105,100k,ato_s4:R_0805_2012Metric,channel0,External driver permit default pulldown; not sufficient to certify all power sequences,
-C102,100n 10V,ato_s4:C_0805_2012Metric,channel0,INA supply bypass,
-C103,100n 10V,ato_s4:C_0805_2012Metric,channel0,Integrator supply bypass,
-C104,100n 10V,ato_s4:C_0805_2012Metric,channel0,Endpoint buffer supply bypass,
-C105,1u 10V,ato_s4:C_0805_2012Metric,channel0,ADC analog supply bypass,
-C106,1u 10V,ato_s4:C_0805_2012Metric,channel0,ADC digital supply bypass,
-C107,22u 10V,ato_s4:C_0805_2012Metric,channel0,ADC reference local bypass >=10uF effective,
-C108,100n 10V,ato_s4:C_0805_2012Metric,channel0,Comparator supply bypass,
-C109,100n 10V,ato_s4:C_0805_2012Metric,channel0,AND logic supply bypass,
-C110,100n 10V,ato_s4:C_0805_2012Metric,channel0,Latch supply bypass,
-J200,SOURCE 1 RETURN SHUNT,ato_s4:PinHeader_1x02_P2.54mm_Vertical,channel1,Series dedicated return of an ARTIFICIAL load; no implicit body-ground isolation,
-R200,2R 0.1% KELVIN,ato_s4:R_0805_2012Metric,channel1,"Separate monitor shunt, not driver-servo resistor; qualify TCR/power and Kelvin layout",
-U200,INA241A2IDR,ato_s4:SOIC-8_3.9x4.9mm_P1.27mm,channel1,20V/V; A2 max15uV offset; NC pin4 explicitly ground; bias paths unqualified,https://www.ti.com/lit/ds/symlink/ina241a.pdf
-U201,OPA391DCKR,ato_s4:SOT-353_SC-70-5,channel1,Continuous signed integrator around2.048V,https://www.ti.com/lit/ds/symlink/opa391.pdf
-R201,10k 0.1%,ato_s4:R_0805_2012Metric,channel1,Integrator input resistor; continuous current integral,
-C200,22n 0.5% C0G,ato_s4:C_0805_2012Metric,channel1,Precision low-absorption feedback capacitor; tolerance/temperature require evidence,
-U202,OPA391DCKR,ato_s4:SOT-353_SC-70-5,channel1,Endpoint buffer; capacitive drive/settling must be modeled,https://www.ti.com/lit/ds/symlink/opa391.pdf
-U203,ADS8866IDGSR,ato_s4:MSOP-10_3x3mm_P0.5mm,channel1,"Separate endpoint SAR; four-wire CS mode; AVDD/DVDD3.3V, reference4.096V",https://www.ti.com/lit/ds/symlink/ads8866.pdf
-R202,33R,ato_s4:R_0805_2012Metric,channel1,ADC charge-kickback isolation; provisional settling network,
-C201,1n C0G,ato_s4:C_0805_2012Metric,channel1,"Provisional ADC local reservoir, not verified settling",
-U204,TLV3202IDR,ato_s4:SOIC-8_3.9x4.9mm_P1.27mm,channel1,Both outputs high only inside nominal current window; shared INA path is a common failure,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
-U205,SN74LVC1G11DBVR,ato_s4:SOT-23-6,channel1,5V-tolerant inputs; output3.3V to asynchronous latch clear,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
-U206,SN74LVC1G74DCUR,ato_s4:VSSOP-8_2.3x2mm_P0.5mm,channel1,Q cleared by fault; manual qualifying rearm rising edge; external power-up supervision required,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
-J201,SOURCE 1 DRIVER PERMISSION,ato_s4:PinHeader_1x03_P2.54mm_Vertical,channel1,Driver must inhibit independently and remain off with no permit; driver absent,
-R203,100k,ato_s4:R_0805_2012Metric,channel1,Disconnected external supervisor means no permission,
-R204,100k,ato_s4:R_0805_2012Metric,channel1,Disconnected rearm clock low,
-R205,100k,ato_s4:R_0805_2012Metric,channel1,External driver permit default pulldown; not sufficient to certify all power sequences,
-C202,100n 10V,ato_s4:C_0805_2012Metric,channel1,INA supply bypass,
-C203,100n 10V,ato_s4:C_0805_2012Metric,channel1,Integrator supply bypass,
-C204,100n 10V,ato_s4:C_0805_2012Metric,channel1,Endpoint buffer supply bypass,
-C205,1u 10V,ato_s4:C_0805_2012Metric,channel1,ADC analog supply bypass,
-C206,1u 10V,ato_s4:C_0805_2012Metric,channel1,ADC digital supply bypass,
-C207,22u 10V,ato_s4:C_0805_2012Metric,channel1,ADC reference local bypass >=10uF effective,
-C208,100n 10V,ato_s4:C_0805_2012Metric,channel1,Comparator supply bypass,
-C209,100n 10V,ato_s4:C_0805_2012Metric,channel1,AND logic supply bypass,
-C210,100n 10V,ato_s4:C_0805_2012Metric,channel1,Latch supply bypass,
+J1,LAB RAILS ONLY,scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical,root,"Regulated external power, not a populated battery/converter/charger",
+J2,MCU ENDPOINT/CONTROL,scci_rh_s4:PinHeader_1x12_P2.54mm_Vertical,root,3.3V MCU interface; external clocks/CS/rearm are unimplemented,
+J3,EXTERNAL SUPERVISION,scci_rh_s4:PinHeader_1x05_P2.54mm_Vertical,root,"EXT_SUP_OK must AND independent compliance, duration, watchdog, rails and reference health; not populated here",
+J4,CURRENT ADC INTERFACE,scci_rh_s4:PinHeader_1x04_P2.54mm_Vertical,root,Separate current/health ADC and compliance front-end remain external,
+U1,REF3440DBVR,scci_rh_s4:SOT-23-6,root,4.096V reference; sense tied locally to force in slice,https://www.ti.com/lit/ds/symlink/ref34.pdf
+U2,OPA391DCKR,scci_rh_s4:SOT-353_SC-70-5,root,Buffered midpoint from reference; ADC reference remains separately bypassed,https://www.ti.com/lit/ds/symlink/opa391.pdf
+U3,TMUX1136DGSR,scci_rh_s4:MSOP-10_3x3mm_P0.5mm,root,Low select closes B feedback reset; high select opens into unconnected A,https://www.ti.com/lit/ds/symlink/tmux1136.pdf
+R1,10k 0.1%,scci_rh_s4:R_0805_2012Metric,root,Midpoint divider upper,
+R2,10k 0.1%,scci_rh_s4:R_0805_2012Metric,root,Midpoint divider lower,
+R3,10k 0.1%,scci_rh_s4:R_0805_2012Metric,root,Upper guard divider; no hard peak bound implied,
+R4,19.1k 0.1%,scci_rh_s4:R_0805_2012Metric,root,Guard divider center,
+R5,10k 0.1%,scci_rh_s4:R_0805_2012Metric,root,Lower guard divider,
+C1,1u 10V,scci_rh_s4:C_0805_2012Metric,root,Reference input local bypass,
+C2,1u 10V,scci_rh_s4:C_0805_2012Metric,root,Reference output bypass; ADC pins each have22uF,
+C3,100n 10V,scci_rh_s4:C_0805_2012Metric,root,Midpoint buffer supply bypass,
+C4,100n 10V,scci_rh_s4:C_0805_2012Metric,root,Reset mux supply bypass,
+R6,100k,scci_rh_s4:R_0805_2012Metric,root,"Default reset, not an output safety gate",
+R7,100k,scci_rh_s4:R_0805_2012Metric,root,"Default reset, not an output safety gate",
+J100,SOURCE 0 RETURN SHUNT,scci_rh_s4:PinHeader_1x02_P2.54mm_Vertical,channel0,Series dedicated return of an ARTIFICIAL load; no implicit body-ground isolation,
+R100,2R 0.1% KELVIN,scci_rh_s4:R_0805_2012Metric,channel0,"Separate monitor shunt, not driver-servo resistor; qualify TCR/power and Kelvin layout",
+U100,INA241A2IDR,scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm,channel0,20V/V; A2 max15uV offset; NC pin4 explicitly ground; bias paths unqualified,https://www.ti.com/lit/ds/symlink/ina241a.pdf
+U101,OPA391DCKR,scci_rh_s4:SOT-353_SC-70-5,channel0,Continuous signed integrator around2.048V,https://www.ti.com/lit/ds/symlink/opa391.pdf
+R101,10k 0.1%,scci_rh_s4:R_0805_2012Metric,channel0,Integrator input resistor; continuous current integral,
+C100,22n 0.5% C0G,scci_rh_s4:C_0805_2012Metric,channel0,Precision low-absorption feedback capacitor; tolerance/temperature require evidence,
+U102,OPA391DCKR,scci_rh_s4:SOT-353_SC-70-5,channel0,Endpoint buffer; capacitive drive/settling must be modeled,https://www.ti.com/lit/ds/symlink/opa391.pdf
+U103,ADS8866IDGSR,scci_rh_s4:MSOP-10_3x3mm_P0.5mm,channel0,"Separate endpoint SAR; four-wire CS mode; AVDD/DVDD3.3V, reference4.096V",https://www.ti.com/lit/ds/symlink/ads8866.pdf
+R102,33R,scci_rh_s4:R_0805_2012Metric,channel0,ADC charge-kickback isolation; provisional settling network,
+C101,1n C0G,scci_rh_s4:C_0805_2012Metric,channel0,"Provisional ADC local reservoir, not verified settling",
+U104,TLV3202IDR,scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm,channel0,Both outputs high only inside nominal current window; shared INA path is a common failure,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+U105,SN74LVC1G11DBVR,scci_rh_s4:SOT-23-6,channel0,5V-tolerant inputs; output3.3V to asynchronous latch clear,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+U106,SN74LVC1G74DCUR,scci_rh_s4:VSSOP-8_2.3x2mm_P0.5mm,channel0,Q cleared by fault; manual qualifying rearm rising edge; external power-up supervision required,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+J101,SOURCE 0 DRIVER PERMISSION,scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical,channel0,Driver must inhibit independently and remain off with no permit; driver absent,
+R103,100k,scci_rh_s4:R_0805_2012Metric,channel0,Disconnected external supervisor means no permission,
+R104,100k,scci_rh_s4:R_0805_2012Metric,channel0,Disconnected rearm clock low,
+R105,100k,scci_rh_s4:R_0805_2012Metric,channel0,External driver permit default pulldown; not sufficient to certify all power sequences,
+C102,100n 10V,scci_rh_s4:C_0805_2012Metric,channel0,INA supply bypass,
+C103,100n 10V,scci_rh_s4:C_0805_2012Metric,channel0,Integrator supply bypass,
+C104,100n 10V,scci_rh_s4:C_0805_2012Metric,channel0,Endpoint buffer supply bypass,
+C105,1u 10V,scci_rh_s4:C_0805_2012Metric,channel0,ADC analog supply bypass,
+C106,1u 10V,scci_rh_s4:C_0805_2012Metric,channel0,ADC digital supply bypass,
+C107,22u 10V,scci_rh_s4:C_0805_2012Metric,channel0,ADC reference local bypass >=10uF effective,
+C108,100n 10V,scci_rh_s4:C_0805_2012Metric,channel0,Comparator supply bypass,
+C109,100n 10V,scci_rh_s4:C_0805_2012Metric,channel0,AND logic supply bypass,
+C110,100n 10V,scci_rh_s4:C_0805_2012Metric,channel0,Latch supply bypass,
+J200,SOURCE 1 RETURN SHUNT,scci_rh_s4:PinHeader_1x02_P2.54mm_Vertical,channel1,Series dedicated return of an ARTIFICIAL load; no implicit body-ground isolation,
+R200,2R 0.1% KELVIN,scci_rh_s4:R_0805_2012Metric,channel1,"Separate monitor shunt, not driver-servo resistor; qualify TCR/power and Kelvin layout",
+U200,INA241A2IDR,scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm,channel1,20V/V; A2 max15uV offset; NC pin4 explicitly ground; bias paths unqualified,https://www.ti.com/lit/ds/symlink/ina241a.pdf
+U201,OPA391DCKR,scci_rh_s4:SOT-353_SC-70-5,channel1,Continuous signed integrator around2.048V,https://www.ti.com/lit/ds/symlink/opa391.pdf
+R201,10k 0.1%,scci_rh_s4:R_0805_2012Metric,channel1,Integrator input resistor; continuous current integral,
+C200,22n 0.5% C0G,scci_rh_s4:C_0805_2012Metric,channel1,Precision low-absorption feedback capacitor; tolerance/temperature require evidence,
+U202,OPA391DCKR,scci_rh_s4:SOT-353_SC-70-5,channel1,Endpoint buffer; capacitive drive/settling must be modeled,https://www.ti.com/lit/ds/symlink/opa391.pdf
+U203,ADS8866IDGSR,scci_rh_s4:MSOP-10_3x3mm_P0.5mm,channel1,"Separate endpoint SAR; four-wire CS mode; AVDD/DVDD3.3V, reference4.096V",https://www.ti.com/lit/ds/symlink/ads8866.pdf
+R202,33R,scci_rh_s4:R_0805_2012Metric,channel1,ADC charge-kickback isolation; provisional settling network,
+C201,1n C0G,scci_rh_s4:C_0805_2012Metric,channel1,"Provisional ADC local reservoir, not verified settling",
+U204,TLV3202IDR,scci_rh_s4:SOIC-8_3.9x4.9mm_P1.27mm,channel1,Both outputs high only inside nominal current window; shared INA path is a common failure,https://www.ti.com/lit/ds/symlink/tlv3202.pdf
+U205,SN74LVC1G11DBVR,scci_rh_s4:SOT-23-6,channel1,5V-tolerant inputs; output3.3V to asynchronous latch clear,https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf
+U206,SN74LVC1G74DCUR,scci_rh_s4:VSSOP-8_2.3x2mm_P0.5mm,channel1,Q cleared by fault; manual qualifying rearm rising edge; external power-up supervision required,https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf
+J201,SOURCE 1 DRIVER PERMISSION,scci_rh_s4:PinHeader_1x03_P2.54mm_Vertical,channel1,Driver must inhibit independently and remain off with no permit; driver absent,
+R203,100k,scci_rh_s4:R_0805_2012Metric,channel1,Disconnected external supervisor means no permission,
+R204,100k,scci_rh_s4:R_0805_2012Metric,channel1,Disconnected rearm clock low,
+R205,100k,scci_rh_s4:R_0805_2012Metric,channel1,External driver permit default pulldown; not sufficient to certify all power sequences,
+C202,100n 10V,scci_rh_s4:C_0805_2012Metric,channel1,INA supply bypass,
+C203,100n 10V,scci_rh_s4:C_0805_2012Metric,channel1,Integrator supply bypass,
+C204,100n 10V,scci_rh_s4:C_0805_2012Metric,channel1,Endpoint buffer supply bypass,
+C205,1u 10V,scci_rh_s4:C_0805_2012Metric,channel1,ADC analog supply bypass,
+C206,1u 10V,scci_rh_s4:C_0805_2012Metric,channel1,ADC digital supply bypass,
+C207,22u 10V,scci_rh_s4:C_0805_2012Metric,channel1,ADC reference local bypass >=10uF effective,
+C208,100n 10V,scci_rh_s4:C_0805_2012Metric,channel1,Comparator supply bypass,
+C209,100n 10V,scci_rh_s4:C_0805_2012Metric,channel1,AND logic supply bypass,
+C210,100n 10V,scci_rh_s4:C_0805_2012Metric,channel1,Latch supply bypass,

@@ -1,5 +1,5 @@
 {
-  "schema": "ato-stage6-digital-path-v1",
+  "schema": "scci_rh-stage6-digital-path-v1",
   "date": "2026-10-16",
   "passed": true,
   "assertions": 114426,
@@ -8,16 +8,16 @@
   "current_profile_limit": "Target records RHD only in OBSERVE; live synthetic spinal feature adapter is conditional and not implemented by target",
   "numerical_compare": "Round floating results to 10 decimal places; integer and hash identities exact",
   "source_sha256_lf": {
-    "firmware/nrf5340/core/ato_runtime.c": "ff0fe7daeb09e910d6be91840e94f717c425c30f74cc7a8fd87dab9d00be48f0",
-    "firmware/nrf5340/core/ato_runtime.h": "4717188ee12f39f4cc3d71a276dcfd654d99993b12b507399dbc6514d168e39f",
-    "firmware/nrf5340/tests/check_runtime.py": "88db7905ebe8346d66e65f7ab2c90855e41caf92b31a2513e4378e588ba4e836",
-    "experiments/stage3/conditional-concept/study.py": "edbfffe80632aa058f5b6bd0ae4865c397ad078e09e9e06d7a63065d4ede151f",
-    "electronics/stage4/transport-study/transport_contract.py": "c954f6a23a3b8aecebaeb456eed6dc605397ff5a2b9a881d92e0f25287477418",
-    "electronics/stage4/supervision-study/control_study.py": "51807786af83c2bd3f3d0bf2b18a49621229e0b8400be34464d8446dc39248a3",
+    "firmware/nrf5340/core/scci_rh_runtime.c": "7a180e154b71ca51f3a60d4696f4d17a857880e745cf1b0027e2221282373216",
+    "firmware/nrf5340/core/scci_rh_runtime.h": "0852f505a5fac6001607ce908203b3661cb212c9989dcc48de4c1612fc5ada64",
+    "firmware/nrf5340/tests/check_runtime.py": "1e63adac9a07ae1e68b92b9f98e9dde2de78dcfd95a64e76fc8cf99e65a6ced5",
+    "experiments/stage3/conditional-concept/study.py": "7765a992ec976278c21006ce847ca1ceb1c3ebd68ce6000329178ea70a1c5b79",
+    "electronics/stage4/transport-study/transport_contract.py": "560e0190e4524c017e771d8192027fcb25fe8c161d412036d3ab1c51f372f503",
+    "electronics/stage4/supervision-study/control_study.py": "9a1724ccf4e07c0c9b2a20ac25a582a0c4c33df3c11e10c6f5273f60fb70ba72",
     "cad/stage5/harness/body-port-bridge.csv": "c4af04c73e13ec586e6e4af6000dc52bb734e97db2d8107e8e2deecf7b53a359",
-    "firmware/nrf5340/app/src/ato_backend.c": "74d32a85412ba735350d1fd0b1d470d0f4e8e2fb334dc448ec9c626e1cab3a90",
-    "scripts/stage6/runtime_bridge.c": "3bf4d7b6f6a479070bf07980eba977583d7957788faf6b7700c6a2e180f56a0c",
-    "scripts/stage6/verify_digital_path.py": "ea401016bdd765e11bfe55d0df4dca7725efb0bf4fc60bc811ecc25189eb4f73"
+    "firmware/nrf5340/app/src/scci_rh_backend.c": "72cc56f3ef19404e539ed100e0a5ef37bce00cd218c40342ceef7d421dc660d8",
+    "scripts/stage6/runtime_bridge.c": "abb104b7132e8dd72cfe50c975c6ece00f6f846f64b39d0d848ef153a1f82327",
+    "scripts/stage6/verify_digital_path.py": "c5e91de0c37296c7e66e89cdd3ef7a431c8f89fbb246cb37618487e5135e4b5e"
   },
   "motor": {
     "config": {

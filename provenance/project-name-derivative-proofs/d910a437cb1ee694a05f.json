@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/integrated-pcb/mcp-inspection-final.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "eb2b9a6db5a2fc8adee59d61e6dd8686226dffbeae8ee526cdf34b4fcec86c27",
+  "current_sha256": "7e30605c977da13eaea2fbf747171a410c3461c8ffd31baa57445aa162191582",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

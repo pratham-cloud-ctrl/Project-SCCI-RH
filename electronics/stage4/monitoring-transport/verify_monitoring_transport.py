@@ -30,8 +30,8 @@ checked=0
 for ref,p in parts.items():
  assert exported[ref].findtext('value')==p['value']
  assert exported[ref].findtext('footprint')==p['footprint']
- assert p['footprint'].split(':')[0]=='ato_transport'
- fp=HERE/'ato_transport.pretty'/(p['footprint'].split(':')[1]+'.kicad_mod')
+ assert p['footprint'].split(':')[0]=='scci_rh_transport'
+ fp=HERE/'scci_rh_transport.pretty'/(p['footprint'].split(':')[1]+'.kicad_mod')
  pads=set(re.findall(r'\(pad "([^\"]+)"',fp.read_text(encoding='utf-8')))
  assert pads==set(p['nets']),(ref,pads,set(p['nets']))
  contract(ref,p['nets']);checked+=len(p['nets'])
@@ -110,7 +110,7 @@ assert set(mcp['overlaps'])=={p.name for p in HERE.glob('*.kicad_sch')}
 assert all(v['overlap_count']==0 and not v['bounds_unresolved'] for v in mcp['overlaps'].values())
 assert all(digest(HERE/name)==sha for name,sha in mcp['schematic_sha256'].items())
 files=sorted(p for p in HERE.rglob('*') if p.is_file() and p.name not in ('verification.json','monitoring_transport.kicad_prl') and not p.name.endswith('.lck') and '__pycache__' not in p.parts)
-receipt={'schema':'ato.stage4.monitoring-transport.verification.v1','date':'2026-10-14','scope':'Native pin/pad/export/MCP and visual checks; physical bandwidth and target firmware excluded','components':60,'pin_contracts_compared':checked,'sheets':8,'pdf_pages':8,'erc_violations':0,'ignored_erc_checks':[],'checks':['60 exported values/footprints and 217 physical pins','38-pin ADS8688 channel polarity, reference and supply map','eight native input filters and two low-impedance health dividers','dedicated raw SPI separated from two earlier endpoint ADCs','two 330 ohm tri-state DOUT branches and explicit shared endpoint MISO header','actual passive endpoint, integrator and health host handoffs','ISO6721 standard pin map, idle input pullups and separate power returns','zero full-severity ERC without ignored checks','eight PDF/SVG sheets and final rendered visual review','actual Konnect MCP pin/geometry/ERC evidence bound to saved schematics'],'unqualified':manifest['external_unimplemented'],'hash_policy':'Exact PDF/PNG; text normalized CRLF/CR to LF; excludes receipt/preferences/cache','sha256':{p.relative_to(HERE).as_posix():digest(p) for p in files}}
+receipt={'schema':'scci_rh.stage4.monitoring-transport.verification.v1','date':'2026-10-14','scope':'Native pin/pad/export/MCP and visual checks; physical bandwidth and target firmware excluded','components':60,'pin_contracts_compared':checked,'sheets':8,'pdf_pages':8,'erc_violations':0,'ignored_erc_checks':[],'checks':['60 exported values/footprints and 217 physical pins','38-pin ADS8688 channel polarity, reference and supply map','eight native input filters and two low-impedance health dividers','dedicated raw SPI separated from two earlier endpoint ADCs','two 330 ohm tri-state DOUT branches and explicit shared endpoint MISO header','actual passive endpoint, integrator and health host handoffs','ISO6721 standard pin map, idle input pullups and separate power returns','zero full-severity ERC without ignored checks','eight PDF/SVG sheets and final rendered visual review','actual Konnect MCP pin/geometry/ERC evidence bound to saved schematics'],'unqualified':manifest['external_unimplemented'],'hash_policy':'Exact PDF/PNG; text normalized CRLF/CR to LF; excludes receipt/preferences/cache','sha256':{p.relative_to(HERE).as_posix():digest(p) for p in files}}
 if args.write_receipt:(HERE/'verification.json').write_text(json.dumps(receipt,indent=2)+'\n',encoding='utf-8')
 else:assert json.loads((HERE/'verification.json').read_text())==receipt,'Review changes before deliberate receipt refresh'
 print(json.dumps({k:receipt[k] for k in ('components','pin_contracts_compared','sheets','erc_violations')}))

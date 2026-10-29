@@ -37,6 +37,13 @@ def main(names=None):
         exporter=HERE/'export_boards.py'
         if sha(exporter)!=r['exporter_sha256_lf']:
             exporter=HERE/'provenance/exporter-sources'/(r['exporter_sha256_lf']+'.py.txt')
+            if not exporter.is_file():
+                # Original hash-named snapshots retain their historical names
+                # after the authorized branding migration. Resolve only one
+                # exact current-content digest; never substitute a newer tool.
+                matches=[p for p in exporter.parent.glob('*.py.txt') if sha(p)==r['exporter_sha256_lf']]
+                check(len(matches)==1,name+' unique exact archived exporter content')
+                exporter=matches[0]
         check(exporter.is_file() and sha(exporter)==r['exporter_sha256_lf'],name+' actual exporter source binding')
         check(sha(board)==r['source_sha256_lf'],name+' source board')
         check(sha(board.with_suffix('.kicad_pro'))==r['source_project_sha256_lf'],name+' project rules')

@@ -247,7 +247,7 @@ def verify():
         check(row["100ms_burst_fits"], "100ms burst fits allocated queue")
     check(sum(r["queue_allocation_bytes"].values()) == 32768, "shared queue RAM sum")
     check(not r["old_raw_service_earned_by_UART"], "1Mpayload service rejected on1MbaudUART")
-    return {"schema": "ato.stage4.transport-verification.v1", "status": "pass",
+    return {"schema": "scci_rh.stage4.transport-verification.v1", "status": "pass",
             "assertions": checks, "results_sha256_lf": sha(HERE/"transport-results.json"),
             "raw_ADC_frames": len(frames), "endpoint_captures": len(e["captures"]),
             "protocol_cases": len(c["cases"]), "producer_imported": False}

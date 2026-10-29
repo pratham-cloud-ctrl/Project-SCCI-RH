@@ -2,12 +2,12 @@
 
 **16 October 2026. A finite host integration replay; no physical experiment.**
 
-Project ATO proposes implanted spinal acquisition, individualized computation,
+Project SCCI RH proposes implanted spinal acquisition, individualized computation,
 selective stimulation and observed feedback. The motor branch concerns expert-
 informed practice followed by stimulation-OFF assessment; the physiological
 branch concerns externally observed pressure and a target-specific pressor
 pathway. AstroSam's Mind-Link inspires the progression from a future interface
-premise to inspectable engineering. It supplies no biological validation for ATO.
+premise to inspectable engineering. It supplies no biological validation for SCCI_RH.
 
 The executable [Stage 6 replay](../../scripts/stage6/verify_digital_path.py)
 connects both conditional application policies to the **unchanged production C
@@ -33,7 +33,7 @@ execution of the eight boards, CAD assembly and target binary together.
 
 ### A consequential current target limit
 
-The real [backend source](../../firmware/nrf5340/app/src/ato_backend.c) records
+The real [backend source](../../firmware/nrf5340/app/src/scci_rh_backend.c) records
 RHD frames only in OBSERVE. It inhibits recording while stimulation is armed.
 Its 16 features are integer absolute-value EMAs in ADC counts; telemetry marks
 `analog_qualified=0` and clears the transport mask outside OBSERVE or after
@@ -53,7 +53,7 @@ companion's explicit feature gate supplies that assumption in this replay.
 
 ## Execution method
 
-Python builds the unchanged `ato_runtime.c` and its header into a temporary
+Python builds the unchanged `scci_rh_runtime.c` and its header into a temporary
 host shared library, with warnings treated as errors. A narrow
 [bridge](../../scripts/stage6/runtime_bridge.c) calls only public runtime APIs
 and reads selected output/state fields. It does not alter private runtime state

@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "electronics/stage4/routing-study/parasitic-results.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "2894224d214deca76e49634ce9c487de3c0024f742d2831e09199547c8793eac",
+  "current_sha256": "52b8652a2623c19b40bf39adfb9de905b15dfddac72b10e27b1a4935145940f3",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

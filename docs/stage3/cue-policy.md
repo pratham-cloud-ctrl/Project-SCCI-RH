@@ -2,9 +2,9 @@
 
 **Status: implemented and reproduced digital component study. The complete assisted cue controller remains unqualified.**
 
-Project ATO's motor concept combines observed spinal/external information, an expert-informed task reference, an observed learner response map and selective stimulation. The original reactive controller has a chosen 100 ms prediction cap. Its nominal observed support age, processing and response delay exceed that cap. This study investigates a different mechanism: a participant follows a declared periodic instruction, so the computer knows the future **instruction** while forecasting achieved movement from finite measured history. It never knows the participant's future achieved position or true neural phase.
+Project SCCI RH's motor concept combines observed spinal/external information, an expert-informed task reference, an observed learner response map and selective stimulation. The original reactive controller has a chosen 100 ms prediction cap. Its nominal observed support age, processing and response delay exceed that cap. This study investigates a different mechanism: a participant follows a declared periodic instruction, so the computer knows the future **instruction** while forecasting achieved movement from finite measured history. It never knows the participant's future achieved position or true neural phase.
 
-The implementation is [cue_policy.py](../../src/ato/stage3/cue_policy.py). Its separate 150 ms allocation was fixed before evaluating results. The original reactive policy, biological delay and electrical precision are unchanged. This is an additional forecast family with its own heldout measurements and limits; a longer number alone cannot qualify the existing reactive model.
+The implementation is [cue_policy.py](../../src/scci_rh/stage3/cue_policy.py). Its separate 150 ms allocation was fixed before evaluating results. The original reactive policy, biological delay and electrical precision are unchanged. This is an additional forecast family with its own heldout measurements and limits; a longer number alone cannot qualify the existing reactive model.
 
 ## Forecast fit and information boundary
 

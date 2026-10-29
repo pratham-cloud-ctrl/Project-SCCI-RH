@@ -1,0 +1,693 @@
+{
+  "date": "2026-10-28",
+  "native_engine": "10.0.6",
+  "scope": "Actual native KiCad DRC/parity/ERC and Gerber/drill export of renamed saved revision; no routing, native source save or physical execution",
+  "boards": [
+    {
+      "board": "contact-router",
+      "source": "electronics/stage4/integrated-pcb/boards/contact-router/contact_router.kicad_pcb",
+      "source_sha256_lf": "040fdffc12fc0de29bdbf233bf44f12246ffb3d582307ac55b75330cbbec0346",
+      "commands": [
+        {
+          "arguments": [
+            "pcb",
+            "export",
+            "gerbers",
+            "--layers",
+            "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts",
+            "--subtract-soldermask",
+            "--output",
+            "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/",
+            "electronics/stage4/integrated-pcb/boards/contact-router/contact_router.kicad_pcb"
+          ],
+          "returncode": 0,
+          "actual_execution_recorded_in_previous_log": true
+        },
+        {
+          "arguments": [
+            "pcb",
+            "export",
+            "drill",
+            "--format",
+            "excellon",
+            "--excellon-units",
+            "mm",
+            "--excellon-separate-th",
+            "--generate-report",
+            "--report-path",
+            "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/drill-report.txt",
+            "--output",
+            "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/",
+            "electronics/stage4/integrated-pcb/boards/contact-router/contact_router.kicad_pcb"
+          ],
+          "returncode": 0,
+          "actual_execution_recorded_in_previous_log": true
+        },
+        {
+          "arguments": [
+            "pcb",
+            "drc",
+            "--format",
+            "json",
+            "--severity-all",
+            "--schematic-parity",
+            "--output",
+            "electronics/stage4/integrated-pcb/boards/contact-router/drc.json",
+            "electronics/stage4/integrated-pcb/boards/contact-router/contact_router.kicad_pcb"
+          ],
+          "returncode": 0,
+          "actual_execution_recorded_in_previous_log": true
+        }
+      ],
+      "drc": {
+        "violations": 0,
+        "unconnected_items": 0,
+        "schematic_parity": 0,
+        "ignored_checks": 0
+      },
+      "drc_output": "electronics/stage4/integrated-pcb/boards/contact-router/drc.json",
+      "drc_sha256_lf": "0f250e6d99f59f7c0dc45ce33f4e73b0c5e68755bcd18675069efca1216960e2",
+      "fabrication_output_sha256_lf": {
+        "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/bom.csv": "fd064f1caa306f501a733c43b2d08fd51916badee13fd97fb27cf56350bbcbd2",
+        "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-B_Cu.gbl": "a71fa4924fe65910bebd5df5ed137debc1f4ac5aca5d7c9bed4987f8d185d16c",
+        "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-B_Mask.gbs": "ddc68fb5f4b3e8e52dc15da4db422d58593c649833ca8c0fc01cc46d27e67129",
+        "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-B_Silkscreen.gbo": "2413f4399fb090b5470f0fd35f3d3401b2e8d89f264761e27542653885ed5e9f",
+        "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-Edge_Cuts.gm1": "7972c432fb41381c9f03a4985004a1ba181656e8b885ef6dc272b686d5996e9f",
+        "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-F_Cu.gtl": "dfd45fdcea912e0a2c86e319d6ea1886e1b5d4d068fe09998e29a71848683377",
+        "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-F_Mask.gts": "070a3770bba74920c3d35f2d07d998ca206eb2400e5d8e833cf3994227f00bd7",
+        "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-F_Silkscreen.gto": "10137fb280efba3e3c8be42fe68d1665b330d00033aa0be03b8dcc663283d1c0",
+        "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-In1_Cu.g1": "5a44a07d52f863881a5aec09fcfcdb1aa5767d113f33e4bfb1bfc6a880ee3420",
+        "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-In2_Cu.g2": "dbba1bd307e1d6651a73c3770b6a793261cba452cf66bef58ef3f95c5320522e",
+        "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-job.gbrjob": "c6e8c08bb589f1361231ad87540e343a9af97fa769467032dc04d9602ef62757",
+        "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-NPTH.drl": "dcbcd3f077ea2252eb01675d4186bc8833488451bc8bb7be5b98a008ab1019fc",
+        "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/contact_router-PTH.drl": "e888e9f0937263ceaf7c72abb3935cdeba77a495922eaa6b966556092dedbcbb",
+        "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/drill-report.txt": "71a1e46e0a64da6df5259f704b17060325c550034f2b9ae37ba3d7e170e66a54",
+        "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/positions.csv": "51ea166d2c5cc5629e338b48f911222ece1a33556f3ef0573bec1eae8a7b256c",
+        "electronics/stage4/integrated-pcb/exports/contact-router/fabrication-reference/README.md": "118a7498542a8992e20d99363fd12818a8dacb65e4b57cefaea220f696f077b5"
+      },
+      "passed": true
+    },
+    {
+      "board": "controller-carrier",
+      "source": "electronics/stage4/integrated-pcb/boards/controller-carrier/controller_carrier.kicad_pcb",
+      "source_sha256_lf": "86880cccc4b28ab582e8aa62903fb25aeda830a7896317704110485c9246412e",
+      "commands": [
+        {
+          "arguments": [
+            "pcb",
+            "export",
+            "gerbers",
+            "--layers",
+            "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts",
+            "--subtract-soldermask",
+            "--output",
+            "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/",
+            "electronics/stage4/integrated-pcb/boards/controller-carrier/controller_carrier.kicad_pcb"
+          ],
+          "returncode": 0,
+          "actual_execution_recorded_in_previous_log": true
+        },
+        {
+          "arguments": [
+            "pcb",
+            "export",
+            "drill",
+            "--format",
+            "excellon",
+            "--excellon-units",
+            "mm",
+            "--excellon-separate-th",
+            "--generate-report",
+            "--report-path",
+            "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/drill-report.txt",
+            "--output",
+            "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/",
+            "electronics/stage4/integrated-pcb/boards/controller-carrier/controller_carrier.kicad_pcb"
+          ],
+          "returncode": 0,
+          "actual_execution_recorded_in_previous_log": true
+        },
+        {
+          "arguments": [
+            "pcb",
+            "drc",
+            "--format",
+            "json",
+            "--severity-all",
+            "--schematic-parity",
+            "--output",
+            "electronics/stage4/integrated-pcb/boards/controller-carrier/drc.json",
+            "electronics/stage4/integrated-pcb/boards/controller-carrier/controller_carrier.kicad_pcb"
+          ],
+          "returncode": 0,
+          "actual_execution_recorded_in_previous_log": true
+        }
+      ],
+      "drc": {
+        "violations": 0,
+        "unconnected_items": 0,
+        "schematic_parity": 0,
+        "ignored_checks": 0
+      },
+      "drc_output": "electronics/stage4/integrated-pcb/boards/controller-carrier/drc.json",
+      "drc_sha256_lf": "fcb2384b5dda59067cfb57aff7ce05369bfb72b3aab2e61a6127dee057debf07",
+      "fabrication_output_sha256_lf": {
+        "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/bom.csv": "d9b199ace601d0ac242a1c8f630d237c81d900f92bcd47570f095afe90962bea",
+        "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-B_Cu.gbl": "3f9245ac822f4fd0d41fab6e8495f704569ff06f76c7b54a8b68d6bf2f8d8b3b",
+        "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-B_Mask.gbs": "1703a1ece210d3dc944675d028e05854993bd4c4a7b92ff2f60e81ad38db41eb",
+        "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-B_Silkscreen.gbo": "8ef6e75a6e4385f8cf04a0baf8d0b5a3f7d1f16bc6551de20bf8bea230948131",
+        "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-Edge_Cuts.gm1": "a3e0fcf011f7e21fb6ac86eed1f1b53c881ec02d261df2f3386f003524e58339",
+        "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-F_Cu.gtl": "05ac684f9611440e4cc9f915ac3edc15d55ec4a0bf40e9104720cd48b6ff8bbf",
+        "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-F_Mask.gts": "d89154b22bc561107e3d1088d244d4d278dde8c25ff316101c63b108f7ec9ba8",
+        "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-F_Silkscreen.gto": "cda8682e0f09833fb8d6db7343e5494dc306fa8bd446bccb7340f08acaba5838",
+        "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-In1_Cu.g1": "e415dcbcf59b57794f4e15cbe764558dfcfaa906f63a3c32e4efcadc1162e7fc",
+        "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-In2_Cu.g2": "c837e7cdc6c5afff3544228d9f8171e25e4cb947328d1ec6f048528b0ec20093",
+        "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-job.gbrjob": "511e307f82002e7eefb5fea627a63953aead990797e66e4001a8939c453135db",
+        "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-NPTH.drl": "0ff234e75baa26f9540d2d6e288f282f9c646ab72077a4f6f8530e0999b80942",
+        "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/controller_carrier-PTH.drl": "8cdcc44d2c686c37513bacba0fcc8589166f2c4a6144a96662a97e62ca5261fa",
+        "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/drill-report.txt": "49e942eafeb32ce9a8ba840be6d66a88ebdae3abd641a2a4f8d3033355192a59",
+        "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/positions.csv": "9f0c5be2b4b687d3725a0b3baa92667d78bcdeb51c32f4a4de37301f6f241f43",
+        "electronics/stage4/integrated-pcb/exports/controller-carrier/fabrication-reference/README.md": "118a7498542a8992e20d99363fd12818a8dacb65e4b57cefaea220f696f077b5"
+      },
+      "passed": true
+    },
+    {
+      "board": "current-driver",
+      "source": "electronics/stage4/integrated-pcb/boards/current-driver/current_driver.kicad_pcb",
+      "source_sha256_lf": "3017e903630d4de7ad98567914e51fdbd73766bab8be487a46bbf27d81e7f4ec",
+      "commands": [
+        {
+          "arguments": [
+            "pcb",
+            "export",
+            "gerbers",
+            "--layers",
+            "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts",
+            "--subtract-soldermask",
+            "--output",
+            "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/",
+            "electronics/stage4/integrated-pcb/boards/current-driver/current_driver.kicad_pcb"
+          ],
+          "returncode": 0,
+          "actual_execution_recorded_in_previous_log": true
+        },
+        {
+          "arguments": [
+            "pcb",
+            "export",
+            "drill",
+            "--format",
+            "excellon",
+            "--excellon-units",
+            "mm",
+            "--excellon-separate-th",
+            "--generate-report",
+            "--report-path",
+            "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/drill-report.txt",
+            "--output",
+            "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/",
+            "electronics/stage4/integrated-pcb/boards/current-driver/current_driver.kicad_pcb"
+          ],
+          "returncode": 0,
+          "actual_execution_recorded_in_previous_log": true
+        },
+        {
+          "arguments": [
+            "pcb",
+            "drc",
+            "--format",
+            "json",
+            "--severity-all",
+            "--schematic-parity",
+            "--output",
+            "electronics/stage4/integrated-pcb/boards/current-driver/drc.json",
+            "electronics/stage4/integrated-pcb/boards/current-driver/current_driver.kicad_pcb"
+          ],
+          "returncode": 0,
+          "actual_execution_recorded_in_previous_log": true
+        }
+      ],
+      "drc": {
+        "violations": 0,
+        "unconnected_items": 0,
+        "schematic_parity": 0,
+        "ignored_checks": 0
+      },
+      "drc_output": "electronics/stage4/integrated-pcb/boards/current-driver/drc.json",
+      "drc_sha256_lf": "37b2fb9f94536c64b936b57e21064fba2be877a9b0106b6e81a451b485275be4",
+      "fabrication_output_sha256_lf": {
+        "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/bom.csv": "5a237b8bb785780ea7d0a8a82be8311863acb3a68b2c6693313ee0f152223237",
+        "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-B_Cu.gbl": "265e3468bc8060b3e3fc76c4f3a429c891c23cfa9085ccbf21aefda194cca6d8",
+        "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-B_Mask.gbs": "35ff4d22087d8e2054b56e876ae2a02e50d24ee2338e47c4b6d96f15702708b8",
+        "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-B_Silkscreen.gbo": "d0d4f5ef1fee88e034403e2aea1bf176355e6f163bde65830bf1aacd19248fe7",
+        "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-Edge_Cuts.gm1": "5fda95b468d78cec751dba90a596deb16a4edba59ae1080103e85046e34a2559",
+        "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-F_Cu.gtl": "b9ae3a5d1e7873442b2cd426f25c38634882199ecbb9cb1bf1fe10eb8a83e0b5",
+        "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-F_Mask.gts": "9c0a764d103523a3ef24cd5907a2f0a0e1ab6b697a5ed038ff3fbca16e7caca7",
+        "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-F_Silkscreen.gto": "28ea7cc4c156947df8f9a9f1faed41e53e54581697ee55a802c87ac98a67f6e0",
+        "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-In1_Cu.g1": "ec0c009071f4133569b387481ddc8a598e260b568d23e24d2c1c4dc3d172f2ec",
+        "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-In2_Cu.g2": "1b97a98ba647bb59fdf96f757a2f91fff38160678f0dc290333e1ecf6694dd14",
+        "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-job.gbrjob": "b78055af704e06532a63d1395eabb63b393de78d4c35532eb735600c37fb2503",
+        "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-NPTH.drl": "065de378b962d6b851ad8a9e42d0cf1387669dcda99ae282561dadd0a73f819f",
+        "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/current_driver-PTH.drl": "2d23d06bd80541d0fa07bb832222792ad59d3ae76b82f3e95c128086c61633ac",
+        "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/drill-report.txt": "b62b415b287c6bd783d63522925073467cf5505102845361d60abd53df26afab",
+        "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/positions.csv": "9c6aa0c5b1579a0726555bc6622652fd038e7471e6553a9c5360920a7a3328a0",
+        "electronics/stage4/integrated-pcb/exports/current-driver/fabrication-reference/README.md": "118a7498542a8992e20d99363fd12818a8dacb65e4b57cefaea220f696f077b5"
+      },
+      "passed": true
+    },
+    {
+      "board": "monitoring-cell",
+      "source": "electronics/stage4/integrated-pcb/boards/monitoring-cell/monitoring_cell.kicad_pcb",
+      "source_sha256_lf": "ca25226e48d4c896df76f7db9dcff2ba95e9f2687a6bbecaa85266162637b60d",
+      "commands": [
+        {
+          "arguments": [
+            "pcb",
+            "export",
+            "gerbers",
+            "--layers",
+            "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts",
+            "--subtract-soldermask",
+            "--output",
+            "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/",
+            "electronics/stage4/integrated-pcb/boards/monitoring-cell/monitoring_cell.kicad_pcb"
+          ],
+          "returncode": 0,
+          "actual_execution_recorded_in_previous_log": true
+        },
+        {
+          "arguments": [
+            "pcb",
+            "export",
+            "drill",
+            "--format",
+            "excellon",
+            "--excellon-units",
+            "mm",
+            "--excellon-separate-th",
+            "--generate-report",
+            "--report-path",
+            "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/drill-report.txt",
+            "--output",
+            "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/",
+            "electronics/stage4/integrated-pcb/boards/monitoring-cell/monitoring_cell.kicad_pcb"
+          ],
+          "returncode": 0,
+          "actual_execution_recorded_in_previous_log": true
+        },
+        {
+          "arguments": [
+            "pcb",
+            "drc",
+            "--format",
+            "json",
+            "--severity-all",
+            "--schematic-parity",
+            "--output",
+            "electronics/stage4/integrated-pcb/boards/monitoring-cell/drc.json",
+            "electronics/stage4/integrated-pcb/boards/monitoring-cell/monitoring_cell.kicad_pcb"
+          ],
+          "returncode": 0,
+          "actual_execution_recorded_in_previous_log": true
+        }
+      ],
+      "drc": {
+        "violations": 0,
+        "unconnected_items": 0,
+        "schematic_parity": 0,
+        "ignored_checks": 0
+      },
+      "drc_output": "electronics/stage4/integrated-pcb/boards/monitoring-cell/drc.json",
+      "drc_sha256_lf": "2e49f0c513ac883337a8e5a2dd858ce3495c918c598e12dd2b5d7fd7e06e2649",
+      "fabrication_output_sha256_lf": {
+        "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/bom.csv": "3ba1e258d48990075ae8813e84c127017c99277c3b29ab84330c5981451c33ba",
+        "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/drill-report.txt": "c41a5b2263cc1515384fe57d277a41d8e73fccf000ab1812453c79cf41d1ad01",
+        "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-B_Cu.gbl": "0d1f831c476cc82b838cc57cfc2c25e1d6d17a82119a0116ec275ae91c48f113",
+        "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-B_Mask.gbs": "796dae311d74fb916a09e743a5473964e5d5d744b886614597ce5b8c659b1d51",
+        "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-B_Silkscreen.gbo": "ad007d3bac02782e4849a14bd5a4bd917cbda75854d954bf0fb76354c135bb31",
+        "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-Edge_Cuts.gm1": "2cb9937bc8aa6b92816740026996c91288c4de94b38064c382d8197605b557f2",
+        "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-F_Cu.gtl": "7f4c1ba031890cb36a49dd614d9367b4c9a9055bf56f7149bf5eb9b470976056",
+        "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-F_Mask.gts": "c676ec3768237969531f83cab57ab0505f6cca243d837128b88381cf90d2df19",
+        "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-F_Silkscreen.gto": "baa40796561c8fdba46cc690cb8826f30dd5390823f09f9424a6d6d42a2be396",
+        "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-In1_Cu.g1": "b6ee602b138875e0c9bcc7f7581df2877989bbc72437ba520bffa37b70859d1c",
+        "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-In2_Cu.g2": "0ef27a4589f5d525414858e8e7aada6090667f14631dd0564fc2fdc079ba126f",
+        "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-job.gbrjob": "9348d8959d70a28cf524c3f2f0d1f18f0db3aa52035c8c90f42b9feb4ed9ec2d",
+        "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-NPTH.drl": "65bccd17acb33c566a04dfd2b3763d3af3f7ac04e1c09cabb944f0fe45c173b7",
+        "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/monitoring_cell-PTH.drl": "3b1b6382f2fe066a0d05355ff700957bb090ab3509ec34658810c9784de4cd1a",
+        "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/positions.csv": "3db841e2e24fd642e1d3db9b6edf9880d8b2503f1b8c99600e351419298263ef",
+        "electronics/stage4/integrated-pcb/exports/monitoring-cell/fabrication-reference/README.md": "118a7498542a8992e20d99363fd12818a8dacb65e4b57cefaea220f696f077b5"
+      },
+      "passed": true
+    },
+    {
+      "board": "monitoring-transport",
+      "source": "electronics/stage4/integrated-pcb/boards/monitoring-transport/monitoring_transport.kicad_pcb",
+      "source_sha256_lf": "f2108b0a497d907e0e97e0c79b97d76968a957076fc2ffeddb2f3cfbd50e6822",
+      "commands": [
+        {
+          "arguments": [
+            "pcb",
+            "export",
+            "gerbers",
+            "--layers",
+            "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts",
+            "--subtract-soldermask",
+            "--output",
+            "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/",
+            "electronics/stage4/integrated-pcb/boards/monitoring-transport/monitoring_transport.kicad_pcb"
+          ],
+          "returncode": 0,
+          "actual_execution_recorded_in_previous_log": true
+        },
+        {
+          "arguments": [
+            "pcb",
+            "export",
+            "drill",
+            "--format",
+            "excellon",
+            "--excellon-units",
+            "mm",
+            "--excellon-separate-th",
+            "--generate-report",
+            "--report-path",
+            "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/drill-report.txt",
+            "--output",
+            "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/",
+            "electronics/stage4/integrated-pcb/boards/monitoring-transport/monitoring_transport.kicad_pcb"
+          ],
+          "returncode": 0,
+          "actual_execution_recorded_in_previous_log": true
+        },
+        {
+          "arguments": [
+            "pcb",
+            "drc",
+            "--format",
+            "json",
+            "--severity-all",
+            "--schematic-parity",
+            "--output",
+            "electronics/stage4/integrated-pcb/boards/monitoring-transport/drc.json",
+            "electronics/stage4/integrated-pcb/boards/monitoring-transport/monitoring_transport.kicad_pcb"
+          ],
+          "returncode": 0,
+          "actual_execution_recorded_in_previous_log": true
+        }
+      ],
+      "drc": {
+        "violations": 0,
+        "unconnected_items": 0,
+        "schematic_parity": 0,
+        "ignored_checks": 0
+      },
+      "drc_output": "electronics/stage4/integrated-pcb/boards/monitoring-transport/drc.json",
+      "drc_sha256_lf": "73b4b48a6c70fa82e7ab177a86819962dbec4009f6f207d89348fdf4b0c921e7",
+      "fabrication_output_sha256_lf": {
+        "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/bom.csv": "f3a66c3a96fe9529289477660086584b483be9771a2402aeee196b8970c0241e",
+        "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/drill-report.txt": "f5d3f7e540014f0671f23f91cc94749f33222f8406298927c469a07f61193dcb",
+        "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-B_Cu.gbl": "8563c44db7cbb5a909586cc423ff1125617fefe701b29bdb48c65b10cd406d9b",
+        "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-B_Mask.gbs": "911c598d73d93fe9d717502ecb864f0bbfdfdb851978c95041a5a08bef4df1be",
+        "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-B_Silkscreen.gbo": "541e1fb32e5bf72ba76a9b4614a958b139dd42d192c46e69bdedc3854204f2d3",
+        "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-Edge_Cuts.gm1": "9d8aec4929987ac1860ce242bc0858cee2f8159f5f9c5ae45164ab39d6a44fbf",
+        "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-F_Cu.gtl": "e638af87eca90410ce6f3c056ae35301a225e64ccf94bbbfb3c67e497dfc059a",
+        "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-F_Mask.gts": "3aa42975bfd641f6cb3672266c3570f717f26d914c2080e73e5fd6162b05f9f8",
+        "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-F_Silkscreen.gto": "f0605bce00fa19bcd402852d341ccd50ed91e81a719ec53af668fb73b848f8cc",
+        "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-In1_Cu.g1": "f3c91cbdc67deebd2cc33c0fc03a9e7ebc97df063bcdfde49698051c823e6c08",
+        "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-In2_Cu.g2": "6e10f3f0fc602aeea7d90a5a19894e6e0e36c32fffb74b34b1aac05e28d0f4a0",
+        "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-job.gbrjob": "36e949d48349b2d872f6004bda4c03382fe604f97f2a2183063306f29fb59e97",
+        "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-NPTH.drl": "3fb95aeb02243a553eeb4b0e82e827262dc70a690ffb1450970791bf1e02ce9a",
+        "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/monitoring_transport-PTH.drl": "9de825be88330beca0709276fdddaeeea6cfb52f8438312f28125da93b8e038f",
+        "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/positions.csv": "2011e6c025cff3396e98337f2d02635f5834fd99fe7603b34b15e6ed22c7ac37",
+        "electronics/stage4/integrated-pcb/exports/monitoring-transport/fabrication-reference/README.md": "118a7498542a8992e20d99363fd12818a8dacb65e4b57cefaea220f696f077b5"
+      },
+      "passed": true
+    },
+    {
+      "board": "power",
+      "source": "electronics/stage4/integrated-pcb/boards/power/power.kicad_pcb",
+      "source_sha256_lf": "8f4345ae281f760bf0ba71ccaaa1dae4c78149dfb00735ff292df8a3c270b675",
+      "commands": [
+        {
+          "arguments": [
+            "pcb",
+            "export",
+            "gerbers",
+            "--layers",
+            "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts",
+            "--subtract-soldermask",
+            "--output",
+            "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/",
+            "electronics/stage4/integrated-pcb/boards/power/power.kicad_pcb"
+          ],
+          "returncode": 0,
+          "actual_execution_recorded_in_previous_log": true
+        },
+        {
+          "arguments": [
+            "pcb",
+            "export",
+            "drill",
+            "--format",
+            "excellon",
+            "--excellon-units",
+            "mm",
+            "--excellon-separate-th",
+            "--generate-report",
+            "--report-path",
+            "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/drill-report.txt",
+            "--output",
+            "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/",
+            "electronics/stage4/integrated-pcb/boards/power/power.kicad_pcb"
+          ],
+          "returncode": 0,
+          "actual_execution_recorded_in_previous_log": true
+        },
+        {
+          "arguments": [
+            "pcb",
+            "drc",
+            "--format",
+            "json",
+            "--severity-all",
+            "--schematic-parity",
+            "--output",
+            "electronics/stage4/integrated-pcb/boards/power/drc.json",
+            "electronics/stage4/integrated-pcb/boards/power/power.kicad_pcb"
+          ],
+          "returncode": 0,
+          "actual_execution_recorded_in_previous_log": true
+        }
+      ],
+      "drc": {
+        "violations": 0,
+        "unconnected_items": 0,
+        "schematic_parity": 0,
+        "ignored_checks": 0
+      },
+      "drc_output": "electronics/stage4/integrated-pcb/boards/power/drc.json",
+      "drc_sha256_lf": "484624a19cf2633d30fb9f24de15449e98ed6a41a423de143de697246baef21b",
+      "fabrication_output_sha256_lf": {
+        "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/bom.csv": "e41d320502af1a11a84629903a44bc06dc3b1911b28a085b2fb143217f4b631e",
+        "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/drill-report.txt": "3da74a843c76be3a3818239a91594b93717bbd4814653b1f2ca743c18326e88f",
+        "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/positions.csv": "ac4296d5ad5139cf72fdee8e60fe7686ac5781dad19b474a16d1bf0bc1dd7a96",
+        "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-B_Cu.gbl": "105651304ef5fb7f9e1073e7a846700d0072497fc9b706ccb5d3a26ed4382a60",
+        "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-B_Mask.gbs": "3fe795e4ed11ec12d3fa48ed744f7039b6cfc341cd74645a271f1624fa5f6fab",
+        "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-B_Silkscreen.gbo": "9cca431f108f6bd76944c55a25f91fab9948aa66cec6952bd1b73214aa2fbefa",
+        "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-Edge_Cuts.gm1": "7e777712f25a68f6ac53cf0ada80b75447e7584bd767eef765e682a7d0e76f64",
+        "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-F_Cu.gtl": "9d779bf8d3839eb4196cb35fc9aeb822e5ff293b864aa65345df8c4babf2d7cd",
+        "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-F_Mask.gts": "e4f8737533f3408e23180050ee2df672a83169d329d95873dd8667deda77baf0",
+        "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-F_Silkscreen.gto": "b261fbd0c4ce886ce01bfd4cfe199d1978091307a4f29d3d8bb0f20c46a3eef1",
+        "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-In1_Cu.g1": "8ab4dac27638b27236e00b029e1be89a3f83f84a3d57ff8cb074c8b29a642d50",
+        "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-In2_Cu.g2": "978331aad668870bad0a89d13435254800515fc774e08d4e9e8c3f21f0c0456c",
+        "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-job.gbrjob": "2b4673a9c23dd9757ea59de43e103946036b52cf2399fdeb2da8221dcaed2c35",
+        "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-NPTH.drl": "bee80d39168e5c56d043600ad3ff5d1d4410abe45da8f8f82ab6e50ed1bac384",
+        "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/power-PTH.drl": "e211dd9fec52f887acb96036ff60554d526c0cca89e77aca7dd45a58dcf1be83",
+        "electronics/stage4/integrated-pcb/exports/power/fabrication-reference/README.md": "118a7498542a8992e20d99363fd12818a8dacb65e4b57cefaea220f696f077b5"
+      },
+      "passed": true
+    },
+    {
+      "board": "recording-front-end",
+      "source": "electronics/stage4/integrated-pcb/boards/recording-front-end/recording_front_end.kicad_pcb",
+      "source_sha256_lf": "5cd64396fc8a0f562a2deb5d02d0556e189533b5a653dcac482aa238b09c664c",
+      "commands": [
+        {
+          "arguments": [
+            "pcb",
+            "export",
+            "gerbers",
+            "--layers",
+            "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts",
+            "--subtract-soldermask",
+            "--output",
+            "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/",
+            "electronics/stage4/integrated-pcb/boards/recording-front-end/recording_front_end.kicad_pcb"
+          ],
+          "returncode": 0
+        },
+        {
+          "arguments": [
+            "pcb",
+            "export",
+            "drill",
+            "--format",
+            "excellon",
+            "--excellon-units",
+            "mm",
+            "--excellon-separate-th",
+            "--generate-report",
+            "--report-path",
+            "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/drill-report.txt",
+            "--output",
+            "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/",
+            "electronics/stage4/integrated-pcb/boards/recording-front-end/recording_front_end.kicad_pcb"
+          ],
+          "returncode": 0
+        },
+        {
+          "arguments": [
+            "pcb",
+            "drc",
+            "--format",
+            "json",
+            "--severity-all",
+            "--schematic-parity",
+            "--output",
+            "electronics/stage4/integrated-pcb/boards/recording-front-end/drc.json",
+            "electronics/stage4/integrated-pcb/boards/recording-front-end/recording_front_end.kicad_pcb"
+          ],
+          "returncode": 0
+        }
+      ],
+      "drc": {
+        "violations": 0,
+        "unconnected_items": 0,
+        "schematic_parity": 0,
+        "ignored_checks": 0
+      },
+      "drc_output": "electronics/stage4/integrated-pcb/boards/recording-front-end/drc.json",
+      "drc_sha256_lf": "b4d088f0f14629da3c2748fe9e5a5df5e1bf3c85d77779f63babe7a9bc948870",
+      "fabrication_output_sha256_lf": {
+        "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/bom.csv": "fc69a8ba4cdc25797d4261e76a4c5ce1c60998d990fcf861f7ebd24852178435",
+        "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/drill-report.txt": "463c71a62e2c4e7fef0b77075094769900085e5600bef9a8a3f1887fea51055a",
+        "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/positions.csv": "3ba5f687a8396616a7f466faeea869205d1142037c73708e9a6502bde99dbc06",
+        "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/README.md": "118a7498542a8992e20d99363fd12818a8dacb65e4b57cefaea220f696f077b5",
+        "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-B_Cu.gbl": "0aa76c1d09ae9f65d633abe166dfe37745c4944f8e6901407ce1733fdb087930",
+        "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-B_Mask.gbs": "ec04e18ff797f97f336c9b815ff47f2f5654178ddc67afbbb3489a46fcb788ff",
+        "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-B_Silkscreen.gbo": "990ec99854f71a5ef0bac1bf5a52d121683c8b8c578ccffd8874aec51bc9c758",
+        "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-Edge_Cuts.gm1": "beff6f08c400757bbe2e8e62c484e0199c058b334e101a1fb655f2c89906abeb",
+        "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-F_Cu.gtl": "43d1b10bd551583c7ab7cd0c0dc272b1f501e053e96003a99b2ec185870f69b9",
+        "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-F_Mask.gts": "fcc83702360c5852540731ad9ae9ddc64828e059ed6acac50792a363d7526d53",
+        "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-F_Silkscreen.gto": "653463b40ad52ec8de745edc009a8019d7ffcf587dfa4a8a2ab57fed94ddeebf",
+        "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-In1_Cu.g1": "2d2d8ba540b3d5c281b43b81255bfefa2bce40b5b0f8bdb06c090f24d40b58d1",
+        "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-In2_Cu.g2": "146aff2c073142c24ec3f4316d3fea0ea1a504018adc473c36cd693d47d60a87",
+        "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-job.gbrjob": "34c91037bf9d008200712f0d218865df136a9bf289dd057661702b996241c034",
+        "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-NPTH.drl": "40fbae24ac985b51ce2e1e8da78e8cbbee93a416ee446b737f87ad08d5903009",
+        "electronics/stage4/integrated-pcb/exports/recording-front-end/fabrication-reference/recording_front_end-PTH.drl": "2741e0c8eddea005aa903d2c03ff5d05844774650b6ab5ea94fa5dd049b95027"
+      },
+      "passed": true
+    },
+    {
+      "board": "supervision",
+      "source": "electronics/stage4/integrated-pcb/boards/supervision/supervision.kicad_pcb",
+      "source_sha256_lf": "409919d0b44359008860d473d92eb6ac4944572a33c2ee322e8c331214563958",
+      "commands": [
+        {
+          "arguments": [
+            "pcb",
+            "export",
+            "gerbers",
+            "--layers",
+            "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts",
+            "--subtract-soldermask",
+            "--output",
+            "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/",
+            "electronics/stage4/integrated-pcb/boards/supervision/supervision.kicad_pcb"
+          ],
+          "returncode": 0
+        },
+        {
+          "arguments": [
+            "pcb",
+            "export",
+            "drill",
+            "--format",
+            "excellon",
+            "--excellon-units",
+            "mm",
+            "--excellon-separate-th",
+            "--generate-report",
+            "--report-path",
+            "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/drill-report.txt",
+            "--output",
+            "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/",
+            "electronics/stage4/integrated-pcb/boards/supervision/supervision.kicad_pcb"
+          ],
+          "returncode": 0
+        },
+        {
+          "arguments": [
+            "pcb",
+            "drc",
+            "--format",
+            "json",
+            "--severity-all",
+            "--schematic-parity",
+            "--output",
+            "electronics/stage4/integrated-pcb/boards/supervision/drc.json",
+            "electronics/stage4/integrated-pcb/boards/supervision/supervision.kicad_pcb"
+          ],
+          "returncode": 0
+        }
+      ],
+      "drc": {
+        "violations": 0,
+        "unconnected_items": 0,
+        "schematic_parity": 0,
+        "ignored_checks": 0
+      },
+      "drc_output": "electronics/stage4/integrated-pcb/boards/supervision/drc.json",
+      "drc_sha256_lf": "f4e3a11eb1082ef37ccbc9437169333882d1f36696e0ef47026d65ab2a22d4b2",
+      "fabrication_output_sha256_lf": {
+        "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/bom.csv": "59577e464a77c769ea9da198908511b5c99c90647100bff573c64b88c94fd675",
+        "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/drill-report.txt": "d50a9e2899f8a32baf7f8ca2969a8b9b18c92fd8e3b09c502f10094aed25a5d6",
+        "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/positions.csv": "aa6e983d5549d6a53d49341df5be53cd5ac6dec7ea080faa3ef06d65a571fe86",
+        "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/README.md": "118a7498542a8992e20d99363fd12818a8dacb65e4b57cefaea220f696f077b5",
+        "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-B_Cu.gbl": "33bcfe7c28ae9f352d0637bee7557310b8e6431e603fad2ee43bebb422c0e836",
+        "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-B_Mask.gbs": "3366b042d099d9dc765a7f9af0d3cd8a1692a151860f4e045ef6010158ca5aca",
+        "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-B_Silkscreen.gbo": "6b34a2319a48e7c14a068f252d4423caf92fc98cbb38ca8bd8cc168fe7780725",
+        "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-Edge_Cuts.gm1": "faca6bf52b12836d9decd899593654acc25b7b08f716a5c13a246faafc2f6296",
+        "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-F_Cu.gtl": "021efea3549abcfde6fb5bd1a1bc2967601af5e4e177e065f4410c71c044f561",
+        "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-F_Mask.gts": "555db2919008cb4a85ae4d8dbb21bfa8a1375dcfb7da3f17655ae83cd8b058d4",
+        "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-F_Silkscreen.gto": "e2114ac36d801ba6254e94bbd6bb6307c1d279438806e82e588122df7ab11367",
+        "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-In1_Cu.g1": "c9d6c81deef8927bfc1e9dceaa0cddc889a90c293d529173e48f8640578a5706",
+        "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-In2_Cu.g2": "de8b98302f2e8f0544f7b8fe57587978e51fb8cc78988aae74cf0017b1b3af0d",
+        "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-job.gbrjob": "7d0d9da2f9df3ff21988e83fb753d9c8104c8176bc4d0d9b6997fa7213658a70",
+        "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-NPTH.drl": "d388ac538f1b578c39f8d9185f6701a97c4e1059aef1d4f61b90aea271bab450",
+        "electronics/stage4/integrated-pcb/exports/supervision/fabrication-reference/supervision-PTH.drl": "e13077a9d70801b409f13357a558afe996e257cb1bfa9d7a9b8b3749bdc61f49"
+      },
+      "passed": true
+    }
+  ],
+  "master_erc": {
+    "source": "electronics/stage4/integrated-pcb/integration/master/SCCI_RH_integrated.kicad_sch",
+    "source_sha256_lf": "d3517d973235d3d0785341de9437d7b49d8a4fa767ff64c29adadc2614454724",
+    "output": "electronics/stage4/integrated-pcb/integration/master/erc.json",
+    "output_sha256_lf": "2892747b4902e5cb04c3fa17f76ed250ceb9b388a9b671d94b665c1782b75187",
+    "returncode": 0,
+    "violations": 0,
+    "arguments": [
+      "sch",
+      "erc",
+      "--format",
+      "json",
+      "--severity-all",
+      "--output",
+      "electronics/stage4/integrated-pcb/integration/master/erc.json",
+      "electronics/stage4/integrated-pcb/integration/master/SCCI_RH_integrated.kicad_sch"
+    ]
+  },
+  "passed": true,
+  "command_argument_paths": "Equivalent paths relative to repository working directory; actual native execution used absolute resolved paths."
+}

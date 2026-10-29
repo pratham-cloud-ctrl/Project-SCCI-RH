@@ -1,1 +1,1 @@
-(fp_lib_table (version 7) (lib (name "ato_rte") (type "KiCad") (uri "${KIPRJMOD}/ato_rte.pretty") (options "") (descr "KiCad library footprint snapshots; PCB assembly and mask/paste qualification remain")))
+(fp_lib_table (version 7) (lib (name "scci_rh_rte") (type "KiCad") (uri "${KIPRJMOD}/scci_rh_rte.pretty") (options "") (descr "KiCad library footprint snapshots; PCB assembly and mask/paste qualification remain")))

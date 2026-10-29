@@ -1,12 +1,12 @@
 {
-  "schema": "ato.stage3.dynamic-response-study.v1",
-  "result_id": "ATO-S3-DYNAMIC-RESPONSE-1",
+  "schema": "scci_rh.stage3.dynamic-response-study.v1",
+  "result_id": "SCCI_RH-S3-DYNAMIC-RESPONSE-1",
   "source_sha256": {
-    "src/ato/stage3/dynamic_response.py": "87c8eac8675b3ef538d7504676f6dbdef5fa6c4d478d57b15bf781e5e1bda8e9",
-    "scripts/stage3_dynamic_response_study.py": "dcf61778b917dd71ebd60b52892c2ec7b54af7091ffead74b3af9e8cba309b04",
-    "src/ato/stage3/source_sensitivity.py": "fedaeb9d7edadb53b7e23ac88af2eca6abacb7e231800fd6c6e3fbf1a889b477",
-    "src/ato/stage3/motor.py": "d86b4d091baf226475ce9f6d6e2390b65bb63752e5f50e73d42c5c3408b2323c",
-    "src/ato/stage3/electrical.py": "8a7a20702be3f3f5893e1f859f675347fa35db01dadb20ab7e64635ca8913ff0"
+    "src/scci_rh/stage3/dynamic_response.py": "247394fb5db7ef0357ec3c37e340c80baaf3603ae71b2101c3d1c3c0d4911686",
+    "scripts/stage3_dynamic_response_study.py": "493f1afebd8eb1385301f8b26d0ac9638fe68940e4ab7bfd55c3e71c74463dc2",
+    "src/scci_rh/stage3/source_sensitivity.py": "fedaeb9d7edadb53b7e23ac88af2eca6abacb7e231800fd6c6e3fbf1a889b477",
+    "src/scci_rh/stage3/motor.py": "fdc83232adcd15759319a05af2204c7d3481f5da3ecf4538f152b569760c05fe",
+    "src/scci_rh/stage3/electrical.py": "8a7a20702be3f3f5893e1f859f675347fa35db01dadb20ab7e64635ca8913ff0"
   },
   "specification": {
     "sample_s": 0.005,
@@ -21,8 +21,8 @@
   "grids": {
     "2500us": {
       "model": {
-        "schema": "ato.stage3.dynamic-response-model.v1",
-        "model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+        "schema": "scci_rh.stage3.dynamic-response-model.v1",
+        "model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
         "kernel_m_per_fraction": [
           [
             [
@@ -555835,7 +555835,7 @@
       },
       "raw_file": {
         "path": "2500us.json.gz",
-        "sha256": "cfa0e0a18ec1873492e5db80e1511c80b0a5eaf74d32081d9fdc4a053131bbec"
+        "sha256": "7f987686dd078a89913b1d86e27a87f565b7dc9c7237fe47ce0453cd84aea71e"
       },
       "online_candidate_witness": {
         "effect_m": [
@@ -555846,7 +555846,7 @@
           0.007830812070783715,
           0.0034634766991666574
         ],
-        "model_id": "ATO-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+        "model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
         "target_support_s": 1.15,
         "dose_assumption": {
           "measured_fraction": 1.012,
@@ -555866,8 +555866,8 @@
     },
     "625us": {
       "model": {
-        "schema": "ato.stage3.dynamic-response-model.v1",
-        "model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+        "schema": "scci_rh.stage3.dynamic-response-model.v1",
+        "model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
         "kernel_m_per_fraction": [
           [
             [
@@ -1111680,7 +1111680,7 @@
       },
       "raw_file": {
         "path": "625us.json.gz",
-        "sha256": "0656750ddbb9afb1a90f9f5300b50916ea96764a82a342adfecb14caca35e938"
+        "sha256": "64b37d36030cc6df5667418bf6a26759ed413141850e4d1c6ec5a34cd3ed46ef"
       },
       "online_candidate_witness": {
         "effect_m": [
@@ -1111691,7 +1111691,7 @@
           0.007830812070783707,
           0.0034634766991666574
         ],
-        "model_id": "ATO-S3-DYNAMIC-1:4694cf714faf31f1182d",
+        "model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
         "target_support_s": 1.15,
         "dose_assumption": {
           "measured_fraction": 1.012,
@@ -1111898,7 +1111898,7 @@
   },
   "inherited_actual_steady_map_rejection": {
     "path": "results/stage3/information/comparison-summary.json",
-    "sha256": "e1ad9f1cbbaa177b59c74117a56114a19ab23d3debe26c91b412f9d2a119e84c",
+    "sha256": "50cad1e2a0181568c525ac3ae7865f097cae6d3c4d19f74df6ca4e1b15ec5265",
     "sha256_scope": "canonical JSON; independent of text line endings",
     "run_id": "actual_nominal_informative_seed0",
     "response_map": {

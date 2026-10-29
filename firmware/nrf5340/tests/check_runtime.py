@@ -44,7 +44,7 @@ def run() -> dict:
     crc = zlib.crc32(packet)
     packet += struct.pack("<I", crc)
     assert len(packet) == 56
-    with tempfile.TemporaryDirectory(prefix="ato-runtime-") as temporary:
+    with tempfile.TemporaryDirectory(prefix="scci_rh-runtime-") as temporary:
         temp = Path(temporary)
         (temp / "packet_fixture.h").write_text(
             "static const unsigned char fixture_packet[56]={" +
@@ -53,16 +53,16 @@ def run() -> dict:
         binary = temp / ("runtime_test.exe" if os.name == "nt" else "runtime_test")
         cmd = compiler() + ["-std=c11", "-O2", "-Wall", "-Wextra", "-Werror",
                             "-Wpedantic", "-I", str(BASE / "core"), "-I", str(temp),
-                            str(BASE / "core" / "ato_runtime.c"),
+                            str(BASE / "core" / "scci_rh_runtime.c"),
                             str(BASE / "tests" / "runtime_test.c"), "-o", str(binary)]
         subprocess.run(cmd, check=True, capture_output=True, text=True)
         complete = subprocess.run([str(binary)], check=True, capture_output=True, text=True)
         report = json.loads(complete.stdout)
-    return {"schema": "ato-nrf5340-runtime-tests-v1", "date": "2026-10-14",
+    return {"schema": "scci_rh-nrf5340-runtime-tests-v1", "date": "2026-10-28", "original_design_date": "2026-10-14",
             "scope": "Compiled production C policy core; finite host fault scenarios, no physical or biological validation",
             "source_sha256_lf": {str(p.relative_to(BASE)).replace("\\", "/"): digest(p)
-                                  for p in (BASE / "core" / "ato_runtime.h",
-                                            BASE / "core" / "ato_runtime.c",
+                                  for p in (BASE / "core" / "scci_rh_runtime.h",
+                                            BASE / "core" / "scci_rh_runtime.c",
                                             BASE / "tests" / "runtime_test.c",
                                             BASE / "tests" / "check_runtime.py")},
             "packet_fixture_sha256": hashlib.sha256(packet).hexdigest(),

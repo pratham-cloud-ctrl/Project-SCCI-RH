@@ -1,4 +1,4 @@
-# Project ATO: full SCCI system overhaul
+# Project SCCI RH: full SCCI system overhaul
 
 Planning baseline: 8 October 2026; status refreshed 16 October. Stages 1–2 and
 Stage 3's conservative investigation/conditional concept are complete within
@@ -12,7 +12,7 @@ See [current status](../CURRENT_STATUS.md) and the [Stage 4 exit review](stage4/
 
 ## The intended deliverable
 
-Project ATO is an entirely digital research and engineering project that gives
+Project SCCI RH is an entirely digital research and engineering project that gives
 the 28-page SCCI concept a complete proposed technical embodiment. AstroSam's
 Mind-Link inspires the progression from future vision to inspectable engineering.
 The central object is an invasive spinal interface and its computing/control

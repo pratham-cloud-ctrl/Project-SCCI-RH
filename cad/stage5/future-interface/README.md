@@ -1,4 +1,4 @@
-# ATO future spinal interface — conditional mechanical embodiment
+# SCCI_RH future spinal interface — conditional mechanical embodiment
 
 This is the compact future concept, separate from the large eight-board digital
 reference assembly. It preserves the Stage 2 **60 × 58 × 14 mm** core/header
@@ -14,11 +14,11 @@ systems; STL is a material-only display mesh in millimetres.
 
 | Artifact | Purpose |
 |---|---|
-| `ATO_future_interface.FCStd` | Authoritative fitted native parts and editable feature history |
-| `ATO_future_interface.step` | Physical concept solids only; no allocation boxes |
-| `ATO_future_interface.stl` | Tessellated physical concept material; separate touching parts remain separate shells |
-| `ATO_future_interface_exploded.FCStd` | Derived native inspection view, with source-part names and offsets |
-| `ATO_future_interface_exploded.step` | Exploded physical parts plus explicitly named internal allocations |
+| `SCCI_RH_future_interface.FCStd` | Authoritative fitted native parts and editable feature history |
+| `SCCI_RH_future_interface.step` | Physical concept solids only; no allocation boxes |
+| `SCCI_RH_future_interface.stl` | Tessellated physical concept material; separate touching parts remain separate shells |
+| `SCCI_RH_future_interface_exploded.FCStd` | Derived native inspection view, with source-part names and offsets |
+| `SCCI_RH_future_interface_exploded.step` | Exploded physical parts plus explicitly named internal allocations |
 | `contract.json` | Dimensions, 36-port map, part identities, hashes and inspection contract |
 | `geometry-receipt.json` | Generator's actual native/exchange checks |
 | `port-map.csv`, `parts.csv` | Inspectable contact and part inventories |

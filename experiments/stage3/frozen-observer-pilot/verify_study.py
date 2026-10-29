@@ -270,7 +270,7 @@ def audit_raw(raw_files,inputs):
                     np.asarray(bb['private_evaluator_only']['positions_m'])))))
                 max_grid_metric=max(max_grid_metric,abs(aa['metrics']['trajectory_rmse_m']-bb['metrics']['trajectory_rmse_m']))
     raw_manifest=[{'path':Path(p).name,'bytes':Path(p).stat().st_size,'sha256':s.digest(p)} for p in raw_files]
-    summary={'schema':'ato.stage3.frozen-observer-pilot.summary.v1','date':'2026-10-12',
+    summary={'schema':'scci_rh.stage3.frozen-observer-pilot.summary.v1','date':'2026-10-12',
         'classification':'FINITE_PRIMARY_ACTUAL_DOMAIN_ALL_WITHHELD_OBSERVER_FREEZE_REPLAY',
         'preflight_sha256':s.digest(PACKAGE/'preflight.json'),'review_sha256':s.digest(PACKAGE/'root-review.json'),
         'practice_trials':len(practice),'off_assessments':len(off),'total_launched_profiles':0,'total_off_launched_profiles':0,
@@ -301,7 +301,7 @@ def audit_raw(raw_files,inputs):
             'Full-prefix memory and synthetic plant prior differ from historical stateless baseline.',
             'Complete reset/washout between sessions is assumed.',
             'Onepractice trial is not equivalent to historical fourtrial exposure.']}
-    audit={'schema':'ato.stage3.frozen-observer-pilot.audit.v1','saved_records':8,'sessions':96,
+    audit={'schema':'scci_rh.stage3.frozen-observer-pilot.audit.v1','saved_records':8,'sessions':96,
         'sanitized_measurements_checked':96*600,'controller_replays':32,
         'frozen_target_predictions_checked':freeze_count*26*2,'actual_noise_arrays_checked':12,
         'all_predeclared_sessions_present':True,'all_outcomes_retained':True,
@@ -350,7 +350,7 @@ def main():
         compare(summary,s.read(PACKAGE/'summary.json'))
         compare(audit,s.read(PACKAGE/'audit.json'))
         if args.reproduce:
-            with tempfile.TemporaryDirectory(prefix='ato-frozen-observer-pilot-') as directory:
+            with tempfile.TemporaryDirectory(prefix='scci_rh-frozen-observer-pilot-') as directory:
                 fresh=s.generate(Path(directory)/'raw')
                 for item in fresh:
                     path=Path(directory)/'raw'/item['path']; saved=PACKAGE/'raw'/item['path']

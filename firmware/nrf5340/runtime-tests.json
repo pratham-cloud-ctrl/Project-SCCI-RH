@@ -1,12 +1,13 @@
 {
-  "schema": "ato-nrf5340-runtime-tests-v1",
-  "date": "2026-10-14",
+  "schema": "scci_rh-nrf5340-runtime-tests-v1",
+  "date": "2026-10-28",
+  "original_design_date": "2026-10-14",
   "scope": "Compiled production C policy core; finite host fault scenarios, no physical or biological validation",
   "source_sha256_lf": {
-    "core/ato_runtime.h": "4717188ee12f39f4cc3d71a276dcfd654d99993b12b507399dbc6514d168e39f",
-    "core/ato_runtime.c": "ff0fe7daeb09e910d6be91840e94f717c425c30f74cc7a8fd87dab9d00be48f0",
-    "tests/runtime_test.c": "269db775ed71607d93afb23b64a1ab2ae19fda596b6023099328fabbfe9fb1b6",
-    "tests/check_runtime.py": "88db7905ebe8346d66e65f7ab2c90855e41caf92b31a2513e4378e588ba4e836"
+    "core/scci_rh_runtime.h": "0852f505a5fac6001607ce908203b3661cb212c9989dcc48de4c1612fc5ada64",
+    "core/scci_rh_runtime.c": "7a180e154b71ca51f3a60d4696f4d17a857880e745cf1b0027e2221282373216",
+    "tests/runtime_test.c": "5eaa06f9e35ea9b7165775d7878a6c79080ce715b6ba67f537069bcb6f412410",
+    "tests/check_runtime.py": "1e63adac9a07ae1e68b92b9f98e9dde2de78dcfd95a64e76fc8cf99e65a6ced5"
   },
   "packet_fixture_sha256": "18b1a7abc0fa901c8ce926ff9db9c9941ced3de4a61dfa18f2fd9df94c23d326",
   "compiled_results": {

@@ -1,4 +1,4 @@
-"""Build ATO's conditional future interface in real native FreeCAD.
+"""Build SCCI_RH's conditional future interface in real native FreeCAD.
 
 Run with the installed FreeCAD Python. No Stage2/Stage4 file is modified.
 The compact electronics are allocations, not a repackaging of eight PCBs.
@@ -19,7 +19,7 @@ import MeshPart
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
 sys.path.insert(0, str(HERE))
-from ato_future_features import feature, rounded_box
+from scci_rh_future_features import feature, rounded_box
 
 V = App.Vector
 COLORS = {'titanium': (0.53, 0.59, 0.65), 'ceramic': (0.91, 0.88, 0.77),
@@ -57,8 +57,8 @@ def build():
     assert old['header_mm'] == [60, 10, 14] and old['body_feedthrough_ports'] == 36
     ports = list(csv.DictReader(port_source.open(encoding='utf-8', newline='')))
     assert len(ports) == 36
-    doc = App.newDocument('ATO_Future_Interface')
-    doc.Label = 'ATO | Conditional future spinal interface'
+    doc = App.newDocument('SCCI_RH_Future_Interface')
+    doc.Label = 'SCCI_RH | Conditional future spinal interface'
     groups = {}
     for name in ('Housing', 'Feedthroughs', 'Connectors', 'RecordingLead', 'StimulationLead', 'Allocations'):
         groups[name] = doc.addObject('App::DocumentObjectGroup', name)
@@ -247,9 +247,9 @@ def build():
         substrate.Label = title+' | insulated cable and surface paddle'
         for prop, value in [('Category', 'physical'), ('Role', 'Separate illustrative target-specific lead; anatomy unassigned'),
                             ('PortID', ''), ('MaterialProposal', 'Silicone proposal')]:
-            substrate.addProperty('App::PropertyString', prop, 'ATO identity'); setattr(substrate, prop, value)
-        substrate.addProperty('App::PropertyColor', 'DisplayColor', 'ATO identity'); substrate.DisplayColor = co
-        substrate.addProperty('App::PropertyVector', 'ExplodeOffset', 'ATO identity'); substrate.ExplodeOffset = V(0, 0, 0)
+            substrate.addProperty('App::PropertyString', prop, 'SCCI_RH identity'); setattr(substrate, prop, value)
+        substrate.addProperty('App::PropertyColor', 'DisplayColor', 'SCCI_RH identity'); substrate.DisplayColor = co
+        substrate.addProperty('App::PropertyVector', 'ExplodeOffset', 'SCCI_RH identity'); substrate.ExplodeOffset = V(0, 0, 0)
         groups['RecordingLead' if bank == 0 else 'StimulationLead'].addObject(substrate)
         objects.append(substrate)
         try:
@@ -310,9 +310,9 @@ def build():
                                  'pin_can_closest_points_mm': [[list(a), list(b)] for a, b in closest[:1]]})
         assert can_distance >= .75-1e-7, (port['port_id'], can_distance)
         assert ferrule_distance >= .55-1e-7, (port['port_id'], ferrule_distance)
-    native = HERE/'ATO_future_interface.FCStd'
+    native = HERE/'SCCI_RH_future_interface.FCStd'
     doc.recompute(); doc.saveAs(str(native))
-    step = HERE/'ATO_future_interface.step'
+    step = HERE/'SCCI_RH_future_interface.step'
     Part.export(physical, str(step))
     # STL is physical material only, not overlapping allocation boxes.
     combined_mesh = Mesh.Mesh()
@@ -324,11 +324,11 @@ def build():
         mesh_rows.append({'name': obj.Name, 'vertices': [list(v) for v in mesh.Topology[0]],
                           'faces': [list(f) for f in mesh.Topology[1]],
                           'color': list(obj.DisplayColor), 'port_id': obj.PortID})
-    combined_mesh.write(str(HERE/'ATO_future_interface.stl'))
+    combined_mesh.write(str(HERE/'SCCI_RH_future_interface.stl'))
     (HERE/'render-meshes.json').write_text(json.dumps(mesh_rows, separators=(',', ':'))+'\n', encoding='utf-8')
     # Exploded native is a derived inspection view; fitted document is authoritative.
-    exploded = App.newDocument('ATO_Future_Interface_Exploded')
-    exploded.Label = 'ATO | Exploded future concept | assembly view only'
+    exploded = App.newDocument('SCCI_RH_Future_Interface_Exploded')
+    exploded.Label = 'SCCI_RH | Exploded future concept | assembly view only'
     exploded_transforms = {}
     for obj in physical+allocation_parts:
         out = exploded.addObject('Part::Feature', obj.Name)
@@ -343,13 +343,13 @@ def build():
             off = V(0, 22, 10 if obj.Name.startswith('Record') or (obj.PortID and int(obj.PortID[1:]) <= 18) else -10)
         shape.translate(off); out.Shape = shape
         exploded_transforms[obj.Name] = list(off)
-        out.addProperty('App::PropertyString', 'SourceObject', 'ATO view'); out.SourceObject = obj.Name
-        out.addProperty('App::PropertyVector', 'ExplodeOffset', 'ATO view'); out.ExplodeOffset = off
-        out.addProperty('App::PropertyColor', 'DisplayColor', 'ATO view'); out.DisplayColor = obj.DisplayColor
+        out.addProperty('App::PropertyString', 'SourceObject', 'SCCI_RH view'); out.SourceObject = obj.Name
+        out.addProperty('App::PropertyVector', 'ExplodeOffset', 'SCCI_RH view'); out.ExplodeOffset = off
+        out.addProperty('App::PropertyColor', 'DisplayColor', 'SCCI_RH view'); out.DisplayColor = obj.DisplayColor
         try: out.ViewObject.ShapeColor = tuple(obj.DisplayColor)[:3]
         except Exception: pass
-    exploded.recompute(); exploded.saveAs(str(HERE/'ATO_future_interface_exploded.FCStd'))
-    Part.export(exploded.Objects, str(HERE/'ATO_future_interface_exploded.step'))
+    exploded.recompute(); exploded.saveAs(str(HERE/'SCCI_RH_future_interface_exploded.FCStd'))
+    Part.export(exploded.Objects, str(HERE/'SCCI_RH_future_interface_exploded.step'))
     # Confirm exchange geometry survived export/reimport, not just native validity.
     imported = Part.read(str(step))
     expected_volume = sum(o.Shape.Volume for o in physical)
@@ -364,9 +364,9 @@ def build():
                       'color_rgb': list(obj.DisplayColor)[:3],
                       'volume_mm3': obj.Shape.Volume, 'bbox_min_mm': lo, 'bbox_max_mm': hi,
                       'valid': obj.Shape.isValid(), 'solid_count': len(obj.Shape.Solids)})
-    artifacts = {'native': native.name, 'step': step.name, 'stl': 'ATO_future_interface.stl',
-                 'exploded_native': 'ATO_future_interface_exploded.FCStd',
-                 'exploded_step': 'ATO_future_interface_exploded.step'}
+    artifacts = {'native': native.name, 'step': step.name, 'stl': 'SCCI_RH_future_interface.stl',
+                 'exploded_native': 'SCCI_RH_future_interface_exploded.FCStd',
+                 'exploded_step': 'SCCI_RH_future_interface_exploded.step'}
     contract = {
         'schema_version': 1, 'date': '2026-10-16',
         'scope': 'Conditional future SCCI package; nominal digital geometry only',
@@ -382,7 +382,7 @@ def build():
                        'lead_conductor_radius_mm': .035,
                        'recording_paddle_mm': [12, 34, .6], 'stim_paddle_mm': [14, 44, 1.0],
                        'recording_contact_size_mm': [2, 2, .2], 'stimulation_contact_size_mm': [3, 3, .2]},
-        'source_hashes': {str(p.relative_to(ROOT)).replace('\\', '/'): sha(p) for p in (source, port_source, HERE/'build_future_interface.py', HERE/'ato_future_features.py')},
+        'source_hashes': {str(p.relative_to(ROOT)).replace('\\', '/'): sha(p) for p in (source, port_source, HERE/'build_future_interface.py', HERE/'scci_rh_future_features.py')},
         'hash_policy': 'Text py/json/csv/md/cmd/FCMacro sources use CRLF-to-LF normalization; native/STEP/STL byte-exact SHA256.',
         'artifacts': artifacts, 'artifact_sha256': {v: sha(HERE/v) for v in artifacts.values()},
         'step_included_categories': ['physical'], 'exploded_included_categories': ['physical', 'allocation'],

@@ -1,16 +1,22 @@
-# Project ATO 2.0.1 — Whole-project Review and Corrections
+# Project SCCI RH 2.1.0 — Complete Project Rebrand
 
-This correction release follows a bounded review against the original project
+Engineering snapshot: 28 October 2026. Publication: 29 October 2026. This release adopts **Project SCCI RH** throughout the active research, software, electronics, CAD, downloadable packages and public inspector. Scientific assumptions and numerical results are preserved; native geometry and circuit connectivity are checked during the migration. The previous names remain only where needed to identify immutable historical Git records and protocol compatibility.
+
+
+## Engineering carried forward from v2.0.1
+
+The v2.0.1 correction release followed a bounded review against the original project
 brief. It fixes confirmed UART frame interleaving, removes a duplicate author
 from reference R17 and the rebuilt manuscript, adds a portable current CAD
 launcher, and updates current navigation for the public repository. See the
-[review dossier](https://github.com/pratham-cloud-ctrl/Project-ATO/blob/v2.0.1/docs/review-v2.0.1/README.md)
-and [current firmware](https://github.com/pratham-cloud-ctrl/Project-ATO/blob/v2.0.1/firmware/nrf5340/uart-revision/README.md).
-The prior v2.0.0 tag, all 2,733 protected Stage 1-5 files, original board/CAD
-geometry, studies and production core remain unchanged. The corrected UART
+[review dossier](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/docs/review-v2.0.1/README.md)
+and [current firmware](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/firmware/nrf5340/uart-revision/README.md).
+The prior v2.0.0 tag retains its original files. This release preserves the
+engineering content of the 2,733 protected Stage 1-5 files through the recorded
+name migration; board/CAD geometry and numerical results are compared independently. The corrected UART
 application is an explicit additive revision with a fresh target build.
 
-Project ATO now connects its proposed invasive spinal interface to a complete,
+Project SCCI RH now connects its proposed invasive spinal interface to a complete,
 inspectable digital research and engineering account: scientific foundations,
 explicit future assumptions, two application mechanisms, reproducible models,
 native electronics, target-linked firmware and mechanical assemblies.
@@ -19,19 +25,19 @@ Both original ambitions remain central: **expert-informed practice that could
 improve later unassisted motor learning**, and **feedback over a selected
 physiological function**. AstroSam's
 [Mind-Link](https://github.com/sam-astro/Mind-link) inspired the progression from
-future vision to inspectable engineering. ATO develops its own spinal mechanisms
+future vision to inspectable engineering. Project SCCI RH develops its own spinal mechanisms
 and artifacts; it incorporates no Mind-Link code or geometry.
 
 ## Start here
 
 - Read the **integrated illustrated manuscript** attached to this release.
-- Use the [engineering entry guide](https://github.com/pratham-cloud-ctrl/Project-ATO/blob/v2.0.1/START_HERE.md)
+- Use the [engineering entry guide](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/START_HERE.md)
   to find the native KiCad/FreeCAD files, models, firmware, source evidence and
   reproduction instructions.
-- Review the [six-sheet mechanical drawing set](https://github.com/pratham-cloud-ctrl/Project-ATO/blob/v2.0.1/cad/stage5/drawings/ATO_Stage5_Mechanical_Review.pdf),
+- Review the [six-sheet mechanical drawing set](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf),
   also attached as a PDF.
-- Use the [contribution record](https://github.com/pratham-cloud-ctrl/Project-ATO/blob/v2.0.1/docs/stage6/contributions.md)
-  and [defence guide](https://github.com/pratham-cloud-ctrl/Project-ATO/blob/v2.0.1/docs/stage6/defence-guide.md)
+- Use the [contribution record](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/docs/stage6/contributions.md)
+  and [defence guide](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/docs/stage6/defence-guide.md)
   to understand the project's ownership, assumptions and questions worth testing.
 
 ## Included engineering
@@ -72,7 +78,7 @@ are allocations. The 3.154 W / 4.880 h reference power/runtime figures are
 conditional calculations.
 
 No hardware was fabricated or physically executed, and no human or animal data
-were collected for ATO. Retained human learning benefit, selective chronic
+were collected for SCCI_RH. Retained human learning benefit, selective chronic
 spinal access, universal physiological control and physical implant qualification
 are not established. The pressure example uses an external sensor and a
 target-specific positive pressor premise; it does not establish a spinal blood
@@ -93,7 +99,7 @@ their own notices and rights. The prior `v1.0.0` single-channel desktop subsyste
 dated studies and adverse findings remain preserved. Website and video revision
 are parked.
 
-Use a **full Git clone at `v2.0.1`** for history-dependent verification. The source
+Use a **full Git clone at `v2.1.0`** for history-dependent verification. The source
 ZIP is convenient for inspecting files and contains no `.git` history. Compare
 downloaded assets with the attached `SHA256SUMS.txt`; the checksum list excludes
 itself. Large populated STEP files are supplied as lossless ZIPs with verified

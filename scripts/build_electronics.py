@@ -1,4 +1,4 @@
-"""Generate the editable, artificial-signal ATO reference electronics.
+"""Generate the editable, artificial-signal SCCI_RH reference electronics.
 
 Run with KiCad's Python (pcbnew is required). KICAD_SHARE selects a KiCad
 installation's share/kicad directory; KICAD_CLI selects kicad-cli.
@@ -14,7 +14,7 @@ OUT = ROOT / "electronics"
 OUT.mkdir(exist_ok=True)
 SHARE = Path(os.environ["KICAD_SHARE"])
 CLI = os.environ["KICAD_CLI"]
-uid = lambda key: str(uuid.uuid5(uuid.NAMESPACE_URL, "project-ato/electronics/" + key))
+uid = lambda key: str(uuid.uuid5(uuid.NAMESPACE_URL, "project-scci-rh/electronics/" + key))
 mm = pcb.FromMM
 
 # This manifest is the single source of pin connectivity for schematic and PCB.
@@ -64,7 +64,7 @@ add("J4","5V LOGIC","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 add("J5","DUMMY LOAD","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",{1:"DUT_A",2:"DUT_B"},(74,32),"stimulation","External electrical test load only")
 
 # Local footprint snapshots make source editable without absolute library paths.
-fpdir=OUT/"ato.pretty"; fpdir.mkdir(exist_ok=True)
+fpdir=OUT/"scci_rh.pretty"; fpdir.mkdir(exist_ok=True)
 modeldir=OUT/"models3d"; modeldir.mkdir(exist_ok=True)
 for p in parts:
     lib,name=p['footprint'].split(':')
@@ -79,8 +79,8 @@ for p in parts:
         return m.group(0)
     s=re.sub(r'"\$\{KICAD10_3DMODEL_DIR\}/([^"\n]+)"',replace_model,s)
     (fpdir/(name+".kicad_mod")).write_text(s,encoding="utf-8")
-    p['footprint']='ato:'+name
-(OUT/"fp-lib-table").write_text('(fp_lib_table (version 7) (lib (name "ato") (type "KiCad") (uri "${KIPRJMOD}/ato.pretty") (options "") (descr "ATO local footprint snapshots")))\n')
+    p['footprint']='scci_rh:'+name
+(OUT/"fp-lib-table").write_text('(fp_lib_table (version 7) (lib (name "scci_rh") (type "KiCad") (uri "${KIPRJMOD}/scci_rh.pretty") (options "") (descr "SCCI_RH local footprint snapshots")))\n')
 
 # Native schematic: chips expose every functional pin, with named local wires.
 # All symbols are local, embedded, and single-unit to prevent hidden power pins.
@@ -111,7 +111,7 @@ def lib_symbol(name,p):
     else:
         half=12.7 if p['ref']=='U3' else 10.16 if p['ref'][0]=='U' else 5.08
         graphic=f'(rectangle (start {-half} {maxy+1.27}) (end {half} {miny-1.27}) (stroke (width 0.2) (type default)) (fill (type background)))'
-    sy=f'(symbol "ATO:{name}" (pin_names (offset 0.8)) (in_bom yes) (on_board yes) (property "Reference" "{p["ref"][0]}" (at 0 0 0) {font}) (property "Value" "{p["value"]}" (at 0 0 0) {font}) (property "Footprint" "{p["footprint"]}" (at 0 0 0) (effects (font (size 1 1)) hide)) (symbol "{name}_0_1" {graphic}) (symbol "{name}_1_1" '
+    sy=f'(symbol "SCCI_RH:{name}" (pin_names (offset 0.8)) (in_bom yes) (on_board yes) (property "Reference" "{p["ref"][0]}" (at 0 0 0) {font}) (property "Value" "{p["value"]}" (at 0 0 0) {font}) (property "Footprint" "{p["footprint"]}" (at 0 0 0) (effects (font (size 1 1)) hide)) (symbol "{name}_0_1" {graphic}) (symbol "{name}_1_1" '
     for n,nm,k,x,y,a in pins:
         sy+=f'(pin {k} line (at {x} {y} {a}) (length 2.54) (name "{nm}" {font}) (number "{n}" {font})) '
     return sy+'))'
@@ -127,7 +127,7 @@ passives=[p for p in parts if p['ref'][0] in 'RC']
 for i,p in enumerate(passives): positions[p['ref']]=(35.56+(i%7)*53.34,147.32+(i//7)*25.4)
 for p in parts:
     name=p['ref']; liblist.append(lib_symbol(name,p)); x,y=positions[name]
-    inst=f'(symbol (lib_id "ATO:{name}") (at {x} {y} 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid {uid(name)}) '
+    inst=f'(symbol (lib_id "SCCI_RH:{name}") (at {x} {y} 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid {uid(name)}) '
     inst+=f'(property "Reference" "{name}" (at {x} {y-18 if name.startswith("U") else y-5.08} 0) {font}) '
     value_y=y+19 if name.startswith('U') else y+(len(p['nets'])-1)*2.54+4.0 if name.startswith('J') else y+5.08
     inst+=f'(property "Value" "{p["value"]}" (at {x} {value_y} 0) {font}) '
@@ -143,22 +143,22 @@ for p in parts:
         ang=0 if px<0 else 180
         just='left' if px<0 else 'right'
         wires.append(f'(label "{net}" (at {end} {yy} {ang}) (effects (font (size 0.85 0.85)) (justify {just} bottom)) (uuid {uid(name+"-label-"+n)}))')
-    inst+=f'(instances (project "ato_reference" (path "/{schemuid}" (reference "{name}") (unit 1)))))'
+    inst+=f'(instances (project "scci_rh_reference" (path "/{schemuid}" (reference "{name}") (unit 1)))))'
     instances.append(inst)
 # Genuine externally-powered power markers, not rule suppressions.
 flagname='POWER_FLAG'
-liblist.append(f'(symbol "ATO:{flagname}" (pin_names (offset 0)) (in_bom no) (on_board no) (property "Reference" "#FLG" (at 0 0 0) {font}) (property "Value" "PWR_FLAG" (at 0 0 0) {font}) (symbol "{flagname}_0_1" (polyline (pts (xy -1 1) (xy 0 2) (xy 1 1)) (stroke (width 0.2) (type default)) (fill (type none)))) (symbol "{flagname}_1_1" (pin power_out line (at 0 0 90) (length 0) (name "pwr" {font}) (number "1" {font}))))')
+liblist.append(f'(symbol "SCCI_RH:{flagname}" (pin_names (offset 0)) (in_bom no) (on_board no) (property "Reference" "#FLG" (at 0 0 0) {font}) (property "Value" "PWR_FLAG" (at 0 0 0) {font}) (symbol "{flagname}_0_1" (polyline (pts (xy -1 1) (xy 0 2) (xy 1 1)) (stroke (width 0.2) (type default)) (fill (type none)))) (symbol "{flagname}_1_1" (pin power_out line (at 0 0 90) (length 0) (name "pwr" {font}) (number "1" {font}))))')
 for i,net in enumerate(['+5V','GND']):
     x,y=30.48+i*25.4,119.38; ref=f'#FLG0{i+1}'
-    instances.append(f'(symbol (lib_id "ATO:POWER_FLAG") (at {x} {y} 0) (unit 1) (in_bom no) (on_board no) (dnp no) (uuid {uid(ref)}) (property "Reference" "{ref}" (at {x} {y} 0) (effects (font (size 1 1)) hide)) (property "Value" "PWR_FLAG" (at {x} {y-3} 0) {font}) (pin "1" (uuid {uid(ref+"pin")})) (instances (project "ato_reference" (path "/{schemuid}" (reference "{ref}") (unit 1)))))')
+    instances.append(f'(symbol (lib_id "SCCI_RH:POWER_FLAG") (at {x} {y} 0) (unit 1) (in_bom no) (on_board no) (dnp no) (uuid {uid(ref)}) (property "Reference" "{ref}" (at {x} {y} 0) (effects (font (size 1 1)) hide)) (property "Value" "PWR_FLAG" (at {x} {y-3} 0) {font}) (pin "1" (uuid {uid(ref+"pin")})) (instances (project "scci_rh_reference" (path "/{schemuid}" (reference "{ref}") (unit 1)))))')
     wires.append(f'(label "{net}" (at {x} {y} 0) (effects (font (size 1 1)) (justify left bottom)) (uuid {uid(ref+"label")}))')
-texts=[('ATO / ANALOG REFERENCE',25.4,15.24,2),('5 V / ARTIFICIAL SIGNALS / ELECTRICAL TEST LOADS ONLY',25.4,21.59,1.3),('RECORDING + BUFFERED MIDPOINT',76.2,28,1.25),('PRECISION SINK + POLARITY SWITCH',180,28,1.25),('PASSIVES / net labels define connectivity',25.4,135,1.2),('OPA2333: OUTA=1, INA-=2, INA+=3, V-=4, INB+=5, INB-=6, OUTB=7, V+=8',25.4,238,1.0),('PHASE 0: A=+5V, B=sink. PHASE 1: A=sink, B=+5V. INHIBIT 1: isolated.',25.4,245,1.0),('External 5 V sequencer: 200 us enabled phase 0, inhibit for 50 us, 200 us phase 1, inhibit.',25.4,252,1.0),('No MCU, ADC, current monitor, patient isolation, implant package or validated safety interlock populated.',25.4,259,1.0),('R8/R9/R10: 5*(1.02k)/(49.9k+1.02k)/1k = 100.157 uA nominal; calibrate if ever fabricated.',25.4,266,1.0)]
+texts=[('SCCI_RH / ANALOG REFERENCE',25.4,15.24,2),('5 V / ARTIFICIAL SIGNALS / ELECTRICAL TEST LOADS ONLY',25.4,21.59,1.3),('RECORDING + BUFFERED MIDPOINT',76.2,28,1.25),('PRECISION SINK + POLARITY SWITCH',180,28,1.25),('PASSIVES / net labels define connectivity',25.4,135,1.2),('OPA2333: OUTA=1, INA-=2, INA+=3, V-=4, INB+=5, INB-=6, OUTB=7, V+=8',25.4,238,1.0),('PHASE 0: A=+5V, B=sink. PHASE 1: A=sink, B=+5V. INHIBIT 1: isolated.',25.4,245,1.0),('External 5 V sequencer: 200 us enabled phase 0, inhibit for 50 us, 200 us phase 1, inhibit.',25.4,252,1.0),('No MCU, ADC, current monitor, patient isolation, implant package or validated safety interlock populated.',25.4,259,1.0),('R8/R9/R10: 5*(1.02k)/(49.9k+1.02k)/1k = 100.157 uA nominal; calibrate if ever fabricated.',25.4,266,1.0)]
 textitems=[f'(text "{t}" (at {x} {y} 0) (effects (font (size {sz} {sz})) (justify left)) (uuid {uid("text"+str(i))}))' for i,(t,x,y,sz) in enumerate(texts)]
-sch='(kicad_sch (version 20250114) (generator "ato_build") (uuid '+schemuid+') (paper "A3") (title_block (title "ATO | Artificial-signal analog reference") (rev "1.0") (company "Project ATO") (comment 1 "Digital reference only; no body connection")) (lib_symbols '+''.join(liblist)+') '+''.join(wires+instances+textitems)+')\n'
-(OUT/'ato_reference.kicad_sch').write_text(sch,encoding='utf-8')
-library=''.join(liblist).replace('(symbol "ATO:', '(symbol "')
-(OUT/'ATO.kicad_sym').write_text('(kicad_symbol_lib (version 20241209) (generator "ato_build") '+library+')\n',encoding='utf-8')
-(OUT/'sym-lib-table').write_text('(sym_lib_table (version 7) (lib (name "ATO") (type "KiCad") (uri "${KIPRJMOD}/ATO.kicad_sym") (options "") (descr "ATO embedded pin-accurate reference symbols")))\n')
+sch='(kicad_sch (version 20250114) (generator "scci_rh_build") (uuid '+schemuid+') (paper "A3") (title_block (title "Project SCCI RH | Artificial-signal analog reference") (rev "1.0") (company "Project SCCI RH") (comment 1 "Digital reference only; no body connection")) (lib_symbols '+''.join(liblist)+') '+''.join(wires+instances+textitems)+')\n'
+(OUT/'scci_rh_reference.kicad_sch').write_text(sch,encoding='utf-8')
+library=''.join(liblist).replace('(symbol "SCCI_RH:', '(symbol "')
+(OUT/'SCCI_RH.kicad_sym').write_text('(kicad_symbol_lib (version 20241209) (generator "scci_rh_build") '+library+')\n',encoding='utf-8')
+(OUT/'sym-lib-table').write_text('(sym_lib_table (version 7) (lib (name "SCCI_RH") (type "KiCad") (uri "${KIPRJMOD}/SCCI_RH.kicad_sym") (options "") (descr "SCCI_RH embedded pin-accurate reference symbols")))\n')
 
 # Board generation. Routing is deterministic, on a 0.25 mm two-layer grid.
 board=pcb.BOARD(); board.GetDesignSettings().SetCopperLayerCount(2)
@@ -171,7 +171,7 @@ footprints=[]
 for p in parts:
     name=p['footprint'].split(':')[1]
     fp=pcb.FootprintLoad(str(fpdir),name); fp.SetReference(p['ref']);fp.SetValue(p['value'])
-    fp.SetFPID(pcb.LIB_ID('ato',name));fp.SetPosition(pcb.VECTOR2I(mm(p['xy'][0]),mm(p['xy'][1])))
+    fp.SetFPID(pcb.LIB_ID('scci_rh',name));fp.SetPosition(pcb.VECTOR2I(mm(p['xy'][0]),mm(p['xy'][1])))
     fp.SetPath(pcb.KIID_PATH('/'+schemuid+'/'+uid(p['ref'])))
     fp.Reference().SetVisible(False);fp.Value().SetVisible(False)
     for pad in fp.Pads():
@@ -182,7 +182,7 @@ for i,(x,y) in enumerate([(10,10),(70,10),(10,40),(70,40)]):
     fp=pcb.FootprintLoad(str(SHARE/'footprints'/'MountingHole.pretty'),'MountingHole_3.2mm_M3')
     name='MountingHole_3.2mm_M3'
     if not (fpdir/(name+'.kicad_mod')).exists(): shutil.copy2(SHARE/'footprints'/'MountingHole.pretty'/(name+'.kicad_mod'),fpdir/(name+'.kicad_mod'))
-    fp.SetFPID(pcb.LIB_ID('ato',name));fp.SetReference('H'+str(i+1));fp.SetPosition(pcb.VECTOR2I(mm(x),mm(y)));fp.Reference().SetVisible(False);fp.Value().SetVisible(False)
+    fp.SetFPID(pcb.LIB_ID('scci_rh',name));fp.SetReference('H'+str(i+1));fp.SetPosition(pcb.VECTOR2I(mm(x),mm(y)));fp.Reference().SetVisible(False);fp.Value().SetVisible(False)
     fp.SetAttributes(fp.GetAttributes() | pcb.FP_BOARD_ONLY)
     board.Add(fp);footprints.append(fp)
 for a,b in [((0,0),(80,0)),((80,0),(80,50)),((80,50),(0,50)),((0,50),(0,0))]:
@@ -302,14 +302,14 @@ for n in order:
 
 def silk(text,x,y,size=1):
     t=pcb.PCB_TEXT(board);t.SetText(text);t.SetPosition(pcb.VECTOR2I(mm(x),mm(y)));t.SetLayer(pcb.F_SilkS);t.SetTextSize(pcb.VECTOR2I(mm(size),mm(size)));t.SetTextThickness(mm(.15));board.Add(t)
-silk('ATO / ANALOG REFERENCE',40,3,1.25);silk('DIGITAL DESIGN - DUMMY LOAD ONLY',40,47,1)
+silk('SCCI_RH / ANALOG REFERENCE',40,3,1.25);silk('DIGITAL DESIGN - DUMMY LOAD ONLY',40,47,1)
 # Reference text on fabrication layer stays readable without silk/pad conflicts.
 for fp in footprints:
     fp.Reference().SetLayer(pcb.F_Fab);fp.Reference().SetVisible(True)
-pcb.SaveBoard(str(OUT/'ato_reference.kicad_pcb'),board)
+pcb.SaveBoard(str(OUT/'scci_rh_reference.kicad_pcb'),board)
 # Minimal project with ordinary (unwaived) constraints.
-project={"meta":{"filename":"ato_reference.kicad_pro","version":1},"board":{"design_settings":{"rules":{"min_clearance":0.18,"min_track_width":0.20,"min_via_diameter":0.60,"min_through_hole_diameter":0.30,"min_hole_clearance":0.25,"min_copper_edge_clearance":0.30}}}}
-(OUT/'ato_reference.kicad_pro').write_text(json.dumps(project,indent=2)+'\n')
+project={"meta":{"filename":"scci_rh_reference.kicad_pro","version":1},"board":{"design_settings":{"rules":{"min_clearance":0.18,"min_track_width":0.20,"min_via_diameter":0.60,"min_through_hole_diameter":0.30,"min_hole_clearance":0.25,"min_copper_edge_clearance":0.30}}}}
+(OUT/'scci_rh_reference.kicad_pro').write_text(json.dumps(project,indent=2)+'\n')
 (OUT/'connectivity.json').write_text(json.dumps({'board_mm':[80,50,1.6],'mounting_holes_mm':[[10,10],[70,10],[10,40],[70,40]],'parts':parts,'routes':routed},indent=2)+'\n')
 with (OUT/'bom.csv').open('w',newline='',encoding='utf-8') as f:
     w=csv.writer(f);w.writerow(['Reference','Value','Footprint','MPN or specification','Function'])
@@ -319,24 +319,24 @@ reports=OUT/'reports';reports.mkdir(exist_ok=True)
 gerbers=exports/'gerbers';gerbers.mkdir(exist_ok=True)
 # Remove only this generator's obsolete non-fabrication Gerber layers.
 for obsolete in ['F_Adhesive.gta','B_Adhesive.gba','User_Drawings.gbr','User_Comments.gbr','User_Eco1.gbr','User_Eco2.gbr','Margin.gbr','F_Courtyard.gbr','B_Courtyard.gbr','F_Fab.gbr','B_Fab.gbr','User_1.gbr','User_2.gbr','User_3.gbr','User_4.gbr']:
-    old=gerbers/('ato_reference-'+obsolete)
+    old=gerbers/('scci_rh_reference-'+obsolete)
     if old.is_file() and old.resolve().parent==gerbers.resolve():old.unlink()
 def run(*args):
     print('Export/check:',' '.join(args),flush=True)
     r=subprocess.run([CLI,*args],capture_output=True,text=True);print(r.stdout,r.stderr)
     if r.returncode: raise RuntimeError('KiCad command failed: '+' '.join(args)+'\n'+r.stdout+r.stderr)
     return r.returncode
-schematic=str(OUT/'ato_reference.kicad_sch');pcbfile=str(OUT/'ato_reference.kicad_pcb')
+schematic=str(OUT/'scci_rh_reference.kicad_sch');pcbfile=str(OUT/'scci_rh_reference.kicad_pcb')
 run('sch','erc','--format','json','--severity-all','--exit-code-violations','-o',str(reports/'erc.json'),schematic)
-run('sch','export','pdf','-o',str(exports/'ato_reference_schematic.pdf'),schematic)
+run('sch','export','pdf','-o',str(exports/'scci_rh_reference_schematic.pdf'),schematic)
 run('sch','export','svg','-o',str(exports),schematic)
-run('sch','export','netlist','-o',str(exports/'ato_reference.net'),schematic)
-netlistfile=exports/'ato_reference.net'
+run('sch','export','netlist','-o',str(exports/'scci_rh_reference.net'),schematic)
+netlistfile=exports/'scci_rh_reference.net'
 # Only normalize export metadata; all native net/pin connectivity is retained.
-netlistfile.write_text(re.sub(r'\(source "[^"\n]*"\)', '(source "ato_reference.kicad_sch")',netlistfile.read_text(encoding='utf-8')),encoding='utf-8')
+netlistfile.write_text(re.sub(r'\(source "[^"\n]*"\)', '(source "scci_rh_reference.kicad_sch")',netlistfile.read_text(encoding='utf-8')),encoding='utf-8')
 run('pcb','drc','--format','json','--severity-all','--schematic-parity','--exit-code-violations','-o',str(reports/'drc.json'),pcbfile)
 run('pcb','export','gerbers','--layers','F.Cu,B.Cu,F.Paste,B.Paste,F.SilkS,B.SilkS,F.Mask,B.Mask,Edge.Cuts','-o',str(gerbers),pcbfile)
 run('pcb','export','drill','-o',str(gerbers),pcbfile)
-run('pcb','export','step','--force','--subst-models','-o',str(exports/'ato_reference.step'),pcbfile)
-run('pcb','export','svg','--layers','F.Cu,B.Cu,F.SilkS,Edge.Cuts','-o',str(exports/'ato_reference_board.svg'),pcbfile)
+run('pcb','export','step','--force','--subst-models','-o',str(exports/'scci_rh_reference.step'),pcbfile)
+run('pcb','export','svg','--layers','F.Cu,B.Cu,F.SilkS,Edge.Cuts','-o',str(exports/'scci_rh_reference_board.svg'),pcbfile)
 print('Electronics artifacts generated; inspect ERC/DRC reports before calling them clean.')

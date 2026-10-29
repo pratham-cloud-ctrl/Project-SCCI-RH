@@ -1,5 +1,5 @@
 {
-  "schema": "ato.stage4.supervision-integration.v1",
+  "schema": "scci_rh.stage4.supervision-integration.v1",
   "date": "2026-10-14",
   "wires_checked": 102,
   "pin_net_value_checks": 573,
@@ -9,18 +9,18 @@
   "host_to_AFE_passive_ground_bridge": false,
   "consolidated_hierarchy_or_PCB_implemented": false,
   "normalized_lf_sha256": {
-    "electronics/stage4/supervision/connectivity.json": "e8cdd380cb2448dac547cc290cd29ee0f4faf68b3ff4796a48bbf257565fb4db",
-    "electronics/stage4/supervision/supervision.xml": "5e9c2e3b2c71b2ed5badc4c29247f4ef59e418febd523ba4f97585e651a59e2c",
-    "electronics/stage4/current-driver/connectivity.json": "6de38e485762d6e5f4b2b72360e1ecb415eb0f5dff40a5a4770188ee141baa6f",
-    "electronics/stage4/current-driver/current_driver.xml": "830d5cc1b8b4683200972c2547b6e516168868ca8b9e7a062f528f02466bc4f4",
-    "electronics/stage4/monitoring-cell/connectivity.json": "b79aab80ed2c366c1ad22b98d2fb911a195f20b02d08a40babfee1c13a284015",
-    "electronics/stage4/monitoring-cell/monitoring_cell.xml": "7e029267bac87990263cb3105b55dd2351e44b7171361a607448e72f696e35da",
-    "electronics/stage4/contact-router/connectivity.json": "cd14e9e2c6e9e61cd615a5aa75c5a41e7fbfb899895ad4ebd1c09d4e1973f41c",
-    "electronics/stage4/contact-router/contact_router.xml": "2aa8b475472527995cd8090e1e928cbbb4e7e72f5ad8002eed865c5a77cc80df",
-    "electronics/stage4/recording-front-end/connectivity.json": "633c3386bf602e2544722abae2742a722775969cc53a3b2f1a26524325ccbf05",
-    "electronics/stage4/recording-front-end/recording_front_end.xml": "211ab88f492fc8bb8b1b5fe1f6e027439419915d18c4dd1c8c20f3c322fc386f",
+    "electronics/stage4/supervision/connectivity.json": "e7347b34cbb0a75baddb4fa7db3138cedb965090711112768681c1182c242e90",
+    "electronics/stage4/supervision/supervision.xml": "3dc352be7c756993eac03119f9eb4f2be119feb3f20df6ecefdc34ff2c996882",
+    "electronics/stage4/current-driver/connectivity.json": "fffcc6b5e23ef1b9e67f1e029924bc6d509be060ebbe5c31f13893474895c8e3",
+    "electronics/stage4/current-driver/current_driver.xml": "4356039793894c5bfb5ce25aee98e6a00fb8bc8c9ae3c9f5eb3ddc625b89b887",
+    "electronics/stage4/monitoring-cell/connectivity.json": "32f88af05d2b2e892d0059ac95984d54c513cd3e5575a2edc52f4c0ed68df1c6",
+    "electronics/stage4/monitoring-cell/monitoring_cell.xml": "4b391385b7d6521413e6e84d17f41f74adbff94a5e6c369b0a79d4788d12a8be",
+    "electronics/stage4/contact-router/connectivity.json": "d6c60149961011eae9256fa37a39b93ec3384bdef3fb6785fec433b7c623a9ab",
+    "electronics/stage4/contact-router/contact_router.xml": "d6044d2707d84305d1e141a4704732d06e2018ab17df980da2b89161de50525d",
+    "electronics/stage4/recording-front-end/connectivity.json": "adb009feeb48c04145c5be61b97747da1b26cd38dbf38916442b4fcf7b329fd2",
+    "electronics/stage4/recording-front-end/recording_front_end.xml": "74d9580519077eaeade83a26eabc417c14596e3b4d1fca470835b6179f84db79",
     "docs/stage4/supervision-wiring.csv": "bb5d90141665222d3810291c32e19fde56fb14719e1decdb0117406088ebc550",
-    "electronics/stage4/supervision-study/analog-results.json": "c916d4181e0b2f30408d12d56738efebbb5516de01c5626fb1608902e5ff6bcc",
-    "electronics/stage4/supervision-study/verify_integration.py": "78adee40002f58755374306f28e343205bfd35ec6f3afe0e33fc212633015ff9"
+    "electronics/stage4/supervision-study/analog-results.json": "c7d4509d95505d3bde22b48233cea695012f0376c4e7dd27e092fc4fa4cc199e",
+    "electronics/stage4/supervision-study/verify_integration.py": "c6b442bfa49710657f7bdc7b0d7e2adb22bbb99c6196574f346d4bb3ac047ef3"
   }
 }

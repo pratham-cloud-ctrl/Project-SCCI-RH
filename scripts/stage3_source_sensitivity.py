@@ -20,11 +20,11 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
-from ato.stage3.source_sensitivity import BUDGETS, REFERENCE_GRIDS, SCENARIOS, SOURCE_VARIANTS, MovingBodyReference, run_study  # noqa: E402
+from scci_rh.stage3.source_sensitivity import BUDGETS, REFERENCE_GRIDS, SCENARIOS, SOURCE_VARIANTS, MovingBodyReference, run_study  # noqa: E402
 
-SOURCE_PATHS = ("src/ato/stage3/source_sensitivity.py", "src/ato/stage3/motor.py",
-                "src/ato/stage3/acquisition.py", "src/ato/stage3/filter_residual.py",
-                "src/ato/stage3/external_history.py", "scripts/stage3_source_sensitivity.py")
+SOURCE_PATHS = ("src/scci_rh/stage3/source_sensitivity.py", "src/scci_rh/stage3/motor.py",
+                "src/scci_rh/stage3/acquisition.py", "src/scci_rh/stage3/filter_residual.py",
+                "src/scci_rh/stage3/external_history.py", "scripts/stage3_source_sensitivity.py")
 RTOL, ATOL = 2e-8, 1e-11
 
 
@@ -56,7 +56,7 @@ def run_batch(jobs=1, scope="full"):
             studies = list(pool.map(run_case, seeds))
     if initial != source_identity():
         raise AssertionError("Actual study dependencies changed during the experiment")
-    result = {"schema": "ato.stage3.moving-source-sensitivity.v1", "scope": scope,
+    result = {"schema": "scci_rh.stage3.moving-source-sensitivity.v1", "scope": scope,
         "source_identity": initial,
         "specification": {"frozen_before_outcomes": True, "budgets": BUDGETS, "subject_seeds": list(seeds),
             "seconds_per_capture": 3., "source_variants": list(SOURCE_VARIANTS), "scenarios": list(SCENARIOS),
@@ -100,7 +100,7 @@ def all_comparisons(study):
 
 
 def validate_receipt(batch):
-    assert batch["schema"] == "ato.stage3.moving-source-sensitivity.v1"
+    assert batch["schema"] == "scci_rh.stage3.moving-source-sensitivity.v1"
     seeds = [0, 1] if batch["scope"] == "full" else [0]
     assert [study["subject_seed"] for study in batch["studies"]] == seeds
     assert batch["specification"]["budgets"] == BUDGETS
@@ -202,7 +202,7 @@ def readable_summary(batch):
         "source_hold_prediction_allocation_qualified": not prediction_failures,
         "decision": "RETAIN_FAILED_HOLD_ALLOCATION; USE_APERTURE_RESOLVED_SOURCE_FOR_NEW_SYNTHETIC_NEURAL_CAPTURES" if feature_failures or prediction_failures else "FINITE_HOLD_ENVELOPE_WITHIN_DECLARED_ALLOCATIONS",
         "scope": "Numeric reference checks and observation-boundary invariants pass. Source approximation failures, dense residual failure, negative information controls and ambiguous mapping remain; this does not establish real spinal observability."}
-    return {"schema": "ato.stage3.moving-source-sensitivity-summary.v1", "scope": batch["scope"],
+    return {"schema": "scci_rh.stage3.moving-source-sensitivity-summary.v1", "scope": batch["scope"],
         "source_identity": batch["source_identity"], "specification": batch["specification"],
         "reproduction": batch["reproduction"], "batch_summary": aggregate, "studies": studies}
 

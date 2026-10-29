@@ -1,0 +1,27 @@
+{
+  "path": "inspector/downloads/SCCI_RH_Reference_Complete_STEP.zip",
+  "evidence": {
+    "kind": "ZIP container",
+    "changed_members": [
+      {
+        "before": "ATO_Reference_Complete.step",
+        "after": "SCCI_RH_Reference_Complete.step",
+        "before_sha256": "2d7b63a4ac9725541a829b27998ca1f4b2884672fbf29f6a5c178213a2ccd5d4",
+        "after_sha256": "baf781c517ba4bce972b99e1d2734e74ad8df4503e4d01684c53c70b55c5d2e2"
+      },
+      {
+        "before": "README.txt",
+        "after": "README.txt",
+        "before_sha256": "8148d3de789df148ec776ff562e65ee06c329f80940eccb68f195156765e3870",
+        "after_sha256": "690df3af27deaf338e85ec91db8043cd89e50b133e037ce995fde6d2d88d00af"
+      },
+      {
+        "before": "geometry-manifest.json",
+        "after": "geometry-manifest.json",
+        "before_sha256": "a53e69c6b633a7d717c6cf0c29f4640dde7870d0e26b045843d5424e1c125876",
+        "after_sha256": "2be5fa06863ae9109ebdff5f734e25c7f9fdf416c31517437c295e024c0d6095"
+      }
+    ],
+    "preserved_geometry_members_sha256": {}
+  }
+}

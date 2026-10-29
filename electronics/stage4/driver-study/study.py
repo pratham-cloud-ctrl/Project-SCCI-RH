@@ -81,7 +81,7 @@ def window(c: Case, source: int):
 
 
 def circuit(c: Case, step: float):
-    lines = ["ATO S4 restricted closed-loop current-driver surrogate",
+    lines = ["SCCI_RH S4 restricted closed-loop current-driver surrogate",
              "Vhv hv 0 24", f"Vset set 0 {VSET:.15g}",
              ".model BR SW(Ron=10 Roff=1e12 Vt=1.65 Vh=0)",
              ".model MX SW(Ron=2 Roff=1e12 Vt=1.65 Vh=0)",
@@ -204,7 +204,7 @@ def run(only=None):
             results.append(row)
             print(name, "samples",len(data["time"]), "first Q/nC",
                   results[-1]["channels"][0]["intervals"][0]["load_charge_C"]*1e9 if completed else "INCOMPLETE", flush=True)
-    payload = dict(schema="ato.stage4.driver-study.v1", date="2026-10-13",
+    payload = dict(schema="scci_rh.stage4.driver-study.v1", date="2026-10-13",
                    scope="Restricted behavioral artificial-load servo/bridge model, not vendor or complete native-circuit simulation",
                    native_circuit_modified=False, full_charge_accuracy_earned=False,
                    digital_controls="Explicit fixture inputs, separate native permission/latch contract",

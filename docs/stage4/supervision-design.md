@@ -1,6 +1,6 @@
 # Independent shutdown and supervision — completed digital slice
 
-**14 October 2026 — Project ATO Stage 4, bounded package 1.**
+**14 October 2026 — Project SCCI RH Stage 4, bounded package 1.**
 
 This package supplies the proposed invasive spinal interface with independent
 electronic interruption and deliberate rearming. It connects the four prior

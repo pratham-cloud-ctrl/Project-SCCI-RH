@@ -11,8 +11,8 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'src'))
-from ato.stage3.motor import MotorConfig
-from ato.stage3.expert_validation import (capture_expert_performance,
+from scci_rh.stage3.motor import MotorConfig
+from scci_rh.stage3.expert_validation import (capture_expert_performance,
                                          fit_observed_teacher_decoder,
                                          validate_observed_teacher_decoder, GENERATORS)
 from run_stage3_studies import close_nested
@@ -20,8 +20,8 @@ from run_stage3_studies import close_nested
 OUT = ROOT/'results/stage3/expert-validation'
 DOC = ROOT/'docs/stage3/expert-validation.md'
 PERFORMANCE_SEEDS = (51000, 61007, 71014, 81021)
-SOURCE_PATHS = ('src/ato/stage3/expert_validation.py', 'src/ato/stage3/motor.py',
-                'src/ato/stage3/acquisition.py', 'src/ato/stage3/filter_residual.py',
+SOURCE_PATHS = ('src/scci_rh/stage3/expert_validation.py', 'src/scci_rh/stage3/motor.py',
+                'src/scci_rh/stage3/acquisition.py', 'src/scci_rh/stage3/filter_residual.py',
                 'scripts/stage3_expert_validation.py')
 
 
@@ -77,7 +77,7 @@ def experiment(check=False):
                 independent = heldout or index != 0
                 validation = (validate_observed_teacher_decoder(model, capture) if independent else
                               {'available': False, 'reason': 'TRAINING_PERFORMANCE_NOT_INDEPENDENT_VALIDATION'})
-                value = {'schema': 'ato.stage3.expert-performance.v1', 'source_sha256': source_hashes(),
+                value = {'schema': 'scci_rh.stage3.expert-performance.v1', 'source_sha256': source_hashes(),
                          'name': name, 'capture': serialize(capture),
                          'frozen_decoder_validation': validation}
                 path = OUT/(name+'.json.gz')
@@ -91,7 +91,7 @@ def experiment(check=False):
                              'independent_decoder_validation': validation})
                 q = capture['qualification']
                 print(f"{name}: observed qualified={q['qualified']} reason={q['reason']}", flush=True)
-    return {'schema': 'ato.stage3.expert-validation.v1', 'source_sha256': source_hashes(),
+    return {'schema': 'scci_rh.stage3.expert-validation.v1', 'source_sha256': source_hashes(),
             'scope': 'observed competence and decoder transfer in separately labeled synthetic teacher generators',
             'performance_count': len(rows), 'independent_noise_realizations_per_generator_cadence': 4,
             'subject_geometry_seed': 51000, 'config': asdict(config),

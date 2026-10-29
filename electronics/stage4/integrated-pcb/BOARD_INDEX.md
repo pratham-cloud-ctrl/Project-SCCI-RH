@@ -1,9 +1,9 @@
 # Populated board index
 
-Open the [master schematic project](integration/master/ATO_integrated.kicad_pro) with
+Open the [master schematic project](integration/master/SCCI_RH_integrated.kicad_pro) with
 `OPEN_MASTER_KICAD.cmd`. Each board has an explicit PCB Editor launcher below.
 These use the installed KiCad executable and do not depend on Windows file associations.
-On another installation set `ATO_KICAD_BIN` to its KiCad 10 `bin` directory.
+On another installation set `SCCI_RH_KICAD_BIN` to its KiCad 10 `bin` directory.
 
 The board set has 1,298 electrical positions, 1,296 fitted components and 32
 mechanical mounting holes. Two optional driver capacitors remain DNP.
@@ -21,7 +21,7 @@ exports explicitly honor the original population flags. All geometry is nominal.
 | Monitoring Transport | [PCB](boards/monitoring-transport/monitoring_transport.kicad_pcb) · [launcher](OPEN_MONITORING_TRANSPORT.cmd) | 60 / 60 | 125 × 140 | [STEP](exports/monitoring-transport/populated.step) · [top](exports/monitoring-transport/top.png) · [3D](exports/monitoring-transport/isometric.png) · [copper](exports/monitoring-transport/top-copper.svg) · [fabrication reference](exports/monitoring-transport/fabrication-reference/README.md) |
 | Controller Carrier | [PCB](boards/controller-carrier/controller_carrier.kicad_pcb) · [launcher](OPEN_CONTROLLER_CARRIER.cmd) | 68 / 68 | 155 × 150 | [STEP](exports/controller-carrier/populated.step) · [top](exports/controller-carrier/top.png) · [3D](exports/controller-carrier/isometric.png) · [copper](exports/controller-carrier/top-copper.svg) · [fabrication reference](exports/controller-carrier/fabrication-reference/README.md) |
 
-The [80-sheet PDF](integration/master/ATO_integrated.pdf),
+The [80-sheet PDF](integration/master/SCCI_RH_integrated.pdf),
 [BOM](integration/populated-bom.csv), [harness](integration/harness.json),
 [power](power-overlay.json) and [carrier firmware](firmware-profile/README.md)
 connect the physical reference to its mechanism and operating assumptions.

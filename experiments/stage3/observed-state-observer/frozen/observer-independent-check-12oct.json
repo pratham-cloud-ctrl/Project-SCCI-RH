@@ -1,9 +1,9 @@
 {
-  "schema": "ato.tmp.observer-independent-check.v1",
+  "schema": "scci_rh.tmp.observer-independent-check.v1",
   "date": "2026-10-12",
   "classification": "NONCONFIRMATORY_CHECKS_NO_DRIFT_TARGETS_LOADED",
-  "method_receipt_sha256": "73a26e74e91f738fbc2f90e30655eaa0987a1e0d1ab905feb3b7aea52622e07a",
-  "independent_check_source_sha256": "30b420449024c755e15ea989df3c592a7ff5052e55f536f156cfcc9161769849",
+  "method_receipt_sha256": "1157a4490d4455faba6773fe447560b22c218db852efe65fc95c180f373dce7f",
+  "independent_check_source_sha256": "82cb5725781bb78e4f1554e442bcbfa7d0020c11082d7a36eb8f1e06efceb7f8",
   "scipy_version": "1.18.1",
   "checks": {
     "independent_propagation": [

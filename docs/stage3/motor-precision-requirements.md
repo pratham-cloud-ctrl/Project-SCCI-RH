@@ -3,7 +3,7 @@
 8 October 2026. This is a scalar engineering analysis of the **frozen Stage 3
 models and saved results**, not a changed controller, a new simulation batch or a
 selected circuit. Every prospective rate, peak bound and precision target below
-is conditional and unqualified. Project ATO still concerns the complete proposed
+is conditional and unqualified. Project SCCI RH still concerns the complete proposed
 spinal recording → interpretation → learner-specific stimulation → feedback
 chain, including retained learning and selected physiological feedback.
 
@@ -16,7 +16,7 @@ See the [results interpretation](results-and-interpretation.md),
 
 ## Where the present charge bound comes from
 
-The frozen [electrical implementation](../../src/ato/stage3/electrical.py)
+The frozen [electrical implementation](../../src/scci_rh/stage3/electrical.py)
 independently observes signed current at 200 kHz with a chosen ±25 mA input span,
 12-bit quantization, a 2% gain-error bound and a 5 µA offset bound. Its complete
 analog-waveform peak premise is 25 mA, including between samples. This premise

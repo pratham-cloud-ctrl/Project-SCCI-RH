@@ -1,12 +1,12 @@
 # Stage 5 / true-scale modular reference assembly
 
-Open `OPEN_REFERENCE.cmd` for the native FreeCAD assembly. Set `ATO_FREECAD_EXE` if FreeCAD is installed elsewhere. The launcher uses the installed application explicitly and does not depend on a Windows file association.
+Open `OPEN_REFERENCE.cmd` for the native FreeCAD assembly. Set `SCCI_RH_FREECAD_EXE` if FreeCAD is installed elsewhere. The launcher uses the installed application explicitly and does not depend on a Windows file association.
 
-- **Native assembly:** `ATO_reference_assembly.FCStd`, with 170 final parts and 396 editable primitive/boolean construction features.
+- **Native assembly:** `SCCI_RH_reference_assembly.FCStd`, with 170 final parts and 396 editable primitive/boolean construction features.
 - **Actual electronics:** all 8 frozen populated boards, 1,296 fitted components, no geometry scaling or envelope substitution.
-- **Mechanical-only exchange model:** `ATO_reference_mechanical.step`.
-- **Full populated exchange model:** `ATO_reference_assembly.step.zip`.
-- **Exploded exchange model:** `ATO_reference_exploded.step.zip`.
+- **Mechanical-only exchange model:** `SCCI_RH_reference_mechanical.step`.
+- **Full populated exchange model:** `SCCI_RH_reference_assembly.step.zip`.
+- **Exploded exchange model:** `SCCI_RH_reference_exploded.step.zip`.
 - **Dimensioned vector drawings:** `drawings/reference-layout.svg` and 8 dedicated tray mounting sheets.
 - **Mounting datums:** `drawings/mounting-hole-table.csv` contains all 32 actual native PCB axes.
 - **Mechanical BOM:** `mechanical-bom.csv` lists 162 mechanical pieces separately from 8 source PCB compounds.

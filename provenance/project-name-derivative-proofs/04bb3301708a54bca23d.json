@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "ab4db83be06944d5096c5a70048a34039a26f72dbdb6484d0b9ce3a511c04cc8",
+  "current_sha256": "813f945c44dd4f1886a987656171dc20b9d5fadff433e9ae21c57f346e7e9265",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-stage3-data-equivalence.json",
+      "sha256_lf": "8a50bd886a238ee75f5332b2badcf060a2ca5c45d5c9fb8b9da26bc5751da40b"
+    }
+  ]
+}

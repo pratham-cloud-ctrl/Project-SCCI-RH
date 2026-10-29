@@ -120,7 +120,7 @@ The subsequent **156-component** XML export and connectivity manifest were check
 
 ```text
 current_driver.xml SHA-256
-830d5cc1b8b4683200972c2547b6e516168868ca8b9e7a062f528f02466bc4f4
+4356039793894c5bfb5ce25aee98e6a00fb8bc8c9ae3c9f5eb3ddc625b89b887
 connectivity.json SHA-256
 a9789000b06304fc514197f03ae972c86b484f459262fb4c84b8076392c17041
 ```

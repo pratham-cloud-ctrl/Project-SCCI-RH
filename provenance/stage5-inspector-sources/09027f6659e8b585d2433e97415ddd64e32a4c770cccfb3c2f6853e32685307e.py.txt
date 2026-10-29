@@ -53,7 +53,7 @@ def read_step(path):
     with zipfile.ZipFile(path) as archive:
         members=[n for n in archive.namelist() if n.lower().endswith('.step')]
         assert len(members)==1 and archive.testzip() is None,'single intact STEP archive'
-        with tempfile.TemporaryDirectory(prefix='ato-stage5-inspect-') as temporary:
+        with tempfile.TemporaryDirectory(prefix='scci_rh-stage5-inspect-') as temporary:
             extracted=Path(temporary)/Path(members[0]).name
             extracted.write_bytes(archive.read(members[0]))
             return Part.read(str(extracted))
@@ -498,7 +498,7 @@ def main():
     contract_path = ROOT / arguments.contract
     contract = json.loads(contract_path.read_text(encoding='utf-8'))
     names = ['reference', 'future', 'harness'] if arguments.package == 'all' else [arguments.package]
-    report = dict(schema='ato.stage5.independent-native-inspection.v1',
+    report = dict(schema='scci_rh.stage5.independent-native-inspection.v1',
                   scope='Nominal digital geometry; no fabrication, anatomy, hermetic or thermal qualification',
                   FreeCAD_version=list(App.Version()), inspector_sha256_lf=digest(Path(__file__), True),
                   packages={name: inspect_harness(contract) if name=='harness' else inspect_package(contract, name) for name in names}, passed=True)

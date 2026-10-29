@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "docs/review-v2.0.1/native-electronics-checks.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "47f647f345d3de5f4566f8e87623d760ed4c9ebbd3e4ee614f6dc17d0b65dace",
+  "current_sha256": "7cfa860c6cf4f537bcab49c6a31a3d8a1051dd470ee009198bc456ca1eb42473",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

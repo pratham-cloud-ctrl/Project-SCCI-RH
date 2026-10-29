@@ -1,0 +1,13 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "docs/stage4/current-driver-component-review.md",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "e701d2c82dd1db5d7fb4987cb71b55e6d62fc7b411e333d60c05c1f5e9885d66",
+  "current_sha256": "eb86e813c89a6bcb0afc4ab94a9049b51c547c182e648828ec0a6f97458e4daa",
+  "method": "branding_and_fixed_length_digest_metadata_only",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": []
+}

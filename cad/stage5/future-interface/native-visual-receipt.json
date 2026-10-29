@@ -1,7 +1,7 @@
 {
   "documents": [
     {
-      "file": "ATO_future_interface.FCStd",
+      "file": "SCCI_RH_future_interface.FCStd",
       "visible_shape_count": 230,
       "visible_objects": [
         "P01_Ferrule",
@@ -240,7 +240,7 @@
       "image": "future-fitted-native.png"
     },
     {
-      "file": "ATO_future_interface_exploded.FCStd",
+      "file": "SCCI_RH_future_interface_exploded.FCStd",
       "visible_shape_count": 236,
       "visible_objects": [
         "P01_Ferrule",
