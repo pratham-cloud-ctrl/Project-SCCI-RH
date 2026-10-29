@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-29",
+  "passed": true,
+  "scope": "Actual final clean Git-blob Stage5mechanical and delivery audits, promoted as deterministic UTF8LF;10843mechanical checks2153historical sources261delivery files6PDFpages4renders36ports30links. Geometry unchanged.",
+  "commands": [
+    "python scripts/verify_stage5_mechanics.py --write-report",
+    "python scripts/review_stage5_delivery.py"
+  ],
+  "files": [
+    {
+      "path": "provenance/stage5-mechanical-verification.json",
+      "current_sha256": "fb904725f9d1a1b986b940ab2230983d78d24c4b050c997841eb5d28fbe88598"
+    },
+    {
+      "path": "provenance/stage5-delivery-review.json",
+      "current_sha256": "74aa10870d57c5cd36460d1ddece771db028d5588a0efc75e972a5217de4cd5c"
+    }
+  ]
+}

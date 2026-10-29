@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-29",
+  "scope": "Delivery metadata portability only; normalized hash and byte count use the same declared text representation; binary bytes unchanged; emitted JSON is UTF8LF",
+  "path": "scripts/review_stage5_delivery.py",
+  "before_sha256": "c0f1190db62a43aa9059ab259bc074c306e361a88122e477fa995c6d95c06d6c",
+  "current_sha256": "74f60dff6cfd6cc021a9b58bb34e862ae2a6b2167f1a80ac6bcc597ee162ac7c",
+  "LF_and_CRLF_record_equal": true,
+  "normalized_byte_count": 22,
+  "binary_bytes_and_hash_preserved": true
+}

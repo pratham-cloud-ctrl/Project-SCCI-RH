@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-29",
+  "passed": true,
+  "scope": "Actual read-only reproduction of failed scientific CI checks in canonical clean Git checkout. Model algorithms, parameters and scientific numeric payloads unchanged; only four derived identities, exact dependency hashes, explicit file-length metadata and frozen-forecast checksum siblings repaired. Root may subsequently refresh outer publication/preflight receipts.",
+  "checks": [
+    {
+      "check": "observed_full_reproduction",
+      "passed": true,
+      "log_sha256": "a72e4c4bc536895d543ee7995d96d1fe9cf5b28efc63366edf3b2fbe1cdcf4a6",
+      "result": "Fresh deterministic reproduction passed all16pairs"
+    },
+    {
+      "check": "teacher_library_reproduction",
+      "passed": true,
+      "log_sha256": "8e906ef6534ce91737b613f0c2623b42654e434fd8a7c88a0d69e997a82e3ac7",
+      "result": "Measured teacher libraries and unavailable-reference witnesses: reproduced"
+    },
+    {
+      "check": "dynamic_response_reproduction",
+      "passed": true,
+      "log_sha256": "e70295f41064868ee313effe403c93a9dfeb7551ff9db39502775d14686235ab",
+      "result": "Measured dynamic response and complete error accounting: reproduced"
+    },
+    {
+      "check": "frozen_saved_controller",
+      "passed": true,
+      "log_sha256": "63a48a919f38f37598c77a1d26ecad24baad9b78a9ab59640354e7874d48f033",
+      "result": "Verified 32 practice + 64 OFF sessions; 0 launches; 15 contract probes."
+    },
+    {
+      "check": "continuation_clean_readonly",
+      "passed": true,
+      "log_sha256": "1d08aa63acbdd59c076cbc6a31ddc27fa02a2e1c6dc37e6f90afa3dc3e0884de",
+      "result": "\"checks_passed\": 10"
+    }
+  ],
+  "files": [
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/artifact-manifest.json",
+      "current_sha256": "3ecc3ffc102c1d0331bd55ad8813ce7bdcfeef278923de8cbe8de589e780d7c4",
+      "sha256_lf": "3ecc3ffc102c1d0331bd55ad8813ce7bdcfeef278923de8cbe8de589e780d7c4"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/preflight.json",
+      "current_sha256": "c98bbe518a79ea567a79fe5e4ab72225b7890400051f1c98ff076d33670a6577",
+      "sha256_lf": "c98bbe518a79ea567a79fe5e4ab72225b7890400051f1c98ff076d33670a6577"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+      "current_sha256": "6da580bc8658d55b86bd2957b08bad8cba941b8d4a19bb272ff822f8235b8a92",
+      "sha256_lf": "9ccf46f4b76495de96f29232ce6cf4f92495b5c0ff872f9cbafb9482cdd0b1d9"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+      "current_sha256": "5d0eb81e0d520f3beb771abbe1cc19d3ada4e716a7da131647b894e4bc66e57c",
+      "sha256_lf": "864ecf782a0a67243433a6dcdd0f530c05fe3f3140b5500daba1347f43f5f885"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+      "current_sha256": "696e89bf77e3d6e693002dc226781d541dc5353d6b410b26674f2ece4801d722",
+      "sha256_lf": "818c34f15b8e41fc1be0c59a602417d9f8f6185a85f750d3c7b6ebdb27443a86"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+      "current_sha256": "c12329122758b8befc2376a7102d31dc2e25cd87182a7dac0518ea370c805559",
+      "sha256_lf": "564ef51ae35dc03c664da1f697edcdefb484a5bce96fe00d5f725f2992055b9b"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+      "current_sha256": "be24c79109edc672187cafed35b15dcc7aef3cf307a84925a4baa7978cc5023b",
+      "sha256_lf": "d4114bf6db57c1b6695e5be503ab3e10139f1a99d38e11d14cc0bdb239c85427"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+      "current_sha256": "1441dca050dc61a40765b42b066c876183334be9bf2fd4c8976395e720d24da2",
+      "sha256_lf": "2517fec982c5432a302d3badda902c872191e6073b52fc432c631828d12691ab"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+      "current_sha256": "e6695bca0b9bb1558411360f2f5bd3707a4255102a7999ee7839584713aeb107",
+      "sha256_lf": "6d62e4ad0cc4e86b29cf6e0cb99fbec0e878e666d33bfb5b99c2d46d8ed69f0b"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+      "current_sha256": "317cd3bf41be4d6f8d0d737652ab0fd672dd63a844ca81981cd199df67e5cae5",
+      "sha256_lf": "87335704eb88bc2921c07c6f9cdd690fdaaf6403da5ad667ea100a1d0d5cf39f"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/root-review.json",
+      "current_sha256": "5ec15f8734a70668739741087cbf05778589c816b19f051af7a276b13f703971",
+      "sha256_lf": "5ec15f8734a70668739741087cbf05778589c816b19f051af7a276b13f703971"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/summary.json",
+      "current_sha256": "932ca9bc826498f38c27e4205f1c786a81663bde12623ce3f656f1270de91e01",
+      "sha256_lf": "932ca9bc826498f38c27e4205f1c786a81663bde12623ce3f656f1270de91e01"
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/artifact-manifest.json",
+      "current_sha256": "91481a84507876f1474967a9ab19b1f7d247ecd6f6072c55d2deb6f3e7101a21",
+      "sha256_lf": "91481a84507876f1474967a9ab19b1f7d247ecd6f6072c55d2deb6f3e7101a21"
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-handoff-12oct.md",
+      "current_sha256": "ab96013a0e06799e5a6cfa7239c2f4a2bc871f9dfa5dd032fc85fa187a61b0c5",
+      "sha256_lf": "ab96013a0e06799e5a6cfa7239c2f4a2bc871f9dfa5dd032fc85fa187a61b0c5"
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-saved-audit-12oct.json",
+      "current_sha256": "476a36b3e2731f30ac6269ffc5cccdf1e852a7fb98bd2c8a5f0a3e4af566d378",
+      "sha256_lf": "476a36b3e2731f30ac6269ffc5cccdf1e852a7fb98bd2c8a5f0a3e4af566d378"
+    },
+    {
+      "path": "results/stage3/dynamic-response/dynamic-response-summary.json",
+      "current_sha256": "89a8755105089e80f3c1758432d83f4b22299b0f2fb381fc906486c8781c8281",
+      "sha256_lf": "89a8755105089e80f3c1758432d83f4b22299b0f2fb381fc906486c8781c8281"
+    },
+    {
+      "path": "results/stage3/isolated-pilot/raw.json.gz",
+      "current_sha256": "2d0ac02c1baa324fd321f378365eabc4ebc75db22c0d759193b46672050ea0fc",
+      "sha256_lf": "c6fcf9de6b12d8b3e1ab682d8dfb4fbe52b9e9bce39045c6874abb234572809f"
+    },
+    {
+      "path": "results/stage3/isolated-pilot/summary.json",
+      "current_sha256": "536ce8fb18f41278827c1e618013df3b9ad43b0be2e92d27d22a974c09ea9edc",
+      "sha256_lf": "536ce8fb18f41278827c1e618013df3b9ad43b0be2e92d27d22a974c09ea9edc"
+    },
+    {
+      "path": "results/stage3/sparse-baseline/raw.json.gz",
+      "current_sha256": "dea99e1ef076ed9e64be96264a58dd81f4e7d90b70d0bc46e90d822aa6249d53",
+      "sha256_lf": "b50c5c7ee196af4e68dfa03fd1a8ffc4d907833f46a02e90a96c1e754d9bb284"
+    },
+    {
+      "path": "results/stage3/sparse-baseline/summary.json",
+      "current_sha256": "1da84d63f157e0b614df9db890c6fb846ad9140f79201e282c8ef8aa100a266f",
+      "sha256_lf": "1da84d63f157e0b614df9db890c6fb846ad9140f79201e282c8ef8aa100a266f"
+    },
+    {
+      "path": "results/stage3/teacher-library/idealized_inverse.json",
+      "current_sha256": "b9d68b1a496271c83578e8e0d5a1b9d65fa67197b9ea48e9a0ac595a826e3f26",
+      "sha256_lf": "b9d68b1a496271c83578e8e0d5a1b9d65fa67197b9ea48e9a0ac595a826e3f26"
+    },
+    {
+      "path": "results/stage3/teacher-library/legacy_voluntary.json",
+      "current_sha256": "08fc2050c6f61519f36378b77771841d2637d192c7d245c033d46c24acef0d49",
+      "sha256_lf": "08fc2050c6f61519f36378b77771841d2637d192c7d245c033d46c24acef0d49"
+    },
+    {
+      "path": "results/stage3/teacher-library/teacher-library-summary.json",
+      "current_sha256": "99be0ca4baeadca2e415fdba3db9c00244b978e7ea1eca2624dd1bcbe2f480ef",
+      "sha256_lf": "99be0ca4baeadca2e415fdba3db9c00244b978e7ea1eca2624dd1bcbe2f480ef"
+    },
+    {
+      "path": "provenance/stage3-continuation-verification.json",
+      "current_sha256": "0c657103c72fa69ae274effbdde98d3c6b90af48620dda82243728c4882b3408",
+      "sha256_lf": "53144049b557439c698c97382489e573b32d0c85c60ff2ac00b97bf85109543b"
+    }
+  ],
+  "root_files_changed_since_checked_snapshot": [],
+  "identity_proof": "provenance/rebrand-study-derived-identities.json",
+  "metadata_proof": "provenance/rebrand-study-metadata-closure.json",
+  "forecast_proof": "provenance/rebrand-frozen-forecast-identity-bindings.json"
+}

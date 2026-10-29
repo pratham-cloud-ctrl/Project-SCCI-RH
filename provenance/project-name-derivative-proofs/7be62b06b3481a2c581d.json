@@ -5,14 +5,14 @@
   "path": "docs/stage6/release-plan.md",
   "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
   "original_sha256": "fec20dca8081884fee5a7686c3346e268f9ec24e8eafe9211d43331c9698232a",
-  "current_sha256": "747b21eab94b5c638ec655dc470845f896c52933ed48f62e04d140245f248cd7",
+  "current_sha256": "03591b074a166cf99bcf1e546aba50803a5c7bbdf2ac00b202ae0e342a02717e",
   "method": "explicit_digest_bound_regeneration_or_review_evidence",
   "scope": "Authorized name migration; no new physical or biological validation",
   "review": "",
   "independent_evidence": [
     {
-      "path": "provenance/rebrand-reviewed-source-adaptations.json",
-      "sha256_lf": "0a1ac7a47a29a98575b6ded308f6acc46e3766a8446f56498728dac44c784846"
+      "path": "provenance/rebrand-publication-211-review.json",
+      "sha256_lf": "c2b0cefa63132920602d7f730c865a30f9076d8b7bf0edf339608651bc941b88"
     }
   ]
 }

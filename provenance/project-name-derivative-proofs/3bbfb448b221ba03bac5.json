@@ -5,9 +5,14 @@
   "path": "results/stage3/teacher-library/teacher-library-summary.json",
   "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
   "original_sha256": "7eff0b91525fc12f7bb8ddd5246ecb4d2c5ed6de5ca4a343cd5af888b8b03c34",
-  "current_sha256": "fa1455472ff6b6babb6ddc97e98e6c3d0eb54356f30b6ed193636667965dc076",
-  "method": "branding_and_fixed_length_digest_metadata_only",
+  "current_sha256": "99be0ca4baeadca2e415fdba3db9c00244b978e7ea1eca2624dd1bcbe2f480ef",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
   "scope": "Authorized name migration; no new physical or biological validation",
   "review": "",
-  "independent_evidence": []
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-stage3-portability-checks.json",
+      "sha256_lf": "cff0946b2b84b3745823fc1079ecf9f007474755502899dc44c6f407fef8f690"
+    }
+  ]
 }

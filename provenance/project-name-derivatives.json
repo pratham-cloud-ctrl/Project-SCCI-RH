@@ -9213,21 +9213,6 @@
       }
     },
     {
-      "path": "provenance/stage3-continuation-verification.json",
-      "original_sha256_lf": "6bd963bcd4a43e1e9ad91fb0040e6f1623d62a6de2607154370599394ee1ec6c",
-      "current_sha256_lf": "472b14c75aa1c36636da0b8a0ca04f1bebc781e99ff4281b5448f3c17dc5aaee",
-      "validation": {
-        "passed": true,
-        "method": "branding_and_fixed_length_digest_metadata_only",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/94ce63340765b8933fe5.json",
-            "sha256_lf": "67d00430be5df48aa4490d8c120619346e9af7058fb5bdd4be026df7e2006844"
-          }
-        ]
-      }
-    },
-    {
       "path": "provenance/stage3-frozen-pilot-portability.json",
       "original_sha256_lf": "e72b45a15fc67da3dd7a30f3d75374f910250f1eb0ef5a34aa976b7833ebac5c",
       "current_sha256_lf": "a6fc0bda7b9c65fb05b64a5098b8cc21ea30edec19f20f32ed8c29a013544462",
@@ -10368,51 +10353,6 @@
       }
     },
     {
-      "path": "results/stage3/sparse-baseline/raw.json.gz",
-      "original_sha256_lf": "e76fcd2340390a89f4503098b0662e1da2b9fdaadfe56c2d9ecdf2900cebd359",
-      "current_sha256_lf": "5a0c04c0745716c96137cf289e2f5e65a93c7584f403c861571140c1e9bdb6d8",
-      "validation": {
-        "passed": true,
-        "method": "branding_and_fixed_length_digest_metadata_only",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/215bb21f71fdf12d2d90.json",
-            "sha256_lf": "a218ad952e1a7f1b6ea8ca83f34491444a41b832db21c78e89ca4676f5e8ae68"
-          }
-        ]
-      }
-    },
-    {
-      "path": "results/stage3/sparse-baseline/summary.json",
-      "original_sha256_lf": "63d113490fd21c1f5ddd9a500530f5bf1bfeccf896c9c10ec871c50f985a015d",
-      "current_sha256_lf": "e50024befb372fe6568851676aa7c1d528839f915226886bc6854fec6aefcc33",
-      "validation": {
-        "passed": true,
-        "method": "branding_and_fixed_length_digest_metadata_only",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/3eba88bf1e46adef6390.json",
-            "sha256_lf": "a8787ee98e85e8001f7d6d5b6a9f80239a8834e2ed056f0727f0f139f8e5ba29"
-          }
-        ]
-      }
-    },
-    {
-      "path": "results/stage3/teacher-library/teacher-library-summary.json",
-      "original_sha256_lf": "7eff0b91525fc12f7bb8ddd5246ecb4d2c5ed6de5ca4a343cd5af888b8b03c34",
-      "current_sha256_lf": "fa1455472ff6b6babb6ddc97e98e6c3d0eb54356f30b6ed193636667965dc076",
-      "validation": {
-        "passed": true,
-        "method": "branding_and_fixed_length_digest_metadata_only",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/3bbfb448b221ba03bac5.json",
-            "sha256_lf": "cf0f97dc6ed897ab6c39742e2f387f876849621413cbd6abfa31d5659c44a5be"
-          }
-        ]
-      }
-    },
-    {
       "path": "results/stage6/digital-path-verification.json",
       "original_sha256_lf": "6f4effd8f773700925caf5d826f4568d34f3c8728c7c8177b32782a2a7f32fc6",
       "current_sha256_lf": "813fc9a27a6f616a67f5cf3e6162eecb359c0986d95f9db0b113dad18f49ca5e",
@@ -10438,21 +10378,6 @@
           {
             "path": "provenance/project-name-derivative-proofs/e4f6b6ff294377e98093.json",
             "sha256_lf": "0ced3ea450a7d8e42e6e1f835242cacb336003871c8e49e91ba009a493d685f4"
-          }
-        ]
-      }
-    },
-    {
-      "path": "scripts/audit_frozen_observer_pilot.py",
-      "original_sha256_lf": "718ea49e9b9bd605034e0fd96deebed1cd3cfce7c67b1bc3b3e693fd98c095a6",
-      "current_sha256_lf": "793310697149a62075d0caf3351e0bf528d6edb2f750f6b49e88f012c802374f",
-      "validation": {
-        "passed": true,
-        "method": "branding_and_fixed_length_digest_metadata_only",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/e7a5d814c3a0fc21f592.json",
-            "sha256_lf": "be798720ce639aa769cbddd480a08d5dbead6808e8191a5ad53e25c542106e5d"
           }
         ]
       }
@@ -10593,21 +10518,6 @@
       }
     },
     {
-      "path": "cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf",
-      "original_sha256_lf": "f6dc20ba271b9483287e90db03f9a54a5c1d970604c357d67176d0b36b4fd65d",
-      "current_sha256_lf": "6595ee1c81d8987629ab3ecab5efbced4b186a2928bbe255748ba4fb4f79f877",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/468c10020ac1aa56a4e2.json",
-            "sha256_lf": "ddc28d4e05258e4caeb1d3999f18bb1e735ab63e27583a67b1695ee6b06474bd"
-          }
-        ]
-      }
-    },
-    {
       "path": "electronics/exports/scci_rh_reference.svg",
       "original_sha256_lf": "7aeedd7ccf60148e40209f6323670df0160187e24a658a1fd1eddb906b45d037",
       "current_sha256_lf": "918c2b136ca84b8b374b56703cfeecb92c4804666cf8bceebc0becb18fc86e26",
@@ -10618,66 +10528,6 @@
           {
             "path": "provenance/project-name-derivative-proofs/a223617d45fc5046c9e9.json",
             "sha256_lf": "f9451648d5bbcc8a120924a207dcc977088daecc9053378114e093b496bb19dc"
-          }
-        ]
-      }
-    },
-    {
-      "path": "electronics/exports/scci_rh_reference_schematic.pdf",
-      "original_sha256_lf": "2d9e236e7da1fa040e540d38b6dc1226171c52c8986ac536a29c5d4ca2ac61ea",
-      "current_sha256_lf": "3f777ff8bdcdd9278e4527bf2bfa60c2c3ecf39d08a292cd1b0b6bd1199cf26d",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/a2f54450ceee5083e7c4.json",
-            "sha256_lf": "5c7adc0f37dbc9192e3cf0eb4e01eb61acaa62daf40c14c7c04e5648fcd04405"
-          }
-        ]
-      }
-    },
-    {
-      "path": "electronics/stage4/contact-router/contact_router.pdf",
-      "original_sha256_lf": "6335988e5f2603095754af1f0736a2195e6e3b46c48be3f88cbbf85f4e7f1e96",
-      "current_sha256_lf": "a2a662d15e98e625af497d32a60599bbf0d2ee7a4691d2e587dc5ee0655b7fba",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/aee8aa4d129b86db30c3.json",
-            "sha256_lf": "26a5b92a52d2d9ee2878b6a92acae49d8b025ab3fbdcd7341fbcfc04ed8d4f12"
-          }
-        ]
-      }
-    },
-    {
-      "path": "electronics/stage4/controller-carrier/controller_carrier.pdf",
-      "original_sha256_lf": "32a38e73087f1f5cd26591e4f60e1d294cb0c59b69306b6a7793cab5f59f74aa",
-      "current_sha256_lf": "3938e60c7b9d285f848ce5c1e72056d9cae8f2f5bbb53981de7c6fcde5dd875a",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/53af8c7360190f18fac4.json",
-            "sha256_lf": "b378ec61157408a1cae80ed661289878a7b0920c5c70e264ce06c688c55b2de8"
-          }
-        ]
-      }
-    },
-    {
-      "path": "electronics/stage4/current-driver/current_driver.pdf",
-      "original_sha256_lf": "e630cc0a5e315bba0d55199758ad8328a436e67b0481fb74c9d93aed4d7f7d2b",
-      "current_sha256_lf": "f3032cac850e9e74461fdf7c998481c6f2126c88d55fe79d84ee67f07104dbaf",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/3b55ae2ea6fea31908b0.json",
-            "sha256_lf": "c5f0f26487fdb67df43c5bd68895e57a6e95e5bf90fcb4ba8f987f650fc44c92"
           }
         ]
       }
@@ -10833,321 +10683,6 @@
       }
     },
     {
-      "path": "electronics/stage4/integrated-pcb/integration/master/SCCI_RH_integrated.pdf",
-      "original_sha256_lf": "e2c423b4c190b8de89bc3095088f7b1da13d7657ffec8ba9e2d18f389b650ce8",
-      "current_sha256_lf": "93adb9905e049856c16f00c420dc1a7f986b91c0e81dc94d638052c517f00d57",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/eb1a1bb53dd5bc0cd3ff.json",
-            "sha256_lf": "2ea612d960befc8b20f786ccea0a69c125402558313be2a1e06baf2674a5ec1e"
-          }
-        ]
-      }
-    },
-    {
-      "path": "electronics/stage4/monitoring-cell/monitoring_cell.pdf",
-      "original_sha256_lf": "9f0abcce4622a3f329129e5a52b987557df65199a26a6e25f97ca26141f2444e",
-      "current_sha256_lf": "d64e6d52874f9e95e5624b580eb900ec38b69246173feba1306d7d6a39f48df0",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/58387b24e1bde3ad7ece.json",
-            "sha256_lf": "5b207140f81692ecfd13e7f15cc6051f894ffceace04498c687f9f51cc0fb4fe"
-          }
-        ]
-      }
-    },
-    {
-      "path": "electronics/stage4/monitoring-transport/monitoring_transport.pdf",
-      "original_sha256_lf": "db33c7ce8e69fcf2a6ab1ad9fb848ab77a28c31f955bf45f4ab03f4b16ce963e",
-      "current_sha256_lf": "93b4c3d022a0d3ec8b75c2fc0aebde560fb2717e9ca24dfa3b811ac9bacf1346",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/2c19496c8311e2675ed0.json",
-            "sha256_lf": "3bd080248ec6dd67bc94a0ca85889678e700920f059d5444a0a12aea1d93f4a1"
-          }
-        ]
-      }
-    },
-    {
-      "path": "electronics/stage4/power/power.pdf",
-      "original_sha256_lf": "e7426da0b05c6a417358114df9f4797e014eea7efffe9033c0478f0e50bac6b0",
-      "current_sha256_lf": "5f14e5462a1e8cce660e79bb0ac95a73e7e62744fafe2a758c0df9a202bd37ca",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/558a026adc6279ae3232.json",
-            "sha256_lf": "2b77e6ba5774e2070fb14c4461f4377dcbf89ccc1f48fba79e2eb33125541d41"
-          }
-        ]
-      }
-    },
-    {
-      "path": "electronics/stage4/recording-front-end/recording_front_end.pdf",
-      "original_sha256_lf": "5bc97c490a2a7bed8403f412079eba071fa57a1ba127a39ce4aa8a26b8ec0ed4",
-      "current_sha256_lf": "962fddf287c8b1e72c3a98aab6208867f8d0207964cb533eb887eaf99661829c",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/cd1a894947771ed3ebed.json",
-            "sha256_lf": "12a3b839892f1b2a01f5cfcc84976775baa36ab1264a5a5d5baeaa355d7b4be7"
-          }
-        ]
-      }
-    },
-    {
-      "path": "electronics/stage4/supervision/supervision.pdf",
-      "original_sha256_lf": "8b71851ee8fa83484ed5f7a3abb1519cb5d7a1772e11c4da42a0d67b58b238f2",
-      "current_sha256_lf": "bfb0106ee6104ad1e7dc45f0985a1d501aa9093218fc556bae4add4542ecf5c1",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/151e96331f8b8d705d43.json",
-            "sha256_lf": "3594ed5795f7ec0a1b513907da6b1f76f28b166823042b0d16c47b404b06f2ed"
-          }
-        ]
-      }
-    },
-    {
-      "path": "experiments/stage3/frozen-observer-pilot/artifact-manifest.json",
-      "original_sha256_lf": "cb2737e394c8ad75e923fc9d296924a50b353483a45b13a0356237df74c509f4",
-      "current_sha256_lf": "b420d2668a70f607feac0e0dc54bec626724d5d5e7ea1cf552f42cde2c322a94",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/c1f4b2f81fcbd17c5600.json",
-            "sha256_lf": "0252ae09a0b24f4771c19e89921d83b7c1778e08b316faae38c893d6021eabfb"
-          }
-        ]
-      }
-    },
-    {
-      "path": "experiments/stage3/frozen-observer-pilot/preflight.json",
-      "original_sha256_lf": "09a3420045af0eb80c77d7a388dd43e3229c9d133647291d874984f7f5623dc8",
-      "current_sha256_lf": "fe4cb8297a2b8c63b876ad6eacf1fce56b3e9e057b7cbdd739c8e725f9dc4d92",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/9c4eea694c9dc8bb35a7.json",
-            "sha256_lf": "fde3e7364da5bc9af8366fc957e2c28aa43567b7b32c5892222d47f07da16d6f"
-          }
-        ]
-      }
-    },
-    {
-      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
-      "original_sha256_lf": "b0a044ca0c152a1013bd874c16d32051fac35dad54f947acdda38e19f0b96a3d",
-      "current_sha256_lf": "7ee902823497615464f3edb206036d8d9ca738c88345d5ed19963bd3d39fff50",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/a60133b2fa89d783576e.json",
-            "sha256_lf": "fff1a066a6ebc5620dfa2e7895d62457072086df07af79279ab109b7d0239814"
-          }
-        ]
-      }
-    },
-    {
-      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
-      "original_sha256_lf": "43e5252fb9d1a852851daf216d04c9c4c2e0c072d81eb58081c1d057fccb493f",
-      "current_sha256_lf": "4901a76866ebe7c3b5aeadaa8fa98599b0352f0aeb26fbb88a09b9f6a1ab5f4c",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/7fc2b89a7a6f065fcae1.json",
-            "sha256_lf": "59a0546596a1a30e570c9fa3dd3293729432c44bd8dc88b759b49da3024f01f1"
-          }
-        ]
-      }
-    },
-    {
-      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
-      "original_sha256_lf": "e595d1654bd30149b79583650feeebe394714a7d0a0eb78a60b14f9fc27d32c2",
-      "current_sha256_lf": "431ca2e3086eab0f20132ed96b55dc5da734ffedd7f295a07b5be5c2e9b62e87",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/04bb3301708a54bca23d.json",
-            "sha256_lf": "e905a5434fabae3682fc875cce00031369464a96a9d7f06a8e17fd7a0b27d8e1"
-          }
-        ]
-      }
-    },
-    {
-      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
-      "original_sha256_lf": "809b79a1608651024b998bbdfba0299ace343371831dcc7b76ff5394c8b40777",
-      "current_sha256_lf": "9a1444d6c80f5f35c5cf7d0ae7c01397d40981635cf4b321fa20ddc1a120028e",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/3f42494485cc1efa5c7f.json",
-            "sha256_lf": "1afdb90d0585289d8658c341ff473b6808943e16e1ba8a04aa7fabb55e1f6016"
-          }
-        ]
-      }
-    },
-    {
-      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
-      "original_sha256_lf": "fe3bff0e1b02e4a89cf5087ff6060bcbce0715c2d315918c04dcb0b7676af845",
-      "current_sha256_lf": "7a4c08ad8bd76e222886c2f0d6ec87192341589301e3daa0d064b47321640de3",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/ed2596b2fba61861c6cb.json",
-            "sha256_lf": "c6eaa7aa46b7e609c1ae19ffa15174663ec654450d7b1f03b69734b2ddf14524"
-          }
-        ]
-      }
-    },
-    {
-      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
-      "original_sha256_lf": "9a9680789367acf26d31bde12c69b439d3a670dc3d18e0d94ca7c778c2b16130",
-      "current_sha256_lf": "1be7371fbc3a255169dcdec01464066739a4339be678abb0c34194813fdc40e1",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/7266993da89c5299e679.json",
-            "sha256_lf": "73f4f8b667b57b89c0071514a8006d9c8689bee94ded02c47e5f3f95107ad947"
-          }
-        ]
-      }
-    },
-    {
-      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
-      "original_sha256_lf": "1ae0f347b2420f9ff49397ee01c90c5ff14b42b93d85436ad03f9902fa2544a3",
-      "current_sha256_lf": "12d7856d203a93ab48d284d34617292a9f3703731a8992ad0de094af005bb639",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/8254bd03db42a13a34b1.json",
-            "sha256_lf": "3207711fa826664a2ae28690967985fbb1278009f2237dba979c041a99bc94f4"
-          }
-        ]
-      }
-    },
-    {
-      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
-      "original_sha256_lf": "0800b78f432d9da4b847b1b11086cf996cf2bfbff92aefd41a0ec60d12a56eaf",
-      "current_sha256_lf": "a9f7e520953d71d6e98d090b8fb15fabc94167e4779f1a1dfe711908c3f52c8b",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/d2f1bf3639b9226933cf.json",
-            "sha256_lf": "f08444a420be113753222023cb9ce67b1c015fae0888564c0de4090b2857277d"
-          }
-        ]
-      }
-    },
-    {
-      "path": "experiments/stage3/frozen-observer-pilot/root-review.json",
-      "original_sha256_lf": "ef6495bef21aaf94e133d75754c118b9b1d778ee40d75b2f6fca41093d54c47f",
-      "current_sha256_lf": "b1863d6787fd640d23bfe7026ec6e623da049dcaab4239db8e61756b45f12af6",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/e18d2aabf481e0ce9717.json",
-            "sha256_lf": "4111817aab262f73237127ad1e2690607f3e6417467f0c80e702371b9c0f3052"
-          }
-        ]
-      }
-    },
-    {
-      "path": "experiments/stage3/frozen-observer-pilot/summary.json",
-      "original_sha256_lf": "ee4f989847e3eacb35e491431f9f3bac07bb4fb5baf6931781a1bd203e56d941",
-      "current_sha256_lf": "edc5720c7bfb68e269f32605a3cdaf7c0e23501cbb8ca82f59c83fca025744dd",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/a24f1fbde2c7f5f6e07b.json",
-            "sha256_lf": "a590d1b307193c4a39f3edb62e4727af2cdfef7a860c7240fd45616d4d86efa2"
-          }
-        ]
-      }
-    },
-    {
-      "path": "experiments/stage3/observed-state-observer/artifact-manifest.json",
-      "original_sha256_lf": "3e675e07c6292a0d551b324db57ccfc0e46de19e7753005dbf8753d1cf0f137f",
-      "current_sha256_lf": "442909c37c2a65a7449dd1e6c7dce6895a451e880f839256afa7e1a108fe9173",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/19792462ee57e03091ca.json",
-            "sha256_lf": "2742fba95bebdbd18d17f0bf533bd51c3942aaaa87e97b1c05787cd1f2546eac"
-          }
-        ]
-      }
-    },
-    {
-      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-handoff-12oct.md",
-      "original_sha256_lf": "d434c5b3f07a924d24ccdb71f3a710e596154ff15f182a8445c4cc564fb22b8d",
-      "current_sha256_lf": "851ef11605f5d7e6ff3f5d19e24e62b945b16f3065b3420ca8757bed28a8b31c",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/546f83e716604b10301a.json",
-            "sha256_lf": "e94b827ea70571e1054101425b5fbdfc1d3b03b11473857ccd892bc0795a8b10"
-          }
-        ]
-      }
-    },
-    {
-      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-saved-audit-12oct.json",
-      "original_sha256_lf": "a06d4071b12ba62e5f990a014cfb5c09bd55fad85f14dd80f3d26ed295b9b243",
-      "current_sha256_lf": "7445513077279442f4132166adaadd6467f21bba4a24a9ea819db7b67960989e",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/6a43f2b36b2594a3ffa6.json",
-            "sha256_lf": "ea742ea5de5914a7ee1b8a368b0a947e02671dff587bc9db99a829428a1ca562"
-          }
-        ]
-      }
-    },
-    {
       "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-summary-12oct.json",
       "original_sha256_lf": "c3452d498685850ec8a29cb4c7fb100bcaf212ee408cc4ea82131b38ef123203",
       "current_sha256_lf": "89d79c3d3eb3dafb62964ed4d15ae922c4a1b7e775ea612d8b9d7d1c0cb65a59",
@@ -11253,51 +10788,6 @@
       }
     },
     {
-      "path": "inspector/assets/cad-manifest.json",
-      "original_sha256_lf": "c9bd4da99ab4b7d6ed4f60cd0b4d29b5025b1d0b32a2ebdb17d0fca242562090",
-      "current_sha256_lf": "afa81ecf217fce3baad2431a8b4e524735c6b96c573b211c76a9717396f18334",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/8570b7d231fd6bb7c07f.json",
-            "sha256_lf": "480fa474b197c5e2f2fd92d8c92615c226c42c067ac13d7eca0237b788712c13"
-          }
-        ]
-      }
-    },
-    {
-      "path": "inspector/assets/catalog.json",
-      "original_sha256_lf": "e5e7fe9286fba700b02e1c49a555ba41bb8d271c6047cd97e0105ef3621a19c8",
-      "current_sha256_lf": "84654677682c7f6e9ddf4e20fb9b13ed7b84a18101c6494094fc0755171ae33e",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/b2acd3279c2169d02fa4.json",
-            "sha256_lf": "f721d0843346e4ce30f201434f54d8941427f060a0619ad4ca7ee924b9a843b9"
-          }
-        ]
-      }
-    },
-    {
-      "path": "inspector/assets/downloads-manifest.json",
-      "original_sha256_lf": "8c4a02f27e44e2d4eafd341feb5258315b5c6dcf90674639ba7a5405db6f3ea4",
-      "current_sha256_lf": "06cadd1cb8f079cca123c013b04784d2264bab4311a31405bd3435246db9eea6",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/5174ca2f9b75a80377dd.json",
-            "sha256_lf": "3f08d58b22ab3b83aa7a55c15d93cc97d53feb5442c864b64425c98989b63dfc"
-          }
-        ]
-      }
-    },
-    {
       "path": "inspector/assets/electronics-manifest.json",
       "original_sha256_lf": "efb32f29eec13741514eb780ed626acd7c6eaa6a952da4d4106824773cb1ba3c",
       "current_sha256_lf": "4a40fefdae593a6bfb4da9244d476ea98f02c6dc14a1f0f921edd070c198fcbe",
@@ -11313,21 +10803,6 @@
       }
     },
     {
-      "path": "inspector/assets/inspection-manifest.json",
-      "original_sha256_lf": "489d7b19a5fd46083bb6481b6252fcd06dccbd968c2930aa2414bce2ec49d020",
-      "current_sha256_lf": "8a147fdb0aac8d0c6ead4fbc0c45a2d9fa45859fd7522aa6ed258c1cbf36657d",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/9a3463a7ab71c7cb2f25.json",
-            "sha256_lf": "b56d72171a6906528f9ca33312dc88683e70513d00d7c55a5a3b6390e9b7ca01"
-          }
-        ]
-      }
-    },
-    {
       "path": "inspector/downloads/SCCI_RH_CAD_Native.zip",
       "original_sha256_lf": "4283d7ed9633f2bb7d4f61735ae25bf861b36048492e5d9527b913e33b380339",
       "current_sha256_lf": "56919afe5dd79fef3fc24147c3c5d68dc3408872d8d42f888cb0b1c50f209382",
@@ -11338,36 +10813,6 @@
           {
             "path": "provenance/project-name-derivative-proofs/8eb068022fc3c658a552.json",
             "sha256_lf": "9b9aa08b4ac02af360bf3f5015402b5b34692f2ecc7937b0789460c3e077b30f"
-          }
-        ]
-      }
-    },
-    {
-      "path": "inspector/downloads/SCCI_RH_Integrated_Schematics.pdf",
-      "original_sha256_lf": "e2c423b4c190b8de89bc3095088f7b1da13d7657ffec8ba9e2d18f389b650ce8",
-      "current_sha256_lf": "93adb9905e049856c16f00c420dc1a7f986b91c0e81dc94d638052c517f00d57",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/f22238d8714fad67a817.json",
-            "sha256_lf": "54f85be74c3f02c2e5b9ef73176124da06333fc3d9e3b7e473559d2922a1b7f7"
-          }
-        ]
-      }
-    },
-    {
-      "path": "inspector/downloads/SCCI_RH_Mechanical_Review.pdf",
-      "original_sha256_lf": "f6dc20ba271b9483287e90db03f9a54a5c1d970604c357d67176d0b36b4fd65d",
-      "current_sha256_lf": "6595ee1c81d8987629ab3ecab5efbced4b186a2928bbe255748ba4fb4f79f877",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/3452f36dc71b9857ced8.json",
-            "sha256_lf": "12f06759131a204ee213967de371ed3a7e805e5aea875e9b781bf8c01db24583"
           }
         ]
       }
@@ -11398,21 +10843,6 @@
           {
             "path": "provenance/project-name-derivative-proofs/fa76b62c4287e814db2e.json",
             "sha256_lf": "44722813fe12b96bd6bd90036ce7b90b8dd880c7c739e37dd47fa69d22b1fc81"
-          }
-        ]
-      }
-    },
-    {
-      "path": "manuscript/stage6/build-manifest.json",
-      "original_sha256_lf": "2c909ad83a1e77e4497f3f22536e1fbf48727e8f526ffb1efaabbdc57e48d312",
-      "current_sha256_lf": "764fd24c82b9247ba4a5bb484a84a97b6c2f3694a3839f34b6e6c749e5a7b28b",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/b8b13726d8236fb312ee.json",
-            "sha256_lf": "18d76a9a436345ec1e9319ac963ca70841632a02c19b90446c1c62791f45f470"
           }
         ]
       }
@@ -11568,141 +10998,6 @@
       }
     },
     {
-      "path": "output/pdf/SCCI_RH_engineering_paper.pdf",
-      "original_sha256_lf": "9bcaa4f45959ea470f1af59f1865b3e963432c799e2a6058777a19f520bee8df",
-      "current_sha256_lf": "8df1eb9c9dc9ed217933c9f80db0f96071e90c60cf26586b800a6f9f59f1896d",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/457e47935a3845f002ed.json",
-            "sha256_lf": "64f901f9920ae5305652ba8abbd09f16c313e1f6d384763ea7c83dc65862e1c0"
-          }
-        ]
-      }
-    },
-    {
-      "path": "output/pdf/SCCI_RH_stage1_system_specification.pdf",
-      "original_sha256_lf": "ce4e1532ce9f3b0fa25240274c9c90a5eecbeba489bfac6459ebb8b7c24ec12f",
-      "current_sha256_lf": "bd2b3ea2e6971d9a10014f607bbc1486d2b9e1192605c0086e1c4e3b27432f5d",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/bd3b7802120b545bb5c9.json",
-            "sha256_lf": "4e09d7e89d5a3983d366b3a4b79d7c69f946a240d05e51ae8183d9656f372dc4"
-          }
-        ]
-      }
-    },
-    {
-      "path": "output/pdf/SCCI_RH_stage2_architecture_budgets.pdf",
-      "original_sha256_lf": "b6bfb20064c9057c4caa944f1e788032af4e491539cf7747e85a8f51d6484c44",
-      "current_sha256_lf": "13929a979ab7e839652d7c8db658e4e62cf9a4ce995ede33e4dc8676905cda79",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/caa9e3bec6b3cea8c1af.json",
-            "sha256_lf": "a6444787a044f55ded158bd689758281e77d4c1f7efb768ed70c0836c58db9f4"
-          }
-        ]
-      }
-    },
-    {
-      "path": "output/pdf/SCCI_RH_stage3_closeout.pdf",
-      "original_sha256_lf": "4b8e2e640ead23e0065028011c3bcbf1ddb54751ad86f75f8b5afd37a00a5089",
-      "current_sha256_lf": "7f240140f18ef2b98718ce1b7f9b3a0e81633615af9a5318ae1d103a9df9f2d8",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/b4b7cb42c5e70a280c16.json",
-            "sha256_lf": "3900e00d03c543ad8a994443ffeecf98843fa54f1b68889f5fe52771bf43045c"
-          }
-        ]
-      }
-    },
-    {
-      "path": "output/pdf/SCCI_RH_stage3_mechanism_revision.pdf",
-      "original_sha256_lf": "699d61540f6f8868ffcaf3b2dd4990dbbac9c2dfceeed60ca68f3b8ac2d5bbaf",
-      "current_sha256_lf": "66fb5a1f515af5ae8bf8d5b243147ea068bae985e90aec285df70c9d8457355d",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/9755d21395a5075e5197.json",
-            "sha256_lf": "a0727923933bcd0bda18b5097c5b1b016157b6325a07f735ad750f5c9722d97e"
-          }
-        ]
-      }
-    },
-    {
-      "path": "output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf",
-      "original_sha256_lf": "dda37c7c78e64a2d9cd9da22429cfe508cc8c4ab87a5263f633ced6f51be6ff1",
-      "current_sha256_lf": "a3a418b2361c6810956bc4b0ad7219c94e01a276b73dfe5dae30e1dbac6d666f",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/d616a06a78dda572558c.json",
-            "sha256_lf": "d76ea0552bad99416b4332e15eea0aeca222bcbeb92a3d6d3c7b81d68c7378b9"
-          }
-        ]
-      }
-    },
-    {
-      "path": "provenance/stage3-closeout-review.json",
-      "original_sha256_lf": "2cebc7e53ad2aff87a44fd12fc39a2c902e519437b86f538da2bfdb7648a0b5e",
-      "current_sha256_lf": "b98ab7e80b74ee1ba6d44d734bffca848e03ea3652befb58715177cfc8de26a8",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/fc305d89762a0fc358a7.json",
-            "sha256_lf": "75893bf827d7c809d7125976b0931379c4612d1c367f9f2f97bf9e1f06c95dc8"
-          }
-        ]
-      }
-    },
-    {
-      "path": "provenance/stage3-frozen-pilot-independent-audit.json",
-      "original_sha256_lf": "6ee1045479136fe96d6290c6c3ccbcb8d8a8eb03b2c0b11a08f32da85182a6b8",
-      "current_sha256_lf": "e09971ac7def6476765bf21d77d63e0b70437a98fa9cf422519b94f00b979f08",
-      "validation": {
-        "passed": true,
-        "method": "branding_and_fixed_length_digest_metadata_only",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/878371896fc7fadfedd7.json",
-            "sha256_lf": "62b1318596130986672b67da1dc0da3ad4980afec519ff8e5b17d37449b9cd1e"
-          }
-        ]
-      }
-    },
-    {
-      "path": "provenance/stage3-revision-verification.json",
-      "original_sha256_lf": "15cb4da9625575f77229a8f879834af2d9ca90e77a7d9ba0dac4af0ec1c56330",
-      "current_sha256_lf": "7b6ce8bb4c3196a960390379063e06af6ee49def1808a7d5c5ce0f317191d986",
-      "validation": {
-        "passed": true,
-        "method": "branding_and_fixed_length_digest_metadata_only",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/e1907194594a62bcd9ed.json",
-            "sha256_lf": "ec435962dbc5b2bff3c9c4dbff8354f9f34b3f632dbfa2511c7a36f34a0b6e27"
-          }
-        ]
-      }
-    },
-    {
       "path": "provenance/stage4-nrf5340-build.json",
       "original_sha256_lf": "4eaf61867d2b0e2cdec0d3bb74283747bdc69a6f73698f0515276cc8da75f8eb",
       "current_sha256_lf": "86581953fd9a789b6300995439a6a9fab5b8ea7732b20cdb7d6b2fdcc0a062a9",
@@ -11733,51 +11028,6 @@
       }
     },
     {
-      "path": "results/stage3/dynamic-response/dynamic-response-summary.json",
-      "original_sha256_lf": "738f4ccd85fb6aff4b897d033651b6282d45be924c9c6ef707184d884f772ab8",
-      "current_sha256_lf": "a007df20fd81cbd618b75b1ee24f10ba0f49d78f6c90e7e808bb7ce90f2e812c",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/2b7de6de6f4a5b1abff2.json",
-            "sha256_lf": "de0ad9e88aedadb708f8cfc6824106bff3acd0fed92b899ed2e24ffcff21f365"
-          }
-        ]
-      }
-    },
-    {
-      "path": "results/stage3/isolated-pilot/raw.json.gz",
-      "original_sha256_lf": "9db52270a6a6c017486389c9238ec7ce7837f8be99361077a5895981b91c3c6c",
-      "current_sha256_lf": "e2106489f4b15ee825cc0ade6458998d469cd17671f76e58da13bd888c6a113b",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/96a75220f8eece9e564c.json",
-            "sha256_lf": "8a1b58a746d8e10b432dd0c7fa2738aa3165b417a89305519b0866ec4a2f1196"
-          }
-        ]
-      }
-    },
-    {
-      "path": "results/stage3/isolated-pilot/summary.json",
-      "original_sha256_lf": "307322f927a083f5a733b58f5ccaed5b9b83acd09aa43414866fea1b8081056a",
-      "current_sha256_lf": "f5f21ef8cedb47fcf882b19df99b687632c4e09f1d8ab358ddd7b62916b03031",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/27bc9223de99c2ed7ca6.json",
-            "sha256_lf": "4eb847b79c720f2ca101cb30b1275408afdffe9eba192a9314e22b1615757544"
-          }
-        ]
-      }
-    },
-    {
       "path": ".github/workflows/package-release.yml",
       "original_sha256_lf": "fe35a838a0a37d4a6065ea44e0010e005adc0cf200942836f26c7c2a3bd40538",
       "current_sha256_lf": "7bfd65aedf98126672f79e2b6f84a6a54bb264d86089ea6681a9a1e7c83dac94",
@@ -11788,66 +11038,6 @@
           {
             "path": "provenance/project-name-derivative-proofs/149ffe46f2fc111c0b9d.json",
             "sha256_lf": "60522711c2296794a9c9a40913a76de99dd20189b2ea8c8eafbc5c63e5619bf3"
-          }
-        ]
-      }
-    },
-    {
-      "path": "CITATION.cff",
-      "original_sha256_lf": "5c5baf5f1854fe3751dc974990f6c38cc7d8f0d6cf88aa62ea2ca0d5da4e9c61",
-      "current_sha256_lf": "59def6054fbe109dd811321b3bc13cf049b1316811669c962bea1ae6ecd58b00",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/9b9f76394a441ff40bf8.json",
-            "sha256_lf": "1dedccb31d758bc97e36f527e2527f53829548ce37800884ec26353cdd5d5dac"
-          }
-        ]
-      }
-    },
-    {
-      "path": "CURRENT_STATUS.md",
-      "original_sha256_lf": "0269e4cc96c2b113cb3a2c5a2ab5bd53867e9020696db841738f95cdcfa1bbea",
-      "current_sha256_lf": "2ed2be0ea60a94307816a83fdecf070ad789c7a464bf3cc8bd5586adbb62a23b",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/0cd64251bb22352d071c.json",
-            "sha256_lf": "1cf5be99d1f8abc94b87f7accf9b7469b172bbb17ec4af02a68c68eef14e3949"
-          }
-        ]
-      }
-    },
-    {
-      "path": "README.md",
-      "original_sha256_lf": "cd77ead36194f335ee0dd8e957d2054288a3fe1fdb5f339f75d270809c77fdb5",
-      "current_sha256_lf": "2cbd6db14a946556a0a2c325f0f65de59f5ccf062bab5dc6286350c62b4358ed",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/b335630551682c19a781.json",
-            "sha256_lf": "05c1cc3de38beba18fa5f772493f75167379856bfd4b0cfa6ccdcac643682763"
-          }
-        ]
-      }
-    },
-    {
-      "path": "START_HERE.md",
-      "original_sha256_lf": "ec4c59d1bf69901f9badf174a77f78f7589b1a018162fe66f677a8457ee62e3e",
-      "current_sha256_lf": "2e58cbe3b0b56f0be4ba7f46ec1c2a48c4491a79df3310e55a793ca7ac2f372f",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/27f4c1eeb6dd4713bbe5.json",
-            "sha256_lf": "0161a7cd367aa18d66ebab78d1285143085921eb92dbd2702f12427b9adf8201"
           }
         ]
       }
@@ -11878,51 +11068,6 @@
           {
             "path": "provenance/project-name-derivative-proofs/6e6e672cda31cf15c920.json",
             "sha256_lf": "5fa47feb83004e9f9aa0a782ffb380c1a5495b99d4e3738944fad695a742ddcd"
-          }
-        ]
-      }
-    },
-    {
-      "path": "docs/stage6/release-contract.json",
-      "original_sha256_lf": "6adb943caedf99b9cf100e98cf0fca3226dfd8b9fda44e057d733274bbea2a51",
-      "current_sha256_lf": "f3b66cba41cc99ef23f080d737ca6d63cca8d85ad948c801652310b6d680c0d3",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/8d83b3ded453ee58ac80.json",
-            "sha256_lf": "e5b00ebf6b6b3a48a41d991ded96e226516409b9a7e3595fc8193494831f5a09"
-          }
-        ]
-      }
-    },
-    {
-      "path": "docs/stage6/release-notes.md",
-      "original_sha256_lf": "876cd75c59d9e1ba6017da62337c144c8aea198f4683bae674141dcb9b811d91",
-      "current_sha256_lf": "b520487113a19f70c3c4eca935dea22fa2120459b22b57b4a5ec3484a872d2df",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/cfb3669bee5e665de1e9.json",
-            "sha256_lf": "868df40ff8f5f5b006b5500d7ab5aef602a28c82defcee190e7d7548212d76cb"
-          }
-        ]
-      }
-    },
-    {
-      "path": "docs/stage6/release-plan.md",
-      "original_sha256_lf": "fec20dca8081884fee5a7686c3346e268f9ec24e8eafe9211d43331c9698232a",
-      "current_sha256_lf": "b4b1cc5447d458542effbeddd9647b434713bcf5fa38e1f4a989c9850886e7a2",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/7be62b06b3481a2c581d.json",
-            "sha256_lf": "155d0725159e175b333b161c0b3546024712e3b8b48fce510b05d9c24f5a222c"
           }
         ]
       }
@@ -12018,21 +11163,6 @@
       }
     },
     {
-      "path": "scripts/inspector/build_catalog.py",
-      "original_sha256_lf": "c8f060666a1c19a311ad2bad874f90978af60b79fa174af46d5fb253f2b09800",
-      "current_sha256_lf": "ccfb1d6b313b1311d3856cae5dd265ee659b2f556ed8c0824ecdd06247788ede",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/3ec130e776ceb9a24b56.json",
-            "sha256_lf": "0170e701a78f72a33300b57dc399f893eb6b7f450266829ed500bed588dd1fb1"
-          }
-        ]
-      }
-    },
-    {
       "path": "scripts/inspector/build_electronics_assets.py",
       "original_sha256_lf": "9369d42ac5e209432a7ace04d8f818ae2c03a5d2a7f5e7af1b5e45521fc7707c",
       "current_sha256_lf": "fdfa44585133f8557acae874778e3877dfeefb3952d4e7dde0f91dae00c39e26",
@@ -12043,66 +11173,6 @@
           {
             "path": "provenance/project-name-derivative-proofs/d7bf34a9b7f808fa8dd1.json",
             "sha256_lf": "3b71a501f1f1ecf63de11ac65a90785c166d49d97a9d7a9918ccd4c554d5e831"
-          }
-        ]
-      }
-    },
-    {
-      "path": "provenance/stage4-integrated-pcb-verification.json",
-      "original_sha256_lf": "9bb78e27f09a2f59094672e96155bdd673299f9577b463cdd108b848b494ca5a",
-      "current_sha256_lf": "5d87dd5603822446580659b73b7fcaef7b37d19a6206c23407f5801dc7bbb33a",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/81d2dbf26be6f9d25dc6.json",
-            "sha256_lf": "f55804070f0029750fb25672260ff5a8412ba75ec1c489e09b0074e9f7c41e24"
-          }
-        ]
-      }
-    },
-    {
-      "path": "provenance/stage6-document-review.json",
-      "original_sha256_lf": "4463e12ca64af2197d44eb5e212c8279b8341b350914978a0baa3e5d569e8cc0",
-      "current_sha256_lf": "0174b66255a56088a5f318a71fec881b6e9e280957d56a6876db878edbfc4dca",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/4c1181f1c47048ee0b6a.json",
-            "sha256_lf": "28d3f8db32d5c832dd25426c2306fd9ffd869fe0c45fa4802cc006a18cd8b98a"
-          }
-        ]
-      }
-    },
-    {
-      "path": "provenance/stage5-delivery-review.json",
-      "original_sha256_lf": "59651cb641b0bf9a462ab772e97e5cf2e80c57dbb29305589a71dd0586af1c13",
-      "current_sha256_lf": "a38480374e4d9c1feed8c5b58ce4e85eb5e828028cf114b9751220c1836c3172",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/47844081edc063773b92.json",
-            "sha256_lf": "99797b06cc41763b94b097f5b01a92d9abe1c31b45ad591b048875aaca2350bf"
-          }
-        ]
-      }
-    },
-    {
-      "path": "provenance/stage5-mechanical-verification.json",
-      "original_sha256_lf": "74499c4f9fdd3d17e6a109aee0f8d8af2af3ce56e002b55117381abdd2c6a4e2",
-      "current_sha256_lf": "58e4c53a484249fb15ae2aec2608b320ff976c6f53cdc8bfbe3b37568f6d3b34",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/23f7a1719d31910b1e00.json",
-            "sha256_lf": "4127b97dca925318b793606441fbee6c577624e6d042bf6dbc8f0d39fa646b87"
           }
         ]
       }
@@ -12123,31 +11193,1051 @@
       }
     },
     {
+      "path": "CITATION.cff",
+      "original_sha256_lf": "5c5baf5f1854fe3751dc974990f6c38cc7d8f0d6cf88aa62ea2ca0d5da4e9c61",
+      "current_sha256_lf": "52d08cfa0bf2bdf5639cea1767b2e0d7d2cf8572f0d9900d0d80b47dda2dcb85",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/9b9f76394a441ff40bf8.json",
+            "sha256_lf": "70871067d20699b9d3f60a9a4439b952aabe6994040b1c2291609e31e1aadb2a"
+          }
+        ]
+      }
+    },
+    {
+      "path": "CURRENT_STATUS.md",
+      "original_sha256_lf": "0269e4cc96c2b113cb3a2c5a2ab5bd53867e9020696db841738f95cdcfa1bbea",
+      "current_sha256_lf": "80795a8597ac65248fa2183c4fbe7258282b2763a4d840f26386d10b5053657b",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/0cd64251bb22352d071c.json",
+            "sha256_lf": "06a70135e469f042dfd60d138ad0c8923f6d1d5906e23ba57138573d44bea2d3"
+          }
+        ]
+      }
+    },
+    {
+      "path": "README.md",
+      "original_sha256_lf": "cd77ead36194f335ee0dd8e957d2054288a3fe1fdb5f339f75d270809c77fdb5",
+      "current_sha256_lf": "41a7667fdd3a041f19b3f060208e3ee98c519cd2250d7018e90509bf5337c31b",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/b335630551682c19a781.json",
+            "sha256_lf": "aa999d6723aade051588c2b3adc68841143b89cb6d14491220b6ce6dadc1449a"
+          }
+        ]
+      }
+    },
+    {
+      "path": "START_HERE.md",
+      "original_sha256_lf": "ec4c59d1bf69901f9badf174a77f78f7589b1a018162fe66f677a8457ee62e3e",
+      "current_sha256_lf": "bbf44d106064cdd8747ccf3bfd4d70cdd5e0809e316e63e562d13253719d2066",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/27f4c1eeb6dd4713bbe5.json",
+            "sha256_lf": "25b7c3510bc327189a9a5e4ad99766c25dbaf838b39e42e3de25f57b1475c102"
+          }
+        ]
+      }
+    },
+    {
+      "path": "cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf",
+      "original_sha256_lf": "f6dc20ba271b9483287e90db03f9a54a5c1d970604c357d67176d0b36b4fd65d",
+      "current_sha256_lf": "6595ee1c81d8987629ab3ecab5efbced4b186a2928bbe255748ba4fb4f79f877",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/468c10020ac1aa56a4e2.json",
+            "sha256_lf": "6e5f40f6c89e2a6004f343551d9a2c6a9ab601e3238558fb944c179746a82620"
+          }
+        ]
+      }
+    },
+    {
+      "path": "docs/explore/repository-map.md",
+      "original_sha256_lf": "ae205153b1e17d39d90f1549f020324a277d170037065d1706b3c4af65471bd9",
+      "current_sha256_lf": "d4176f872150050d37b811ca750c39425865f3ea8b684d988640380775eb8518",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/db9692c923acbf3ab8fc.json",
+            "sha256_lf": "092eebb6862638093d0c8d4df2adbb85354e8a3574b1282238664f9b6eb2e4d2"
+          }
+        ]
+      }
+    },
+    {
+      "path": "docs/explore/reviewer-guide.md",
+      "original_sha256_lf": "3d562101f3f863811df5220f475ef9d6a8b3f72082a6a9b6aeff89a71e585e08",
+      "current_sha256_lf": "93b0b7f121022b8fbd005c94b8baaf69a4a87238c5dd2cfa7108a48b4dd8c877",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/97e61b5b3918d226d4ec.json",
+            "sha256_lf": "5660ef451a47d6e2ba035f76dfeb2c2498bf715fe7ddea7bd7252fa7533581f1"
+          }
+        ]
+      }
+    },
+    {
+      "path": "docs/stage6/release-contract.json",
+      "original_sha256_lf": "6adb943caedf99b9cf100e98cf0fca3226dfd8b9fda44e057d733274bbea2a51",
+      "current_sha256_lf": "84a347a76083e1706a880b42e1500280203f74f0e84cf2eabb0cb0768922d5c2",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/8d83b3ded453ee58ac80.json",
+            "sha256_lf": "2f62dd50ce3365ab4c2fcee990d2299da6c409336c7ef488627d74aca65307b0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "docs/stage6/release-notes.md",
+      "original_sha256_lf": "876cd75c59d9e1ba6017da62337c144c8aea198f4683bae674141dcb9b811d91",
+      "current_sha256_lf": "08ef022d87db2eca56bfa7fd381de074b1ee3bd9b8ce263d40e6b144925a6837",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/cfb3669bee5e665de1e9.json",
+            "sha256_lf": "00bf5381279efd609826b0659fbcac441551866fe2d5b1f86597ae67b2b87192"
+          }
+        ]
+      }
+    },
+    {
+      "path": "docs/stage6/release-plan.md",
+      "original_sha256_lf": "fec20dca8081884fee5a7686c3346e268f9ec24e8eafe9211d43331c9698232a",
+      "current_sha256_lf": "03591b074a166cf99bcf1e546aba50803a5c7bbdf2ac00b202ae0e342a02717e",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/7be62b06b3481a2c581d.json",
+            "sha256_lf": "367c340d02a210b19d6f0457363b05959f202d305d1efe335146312c6b9654c4"
+          }
+        ]
+      }
+    },
+    {
+      "path": "electronics/exports/scci_rh_reference_schematic.pdf",
+      "original_sha256_lf": "2d9e236e7da1fa040e540d38b6dc1226171c52c8986ac536a29c5d4ca2ac61ea",
+      "current_sha256_lf": "3f777ff8bdcdd9278e4527bf2bfa60c2c3ecf39d08a292cd1b0b6bd1199cf26d",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/a2f54450ceee5083e7c4.json",
+            "sha256_lf": "c87789cfcdf4ef038b9ae7e50e468b901050c421987d9c2603e882b986a9a61a"
+          }
+        ]
+      }
+    },
+    {
+      "path": "electronics/stage4/contact-router/contact_router.pdf",
+      "original_sha256_lf": "6335988e5f2603095754af1f0736a2195e6e3b46c48be3f88cbbf85f4e7f1e96",
+      "current_sha256_lf": "a2a662d15e98e625af497d32a60599bbf0d2ee7a4691d2e587dc5ee0655b7fba",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/aee8aa4d129b86db30c3.json",
+            "sha256_lf": "57f28e95573f721a4babcf629712f4497fe38b5f4b5e3fef4c9d472c77f94be0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "electronics/stage4/controller-carrier/controller_carrier.pdf",
+      "original_sha256_lf": "32a38e73087f1f5cd26591e4f60e1d294cb0c59b69306b6a7793cab5f59f74aa",
+      "current_sha256_lf": "3938e60c7b9d285f848ce5c1e72056d9cae8f2f5bbb53981de7c6fcde5dd875a",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/53af8c7360190f18fac4.json",
+            "sha256_lf": "32fdca37a066e403922995051e9815d306468de3f63683431a2eaa48e766f173"
+          }
+        ]
+      }
+    },
+    {
+      "path": "electronics/stage4/current-driver/current_driver.pdf",
+      "original_sha256_lf": "e630cc0a5e315bba0d55199758ad8328a436e67b0481fb74c9d93aed4d7f7d2b",
+      "current_sha256_lf": "f3032cac850e9e74461fdf7c998481c6f2126c88d55fe79d84ee67f07104dbaf",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/3b55ae2ea6fea31908b0.json",
+            "sha256_lf": "b4863e1ed218ef4c3073e9832f4edffdacf02280993a646fad817dd1d529927e"
+          }
+        ]
+      }
+    },
+    {
+      "path": "electronics/stage4/integrated-pcb/integration/master/SCCI_RH_integrated.pdf",
+      "original_sha256_lf": "e2c423b4c190b8de89bc3095088f7b1da13d7657ffec8ba9e2d18f389b650ce8",
+      "current_sha256_lf": "93adb9905e049856c16f00c420dc1a7f986b91c0e81dc94d638052c517f00d57",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/eb1a1bb53dd5bc0cd3ff.json",
+            "sha256_lf": "13b66625e1deb99de96365b37c5ba9f89fe67aa315b1bfd6fd2ebf335543a225"
+          }
+        ]
+      }
+    },
+    {
+      "path": "electronics/stage4/monitoring-cell/monitoring_cell.pdf",
+      "original_sha256_lf": "9f0abcce4622a3f329129e5a52b987557df65199a26a6e25f97ca26141f2444e",
+      "current_sha256_lf": "d64e6d52874f9e95e5624b580eb900ec38b69246173feba1306d7d6a39f48df0",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/58387b24e1bde3ad7ece.json",
+            "sha256_lf": "b964559356770429be6ce0f50d9b5421279fa3ab0f2ca2d3305f6509224d2fe2"
+          }
+        ]
+      }
+    },
+    {
+      "path": "electronics/stage4/monitoring-transport/monitoring_transport.pdf",
+      "original_sha256_lf": "db33c7ce8e69fcf2a6ab1ad9fb848ab77a28c31f955bf45f4ab03f4b16ce963e",
+      "current_sha256_lf": "93b4c3d022a0d3ec8b75c2fc0aebde560fb2717e9ca24dfa3b811ac9bacf1346",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/2c19496c8311e2675ed0.json",
+            "sha256_lf": "adaa525e2cfb3e7c20ca0e15a47db3a7728b0df1693c95f534ee2425fee4d7c2"
+          }
+        ]
+      }
+    },
+    {
+      "path": "electronics/stage4/power/power.pdf",
+      "original_sha256_lf": "e7426da0b05c6a417358114df9f4797e014eea7efffe9033c0478f0e50bac6b0",
+      "current_sha256_lf": "5f14e5462a1e8cce660e79bb0ac95a73e7e62744fafe2a758c0df9a202bd37ca",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/558a026adc6279ae3232.json",
+            "sha256_lf": "792b67fcc880d2405f67a406fc927d67275fa95bcba531ac8389cc5c40b9d251"
+          }
+        ]
+      }
+    },
+    {
+      "path": "electronics/stage4/recording-front-end/recording_front_end.pdf",
+      "original_sha256_lf": "5bc97c490a2a7bed8403f412079eba071fa57a1ba127a39ce4aa8a26b8ec0ed4",
+      "current_sha256_lf": "962fddf287c8b1e72c3a98aab6208867f8d0207964cb533eb887eaf99661829c",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/cd1a894947771ed3ebed.json",
+            "sha256_lf": "637f463ffc6f7cf64a5f2d1a1c8568b939e175100bf29b378193fc35c7e786db"
+          }
+        ]
+      }
+    },
+    {
+      "path": "electronics/stage4/supervision/supervision.pdf",
+      "original_sha256_lf": "8b71851ee8fa83484ed5f7a3abb1519cb5d7a1772e11c4da42a0d67b58b238f2",
+      "current_sha256_lf": "bfb0106ee6104ad1e7dc45f0985a1d501aa9093218fc556bae4add4542ecf5c1",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/151e96331f8b8d705d43.json",
+            "sha256_lf": "bceb4e60b29e4c5b05879ea9960c5254b906184ec7fb29f134d7f16f4b6b1b04"
+          }
+        ]
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/artifact-manifest.json",
+      "original_sha256_lf": "cb2737e394c8ad75e923fc9d296924a50b353483a45b13a0356237df74c509f4",
+      "current_sha256_lf": "3ecc3ffc102c1d0331bd55ad8813ce7bdcfeef278923de8cbe8de589e780d7c4",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/c1f4b2f81fcbd17c5600.json",
+            "sha256_lf": "68a2e48538c500af6c768e8bc367c7073050bbbeeacc5102018eefa4b20480d4"
+          }
+        ]
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/preflight.json",
+      "original_sha256_lf": "09a3420045af0eb80c77d7a388dd43e3229c9d133647291d874984f7f5623dc8",
+      "current_sha256_lf": "c98bbe518a79ea567a79fe5e4ab72225b7890400051f1c98ff076d33670a6577",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/9c4eea694c9dc8bb35a7.json",
+            "sha256_lf": "f5a5c8b9bb4a546d3347adcd52a088db1fb8eb9522bd1f87d47c98d4f8dfae66"
+          }
+        ]
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+      "original_sha256_lf": "b0a044ca0c152a1013bd874c16d32051fac35dad54f947acdda38e19f0b96a3d",
+      "current_sha256_lf": "9ccf46f4b76495de96f29232ce6cf4f92495b5c0ff872f9cbafb9482cdd0b1d9",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/a60133b2fa89d783576e.json",
+            "sha256_lf": "3d87f75d5cf54f22cddc97254fce830935973a0f98fa21a5ee0f3e999b0de70e"
+          }
+        ]
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+      "original_sha256_lf": "43e5252fb9d1a852851daf216d04c9c4c2e0c072d81eb58081c1d057fccb493f",
+      "current_sha256_lf": "864ecf782a0a67243433a6dcdd0f530c05fe3f3140b5500daba1347f43f5f885",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/7fc2b89a7a6f065fcae1.json",
+            "sha256_lf": "9da89bfd50f0758b96de8180c1fdf762a518e2579868e6f70c1df3f2dc8e9375"
+          }
+        ]
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+      "original_sha256_lf": "e595d1654bd30149b79583650feeebe394714a7d0a0eb78a60b14f9fc27d32c2",
+      "current_sha256_lf": "818c34f15b8e41fc1be0c59a602417d9f8f6185a85f750d3c7b6ebdb27443a86",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/04bb3301708a54bca23d.json",
+            "sha256_lf": "fe7cbc4114ffc4d7c7d05b1de6e89f327f04572629066abdbff3cc7e4cc50086"
+          }
+        ]
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+      "original_sha256_lf": "809b79a1608651024b998bbdfba0299ace343371831dcc7b76ff5394c8b40777",
+      "current_sha256_lf": "564ef51ae35dc03c664da1f697edcdefb484a5bce96fe00d5f725f2992055b9b",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/3f42494485cc1efa5c7f.json",
+            "sha256_lf": "1d16e16e8ebe70d4c86205c54913bda0928b397d752ace32a9aa4809a0bbcb4a"
+          }
+        ]
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+      "original_sha256_lf": "fe3bff0e1b02e4a89cf5087ff6060bcbce0715c2d315918c04dcb0b7676af845",
+      "current_sha256_lf": "d4114bf6db57c1b6695e5be503ab3e10139f1a99d38e11d14cc0bdb239c85427",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/ed2596b2fba61861c6cb.json",
+            "sha256_lf": "65b4696823496f51f42c049a773ccb333ea4b484bc513eedc1fb55e30a8ebd95"
+          }
+        ]
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+      "original_sha256_lf": "9a9680789367acf26d31bde12c69b439d3a670dc3d18e0d94ca7c778c2b16130",
+      "current_sha256_lf": "2517fec982c5432a302d3badda902c872191e6073b52fc432c631828d12691ab",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/7266993da89c5299e679.json",
+            "sha256_lf": "4d894278eee5f1d2c3f1a74b307a02102b74a30e53dff918624edee3713bfd5c"
+          }
+        ]
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+      "original_sha256_lf": "1ae0f347b2420f9ff49397ee01c90c5ff14b42b93d85436ad03f9902fa2544a3",
+      "current_sha256_lf": "6d62e4ad0cc4e86b29cf6e0cb99fbec0e878e666d33bfb5b99c2d46d8ed69f0b",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/8254bd03db42a13a34b1.json",
+            "sha256_lf": "c4ae47c875f7da0397b14e415b3d15f9d0810d50e2240ed204c357bca6928d52"
+          }
+        ]
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+      "original_sha256_lf": "0800b78f432d9da4b847b1b11086cf996cf2bfbff92aefd41a0ec60d12a56eaf",
+      "current_sha256_lf": "87335704eb88bc2921c07c6f9cdd690fdaaf6403da5ad667ea100a1d0d5cf39f",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/d2f1bf3639b9226933cf.json",
+            "sha256_lf": "58ef4d70d6b69d15a0b70d7806c87ebaaf8c71b5c470d6362240b2b6b2ba981e"
+          }
+        ]
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/root-review.json",
+      "original_sha256_lf": "ef6495bef21aaf94e133d75754c118b9b1d778ee40d75b2f6fca41093d54c47f",
+      "current_sha256_lf": "5ec15f8734a70668739741087cbf05778589c816b19f051af7a276b13f703971",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/e18d2aabf481e0ce9717.json",
+            "sha256_lf": "4c3960dfa0ecfbee29eb810b2d37e91da27f9cf8f66bb05c63a282001affcf73"
+          }
+        ]
+      }
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/summary.json",
+      "original_sha256_lf": "ee4f989847e3eacb35e491431f9f3bac07bb4fb5baf6931781a1bd203e56d941",
+      "current_sha256_lf": "932ca9bc826498f38c27e4205f1c786a81663bde12623ce3f656f1270de91e01",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/a24f1fbde2c7f5f6e07b.json",
+            "sha256_lf": "daebaf9f1990b215031b177fb41b9e49c21003d024631c8a697b7dd527db6527"
+          }
+        ]
+      }
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/artifact-manifest.json",
+      "original_sha256_lf": "3e675e07c6292a0d551b324db57ccfc0e46de19e7753005dbf8753d1cf0f137f",
+      "current_sha256_lf": "91481a84507876f1474967a9ab19b1f7d247ecd6f6072c55d2deb6f3e7101a21",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/19792462ee57e03091ca.json",
+            "sha256_lf": "f7aa6cfd5a7c324f936003e81bbf614d0de96278c6cd8ad057e96cdf60bbc5a3"
+          }
+        ]
+      }
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-handoff-12oct.md",
+      "original_sha256_lf": "d434c5b3f07a924d24ccdb71f3a710e596154ff15f182a8445c4cc564fb22b8d",
+      "current_sha256_lf": "ab96013a0e06799e5a6cfa7239c2f4a2bc871f9dfa5dd032fc85fa187a61b0c5",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/546f83e716604b10301a.json",
+            "sha256_lf": "16924970e65c4a4eceb4ae4c5f90e9c27ef02d305dce5e86a031c4e3939ddcd3"
+          }
+        ]
+      }
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-saved-audit-12oct.json",
+      "original_sha256_lf": "a06d4071b12ba62e5f990a014cfb5c09bd55fad85f14dd80f3d26ed295b9b243",
+      "current_sha256_lf": "476a36b3e2731f30ac6269ffc5cccdf1e852a7fb98bd2c8a5f0a3e4af566d378",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/6a43f2b36b2594a3ffa6.json",
+            "sha256_lf": "5ab89d4a1732ea2e50bb40dac26d8c95781674ee1ee62c23fc2ec6882a142617"
+          }
+        ]
+      }
+    },
+    {
+      "path": "inspector/assets/cad-manifest.json",
+      "original_sha256_lf": "c9bd4da99ab4b7d6ed4f60cd0b4d29b5025b1d0b32a2ebdb17d0fca242562090",
+      "current_sha256_lf": "15e43b11a5233f23438ea5eeba9b0b669cf78eff225a29ba64b751eb88929982",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/8570b7d231fd6bb7c07f.json",
+            "sha256_lf": "78f519a9446f76684ff665cbdde48669cb76ebb9dee7194d6972e15183ad0e77"
+          }
+        ]
+      }
+    },
+    {
+      "path": "inspector/downloads/SCCI_RH_Integrated_Schematics.pdf",
+      "original_sha256_lf": "e2c423b4c190b8de89bc3095088f7b1da13d7657ffec8ba9e2d18f389b650ce8",
+      "current_sha256_lf": "93adb9905e049856c16f00c420dc1a7f986b91c0e81dc94d638052c517f00d57",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/f22238d8714fad67a817.json",
+            "sha256_lf": "04352f40580bf55ed79a8ee0c3dd2f1d42798938e7c6a7f98d1d851df33d7e1b"
+          }
+        ]
+      }
+    },
+    {
+      "path": "inspector/downloads/SCCI_RH_Mechanical_Review.pdf",
+      "original_sha256_lf": "f6dc20ba271b9483287e90db03f9a54a5c1d970604c357d67176d0b36b4fd65d",
+      "current_sha256_lf": "6595ee1c81d8987629ab3ecab5efbced4b186a2928bbe255748ba4fb4f79f877",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/3452f36dc71b9857ced8.json",
+            "sha256_lf": "1a1754288f63e9567ef6313046059cc668a210eb19d73705f6bf51f1a80c648d"
+          }
+        ]
+      }
+    },
+    {
+      "path": "manuscript/stage6/build-manifest.json",
+      "original_sha256_lf": "2c909ad83a1e77e4497f3f22536e1fbf48727e8f526ffb1efaabbdc57e48d312",
+      "current_sha256_lf": "bee388bd1d929cfd8eba241377fa51f435c0d5beb4b1e47d08779c5e79b18a33",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/b8b13726d8236fb312ee.json",
+            "sha256_lf": "2f8be2aa89e181871b1111c7e6d9ed68de7bd6ea87e80add20b850c51a316e80"
+          }
+        ]
+      }
+    },
+    {
+      "path": "manuscript/stage6/manuscript.md",
+      "original_sha256_lf": "805d9c5138ade770c13d5af177ee6e3de113dbb5a9a9ecc5b36faca8af5424b9",
+      "current_sha256_lf": "6ecb842975a8c8ab658903d34707987e2c3f8bee6f2708b54769bea142ccafc0",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/06da0b8961d9e535acd3.json",
+            "sha256_lf": "0aaa57d385c80adbcf23c5c2d76815225a01afe6586b21c4a84dcf55e48fb806"
+          }
+        ]
+      }
+    },
+    {
+      "path": "output/pdf/SCCI_RH_engineering_paper.pdf",
+      "original_sha256_lf": "9bcaa4f45959ea470f1af59f1865b3e963432c799e2a6058777a19f520bee8df",
+      "current_sha256_lf": "8df1eb9c9dc9ed217933c9f80db0f96071e90c60cf26586b800a6f9f59f1896d",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/457e47935a3845f002ed.json",
+            "sha256_lf": "e1b9b436a930eb7ee506c8e43ca97c1719e9172e8aacd5bdb8e195788f05ab91"
+          }
+        ]
+      }
+    },
+    {
+      "path": "output/pdf/SCCI_RH_stage1_system_specification.pdf",
+      "original_sha256_lf": "ce4e1532ce9f3b0fa25240274c9c90a5eecbeba489bfac6459ebb8b7c24ec12f",
+      "current_sha256_lf": "bd2b3ea2e6971d9a10014f607bbc1486d2b9e1192605c0086e1c4e3b27432f5d",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/bd3b7802120b545bb5c9.json",
+            "sha256_lf": "2189ffee5375e96c85180fe10b4429a3bd1c93f3f990f3cb8f98fb18aa10073d"
+          }
+        ]
+      }
+    },
+    {
+      "path": "output/pdf/SCCI_RH_stage2_architecture_budgets.pdf",
+      "original_sha256_lf": "b6bfb20064c9057c4caa944f1e788032af4e491539cf7747e85a8f51d6484c44",
+      "current_sha256_lf": "13929a979ab7e839652d7c8db658e4e62cf9a4ce995ede33e4dc8676905cda79",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/caa9e3bec6b3cea8c1af.json",
+            "sha256_lf": "d1234cdacf71c223c8c71f66188d81000c36394414a5880ebf0d7e128aff7fa5"
+          }
+        ]
+      }
+    },
+    {
+      "path": "output/pdf/SCCI_RH_stage3_closeout.pdf",
+      "original_sha256_lf": "4b8e2e640ead23e0065028011c3bcbf1ddb54751ad86f75f8b5afd37a00a5089",
+      "current_sha256_lf": "10fc08f9f8c169f349a96c39b30ef9de789a7d3d36dadb3d03a5e78eb3dcb081",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/b4b7cb42c5e70a280c16.json",
+            "sha256_lf": "7dc55a2422ac39ac47264bec919b4fc9bb2b0421481d1c5bb9cf1fb16ee0de82"
+          }
+        ]
+      }
+    },
+    {
+      "path": "output/pdf/SCCI_RH_stage3_mechanism_revision.pdf",
+      "original_sha256_lf": "699d61540f6f8868ffcaf3b2dd4990dbbac9c2dfceeed60ca68f3b8ac2d5bbaf",
+      "current_sha256_lf": "66fb5a1f515af5ae8bf8d5b243147ea068bae985e90aec285df70c9d8457355d",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/9755d21395a5075e5197.json",
+            "sha256_lf": "359e3af2e0ab6157ef9856a9c3a3f12c980754ff4f4e96ad30ad83e2afc6b922"
+          }
+        ]
+      }
+    },
+    {
+      "path": "output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf",
+      "original_sha256_lf": "dda37c7c78e64a2d9cd9da22429cfe508cc8c4ab87a5263f633ced6f51be6ff1",
+      "current_sha256_lf": "a75a6ce98fb34d0b5631ecbd4819bbdb8c77bf5b1825070de074ace38b31f7bb",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/d616a06a78dda572558c.json",
+            "sha256_lf": "acf7bd38fbc576cc90f935ced7a503471043169af88f62290a121ae103cd133b"
+          }
+        ]
+      }
+    },
+    {
+      "path": "provenance/stage3-closeout-review.json",
+      "original_sha256_lf": "2cebc7e53ad2aff87a44fd12fc39a2c902e519437b86f538da2bfdb7648a0b5e",
+      "current_sha256_lf": "de96ae0e7cfe15d0cd7acda9405c0b273e8db599f7588f648d77b501f4375667",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/fc305d89762a0fc358a7.json",
+            "sha256_lf": "14e9c4d3eb2772f02781e2b304758c0162698ee4baa22499707dc4998809a474"
+          }
+        ]
+      }
+    },
+    {
+      "path": "provenance/stage3-continuation-verification.json",
+      "original_sha256_lf": "6bd963bcd4a43e1e9ad91fb0040e6f1623d62a6de2607154370599394ee1ec6c",
+      "current_sha256_lf": "53144049b557439c698c97382489e573b32d0c85c60ff2ac00b97bf85109543b",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/94ce63340765b8933fe5.json",
+            "sha256_lf": "e593c50bf8adb21f243df32f51a79360a618ba8c942dbf03f5cbd08fe7dc35f4"
+          }
+        ]
+      }
+    },
+    {
+      "path": "provenance/stage3-frozen-pilot-independent-audit.json",
+      "original_sha256_lf": "6ee1045479136fe96d6290c6c3ccbcb8d8a8eb03b2c0b11a08f32da85182a6b8",
+      "current_sha256_lf": "7512d34c9cbb16150c74b41b5dbd7d192b8cebd5209a9318416aec4f75099bec",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/878371896fc7fadfedd7.json",
+            "sha256_lf": "3096b4532e8246041f9046115d98baf3847022cdf2e864cfa239d1713ffd6c13"
+          }
+        ]
+      }
+    },
+    {
+      "path": "provenance/stage4-integrated-pcb-verification.json",
+      "original_sha256_lf": "9bb78e27f09a2f59094672e96155bdd673299f9577b463cdd108b848b494ca5a",
+      "current_sha256_lf": "3cfb738f01a08bb1eb2a33dcdbb35a0b0d5af5444c5f487389e6fb549cdaf582",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/81d2dbf26be6f9d25dc6.json",
+            "sha256_lf": "f4dcee506ea2cfaf7c7eb4a94a98d41bfb5c69c3e3e3feb9faf86459067b254f"
+          }
+        ]
+      }
+    },
+    {
+      "path": "provenance/stage6-document-review.json",
+      "original_sha256_lf": "4463e12ca64af2197d44eb5e212c8279b8341b350914978a0baa3e5d569e8cc0",
+      "current_sha256_lf": "05c02fc9ebb315f3b8e7ee1e89686dd564631741de829e2550e052d1fc502ee5",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/4c1181f1c47048ee0b6a.json",
+            "sha256_lf": "0b91d9d756dd05f957f0fe7221fafba50588e7793f778c524279e697fa4dc628"
+          }
+        ]
+      }
+    },
+    {
+      "path": "results/stage3/dynamic-response/dynamic-response-summary.json",
+      "original_sha256_lf": "738f4ccd85fb6aff4b897d033651b6282d45be924c9c6ef707184d884f772ab8",
+      "current_sha256_lf": "89a8755105089e80f3c1758432d83f4b22299b0f2fb381fc906486c8781c8281",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/2b7de6de6f4a5b1abff2.json",
+            "sha256_lf": "60d493482cadd4b7bc449f53d32275c42dd93d9baa329b91929a7a675d821342"
+          }
+        ]
+      }
+    },
+    {
+      "path": "results/stage3/isolated-pilot/raw.json.gz",
+      "original_sha256_lf": "9db52270a6a6c017486389c9238ec7ce7837f8be99361077a5895981b91c3c6c",
+      "current_sha256_lf": "c6fcf9de6b12d8b3e1ab682d8dfb4fbe52b9e9bce39045c6874abb234572809f",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/96a75220f8eece9e564c.json",
+            "sha256_lf": "f673e5d3d5198f88fd9ee2fc229239f01006931fe90792a4fb2fc412c6b6474d"
+          }
+        ]
+      }
+    },
+    {
+      "path": "results/stage3/isolated-pilot/summary.json",
+      "original_sha256_lf": "307322f927a083f5a733b58f5ccaed5b9b83acd09aa43414866fea1b8081056a",
+      "current_sha256_lf": "536ce8fb18f41278827c1e618013df3b9ad43b0be2e92d27d22a974c09ea9edc",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/27bc9223de99c2ed7ca6.json",
+            "sha256_lf": "9e9aafa5112e97f2a643e906eb77cc1449751892d9c44cf2e8a3054ab6f98a98"
+          }
+        ]
+      }
+    },
+    {
+      "path": "results/stage3/sparse-baseline/raw.json.gz",
+      "original_sha256_lf": "e76fcd2340390a89f4503098b0662e1da2b9fdaadfe56c2d9ecdf2900cebd359",
+      "current_sha256_lf": "b50c5c7ee196af4e68dfa03fd1a8ffc4d907833f46a02e90a96c1e754d9bb284",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/215bb21f71fdf12d2d90.json",
+            "sha256_lf": "682a8c781958530ddd6c3fbcf23f976bf55b725aee0cbdee10547a74f4131aea"
+          }
+        ]
+      }
+    },
+    {
+      "path": "results/stage3/sparse-baseline/summary.json",
+      "original_sha256_lf": "63d113490fd21c1f5ddd9a500530f5bf1bfeccf896c9c10ec871c50f985a015d",
+      "current_sha256_lf": "1da84d63f157e0b614df9db890c6fb846ad9140f79201e282c8ef8aa100a266f",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/3eba88bf1e46adef6390.json",
+            "sha256_lf": "09099a928331aeef02737d2b209861bf0882f87baf54ca0426427fc35e5e617a"
+          }
+        ]
+      }
+    },
+    {
+      "path": "results/stage3/teacher-library/idealized_inverse.json",
+      "original_sha256_lf": "95c552f63bcb5407a3256c4c593095712d413289f5339e17e522183b61a93d39",
+      "current_sha256_lf": "b9d68b1a496271c83578e8e0d5a1b9d65fa67197b9ea48e9a0ac595a826e3f26",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/ff507b7c21d938da5f7d.json",
+            "sha256_lf": "1bd2d42f01d2547522084fc477472884bcb5b9d185fcde783aa5ca930acde30e"
+          }
+        ]
+      }
+    },
+    {
+      "path": "results/stage3/teacher-library/legacy_voluntary.json",
+      "original_sha256_lf": "c3a7e66ba133222991800ac356373f624def1271128bf787b1c755723148a7b7",
+      "current_sha256_lf": "08fc2050c6f61519f36378b77771841d2637d192c7d245c033d46c24acef0d49",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/cfe20a0a667c9fbf083e.json",
+            "sha256_lf": "06ce744ed0aa1d3b979afa1c7066a3a0549a871b8546c266e86cf663b04f8bf0"
+          }
+        ]
+      }
+    },
+    {
+      "path": "results/stage3/teacher-library/teacher-library-summary.json",
+      "original_sha256_lf": "7eff0b91525fc12f7bb8ddd5246ecb4d2c5ed6de5ca4a343cd5af888b8b03c34",
+      "current_sha256_lf": "99be0ca4baeadca2e415fdba3db9c00244b978e7ea1eca2624dd1bcbe2f480ef",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/3bbfb448b221ba03bac5.json",
+            "sha256_lf": "814856bffe1fc66dbbfe5429f0b8a75ffbbdbb788d1215f1406968e827e3f8d4"
+          }
+        ]
+      }
+    },
+    {
+      "path": "scripts/audit_frozen_observer_pilot.py",
+      "original_sha256_lf": "718ea49e9b9bd605034e0fd96deebed1cd3cfce7c67b1bc3b3e693fd98c095a6",
+      "current_sha256_lf": "b0602a3c4b2066d9d308376d95a70e861d9b76893a86b4f5c011fbab303388c0",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/e7a5d814c3a0fc21f592.json",
+            "sha256_lf": "aa7b437d02c9ba2c38ae6f4a19b79bfdb098bc94111bbe489eae9f9d42c2845b"
+          }
+        ]
+      }
+    },
+    {
+      "path": "scripts/inspector/build_cad_assets.py",
+      "original_sha256_lf": "7015a156cccf8451a3b76e5a636bad6ddff4a4c13128bae03d0e4a95ee51e18c",
+      "current_sha256_lf": "85a4b9e83888087366a8dd2e03c9e228bcadc7b1c072c800b1ffcf082930a3b7",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/a9e543fdb8b0552515e0.json",
+            "sha256_lf": "23a9aa7589031c9dc78e1094bd248cfb34398e7da646c264267673c72f47e697"
+          }
+        ]
+      }
+    },
+    {
+      "path": "scripts/inspector/build_catalog.py",
+      "original_sha256_lf": "c8f060666a1c19a311ad2bad874f90978af60b79fa174af46d5fb253f2b09800",
+      "current_sha256_lf": "e9e95992ce36463a31c85a8836ede002e97a88848e4ea104094b4c1b84a92235",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/3ec130e776ceb9a24b56.json",
+            "sha256_lf": "fc0ee4706aff3069aae3bc1221187ede4eecdf01fd99952f6e4d4bc995c46c51"
+          }
+        ]
+      }
+    },
+    {
+      "path": "scripts/review_stage5_delivery.py",
+      "original_sha256_lf": "9625143cdc1dad9327b6ae8ee29d4fcf6390f69f8a106face1d2fc1b1945ddf0",
+      "current_sha256_lf": "74f60dff6cfd6cc021a9b58bb34e862ae2a6b2167f1a80ac6bcc597ee162ac7c",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/8b13da7b10ee3afab7aa.json",
+            "sha256_lf": "da5643add03f98de35089df7d7254036c53e83b0e21036140d2c4e28b648d52d"
+          }
+        ]
+      }
+    },
+    {
+      "path": "inspector/assets/catalog.json",
+      "original_sha256_lf": "e5e7fe9286fba700b02e1c49a555ba41bb8d271c6047cd97e0105ef3621a19c8",
+      "current_sha256_lf": "284dd4a970b82779c337ef7f23fb73fa25a2278a46a4aed741f27bfea1a78933",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/b2acd3279c2169d02fa4.json",
+            "sha256_lf": "c5f15464beef1bcec62ca64c2c4c6138d332dcd0bfd56495d9120b24297c057d"
+          }
+        ]
+      }
+    },
+    {
+      "path": "inspector/assets/downloads-manifest.json",
+      "original_sha256_lf": "8c4a02f27e44e2d4eafd341feb5258315b5c6dcf90674639ba7a5405db6f3ea4",
+      "current_sha256_lf": "06cadd1cb8f079cca123c013b04784d2264bab4311a31405bd3435246db9eea6",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/5174ca2f9b75a80377dd.json",
+            "sha256_lf": "c1a184441028f20c34487a48513c60321953f77376410ae223f684d6b76517d7"
+          }
+        ]
+      }
+    },
+    {
+      "path": "inspector/assets/inspection-manifest.json",
+      "original_sha256_lf": "489d7b19a5fd46083bb6481b6252fcd06dccbd968c2930aa2414bce2ec49d020",
+      "current_sha256_lf": "0737a4100fa4cd10332c95d52bee443e30e09e117b0a2b10c383c61967afa793",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/9a3463a7ab71c7cb2f25.json",
+            "sha256_lf": "32deb06787f976ab442451664461effd88d2f5442f6b1b68dd4c5aedf941bd32"
+          }
+        ]
+      }
+    },
+    {
+      "path": "provenance/stage3-revision-verification.json",
+      "original_sha256_lf": "15cb4da9625575f77229a8f879834af2d9ca90e77a7d9ba0dac4af0ec1c56330",
+      "current_sha256_lf": "d3d3bfc8e92c652f9088a99725955aa91951de3c5f974bb1ec97bb9a8e7fc214",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/e1907194594a62bcd9ed.json",
+            "sha256_lf": "a23d6eb1ec60650654afaf62050fe58fd2919c35d5ff932f2df41eecd6e63660"
+          }
+        ]
+      }
+    },
+    {
+      "path": "provenance/stage5-delivery-review.json",
+      "original_sha256_lf": "59651cb641b0bf9a462ab772e97e5cf2e80c57dbb29305589a71dd0586af1c13",
+      "current_sha256_lf": "74aa10870d57c5cd36460d1ddece771db028d5588a0efc75e972a5217de4cd5c",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/47844081edc063773b92.json",
+            "sha256_lf": "5e21b5759615ce0009e92abf7916553013e52b06b816fdb2e9ec5c1536196e26"
+          }
+        ]
+      }
+    },
+    {
+      "path": "provenance/stage5-mechanical-verification.json",
+      "original_sha256_lf": "74499c4f9fdd3d17e6a109aee0f8d8af2af3ce56e002b55117381abdd2c6a4e2",
+      "current_sha256_lf": "fb904725f9d1a1b986b940ab2230983d78d24c4b050c997841eb5d28fbe88598",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/23f7a1719d31910b1e00.json",
+            "sha256_lf": "63d6db2342a8f48a96fb345d7fc90034c5f06251b1803abfa6b46b5ad82a532a"
+          }
+        ]
+      }
+    },
+    {
       "path": "provenance/browser-inspector-verification.json",
       "original_sha256_lf": "2d979c653f702ad9501f82270344223ce6a7e750accb1b3e286ba73d000611b6",
-      "current_sha256_lf": "d661d333a5000365e1adc5c08fc5c9eab09ca7f75ee25867b28b4d3fd79ed263",
+      "current_sha256_lf": "0fc91b2bdd2f18b06c1b4579960d006896657aabdefe3c1b0a9d90fdaca6be19",
       "validation": {
         "passed": true,
         "method": "explicit_digest_bound_regeneration_or_review_evidence",
         "evidence": [
           {
             "path": "provenance/project-name-derivative-proofs/0b729a13469484ef73d3.json",
-            "sha256_lf": "c927b908bc7f8ba92f8205954373a802cd873f1eadb3a96d7e90f67e883ae5c6"
-          }
-        ]
-      }
-    },
-    {
-      "path": "provenance/stage6-release-verification.json",
-      "original_sha256_lf": "54202eac484ad17ab32904539fab4ae3e94e1363c0852c203e6ba42a94b2765b",
-      "current_sha256_lf": "5cf04e82d429037ef128e27c46dc2193531ef038248442cea8bbbe5cd4b361f5",
-      "validation": {
-        "passed": true,
-        "method": "explicit_digest_bound_regeneration_or_review_evidence",
-        "evidence": [
-          {
-            "path": "provenance/project-name-derivative-proofs/446503c8203e34fd72ac.json",
-            "sha256_lf": "33a3dcf84b7a705a25a11b02a043081cbcfff3c0f5a5d41c8a5f60fd2167c74f"
+            "sha256_lf": "c8cb909e111da33b274b0ddfb29cf65362924b1e5bf43618abc3fcdb4a397a92"
           }
         ]
       }
@@ -12155,14 +12245,29 @@
     {
       "path": "provenance/viewer-navigation-verification.json",
       "original_sha256_lf": "874b17c502f22b7d735af597b0ce59a19aceb5a6a6c69f4cb413c7b6692ced5d",
-      "current_sha256_lf": "4ec80ebea602858feaaeae7d5c780f5a477ffcc577ff243aba7a657edb966034",
+      "current_sha256_lf": "919d5d8642e239b3a39260f0e226af1bfada0846acdf575f88b0643182bd29ac",
       "validation": {
         "passed": true,
         "method": "explicit_digest_bound_regeneration_or_review_evidence",
         "evidence": [
           {
             "path": "provenance/project-name-derivative-proofs/550be7d8950551fc5657.json",
-            "sha256_lf": "1c120e15eb2030c4fc468d1d4e0d806e45113f41fcae25a63e91325fdfb231ee"
+            "sha256_lf": "151f498f885dea4d4ccd967367dd50c8f55120804d76de4bbf3d38413bbcb078"
+          }
+        ]
+      }
+    },
+    {
+      "path": "provenance/stage6-release-verification.json",
+      "original_sha256_lf": "54202eac484ad17ab32904539fab4ae3e94e1363c0852c203e6ba42a94b2765b",
+      "current_sha256_lf": "0fae30ff942b7d839166d9bad9cc2379a00b27bc81dbc478c003dad1280147ca",
+      "validation": {
+        "passed": true,
+        "method": "explicit_digest_bound_regeneration_or_review_evidence",
+        "evidence": [
+          {
+            "path": "provenance/project-name-derivative-proofs/446503c8203e34fd72ac.json",
+            "sha256_lf": "6df520da74d24091ef2b58e2feb62d8041603d1e8df0c48fdad669b9b604fff4"
           }
         ]
       }

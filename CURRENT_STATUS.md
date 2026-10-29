@@ -1,12 +1,12 @@
 # Project SCCI RH: integrated digital completion status
 
-Updated: **28 October 2026**. Current engineering release: **v2.1.0**.
+Updated: **28 October 2026**. Current engineering release: **v2.1.1**.
 
 **Reader navigation refreshed: 20 October 2026.** The new
 [Explore hub](docs/explore/README.md) provides visual guides to theory, CAD,
 KiCad electronics and current firmware. This is a documentation/navigation
 update on the default branch; the paper, native designs, firmware and published
-v2.1.0 engineering artifacts are retained in immutable Git history; the current files carry the new project name.
+v2.1.1 engineering artifacts are retained in immutable Git history; the current files carry the new project name.
 
 **Browser inspection added: 21 October 2026.** The
 [public build inspector](https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/)
@@ -49,7 +49,7 @@ from future vision to inspectable engineering, with explicit credit.
 | 3: computational mechanisms | Conservative qualification investigation closed with interventions withheld; separate conditional concept, 128 scenarios and favorable/neutral/adverse OFF learning |
 | 4: electronics/firmware | Eight routed native boards; 80-sheet master; 1,298 positions / 1,296 fitted; 4,781 pin identities; 21,039 segments / 2,335 vias; source-bound zero native ERC/DRC/unconnected/parity/ignored findings; actual carrier-specific linked image |
 | 5: mechanical assembly | 260-part combined native reference; actual board scale and 32 mounting axes; 83 mating housings; separate 230-part future interface with 36 ports; independent native/STEP/interference/clearance evidence |
-| 6: integrated manuscript/release | 28-page illustrated paper, 18 references, 30 scientific/design claims, all 36 requirement dispositions, production-core digital replay, defence/contribution material and reproducible versioned release |
+| 6: integrated manuscript/release | 29-page illustrated paper, 18 references, 30 scientific/design claims, all 36 requirement dispositions, production-core digital replay, defence/contribution material and reproducible versioned release |
 
 ## Final integration results
 

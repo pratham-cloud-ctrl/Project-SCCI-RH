@@ -14,7 +14,7 @@
   },
   "scope": "Visualization derivatives only. No physical, manufacturing, anatomical or biological qualification.",
   "exporter": "scripts/inspector/build_cad_assets.py",
-  "exporter_sha256_lf": "0fcbb9a18d8a89d12eff74abbcb0709e6311ad50fb5909726617868eaad26c60",
+  "exporter_sha256_lf": "85a4b9e83888087366a8dd2e03c9e228bcadc7b1c072c800b1ffcf082930a3b7",
   "reproduce": "& '<FreeCAD installation>/bin/python.exe' scripts/inspector/build_cad_assets.py --complete-reference-step",
   "models": [
     {
@@ -17732,7 +17732,7 @@
       "allocation_parts": 0,
       "inputs": {
         "electronics/stage4/integrated-pcb/exports/recording-front-end/populated.step": "fbc5878132fde732e141ec2146dca31b9b2bf8581af18ab782bb5430c3975685",
-        "electronics/stage4/integrated-pcb/exports/recording-front-end/export-receipt.json": "e89259c2b0318a89c949e3ff56709922d374b0318fb81df04c58cf59d86d3545",
+        "electronics/stage4/integrated-pcb/exports/recording-front-end/export-receipt.json": "72c437ebdc7c4e2c9b5b3911292c6bbeaac85cba7f6668bbde14eeafa782efe4",
         "electronics/stage4/integrated-pcb/boards/recording-front-end/recording_front_end.kicad_pcb": "5cd64396fc8a0f562a2deb5d02d0556e189533b5a653dcac482aa238b09c664c"
       },
       "native_geometry_valid": true,
@@ -22269,7 +22269,7 @@
       "allocation_parts": 0,
       "inputs": {
         "electronics/stage4/integrated-pcb/exports/current-driver/populated.step": "5f6d3b11f88a4778a733e75142d26aae26efaebebddc4dd22f601a94b9d29225",
-        "electronics/stage4/integrated-pcb/exports/current-driver/export-receipt.json": "4c1a23061705fbf14c20dd14e0364bb5075a3f59594419c339cabde8f13d9b57",
+        "electronics/stage4/integrated-pcb/exports/current-driver/export-receipt.json": "025cb40d3de5ed4b0876877f7c0d049f9fab962768c30b01fda4c12baaff7864",
         "electronics/stage4/integrated-pcb/boards/current-driver/current_driver.kicad_pcb": "3017e903630d4de7ad98567914e51fdbd73766bab8be487a46bbf27d81e7f4ec"
       },
       "native_geometry_valid": true,
@@ -26838,7 +26838,7 @@
       "allocation_parts": 0,
       "inputs": {
         "electronics/stage4/integrated-pcb/exports/contact-router/populated.step": "e7693ec304c93162fffdcfe8ea65f06528c5ac9eb483f30d89f690eccab45982",
-        "electronics/stage4/integrated-pcb/exports/contact-router/export-receipt.json": "77bf40fc46d97db790fa1ba6459fb16f62f65bb37886fbdee5f140f53ccbfc90",
+        "electronics/stage4/integrated-pcb/exports/contact-router/export-receipt.json": "73b3134d05a7168b13ae10ee4e655860fb54d497680246f2ad2a3f8248302016",
         "electronics/stage4/integrated-pcb/boards/contact-router/contact_router.kicad_pcb": "040fdffc12fc0de29bdbf233bf44f12246ffb3d582307ac55b75330cbbec0346"
       },
       "native_geometry_valid": true,
@@ -40800,7 +40800,7 @@
       "allocation_parts": 0,
       "inputs": {
         "electronics/stage4/integrated-pcb/exports/supervision/populated.step": "d29140bdda3f57c6dd43d621d389aae04ed2edef23fda52a071b5965062a39ad",
-        "electronics/stage4/integrated-pcb/exports/supervision/export-receipt.json": "058c2a091a9e87d616af6c29b140eba66998c2ea8db2c074df5b70752c95a088",
+        "electronics/stage4/integrated-pcb/exports/supervision/export-receipt.json": "13510eb6ce14042805d2c17f9d4cbc8598c2b636d14e0ad7bc5f1bfba2397af5",
         "electronics/stage4/integrated-pcb/boards/supervision/supervision.kicad_pcb": "409919d0b44359008860d473d92eb6ac4944572a33c2ee322e8c331214563958"
       },
       "native_geometry_valid": true,
@@ -45395,7 +45395,7 @@
       "allocation_parts": 0,
       "inputs": {
         "electronics/stage4/integrated-pcb/exports/power/populated.step": "599cf8072a973fb3b5d8fe22dd7e22243dcb98f762ddb69658814c0e0aa44dc7",
-        "electronics/stage4/integrated-pcb/exports/power/export-receipt.json": "23131899439c2b8195e71a127b5094727e9f3e28b740ab756fe503e43dad3366",
+        "electronics/stage4/integrated-pcb/exports/power/export-receipt.json": "0097476a97eced97d330b1973d0c4546fddc0d5a954710474384b489ffb4aa89",
         "electronics/stage4/integrated-pcb/boards/power/power.kicad_pcb": "8f4345ae281f760bf0ba71ccaaa1dae4c78149dfb00735ff292df8a3c270b675"
       },
       "native_geometry_valid": true,
@@ -47525,7 +47525,7 @@
       "allocation_parts": 0,
       "inputs": {
         "electronics/stage4/integrated-pcb/exports/monitoring-cell/populated.step": "6b619d12130f320e515c1fea625d8bef4ea0f332f04700ac538a6309705c9c49",
-        "electronics/stage4/integrated-pcb/exports/monitoring-cell/export-receipt.json": "66a709a25d63154fc5aca97a45b19278d29f5047f02f7c8466cb7cc231c61017",
+        "electronics/stage4/integrated-pcb/exports/monitoring-cell/export-receipt.json": "b7ebb7c765c9b2a58c6c467ba2dd5ef0b67457a2121264cfd3226fbd0ac31d6b",
         "electronics/stage4/integrated-pcb/boards/monitoring-cell/monitoring_cell.kicad_pcb": "ca25226e48d4c896df76f7db9dcff2ba95e9f2687a6bbecaa85266162637b60d"
       },
       "native_geometry_valid": true,
@@ -49336,7 +49336,7 @@
       "allocation_parts": 0,
       "inputs": {
         "electronics/stage4/integrated-pcb/exports/monitoring-transport/populated.step": "576a653f0ec784a6ad53c70117b10b0ae27c062a1bb314520b1fe2ec049b28ab",
-        "electronics/stage4/integrated-pcb/exports/monitoring-transport/export-receipt.json": "3beaf6ed1d055bbeedb353b7b8f3248091cecd28fd8e925ee710e71de476f6c3",
+        "electronics/stage4/integrated-pcb/exports/monitoring-transport/export-receipt.json": "e0227196e40beb105899dcab416fea85ebdfb3f9c7f1dd342952c7880732571d",
         "electronics/stage4/integrated-pcb/boards/monitoring-transport/monitoring_transport.kicad_pcb": "f2108b0a497d907e0e97e0c79b97d76968a957076fc2ffeddb2f3cfbd50e6822"
       },
       "native_geometry_valid": true,
@@ -51379,7 +51379,7 @@
       "allocation_parts": 0,
       "inputs": {
         "electronics/stage4/integrated-pcb/exports/controller-carrier/populated.step": "45626fe2948522979ba715095dc42c84b8ec5419f2a43474908ec954be5d05f2",
-        "electronics/stage4/integrated-pcb/exports/controller-carrier/export-receipt.json": "35c3f3bd912f692c989f43387c149d3dfcc5b9e7208f553e862d2fca62fab047",
+        "electronics/stage4/integrated-pcb/exports/controller-carrier/export-receipt.json": "4cd7e0b0875040dc47a52e6141bbb70d655a19692be26fc9974d1c8e2362d9cf",
         "electronics/stage4/integrated-pcb/boards/controller-carrier/controller_carrier.kicad_pcb": "86880cccc4b28ab582e8aa62903fb25aeda830a7896317704110485c9246412e"
       },
       "native_geometry_valid": true,
@@ -51395,5 +51395,6 @@
     "name": "Project SCCI RH",
     "geometry_buffers_unchanged": true,
     "evidence": "provenance/rebrand-mesh-containers.json"
-  }
+  },
+  "input_hash_policy": "LF-normalized declared text inputs; native geometry and other binary inputs are exact bytes"
 }

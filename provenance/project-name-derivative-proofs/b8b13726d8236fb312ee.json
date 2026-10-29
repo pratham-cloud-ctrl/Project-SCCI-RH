@@ -5,14 +5,14 @@
   "path": "manuscript/stage6/build-manifest.json",
   "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
   "original_sha256": "2c909ad83a1e77e4497f3f22536e1fbf48727e8f526ffb1efaabbdc57e48d312",
-  "current_sha256": "764fd24c82b9247ba4a5bb484a84a97b6c2f3694a3839f34b6e6c749e5a7b28b",
+  "current_sha256": "bee388bd1d929cfd8eba241377fa51f435c0d5beb4b1e47d08779c5e79b18a33",
   "method": "explicit_digest_bound_regeneration_or_review_evidence",
   "scope": "Authorized name migration; no new physical or biological validation",
   "review": "",
   "independent_evidence": [
     {
-      "path": "provenance/rebrand-manuscript-regeneration.json",
-      "sha256_lf": "e82e5ae3e9de1c5d04091a9b5f852f529320017753446324cb26c8cd0b19bafd"
+      "path": "provenance/rebrand-publication-211-review.json",
+      "sha256_lf": "c2b0cefa63132920602d7f730c865a30f9076d8b7bf0edf339608651bc941b88"
     }
   ]
 }

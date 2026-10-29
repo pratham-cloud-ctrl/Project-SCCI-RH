@@ -7,17 +7,12 @@
     "Three nRF5340 target recompilations and independent ELF/HEX/BIN checks",
     "16 native CAD inventories; eight changed documents validated before/after",
     "Frozen numerical captures compared under exact branding and digest-metadata rules;700812Stage3 numerical values independently compared",
-    "All20projectPDFs reviewed;28pageintegratedmanuscript and80sheetnative schematics ready",
+    "All20projectPDFs reviewed;29pageintegratedmanuscript and80sheetnative schematics ready",
     "10source-derivedGLBs retain identical binary geometry; currentloader/source/archivechecks pass",
     "EightPCBnativeDRC/parity and80sheetERC returnzeroissues; nested integration/population/export/power checks pass",
     "AllcurrentPCBvisuals andfabricationexports regenerated",
     "GitHub repository renamed to Project-SCCI-RH; oldrepositoryURL301redirect verified",
     "Current chat renamed to Project SCCI RH"
-  ],
-  "remaining": [
-    "Finish aggregate reviewed-source receipts and final Git blob manifest",
-    "Rename local engineering workspace folder",
-    "Commit and publish current files, new release and Pages endpoint"
   ],
   "immutable_history_policy": "Original Git commits, executed historical evidence identities, and external recovery copies retain their true original identities.",
   "updated": "2026-10-29",
@@ -25,18 +20,22 @@
   "browser_interaction_review": "Not rerun: browser connection unavailable; actual bundled loader and structural/source/download checks executed",
   "content_complete": true,
   "requested_workspace": "E:\\Project SCCI RH",
-  "local_folder_rename": "Windows currently denies rename while the directory is held open; engineering contents are verified",
+  "local_folder_rename": "The canonical named path is a Windows junction to the existing data directory, which Codex still holds open; the original physical folder remains for compatibility.",
   "local_checks": {
     "stage4": 1375,
     "stage5": 10843,
-    "stage6": 1907,
+    "stage6": 1909,
     "reviewed_pdfs": 20,
     "current_artifact_proofs": 811,
-    "stale_artifact_proofs": 0
+    "stale_artifact_proofs": 0,
+    "reviewed_manuscript_pages": 29
   },
   "publication_targets": {
     "repository": "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH",
     "inspector": "https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/",
-    "release": "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/tag/v2.1.0"
-  }
+    "release": "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/tag/v2.1.1"
+  },
+  "canonical_access_path": "E:\\Project SCCI RH",
+  "final_release": "v2.1.1",
+  "publication_verification": "See the final GitHub release and Actions results linked from publication_targets; publication happens after this exact source snapshot is committed."
 }

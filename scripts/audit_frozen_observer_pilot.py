@@ -17,7 +17,7 @@ read = lambda p: json.loads(p.read_text(encoding='utf-8'))
 sha = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
 freeze = read(P/'preflight.json')
 review = read(P/'root-review.json')
-assert sha(P/'preflight.json') == 'fe4cb8297a2b8c63b876ad6eacf1fce56b3e9e057b7cbdd739c8e725f9dc4d92'
+assert sha(P/'preflight.json') == 'c98bbe518a79ea567a79fe5e4ab72225b7890400051f1c98ff076d33670a6577'
 assert review['authorized'] and review['preflight_sha256'] == sha(P/'preflight.json')
 for rel,h in freeze['code_bytes_sha256'].items(): assert sha(P/rel) == h
 for rel,h in freeze['bindings']['inputs_bytes_sha256'].items(): assert sha(ROOT/rel) == h

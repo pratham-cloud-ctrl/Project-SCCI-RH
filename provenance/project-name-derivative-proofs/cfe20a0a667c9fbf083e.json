@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "results/stage3/teacher-library/legacy_voluntary.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "c3a7e66ba133222991800ac356373f624def1271128bf787b1c755723148a7b7",
+  "current_sha256": "08fc2050c6f61519f36378b77771841d2637d192c7d245c033d46c24acef0d49",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-stage3-portability-checks.json",
+      "sha256_lf": "cff0946b2b84b3745823fc1079ecf9f007474755502899dc44c6f407fef8f690"
+    }
+  ]
+}

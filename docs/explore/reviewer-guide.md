@@ -20,7 +20,7 @@ reproducing its engineering checks. Reading and browsing need no software.
    and [claim register](../stage6/evidence-claims.csv) to find the evidence and
    limitation behind it.
 
-The [28-page integrated paper](../../output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf)
+The [29-page integrated paper](../../output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf)
 connects these views into one account. Its
 [editable source](../../manuscript/stage6/manuscript.md) has searchable headings,
 equations and links even when a PDF preview is inconvenient.

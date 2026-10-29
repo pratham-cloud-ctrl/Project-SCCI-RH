@@ -123,7 +123,7 @@
     "authorized_brand_migration": {
       "baseline_commit": "9f6cf0a4403a00549a858ae9f0cecdd9dce0c5bb",
       "files_compared": 2812,
-      "comparison_manifest_sha256": "046a16e50fb565ea2ae0d686acb496184185af0207a72ba40b263dfcc65f18a9",
+      "comparison_manifest_sha256": "741ba01e76818ecd505bb0797c9b667bab6e70eeab04a3572ddcb2e65d0670b5",
       "scope": "Explicit brand migration; original immutable Git identities remain available",
       "rules": [
         "archive_member_brand_equivalence",
@@ -133,9 +133,8 @@
         "attested_regeneration:explicit_digest_bound_regeneration_or_review_evidence",
         "attested_regeneration:reviewed_branding_verifier_adaptation",
         "attested_regeneration:unchanged_drc_findings_with_actual_native_reexecution_and_source_bindings",
-        "exact_bytes",
-        "gzip_uncompressed_text_brand_equivalence",
-        "normalized_authored_text_brand_equivalence"
+        "byte_or_LF_normalized_brand_equivalence",
+        "gzip_uncompressed_text_brand_equivalence"
       ]
     },
     "allowed_reader_metadata_updates": [
@@ -155,8 +154,8 @@
     "inspector/README.md": "bef54f0d89976fe0bcc21c827d604642220891cda3864da26a73c61df97c7470",
     "inspector/app.css": "95f6c9cb77f45dc037c65e6b7993c75c55baccbb7bb359621f791424ca74cb5e",
     "inspector/app.js": "7ca57db8c20afd952684874d3c62ae8557397e3b2fa4ac881e1e43e0c4117d52",
-    "inspector/assets/cad-manifest.json": "afa81ecf217fce3baad2431a8b4e524735c6b96c573b211c76a9717396f18334",
-    "inspector/assets/catalog.json": "84654677682c7f6e9ddf4e20fb9b13ed7b84a18101c6494094fc0755171ae33e",
+    "inspector/assets/cad-manifest.json": "15e43b11a5233f23438ea5eeba9b0b669cf78eff225a29ba64b751eb88929982",
+    "inspector/assets/catalog.json": "284dd4a970b82779c337ef7f23fb73fa25a2278a46a4aed741f27bfea1a78933",
     "inspector/assets/copper/contact-router/B_Cu.svg": "b3107feddc2d31254f3851aaf3a85f9df6a56deb6d8350dd17d74666f14b352c",
     "inspector/assets/copper/contact-router/F_Cu.svg": "3238716420333523923fb20c64bd22dbdc3a8d9e4350fd8ed6249d4ea7828336",
     "inspector/assets/copper/contact-router/In1_Cu.svg": "4bcefcf225b9cc375203dcdbdc48912bd70ac75b5da13538ca3fb44e3d8e6386",
@@ -193,7 +192,7 @@
     "inspector/assets/electronics-geometry-audit.json": "34a89d501303f4b17110c5b9d446329a82178e54042516cb77f7e319430a3961",
     "inspector/assets/electronics-manifest.json": "4a40fefdae593a6bfb4da9244d476ea98f02c6dc14a1f0f921edd070c198fcbe",
     "inspector/assets/electronics-native-export-evidence.json": "ab2a24e6c12202e3a9f26a2d36b3c670a137759f2b2c31f6bc60b9a5e4483e7c",
-    "inspector/assets/inspection-manifest.json": "8a147fdb0aac8d0c6ead4fbc0c45a2d9fa45859fd7522aa6ed258c1cbf36657d",
+    "inspector/assets/inspection-manifest.json": "0737a4100fa4cd10332c95d52bee443e30e09e117b0a2b10c383c61967afa793",
     "inspector/assets/models/contact-router.glb": "b186f29b4db61e55a443f0e82c2b8c31c6fd9cc354ad7f6c9add9f7307b976cb",
     "inspector/assets/models/controller-carrier.glb": "9670548d47e4b3966bd60f56ab04ef31392ea21d98ca74e53d9775b8a9c67d21",
     "inspector/assets/models/current-driver.glb": "a148bd6974342856d5e9814303c5275eedbf9326e10370795d5b7b9ac524eb7f",
@@ -299,7 +298,7 @@
     "inspector/downloads/SCCI_RH_current-driver.step": "5f6d3b11f88a4778a733e75142d26aae26efaebebddc4dd22f601a94b9d29225",
     "inspector/downloads/SCCI_RH_monitoring-cell.step": "6b619d12130f320e515c1fea625d8bef4ea0f332f04700ac538a6309705c9c49",
     "inspector/downloads/SCCI_RH_monitoring-transport.step": "576a653f0ec784a6ad53c70117b10b0ae27c062a1bb314520b1fe2ec049b28ab",
-    "inspector/downloads/SCCI_RH_power.step": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "inspector/downloads/SCCI_RH_power.step": "599cf8072a973fb3b5d8fe22dd7e22243dcb98f762ddb69658814c0e0aa44dc7",
     "inspector/downloads/SCCI_RH_recording-front-end.step": "fbc5878132fde732e141ec2146dca31b9b2bf8581af18ab782bb5430c3975685",
     "inspector/downloads/SCCI_RH_supervision.step": "d29140bdda3f57c6dd43d621d389aae04ed2edef23fda52a071b5965062a39ad",
     "inspector/downloads/SHA256SUMS.txt": "5463bdae32070968fe8fb1746ed651583512aa3005b0147a1fb23a6a6ce85e2d",
@@ -377,14 +376,14 @@
     "inspector/vendor/three/package.json": "f9c474a27c920b9435353a6235968f4453436bee0444fac7e5fd289c8fa463de",
     "inspector/vendor/three/version.json": "ef3409e3c31c58274be95f43a2fafeeea1f89a87c217bff5363de212ccce7af2",
     "scripts/inspector/audit_electronics_geometry.py": "b97cf35996eb24efd630177652b243cf90d417d250e8a28e9e974920f8959359",
-    "scripts/inspector/build_cad_assets.py": "0fcbb9a18d8a89d12eff74abbcb0709e6311ad50fb5909726617868eaad26c60",
-    "scripts/inspector/build_catalog.py": "ccfb1d6b313b1311d3856cae5dd265ee659b2f556ed8c0824ecdd06247788ede",
+    "scripts/inspector/build_cad_assets.py": "85a4b9e83888087366a8dd2e03c9e228bcadc7b1c072c800b1ffcf082930a3b7",
+    "scripts/inspector/build_catalog.py": "e9e95992ce36463a31c85a8836ede002e97a88848e4ea104094b4c1b84a92235",
     "scripts/inspector/build_electronics_assets.py": "fdfa44585133f8557acae874778e3877dfeefb3952d4e7dde0f91dae00c39e26",
     "scripts/inspector/check_three_loader.mjs": "3aa9b36b1a0e2d786a9a233fd69c603767bd8da175e3f59f505dc012494b86ca",
     "scripts/inspector/serve_inspector.py": "94ebb84cb6520286a0ab38e1d30f367b5071230658f5490f1988478ad5886a0e",
     "scripts/inspector/vendor_three.py": "87466d53bf250061b36030b8f65aa35334debfdcbea6d5cfc92db62adc7d2cd8",
     "scripts/inspector/verify_inspector.py": "5240f26faf07ae25f9a0f0ad003e31983f29538b4b6c2a8b7b5471a39e75ad87",
-    "scripts/project_branding.py": "cb1f8cb5f1d3f362bea6e483b03c69493d2851024168b53d1ec221079d39bdd9"
+    "scripts/project_branding.py": "4ee8ad4e62b2e4a97e67fba3163dc4a9d67b39690fb25ad0007460f44958f3d7"
   },
   "limits": [
     "Mesh checks verify source identities, decoded bounds and finite topology; exact BRep is supplied in STEP/native downloads.",

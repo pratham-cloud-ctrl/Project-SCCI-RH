@@ -5,9 +5,14 @@
   "path": "provenance/stage3-continuation-verification.json",
   "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
   "original_sha256": "6bd963bcd4a43e1e9ad91fb0040e6f1623d62a6de2607154370599394ee1ec6c",
-  "current_sha256": "7280facc31bb2ab0aa3808e72876b9df67c33377bcb064f2f6b4e7b9dee15fc3",
-  "method": "branding_and_fixed_length_digest_metadata_only",
+  "current_sha256": "0c657103c72fa69ae274effbdde98d3c6b90af48620dda82243728c4882b3408",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
   "scope": "Authorized name migration; no new physical or biological validation",
   "review": "",
-  "independent_evidence": []
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-portable-pilot-final-validation.json",
+      "sha256_lf": "b97e02468a01176f71a7a4eaa54ccbab99b8562c19f5e44c1bc7ce3c11492b87"
+    }
+  ]
 }

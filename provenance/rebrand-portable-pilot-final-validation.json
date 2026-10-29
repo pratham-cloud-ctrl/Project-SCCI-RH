@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-29",
+  "passed": true,
+  "scope": "Explicit preflight/source/exit-review hash metadata corrected topologically after schema-derived ID repair. Actual independent raw audit and portable full saved-controller replay pass; scientific data unchanged except validated identifiers and hashes.",
+  "actual_commands": [
+    "python scripts/audit_frozen_observer_pilot.py --write-receipt",
+    "python scripts/verify_frozen_pilot_portable.py",
+    "python scripts/build_stage3_closeout_report.py --pilot-summary experiments/stage3/frozen-observer-pilot/summary.json --pilot-audit experiments/stage3/frozen-observer-pilot/audit.json --exit-review provenance/stage3-closeout-review.json"
+  ],
+  "files": [
+    {
+      "path": "provenance/stage3-closeout-review.json",
+      "current_sha256": "de96ae0e7cfe15d0cd7acda9405c0b273e8db599f7588f648d77b501f4375667"
+    },
+    {
+      "path": "provenance/stage3-continuation-verification.json",
+      "current_sha256": "0c657103c72fa69ae274effbdde98d3c6b90af48620dda82243728c4882b3408"
+    },
+    {
+      "path": "provenance/stage3-frozen-pilot-independent-audit.json",
+      "current_sha256": "7512d34c9cbb16150c74b41b5dbd7d192b8cebd5209a9318416aec4f75099bec"
+    },
+    {
+      "path": "scripts/audit_frozen_observer_pilot.py",
+      "current_sha256": "b0602a3c4b2066d9d308376d95a70e861d9b76893a86b4f5c011fbab303388c0"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Project SCCI RH integrated digital release plan
 
-**Release target: v2.1.0, 28 October 2026.** This is the full-system digital
+**Release target: v2.1.1, 29 October 2026.** This is the full-system digital
 research and engineering release. The existing `v1.0.0` remains a historical
 single-channel desktop subsystem and is not silently replaced or retagged.
 
@@ -63,7 +63,7 @@ and video revision are outside this release task.
    then independently fetch/check out the exact pushed commit. Run the manifest,
    Stage 6 and preserved electrical/mechanical checks from that clean copy.
    Verify remote branch identity and GitHub workflow conclusions.
-6. Create the new `v2.1.0` tag at the reviewed commit and a public GitHub digital
+6. Create the new `v2.1.1` tag at the reviewed commit and a public GitHub digital
    engineering release. Upload the manuscript, mechanical drawing set, a full
    source archive, and an external SHA-256 checksum list. Verify that the remote
    tag resolves to the intended commit and that downloaded asset bytes or GitHub

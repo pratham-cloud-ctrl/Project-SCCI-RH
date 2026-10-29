@@ -39,10 +39,17 @@ LINEAR_MM = .22
 ANGULAR_RAD = .5
 BOARDS = ('recording-front-end', 'current-driver', 'contact-router', 'supervision',
           'power', 'monitoring-cell', 'monitoring-transport', 'controller-carrier')
+TEXT_SOURCE_SUFFIXES = {'.json', '.py', '.md', '.csv', '.txt', '.cmd', '.ps1',
+                        '.fcmacro', '.xml', '.kicad_sch', '.kicad_pcb',
+                        '.kicad_pro', '.kicad_sym', '.kicad_mod'}
 
 
 def sha(path):
-    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+    path = Path(path)
+    data = path.read_bytes()
+    if path.suffix.lower() in TEXT_SOURCE_SUFFIXES:
+        data = data.replace(b'\r\n', b'\n')
+    return hashlib.sha256(data).hexdigest()
 
 
 def read(path):
@@ -407,8 +414,27 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--models',nargs='+',choices=['future','reference',*BOARDS],default=['future',*BOARDS,'reference'])
     parser.add_argument('--complete-reference-step',action='store_true')
+    parser.add_argument('--refresh-input-bindings',action='store_true',
+                        help='Canonicalize existing text input hashes after checking raw/LF identity; never retessellates geometry.')
     args=parser.parse_args()
     existing=read(MANIFEST.relative_to(ROOT).as_posix()) if MANIFEST.is_file() else {}
+    if args.refresh_input_bindings:
+        changes=[]
+        for model in existing['models']:
+            path=OUT/model['file']
+            assert sha(path)==model['sha256'] and path.stat().st_size==model['bytes'], 'Existing model changed'
+            for source,previous in model['inputs'].items():
+                raw=hashlib.sha256((ROOT/source).read_bytes()).hexdigest()
+                current=sha(ROOT/source)
+                assert previous in {raw,current}, 'Input changed beyond line endings: '+source
+                if previous!=current:
+                    changes.append({'path':source,'previous_sha256':previous,'sha256_lf':current})
+                    model['inputs'][source]=current
+        existing['input_hash_policy']='LF-normalized declared text inputs; native geometry and other binary inputs are exact bytes'
+        existing['exporter_sha256_lf']=hashlib.sha256(Path(__file__).read_bytes().replace(b'\r\n',b'\n')).hexdigest()
+        MANIFEST.write_text(json.dumps(existing,indent=2,allow_nan=False)+'\n',encoding='utf-8',newline='\n')
+        print(json.dumps({'input_bindings_refreshed':len(changes),'geometry_regenerated':False,'changes':changes}))
+        return
     models={m['id']:m for m in existing.get('models',[])}
     for model_id in args.models:
         model=future_model() if model_id=='future' else reference_model(args.complete_reference_step) if model_id=='reference' else board_model(model_id)
@@ -422,9 +448,10 @@ def main():
             scope='Visualization derivatives only. No physical, manufacturing, anatomical or biological qualification.',
             exporter='scripts/inspector/build_cad_assets.py',exporter_sha256_lf=hashlib.sha256(Path(__file__).read_bytes().replace(b'\r\n',b'\n')).hexdigest(),
             reproduce="& '<FreeCAD installation>/bin/python.exe' scripts/inspector/build_cad_assets.py --complete-reference-step",
+            input_hash_policy='LF-normalized declared text inputs; native geometry and other binary inputs are exact bytes',
             models=[models[k] for k in ['future','reference',*BOARDS] if k in models])
         MANIFEST.parent.mkdir(parents=True,exist_ok=True)
-        MANIFEST.write_text(json.dumps(manifest,indent=2,allow_nan=False)+'\n',encoding='utf-8')
+        MANIFEST.write_text(json.dumps(manifest,indent=2,allow_nan=False)+'\n',encoding='utf-8',newline='\n')
 
 
 if __name__=='__main__': main()

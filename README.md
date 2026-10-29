@@ -12,7 +12,7 @@ learning, and feedback over a selected physiological function.
 **[Inspect the build in your browser](https://pratham-cloud-ctrl.github.io/Project-SCCI-RH/)** ·
 [Explore the project](docs/explore/README.md) ·
 [Read the paper](output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf) ·
-[Download the engineering release](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/tag/v2.1.0)
+[Download the engineering release](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/tag/v2.1.1)
 
 **No CAD software needed to inspect:** the browser inspector provides selectable
 3D assemblies, all eight populated boards, interactive component/net lookup,
@@ -59,7 +59,7 @@ not a universal body-control mechanism.
 
 | Research | Electrical & software | Mechanical |
 |---|---|---|
-| [28-page illustrated paper](output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf) | [Eight routed, populated KiCad boards](docs/explore/electronics.md) | [Editable reference and future-interface CAD](docs/explore/cad.md) |
+| [29-page illustrated paper](output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf) | [Eight routed, populated KiCad boards](docs/explore/electronics.md) | [Editable reference and future-interface CAD](docs/explore/cad.md) |
 | [18 primary/inspiration references](docs/stage6/evidence-review.md) | [Target-linked nRF5340 firmware](firmware/nrf5340/uart-revision/README.md) | [Six mechanical review sheets](cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf) |
 | [Conditional studies and retained negative findings](docs/explore/theory.md) | [Executed production-core digital replay](docs/stage6/integration-verification.md) | [Mapped interfaces, parts and exchange files](docs/explore/cad.md) |
 
@@ -87,7 +87,7 @@ Pratham Varma conceived and steered Project SCCI RH. AstroSam’s
 future vision to inspectable engineering; SCCI_RH develops its own spinal architecture
 and artifacts. Substantial AI assistance is documented in the contribution record.
 
-**Engineering release:** [v2.1.0](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/tag/v2.1.0).
+**Engineering release:** [v2.1.1](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/tag/v2.1.1).
 **Browser inspection and guide refresh:** 21 October 2026. The paper and verified engineering
 geometry and circuit behavior are preserved through the recorded name migration. Historical stage records remain available;
 use the guides above for the current reading order. The technical inspector

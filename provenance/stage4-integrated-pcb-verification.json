@@ -264,14 +264,13 @@
     "authorized_brand_migration": {
       "baseline_commit": "bf0bdf8dbf138481a492a7a50c65034b43bbdf99",
       "files_compared": 667,
-      "comparison_manifest_sha256": "97cfbbf1451ed8dc3c3973c84dfc0f3d22c79f1fd238fe234007781547f18a91",
+      "comparison_manifest_sha256": "c6fe2b01d229a6957557c56626acf2da663f4861329c05dd4a1e3bf5422ed97a",
       "scope": "Explicit brand migration; original immutable Git identities remain available",
       "rules": [
         "attested_regeneration:branding_and_fixed_length_digest_metadata_only",
         "attested_regeneration:explicit_digest_bound_regeneration_or_review_evidence",
         "attested_regeneration:reviewed_branding_verifier_adaptation",
-        "exact_bytes",
-        "normalized_authored_text_brand_equivalence"
+        "byte_or_LF_normalized_brand_equivalence"
       ]
     }
   },
@@ -1050,7 +1049,7 @@
     "electronics/stage4/integrated-pcb/verify_exports.py": "8c6bec18a28f660efff3139ac47c7d992b98691f6f2d70d2dcf4f13cb0f893bb",
     "electronics/stage4/integrated-pcb/verify_power.py": "bf8b942251a4cee56ded5fcee3b4468af8c7b8bd6094b1e43343ca531c1e8aab",
     "electronics/stage4/integrated-pcb/verify_step_geometry.py": "f51d6d199a9371cf74174dac8aa45b84c73ac33bab1e3f764133b44ab8419802",
-    "scripts/project_branding.py": "cb1f8cb5f1d3f362bea6e483b03c69493d2851024168b53d1ec221079d39bdd9",
+    "scripts/project_branding.py": "4ee8ad4e62b2e4a97e67fba3163dc4a9d67b39690fb25ad0007460f44958f3d7",
     "scripts/verify_integrated_pcb.py": "84704f82b069e375ca7dbf9cb6fa2ad529ff26d6f0da0d9f3d074ca0c910153c"
   },
   "limits": [

@@ -133,7 +133,7 @@ The desktop cache's maximum1,638,400-byte float64 payload exceeds the proposed
 | Immutable confirmation preflight | `6e4725e801f3e7e9eb88d0c9e40520c6ea0b462f9776cf4adb5831d6d6dcbac0` |
 | Confirmation summary | `89d79c3d3eb3dafb62964ed4d15ae922c4a1b7e775ea612d8b9d7d1c0cb65a59` |
 | Saved-data auditor source | `6653be722ec0a68f6abd9336f55eee3e02bb449c7f1961cc466e320f6310fb10` |
-| Saved-data audit result | `7445513077279442f4132166adaadd6467f21bba4a24a9ea819db7b67960989e` |
+| Saved-data audit result | `476a36b3e2731f30ac6269ffc5cccdf1e852a7fb98bd2c8a5f0a3e4af566d378` |
 
 Per-pair raw hashes are in the confirmation summary and saved-data audit.
 

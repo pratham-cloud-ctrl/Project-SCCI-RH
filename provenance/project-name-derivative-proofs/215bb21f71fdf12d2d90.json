@@ -5,9 +5,14 @@
   "path": "results/stage3/sparse-baseline/raw.json.gz",
   "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
   "original_sha256": "265be515b0ca41dd734be6181b3f81de51e17884c7098196c2da4d6450bad0f1",
-  "current_sha256": "6667ddcf282d08bcc977193dbaa086a5beed9ff57f12107cdae45868c267610f",
-  "method": "branding_and_fixed_length_digest_metadata_only",
+  "current_sha256": "dea99e1ef076ed9e64be96264a58dd81f4e7d90b70d0bc46e90d822aa6249d53",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
   "scope": "Authorized name migration; no new physical or biological validation",
   "review": "",
-  "independent_evidence": []
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-stage3-portability-checks.json",
+      "sha256_lf": "cff0946b2b84b3745823fc1079ecf9f007474755502899dc44c6f407fef8f690"
+    }
+  ]
 }

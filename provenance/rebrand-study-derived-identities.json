@@ -1,0 +1,222 @@
+{
+  "date": "2026-10-29",
+  "scope": "Four derived identity suffixes recomputed by original algorithms from current schema/source identities and exact frozen public capture/protocol inputs. Explicit equal-length ID replacements only; inverse byte comparison proves every other decoded byte, including all scientific numeric literals, unchanged.",
+  "identity_map": {
+    "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922": "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:9f5006cd1c216b6b703b",
+    "SCCI_RH-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc": "SCCI_RH-S3-TEACHER-LIBRARY-1:idealized_inverse:47c088726929c6d05246",
+    "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7": "SCCI_RH-S3-DYNAMIC-1:cde051161d4537c0d07a",
+    "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d": "SCCI_RH-S3-DYNAMIC-1:cf758ce76cc67b495322"
+  },
+  "teacher_algorithm": "scci_rh.stage3.teacher_library._public_identity; actual full teacher experiment agreed with every saved field after exactly these two identity translations",
+  "dynamic_algorithm": "stage3_dynamic_response_study.protocol_id(current source_hashes, grid, frozen training schedule); all actual fixed generator frames/noise seeds rechecked",
+  "files": [
+    {
+      "path": "results/stage3/dynamic-response/dynamic-response-summary.json",
+      "before_sha256": "a007df20fd81cbd618b75b1ee24f10ba0f49d78f6c90e7e808bb7ce90f2e812c",
+      "current_sha256": "89a8755105089e80f3c1758432d83f4b22299b0f2fb381fc906486c8781c8281",
+      "before_decoded_sha256": "a007df20fd81cbd618b75b1ee24f10ba0f49d78f6c90e7e808bb7ce90f2e812c",
+      "after_decoded_sha256": "89a8755105089e80f3c1758432d83f4b22299b0f2fb381fc906486c8781c8281",
+      "identity_occurrences": {
+        "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7": 2,
+        "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d": 2
+      },
+      "inverse_exact_byte_comparison_passed": true,
+      "scientific_numeric_bytes_unchanged": true
+    },
+    {
+      "path": "results/stage3/isolated-pilot/raw.json.gz",
+      "before_sha256": "bbc9c06ebb44e67a0020331c9b1464ea375b4dd14d1733b53e54c1acd0dd96c4",
+      "current_sha256": "3d4129d169b6b28aa23177dc2ba9235efe3f2ac5f5756e04e92a377ada9cbca3",
+      "before_decoded_sha256": "5d591f4b9b6a256e3f60ff11384edec77845b265ba8d6c0f9cbb201b57a003f6",
+      "after_decoded_sha256": "37b7cc0cb774d53f80f4bfcae861d8ef87d9bb6f3074ab8111980919f35bbcd7",
+      "identity_occurrences": {
+        "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7": 234047
+      },
+      "inverse_exact_byte_comparison_passed": true,
+      "scientific_numeric_bytes_unchanged": true
+    },
+    {
+      "path": "results/stage3/isolated-pilot/summary.json",
+      "before_sha256": "f5f21ef8cedb47fcf882b19df99b687632c4e09f1d8ab358ddd7b62916b03031",
+      "current_sha256": "894e0a2f8d1027096f23d6b959234ad596a8b8f71af58add03e7e60a2f6059bb",
+      "before_decoded_sha256": "f5f21ef8cedb47fcf882b19df99b687632c4e09f1d8ab358ddd7b62916b03031",
+      "after_decoded_sha256": "894e0a2f8d1027096f23d6b959234ad596a8b8f71af58add03e7e60a2f6059bb",
+      "identity_occurrences": {
+        "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7": 30
+      },
+      "inverse_exact_byte_comparison_passed": true,
+      "scientific_numeric_bytes_unchanged": true
+    },
+    {
+      "path": "results/stage3/sparse-baseline/raw.json.gz",
+      "before_sha256": "6667ddcf282d08bcc977193dbaa086a5beed9ff57f12107cdae45868c267610f",
+      "current_sha256": "a1838c38e190a53fba48a3252e83cf68bba2950520a62a60c42ad3767eb8235d",
+      "before_decoded_sha256": "8b4962fa682f49c2d7e4f9371778de2892ba1f5fdb2a497a08560cd50dcf3efe",
+      "after_decoded_sha256": "dc58fd8580f7738aace221f9d81ddf3da8581c2f4e0ed5a0d15b5dc049e00c89",
+      "identity_occurrences": {
+        "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7": 88247,
+        "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d": 88247
+      },
+      "inverse_exact_byte_comparison_passed": true,
+      "scientific_numeric_bytes_unchanged": true
+    },
+    {
+      "path": "results/stage3/sparse-baseline/summary.json",
+      "before_sha256": "e50024befb372fe6568851676aa7c1d528839f915226886bc6854fec6aefcc33",
+      "current_sha256": "3f62756b6e79a46f33e7a1cc17de827d1280f68c411acb49e51f864a9a886e02",
+      "before_decoded_sha256": "e50024befb372fe6568851676aa7c1d528839f915226886bc6854fec6aefcc33",
+      "after_decoded_sha256": "3f62756b6e79a46f33e7a1cc17de827d1280f68c411acb49e51f864a9a886e02",
+      "identity_occurrences": {
+        "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7": 29,
+        "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d": 29
+      },
+      "inverse_exact_byte_comparison_passed": true,
+      "scientific_numeric_bytes_unchanged": true
+    },
+    {
+      "path": "results/stage3/teacher-library/idealized_inverse.json",
+      "before_sha256": "32aaf74ecb0818bd95e94de401ea8ad2664f23590a3d4ff37037f69cf694ab13",
+      "current_sha256": "b9d68b1a496271c83578e8e0d5a1b9d65fa67197b9ea48e9a0ac595a826e3f26",
+      "before_decoded_sha256": "32aaf74ecb0818bd95e94de401ea8ad2664f23590a3d4ff37037f69cf694ab13",
+      "after_decoded_sha256": "b9d68b1a496271c83578e8e0d5a1b9d65fa67197b9ea48e9a0ac595a826e3f26",
+      "identity_occurrences": {
+        "SCCI_RH-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc": 14
+      },
+      "inverse_exact_byte_comparison_passed": true,
+      "scientific_numeric_bytes_unchanged": true
+    },
+    {
+      "path": "results/stage3/teacher-library/legacy_voluntary.json",
+      "before_sha256": "5e42d91377ac9290c377fed34589654d7079e86fda3911967b4275a78a50be24",
+      "current_sha256": "08fc2050c6f61519f36378b77771841d2637d192c7d245c033d46c24acef0d49",
+      "before_decoded_sha256": "5e42d91377ac9290c377fed34589654d7079e86fda3911967b4275a78a50be24",
+      "after_decoded_sha256": "08fc2050c6f61519f36378b77771841d2637d192c7d245c033d46c24acef0d49",
+      "identity_occurrences": {
+        "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922": 14
+      },
+      "inverse_exact_byte_comparison_passed": true,
+      "scientific_numeric_bytes_unchanged": true
+    },
+    {
+      "path": "results/stage3/teacher-library/teacher-library-summary.json",
+      "before_sha256": "fa1455472ff6b6babb6ddc97e98e6c3d0eb54356f30b6ed193636667965dc076",
+      "current_sha256": "99be0ca4baeadca2e415fdba3db9c00244b978e7ea1eca2624dd1bcbe2f480ef",
+      "before_decoded_sha256": "fa1455472ff6b6babb6ddc97e98e6c3d0eb54356f30b6ed193636667965dc076",
+      "after_decoded_sha256": "99be0ca4baeadca2e415fdba3db9c00244b978e7ea1eca2624dd1bcbe2f480ef",
+      "identity_occurrences": {
+        "SCCI_RH-S3-TEACHER-LIBRARY-1:legacy_voluntary:372102737eec2289f922": 14,
+        "SCCI_RH-S3-TEACHER-LIBRARY-1:idealized_inverse:4e783da161f7cc390dbc": 14
+      },
+      "inverse_exact_byte_comparison_passed": true,
+      "scientific_numeric_bytes_unchanged": true
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/preflight.json",
+      "before_sha256": "fe4cb8297a2b8c63b876ad6eacf1fce56b3e9e057b7cbdd739c8e725f9dc4d92",
+      "current_sha256": "cb2bcb608372e78be8373ff48b04f6496c75dae537f9aa92ce76bf812856fe16",
+      "before_decoded_sha256": "fe4cb8297a2b8c63b876ad6eacf1fce56b3e9e057b7cbdd739c8e725f9dc4d92",
+      "after_decoded_sha256": "cb2bcb608372e78be8373ff48b04f6496c75dae537f9aa92ce76bf812856fe16",
+      "identity_occurrences": {
+        "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7": 1
+      },
+      "inverse_exact_byte_comparison_passed": true,
+      "scientific_numeric_bytes_unchanged": true
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+      "before_sha256": "420cd4353b7ec062ed878e8f8e8cb14307233a8b28bd1a5b76f7cb76ee003624",
+      "current_sha256": "249ab321fefcb9db1c274df737166479f25b7ee44321664ac228e38d3ae28594",
+      "before_decoded_sha256": "e7493c1388745c3f4aafc0c1ffc4c1f6ec7c8a7b6e144cc0531924746ab95d1e",
+      "after_decoded_sha256": "1f96c7214e48938487df48068b167941aabd2b11426d6891ee28102d39c9949c",
+      "identity_occurrences": {
+        "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7": 404
+      },
+      "inverse_exact_byte_comparison_passed": true,
+      "scientific_numeric_bytes_unchanged": true
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+      "before_sha256": "2e5a92641febca66ca25795e287996e8e8d25f8f4a2736d019c54f4432041ce9",
+      "current_sha256": "c151dee1ca2cc24812701b5ae025c8385efcb802690ce1ea4f65c1405ec53ca5",
+      "before_decoded_sha256": "625e856d90b37cf4b477b421f0dc28991f26f3748cb89f993a9f28e878249f7d",
+      "after_decoded_sha256": "b7b2e25268ecef4923b863f475d686cd56d5aef3283ac930df90193b112e66cd",
+      "identity_occurrences": {
+        "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7": 404
+      },
+      "inverse_exact_byte_comparison_passed": true,
+      "scientific_numeric_bytes_unchanged": true
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+      "before_sha256": "813f945c44dd4f1886a987656171dc20b9d5fadff433e9ae21c57f346e7e9265",
+      "current_sha256": "4904833dbeba24ffbea00ae5d4160e6a4acf1c31b18dde5dd1d0cd313b8aafe7",
+      "before_decoded_sha256": "f7955e51bc062bfba28cae13d91890f6341b4e2e434225d939bb32dbb4866a5e",
+      "after_decoded_sha256": "91807079a5b1d6f79e3814154e295ac3e6269182cfa512f9e4861a1d54b97d3f",
+      "identity_occurrences": {
+        "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7": 404
+      },
+      "inverse_exact_byte_comparison_passed": true,
+      "scientific_numeric_bytes_unchanged": true
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+      "before_sha256": "9ead6e15da9e97cad5a165750275a1149ba192b7f5e9381b497448ee8bec4e8f",
+      "current_sha256": "662b9b6de115dfac35a4738dc5e5de4a1da43f7613d142184ffec55ce5205819",
+      "before_decoded_sha256": "a8f43dab3bab7548ed35b2a1114a6126351062a8027a3f73194b9a5caec54899",
+      "after_decoded_sha256": "9cd28632ea636ebaff029d08213497009834ca13eb25cb8de5741f88607bbfb4",
+      "identity_occurrences": {
+        "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7": 404
+      },
+      "inverse_exact_byte_comparison_passed": true,
+      "scientific_numeric_bytes_unchanged": true
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+      "before_sha256": "20c55c9e9217984ddc12ce93de6f9a0fc184979b33e09d49f2ee2c57d293a9f5",
+      "current_sha256": "a4b11868a4a1b263f9024483761e20ef17830c4c77dd6f73c3269037d44903a4",
+      "before_decoded_sha256": "e6e6821863604e50a99de226c2df262ae56d3e700406b8577c8aea3e75630185",
+      "after_decoded_sha256": "e157d77a677cfd3a8e3b4ba9256dcaa6651b6d4fbe6ee861d8082b87e2601b98",
+      "identity_occurrences": {
+        "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7": 404
+      },
+      "inverse_exact_byte_comparison_passed": true,
+      "scientific_numeric_bytes_unchanged": true
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+      "before_sha256": "307c189f5a2f13d134328ad94eedd962264fce5f43eabe1f28af7c13da6ec384",
+      "current_sha256": "cb267a482806bdb74a099cdfb9ca8ad5ab9f068c4b480f03ac95d49609a170a4",
+      "before_decoded_sha256": "a95b2033865972e3cf8e60f31109ed145a499bf92a79fd53928fbc17aa5e08eb",
+      "after_decoded_sha256": "51a765d632f28c3b3b07d31081961c462ca984cf9a0b7367e6ef81d69f32f638",
+      "identity_occurrences": {
+        "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7": 404
+      },
+      "inverse_exact_byte_comparison_passed": true,
+      "scientific_numeric_bytes_unchanged": true
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+      "before_sha256": "b2c4ffbf4afb50229f80654119efa1cb388521a2498770c572afc432389f2ab1",
+      "current_sha256": "75173782750b86ba491a0f99f78339bf45594b43a6216621f38711ce15fcc07b",
+      "before_decoded_sha256": "b2ecc1a7bdf987dbf920aa10dc1a288f96c514f5e88cb1836687a4503b86e6d1",
+      "after_decoded_sha256": "319091ae0f00e76eb346326b4c57f88d12cefb9cc1b7d9790f646e1fb25a16ad",
+      "identity_occurrences": {
+        "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7": 404
+      },
+      "inverse_exact_byte_comparison_passed": true,
+      "scientific_numeric_bytes_unchanged": true
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+      "before_sha256": "96369b0627dce0c01fc35ffa71336a53245c3139ddd739cbb77640ff69849ae5",
+      "current_sha256": "f332d6193dbc4c0a15bc1c74dbbd36417c574e7dea2fcf898f7427dee23caef8",
+      "before_decoded_sha256": "274e439f9264ba8ba8c51f84fe3057128163b464a8ee232e34c71b8277135d12",
+      "after_decoded_sha256": "046a48b34bc5c48f6dc73a0672c131fb3e7c9ac8a9dd989d77579e9c46abdd60",
+      "identity_occurrences": {
+        "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7": 404
+      },
+      "inverse_exact_byte_comparison_passed": true,
+      "scientific_numeric_bytes_unchanged": true
+    }
+  ]
+}

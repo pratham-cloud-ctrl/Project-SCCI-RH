@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-29",
+  "passed": true,
+  "scope": "Finite reviewed release edits: v2.1.1/date, correct29page navigation, current rebuilt firmware extents, mechanical check/source counts and explicit migration provenance. Actual final29+8pagePDF renders reviewed. No new engineering functionality or biological results.",
+  "files": [
+    {
+      "path": "README.md",
+      "current_sha256": "41a7667fdd3a041f19b3f060208e3ee98c519cd2250d7018e90509bf5337c31b"
+    },
+    {
+      "path": "START_HERE.md",
+      "current_sha256": "bbf44d106064cdd8747ccf3bfd4d70cdd5e0809e316e63e562d13253719d2066"
+    },
+    {
+      "path": "CURRENT_STATUS.md",
+      "current_sha256": "80795a8597ac65248fa2183c4fbe7258282b2763a4d840f26386d10b5053657b"
+    },
+    {
+      "path": "CITATION.cff",
+      "current_sha256": "52d08cfa0bf2bdf5639cea1767b2e0d7d2cf8572f0d9900d0d80b47dda2dcb85"
+    },
+    {
+      "path": "docs/stage6/release-plan.md",
+      "current_sha256": "03591b074a166cf99bcf1e546aba50803a5c7bbdf2ac00b202ae0e342a02717e"
+    },
+    {
+      "path": "docs/stage6/release-notes.md",
+      "current_sha256": "08ef022d87db2eca56bfa7fd381de074b1ee3bd9b8ce263d40e6b144925a6837"
+    },
+    {
+      "path": "docs/stage6/release-contract.json",
+      "current_sha256": "84a347a76083e1706a880b42e1500280203f74f0e84cf2eabb0cb0768922d5c2"
+    },
+    {
+      "path": "docs/explore/reviewer-guide.md",
+      "current_sha256": "93b0b7f121022b8fbd005c94b8baaf69a4a87238c5dd2cfa7108a48b4dd8c877"
+    },
+    {
+      "path": "docs/explore/repository-map.md",
+      "current_sha256": "d4176f872150050d37b811ca750c39425865f3ea8b684d988640380775eb8518"
+    },
+    {
+      "path": "manuscript/stage6/manuscript.md",
+      "current_sha256": "6ecb842975a8c8ab658903d34707987e2c3f8bee6f2708b54769bea142ccafc0"
+    },
+    {
+      "path": "manuscript/stage6/build-manifest.json",
+      "current_sha256": "bee388bd1d929cfd8eba241377fa51f435c0d5beb4b1e47d08779c5e79b18a33"
+    },
+    {
+      "path": "output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf",
+      "current_sha256": "8d8a716071dd1893c51d2bb2f88865764d6822e821d3c833193126b42efe1045"
+    },
+    {
+      "path": "output/pdf/SCCI_RH_stage3_closeout.pdf",
+      "current_sha256": "10fc08f9f8c169f349a96c39b30ef9de789a7d3d36dadb3d03a5e78eb3dcb081"
+    },
+    {
+      "path": "provenance/stage6-document-review.json",
+      "current_sha256": "05c02fc9ebb315f3b8e7ee1e89686dd564631741de829e2550e052d1fc502ee5"
+    },
+    {
+      "path": "provenance/rebrand-pdf-review.json",
+      "current_sha256": "94f2b2d31edc0dda21935f710b3058c66240e730296c0e9fc02812f19a5013e8"
+    },
+    {
+      "path": "scripts/inspector/build_catalog.py",
+      "current_sha256": "e9e95992ce36463a31c85a8836ede002e97a88848e4ea104094b4c1b84a92235"
+    }
+  ]
+}

@@ -19,6 +19,12 @@ def sha(path,text=False):
     return hashlib.sha256(data).hexdigest()
 
 
+def artifact_record(path,is_text):
+    data=Path(path).read_bytes()
+    if is_text:data=data.replace(b'\r\n',b'\n')
+    return dict(sha256=hashlib.sha256(data).hexdigest(),text_normalized=is_text,bytes=len(data))
+
+
 def main():
     artifacts={}
     for p in sorted(ST5.rglob('*')):
@@ -27,7 +33,7 @@ def main():
         assert p.stat().st_size<100*1024*1024,('GitHub single-file limit',p)
         # Every artifact gets its ordinary Git-normalized representation digest.
         is_text=p.suffix in ('.py','.json','.csv','.md','.cmd','.FCMacro','.svg')
-        artifacts[p.relative_to(ROOT).as_posix()]=dict(sha256=sha(p,is_text),text_normalized=is_text,bytes=p.stat().st_size)
+        artifacts[p.relative_to(ROOT).as_posix()]=artifact_record(p,is_text)
     drawing=ST5/'drawings/SCCI_RH_Stage5_Mechanical_Review.pdf'
     reader=PdfReader(str(drawing));assert len(reader.pages)==6
     pages=[page.extract_text() for page in reader.pages]
@@ -52,6 +58,7 @@ def main():
     assert checks['passed']
     report=dict(schema='scci_rh.stage5.delivery-review.v1',passed=True,date='2026-10-16',
                 source_geometry='Saved native/STEP files validated by the independent Stage5 mechanical checkpoint',
+                artifact_byte_policy='LF-normalized bytes for declared text_normalized entries; exact bytes for binary artifacts',
                 independent_mechanical_report_sha256=sha(ROOT/'provenance/stage5-mechanical-verification.json',True),
                 artifacts=artifacts,illustrated_pdf_pages=6,port_drawing_ids=36,technical_renders=images,
                 local_markdown_links_checked=links,
@@ -59,7 +66,7 @@ def main():
                                    method='Rendered final PDF pages and opened PNGs for actual visual inspection; native FreeCAD views also inspected',
                                    limitations='Human/model visual review plus structural checks; no physical qualification'),
                 physical_qualification=False)
-    (ROOT/'provenance/stage5-delivery-review.json').write_text(json.dumps(report,indent=2)+'\n')
+    (ROOT/'provenance/stage5-delivery-review.json').write_bytes((json.dumps(report,indent=2)+'\n').encode('utf-8'))
     print(f'{len(artifacts)} mechanical delivery files bound;6PDFpages,4renders,36portIDs,{links}localentrylinks checked.')
 
 

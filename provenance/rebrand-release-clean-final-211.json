@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-29",
+  "passed": true,
+  "scope": "Actual final clean Git-blob release audit;1909checks2733historicalfiles29reviewed manuscript pages. No physical or biological qualification.",
+  "command": "python scripts/verify_stage6_release.py --write-report",
+  "files": [
+    {
+      "path": "provenance/stage6-release-verification.json",
+      "current_sha256": "0fae30ff942b7d839166d9bad9cc2379a00b27bc81dbc478c003dad1280147ca"
+    }
+  ]
+}

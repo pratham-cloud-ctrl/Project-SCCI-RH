@@ -5,14 +5,14 @@
   "path": "provenance/stage5-mechanical-verification.json",
   "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
   "original_sha256": "74499c4f9fdd3d17e6a109aee0f8d8af2af3ce56e002b55117381abdd2c6a4e2",
-  "current_sha256": "9db455eea7264082b8f86cf161866266e18a16dbbb6118d1559bf29ca7f60c77",
+  "current_sha256": "fb904725f9d1a1b986b940ab2230983d78d24c4b050c997841eb5d28fbe88598",
   "method": "explicit_digest_bound_regeneration_or_review_evidence",
   "scope": "Authorized name migration; no new physical or biological validation",
   "review": "",
   "independent_evidence": [
     {
-      "path": "provenance/rebrand-mechanical-final-validation.json",
-      "sha256_lf": "51a70ffb452b0136d090308ea2adae7c708e54c79c50e55977690f84016c5647"
+      "path": "provenance/rebrand-portable-stage5-final-validation.json",
+      "sha256_lf": "f1b06df926571896f8318ec463cd10cfb30ce13d97c3cbdca55640a494c1df32"
     }
   ]
 }

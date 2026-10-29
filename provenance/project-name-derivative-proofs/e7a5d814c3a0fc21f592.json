@@ -5,9 +5,14 @@
   "path": "scripts/audit_frozen_observer_pilot.py",
   "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
   "original_sha256": "718ea49e9b9bd605034e0fd96deebed1cd3cfce7c67b1bc3b3e693fd98c095a6",
-  "current_sha256": "793310697149a62075d0caf3351e0bf528d6edb2f750f6b49e88f012c802374f",
-  "method": "branding_and_fixed_length_digest_metadata_only",
+  "current_sha256": "b0602a3c4b2066d9d308376d95a70e861d9b76893a86b4f5c011fbab303388c0",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
   "scope": "Authorized name migration; no new physical or biological validation",
   "review": "",
-  "independent_evidence": []
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-portable-pilot-final-validation.json",
+      "sha256_lf": "b97e02468a01176f71a7a4eaa54ccbab99b8562c19f5e44c1bc7ce3c11492b87"
+    }
+  ]
 }

@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "results/stage3/teacher-library/idealized_inverse.json",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "95c552f63bcb5407a3256c4c593095712d413289f5339e17e522183b61a93d39",
+  "current_sha256": "b9d68b1a496271c83578e8e0d5a1b9d65fa67197b9ea48e9a0ac595a826e3f26",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-stage3-portability-checks.json",
+      "sha256_lf": "cff0946b2b84b3745823fc1079ecf9f007474755502899dc44c6f407fef8f690"
+    }
+  ]
+}

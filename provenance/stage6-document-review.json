@@ -3,12 +3,12 @@
   "passed": true,
   "date": "2026-10-29",
   "pdf_path": "output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf",
-  "pdf_sha256": "66a77d7f84566c6f1e875849dbaa742595a4fae96d718aec8fdc1ea3fb60f3b4",
-  "pages_reviewed": 28,
+  "pdf_sha256": "8d8a716071dd1893c51d2bb2f88865764d6822e821d3c833193126b42efe1045",
+  "pages_reviewed": 29,
   "visual_review_performed": true,
   "reviewers": [
     {
-      "reviewer": "Codex branding finalization agent",
+      "reviewer": "Codex release finalization",
       "pages_actually_opened": [
         1,
         2,
@@ -37,9 +37,10 @@
         25,
         26,
         27,
-        28
+        28,
+        29
       ],
-      "method": "All28actual final pages inspected in four rendered contact sheets; exact same PDF SHA confirmed after latest release-contract metadata rebuild."
+      "method": "All29rendered pages reviewed in four contact sheets; firmware extents and historical-vs-current verification wording checked against current execution receipts"
     }
   ],
   "corrections_verified": [

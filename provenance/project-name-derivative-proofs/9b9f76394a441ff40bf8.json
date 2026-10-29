@@ -5,14 +5,14 @@
   "path": "CITATION.cff",
   "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
   "original_sha256": "5c5baf5f1854fe3751dc974990f6c38cc7d8f0d6cf88aa62ea2ca0d5da4e9c61",
-  "current_sha256": "59def6054fbe109dd811321b3bc13cf049b1316811669c962bea1ae6ecd58b00",
+  "current_sha256": "52d08cfa0bf2bdf5639cea1767b2e0d7d2cf8572f0d9900d0d80b47dda2dcb85",
   "method": "explicit_digest_bound_regeneration_or_review_evidence",
   "scope": "Authorized name migration; no new physical or biological validation",
   "review": "",
   "independent_evidence": [
     {
-      "path": "provenance/rebrand-reviewed-source-adaptations.json",
-      "sha256_lf": "0a1ac7a47a29a98575b6ded308f6acc46e3766a8446f56498728dac44c784846"
+      "path": "provenance/rebrand-publication-211-review.json",
+      "sha256_lf": "c2b0cefa63132920602d7f730c865a30f9076d8b7bf0edf339608651bc941b88"
     }
   ]
 }

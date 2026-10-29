@@ -10,13 +10,13 @@
   },
   "bindings": {
     "inputs_bytes_sha256": {
-      "experiments/stage3/observed-state-observer/artifact-manifest.json": "442909c37c2a65a7449dd1e6c7dce6895a451e880f839256afa7e1a108fe9173",
+      "experiments/stage3/observed-state-observer/artifact-manifest.json": "91481a84507876f1474967a9ab19b1f7d247ecd6f6072c55d2deb6f3e7101a21",
       "experiments/stage3/observed-state-observer/frozen/observed_state_observer_12oct.py": "203a5bdd90ae20a67f1b6475b47c31a73880d96a5c4434957b51f28a2f767c44",
       "experiments/stage3/observed-state-observer/frozen/observer-method-freeze-12oct.json": "1157a4490d4455faba6773fe447560b22c218db852efe65fc95c180f373dce7f",
       "experiments/stage3/observed-state-observer/frozen/observer-development-summary-12oct.json": "f76da8ef3641d81cf514164e1f3f1dd475be4a560c2b96be9d54b2c63b4246bf",
       "experiments/stage3/observed-state-observer/frozen/observer-confirmation-summary-12oct.json": "89d79c3d3eb3dafb62964ed4d15ae922c4a1b7e775ea612d8b9d7d1c0cb65a59",
       "experiments/stage3/observed-state-observer/frozen/observer-confirmation-freeze-12oct.json": "6e4725e801f3e7e9eb88d0c9e40520c6ea0b462f9776cf4adb5831d6d6dcbac0",
-      "results/stage3/dynamic-response/dynamic-response-summary.json": "a007df20fd81cbd618b75b1ee24f10ba0f49d78f6c90e7e808bb7ce90f2e812c",
+      "results/stage3/dynamic-response/dynamic-response-summary.json": "89a8755105089e80f3c1758432d83f4b22299b0f2fb381fc906486c8781c8281",
       "results/stage3/resolved-teacher/summary.json": "2716dedc2a96fb84c0ac2ff5d00a298d6b81f43426a89629992cec775a454516"
     },
     "bound_scci_rh_source_bytes_sha256": {
@@ -46,7 +46,7 @@
       "path": "results/stage3/dynamic-response/2500us.json.gz",
       "sha256": "7f987686dd078a89913b1d86e27a87f565b7dc9c7237fe47ce0453cd84aea71e"
     },
-    "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+    "dynamic_model_id": "SCCI_RH-S3-DYNAMIC-1:cde051161d4537c0d07a",
     "teacher_library_id": "SCCI_RH-S3-RESOLVED-TEACHER-1:idealized_inverse:9e258ad1ad86fcdd3213",
     "teacher_generator": "idealized_inverse",
     "teacher_resource_accounting": {

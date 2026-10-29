@@ -152,15 +152,15 @@
     },
     {
       "path": "output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf",
-      "sha256": "66a77d7f84566c6f1e875849dbaa742595a4fae96d718aec8fdc1ea3fb60f3b4",
-      "pages": 28,
+      "sha256": "8d8a716071dd1893c51d2bb2f88865764d6822e821d3c833193126b42efe1045",
+      "pages": 29,
       "old_brand_mentions": 0,
       "new_brand_mentions": 40,
       "title": "Project SCCI RH: integrated SCCI research and engineering"
     },
     {
       "path": "output/pdf/SCCI_RH_stage3_closeout.pdf",
-      "sha256": "7f240140f18ef2b98718ce1b7f9b3a0e81633615af9a5318ae1d103a9df9f2d8",
+      "sha256": "10fc08f9f8c169f349a96c39b30ef9de789a7d3d36dadb3d03a5e78eb3dcb081",
       "pages": 8,
       "old_brand_mentions": 0,
       "new_brand_mentions": 11,
@@ -252,12 +252,12 @@
     ]
   },
   "visual_review": {
-    "integrated_manuscript": "All28pages rendered with Poppler and reviewed in fourcontact sheets; cover, TOC, headings, figures, references and footers fit without newname clipping.",
+    "integrated_manuscript": "All29current v2.1.1pages rendered and reviewed; precise current rebuilt firmware extents and mechanical verification counts aligned to execution receipts. Original hypothesis remains28pages.",
     "mechanical_drawing_set": "All6sheets rendered and visually reviewed.",
     "historical_report_covers": "Covers of engineeringpaper, Stage1, Stage2 and Stage3revision rendered and reviewed; embedded legacy brand images replaced from genuine updated source assets.",
     "native_schematic_samples": "Integratedroot and controllercarrierroot rendered and reviewed; human-readable newtitle fits existingdrawing frame.",
     "limits": "AllPDFs received text/metadata oldbrand scan; native80sheet hierarchy wasnot individually visually re-reviewed duringbrandingonlyre-export.",
-    "stage3_closeout": "All8pages rendered and inspected in final contact sheet; page3updated frozen-data observer chart and page8source identity section opened individually. Newname, labels, tables and footers fit. Qualified completed digital-study status preserved."
+    "stage3_closeout": "All8currentpages rendered and reviewed after derived identifier/canonical preflight binding corrections; layouts intact."
   },
   "original_hypothesis_sha256": "a1784965d63060e3b0c11fd3c01c9f0b4fe0b007cc65c605c76164ee1d4bf103",
   "completion_date": "2026-10-29",

@@ -18,7 +18,7 @@
   "authorized_brand_migration": {
     "baseline_commit": "9f6cf0a4403a00549a858ae9f0cecdd9dce0c5bb",
     "files_compared": 2812,
-    "comparison_manifest_sha256": "046a16e50fb565ea2ae0d686acb496184185af0207a72ba40b263dfcc65f18a9",
+    "comparison_manifest_sha256": "741ba01e76818ecd505bb0797c9b667bab6e70eeab04a3572ddcb2e65d0670b5",
     "scope": "Explicit brand migration; original immutable Git identities remain available",
     "rules": [
       "archive_member_brand_equivalence",
@@ -28,9 +28,8 @@
       "attested_regeneration:explicit_digest_bound_regeneration_or_review_evidence",
       "attested_regeneration:reviewed_branding_verifier_adaptation",
       "attested_regeneration:unchanged_drc_findings_with_actual_native_reexecution_and_source_bindings",
-      "exact_bytes",
-      "gzip_uncompressed_text_brand_equivalence",
-      "normalized_authored_text_brand_equivalence"
+      "byte_or_LF_normalized_brand_equivalence",
+      "gzip_uncompressed_text_brand_equivalence"
     ]
   },
   "baseline_allowed_reader_and_verification_updates": [
@@ -45,21 +44,21 @@
   "original_historical_inventory_sha256": "48b89756f2b74715749d09bae9630ccc9171d57cf8bdc739c11d8c59624c6153",
   "future_mesh_bytes": 4834384,
   "source_sha256_lf": {
-    "README.md": "2cbd6db14a946556a0a2c325f0f65de59f5ccf062bab5dc6286350c62b4358ed",
-    "START_HERE.md": "2e58cbe3b0b56f0be4ba7f46ec1c2a48c4491a79df3310e55a793ca7ac2f372f",
-    "CURRENT_STATUS.md": "2ed2be0ea60a94307816a83fdecf070ad789c7a464bf3cc8bd5586adbb62a23b",
+    "README.md": "41a7667fdd3a041f19b3f060208e3ee98c519cd2250d7018e90509bf5337c31b",
+    "START_HERE.md": "bbf44d106064cdd8747ccf3bfd4d70cdd5e0809e316e63e562d13253719d2066",
+    "CURRENT_STATUS.md": "80795a8597ac65248fa2183c4fbe7258282b2763a4d840f26386d10b5053657b",
     "docs/README.md": "13c0c121f013b0f135e45004b4237b0061c642ecad71fee3c1d15d61d1956219",
     "docs/explore/README.md": "65e4367ea73b76160fc078fbe18add4706950d6a03f7d5f43216670c16dbc92b",
     "docs/explore/theory.md": "3df396f8d70459fb0cb55af7cefad5df6d501d428a93b749c09f918e50bd0450",
     "docs/explore/cad.md": "c2a8a46d8ed5d3f2701e8fef83d2e036b55ee15fa7256f011ddf68c810f30e23",
     "docs/explore/electronics.md": "67285ac8502de81df972758390cc0f5952db30c966f22f6cd5365307ce848fc2",
     "docs/explore/firmware.md": "cc6730047e42ca684745345a5e81451545fbb86303d360b052ff6c78cf8ab7ec",
-    "docs/explore/reviewer-guide.md": "d11863d00b10d4d36165deb242e8f838c27207c0b82d1a33cf802c2cf6af509b",
-    "docs/explore/repository-map.md": "4ea79600c85eebabf499e724ac9b22c948504bdf694ade33bd852c179da89d3a",
+    "docs/explore/reviewer-guide.md": "93b0b7f121022b8fbd005c94b8baaf69a4a87238c5dd2cfa7108a48b4dd8c877",
+    "docs/explore/repository-map.md": "d4176f872150050d37b811ca750c39425865f3ea8b684d988640380775eb8518",
     "scripts/build_reader_previews.py": "1ac3ec568486c9bd671daa5a62a7811a66537bb5cc3eeb574403337c2b6f919b",
     "docs/explore/assets/manifest.json": "fbfaa13a1a117a78fc87587b376bd51e883c5a08ef417dae16a8e7ab1d27607c",
     "scripts/verify_viewer_navigation.py": "c31d9beaabf059eda43e840c9ea769d28ff5733b97201b6ba8f836fd58796e4c",
-    "scripts/project_branding.py": "cb1f8cb5f1d3f362bea6e483b03c69493d2851024168b53d1ec221079d39bdd9",
+    "scripts/project_branding.py": "4ee8ad4e62b2e4a97e67fba3163dc4a9d67b39690fb25ad0007460f44958f3d7",
     ".github/workflows/verify-release.yml": "8fc367945bcff12b68c03fbbf2babb8eb00224758ae41501f82379ebe51b8bab"
   },
   "external_urls_live_checked_by_this_script": false,

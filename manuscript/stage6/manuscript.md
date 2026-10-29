@@ -239,7 +239,7 @@ The selected four-layer process includes ordinary and fine vias. Five controller
 
 ### 7.1 Actual target image and host execution
 
-The application uses an nRF5340 application-core target and a BT40F carrier configuration. The original v2.0.0 ELF, HEX, BIN, map and configuration remain preserved and independently cross-checked: 53,648-byte flash LOAD and 98,000-byte RAM address extents within the 458,752-byte linker allocation. These extents differ from physical application-core RAM and from earlier architecture reservations.
+The application uses an nRF5340 application-core target and a BT40F carrier configuration. The archived v2.0.0 image retains its original 53,648-byte flash LOAD extent. Independent checks of the current Project SCCI RH rebuilds give 54,040 bytes for the original configuration, 54,072 bytes for the carrier and 54,200 bytes for the UART revision. All three have 98,000-byte RAM address extents within the unchanged 458,752-byte linker allocation. These extents differ from physical application-core RAM and earlier architecture reservations.
 
 The carrier configuration uses the manufacturer's 11 pF HFXO load setting. The image is compiled and linked, with no flashing or physical target execution. Host tests execute the shared production core. They exercise actual C control logic, while clocks, GPIO, SPI, analog observations and peripheral timing remain separate evidence responsibilities.
 
@@ -261,7 +261,7 @@ Consequently, simultaneous live spinal-feature feedback during MOTOR is a future
 | Raw output observation | 450 kword/s reservation | Dedicated transport design and lower-rate target opportunities |
 | Radio | Future network/telemetry allocation | Current image uses wired interfaces; no implemented radio image |
 | Pressure train | Historical three profiles at 120 Hz | Separate Stage 6 adapter uses 40 Hz events; no equivalence claim |
-| Original application memory | Architecture reservation | Preserved v2.0.0 image: 53,648-byte flash / 98,000-byte RAM extents; current UART revision carries its own image audit |
+| Target image memory | Architecture reservation | Current rebuilds: 54,040 / 54,072 / 54,200-byte flash; 98,000-byte RAM extents, with separate image audits |
 | Input power/runtime | Earlier additive ledgers | Latest conditional 3.154150 W / 4.879920 h |
 
 The purpose of this table is to make design evolution inspectable. Earlier studies remain reproducible records of their own inputs. A later successful build or board route does not retrospectively validate an earlier capacity assumption.
@@ -356,7 +356,7 @@ The record includes concrete corrections rather than an assertion of initial per
 
 Independent mechanical review found four feedthrough bores that stopped short of a rounded inner shoulder. Their approximately 0.216 mm pin-to-can separation missed the chosen 0.75 mm allocation. Extending the bores and sleeves preserves all 36 port positions and yields a minimum of approximately 0.75 mm within the declared numerical tolerance. A separate envelope check was corrected to include the feet in the full 240 mm height. These are geometric corrections, not dielectric or physical test results.
 
-The combined assembly is separately reopened and compared with its sources: all 260 objects remain valid, with zero residual in the recorded metrics and vertex coordinates. The portable mechanical checkpoint passes 12,996 checks. Its source preservation and byte/canonical hash policies distinguish raw execution records, line-ending-normalized text and actual binary CAD files.
+The combined assembly is separately reopened and compared with its sources: all 260 objects remain valid, with zero residual in the recorded metrics and vertex coordinates. The portable mechanical checkpoint passes 10,843 mechanical checks and individually compares 2,153 historical source files. Its source preservation and byte/canonical hash policies distinguish raw execution records, line-ending-normalized text and actual binary CAD files.
 
 ### 10.3 Claims and requirements
 
@@ -366,7 +366,7 @@ This distinction also governs the word independent. Source-independent checkers 
 
 ## 11. Reproducibility and release structure
 
-The frozen Stage 1-5 engineering baseline is commit 736015848cf581df66488bf53aa6360152eb767b. Stage 6 adds integration, evidence synthesis, the manuscript, defence material and release checks. Prior native sources, studies, results and workflows remain protected; only approved current entry and citation/manifest files evolve. The original synced hypothesis paper remains read-only.
+The frozen Stage 1-5 engineering baseline is commit 736015848cf581df66488bf53aa6360152eb767b. Stage 6 adds integration, evidence synthesis, the manuscript, defence material and release checks. The Project SCCI RH name migration compares protected artifacts through explicit per-file branding or regeneration evidence; immutable historical Git versions remain available. Current geometry and scientific numerical values are checked separately from names and metadata. The original synced hypothesis paper remains read-only.
 
 A full Git clone at the v2.0.1 tag is the authoritative reproducibility entry. Git history is required for baseline and committed-blob checks. A source ZIP is a convenient exchange archive, with the absence of its .git history stated explicitly. The manuscript, mechanical review, source archive and release checksum list provide separate inspection paths.
 

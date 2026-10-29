@@ -1,7 +1,9 @@
-# Project SCCI RH 2.1.0 — Complete Project Rebrand
+# Project SCCI RH 2.1.1 — Complete Project Rebrand
 
 Engineering snapshot: 28 October 2026. Publication: 29 October 2026. This release adopts **Project SCCI RH** throughout the active research, software, electronics, CAD, downloadable packages and public inspector. Scientific assumptions and numerical results are preserved; native geometry and circuit connectivity are checked during the migration. The previous names remain only where needed to identify immutable historical Git records and protocol compatibility.
 
+
+This patch also makes source-hash records repeatable across Windows and Linux and recomputes four derived study identifiers after the namespace change. Native geometry and scientific numerical values are unchanged.
 
 ## Engineering carried forward from v2.0.1
 
@@ -9,8 +11,8 @@ The v2.0.1 correction release followed a bounded review against the original pro
 brief. It fixes confirmed UART frame interleaving, removes a duplicate author
 from reference R17 and the rebuilt manuscript, adds a portable current CAD
 launcher, and updates current navigation for the public repository. See the
-[review dossier](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/docs/review-v2.0.1/README.md)
-and [current firmware](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/firmware/nrf5340/uart-revision/README.md).
+[review dossier](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.1/docs/review-v2.0.1/README.md)
+and [current firmware](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.1/firmware/nrf5340/uart-revision/README.md).
 The prior v2.0.0 tag retains its original files. This release preserves the
 engineering content of the 2,733 protected Stage 1-5 files through the recorded
 name migration; board/CAD geometry and numerical results are compared independently. The corrected UART
@@ -31,13 +33,13 @@ and artifacts; it incorporates no Mind-Link code or geometry.
 ## Start here
 
 - Read the **integrated illustrated manuscript** attached to this release.
-- Use the [engineering entry guide](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/START_HERE.md)
+- Use the [engineering entry guide](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.1/START_HERE.md)
   to find the native KiCad/FreeCAD files, models, firmware, source evidence and
   reproduction instructions.
-- Review the [six-sheet mechanical drawing set](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf),
+- Review the [six-sheet mechanical drawing set](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.1/cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf),
   also attached as a PDF.
-- Use the [contribution record](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/docs/stage6/contributions.md)
-  and [defence guide](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/docs/stage6/defence-guide.md)
+- Use the [contribution record](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.1/docs/stage6/contributions.md)
+  and [defence guide](https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.1/docs/stage6/defence-guide.md)
   to understand the project's ownership, assumptions and questions worth testing.
 
 ## Included engineering
@@ -99,7 +101,7 @@ their own notices and rights. The prior `v1.0.0` single-channel desktop subsyste
 dated studies and adverse findings remain preserved. Website and video revision
 are parked.
 
-Use a **full Git clone at `v2.1.0`** for history-dependent verification. The source
+Use a **full Git clone at `v2.1.1`** for history-dependent verification. The source
 ZIP is convenient for inspecting files and contains no `.git` history. Compare
 downloaded assets with the attached `SHA256SUMS.txt`; the checksum list excludes
 itself. Large populated STEP files are supplied as lossless ZIPs with verified

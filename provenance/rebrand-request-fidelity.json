@@ -264,5 +264,8 @@
       "pages_actually_reviewed": 28,
       "evidence": "Exact canonical record authored after actual four-contact-sheet inspection of all28final pages; byte-identical PDF rebuild verified. All20PDF current review hashes also checked."
     }
-  ]
+  ],
+  "historical_snapshot": true,
+  "superseded_by": "provenance/rebrand-release-clean-final-211.json",
+  "snapshot_note": "This retains the earlier observed checkpoint and original input hashes; the final v2.1.1 paper and portability checks are recorded separately."
 }

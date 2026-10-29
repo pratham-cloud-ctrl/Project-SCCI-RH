@@ -5,14 +5,14 @@
   "path": "inspector/assets/inspection-manifest.json",
   "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
   "original_sha256": "10025490f17cc9acd3da332da155dc530a162209cf21d269f9cb5ee51d30c049",
-  "current_sha256": "7636c787efccbc73e2cb95fa949be64d2d30e38021340cf830cbb9420375b66d",
+  "current_sha256": "0737a4100fa4cd10332c95d52bee443e30e09e117b0a2b10c383c61967afa793",
   "method": "explicit_digest_bound_regeneration_or_review_evidence",
   "scope": "Authorized name migration; no new physical or biological validation",
   "review": "",
   "independent_evidence": [
     {
-      "path": "provenance/rebrand-browser-catalog-final.json",
-      "sha256_lf": "eea7003c4c5f9ecffcef97f816b01bb4fe09a9d55c69c991bbf8912993484d94"
+      "path": "provenance/rebrand-final-published-metadata-211.json",
+      "sha256_lf": "5f0bca99d40d2ee1011da4343ccda5bf037500f86d051e1ce18324004aaa6dbd"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "schema": "scci_rh.stage6.release-verification.v1",
   "passed": true,
-  "version": "2.1.0",
-  "date": "2026-10-28",
+  "version": "2.1.1",
+  "date": "2026-10-29",
   "scope": "Entirely digital integrated SCCI research and engineering concept; native modular reference and separate conditional future implanted interface",
-  "checks": 1907,
+  "checks": 1909,
   "baseline": {
     "commit": "736015848cf581df66488bf53aa6360152eb767b",
     "historical_source_files": 2733,
@@ -21,7 +21,7 @@
     "authorized_brand_migration": {
       "baseline_commit": "736015848cf581df66488bf53aa6360152eb767b",
       "files_compared": 2733,
-      "comparison_manifest_sha256": "da76b0029a11ab19762436cca19c5b38bf88d46e2590a3e27cfcd5b66f240100",
+      "comparison_manifest_sha256": "8f8a72f9f00f85b47d5cd27118c8112eda61d4d8476dab32222497bb7eaab325",
       "scope": "Explicit brand migration; original immutable Git identities remain available",
       "rules": [
         "archive_member_brand_equivalence",
@@ -31,15 +31,14 @@
         "attested_regeneration:explicit_digest_bound_regeneration_or_review_evidence",
         "attested_regeneration:reviewed_branding_verifier_adaptation",
         "attested_regeneration:unchanged_drc_findings_with_actual_native_reexecution_and_source_bindings",
-        "exact_bytes",
-        "gzip_uncompressed_text_brand_equivalence",
-        "normalized_authored_text_brand_equivalence"
+        "byte_or_LF_normalized_brand_equivalence",
+        "gzip_uncompressed_text_brand_equivalence"
       ]
     }
   },
   "manuscript": {
-    "pages": 28,
-    "pdf_sha256": "66a77d7f84566c6f1e875849dbaa742595a4fae96d718aec8fdc1ea3fb60f3b4",
+    "pages": 29,
+    "pdf_sha256": "8d8a716071dd1893c51d2bb2f88865764d6822e821d3c833193126b42efe1045",
     "all_pages_visually_reviewed": true,
     "primary_and_inspiration_references": 18,
     "figure_stems": [
@@ -75,16 +74,16 @@
     "https://doi.org/10.1523/JNEUROSCI.1688-13.2013",
     "https://doi.org/10.1523/JNEUROSCI.3968-12.2013",
     "https://doi.org/10.3390/jcm15166287",
-    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/START_HERE.md",
-    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf",
-    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/docs/review-v2.0.1/README.md",
-    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/docs/stage6/contributions.md",
-    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/docs/stage6/defence-guide.md",
-    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/firmware/nrf5340/uart-revision/README.md",
+    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.1/START_HERE.md",
+    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.1/cad/stage5/drawings/SCCI_RH_Stage5_Mechanical_Review.pdf",
+    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.1/docs/review-v2.0.1/README.md",
+    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.1/docs/stage6/contributions.md",
+    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.1/docs/stage6/defence-guide.md",
+    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.1/firmware/nrf5340/uart-revision/README.md",
     "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/latest",
     "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/tag/v1.0.0",
     "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/tag/v2.0.1",
-    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/tag/v2.1.0",
+    "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/tag/v2.1.1",
     "https://github.com/sam-astro/Mind-link",
     "https://pmc.ncbi.nlm.nih.gov/articles/PMC12443590/",
     "https://pmc.ncbi.nlm.nih.gov/articles/PMC9668750/",
@@ -165,11 +164,11 @@
       "text_normalized": true
     },
     "CITATION.cff": {
-      "sha256": "59def6054fbe109dd811321b3bc13cf049b1316811669c962bea1ae6ecd58b00",
+      "sha256": "52d08cfa0bf2bdf5639cea1767b2e0d7d2cf8572f0d9900d0d80b47dda2dcb85",
       "text_normalized": true
     },
     "CURRENT_STATUS.md": {
-      "sha256": "2ed2be0ea60a94307816a83fdecf070ad789c7a464bf3cc8bd5586adbb62a23b",
+      "sha256": "80795a8597ac65248fa2183c4fbe7258282b2763a4d840f26386d10b5053657b",
       "text_normalized": true
     },
     "docs/explore/assets/cad-future-assembled.jpg": {
@@ -245,11 +244,11 @@
       "text_normalized": true
     },
     "docs/explore/repository-map.md": {
-      "sha256": "4ea79600c85eebabf499e724ac9b22c948504bdf694ade33bd852c179da89d3a",
+      "sha256": "d4176f872150050d37b811ca750c39425865f3ea8b684d988640380775eb8518",
       "text_normalized": true
     },
     "docs/explore/reviewer-guide.md": {
-      "sha256": "d11863d00b10d4d36165deb242e8f838c27207c0b82d1a33cf802c2cf6af509b",
+      "sha256": "93b0b7f121022b8fbd005c94b8baaf69a4a87238c5dd2cfa7108a48b4dd8c877",
       "text_normalized": true
     },
     "docs/explore/theory.md": {
@@ -333,15 +332,15 @@
       "text_normalized": true
     },
     "docs/stage6/release-contract.json": {
-      "sha256": "f3b66cba41cc99ef23f080d737ca6d63cca8d85ad948c801652310b6d680c0d3",
+      "sha256": "84a347a76083e1706a880b42e1500280203f74f0e84cf2eabb0cb0768922d5c2",
       "text_normalized": true
     },
     "docs/stage6/release-notes.md": {
-      "sha256": "b520487113a19f70c3c4eca935dea22fa2120459b22b57b4a5ec3484a872d2df",
+      "sha256": "08ef022d87db2eca56bfa7fd381de074b1ee3bd9b8ce263d40e6b144925a6837",
       "text_normalized": true
     },
     "docs/stage6/release-plan.md": {
-      "sha256": "b4b1cc5447d458542effbeddd9647b434713bcf5fa38e1f4a989c9850886e7a2",
+      "sha256": "03591b074a166cf99bcf1e546aba50803a5c7bbdf2ac00b202ae0e342a02717e",
       "text_normalized": true
     },
     "docs/stage6/requirements-claims-trace.csv": {
@@ -441,11 +440,11 @@
       "text_normalized": true
     },
     "inspector/assets/cad-manifest.json": {
-      "sha256": "afa81ecf217fce3baad2431a8b4e524735c6b96c573b211c76a9717396f18334",
+      "sha256": "15e43b11a5233f23438ea5eeba9b0b669cf78eff225a29ba64b751eb88929982",
       "text_normalized": true
     },
     "inspector/assets/catalog.json": {
-      "sha256": "84654677682c7f6e9ddf4e20fb9b13ed7b84a18101c6494094fc0755171ae33e",
+      "sha256": "284dd4a970b82779c337ef7f23fb73fa25a2278a46a4aed741f27bfea1a78933",
       "text_normalized": true
     },
     "inspector/assets/copper/contact-router/B_Cu.svg": {
@@ -593,7 +592,7 @@
       "text_normalized": true
     },
     "inspector/assets/inspection-manifest.json": {
-      "sha256": "8a147fdb0aac8d0c6ead4fbc0c45a2d9fa45859fd7522aa6ed258c1cbf36657d",
+      "sha256": "0737a4100fa4cd10332c95d52bee443e30e09e117b0a2b10c383c61967afa793",
       "text_normalized": true
     },
     "inspector/assets/models/contact-router.glb": {
@@ -1333,7 +1332,7 @@
       "text_normalized": true
     },
     "manuscript/stage6/build-manifest.json": {
-      "sha256": "764fd24c82b9247ba4a5bb484a84a97b6c2f3694a3839f34b6e6c749e5a7b28b",
+      "sha256": "bee388bd1d929cfd8eba241377fa51f435c0d5beb4b1e47d08779c5e79b18a33",
       "text_normalized": true
     },
     "manuscript/stage6/build_figures.py": {
@@ -1421,15 +1420,15 @@
       "text_normalized": true
     },
     "manuscript/stage6/manuscript.md": {
-      "sha256": "f16f2f75af22c8a598665e7b9b7b8d64eae3e3e0d3657b6c5a18ed3a998e7085",
+      "sha256": "6ecb842975a8c8ab658903d34707987e2c3f8bee6f2708b54769bea142ccafc0",
       "text_normalized": true
     },
     "output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf": {
-      "sha256": "66a77d7f84566c6f1e875849dbaa742595a4fae96d718aec8fdc1ea3fb60f3b4",
+      "sha256": "8d8a716071dd1893c51d2bb2f88865764d6822e821d3c833193126b42efe1045",
       "text_normalized": false
     },
     "provenance/browser-inspector-verification.json": {
-      "sha256": "d661d333a5000365e1adc5c08fc5c9eab09ca7f75ee25867b28b4d3fd79ed263",
+      "sha256": "0fc91b2bdd2f18b06c1b4579960d006896657aabdefe3c1b0a9d90fdaca6be19",
       "text_normalized": true
     },
     "provenance/stage3-conditional-concept-review.json": {
@@ -1437,27 +1436,27 @@
       "text_normalized": true
     },
     "provenance/stage4-integrated-pcb-verification.json": {
-      "sha256": "5d87dd5603822446580659b73b7fcaef7b37d19a6206c23407f5801dc7bbb33a",
+      "sha256": "3cfb738f01a08bb1eb2a33dcdbb35a0b0d5af5444c5f487389e6fb549cdaf582",
       "text_normalized": true
     },
     "provenance/stage5-delivery-review.json": {
-      "sha256": "a38480374e4d9c1feed8c5b58ce4e85eb5e828028cf114b9751220c1836c3172",
+      "sha256": "74aa10870d57c5cd36460d1ddece771db028d5588a0efc75e972a5217de4cd5c",
       "text_normalized": true
     },
     "provenance/stage5-mechanical-verification.json": {
-      "sha256": "58e4c53a484249fb15ae2aec2608b320ff976c6f53cdc8bfbe3b37568f6d3b34",
+      "sha256": "fb904725f9d1a1b986b940ab2230983d78d24c4b050c997841eb5d28fbe88598",
       "text_normalized": true
     },
     "provenance/stage6-document-review.json": {
-      "sha256": "0174b66255a56088a5f318a71fec881b6e9e280957d56a6876db878edbfc4dca",
+      "sha256": "05c02fc9ebb315f3b8e7ee1e89686dd564631741de829e2550e052d1fc502ee5",
       "text_normalized": true
     },
     "provenance/viewer-navigation-verification.json": {
-      "sha256": "4ec80ebea602858feaaeae7d5c780f5a477ffcc577ff243aba7a657edb966034",
+      "sha256": "919d5d8642e239b3a39260f0e226af1bfada0846acdf575f88b0643182bd29ac",
       "text_normalized": true
     },
     "README.md": {
-      "sha256": "2cbd6db14a946556a0a2c325f0f65de59f5ccf062bab5dc6286350c62b4358ed",
+      "sha256": "41a7667fdd3a041f19b3f060208e3ee98c519cd2250d7018e90509bf5337c31b",
       "text_normalized": true
     },
     "results/stage6/digital-path-verification.json": {
@@ -1477,11 +1476,11 @@
       "text_normalized": true
     },
     "scripts/inspector/build_cad_assets.py": {
-      "sha256": "0fcbb9a18d8a89d12eff74abbcb0709e6311ad50fb5909726617868eaad26c60",
+      "sha256": "85a4b9e83888087366a8dd2e03c9e228bcadc7b1c072c800b1ffcf082930a3b7",
       "text_normalized": true
     },
     "scripts/inspector/build_catalog.py": {
-      "sha256": "ccfb1d6b313b1311d3856cae5dd265ee659b2f556ed8c0824ecdd06247788ede",
+      "sha256": "e9e95992ce36463a31c85a8836ede002e97a88848e4ea104094b4c1b84a92235",
       "text_normalized": true
     },
     "scripts/inspector/build_electronics_assets.py": {
@@ -1505,7 +1504,7 @@
       "text_normalized": true
     },
     "scripts/project_branding.py": {
-      "sha256": "cb1f8cb5f1d3f362bea6e483b03c69493d2851024168b53d1ec221079d39bdd9",
+      "sha256": "4ee8ad4e62b2e4a97e67fba3163dc4a9d67b39690fb25ad0007460f44958f3d7",
       "text_normalized": true
     },
     "scripts/stage6/runtime_bridge.c": {
@@ -1525,7 +1524,7 @@
       "text_normalized": true
     },
     "START_HERE.md": {
-      "sha256": "2e58cbe3b0b56f0be4ba7f46ec1c2a48c4491a79df3310e55a793ca7ac2f372f",
+      "sha256": "bbf44d106064cdd8747ccf3bfd4d70cdd5e0809e316e63e562d13253719d2066",
       "text_normalized": true
     }
   },

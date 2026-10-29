@@ -1,0 +1,253 @@
+{
+  "date": "2026-10-29",
+  "scope": "Recomputed32 canonical frozen_forecast_sha256 siblings from actual preserved forecast objects after4derivedIDs changed; every other decoded byte unchanged. Named raw-file/summary/package record hashes and byte lengths rebound to those exact files. No forecast numbers or decisions changed.",
+  "changes": [
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+      "before_sha256": "70f01b02caa71df8fdfacbbf368f240eface2b64bd78927e9fb690cab47c40a2",
+      "current_sha256": "6da580bc8658d55b86bd2957b08bad8cba941b8d4a19bb272ff822f8235b8a92",
+      "canonical_forecast_hashes": {
+        "3f65d4ad7c0909c05b37c0ae63b3ab840dee09a9ce268ec5f122f35b77ea6906": "694565f69eb7cc07bf3ada3cc181d222e7b80819064b6c722426eafa9ea9d9d0"
+      },
+      "every_other_decoded_byte_unchanged": true
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+      "before_sha256": "b01a9c9b855c3faf52f4d10b624a6061f72a9f4e763d888235d1a6a2212a30dd",
+      "current_sha256": "5d0eb81e0d520f3beb771abbe1cc19d3ada4e716a7da131647b894e4bc66e57c",
+      "canonical_forecast_hashes": {
+        "ff8809b7ad11148246c37e38eb5ced7bb7017529793e1381056e5df7f37b0665": "63f0c7c0d8f44218f673537c2ef4b0daf7f1a3a424e285ea1f2aed5039ed0a27"
+      },
+      "every_other_decoded_byte_unchanged": true
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+      "before_sha256": "25b6fb4d3891c7c7bcc87168307407557c4d654f4c2b984ee18dd78467a71283",
+      "current_sha256": "696e89bf77e3d6e693002dc226781d541dc5353d6b410b26674f2ece4801d722",
+      "canonical_forecast_hashes": {
+        "093baef6d1e51e45fc6fe46890cc1cb7aea155e193e6a0b56945295e705eb22b": "6132b5c1714c6581302446e436e1be849916448d863d2d7e5b43bbb840cf018e"
+      },
+      "every_other_decoded_byte_unchanged": true
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+      "before_sha256": "e8205deaa3b96f98144736ea8bc424b59344224db71e8cff874d3f660cc9ee7d",
+      "current_sha256": "c12329122758b8befc2376a7102d31dc2e25cd87182a7dac0518ea370c805559",
+      "canonical_forecast_hashes": {
+        "142231627fb22af3babd27fadfd059b76b1d6ebba8188ed71664bead531387ac": "fd11ca6c622ccd927933d9ac0a84a47664220f385e88d2e23af4a25151233a3c"
+      },
+      "every_other_decoded_byte_unchanged": true
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+      "before_sha256": "05470f64de0c85aa30177a486b12bbb31a8d6633ee4fa9e15d7fb796436652cf",
+      "current_sha256": "be24c79109edc672187cafed35b15dcc7aef3cf307a84925a4baa7978cc5023b",
+      "canonical_forecast_hashes": {
+        "ec1d37e4f44569960064e6db8529494dc6742191dd082f7e0084b8b214eab42e": "a38f0e27a1e47223c3096e6b5be0293fa308b49b41438419faf5da5883918755"
+      },
+      "every_other_decoded_byte_unchanged": true
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+      "before_sha256": "e20f789d90e40bbe0e920284eb20577e7884e5cb7be853049e8344120ceda416",
+      "current_sha256": "1441dca050dc61a40765b42b066c876183334be9bf2fd4c8976395e720d24da2",
+      "canonical_forecast_hashes": {
+        "e41d38760b1d9f54be2ece284057b99870c64db0bc1b1368b51415cf5f8a77b1": "863a4ef7dc7de3e5d5149474e38d4341af037204b6d7e07aa733606047931faf"
+      },
+      "every_other_decoded_byte_unchanged": true
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+      "before_sha256": "d2efab7208b9904f09e9b6beaa45ebe6f85752380ad49929ab9ed17e3b7b6e97",
+      "current_sha256": "e6695bca0b9bb1558411360f2f5bd3707a4255102a7999ee7839584713aeb107",
+      "canonical_forecast_hashes": {
+        "6c8d022188b1e480f9829d88dcf159d2eb5fda75c71b81fa3459e862d80b14b1": "11e2ae0256963ace7a70f203c0bd638408fbe5d9d341e718b8df58125880e1d0"
+      },
+      "every_other_decoded_byte_unchanged": true
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+      "before_sha256": "dfc77bd9925cf33861332307fdd08c4aeaefbb3adf956ed8048f9ca01114833e",
+      "current_sha256": "317cd3bf41be4d6f8d0d737652ab0fd672dd63a844ca81981cd199df67e5cae5",
+      "canonical_forecast_hashes": {
+        "9a341a427ba363e5829e84e8844a58e2273fbeb08228d4693b2d5c4d43c4a0a0": "db4fc22b4a93abd3c1ffe0f0b48e3ccaed533058e46726cd34788e1e448feb9b"
+      },
+      "every_other_decoded_byte_unchanged": true
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/summary.json",
+      "before_sha256": "a125734fee595eb985f5b7180aaf6d20ee42128820b09321b3ec18f0e2d98883",
+      "current_sha256": "932ca9bc826498f38c27e4205f1c786a81663bde12623ce3f656f1270de91e01",
+      "exact_named_file_records": [
+        {
+          "path": "dependent-1250us.json.gz",
+          "previous_sha256": "70f01b02caa71df8fdfacbbf368f240eface2b64bd78927e9fb690cab47c40a2",
+          "current_sha256": "6da580bc8658d55b86bd2957b08bad8cba941b8d4a19bb272ff822f8235b8a92",
+          "previous_bytes": 584681,
+          "current_bytes": 584666
+        },
+        {
+          "path": "dependent-2500us.json.gz",
+          "previous_sha256": "b01a9c9b855c3faf52f4d10b624a6061f72a9f4e763d888235d1a6a2212a30dd",
+          "current_sha256": "5d0eb81e0d520f3beb771abbe1cc19d3ada4e716a7da131647b894e4bc66e57c",
+          "previous_bytes": 584478,
+          "current_bytes": 584480
+        },
+        {
+          "path": "favorable-1250us.json.gz",
+          "previous_sha256": "25b6fb4d3891c7c7bcc87168307407557c4d654f4c2b984ee18dd78467a71283",
+          "current_sha256": "696e89bf77e3d6e693002dc226781d541dc5353d6b410b26674f2ece4801d722",
+          "previous_bytes": 584045,
+          "current_bytes": 583994
+        },
+        {
+          "path": "favorable-2500us.json.gz",
+          "previous_sha256": "e8205deaa3b96f98144736ea8bc424b59344224db71e8cff874d3f660cc9ee7d",
+          "current_sha256": "c12329122758b8befc2376a7102d31dc2e25cd87182a7dac0518ea370c805559",
+          "previous_bytes": 584189,
+          "current_bytes": 584146
+        },
+        {
+          "path": "harmful-1250us.json.gz",
+          "previous_sha256": "05470f64de0c85aa30177a486b12bbb31a8d6633ee4fa9e15d7fb796436652cf",
+          "current_sha256": "be24c79109edc672187cafed35b15dcc7aef3cf307a84925a4baa7978cc5023b",
+          "previous_bytes": 584208,
+          "current_bytes": 584185
+        },
+        {
+          "path": "harmful-2500us.json.gz",
+          "previous_sha256": "e20f789d90e40bbe0e920284eb20577e7884e5cb7be853049e8344120ceda416",
+          "current_sha256": "1441dca050dc61a40765b42b066c876183334be9bf2fd4c8976395e720d24da2",
+          "previous_bytes": 584049,
+          "current_bytes": 584038
+        },
+        {
+          "path": "zero-1250us.json.gz",
+          "previous_sha256": "d2efab7208b9904f09e9b6beaa45ebe6f85752380ad49929ab9ed17e3b7b6e97",
+          "current_sha256": "e6695bca0b9bb1558411360f2f5bd3707a4255102a7999ee7839584713aeb107",
+          "previous_bytes": 583931,
+          "current_bytes": 583907
+        },
+        {
+          "path": "zero-2500us.json.gz",
+          "previous_sha256": "dfc77bd9925cf33861332307fdd08c4aeaefbb3adf956ed8048f9ca01114833e",
+          "current_sha256": "317cd3bf41be4d6f8d0d737652ab0fd672dd63a844ca81981cd199df67e5cae5",
+          "previous_bytes": 584086,
+          "current_bytes": 584075
+        }
+      ]
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/artifact-manifest.json",
+      "before_sha256": "97be64214dd4dfe429ca95822a857c4f289e06744e6bf918dcb0ec8f1eae72f2",
+      "current_sha256": "3ecc3ffc102c1d0331bd55ad8813ce7bdcfeef278923de8cbe8de589e780d7c4",
+      "exact_named_file_records": [
+        {
+          "path": "raw/dependent-1250us.json.gz",
+          "previous_sha256": "70f01b02caa71df8fdfacbbf368f240eface2b64bd78927e9fb690cab47c40a2",
+          "current_sha256": "6da580bc8658d55b86bd2957b08bad8cba941b8d4a19bb272ff822f8235b8a92",
+          "previous_bytes": 584664,
+          "current_bytes": 584666
+        },
+        {
+          "path": "raw/dependent-2500us.json.gz",
+          "previous_sha256": "b01a9c9b855c3faf52f4d10b624a6061f72a9f4e763d888235d1a6a2212a30dd",
+          "current_sha256": "5d0eb81e0d520f3beb771abbe1cc19d3ada4e716a7da131647b894e4bc66e57c",
+          "previous_bytes": 584465,
+          "current_bytes": 584480
+        },
+        {
+          "path": "raw/favorable-1250us.json.gz",
+          "previous_sha256": "25b6fb4d3891c7c7bcc87168307407557c4d654f4c2b984ee18dd78467a71283",
+          "current_sha256": "696e89bf77e3d6e693002dc226781d541dc5353d6b410b26674f2ece4801d722",
+          "previous_bytes": 584025,
+          "current_bytes": 583994
+        },
+        {
+          "path": "raw/favorable-2500us.json.gz",
+          "previous_sha256": "e8205deaa3b96f98144736ea8bc424b59344224db71e8cff874d3f660cc9ee7d",
+          "current_sha256": "c12329122758b8befc2376a7102d31dc2e25cd87182a7dac0518ea370c805559",
+          "previous_bytes": 584160,
+          "current_bytes": 584146
+        },
+        {
+          "path": "raw/harmful-1250us.json.gz",
+          "previous_sha256": "05470f64de0c85aa30177a486b12bbb31a8d6633ee4fa9e15d7fb796436652cf",
+          "current_sha256": "be24c79109edc672187cafed35b15dcc7aef3cf307a84925a4baa7978cc5023b",
+          "previous_bytes": 584181,
+          "current_bytes": 584185
+        },
+        {
+          "path": "raw/harmful-2500us.json.gz",
+          "previous_sha256": "e20f789d90e40bbe0e920284eb20577e7884e5cb7be853049e8344120ceda416",
+          "current_sha256": "1441dca050dc61a40765b42b066c876183334be9bf2fd4c8976395e720d24da2",
+          "previous_bytes": 584044,
+          "current_bytes": 584038
+        },
+        {
+          "path": "raw/zero-1250us.json.gz",
+          "previous_sha256": "d2efab7208b9904f09e9b6beaa45ebe6f85752380ad49929ab9ed17e3b7b6e97",
+          "current_sha256": "e6695bca0b9bb1558411360f2f5bd3707a4255102a7999ee7839584713aeb107",
+          "previous_bytes": 583914,
+          "current_bytes": 583907
+        },
+        {
+          "path": "raw/zero-2500us.json.gz",
+          "previous_sha256": "dfc77bd9925cf33861332307fdd08c4aeaefbb3adf956ed8048f9ca01114833e",
+          "current_sha256": "317cd3bf41be4d6f8d0d737652ab0fd672dd63a844ca81981cd199df67e5cae5",
+          "previous_bytes": 584050,
+          "current_bytes": 584075
+        },
+        {
+          "path": "summary.json",
+          "previous_sha256": "a125734fee595eb985f5b7180aaf6d20ee42128820b09321b3ec18f0e2d98883",
+          "current_sha256": "932ca9bc826498f38c27e4205f1c786a81663bde12623ce3f656f1270de91e01",
+          "previous_bytes": 48201,
+          "current_bytes": 48201
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-1250us.json.gz",
+      "current_sha256": "6da580bc8658d55b86bd2957b08bad8cba941b8d4a19bb272ff822f8235b8a92"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/dependent-2500us.json.gz",
+      "current_sha256": "5d0eb81e0d520f3beb771abbe1cc19d3ada4e716a7da131647b894e4bc66e57c"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-1250us.json.gz",
+      "current_sha256": "696e89bf77e3d6e693002dc226781d541dc5353d6b410b26674f2ece4801d722"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/favorable-2500us.json.gz",
+      "current_sha256": "c12329122758b8befc2376a7102d31dc2e25cd87182a7dac0518ea370c805559"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-1250us.json.gz",
+      "current_sha256": "be24c79109edc672187cafed35b15dcc7aef3cf307a84925a4baa7978cc5023b"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/harmful-2500us.json.gz",
+      "current_sha256": "1441dca050dc61a40765b42b066c876183334be9bf2fd4c8976395e720d24da2"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-1250us.json.gz",
+      "current_sha256": "e6695bca0b9bb1558411360f2f5bd3707a4255102a7999ee7839584713aeb107"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
+      "current_sha256": "317cd3bf41be4d6f8d0d737652ab0fd672dd63a844ca81981cd199df67e5cae5"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/summary.json",
+      "current_sha256": "932ca9bc826498f38c27e4205f1c786a81663bde12623ce3f656f1270de91e01"
+    },
+    {
+      "path": "experiments/stage3/frozen-observer-pilot/artifact-manifest.json",
+      "current_sha256": "3ecc3ffc102c1d0331bd55ad8813ce7bdcfeef278923de8cbe8de589e780d7c4"
+    }
+  ]
+}

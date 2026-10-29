@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-29",
+  "scope": "Observed confirmation audit maximum compressed segment size metadata rebound to actual immutable pair files; residuals, counts and all scientific results unchanged",
+  "changes": [
+    {
+      "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-saved-audit-12oct.json",
+      "before_sha256": "7445513077279442f4132166adaadd6467f21bba4a24a9ea819db7b67960989e",
+      "after_sha256": "476a36b3e2731f30ac6269ffc5cccdf1e852a7fb98bd2c8a5f0a3e4af566d378",
+      "field": "maximum_segment_file_bytes",
+      "previous": 2255198,
+      "actual": 2255218
+    },
+    {
+      "path": "experiments/stage3/observed-state-observer/artifact-manifest.json",
+      "before_sha256": "442909c37c2a65a7449dd1e6c7dce6895a451e880f839256afa7e1a108fe9173",
+      "after_sha256": "203f190d7e40b46715ada5dfdca7b790634c0c90d13c6341a0a2a0fba8fcfdfd",
+      "field": "files[frozen/observer-confirmation-saved-audit-12oct.json].sha256"
+    }
+  ]
+}

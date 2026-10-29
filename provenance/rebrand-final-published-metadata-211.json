@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-29",
+  "passed": true,
+  "scope": "Actual final catalog export after reviewedv2.1.1manuscript build; version/date references driven by release contract. Actual Stage3revision10checks rerun after metadata identity repair. Engineering geometry and numeric outputs unchanged.",
+  "commands": [
+    "python scripts/inspector/build_catalog.py",
+    "python scripts/verify_stage3_revision.py --write-receipt"
+  ],
+  "files": [
+    {
+      "path": "inspector/assets/inspection-manifest.json",
+      "current_sha256": "0737a4100fa4cd10332c95d52bee443e30e09e117b0a2b10c383c61967afa793"
+    },
+    {
+      "path": "inspector/assets/catalog.json",
+      "current_sha256": "284dd4a970b82779c337ef7f23fb73fa25a2278a46a4aed741f27bfea1a78933"
+    },
+    {
+      "path": "inspector/assets/downloads-manifest.json",
+      "current_sha256": "06cadd1cb8f079cca123c013b04784d2264bab4311a31405bd3435246db9eea6"
+    },
+    {
+      "path": "provenance/stage3-revision-verification.json",
+      "current_sha256": "083eafe9852b59b0865c5e5507faa5fc3002c21418e97b299ffb2e39681c6131"
+    }
+  ]
+}

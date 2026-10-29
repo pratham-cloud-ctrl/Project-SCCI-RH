@@ -1,0 +1,108 @@
+{
+  "schema": "scci_rh.inspector-text-hash-portability.v1",
+  "date": "2026-10-29",
+  "source_snapshot": "5f624d41596309cae81ff4a42e27d72470eee26f",
+  "scope": "Only declared text-source LF canonicalization, deterministic LF generated text, and resulting metadata. NativeCAD,STEP,GLB and mathematical data not regenerated.",
+  "changed_bindings": [
+    {
+      "source": "electronics/stage4/integrated-pcb/exports/recording-front-end/export-receipt.json",
+      "before_windows_raw_sha256": "e89259c2b0318a89c949e3ff56709922d374b0318fb81df04c58cf59d86d3545",
+      "current_lf_sha256": "72c437ebdc7c4e2c9b5b3911292c6bbeaac85cba7f6668bbde14eeafa782efe4"
+    },
+    {
+      "source": "electronics/stage4/integrated-pcb/exports/current-driver/export-receipt.json",
+      "before_windows_raw_sha256": "4c1a23061705fbf14c20dd14e0364bb5075a3f59594419c339cabde8f13d9b57",
+      "current_lf_sha256": "025cb40d3de5ed4b0876877f7c0d049f9fab962768c30b01fda4c12baaff7864"
+    },
+    {
+      "source": "electronics/stage4/integrated-pcb/exports/contact-router/export-receipt.json",
+      "before_windows_raw_sha256": "77bf40fc46d97db790fa1ba6459fb16f62f65bb37886fbdee5f140f53ccbfc90",
+      "current_lf_sha256": "73b3134d05a7168b13ae10ee4e655860fb54d497680246f2ad2a3f8248302016"
+    },
+    {
+      "source": "electronics/stage4/integrated-pcb/exports/supervision/export-receipt.json",
+      "before_windows_raw_sha256": "058c2a091a9e87d616af6c29b140eba66998c2ea8db2c074df5b70752c95a088",
+      "current_lf_sha256": "13510eb6ce14042805d2c17f9d4cbc8598c2b636d14e0ad7bc5f1bfba2397af5"
+    },
+    {
+      "source": "electronics/stage4/integrated-pcb/exports/power/export-receipt.json",
+      "before_windows_raw_sha256": "23131899439c2b8195e71a127b5094727e9f3e28b740ab756fe503e43dad3366",
+      "current_lf_sha256": "0097476a97eced97d330b1973d0c4546fddc0d5a954710474384b489ffb4aa89"
+    },
+    {
+      "source": "electronics/stage4/integrated-pcb/exports/monitoring-cell/export-receipt.json",
+      "before_windows_raw_sha256": "66a709a25d63154fc5aca97a45b19278d29f5047f02f7c8466cb7cc231c61017",
+      "current_lf_sha256": "b7ebb7c765c9b2a58c6c467ba2dd5ef0b67457a2121264cfd3226fbd0ac31d6b"
+    },
+    {
+      "source": "electronics/stage4/integrated-pcb/exports/monitoring-transport/export-receipt.json",
+      "before_windows_raw_sha256": "3beaf6ed1d055bbeedb353b7b8f3248091cecd28fd8e925ee710e71de476f6c3",
+      "current_lf_sha256": "e0227196e40beb105899dcab416fea85ebdfb3f9c7f1dd342952c7880732571d"
+    },
+    {
+      "source": "electronics/stage4/integrated-pcb/exports/controller-carrier/export-receipt.json",
+      "before_windows_raw_sha256": "35c3f3bd912f692c989f43387c149d3dfcc5b9e7208f553e862d2fca62fab047",
+      "current_lf_sha256": "4cd7e0b0875040dc47a52e6141bbb70d655a19692be26fc9974d1c8e2362d9cf"
+    }
+  ],
+  "all_10_model_geometry_and_part_metadata_exactly_unchanged": true,
+  "current_native_cad_package_members_match_git_exactly": 75,
+  "all_31_unique_cad_inputs_match_committed_git_blobs": true,
+  "reviewed_builder_changes": [
+    "build_cad_assets.sha normalizes only explicit text source suffixes; binary geometry remains raw",
+    "refresh-input-bindings checks prior raw/LF identity before rebinding, rejecting other changes",
+    "build_catalog native member bytes use LF for declared text source; binary remains exact",
+    "Both builders write generated JSON/HTML/checksum text with explicit LF"
+  ],
+  "files": [
+    {
+      "path": "scripts/inspector/build_cad_assets.py",
+      "before_git_sha256": "0fcbb9a18d8a89d12eff74abbcb0709e6311ad50fb5909726617868eaad26c60",
+      "current_sha256": "85a4b9e83888087366a8dd2e03c9e228bcadc7b1c072c800b1ffcf082930a3b7",
+      "current_sha256_lf": "85a4b9e83888087366a8dd2e03c9e228bcadc7b1c072c800b1ffcf082930a3b7"
+    },
+    {
+      "path": "scripts/inspector/build_catalog.py",
+      "before_git_sha256": "ccfb1d6b313b1311d3856cae5dd265ee659b2f556ed8c0824ecdd06247788ede",
+      "current_sha256": "2262a9a708bbd46972c982138b8723f11a23d4628f4320ee3ac1a72a8e245093",
+      "current_sha256_lf": "2262a9a708bbd46972c982138b8723f11a23d4628f4320ee3ac1a72a8e245093"
+    },
+    {
+      "path": "inspector/assets/cad-manifest.json",
+      "before_git_sha256": "a54e61a1689a232a899b5f97a11f3cccc34556763aeea711bbe1cf8e07ecd634",
+      "current_sha256": "15e43b11a5233f23438ea5eeba9b0b669cf78eff225a29ba64b751eb88929982",
+      "current_sha256_lf": "15e43b11a5233f23438ea5eeba9b0b669cf78eff225a29ba64b751eb88929982"
+    },
+    {
+      "path": "inspector/assets/catalog.json",
+      "before_git_sha256": "6a32b832c431063777780658bf1a3a1ded7649539c5c19c1f0954337a1b17735",
+      "current_sha256": "284dd4a970b82779c337ef7f23fb73fa25a2278a46a4aed741f27bfea1a78933",
+      "current_sha256_lf": "284dd4a970b82779c337ef7f23fb73fa25a2278a46a4aed741f27bfea1a78933"
+    },
+    {
+      "path": "inspector/assets/downloads-manifest.json",
+      "before_git_sha256": "e3fc53d4fa49b01dca94b9d6736f77fdca51a7e82974b1c4ea59e78baee95dee",
+      "current_sha256": "06cadd1cb8f079cca123c013b04784d2264bab4311a31405bd3435246db9eea6",
+      "current_sha256_lf": "06cadd1cb8f079cca123c013b04784d2264bab4311a31405bd3435246db9eea6"
+    },
+    {
+      "path": "inspector/assets/inspection-manifest.json",
+      "before_git_sha256": "7636c787efccbc73e2cb95fa949be64d2d30e38021340cf830cbb9420375b66d",
+      "current_sha256": "0d7cefd64300d9544e79413534937af680993d0bf178da807cecceacc00b3942",
+      "current_sha256_lf": "0d7cefd64300d9544e79413534937af680993d0bf178da807cecceacc00b3942"
+    }
+  ],
+  "actual_checks": {
+    "working_tree_structural_inspector_passed": true,
+    "clean_git_checkout_with_six_owned_overlays_structural_inspector_passed": true,
+    "clean_checkout_location": "E:\\Project-history\\clean-rebrand-check",
+    "native_boards": 8,
+    "native_schematic_sheets": 80,
+    "four_layer_vectors": 32,
+    "valid_native_archives": 3,
+    "bundled_actual_three_loader_models_passed": 10,
+    "browser_GUI_interaction_executed": false,
+    "structural_clean_log_sha256": "71b66d8efdd852667ab397bcb54b94aafc3f0d0182fb4332c0995ab6fc45e4b4",
+    "loader_clean_log_sha256": "f00925531fe3bd7259462931a1eceed84a8e9ce3cb69e64b4a986409ecc59e4a"
+  }
+}

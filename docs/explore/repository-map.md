@@ -9,7 +9,7 @@ This map separates the current reading path from the project's preserved develop
 | What you want | Where to go |
 |---|---|
 | Understand the project in a few minutes | [Explore hub](README.md), then [theory](theory.md) |
-| Read the complete illustrated account | [Integrated 28-page manuscript](../../output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf) |
+| Read the complete illustrated account | [Integrated 29-page manuscript](../../output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf) |
 | Inspect mechanical assemblies without software | [CAD gallery and downloads](cad.md) |
 | Open current KiCad boards and schematics | [Electronics guide](electronics.md), then the [eight-board index](../../electronics/stage4/integrated-pcb/BOARD_INDEX.md) |
 | Find the corrected target firmware | [Firmware guide](firmware.md), then the [UART revision](../../firmware/nrf5340/uart-revision/README.md) |

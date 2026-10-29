@@ -365,6 +365,13 @@ def assert_baseline_equivalence(root: Path, commit: str,
                     rule = validator(current_path, previous, current)
                 if not rule:
                     raise AssertionError("Unproven change beyond branding: " + current_path)
+                # Raw identity and LF-normalized authored-text identity are
+                # equally strict accepted outcomes. Git may check out an
+                # otherwise identical text file with LF or CRLF; use one
+                # report label so that the evidence manifest is portable.
+                # This changes reporting only, never the comparisons above.
+                if rule in {"exact_bytes", "normalized_authored_text_brand_equivalence"}:
+                    rule = "byte_or_LF_normalized_brand_equivalence"
                 rows.append({"path": current_path, "original_git_blob": old_blob,
                              "current_sha256_lf": hashlib.sha256(normalized_text_bytes(current)).hexdigest(),
                              "comparison": rule})

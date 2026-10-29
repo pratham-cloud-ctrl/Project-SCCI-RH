@@ -22,7 +22,7 @@
     "2500us": {
       "model": {
         "schema": "scci_rh.stage3.dynamic-response-model.v1",
-        "model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+        "model_id": "SCCI_RH-S3-DYNAMIC-1:cde051161d4537c0d07a",
         "kernel_m_per_fraction": [
           [
             [
@@ -555846,7 +555846,7 @@
           0.007830812070783715,
           0.0034634766991666574
         ],
-        "model_id": "SCCI_RH-S3-DYNAMIC-1:0560b5fb8bf44a7977b7",
+        "model_id": "SCCI_RH-S3-DYNAMIC-1:cde051161d4537c0d07a",
         "target_support_s": 1.15,
         "dose_assumption": {
           "measured_fraction": 1.012,
@@ -555867,7 +555867,7 @@
     "625us": {
       "model": {
         "schema": "scci_rh.stage3.dynamic-response-model.v1",
-        "model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
+        "model_id": "SCCI_RH-S3-DYNAMIC-1:cf758ce76cc67b495322",
         "kernel_m_per_fraction": [
           [
             [
@@ -1111691,7 +1111691,7 @@
           0.007830812070783707,
           0.0034634766991666574
         ],
-        "model_id": "SCCI_RH-S3-DYNAMIC-1:4694cf714faf31f1182d",
+        "model_id": "SCCI_RH-S3-DYNAMIC-1:cf758ce76cc67b495322",
         "target_support_s": 1.15,
         "dose_assumption": {
           "measured_fraction": 1.012,

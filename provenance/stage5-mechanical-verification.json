@@ -5,7 +5,7 @@
   "checks": 10843,
   "verifier": "scripts/verify_stage5_mechanics.py",
   "verifier_sha256_lf": "bf95a3821c5a8870abc083fa5b1888ecb84c82c97a4cc55c0c0aeaa943e1ea1b",
-  "branding_adapter_sha256_lf": "cb1f8cb5f1d3f362bea6e483b03c69493d2851024168b53d1ec221079d39bdd9",
+  "branding_adapter_sha256_lf": "4ee8ad4e62b2e4a97e67fba3163dc4a9d67b39690fb25ad0007460f44958f3d7",
   "scope": "Full-size modular digital reference plus separate conditional future implant/interface geometry; no physical qualification",
   "baseline": {
     "commit": "7a4371b7ff891248a5ab4f12e3149268485d828f",
@@ -14,7 +14,7 @@
     "authorized_brand_migration": {
       "baseline_commit": "7a4371b7ff891248a5ab4f12e3149268485d828f",
       "files_compared": 2153,
-      "comparison_manifest_sha256": "218c0a20b373681a2f0825fb64b0d4da05386957bc52e29ce3d18a9a44bfefbe",
+      "comparison_manifest_sha256": "e7c96a9b4d05852a9e0c683af14dcd78963eebe382646333729a36f5aaec547b",
       "scope": "Explicit brand migration; original immutable Git identities remain available",
       "rules": [
         "archive_member_brand_equivalence",
@@ -24,13 +24,12 @@
         "attested_regeneration:explicit_digest_bound_regeneration_or_review_evidence",
         "attested_regeneration:reviewed_branding_verifier_adaptation",
         "attested_regeneration:unchanged_drc_findings_with_actual_native_reexecution_and_source_bindings",
-        "exact_bytes",
-        "normalized_authored_text_brand_equivalence"
+        "byte_or_LF_normalized_brand_equivalence"
       ]
     }
   },
   "root_contract_canonical_sha256": "a55ee565bbe34708794e16433d94506b7cbc4018acb27615e9ecf2733beae138",
-  "stage4_verification_canonical_sha256": "d71dacac0c5b76c83a116eec2824dbd195a954f1b66af367383a38d0134a43c0",
+  "stage4_verification_canonical_sha256": "d2b0af67905592a45db4a254da777d860b74651ee2e7f19d99ab55fff0487af2",
   "port_source_sha256_lf": "b7f98d085a9f37a1d2b0047cde472e9b08b5f5fa42b40ef2e28155c215c4a806",
   "packages": {
     "reference": {

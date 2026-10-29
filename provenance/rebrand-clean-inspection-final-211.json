@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-29",
+  "passed": true,
+  "scope": "Actual current clean-checkout inspector and reader source checks with canonical report labels:10models8boards80pages32copperviews3nativeZIPs2812historicalfiles. Browserinteraction notexecuted.",
+  "files": [
+    {
+      "path": "provenance/browser-inspector-verification.json",
+      "current_sha256": "0fc91b2bdd2f18b06c1b4579960d006896657aabdefe3c1b0a9d90fdaca6be19"
+    },
+    {
+      "path": "provenance/viewer-navigation-verification.json",
+      "current_sha256": "919d5d8642e239b3a39260f0e226af1bfada0846acdf575f88b0643182bd29ac"
+    }
+  ]
+}

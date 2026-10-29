@@ -5,14 +5,14 @@
   "path": "experiments/stage3/frozen-observer-pilot/raw/zero-2500us.json.gz",
   "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
   "original_sha256": "7f736ac1dc8e86be30066864451d14dca17e6130743e04603127a9087032d749",
-  "current_sha256": "96369b0627dce0c01fc35ffa71336a53245c3139ddd739cbb77640ff69849ae5",
+  "current_sha256": "317cd3bf41be4d6f8d0d737652ab0fd672dd63a844ca81981cd199df67e5cae5",
   "method": "explicit_digest_bound_regeneration_or_review_evidence",
   "scope": "Authorized name migration; no new physical or biological validation",
   "review": "",
   "independent_evidence": [
     {
-      "path": "provenance/rebrand-stage3-data-equivalence.json",
-      "sha256_lf": "8a50bd886a238ee75f5332b2badcf060a2ca5c45d5c9fb8b9da26bc5751da40b"
+      "path": "provenance/rebrand-frozen-forecast-identity-bindings.json",
+      "sha256_lf": "fb3b10859f559a95acb089535852cc3d698465447033aead00c8282aac028a8d"
     }
   ]
 }

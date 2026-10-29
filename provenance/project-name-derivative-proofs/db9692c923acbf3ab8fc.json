@@ -1,0 +1,18 @@
+{
+  "schema": "project-name-per-artifact-equivalence.v1",
+  "date": "2026-10-28",
+  "passed": true,
+  "path": "docs/explore/repository-map.md",
+  "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
+  "original_sha256": "ae205153b1e17d39d90f1549f020324a277d170037065d1706b3c4af65471bd9",
+  "current_sha256": "d4176f872150050d37b811ca750c39425865f3ea8b684d988640380775eb8518",
+  "method": "explicit_digest_bound_regeneration_or_review_evidence",
+  "scope": "Authorized name migration; no new physical or biological validation",
+  "review": "",
+  "independent_evidence": [
+    {
+      "path": "provenance/rebrand-publication-211-review.json",
+      "sha256_lf": "c2b0cefa63132920602d7f730c865a30f9076d8b7bf0edf339608651bc941b88"
+    }
+  ]
+}

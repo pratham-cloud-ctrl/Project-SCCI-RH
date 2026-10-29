@@ -1,9 +1,9 @@
 {
   "schema": "scci_rh.stage6.release-contract.v1",
-  "version": "2.1.0",
-  "tag": "v2.1.0",
-  "date": "2026-10-28",
-  "release_title": "Project SCCI RH 2.1.0 - Complete project rebrand",
+  "version": "2.1.1",
+  "tag": "v2.1.1",
+  "date": "2026-10-29",
+  "release_title": "Project SCCI RH 2.1.1 - Complete project rebrand",
   "scope": "Entirely digital integrated SCCI research and engineering concept; native modular reference and separate conditional future implanted interface",
   "baseline_commit": "736015848cf581df66488bf53aa6360152eb767b",
   "baseline_tracked_files": 2740,
@@ -87,7 +87,7 @@
   "release_assets": [
     "Project_SCCI_RH_Integrated_Manuscript.pdf",
     "SCCI_RH_Stage5_Mechanical_Review.pdf",
-    "Project_SCCI_RH_v2.1.0_source.zip",
+    "Project_SCCI_RH_v2.1.1_source.zip",
     "SHA256SUMS.txt"
   ],
   "checksum_policy": "Tracked Git-blob manifest excludes itself; external release checksum list excludes itself; archives generated outside tracked source tree"

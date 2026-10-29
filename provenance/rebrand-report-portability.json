@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-29",
+  "scope": "Report-classification portability only; actual comparison, attestation and numeric acceptance functions are AST-identical",
+  "path": "scripts/project_branding.py",
+  "before_sha256": "cb1f8cb5f1d3f362bea6e483b03c69493d2851024168b53d1ec221079d39bdd9",
+  "current_sha256": "4ee8ad4e62b2e4a97e67fba3163dc4a9d67b39690fb25ad0007460f44958f3d7",
+  "unchanged_acceptance_functions": [
+    "compare_renamed_bytes",
+    "attested_derivative",
+    "normalized_text_bytes"
+  ],
+  "LF_and_CRLF_end_to_end_manifest_equal": true,
+  "numeric_modification_still_rejected": true,
+  "case_manifest": {
+    "baseline_commit": "synthetic-comparator-case",
+    "files_compared": 1,
+    "comparison_manifest_sha256": "6da198bacc201c3041f6d24401dfb6f5f7a9a34d6338d769587455e58b9dbed2",
+    "scope": "Explicit brand migration; original immutable Git identities remain available",
+    "rules": [
+      "byte_or_LF_normalized_brand_equivalence"
+    ]
+  },
+  "clean_engineering_audits": {
+    "stage4_passed_checks": 1375,
+    "stage5_passed_checks": 10843,
+    "stage4_changed_fields": [
+      "historical_sources",
+      "source_and_native_evidence_sha256_lf"
+    ],
+    "stage5_changed_fields": [
+      "branding_adapter_sha256_lf",
+      "baseline"
+    ],
+    "only_changed_source_binding": "scripts/project_branding.py",
+    "all_other_engineering_values_equal": true
+  }
+}

@@ -22,7 +22,7 @@ future idea to inspectable engineering; SCCI_RH contributes its own spinal desig
 
 ## 1. Read the integrated account
 
-- [Integrated illustrated manuscript](output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf): 28 pages connecting scientific premises, mathematical models, actual engineering and verification.
+- [Integrated illustrated manuscript](output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf): 29 pages connecting scientific premises, mathematical models, actual engineering and verification.
 - [Editable manuscript and builder](manuscript/stage6/manuscript.md): complete source, figures and reproducible typesetting alongside it.
 - [Current scope and completed stages](CURRENT_STATUS.md): what exists and which capabilities remain conditional.
 - [Primary-source evidence audit](docs/stage6/evidence-review.md): 18 references, populations, access methods and limits.
@@ -70,7 +70,7 @@ existing boards fit inside it.
 
 ## 5. Reproduce and check
 
-Use a full Git clone at tag `v2.1.0` for history/blob verification. Install the
+Use a full Git clone at tag `v2.1.1` for history/blob verification. Install the
 dependencies in [requirements-lock.txt](requirements-lock.txt) in a Python 3.12
 environment. Read the experiment entry for a C11 compiler, then run:
 

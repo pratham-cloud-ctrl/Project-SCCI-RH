@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-29",
+  "passed": true,
+  "scope": "Actual clean Git-blob checkout audit;1375aggregate checks,9540integration,14273population and83carrierfirmware checks. Recorded result promoted without rerun only after all768bound inputs still match both source and clean checkout. Reporting labels canonical across LF/CRLF; no geometry, model or physical measurement changes.",
+  "actual_command": "Python: import verify_integrated_pcb; report = verify_integrated_pcb.audit() in clean Git-blob checkout",
+  "executed_verifier": "scripts/verify_integrated_pcb.py",
+  "executed_verifier_sha256_lf": "84704f82b069e375ca7dbf9cb6fa2ad529ff26d6f0da0d9f3d074ca0c910153c",
+  "branding_adapter_sha256_lf": "4ee8ad4e62b2e4a97e67fba3163dc4a9d67b39690fb25ad0007460f44958f3d7",
+  "checkpoint_assertions": 1375,
+  "bound_inputs_rechecked": 768,
+  "source_matches_actual_clean_result": true,
+  "files": [
+    {
+      "path": "provenance/stage4-integrated-pcb-verification.json",
+      "current_sha256": "3cfb738f01a08bb1eb2a33dcdbb35a0b0d5af5444c5f487389e6fb549cdaf582"
+    }
+  ]
+}

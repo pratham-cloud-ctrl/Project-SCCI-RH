@@ -5,14 +5,14 @@
   "path": "experiments/stage3/observed-state-observer/frozen/observer-confirmation-saved-audit-12oct.json",
   "original_commit": "9e1b4e412748ba4840dd1a2e24e83f80ab848969",
   "original_sha256": "fd9bcf1f54538fc788dfacf9a9aecd8931ebc51403414f99d1c86cfdffb8e3b2",
-  "current_sha256": "7445513077279442f4132166adaadd6467f21bba4a24a9ea819db7b67960989e",
+  "current_sha256": "476a36b3e2731f30ac6269ffc5cccdf1e852a7fb98bd2c8a5f0a3e4af566d378",
   "method": "explicit_digest_bound_regeneration_or_review_evidence",
   "scope": "Authorized name migration; no new physical or biological validation",
   "review": "",
   "independent_evidence": [
     {
-      "path": "provenance/rebrand-stage3-data-equivalence.json",
-      "sha256_lf": "8a50bd886a238ee75f5332b2badcf060a2ca5c45d5c9fb8b9da26bc5751da40b"
+      "path": "provenance/rebrand-observed-segment-size.json",
+      "sha256_lf": "7e153765c07459cdfd2efeb966acf39fc499a58dcf247a7b31a81a1fa0c9cd1f"
     }
   ]
 }

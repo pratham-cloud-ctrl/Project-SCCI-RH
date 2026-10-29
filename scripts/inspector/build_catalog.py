@@ -17,15 +17,26 @@ ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / 'inspector'
 DATE = (2026, 10, 28, 0, 0, 0)
 REPO = 'https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/main/'
+TEXT_SOURCE_SUFFIXES = {'.py', '.fcmacro', '.cmd', '.ps1', '.csv', '.json', '.md',
+                        '.txt', '.xml', '.html', '.css', '.js', '.mjs', '.svg',
+                        '.yml', '.yaml', '.kicad_sch', '.kicad_pcb', '.kicad_pro',
+                        '.kicad_sym', '.kicad_mod'}
+
+
+def source_bytes(path):
+    """Use Git's LF text representation; native geometry stays byte-exact."""
+    path = Path(path)
+    data = path.read_bytes()
+    return data.replace(b'\r\n', b'\n') if path.suffix.lower() in TEXT_SOURCE_SUFFIXES else data
 
 
 def sha(path):
-    return hashlib.sha256(path.read_bytes()).hexdigest()
+    return hashlib.sha256(source_bytes(path)).hexdigest()
 
 
 def write_json(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+    path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + '\n', encoding='utf-8', newline='\n')
 
 
 def tracked():
@@ -33,7 +44,7 @@ def tracked():
 
 
 def canonical(name):
-    return (ROOT/name).read_bytes()
+    return source_bytes(ROOT/name)
 
 
 def package_native():
@@ -133,7 +144,7 @@ def main():
         add(copy(source, f'SCCI_RH_{item["id"]}.step'), item['title'] + ' populated solids', 'STEP',
             'Actual populated board exchange geometry, in millimetres. Open in CAD software without KiCad; the KiCad ZIP contains the editable circuit and layout.', [item['id']], source)
     write_json(OUT / 'assets/downloads-manifest.json', {'schema': 'scci_rh.inspector-downloads.v1', 'downloads': downloads})
-    (OUT / 'downloads/SHA256SUMS.txt').write_text(''.join(f'{item["sha256"]}  {Path(item["file"]).name}\n' for item in downloads), encoding='utf-8')
+    (OUT / 'downloads/SHA256SUMS.txt').write_text(''.join(f'{item["sha256"]}  {Path(item["file"]).name}\n' for item in downloads), encoding='utf-8', newline='\n')
     boards = [{**item, 'layers': [{'name': layer['id'], 'file': layer['svg']} for layer in item['copper']]} for item in electrical['boards']]
     board_map = {item['id']: item for item in boards}
     designs = []
@@ -155,7 +166,8 @@ def main():
     # Download member/source records belong in provenance, not the initial UI payload.
     catalog['downloads'] = [{key: value for key, value in item.items() if key not in ('members', 'source_files')} for item in downloads]
     write_json(OUT / 'assets/catalog.json', catalog)
-    manifest = {'schema': 'scci_rh.inspection-provenance.v1', 'engineering_release': 'v2.1.0', 'viewer_date': '2026-10-28',
+    release = json.loads((ROOT / 'docs/stage6/release-contract.json').read_text(encoding='utf-8'))
+    manifest = {'schema': 'scci_rh.inspection-provenance.v1', 'engineering_release': release['tag'], 'viewer_date': release['date'],
                 'sources': [{'file': 'assets/cad-manifest.json', 'sha256': sha(OUT / 'assets/cad-manifest.json')},
                             {'file': 'assets/electronics-manifest.json', 'sha256': sha(OUT / 'assets/electronics-manifest.json')},
                             {'file': 'assets/downloads-manifest.json', 'sha256': sha(OUT / 'assets/downloads-manifest.json')}],
@@ -186,7 +198,7 @@ def static_index(catalog):
     for item in catalog['sheets']:
         output.append(f'<tr><td>{item["page"]}</td><td>{link(item["file"], item["title"])}</td><td>{e(item["boardTitle"])}</td><td>{link(REPO + item["source"], "KiCad source")}</td></tr>')
     output.append('</tbody></table></section><p>' + link('credits.html', 'Tools, licenses and design review') + '</p></main></body></html>')
-    (OUT / 'fallback.html').write_text('\n'.join(output) + '\n', encoding='utf-8')
+    (OUT / 'fallback.html').write_text('\n'.join(output) + '\n', encoding='utf-8', newline='\n')
     previews = OUT / 'assets/previews'; previews.mkdir(parents=True, exist_ok=True)
     for key in ('future', 'reference'):
         shutil.copyfile(ROOT / f'docs/explore/assets/cad-{key}-assembled.jpg', previews / f'{key}.jpg')

@@ -5,10 +5,10 @@ type: software
 authors:
   - family-names: Varma
     given-names: Pratham
-version: 2.1.0
-date-released: 2026-10-28
+version: 2.1.1
+date-released: 2026-10-29
 repository-code: "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH"
-url: "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/tag/v2.1.0"
+url: "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/releases/tag/v2.1.1"
 abstract: >-
   An AI-assisted, entirely digital project connecting conditional spinal-interface
   mechanisms for expert-informed retained motor learning and selected physiological
@@ -22,6 +22,6 @@ preferred-citation:
   authors:
     - family-names: Varma
       given-names: Pratham
-  version: 2.1.0
-  date-released: 2026-10-28
-  url: "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.0/output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf"
+  version: 2.1.1
+  date-released: 2026-10-29
+  url: "https://github.com/pratham-cloud-ctrl/Project-SCCI-RH/blob/v2.1.1/output/pdf/Project_SCCI_RH_Integrated_Manuscript.pdf"
